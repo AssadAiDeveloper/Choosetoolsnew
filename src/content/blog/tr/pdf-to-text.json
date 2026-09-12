@@ -1,0 +1,90 @@
+{
+  "slug": "pdf-to-text",
+  "title": "PDF'den Çevrimiçi Ücretsiz Metin Çıkarma: PDF'i Düzenlenebilir Metne Dönüştürme",
+  "description": "ChooseTools ile PDF'den çevrimiçi ücretsiz metin çıkarın. OCR destekli ve tam gizlilikle, PDF sayfalarını doğrudan tarayıcınızda düz, düzenlenebilir metne dönüştürün.",
+  "keywords": ["pdf'ten metin", "pdf'den çevrimiçi ücretsiz metin çıkarma", "pdf'i metne dönüştürme", "pdf metin çıkarıcı", "pdf'ten metin kopyalama", "pdf txt dönüştürücü", "taranmış pdf'den metin çıkarma"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "PDF'lerin İçine Hapsedilmiş Metni Özgürleştirmek",
+      "paragraphs": [
+        "PDF'ler iyi görünmek için tasarlanır, kolay düzenlenmek için değil. Kelimelere ihtiyaç duyduğunuzda — alıntı yapmak, özetlemek, yeniden kullanmak veya çevirmek için — onları çıkarmanız gerekir. [pdf-to-text:PDF'i metne dönüştürmek], her sayfanın içinde saklanan içeriğin kilidini açar.",
+        "Doğru çıkarma işlemi, okuyuculardaki kopyala-yapıştır uğraşını geride bırakır: araç, belge genelinde sıralamaya saygı gösterir ve parçalar yerine kesintisiz, düzenlenebilir metin üretir.",
+        "ChooseTools, metni tarayıcınızda yerel olarak çıkarır. PDF'i bırakın, çıkarın ve düz bir metin dosyası indirin — çıktıya karışan yükleme, giriş ve filigran yoktur.",
+        "Çıkarılan sonuç anında size aittir ve herhangi bir metin düzenleyicide, kelime işlemcide veya dışa aktarma hattında tamamen düzenlenebilir kalır."
+      ]
+    },
+    {
+      "heading": "PDF'i Üç Adımda Metne Dönüştürme",
+      "paragraphs": [
+        "Çıkarma işlemi, bir dakikanın altında tamamlanan bir baştan sona iş akışıdır.",
+        "PDF'inizi ekleyin. Araç, her sayfanın metin katmanını yerel olarak okur ve çıkarılan içeriği bir metin dosyası olarak sunar. Çıktı biçimlendirmesini seçin ve indirin.",
+        "Metin çıkarma, belgenin gömülü metnini kullandığından çıktı seçilebilir, kopyalanabilir ve herhangi bir düzenleyiciye, arama motoruna veya çeviri hattına hazırdır.",
+        "Standart belgeler için yapılandırma gerekmez: araç, temiz bir metin dosyası için sayfa ayrımını, paragraf sonlarını ve okuma akışını otomatik olarak algılar."
+      ]
+    },
+    {
+      "heading": "Kopyala-Yapıştır Kaosu Yerine Temiz, Düzenlenebilir Çıktı",
+      "paragraphs": [
+        "Bir PDF görüntüleyicisinden kopyala-yapıştır yapmak genellikle bozuk paragraflar, kaybolan satır sonları ve tekrarlanan başlıklar üretir. Doğru bir çıkarıcı, orijinalin okuma akışını korur.",
+        "Araç, kaynağın paragraflarını, sıralamasını ve boşluk yapısını korur; bu da sonucu Word, Google Dokümanlar, düzenleyiciler ve içerik sistemlerinde gerçekten kullanılabilir kılar.",
+        "Bu temiz yapı, sonraki adımlardan önce tam olarak istediğiniz şeydir: yapay zekâ araçlarıyla özetleme, çevirme veya yeni bir belgede yeniden yapılandırma.",
+        "Üstbilgiler, altbilgiler ve sayfa numaraları öngörülebilir şekilde ele alınır; böylece metin dosyanız düzensiz satır yığını yerine bir belge gibi okunur."
+      ]
+    },
+    {
+      "heading": "Araştırma, Sözleşme ve Raporlar için Çıkarma",
+      "paragraphs": [
+        "Çıkarılan metin sayısız iş akışını besler: bir sözleşme maddesini alıntılamak, bir veritabanını doldurmak, araştırma materyali hazırlamak veya makale özgünlüğünü kontrol etmek.",
+        "Süreç özel olduğundan, gizli araştırmalardan, tekliflerden ve hukuki dosyalardan verileri üçüncü taraf bir sunucuda barındırmadan metin çıkarabilirsiniz.",
+        "Sonuçlar ayrıca metin yardımcı programlarıyla birlikte çalışır: çıkarılan içerikte [word-counter:kelime saymak] veya belge değişikliklerini izlemek için [text-diff:sürümleri karşılaştırmak].",
+        "Gazeteciler, öğrenciler ve analistler, uzun raporların saniyeler içinde aranabilir düz metne dönüşmesini ve hâlihazırda kullandıkları herhangi bir araçta kullanılabilmesini takdir eder."
+      ]
+    },
+    {
+      "heading": "Taranmış ve Görüntü Tabanlı PDF'lerle Başa Çıkmak",
+      "paragraphs": [
+        "Her PDF okunabilir bir metin katmanı taşımaz. Taranmış sözleşmeler ve fotoğraflanmış sayfalar aslında bir PDF kabuğuna sarılmış görüntülerdir.",
+        "Bu tür dosyalar için, işlemeden önce kelimeleri taramadan çıkarmak üzere çıkarıcıyı paketin OCR destekli görüntü süreçleriyle birlikte kullanın.",
+        "Metin dijital olarak var olduğunda, editörler, çevirmenler ve arşiv sistemleri onu nihayet dizinleyebilir, arayabilir ve uzun vadede koruyabilir.",
+        "İş akışı kademeli olarak uyum sağlar: dijital PDF'ler anında çıkarılır, taranmış olanlar yalnızca ek bir optik tanıma adımına ihtiyaç duyar."
+      ]
+    },
+    {
+      "heading": "Yerel Metin Çıkarmanın Gizliliği",
+      "paragraphs": [
+        "Bir PDF, görünür metinden çok daha fazlasını gizleyebilir — meta veri, yorumlar ve silinen katmanların parçaları. Onu bulut tabanlı bir çıkarıcıya göndermek, tüm bunların açığa çıkma riskini taşır.",
+        "Yerel çıkarma; bunların hiçbirinin makinenizden çıkmadığı ve çıktı metin dosyasının yalnızca size ait olduğu anlamına gelir. Filigran yok, kayıt yok, hesap yok.",
+        "Windows, macOS, Linux ve mobilde aynı şekilde çalışır; çalıştığınız her yerde güvenli metin çıkarmayı kullanılabilir kılar.",
+        "Hukuki, tıbbi ve İK belgeleri için bu cihaz içi güvence, otomatik bir dönüştürücüye ne göndermeye istekli olduğunuzu değiştirir."
+      ]
+    },
+    {
+      "heading": "Metin Çıkarmadan PDF'e Geri: Kapalı Bir Döngü",
+      "paragraphs": [
+        "Çıkarıp düzenledikten sonra, paketteki araçlarla güncel bir PDF oluşturun, ardından nihai ürünü [merge-pdf:birleştirin], [protect-pdf:koruyun] ve [compress-pdf:sıkıştırın].",
+        "Ücretsiz metin çıkarma ve ücretsiz belge oluşturma, size tamamen yerel bir ofis hattı sunar.",
+        "Özet: PDF'ler metniniz için kafes olmaktan çıkar — ücretsiz bir tarayıcı içi çıkarıcıyla kelimeleriniz her zaman yeniden kullanılabilir.",
+        "Her aşama makinenizde kalır; böylece kilitli PDF'den yenilenmiş belgeye uzanan tüm döngü özel, hızlı ve tamamen ücretsiz olur."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "PDF'imi yüklemeden metin çıkarabilir miyim?",
+      "a": "Evet. Çıkarma tamamen tarayıcınızda çalışır; PDF yerel olarak okunur ve hiçbir sunucuya yükleme yapılmadan bir metin dosyası üretilir."
+    },
+    {
+      "q": "Metin temiz ve yapılandırılmış olarak mı çıkar?",
+      "a": "Evet. Çıkarıcı, belgenin okuma sırasını izler ve paragraf yapısını koruyarak kopyala-yapıştır parçaları yerine doğrudan kullanılabilir metin üretir."
+    },
+    {
+      "q": "Çıkarılan metni ne için kullanabilirim?",
+      "a": "Her şey için: kelime işlemcide düzenleme, alıntılama, çevirme, özetleme, araştırma veya kelime sayma ve sürüm karşılaştırma gibi paketteki diğer yardımcı programları besleme."
+    },
+    {
+      "q": "PDF'im metin katmanı olmayan bir tarama ise ne olur?",
+      "a": "Taramanızı okunabilir metne dönüştürmek için sayfaları önce OCR destekli görüntü akışından geçirin, ardından her zamanki gibi çıkarın ve düzenleyin."
+    }
+  ]
+}

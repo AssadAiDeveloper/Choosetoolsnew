@@ -1,0 +1,122 @@
+{
+  "slug": "sort-lines",
+  "title": "Urutkan Baris Online Gratis: Alfabetis dan Balik Urutan dalam Satu Klik",
+  "description": "Pengurut baris gratis online untuk mengurutkan baris teks secara alfabetis, mengurutkan secara numerik, membalik urutan, dan mengabaikan sensitivitas huruf besar-kecil di browser Anda. Privat, instan, tanpa pendaftaran.",
+  "keywords": ["urutkan baris", "urutkan baris alfabetis", "pengalfabetis", "urutkan teks online", "balik urutan baris", "urutkan daftar online", "alat pengurut baris"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Daftar Merindukan Urutan, Manusia Merindukan Urutan Cepat",
+      "paragraphs": [
+        "Daftar nama, daftar URL, baris inventaris, dan tumpukan sitasi semuanya mendambakan pengurutan. Melakukannya secara manual mengundang kesalahan; pengurut baris mengatur semuanya secara instan.",
+        "Pengurutan alfabetis, numerik, dan terbalik mencakup hampir setiap kasus praktis.",
+        "ChooseTools mengurutkan baris secara lokal di browser Anda, dengan opsi penanganan huruf besar-kecil dan output segera.",
+        "Mengurutkan daftar menghilangkan beban kognitif bagi siapa pun yang membacanya, baik audiens adalah manusia yang memindai direktori atau skrip yang memproses data baris-demi-baris."
+      ]
+    },
+    {
+      "heading": "Cara Mengurutkan Daftar secara Alfabetis",
+      "paragraphs": [
+        "Urutan dipulihkan, secara instan.",
+        "Tempel baris Anda, pilih naik atau turun alfabetis, dan baca hasil yang sudah diurutkan. Aktifkan atau matikan sensitivitas huruf besar-kecil sehingga Zebra dan apple saling bersilangan dengan benar.",
+        "Mode numerik mengurutkan angka berdasarkan nilai alih-alih urutan kamus.",
+        "Pengurutan alfabetis adalah operasi paling umum untuk daftar kontak, lembar kosakata, entri bibliografi, dan dataset apa pun di mana nama membawa kunci utama."
+      ]
+    },
+    {
+      "heading": "Pengurutan Numerik: Nilai, Bukan Huruf",
+      "paragraphs": [
+        "Pengurutan polos di banyak alat menempatkan 10 sebelum 2 karena string dibandingkan secara leksikal. Mode numerik membandingkan berdasarkan besaran.",
+        "ID, jumlah, dan pengukuran diurutkan dengan benar begitu Anda beralih mode.",
+        "Ini adalah bug tersembunyi yang dihadirkan preferensi pengurutan untuk mencegahnya.",
+        "Di spreadsheet dan database, masalah yang sama muncul ketika kolom diketik sebagai teks; pengurut numerik berbasis browser menangkapnya sebelum data mencapai produksi."
+      ]
+    },
+    {
+      "heading": "Balik dan Hapus Duplikat Sekalian",
+      "paragraphs": [
+        "Membalik urutan baris adalah seluruh kategori alur kerja: membalik daftar kronologis, menyiapkan tumpukan LIFO, memeriksa simetri.",
+        "Gabungkan pembalikan dengan pemindaian duplikat, atau jalankan penghapusan duplikat sebagai langkah lanjutan.",
+        "Urutan dan kebersihan datang bersamaan.",
+        "Pembalikan juga berguna untuk membalik log yang diekspor sehingga entri terbaru muncul di bagian atas, yang mempercepat peninjauan manual."
+      ]
+    },
+    {
+      "heading": "Skenario Pengurutan di Dunia Nyata",
+      "paragraphs": [
+        "Pengembang mengurutkan daftar variabel lingkungan sebelum commit ke version control sehingga diff tetap bersih.",
+        "Pemasar mengalfabetisasi daftar distribusi regional untuk pencarian cepat selama perencanaan kampanye.",
+        "Peneliti mengurutkan timestamp pengamatan secara numerik untuk memverifikasi urutan kronologis sebelum analisis.",
+        "Dalam setiap kasus, manfaat utamanya sama: mengubah tempel mentah menjadi artefak yang langsung dapat digunakan dan terurut."
+      ]
+    },
+    {
+      "heading": "Menangani Spasi di Awal dan Baris Kosong",
+      "paragraphs": [
+        "Daftar yang ditempel sering membawa spasi asing atau baris kosong yang merusak skrip di bawahnya; pengurut memperlakukan setiap baris secara independen tanpa memperhatikan spasi di awal atau akhir.",
+        "Baris kosong dapat dipertahankan untuk pemisahan visual atau dihapus untuk menghasilkan daftar terus menerus, tergantung output yang Anda butuhkan.",
+        "Membersihkan spasi selama pengurutan menghemat langkah preprocessing terpisah dan menjaga alur kerja tetap dalam satu tindakan tempel-dan-urutkan."
+      ]
+    },
+    {
+      "heading": "Mengurutkan Data Multi-Kolom dan CSV",
+      "paragraphs": [
+        "Saat setiap baris berisi field berjeda koma, mengurutkan berdasarkan kolom pertama mengalfabetisasi kunci utama sambil menjaga sisa baris tetap utuh.",
+        "Ini berguna untuk menyusun ulang ekspor CSV di mana database mencatat records secara urutan penyisipan tetapi spreadsheet membutuhkan presentasi alfabetis.",
+        "Menggabungkan pengurutan baris dengan pemformat CSV menghasilkan dataset yang sepenuhnya terstruktur dan siap presentasi dari tempel mentah."
+      ]
+    },
+    {
+      "heading": "Mengurutkan URL dan Path File",
+      "paragraphs": [
+        "Daftar URL, path include, dan manifest dependensi biasanya diurutkan untuk menormalisasi proyek dan membuat tinjauan diff lebih bersih.",
+        "Mengurutkan URL secara alfabetis mengelompokkan subdomain dan segmen path bersamaan, yang mempercepat inspeksi manual inventaris tautan panjang.",
+        "Teknik yang sama mengatur daftar path file sehingga folder terkait muncul bersebelahan, mengurangi waktu yang dihabiskan untuk mencari entri."
+      ]
+    },
+    {
+      "heading": "Pengolahan Privat untuk Daftar Klien Spesifik",
+      "paragraphs": [
+        "Daftar klien, inventaris yang belum dirilis, dan data internal diurutkan secara lokal dan tetap milik Anda.",
+        "Tanpa upload, tanpa akun, tanpa watermark — sama di Windows, macOS, Linux, dan mobile.",
+        "Pengurutan cepat tanpa mata yang mengintip.",
+        "Daftar rahasia seperti direktori karyawan atau daftar peserta tidak pernah meninggalkan perangkat, yang sangat penting untuk kepatuhan terhadap kebijakan penanganan data."
+      ]
+    },
+    {
+      "heading": "Pengurutan dalam Kotak Alat yang Lebih Luas",
+      "paragraphs": [
+        "Atur urutannya, lalu format dengan alat case atau bandingkan sebelum sesudahnya dengan alat text-diff.",
+        "Semuanya gratis dan berbasis browser.",
+        "Daftar dalam urutan sempurna, daftar mengosongkan piring Anda.",
+        "Setelah mengurutkan, Anda dapat memberikan hasilnya langsung ke pemformat CSV atau utilitas remove-duplicate-lines untuk pembersihan lebih lanjut."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bisakah saya mengurutkan angka berdasarkan nilai sebenarnya?",
+      "a": "Ya. Beralih ke mode numerik dan nilai seperti 2, 10, 100 diurutkan berdasarkan besaran alih-alih sebagai teks."
+    },
+    {
+      "q": "Apakah pengurut menangani huruf besar-kecil dengan bijak?",
+      "a": "Ya. Opsi huruf memungkinkan Anda memutuskan apakah baris yang diurutkan memperlakukan huruf besar-kecil secara setara."
+    },
+    {
+      "q": "Apakah pengurut baris ini privat?",
+      "a": "Ya. Pengurutan berjalan secara lokal di browser Anda tanpa upload atau akun."
+    },
+    {
+      "q": "Bisakah saya membalik urutan baris?",
+      "a": "Ya. Satu toggle membalik daftar ke urutan turun, berguna untuk membalik ekspor kronologis atau membuat urutan hitung mundur."
+    },
+    {
+      "q": "Apakah pengurutan mempertahankan baris asli dengan tepat?",
+      "a": "Ya. Pengurut menyusun ulang seluruh baris sebagai satuan lengkap, sehingga teks setiap baris tetap utuh sementara posisinya berubah."
+    },
+    {
+      "q": "Bisakah saya mengurutkan daftar yang berisi kata dan angka?",
+      "a": "Ya. Pilih mode yang sesuai dengan jenis konten dominan, atau gunakan mode alfabetis saat mencampur kata dan angka sebagai teks biasa."
+    }
+  ]
+}

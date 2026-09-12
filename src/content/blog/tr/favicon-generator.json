@@ -1,0 +1,107 @@
+{
+  "slug": "favicon-generator",
+  "title": "Çevrimiçi Ücretsiz Favicon Oluşturma: Web Siteniz için Simgeler Yapma",
+  "description": "ChooseTools ile çevrimiçi ücretsiz favicon oluşturun. Herhangi bir görseli tarayıcınızda, boyut hazır ayarları ve tam gizlilikle mükemmel bir tarayıcı simgesine ve favicon setine dönüştürün.",
+  "keywords": ["favicon üretici", "favicon oluşturma", "çevrimiçi favicon oluşturma", "web sitesi için favicon", "simge üretici", "web sitesi simge üretici", "favicon 32x32 çevrimiçi"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Sitenizi Tanıtan Minik Simge",
+      "paragraphs": [
+        "Tarayıcı sekmesindeki küçük simge, kullanıcıların gün boyunca gördüğü bir marka tokalaşmasıdır. Net, marka uyumlu bir favicon, sayfa daha yüklenmeden cila sinyali verir. Logonuzdan veya sanat eserinizden [favicon-generator:favicon oluşturmak], o kimliğe giden en hızlı yoldur.",
+        "Tarayıcılar simgeleri çeşitli boyutlarda ister; bu nedenle uygun bir favicon tek bir dosya olarak değil bir set olarak gelir.",
+        "ChooseTools, yüklediğiniz herhangi bir görselden favicon'ları tarayıcınızda yerel olarak üretir."
+      ]
+    },
+    {
+      "heading": "Web Sitesi Simgesi Nasıl Yapılır",
+      "paragraphs": [
+        "Logonuz saniyeler içinde sekme simgesine dönüşür:",
+        "Kaynak görseli yükleyin — ideal olarak kare bir logo. Simge boyutu hedeflerini seçin, üretilen her boyutu önizleyin ve siteniz için hazır favicon dosyalarını indirin.",
+        "İşleme yerel olduğundan, kırpma veya boyut üzerinde yineleme anındadır."
+      ]
+    },
+    {
+      "heading": "Tarayıcıların Gerçekten İhtiyaç Duyduğu Simge Seti",
+      "paragraphs": [
+        "Modern siteler birden çok boyuta atıfta bulunur: klasik 16x16 sekme simgesi, retina sekmeleri ve ana ekranlar için daha yüksek çözünürlüklü varyantlar.",
+        "Üretici, önerilen tanımlarla eşleşir; böylece çıktıyı projenize yerleştirmek sadece çalışır.",
+        "Artık piksel piksel elle ölçeklendirme yok."
+      ]
+    },
+    {
+      "heading": "İşareti Ortada Tutan Kare Kırpma",
+      "paragraphs": [
+        "Favicon'lar acımasızca karedir; kaynak kırpması işareti tam ortalamalıdır.",
+        "Araç, canlı kare önizlemeli kırpmaya yardımcı olur; simge küçük boyutlarda doğru okunur.",
+        "16px'de minimum okunabilirlik gerçek testtir — önizleme onu gösterir."
+      ]
+    },
+    {
+      "heading": "HTML Entegrasyonu ve Apple Touch Simgeleri",
+      "paragraphs": [
+        "Simge dosyalarına sahip olduğunuzda, bunları sitenize eklemek HTML head bölümünüze birkaç link etiketi yerleştirmek demektir. Standart rel eşittir icon referansı çoğu tarayıcıyı kapsarken, apple-touch-icon referansı iOS ana ekran yer imlerinin markalamanızı yüksek çözünürlükte görüntülemesini sağlar.",
+        "Bazı içerik yönetim sistemleri tek bir favicon yüklemenize ve boyut varyantlarını otomatik olarak yönetmenize olanak tanır; ancak link etiketlerini elle kodlamak, her platformun hangi sürümü aldığı üzerinde tam kontrol verir.",
+        "Üretici, yaygın link etiketi referanslarıyla eşleşen geleneksel adlara sahip dosyalar üretir; projenize entegre etmek onları doğru dizine bırakıp karşılık gelen HTML'i eklemek meselesidir."
+      ]
+    },
+    {
+      "heading": "Formatlar ve Şeffaflık Hususları",
+      "paragraphs": [
+        "Modern tarayıcılar, her boyutta şeffaflığı ve keskin ayrıntıyı koruyan PNG favicon'ları destekler. Klasik ICO formatı, eski tarayıcılar ve intranet portallarını yıllardır güncellememiş belirli kurumsal ortamlarla uyumlu kalır.",
+        "SVG favicon'lar Chromium tabanlı tarayıcılarda destek kazanıyor ve çözünürlükten bağımsız ölçekleme sunuyor; ancak henüz evrensel olarak benimsenmedi. SVG sürümünün yanında bir PNG yedeği bulundurmak hem modern hem de eski istemcileri kapsar.",
+        "Üretici, her boyut için en yaygın uyumlu formatı çıkarır; ziyaretçi en yeni Chrome sürümünü veya eski bir kurumsal tarayıcıyı kullansa da simgenizin doğru görünmesini sağlar."
+      ]
+    },
+    {
+      "heading": "Simgenizin Gerçek Boyutlarda Nasıl Göründüğünü Test Etme",
+      "paragraphs": [
+        "Bir posterde zarif görünen bir logo, 16 pikselde okunamaz bir leke olabilir. Üretici, simgeyi tarayıcıların işleyeceği tam boyutlarda önizler; böylece okunabilirliği ekranda büyütülmüş olarak değil gerçekçi biçimde değerlendirirsiniz.",
+        "İşaret ile simge arka planı arasındaki güçlü kontrast, küçük simgeleri tanınır tutan bileşendir. Basit silüetler ve kalın şekiller, ince çizgiler ve narin gradyanlardan daha iyi küçük ölçekli işlemeye dayanır.",
+        "Önizleme, ayarlama ve yeniden üretme tümü yerel gerçekleşir; simge en küçük boyutunda okunur olana kadar yinelemek bir tasarım aracı oturumu yerine dakikalar sürer."
+      ]
+    },
+    {
+      "heading": "Çok Platformlu Marka Tutarlılığı",
+      "paragraphs": [
+        "Tarayıcı sekmelerinin ötesinde, aynı işaret yer imi çubuklarında, parola istemi bildirimlerinde ve mobil ana ekran kutucuklarında görünür. Birleşik bir simge seti, markayı birkaç tutarsız yaklaşımla parçalamak yerine her yüzeyde tanınır tutar.",
+        "Sosyal paylaşım önizlemeleri ve tarayıcı geçmişi girdileri de favicon görsellerini görüntüler; simgenin erişimini profesyonel sitelerin çok ötesine taşır. Bu yüzeylerdeki tutarlılık, simge her göründüğünde markayı sessizce güçlendirir.",
+        "Tüm varyantları tek bir kırpılmış kaynaktan üretmek, her yüzeyin amaçlanan tasarımı tam olarak yansıtmasını garanti eder."
+      ]
+    },
+    {
+      "heading": "Özel Favicon Üretimi",
+      "paragraphs": [
+        "Lansman öncesi logolar, yüklememeniz gereken görüntülerin tam olarak kendisidir. Favicon üretimi yerel olarak çalışır ve burada kalır.",
+        "Filigran yok, hesap yok, yükleme yok — tüm cihazlarda.",
+        "Kimlik varlıkları sizin elinizde kalır."
+      ]
+    },
+    {
+      "heading": "Logodan Canlı Siteye, Tek Hat",
+      "paragraphs": [
+        "Simgeyi oluşturun, ardından sitenin diğer görsellerini [resize-image:yeniden boyutlandırma] ve [compress-image:sıkıştırma] ile optimize edin.",
+        "Paket ücretsiz, özel ve tamamen tarayıcı tabanlıdır.",
+        "Markanızın en küçük elçisi, dakikalar içinde hazır."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Favicon setim hangi boyutları içerecek?",
+      "a": "Üretici, tarayıcıların ve ana ekranların istediği standart boyutları üretir; klasik 16x16 sekme simgesi ve daha büyük varyantlar dahil."
+    },
+    {
+      "q": "Herhangi bir görselden favicon oluşturabilir miyim?",
+      "a": "Evet. Kare bir logo veya sanat eseri en iyi sonucu verir; araç canlı önizlemeyle her gereken boyutu kırpar ve üretir."
+    },
+    {
+      "q": "Favicon üretimi özel midir?",
+      "a": "Evet. Her şey yükleme, filigran veya hesap olmadan tarayıcınızda yerel olarak çalışır."
+    },
+    {
+      "q": "Kaynak görselim kare değilse ne olur?",
+      "a": "Araç, dikdörtgen bir görselin en iyi kare bölgesini seçmeniz için canlı bir kırpma rehberi sağlar. Marka işaretini kırpmanın içinde ortalamak, simgenin her boyutta iyi okunmasını sağlar."
+    }
+  ]
+}

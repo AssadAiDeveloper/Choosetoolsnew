@@ -1,0 +1,95 @@
+{
+  "slug": "pdf-metadata",
+  "title": "Como Editar Metadados de PDF Online Grátis: Ver e Alterar Propriedades do PDF",
+  "description": "Edite metadados de PDF online grátis com a ChooseTools. Veja, edite e limpe propriedades do documento como título, autor e dados ocultos, diretamente no seu navegador com total privacidade.",
+  "keywords": ["metadados pdf", "editar metadados pdf online", "ver propriedades pdf", "remover metadados de pdf", "alterar título autor pdf", "editor de metadados pdf grátis", "limpar metadados pdf"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Metadados: O Cinto e as Etiquetas Invisíveis de Todo PDF",
+      "paragraphs": [
+        "Por baixo de todas as páginas visíveis de um PDF sentam-se metadados: título, autor, assunto, data de criação, software utilizado e mais. Por vezes quer ler, por vezes esconder, por vezes corrigir. [pdf-metadata:Editar metadados de PDF] coloca essas propriedades invisíveis sob o seu controlo.",
+        "Equipas de publicação atualizam títulos para marcadores corretos; autores removem autoria antes de partilhar rascunhos; equipas de arquivo standardizam propriedades para pesquisa.",
+        "A ChooseTools lê e escreve metadados localmente no navegador. Abra o PDF, inspeção ou edite as propriedades, guarde e o novo PDF é descarregado sem qualquer carregamento ter ocorrido."
+      ]
+    },
+    {
+      "heading": "Como Editar Metadados de PDF Passo a Passo",
+      "paragraphs": [
+        "Gerir propriedades invisíveis é refrescante e direto aqui.",
+        "Carregue o seu PDF e a ferramenta apresenta o seu título, autor, assunto, palavras-chave e dados de criação como campos editáveis. Ajuste o que desejar, guarde e um novo PDF incorporando as suas alterações é descarregado para o seu dispositivo.",
+        "Como a análise ocorre localmente, até uma breve inspeção de um ficheiro grande revela exatamente os seus metadados sem qualquer transferência."
+      ]
+    },
+    {
+      "heading": "A Prevenção: Remover Dados Pessoais Ocultos",
+      "paragraphs": [
+        "Produzidos em software corporativo, os PDFs frequentemente incorporam nomes de criadores, organizações, caminhos de servidores e histórico de edição que preferiria não partilhar.",
+        "Limpar metadados é um passo de privacidade reconhecido antes de partilhar ficheiros externamente; a ferramenta permite-lhe apagar ou substituir esses campos com poucos toques.",
+        "Combinado com [pdf-redaction:redação] de texto confidencial visível, a limpeza de metadados completa uma revisão cuidadosa pré-entrega."
+      ]
+    },
+    {
+      "heading": "Campos de Metadados Comuns e Os Seus Propósitos",
+      "paragraphs": [
+        "O campo de título controla o que aparece nos separadores do navegador e nos resultados de pesquisa de gestão de documentos. Um título genérico ou ausente torna um PDF mais difícil de localizar entre centenas de ficheiros, pelo que o substituir por um nome descritivo melhora tanto a usabilidade como a descobrabilidade.",
+        "Os campos de autor e criador identificam quem produziu o documento e que software o gerou. Estes campos são úteis internamente mas podem vazar detalhes organizacionais quando o PDF é partilhado publicamente. Limpar o campo de autor antes da publicação previne atribuição não intencional.",
+        "Os campos de palavras-chave e assunto influenciam diretamente a indexação de pesquisa. Sistemas de gestão de documentos e rastreadores web leem estas propriedades para categorizar ficheiros, pelo que uma colocação cuidadosa de palavras-chave garante que o PDF aparece em resultados de pesquisa relevantes sem necessitar de infraestruturas de tag adicionais."
+      ]
+    },
+    {
+      "heading": "Propriedades Consistentes Para Arquivo e Pesquisa",
+      "paragraphs": [
+        "Sistemas de gestão de documentos indexam metadados; títulos e palavras-chave consistentes tornam os ficheiros encontráveis em segundos.",
+        "Bibliotecas, estúdios e escritórios de advogados standardizam campos de autor, assunto e projeto em toda a saída, melhorando a recuperação e atribuição.",
+        "Como edita localmente, atualizar propriedades nunca significa entregar internamente documentos a terceiros."
+      ]
+    },
+    {
+      "heading": "Conformidade e Considerações Regulatórias",
+      "paragraphs": [
+        "Regulamentos de proteção de dados em muitas jurisdições exigem que as organizações minimizem informações pessoais em documentos partilhados. Os metadados de PDF frequentemente contêm nomes, endereços de e-mail e detalhes organizacionais que se qualificam como informações pessoalmente identificáveis sob o RGPD e regimes semelhantes.",
+        "Indústrias jurídicas e de saúde enfrentam requisitos rigorosos para tratamento de documentos. Metadados que revelam o sistema de origem, o advogado revisor ou o médico tratante podem constituir uma divulgação mesmo que o conteúdo visível seja devidamente redatado. Limpar metadados é um passo de conformidade padrão antes de distribuição externa.",
+        "Agências governamentais que publicam respostas à Lei de Liberdade de Informação rotineiramente removem metadados para prevenir a divulgação inadvertida de informações isentas. O mesmo princípio se aplica a qualquer organização que partilhe documentos com o público: o que é invisível ao leitor pode ainda estar incorporado no ficheiro."
+      ]
+    },
+    {
+      "heading": "Também Verdade: Uma Garantia de Privacidade",
+      "paragraphs": [
+        "Os metadados frequentemente revelam exatamente a informação que está a tentar gerir, pelo que ler remotamente é contraproducente. Aqui tudo é local.",
+        "Não há conta, não há marca de água, não há retenção, e o ficheiro corrigido é só seu onde quer que o guarde.",
+        "A ferramenta comporta-se de forma idêntica no Windows, macOS, Linux e dispositivos móveis — tornando metadados arrumados uma parte rotineira de qualquer submissão."
+      ]
+    },
+    {
+      "heading": "Metadados Como Parte da Sua Lista de Verificação Final",
+      "paragraphs": [
+        "Uma entrega profissional é frequentemente: [compress-pdf:comprimir], [watermark-pdf:marcar identidade], preencher metados, proteger com [protect-pdf:encriptação].",
+        "Cada passo corre gratuito e privado no navegador, dando às equipas uma faixa completa de finalização.",
+        "De invisível a impecável — o controlo de metados é agora um trabalho de um minuto."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Que campos de metadados posso editar?",
+      "a": "Campos como título, autor, assunto, palavras-chave e propriedades relacionadas do documento são apresentados como campos editáveis, além da inspeção de dados de criação e modificação."
+    },
+    {
+      "q": "Posso remover metadados completamente de um PDF?",
+      "a": "Sim. Pode apagar ou substituir campos de metadados antes de descarregar, o que é um passo comum de privacidade ao partilhar ficheiros externamente."
+    },
+    {
+      "q": "A edição de metadados é segura e privada?",
+      "a": "Sim. Toda a leitura e escrita ocorre localmente no seu navegador; o PDF e as suas propriedades nunca saem do seu dispositivo."
+    },
+    {
+      "q": "Alterar o título afeta como o PDF aparece nos resultados de pesquisa?",
+      "a": "Sim. Sistemas de gestão de documentos e rastreadores web indexam o campo de título, pelo que um título descritivo melhora a descobrabilidade nos resultados de pesquisa."
+    },
+    {
+      "q": "Porque é que a limpeza de metadados é importante para a conformidade regulatória?",
+      "a": "Os metados de PDF podem conter informações pessoalmente identificáveis como nomes, organizações e detalhes de software. Limpar esses dados antes de distribuição externa previne divulgação inadvertida sob regulamentos de proteção de dados."
+    }
+  ]
+}

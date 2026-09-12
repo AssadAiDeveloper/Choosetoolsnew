@@ -1,0 +1,122 @@
+{
+  "slug": "lorem-ipsum",
+  "title": "Générateur de Lorem Ipsum : créez du texte provisoire en ligne gratuitement",
+  "description": "Générateur de lorem ipsum gratuit pour créer du texte provisoire de toute longueur — paragraphes, mots, phrases — pour les maquettes et le travail de conception. Privé, instantané, dans votre navigateur.",
+  "keywords": ["lorem ipsum", "générateur de lorem ipsum", "texte provisoire", "générateur de texte factice", "générateur de lorem", "texte de maquette", "générateur de texte d'exemple"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Le design vit dans le texte provisoire",
+      "paragraphs": [
+        "Les maquettes ont besoin de texte avant que le vrai contenu existe : ajuster un titre, remplir un paragraphe, prévisualiser une disposition. Le texte provisoire est le substitut favorable à la mise en page auquel tout designer et développeur fait appel.",
+        "Ses syllabes illisibles mais plausibles gardent les yeux sur la mise en page plutôt que sur les mots.",
+        "ChooseTools génère du lorem ipsum localement dans votre navigateur, dimensionné selon votre besoin exact.",
+        "Utiliser du texte de remplissage tôt empêche les parties prenantes de critiquer le texte de brouillon au lieu d'évaluer la hiérarchie visuelle et l'espacement."
+      ]
+    },
+    {
+      "heading": "Paragraphes, phrases, mots — choisissez votre unité",
+      "paragraphs": [
+        "Choisissez la granularité de la sortie : quelques mots pour un bouton, des phrases pour un sous-titre, des paragraphes pour un bloc de contenu.",
+        "Le lorem ipsum classique commence par la signature traditionnelle « Lorem ipsum dolor sit amet ».",
+        "Copiez-collez le bloc généré directement dans votre outil de conception.",
+        "Générer par nombre de mots est particulièrement utile lorsque vous devez tester un élément d'interface limité en caractères comme une infobulle ou un bandeau de notification."
+      ]
+    },
+    {
+      "heading": "Wireframes et développement front-end",
+      "paragraphs": [
+        "Les maquettes de sites web, les prototypes d'applications et le développement front-end ont tous besoin de volumes de texte invisible.",
+        "Le texte provisoire dimensionné prouve le comportement responsive avant que le vrai contenu n'arrive.",
+        "Générez autant que le cadre en a besoin, sans estimer à l'œil les comptages.",
+        "Les développeurs peuvent coller du texte de remplissage dans les storybooks de composants pour vérifier que le retour à la ligne, la troncature et le débordement se comportent correctement à travers les points de rupture."
+      ]
+    },
+    {
+      "heading": "Retour à l'expéditeur : remplacez les textes provisoires plus tard",
+      "paragraphs": [
+        "Comme le lorem ipsum est distinct, le vrai texte s'échange proprement via la recherche et le remplacement.",
+        "Marquez vos blocs et remplacez-les systématiquement lorsque la rédaction arrive.",
+        "Le texte provisoire est une promesse, pas un piège.",
+        "Une pratique utile consiste à envelopper chaque bloc provisoire dans un commentaire ou un attribut de données afin qu'une recherche puisse localiser chaque instance sans manquer les sections cachées."
+      ]
+    },
+    {
+      "heading": "Longueur et densité : correspondre aux exigences de mise en page",
+      "paragraphs": [
+        "Un bloc de héros a besoin de deux phrases courtes, tandis qu'une carte d'aperçu de blog peut avoir besoin d'un paragraphe complet pour tester le comportement de troncature.",
+        "Générer un peu plus de texte que nécessaire vous permet de rogner jusqu'à la limite exacte et de confirmer que le style de points de suspension ou de découpe de ligne fonctionne comme prévu.",
+        "Cette petite habitude attrape les bugs de mise en page qui n'apparaissent qu'au bord du contenu."
+      ]
+    },
+    {
+      "heading": "Mises en page internationales et maquettes multilingues",
+      "paragraphs": [
+        "Le texte provisoire pour les mises en page de droite à gauche nécessite un comportement de coupure de ligne différent, et le lorem ipsum révèle si le moteur de texte gère correctement les changements de direction.",
+        "Lors du test d'interfaces multilingues, générer du texte de remplissage de différentes longueurs simule comment les mots composés allemands ou les caractères japonais affectent les dimensions des boîtes.",
+        "Utiliser du texte provisoire tôt dans toutes les langues prévient les surprises de mise en page de dernière minute dans les versions localisées."
+      ]
+    },
+    {
+      "heading": "Mises en page imprimées et maquettes éditoriales",
+      "paragraphs": [
+        "Les designers de livres et les maquettistes de magazines utilisent du texte provisoire pour établir les largeurs de colonnes, les grilles de ligne de base et la hiérarchie typographique avant l'arrivée du manuscrit.",
+        "Générer assez de texte de remplissage pour remplir une double page confirme que les réglages de césure et de justification produisent des fleuves et des veuves acceptables.",
+        "Les maquettes orientées impression bénéficient d'une densité de texte réaliste car la mise en page papier est bien moins indulgente que la mise en page web responsive."
+      ]
+    },
+    {
+      "heading": "Variations de texte provisoire pour le réalisme",
+      "paragraphs": [
+        "Au-delà du passage latin classique, certains designers ont besoin d'un texte factice à l'aspect réaliste qui imite mieux la densité et le rythme de véritables descriptions de produits ou d'articles de presse.",
+        "Varier la longueur des phrases et des paragraphes dans le texte généré produit une mise en page plus réaliste qu'un bloc uniformément espacé de phrases de longueur identique.",
+        "Choisir un mode de génération varié lorsque la mise en page contiendra finalement du contenu éditorial conduit à des maquettes qui prédisent plus précisément l'équilibre visuel final."
+      ]
+    },
+    {
+      "heading": "Production privée de texte provisoire",
+      "paragraphs": [
+        "Générer du texte de remplissage localement signifie que les designs non publiés ne portent aucune trace d'outils tiers.",
+        "Aucun envoi, aucun compte, aucun filigrane — sur chaque plateforme.",
+        "Élan de maquette, exposition nulle.",
+        "Les prototypes clients et les écrans de produits avant lancement restent confidentiels lorsque le générateur de texte ne contacte jamais un serveur externe."
+      ]
+    },
+    {
+      "heading": "Les textes provisoires dans la boîte à outils",
+      "paragraphs": [
+        "Générez, puis façonnez avec les outils de casse ou mesurez avec le compte de mots pour des budgets de mise en page exacts.",
+        "La suite est gratuite et native au navigateur.",
+        "Toute mise en page, parfaitement prévisualisée.",
+        "Combiner la génération de texte provisoire avec un compteur de caractères garantit que vos maquettes respectent les limites exactes de la plateforme cible.",
+        "Ce jumelage est précieux lorsqu'un texte provisoire doit tenir dans un composant de taille fixe comme un titre de carte ou une cellule de tableau."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Pourquoi le lorem ipsum est-il utilisé en conception ?",
+      "a": "Ses mots ressemblent à du texte réel sans distraire par le sens, afin que les relecteurs jugent la mise en page plutôt que le texte."
+    },
+    {
+      "q": "Puis-je générer une quantité précise de texte ?",
+      "a": "Oui. Précisez des comptages de paragraphes, de phrases ou de mots, et le générateur produit exactement cette quantité."
+    },
+    {
+      "q": "Le générateur est-il privé ?",
+      "a": "Oui. Le texte est généré localement dans votre navigateur, sans envois ni comptes."
+    },
+    {
+      "q": "Le texte généré commence-t-il par l'ouverture latine classique ?",
+      "a": "Oui. La sortie en mode paragraphe commence par le passage traditionnel Lorem ipsum dolor sit amet que les designers reconnaissent instantanément."
+    },
+    {
+      "q": "Le lorem ipsum peut-il aider à tester les mises en page responsive ?",
+      "a": "Oui. Générer du texte à différentes longueurs révèle comment les titres, les paragraphes et les légendes se comportent à travers les points de rupture mobile, tablette et bureau."
+    },
+    {
+      "q": "Puis-je générer du texte provisoire sans les mots latins classiques ?",
+      "a": "Oui. Si le passage traditionnel distrait un relecteur, vous pouvez générer du texte de remplissage avec des longueurs de phrases variées afin que la maquette se lise quand même de façon réaliste sans sens visible."
+    }
+  ]
+}

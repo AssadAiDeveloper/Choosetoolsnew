@@ -1,0 +1,95 @@
+{
+  "slug": "pdf-metadata",
+  "title": "PDF Meta Verisini Çevrimiçi Ücretsiz Düzenleme: PDF Özelliklerini Görüntüleyin ve Değiştirin",
+  "description": "ChooseTools ile PDF meta verisini çevrimiçi ücretsiz düzenleyin. Başlık, yazar ve gizli veriler gibi belge özelliklerini tam gizlilikle doğrudan tarayıcınızda görüntüleyin, düzenleyin ve temizleyin.",
+  "keywords": ["pdf meta verisi", "pdf meta verisini çevrimiçi düzenleme", "pdf özelliklerini görüntüleme", "pdf'den meta veri kaldırma", "pdf başlık yazar değiştirme", "ücretsiz pdf meta veri düzenleyici", "pdf meta verisini temizleme"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Meta Veri: Her PDF'in Görünmez Künyesi ve Etiketleri",
+      "paragraphs": [
+        "Her PDF'in görünür sayfalarının altında meta veri bulunur: başlık, yazar, konu, oluşturma tarihi, kullanılan yazılım ve daha fazlası. Bazen onu okumak, bazen gizlemek, bazen düzeltmek istersiniz. [pdf-metadata:PDF meta verisini düzenlemek], bu görünmez özellikleri kontrolünüze alır.",
+        "Yayın ekipleri doğru yer imleri için başlıkları günceller; yazarlar taslakları paylaşmadan önce yazarlık bilgisini kaldırır; arşiv ekipleri arama için özellikleri standartlaştırır.",
+        "ChooseTools, meta veriyi tarayıcınızda yerel olarak okur ve yazar. PDF'i açın, özellikleri inceleyin veya düzenleyin, kaydedin; hiçbir yükleme gerçekleşmeden yeni PDF indirilir."
+      ]
+    },
+    {
+      "heading": "PDF Meta Verisini Adım Adım Düzenleme",
+      "paragraphs": [
+        "Görünmez özellikleri yönetmek burada ferahlatıcı biçimde doğrudandır.",
+        "PDF'inizi yükleyin ve araç, başlık, yazar, konu, anahtar kelimeler ve oluşturma verilerini düzenlenebilir alanlar olarak görüntüler. Dilediğinizi ayarlayın, kaydedin ve değişikliklerinizi içeren yeni bir PDF cihazınıza indirilir.",
+        "Ayrıştırma yerel olarak gerçekleştiğinden, büyük bir dosyanın kısa bir incelemesi bile herhangi bir aktarım olmadan meta verisini tam olarak ortaya koyar."
+      ]
+    },
+    {
+      "heading": "Önlem: Gizli Kişisel Verileri Kaldırma",
+      "paragraphs": [
+        "Kurumsal yazılımlarda üretilen PDF'ler genellikle paylaşmak istemeyeceğiniz oluşturucu adlarını, kuruluşları, sunucu yollarını ve düzenleme geçmişini gömer.",
+        "Meta veriyi temizlemek, dosyaları dışarıda paylaşmadan önce kabul görmüş bir gizlilik adımıdır; araç, bu alanları birkaç tuş vuruşuyla boşaltmanıza veya değiştirmenize olanak tanır.",
+        "Görünür gizli metni [pdf-redaction:karartma] ile birleştiğinde, meta veri temizliği özenli bir teslim öncesi incelemeyi tamamlar."
+      ]
+    },
+    {
+      "heading": "Yaygın Meta Veri Alanları ve Amaçları",
+      "paragraphs": [
+        "Başlık alanı, tarayıcı sekmelerinde ve belge yönetimi arama sonuçlarında görüneni kontrol eder. Genel veya eksik bir başlık, bir PDF'i yüzlerce dosya arasında bulmayı zorlaştırır; bu nedenle onu açıklayıcı bir adla değiştirmek hem kullanılabilirliği hem de bulunabilirliği artırır.",
+        "Yazar ve oluşturucu alanları, belgeyi kimin ürettiğini ve hangi yazılımın oluşturduğunu tanımlar. Bu alanlar dahili olarak faydalıdır ancak PDF herkese açık paylaşıldığında kurumsal ayrıntıları sızdırabilir. Yayımdan önce yazar alanını boşaltmak, istenmeyen atıfları önler.",
+        "Anahtar kelimeler ve konu alanları, arama dizinlemeyi doğrudan etkiler. Belge yönetim sistemleri ve web tarayıcıları, dosyaları kategorize etmek için bu özellikleri okur; bu nedenle özenle yerleştirilmiş anahtar kelimeler, ek etiketleme altyapısı gerektirmeden PDF'in ilgili arama sonuçlarında görünmesini sağlar."
+      ]
+    },
+    {
+      "heading": "Arşivleme ve Arama için Tutarlı Özellikler",
+      "paragraphs": [
+        "Belge yönetim sistemleri meta veriyi dizinler; tutarlı başlıklar ve anahtar kelimeler dosyaları saniyeler içinde bulunabilir yapar.",
+        "Kütüphaneler, stüdyolar ve hukuk büroları, üretim genelinde yazar, konu ve proje alanlarını standartlaştırır; erişimi ve atıfları iyileştirir.",
+        "Yerel olarak düzenlediğiniz için özellikleri güncellemek, asla belge içini üçüncü bir tarafa teslim etmek anlamına gelmez."
+      ]
+    },
+    {
+      "heading": "Uyumluluk ve Mevzuat Hususları",
+      "paragraphs": [
+        "Birçok yargı bölgesindeki veri koruma düzenlemeleri, kuruluşların paylaşılan belgelerdeki kişisel bilgileri en aza indirmesini gerektirir. PDF meta verisi, GDPR ve benzeri çerçeveler kapsamında kişisel olarak tanımlanabilir bilgi sayılan adları, e-posta adreslerini ve kurumsal ayrıntıları sıklıkla içerir.",
+        "Hukuk ve sağlık sektörleri belge işleme konusunda katı gereksinimlerle karşı karşıyadır. Kaynak sistemi, inceleyen avukatı veya tedavi eden hekimi ortaya çıkaran meta veri, görünür içerik düzgün şekilde karartılmış olsa bile bir ifşa oluşturabilir. Meta veriyi temizlemek, dışarıya dağıtımdan önce standart bir uyumluluk adımıdır.",
+        "Bilgi Edinme Yasası yanıtları yayınlayan devlet kurumları, muaf bilgilerin yanlışlıkla yayınlanmasını önlemek için meta veriyi rutin olarak temizler. Aynı ilke, belgeleri halkla paylaşan her kuruluş için geçerlidir: okuyucu için görünmez olan, dosyada hâlâ gömülü olabilir."
+      ]
+    },
+    {
+      "heading": "Ayrıca Doğru: Bir Gizlilik Garantisi",
+      "paragraphs": [
+        "Meta veri genellikle yönetmeye çalıştığınız bilgiyi ortaya çıkarır; bu nedenle onu uzaktan okumak ters etki yaratır. Burada her şey yereldir.",
+        "Hesap, filigran ve saklama yoktur; düzeltilen dosya, nereye kaydederseniz kaydedin yalnızca size aittir.",
+        "Araç Windows, macOS, Linux ve mobilde aynı davranır — düzenli meta veriyi her teslimin rutin bir parçası yapar."
+      ]
+    },
+    {
+      "heading": "Son Rötuş Kontrol Listenizin Bir Parçası Olarak Meta Veri",
+      "paragraphs": [
+        "Profesyonel bir teslim genellikle şöyledir: [compress-pdf:sıkıştırın], [watermark-pdf:kimlik işaretleyin], meta veriyi doldurun, [protect-pdf:şifreleme] ile koruyun.",
+        "Her adım tarayıcıda ücretsiz ve özel çalışır; ekiplere eksiksiz bir sonlandırma yolu sunar.",
+        "Görünmezden kusursuza — meta veri kontrolü artık bir dakikalık bir iştir."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hangi meta veri alanlarını düzenleyebilirim?",
+      "a": "Başlık, yazar, konu, anahtar kelimeler ve ilgili belge özellikleri gibi alanlar düzenlenebilir alanlar olarak sunulur; ayrıca oluşturma ve değiştirme verileri incelenebilir."
+    },
+    {
+      "q": "Bir PDF'den meta veriyi tamamen kaldırabilir miyim?",
+      "a": "Evet. İndirmeden önce meta veri alanlarını boşaltabilir veya değiştirebilirsiniz; bu, dosyaları dışarıda paylaşırken yaygın bir gizlilik adımıdır."
+    },
+    {
+      "q": "Meta veri düzenleme güvenli ve özel midir?",
+      "a": "Evet. Tüm okuma ve yazma işlemleri tarayıcınızda yerel olarak gerçekleşir; PDF ve özellikleri cihazınızdan asla çıkmaz."
+    },
+    {
+      "q": "Başlığı değiştirmek PDF'in arama sonuçlarında nasıl göründüğünü etkiler mi?",
+      "a": "Evet. Belge yönetim sistemleri ve web tarayıcıları başlık alanını dizinler; bu nedenle açıklayıcı bir başlık, arama sonuçlarında bulunabilirliği artırır."
+    },
+    {
+      "q": "Meta veri temizliği mevzuat uyumluluğu için neden önemlidir?",
+      "a": "PDF meta verisi; adlar, kuruluşlar ve yazılım ayrıntıları gibi kişisel olarak tanımlanabilir bilgiler içerebilir. Dışarıya dağıtımdan önce temizlenmesi, veri koruma düzenlemeleri kapsamında yanlışlıkla ifşayı önler."
+    }
+  ]
+}

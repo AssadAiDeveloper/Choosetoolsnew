@@ -1,0 +1,1161 @@
+{
+  "meta": {
+    "title": "ChooseTools — Alat file online gratis yang tidak pernah mengunggah file Anda",
+    "description": "Gabungkan, kompres, dan ubah PDF serta gambar langsung di browser. Tanpa unggah, tanpa batas, tanpa menunggu. File Anda tidak pernah meninggalkan perangkat Anda."
+  },
+  "nav": {
+    "tagline": "Tanpa unggahan. Tanpa batas.",
+    "allTools": "Semua alat",
+    "pdf": "PDF",
+    "image": "Gambar",
+    "text": "Teks & Pengembang",
+    "arabic": "Alat Teks Arab",
+    "menu": "Menu",
+    "invoice": "Generator Faktur",
+    "cv": "Pembuat CV",
+    "tools": "Alat",
+    "more": "Lainnya",
+    "blog": "Blog"
+  },
+  "home": {
+    "heroTitle": "Semua alat file online. Nol unggahan.",
+    "heroSub": "Semuanya berjalan di dalam browser Anda. File Anda tidak pernah meninggalkan perangkat — tanpa batas ukuran, tanpa batas harian, dan tanpa menunggu unggahan.",
+    "search": "Cari alat… (mis. gabungkan PDF)",
+    "noResults": "Tidak ada alat yang cocok dengan pencarian Anda.",
+    "whyTitle": "Mengapa ChooseTools?",
+    "why1t": "Berkas Anda tetap bersama Anda",
+    "why1d": "Situs alat lain mengunggah setiap berkas ke server mereka, lalu berjanji untuk menghapusnya. Kami tidak pernah menerimanya sejak awal — pemrosesan terjadi di perangkat Anda sendiri.",
+    "why2t": "Benar-benar tanpa batas",
+    "why2d": "Tanpa batas 15 MB, tanpa '2 tugas per hari', tanpa tanda air. Karena tidak ada yang berjalan di server kami, penggunaan tanpa batas tidak mengeluarkan biaya bagi kami — jadi tidak mengeluarkan biaya bagi Anda.",
+    "why3t": "Instan sejak dirancang",
+    "why3d": "Tanpa waktu unggah, tanpa antrean, tanpa menunggu unduhan. Berkas 100 MB mulai diproses begitu Anda menaruhnya."
+  },
+  "privacy": {
+    "badge": "Diunggah ke server kami: 0 byte",
+    "note": "Alat ini berjalan sepenuhnya di peramban Anda. Berkas Anda tidak pernah dikirim ke mana pun."
+  },
+  "categories": {
+    "pdf": {
+      "name": "Alat PDF Online",
+      "desc": "Gabungkan, pisah, putar, kompres, dan ubah file PDF — secara privat, di browser Anda."
+    },
+    "image": {
+      "name": "Alat Foto & Gambar",
+      "desc": "Kompres, ubah ukuran, dan konversi foto serta gambar tanpa mengunggahnya ke mana pun."
+    },
+    "text": {
+      "name": "Alat teks & pengembang",
+      "desc": "Penghitung, pengonversi, generator, dan pemformat yang bekerja secara offline."
+    },
+    "arabic": {
+      "name": "Alat Teks Arab",
+      "desc": "Alat yang dibuat khusus untuk teks dan tanggal Arab — bukan terjemahan dari alat bahasa Inggris."
+    }
+  },
+  "tool": {
+    "dropTitle": "Seret berkas ke sini atau klik untuk memilih",
+    "dropSingle": "Seret sebuah berkas ke sini atau klik untuk memilih",
+    "processing": "Memproses di perangkat Anda…",
+    "download": "Unduh",
+    "downloadAll": "Unduh semua (ZIP)",
+    "reset": "Mulai ulang",
+    "addMore": "Tambah berkas lain",
+    "run": "Jalankan",
+    "copy": "Salin",
+    "copied": "Tersalin!",
+    "error": "Berkas itu tidak dapat diproses. Periksa formatnya dan coba lagi.",
+    "faqTitle": "Pertanyaan yang sering diajukan",
+    "relatedTitle": "Alat terkait",
+    "pages": "halaman",
+    "fromPage": "Dari halaman",
+    "toPage": "Ke halaman",
+    "quality": "Kualitas",
+    "width": "Lebar",
+    "height": "Tinggi",
+    "keepRatio": "Pertahankan rasio aspek",
+    "format": "Format",
+    "input": "Masukan",
+    "output": "Keluaran",
+    "generate": "Buat",
+    "length": "Panjang",
+    "result": "Hasil",
+    "savings": "lebih kecil"
+  },
+  "cv": {
+    "personal": "Data pribadi",
+    "fullName": "Nama lengkap",
+    "jobTitle": "Posisi yang dituju",
+    "email": "Email",
+    "phone": "Telepon",
+    "location": "Kota/Negara",
+    "linkedin": "LinkedIn (opsional)",
+    "summary": "Ringkasan profesional",
+    "summaryPh": "Dua atau tiga kalimat tentang pengalaman dan tujuan Anda",
+    "experience": "Pengalaman kerja",
+    "addExp": "Tambah pengalaman",
+    "jobTitleField": "Jabatan",
+    "company": "Perusahaan",
+    "start": "Awal",
+    "end": "Akhir",
+    "present": "Saat ini",
+    "bullets": "Pencapaian (satu baris per poin)",
+    "education": "Pendidikan",
+    "addEdu": "Tambah pendidikan",
+    "degree": "Gelar",
+    "school": "Institusi",
+    "skills": "Keterampilan",
+    "skillsPh": "Pisahkan dengan koma: Excel, manajemen proyek, SQL",
+    "languages": "Bahasa",
+    "addLang": "Tambah bahasa",
+    "langName": "Bahasa",
+    "level": "Tingkat",
+    "remove": "Hapus",
+    "generate": "Buat CV (PDF)",
+    "previewLive": "Pratinjau langsung",
+    "previewFast": "Diperbarui seketika saat mengetik dengan ukuran A4 sebenarnya",
+    "print": "Cetak A4",
+    "design": "Desain",
+    "template": "Template",
+    "classic": "Klasik",
+    "modern": "Modern",
+    "minimal": "Minimal",
+    "accent": "Warna aksen",
+    "photo": "Foto",
+    "photoNone": "Tanpa foto",
+    "photoShow": "Dengan foto",
+    "uploadPhoto": "Unggah foto",
+    "changePhoto": "Ganti foto",
+    "removePhoto": "Hapus foto",
+    "importCv": "Impor CV yang ada",
+    "importProcessing": "Memproses",
+    "importBtn": "Unggah CV (Gambar/PDF)",
+    "importHint": "Mendukung JPG, PNG, PDF"
+  },
+  "tools": {
+    "merge-pdf": {
+      "name": "Gabungkan PDF",
+      "desc": "Gabungkan beberapa file PDF menjadi satu secara online, sesuai urutan yang kamu pilih.",
+      "long": "Jatuhkan dua berkas PDF atau lebih, seret ke urutan yang Anda inginkan, lalu unduh satu dokumen gabungan. Penggabungan terjadi di perangkat Anda, sehingga kontrak yang paling rahasia pun tidak pernah meninggalkan komputer Anda.",
+      "faq1q": "Apakah ada batas ukuran berkas atau jumlah berkas?",
+      "faq1a": "Tidak. Karena penggabungan berjalan di peramban Anda, satu-satunya batas adalah memori perangkat Anda — berkas berukuran ratusan megabita pun bekerja dengan baik di laptop biasa.",
+      "faq2q": "Apakah PDF saya diunggah ke server?",
+      "faq2a": "Tidak pernah. Berkas dibaca dan digabungkan secara lokal oleh peramban Anda. Anda dapat memutus koneksi internet setelah halaman dimuat dan alat tetap berfungsi."
+    },
+    "split-pdf": {
+      "name": "Pisahkan PDF",
+      "desc": "Pisahkan file PDF menjadi beberapa dokumen atau ambil halaman tertentu.",
+      "long": "Pilih halaman yang Anda butuhkan — misalnya halaman 3 sampai 7 — dan dapatkan PDF baru yang hanya berisi rentang tersebut. Tidak ada yang diunggah.",
+      "faq1q": "Bisakah saya mengekstrak satu halaman saja?",
+      "faq1a": "Ya — atur angka yang sama untuk halaman awal dan akhir.",
+      "faq2q": "Apakah pemisahan menurunkan kualitas?",
+      "faq2a": "Tidak. Halaman disalin persis apa adanya, tanpa kompresi ulang."
+    },
+    "rotate-pdf": {
+      "name": "Putar PDF",
+      "desc": "Putar semua halaman PDF sebesar 90°, 180°, atau 270°.",
+      "long": "Perbaiki dokumen pindaian yang keluar miring atau terbalik. Rotasi bersifat lossless dan instan.",
+      "faq1q": "Apakah rotasi bersifat permanen?",
+      "faq1a": "Ya — berkas yang diunduh disimpan dengan orientasi baru dan terbuka dengan benar di pembaca PDF mana pun.",
+      "faq2q": "Apakah rotasi memengaruhi kualitas?",
+      "faq2a": "Tidak. Hanya flag orientasi halaman yang berubah; isinya tidak tersentuh."
+    },
+    "delete-pdf-pages": {
+      "name": "Hapus halaman PDF",
+      "desc": "Hapus halaman tertentu dari sebuah berkas PDF.",
+      "long": "Ketik nomor halaman yang ingin dihapus (mis. 2, 5-7) dan unduh PDF yang sudah dibersihkan.",
+      "faq1q": "Bagaimana cara menulis nomor halaman?",
+      "faq1a": "Gunakan tanda koma untuk halaman tunggal dan tanda hubung untuk rentang: '2, 5-7, 10' menghapus halaman 2, halaman 5 sampai 7, dan halaman 10.",
+      "faq2q": "Bisakah saya membatalkan penghapusan?",
+      "faq2a": "Berkas asli Anda tidak pernah diubah — berkas tersebut tetap utuh di perangkat Anda, jadi Anda cukup menjalankan alat ini lagi."
+    },
+    "jpg-to-pdf": {
+      "name": "JPG ke PDF",
+      "desc": "Konversi gambar JPG menjadi satu file PDF secara online.",
+      "long": "Jatuhkan gambar JPG atau PNG, atur urutannya, dan unduh PDF dengan satu gambar per halaman. Ideal untuk struk pindaian dan dokumen.",
+      "faq1q": "Bisakah saya menggabungkan JPG dan PNG dalam satu PDF?",
+      "faq1a": "Ya, kedua format dapat dicampur secara bebas dalam dokumen yang sama.",
+      "faq2q": "Apakah gambarnya dikompres?",
+      "faq2a": "Tidak — gambar disematkan pada kualitas aslinya."
+    },
+    "pdf-to-jpg": {
+      "name": "PDF ke JPG",
+      "desc": "Ubah halaman PDF menjadi gambar JPG berkualitas tinggi.",
+      "long": "Setiap halaman dirender di perangkat Anda dan diunduh sebagai gambar — satu JPG per halaman, atau semua halaman dalam ZIP.",
+      "faq1q": "Berapa resolusi gambarnya?",
+      "faq1a": "Halaman dirender pada skala 2×, yang cukup tajam untuk layar dan sebagian besar kebutuhan cetak.",
+      "faq2q": "PDF saya memiliki banyak halaman. Apakah itu masalah?",
+      "faq2a": "Tidak — halaman dikonversi satu per satu, sehingga dokumen yang panjang pun tetap berfungsi. Anda dapat mengunduh semuanya sebagai satu ZIP."
+    },
+    "compress-pdf": {
+      "name": "Kompres PDF",
+      "desc": "Kompres dan perkecil ukuran file PDF tanpa kehilangan kualitas.",
+      "long": "Berkas ditulis ulang dengan struktur internal dan aliran objek yang dioptimalkan. Teks dan gambar tidak diturunkan kualitasnya — ini adalah optimasi lossless, bukan kompresi destruktif.",
+      "faq1q": "Berapa banyak ukuran berkas saya yang akan berkurang?",
+      "faq1a": "Tergantung pada bagaimana PDF dibuat. Berkas yang dibuat dengan buruk bisa menyusut banyak; berkas yang sudah dioptimalkan lebih sedikit. Penghematan pastinya ditampilkan sebelum Anda mengunduh.",
+      "faq2q": "Apakah kualitas akan berkurang?",
+      "faq2a": "Tidak. Optimasi ini sepenuhnya lossless — setiap halaman terlihat persis sama."
+    },
+    "compress-image": {
+      "name": "Kompres Gambar",
+      "desc": "Kompres gambar JPG dan PNG agar ukuran file lebih kecil untuk web.",
+      "long": "Kompresi cerdas mengurangi ukuran berkas secara drastis sekaligus menjaga gambar tetap tajam. Sempurna untuk situs web, lampiran email, dan formulir dengan batas unggah.",
+      "faq1q": "Berapa banyak yang bisa saya hemat?",
+      "faq1a": "Biasanya 60–90% untuk foto, tergantung tingkat kualitas yang Anda pilih. Hasil dan penghematan ditampilkan sebelum mengunduh.",
+      "faq2q": "Apakah ada batas ukuran berkas?",
+      "faq2a": "Tidak ada batas tetap — kompresi berjalan di perangkat Anda, jadi foto yang sangat besar pun tetap berfungsi."
+    },
+    "resize-image": {
+      "name": "Ubah Ukuran Foto",
+      "desc": "Ubah ukuran dan resolusi foto secara online, tanpa unggah.",
+      "long": "Masukkan lebar atau tinggi baru — rasio aspek dijaga otomatis kecuali Anda mematikannya. Berjalan instan di perangkat Anda.",
+      "faq1q": "Apakah mengubah ukuran akan mengaburkan gambar saya?",
+      "faq1a": "Pengecilan skala menjaga gambar tetap tajam. Pembesaran melampaui ukuran asli bisa terlihat lembut — itu adalah batas gambar sumber, bukan alatnya.",
+      "faq2q": "Format apa saja yang didukung?",
+      "faq2a": "JPG, PNG, dan WebP. Keluarannya mempertahankan format yang sama dengan masukan."
+    },
+    "convert-image": {
+      "name": "Konverter Gambar",
+      "desc": "Konversi gambar ke berbagai format seperti JPG, PNG, dan WebP.",
+      "long": "Pilih format keluaran dan konversikan secara instan. Keluaran WebP biasanya membuat berkas 25–35% lebih kecil daripada JPG pada kualitas yang sama.",
+      "faq1q": "Kapan saya harus menggunakan WebP?",
+      "faq1a": "Untuk situs web — ukurannya lebih kecil daripada JPG dan PNG pada kualitas yang serupa dan didukung oleh semua peramban modern.",
+      "faq2q": "Apakah mengonversi PNG ke JPG menghilangkan transparansi?",
+      "faq2a": "Ya — JPG tidak memiliki transparansi, sehingga area transparan menjadi putih. Gunakan PNG atau WebP untuk mempertahankan transparansi."
+    },
+    "heic-to-jpg": {
+      "name": "HEIC ke JPG",
+      "desc": "Ubah foto HEIC iPhone menjadi JPG yang didukung semua orang.",
+      "long": "iPhone menyimpan foto sebagai HEIC, yang ditolak banyak aplikasi dan situs web. Ubah ke JPG di perangkat Anda sendiri — foto pribadi Anda tidak pernah diunggah ke mana pun.",
+      "faq1q": "Mengapa foto HEIC saya tidak bisa dibuka di Windows?",
+      "faq1a": "Windows memerlukan codec berbayar untuk membuka HEIC. Mengonversi ke JPG membuat foto terbuka di mana saja tanpa perangkat lunak tambahan.",
+      "faq2q": "Apakah kualitasnya dipertahankan?",
+      "faq2a": "Konversi menggunakan kualitas JPG 92%, yang secara visual identik dengan aslinya untuk foto."
+    },
+    "rotate-image": {
+      "name": "Putar Foto",
+      "desc": "Putar gambar dalam langkah 90° atau cerminkan secara horizontal/vertikal.",
+      "long": "Perbaiki foto yang miring atau buat versi cermin. Semua penyuntingan terjadi secara lokal dan diunduh secara instan.",
+      "faq1q": "Apakah rotasi menurunkan kualitas gambar?",
+      "faq1a": "Keluaran PNG bersifat lossless. Keluaran JPG dienkode ulang pada kualitas tinggi (95%), yang secara visual tidak dapat dibedakan.",
+      "faq2q": "Bisakah saya memutar dengan sudut khusus?",
+      "faq2a": "Alat ini mencakup langkah 90° dan pencerminan, yang memperbaiki masalah orientasi. Rotasi sudut bebas ada dalam rencana pengembangan kami."
+    },
+    "remove-exif": {
+      "name": "Hapus Metadata EXIF",
+      "desc": "Buang lokasi GPS dan metadata kamera dari foto sebelum dibagikan.",
+      "long": "Foto diam-diam membawa metadata: koordinat GPS tempat foto diambil, model perangkat, tanggal, dan waktu. Alat ini menghasilkan salinan bersih dengan semuanya dihapus — dan karena berjalan secara lokal, foto yang Anda bersihkan tidak pernah terekspos.",
+      "faq1q": "Apa saja yang persisnya dihapus?",
+      "faq1a": "Semua metadata EXIF: lokasi GPS, model kamera dan ponsel, cap waktu, tag perangkat lunak, dan pratinjau thumbnail. Hanya gambar yang terlihat yang tersisa.",
+      "faq2q": "Bagaimana cara memverifikasi bahwa itu berhasil?",
+      "faq2a": "Periksa properti berkas sebelum dan sesudah (klik kanan → Properti → Detail di Windows). Salinan yang dibersihkan tidak menampilkan kolom lokasi atau kamera."
+    },
+    "word-counter": {
+      "name": "Penghitung Kata",
+      "desc": "Hitung kata, karakter, kalimat, dan perkiraan waktu baca.",
+      "long": "Tempel atau ketik teks dan lihat hitungan langsung — termasuk hitungan karakter dengan dan tanpa spasi, serta waktu baca pada kecepatan rata-rata.",
+      "faq1q": "Apakah ini berfungsi untuk teks Arab?",
+      "faq1a": "Ya — batas kata terdeteksi dengan benar untuk teks Arab, Inggris, Spanyol, dan teks campuran.",
+      "faq2q": "Apakah teks saya dikirim ke mana pun?",
+      "faq2a": "Tidak. Penghitungan terjadi saat Anda mengetik, sepenuhnya di peramban Anda."
+    },
+    "case-converter": {
+      "name": "Ubah Huruf",
+      "desc": "Ubah teks menjadi UPPERCASE, lowercase, Title Case, atau Sentence case.",
+      "long": "Tempel teks, klik sebuah gaya, salin hasilnya. Berguna untuk memperbaiki teks yang diketik dengan Caps Lock aktif.",
+      "faq1q": "Apa itu Title Case?",
+      "faq1a": "Huruf Pertama Setiap Kata Ditulis Kapital — biasanya digunakan untuk judul.",
+      "faq2q": "Apakah ini mengubah teks Arab?",
+      "faq2a": "Bahasa Arab tidak memiliki huruf besar/kecil, sehingga karakter Arab lewat tanpa berubah — hanya huruf Latin yang dikonversi."
+    },
+    "password-generator": {
+      "name": "Generator Password",
+      "desc": "Buat kata sandi acak yang kuat dengan aturan yang bisa disesuaikan.",
+      "long": "Kata sandi dihasilkan dengan generator acak kriptografis peramban Anda dan tidak pernah meninggalkan perangkat Anda — tidak ada apa pun yang dikirim atau disimpan.",
+      "faq1q": "Berapa panjang kata sandi saya seharusnya?",
+      "faq1a": "Minimal 16 karakter untuk akun penting. Panjang lebih penting daripada kerumitan — setiap karakter tambahan melipatgandakan waktu pembobolan.",
+      "faq2q": "Apakah aman membuat kata sandi secara online?",
+      "faq2a": "Di halaman ini, ya: pembuatan menggunakan crypto.getRandomValues() secara lokal di peramban Anda. Anda dapat memuat halaman, memutus koneksi internet, dan membuat kata sandi secara offline."
+    },
+    "qr-generator": {
+      "name": "Buat QR Code",
+      "desc": "Buat kode QR gratis untuk link, teks, dan Wi-Fi secara online.",
+      "long": "Ketik teks atau URL apa pun dan unduh kode QR PNG resolusi tinggi. Tanpa pendaftaran, tanpa kode yang kedaluwarsa, tanpa tanda air.",
+      "faq1q": "Apakah kode QR ini kedaluwarsa?",
+      "faq1a": "Tidak. Kode dihasilkan langsung dari teks Anda — tidak ada layanan perpendek atau server yang bisa mati.",
+      "faq2q": "Berapa resolusi unduhannya?",
+      "faq2a": "PNG 1024×1024 piksel — cukup tajam untuk cetak, kartu nama, dan poster."
+    },
+    "json-formatter": {
+      "name": "Format JSON",
+      "desc": "Format, validasi, dan kecilkan data JSON.",
+      "long": "Tempel JSON untuk mencetaknya dengan indentasi yang rapi, atau kecilkan untuk produksi. Kesalahan ditandai dengan pesan yang jelas.",
+      "faq1q": "Apakah aman menempel respons API dengan data sensitif?",
+      "faq1a": "Ya — pemformatan terjadi secara lokal di peramban Anda. Apa pun yang Anda tempel tidak dikirim ke mana pun.",
+      "faq2q": "Apa arti 'JSON tidak valid'?",
+      "faq2a": "Teks itu melanggar aturan sintaks JSON — biasanya koma di akhir, tanda kutip tunggal alih-alih ganda, atau kunci tanpa kutip. Pesan kesalahan menunjukkan di mana letaknya."
+    },
+    "base64": {
+      "name": "Enkode / dekode Base64",
+      "desc": "Ubah teks ke Base64 dan sebaliknya, dengan dukungan Unicode penuh.",
+      "long": "Enkode teks apa pun — termasuk Arab dan emoji — ke Base64, atau dekode Base64 kembali menjadi teks yang dapat dibaca.",
+      "faq1q": "Untuk apa Base64 digunakan?",
+      "faq1a": "Base64 merepresentasikan data biner atau karakter khusus menggunakan karakter ASCII yang aman — umum di API, lampiran email, dan data URL.",
+      "faq2q": "Apakah Base64 itu enkripsi?",
+      "faq2a": "Tidak. Base64 adalah enkode, bukan enkripsi — siapa pun dapat mendekodenya. Jangan pernah menggunakannya untuk melindungi rahasia."
+    },
+    "remove-tashkeel": {
+      "name": "Hapus tashkeel",
+      "desc": "Buang tanda baca Arab (harakat) dari teks hanya dengan satu klik.",
+      "long": "Menghapus fatha, damma, kasra, sukun, shadda, tanwin, dan tatwil dari teks Arab — berguna untuk pengindeksan pencarian, basis data, dan tipografi yang bersih.",
+      "faq1q": "Apakah ini mengubah huruf-hurufnya sendiri?",
+      "faq1a": "Tidak — hanya tanda baca yang dihapus. Huruf, spasi, dan tanda baca tetap persis sebagaimana adanya.",
+      "faq2q": "Bisakah saya mempertahankan shadda?",
+      "faq2a": "Ya — aktifkan 'pertahankan shadda' untuk menghapus semua tanda kecuali shadda, yang sering membawa makna."
+    },
+    "arabic-numerals": {
+      "name": "Angka Arab ↔ Barat",
+      "desc": "Konversi antara angka Arab Timur (٠١٢٣) dan Barat (0123).",
+      "long": "Mengonversi setiap angka dalam teks Anda ke dua arah sambil membiarkan karakter lain tidak tersentuh. Juga menangani varian digit Persia.",
+      "faq1q": "Digit mana yang disebut 'angka Arab'?",
+      "faq1a": "Membingungkan, keduanya! ٠١٢٣٤ adalah angka Arab Timur (Arab-Indik) yang digunakan di sebagian besar negara Arab; 01234 adalah angka Arab Barat. Alat ini mengonversi di antara keduanya.",
+      "faq2q": "Apakah ini akan mengubah tanggal dan nomor telepon dengan benar?",
+      "faq2a": "Ya — digit dikonversi satu-per-satu di mana pun muncul, sehingga format seperti tanggal dan nomor telepon tetap menjaga strukturnya."
+    },
+    "hijri-gregorian": {
+      "name": "Konverter Hijriah ↔ Masehi",
+      "desc": "Konversi tanggal antara kalender Islam (Umm al-Qura) dan Masehi.",
+      "long": "Konversi dua arah yang akurat menggunakan kalender Umm al-Qura — kalender resmi Arab Saudi — dengan hari dalam seminggu ditampilkan untuk setiap hasil.",
+      "faq1q": "Kalender Hijriah mana yang digunakan?",
+      "faq1a": "Umm al-Qura, kalender hasil perhitungan yang resmi digunakan di Arab Saudi. Pengamatan bulan yang sebenarnya dapat berbeda ±1 hari untuk ibadah keagamaan.",
+      "faq2q": "Rentang tanggal apa yang didukung?",
+      "faq2a": "Tanggal apa pun mulai dari era Hijriah (622 M) jauh ke masa depan — cukup untuk ulang tahun, kontrak, dan tanggal historis."
+    },
+    "reorder-pdf": {
+      "name": "Susun Ulang PDF",
+      "desc": "Susun ulang halaman PDF dengan thumbnail visual.",
+      "long": "Setiap halaman dirender sebagai thumbnail di perangkat Anda. Pindahkan halaman ke urutan yang Anda inginkan dan unduh berkas yang disusun ulang — tidak ada yang diunggah.",
+      "faq1q": "Bisakah saya memindahkan halaman dari akhir ke awal?",
+      "faq1a": "Ya — gunakan panah di bawah setiap thumbnail untuk memindahkan halaman selangkah demi selangkah ke posisi mana pun.",
+      "faq2q": "Apakah penyusunan ulang mengubah kualitas?",
+      "faq2a": "Tidak. Halaman disalin persis sebagaimana adanya; hanya urutannya yang berubah."
+    },
+    "watermark-pdf": {
+      "name": "Tambah Watermark PDF",
+      "desc": "Tambahkan watermark atau logo ke file PDF.",
+      "long": "Ketik teks tanda air Anda (mis. RAHASIA atau DRAFT), pilih tingkat kepekatan, dan setiap halaman mendapat cap diagonal yang bersih — diproses secara lokal.",
+      "faq1q": "Bisakah saya menggunakan teks Arab pada tanda air?",
+      "faq1a": "Belum — font PDF bawaan hanya mencakup huruf Latin dan angka. Dukungan tanda air Arab dengan font tertanam ada dalam rencana pengembangan kami.",
+      "faq2q": "Bisakah tanda air dihapus nanti?",
+      "faq2a": "Tanda air menjadi bagian dari isi halaman. Simpan berkas asli Anda — berkas itu tidak pernah diubah."
+    },
+    "page-numbers-pdf": {
+      "name": "Tambah Nomor Halaman PDF",
+      "desc": "Sisipkan nomor halaman di bagian bawah setiap halaman.",
+      "long": "Pilih gaya sederhana (1, 2, 3) atau format '1 / 12', dan unduh salinan dokumen Anda yang diberi nomor.",
+      "faq1q": "Di mana nomor ditempatkan?",
+      "faq1a": "Di tengah bagian bawah setiap halaman, dengan ukuran yang tetap terbaca tanpa berbenturan dengan konten Anda.",
+      "faq2q": "Bisakah saya memulai penomoran dari halaman selain 1?",
+      "faq2a": "Versi saat ini memberi nomor semua halaman mulai dari 1. Halaman awal khusus sedang direncanakan."
+    },
+    "crop-image": {
+      "name": "Potong Foto",
+      "desc": "Potong gambar ke rasio aspek standar seperti 1:1 atau 16:9.",
+      "long": "Pilih rasio target dan gambar dipotong di tengah ke area terbesar yang mungkin — sempurna untuk foto profil, sampul, dan thumbnail.",
+      "faq1q": "Rasio apa saja yang tersedia?",
+      "faq1a": "Persegi 1:1, klasik 4:3 dan 3:4, serta layar lebar 16:9 dan 9:16 untuk story dan sampul.",
+      "faq2q": "Apakah potongannya di tengah?",
+      "faq2a": "Ya — alat ini menjaga area tengah terbesar yang sesuai dengan rasio pilihan Anda."
+    },
+    "circle-crop": {
+      "name": "Potong Foto Bulat",
+      "desc": "Potong lingkaran sempurna dari foto apa pun, dengan transparansi.",
+      "long": "Lingkaran tengah terbesar dipotong dari gambar Anda dan disimpan sebagai PNG transparan — siap untuk avatar dan logo.",
+      "faq1q": "Mengapa keluarannya PNG?",
+      "faq1a": "Hanya PNG (dan WebP) yang mendukung transparansi. Sudut di luar lingkaran sepenuhnya transparan.",
+      "faq2q": "Bisakah saya memilih di mana lingkaran ditempatkan?",
+      "faq2a": "Lingkaran dipusatkan secara otomatis. Untuk penempatan khusus, potong gambar terlebih dahulu dengan alat Potong."
+    },
+    "blur-image": {
+      "name": "Blur Foto",
+      "desc": "Terapkan blur gaussian yang dapat disesuaikan pada sebuah foto.",
+      "long": "Pilih kekuatan blur dengan penggeser — berguna untuk latar belakang, mengaburkan detail, atau membuat gambar sampul yang lembut.",
+      "faq1q": "Bisakah saya mengaburkan hanya sebagian gambar?",
+      "faq1a": "Alat ini mengaburkan seluruh gambar. Blur berbasis area ada dalam rencana pengembangan kami.",
+      "faq2q": "Apakah blur menyembunyikan informasi secara andal?",
+      "faq2a": "Blur yang kuat (20px+) membuat teks tidak terbaca, tetapi untuk data sensitif kami menyarankan memotongnya sepenuhnya."
+    },
+    "image-filters": {
+      "name": "Filter Foto",
+      "desc": "Terapkan grayscale, sepia, invert, kecerahan, atau kontras.",
+      "long": "Filter klasik sekali klik, diproses secara instan di perangkat Anda pada resolusi penuh.",
+      "faq1q": "Apakah filter mengurangi resolusi?",
+      "faq1a": "Tidak — gambar mempertahankan dimensi aslinya dengan tepat.",
+      "faq2q": "Bisakah saya menumpuk beberapa filter?",
+      "faq2a": "Terapkan satu filter, unduh, lalu jalankan hasilnya melalui alat ini lagi untuk menggabungkan efek."
+    },
+    "image-to-base64": {
+      "name": "Gambar ke Base64",
+      "desc": "Ubah gambar menjadi data URL Base64 untuk disematkan.",
+      "long": "Dapatkan data URL siap-salin untuk digunakan di HTML, CSS, atau JSON — dihasilkan secara lokal, sehingga gambar pribadi pun aman.",
+      "faq1q": "Kapan saya harus menyematkan gambar sebagai Base64?",
+      "faq1a": "Untuk gambar kecil (ikon, logo mungil) saat menghemat permintaan HTTP itu penting. Gambar besar lebih baik disajikan sebagai berkas biasa.",
+      "faq2q": "Mengapa string Base64 lebih besar daripada berkas saya?",
+      "faq2a": "Enkode Base64 menambah sekitar 33% overhead — itu normal dan wajar."
+    },
+    "favicon-generator": {
+      "name": "Pembuat Favicon",
+      "desc": "Buat satu set favicon lengkap dari satu gambar.",
+      "long": "Unggah logo persegi dan unduh ZIP yang berisi semua ukuran standar (16–512px), ikon sentuh Apple, dan cuplikan HTML siap-tempel.",
+      "faq1q": "Gambar apa yang harus saya mulai?",
+      "faq1a": "PNG atau SVG persegi dengan minimal 512×512 piksel memberikan hasil paling tajam di setiap ukuran.",
+      "faq2q": "Ukuran apa saja yang disertakan?",
+      "faq2a": "16, 32, 48, 192, dan 512 piksel plus apple-touch-icon 180px — semua yang diminta peramban dan ponsel modern."
+    },
+    "color-picker": {
+      "name": "Ambil Warna dari Foto",
+      "desc": "Klik di mana saja pada gambar untuk mendapatkan nilai HEX dan RGB yang tepat.",
+      "long": "Unggah foto atau tangkapan layar dan klik piksel mana pun — alat ini membangun palet dari warna yang Anda pilih dengan salin sekali klik.",
+      "faq1q": "Seberapa akurat warna yang diambil?",
+      "faq1a": "Tepat — nilainya dibaca langsung dari piksel gambar yang Anda klik.",
+      "faq2q": "Bisakah saya mengambil beberapa warna?",
+      "faq2a": "Ya, setiap klik menambah ke palet Anda (hingga 12 pilihan terakhir)."
+    },
+    "svg-to-png": {
+      "name": "SVG ke PNG",
+      "desc": "Ubah berkas SVG vektor ke PNG pada skala 1×–8×.",
+      "long": "Merender SVG Anda di perangkat dan mengekspor PNG yang tajam — pilih skala lebih tinggi untuk cetak atau layar retina.",
+      "faq1q": "Apa fungsi pengaturan skala?",
+      "faq1a": "Ini mengalikan ukuran alami SVG: ikon 100×100 yang diekspor pada 4× menjadi PNG 400×400.",
+      "faq2q": "Apakah transparansi dipertahankan?",
+      "faq2a": "Ya — area transparan pada SVG tetap transparan di PNG."
+    },
+    "id-photo": {
+      "name": "Foto KTP & Pas Foto",
+      "desc": "Ubah ukuran foto ke ukuran paspor resmi: Saudi, UEA, Mesir, Uni Eropa, AS.",
+      "long": "Pilih preset negara Anda dan dapatkan foto berukuran benar pada kualitas cetak (300 DPI). Pemotongan condong ke bagian atas bingkai tempat wajah biasanya berada — dan karena berjalan secara lokal, foto pribadi Anda tidak pernah meninggalkan perangkat Anda.",
+      "faq1q": "Ukuran apa saja yang didukung?",
+      "faq1a": "UE/Schengen 35×45mm, Arab Saudi dan Mesir 40×60mm, UEA 43×55mm, dan AS 51×51mm — semuanya diekspor pada 300 DPI.",
+      "faq2q": "Apakah alat ini memverifikasi persyaratan foto?",
+      "faq2a": "Ini menghasilkan dimensi dan resolusi yang benar. Persyaratan seperti warna latar belakang dan ekspresi wajah tetap menjadi tanggung jawab Anda — periksa pedoman otoritas Anda."
+    },
+    "url-encode": {
+      "name": "Enkode URL",
+      "desc": "Enkode teks untuk penggunaan aman di URL, atau dekode kembali.",
+      "long": "Persen-encoding dibuat instan — dukungan Unicode penuh termasuk karakter Arab di URL.",
+      "faq1q": "Kapan saya memerlukan encoding URL?",
+      "faq1a": "Setiap kali teks masuk ke URL: parameter kueri, istilah pencarian, atau karakter apa pun seperti spasi, ?, &, dan huruf non-Latin.",
+      "faq2q": "Apa perbedaannya dengan Base64?",
+      "faq2a": "Encoding URL menjaga teks tetap terbaca dan khusus untuk URL; Base64 adalah encoding biner-ke-teks yang umum."
+    },
+    "uuid-generator": {
+      "name": "Generator UUID",
+      "desc": "Buat UUID versi 4 acak dalam jumlah banyak.",
+      "long": "Menggunakan crypto.randomUUID() asli peramban Anda — pengidentifikasi yang kuat secara kriptografis, dihasilkan secara offline.",
+      "faq1q": "Untuk apa UUID digunakan?",
+      "faq1a": "Sebagai pengidentifikasi yang praktis bebas bentrokan untuk catatan basis data, objek API, nama berkas, dan sistem terdistribusi.",
+      "faq2q": "Bisakah dua UUID yang dihasilkan bentrok?",
+      "faq2a": "Probabilitasnya sangat kecil hingga dapat diabaikan dalam praktik — Anda perlu menghasilkan miliaran per detik selama berabad-abad."
+    },
+    "hash-generator": {
+      "name": "Generator hash",
+      "desc": "Hitung hash SHA-1, SHA-256, SHA-384, dan SHA-512 dari teks.",
+      "long": "Hash diperbarui langsung saat Anda mengetik, dihitung dengan Web Crypto API asli peramban — teks Anda tidak pernah meninggalkan halaman.",
+      "faq1q": "Mengapa MD5 tidak ditawarkan?",
+      "faq1a": "MD5 secara kriptografis sudah rusak dan peramban tidak mengimplementasikannya secara asli. SHA-256 adalah standar modern.",
+      "faq2q": "Apakah hash dapat dibalik?",
+      "faq2a": "Tidak — hash adalah sidik jari satu arah. Masukan yang sama selalu memberikan hash yang sama, tetapi masukan tidak dapat dipulihkan darinya."
+    },
+    "remove-duplicate-lines": {
+      "name": "Hapus Baris Duplikat",
+      "desc": "Hapus baris berulang dari sebuah daftar sambil mempertahankan urutan aslinya.",
+      "long": "Tempel daftar apa pun — email, kata kunci, URL — dan dapatkan setiap baris unik tepat sekali, dengan perhitungan apa yang dihapus.",
+      "faq1q": "Apakah perbandingannya peka huruf besar/kecil?",
+      "faq1a": "Ya — 'Apple' dan 'apple' diperlakukan sebagai baris berbeda. Gunakan Pengonversi huruf terlebih dahulu untuk menormalkan jika perlu.",
+      "faq2q": "Apakah urutan asli dipertahankan?",
+      "faq2a": "Ya, kemunculan pertama setiap baris tetap di tempatnya; pengulangan berikutnya dihapus."
+    },
+    "text-diff": {
+      "name": "Perbandingan Teks",
+      "desc": "Bandingkan dua teks dan sorot baris yang ditambah dan dihapus.",
+      "long": "Tempel dua versi berdampingan dan lihat persis baris mana yang berubah — tambahan dalam warna hijau, penghapusan dalam warna merah.",
+      "faq1q": "Bagaimana cara kerja perbandingannya?",
+      "faq1a": "Baris demi baris, menggunakan pendekatan urutan-umum-terpanjang yang sama dengan alat diff pemrograman.",
+      "faq2q": "Bisakah saya membandingkan kode?",
+      "faq2a": "Ya — alat ini tidak bergantung pada jenis konten dan berfungsi untuk kode, kontrak, artikel, atau teks apa pun."
+    },
+    "lorem-ipsum": {
+      "name": "Generator Lorem ipsum",
+      "desc": "Buat paragraf placeholder untuk desain dan mockup.",
+      "long": "Teks isian lorem ipsum klasik, 1–10 paragraf, dihasilkan secara instan dengan salin sekali klik.",
+      "faq1q": "Mengapa menggunakan lorem ipsum daripada teks asli?",
+      "faq1a": "Distribusi hurufnya yang alami memungkinkan pengunjung menilai tata letak tanpa terganggu oleh konten yang dapat dibaca.",
+      "faq2q": "Apakah teksnya acak?",
+      "faq2a": "Ya — panjang kalimat dan urutan kata bervariasi pada setiap pembuatan, seperti tulisan alami."
+    },
+    "markdown-to-html": {
+      "name": "Markdown ke HTML",
+      "desc": "Ubah sintaks Markdown menjadi markup HTML yang bersih.",
+      "long": "Didukung oleh parser marked modern, berjalan sepenuhnya di peramban Anda — tempel Markdown, salin HTML siap-produksi.",
+      "faq1q": "Fitur Markdown apa saja yang didukung?",
+      "faq1a": "Standar CommonMark lengkap: judul, penekanan, daftar, tautan, gambar, blok kode, kutipan blok, dan tabel (GFM).",
+      "faq2q": "Apakah keluaran HTML disanitasi?",
+      "faq2a": "Keluaran mencerminkan masukan Anda. Jika Anda berencana merender HTML dari sumber yang tidak tepercaya, sanitasi di aplikasi Anda."
+    },
+    "csv-json": {
+      "name": "Konverter CSV ↔ JSON",
+      "desc": "Ubah data CSV menjadi larik JSON dan sebaliknya.",
+      "long": "Didukung oleh mesin Papa Parse standar industri — menangani kolom bertanda kutip, koma di dalam nilai, dan header dengan benar.",
+      "faq1q": "Apakah CSV→JSON menggunakan baris pertama sebagai kunci?",
+      "faq1a": "Ya — baris header menjadi nama properti JSON untuk setiap objek.",
+      "faq2q": "CSV saya menggunakan titik koma — apakah akan berfungsi?",
+      "faq2a": "Ya, parser secara otomatis mendeteksi pembatas umum termasuk titik koma dan tab."
+    },
+    "tafqit": {
+      "name": "Tafqit — angka menjadi kata Arab",
+      "desc": "Ubah angka menjadi kata Arab tertulis untuk faktur dan cek.",
+      "long": "Ketik jumlah apa pun hingga miliaran dan dapatkan kata Arab yang benar secara gramatikal, dengan mata uang opsional (SAR, AED, EGP, USD, EUR) dalam format legal 'hanya dan tidak lebih' yang digunakan pada faktur.",
+      "faq1q": "Untuk apa tafqit digunakan?",
+      "faq1a": "Faktur, cek, dan kontrak Arab secara legal mensyaratkan jumlah ditulis dalam kata-kata — tafqit mengonversi 15.750 menjadi kata Arab lengkapnya secara instan.",
+      "faq2q": "Apakah tata bahasa Arabnya benar?",
+      "faq2a": "Ya — alat ini menerapkan bentuk yang benar untuk dual, jamak 3–10, dan akusatif yang digunakan setelah 11+ (mis. ألفاً / مليوناً)."
+    },
+    "extract-pdf-pages": {
+      "name": "Ekstrak halaman PDF",
+      "desc": "Tarik halaman atau rentang tertentu dari PDF ke berkas baru.",
+      "long": "Ketik rentang halaman seperti '1-3, 5, 8-10' dan dapatkan PDF baru yang berisi persis halaman-halaman itu, dalam urutan itu — diproses di perangkat Anda.",
+      "faq1q": "Format rentang apa yang diterima?",
+      "faq1a": "Halaman tunggal (5), rentang (2-7), atau campuran apa pun yang dipisahkan koma seperti 1-3, 6, 9-12.",
+      "faq2q": "Apakah berkas asli berubah?",
+      "faq2a": "Tidak pernah — PDF yang benar-benar baru dibuat dan asli Anda tetap utuh di perangkat Anda."
+    },
+    "pdf-to-text": {
+      "name": "PDF ke Teks",
+      "desc": "Ekstrak teks dari file PDF dan ubah menjadi teks biasa.",
+      "long": "Membaca lapisan teks di setiap halaman dan memberi Anda teks yang bersih dan dapat disalin — dengan unduhan .txt sekali klik. Berfungsi untuk dokumen Arab, Latin, dan Spanyol.",
+      "faq1q": "Mengapa PDF pindaian saya tidak mengembalikan teks?",
+      "faq1a": "PDF pindaian adalah gambar tanpa lapisan teks. Ekstraksi teks memerlukan PDF yang dibuat digital; OCR untuk pindaian ada dalam rencana pengembangan kami.",
+      "faq2q": "Apakah tata letaknya dipertahankan?",
+      "faq2a": "Teks diekstrak halaman demi halaman dalam urutan bacaan, tetapi tata letak yang kompleks (kolom, tabel) menjadi teks mengalir biasa."
+    },
+    "png-to-pdf": {
+      "name": "PNG ke PDF",
+      "desc": "Gabungkan satu atau lebih gambar PNG menjadi satu PDF.",
+      "long": "Setiap gambar menjadi halaman pada resolusi aslinya — transparansi dipertahankan pada halaman PDF. Sempurna untuk tangkapan layar dan pindaian.",
+      "faq1q": "Bisakah saya mengontrol urutan halaman?",
+      "faq1a": "Halaman mengikuti urutan tempat Anda menambahkan berkas — hapus dan tambahkan ulang untuk menyusun ulang, atau gunakan alat Susun ulang PDF setelahnya.",
+      "faq2q": "Apakah kualitas gambar berkurang?",
+      "faq2a": "Tidak — PNG disematkan secara lossless pada resolusi asli penuhnya."
+    },
+    "pdf-metadata": {
+      "name": "Edit Metadata PDF",
+      "desc": "Lihat dan edit judul, penulis, subjek, dan kata kunci PDF.",
+      "long": "Metadata menentukan bagaimana dokumen muncul di hasil pencarian dan pengelola berkas. Edit kolom dan unduh salinan yang diperbarui — isinya sendiri tidak tersentuh.",
+      "faq1q": "Mengapa metadata itu penting?",
+      "faq1a": "Mesin pencari dan sistem dokumen mengindeks kolom judul dan penulis; metadata yang benar membuat PDF Anda mudah ditemukan dan tampak profesional.",
+      "faq2q": "Apakah mengedit metadata mengubah isi dokumen?",
+      "faq2a": "Tidak — hanya kolom informasi yang tidak terlihat yang berubah. Setiap halaman tetap identik byte-per-byte."
+    },
+    "grayscale-pdf": {
+      "name": "PDF Hitam Putih",
+      "desc": "Ubah PDF berwarna menjadi hitam & putih.",
+      "long": "Setiap halaman dirender ulang dalam grayscale di perangkat Anda — ideal untuk versi ramah-cetak dan mengurangi penggunaan toner.",
+      "faq1q": "Apakah teksnya tetap dapat dipilih?",
+      "faq1a": "Tidak — halaman dikonversi menjadi gambar grayscale resolusi tinggi, sehingga pemilihan teks hilang. Simpan asli berwarna Anda untuk penyuntingan.",
+      "faq2q": "Mengapa berkas saya menjadi lebih besar atau lebih kecil?",
+      "faq2a": "Halaman menjadi gambar terkompres; berkas padat-teks mungkin sedikit membesar sementara berkas padat-foto sering menyusut."
+    },
+    "flip-image": {
+      "name": "Balik Foto",
+      "desc": "Cerminkan gambar secara horizontal atau vertikal.",
+      "long": "Satu klik membalik foto Anda di sepanjang sumbu mana pun pada kualitas penuh — berguna untuk swafoto, pindaian, dan aset desain.",
+      "faq1q": "Apa perbedaan antara balik dan putar?",
+      "faq1a": "Membalik mencerminkan gambar (kiri menjadi kanan); memutar mengelilingi pusatnya. Kami memiliki alat Putar terpisah.",
+      "faq2q": "Apakah membalik menurunkan kualitas?",
+      "faq2a": "Tidak — piksel disusun ulang, bukan dikompres ulang, saat sumbernya PNG; JPG dienkode ulang pada kualitas tinggi."
+    },
+    "png-to-jpg": {
+      "name": "PNG ke JPG",
+      "desc": "Ubah gambar PNG menjadi JPG dengan isian latar belakang putih.",
+      "long": "Area transparan diratakan ke putih dan gambar disimpan sebagai JPG berkualitas tinggi — biasanya jauh lebih kecil daripada PNG.",
+      "faq1q": "Apa yang terjadi pada transparansi?",
+      "faq1a": "JPG tidak mendukung transparansi, sehingga area transparan diisi dengan putih.",
+      "faq2q": "Berapa banyak ukuran berkas yang akan berkurang?",
+      "faq2a": "Foto biasanya menyusut 60–80%. Grafis dengan sedikit warna mungkin tidak menyusut banyak — lebih baik dipertahankan sebagai PNG."
+    },
+    "webp-to-jpg": {
+      "name": "WEBP ke JPG",
+      "desc": "Ubah gambar WebP menjadi JPG yang kompatibel secara universal.",
+      "long": "Berkas WebP kadang gagal dibuka di perangkat lunak lama — ubah ke JPG sekali klik, tepat di peramban Anda.",
+      "faq1q": "Mengapa mengonversi menjauh dari WebP?",
+      "faq1a": "Meskipun WebP efisien, beberapa editor, printer, dan sistem lama masih menolaknya. JPG terbuka di mana saja.",
+      "faq2q": "Apakah ada penurunan kualitas?",
+      "faq2a": "Konversi dienkode ulang pada kualitas 92% — secara visual identik untuk foto dalam praktik."
+    },
+    "jpg-to-webp": {
+      "name": "JPG ke WEBP",
+      "desc": "Ubah gambar JPG/PNG menjadi WebP modern yang lebih kecil.",
+      "long": "Berkas WebP biasanya 25–35% lebih kecil daripada JPG pada kualitas visual yang sama — ideal untuk situs web yang lebih cepat.",
+      "faq1q": "Di mana WebP didukung?",
+      "faq1a": "Semua peramban modern (Chrome, Safari, Firefox, Edge) mendukung WebP secara asli — lebih dari 97% pengguna web.",
+      "faq2q": "Kapan saya sebaiknya tidak menggunakan WebP?",
+      "faq2a": "Untuk alur kerja cetak atau perangkat lunak yang mensyaratkan masukan JPG/PNG. Untuk web, WebP hampir selalu menjadi pilihan yang lebih baik."
+    },
+    "add-text-to-image": {
+      "name": "Tambah Teks ke Foto",
+      "desc": "Tulis teks di atas foto — Arab didukung penuh.",
+      "long": "Pilih posisi, warna, dan ukuran; teks digambar dengan garis luar yang bersih agar tetap terbaca di latar belakang apa pun. Skrip Arab terbentuk dengan benar.",
+      "faq1q": "Apakah teks Arab dirender dengan baik?",
+      "faq1a": "Ya — mesin teks asli peramban menangani pembentukan huruf Arab dan arah kanan-ke-kiri dengan benar.",
+      "faq2q": "Bisakah saya menambah beberapa baris?",
+      "faq2a": "Versi saat ini menambah satu baris per tahap — jalankan hasilnya melalui alat ini lagi untuk baris tambahan."
+    },
+    "pixelate-image": {
+      "name": "Pixelasi Foto",
+      "desc": "Terapkan efek blok piksel retro atau sensor detail.",
+      "long": "Pilih ukuran piksel dengan penggeser — dari mosaik halus hingga blok sensor berat, diproses secara instan di perangkat Anda.",
+      "faq1q": "Apakah pixelasi aman untuk menyembunyikan data sensitif?",
+      "faq1a": "Pixelasi berat (20+) sulit dibalik, tetapi untuk informasi yang benar-benar sensitif, memotongnya sepenuhnya lebih aman.",
+      "faq2q": "Apa perbedaannya dengan blur?",
+      "faq2a": "Blur melembutkan secara halus; pixelasi menciptakan blok persegi yang keras — tampilan sensor dan retro-game klasik."
+    },
+    "round-corners": {
+      "name": "Bulatkan Sudut Foto",
+      "desc": "Tambahkan sudut membulat ke gambar apa pun, dengan transparansi.",
+      "long": "Pilih radius sudut dengan penggeser dan unduh PNG dengan sudut transparan yang halus — sempurna untuk ikon aplikasi dan aset UI.",
+      "faq1q": "Mengapa keluarannya PNG?",
+      "faq1a": "Sudut membulat membutuhkan transparansi, yang tidak dapat disimpan JPG. PNG menjaga sudut tetap tajam di latar belakang apa pun.",
+      "faq2q": "Bisakah saya membuat lingkaran penuh?",
+      "faq2a": "Pada radius 50% untuk gambar persegi Anda mendapatkan lingkaran sempurna — atau gunakan alat Potong lingkaran khusus kami."
+    },
+    "reverse-text": {
+      "name": "Balik Teks",
+      "desc": "Balik karakter, urutan kata, atau urutan baris.",
+      "long": "Tiga mode sekali klik: balik setiap karakter, balikkan urutan kata, atau balikkan urutan baris — berguna untuk teka-teki, perbaikan data, dan bersenang-senang.",
+      "faq1q": "Apakah ini berfungsi dengan Arab?",
+      "faq1a": "Ya — pembalikan bekerja pada karakter Unicode, meskipun skrip Arab yang tersambung mungkin terlihat tidak biasa saat dibalik, seperti yang diharapkan.",
+      "faq2q": "Untuk apa pembalikan baris berguna?",
+      "faq2a": "Membalik daftar kronologis, berkas log, atau peringkat tanpa lembar bentang."
+    },
+    "text-to-slug": {
+      "name": "Teks ke Slug",
+      "desc": "Ubah judul apa pun menjadi slug yang bersih dan aman untuk URL.",
+      "long": "Mengubah ke huruf kecil, menghilangkan aksen, dan mengganti spasi serta simbol dengan tanda hubung saat Anda mengetik. Huruf Arab dipertahankan — peramban dan mesin pencari modern mendukung penuh URL Arab.",
+      "faq1q": "Apakah slug Arab bagus untuk SEO?",
+      "faq1a": "Ya — Google mengindeks dan menampilkan URL Arab dengan benar, dan slug Arab yang dapat dibaca meningkatkan klik-dan-masuk untuk audiens Arab.",
+      "faq2q": "Karakter apa yang dihapus?",
+      "faq2a": "Semua yang bukan huruf dan digit menjadi tanda hubung; huruf Latin beraksen dikonversi ke bentuk polosnya (é → e)."
+    },
+    "binary-text": {
+      "name": "Biner ke Teks",
+      "desc": "Ubah teks menjadi kode biner dan sebaliknya.",
+      "long": "Mengenkode teks sebagai byte UTF-8 yang ditampilkan dalam kelompok biner 8-bit — dan mendekodenya kembali. Berfungsi dengan bahasa apa pun termasuk Arab.",
+      "faq1q": "Mengapa satu huruf Arab menjadi dua byte?",
+      "faq1a": "UTF-8 mengenkode karakter non-Latin menggunakan beberapa byte — itu adalah encoding standar web modern.",
+      "faq2q": "Format apa yang diharapkan dekoder?",
+      "faq2a": "Kelompok hingga 8 digit biner yang dipisahkan spasi, mis. 01001000 01101001."
+    },
+    "morse-code": {
+      "name": "Penerjemah Morse",
+      "desc": "Terjemahkan teks ke kode Morse dan sebaliknya.",
+      "long": "Morse internasional untuk huruf, angka, dan tanda baca umum — kata dipisahkan dengan '/', huruf dengan spasi.",
+      "faq1q": "Bagaimana kata dipisahkan?",
+      "faq1a": "Huruf dipisahkan dengan satu spasi dan kata dengan garis miring (/), konvensi teks yang umum.",
+      "faq2q": "Apakah huruf Arab didukung?",
+      "faq2a": "Standar internasional mencakup huruf Latin dan digit; varian Morse Arab memang ada tetapi tidak dibakukan, sehingga tidak disertakan."
+    },
+    "number-base": {
+      "name": "Konverter basis bilangan",
+      "desc": "Konversi antara biner, oktal, desimal, dan heksadesimal.",
+      "long": "Ketik sebuah angka, pilih basisnya, dan baca instan dalam keempat basis — dengan salin sekali klik untuk masing-masing.",
+      "faq1q": "Bisakah saya menempel nilai dengan awalan seperti 0x?",
+      "faq1a": "Ya — awalan 0x, 0b, dan 0o dilepas otomatis sebelum konversi.",
+      "faq2q": "Berapa nilai maksimumnya?",
+      "faq2a": "Apa pun dalam rentang bilangan bulat aman JavaScript — lebih dari 9 kuadriliun, jauh melampaui penggunaan sehari-hari."
+    },
+    "roman-numerals": {
+      "name": "Konverter angka Romawi",
+      "desc": "Ubah angka menjadi angka Romawi dan sebaliknya.",
+      "long": "Ketik 2026 untuk mendapatkan MMXXVI — atau tempel angka Romawi untuk mendekodenya. Validasi menolak angka yang tidak baku seperti IIII.",
+      "faq1q": "Berapa rentang yang valid?",
+      "faq1a": "Angka Romawi standar mencakup 1 hingga 3999 — tidak ada nol standar atau notasi yang lebih besar.",
+      "faq2q": "Apakah ini memvalidasi bentuk yang ketat?",
+      "faq2a": "Ya — hanya angka kanonik yang didekode; bentuk tidak baku seperti IM atau VV ditolak."
+    },
+    "random-number": {
+      "name": "Generator Angka Acak",
+      "desc": "Buat angka acak sejati dalam rentang apa pun.",
+      "long": "Menggunakan keacakan kriptografis peramban Anda (bukan pseudo-random lemah) dengan pengambilan sampel yang tidak bias — cocok untuk undian dan hadiah.",
+      "faq1q": "Apakah ini adil untuk undian hadiah?",
+      "faq1a": "Ya — nilai berasal dari crypto.getRandomValues dengan rejection sampling, sehingga setiap angka dalam rentang memiliki kemungkinan yang persis sama.",
+      "faq2q": "Bisakah angka yang sama muncul dua kali?",
+      "faq2a": "Ya, undian bersifat independen — seperti melempar dadu. Untuk pilihan unik, buat satu per satu dan hapus pemenang dari daftar Anda."
+    },
+    "color-converter": {
+      "name": "Konverter warna",
+      "desc": "Konversi warna antara HEX, RGB, dan HSL secara langsung.",
+      "long": "Pilih warna atau tempel kode HEX dan baca ketiga format secara instan, dengan swatch langsung dan salin sekali klik.",
+      "faq1q": "Format mana yang harus saya gunakan di CSS?",
+      "faq1a": "Ketiganya berfungsi di mana saja. HEX ringkas, RGB intuitif, dan HSL paling mudah untuk membuat variasi lebih terang/gelap.",
+      "faq2q": "Apakah kode HEX 3 digit didukung?",
+      "faq2a": "Ya — bentuk singkat seperti #fa0 diperluas ke #ffaa00 secara otomatis."
+    },
+    "css-minifier": {
+      "name": "Kompres CSS",
+      "desc": "Kompres CSS dengan menghapus komentar dan spasi kosong.",
+      "long": "Membuang semua yang tidak dibutuhkan peramban dan menampilkan persis berapa persen yang Anda hemat — biasanya 20–40%.",
+      "faq1q": "Apakah CSS yang diminimalkan aman untuk dipasang?",
+      "faq1a": "Ya — hanya komentar dan spasi kosong yang tidak penting yang dihapus; selektor dan nilai tidak tersentuh.",
+      "faq2q": "Haruskah saya menyimpan berkas aslinya?",
+      "faq2a": "Selalu — edit versi yang dapat dibaca dan minimalkan sebagai langkah build akhir."
+    },
+    "html-encode": {
+      "name": "Enkode HTML",
+      "desc": "Escape karakter khusus HTML atau dekode entitas kembali.",
+      "long": "Mengonversi <, >, &, tanda kutip menjadi entitas aman untuk menyematkan kode di halaman web — dan mendekode entitas apa pun kembali menjadi teks.",
+      "faq1q": "Kapan saya memerlukan encoding HTML?",
+      "faq1a": "Setiap kali Anda menampilkan teks pengguna atau contoh kode di dalam HTML — < dan & yang tidak di-escape merusak halaman atau memungkinkan injeksi.",
+      "faq2q": "Apakah dekode menangani entitas bernama?",
+      "faq2a": "Ya — &amp;, &copy;, &nbsp;, dan setiap entitas standar bernama atau numerik didekode."
+    },
+    "timestamp-converter": {
+      "name": "Konverter timestamp Unix",
+      "desc": "Ubah timestamp Unix menjadi tanggal yang dapat dibaca dan sebaliknya.",
+      "long": "Tempel timestamp 10 atau 13 digit atau string tanggal apa pun dan baca sebagai detik Unix, milidetik, ISO 8601, dan waktu lokal Anda.",
+      "faq1q": "Apa perbedaan antara 10 dan 13 digit?",
+      "faq1a": "10 digit adalah detik sejak 1970; 13 digit adalah milidetik. Alat ini mendeteksi mana yang Anda tempel.",
+      "faq2q": "Zona waktu mana yang ditampilkan?",
+      "faq2a": "Keluaran ISO adalah UTC (akhiran Z); baris Lokal menggunakan zona waktu perangkat Anda."
+    },
+    "sort-lines": {
+      "name": "Urutkan Baris",
+      "desc": "Urutkan baris teks A→Z, Z→A, berdasarkan panjang, atau acak.",
+      "long": "Pengurutan yang memahami bahasa, menangani alfabet Arab, Spanyol, dan Inggris dengan benar — plus pengacakan acak untuk undian.",
+      "faq1q": "Apakah bahasa Arab diurutkan dengan benar?",
+      "faq1a": "Ya — pengurutan menggunakan collation yang sadar-semantis, sehingga huruf Arab mengikuti urutan alfabet Arab yang benar.",
+      "faq2q": "Apa yang terjadi pada baris kosong?",
+      "faq2a": "Baris kosong dihapus selama pengurutan, menghasilkan daftar yang bersih."
+    },
+    "find-replace": {
+      "name": "Cari & Ganti",
+      "desc": "Ganti teks secara massal, dengan dukungan regex opsional.",
+      "long": "Temukan-dan-ganti sederhana dengan penghitungan kecocokan — aktifkan mode Regex untuk pola, penggantian tanpa tangkapan, dan kontrol huruf besar/kecil.",
+      "faq1q": "Varian regex apa yang didukung?",
+      "faq1a": "Ekspresi reguler JavaScript — kelas karakter, kuantifier, jangkar, alternasi, dan lainnya.",
+      "faq2q": "Apakah ini peka huruf besar/kecil?",
+      "faq2a": "Secara default tidak — aktifkan 'Cocokkan huruf' untuk penggantian yang peka huruf besar/kecil."
+    },
+    "arabic-keyboard": {
+      "name": "Papan ketik Arab",
+      "desc": "Ketik Arab dengan papan ketik di layar — tanpa perlu tata letak Arab.",
+      "long": "Klik huruf untuk menyusun teks Arab di perangkat atau komputer mana pun tanpa dukungan papan ketik Arab, lalu salin dengan sekali klik. Termasuk bentuk hamza dan tanda baca Arab.",
+      "faq1q": "Untuk siapa ini dibuat?",
+      "faq1a": "Siapa pun yang menggunakan perangkat tanpa tata letak Arab — pelancong, pelajar, dan penutur Arab yang menggunakan komputer pinjaman atau asing.",
+      "faq2q": "Bisakah saya mencampur mengetik dan mengklik?",
+      "faq2a": "Ya — area teks juga menerima pengetikan normal, sehingga Anda dapat menggabungkan keduanya."
+    },
+    "arabic-transliteration": {
+      "name": "Transliterasi Arab",
+      "desc": "Ubah skrip Arab menjadi huruf Latin yang mudah dibaca.",
+      "long": "Mentransliterasi teks Arab huruf-demi-huruf menjadi romanisasi yang mudah dibaca — berguna untuk nama, alamat, dan pembelajaran bahasa.",
+      "faq1q": "Apakah ini terjemahan?",
+      "faq1a": "Tidak — transliterasi mengonversi bunyi/huruf, bukan maknanya. مرحبا menjadi marhba, bukan 'halo'.",
+      "faq2q": "Sistem romanisasi mana yang digunakan?",
+      "faq2a": "Skema yang disederhanakan dan mudah dibaca (kh, sh, gh, dh untuk خ ش غ ذ) alih-alih notasi akademis yang ketat — dioptimalkan untuk keterbacaan sehari-hari."
+    },
+    "zakat-calculator": {
+      "name": "Kalkulator zakat",
+      "desc": "Hitung zakat 2,5% yang wajib atas harta Anda.",
+      "long": "Masukkan uang tunai, emas/investasi Anda, dan utang yang belum dibayar — alat ini menghitung dasar zakat dan jumlah yang wajib, sepenuhnya di perangkat Anda sehingga keuangan Anda tetap privat.",
+      "faq1q": "Bagaimana zakat dihitung?",
+      "faq1a": "Harta yang dikenai zakat (uang tunai + emas/perak/investasi − utang yang jatuh tempo) yang dimiliki selama satu tahun kamariah dikenai 2,5% jika melebihi nisab (nilai 85g emas).",
+      "faq2q": "Apakah data keuangan saya aman?",
+      "faq2a": "Sepenuhnya — tidak ada yang Anda ketik yang dikirim ke mana pun. Perhitungan berjalan di peramban Anda dan hilang saat Anda menutup halaman."
+    },
+    "age-calculator": {
+      "name": "Kalkulator Usia",
+      "desc": "Hitung usia Anda yang tepat — dengan tanggal lahir Hijriah.",
+      "long": "Masukkan tanggal lahir Anda dan lihat usia tepat dalam tahun, bulan, dan hari, total hari hidup, tanggal lahir Hijriah (Umm al-Qura) Anda, dan hitung mundur ke ulang tahun Anda berikutnya.",
+      "faq1q": "Seberapa akurat konversi Hijriah-nya?",
+      "faq1a": "Ini menggunakan kalender resmi Umm al-Qura yang tertanam di peramban Anda — kalender yang sama yang digunakan di Arab Saudi.",
+      "faq2q": "Apakah ini memperhitungkan tahun kabisat?",
+      "faq2a": "Ya — aritmetika tahun/bulan/hari menangani tahun kabisat dan panjang bulan yang bervariasi dengan tepat."
+    },
+    "excel-to-csv": {
+      "name": "Excel ke CSV",
+      "desc": "Ubah lembar bentang Excel (.xlsx) menjadi berkas CSV.",
+      "long": "Membaca lembar kerja pertama — termasuk hasil rumus, tanggal, dan teks kaya — dan menghasilkan CSV bersih dengan encoding UTF-8, sehingga teks Arab dan beraksen terbuka dengan benar di program mana pun.",
+      "faq1q": "Apakah rumus dikonversi?",
+      "faq1a": "Ya — hasil hitung setiap rumus yang diekspor, bukan rumusnya sendiri.",
+      "faq2q": "Mengapa CSV saya terbuka dengan karakter Arab yang rusak?",
+      "faq2a": "CSV kami menyertakan urutan byte UTF-8 khusus agar Excel membuka teks Arab dan beraksen dengan benar."
+    },
+    "csv-to-excel": {
+      "name": "CSV ke Excel",
+      "desc": "Ubah berkas CSV menjadi lembar bentang Excel yang diformat.",
+      "long": "Menangani kolom bertanda kutip, koma di dalam nilai, dan pembatas yang terdeteksi otomatis (titik koma, tab) — keluarannya memiliki baris header tebal dan kolom berukuran otomatis.",
+      "faq1q": "CSV saya menggunakan titik koma — didukung?",
+      "faq1a": "Ya, parser secara otomatis mendeteksi koma, titik koma, dan tab.",
+      "faq2q": "Apakah ada batas baris?",
+      "faq2a": "Tidak ada batas tetap — berkas dengan puluhan ribu baris terkonversi dengan baik; berkas yang sangat besar hanya membutuhkan beberapa detik."
+    },
+    "excel-to-json": {
+      "name": "Excel ke JSON",
+      "desc": "Ubah lembar bentang Excel menjadi larik JSON berisi objek.",
+      "long": "Baris pertama menjadi nama properti dan setiap baris berikutnya menjadi objek — salin hasilnya atau unduh sebagai berkas .json.",
+      "faq1q": "Bagaimana sel kosong ditangani?",
+      "faq1a": "Sel kosong menjadi nilai null, menjaga struktur setiap objek tetap konsisten.",
+      "faq2q": "Bagaimana dengan tanggal?",
+      "faq2a": "Tanggal Excel diekspor dalam format universal YYYY-MM-DD."
+    },
+    "json-to-excel": {
+      "name": "JSON ke Excel",
+      "desc": "Ubah larik JSON menjadi berkas Excel yang diformat.",
+      "long": "Tempel larik objek — kunci menjadi header kolom (digabung di semua objek), objek bersarang di-stringify, dan lembar mendapat header tebal dengan kolom berukuran otomatis.",
+      "faq1q": "Bagaimana jika objek memiliki kunci yang berbeda?",
+      "faq1a": "Gabungan semua kunci menjadi set kolom; nilai yang hilang dibiarkan sebagai sel kosong.",
+      "faq2q": "Bisakah saya mengonversi satu objek?",
+      "faq2a": "Ya — satu objek menjadi lembar bentang satu baris."
+    },
+    "mt940-to-excel": {
+      "name": "MT940 ke Excel",
+      "desc": "Ubah laporan bank MT940 (SWIFT) menjadi Excel.",
+      "long": "Bank seperti ING, Rabobank, dan ABN AMRO mengekspor laporan dalam format MT940 (.940/.sta). Alat ini mengurai setiap transaksi — tanggal, deskripsi, debit, kredit, referensi — menjadi lembar Excel yang bersih, sepenuhnya di perangkat Anda, sehingga data perbankan Anda tidak pernah meninggalkan komputer.",
+      "faq1q": "Apakah data bank saya aman?",
+      "faq1a": "Sepenuhnya — laporan diurai di peramban Anda dan tidak ada yang dikirim ke mana pun. Putuskan koneksi internet dan alat tetap berfungsi.",
+      "faq2q": "Bank mana saja yang didukung?",
+      "faq2a": "Semua bank yang mengekspor SWIFT MT940 standar — termasuk ING, Rabobank, ABN AMRO, Deutsche Bank, dan sebagian besar bank Eropa. Transaksi pembalikan (RC/RD) ditangani dengan benar."
+    },
+    "txt-to-mt940": {
+      "name": "TXT ke MT940",
+      "desc": "Ubah file teks atau CSV transaksi menjadi laporan MT940.",
+      "long": "Unggah file teks biasa atau CSV dengan kolom Tanggal, Deskripsi, Debit, Kredit, Mata uang dan Referensi (pemisah apa pun â€” koma, titik koma, tab atau pipa â€” terdeteksi otomatis), dan alat ini menyusun kembali laporan SWIFT MT940 lengkap (.940/.sta) dengan header, saldo awal dan akhir serta setiap transaksi, sepenuhnya di perangkat Anda.",
+      "faq1q": "Pemisah apa yang didukung?",
+      "faq1a": "Koma, titik koma, tab dan pipa semuanya terdeteksi otomatis, dan bidang berpetik ditangani. Baris header dengan nama kolom dilewati.",
+      "faq2q": "Format apa yang harus dimiliki kolom jumlah?",
+      "faq2a": "Angka sederhana seperti 1234.56. Letakkan jumlah debit di kolom Debit dan jumlah kredit di kolom Kredit; sebuah baris harus memiliki setidaknya salah satunya."
+    },
+    "excel-to-mt940": {
+      "name": "Excel ke MT940",
+      "desc": "Ubah lembar transaksi Excel menjadi laporan bank MT940.",
+      "long": "Kebalikan dari MT940 ke Excel: unggah lembar kerja dengan kolom Tanggal, Deskripsi, Debit, Kredit, Mata uang dan Referensi, dan alat ini menyusun kembali laporan SWIFT MT940 lengkap (.940/.sta) dengan header, saldo awal dan akhir serta setiap transaksi â€” dihasilkan sepenuhnya di perangkat Anda, sehingga data perbankan Anda tidak pernah meninggalkan komputer Anda.",
+      "faq1q": "Apakah data bank saya aman?",
+      "faq1a": "Sepenuhnya â€” semuanya dihasilkan di browser Anda dan tidak ada yang dikirim ke mana pun. Putuskan koneksi internet dan alat ini tetap berfungsi.",
+      "faq2q": "Kolom apa yang harus dimiliki lembar Excel?",
+      "faq2a": "Enam kolom secara berurutan: Tanggal (YYYY-MM-DD), Deskripsi, Debit, Kredit, Mata uang dan Referensi â€” tata letak yang sama dengan alat MT940 ke Excel di situs ini."
+    },
+    "invoice-generator": {
+      "name": "Buat Invoice",
+      "desc": "Buat invoice gratis, profesional, dan siap cetak secara online.",
+      "long": "Isi detail perusahaan dan klien Anda, tambahkan item baris, dan unduh faktur PDF yang apik — dihasilkan sepenuhnya di perangkat Anda. Karena teks Arab memerlukan pembentukan huruf yang tepat yang tidak dapat dilakukan font PDF secara langsung, faktur dirender piksel-sempurna di peramban Anda terlebih dahulu, lalu disimpan sebagai halaman PDF.",
+      "faq1q": "Apakah teks faktur dapat dipilih di PDF?",
+      "faq1a": "Tidak — untuk merender teks Arab, Inggris, dan Spanyol dengan benar dan konsisten, faktur digambar sebagai gambar yang tajam dan disematkan di halaman PDF. Ini mencetak dan menampilkan dengan sempurna, tetapi teksnya sendiri tidak dapat dipilih.",
+      "faq2q": "Bisakah saya menggunakan logo dan mata uang sendiri?",
+      "faq2a": "Ya — unggah logo PNG atau JPG dan pilih dari mata uang umum (USD, EUR, SAR, AED, EGP, GBP). Persentase pajak dan total dihitung secara otomatis."
+    },
+    "cv-builder": {
+      "name": "Pembuat CV ATS",
+      "desc": "Buat résumé satu kolom yang bersih yang dapat dibaca sistem pelacak pelamar.",
+      "long": "Isi pengalaman, pendidikan, dan keterampilan Anda — tata letaknya sengaja dibuat sederhana (satu kolom, judul polos, tanpa tabel atau grafis) karena itulah yang dapat diurai dengan andal oleh perangkat lunak ATS. Résumé panjang otomatis mengalir ke halaman tambahan.",
+      "faq1q": "Mengapa desainnya terlihat begitu polos?",
+      "faq1a": "Sistem pelacak pelamar yang digunakan sebagian besar pemberi kerja kesulitan dengan tata letak multi-kolom, ikon, dan kotak teks. Résumé satu kolom dengan judul yang jelas lebih mungkin diurai dengan benar dan sampai ke peninjau manusia.",
+      "faq2q": "Bisakah résumé saya memiliki lebih dari satu halaman?",
+      "faq2a": "Ya — konten yang tidak muat di halaman pertama otomatis berlanjut ke halaman tambahan."
+    },
+    "flatten-pdf": {
+      "name": "Ratakan PDF",
+      "desc": "Jadikan kolom formulir dan anotasi bagian permanen dari halaman.",
+      "long": "Kolom formulir interaktif, komentar, dan lapisan digabung ke dalam isi halaman yang rata, sehingga PDF Anda terlihat identik di mana-mana dan tidak dapat lagi disunting oleh orang lain.",
+      "faq1q": "Apa yang terjadi pada kolom formulir yang diisi?",
+      "faq1a": "Nilai saat ini menjadi teks cetak permanen; formulirnya sendiri tidak lagi interaktif.",
+      "faq2q": "Apakah ini berfungsi pada PDF tanpa formulir?",
+      "faq2a": "Ya — jika tidak ada yang perlu diratakan, berkas hanya disimpan ulang tanpa perubahan."
+    },
+    "crop-pdf": {
+      "name": "Potong PDF",
+      "desc": "Rapikan margin putih atau ubah area halaman yang terlihat dari sebuah PDF.",
+      "long": "Pilih persentase margin dan area terlihat setiap halaman menyusut ke dalam — berguna untuk menghilangkan ruang putih berlebih sebelum mencetak atau menyematkan halaman di tempat lain.",
+      "faq1q": "Apakah pemotongan menghapus konten?",
+      "faq1a": "Tidak — ini hanya mengubah batas halaman yang terlihat (kotak crop); isi halaman asli di bawahnya dipertahankan.",
+      "faq2q": "Bisakah saya memotong tidak merata di setiap sisi?",
+      "faq2a": "Versi saat ini menerapkan persentase yang sama di semua sisi. Pemotongan kustom per sisi ada dalam rencana pengembangan kami."
+    },
+    "code-snippet": {
+      "name": "Kode ke Gambar",
+      "desc": "Ubah kode sumber menjadi gambar ber-syntax-highlight yang dapat dibagikan.",
+      "long": "Tempel kode apa pun, pilih tema terang atau gelap, dan unduh PNG yang bersih dengan bilah judul ala macOS — sempurna untuk tweet, slide, dan dokumentasi.",
+      "faq1q": "Bahasa apa saja yang disorot?",
+      "faq1a": "Penyorot ringan mengenali kata kunci, string, komentar, dan angka umum di sebagian besar bahasa bergaya C dan scripting.",
+      "faq2q": "Bisakah saya mengubah nama berkas yang ditampilkan di bilah judul?",
+      "faq2a": "Ya — edit kolom nama berkas di atas area kode sebelum mengunduh."
+    },
+    "handwriting": {
+      "name": "Teks ke tulisan tangan",
+      "desc": "Ubah teks yang diketik menjadi gambar bergaya tulisan tangan yang natural.",
+      "long": "Pilih kertas bergaris, polos, atau grid dan warna tinta, dan teks Anda dirender dalam font bergaya tulisan tangan yang mengalir — skrip Arab tersambung dan terbentuk dengan benar.",
+      "faq1q": "Apakah ini tulisan tangan asli atau font?",
+      "faq1a": "Ini menggunakan typeface bergaya tulisan tangan terbuka yang dirender oleh peramban Anda, bukan pindaian tulisan tangan asli — tetapi terlihat natural dan terbaca dengan baik.",
+      "faq2q": "Apakah ini mendukung Arab?",
+      "faq2a": "Ya — typeface tampilan Arab khusus digunakan sehingga huruf terhubung dan terbentuk dengan baik, tidak seperti font teks polos yang dipaksa menjadi gaya 'tulisan tangan'."
+    },
+    "ghost-text": {
+      "name": "Teks hantu — sembunyikan pesan dalam teks",
+      "desc": "Sembunyikan pesan rahasia secara tak terlihat di dalam teks yang tampak biasa.",
+      "long": "Pesan Anda dienkode menggunakan karakter lebar-nol tak terlihat yang disulam ke dalam teks yang terlihat — salin hasilnya di mana saja dan hanya seseorang dengan alat ini yang dapat mengungkapnya.",
+      "faq1q": "Apakah teks tersembunyi akan terlihat jika saya menempelnya di suatu tempat?",
+      "faq1a": "Tidak — karakter tak terlihat memiliki lebar nol dan tidak muncul di sebagian besar aplikasi, meskipun beberapa platform mungkin menghapusnya saat Anda menempel.",
+      "faq2q": "Apakah ini enkripsi yang aman?",
+      "faq2a": "Tidak — perlakukan sebagai cara yang menyenangkan untuk menyembunyikan catatan di depan mata, bukan sebagai perlindungan untuk rahasia sensitif."
+    },
+    "steganography": {
+      "name": "Sembunyikan pesan dalam gambar",
+      "desc": "Sembunyikan pesan teks di dalam foto PNG biasa.",
+      "long": "Pesan Anda dienkode ke bit yang paling tidak signifikan dari piksel gambar — tak terlihat oleh mata, tetapi dapat dipulihkan dengan alat yang sama ini.",
+      "faq1q": "Apakah menyembunyikan pesan mengubah tampilan gambar?",
+      "faq1a": "Tidak ada perbedaan yang terlihat — hanya bit terakhir dari setiap warna piksel yang berubah, jauh di bawah yang dapat dilihat mata manusia.",
+      "faq2q": "Mengapa gambarnya harus PNG?",
+      "faq2a": "Kompresi JPEG membuang tepat jenis detail piksel halus yang diandalkan pesan tersembunyi. PNG mengawetkan setiap bit dengan tepat."
+    },
+    "file-xray": {
+      "name": "X-Ray Berkas",
+      "desc": "Periksa jenis, ukuran, dan byte mentah sebenarnya dari berkas apa pun.",
+      "long": "Unggah berkas apa pun untuk melihat jenis yang dinyatakan, jenis aslinya yang terdeteksi dari tanda tangan biner, dimensi jika berupa gambar, dan dump heksadesimal dari byte pertamanya — berguna untuk memverifikasi bahwa berkas adalah apa yang diklaim.",
+      "faq1q": "Mengapa jenis yang dinyatakan sebuah berkas berbeda dari jenis aslinya?",
+      "faq1a": "Berkas yang diganti namanya (mis. sebuah .txt yang sebenarnya berisi JPEG) mempertahankan ekstensi lamanya tetapi tanda tangan binernya mengungkap kebenarannya.",
+      "faq2q": "Apakah berkas saya diunggah ke mana pun?",
+      "faq2a": "Tidak — hanya 64 byte pertama yang dibaca secara lokal di peramban Anda untuk mendeteksi tanda tangan; berkasnya sendiri tidak pernah meninggalkan perangkat Anda."
+    },
+    "organize-pdf": {
+      "name": "Atur PDF",
+      "desc": "Susun ulang, putar, hapus, dan ekstrak halaman di satu tempat.",
+      "long": "Muat sebuah PDF dan atur setiap halaman persis seperti yang Anda butuhkan. Seret halaman ke urutan baru, putar halaman individual, hapus yang tidak Anda inginkan, dan ekspor dokumen terorganisasi yang bersih — semuanya di peramban Anda.",
+      "faq1q": "Bisakah saya menghapus atau memutar hanya beberapa halaman?",
+      "faq1a": "Ya. Klik thumbnail halaman untuk memilih atau membatalkan pilihannya, gunakan tombol putar di halaman mana pun, dan susun ulang secara bebas sebelum mengekspor.",
+      "faq2q": "Apakah PDF saya diunggah ke mana pun?",
+      "faq2a": "Tidak. Semuanya terjadi secara lokal di perangkat Anda. Tidak ada yang dikirim ke server."
+    },
+    "images-to-pdf": {
+      "name": "Gambar ke PDF",
+      "desc": "Ubah beberapa gambar JPG, PNG, atau WebP menjadi satu file PDF.",
+      "long": "Pilih beberapa gambar, atur urutannya, pilih ukuran halaman dan margin, dan ekspor semuanya ke dalam satu PDF. Penyusunan ulang dan tata letak semuanya terjadi secara lokal di peramban Anda.",
+      "faq1q": "Format gambar apa saja yang didukung?",
+      "faq1a": "Semua format umum yang dapat ditampilkan peramban Anda, termasuk JPG, PNG, WebP, GIF, dan lainnya.",
+      "faq2q": "Bisakah saya mengubah orientasi halaman?",
+      "faq2a": "Ya. Saat menggunakan halaman A4 Anda dapat memilih potret atau lanskap; jika tidak, halaman menyesuaikan dengan setiap gambar secara otomatis."
+    },
+    "protect-pdf": {
+      "name": "Buka Kunci PDF",
+      "desc": "Buka kunci dan hapus kata sandi dari file PDF.",
+      "long": "Unggah PDF berproteksi kata sandi yang Anda berhak gunakan dan alat ini menyimpannya ulang tanpa kata sandi, sepenuhnya di peramban Anda. Berkas tidak pernah meninggalkan perangkat Anda.",
+      "faq1q": "PDF terenkripsi apa saja yang didukung?",
+      "faq1a": "PDF yang menggunakan enkripsi kata sandi umum biasanya dapat dibuka dan disimpan ulang tanpa kata sandi. Beberapa dokumen langka atau yang diproteksi kuat mungkin tidak didukung.",
+      "faq2q": "Apakah benar-benar diproses secara lokal?",
+      "faq2a": "Ya. Seluruh proses berjalan di perangkat Anda dan tidak ada yang diunggah ke server mana pun."
+    },
+    "pdf-redaction": {
+      "name": "Redaksi PDF",
+      "desc": "Hitungam teks sensitif secara permanen dalam PDF Anda.",
+      "long": "Ketik kata-kata yang ingin disembunyikan dan alat ini menemukan setiap kemunculannya di semua halaman, mengecat kotak hitam pejal di atasnya sebelum Anda mengekspor. Teks yang dihapus tidak lagi muncul di keluaran.",
+      "faq1q": "Apakah teks tersembunyi benar-benar dihapus?",
+      "faq1a": "Ya. Teks yang cocok ditutup dengan persegi panjang hitam permanen di berkas yang diekspor, bukan sekadar disembunyikan.",
+      "faq2q": "Apakah ini berfungsi pada PDF pindaian?",
+      "faq2a": "Ini berfungsi pada PDF yang mengandung teks. Halaman pindaian tanpa lapisan teks tidak dapat dicari kata-katanya."
+    },
+    "pdf-editor": {
+      "name": "Edit PDF",
+      "desc": "Edit file PDF secara online: tambah teks, gambar, dan tanda tangan.",
+      "long": "Pilih halaman, tulis teks yang ingin ditambahkan, pilih ukuran, warna, dan posisinya, lalu letakkan di atas PDF Anda. Beberapa hamparan teks dapat dilapisi di halaman yang sama.",
+      "faq1q": "Bisakah saya mengedit teks yang sudah ada?",
+      "faq1a": "Alat ini menambahkan hamparan teks baru di atas halaman. Untuk mengedit teks aslinya sendiri, Anda perlu menghasilkan ulang dokumen sumbernya.",
+      "faq2q": "Di mana teks ditempatkan?",
+      "faq2a": "Gunakan persentase X dan Y untuk memposisikan teks di mana saja di halaman, diukur dari sudut kiri-bawah halaman."
+    },
+    "pdf-to-audio": {
+      "name": "PDF ke Audio",
+      "desc": "Dengarkan PDF Anda sebagai audio yang diucapkan.",
+      "long": "Ekstrak teks dari PDF Anda dan putar kembali dengan lantang menggunakan mesin ucapan bawaan peramban Anda. Sesuaikan kecepatan baca, lalu simpan teks yang diekstrak sebagai berkas jika Anda suka.",
+      "faq1q": "Apakah ini berfungsi secara offline?",
+      "faq1a": "Ekstraksi teks berjalan secara lokal. Pemutaran ucapan menggunakan suara sistem Anda, yang biasanya berfungsi secara offline.",
+      "faq2q": "Apakah audionya diunduh sebagai berkas?",
+      "faq2a": "Ucapan diputar secara real-time melalui peramban Anda. Anda juga dapat mengunduh berkas teks yang diekstrak untuk keperluan lain."
+    },
+    "document-scanner": {
+      "name": "Pindai Dokumen",
+      "desc": "Ubah foto dokumen menjadi pindaian yang bersih.",
+      "long": "Unggah foto yang diambil dengan ponsel atau kamera Anda dan pertajam menjadi tampilan pindaian yang bersih — sesuaikan kecerahan, kontras, dan ubah menjadi hitam & putih, lalu unduh sebagai PNG atau PDF.",
+      "faq1q": "Apakah koneksi internet diperlukan?",
+      "faq1a": "Tidak. Semua pemrosesan gambar dilakukan secara lokal di perangkat Anda menggunakan kanvas HTML.",
+      "faq2q": "Bisakah saya menggunakannya dengan kamera saya?",
+      "faq2a": "Pilih berkas gambar dari perangkat atau galeri Anda. Setiap perangkat didukung karena berjalan di peramban."
+    },
+    "qr-with-logo": {
+      "name": "QR Code dengan Logo",
+      "desc": "Buat kode QR berwarna dengan logo Anda di tengah.",
+      "long": "Buat kode QR yang disesuaikan dengan warna merek Anda dan letakkan logo di tengah. Koreksi kesalahan tinggi digunakan sehingga kode tetap dapat dipindai dengan andal meskipun ada logo di atasnya.",
+      "faq1q": "Apakah kodenya tetap dapat dipindai dengan logo?",
+      "faq1a": "Ya. Tingkat koreksi kesalahan tertinggi digunakan sehingga kode QR tetap dapat dipindai bahkan dengan logo di tengah.",
+      "faq2q": "Konten apa yang dapat ditampungnya?",
+      "faq2a": "Teks apa pun, URL, konfigurasi WiFi, atau detail kontak, seperti kode QR biasa."
+    },
+    "certificate-generator": {
+      "name": "Pembuat Sertifikat",
+      "desc": "Rancang dan unduh sertifikat profesional.",
+      "long": "Masukkan nama penerima, judul kursus atau prestasi, dan organisasi Anda, pilih bahasanya, dan segera unduh sertifikat yang dirancang indah sebagai gambar resolusi tinggi.",
+      "faq1q": "Apakah saya perlu mendaftar?",
+      "faq1a": "Tidak. Sertifikat dihasilkan sepenuhnya di peramban Anda tanpa akun atau unggahan.",
+      "faq2q": "Format apa yang saya dapatkan?",
+      "faq2a": "Anda mengunduh gambar PNG resolusi tinggi yang dapat Anda cetak di kertas standar atau kirim secara digital."
+    },
+    "letter-generator": {
+      "name": "Pembuat Surat",
+      "desc": "Tulis surat formal dengan kata-kata yang siap pakai.",
+      "long": "Pilih jenis surat — pengunduran diri, cuti, keluhan, banding, mutasi, atau lamaran kerja — isi nama dan detail Anda, dan segera dapatkan teks formal yang disusun dengan benar yang dapat Anda salin atau unduh.",
+      "faq1q": "Bahasa apa saja yang tersedia?",
+      "faq1a": "Templat surat menyesuaikan dengan bahasa situs Anda dan tersedia dalam bahasa Arab, Inggris, dan Spanyol.",
+      "faq2q": "Bisakah saya mengedit kata-katanya?",
+      "faq2a": "Ya. Surat yang dihasilkan muncul di kotak teks yang dapat disunting yang dapat Anda ubah dengan bebas sebelum menyalin atau mengunduh."
+    },
+    "id-card-generator": {
+      "name": "Generator Kartu ID Karyawan",
+      "desc": "Buat lencana karyawan profesional dengan foto, kode batang, dan kode QR.",
+      "long": "Isi nama, jabatan, tanggal mulai kerja, dan nomor karyawan, tambahkan foto, lalu unduh kartu bersih berukuran ISO ID-1 (85,6 × 54 mm) sebagai PDF. Kode batang CODE128 dan kode QR dibuat otomatis dari nomor karyawan — semua diproses di perangkat Anda.",
+      "ui": {
+        "name": "Nama lengkap",
+        "title": "Jabatan",
+        "hireDate": "Tanggal masuk",
+        "idNumber": "ID karyawan",
+        "company": "Organisasi / Perusahaan",
+        "photo": "Foto",
+        "uploadPhoto": "Pilih foto",
+        "capturePhoto": "Ambil foto",
+        "cancel": "Batal",
+        "removePhoto": "Hapus",
+        "logo": "Logo perusahaan (opsional)",
+        "uploadLogo": "Pilih logo",
+        "removeLogo": "Hapus",
+        "wmIntensity": "Opasitas tanda air",
+        "wmSizeLabel": "Ukuran tanda air",
+        "placeholder": "Karyawan",
+        "titlePlaceholder": "mis. Insinyur perangkat lunak",
+        "idPlaceholder": "EMP-0001",
+        "save": "Pratinjau kartu",
+        "print": "Unduh kartu PDF",
+        "reset": "Atur ulang",
+        "hint": "Isi kolom, lalu klik « Pratinjau kartu » untuk melihat desain",
+        "emptyName": "Masukkan nama untuk membuat kartu",
+        "scanHint": "Saat dipindai, QR menampilkan detail lengkap karyawan. Ketuk QR di kartu untuk memperbesar (barcode hanya berisi ID karyawan).",
+        "qrName": "Nama",
+        "qrTitle": "Jabatan",
+        "qrCompany": "Perusahaan",
+        "qrHire": "Tanggal masuk",
+        "scanDataLabel": "Isi QR (yang muncul saat dipindai):",
+        "employeeId": "ID karyawan",
+        "hire": "Tanggal masuk",
+        "color": "Warna utama",
+        "preview": "Pratinjau",
+        "size": "Ukuran",
+        "processing": "Membuat...",
+        "cameraUnsupported": "Browser Anda tidak mendukung akses kamera.",
+        "cameraDenied": "Tidak dapat membuka kamera. Izinkan akses dan coba lagi.",
+        "createInvoice": "Buat faktur"
+      },
+      "faq1q": "Berapa ukuran kartunya?",
+      "faq1a": "Kartu mengikuti standar ISO ID-1 (85,6 × 54 mm, ukuran kartu kredit atau KTP), diekspor pada 300 DPI.",
+      "faq2q": "Apakah kode batang menyimpan nomor karyawan saya?",
+      "faq2a": "Ya — kode batang CODE128 dan kode QR sama-sama menyimpan ID karyawan yang Anda masukkan, sehingga lencana dapat dipindai oleh pemindai standar."
+    }
+  },
+  "footer": {
+    "rights": "Alat berkas gratis berbasis peramban. Berkas Anda tidak pernah meninggalkan perangkat Anda.",
+    "madeBy": "Dibuat oleh hoursmedia",
+    "toolsCol": "Alat",
+    "popularCol": "Alat populer",
+    "companyCol": "Perusahaan",
+    "blog": "Blog"
+  },
+  "breadcrumb": {
+    "home": "Beranda"
+  },
+  "pages": {
+    "about": {
+      "title": "Tentang ChooseTools",
+      "body": [
+        "ChooseTools adalah kumpulan alat berkas gratis yang berjalan sepenuhnya di dalam peramban Anda. Tidak seperti situs alat tradisional, kami tidak pernah menerima berkas Anda: menggabungkan PDF, mengompres foto, atau membuat kode QR semuanya terjadi secara lokal di perangkat Anda sendiri.",
+        "Arsitektur ini memiliki tiga konsekuensi yang kami banggakan. Pertama, privasi — berkas yang tidak pernah dikirim tidak akan pernah bisa bocor, dicatat, atau disimpan. Kedua, kecepatan — tidak ada waktu unggah atau unduh, sehingga berkas besar pun diproses secara instan. Ketiga, kejujuran — karena pemrosesan tidak mengeluarkan biaya bagi kami, kami dapat menawarkan penggunaan yang benar-benar tanpa batas tanpa batas ukuran berkas, kuota harian, atau tanda air.",
+        "Platform ini tersedia dalam banyak bahasa, dan setiap penjelasan ditulis secara asli, bukan hasil terjemahan mesin. Beberapa alat eksklusif kami — seperti penghapusan tashkeel, konversi tanggal Hijriah, dan tafqit — dibuat khusus untuk pengguna Arab, tidak diadaptasi dari alat berbahasa Inggris.",
+        "ChooseTools dibangun dan dikelola oleh hoursmedia. Alat baru rilis setiap minggu; jika ada yang Anda rasa kurang, kami akan senang mendengar kabar dari Anda."
+      ]
+    },
+    "contact": {
+      "title": "Kontak",
+      "body": [
+        "Punya pertanyaan, menemukan bug, atau ingin menyarankan alat baru? Kami membaca setiap pesan.",
+        "Email kami di: contact@choosetools.com (perbarui alamat ini setelah menghubungkan kotak surat domain Anda).",
+        "Karena semua pemrosesan terjadi di peramban Anda, kami tidak dapat melihat atau memulihkan berkas apa pun yang Anda kerjakan — untuk masalah khusus berkas, mohon jelaskan jenis berkas dan langkah-langkah yang mengarah ke masalah tersebut.",
+        "ChooseTools dioperasikan oleh hoursmedia, Belanda."
+      ]
+    },
+    "privacy": {
+      "title": "Kebijakan Privasi",
+      "body": [
+        "Terakhir diperbarui: Juli 2026. Kebijakan ini menjelaskan data apa yang diproses dan tidak diproses oleh ChooseTools (dioperasikan oleh hoursmedia) saat Anda menggunakan situs web ini.",
+        "Berkas Anda. Semua alat di situs ini memproses berkas secara lokal di peramban Anda menggunakan JavaScript dan WebAssembly. Berkas Anda tidak pernah diunggah ke, disimpan di, atau dilihat oleh server kami. Anda dapat memverifikasinya dengan memutus koneksi internet setelah halaman alat dimuat — alat tersebut tetap berfungsi.",
+        "Analitik. Kami menggunakan analitik agregat yang menghormati privasi untuk memahami alat mana yang digunakan dan meningkatkan situs ini. Ini dapat mencakup halaman yang dikunjungi, jenis peramban, lokasi tingkat negara, dan sumber rujukan. Ini tidak pernah mencakup isi berkas atau teks Anda.",
+        "Iklan. Situs ini dapat menampilkan iklan yang disajikan oleh Google AdSense. Google dan mitranya dapat menggunakan cookie untuk menayangkan iklan berdasarkan kunjungan Anda sebelumnya ke situs ini atau situs lain. Anda dapat memilih keluar dari iklan yang dipersonalisasi dengan mengunjungi Pengaturan Iklan Google (adssettings.google.com). Pengunjung UE/EEA/Inggris ditampilkan banner persetujuan sesuai dengan GDPR dan disajikan iklan non-personalisasi kecuali persetujuan diberikan.",
+        "Cookie. Selain cookie iklan dan persetujuan yang dijelaskan di atas, situs ini tidak memasang cookie pelacakan. Preferensi bahasa Anda dapat disimpan secara lokal di peramban Anda.",
+        "Newsletter. Jika Anda berlangganan newsletter kami, kami menyimpan alamat email Anda dengan penyedia email kami semata-mata untuk mengirimkan newsletter kepada Anda. Setiap email berisi tautan berhenti berlangganan sekali klik, dan kami menggunakan persetujuan ganda (double opt-in).",
+        "Hak Anda. Berdasarkan GDPR, Anda berhak mengakses, mengoreksi, atau menghapus data pribadi yang kami simpan tentang Anda (yang, bagi sebagian besar pengunjung, tidak ada). Hubungi kami menggunakan detail di halaman Kontak.",
+        "Perubahan. Kami dapat memperbarui kebijakan ini seiring berkembangnya situs; tanggal di atas selalu mencerminkan revisi terbaru."
+      ]
+    },
+    "terms": {
+      "title": "Ketentuan Layanan",
+      "body": [
+        "Terakhir diperbarui: Juli 2026. Dengan menggunakan ChooseTools, Anda menyetujui ketentuan ini.",
+        "Layanan. ChooseTools menyediakan utilitas berkas gratis berbasis peramban. Semua pemrosesan terjadi di perangkat Anda; kami tidak pernah menerima berkas Anda dan karena itu tidak memiliki kemampuan untuk mengakses, memulihkan, atau mencadangkannya.",
+        "Penggunaan yang dapat diterima. Anda dapat menggunakan alat ini untuk tujuan apa pun yang sah, pribadi atau komersial. Anda tidak boleh mencoba mengganggu layanan, mengeruknya dengan volume yang berlebihan, atau menggunakannya untuk memproses materi yang tidak berhak Anda proses.",
+        "Tanpa jaminan. Alat-alat ini disediakan 'sebagaimana adanya', tanpa jaminan dalam bentuk apa pun. Meskipun kami menguji setiap alat secara cermat, Anda bertanggung jawab untuk memverifikasi hasil sebelum mengandalkannya — selalu simpan berkas asli Anda.",
+        "Batasan tanggung jawab. Sejauh yang diizinkan oleh hukum, hoursmedia tidak bertanggung jawab atas kerusakan apa pun yang timbul dari penggunaan situs ini, termasuk kehilangan data. Karena berkas asli Anda tidak pernah meninggalkan perangkat Anda dan tidak pernah dimodifikasi oleh kami, berkas asli Anda selalu tetap berada dalam kepemilikan Anda.",
+        "Kekayaan intelektual. Desain situs, teks, dan kode adalah milik hoursmedia. Berkas yang Anda proses sepenuhnya tetap milik Anda; kami tidak mengklaim hak apa pun atas berkas tersebut.",
+        "Perubahan. Kami dapat mengubah ketentuan ini atau menghentikan alat kapan saja. Penggunaan yang berlanjut setelah perubahan merupakan penerimaan."
+      ]
+    }
+  },
+  "sub": {
+    "pdf": {
+      "all": "Semua PDF",
+      "organize": "Atur",
+      "convert": "Ubah",
+      "optimize": "Optimalkan",
+      "security": "Keamanan"
+    },
+    "image": {
+      "all": "Semua Gambar",
+      "resizeCrop": "Ubah Ukuran & Potong",
+      "convert": "Ubah",
+      "optimize": "Optimalkan"
+    },
+    "text": {
+      "all": "Semua Alat",
+      "textTools": "Alat Teks",
+      "devTools": "Alat Pengembang",
+      "arabicTools": "Alat Teks Arab"
+    }
+  },
+  "blog": {
+    "metaTitle": "Blog Tools - Panduan, Tutorial, dan Artikel Cara Kerja untuk Alat File Gratis",
+    "metaDescription": "Jelajahi blog ChooseTools untuk panduan mendalam, tutorial, dan artikel praktis tentang setiap alat file gratis: alat PDF, gambar, dan teks yang berjalan di browser Anda.",
+    "indexTitle": "Blog Tools",
+    "indexIntro": "Panduan ahli, tutorial praktis, dan cara cepat untuk setiap aplikasi ChooseTools. Setiap artikel menjelaskan alat langkah demi langkah dan menautkan langsung ke alat gratisnya.",
+    "countArticles": "artikel dan terus bertambah",
+    "readingTime": "{minutes} menit baca",
+    "lastUpdated": "Diperbarui Sep 2026",
+    "tocTitle": "Dalam artikel ini",
+    "faqTitle": "Pertanyaan yang sering diajukan",
+    "relatedTitle": "Alat terkait",
+    "relatedHint": "Alat online gratis",
+    "ctaTitle": "Siap menggunakan {name}?",
+    "openTool": "Buka alat",
+    "privacyNote": "Gratis · tanpa daftar · file tidak pernah meninggalkan perangkat Anda",
+    "backToBlog": "Kembali ke semua artikel"
+  }
+}

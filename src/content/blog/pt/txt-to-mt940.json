@@ -1,0 +1,132 @@
+{
+  "slug": "txt-to-mt940",
+  "title": "Conversor de TXT para MT940: Crie Extratos MT940 a Partir de Texto Online Grátis",
+  "description": "Conversor gratuito de TXT para MT940 para gerar extratos MT940 em formato bancário a partir de dados de texto simples, no seu navegador. Privado, sem uploads, sem registo.",
+  "keywords": ["txt para mt940", "mt940 a partir de texto", "gerar mt940 txt", "conversor mt940 txt", "criar mt940 a partir de texto", "txt para mt940 online", "ficheiro mt940 a partir de texto"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Texto Simples Dentro, Padrão Bancário Fora",
+      "paragraphs": [
+        "Quando um sistema entrega dados de transações como texto simples, convertê-lo para MT940 torna-o digerível para bancos e ferramentas de tesouraria. A [txt-to-mt940:Geração de MT940 a partir de texto simples] padroniza linhas em bruto no formato com tags que os importadores esperam.",
+        "Sem folhas de cálculo, sem re-digitação manual — saída estruturada diretamente.",
+        "A ChooseTools converte TXT para MT940 localmente no seu navegador."
+      ]
+    },
+    {
+      "heading": "Como Converter Texto para MT940",
+      "paragraphs": [
+        "De texto livre a um extrato conforme a norma:",
+        "Cole as suas linhas de transação em texto simples, descreva o layout (ordem da data, montante, descrição) e gere o ficheiro MT940 pronto a entregar ao seu destinatário.",
+        "A conversão é executada localmente, preservando a confidencialidade."
+      ]
+    },
+    {
+      "heading": "Layouts de Linha Lidos Automaticamente",
+      "paragraphs": [
+        "As linhas de texto simples e previsíveis convertem-se em tags MT940 estruturadas.",
+        "As datas e os montantes normalizam-se para as expectativas do formato.",
+        "O conversor entrega extratos prontos a importar em vez de notas em bruto."
+      ]
+    },
+    {
+      "heading": "Para Testes de Extratos e Sistemas Legados",
+      "paragraphs": [
+        "Os ficheiros de extrato simulados para testes de integração chegam rapidamente a partir de fixtures de texto simples.",
+        "As exportações legadas migram para formatos bancários utilizáveis sem folhas de cálculo.",
+        "Os dados fluem para pipelines modernos em vez de ficarem parados num ficheiro de texto."
+      ]
+    },
+    {
+      "heading": "Estrutura Padrão, Zero Edições Manuais",
+      "paragraphs": [
+        "As posições de campo e os comprimentos de linha formam-se automaticamente.",
+        "A consistência garante que os analisadores a jusante validam o ficheiro limpo.",
+        "Resultados de nível bancário à primeira tentativa."
+      ]
+    },
+    {
+      "heading": "Construção Privada de Extratos",
+      "paragraphs": [
+        "Os dados em texto simples podem conter números de conta e saldos; a conversão local sela-os.",
+        "Sem uploads, sem conta, sem marca de água — em todas as plataformas.",
+        "Pipelines privados, saída conforme a norma."
+      ]
+    },
+    {
+      "heading": "Trabalho MT940 na Suite",
+      "paragraphs": [
+        "Complete o ciclo com [mt940-to-excel:MT940 para Excel], [excel-to-mt940:Excel para MT940] e [csv-to-excel:importações de folhas de cálculo].",
+        "O kit de ferramentas é gratuito e nativo do navegador.",
+        "Linhas de texto tornam-se ficheiros fluentes em banca."
+      ]
+    },
+    {
+      "heading": "Estrutura de Tags MT940 e o Que Cada Campo Significa",
+      "paragraphs": [
+        "O formato MT940 organiza os dados numa sequência de campos com tags, começando por uma tag de cabeçalho básico que identifica a conta e o período do extrato.",
+        "As linhas de transação usam uma tag dedicada que codifica a data-valor, a data de contabilização, o indicador de débito ou crédito, o montante e a referência em posições fixas.",
+        "Uma tag informativa transporta detalhes de texto livre como a descrição da transação, o nome da contraparte e qualquer informação de remessa que o banco inclua.",
+        "Compreender estas tags ajuda-o a verificar que a saída convertida corresponde ao que o seu sistema de gestão de tesouraria ou software de contabilidade espera receber."
+      ]
+    },
+    {
+      "heading": "Formatos de Data e Normalização de Moeda",
+      "paragraphs": [
+        "Os bancos expressam normalmente as datas no formato de seis dígitos usado nas mensagens SWIFT, enquanto fontes de texto simples podem fornecer datas em vários arranjos regionais.",
+        "O conversor normaliza as strings de data para o formato padrão bancário independentemente de a sua fonte usar hífenes, barras ou sequências numéricas compactas.",
+        "Os montantes de moeda são analisados a partir do texto e colocados nos campos posicionais corretos, tratando separadores decimais e agrupamento de milhares conforme necessário.",
+        "Este passo de normalização elimina a razão mais comum das importações MT940 falharem: datas ou montantes malformados que não conformam com o layout esperado."
+      ]
+    },
+    {
+      "heading": "Gerar Fixtures de Teste para Pipelines de Integração",
+      "paragraphs": [
+        "As equipas de desenvolvimento que constroem integrações de tesouraria precisam de fixtures MT940 realistas para testar analisadores, motores de reconciliação e importações de dashboards.",
+        "Criar essas fixtures a partir de dados de texto simples é significativamente mais rápido do que exportá-las de um ambiente bancário real, especialmente nas primeiras fases de desenvolvimento.",
+        "O conversor permite-lhe iterar rapidamente: ajuste uma linha de transação no texto, reconverta e alimente o resultado na sua suite de testes em segundos.",
+        "Este ciclo de feedback rápido apanha erros de análise antes de chegarem à produção, onde transações mal classificadas podem causar dores de cabeça na reconciliação."
+      ]
+    },
+    {
+      "heading": "Erros de Validação Comuns e Como Evitá-los",
+      "paragraphs": [
+        "Os bancos rejeitam ficheiros MT940 que tenham tags obrigatórias em falta, comprimentos de linha incorretos ou montantes que não batem certo dentro de uma secção do extrato.",
+        "O conversor impõe comprimentos de campo e posições de caracteres automaticamente, prevenindo a maioria das falhas estruturais de validação antes de descarregar o ficheiro.",
+        "Se o seu texto de origem não tiver um campo obrigatório, como o número de conta ou o número de extrato, a ferramenta sinaliza o problema durante a conversão em vez de produzir um ficheiro incompleto.",
+        "Executar uma verificação de validação após a conversão dá-lhe uma confirmação final de que a saída passará o portão de formato do importador à primeira submissão."
+      ]
+    },
+    {
+      "heading": "Tratar Várias Contas Numa Única Conversão",
+      "paragraphs": [
+        "As organizações que gerem várias contas precisam frequentemente de produzir extratos MT940 separados para cada uma, mesmo quando o texto de origem contém transações misturadas.",
+        "O conversor permite-lhe agrupar transações por identificador de conta antes de gerar a saída, garantindo que cada ficheiro de extrato corresponde exatamente a uma conta.",
+        "Este agrupamento evita os erros de reconciliação a jusante que ocorrem quando um único ficheiro contém dados de contas misturados que os analisadores não conseguem separar limpo.",
+        "O design amigo de lote significa que pode processar vários excertos de texto sequencialmente sem reconfigurar o mapeamento de layout de cada vez."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "O que o conversor precisa do meu ficheiro de texto?",
+      "a": "Linhas previsíveis contendo pelo menos uma data, um montante e uma descrição; o layout é confirmado durante a conversão."
+    },
+    {
+      "q": "Porque haveria eu de gerar MT940 a partir de texto?",
+      "a": "Para alimentar exportações legadas, fixtures de teste ou linhas de exportação simples em sistemas bancários que aceitam MT940."
+    },
+    {
+      "q": "A conversão é privada?",
+      "a": "Sim. Tudo é executado localmente no seu navegador, sem uploads nem contas."
+    },
+    {
+      "q": "Que formato de data usa a saída?",
+      "a": "As datas são normalizadas para o formato SWIFT de seis dígitos que os analisadores MT940 esperam, independentemente do formato no seu texto de origem."
+    },
+    {
+      "q": "Posso produzir extratos separados para várias contas?",
+      "a": "Sim. O conversor permite-lhe agrupar transações por identificador de conta para que cada ficheiro de saída corresponda a uma única conta, prevenindo erros de reconciliação a jusante."
+    }
+  ]
+}

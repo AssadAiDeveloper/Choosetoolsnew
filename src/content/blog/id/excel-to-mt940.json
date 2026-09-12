@@ -1,0 +1,115 @@
+{
+  "slug": "excel-to-mt940",
+  "title": "Excel ke MT940: Konversi Data Keuangan XLSX ke MT940 Secara Online Gratis",
+  "description": "Konverter Excel ke MT940 gratis untuk menghasilkan pernyataan MT940 format bank dari data spreadsheet, di browser Anda. Privat, tanpa unggahan, tanpa pendaftaran.",
+  "keywords": ["excel ke mt940", "generator mt940", "konversi xlsx ke mt940", "hasilkan mt940 dari excel", "pernyataan bank ke mt940", "excel ke mt940 online", "generator file mt940"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Saat Sistem Meminta Format Bank",
+      "paragraphs": [
+        "Beberapa platform, bank, dan sistem perbendaharaan hanya menerima MT940. [excel-to-mt940:Mengonversi data Excel ke MT940] mengemas spreadsheet menjadi format pernyataan bertag yang mereka perlukan.",
+        "Kolom dan baris menjadi kode yang diharapkan parser downstream, mempertahankan setiap tanggal, jumlah, dan referensi secara persis.",
+        "ChooseTools membangun MT940 dari Excel secara lokal di browser Anda dengan kendali penuh atas pemetaan field."
+      ]
+    },
+    {
+      "heading": "Cara Mengonversi Excel ke MT940",
+      "paragraphs": [
+        "Dari tabel kerja ke file bertuliskan:",
+        "Unggah workbook yang disusun dengan kolom yang diharapkan — tanggal, jumlah, deskripsi, saldo — petakan field, dan hasilkan teks MT940 yang siap dikirim. Pratinjau mengonfirmasi penempatan tag sebelum unduhan.",
+        "Generasi bersifat lokal, menjaga catatan keuangan tetap tersegel di mesin Anda selama proses berlangsung."
+      ]
+    },
+    {
+      "heading": "Pemetaan Field Membuat Perbedaan",
+      "paragraphs": [
+        "Pemetaan yang benar untuk tanggal, jumlah, dan referensi menentukan apakah MT940 diterima atau ditolak oleh sistem penerima.",
+        "Konverter memandu Anda melalui penugasan kolom ke tag dengan label yang jelas sehingga Anda mencocokkan setiap field dengan percaya diri.",
+        "Hasil akhir divalidasi terhadap aturan standar, bukan hanya menghasilkan teks mentah yang mungkin gagal di downstream."
+      ]
+    },
+    {
+      "heading": "Struktur Tag MT940 Dijelaskan",
+      "paragraphs": [
+        "Setiap file MT940 mengikuti hierarki tag yang ketat. Tag :20 membawa referensi pernyataan unik yang mengidentifikasi ekspor tertentu ini. Tag :25 menamai akun dalam format IBAN atau format lokal bank, sehingga sistem penerima mengetahui transaksi milik akun mana.",
+        "Tag saldo :60M dan :62M membingkai daftar transaksi dengan angka pembukaan dan penutup. Masing-masing berisi indikator debit atau kredit, tanggal, kode mata uang, dan jumlah. Saldo yang akurat wajib karena perangkat lunak rekonsiliasi memvalidasi bahwa saldo penutup satu pernyataan cocok dengan saldo pembukaan pernyataan berikutnya.",
+        "Transaksi individual berada di baris :61 dengan tata letak tanggal, jumlah, dan referensi yang padat, sementara tag :86 memberikan narasi teks bebas. Mencocokkan setiap :61 dengan narasi :86-nya menjaga deskripsi selaras dengan item baris yang benar, mencegah jenis entri terasing yang membingungkan auditor."
+      ]
+    },
+    {
+      "heading": "Untuk Pengujian dan Integrasi Sistem",
+      "paragraphs": [
+        "Tim pengembangan membuat pernyataan sampel untuk menguji importir dan mesin rekonsiliasi tanpa menunggu ekspor bank yang sebenarnya.",
+        "Tim perbendaharaan mengekspor pernyataan untuk bank mitra dalam dialek mereka saat membuat akun baru atau memperbarui modul integrasi.",
+        "Satu workbook, banyak output yang sesuai standar, menghemat jam pemformatan manual di beberapa siklus pengujian."
+      ]
+    },
+    {
+      "heading": "Menangani Multi-Mata Uang dan Periode Pernyataan",
+      "paragraphs": [
+        "Perusahaan yang beroperasi lintas batas sering memelihara akun dalam beberapa mata uang. Setiap mata uang memerlukan blok pernyataannya sendiri dengan kode mata uang yang benar di tag saldo. Konverter menghasilkan urutan pernyataan terpisah untuk setiap mata uang yang ditemukan di workbook, menjaganya tetap dipisahkan dengan benar.",
+        "Tanggal periode pernyataan menentukan tanggal saldo pembukaan :60M dan tanggal saldo penutup :62M. Mendapatkan ini dengan benar penting untuk rekonsiliasi otomatis, yang membandingkan saldo penutup dan pembukaan di seluruh pernyataan berurutan untuk mendeteksi kesenjangan atau transaksi yang hilang.",
+        "Nomor referensi di tag :20 harus mengikuti konvensi bank Anda, baik sekuensial, berbasis tanggal, atau terbatas akun. Skema referensi yang konsisten membuatnya lebih sederhana untuk melacak pernyataan kembali ke workbook sumber saat auditor mengajukan pertanyaan berbulan-bulan kemudian."
+      ]
+    },
+    {
+      "heading": "Sintaks Standar, Tanpa Tebakan",
+      "paragraphs": [
+        "Tag, posisi field, dan panjang baris mengikuti standar secara otomatis sehingga output valid tanpa tinjauan manual.",
+        "Tidak ada penghitungan kurung manual atau operasi tag yang tersisa setelah konverter menerapkan aturan pemformatan.",
+        "Impor yang akurat dimulai dari sumber, mengurangi bolak-balik dengan tim dukungan bank."
+      ]
+    },
+    {
+      "heading": "Jebakan Umum dan Cara Menghindarinya",
+      "paragraphs": [
+        "Pemformatan tanggal adalah sumber penolakan yang paling sering. MT940 memerlukan YYMMDD tanpa pemisah, tetapi spreadsheet sering menyimpan tanggal dalam format spesifik lokal. Konverter menormalisasi tanggal secara otomatis, sehingga kolom entri 15 Maret menjadi 230315 di setiap baris :61 dan saldo.",
+        "Spasi yang hilang atau ekstra dalam narasi teks bebas :86 menyebabkan parser salah menyelaraskan detail transaksi dengan deskripsinya. Alat ini memotong dan menambah padding bidang narasi ke lebar yang diharapkan, mencegah kesalahan spasi halus yang muncul hanya saat bank penerima memproses file.",
+        "Ketidaksesuaian pengodean antara spreadsheet dan output MT940 dapat merusak karakter non-ASCII dalam deskripsi. Konverter memastikan konsistensi UTF-8 di seluruh proses, sehingga teks Arab, Latin beraksen, dan naskah lainnya bertahan utuh."
+      ]
+    },
+    {
+      "heading": "Generasi Keuangan Privat",
+      "paragraphs": [
+        "Data kelas bank tetap di mesin Anda melalui pemrosesan lokal, tanpa server perantara atau penyimpanan cloud.",
+        "Tanpa unggahan, tanpa akun, tanpa tanda air — lintas platform dan sistem operasi.",
+        "Pernyataan dibangun, bukan diekspos, mempertahankan kerahasiaan dari pembuatan hingga pengiriman."
+      ]
+    },
+    {
+      "heading": "MT940 dalam Suite Keuangan",
+      "paragraphs": [
+        "Gabungkan dengan [mt940-to-excel:MT940 ke Excel], [txt-to-mt940:MT940 dari teks] dan [excel-to-csv:ekspor CSV] untuk cakupan lengkap alur kerja pernyataan.",
+        "Semuanya gratis dan berbasis browser, tidak memerlukan instalasi atau langganan.",
+        "Spreadsheet berbicara perbankan dengan lancar setelah konversi selesai."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kolom mana yang harus dimiliki file Excel?",
+      "a": "Tanggal, jumlah, dan deskripsi adalah elemen wajib; saldo dan referensi dipetakan sesuai kebutuhan bank Anda."
+    },
+    {
+      "q": "Bisakah konverter menangani tata letak field yang berbeda?",
+      "a": "Ya. Pemetaan field interaktif menyesuaikan MT940 yang dihasilkan dengan tata letak spreadsheet Anda."
+    },
+    {
+      "q": "Apakah konversi bersifat privat?",
+      "a": "Ya. Semuanya berjalan secara lokal di browser Anda tanpa unggahan atau akun."
+    },
+    {
+      "q": "Format tanggal apa yang digunakan output?",
+      "a": "Tanggal MT940 mengikuti format YYMMDD tanpa pemisah. Konverter menormalisasi tanggal spreadsheet secara otomatis."
+    },
+    {
+      "q": "Bisakah saya menghasilkan pernyataan untuk beberapa mata uang?",
+      "a": "Ya. Alat ini mendeteksi nilai mata uang yang berbeda dalam data Anda dan membuat blok pernyataan terpisah dengan kode mata uang yang benar."
+    },
+    {
+      "q": "Apakah output akan lulus validasi bank?",
+      "a": "Konverter memeriksa struktur tag, konsistensi saldo, dan panjang field terhadap aturan MT940 standar sebelum menghasilkan file."
+    }
+  ]
+}

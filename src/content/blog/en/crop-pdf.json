@@ -1,0 +1,90 @@
+{
+  "slug": "crop-pdf",
+  "title": "How to Crop PDF Pages Online Free: Trim Margins and Remove Unwanted Areas",
+  "description": "Crop PDF pages online free with ChooseTools. Trim margins, cut out unwanted regions and refine layout per page, all in your browser with zero uploads and zero quality loss.",
+  "keywords": ["crop pdf pages", "crop pdf online free", "trim pdf margins", "crop pdf without uploading", "cut pdf page", "remove white margins from pdf", "crop pdf file"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Cropping: Surgical Control of the Visible Page Area",
+      "paragraphs": [
+        "A well-cropped page reads better, prints better and looks professional. Excess margins waste paper and shrink content; stray bits of scanner bed or another page edge make a document look unfinished. [crop-pdf:Cropping PDF pages] gives you precise control over exactly what remains visible.",
+        "Editors that require re-exporting the whole document punish small crops with long renderings. A dedicated crop tool adjusts the visible box of each page and saves an updated PDF in seconds.",
+        "ChooseTools performs the crop locally. Draw or set the crop region per page, preview the result, and download the trimmed file — no upload, no watermark, no registration.",
+        "The crop box defines what readers see while every element inside it keeps its full quality."
+      ]
+    },
+    {
+      "heading": "How to Crop a PDF Page Step by Step",
+      "paragraphs": [
+        "Getting the perfect crop is straightforward with live feedback.",
+        "Open the cropper with your PDF. Select a page and drag the crop handles across the visible area to define what you want to keep, or the tool can auto-detect and trim uniform white margins for you. Apply the crop and download the corrected PDF.",
+        "Because rendering is local, previews are instant even for multi-megabyte files, letting you fine-tune the crop box until it is pixel-perfect before saving.",
+        "Adjusting the box after a first pass costs nothing, so it is easy to iterate until every page sits exactly right."
+      ]
+    },
+    {
+      "heading": "Trim White Margins Automatically for Cleaner Pages",
+      "paragraphs": [
+        "When scans land on a page with large white borders — or when a document is exported with excessive padding — the most common need is simply removing that uniform blank margin.",
+        "Auto-trim detects the bounding content area and tightens each page to it, producing a compact, print-friendly result in one click. This is a favorite of researchers saving papers and of digitization teams processing books.",
+        "After an auto-trim, many pages benefit from a final manual nudge on particular pages — combining the automatic pass with per-page micro-adjustments gives the best of both approaches.",
+        "Digital-first teams use the same pass to strip oversized empty borders from exported slides and dashboards before publishing."
+      ]
+    },
+    {
+      "heading": "Crop for Focus: Remove Backgrounds, Annotations and Sidebars",
+      "paragraphs": [
+        "Sometimes cropping is about focus, not just margins: cutting out a toolbar captured in a screenshot, removing an unwanted annotation area, or isolating a chart within a page.",
+        "The box selection handles these cases perfectly. Choose the region that matters, crop, and the clutter disappears from the output while the important content stays razor sharp.",
+        "Integration with the wider suite keeps the workflow smooth: [pdf-to-jpg:convert the cropped PDF] for use in slide decks or email body images, or [compress-pdf:compress] the result before distribution.",
+        "A focused crop also helps printed materials: less clutter on the page means the core message dominates the sheet."
+      ]
+    },
+    {
+      "heading": "Keeping Headers, Footers and Page Numbers Consistent",
+      "paragraphs": [
+        "Documents where every page carries a running header benefit from a uniform crop that keeps that band visible while trimming dead space below or beside it.",
+        "Applying the same crop box across the whole document produces a consistent trim on every page — the look of a professionally typeset document without touching the original layout files.",
+        "For pages that deviate from the norm, fall back to per-page cropping so the finale matches the rest of the set.",
+        "Consistency is what separates a tidy archive from a pile of scans, and a shared crop box delivers it in one click."
+      ]
+    },
+    {
+      "heading": "Privacy, Speed and No Watermarks",
+      "paragraphs": [
+        "Cropping decides what recipients will and will not see, making it genuinely sensitive. Local processing means that decision is made entirely on your device.",
+        "The cropped output is a clean PDF with no promotional text, and there is no account or quota that would interrupt work. It runs identically on desktop, laptop and mobile browsers.",
+        "Quality is preserved because cropping changes only the visible box definition; the text, fonts, vectors and images remain intact and selectable in the resulting file.",
+        "Nothing about the crop operation is logged or stored, so the trimming stays as private as the document itself."
+      ]
+    },
+    {
+      "heading": "Best Practices for Consistent Multi-Page Cropping",
+      "paragraphs": [
+        "For documents where every page shares the same layout, applying one identical crop box across all pages keeps the result uniform — ideal for reports, books and portfolios.",
+        "For mixed scans, treat cropping as part of a larger cleanup: normalize rotation with [rotate-pdf:Rotate PDF], then crop, then [delete-pdf-pages:remove leftovers] for a truly presentable archive.",
+        "Whatever your source material, browser-based cropping turns a fiddly layout chore into a fast, repeatable, export-free process.",
+        "Chaining the cleanup steps keeps every archive, bid and document consistent without ever re-exporting from a heavy editor."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I crop different pages with different regions?",
+      "a": "Yes. You can set an individual crop box per page, or apply the same crop to all pages for a uniform result, depending on your document."
+    },
+    {
+      "q": "Does cropping reduce the text quality or selectability?",
+      "a": "No. Cropping adjusts the visible page area only. Text within the cropped region remains fully selectable and searchable at its original quality."
+    },
+    {
+      "q": "Is there an automatic option to remove white margins?",
+      "a": "Yes. The auto-trim feature detects the content bounding box and trims uniform white margins across pages in a single click."
+    },
+    {
+      "q": "Can I keep a running header while cropping the rest of the page?",
+      "a": "Yes. Apply a crop box that retains the header band across all pages, or fine-tune individual pages that need a different trim."
+    }
+  ]
+}

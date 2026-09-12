@@ -1,0 +1,107 @@
+{
+  "slug": "markdown-to-html",
+  "title": "Markdown'dan HTML'e: Çevrimiçi Ücretsiz MD'yi HTML'e Dönüştürün",
+  "description": "Markdown belgelerini önizlemeyle anında temiz HTML'e dönüştürmek için ücretsiz Markdown'dan HTML'e dönüştürücü. Gizli, tarayıcınızda, yükleme yok.",
+  "keywords": ["markdown'dan html'e", "md'den html'e dönüştürücü", "markdown'ı html'e dönüştürme", "markdown dönüştürücü", "çevrimiçi markdown'dan html'e", "ücretsiz md'den html'e", "markdown derleyici"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Markdown Yazarın Biçimidir, HTML Web'in Biçimidir",
+      "paragraphs": [
+        "Dokümanlar, README'ler ve notlar insanlar için Markdown'da yaşarken tarayıcıların HTML'e ihtiyacı vardır. [markdown-to-html:Markdown'ı HTML'e dönüştürme], ikisini bildirimsel ve kayıpsız biçimde köprüler.",
+        "Yayınlama hatları, statik siteler ve içerik sistemlerinin tümü derlenmiş çıktıyı tüketir.",
+        "ChooseTools, canlı önizlemeyle Markdown'u tarayıcınızda yerel olarak HTML'e dönüştürür.",
+        "Markdown'ın cazibesi basitliğinde yatar: düz noktalama işaretleriyle yazarsınız ve yapı her okuyucu için açıktır. HTML ise ayrıntılı ve etiket yüklüdür. Güvenilir bir dönüştürücü, her iki dünyanın en iyisini yaşamanızı sağlar."
+      ]
+    },
+    {
+      "heading": "Markdown HTML'e Nasıl Dönüştürülür",
+      "paragraphs": [
+        "Yazılmış notlardan web'e hazır biçimlendirmeye:",
+        "Markdown'ınızı yapıştırın; dönüştürücü temiz, standartlara uygun HTML üretir. İşlenmiş bir önizleme, başlıkların, listelerin, bağlantıların ve kod bloklarının doğru geldiğini doğrular.",
+        "Dönüştürme yereldir; taslaklar makinenizden asla ayrılmaz.",
+        "Yan yana görünüm, kaynağı ve çıktıyı aynı anda karşılaştırmanıza olanak tanır; sonucu CMS'inize, e-posta şablonunuza veya dokümantasyon sitenize kopyalamadan önce kenar durumları yakalanır."
+      ]
+    },
+    {
+      "heading": "Her Öğe Doğru Dönüştürülür",
+      "paragraphs": [
+        "Başlıklar, paragraflar, listeler, vurgular, bağlantılar, görseller, tablolar ve çitli kod bloklarının her biri doğru HTML karşılıklarına eşlenir.",
+        "İç içe geçme ve kaçış, bozuk biçimlendirmeyi önleyerek belirtime uyar.",
+        "Çıktı, bir CMS, blog veya derleme için yapıştırılmaya hazırdır.",
+        "Satır içi kod, blok alıntılar, yatay çizgiler ve görev listesi onay kutularının tümü sadakatle işlenir; dönüştürme sonrasında kaçmış karakterleri veya bozuk iç içe geçmeyi elle düzeltmek zorunda kalmazsınız."
+      ]
+    },
+    {
+      "heading": "Kenar Durumlarını Ele Alma: Görseller, Bağlantılar ve İç İçe İçerik",
+      "paragraphs": [
+        "Alt metinli, göreli yollu ve başlık özellikli Markdown görselleri, tüm özellikleri korunarak doğru biçimlendirilmiş img etiketlerine dönüştürülür. Satır içi stilli, referans stili tanımlı ve e-posta adresli bağlantıların tümü doğru çapa öğelerine çözümlenir.",
+        "İç içe listeler, liste öğeleri içindeki girintili kod blokları ve birden fazla paragraf içeren blok alıntılar, ayrıştırıcının derinliğini test eder. Dönüştürücü, iç içe geçme için Markdown belirtiminin kurallarına uyar; elde edilen HTML, amaçlanan yapıyı birebir yansıtır.",
+        "Hizalama işaretçili, başlık ayırıcılı ve çok satırlı gövdeli tablolar, hizalama özellikleri uygulanmış anlamsal table, thead, tbody ve td öğelerine çevrilir.",
+        "Bu ayrıntılar, dönüştürülen HTML, doğrulama hatalarının veya eksik özelliklerin görünür işleme sorunlarına yol açtığı bir üretim hattına beslendiğinde önem kazanır."
+      ]
+    },
+    {
+      "heading": "Taslaktan Yapıştırma Zahmeti Olmadan Yayına",
+      "paragraphs": [
+        "Hız için Markdown'da yazın, dağıtım için HTML'e derleyin; kişisel notlardan site dokümantasyonuna uzanan bir iş akışı.",
+        "Kaynak her güncellendiğinde yeniden derleyin; çıktı eşitlenmiş kalır.",
+        "Tek bir gerçek kaynağı sizin MD'niz olmaya devam eder.",
+        "Değişiklik günlüklerini, API dokümantasyonunu veya bilgi tabanlarını yöneten ekipler, sürüm kontrolü ve sürekli dağıtımla doğal olarak bütünleşen tekrarlanabilir bir dönüştürme adımından fayda görür."
+      ]
+    },
+    {
+      "heading": "Platformlar ve Çerçeveler Arasında Uyumluluk",
+      "paragraphs": [
+        "GitHub Flavored Markdown, CommonMark ve diğerleri gibi farklı Markdown tatları vardır; tablo sözdizimi, otomatik bağlantılar ve üstü çizili metin gibi ayrıntılarda anlaşamazlar. Dönüştürücü, çoğu platformda çalışan geniş ölçüde uyumlu bir alt kümeyi hedefler.",
+        "Çıktı HTML, sunumsal biçimlendirme yerine anlamsal etiketler kullanır; ekstra temizlik olmadan CSS çerçeveleriyle, bileşen kütüphaneleriyle ve duyarlı tasarımlarla temiz biçimde bütünleşir.",
+        "Sonucu bir statik site oluşturucuya, bir CMS zengin metin alanına veya bir e-posta şablonuna besleyin; biçimlendirme geçerli ve iyi yapılandırılmış kalır.",
+        "Çıktıyı birden fazla tarayıcıda ve e-posta istemcisinde test etmek, yayınlamadan önce tutarlı işlemeyi doğrular."
+      ]
+    },
+    {
+      "heading": "Yayınlanmamış Metinlerin Özel Dönüştürülmesi",
+      "paragraphs": [
+        "El yazmaları ve dokümantasyon taslakları cihazınızda dönüştürülür.",
+        "Tüm platformlarda yükleme yok, hesap yok, filigran yok.",
+        "Yazma hatları kurum içinde kalır.",
+        "Teklifler, yayınlanmamış ürün dokümantasyonu ve gizli eğitim materyalleri, harici bir sunucuya dokunmadan dönüştürülür; veri saklama gereksinimlerinin bulut işlemeyi kısıtladığı düzenlemeye tabi sektörlerde bu önemlidir."
+      ]
+    },
+    {
+      "heading": "Yayınlamadan Önce Çıktı Kalitesini Doğrulamak",
+      "paragraphs": [
+        "Dönüştürme sonrasında HTML'i W3C doğrulayıcısına karşı doğrulamak, araya sızabilecek bozuk etiketleri veya özellik hatalarını yakalar. Temiz doğrulama sonuçları, sayfanın tarayıcılarda ve yardımcı teknolojilerde tutarlı işlendiği anlamına gelir.",
+        "Çıktıyı erişilebilirlik dönüm noktaları için kontrol etmek, başlık hiyerarşisinin, bağlantı metninin ve görsel alt özelliklerinin bozulmadan kalmasını sağlar; yayınlanan içerikte gezinme için ekran okuyucu kullanıcıları için bu önemlidir.",
+        "Markdown önizlemesi ile nihai HTML çıktısı arasında hızlı bir görsel karşılaştırma, biçimlendirme kararlarının doğru çevrildiğini doğrular; özellikle iç içe listeler ve çok sütunlu tablolar gibi karmaşık öğeler için.",
+        "Bu doğrulama adımları saniyeler sürer ancak profesyonelce yayınlanan içerikte okuyucu güvenini zedeleyen bozuk biçimlendirme türünü önler."
+      ]
+    },
+    {
+      "heading": "Editör Araç Kutusunda Markdown",
+      "paragraphs": [
+        "Dönüştürme sonrasında çıktıyı [html-encode:HTML kodlama] ile düzeltin, varlıkları [image-tools] ile sıkıştırın ve [text-diff:fark] ile test edin.",
+        "Araç seti ücretsizdir ve tarayıcı yerelidir.",
+        "camelCase notlardan anında temiz HTML'e."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Dönüştürücü tabloları ve kod bloklarını işler mi?",
+      "a": "Evet. Markdown tabloları, çitli kod blokları, listeler, bağlantılar ve görsellerin tümü doğru HTML karşılıklarına dönüştürülür."
+    },
+    {
+      "q": "Sonucun canlı önizlemesini görebilir miyim?",
+      "a": "Evet. İşlenmiş bir önizleme, yorumlanan düzeni üretilen HTML'in yanında gösterir."
+    },
+    {
+      "q": "Dönüştürme gizli mi?",
+      "a": "Evet. Her şey tarayıcınızda yerel olarak çalışır; yükleme veya hesap yoktur."
+    },
+    {
+      "q": "GitHub Flavored Markdown'ı destekler mi?",
+      "a": "Evet. Tablolar, görev listeleri ve çitli kod blokları gibi yaygın uzantılar tanınır ve doğru dönüştürülür."
+    }
+  ]
+}

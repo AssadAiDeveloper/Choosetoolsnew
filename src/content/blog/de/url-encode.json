@@ -1,0 +1,107 @@
+{
+  "slug": "url-encode",
+  "title": "URL Encoder Decoder: URLs kostenlos online codieren und decodieren",
+  "description": "Kostenloser Online-URL-Encoder und -Decoder zum sicheren Codieren und Decodieren von Webadressen, Zeichenketten und Abfrageparametern. Privat, sofort, im Browser.",
+  "keywords": ["url encode", "url decode", "url decoder", "url online codieren", "url encoder tool", "percent encode", "url string decodieren"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "URLs sprechen ASCII, das Web spricht alles",
+      "paragraphs": [
+        "Links können Leerzeichen, Akzente oder Sonderzeichen nicht roh übertragen — sie müssen prozentkodiert werden. [url-encode:URLs codieren] übersetzt jede Zeichenketten in eine transportfähige Adresse, die Server korrekt interpretieren.",
+        "Abfrageparameter, Biomatriken und Weiterleitungen basieren alle auf korrekter Codierung.",
+        "ChooseTools codiert und decodiert URLs lokal in Ihrem Browser.",
+        "Jede HTTP-Anfrage enthält kodierte Daten in ihrem Pfad und ihrer Abfrageskette. Bei falscher Codierung geben Server 400-Fehler zurück, Weiterleitungen schleifen endlos und die Analysezuschreibung bricht leise zusammen."
+      ]
+    },
+    {
+      "heading": "So codieren oder decodieren Sie eine URL",
+      "paragraphs": [
+        "Beide Richtungen, sofort:",
+        "Fügen Sie eine URL mit rohen Zeichen ein, um sie in eine linkfähige Form zu kodieren, oder fügen Sie eine kodierte Adresse ein, um sie in lesbaren Text zurückzuwandeln. Kopieren Sie das Ergebnis exakt.",
+        "Lokale Verarbeitung hält Ihre Abfragegeheimnisse von jedem Server fern.",
+        "Das Tool unterstützt sowohl die Komponentencodierung für einzelne Parameter als auch die vollständige URL-Codierung für gesamte Adressen, sodass Sie die richtige Granularität für die Aufgabe wählen."
+      ]
+    },
+    {
+      "heading": "Abfragen mit Leerzeichen, Akzenten und Symbolen",
+      "paragraphs": [
+        "Suchzeichenketten mit Leerzeichen, internationalen Zeichen und reservierten Symbolen brechen Links, sofern sie nicht kodiert sind.",
+        "Korrekte Codierung ersetzt sie durch %-Sequenzen, die jeden Zwischenschritt unverändert überstehen.",
+        "Empfänger erhalten die beabsichtigte Abfrage, getreu decodiert.",
+        "Eine Suche nach café mit Akzent kodiert beispielsweise das é-acut in seine UTF-8-prozentkodierte Darstellung, sodass der Zielserver die ursprüngliche Abfrage ohne Datenverlust oder Substitution rekonstruiert."
+      ]
+    },
+    {
+      "heading": "Weiterleitungen, Token und gestaltete Links",
+      "paragraphs": [
+        "Weiterleitungsketten betten vollständige Adressen in Abfragewerte ein — doppelte Codierung muss beabsichtigt sein. Wenn eine WeiterleitungsURL selbst ein Parameterr ist, verhindert die Codierung der äußeren Schicht, dass die innere URL als separate Abfrageschlüssel fehlinterpretiert wird.",
+        "Token und sensible Parameter in URLs werden nun vorhersehbar kodiert.",
+        "Der Aufbau gültiger Links wird exakt statt hoffnungsvoll.",
+        "OAuth-Callbacks, SSO-Rücksendeadressen und Zahlungsgateway-URLs enthalten alle Sonderzeichen, die auf genau der richtigen Ebene kodiert werden müssen, um über Browser und Serverimplementierungen hinweg zu funktionieren."
+      ]
+    },
+    {
+      "heading": "Decodierung für Debugging und Log-Analyse",
+      "paragraphs": [
+        "Logs sind voller kodierte Adressen; ihre Decodierung enthüllt die tatsächlichen Parameter unter der Lupe.",
+        "Das Verstehen des Rohstrings hinter %20 und %C3%BC beschleunigt das Debugging.",
+        "Zwei Klicks verwandeln Log-Rauschen in Klarheit.",
+        "Netzwerk-Ingenieure und Backend-Entwickler decodieren routinemäßig erfasste Anfrage-URLs, um zu überprüfen, dass Tracking-Parameter, UTM-Werte und Sitzungstoken unbeschadet durch Proxy und Load Balancer gelangt sind."
+      ]
+    },
+    {
+      "heading": "Codierungsstandards und Zeichensätze",
+      "paragraphs": [
+        "RFC 3986 definiert, welche Zeichen in URIs kodiert werden müssen und welche unreserviert bleiben dürfen. Das Tool folgt dieser Spezifikation präzise und kodiert Leerzeichen als %20 und respektiert die erlaubte Menge unreservierter Zeichen einschließlich Buchstaben, Ziffern, Bindestriche, Unterstriche und Tilden.",
+        "UTF-8-Multibyte-Zeichen wie Emojis und nicht-latinische Schriften werden in ihre korrekten prozentkodierten Sequenzen kodiert, sodass eine URL mit japanischem Text oder einem Lächeln auf jedem normenkonformen Server identisch decodiert wird.",
+        "Das Verständnis des Unterschieds zwischen der Codierung einer vollständigen URL und der Codierung nur eines Abfrageparametewerts verhindert den häufigen Fehler der doppelten Codierung bereits sicherer Zeichen.",
+        "Der Decoder kehrt jede Transformation getreu um und stellt den ursprünglichen String einschließlich aller Unicode-Codepoints wieder her."
+      ]
+    },
+    {
+      "heading": "Privates Web-Arbeiten",
+      "paragraphs": [
+        "Token, Auth-Strings und unveröffentlichte Links werden lokal kodiert.",
+        "Kein Upload, kein Konto, kein Wasserzeichen — plattformübergreifend.",
+        "Sichere Mail-Bereitschaft ohne jegliche Offenlegung.",
+        "Authentifizierungstoken, in URLs eingebettete API-Schlüssel und interne Weiterleitungsadressen berühren keinen Drittanbieter-Dienst und halten Ihre Infrastrukturdetails während des Codierungsvorgangs vertraulich."
+      ]
+    },
+    {
+      "heading": "Komponentencodierung vs. vollständige URL-Codierung",
+      "paragraphs": [
+        "Die Komponentencodierung kodiert nur die Zeichen, die innerhalb einer einzelnen URI-Komponente unsicher sind — ein Abfragewert, ein Pfadsegment oder eine Fragmentkennung. Die vollständige URL-Codierung kodiert die gesamte Adresse, was beim Aufbau einer URL aus einzelnen Teilen angemessen ist.",
+        "Die Verwendung des falschen Codierungsmodus ist eine häufige Fehlerquelle: Die Komponentencodierung einer vollständigen URL lässt Schrägstriche und Fragezeichen unkodiert, während die vollständige Codierung eines Parametewerts die Trennzeichen kodiert, die literal bleiben sollten.",
+        "Das Tool lässt Sie den geeigneten Modus für die Aufgabe wählen und verhindert so diese Fehlentscheidungen und stellt sicher, dass die Ausgabe unabhängig vom Verwendungscontext gültig ist.",
+        "Das Verständnis, wann jeder Modus verwendet werden soll, ist besonders wichtig beim programmatischen Aufbau von URLs, wo die falsche Wahl subtile Fehler einführt, die sich erst unter bestimmteingabe Kombinationen manifestieren."
+      ]
+    },
+    {
+      "heading": "URLs im Entwickler-Toolkit",
+      "paragraphs": [
+        "Ergänzen Sie mit [base64:base64], [html-encode:HTML-Escaping] und [json-formatter:JSON-Formatierung] für eine vollständige Anfragebausammlung.",
+        "Die Suite ist kostenlos und browser-nativ.",
+        "Jeder Link, exakt richtig."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Was macht URL-Codierung eigentlich?",
+      "a": "Sie ersetzt Zeichen, die in URLs unsicher sind — Leerzeichen, Symbole, Akzente — durch prozentkodierte Sequenzen, die sicher transportiert werden können."
+    },
+    {
+      "q": "Kann ich eine kodierte URL zurück in lesbaren Text decodieren?",
+      "a": "Ja. Der Decoder rekonstruiert Leerzeichen, Akzente und Symbole aus ihrer kodierten Form."
+    },
+    {
+      "q": "Ist URL-Codierung privat?",
+      "a": "Ja. Alles passiert lokal in Ihrem Browser ohne Uploads oder Konten."
+    },
+    {
+      "q": "Werden Nicht-ASCII-Zeichen wie Emojis unterstützt?",
+      "a": "Ja. UTF-8-Multibyte-Zeichen werden in ihre korrekten Prozentsequenzen kodiert und getreu zurückdecodiert."
+    }
+  ]
+}

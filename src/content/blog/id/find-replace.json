@@ -1,0 +1,107 @@
+{
+  "slug": "find-replace",
+  "title": "Cari dan Ganti Teks Online Gratis: Tukar Kata Secara Instan",
+  "description": "Alat cari dan ganti gratis online untuk menukar kata, frasa, dan karakter dalam teks Anda dalam hitungan detik. Opsi peka huruf besar-kecil dan dukungan regex. Privat, langsung di browser.",
+  "keywords": ["cari dan ganti", "cari ganti teks online", "ganti kata dalam teks", "pencarian dan penggantian", "ganti teks massal", "ganti regex", "alat cari dan ganti"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Editor Memimpikan Penggantian Massal Sekali Klik",
+      "paragraphs": [
+        "Memperbarui nama produk di seluruh manual, memperbaiki ejaan nama belakang penulis di seluruh naskah, atau menukar satuan di mana-mana dalam sebuah dataset — [find-replace:pencarian dan penggantian] adalah tugas persis yang dibenci pengguna jika dilakukan secara manual.",
+        "Alat yang andal menangani pertukaran seluruh dokumen dalam hitungan detik, dengan opsi yang mencegah kecocokan yang salah.",
+        "ChooseTools melakukan pencarian dan penggantian secara lokal di browser Anda, dengan kontrol huruf besar-kecil dan regex.",
+        "Pengeditan manual mengundang kesalahan manusia: Anda melewatkan satu kemunculan, mengubah instansi yang salah, atau memperkenalkan inkonsistensi yang membutuhkan waktu lebih lama untuk ditemukan daripada tugas aslinya untuk diselesaikan."
+      ]
+    },
+    {
+      "heading": "Cara Mengganti Teks secara Instan",
+      "paragraphs": [
+        "Satu langkah, semua kemunculan:",
+        "Tempel teks Anda, ketik istilah pencarian, ketik penggantian, dan klik ganti semua. Setiap kecocokan diperbarui secara bersamaan.",
+        "Secara opsional nyalakan atau matikan sensitivitas huruf besar-kecil, atau aktifkan regex untuk pencocokan pola; pratinjau menunjukkan hasil sebelum Anda menyalin.",
+        "Langkah pratinjau sangat penting: memungkinkan Anda memverifikasi jumlah penggantian dan memeriksa setiap kecocokan secara individual sebelum mengonfirmasi, sehingga Anda menangkap pengeditan yang tidak disengaja lebih awal."
+      ]
+    },
+    {
+      "heading": "Peka Huruf Besar-kecil vs Kecocokan Longgar",
+      "paragraphs": [
+        "Mengganti apple seharusnya tidak memengaruhi Apple atau Apples kecuali Anda menginginkannya.",
+        "Toggle huruf besar-kecil membuat perbedaan antara pertukaran yang tepat sasaran dan yang menyeluruh; pilih dengan sengaja.",
+        "Pencocokan seluruh kata melindungi kecocokan parsial seperti pineapple dari pengeditan yang tidak disengaja.",
+        "Dalam penulisan teknis, di mana singkatan dan kata benda propre muncul bersama kata umum, sensitivitas huruf besar-kecil mencegah kesalahan memalukan dalam dokumen yang dipublikasikan."
+      ]
+    },
+    {
+      "heading": "Regex: Pengguna Mahir Mengganti Pola, Bukan Hanya Kata",
+      "paragraphs": [
+        "Alamat email, format telepon, spasi berulang — pola, bukan string persis.",
+        "Mengaktifkan regex membebaskan penggantian berbasis token untuk pembersihan terstruktur.",
+        "Satu pola yang dibuat dengan cermat menghemat ratusan pengeditan manual.",
+        "Contoh umum adalah menormalisasi nomor telepon: pola regex yang cocok dengan berbagai pengelompokan digit dan pemisah dapat menyatukannya semua ke dalam satu format dengan satu penggantian, sesuatu yang membutuhkan lusinan langkah pencarian-dan-penggantian individual jika dilakukan sebaliknya."
+      ]
+    },
+    {
+      "heading": "Skenario Penggantian di Dunia Nyata",
+      "paragraphs": [
+        "Tim dokumentasi teknis mengganti nama endpoint API di seluruh ratusan halaman, memperbarui baik teks maupun contoh kode yang disematkan. Satu langkah regex mengganti segmen path lama di mana-mana sambil mempertahankan konteks di sekitarnya.",
+        "Proyek lokalisasi menukar simbol mata uang, satuan pengukuran, dan format tanggal di seluruh string terjemahan. Penggantian harus menghormati teks di sekitarnya tanpa merusak karakter khusus atau tag markup yang disematkan dalam konten.",
+        "Bagian hukum dan kepatuhan meniadakan atau mengganti nama rahasia dalam kontrak dan kebijakan sebelum distribusi. Konsistensi penting: setiap kemunculan harus berubah atau tidak ada yang boleh berubah, dan penggantian parsial menciptakan tanggung jawab hukum.",
+        "Manajer konten yang memperbarui nama merek di seluruh arsip blog perlu membedakan antara merek yang digunakan sebagai kata benda propre dan string yang sama yang muncul di URL atau cuplikan kode yang harus tetap tidak tersentuh."
+      ]
+    },
+    {
+      "heading": "Mempertahankan Konteks Saat Menukar",
+      "paragraphs": [
+        "Penggantian bukan hanya tentang mencocokkan teks; ini tentang menjaga konteks di sekitarnya tetap utuh. Alat ini mempertahankan indentasi, baris baru, dan tanda baca yang berdekatan sehingga mengganti kata di dalam blok kode atau paragraf terformat tidak merusak tata letak.",
+        "Saat bekerja dengan data terstruktur seperti CSV atau JSON, mode seluruh kata mencegah kecocokan parsial merusak batas field atau nama key.",
+        "Perlindungan ini berarti Anda dapat mengganti dengan percaya diri dalam dokumen konten campuran tanpa memeriksa setiap baris setelahnya.",
+        "Mode pratinjau menyorot setiap kecocokan dalam konteks, memberi Anda kesempatan terakhir untuk menyesuaikan pola sebelum melakukan pertukaran."
+      ]
+    },
+    {
+      "heading": "Urungkan dan Pratinjau untuk Iterasi yang Aman",
+      "paragraphs": [
+        "Mode pratinjau menyorot setiap kecocokan dengan konteks di sekitarnya sebelum pengganti dieksekusi, memungkinkan Anda memverifikasi bahwa pola menangkap persis apa yang Anda inginkan dan tidak lebih.",
+        "Jika jumlah penggantian tampak terlalu tinggi atau terlalu rendah, Anda dapat menyesuaikan istilah pencarian, mengubah sensitivitas huruf besar-kecil, atau memperhalus regex sebelum mengonfirmasi. Jaring pengaman iteratif ini mencegah kesalahan yang mahal.",
+        "Kemampuan untuk mengembalikan dan menerapkan kembali secara instan berarti Anda dapat bereksperimen dengan strategi penggantian berbeda pada teks yang sama tanpa menduplikasi sumber secara manual.",
+        "Kontrol-kontrol ini membuat alat ini cocok untuk koreksi satu kali dan alur kerja batch rutin, mengurangi risiko penyesalan di setiap langkah."
+      ]
+    },
+    {
+      "heading": "Privat untuk Konten Sensitif dan Belum Dirilis",
+      "paragraphs": [
+        "Naskah, laporan klien, dan nama internal mendapatkan pertukarannya secara lokal, bukan di cloud pihak ketiga.",
+        "Tanpa upload, tanpa akun, tanpa watermark — di semua platform.",
+        "Kedekatan pengeditan tetap lokal.",
+        "Draf rahasia, nama produk pra-rilis, dan nama kode proyek internal tetap di perangkat Anda selama proses penggantian."
+      ]
+    },
+    {
+      "heading": "Penggantian Bersama Kotak Alat Teks",
+      "paragraphs": [
+        "Gabungkan pertukaran dengan [word-counter:metrik], [case-converter:formatasi case] atau [remove-duplicate-lines:penghapusan duplikat baris] untuk pembersihan lengkap.",
+        "Suite ini gratis dan berbasis browser.",
+        "Ganti sekali, di mana-mana, dengan benar."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bisakah saya mengganti beberapa istilah berbeda sekaligus?",
+      "a": "Alat ini menukar satu istilah per langkah, tetapi Anda dapat mengulang secara instan dan berulang kali; dengan regex Anda juga dapat mendefinisikan pola yang lebih luas."
+    },
+    {
+      "q": "Apakah penggantian tanpa sensitivitas huruf besar-kecil berfungsi?",
+      "a": "Ya. Nyalakan atau matikan sensitivitas huruf besar-kecil untuk mengontrol apakah kecocokan berbeda hanya dalam huruf besar-kecil."
+    },
+    {
+      "q": "Apakah pencarian dan penggantian ini privat?",
+      "a": "Ya. Semua operasi berjalan secara lokal di browser Anda tanpa upload atau akun."
+    },
+    {
+      "q": "Bisakah saya menggunakan ekspresi reguler?",
+      "a": "Ya. Mengaktifkan mode regex memungkinkan pencocokan berbasis pola untuk penggantian kompleks seperti nomor telepon, alamat email, atau data terstruktur."
+    }
+  ]
+}

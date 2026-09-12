@@ -1,0 +1,115 @@
+{
+  "slug": "excel-to-mt940",
+  "title": "Excel'den MT940'a: XLSX Finansal Verilerini Çevrimiçi Ücretsiz MT940'a Dönüştürün",
+  "description": "Elektronik tablo verilerinden banka biçiminde MT940 hesap özetleri üretmek için ücretsiz Excel'den MT940'a dönüştürücü, tarayıcınızda. Özel, yükleme yok, kayıt yok.",
+  "keywords": ["excel'den mt940'a", "mt940 üreteci", "xlsx'i mt940'a dönüştürme", "excel'den mt940 üretme", "banka hesap özetinden mt940'a", "excel'den mt940'a çevrimiçi", "mt940 dosya üreteci"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Sistemler Bankanın Biçimini İstediğinde",
+      "paragraphs": [
+        "Bazı platformlar, bankalar ve hazine sistemleri yalnızca MT940 kabul eder. [excel-to-mt940:Excel verilerini MT940'a dönüştürmek] bir elektronik tabloyu gerektirdikleri etiketli özet biçimine paketler.",
+        "Sütunlar ve satırlar, aşağı akış ayrıştırıcılarının beklediği kodlar olur; her tarih, tutar ve referans birebir korunur.",
+        "ChooseTools, MT940'ı alan eşleme üzerinde tam kontrolle tarayıcınızda yerel olarak Excel'den üretir."
+      ]
+    },
+    {
+      "heading": "Excel MT940'a Nasıl Dönüştürülür",
+      "paragraphs": [
+        "Çalışma tablosundan kodlu dosyaya:",
+        "Beklenen sütunlarla düzenlenmiş bir çalışma kitabı yükleyin — tarih, tutar, açıklama, bakiyeler — alanları eşleyin ve teslime hazır MT940 metnini üretin. Önizleme, indirmeden önce etiket yerleşimini doğrular.",
+        "Üretim yereldir; finansal kayıtlar süreç boyunca makinenizde mühürlü kalır."
+      ]
+    },
+    {
+      "heading": "Fark Yaratan Şey Alan Eşlemedir",
+      "paragraphs": [
+        "Tarihlerin, tutarların ve referansların doğru eşlenmesi, bir MT940'ın alıcı sistem tarafından kabul mü edileceğini yoksa reddedilme mi edileceğini belirler.",
+        "Dönüştürücü, sütunları net etiketlerle etiketlere atamanızda size yol gösterir; her alanı güvenle eşlersiniz.",
+        "Teslimler standart kurallara göre doğrulanır; aşağı akışta başarısız olabilecek ham metin üretilmez."
+      ]
+    },
+    {
+      "heading": "MT940 Etiket Yapısı Açıklanıyor",
+      "paragraphs": [
+        "Her MT940 dosyası katı bir etiket hiyerarşisini izler. :20 etiketi bu belirli dışa aktarımı tanımlayan benzersiz bir hesap özeti referansı taşır. :25 etiketi hesabı IBAN veya banka-yerel biçimde adlandırır; böylece alıcı sistem işlemlerin hangi hesaba ait olduğunu bilir.",
+        ":60M ve :62M bakiye etiketleri işlem listesini açılış ve kapanış rakamlarıyla çevreler. Her biri bir alacak-borç göstergesi, tarih, para birimi kodu ve tutarı içerir. Doğru bakiyeler zorunludur; çünkü mutabakat yazılımı bir hesap özetinin kapanış bakiyesinin bir sonrakinin açılış bakiyesiyle eşleştiğini doğrular.",
+        "Tek tek işlemler, kompakt bir tarih, tutar ve referans düzenine sahip :61 satırlarında yaşarken :86 etiketi serbest metin anlatısını sağlar. Her :61'i kendi :86 anlatısıyla eşleştirmek, açıklamaları doğru satır kalemiyle hizalı tutar; denetçileri şaşırtan yetim kayıtların önüne geçer."
+      ]
+    },
+    {
+      "heading": "Test ve Sistem Entegrasyonu İçin",
+      "paragraphs": [
+        "Geliştirme ekipleri, gerçek banka dışa aktarımlarını beklemeden içe aktarıcıları ve mutabakat motorlarını test etmek için örnek hesap özetleri üretir.",
+        "Hazine ekipleri, yeni hesaplar açarken veya entegrasyon modüllerini yükseltirken ortak bankalar için özetleri kendi lehçelerinde dışa aktarır.",
+        "Tek çalışma kitabı, birçok uyumlu çıktı; çok sayıda test döngüsünde saatlerce manuel biçimlendirmeden tasarruf sağlar."
+      ]
+    },
+    {
+      "heading": "Çoklu Para Birimlerini ve Hesap Özeti Dönemlerini İşleme",
+      "paragraphs": [
+        "Sınır ötesi faaliyet gösteren şirketler genellikle birden fazla para biriminde hesap tutar. Her para birimi, bakiye etiketlerinde doğru para birimi koduyla kendi özet bloğunu gerektirir. Dönüştürücü, çalışma kitabında bulunan her para birimi için ayrı hesap özeti dizileri üretir; bunları gerektiği gibi sınırlandırır.",
+        "Hesap özeti dönemi tarihleri, :60M açılış bakiye tarihini ve :62M kapanış bakiye tarihini belirler. Bunları doğru ayarlamak, ardışık hesap özetleri arasında kapanış ve açılış bakiyelerini karşılaştırarak boşlukları veya eksik işlemleri tespit eden otomatik mutabakat için önemlidir.",
+        ":20 etiketindeki referans numaraları, sıralı, tarih tabanlı veya hesap kapsamlı olsun, bankanızın kurallarını izlemelidir. Tutarlı bir referans düzeni, denetçiler aylar sonra soru sorduğunda hesap özetlerinin kaynak çalışma kitabına geri izini basitleştirir."
+      ]
+    },
+    {
+      "heading": "Standart Sözdizimi, Sıfır Tahmin",
+      "paragraphs": [
+        "Etiketler, alan konumları ve satır uzunlukları otomatik olarak standardı izler; çıktı manuel inceleme olmadan geçerli olur.",
+        "Dönüştürücü biçimlendirme kurallarını uyguladığında manuel süslü parantez sayma veya etiket cerrahisi kalmaz.",
+        "Doğru içe aktarmalar kaynakta başlar; banka destek ekipleriyle gidip gelmeyi azaltır."
+      ]
+    },
+    {
+      "heading": "Yaygın Tuzaklar ve Bunlardan Nasıl Kaçınılır",
+      "paragraphs": [
+        "Tarih biçimlendirme en sık reddedilme kaynağıdır. MT940 ayırıcısız YYAAGG gerektirir, ancak elektronik tablolar genellikle tarihleri yerel ayara özgü biçimlerde saklar. Dönüştürücü tarihleri otomatik normalleştirir; 15 Mart girişlerinden oluşan bir sütun her :61 ve bakiye satırında 230315 olur.",
+        "Serbest metin :86 anlatılarındaki eksik veya fazla boşluklar, ayrıştırıcıların işlem ayrıntılarını açıklamalarıyla yanlış hizalamasına neden olur. Araç, anlatı alanlarını beklenen genişliğe kırpar ve doldurur; yalnızca alıcı banka dosyayı işlediğinde ortaya çıkan ince boşluk hatalarını önler.",
+        "Elektronik tablo ile MT940 çıktısı arasındaki kodlama uyumsuzlukları, açıklamalardaki ASCII dışı karakterleri bozabilir. Dönüştürücü boyunca UTF-8 tutarlılığı sağlar; Arapça, aksanlı Latin ve diğer yazılar gidiş dönüşü sağlam tamamlar."
+      ]
+    },
+    {
+      "heading": "Özel Finansal Üretim",
+      "paragraphs": [
+        "Banka düzeyindeki veriler ara sunucular veya bulut depolama olmadan yerel işlemeyle makinenizde kalır.",
+        "Yükleme yok, hesap yok, filigran yok — platformlar ve işletim sistemleri arasında.",
+        "Hesap özetleri maruz bırakılarak değil üretilerek oluşturulur; oluşturmadan teslime gizlilik korunur."
+      ]
+    },
+    {
+      "heading": "Finansal Süitte MT940",
+      "paragraphs": [
+        "Hesap özeti iş akışlarının tam kapsamı için [mt940-to-excel:MT940'tan Excel'e], [txt-to-mt940:metinden MT940] ve [excel-to-csv:CSV dışa aktarımları] ile birleştirin.",
+        "Her şey ücretsiz ve tarayıcı tabanlıdır; kurulum veya abonelik gerektirmez.",
+        "Dönüştürme tamamlandığında elektronik tablolar bankacılığı akıcı biçimde konuşur."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Excel dosyasında hangi sütunlar bulunmalıdır?",
+      "a": "Tarih, tutar ve açıklama esastır; bakiye ve referans alanları bankanızın gereksinimlerine göre eşlenir."
+    },
+    {
+      "q": "Dönüştürücü farklı alan düzenlerini işleyebilir mi?",
+      "a": "Evet. Etkileşimli alan eşleme, üretilen MT940'ı elektronik tablonuzun düzenine uyarlar."
+    },
+    {
+      "q": "Dönüştürme özel mi?",
+      "a": "Evet. Her şey tarayıcınızda, yükleme veya hesap olmadan yerel olarak çalışır."
+    },
+    {
+      "q": "Çıktı hangi tarih biçimini kullanır?",
+      "a": "MT940 tarihleri ayırıcısız YYAAGG biçimini izler. Dönüştürücü elektronik tablo tarihlerini otomatik normalleştirir."
+    },
+    {
+      "q": "Birden fazla para birimi için hesap özetleri üretebilir miyim?",
+      "a": "Evet. Araç verilerinizdeki farklı para birimi değerlerini algılar ve doğru para birimi koduyla ayrı hesap özeti blokları oluşturur."
+    },
+    {
+      "q": "Çıktı banka doğrulamasından geçer mi?",
+      "a": "Dönüştürücü, dosyayı üretmeden önce etiket yapısını, bakiye tutarlılığını ve alan uzunluklarını standart MT940 kurallarına göre kontrol eder."
+    }
+  ]
+}

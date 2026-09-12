@@ -1,0 +1,101 @@
+{
+  "slug": "case-converter",
+  "title": "Conversor de Maiúsculas e Minúsculas: Mude o Formato do Texto Online Grátis num Clique",
+  "description": "Conversor de maiúsculas e minúsculas online e gratuito para alternar o texto entre UPPER, minúsculas, Title Case, Sentence case e mais. Privado, instantâneo, no seu navegador e sem uploads.",
+  "keywords": ["conversor de maiúsculas", "converter texto para maiúsculas", "converter maiúsculas em minúsculas", "conversor title case", "alterar maiúsculas e minúsculas do texto", "colocar texto em maiúsculas online", "ferramenta de maiúsculas e minúsculas"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "As Maiúsculas e Minúsculas São Pontuação para Códigos e Títulos",
+      "paragraphs": [
+        "Um título deve estar em title case, os nomes de classes CSS preferem lowerCamel e os fluxos de trabalho mais antigos exigem tudo em maiúsculas ou tudo em minúsculas. Converter [case-converter:o formato do texto] online é uma tarefa classicamente pequena com um enorme retorno em formatação.",
+        "Fazê-lo manualmente em grande escala é lento e suscetível a erros; um conversor transforma documentos inteiros num piscar de olhos.",
+        "A ChooseTools converte maiúsculas e minúsculas localmente no seu navegador, com todas as convenções comuns disponíveis."
+      ]
+    },
+    {
+      "heading": "UPPER, Minúsculas, Title, Sentence e camelCase",
+      "paragraphs": [
+        "Cada convenção tem o seu lugar: maiúsculas para acrónimos, title case para títulos, sentence case para textos de interface, camelCase para identificadores de código.",
+        "A ferramenta apresenta cada variante lado a lado para colar exatamente o que o contexto exige.",
+        "Qualidade de copiar e colar, sem voltar a escrever nada."
+      ]
+    },
+    {
+      "heading": "Conversão em Lote para Listas e Feeds",
+      "paragraphs": [
+        "Colar uma lista inteira de nomes de produtos e deixar que sejam convertidos de forma uniforme para corresponder aos padrões do seu catálogo.",
+        "Títulos, meta descrições, listas de etiquetas e nomes de ficheiros normalizam tudo numa única passagem.",
+        "A consistência em centenas de itens fica automatizada."
+      ]
+    },
+    {
+      "heading": "Fluxos de Trabalho de Programação e Técnicos",
+      "paragraphs": [
+        "Os programadores precisam constantemente de converter entre convenções de nomenclatura. Uma variável que começa como my_variable em Python deve tornar-se myVariable para JavaScript ou MyVariable para um nome de classe em PascalCase. Voltar a escrever manualmente cada identificador convida a erros de digitação que o compilador só deteta depois de perder tempo a depurar. O conversor transforma listas inteiras de identificadores numa única colagem, preservando todos os caracteres e alterando apenas as maiúsculas e minúsculas.",
+        "Os nomes de colunas de bases de dados e os nomes de campos de APIs seguem frequentemente uma única convenção que difere da que a sua base de código utiliza. Ao migrar dados ou criar camadas de integração, converter os nomes dos campos para corresponder ao sistema de destino evita erros em tempo de execução e torna os esquemas mais fáceis de ler. Uma passagem rápida pelo conversor garante que column_name se torna columnName ou ColumnName conforme o destino exigir.",
+        "As palavras-chave SQL são convencionalmente escritas em maiúsculas (SELECT, FROM, WHERE) para se distinguirem dos nomes de tabelas e colunas. Os programadores que redigem consultas em minúsculas podem colar toda a instrução e converter as palavras-chave para maiúsculas sem afetar os identificadores. Isto melhora a legibilidade em bases de código partilhadas e está alinhado com os guias de estilo comuns.",
+        "Os ficheiros de configuração, as variáveis de ambiente e os flags de linha de comandos seguem cada um as suas próprias regras de maiúsculas e minúsculas. Variáveis de ambiente como ENVIRONMENT_VARIABLES são normalmente upper snake case, enquanto flags de linha de comandos como --output-dir utilizam lower kebab case. Converter entre estas convenções é moroso à mão, mas instantâneo com a ferramenta, reduzindo o atrito de mover configurações entre sistemas."
+      ]
+    },
+    {
+      "heading": "Escritores Reformatam Sem Voltar a Escrever",
+      "paragraphs": [
+        "Um rascunho escrito em minúsculas torna-se em title case pronto a publicar; as legendas que devem sobressair sobressaem.",
+        "A pré-visualização elimina as dúvidas antes de copiar para qualquer lado.",
+        "A formatação pertence à ferramenta; o texto continua a ser seu."
+      ]
+    },
+    {
+      "heading": "SEO, Marketing e Consistência de Marca",
+      "paragraphs": [
+        "Os motores de busca tratam as maiúsculas e minúsculas como um sinal menor, mas os leitores humanos tratam-nas como um sinal importante. Um título de página em sentence case lê-se de forma casual, enquanto as mesmas palavras em title case transmitem autoridade. As equipas de marketing testam ambas as versões para ver qual gera mais cliques, e o conversor permite-lhes produzir as duas em segundos, em vez de as escreverem uma a uma manualmente.",
+        "Os guias de estilo da marca ditam frequentemente regras específicas de maiúsculas e minúsculas para nomes de produtos, slogans e frases de campanha. Quando o conteúdo circula entre designers, tradutores e editores, as maiúsculas e minúsculas desviam-se. O conversor funciona como uma passagem de normalização, restaurando o formato aprovado antes de o texto ser publicado. Isto evita a inconsistência de marca que se acumula quando várias pessoas voltam a escrever as mesmas strings.",
+        "As publicações nas redes sociais, as linhas de assunto de email e as notificações push competem todas pela atenção em feeds repletos de maiúsculas. Escolher as maiúsculas e minúsculas certas para cada canal pode significar a diferença entre uma brevíssima leitura e um clique. O conversor produz cada variante para poder fazer testes A/B sem o custo da reformatação manual.",
+        "As equipas de localização recebem frequentemente conteúdo numa convenção de maiúsculas e minúsculas e têm de o adaptar a mercados com normas diferentes. Um título em title case em inglês pode precisar de estar em sentence case em francês ou alemão. O conversor trata da transformação instantaneamente, libertando os linguistas para se concentrarem na qualidade da tradução em vez da mecânica da formatação."
+      ]
+    },
+    {
+      "heading": "Casos Extremos e Precisão",
+      "paragraphs": [
+        "O conversor lida com abreviaturas como NASA e URLs como https://example.com sem destruir sequências em maiúsculas ou prefixos de protocolo. Os acrónimos que aparecem a meio da frase permanecem intactos quando escolhe sentence case, e os compostos hifenizados como e-commerce convertem corretamente cada segmento. Estes detalhes importam porque colocar uma string inteira em maiúsculas ou minúsculas às cegas pode estragar termos técnicos.",
+        "Os caracteres Unicode, incluindo letras acentuadas e alfabetos não latinos, são convertidos fielmente. Uma palavra francesa como référence mantém os seus acentos quando passa para maiúsculas ou minúsculas, e os caracteres árabes ou chineses passam inalterados. Esta fidelidade evita os erros de codificação subtis que afetam os conversores menos cuidadosos.",
+        "Os espaços no início e no fim, os espaços múltiplos entre palavras e os caracteres de tabulação são preservados no resultado. O conversor altera as maiúsculas e minúsculas sem reformatar o espaçamento, pelo que os blocos de código colados e o texto pré-formatado mantêm o seu layout. Isto é essencial quando a entrada provém de uma fonte onde a indentação tem significado."
+      ]
+    },
+    {
+      "heading": "Transformação de Texto Privada",
+      "paragraphs": [
+        "Textos por publicar e notas pessoais são normalizados apenas no seu dispositivo.",
+        "Sem uploads, sem conta, sem marcas de água — idêntico em todas as plataformas.",
+        "Uma tarefa de formatação tratada de forma invisível."
+      ]
+    },
+    {
+      "heading": "O Trabalho de Maiúsculas e Minúsculas na Suite de Textos",
+      "paragraphs": [
+        "Combine o conversor com o [find-replace:localizar e substituir], com o [sort-lines:ordenador] ou com o [reverse-text:inversor] para um controlo total.",
+        "A suite é gratuita, privada e nativa do navegador.",
+        "Controlo de formatação, aplicado em todo o lado, instantaneamente."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Que formatos de maiúsculas e minúsculas são suportados?",
+      "a": "UPPERCASE, minúsculas, Title Case, Sentence case, camelCase e convenções relacionadas estão todas disponíveis com pré-visualização instantânea."
+    },
+    {
+      "q": "Posso converter grandes blocos de texto de uma só vez?",
+      "a": "Sim. Cole um documento ou lista inteiros e a transformação é aplicada uniformemente numa única conversão."
+    },
+    {
+      "q": "O conversor de maiúsculas e minúsculas é privado?",
+      "a": "Sim. Tudo acontece localmente no seu navegador; o seu texto nunca é enviado para lugar nenhum."
+    },
+    {
+      "q": "O conversor vai estragar URLs ou abreviaturas?",
+      "a": "Não. A ferramenta preserva acrónimos em maiúsculas, prefixos de protocolo e segmentos hifenizados, pelo que as strings técnicas permanecem intactas após a conversão."
+    }
+  ]
+}

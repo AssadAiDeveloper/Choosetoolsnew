@@ -1,0 +1,81 @@
+{
+  "slug": "extract-pdf-pages",
+  "title": "Çevrimiçi Olarak Ücretsiz Bir PDF'ten Sayfalar Nasıl Ayıklanır: Bir Sayfa Aralığını Yeni PDF Olarak Kaydedin",
+  "description": "ChooseTools ile çevrimiçi olarak ücretsiz bir PDF'ten sayfaları ayıklayın. Herhangi bir belgeden tek sayfaları veya aralıkları çekin ve tek bir bayt yüklemeden bunları yeni bir PDF olarak kaydedin.",
+  "keywords": ["pdf'ten sayfa ayıklama", "pdf'ten çevrimiçi ücretsiz sayfa ayıklama", "pdf sayfalarını kaydetme", "pdf'ten sayfa çıkarma", "pdf sayfalarını yeni dosyaya ayıklama", "pdf sayfa ayıklayıcı", "pdf'ten sayfa aralığı ayıklama"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Ayıklama: Bir PDF'ten Tam Olarak İhtiyacınız Olanı Alma",
+      "paragraphs": [
+        "Tam belgeler nadiren tam olarak gerekir. Bir öğrencinin ders kitabından iki bölüme, bir avukatın otuz sayfadan tek bir madde sayfasına, bir analistin bir slayt destesinden tek bir grafik sayfasına ihtiyacı vardır. [extract-pdf-pages:PDF sayfalarını ayıklamak], büyük dosyaları tam olarak önemli olan içeriğe dönüştürür.",
+        "Saf alternatifler — bir okuyucuda kopyala-yapıştır yapmak, her sayfanın ekran görüntüsünü almak — düşük kaliteli, parçalı sonuçlar üretir. Gerçek bir ayıklayıcı, seçilen sayfaları metin ve vektörleri bozulmamış, düzgün ve temiz bir PDF olarak yeniden oluşturur.",
+        "ChooseTools ayıklamayı tarayıcınızda yerel olarak gerçekleştirir. Sayfaları seçin, tıklayın; yalnızca bu sayfaları içeren yeni bir PDF indirilir. Sunucuya yükleme, filigran ve hesap külfeti yoktur.",
+        "Teslim edilen dosya, seçtiğiniz sayfaların her kalitesini miras alan sıradan, tam olarak okunabilir bir PDF'dir."
+      ]
+    },
+    {
+      "heading": "PDF Sayfaları Yeni Bir Dosyaya Nasıl Ayıklanır",
+      "paragraphs": [
+        "Araç, iki dakikalık el yordamıyla yapılan bir işi beş saniyelik bir işleme dönüştürür.",
+        "PDF'inizi ekleyin ve yerel oluşturucunun sayfa sayfa önizleme göstermesini sağlayın. »7-12« gibi gerçek bir aralık girerek saklamak istediğiniz sayfaları seçin. Onaylayın; tam olarak bu sayfaları içeren yeni, bağımsız bir PDF anında indirilir.",
+        "Ayıklama orijinal sayfa içeriğini yeniden kullandığı için yeni dosya vektörleri, yazı tiplerini, bağlantıları ve keskin görselleri bozulmadan korur. E-postayla gönderebileceğiniz, arşivleyebileceğiniz veya yazdırabileceğiniz geçerli, bağımsız olarak açılabilir bir PDF'dir.",
+        "Seçimi oluştururken önizleme küçük resimlerini inceleyin ve yeni dosya planladığınız içeriği tam olarak içerene kadar aralıkları ayarlayın."
+      ]
+    },
+    {
+      "heading": "İmzalar, Kapaklar ve Kanıtlar İçin Tek Sayfa Ayıklama",
+      "paragraphs": [
+        "Tek sayfa ayıklama, hukuki ve idari işlerin ekmek ve yağıdır: daha uzun bir belgeden bir imza sayfasını, bir tasdiki, bir sertifika sayfasını veya bir barkod sayfasını ayırmak.",
+        "Bu tek sayfalık PDF'ler korumalı teslim için ideal adaylardır. Ayıklamadan sonra sayfayı [protect-pdf:PDF şifreleme] ile kilitleyebilirsiniz; böylece izole edilen sertifikayı veya formu yalnızca amaçlanan alıcıların okumasını sağlarsınız.",
+        "Ayıklanan sayfa kaynakta olduğu gibi görünür — aynı düzen, aynı yazı tipleri — çünkü ekran görüntüsü değil, tek başına kaydedilmiş orijinal sayfa nesnesidir.",
+        "Ayıklanan sayfalar ayrıca tek bir yaprak üzerinde temiz yazdırılır; doğrulama ve uyumluluk ekiplerinin onları bu kadar sık talep etmesinin nedeni budur."
+      ]
+    },
+    {
+      "heading": "Bölümler, Analizler ve Çalışma Taslakları İçin Aralık Ayıklama",
+      "paragraphs": [
+        "Aralık ayıklama, profesyonellerin bir kitabı bölümlere, bir kılavuzu modüllere veya bir veri kümesini parçalara bölüp bunları farklı paydaşlarla paylaşma biçimidir.",
+        "Her iki uç noktayı girin; araç belgenin bitişik bir dilimini döndürür. Her bölümün kendi dosyası olması gerektiğinde bunu [split-pdf:PDF bölme] ile veya birkaç kaynaktan ayıklanan aralıkları tek bir dosyada harmanlamak için [merge-pdf:PDF birleştirme] ile birleştirin.",
+        "Her ayıklama, seçilebilir metne sahip gerçek bir PDF olduğu için alıcılar teslim edilen bölümü kopyalayıp alıntılayabilir, arayabilir ve üzerine not alabilir — işbirlikçi inceleme iş akışlarında önemli olan yetenekler.",
+        "Dilim iki sayfa da olsa iki yüz sayfa da olsa, ayıklama her gömülü grafiği ve çapraz başvuruyu bozulmadan korur."
+      ]
+    },
+    {
+      "heading": "Yerel İşlemeyle Tam Gizlilik",
+      "paragraphs": [
+        "Bir ayıklayıcının belgenizin iç işleyişine derin erişimi gerekir; bunu uzaktan yapmak, yalnızca dört sayfaya ihtiyacınız olsa bile tüm dosyanızın ağda dolaşması anlamına gelir. ChooseTools tüm işlemi makinenizde tutar.",
+        "PDF.js oluşturucu sayfa ağacını yerel olarak ayrıştırır, seçilen sayfa nesnelerini kopyalar ve kaynak dosyayı asla iletmeden yeni belgeyi yazar. Gizlilik anlaşmaları, tıbbi veriler ve müşteri işleri için kabul edilebilir tek model budur.",
+        "Bunu kayıt olmaması ve filigran olmamasıyla birleştirin; Windows, macOS veya mobil tarayıcılarda ayıklama, günlük belge boru hattınızın rutin, sıfır riskli bir parçası haline gelir.",
+        "Kaynak asla yolculuk yapmadığı için orijinali yerinde tutabilir ve seçimleri tam bir güvenle istediğiniz sıklıkta tekrarlayabilirsiniz."
+      ]
+    },
+    {
+      "heading": "Ayıklamayla Pratik İş Akışı Fikirleri",
+      "paragraphs": [
+        "Hızlı bir müşteri önizlemesi için bir teklifin kapağını ve fiyatlandırma sayfalarını ayıklayın. Saha personeline dağıtım için bir kılavuzun referans sayfasını yalıtın. Trende çevrimdışı okuma için bir araştırma makalesinin tablolarını çekin.",
+        "Ayıklanan bölümler tamamen yazdırılabilir ve aranabilir kalır; bu da onları sonraki adımlar için kusursuz girdi yapar: e-postaya eklemeden önce [compress-pdf:PDF sıkıştırma] ile sıkıştırın veya görsel olarak göndermek için [pdf-to-jpg:PDF'ten JPG'ye] ile dönüştürün.",
+        "Kısacası ayıklama, hız, kalite veya gizlilikten ödün vermeden belgeleriniz üzerinde cerrahi kontrol sağlar.",
+        "Düzenli kullanıldığında ekiplerin bilgiyi dağıtma biçimini değiştirir: devasa ekler yerine ilgili dilimler."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Ardışık olmayan bir sayfa aralığını ayıklayabilir miyim?",
+      "a": "Evet. Kesin sayfaları veya aralıkları belirtebilirsiniz (örneğin 1, 5-8 ve 12. sayfalar); araç, seçtiğiniz sırada tam olarak bu sayfaları içeren yeni bir PDF oluşturur."
+    },
+    {
+      "q": "Ayıklanan sayfalar metni seçilebilir ve aranabilir tutar mı?",
+      "a": "Evet. Ayıklama orijinal sayfa nesnelerini yeniden kullanır; bu yüzden metin, kaynak belgedeki gibi tam olarak seçilebilir ve aranabilir kalır."
+    },
+    {
+      "q": "Ücretsiz olarak kaç sayfa ayıklayabileceğime dair bir sınır var mı?",
+      "a": "Hayır. Araç herhangi bir sayfa sınırı dayatmaz. İşleme yerel olduğu için pratikteki tek kısıt, cihazınızda bulunan bellektir."
+    },
+    {
+      "q": "Farklı belgelerden ayıklanan sayfaları birleştirebilir miyim?",
+      "a": "Evet. Her kaynaktan ihtiyacınız olan aralıkları ayıklayın ve tek bir yeni belgede harmanlamak için [merge-pdf:PDF birleştirme] aracını kullanın."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "pdf-editor",
+  "title": "Cómo Editar un PDF Online Gratis: Cambia Texto, Imágenes y Diseño en el Navegador",
+  "description": "Edita un PDF online gratis con ChooseTools. Modifica texto, sustituye imágenes y ajusta el diseño en tu navegador con vista previa en vivo y total privacidad. Sin instalación, sin subidas, sin marcas de agua.",
+  "keywords": ["editar pdf", "editar pdf online gratis", "editar texto en pdf", "editor de pdf gratis", "modificar documento pdf", "editar pdf sin subir archivos", "cambiar contenido de pdf"],
+  "readingTime": 9,
+  "sections": [
+    {
+      "heading": "El PDF Es un Artefacto Final... Hasta Que Deja de Serlo",
+      "paragraphs": [
+        "Los PDF son donde los documentos se asientan: diseños fijos, fuentes incrustadas, páginas finales. Pero de vez en cuando ese asentamiento necesita revisión: una errata en el título, una foto que hay que cambiar, una frase que afinar. Un [pdf-editor:editor de PDF] capaz permite esas correcciones de última hora sin volver a la aplicación de origen.",
+        "Históricamente, los editores gratuitos estaban recortados hasta quedarse en nada más que anotaciones. ChooseTools edita de verdad en el navegador: el texto, las imágenes y la estructura de las páginas responden a tus cambios.",
+        "Todo ocurre localmente en tu dispositivo, así que las ediciones confidenciales nunca viajan a ninguna parte."
+      ]
+    },
+    {
+      "heading": "Cómo Editar un PDF Directamente en el Navegador",
+      "paragraphs": [
+        "Un bucle de edición funcional sustituye al ciclo de reconstruir todo en Word.",
+        "Abre el PDF en el editor. Haz clic en el texto para cambiar palabras, selecciona una imagen para sustituirla y ajusta los elementos de la página con vista previa en vivo. Guarda, y se descarga un nuevo PDF que incorpora todas las ediciones.",
+        "Como el renderizado es local, cada pulsación se refleja al instante y los archivos grandes siguen siendo ágiles."
+      ]
+    },
+    {
+      "heading": "Ediciones de Texto, Sustituciones de Imagen y Ajustes de Diseño",
+      "paragraphs": [
+        "Correcciones típicas: arreglar el nombre de un producto en una ficha técnica, sustituir una foto de perfil anticuada, actualizar un número de versión o recolocar un gráfico en su alineación.",
+        "El editor aborda exactamente estas necesidades, conservando las fuentes, el espaciado y el diseño general intactos mientras realizas cambios selectivos.",
+        "Para un trabajo más pesado, combínalo con [merge-pdf:fusión] de páginas alternas o [crop-pdf:recorte] de regiones en la misma sesión."
+      ]
+    },
+    {
+      "heading": "El Flujo de Trabajo Es un Conjunto Pequeño de Decisiones",
+      "paragraphs": [
+        "Editar un PDF se reduce a un puñado de decisiones: qué texto cambia, qué imagen sustituye a otra y qué elementos cambian de posición. Nombrar la decisión hace cada paso deliberado: haz clic en el texto, escribe la corrección y pasa al siguiente cambio sin navegar por menús.",
+        "La vista previa en vivo es lo que separa a un editor de verdad de un simple rellenador de formularios. Cada pulsación redibuja la página, de modo que un cambio que desbordaría una caja o chocaría con un elemento se ve al instante en lugar de descubrirse tras la exportación. Este bucle de retroalimentación hace que la sesión de edición sea rápida y autocorrectora.",
+        "Cuando varias ediciones abarcan la misma página, trabajar de arriba abajo mantiene el diseño coherente. Afinar una adición, como ensanchar un pie de foto o acortar un párrafo, es cuestión de hacer clic de nuevo sobre ella, no de abrir una herramienta aparte ni reformatear todo el documento."
+      ]
+    },
+    {
+      "heading": "Iteración de Borradores Sin Ida y Vuelta al Procesador de Textos",
+      "paragraphs": [
+        "Editar en Microsoft Word o Google Docs reestructura todo, y exportar de nuevo a PDF a menudo destruye una tipografía cuidada.",
+        "Editar el propio PDF conserva el diseño al tiempo que admite los cambios: el camino más rápido del borrador a la versión final limpia.",
+        "Circular, editar, aprobar: el ciclo se acorta porque la fuente permanece en PDF."
+      ]
+    },
+    {
+      "heading": "Tareas de Edición Comunes en el Mundo Real",
+      "paragraphs": [
+        "Los contratos y las propuestas acumulan revisiones menores antes de la firma: un nombre de empresa corregido, una fecha actualizada, una página de anexos sustituida. Cada una es una edición de texto selectiva que deja intacto el resto del acuerdo, preservando el aspecto legal que los revisores esperan.",
+        "Los montajes de marketing cambian hasta el mismo plazo: una nueva estadística sustituye a la antigua, una diapositiva de precios se actualiza, un logotipo se cambia. Editarlos directamente en el PDF mantiene el diseño del archivo intacto y evita reconstruir toda la presentación en un software de diapositivas.",
+        "Los PDF escaneados de papel pueden contener errores tipográficos introducidos por el proceso de OCR. Corregirlos en el editor repara la capa de texto sin alterar el diseño de la página, dejando un documento limpio que se imprime y se comparte con normalidad.",
+        "Los formularios ya rellenados a veces necesitan correcciones selectivas, como una fecha de nacimiento corregida o un importe reintroducido. Como el editor carga el archivo existente, esas correcciones puntuales se aplican directamente a la versión entregada en lugar de obligar a empezar de cero."
+      ]
+    },
+    {
+      "heading": "Conservación de Fuentes, Espaciado y Diseño",
+      "paragraphs": [
+        "El editor conserva las fuentes incrustadas del archivo y el espaciado de caracteres cuando cambias una redacción, de modo que una frase corregida se sigue renderizando en el tipo de letra exacto del original. Esto importa en los documentos de marca, donde una fuente diferente sería visible de inmediato para el lector.",
+        "El reflujo de los párrafos se limita al texto que autorizas. Cuando una sustitución más corta o más larga cambia el número de líneas, el diseño circundante absorbe la diferencia sin empujar elementos no relacionados a través de la página. El resultado es una revisión que parece intencionada, no reconstruida.",
+        "Para documentos con una alineación visual estricta, la vista previa en vivo te permite verificar que los elementos ajustados siguen respetando los márgenes y los límites antes de guardar el archivo. Los pequeños ajustes de posición se aplican al instante, lo que mantiene los diseños ordenados tras varias rondas de edición."
+      ]
+    },
+    {
+      "heading": "Edición Privada para Trabajos No Publicados",
+      "paragraphs": [
+        "Precios sin publicar, dibujos propietarios y planes no revelados no deberían viajar a un editor en la nube. La edición local los mantiene confinados a tu espacio de trabajo.",
+        "Sin marcas de agua, sin cuentas, sin retención; idéntico en Windows, macOS, Linux y móvil.",
+        "Edita con confianza y comparte el resultado aprobado."
+      ]
+    },
+    {
+      "heading": "La Edición como Parte del Pulido Final",
+      "paragraphs": [
+        "La pasada final habitual combina las ediciones con [compress-pdf:compresión], [watermark-pdf:marcas de agua] y [protect-pdf:cifrado] antes del envío.",
+        "Corregir una página ya no supone abrir toda una suite de escritorio.",
+        "La edición gratuita en el navegador cierra la brecha entre «casi final» y «enviado»."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Puedo cambiar texto dentro de un PDF existente?",
+      "a": "Sí. El editor carga el PDF y te permite hacer clic en el texto para modificar la redacción, con renderizado en vivo y un nuevo PDF guardado con tus ediciones."
+    },
+    {
+      "q": "¿Editar requiere subir mi documento?",
+      "a": "No. Toda la edición se ejecuta localmente en tu navegador: el archivo y cada cambio permanecen en tu dispositivo, sin cuentas ni marcas de agua."
+    },
+    {
+      "q": "¿Qué tipos de edición se admiten?",
+      "a": "El soporte se centra en correcciones prácticas: ajustes de texto, sustitución de imágenes y posicionamiento de elementos, todo con vista previa en vivo y conservación del diseño."
+    },
+    {
+      "q": "¿Corregir texto dañará el resto del diseño?",
+      "a": "No. Las ediciones se aplican al contenido que cambias mientras el diseño circundante, las fuentes y el espaciado permanecen intactos, y la vista previa en vivo confirma el resultado antes de guardar."
+    }
+  ]
+}

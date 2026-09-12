@@ -1,0 +1,115 @@
+{
+  "slug": "invoice-generator",
+  "title": "Générateur de factures : Créez des factures professionnelles en ligne gratuitement",
+  "description": "Générateur de factures gratuit pour créer des factures professionnelles avec lignes, taxes et totaux, téléchargeables en PDF, directement dans votre navigateur. Sans inscription, sans téléchargement, totalement privé.",
+  "keywords": ["générateur de factures", "créer facture en ligne gratuit", "facturier", "modèle de facture gratuit", "faire une facture", "générateur facture PDF", "facture freelance"],
+  "readingTime": 9,
+  "sections": [
+    {
+      "heading": "Se faire payer commence par une facture lisible",
+      "paragraphs": [
+        "Une facture est le document qui transforme une prestation réalisée en argent attendu : lignes, quantités, tarifs, taxes et total à payer. [invoice-generator:Générer des factures] en ligne transforme une tâche potentiellement fastidieuse en une routine de deux minutes.",
+        "Les freelances, consultants et petites équipes qui facturent en continu ont besoin de rapidité et de cohérence.",
+        "ChooseTools construit les factures localement dans votre navigateur et les exporte sous forme de PDF propres et prêts à imprimer."
+      ]
+    },
+    {
+      "heading": "Comment créer une facture",
+      "paragraphs": [
+        "Des heures travaillées à la facture envoyée, en un instant.",
+        "Saisissez les informations de l'expéditeur et du client, ajoutez les lignes avec quantité et tarif, définissez la taxe et la remise, et observez les totaux se calculer automatiquement. Prévisualisez, ajustez et exportez le PDF.",
+        "Tout est généré sur votre appareil, les données financières restent entre vos mains.",
+        "Une mise en page guidée prévient les omissions qui retardent le paiement, comme des conditions de paiement manquantes ou une date d'échéance floue."
+      ]
+    },
+    {
+      "heading": "Lignes, taxes et totaux automatiques",
+      "paragraphs": [
+        "Chaque ligne comporte description, quantité, prix unitaire et montant ; les calculs de total, de taxe et de net se mettent à jour en temps réel.",
+        "Les remises s'appliquent proprement et le total correspond toujours au calcul.",
+        "Zéro erreur de tableur entre le travail et la facture.",
+        "Toute modification de valeur recalcule instantanément les totaux, de sorte que le chiffre final n'est jamais obsolète ou erroné."
+      ]
+    },
+    {
+      "heading": "Numéros de facture et envoi structuré",
+      "paragraphs": [
+        "Les numéros de facture séquentiels gardent les dossiers prêts pour un audit et les paiements traçables.",
+        "Les informations de l'entreprise, les conditions de paiement et une mise en page professionnelle rendent le document plus facile à approuver et à payer.",
+        "La cohérence d'une facture à l'autre bâtit la confiance avec les clients fidèles.",
+        "Une séquence de numéros organisée vous aide, ainsi que votre comptable, à réconcilier les paiements au fil des mois sans recherches manuelles."
+      ]
+    },
+    {
+      "heading": "Ce qui rend une facture facile à payer",
+      "paragraphs": [
+        "Une date d'échéance claire, idéalement indiquée à la fois sous forme de date et en jours à compter de l'émission, lève toute ambiguïté sur le moment attendu du paiement.",
+        "Un détail ventilé montrant ce qui a été livré ou réalisé, à quel tarif, permet aux clients de vérifier les montants sans envoyer de courriel pour demander des précisions.",
+        "Vos coordonnées bancaires ou un lien de paiement placés de manière visible près des totaux réduisent la friction entre la réception et le virement.",
+        "Une courte note polie remerciant le client et indiquant le moyen de paiement souhaité complète un document facile à approuver et à traiter."
+      ]
+    },
+    {
+      "heading": "Télécharger en PDF : le format de facture universel",
+      "paragraphs": [
+        "Les factures PDF s'ouvrent partout, s'impriment correctement et s'archivent en toute sécurité.",
+        "L'exportation conserve totaux et mise en page intacts, prêts pour un courriel ou un portail.",
+        "Clients et comptables s'attendent à un format stable, non modifiable, qu'ils peuvent classer.",
+        "Le PDF préserve également votre image de marque et votre mise en page quel que soit l'appareil ou le système d'exploitation du destinataire."
+      ]
+    },
+    {
+      "heading": "Gérer plusieurs clients et projets",
+      "paragraphs": [
+        "Les freelances qui servent plusieurs clients simultanément profitent de pouvoir reproduire la même mise en page soignée pour chaque mission, gardant une facturation à marque uniforme.",
+        "La facturation par projet avec plusieurs lignes par phase évite la confusion d'un montant global que les clients doivent décortiquer.",
+        "Les prestataires réguliers peuvent reproduire leur structure de facturation récurrente chaque période, en ajustant quantités et tarifs avec un minimum d'effort.",
+        "Un processus répétable signifie que le lundi de facturation reste calme, même quand plusieurs factures partent la même semaine."
+      ]
+    },
+    {
+      "heading": "Facturation privée, aucun cloud nécessaire",
+      "paragraphs": [
+        "Les tarifs, les noms de clients et les sources de revenus sont sensibles ; la génération locale signifie qu'aucune donnée n'est stockée ailleurs.",
+        "Sans inscription, sans téléchargement, sans filigrane sur aucun appareil.",
+        "Votre comptabilité reste votre comptabilité, hors ligne et sous votre contrôle.",
+        "Aucun compte à compromettre, aucun serveur à pirater qui pourrait exposer vos clients, et aucun tiers profitant de vos données."
+      ]
+    },
+    {
+      "heading": "Soignez les coordonnées de votre émetteur",
+      "paragraphs": [
+        "L'en-tête de votre facture doit identifier votre personne ou votre entreprise en un coup d'œil : raison sociale, courriel, téléphone et, le cas échéant, numéro de TVA ou enregistrement fiscal.",
+        "Inclure vos coordonnées de paiement, telles qu'un compte bancaire, un IBAN ou un lien de paiement, dans un bloc clairement indiqué évite les retards évitables liés à l'attente d'une demande du client pour savoir comment effectuer le virement.",
+        "Des conditions de paiement à 14, 30 ou 60 jours doivent correspondre à ce qui a été convenu avant le début des travaux, et les rappeler sur le document maintient l'accord des deux parties.",
+        "Un en-tête professionnel combiné à des coordonnées complètes donne à votre facture l'apparence d'un établissement établi plutôt que d'une demande ponctuelle."
+      ]
+    },
+    {
+      "heading": "La facture au sein de la suite documentaire",
+      "paragraphs": [
+        "Exportez, puis [compress-pdf:compressez] pour un envoi par courriel, [protect-pdf:chiffrez] pour la confidentialité, ou [pdf-to-text:extraction de texte] pour la comptabilité.",
+        "La suite complète est gratuite et basée sur navigateur, couvrant l'ensemble du cycle de facturation et d'archivage.",
+        "Du travail réalisé à la facture payée, en douceur et en toute confidentialité."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puis-je ajouter plusieurs lignes à ma facture ?",
+      "a": "Oui. Ajoutez un nombre illimité de lignes avec quantité et tarif ; les totaux, la taxe et le montant final se calculent automatiquement."
+    },
+    {
+      "q": "Puis-je télécharger la facture en PDF ?",
+      "a": "Oui. La facture finalisée est exportée sous forme de PDF prêt à imprimer, universellement compatible, avec la mise en page intacte."
+    },
+    {
+      "q": "La création de facture est-elle privée ?",
+      "a": "Oui. Tout s'exécute localement dans votre navigateur, sans inscription, téléchargement ni filigrane."
+    },
+    {
+      "q": "Puis-je inclure des remises ou des taux de TVA différents ?",
+      "a": "Oui. Les remises s'appliquent proprement aux totaux, et la taxe est calculée automatiquement pour que le chiffre final corresponde toujours."
+    }
+  ]
+}

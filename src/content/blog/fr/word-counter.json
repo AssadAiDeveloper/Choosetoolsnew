@@ -1,0 +1,113 @@
+{
+  "slug": "word-counter",
+  "title": "Outil de compteur de mots : comptez les mots, caractères et la densité en temps réel",
+  "description": "Outil gratuit de compteur de mots pour compter les mots, caractères, phrases et paragraphes en temps réel, avec analyse de densité de mots-clés. Privé, dans votre navigateur, sans envoi.",
+  "keywords": ["compteur de mots", "compter mots en ligne", "outil compteur mots", "compteur de caractères", "compteur mots essai", "vérificateur densité mots-clés", "compter mots gratuitement"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Pourquoi les rédacteurs comptent impitoyablement les mots",
+      "paragraphs": [
+        "Les comptes de mots sont des clauses contractuelles : les articles de blog ont des objectifs SEO, les essais académiques imposent des limites, les légendes de réseaux sociaux plafonnent les caractères et les formulaires en ligne rejettent les réponses trop longues. Un compteur de mots fiable est le garde-fou qui maintient chaque soumission dans les limites.",
+        "Compter à la main est impossible ; des outils fiables devraient également révéler la structure — phrases, paragraphes et temps de lecture.",
+        "ChooseTools compte en temps réel au fur et à mesure que vous tapez ou collez, s'exécutant entièrement dans votre navigateur sans envoi.",
+        "Les équipes éditoriales utilisent les comptes de mots pour maintenir la cohérence éditoriale entre les publications, garantissant qu'aucun article ne dérive bien au-dessus ou en dessous de la longueur attendue."
+      ]
+    },
+    {
+      "heading": "Mots, caractères avec et sans espaces, phrases, paragraphes",
+      "paragraphs": [
+        "Les différentes plateformes comptent différemment : les bases de données comptent souvent les mots, les formulaires comptent les caractères et les études comptent les caractères sans espaces.",
+        "Le compteur présente les mots, les caractères (les deux variantes), les phrases et les paragraphes en une seule fois, de sorte que vous n'avez jamais à estimer.",
+        "Suivez chaque mesure se mettant à jour en direct à chaque frappe de touche.",
+        "Le comptage de caractères sans espaces est particulièrement important pour les défis de programmation, les dépôts de brevets et les étiquettes de bagages aériens où chaque caractère a un coût."
+      ]
+    },
+    {
+      "heading": "Densité de mots-clés : le compteur SEO que vous ne saviez pas nécessaire",
+      "paragraphs": [
+        "L'utilisation excessive d'un mot-clé déclenche les filtres anti-spam ; l'utilisation insuffisante manque votre cible. L'analyse de densité montre la fréquence de récurrence de chaque mot.",
+        "Parcourez les résultats pour vérifier que votre mot-clé principal atteint une plage plausible.",
+        "Cela transforme un compteur rudimentaire en un instrument d'optimisation.",
+        "Les professionnels du SEO visent généralement une densité de mot-clé principal entre un et deux pour cent, et l'affichage de la densité rend la vérification de l'objectif trivial."
+      ]
+    },
+    {
+      "heading": "Objectifs rédactionnels : de 300 à 4000 mots",
+      "paragraphs": [
+        "Les blogs, les thèses, les fiches produits et les communiqués de presse vivent chacun dans une fourchette de mots. Le compteur fournit un retour immédiat sur votre zone cible.",
+        "En progressant du brouillon à la version finale, les changements de mesures guident la coupe et l'expansion avec précision.",
+        "Chaque clignotement de la barre de progression est un retour.",
+        "Les rédacteurs académiques préparant des résumés avec des limites strictes peuvent suivre la montée du compteur de phrases en temps réel et s'arrêter avant de dépasser l'exigence de la revue."
+      ]
+    },
+    {
+      "heading": "Estimation du temps de lecture et de la complexité",
+      "paragraphs": [
+        "Au-delà des comptes bruts, l'outil estime le temps de lecture en se basant sur la vitesse moyenne des adultes, aidant les éditeurs à planifier le contenu pour les newsletters et les présentations.",
+        "La longueur moyenne des phrases indique la lisibilité : des phrases plus courtes améliorent la compréhension pour le grand public tandis que des phrases plus longues conviennent à la prose académique.",
+        "Ces mesures complémentaires donnent aux rédacteurs un aperçu plus complet de leur texte qu'un simple comptage de mots."
+      ]
+    },
+    {
+      "heading": "Détecter les phrases trop longues et les problèmes de lisibilité",
+      "paragraphs": [
+        "Lorsque la longueur moyenne des phrases dépasse vingt-cinq mots, la plupart des formules de lisibilité signalent le texte comme difficile pour le grand public.",
+        "Les rédacteurs peuvent parcourir le compteur de phrases à côté du compteur de mots pour identifier les paragraphes nécessitant une division pour plus de clarté.",
+        "Combiner les données de comptage à un examen manuel de lisibilité produit un contenu à la fois conforme aux métriques et réellement facile à lire."
+      ]
+    },
+    {
+      "heading": "Comptage privé de tout ce que vous écrivez",
+      "paragraphs": [
+        "Les essais et les travaux client ne quittent jamais votre machine — le moteur de mesure s'exécute localement.",
+        "Pas d'envoi, pas de bannières publicitaires vendant vos mots, pas de compte.",
+        "Sur Windows, macOS, Linux ou un téléphone, un comportement identique.",
+        "Les mémoires juridiques, les manuscrits médicaux et les descriptions de produits propriétaires restent confidentiels lorsque l'utilitaire de comptage s'exécute entièrement dans le navigateur."
+      ]
+    },
+    {
+      "heading": "Respecter les délais de soumission avec des limites en direct",
+      "paragraphs": [
+        "De nombreux portails de candidature indiquent un plafond strict de caractères, et le dépasser d'un seul caractère déclenche un rejet automatique.",
+        "Taper directement dans un compteur en direct vous permet de vous arrêter exactement à la limite, évitant le cycle de correction qui devient nécessaire lorsqu'un outil coller-et-vérifier est utilisé après coup.",
+        "Pour les sujets d'essai avec des limites minimales et maximales, un compteur en direct maintient le brouillon dans la fenêtre acceptable pendant toute la session de rédaction."
+      ]
+    },
+    {
+      "heading": "Comptez, puis peaufinez avec les outils complémentaires",
+      "paragraphs": [
+        "Lorsqu'un passage dépasse la limite, réduisez avec les outils de casse, dédupliquez avec la suppression de doublons de lignes ou reformatez avec la génération de texte substitut pour les maquettes.",
+        "La suite complète est gratuite et basée sur le navigateur.",
+        "Chaque mot — compté, contrôlé, livré.",
+        "Les rédacteurs qui combinent un compteur de mots à un outil de diff de texte peuvent suivre exactement quelles phrases ont été ajoutées ou supprimées entre les versions."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Le compteur se met-il à jour en temps réel pendant que je tape ?",
+      "a": "Oui. Les comptages de mots, caractères, phrases et paragraphes se mettent à jour instantanément à chaque frappe de touche, avec les comptages de caractères à la fois avec et sans espaces."
+    },
+    {
+      "q": "L'outil peut-il mesurer la densité de mots-clés ?",
+      "a": "Oui. Il analyse la fréquence d'apparition de chaque mot dans votre texte, vous aidant à trouver un poids naturel de mots-clés pour le SEO ou le travail stylistique."
+    },
+    {
+      "q": "Le compteur de mots est-il privé ?",
+      "a": "Oui. Tout s'exécute localement dans votre navigateur — votre texte n'est jamais envoyé nulle part."
+    },
+    {
+      "q": "Estime-t-il le temps de lecture ?",
+      "a": "Oui. L'outil calcule un temps de lecture approximatif basé sur la vitesse de lecture standard des adultes, donnant aux éditeurs une référence rapide de planification."
+    },
+    {
+      "q": "Puis-je compter les mots dans plusieurs langues ?",
+      "a": "Oui. Le compteur divise sur les espaces blancs et fonctionne pour du texte dans pratiquement toute langue utilisant des espaces normaux, y compris les écritures accentuées et non latines."
+    },
+    {
+      "q": "Puis-je coller un document entier et le compter ?",
+      "a": "Oui. Coller un document complet met à jour toutes les mesures en une fois, donnant des totaux immédiats pour n'importe quelle longueur de texte."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "number-base",
+  "title": "Convertisseur de base numérique : Convertir entre binaire, hexadécimal, octal et décimal, en ligne et gratuitement",
+  "description": "Convertisseur de base numérique gratuit pour convertir des nombres entre binaire, octal, décimal et hexadécimal instantanément. Privé, dans votre navigateur, sans envoi de données.",
+  "keywords": ["convertisseur de base", "binaire en hexadécimal", "hexadécimal en décimal", "convertisseur de base en ligne", "décimal en binaire", "convertisseur octal", "calculatrice de base numérique"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Le même nombre, différents alphabets",
+      "paragraphs": [
+        "Les ordinateurs jonglent avec le binaire, les humains préfèrent le décimal, et les adresses mémoire adorent l'hexadécimal — pourtant tous décrivent la même quantité. [number-base:Conversion entre les bases] traduit entre ces vues sans perdre un seul chiffre.",
+        "Chaque base n'est qu'une façon différente de grouper les chiffres par puissances d'un nombre. Le binaire groupe par deux, l'octal par huit, le décimal par dix et l'hexadécimal par seize. Comprendre ce seul principe débloque chaque conversion dont vous aurez besoin.",
+        "ChooseTools convertit les nombres entre les bases localement dans votre navigateur."
+      ]
+    },
+    {
+      "heading": "Comment convertir entre les bases",
+      "paragraphs": [
+        "Traduction instantanée entre les systèmes numériques :",
+        "Entrez un nombre, choisissez sa base actuelle (binaire, octal, décimal ou hexadécimal) et la base cible ; la valeur convertie apparaît immédiatement.",
+        "Par exemple, le décimal 255 devient FF en hexadécimal et 11111111 en binaire. Le convertisseur effectue le calcul en millisecondes, éliminant le processus manuel de division longue qui enseigne aux étudiants des heures de tediousité.",
+        "La conversion est locale et synchrone."
+      ]
+    },
+    {
+      "heading": "Binaire, octal, décimal, hexadécimal",
+      "paragraphs": [
+        "Les bits de base-2 forment le langage de la machine ; la base-8 compresse des trios de bits ; la base-10 est celle de tous les jours ; la base-16 groupe en adresses mémoire propres.",
+        "L'hexadécimal est particulièrement utile pour représenter les octets : chaque paire de chiffres hexadécimaux correspond à un octet, ce qui rend les dumps mémoire et les codes couleur bien plus lisibles que des suites de uns et de zéros.",
+        "Changer de vue clarifie les masques, les couleurs et les registres.",
+        "La fluidité entre les quatre bases couvre la majorité du travail d'ingénierie."
+      ]
+    },
+    {
+      "heading": "Où la conversion de base apparaît au quotidien",
+      "paragraphs": [
+        "Les développeurs rencontrent constamment la conversion de base même lorsqu'ils ne s'en rendent pas compte. Les ingénieurs réseau lisent des masques de sous-réseau en décimal pointé qui correspondent à des suites binaires contiguës de uns, tandis que les administrateurs de bases de données manipulent des identifiants hexadécimaux pour les UUID et les hachages.",
+        "Les développeurs web convertissent des valeurs hexadécimales de couleur comme 2A4B8C en composants RGB et inversement. Les programmeurs de systèmes embarqués basculent des bits individuels dans des registres d'état dont la documentation utilise la notation octale.",
+        "Les professionnels créatifs utilisent des codes hex pour les palettes de marques. Le point est universel : la maîtrise des bases n'est pas une compétence de niche mais une compétence fondamentale dans presque toutes les disciplines techniques.",
+        "Un convertisseur rapide élimine la charge arithmétique afin que les professionnels puissent se concentrer sur le sens plutôt que sur les mathématiques."
+      ]
+    },
+    {
+      "heading": "Déboguer des valeurs entre systèmes",
+      "paragraphs": [
+        "Les logs affichent de l'hexadécimal, les calculatrices retournent du décimal, le matériel veut du binaire.",
+        "La traduction rapide résout les écarts dans les adresses, les masques et les codes couleur.",
+        "Un développeur déboguant une capture de paquets réseau, par exemple, doit convertir un masque de sous-réseau IP hexadécimal en sa représentation décimale ou binaire pour vérifier les règles de routage. Le faire mentalement pour une adresse de trente-deux bits est sujet aux erreurs et lent.",
+        "Moins d'erreurs de calcul mental, des correctifs plus confiants."
+      ]
+    },
+    {
+      "heading": "Gestion des nombres négatifs et des fractions",
+      "paragraphs": [
+        "La conversion de base ne se limite pas aux entiers positifs. Les nombres négatifs utilisent la représentation en complément à deux en binaire, et le convertisseur gère les valeurs signées pour que vous puissiez voir à quoi ressemble un entier décimal négatif en hexadécimal ou en binaire.",
+        "Les valeurs fractionnaires comme 0,625 en décimal se convertissent proprement en binaire sous forme de 0,101, révélant la composante fractionnaire exacte qui peut être représentée sans arrondi.",
+        "Comprendre où les fractions se terminent dans une base mais se répètent dans une autre explique pourquoi l'arithmétique à virgule flottante produit parfois des résultats inattendus dans les programmes.",
+        "Ces cas limites sont importants en programmation système, en calculs cryptographiques et dans tout domaine où la précision entre les bases est cruciale."
+      ]
+    },
+    {
+      "heading": "Éducation et étude rendues visibles",
+      "paragraphs": [
+        "Les étudiants en informatique et en électronique voient exactement comment le groupement modifie la représentation.",
+        "Une compréhension pas à pas remplace les tables mémorisées.",
+        "Voir que le décimal 42 est 2A en hexadécimal et 00101010 en binaire développe l'intuition de la notation positionnelle bien plus efficacement que la mémorisation par cœur.",
+        "Le saut de format cesse d'être mystérieux."
+      ]
+    },
+    {
+      "heading": "Exercice pratique : adresses IP et paires de couleurs",
+      "paragraphs": [
+        "Une adresse IPv4 comme 192.168.1.1 est en réalité quatre octets écrits en décimal, et convertir chaque octet en hexadécimal révèle la notation compacte que de nombreux routeurs utilisent : C0.A8.01.01.",
+        "La même paire apparaît dans les couleurs web, où un triplet hexadécimal comme FF7F50 se divise en trois octets valant 255, 127 et 80 en décimal. Les outils de basculement relient ces mondes instantanément.",
+        "S'entraîner avec des exemples familiers rend la relation abstraite entre les bases concrète et mémorable.",
+        "Une fois que vous voyez l'octet derrière le chiffre hexadécimal, chaque dump, palette et registre commence à avoir du sens."
+      ]
+    },
+    {
+      "heading": "Travail numérique privé",
+      "paragraphs": [
+        "Les valeurs de configuration et de décalage se convertissent sur l'appareil.",
+        "Pas d'envoi, pas de compte, pas de filigrane — sur toutes les plateformes.",
+        "Que vous traduisiez un décalage d'un document de firmware ou vérifiiez une somme de contrôle, les nombres restent sur votre machine.",
+        "Mathématiques d'ingénierie, discrètement réalisées."
+      ]
+    },
+    {
+      "heading": "Le travail de base dans la boîte à outils développeur",
+      "paragraphs": [
+        "Combiné avec [binary-text:texte binaire], [hex-to-…:outils de couleur] et [ascii-tools] pour une gestion complète de bas niveau.",
+        "La suite est gratuite et native au navigateur.",
+        "Chaque base, parfaitement traduite."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Quelles bases sont prises en charge ?",
+      "a": "Binaire (base 2), octal (base 8), décimal (base 10) et hexadécimal (base 16) se convertissent dans toutes les combinaisons."
+    },
+    {
+      "q": "La conversion conserve-t-elle la valeur exacte ?",
+      "a": "Oui. Seule la représentation change ; le nombre sous-jacent reste identique entre les bases."
+    },
+    {
+      "q": "Le convertisseur est-il privé ?",
+      "a": "Oui. Tout s'exécute localement dans votre navigateur sans envoi de données ni compte."
+    },
+    {
+      "q": "L'outil peut-il gérer les nombres négatifs ?",
+      "a": "Oui. Les valeurs négatives sont prises en charge, y compris les représentations en complément à deux couramment utilisées dans les formats binaire et hexadécimal."
+    }
+  ]
+}

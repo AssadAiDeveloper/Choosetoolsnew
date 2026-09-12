@@ -1,0 +1,107 @@
+{
+  "slug": "random-number",
+  "title": "Gerador de Números Aleatórios: Gere Números Aleatórios Online Grátis",
+  "description": "Gerador de números aleatórios gratuito para criar números aleatórios seguros em qualquer intervalo, para sorteios, testes e simulações. Privado, no seu navegador, sem carregamentos.",
+  "keywords": ["gerador de números aleatórios", "números aleatórios online", "gerar números aleatórios", "escolher número aleatório", "número aleatório entre 1 e", "números aleatórios seguros", "rng online"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "A Imparcialidade Começa na Aleatoriedade",
+      "paragraphs": [
+        "Sorteios de lotaria, amostras de teste e simulações precisam todos de números que não favorecem nenhum resultado. [random-number:Gerar números aleatórios] fornece valores imparciais em qualquer intervalo, a pedido.",
+        "Boa aleatoriedade elimina o enviesamento de seleção e os padrões de previsão.",
+        "A ChooseTools gera números aleatórios localmente no seu navegador.",
+        "Quando todos os participantes merecem uma oportunidade igual, contar com uma fonte aleatória criptograficamente sólida é a única abordagem defensável. Escolhas manuais e fórmulas de folhas de cálculo carregam frequentemente enviesamentos ocultos que minam a integridade do resultado."
+      ]
+    },
+    {
+      "heading": "Como Gerar Números Aleatórios",
+      "paragraphs": [
+        "Um intervalo, uma quantidade, um clique:",
+        "Defina os limites inferior e superior, escolha quantos números precisa e gere. Copie ou descarregue o seu sorteio como lista.",
+        "A geração usa a aleatoriedade do seu navegador — local e privada.",
+        "A interface mantém o processo transparente: vê o intervalo exato, a quantidade exata e o resultado exato, sem nada oculto por trás de divulgação progressiva ou opções confusas."
+      ]
+    },
+    {
+      "heading": "Um Número ou uma Série Completa",
+      "paragraphs": [
+        "Escolhas individuais decidem decisões diárias; lotes preenchem conjuntos de teste e quadros de amostragem.",
+        "Contagem, repetições e formatos adaptam-se ao caso de uso.",
+        "A mesma fonte serve necessidades simples e em massa.",
+        "Gerar um único número para uma decisão rápida e produzir um lote de quinhentos para análise estatística usam o mesmo motor subjacente, pelo que a qualidade não se degrada em escala."
+      ]
+    },
+    {
+      "heading": "Testes, Simulações e Escolhas Justas",
+      "paragraphs": [
+        "Testes determinísticos usam sementes fixas, mas testes exploratórios rejeitam padrões. Sorteios aleatórios para salas de aula e concursos carregam credibilidade.",
+        "Entrada imparcial mantém as experiências honestas.",
+        "Simulações de Monte Carlo, atribuições de grupos de testes A/B e intervalos de confiança de bootstrap dependem todos de aleatoriedade de alta qualidade. Um gerador enviesado introduz erro sistemático que se compõe silenciosamente ao longo de milhares de iterações.",
+        "Professores que selecionam alunos para apresentações, grupos comunitários que fazem rifas e mestres de jogo que constroem tabelas de encontros beneficiam todos de uma ferramenta transparente, repetível e claramente justa."
+      ]
+    },
+    {
+      "heading": "Distribuição e Comportamento do Intervalo",
+      "paragraphs": [
+        "Os valores distribuem-se pelo intervalo configurado sem enviesamento aglomerado. Distribuição uniforme significa que todos os inteiros dentro dos limites têm igual probabilidade de serem selecionados em qualquer sorteio.",
+        "Sorteios novos variam de sessão para sessão por design. Nenhumas duas gerações produzem a mesma sequência, a menos que repita deliberadamente uma entrada idêntica — algo que esta ferramenta não suporta por design.",
+        "A repetibilidade pertence aos sistemas com semente, não a esta ferramenta.",
+        "Compreender a distribuição uniforme é importante no controlo de qualidade: se a sua fonte aleatória aglomera valores perto do meio do intervalo ou favorece certos dígitos, a análise a jusante herda essa distorção."
+      ]
+    },
+    {
+      "heading": "Aplicações Práticas Para Além de Escolhas Rápidas",
+      "paragraphs": [
+        "Os programadores usam números aleatórios para gerar dados de teste para testes unitários, para baralhar arrays em prototipagem de algoritmos e para atribuir tokens únicos em ambientes de desenvolvimento onde uma pilha criptográfica completa é desnecessária.",
+        "Os educadores criam conjuntos de problemas de prática com parâmetros aleatórios para que cada aluno receba uma versão diferente do mesmo exercício, desencorajando a cópia enquanto mantém a dificuldade consistente.",
+        "Investigadores que amostram uma população usam inteiros aleatórios para selecionar participantes sem introduzir enviesamento do entrevistador ou artefactos de autosseleção nos seus estudos.",
+        "Organizadores de eventos atribuem números de estande, posições de lugares e ordens de fila aleatoriamente para garantir uma atribuição transparente e defensável."
+      ]
+    },
+    {
+      "heading": "Geração de Números Privada",
+      "paragraphs": [
+        "Sorteios sensíveis e identificadores de amostragem geram-se no dispositivo.",
+        "Sem carregamentos, sem conta, sem marca de água — em todas as plataformas.",
+        "Aleatoriedade sem vigilância.",
+        "A confidencialidade importa quando os números aleatórios identificam indivíduos em ensaios clínicos, auditorias financeiras ou investigações internas onde o próprio processo de seleção deve permanecer protegido."
+      ]
+    },
+    {
+      "heading": "Evitar Armadilhas Comuns na Seleção Aleatória",
+      "paragraphs": [
+        "Um erro frequente é assumir que uma amostra pequena representa totalmente o intervalo. Gerar cinco números entre um e cem não garante que fiquem uniformemente espaçados; aglomeração perto do centro ou das bordas é estatisticamente normal.",
+        "Outra armadilha é usar carimbos de data/hora ou IDs de processo como fontes de entropia. Esses valores são previsíveis ou de baixa entropia, tornando-os inadequados para qualquer contexto onde a imparcialidade ou a segurança importem.",
+        "A ferramenta ignora estes problemas ao recorrer à API criptográfica do navegador, concebida especificamente para geração imprevisível e auditada regularmente pelos fabricantes de navegadores.",
+        "Compreender estas armadilhas ajuda a interpretar os resultados corretamente e a escolher a ferramenta certa para o trabalho, em vez de construir soluções personalizadas frágeis."
+      ]
+    },
+    {
+      "heading": "Muitas Ferramentas Precisam de um Toque de Aleatoriedade",
+      "paragraphs": [
+        "Combine sorteios com [password-generator:segredos], [uuid-generator:IDs únicos] e [lorem-ipsum:placeholders] para construção completa de dados de teste.",
+        "O conjunto é gratuito e nativo do navegador.",
+        "Números imparciais num instante."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Consigo definir tanto o intervalo como a quantidade?",
+      "a": "Sim. Os limites inferior e superior combinam-se com uma definição de quantidade para um único número ou uma sequência completa."
+    },
+    {
+      "q": "Os resultados são verdadeiramente aleatórios?",
+      "a": "Provêm da fonte aleatória segura do seu navegador, dando sorteios imparciais sem padrões previsíveis."
+    },
+    {
+      "q": "O gerador é privado?",
+      "a": "Sim. Tudo é executado localmente no seu navegador, sem carregamentos ou contas."
+    },
+    {
+      "q": "Podem aparecer duplicados num lote?",
+      "a": "Sim. Cada sorteio é independente, pelo que o mesmo número pode aparecer mais de uma vez num lote, tal como aconteceria num sorteio físico justo."
+    }
+  ]
+}

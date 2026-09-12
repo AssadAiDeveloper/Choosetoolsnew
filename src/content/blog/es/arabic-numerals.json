@@ -1,0 +1,108 @@
+{
+  "slug": "arabic-numerals",
+  "title": "Convertidor de Números Árabes: Convierte entre Dígitos Árabes Orientales y Occidentales en Línea Gratis",
+  "description": "Convertidor gratuito para cambiar entre números árabes orientales (٠١٢) y dígitos occidentales (0123) al instante en tu navegador. Privado, sin subidas.",
+  "keywords": ["convertidor números árabes", "números árabes orientales", "números árabes indios", "convertir dígitos árabes", "٠١٢٣ a 0123", "convertidor números árabes online", "oriental a occidental dígitos"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Dos Sistemas de Numeración, Una Familia",
+      "paragraphs": [
+        "Gran parte del mundo árabe escribe ٠١٢٣٤٥٦٧٨٩ mientras que las plataformas digitales esperan 0-9. [arabic-numerals:Convertir entre números árabes y dígitos occidentales] reconcilia los dos en cualquier dirección al instante.",
+        "Los dígitos correctos en el contexto adecuado previenen discrepancias costosas.",
+        "ChooseTools convierte numerales localmente en tu navegador."
+      ]
+    },
+    {
+      "heading": "Cómo Convertir Números Árabes",
+      "paragraphs": [
+        "Una dirección o la otra, en un solo paso:",
+        "Pega números en forma de árabe oriental para recibir dígitos occidentales, o pega dígitos occidentales para obtener equivalentes árabes-indios. El texto mixto se convierte intacto, por lo que puedes pegar un párrafo completo que contenga tanto escritura árabe como números sin preocuparte por separarlos manualmente.",
+        "La conversión se ejecuta completamente en tu dispositivo, lo que significa que no hay latencia de ida y vuelta ni dependencia de la disponibilidad del servidor. Puedes convertir numerales incluso cuando estás sin conexión, siempre que la página ya se haya cargado en tu navegador."
+      ]
+    },
+    {
+      "heading": "Árabe Oriental vs. Dígitos Occidentales",
+      "paragraphs": [
+        "Los números árabes orientales (٠١٢٣…) son distintos; los decimales y los agrupamientos se traducen directamente. El dígito para cero parece un punto, mientras que los dígitos restantes tienen formas que difieren completamente de sus contrapartes occidentales, haciendo la confusión fácil si no estás atento.",
+        "Los números incrustados en oraciones se actualizan juntos, por lo que una etiqueta de precio que dice ١٥٠٠٠ ر.س se convierte en 15000 SAR sin alterar la abreviatura de la moneda o el texto circundante. Esto preserva el contexto semántico del que dependen los lectores.",
+        "La salida con conciencia de contexto preserva el texto árabe circundante, garantizando que los diacríticos, la puntuación y el formato específico de la escritura permanezcan intactos. El convertidor se centra únicamente en los caracteres de dígito, dejando todo lo demás sin tocar."
+      ]
+    },
+    {
+      "heading": "Casos de Uso del Mundo Real para Conversión de Dígitos",
+      "paragraphs": [
+        "Los informes financieros exportados de sistemas bancarios regionales a menudo contienen dígitos árabes-indios que las hojas de cálculo internacionales no pueden analizar. Convertir esas cifras a dígitos occidentales permite que las fórmulas estándar y las tablas dinámicas procesen los datos correctamente. Los contadores y auditores ahorran horas de reingreso manual pegando columnas completas de cifras en el convertidor a la vez.",
+        "Los formularios gubernamentales y las salidas de registros civiles en muchos países de Medio Oriente presentan fechas de nacimiento, números de identificación y direcciones usando dígitos árabes orientales. Enviar esos mismos números a portales en línea que esperan dígitos occidentales requiere conversión, y hacerlo manualmente invita a errores de transcripción. Un solo paso de pegar y convertir elimina el riesgo.",
+        "Los materiales educativos a menudo enseñan ambos sistemas lado a lado, y los estudiantes necesitan verificar sus conversiones. La herramienta actúa como una guía de respuestas rápida, confirmando que el trabajo manual del estudiante coincide con la salida correcta. Los profesores pueden preparar hojas de respuestas más rápido convirtiendo conjuntos completos de problemas en lote.",
+        "Los viajeros que navegan sistemas de boletos, reservas de hoteles y confirmaciones de aerolíneas en países de habla árabe encuentran frecuentemente conjuntos de dígitos mixtos en recibos e itinerarios. Convertir todo el texto del documento garantiza que cada número de referencia, fecha y cantidad se alinee con lo que la aerolínea o el hotel espera a la llegada."
+      ]
+    },
+    {
+      "heading": "Casos Extremos y Detalles de Formato",
+      "paragraphs": [
+        "El convertidor maneja separadores decimales y símbolos de agrupación de miles de manera consistente, por lo que una cifra como ١٬٢٣٤٫٥٦ se convierte en 1.234,56 sin perder precisión. Los signos negativos, los símbolos de moneda y los marcadores de porcentaje pasan sin cambios, preservando el significado semántico de cada número.",
+        "Los números muy grandes, incluidos los que se encuentran en presupuestos nacionales o conjuntos de datos estadísticos, se convierten sin truncamiento ni redondeo. Cada dígito se asigna uno a uno, por lo que no se pierde información independientemente de la magnitud. La herramienta no impone ningún límite superior en la longitud de la cadena de entrada.",
+        "El contenido mixto que entrelaza escritura árabe con números y puntuación se convierte limpiamente. El texto circundante nunca se altera; solo los caracteres de dígito cambian de forma. Esto significa que se pueden pegar párrafos completos, facturas o cuerpos de artículos sin preprocesamiento."
+      ]
+    },
+    {
+      "heading": "Errores Comunes y Cómo Evitarlos",
+      "paragraphs": [
+        "Un error frecuente es confundir los números árabes orientales con los números árabes estándar utilizados en Occidente, que en realidad son de origen indio a pesar del nombre. El convertidor hace esta distinción clara tratando cada conjunto como una asignación de caracteres separada, por lo que siempre obtienes la salida prevista.",
+        "Otro error es asumir que el texto árabe con números incustros se romperá si lo pasas por un convertidor. En realidad, la herramienta tiene conciencia de contexto y deja los caracteres que no son dígitos completamente intactos. Puedes pegar oraciones completas, párrafos o incluso datos en múltiples columnas sin preprocesamiento.",
+        "La gente a veces olvida que los ceros a la izquierda importan en números de identificación, números de teléfono y códigos de cuenta. El convertidor preserva cada dígito, incluidos los ceros a la izquierda, por lo que la salida sigue siendo una representación fiel de la entrada original."
+      ]
+    },
+    {
+      "heading": "Fiel en Ambas Direcciones",
+      "paragraphs": [
+        "Los viajes de ida y vuelta devuelven valores idénticos, preservando cada dígito.",
+        "Los números grandes se convierten sin errores de longitud.",
+        "La precisión se mantiene en cualquier magnitud."
+      ]
+    },
+    {
+      "heading": "Notas de Privacidad y Compatibilidad",
+      "paragraphs": [
+        "Dado que la conversión ocurre completamente en el navegador, no se transmiten datos a ningún servidor. Esto importa especialmente cuando los números provienen de registros de nómina, declaraciones de impuestos o documentos médicos que portan información de identificación personal. La herramienta nunca almacena, registra ni almacena en caché ninguna entrada.",
+        "El convertidor funciona en todos los navegadores modernos, incluyendo Safari móvil y Chrome en Android. No hay instalación, no hay complemento y no hay requisito de cuenta, por lo que la herramienta es accesible desde cualquier dispositivo con conexión web. Las actualizaciones de la tabla de asignación subyacente ocurren del lado del servidor y surten efecto inmediatamente al cargar la página.",
+        "Para equipos que necesitan integrar la conversión de dígitos en canalizaciones automatizadas, la misma lógica de asignación puede replicarse en scripts del lado del servidor. La herramienta en línea, sin embargo, está diseñada para conversiones puntuales y ad-hoc donde la velocidad y la privacidad importan más que el procesamiento por lotes."
+      ]
+    },
+    {
+      "heading": "Trabajo de Dígitos Privado",
+      "paragraphs": [
+        "Los documentos y conjuntos de datos con numerales se convierten localmente.",
+        "Sin subida, sin cuenta, sin marca de agua, en todas las plataformas.",
+        "Los números nunca salen de tu máquina."
+      ]
+    },
+    {
+      "heading": "Numerales en el Kit de Herramientas Árabe",
+      "paragraphs": [
+        "Combina con [hijri-gregorian:conversión de fechas], [tafqit: deletreo de números] y [remove-tashkeel:limpieza de texto] para el manejo completo del árabe.",
+        "El conjunto es gratuito y nativo del navegador.",
+        "Cada dígito, en la escritura correcta, al instante."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Qué direcciones se admiten?",
+      "a": "Ambas: de números árabes orientales a dígitos occidentales y de dígitos occidentales a árabes orientales, en dirección seleccionable."
+    },
+    {
+      "q": "¿Maneja texto mixto que contiene números?",
+      "a": "Sí. Los números se convierten en el lugar dentro de la escritura árabe circundante sin alterar los demás caracteres."
+    },
+    {
+      "q": "¿El convertidor es privado?",
+      "a": "Sí. Todo se ejecuta localmente en tu navegador sin subidas ni cuentas."
+    },
+    {
+      "q": "¿Puedo convertir documentos completos a la vez?",
+      "a": "Sí. Pega párrafos completos, facturas o hojas de cálculo y cada dígito se convierte en un solo paso mientras el texto circundante permanece intacto."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "pdf-redaction",
+  "title": "PDF'i Çevrimiçi Ücretsiz Karartma: Hassas Metni Kalıcı Olarak Kaldırın",
+  "description": "ChooseTools ile PDF metnini çevrimiçi ücretsiz karartın. Gizli kelimeleri, sayıları ve bölümleri tarayıcıda tam gizlilikle kalıcı olarak karalayın ve kaldırın.",
+  "keywords": ["pdf karartma", "pdf'den hassas metin kaldırma", "pdf'te metin karalama", "pdf'i çevrimiçi ücretsiz karartma", "pdf karartma aracı", "pdf'te kelime sansürleme", "pdf'ten gizli metni silme"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Karartma Gizlemek Değil, Kaldırmaktır",
+      "paragraphs": [
+        "Bir görüntüleyicide metnin üzerine siyah bir kutu koymak onu görsel olarak gizler ancak dosyadaki altta yatan kelimeleri bırakır ve nasıl bakacağını bilen herkes tarafından kurtarılabilir. Gerçek [pdf-redaction:PDF karartması], içeriği tamamen kaldırılması mümkün olmayacak şekilde kalıcı olarak siler.",
+        "Devletler, hukuk büroları, tıbbi ofisler ve finans ekipleri karartma yapar: kişisel numaralar, ayrıcalıklı maddeler, sağlık verileri, ticari sırlar.",
+        "ChooseTools, gerçek karartmayı tarayıcınızda yerel olarak gerçekleştirir. Seçilen alanlar sayfa içeriğinden kalıcı olarak kaldırılır ve temizlenen PDF, yükleme olmadan indirilir."
+      ]
+    },
+    {
+      "heading": "Bir PDF'i Doğru Şekilde Karartma",
+      "paragraphs": [
+        "Karartmayı doğru yapmak önemlidir ve bu araç onu basitleştirir.",
+        "PDF'inizi yükleyin ve hassas metin içeren bölgeleri işaretleyin; gizli alanın üzerine kutular sürükleyin; isteğe bağlı olarak terimleri sayfalar arasında bulmak için arama yapın. Karartın; kapatılan içerik, alttaki dosyadan tamamen kaldırılır.",
+        "Kaldırma yerel olarak gerçekleştiğinden, karartma sürecinin kendisi bile özel kalır; hangi içeriği gizlediğinize tanıklık eden hiçbir sunucu olmaz.",
+        "Sonuç; hassas verilerin yalnızca gizlenmediğinden, gerçekten gittiğinden emin olarak paylaşabileceğiniz temiz bir belgedir."
+      ]
+    },
+    {
+      "heading": "Sahte Karartmanın Tehlikesi (Siyah Kutular)",
+      "paragraphs": [
+        "Metni siyah vurgulamak ve görüntü olarak dışa aktarmak karartma değildir; metin katmanı genellikle altta varlığını sürdürür.",
+        "Gerçek karartma hem görseli hem de veriyi söker; geriye boş bir bölgeden başka bir şey bırakmaz. Bu kısa açıklama, korunmuş ile açıkta kalmış arasındaki farktır.",
+        "Karalama ifadesi ortaya çıktığında riskler yüksektir: her zaman karartın, asla yalnızca örtmeyin.",
+        "Sızıntıya açık yöntemi seçmek, rutin bir belgeyi ciddi bir ihlale dönüştürebilir; bu yüzden kalıcı kaldırma bu kadar önemlidir."
+      ]
+    },
+    {
+      "heading": "Bul ve Karart: Uzun Belgeler için Hız",
+      "paragraphs": [
+        "İki yüz sayfa boyunca bir adın veya numaranın her geçtiği yeri aramak yavaştır. Araç, terimleri arayabilir ve eşleşmeler arasında gezinebilir; böylece onları hızla işaretleyebilirsiniz.",
+        "Bu bul-ve-düzelt yaklaşımı, büyük ölçekli karartmayı saatlerden dakikalara indirir; Bilgi Edinme talep ve ifşa çalışmaları için idealdir.",
+        "Sonuç, işaretlenen her parçanın kalıcı olarak bulunmadığı tek bir temiz PDF'dir.",
+        "Sayfa sayfa aramak ve işaretlemek süreci sistematik tutar; hassas bir terimin tek bir kaçak geçişini kaçırma olasılığını azaltır."
+      ]
+    },
+    {
+      "heading": "Karartmanın Gerekli Olduğu Durumlar",
+      "paragraphs": [
+        "Hukuk profesyonelleri, kamuya sunmadan önce dava belgelerini karartır; adları, adresleri, hesap numaralarını ve ayrıcalıklı avukat-müvekkil yazışmalarını kaldırır.",
+        "İnsan kaynakları ekipleri, dahili veya harici paylaşımdan önce iş kayıtlarını ve inceleme dokümantasyonunu temizler; sağlık verilerini, performans ayrıntılarını ve kişisel tanımlayıcıları korur.",
+        "Sağlık hizmeti sağlayıcıları, gizlilik düzenlemelerine uymak için araştırma ve denetim materyallerinden hasta tanımlayıcılarını kaldırır.",
+        "Devletler ve yükleniciler, yayımdan önce operasyonel ayrıntıları ve kişisel verileri kalıcı olarak kaldırılmış Bilgi Edinme kapsamındaki kayıtları yayınlar."
+      ]
+    },
+    {
+      "heading": "Karalama Araçlarının Sınırları",
+      "paragraphs": [
+        "Birçok yaygın PDF görüntüleyici, yalnızca metnin üzerine bir dikdörtgen çizen ve altta seçilebilir metni bırakan bir vurgula-ve-ört özelliği sunar.",
+        "Sayfayı kopyalamak, dışa aktarmak veya bir metin çıkarma aracı kullanmak, gizli görüneni kurtarabilir; bu nedenle bu yaklaşım yalnızca görünüşte bir gizlilik sunar.",
+        "Benzer şekilde, metin katmanını düzleştirmeden görüntüye dönüştürmek veya gömülü metni koruyan bir biçimde dışa aktarmak, kaldırmayı amaçladığınız içeriği koruyabilir.",
+        "Gerçek karartma, alttaki içerik akışını düzenler; böylece kelimeler dosyada artık hiç bulunmaz; bu, gerçek koruma için gereken standarttır."
+      ]
+    },
+    {
+      "heading": "Karartma Sürecinin Gizliliği",
+      "paragraphs": [
+        "Karartma kararları, neyi hassas bulduğunuzu tam olarak ortaya koyar; bu, üçüncü taraf bir hizmetle paylaşılacak son şeydir. Yerel işleme bu seçimleri cihazınızda tutar.",
+        "Yükleme yok, hesap yok, filigran yok; Windows, macOS, Linux ve mobilde aynı davranış.",
+        "Gizlilik uygularken tam gizlilik: karartma, doğru şekilde yapılan doğru araçtır.",
+        "Tüm işlem tarayıcıda gerçekleştiğinden, makinenizin dışında hiçbir alıcı, günlük veya denetim izi yoktur."
+      ]
+    },
+    {
+      "heading": "Paylaşım Öncesi Kontrol Listesinde Karartma",
+      "paragraphs": [
+        "Dışarıya dağıtımdan önce: belirli içeriği karartın, gizli veriler için [pdf-metadata:meta veriyi] temizleyin ve iletim için dosyayı [protect-pdf:şifreleyin].",
+        "Arşivleme için, temizlenen kayıtları hafif tutmak üzere [compress-pdf:sıkıştırma] ile birlikte kullanın.",
+        "Hassas içerik, artık tamamen tarayıcı içinde ücretsiz olarak sunulan kalıcı kaldırmayı hak eder.",
+        "Bu kontrol listesini izlemek, riskli bir yayını paylaşmaktan emin olduğunuz kontrollü ve bilinçli bir belgeye dönüştürür."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bunu karartılmış metin yerine gerçek karartma yapan nedir?",
+      "a": "Araç, alttaki metin içeriğini sayfadan yalnızca görsel olarak değil, kalıcı olarak kaldırır. Siyah kutular tek başına kurtarılabilir veri bırakır; buradayken veri gitmiştir."
+    },
+    {
+      "q": "Çok sayıda geçişi veya büyük belgeleri karartabilir miyim?",
+      "a": "Evet. Alanları doğrudan işaretleyin veya terimleri sayfalar arasında bulmak için arama özelliğini kullanın, ardından belge uzunluğundan bağımsız olarak her şeyi tek geçişte karartın."
+    },
+    {
+      "q": "Karartma özel olarak mı yapılır?",
+      "a": "Evet. Tüm işlem; yükleme, hesap ve filigran olmadan tarayıcınızda yerel olarak gerçekleşir; böylece hem içerik hem de karartma kararları makinenizde kalır."
+    },
+    {
+      "q": "Neden metnin üzerine sadece siyah bir kutu çizemiyorum?",
+      "a": "Siyah bir kutu metni görsel olarak gizler ancak alttaki kelimeler genellikle dosyada kalır ve kurtarılabilir. Gerçek karartma içeriği tamamen kaldırır."
+    }
+  ]
+}

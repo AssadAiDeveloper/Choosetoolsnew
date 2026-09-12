@@ -1,0 +1,114 @@
+{
+  "slug": "remove-tashkeel",
+  "title": "Supprimer le tashkeel : Supprimer les diacritiques arabes en ligne et gratuitement",
+  "description": "Outil gratuit pour supprimer les diacritiques arabes (tashkeel) du texte tout en préservant les lettres, instantanément dans votre navigateur. Privé, sans envoi de données.",
+  "keywords": ["supprimer tashkeel", "supprimer diacritiques arabes", "enlever harakat arabe", "supprimer tashkeel en ligne", "supprimeur diacritiques arabes", "supprimer harakat du texte", "texte arabe sans tashkeel"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Les lettres arabes peuvent venir avec tout un casting",
+      "paragraphs": [
+        "La fatha, la damma, la kasra et leurs semblables portent la prononciation mais encombrent la typographie propre. [remove-tashkeel:Suppression des diacritiques arabes] supprime les harakat tout en laissant chaque lettre intacte.",
+        "Un texte propre sans vocalisation se met en forme mieux et se lit plus rapidement sur les panneaux, les interfaces numériques et les mises en page denses.",
+        "ChooseTools supprime le tashkeel localement dans votre navigateur, de sorte que votre texte arabe n'est jamais transmis à un serveur."
+      ]
+    },
+    {
+      "heading": "Comment supprimer le tashkeel d'un texte",
+      "paragraphs": [
+        "De pleinement vocalisé à propre, instantanément.",
+        "Collez votre texte arabe et supprimez les diacritiques. La sortie préserve les lettres, les formes de lettres et les liaisons tout en supprimant les marques au-dessus et en dessous.",
+        "Le résultat est une chaîne arabe simple et lisible qui se comporte de manière prévisible dans tout système, des panneaux d'affichage aux bases de données.",
+        "Le traitement est local, maintenant votre texte privé et éliminant toute attente d'envoi ou de réponse."
+      ]
+    },
+    {
+      "heading": "Rendu propre, lecture identique",
+      "paragraphs": [
+        "Les diacritiques guident la prononciation mais peuvent se chevaucher et distraire dans les mises en page imprimées.",
+        "Le texte sans diacritiques convient aux panneaux, tableaux de bord et copies où la clarté l'emporte sur les détails de vocalisation.",
+        "La lisibilité est restaurée sans altérer le sens, car les lettres et les limites de mots restent inchangées.",
+        "Les designers en bénéficient car les retours à la ligne sont plus prévisibles et les lignes de base restent cohérentes lorsque les diacritiques sont supprimés."
+      ]
+    },
+    {
+      "heading": "Vrais mots et vocalisation courte",
+      "paragraphs": [
+        "Les harakat courts, y compris la fatha, la damma et la kasra, sont supprimés du texte tandis que les lettres, le traitement de la shadda et la ponctuation restent.",
+        "La sortie demeure un arabe valide, prêt pour tout système qui attend du texte standard non marqué.",
+        "Les barrières de formatage disparaissent car les diacritiques non supprimés n'imposent plus d'espacements ou de retours à la ligne gênants.",
+        "L'approche conservatrice ne supprime que ce qui est nécessaire, laissant les mots sous-jacents intacts et entièrement lisibles."
+      ]
+    },
+    {
+      "heading": "Cas d'utilisation courants pour du texte arabe propre",
+      "paragraphs": [
+        "Les enseignants préparant des feuilles d'exercices et du matériel pédagogique suppriment souvent le tashkeel des exercices, ne conservant les marques de vocalisation que lorsqu'une lecture spécifique est testée. Cela maintient la mise en page propre tout en préservant la clarté pédagogique.",
+        "Les éditeurs composant des livres, des newsletters et des sites web suppriment les diacritiques des titres, des citations en exergue et des étiquettes de navigation où des marques surdimensionnées ou répétées paraîtraient encombrantes en grand.",
+        "Les analystes de données et les développeurs synchronisent du contenu arabe entre des systèmes et constatent fréquemment que les marques combinées provoquent des décalages d'indexation et de recherche. Les supprimer normalise la chaîne pour une correspondance cohérente.",
+        "Les gestionnaires de réseaux sociaux et les traducteurs produisant des légendes arabes bénéficient d'un texte qui s'affiche uniformément sur les plateformes sans les particularités de rendu des diacritiques propres à chaque plateforme."
+      ]
+    },
+    {
+      "heading": "Cas limites dans le traitement des diacritiques",
+      "paragraphs": [
+        "Certaines lettres peuvent porter plusieurs diacritiques empilés, comme une shadda combinée avec une fatha ou une kasra. L'outil supprime les marques de vocalisation tout en laissant la lettre elle-même structurée correctement.",
+        "Le texte qui mélange arabe avec numéraux, termes latins ou ponctuation maintient ces éléments intacts, de sorte que la copie technique survit au nettoyage sans dommage.",
+        "Les diacritiques répétés dans un seul mot sont tous traités en une seule passe, de sorte que le texte lourdement vocalisé devient propre en une seule opération.",
+        "Parce que la suppression est déterministe, exécuter l'outil deux fois produit le même résultat, ce qui le rend sûr à inclure dans des pipelines de texte reproductibles."
+      ]
+    },
+    {
+      "heading": "Pour la composition, le programme scolaire et la recherche",
+      "paragraphs": [
+        "Les plans de cours, les formulaires et les interfaces localisées sont plus propres sans diacritiques.",
+        "Les systèmes de recherche et de comparaison ne tolèrent aucune marque combinée parasite qui brise les correspondances exactes.",
+        "Les pipelines de texte reçoivent une entrée cohérente qui se valide proprement entre les bases de données et les systèmes de gestion de contenu.",
+        "Une seule étape de normalisation prévient les échecs silencieux que les marques combinées causent dans le tri, la déduplication et l'indexation de recherche."
+      ]
+    },
+    {
+      "heading": "Gestion privée du texte arabe",
+      "paragraphs": [
+        "Les documents et les brouillons sont traités sur votre appareil sans que des données ne quittent le navigateur.",
+        "Pas d'envoi, pas de compte, pas de filigrane sur les plateformes, des téléphones aux ordinateurs de bureau.",
+        "Vos mots restent vos mots, protégés des journaux de serveur et de l'accès des tiers."
+      ]
+    },
+    {
+      "heading": "Quand le tashkeel vaut la peine d'être conservé",
+      "paragraphs": [
+        "Malgré la commodité du texte sans diacritiques, certains tirent réellement profit des diacritiques. Les lecteurs débutants, les livres pour enfants et les textes religieux formels dépendent souvent des marques de vocalisation pour lever l'ambiguïté de la prononciation et de la fonction grammaticale.",
+        "Si votre public s'appuie sur la vocalisation pour lire correctement, la supprimer pourrait réduire la compréhension plutôt que l'améliorer. L'outil est une option dans une boîte à outils équilibrée, et vous devez décider par projet si les marques aident ou nuisent.",
+        "Pour l'archivage et le stockage à long terme, conserver la version pleinement vocalisée est souvent sage tandis que la version propre répond aux besoins d'affichage et d'échange.",
+        "Le bon choix dépend de votre public et de votre objectif, pas de la disponibilité de l'outil."
+      ]
+    },
+    {
+      "heading": "Le travail arabe dans la suite",
+      "paragraphs": [
+        "Complétez la boîte à outils avec [arabic-keyboard:aide à la saisie], [arabic-numerals:conversion de chiffres] et [reverse-text:inversion] pour des besoins arabes complets.",
+        "La suite est gratuite et native au navigateur, chaque outil opérant localement pour la confidentialité.",
+        "Texte propre, sens fidèle, zéro exposition à des services externes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Les lettres elles-mêmes sont-elles préservées ?",
+      "a": "Oui. Seules les marques diacritiques sont supprimées ; les lettres, les formes et la ponctuation restent intactes sans aucune altération des mots eux-mêmes."
+    },
+    {
+      "q": "Cela modifiera-t-il le sens du texte ?",
+      "a": "Les marques de prononciation sont supprimées pour la clarté, mais les lettres et les mots eux-mêmes ne sont pas modifiés, de sorte que le sens sous-jacent est préservé."
+    },
+    {
+      "q": "Le traitement est-il privé ?",
+      "a": "Oui. Tout s'exécute localement dans votre navigateur sans envoi de données, sans compte et sans traitement côté serveur."
+    },
+    {
+      "q": "Puis-je utiliser cet outil sur du texte mélangeant arabe et autres langues ?",
+      "a": "Oui. Les chiffres, les lettres latines et la ponctuation restent intacts, de sorte que le contenu technique ou littéraire mixte est nettoyé sans dommage collatéral."
+    }
+  ]
+}

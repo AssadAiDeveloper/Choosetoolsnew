@@ -1,0 +1,71 @@
+{
+  "slug": "rotate-pdf",
+  "title": "How to Rotate PDF Pages Online Free: Fix Upside-Down Pages Fast",
+  "description": "Rotate PDF pages online free with ChooseTools. Turn pages 90 or 180 degrees, save the corrected orientation, and keep the file quality and privacy intact — no upload required.",
+  "keywords": ["rotate pdf pages", "rotate pdf online free", "rotate pdf 90 degrees", "fix upside down pdf", "how to rotate a pdf", "pdf rotate tool", "rotate pdf without watermark"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Why Rotating PDF Pages Is More Common Than You Think",
+      "paragraphs": [
+        "A scanned contract that came out sideways, a mobile photo exported to PDF with the wrong orientation, a downloaded invoice displayed upside down — every office worker has received a PDF needing a [rotate-pdf:rotate PDF pages] fix. The page content is perfect; the orientation is simply wrong.",
+        "Proprietary editors make this task feel complicated, but orientation is one of the simplest properties of a PDF. You only need a reliable rotate PDF online free tool that adjusts the page's rotation matrix without touching the actual drawings, text or images on the page.",
+        "ChooseTools rotates your PDF with PDF.js processing in the browser. Drop the file, click a rotation button, and every page updates in the preview before you save — with no upload and no loss of quality."
+      ]
+    },
+    {
+      "heading": "How to Rotate a PDF 90 Degrees or 180 Degrees in Three Clicks",
+      "paragraphs": [
+        "The workflow is deliberately minimal because rotating filled the gap for so many users: open the tool, add your PDF, and use the rotate controls.",
+        "Click the rotate-left arrow to turn the current page 90 degrees counter-clockwise, or the rotate-right arrow for 90 degrees clockwise. A 180-degree flip fixes pages that are simply upside down. Use the page selector to rotate a single page, or apply the same rotation to the whole document with one click.",
+        "Once the preview shows every page at the correct angle, click save and a corrected PDF downloads instantly. There is no server queue, which means even a 1,000-page file rotates in seconds."
+      ]
+    },
+    {
+      "heading": "Rotate One Page or the Entire Document",
+      "paragraphs": [
+        "Scans from automatic document feeders frequently mix orientations: some pages face one way, some the other. The tool lets you fix just the offending pages without re-exporting the whole file.",
+        "Select the page number, rotate it independently, and the others stay exactly as they are. For a uniformly rotated document, use the apply-to-all option and every page turns together.",
+        "This level of control is especially valuable in professional workflows, where a document must be corrected precisely rather than recreated. It pairs cleanly with [organize-pdf:PDF organization] tools for keeping scanned archives consistent."
+      ]
+    },
+    {
+      "heading": "Fix Upside-Down PDFs Without Recreation or Re-Scanning",
+      "paragraphs": [
+        "The most expensive way to fix orientation is to re-scan the paper stack. That wastes hours and risks misplacing pages. Rotating the digital file is free and instant.",
+        "Re-scanned documents also lose the crispness of the original digital resolution. Here, rotating the rotation metadata keeps every vector and embedded font intact, so the final PDF matches the source quality exactly.",
+        "For documents assembled from several sources, rotate first and then merge: use this tool to normalize orientation and [merge-pdf:combine PDF files] to join the corrected pages into a single coherent file."
+      ]
+    },
+    {
+      "heading": "Privacy and Portability of a Browser-Based PDF Rotator",
+      "paragraphs": [
+        "Rotation requires reading the entire page tree of the document. When that happens locally, your sensitive files — signed agreements, medical letters, identity documents — stay on your device.",
+        "ChooseTools hosts no copies of your PDFs, applies no watermarks and requires no account. The tool works the same on a company laptop with restricted software installation rights, on a home Mac, and on a mobile browser.",
+        "If you are comparing how to rotate PDF free of charge in a business setting, ongoing, the calculation is simple: zero subscription, zero data exposure, identical behavior across every operating system."
+      ]
+    },
+    {
+      "heading": "What the Rotator Does Not Change: a Quality Promise",
+      "paragraphs": [
+        "Some online converters re-encode your PDF while rotating it, which blurs text and bloats the file. This tool performs a true rotation: only the page orientation property is modified.",
+        "Text remains selectable and searchable, links keep working, vector logos stay razor sharp, and the file size barely changes. The output is a standard PDF compatible with every reader.",
+        "Rotate, save, and move on — the entire correction usually takes under thirty seconds from opening the tool to downloading the fixed file."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I rotate only some pages of a PDF instead of the whole file?",
+      "a": "Yes. You can select a single page and rotate it independently, or apply the same rotation to all pages at once with the apply-to-all control."
+    },
+    {
+      "q": "Does rotating a PDF change the file size or quality?",
+      "a": "No. The tool changes only each page's orientation property. Text, images, fonts and vectors stay untouched and remain fully selectable and searchable."
+    },
+    {
+      "q": "Is it possible to rotate a PDF on a mobile phone?",
+      "a": "Yes. Because the tool runs entirely in the browser, it works on iOS and Android phones and tablets just as well as on desktop computers, with no app to install."
+    }
+  ]
+}

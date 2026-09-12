@@ -1,0 +1,115 @@
+{
+  "slug": "excel-to-mt940",
+  "title": "Excel naar MT940: Converteer XLSX Financiële Gegevens naar MT940 Gratis Online",
+  "description": "Gratis Excel-naar-MT940-converter om MT940-afschriften in bankformaat te genereren uit spreadsheetgegevens, in je browser. Privé, zonder uploads, zonder aanmelding.",
+  "keywords": ["excel naar mt940", "mt940 generator", "xlsx naar mt940 converteren", "mt940 genereren uit excel", "bankafschrift naar mt940", "excel naar mt940 online", "mt940 bestandsgenerator"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Wanneer Systemen Het Formaat van de Bank Vereisen",
+      "paragraphs": [
+        "Sommige platforms, banken en treasury-systemen accepteren alleen MT940. [excel-to-mt940:Excel-gegevens naar MT940 converteren] verpakt een spreadsheet in het getagde afschriftformaat dat zij vereisen.",
+        "Kolommen en rijen worden de codes die downstream-parsers verwachten, waarbij elke datum, elk bedrag en elke referentie exact behouden blijven.",
+        "ChooseTools bouwt MT940 uit Excel lokaal in je browser met volledige controle over de veldtoewijzing."
+      ]
+    },
+    {
+      "heading": "Hoe Excel naar MT940 te Converteren",
+      "paragraphs": [
+        "Van werkbare tabel naar gecodeerd bestand:",
+        "Upload een werkmap met de verwachte kolommen — datum, bedrag, omschrijving, saldi — wijs de velden toe en genereer de MT940-tekst die klaar is om te leveren. De voorbeeldweergave bevestigt de tagplaatsing vóór de download.",
+        "De generatie is lokaal, waardoor financiële administratie gedurende het hele proces verzegeld op je machine blijft."
+      ]
+    },
+    {
+      "heading": "Veldtoewijzing Maakt Het Verschil",
+      "paragraphs": [
+        "Correcte toewijzing van datums, bedragen en referenties bepaalt of een MT940 door het ontvangende systeem wordt geaccepteerd of afgewezen.",
+        "De converter begeleidt je bij het toewijzen van kolommen aan tags met duidelijke labels, zodat je elk veld vol vertrouwen koppelt.",
+        "Opleveringen worden gevalideerd tegen standaardregels, niet zomaar ruwe tekst gegenereerd die downstream zou kunnen falen."
+      ]
+    },
+    {
+      "heading": "De MT940-tagstructuur Uitgelegd",
+      "paragraphs": [
+        "Elk MT940-bestand volgt een strikte taghiërarchie. De :20-tag draagt een unieke afschriftreferentie die deze specifieke export identificeert. De :25-tag benoemt de rekening in IBAN- of banklokaal formaat, zodat het ontvangende systeem weet bij welke rekening de transacties horen.",
+        "Saldotags :60M en :62M omlijsten de transactielijst met openings- en sluitcijfers. Elk bevat een credit-of-debet-indicator, de datum, een valutacode en het bedrag. Nauwkeurige saldi zijn verplicht, omdat reconciliatiesoftware valideert dat het eindsaldo van het ene afschrift overeenkomt met het openingssaldo van het volgende.",
+        "Individuele transacties leven in :61-regels met een compacte indeling van datum, bedrag en referentie, terwijl de :86-tag de vrije-tekst-omschrijving levert. Het koppelen van elke :61 aan zijn :86-omschrijving houdt omschrijvingen op één lijn met het juiste regelitem en voorkomt de verweesde posten die accountants verwarren."
+      ]
+    },
+    {
+      "heading": "Voor Testen en Systeemintegratie",
+      "paragraphs": [
+        "Ontwikkelteams produceren voorbeeldafschriften om importeurs en reconciliatie-engines te testen zonder te wachten op echte bankexports.",
+        "Treasury-teams exporteren afschriften voor partnerbanken in hun dialect bij het onboarden van nieuwe rekeningen of het upgraden van integratiemodules.",
+        "Eén werkmap, veel conforme outputs, waarmee uren handmatige opmaak over meerdere testcycli worden bespaard."
+      ]
+    },
+    {
+      "heading": "Omgaan met Meerdere Valuta's en Afschriftperioden",
+      "paragraphs": [
+        "Bedrijven die over de grens opereren, onderhouden vaak rekeningen in meerdere valuta's. Elke valuta vereist zijn eigen afschriftblok met de juiste valutacode in de saldotags. De converter genereert afzonderlijke afschriftrangen voor elke valuta in de werkmap en houdt ze netjes gescheiden.",
+        "Afschriftperiodedatums bepalen de openingssaldo-datum van :60M en de eindsaldo-datum van :62M. Deze goed krijgen is belangrijk voor geautomatiseerde reconciliatie, die eindsaldi en openingssaldi over opeenvolgende afschriften vergelijkt om hiaten of ontbrekende transacties te ontdekken.",
+        "Referentienummers in de :20-tag moeten de conventie van je bank volgen, of die nu sequentieel, op datum gebaseerd of rekeninggebonden is. Een consistent referentieschema maakt het eenvoudiger om afschriften terug te traceren naar hun bronwerkmap wanneer accountants maanden later vragen stellen."
+      ]
+    },
+    {
+      "heading": "Standaard Syntax, Nul Giswerk",
+      "paragraphs": [
+        "Tags, veldposities en regellengtes volgen automatisch de standaard, zodat de output geldig is zonder handmatige controle.",
+        "Er blijft geen handmatig tellen van haakjes of tag-chirurgie over zodra de converter de opmaakregels toepast.",
+        "Nauwkeurige imports beginnen bij de bron, waardoor het heen-en-weer met bankondersteuning afneemt."
+      ]
+    },
+    {
+      "heading": "Veelvoorkomende Valkuilen en Hoe Ze te Vermijden",
+      "paragraphs": [
+        "Datumnotatie is de meest voorkomende reden van afwijzing. MT940 vereist YYMMDD zonder scheidingstekens, maar spreadsheets slaan datums vaak op in locatiespecifieke formaten. De converter normaliseert datums automatisch, zodat een kolom met 15 maart-items in elke :61- en saldoregel 230315 wordt.",
+        "Ontbrekende of extra spaties in de vrije-tekst-omschrijvingen van :86 zorgen dat parsers transactiedetails en hun omschrijvingen misaligneren. De tool kapt en vult omschrijvingsvelden op tot de verwachte breedte, waarmee de subtiele spatiefouten worden voorkomen die pas opduiken wanneer de ontvangende bank het bestand verwerkt.",
+        "Coderingmismatches tussen de spreadsheet en de MT940-output kunnen niet-ASCII-tekens in omschrijvingen corrupt maken. De converter waarborgt overal UTF-8-consistentie, zodat Arabisch, geaccentueerd Latijn en andere schriften de retourreis intact overleven."
+      ]
+    },
+    {
+      "heading": "Privé Financiële Generatie",
+      "paragraphs": [
+        "Bank-grade gegevens blijven door lokale verwerking op je machine, zonder tussenliggende servers of cloudopslag.",
+        "Geen upload, geen account, geen watermerk — op alle platforms en besturingssystemen.",
+        "Afschriften worden opgebouwd, niet blootgesteld, waarbij vertrouwelijkheid van creatie tot levering behouden blijft."
+      ]
+    },
+    {
+      "heading": "MT940 in de Financiële Suite",
+      "paragraphs": [
+        "Combineer met [mt940-to-excel:MT940 naar Excel], [txt-to-mt940:MT940 uit tekst] en [excel-to-csv:CSV-exports] voor volledige dekking van afschriftworkflows.",
+        "Alles is gratis en browsergebaseerd, zonder installatie of abonnement.",
+        "Spreadsheets spreken vloeiend banktaal zodra de conversie voltooid is."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welke kolommen moet het Excel-bestand hebben?",
+      "a": "Datum, bedrag en omschrijving zijn essentieel; saldo- en referentievelden worden toegewezen volgens de vereisten van je bank."
+    },
+    {
+      "q": "Kan de converter omgaan met verschillende veldindelingen?",
+      "a": "Ja. Interactieve veldtoewijzing past de gegenereerde MT940 aan de indeling van je spreadsheet aan."
+    },
+    {
+      "q": "Is de conversie privé?",
+      "a": "Ja. Alles draait lokaal in je browser zonder uploads of accounts."
+    },
+    {
+      "q": "Welk datumformaat gebruikt de output?",
+      "a": "MT940-datums volgen het YYMMDD-formaat zonder scheidingstekens. De converter normaliseert spreadsheetdatums automatisch."
+    },
+    {
+      "q": "Kan ik afschriften voor meerdere valuta's genereren?",
+      "a": "Ja. De tool herkent verschillende valutawaarden in je gegevens en maakt afzonderlijke afschriftblokken met de juiste valutacode."
+    },
+    {
+      "q": "Doorstaat de output de bankvalidatie?",
+      "a": "De converter controleert tagstructuur, saldoconsistentie en veldlengtes tegen de standaard MT940-regels vóór het genereren van het bestand."
+    }
+  ]
+}

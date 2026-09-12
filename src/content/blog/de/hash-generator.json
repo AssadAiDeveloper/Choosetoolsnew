@@ -1,0 +1,115 @@
+{
+  "slug": "hash-generator",
+  "title": "Hash-Generator: MD5-, SHA-256- und SHA-1-Hashes online kostenlos erstellen",
+  "description": "Kostenloser Hash-Generator zur Berechnung von MD5-, SHA-1- und SHA-256-Prüfsummen für Text und Dateien zur Integritätsprüfung. Privat, in Ihrem Browser, ohne Uploads.",
+  "keywords": ["Hash-Generator", "SHA-256-Generator", "MD5-Hash", "SHA-1-Hash", "Prüfsummen-Generator online", "Hash-Rechner", "Text online hashen"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Ein Hash beweist, was Sie meinen",
+      "paragraphs": [
+        "Hashes verdichten jede Eingabe zu einem Fingerabdruck fester Größe, der sich ändert, wenn sich die Eingabe ändert. [hash-generator:Das Erzeugen von Hashes] verifiziert Integrität, erkennt versehentliche Beschädigung und strukturiert sichere Workflows.",
+        "MD5, SHA-1 und SHA-256 sind die Alltagsarbeitspferde mit unterschiedlichen Stärken und Abwägungen, die in bestimmten Kontexten zählen.",
+        "ChooseTools berechnet Hashes lokal in Ihrem Browser, für Text und Dateien gleichermaßen."
+      ]
+    },
+    {
+      "heading": "So erzeugen Sie einen Hash",
+      "paragraphs": [
+        "Von der Eingabe zum Fingerabdruck mit einem Klick:",
+        "Fügen Sie Text ein oder wählen Sie eine Datei, wählen Sie einen Digest-Algorithmus und sehen Sie die resultierende Prüfsumme für MD5, SHA-1 oder SHA-256 innerhalb von Sekunden.",
+        "Die Berechnung bleibt lokal, sodass Inhalte Ihr Gerät nie verlassen, unabhängig von Dateigröße oder Textlänge."
+      ]
+    },
+    {
+      "heading": "MD5 für schnelle Checks, SHA-256 für Festungsdienst",
+      "paragraphs": [
+        "MD5 läuft schnell und signalisiert noch versehentliche Beschädigung, aber Kollisionen machen ihn ungeeignet für sicherheitskritische Verifikation, wo böswillige Manipulation eine Sorge ist.",
+        "SHA-256 ist der moderne Standard für Releases, Downloads und sensible Vergleichsoperationen in der gesamten Softwarebranche.",
+        "Den Digest an die Aufgabe anzupassen zählt mehr als die Wahl des neuesten verfügbaren Algorithmus."
+      ]
+    },
+    {
+      "heading": "Den richtigen Algorithmus für den Job wählen",
+      "paragraphs": [
+        "MD5 erzeugt einen 128-Bit-Digest, ausgedrückt als 32 Hexadezimalzeichen. Er bleibt nützlich für nicht-sicherheitsrelevante Aufgaben wie die Prüfung, ob eine Datei ohne Beschädigung heruntergeladen wurde, die Erzeugung kurzer Kennungen für Cache-Schlüssel oder die Verifizierung, dass zwei Kopien eines Dokuments byte-identisch sind.",
+        "SHA-1 gibt einen 160-Bit-Digest als 40 Hex-Zeichen aus. Viele Altsysteme und Versionskontrollplattformen referenzieren immer noch SHA-1-Fingerabdrücke, sodass der Algorithmus aus Kompatibilitätsgründen relevant bleibt, auch wenn er moderne Sicherheitsanforderungen nicht mehr erfüllt.",
+        "SHA-256 erzeugt einen 256-Bit-Digest, der als 64 Hex-Zeichen angezeigt wird. Er ist die empfohlene Mindeststärke für digitale Signaturen, Zertifikatsprüfung und jeden Workflow, in dem Kollisionsresistenz direkt Vertrauen beeinflusst. Im Zweifelsfall greifen Sie zuerst zu SHA-256."
+      ]
+    },
+    {
+      "heading": "Dateiintegrität vor der Installation",
+      "paragraphs": [
+        "Vergleichen Sie den Hash einer heruntergeladenen Datei mit der vom Herausgeber veröffentlichten Prüfsumme, um zu bestätigen, dass die Datei intakt angekommen ist.",
+        "Eine Übereinstimmung beweist, dass die Datei vollständig und unverändert angekommen ist, und gibt Ihnen kryptografische Gewissheit vor der Ausführung.",
+        "Vertrauen ist kryptografisch statt hoffnungsvoll und ersetzt Raten durch mathematischen Beweis."
+      ]
+    },
+    {
+      "heading": "Anwendungsfälle jenseits der Dateiverifikation",
+      "paragraphs": [
+        "APIs verlangen häufig eine gehashte Signatur in jeder Anfrage, damit der Server bestätigen kann, dass Parameter unterwegs nicht verändert wurden. Den Hash lokal zu berechnen und in den Header einzubetten erfüllt diesen Vertrag, ohne die rohe Nutzlast Drittanbieterdiensten auszusetzen.",
+        "Content-adressierbare Speichersysteme verwenden Hashes als Dateinamen. Ein Dokument unter seinem SHA-256-Digest zu speichern bedeutet, dass doppelte Daten sofort erkannt werden und identischer Inhalt immer zur selben Adresse auflöst, was Speicherkosten senkt und den Abruf beschleunigt.",
+        "Deduplizierung in großen Dateisammlungen profitiert vom Hash-Vergleich. Statt Dateien byte für byte zu vergleichen, offenbart ein schneller Digest-Check Duplikate in Sekunden, gibt Speicherplatz frei und vereinfacht Backup-Routinen in Unternehmensumgebungen."
+      ]
+    },
+    {
+      "heading": "Hashing ist keine Verschlüsselung",
+      "paragraphs": [
+        "Hashes sind Einweg-Fingerabdrücke; sie können die Eingabe nicht offenlegen, verbergen sie aber auch nicht vor Brute-Force-Angriffen auf schwache Werte.",
+        "Für die Passwortspeicherung kombinieren Sie Hashing mit korrektem Salting und einer langsamen Schlüsselableitungsfunktion – speichern Sie niemals Klartext.",
+        "Verstehen Sie die Einweg-Richtung, bevor Sie sich für sicherheitskritische Zwecke darauf verlassen."
+      ]
+    },
+    {
+      "heading": "Hexadezimale Ausgabe und Kodierung verstehen",
+      "paragraphs": [
+        "Hash-Ergebnisse erscheinen als Strings von Hexadezimalzeichen, wobei jedes Ziffernpaar ein Byte repräsentiert. Ein MD5-Hash besteht aus 32 Hex-Zeichen, weil er 16 Bytes kodiert, während SHA-256 aus 64 Hex-Zeichen besteht, die 32 Bytes kodieren.",
+        "Die Hex-Darstellung ist menschenlesbar und leicht zu vergleichen, aber der zugrunde liegende Wert ist binär. Einige Systeme bevorzugen die Base64-Kodierung des rohen Digests für Kompaktheit, sodass die Kenntnis des Unterschieds zwischen Hex- und Base64-Ausgabe Copy-Paste-Fehler verhindert.",
+        "Die Großschreibung ist für Vergleichsalgorithmen meist irrelevant, aber viele Herausgeber veröffentlichen Hex in Großbuchstaben, während Werkzeuge Kleinbuchstaben zurückgeben können. Der Konverter erzeugt eine konsistente Groß-/Kleinschreibung, sodass Übereinstimmungen unabhängig vom Quellformat unkompliziert sind."
+      ]
+    },
+    {
+      "heading": "Privates Fingerprinting",
+      "paragraphs": [
+        "Dokumente und Geheimnisse, die lokal gehasht werden, durchlaufen nie einen Server und erscheinen nie in externen Logs.",
+        "Kein Upload, kein Konto, kein Wasserzeichen – identisches Verhalten auf jedem Betriebssystem und Browser.",
+        "Integritätsprüfungen mit totaler Privatsphäre, geeignet für vertrauliche Dateien und proprietären Code."
+      ]
+    },
+    {
+      "heading": "Hashing im Entwickler-Toolkit",
+      "paragraphs": [
+        "Kombinieren Sie mit [base64:Kodierung], [uuid-generator:eindeutigen IDs] und [password-generator:starken Schlüsseln] für vollständige Datenhygiene in Entwicklungs- und Deployment-Pipelines.",
+        "Die Suite ist kostenlos und browsernativ und erfordert keine Installation oder Kontoerstellung.",
+        "Fingerabdrücke zur Hand, bereit für jede Verifikationsaufgabe."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welche Algorithmen werden unterstützt?",
+      "a": "MD5, SHA-1 und SHA-256 werden bereitgestellt und decken alltägliche Prüfsummen- und Integritätsanwendungsfälle über verschiedene Sicherheitsstufen hinweg ab."
+    },
+    {
+      "q": "Kann ich neben Text auch eine Datei hashen?",
+      "a": "Ja. Dateien können direkt ausgewählt und wie eingefügter Text gehasht werden, mit Ergebnissen in Sekunden."
+    },
+    {
+      "q": "Ist Hashing privat?",
+      "a": "Ja. Alles läuft lokal in Ihrem Browser ohne Uploads oder Konten."
+    },
+    {
+      "q": "Wie lang sollte mein Passwort-Hash sein, um sicher zu bleiben?",
+      "a": "Für Passwort-Hashing in der Produktion verwenden Sie einen dedizierten Algorithmus wie bcrypt oder Argon2 mit Salting. Der Hash-Generator eignet sich für Prüfsummen, Integritätsverifikation und Daten-Fingerprinting statt für die Passwortspeicherung."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen Hex- und Base64-Hash-Ausgabe?",
+      "a": "Hex ist eine Textdarstellung des binären Digests mit Ziffern 0 bis 9 und Buchstaben a bis f. Base64 kodiert dieselben Binärdaten kompakter mit einem größeren Zeichensatz. Beide repräsentieren denselben zugrunde liegenden Hash-Wert."
+    },
+    {
+      "q": "Können zwei verschiedene Dateien denselben Hash erzeugen?",
+      "a": "Kollisionen sind theoretisch möglich, aber bei SHA-256 äußerst unwahrscheinlich. MD5 und SHA-1 haben bekannte Kollisionsschwachstellen, weshalb SHA-256 für sicherheitsempfindliche Anwendungen bevorzugt wird."
+    }
+  ]
+}

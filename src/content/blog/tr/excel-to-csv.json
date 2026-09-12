@@ -1,0 +1,115 @@
+{
+  "slug": "excel-to-csv",
+  "title": "Excel'den CSV'ye Dönüştürücü: XLSX'i Çevrimiçi Ücretsiz CSV'ye Dönüştürün",
+  "description": "XLSX elektronik tablolarını tarayıcınızda, sayfa sayfa düz CSV dosyalarına dönüştürmek için ücretsiz Excel'den CSV'ye dönüştürücü. Özel, yükleme yok, kayıt yok.",
+  "keywords": ["excel'den csv'ye", "xlsx'ten csv'ye dönüştürücü", "excel'i csv'ye dönüştürme", "excel'den csv'ye çevrimiçi ücretsiz", "xlsx'i csv olarak dışa aktarma", "elektronik tablodan csv'ye", "excel'den csv'ye araç"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Excel Her Yerde, CSV İşlemenin Geçtiği Her Yerde",
+      "paragraphs": [
+        "Sistemler, veritabanları ve betikler CSV'yi XLSX'ten çok daha kolay içerir. [excel-to-csv:Excel'i CSV'ye dönüştürmek] her piyasanın istediği basit, evrensel olarak okunabilir biçimi üretir.",
+        "Dönüştürme hücre değerlerini korurken Excel'in ikili karmaşıklığını, formüllerini ve biçimlendirme yükünü bırakır.",
+        "ChooseTools, XLSX'i tarayıcınızda sayfa ve ayırıcıları hassasiyetle işleyerek yerel olarak CSV'ye dönüştürür."
+      ]
+    },
+    {
+      "heading": "Bir Excel Dosyası CSV'ye Nasıl Dönüştürülür",
+      "paragraphs": [
+        "Çalışma kitabından temiz satırlara:",
+        "XLSX dosyasını yükleyin, dışa aktarılacak sayfayı ve ayırıcıyı (virgül, noktalı virgül) seçin, ardından dönüştürün. CSV, betikleme, CRM veya veritabanı içe aktarmaları için hazır indirilir.",
+        "Çalışma kitabı cihazınızda ayrıştırılır — yükleme yoktur ve hiçbir veri makinenizden çıkmaz."
+      ]
+    },
+    {
+      "heading": "Sayfa Seçimi ve Ayırıcı Kontrolü",
+      "paragraphs": [
+        "Çok sayfalı çalışma kitapları sayfa sayfa dönüştürülür; geçerli göreviniz için önemli olanı seçin veya her birini ayrı ayrı işleyin.",
+        "Ayırıcı seçimi, CSV İngilizce yerel ayarlarda virgül, Avrupa yerel ayarlarında noktalı virgül kullansa da bölge duyarlı araçları memnun tutar.",
+        "Çıktı, sonradan işleme gerektirmeden tam olarak kendisini tüketecek kanala bağlanır."
+      ]
+    },
+    {
+      "heading": "Kodlama ve Karakter Kümesi Konuları",
+      "paragraphs": [
+        "Elektronik tablolar sıklıkla aksanlı karakterler, sağdan sola yazılar ve kodlama yanlışsa düz metin biçimlerinin bozabileceği semboller içerir. Dönüştürücü varsayılan olarak UTF-8 kodlu CSV dışa aktarır ve her karakteri çalışma kitabında göründüğü gibi korur.",
+        "Bazı eski sistemler ANSI veya ISO-8859-1 kodlu dosyalar bekler. Hedef araç belirli bir kodlama gerektirdiğinde, doğru çıktı karakter kümesini seçmek, Fransızca bir müşteri adının veya Arapça bir alan etiketinin okunamaz mojibake olarak geldiği bozuk metni önler.",
+        "Belirli ayrıştırıcılara UTF-8'i bildiren görünmez üç baytlık önek olan bayt sırası işaretleri doğru şekilde yönetilir. BOM gerektiren sistemler bir tane alır, bunu reddedenler ise öneksiz temiz çıktı elde eder; birçok Excel'den CSV'ye kullanıcısının karşılaştığı boş ilk satır hatası önlenir."
+      ]
+    },
+    {
+      "heading": "Veri Değişimi İçin CSV Neden Kazanır",
+      "paragraphs": [
+        "Evrensel ayrıştırıcılar, sürüm dostu farklar ve basit betiklemenin tümü, özel elektronik tablo biçimlerine karşı CSV'yi destekler.",
+        "Banka dışa aktarımları, pazarlama platformları ve analitik içe aktarmaları CSV doğumludur; dönüştürme, bağlı her araç için tek adımlık bir köprü kurar.",
+        "Tek dönüştürme, veritabanı yükleyicilerinden e-posta pazarlama sistemlerine kadar düz satırları okuyan her aracın kilidini açar."
+      ]
+    },
+    {
+      "heading": "Temiz Değerler, Güvenilir Kodlama",
+      "paragraphs": [
+        "Sayılar, tarihler ve metin, alan bölme hatalarını önlemek için virgül içeren hücreler doğru şekilde tırnaklanarak sadakatle aktarılır.",
+        "Kodlama, aksanlı ve çok dilli veriler için bozulmadan kalır; müşteri adları ve ürün açıklamaları okunabilir ulaşır.",
+        "Aşağı akış içe aktarması, hedef ilişkisel bir veritabanı, bir CRM veya bir raporlama panosu olsun, sorunsuz çalışır."
+      ]
+    },
+    {
+      "heading": "Toplu İşleme ve Büyük Çalışma Kitapları",
+      "paragraphs": [
+        "Kurumsal elektronik tablolar genellikle birden fazla sayfaya yayılmış yüz binlerce satır içerir. Dönüştürücü bu büyük dosyaları cihazınızda tamamen bellekte işler; çevrimiçi sunucuların dayattığı zaman aşımı veya yükleme boyutu sınırları olmadan temiz CSV çıktısı üretir.",
+        "Çalışma kitabındaki her sayfa önemli olduğunda, sayfaları ayrı ayrı dışa aktarmak her sayfa için tutarlı biçimlendirmeye sahip bir CSV verir. Bu yaklaşım, tüm sayfaları sütun başlıklarının artık hizalanmadığı tek dosyada birleştirmenin belirsizliğini önler.",
+        "Düzinelerce sütunu olan çok geniş tablolar, uzun ve dar olanlar kadar sadakatle dönüştürülür. CSV çıktısı, seçilen ayırıcıyı, satır sonlarını veya tırnakları içeren her hücreyi tırnaklar; böylece karmaşık veri yapıları bile gidiş dönüşü sağlam tamamlar."
+      ]
+    },
+    {
+      "heading": "CSV Çeşitleri ve Bölgesel Uyumluluk",
+      "paragraphs": [
+        "RFC 4180 standart virgülle ayrılmış biçimi tanımlar, ancak bölgesel kurallar büyük ölçüde değişir. Almanca, Fransızca ve İspanyolca yerel ayarlar ayırıcı olarak yaygın şekilde noktalı virgül kullanır; çünkü bu sayı biçimlerinde virgül ondalık ayırıcı görevi görür.",
+        "Virgülle ayrılmış değerler, verinin kendisinde virgül sık göründüğünde bir alternatif sunar. Sekme ayırıcısını seçmek aşırı tırnaklamayı önler ve düz metin düzenleyicilere ve terminal araçlarına temiz yapışan dosyalar üretir.",
+        "Dönüştürücü, hedef sisteminizin beklediği çeşidi eşleştirir; böylece çıktı, birleştirilmiş alanlardan oluşan tek uzun bir sütun göstermek yerine ilk seferde doğru açılır."
+      ]
+    },
+    {
+      "heading": "Özel Finansal ve Müşteri Verileri",
+      "paragraphs": [
+        "Çalışma kitapları genellikle bir kuruluşun sahip olduğu en hassas sayıları içerir; yerel dönüştürme onları dış temas olmadan şirket içinde mühürlü tutar.",
+        "Yükleme yok, hesap yok, filigran yok — platformlar ve cihazlar arasında.",
+        "Her dönüştürme tamamen tarayıcınızda gerçekleşerek elektronik tablo gizliliği korunur."
+      ]
+    },
+    {
+      "heading": "Veri Araç Setinde Excel Birlikte Çalışabilirliği",
+      "paragraphs": [
+        "Biçimler arasında tam bir veri çemberi için [csv-to-excel:CSV'den Excel'e], [excel-to-json:Excel'den JSON'a] ve [csv-json:CSV'den JSON'a] ile eşleştirin.",
+        "Süit ücretsiz ve tarayıcı tabanlıdır; kurulum gerektirmez.",
+        "Çalışma kitapları, herhangi bir aşağı akış sistemi için hazır evrensel satırlara açılır."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "CSV çıktısı için ayırıcıyı seçebilir miyim?",
+      "a": "Evet. Virgül, noktalı virgül ve sekme seçenekleri bölgesel olarak biçimlendirilmiş verileri rahatça destekler."
+    },
+    {
+      "q": "Araç çok sayfalı çalışma kitaplarını işler mi?",
+      "a": "Evet. Dışa aktarılacak belirli sayfayı seçin veya gerektiğinde sayfaları ayrı ayrı işleyin."
+    },
+    {
+      "q": "Excel'den CSV'ye dönüştürme özel mi?",
+      "a": "Evet. Her şey tarayıcınızda, yükleme veya hesap olmadan yerel olarak çalışır."
+    },
+    {
+      "q": "Aksanlı ve Latin alfabesi dışı karakterler dönüştürmeden sağ çıkar mı?",
+      "a": "Evet. Çıktı varsayılan olarak UTF-8 kodlaması kullanır; aksanlı, sağdan sola ve çok dilli karakterleri kaynak çalışma kitabında göründükleri gibi korur."
+    },
+    {
+      "q": "Excel dosyası ne kadar büyük olabilir?",
+      "a": "Dönüştürücü, yüz binlerce satır içeren dosyaları sunucu tarafında yükleme boyutu kısıtlaması olmadan tamamen tarayıcınızda işler."
+    },
+    {
+      "q": "Excel hücrelerindeki formüller CSV'ye dahil edilir mi?",
+      "a": "CSV yalnızca hesaplanan değerleri saklar, formülleri değil. Dönüştürücü her hücrenin altta yatan ifade yerine hesaplanmış sonucunu dışa aktarır."
+    }
+  ]
+}

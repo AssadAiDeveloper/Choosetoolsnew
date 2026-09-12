@@ -1,0 +1,99 @@
+{
+  "slug": "rotate-image",
+  "title": "Cómo Rotar una Imagen Gratis en Línea: Corrige Fotos Torcidas en Segundos",
+  "description": "Rota una imagen gratis en línea con ChooseTools. Gira fotos e imágenes 90 o 180 grados, endrézalas y guarda el resultado en tu navegador con total privacidad.",
+  "keywords": ["rotar imagen", "rotar imagen gratis en línea", "rotar foto 90 grados", "enderezar imagen en línea", "corregir foto torcida", "rotar imagen", "girar imagen de lado"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Las Fotos Erguidas Son Mejores Fotos",
+      "paragraphs": [
+        "Cada galería del móvil guarda algún que otro disparo de lado o boca abajo, víctimas de los sensores de la cámara y las prisas. Antes de que esas fotos vayan a imprenta, a un portafolio o a un moodboard de cliente, [rotate-image:endazarlas] online es la corrección más rápida que existe.",
+        "La tarea es técnicamente trivial, pero aún así la gente la evita porque los editores de escritorio dedicados son excesivos para un simple cambio de orientación.",
+        "ChooseTools rota imágenes localmente en tu navegador — giros de cuarto, giros de medio y enderezamiento manual — con vista previa instantánea y sin necesidad de subir nada."
+      ]
+    },
+    {
+      "heading": "Cómo Rotar una Foto en el Navegador",
+      "paragraphs": [
+        "Una sola corrección de orientación es cosa de segundos, desde la subida hasta la descarga.",
+        "Añade tu imagen y elige rotar-izquierda, rotar-derecha o girar 180 grados para una corrección definitiva. Para horizontes ligeramente inclinados, arrastra el deslizador de enderezamiento hasta que la vista previa se vea nivelada. Exporta la imagen corregida cuando estés satisfecho.",
+        "Todo se ejecuta en tu dispositivo, así que incluso la rotación por lotes de un montón de fotos es rápida y privada, sin procesamiento en servidor."
+      ]
+    },
+    {
+      "heading": "Endereza Horizontes Sin Sorpresas al Recortar",
+      "paragraphs": [
+        "Una pequeña inclinación — 2 grados de desviación en el horizonte — es lo que hace que las escenas se sientan incómodas, y la gente rara vez se da cuenta de por qué la imagen se siente mal.",
+        "El control de enderezamiento rota la foto ligeramente y recorta automáticamente los bordes que quedan fuera del encuadre, de modo que el resultado sea tanto nivelado como rectangular sin necesidad de recorte manual.",
+        "La salida preserva la calidad de la foto: sin recompresión, sin suavizado de los píxeles enderezados y sin cambio de color durante el proceso de rotación."
+      ]
+    },
+    {
+      "heading": "Los Datos de Orientación EXIF y Por Qué Importan",
+      "paragraphs": [
+        "Los teléfonos inteligentes y las cámaras digitales modernas incluyen una etiqueta de orientación EXIF en cada foto, indicando a los visores cómo mostrar la imagen correctamente sin rotar físicamente los píxeles. La mayoría de las aplicaciones modernas respeta esta etiqueta, pero el software antiguo, ciertas impresoras y algunos formularios web la ignoran por completo.",
+        "Cuando una foto se ve correctamente en tu móvil pero aparece de lado en una aplicación de escritorio, la etiqueta EXIF está haciendo su trabajo mientras que el visor no. Aplicar una rotación física a través de la herramienta incorpora la orientación correcta en los datos de los píxeles, eliminando la dependencia del soporte del visor.",
+        "Eliminar la etiqueta de orientación EXIF manteniendo los píxeles en su disposición original es otro escenario habitual. El conversor gestiona ambos enfoques — rotar con la etiqueta o integrar la rotación en la imagen — para que el resultado se ajuste a los requisitos de la plataforma de destino."
+      ]
+    },
+    {
+      "heading": "Rotación Antes de Imprimir y Publicar",
+      "paragraphs": [
+        "Las imprentas rechazan imágenes de lado y una orientación inconsistente causa retrasos en los flujos de producción; las plataformas web las muestran rotadas de forma inconsistente entre visores y dispositivos.",
+        "Normalizar la orientación de antemano hace la entrega fluida en todos los sitios, desde una tienda de cuadros hasta una subida a tienda online o una presentación a cliente.",
+        "Combina con [crop-image:recortar] después de enderezar para ajustar la composición, y [convert-image:convertir] a un formato compatible con la web para la máxima compatibilidad."
+      ]
+    },
+    {
+      "heading": "Rotación por Lotes para Bibliotecas Fotográficas",
+      "paragraphs": [
+        "Los fotógrafos de eventos y los agentes inmobiliarios capturan rutinariamente docenas de imágenes en orientación vertical y horizontal. Rotarlas individualmente a través de un editor de escritorio completo es tedioso cuando el patrón es predecible: rotar-izquierda para las tomas realizadas con el móvil en posición horizontal.",
+        "Procesar un lote de fotos a través de la herramienta del navegador aplica la misma corrección a cada archivo sin reinstalar software ni aprender una nueva interfaz. La salida consistente ahorra tiempo durante la entrega posterior al evento o la preparación de listados de propiedades.",
+        "Después de la rotación por lotes, organiza los archivos corregidos en carpetas de proyecto con convenciones de nomenclatura claras. Combinar el paso de rotación con [resize-image:redimensionar] o [compress-image:compresión] crea un flujo de preparación completo que deja las imágenes listas para publicación en una sola sesión."
+      ]
+    },
+    {
+      "heading": "Escenarios Comunes de Rotación y Soluciones",
+      "paragraphs": [
+        "Los documentos escaneados a menudo llegan boca abajo o invertidos cuando la tapa del escáner se coloca mal. Un rápido giro de 180 grados o un espejo horizontal corrige la salida sin tener que volver a escanear todo el documento.",
+        "Las capturas de pantalla de dispositivos móviles a veces se exportan con orientación inesperada al transferirse a un ordenador. La herramienta de rotación las corrige al instante, produciendo un archivo que se muestra correctamente en todas las plataformas.",
+        "La fotografía de productos para e-commerce requiere una orientación erguida consistente en todo el catálogo. Aplicar la misma rotación a un lote de imágenes garantiza una uniformidad que genera confianza en el comprador y reduce las solicitudes de soporte."
+      ]
+    },
+    {
+      "heading": "Privado y Gratis en Cualquier Dispositivo",
+      "paragraphs": [
+        "Rotar tus fotos familiares, tomas inéditas y materiales de clientes localmente significa que nada sale de tu máquina bajo ninguna circunstancia.",
+        "Sin marca de agua, sin cuenta, sin límites — comportamiento idéntico en móviles, tabletas y ordenadores en todos los sistemas operativos.",
+        "Cada foto abandona la herramienta exactamente corregida como la dejaste, sin marca de agua incrustada ni cambios de metadatos."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Puedo rotar exactamente 90, 180 o 270 grados?",
+      "a": "Sí. Los botones de rotación dedicados realizan giros de cuarto y medio en ambas direcciones, además de un deslizador de enderezamiento manual para correcciones finas de horizonte."
+    },
+    {
+      "q": "¿La herramienta de enderezamiento recorta los bordes de mi foto?",
+      "a": "La rota y luego recorta automáticamente las esquinas vacías que aparecen, produciendo una imagen rectangular limpia sin artefactos."
+    },
+    {
+      "q": "¿La rotación de imágenes se realiza con privacidad?",
+      "a": "Sí. Todo el procesamiento se realiza localmente en tu navegador sin subidas, marcas de agua ni cuentas."
+    },
+    {
+      "q": "¿La rotación de una foto reduce su calidad?",
+      "a": "Los giros de cuarto y medio simplemente reorganizan los píxeles sin pérdida alguna. El enderezamiento de ángulo fino recorta un pequeño borde, pero la imagen restante conserva toda su resolución y nitidez."
+    },
+    {
+      "q": "¿Qué es la etiqueta de orientación EXIF y debo eliminarla?",
+      "a": "Son metadatos que indican a los visores cómo mostrar la imagen. Eliminarla previene la visualización de lado en software antiguo, pero requiere que la rotación se aplique a los datos de los píxeles previamente."
+    },
+    {
+      "q": "¿Puedo rotar un lote de fotos con la misma corrección?",
+      "a": "Sí. La herramienta procesa varios archivos en secuencia, aplicando la misma rotación a cada uno para que toda tu colección se mantenga consistente."
+    }
+  ]
+}

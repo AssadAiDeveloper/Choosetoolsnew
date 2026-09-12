@@ -1,0 +1,115 @@
+{
+  "slug": "reverse-text",
+  "title": "Invertir Texto Online Gratis: Invertir Letras, Palabras y Líneas al Instante",
+  "description": "Inversor de texto online gratuito para voltear texto, invertir palabras o invertir el orden de líneas al instante. Ideal para diversión, formato y acertijos. Privado, en tu navegador.",
+  "keywords": ["invertir texto", "invertir texto online", "invertir cadena", "invertir palabras", "voltear texto", "texto al revés", "herramienta de texto espejo"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Al Revés Es un Aspecto, A Veces una Lógica",
+      "paragraphs": [
+        "Invertir texto pone una secuencia del revés: las letras se voltean, las palabras se invierten, las líneas intercambian posiciones. Desde subtítulos lúdicos en redes sociales hasta el diseño de acertijos y experimentos de legibilidad, [reverse-text:invertir texto] online es una utilidad deliciosamente sencilla.",
+        "Los desarrolladores la escriben para probar lógica de palíndromos; los diseñadores la usan para tipografía espejo.",
+        "ChooseTools invierte texto localmente en tu navegador en modos de letra, palabra y línea."
+      ]
+    },
+    {
+      "heading": "Invertir Letras, Palabras o Líneas",
+      "paragraphs": [
+        "Tres volteos distintos, una herramienta:",
+        "El modo letra invierte «hello» a «olleh». El modo palabra invierte «one two three» a «three two one». El modo línea invierte cada línea de una lista.",
+        "Elige la granularidad que tu tarea necesita y copia el resultado."
+      ]
+    },
+    {
+      "heading": "Prueba de Palíndromos para Programadores y Acertijistas",
+      "paragraphs": [
+        "Un palíndromo se lee igual al revés: invertir es la prueba definitiva.",
+        "Aprendices y diseñadores de acertijos confirman cadenas al instante con la salida de inversión por letra.",
+        "La inversión del orden de palabras ayuda a modelos lingüísticos y traductores a verificar posiciones sintácticas."
+      ]
+    },
+    {
+      "heading": "Texto Divertido y Efectos Creativos",
+      "paragraphs": [
+        "Los subtítulos al revés en la cultura de mensajería señalan capricho; el texto espejo aporta un toque editorial al diseño.",
+        "Muestra tanto la versión normal como la invertida lado a lado para apreciación del público.",
+        "La creatividad necesita un espejo en un clic."
+      ]
+    },
+    {
+      "heading": "Casos de Uso para Desarrolladores y QA",
+      "paragraphs": [
+        "Los ingenieros de software prueban frecuentemente funciones de manejo de cadenas alimentándolas con entradas invertidas para verificar que los algoritmos manejan órdenes de caracteres no estándar. La depuración de texto de derecha a izquierda también se beneficia de generar rápidamente muestras espejo sin alterar los archivos fuente.",
+        "Los equipos de aseguramiento de calidad usan texto invertido para someter a prueba campos de búsqueda, lógica de autocompletado y motores de renderizado de texto. Si un componente renderiza cadenas invertidas correctamente, es mucho más probable que maneje casos extremos inusuales de Unicode con gracia.",
+        "Tener un inversor instantáneo basado en navegador significa que los desarrolladores pueden crear prototipos de datos de prueba en segundos en lugar de escribir scripts desechables para un solo paso de verificación."
+      ]
+    },
+    {
+      "heading": "Exploración Lingüística y Educación",
+      "paragraphs": [
+        "Los estudiantes de idiomas usan la inversión para estudiar estructuras silábicas y patrones de acento desde un ángulo fresco. Ver palabras y frases al revés destaca componentes fonéticos que son fáciles de pasar por alto en el orden de lectura normal.",
+        "Los profesores asignan ejercicios de inversión para ayudar a los estudiantes a desarrollar habilidades de razonamiento espacial y reconocimiento de patrones. La actividad es lo suficientemente sencilla para aprendices jóvenes pero conceptualmente rica suficiente para discusiones avanzadas de lingüística.",
+        "Como la herramienta se ejecuta completamente en el navegador, su uso en el aula no requiere cuentas, descargas ni compartición de datos, lo que la hace apropiada para entornos escolares con requisitos estrictos de privacidad."
+      ]
+    },
+    {
+      "heading": "Detalles de SEO y Usabilidad que Merece la Pena Conocer",
+      "paragraphs": [
+        "El texto invertido se usa ocasionalmente por propietarios de sitios para rotar una frase visualmente, pero los motores de búsqueda leen los caracteres subyacentes y pueden indexarlos en orden literal inverso. Para estilos legítimos, los efectos espejo se logran mejor con transformaciones CSS que con cadenas de caracteres invertidos.",
+        "Los lectores de accesibilidad también procesan el texto en el orden en que aparece, por lo que las cadenas invertidas se anuncian al revés para los usuarios de lectores de pantalla. Mantener el efecto inverso como decorativo en lugar de funcional preserva la experiencia para todos.",
+        "Para efectos verdaderamente direccionales como texto vertical o titulares rotados, las herramientas de formato dedicadas producen mejores resultados que invertir la cadena en sí."
+      ]
+    },
+    {
+      "heading": "Acertijos, Puzzles y Escape Rooms",
+      "paragraphs": [
+        "Los diseñadores de escape rooms incrustan mensajes invertidos en accesorios, cartas y notas como mecánica central de acertijos, y escribir esas pistas requiere generar texto invertido limpio bajo demanda. Los organizadores que preparan una nueva sala pueden redactar cada pista al revés en segundos y verificar la forma descifrada antes de imprimir.",
+        "Los libros de acertijos, búsquedas del tesoro e invitaciones de fiestas usan frases invertidas como filtro lúdico que los participantes deben descifrar. Tener el texto invertido al instante mantiene el flujo de producción corto y el desafío constante.",
+        "Incluso si solo estás sorprendiendo a un amigo con un mensaje de cumpleaños al revés, la herramienta produce un resultado pulido en segundos que tiene exactamente la misma longitud que tu original."
+      ]
+    },
+    {
+      "heading": "Unicode, Emoji y Escrituras Mixtas",
+      "paragraphs": [
+        "El texto moderno rara vez es ASCII puro, y un inversor debe manejar letras acentuadas, emoji y escrituras de derecha a izquierda sin corromper los caracteres. La herramienta trabaja a nivel de carácter para que los diacríticos y símbolos permanezcan intactos mientras se invierte el orden.",
+        "Los emoji compuestos por múltiples puntos de código, como los emoji familia que combinan varias personas en un solo glifo, se tratan como unidades completas para que permanezcan legibles tras la inversión en lugar de dispersarse en piezas rotas.",
+        "Las cadenas de escritura mixta que combinan árabe, latín y números se invierten de forma predecible, lo cual es valioso al probar motores de diseño y renderizado de texto en varios idiomas."
+      ]
+    },
+    {
+      "heading": "Juego de Texto Privado",
+      "paragraphs": [
+        "La redacción y los experimentos ocurren localmente.",
+        "Sin subidas, sin cuenta, sin marca de agua — en todos los dispositivos.",
+        "Al revés es opcional; la privacidad no."
+      ]
+    },
+    {
+      "heading": "Invertir en la Suite de Texto",
+      "paragraphs": [
+        "Voltea el texto, luego [find-replace:límpialo], [word-counter:mídelo] o [case-converter:formatealo de nuevo].",
+        "Toda la suite es gratuita y nativa del navegador.",
+        "Lúdico, preciso, privado."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Cuál es la diferencia entre los modos de inversión?",
+      "a": "El modo letra espejo cada carácter, el modo palabra invierte la secuencia de palabras, y el modo línea invierte el orden de líneas."
+    },
+    {
+      "q": "¿Puedo comprobar si una palabra es un palíndromo?",
+      "a": "Sí. Invierte la palabra en modo letra y compara — un resultado idéntico significa que se lee igual al revés."
+    },
+    {
+      "q": "¿El inversor de texto es privado?",
+      "a": "Sí. Todo el procesamiento ocurre localmente en tu navegador sin subidas ni cuentas."
+    },
+    {
+      "q": "¿La inversión preserva espacios y puntuación?",
+      "a": "Sí. El modo letra invierte cada carácter incluyendo espacios y puntuación en sus posiciones exactas. Los modos palabra y línea preservan la estructura interna de las palabras mientras reordenan."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "text-to-slug",
+  "title": "Konverter Teks ke Slug: Buat Slug Ramah URL Gratis Online",
+  "description": "Pembuat slug gratis online untuk mengonversi judul menjadi slug yang bersih dan ramah URL untuk WordPress, blog, dan sistem CMS. Privat, instan, langsung di browser.",
+  "keywords": ["pembuat slug", "teks ke slug", "konverter slug url", "pembuat url ramah slug", "slug wordpress", "slugify online", "slug url seo"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Slug adalah Cara URL Menjadi Terbaca",
+      "paragraphs": [
+        "Slug yang bersih mengubah <<How to Merge PDF Files — A Complete Guide>> menjadi /how-to-merge-pdf-files, terbaca oleh manusia, dapat diurai oleh mesin, dan diindeks dengan baik oleh mesin pencari. [text-to-slug:Membuat slug] dari judul adalah ritual harian setiap editor CMS.",
+        "WordPress, Shopify, Hugo, dan rute buatan tangan semuanya berbagi konvensi slug yang sama.",
+        "ChooseTools mengonversi teks ke slug secara lokal di browser Anda, menghormati opsi pemisah dan casing."
+      ]
+    },
+    {
+      "heading": "Cara Mengonversi Judul Menjadi Slug",
+      "paragraphs": [
+        "Dari judul ke permalink dalam satu klik.",
+        "Tempel judul atau frasa Anda dan alat ini menurunkan, menghapus, dan menghubungkannya menjadi slug bersih. Pilih gaya pemisah (tanda hubung, garis bawah) dan casing (lower, lowerCamel).",
+        "Output siap ditempel ke layar pengeditan Anda tanpa pembersihan manual.",
+        "Mengubah satu opsi segera merender ulang slug, sehingga menyesuaikan konvensi CMS Anda menjadi mudah."
+      ]
+    },
+    {
+      "heading": "Mengapa URL Bersih Penting untuk SEO dan Kebergunaan",
+      "paragraphs": [
+        "Mesin parses slug yang bermakna untuk konteks; pembaginya dapat diandalkan; analitik melaporkannya dengan jelas.",
+        "Permalink yang dapat diprediksi bertahan dari impor dan migrasi tanpa pergeseran.",
+        "Perhatikan slug dan arsitektur URL Anda akan membalas dengan struktur.",
+        "URL yang terbaca oleh manusia juga menginspirasi lebih banyak klik saat dibagikan dalam cetak, email, atau obrolan, karena tujuannya jelas sekilas."
+      ]
+    },
+    {
+      "heading": "Karakter Nasional dan Kasus Khusus Slug",
+      "paragraphs": [
+        "Karakter berdiakritik dan non-Latin membutuhkan aturan transliterasi untuk menjadi Latin yang aman URL.",
+        "Konverter menangani kasus khusus tersebut sehingga judul dengan á, é, ü, dan kemiripannya tetap menghasilkan slug yang rapi.",
+        "Tanda baca, kutipan, dan spasi runtuh menjadi pemisah yang aman.",
+        "Normalisasi ini mencegah string panjang, rusak, berencoding persen yang memecah tautan dan terlihat tidak profesional."
+      ]
+    },
+    {
+      "heading": "Praktik Terbaik Slug untuk Editor",
+      "paragraphs": [
+        "Jaga slug tetap pendek tetapi deskriptif: beberapa kata kunci bermakna lebih baik daripada kalimat penuh, dan lebih mudah dibaca dalam hasil pencarian dan tab browser.",
+        "Hindari kata henti seperti the, of, dan and di mana kata tersebut tidak menambah nilai pembeda, karena membuang karakter dan melemahkan sinyal.",
+        "Gunakan huruf kecil secara permanen setelah dipublikasikan, karena mengubah slug nanti memecah tautan yang ada dan merusak otoritas pencarian yang telah terakumulasi.",
+        "Sesuaikan dengan konvensi CMS Anda, biasanya tanda hubung untuk WordPress dan Jekyll, sementara beberapa framework lebih suka garis bawah atau camelCase, yang memungkinkan Anda pilih langsung melalui alat ini."
+      ]
+    },
+    {
+      "heading": "Konsekuensi SEO dari Slug yang Buruk",
+      "paragraphs": [
+        "Mesin pencari mempertimbangkan URL sebagai sinyal relevansi, dan slug yang mengandung kata kunci utama memperkuat kejelasan topik halaman untuk kueri tersebut.",
+        "Slug yang dihasilkan otomatis dari judul sering mengandung angka atau fragmen, seperti post-title-2024-06, yang tidak menambah nilai dan membuang ruang kata kunci paling terlihat di halaman hasil.",
+        "Parameter sesi dan identifier yang dihasilkan mesin membuat URL lebih sulit dibaca, dibagikan, dan diingat, mengurangi pembagian manual yang menghasilkan trafik nyata.",
+        "Menginvestasikan beberapa detik pada slug yang bersih saat mencegah tahun-tahun kinerja yang biasa-biasa saja dan tautan yang rusak."
+      ]
+    },
+    {
+      "heading": "Transliterasi dan Judul Multibahasa",
+      "paragraphs": [
+        "Judul dalam bahasa Jerman, Prancis, Spanyol, dan banyak bahasa lainnya membawa diakritik yang ditangani browser dengan canggung di URL. Mengonversi ü menjadi ue atau mempertahankan u tergantung pada bahasa dan preferensi editorial Anda, dan alat ini menerapkan default yang masuk akal.",
+        "Untuk aksara non-Latin seperti Kiril, Arab, atau Yunani, transliterasi fonetis menghasilkan slug yang terbaca dalam bahasa Inggris namun tetap cocok dengan topik untuk pembaca aksara Latin.",
+        "Aturan transliterasi yang konsisten penting untuk situs multibahasa di mana slug Spanyol dan slug Inggris harus terasa alami dan dapat diprediksi.",
+        "Anda juga dapat memilih untuk mempertahankan atau menghapus diakritik agar sesuai dengan konvensi merek Anda, memberikan penerbit multibahasa kendali penuh atas cara URL mereka dibaca."
+      ]
+    },
+    {
+      "heading": "Cara Slug Pas dalam Struktur URL Anda",
+      "paragraphs": [
+        "Slug adalah segmen terakhir dari path URL yang lebih besar, seperti /blog/category-name/slug, dan membawa informasi identifikasi paling spesifik untuk halaman.",
+        "Hierarki slug yang bijaksana, dengan kategori lalu pos, membantu pengguna dan mesin memahami di mana sebuah halaman berada di situs Anda.",
+        "Menjaga slug tetap stabil setelah publikasi sangat penting, karena setiap slug menjangkar bookmark, backlink, dan peringkat pencarian yang membutuhkan waktu berbulan-bulan untuk terakumulasi.",
+        "Saat Anda harus mengubah slug, pengalihan mempertahankan sebagian besar nilainya, tetapi menghindari perubahan sama sekali selalu lebih baik."
+      ]
+    },
+    {
+      "heading": "Pembuatan Slug Privat untuk Karya Belum Dipublikasikan",
+      "paragraphs": [
+        "Draf dan judul pra-peluncuran dikonversi secara lokal tanpa ada yang keluar dari mesin Anda.",
+        "Tanpa upload, tanpa akun, tanpa watermark di setiap platform.",
+        "Nama yang belum dipublikasikan tetap belum dipublikasikan sampai Anda memilih untuk mempublikasikannya."
+      ]
+    },
+    {
+      "heading": "Slug dalam Alur Kerja Konten",
+      "paragraphs": [
+        "Buat slug, ukur draf dengan [word-counter:hitungan kata], dan perhalus naskah dengan [find-replace:ganti] sebelum mempublikasikan.",
+        "Suite ini gratis dan berbasis browser, membentuk satu alur produksi konten yang berkelanjutan.",
+        "Dari judul ke /url/ yang ramah, selesai sepenuhnya tanpa meninggalkan browser."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Karakter apa yang dihapus saat membuat slug?",
+      "a": "Tanda baca, kutipan, dan simbol dihapus atau diganti dengan pemisah yang aman, dan karakter berdiakritik ditransliterasi ke huruf yang aman URL."
+    },
+    {
+      "q": "Bisakah saya memilih tanda hubung atau garis bawah sebagai pemisah?",
+      "a": "Ya. Gaya pemisah dan opsi casing memungkinkan Anda menyesuaikan dengan konvensi slug CMS atau framework Anda secara tepat."
+    },
+    {
+      "q": "Apakah pembuat slug ini privat?",
+      "a": "Ya. Konversi berjalan sepenuhnya di browser Anda tanpa upload, tanpa akun, dan tanpa pemrosesan sisi server."
+    },
+    {
+      "q": "Bisakah saya menggunakan slug yang sama di berbagai platform CMS?",
+      "a": "Ya. Slug yang dihasilkan adalah string standar aman URL, sehingga berfungsi di WordPress, Shopify, Hugo, dan sebagian besar sistem publikasi lainnya tanpa modifikasi."
+    }
+  ]
+}

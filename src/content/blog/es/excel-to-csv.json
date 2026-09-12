@@ -1,0 +1,115 @@
+{
+  "slug": "excel-to-csv",
+  "title": "Convertidor de Excel a CSV: convierte XLSX a CSV en línea gratis",
+  "description": "Convertidor gratuito de Excel a CSV para transformar hojas de cálculo XLSX en archivos CSV planos, hoja por hoja, en tu navegador. Privado, sin subidas y sin registro.",
+  "keywords": ["excel a csv", "convertidor de xlsx a csv", "convertir excel a csv", "excel a csv en línea gratis", "exportar xlsx como csv", "hoja de cálculo a csv", "herramienta excel a csv"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Formatos de Excel en todas partes, CSV donde quiera que vaya el procesamiento",
+      "paragraphs": [
+        "Los sistemas, las bases de datos y los scripts ingieren CSV mucho más fácilmente que XLSX. [excel-to-csv:Conversión de Excel a CSV] produce la forma simple y universalmente legible que toda canalización desea.",
+        "La conversión conserva los valores de las celdas mientras descarta la complejidad binaria, las fórmulas y el sobrecoste de formato de Excel.",
+        "ChooseTools convierte XLSX a CSV localmente en tu navegador, gestionando hojas y delimitadores con precisión."
+      ]
+    },
+    {
+      "heading": "Cómo convertir un archivo de Excel a CSV",
+      "paragraphs": [
+        "Del libro de trabajo a filas limpias:",
+        "Sube el archivo XLSX, elige qué hoja exportar y el delimitador (coma, punto y coma) y, a continuación, convierte. El CSV se descarga listo para scripting, CRMs o importaciones de bases de datos.",
+        "El libro de trabajo se analiza en tu dispositivo: no hay subida implicada y ningún dato sale de tu máquina."
+      ]
+    },
+    {
+      "heading": "Selección de hoja y control del delimitador",
+      "paragraphs": [
+        "Los libros de trabajo de varias hojas se convierten hoja por hoja; elige la que importa para tu tarea actual o procesa cada una por separado.",
+        "La elección del delimitador mantiene contentas a las herramientas sensibles a la región, ya use CSV comas en las configuraciones locales inglesas o puntos y coma en las europeas.",
+        "La salida encaja exactamente con la canalización que la consumirá, sin necesidad de procesamiento posterior."
+      ]
+    },
+    {
+      "heading": "Consideraciones sobre codificación y juegos de caracteres",
+      "paragraphs": [
+        "Las hojas de cálculo contienen con frecuencia caracteres acentuados, escrituras de derecha a izquierda y símbolos que los formatos de texto plano pueden destrozar si la codificación es incorrecta. El convertidor exporta CSV codificado en UTF-8 por defecto, conservando cada carácter exactamente como aparece en el libro de trabajo.",
+        "Algunos sistemas heredados esperan archivos codificados en ANSI o ISO-8859-1. Cuando la herramienta de destino requiere una codificación específica, elegir el juego de caracteres de salida correcto evita el texto corrupto que aparece cuando el nombre de un cliente francés o la etiqueta de un campo en árabe llega como mojibake ilegible.",
+        "Las marcas de orden de bytes, el prefijo invisible de tres bytes que señala UTF-8 a ciertos analizadores, se manejan correctamente. Los sistemas que requieren una BOM la reciben, y los que la rechazan obtienen una salida limpia sin el prefijo, evitando el error de la primera fila vacía que muchos usuarios de Excel a CSV encuentran."
+      ]
+    },
+    {
+      "heading": "Por qué CSV gana en el intercambio de datos",
+      "paragraphs": [
+        "Los analizadores universales, los diffs amigables de versiones y el scripting trivial favorecen a CSV frente a los formatos propietarios de hojas de cálculo.",
+        "Las exportaciones bancarias, las plataformas de marketing y las importaciones de análisis son nativas de CSV, lo que convierte la conversión en un puente de un solo paso hacia todas las herramientas conectadas.",
+        "Una sola conversión desbloquea todas las herramientas que leen filas planas, desde cargadores de bases de datos hasta sistemas de email marketing."
+      ]
+    },
+    {
+      "heading": "Valores limpios, codificación fiable",
+      "paragraphs": [
+        "Los números, las fechas y el texto se transfieren fielmente, y las celdas que contienen comas se entrecomillan correctamente para evitar errores de división de campos.",
+        "La codificación se mantiene intacta para datos acentuados y multilingües, de modo que los nombres de clientes y las descripciones de productos llegan legibles.",
+        "La importación aguas abajo simplemente funciona, ya el destino sea una base de datos relacional, un CRM o un panel de informes."
+      ]
+    },
+    {
+      "heading": "Procesamiento por lotes y libros de trabajo grandes",
+      "paragraphs": [
+        "Las hojas de cálculo empresariales suelen contener cientos de miles de filas repartidas en varias hojas. El convertidor procesa estos archivos grandes por completo en la memoria de tu dispositivo, produciendo una salida CSV limpia sin los límites de tiempo de espera o de tamaño de subida que imponen los servidores en línea.",
+        "Cuando cada hoja de un libro de trabajo importa, exportarlas individualmente te da un CSV por hoja con formato coherente. Este enfoque evita la ambigüedad de concatenar todas las hojas en un único archivo en el que los encabezados de columna ya no se alinean.",
+        "Las tablas muy anchas con docenas de columnas se convierten con la misma fidelidad que las altas y estrechas. La salida CSV entrecomilla cualquier celda que contenga el delimitador elegido, saltos de línea o comillas, de modo que incluso las estructuras de datos complejas sobreviven intactas al viaje de ida y vuelta."
+      ]
+    },
+    {
+      "heading": "Variantes de CSV y compatibilidad regional",
+      "paragraphs": [
+        "RFC 4180 define el formato estándar delimitado por comas, pero las convenciones regionales varían mucho. Las configuraciones locales alemana, francesa y española usan habitualmente puntos y coma como delimitadores porque la coma sirve como separador decimal en esos formatos numéricos.",
+        "Los valores separados por tabulaciones sirven como alternativa cuando las comas aparecen con frecuencia en los propios datos. Elegir el delimitador de tabulación evita el exceso de comillas y produce archivos que se pegan limpiamente en editores de texto plano y herramientas de terminal.",
+        "El convertidor coincide con la variante que espera tu sistema de destino, de modo que la salida se abre correctamente a la primera en lugar de mostrar una única columna larga de campos concatenados."
+      ]
+    },
+    {
+      "heading": "Datos financieros y de clientes privados",
+      "paragraphs": [
+        "Los libros de trabajo suelen contener los números más sensibles que posee una organización; la conversión local los mantiene sellados dentro de la empresa, sin exposición externa.",
+        "Sin subidas, sin cuenta, sin marcas de agua, en todas las plataformas y dispositivos.",
+        "Secreto de la hoja de cálculo preservado, con cada conversión ocurriendo por completo dentro de tu navegador."
+      ]
+    },
+    {
+      "heading": "Interoperabilidad de Excel en el kit de herramientas de datos",
+      "paragraphs": [
+        "Compáñalo con [csv-to-excel:CSV a Excel], [excel-to-json:Excel a JSON] y [csv-json:CSV a JSON] para un trabajo de datos completo en ambos sentidos entre formatos.",
+        "La suite es gratuita y nativa del navegador, y no requiere instalación.",
+        "Libros de trabajo desbloqueados en filas universales listas para cualquier sistema aguas abajo."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Puedo elegir el delimitador para la salida CSV?",
+      "a": "Sí. Las opciones de coma, punto y coma y tabulación admiten cómodamente datos con formato regional."
+    },
+    {
+      "q": "¿Maneja la herramienta los libros de trabajo de varias hojas?",
+      "a": "Sí. Selecciona la hoja concreta que deseas exportar o procesa las hojas individualmente según sea necesario."
+    },
+    {
+      "q": "¿Es privada la conversión de Excel a CSV?",
+      "a": "Sí. Todo se ejecuta localmente en tu navegador, sin subidas ni cuentas."
+    },
+    {
+      "q": "¿Sobreviven a la conversión los caracteres acentuados y no latinos?",
+      "a": "Sí. La salida usa por defecto codificación UTF-8, que conserva los caracteres acentuados, de derecha a izquierda y multilingües exactamente como aparecen en el libro de trabajo fuente."
+    },
+    {
+      "q": "¿Cuán grande puede ser el archivo de Excel?",
+      "a": "El convertidor maneja archivos con cientos de miles de filas por completo en tu navegador, sin restricciones de tamaño de subida en el servidor."
+    },
+    {
+      "q": "¿Se incluirán en el CSV las fórmulas de las celdas de Excel?",
+      "a": "CSV solo almacena valores calculados, no fórmulas. El convertidor exporta el resultado calculado de cada celda en lugar de la expresión subyacente."
+    }
+  ]
+}

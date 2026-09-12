@@ -1,0 +1,102 @@
+{
+  "slug": "resize-image",
+  "title": "How to Resize an Image Online Free: Change Image Dimensions Instantly",
+  "description": "Resize an image online free with ChooseTools. Change width, height and resolution of any photo in your browser, keeping quality high — no uploads, no watermarks.",
+  "keywords": ["resize image", "resize image online free", "change image dimensions", "resize photo without losing quality", "image resizer", "make image smaller kb", "resize image for instagram"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Every Platform Has Its Own Size Requirements",
+      "paragraphs": [
+        "Instagram wants 1080×1080, LinkedIn banners 1584×396, email attachments under a few megabytes. Passing a mismatched photo around causes distortion, rejection or wasted bandwidth. [resize-image:Resizing images] to the exact target is a routine but essential operation.",
+        "Because resizing loses information, the skill is hitting the target while keeping sharpness — exactly what a quality resizer balances.",
+        "ChooseTools resizes images locally in your browser. Choose dimensions as pixels, a percentage or common presets, and download the optimized file without any upload."
+      ]
+    },
+    {
+      "heading": "How to Resize a Photo Step by Step",
+      "paragraphs": [
+        "Up-to-size photos, in one clean pass:",
+        "Add your image and choose a resizing method — exact width and height, percentage of the original, or a preset helpful for social platforms. Constrain proportions with a single click to avoid distortion, then export.",
+        "Because processing happens locally, previews are immediate and multiple tries cost nothing."
+      ]
+    },
+    {
+      "heading": "Lock the Aspect Ratio: Resize Without Distortion",
+      "paragraphs": [
+        "Stretching a photo to hit arbitrary numbers ruins faces, logos and text. Maintaining the aspect ratio scales uniformly, filling the target exactly.",
+        "The tool's ratio lock guarantees that 1024×768 stays 4:3 at every size you request, with the photo letterboxed or cropped neatly as needed.",
+        "This is the difference between an image that looks professionally prepared and one that screams squished."
+      ]
+    },
+    {
+      "heading": "From Huge Raw Files to Web-Ready Web Sizes",
+      "paragraphs": [
+        "A 4000-pixel camera shot is overkill for a blog or a store. Resizing drops it to display dimensions and, with it, the megabytes.",
+        "This is the fastest route to smaller images without visible quality loss. Optionally pair with [compress-image:image compression] for extreme slimming.",
+        "Websites load faster, forms accept the file, and galleries scroll smoothly — all from one quick resize."
+      ]
+    },
+    {
+      "heading": "Which Platform Needs What Size",
+      "paragraphs": [
+        "Each network has an ideal image size for clear display without unnecessary file weight. Instagram posts display best at 1080 by 1080, stories at 1080 by 1920, and profile pictures at 320 by 320.",
+        "Twitter feed images typically work well at 1600 by 900, Facebook at 1200 by 630 for shared links, and LinkedIn banners at 1584 by 396.",
+        "Blog featured images commonly need about 1200 pixels wide, and email headers around 600 pixels wide to render inside most clients.",
+        "Using these targets directly as presets removes the guesswork and delivers images that look sharp on the intended feed."
+      ]
+    },
+    {
+      "heading": "Quality Preservation When Shrinking Photos",
+      "paragraphs": [
+        "Good resize tools use interpolation to blend the original pixels smoothly, so reducing a large photo to a smaller size remains sharp and free of visible artifacts.",
+        "The rule to remember: it is safe to scale an image down without visible loss, but enlarging a small image only spreads out the available pixels and reveals softness.",
+        "Because the tool renders locally from the original pixels each time, you can try several target sizes and keep whichever balances quality and file weight best.",
+        "The result is a resized photo that looks as intended on screen without the heavyweight megabytes of the original."
+      ]
+    },
+    {
+      "heading": "Checking the Result Before You Export",
+      "paragraphs": [
+        "The preview is the last line of defense before a final export judges the shot.",
+        "Zoom in to confirm edges remain clean and faces stay sharp, then glance at the reported pixel dimensions to verify the target was met.",
+        "If the composition feels off after resizing, repeat the step with a slightly different frame rather than accepting a diminished version.",
+        "Local rendering makes this check-and-retry loop effectively free, so the exported file is always the best attempt."
+      ]
+    },
+    {
+      "heading": "Private Resizing for Sensitive or Unreleased Photos",
+      "paragraphs": [
+        "Resizing reads your photo's pixels. Doing that locally means unreleased designs, private portraits and client assets stay put.",
+        "No upload, no watermark, no account — the same tool runs on Windows, macOS, Linux, tablets and phones.",
+        "You control exactly what you get, in seconds, every time."
+      ]
+    },
+    {
+      "heading": "Resize Alongside the Rest of the Image Kit",
+      "paragraphs": [
+        "Typical pipelines: [crop-image:crop] the composition, resize to target, compress for delivery, and [convert-image:convert] for the required format.",
+        "The complete suite runs in-browser and private, so image prep never depends on a cloud upload.",
+        "Routine size changes are now a five-second step rather than a desktop-app detour."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I resize by exact pixels or by percentage?",
+      "a": "Yes. Specify width and height in pixels, scale by a percentage, or pick common presets; the aspect ratio lock prevents distortion."
+    },
+    {
+      "q": "Does resizing reduce image quality?",
+      "a": "Good interpolation keeps photos sharp at reasonable downsizes. Extreme enlargements are limited by the original data, as with any resizer."
+    },
+    {
+      "q": "Is the image resizer free and private?",
+      "a": "Yes. Everything runs locally in your browser with no uploads, watermarks or accounts — your photo never leaves your device."
+    },
+    {
+      "q": "What is a good size for social media images?",
+      "a": "Instagram posts work well at 1080 by 1080, Facebook shared links at 1200 by 630, and LinkedIn banners at 1584 by 396. Helpful presets cover these cases."
+    }
+  ]
+}

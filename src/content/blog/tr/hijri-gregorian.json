@@ -1,0 +1,122 @@
+{
+  "slug": "hijri-gregorian",
+  "title": "Hicri–Miladi Dönüştürücü: İslami Takvim Tarihlerini Çevrimiçi Olarak Ücretsiz Dönüştürün",
+  "description": "İslami ve Miladi takvimler arasında çift yönlü dönüşüm sağlayan ücretsiz Hicri'den Miladi'ye tarih dönüştürücü. Tarayıcınızda gizli, yükleme yok.",
+  "keywords": ["hicri miladi çevirme", "miladi hicri çevirme", "islami takvim dönüştürücü", "hicri tarih dönüştürücü", "hicri tarih çevirme", "ümmü'l-kura dönüşümü", "çevrimiçi hicri miladi dönüştürücü"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "İki Takvim Aynı Günleri Farklı Sayar",
+      "paragraphs": [
+        "Hicri takvim ay döngülerini izlerken Miladi takvim güneşi izler; birindeki tarihlerin diğerine sürekli eşlenmesi gerekir. [hijri-gregorian:Hicri ve Miladi tarihler arasında dönüştürme] her iki yönde de tahmin yürütmeyi ortadan kaldırır.",
+        "Resmî, dinî ve sivil ihtiyaçlar bunu her gün gerektirir.",
+        "ChooseTools, tanınmış dönüştürme algoritmalarını kullanarak tarihleri tarayıcınızda yerel olarak dönüştürür."
+      ]
+    },
+    {
+      "heading": "Takvimler Arasında Bir Tarih Nasıl Dönüştürülür",
+      "paragraphs": [
+        "Her iki yön, ikisi de anlaşılır:",
+        "Miladi karşılığını görmek için bir Hicri tarih girin veya Hicri biçimini almak için bir Miladi tarih girin. Mümkün olduğunda dönüştürme kuralını (Ümmü'l-Kura gibi) seçin.",
+        "Dönüştürme yerel, anında ve tekrarlanabilirdir."
+      ]
+    },
+    {
+      "heading": "Ayla Köklenen Farklılıklar",
+      "paragraphs": [
+        "Ay yılları güneş yıllarından kabaca on bir gün kısadır; bu yüzden Hicri tarihler her yıl Miladi'ye göre ileri kayar.",
+        "Tanınmış algoritmalar farkı güvenilir şekilde uzlaştırır.",
+        "Bağlam, yanlış yorumlamayı önler."
+      ]
+    },
+    {
+      "heading": "Resmî Belgeler ve Sivil Uygulamalar",
+      "paragraphs": [
+        "Sözleşmeler, sertifikalar ve sistemler genellikle her iki tarih sistemini gerektirir.",
+        "Tarihler doğru eşlendiğinde veritabanları ve içe aktarımlar geçerli kalır.",
+        "İdari doğruluk, dönüştürmeyle başlar."
+      ]
+    },
+    {
+      "heading": "Dinî İbadetler ve Planlama",
+      "paragraphs": [
+        "Müslüman topluluklar Ramazan, bayram kutlamaları ve Hac tarihlerini Hicri takvime göre planlar; ancak devlet takvimleri, okul programları ve iş yeri planlaması Miladi tarihlere göre işler. Ailelerin, izin, seyahat ve toplantıları koordine etmek için her dinî dönüm noktasının Miladi karşılığını bilmesi gerekir.",
+        "Camiler ve toplum merkezleri, katılımcıların her iki takvimi de işaretleyebilmesi için Hicri etkinlik tarihlerini Miladi tarihlerle birlikte yayımlar. Doğru dönüştürme, bir ibadet tarihinin bir gün veya daha fazla farkla duyurulduğu utanç verici senaryoyu önler.",
+        "Elinizin altında güvenilir bir dönüştürücü olması, mevsimsel planlamayı basitleştirir ve yıl boyunca dinî ile sivil programları uyum içinde tutar."
+      ]
+    },
+    {
+      "heading": "Tarihsel Tarihler ve Uzun Vadeli Planlama",
+      "paragraphs": [
+        "Kayıtları çeviren tarihçiler ve araştırmacılar ters sorunla karşılaşır: yalnızca Hicri yazılmış eski bir belge, diğer kaynaklarla karşılaştırma için Miladi bir tarihe eşlenmelidir. Bir dönüştürücü bu çok yüzyıllık eşlemeleri, kabaca hatırlanan karşılıklara güvenmek yerine tutarlı biçimde yönetir.",
+        "Yıllar ileriye uzanan yayın programları gibi uzun vadeli planlama da cari yılın yaklaşımına dayalı tahmin yerine güvenilir dönüştürmeden yararlanır.",
+        "Tablosal bir tahmin ile gözlemlenen takvim tarihi arasında ayrım yapmak, tarihsel sonuçları dürüst ve tekrarlanabilir tutar."
+      ]
+    },
+    {
+      "heading": "Rakam Biçimi ve Gösterim Kuralları",
+      "paragraphs": [
+        "Miladi tarihler hedef kitleye bağlı olarak Batı rakamlarıyla veya Doğu Arapçası rakamlarıyla yazılabilir; Hicri tarihler de bölgelere göre birden fazla rakam stilinde görünür. Dönüştürücü, tarihleri bağlamınızın beklediği gösterimde sunar; böylece bir rapor, sözleşme veya takvim okuyucuları için tutarlı kalır.",
+        "Gün-ay sıralaması da bölgeye göre farklılık gösterir: bazı sistemler önce günü görüntülerken bazıları ayı başa koyar. Alıcı uygulamayla eşleşen biçimi seçmek, sayılar bir veritabanına veya basılı forma geçtiğinde yanlış yorumlamayı önler.",
+        "Çıktıyı tüm belgelerinizde tek bir tutarlı kuralda tutmak, gelecekteki sorgulamaları güvenilir ve makine tarafından okunabilir kılar."
+      ]
+    },
+    {
+      "heading": "Duyuruları ve Kamu Programlarını Planlama",
+      "paragraphs": [
+        "Topluluk bültenleri ve kuruluş takvimleri, her üyenin seyahat ve izin planlayabilmesi için dinî günleri sık sık hem Hicri hem Miladi olarak listeler. Paralel sütunlar üretmek, aracın istenen her tarih için anında sağladığı tüm yıl boyunca doğru dönüştürme gerektirir.",
+        "Bölgedeki işverenler ayrıca dinî tatilleri yasal izin sistemleriyle uzlaştırmak için birleşik takvimlere güvenir; böylece bordro ve devam kayıtlarının uyumlu olmasını sağlar."
+      ]
+    },
+    {
+      "heading": "Doğruluk Kurala Bağlıdır",
+      "paragraphs": [
+        "Astronomik ve Ümmü'l-Kura kuralları tarihleri hafifçe kaydırabilir.",
+        "Doğru kuralı seçmek, çıktıyı tüketicinin beklentisiyle hizalar.",
+        "Seçim, kör varsayılanları yener."
+      ]
+    },
+    {
+      "heading": "Ay Ayları Güneş Aylarından Nasıl Farklıdır",
+      "paragraphs": [
+        "Bir Hicri ay, yeni hilalin görünürlüğüne göre belirlenen 29 veya 30 gün uzunluğundadır. Bir Miladi ay, astronomik olaylardan bağımsız olarak sivil anlaşmayla sabit 28 ila 31 gündür. Bu temel fark, iki takvimin her yıl yaklaşık on bir gün kayması anlamına gelir.",
+        "33 yıllık bir döngüde kayma tam bir döngüyü tamamlar; bu yüzden bazı topluluklar uzun vadeli planlama için kaymayı ortalamalayan tablosal bir yaklaşım kullanır. Diğer topluluklar gerçek ay gözlemine güvenir ve tarih sınırlarında küçük bölgesel farklılıklar üretir.",
+        "Dönüştürücü, en yaygın sivil ve dinî beklentilerle eşleşen tanınmış matematiksel yaklaşımları desteklerken yerel hilal gözlem otoritelerinin tarihleri bir gün farklı duyurabileceğini de kabul eder."
+      ]
+    },
+    {
+      "heading": "Gizli Tarih İşlemleri",
+      "paragraphs": [
+        "Kişisel ve resmî tarihler yerel olarak dönüştürülür.",
+        "Yükleme yok, hesap yok, filigran yok — platformlar arası.",
+        "Takvim konuları gizli kalır."
+      ]
+    },
+    {
+      "heading": "Arapça Araç Setinde Tarihler",
+      "paragraphs": [
+        "Eksiksiz takvim ve sayı işleri için [arabic-numerals:rakam işleme], [tafqit:sayı yazımı] ve [age-calculator:yaş hesabı] ile birleştirin.",
+        "Set ücretsiz ve tarayıcı tabanlıdır.",
+        "İki takvim, tek doğru cevap."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Dönüştürücü her iki yönde de çalışabilir mi?",
+      "a": "Evet. Hicri tarihler Miladi'ye ve Miladi tarihler Hicri'ye seçilebilir modda dönüştürülür."
+    },
+    {
+      "q": "Hangi dönüştürme kuralı kullanılıyor?",
+      "a": "Geçerli olduğu durumlarda Ümmü'l-Kura yaklaşımı dahil tanınmış İslami takvim algoritmaları sunulur; böylece sonuçlar yaygın kullanımla uyumlu olur."
+    },
+    {
+      "q": "Dönüştürme gizli mi?",
+      "a": "Evet. Her şey yükleme veya hesap olmadan tamamen tarayıcınızda yerel olarak çalışır."
+    },
+    {
+      "q": "Hicri tarihim başka bir kaynaktan neden bir gün farklı olabilir?",
+      "a": "Farklı bölgeler yerel hilal gözlemine veya farklı tablosal yaklaşımlara güvenir; bu da Hicri bir ayın başlangıcını bir gün kaydırabilir. Dönüştürücü, en yaygın kabul gören sivil kuralla eşleşen tanınmış bir algoritma kullanır."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "remove-exif",
+  "title": "Hoe EXIF-Gegevens van Foto's Online Gratis Verwijderen: Locatie en Metadata Strippen",
+  "description": "Verwijder EXIF-gegevens online gratis met ChooseTools. Strip GPS-locatie, cameramodel en persoonlijke metadata van foto's, direct in je browser. Privé, gratis en zonder watermerk.",
+  "keywords": ["exif verwijderen", "exif gegevens gratis online verwijderen", "gps uit foto verwijderen", "foto metadata verwijderen", "locatie uit foto verwijderen", "exif remover", "foto metadata opschonen"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Je Foto's Vertellen Meer Dan Ze Laten Zien",
+      "paragraphs": [
+        "Elke camera tikt mee: GPS-coördinaten, apparaatmodel, tijdstempel en software. Foto's blind delen deelt die context. [remove-exif:EXIF-gegevens verwijderen] beschermt jouw privacy en die van iedereen op de foto.",
+        "Journalisten, verhuurders, verkopers en ouders hebben allemaal redenen om foto's te publiceren zonder ingebedde locaties.",
+        "ChooseTools stript EXIF lokaal in je browser en exporteert schone afbeeldingen met de visuele content onaangeraakt."
+      ]
+    },
+    {
+      "heading": "Hoe je EXIF uit een Foto Verwijdert",
+      "paragraphs": [
+        "Een privacy-pas voor elke afbeelding.",
+        "Upload de foto; het tool leest en toont welke metadata is ingebed en verwijdert vervolgens GPS-, camera- en bewerkingstags op verzoek. Download de opgeschoonde afbeelding met de beelden intact.",
+        "Lokale verwerking betekent dat de metadata-analyse zelf op je apparaat blijft.",
+        "Je houdt volledige controle over welke tags je verwijdert, zodat je locatie kunt strippen terwijl je de details bewaart die voor de afbeelding belangrijk zijn."
+      ]
+    },
+    {
+      "heading": "Het GPS-Probleem: Locatielekt op Eerste Gezicht",
+      "paragraphs": [
+        "Een enkele familiefoto draagt de exacte coördinaten van je huis. Die specifieke tag verwijderen is bij sommige shares niet onderhandelbaar.",
+        "Het tool identificeert locatiedata en verwijdert het voordat je iets verspreidt.",
+        "Posten, verkopen, rapporteren — nu veilig voor de positietag.",
+        "Zelfs zonder coördinaten kan andere metadata een algemeen gebied pinpointen, dus een grondige scrub verwijdert alle locatiegerelateerde velden, niet alleen het voor de hand liggende coördinaatpaar."
+      ]
+    },
+    {
+      "heading": "Verder Dan Locatie: Sporen van Camera en Software",
+      "paragraphs": [
+        "Apparaatmodel en bewerkingssoftware onthullen je uitrusting en workflow; tijdstempels onthullen persoonlijke schema's.",
+        "Deze tags strippen anonimiseert het bestand net zo grondig als open-source tools zouden doen.",
+        "Identiteit en routine blijven privé, niet alleen de locatie.",
+        "Voor journalisten en activisten kan het onthullen van een cameramerk of bewerkingsgeschiedenis een bron in gevaar brengen, waardoor volledige metadataverwijdering essentieel is."
+      ]
+    },
+    {
+      "heading": "Wat EXIF-Gegevens Bevatten",
+      "paragraphs": [
+        "EXIF is een gestandaardiseerd metadataformaat dat door camera's en telefoons in afbeeldingsbestanden wordt ingebed en naast de pixeldata ook technische en contextuele informatie vastlegt.",
+        "Gangbare velden zijn de camerafabrikant en het model, lensinformatie, belichtingsinstellingen, ISO en brandpuntsafstand, plus een tijdstempel die markeert wanneer de opname is gemaakt.",
+        "Op veel apparaten worden ook GPS-coördinaten opgeslagen, samen met de hoogte en soms de kompasrichting waarnaar de camera stond.",
+        "Zelfs verkleinde of bewerkte exports kunnen een verrassende hoeveelheid van deze data behouden, daarom is een aparte verwijderstap een waardevol onderdeel van je deelroutine."
+      ]
+    },
+    {
+      "heading": "Andere Metadata Verwijderen voor Volledige Anonimiteit",
+      "paragraphs": [
+        "Naast EXIF kunnen bestanden IPTC-bijschriften, XMP-sidecar-data en fabrikantextensies dragen met namen, copyrightstrings en bewerkingsgeschiedenissen.",
+        "Een grondige opschoning verwijdert ook deze hulpmetadata-blokken, niet alleen de standaard EXIF-velden, zodat er niets toevalligs doorslipt.",
+        "Sommige platforms en messaging-apps hercomprimeren foto's en kunnen eigen tags toevoegen, waardoor een laatste scrub vóór kritieke shares de veiligste gewoonte is.",
+        "Verwerken met een tool die de hele metadata-envelop opruimt is de enige betrouwbare manier om zeker te weten dat het geëxporteerde bestand schoon is."
+      ]
+    },
+    {
+      "heading": "Alledaagse Situaties die EXIF-Verwijdering Vragen",
+      "paragraphs": [
+        "Verkoopfoto's van je huis of bezittingen kunnen de exacte locatie van je woning onthullen, iets dat kopers en vreemden niet automatisch zouden moeten leren.",
+        "Ouders die foto's van kinderen op socialmedia delen geven er vaak de voorkeur aan locatie te strippen, zodat schoolpleinen, huizen en routines niet voor een breed publiek worden gepubliceerd.",
+        "Professionals zoals makelaars, advocaten en bezorgdiensten versturen foto's die klantspecifieke locatiedata kunnen bevatten, die vóór het doorsturen moeten worden opgeschoond.",
+        "Journalisten en veldwerkers in gevoelige gebieden behandelen metadataverwijdering als standaardpraktijk, omdat een enkele coördinaat henzelf of hun bronnen in gevaar kan brengen."
+      ]
+    },
+    {
+      "heading": "Privé Scrubben, Gewaarborgd",
+      "paragraphs": [
+        "Metadataverwijdering leest precies de data die je verborgen wilt houden, dus het lokaal doen is de enige veilige route.",
+        "Geen upload, geen watermerk, geen account, en geen spoor dat de scrub ooit heeft plaatsgevonden.",
+        "Werkt op elk besturingssysteem en elke telefoon.",
+        "Je stuurt het gevoelige bestand nooit naar een server die het kan loggen of een kopie kan opslaan, waardoor de hele operatie volledig zelfstandig blijft."
+      ]
+    },
+    {
+      "heading": "Schone Foto's voor het Deeltijdperk",
+      "paragraphs": [
+        "Gebruik het tool vóór elke openbare share, van een verkoopadvertentie tot een nieuwsredactie-aanlevering, en combineer met [resize-image:verkleinen] voor platformafmetingen.",
+        "Je foto's blijven precies zo mooi, minus elke byte verborgen context.",
+        "Deel vrolijk, blijf beschermd, met exact de boodschap die je bedoelt en niets meer."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welke EXIF-gegevens kunnen worden verwijderd?",
+      "a": "GPS-coördinaten, camera- en lensmodel, tijdstempels en softwaretags kunnen allemaal worden gestript, waarbij de visuele content van de foto onaangeraakt blijft."
+    },
+    {
+      "q": "Waarom zou ik EXIF verwijderen vóór het delen?",
+      "a": "Locaties en apparaatdetails bevatten privacy die de meeste mensen nooit van plan zijn te onthullen; ze verwijderen beschermt persoonlijke en professionele reputaties."
+    },
+    {
+      "q": "Is de EXIF-verwijderaar privé?",
+      "a": "Ja. Alle verwerking draait lokaal in je browser zonder uploads, watermerken of accounts."
+    },
+    {
+      "q": "Zal het verwijderen van EXIF de beeldkwaliteit reduceren?",
+      "a": "Nee. Alleen de metadata wordt gestript; de visuele pixels en details van de foto blijven volledig ongewijzigd."
+    }
+  ]
+}

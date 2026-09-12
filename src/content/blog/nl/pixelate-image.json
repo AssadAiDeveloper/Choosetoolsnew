@@ -1,0 +1,100 @@
+{
+  "slug": "pixelate-image",
+  "title": "Hoe een Afbeelding Online Gratis Verpixelen: Censureren Met Pixelblokken",
+  "description": "Verpixel een afbeelding online gratis met ChooseTools. Blokkeer gezichten, nummers en gevoelige gebieden met nette pixelatie, direct in je browser, met volledige privacy en zonder watermerk.",
+  "keywords": ["afbeelding verpixelen", "deel van afbeelding verpixelen", "mosaic afbeelding online", "gezicht verpixelen", "afbeelding gratis online censureren", "pixel blur foto", "een foto verpixelen"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Pixelatie Is Censuur Die Eerlijk Blijft",
+      "paragraphs": [
+        "Soms is een zachte vervaging niet genoeg en is een bewust mozaïek precies goed: pixelatie zegt duidelijk „opzettelijk ondoorzichtig“ terwijl de grafische identiteit van de afbeelding behouden blijft. [pixelate-image:Afbeeldingen verpixelen] is de klassieke manier om een gezicht, nummer of logo te verbergen.",
+        "Redacties, politiepublicaties, marktplaatsen en schoolcommunicaties rekenen allemaal op het mozaïek-uiterlijk.",
+        "ChooseTools verpixelt gebieden van afbeeldingen lokaal in je browser met blokgrootte-besturing over het effect.",
+        "Het resultaat is een bestand dat de geest van privacywetgeving en redactionele richtlijnen volgt zonder ooit de context die een foto draagt te verliezen."
+      ]
+    },
+    {
+      "heading": "Hoe het Mozaïek-Effect Wordt Opgebouwd",
+      "paragraphs": [
+        "Pixelatie werkt door een geselecteerd gebied in een raster van blokken te verdelen en elk blok te vervangen door één gemiddelde kleur uit de pixels eronder.",
+        "Een grof raster produceert het zware, onmiskenbare mozaïek van klassieke censuur; een fijn raster levert een korrelige textuur op die het detail alleen verzacht.",
+        "Omdat de wiskunde eenvoudig en lokaal is, is de bewerking zelfs bij hoge-resolutiefoto's onmiddellijk, en je kunt het resultaat bekijken voordat je je committeert.",
+        "De blokgrootte na de selectie aanpassen kost niets, zodat fijn-tuning tot op het puntje van de afbeelding praktisch is in plaats van vervelend."
+      ]
+    },
+    {
+      "heading": "Hoe je een Gebied van een Afbeelding Verpixelt",
+      "paragraphs": [
+        "Censureer met stijl en precisie:",
+        "Upload de afbeelding en selecteer het te maskeren gebied; pas de blokgrootte aan van subtiele korrel tot zwaar mozaïek. Bekijk de preview om te bevestigen dat de content volledig verborgen is en download dan.",
+        "Alles gebeurt lokaal, dus niemand ziet wat je koos te verbergen of waar.",
+        "Een gebied opnieuw selecteren is even eenvoudig als de rechthoek opnieuw tekenen, waardoor je volledige controle over de uiteindelijke look hebt voordat het bestand je apparaat verlaat."
+      ]
+    },
+    {
+      "heading": "Mozaïek-Censuur voor Publieke Beelden",
+      "paragraphs": [
+        "Een menigtefoto uitzenden: het mozaïek over de omstanders. Een plaats delict publiceren: identifiers maskeren. Een tweedehandsauto verkopen: de platen blokkeren.",
+        "De zware mozaïeklook is ondubbelzinnig en tijdloos in print en op schermen.",
+        "Censureren wist nooit de hele foto — alleen de delen die de wet of fatsoen vereist.",
+        "Deze chirurgische aanpak houdt de afbeelding bruikbaar voor verslaggeving, advertenties en aankondigingen terwijl elk persoon of detail wordt beschermd dat hij niet zou moeten onthullen."
+      ]
+    },
+    {
+      "heading": "Beheers de Blokkerigheid voor de Juiste Visual",
+      "paragraphs": [
+        "Kleine blokken lezen als „korrelig detail“, grote blokken als onmiskenbare censuur.",
+        "De blokgrootte afstemmen op hoeveel er moet worden verborgen houdt het resultaat proportioneel.",
+        "Het effect blijft lokaal bewerkbaar totdat het precies goed is.",
+        "Voor gezichten verbergt een middelgroot tot groot blok de identiteit duidelijk; voor kentekenplaten en nummers bewaart een strakker blok de herkenbaarheid van de rest van het beeld.",
+        "Omdat het mozaïek uit de afbeelding zelf wordt gereconstrueerd, mengt het gemaskeerde gebied zich natuurlijk met de omliggende pixels in plaats van een opgeplakte patch te lijken — het effect blijft professioneel in print, online en op sociale feeds."
+      ]
+    },
+    {
+      "heading": "Vervagen of Mozaïek: de Juiste Masker Kiezen",
+      "paragraphs": [
+        "Vervagen verzacht pixels tot een vloeiende vlek die soms gedeeltelijk kan worden gereconstrueerd of visueel storend is bij grote gebieden.",
+        "Pixelatie breekt het gebied in scherpe blokken die leesbaar detail permanent verwijderen; daarom hebben redactionele en juridische workflows er de voorkeur voor.",
+        "Waar een preview prettig voor het oog moet blijven, leest een licht mozaïek schoner dan een zware Gaussiaanse smeer.",
+        "Kies de maskerstijl die past bij het verhaal dat de foto na het verdwijnen van de gevoelige delen nog moet vertellen."
+      ]
+    },
+    {
+      "heading": "Privé-Censureren van Gevoelige Bestanden",
+      "paragraphs": [
+        "Afbeeldingen die mozaïekbehandeling nodig hebben bevatten vaak precies de content die niet zou moeten reizen. Lokale verwerking houdt ze hier.",
+        "Geen upload, geen watermerk, geen account — op elk besturingssysteem en elke telefoon.",
+        "Jouw beslissingen over publieke zichtbaarheid gebeuren volledig in jouw handen.",
+        "Of het bestand nu een juridisch bewijsstuk, een schoolfoto van een kind of een niet-uitgebrachte productopname is, er wordt tijdens de voorbereiding voor het delen nooit iets verzonden."
+      ]
+    },
+    {
+      "heading": "Verpixelen en Delen met Zorg",
+      "paragraphs": [
+        "Combineer het masker met [remove-exif:metadata verwijderen] zodat de tiel van het bestand nooit andere details lekt.",
+        "De suite blijft gratis, browser-native en privé.",
+        "Censureer precies, deel met vertrouwen.",
+        "Zodra het gebied is gemaskeerd en de metadata is gestript, is de afbeelding klaar voor kranten, marktplaatsen of sociale feeds zonder zorgen over ingebedde verrassingen."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan ik de grootte van de pixelblokken controleren?",
+      "a": "Ja. Pas de blokgrootte samen met het gemaskeerde gebied aan om te finetunen hoe dicht of grof het mozaïek verschijnt."
+    },
+    {
+      "q": "Kan ik meerdere gebieden tegelijk verpixelen?",
+      "a": "Ja. Elk aantal gebieden kan op dezelfde afbeelding worden gemaskeerd vóór export."
+    },
+    {
+      "q": "Is pixelatie privé en gratis?",
+      "a": "Ja. Het draait volledig in je browser zonder uploads, watermerken of accounts."
+    },
+    {
+      "q": "Waarom pixelatie boven vervagen kiezen voor gevoelige content?",
+      "a": "Pixelatie verwijdert leesbaar detail met scherpe, permanente blokken en is de standaard waar de redactionele en juridische industrie op vertrouwt voor gezichten en identifiers."
+    }
+  ]
+}

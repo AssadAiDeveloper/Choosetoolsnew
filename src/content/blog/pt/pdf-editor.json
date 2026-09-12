@@ -1,0 +1,100 @@
+{
+  "slug": "pdf-editor",
+  "title": "Como Editar um PDF Online Grátis: Alterar Texto, Imagens e Layout No Navegador",
+  "description": "Edite um PDF online grátis com a ChooseTools. Modifique texto, substitua imagens e ajuste o layout no seu navegador com pré-visualização ao vivo e total privacidade. Sem instalação, sem carregamento, sem marca de água.",
+  "keywords": ["editar pdf", "editar pdf online grátis", "editar texto em pdf", "editor de pdf grátis", "modificar documento pdf", "editar pdf sem carregar", "alterar conteúdo pdf"],
+  "readingTime": 9,
+  "sections": [
+    {
+      "heading": "O PDF É um Artefacto Final — Até Deixar de Ser",
+      "paragraphs": [
+        "Os PDFs são onde os documentos vão assentar: layouts trancados, fontes incorporadas, páginas finais. Mas de vez em quando o assentamento precisa de ser revisto — uma errata no título, uma foto que tem de ser trocada, uma frase a aperfeiçoar. Um [pdf-editor:editor de PDF] capaz torna essas correções tardias possíveis sem voltar à aplicação de origem.",
+        "Editores gratuitos historicamente eram reduzidos a nada mais do que anotação. A ChooseTools edita genuinamente no navegador: texto, imagens e estrutura de página respondem às suas alterações.",
+        "Tudo acontece localmente no seu dispositivo, pelo que edições confidenciais nunca viajam para lado nenhum."
+      ]
+    },
+    {
+      "heading": "Como Editar um PDF Diretamente No Navegador",
+      "paragraphs": [
+        "Um ciclo de edição funcional substitui o ciclo de reconstruir no Word.",
+        "Abra o PDF no editor. Clique no texto para alterar palavras, selecione uma imagem para a substituir e ajuste elementos na página com pré-visualização ao vivo. Guarde e um novo PDF incorporando todas as edições é descarregado.",
+        "Como a renderização é local, cada tecla é refletida instantaneamente e ficheiros grandes permanecem responsivos."
+      ]
+    },
+    {
+      "heading": "Edições de Texto, Substituição de Imagens e Ajustes de Layout",
+      "paragraphs": [
+        "Correções típicas: corrigir um nome de produto numa ficha técnica, substituir uma fotografia desatualizada, atualizar um número de versão ou alinhar uma imagem.",
+        "O editor atende a estas necessidades exatas, mantendo fontes, espaçamento e design geral intactos enquanto faz alterações direcionadas.",
+        "Para conteúdo mais pesado, combine com [merge-pdf:juntar] páginas alternativas ou [crop-pdf:recortar] regiões na mesma sessão."
+      ]
+    },
+    {
+      "heading": "O Fluxo de Trabalho É um Pequeno Conjunto de Decisões",
+      "paragraphs": [
+        "Editar um PDF reduz-se a um punhado de escolhas: que texto altera, que imagem substitui outra e que elementos mudam de posição. Nomear a decisão torna cada passo deliberado — clique no texto, digite a correção, depois avance para a próxima alteração sem navegar em menus.",
+        "A pré-visualização ao vivo é o que separa um editor verdadeiro de um preenchedor de formulários. Cada tecla redesenha a página, pelo que uma alteração que transborde de uma caixa ou colida com um elemento é visível imediatamente em vez de descoberta após exportação. Este ciclo de feedback torna a sessão de edição rápida e auto-corretiva.",
+        "Quando várias edições abrangem a mesma página, trabalhar de cima para baixo mantém o layout coerente. Refinar uma adição, como alargar uma legenda ou encurtar um parágrafo, é questão de clicar de volta nele, não de abrir uma ferramenta separada ou reformatar o documento inteiro."
+      ]
+    },
+    {
+      "heading": "Iteração de Rascunho Sem Idas e Voltas ao Processador de Texto",
+      "paragraphs": [
+        "Editar no Microsoft Word ou Google Docs reenvolve tudo, e exportar de volta para PDF frequentemente destrói tipografia cuidadosa.",
+        "Editar o próprio PDF preserva o design enquanto acomoda alterações — o caminho mais rápido de rascunho a versão final limpa.",
+        "Circular, editar, aprovar: o ciclo encurta porque a fonte permanece em PDF."
+      ]
+    },
+    {
+      "heading": "Tarefas de Edição Comuns do Mundo Real",
+      "paragraphs": [
+        "Contratos e propostas acumulam revisões menores antes da assinatura: um nome de empresa corrigido, uma data atualizada, uma página de adendo trocada. Cada uma é uma edição de texto direcionada que mantém o resto do acordo intocado, preservando a aparência legal que os revisores esperam.",
+        "Apresentações de marketing mudam até ao prazo — uma nova estatística substitui uma antigo, um slide de preços é atualizado, um logótipo é trocado. Editar esses diretamente no PDF mantém o design do ficheiro intacto e evita reconstruir toda a apresentação em software de apresentação.",
+        "PDFs que foram digitalizados a partir de papel podem conter erros tipográficos introduzidos pelo processo de OCR. Corrigir esses no editor repara a camada de texto sem alterar o layout da página, deixando um documento limpo que imprime e partilha normalmente.",
+        "Formulários que já foram preenchidos por vezes necessitam de correções seletivas, como uma data de nascimento corrigida ou um valor reintroduzido. Como o editor carrega o ficheiro existente, essas correções pontuais aplicam-se diretamente à versão entregue em vez de forçar um novo início."
+      ]
+    },
+    {
+      "heading": "Fontes, Espaçamento e Preservação de Layout",
+      "paragraphs": [
+        "O editor mantém as fontes incorporadas do ficheiro e o espaçamento de caracteres quando altera a redação, pelo que uma frase corrigida continua a ser renderizada no tipo exato do original. Isto importa para documentos de marca, onde uma incompatibilidade de fonte seria imediatamente visível ao leitor.",
+        "O reenvolvimento de parágrafos permanece confinado ao texto que autoriza. Quando uma substituição mais curta ou mais longa altera o número de linhas, o design circundante absorve a diferença sem empurrar elementos não relacionados pela página. O resultado é uma revisão que parece intencional, não reconstruída.",
+        "Para documentos com alinhamento visual estrito, a pré-visualização ao vivo permite verificar que elementos ajustados ainda respeitam margens e limites antes de o ficheiro ser guardado. Pequenos ajustes de posição têm efeito imediato, o que mantem layouts arrumados após múltiplas rondas de edições."
+      ]
+    },
+    {
+      "heading": "Edição Privada Para Trabalho Não Publicado",
+      "paragraphs": [
+        "Preços não publicados, desenhos proprietários e planos não divulgados não devem viajar para um editor na nuvem. A edição local mantém-os confinados ao seu espaço de trabalho.",
+        "Sem marca de água, sem conta, sem retenção; idêntico no Windows, macOS, Linux e dispositivos móveis.",
+        "Edite com confiança, partilhe o resultado aprovado."
+      ]
+    },
+    {
+      "heading": "Edição Como Parte do Polimento Final",
+      "paragraphs": [
+        "A passagem final comum combina edições com [compress-pdf:compressão], [watermark-pdf:marca de água] e [protect-pdf:encriptação] antes de despachar.",
+        "Uma correção de uma página já não custa abrir uma suíte de escritório completa.",
+        "Edição gratuita no navegador fecha o gap entre «quase final» e «enviado»."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Posso alterar texto dentro de um PDF existente?",
+      "a": "Sim. O editor carrega o PDF e permite-lhe clicar no texto para modificar a redação, com renderização ao vivo e um novo PDF guardado a partir das suas edições."
+    },
+    {
+      "q": "A edição requer carregar o meu documento?",
+      "a": "Não. Toda a edição corre localmente no seu navegador — o ficheiro e cada alteração permanecem no seu dispositivo, sem conta nem marca de água envolvida."
+    },
+    {
+      "q": "Que tipos de edições são suportadas?",
+      "a": "O suporte foca-se em correções práticas: ajustes de texto, substituição de imagens e posicionamento de elementos, tudo com pré-visualização ao vivo e preservação de layout."
+    },
+    {
+      "q": "Corrigir texto danificará o resto do layout?",
+      "a": "Não. As edições aplicam-se ao conteúdo que altera enquanto o design circundante, fontes e espaçamento permanecem no lugar, e a pré-visualização ao vivo confirma o resultado antes de guardar."
+    }
+  ]
+}

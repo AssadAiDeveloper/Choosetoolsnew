@@ -1,0 +1,122 @@
+{
+  "slug": "sort-lines",
+  "title": "Sort Lines Online Free: Alphabetize and Reverse Lines in One Click",
+  "description": "Free online line sorter to alphabetize text lines, sort numerically, reverse order and remove case sensitivity in your browser. Private, instant, no sign-up.",
+  "keywords": ["sort lines", "sort lines alphabetically", "alphabetizer", "sort text online", "reverse line order", "sort list online", "line sorter tool"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Lists Crave Order, Humans Crave Order Fast",
+      "paragraphs": [
+        "Name lists, URL lists, inventory rows and citation stacks all beg for sorting. Doing it manually invites mistakes; a line sorter orders everything instantly.",
+        "Alphabetical, numerical and reverse sorts cover nearly every practical case.",
+        "ChooseTools sorts lines locally in your browser, with case handling options and immediate output.",
+        "Ordering a list removes cognitive overhead for anyone reading it, whether the audience is a human scanning a directory or a script processing line-delimited data."
+      ]
+    },
+    {
+      "heading": "How to Sort a List Alphabetically",
+      "paragraphs": [
+        "Order restored, instantly.",
+        "Paste your lines, choose alphabetical ascending or descending, and read the sorted result. Toggle case-sensitivity so Zebra and apple interleave correctly.",
+        "Numerical mode sorts numbers by value rather than dictionary order.",
+        "Alphabetical sorting is the most common operation for contact lists, vocabulary sheets, bibliography entries and any dataset where names carry the primary key."
+      ]
+    },
+    {
+      "heading": "Numerical Sorting: Values, Not Letters",
+      "paragraphs": [
+        "A plain sort in many tools puts 10 before 2 because strings compare lexically. Numerical mode compares by magnitude.",
+        "IDs, amounts and measurements order correctly the moment you switch modes.",
+        "This is the quiet bug that sorting preferences exist to prevent.",
+        "In spreadsheets and databases, the same issue appears when a column is typed as text; a browser-based numerical sorter catches it before the data reaches production."
+      ]
+    },
+    {
+      "heading": "Reverse and Deduplicate While You Are Here",
+      "paragraphs": [
+        "Reversing line order is an entire category of workflow: flipping chronological lists, preparing LIFO stacks, checking symmetry.",
+        "Combine reversing with a scan for duplicates, or run through deduplication as a follow-up.",
+        "Order and cleanliness arrive together.",
+        "Reversing is also useful for reversing exported logs so the most recent entry appears at the top, which speeds manual review."
+      ]
+    },
+    {
+      "heading": "Real-World Sorting Scenarios",
+      "paragraphs": [
+        "Developers sort environment variable lists before committing to version control so diffs stay clean.",
+        "Marketers alphabetize regional distribution lists for quick lookup during campaign planning.",
+        "Researchers sort observation timestamps numerically to verify chronological sequence before analysis.",
+        "In every case the core benefit is the same: converting a raw paste into an immediately usable, ordered artifact."
+      ]
+    },
+    {
+      "heading": "Handling Leading Whitespace and Empty Lines",
+      "paragraphs": [
+        "Pasted lists often carry stray spaces or blank lines that break downstream scripts; the sorter treats each line independently regardless of leading or trailing whitespace.",
+        "Empty lines can be preserved for visual separation or stripped to produce a continuous list, depending on the output you need.",
+        "Cleaning whitespace during sorting saves a separate preprocessing step and keeps the workflow to a single paste-and-sort action."
+      ]
+    },
+    {
+      "heading": "Sorting Multi-Column and CSV Data",
+      "paragraphs": [
+        "When each line contains comma-separated fields, sorting by the first column alphabetizes the primary key while keeping the rest of the row intact.",
+        "This is useful for reordering CSV exports where the database dumped records in insertion order but the spreadsheet needs alphabetical presentation.",
+        "Combining line sorting with a CSV formatter downstream produces a fully structured, presentation-ready dataset from a raw paste."
+      ]
+    },
+    {
+      "heading": "Sorting URLs and File Paths",
+      "paragraphs": [
+        "URL lists, include paths and dependency manifests are commonly sorted to normalize a project and make diff reviews cleaner.",
+        "Sorting URLs alphabetically groups subdomains and path segments together, which speeds manual inspection of a long link inventory.",
+        "The same technique organizes a list of file paths so related folders appear adjacent, reducing the time spent hunting for entries."
+      ]
+    },
+    {
+      "heading": "Private Processing of Client-Specific Lists",
+      "paragraphs": [
+        "Client lists, unreleased inventories and internal data sort locally and stay yours.",
+        "No upload, no account, no watermark — same on Windows, macOS, Linux and mobile.",
+        "Fast ordering without prying eyes.",
+        "Confidential rosters such as employee directories or participant lists never leave the device, which is essential for compliance with data-handling policies."
+      ]
+    },
+    {
+      "heading": "Sorting Within the Wider Toolkit",
+      "paragraphs": [
+        "Tidy the ordering, then format with case tools or diff before and after with the text-diff tool.",
+        "Everything is free and browser-native.",
+        "Lists in perfect order, list empties your plate.",
+        "After sorting, you can feed the result directly into a CSV formatter or a remove-duplicate-lines utility for further cleanup."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I sort numbers by their actual value?",
+      "a": "Yes. Switch to numerical mode and values like 2, 10, 100 order by magnitude rather than as text."
+    },
+    {
+      "q": "Does the sorter handle casing sensibly?",
+      "a": "Yes. A case option lets you decide whether sorted lines treat letter case equally."
+    },
+    {
+      "q": "Is the line sorter private?",
+      "a": "Yes. Sorting happens locally in your browser with no uploads or accounts."
+    },
+    {
+      "q": "Can I reverse the order of lines?",
+      "a": "Yes. A single toggle reverses the list into descending order, useful for flipping chronological exports or creating countdown sequences."
+    },
+    {
+      "q": "Will sorting preserve the original lines exactly?",
+      "a": "Yes. The sorter reorders entire lines as complete units, so the text of each line stays intact while its position changes."
+    },
+    {
+      "q": "Can I sort a list that contains both words and numbers?",
+      "a": "Yes. Choose the mode that matches the dominant content type, or use alphabetical mode when mixing words and numbers as plain text."
+    }
+  ]
+}

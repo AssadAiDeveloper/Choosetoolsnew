@@ -1,0 +1,115 @@
+{
+  "slug": "mt940-to-excel",
+  "title": "MT940 naar Excel: Converteer Bankafschrift MT940 naar XLSX Gratis Online",
+  "description": "Gratis MT940-naar-Excel-converter om MT940-bankafschriftbestanden te parsen tot gestructureerde, filterbare spreadsheets. Privé, in je browser, zonder uploads.",
+  "keywords": ["mt940 naar excel", "mt940 converter", "mt940 afschrift naar excel", "mt940 parsen", "bankafschrift naar xlsx", "mt940 naar csv", "mt940 bestand naar spreadsheet"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Bankafschriften Hebben Hun Eigen Taal",
+      "paragraphs": [
+        "MT940 is het internationale SWIFT-formaat dat banken voor rekeningafschriften gebruiken — rijen gecodeerde tags die precies maar onleesbaar zijn. [mt940-to-excel:MT940 naar Excel converteren] vertaalt die codes naar een spreadsheet die elke boekhouder kan lezen.",
+        "Elke transactie komt met datum, bedrag en referentie intact binnen, waarbij de exacte gegevens die de bank vastlegde behouden blijven.",
+        "ChooseTools parst MT940 lokaal in je browser zonder dat gegevens je apparaat verlaten."
+      ]
+    },
+    {
+      "heading": "Hoe MT940 naar Excel te Converteren",
+      "paragraphs": [
+        "Van gecodeerd bestand naar een vertrouwde tabel:",
+        "Plak de MT940-tekst of upload het bestand en converteer. Transactieblokken ontvouwen zich tot rijen met datums, bedragen, saldi en omschrijvingen in duidelijk benoemde kolommen.",
+        "De parsing draait op je apparaat — afschriften blijven tijdens het volledige conversieproces privé."
+      ]
+    },
+    {
+      "heading": "Gecodeerde Tags Worden Betekenisvolle Kolommen",
+      "paragraphs": [
+        "Tags zoals openingssaldo, eindsaldo en transactiedetails worden gekoppeld aan benoemde kolommen die financiële teams direct herkennen.",
+        "Debet- en creditposten scheiden duidelijk voor reconciliatie, waarbij elke rij de richting en het bedrag aangeeft.",
+        "Accountants krijgen rijen in plaats van een muur van codes, waardoor handmatige steekproeven eenvoudig en efficiënt worden."
+      ]
+    },
+    {
+      "heading": "De MT940-tagstructuur in Detail Begrijpen",
+      "paragraphs": [
+        "De :20-tag draagt het afschriftreferentienummer, een unieke identificatie die de bank aan dit specifieke afschrift toekent. Bij het reconciliëren van meerdere maanden helpt deze referentie je om elke spreadsheet terug te koppelen aan de oorspronkelijke afschriftperiode en het bronbestand.",
+        "Saldotags :60M en :62M omlijsten elk afschrift met openings- en eindsaldi. Elke saldoregel bevat een credit-of-debet-indicator, een datum in YYMMDD-formaat, een valutacode en het bedrag. Deze boeksteuncijfers laten reconciliatiesoftware verifiëren dat er tussen perioden geen transacties verloren zijn gegaan.",
+        "Transactieregels in :61 hebben een compacte structuur: datum, valuedatum, credit-of-debet-markering, bedrag, transactietype en referentiecodes. De :86-tag die elke :61 volgt, levert de menselijk leesbare omschrijving, waar doorgaans bankkosten, overboekingsreferenties en factuurnummers verschijnen."
+      ]
+    },
+    {
+      "heading": "Reconciliatie Zonder Het Routinematige Werk",
+      "paragraphs": [
+        "Spreadsheets maken filters, totalen en draaitabelweergaven mogelijk over elke datum- of bedragsreeks met vertrouwde Excel-functionaliteit.",
+        "Koppel bankregels snel en vol vertrouwen aan de interne administratie met VERT.ZOEKEN of voorwaardelijke opmaak.",
+        "Het afschrift houdt op een statisch bestand te zijn en wordt een werkzame tabel die analyse en rapportage ondersteunt."
+      ]
+    },
+    {
+      "heading": "Omgaan met Meerdere Afschriften en Rekeningtypen",
+      "paragraphs": [
+        "Eén MT940-bestand kan afschriften voor meerdere rekeningen of meerdere perioden voor één rekening bevatten. De converter scheidt elk afschriftblok, zodat je afzonderlijke werkbladen of duidelijk benoemde secties krijgt en gegevens van verschillende rekeningen niet in één dubbelzinnige tabel samenkomen.",
+        "Rekeningidentificaties in de :25-tag onderscheiden betaalrekeningen, spaarrekeningen en vreemde-valutarekeningsaldi. Deze labels in de spreadsheet houden betekent dat financiële teams op rekeningtype kunnen filteren zonder een gecombineerde lijst handmatig te sorteren.",
+        "Afschriftreferentierijen helpen de chronologische volgorde te bepalen wanneer meerdere bestanden over een boekjaar binnenkomen. Deze referenties in de spreadsheet behouden geeft accountants een betrouwbaar spoor van het vroegste tot het laatste afschrift, zonder giswerk."
+      ]
+    },
+    {
+      "heading": "Van Spreadsheet naar Boekhoudsoftware",
+      "paragraphs": [
+        "Zodra de MT940-gegevens in Excel staan, importeer je ze in boekhoudplatforms via hun CSV- of Excel-uploadfuncties. De meeste populaire tools accepteren tabelgegevens met standaard kolomheaders, zodat de geparsede spreadsheet direct in boekhoudworkflows past.",
+        "Draaitabellen vatten uitgaven binnen enkele seconden samen per categorie, periode of tegenpartij. Accountants krijgen direct inzicht in kasstroompatronen die uren zouden kosten om uit ruwe MT940-tekst samen te stellen.",
+        "Voorwaardelijke opmaak markeert ongebruikelijk grote transacties, dubbele posten of datums buiten de verwachte reeksen. Deze visuele vlaggen brengen afwijkingen vroeg aan het licht, voordat ze zich door maandafsluitprocessen verspreiden."
+      ]
+    },
+    {
+      "heading": "Lokaal Geparst, Fiscaal Veilig",
+      "paragraphs": [
+        "Bankgegevens behoren tot het meest gevoelige materiaal dat een bedrijf bezit, met rekeningnummers, saldi en transactiegeschiedenis.",
+        "Lokale conversie betekent dat afschriften nooit naar een derde partij reizen of via externe verwerkingsservers lopen.",
+        "Privacy door constructie, niet door belofte, met alle parsing in je browsersessie."
+      ]
+    },
+    {
+      "heading": "Minder Fouten, Formaten Behouden",
+      "paragraphs": [
+        "Automatische extractie verwijdert de typefouten die handmatige herinvoer over tientallen of honderden transactieregels introduceert.",
+        "Bedragen en kenmerken blijven tijdens de conversie exact, zonder afronding of afkapping van decimale waarden.",
+        "Financiële getrouwheid van bestand tot werkblad, klaar voor audit en compliance-controle."
+      ]
+    },
+    {
+      "heading": "MT940 binnen de Financiële Toolkit",
+      "paragraphs": [
+        "Keer om met [excel-to-mt940:Excel naar MT940], hergebruik rijen met [excel-to-csv:Excel naar CSV] en archiveer met [pdf-to-text:extraheerbare pdf's] voor een complete documentworkflow.",
+        "De suite is gratis en browsergebaseerd, zonder installatie of abonnement.",
+        "Gecodeerde afschriften, gedecodeerd tot duidelijkheid voor elk financieel team."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Wat is een MT940-bestand?",
+      "a": "Het is een SWIFT-standaardtekstformaat dat banken gebruiken om rekeningafschriften met gestructureerde transactietags te leveren."
+    },
+    {
+      "q": "Wat verschijnt er in de gegenereerde spreadsheet?",
+      "a": "Elke transactie wordt een rij met velden voor datum, bedrag, debet- of creditindicatie, saldo en omschrijving."
+    },
+    {
+      "q": "Is de parsing privé?",
+      "a": "Ja. Alles draait lokaal in je browser zonder uploads of accounts."
+    },
+    {
+      "q": "Kan ik afschriften voor meerdere rekeningen in één bestand verwerken?",
+      "a": "Ja. De converter scheidt elke rekening en afschriftperiode in afzonderlijke secties, zodat gegevens niet over rekeningen heen samensmelten."
+    },
+    {
+      "q": "Hoe gebruik ik de geparsede gegevens in boekhoudsoftware?",
+      "a": "Exporteer de spreadsheet als CSV en upload hem naar je boekhoudplatform, of plak gegevens direct in bestaande sjablonen en draaitabellen."
+    },
+    {
+      "q": "Kan de parser grote MT940-bestanden met duizenden transacties aan?",
+      "a": "Ja. De converter verwerkt bestanden van elke grootte volledig in je browser, zonder serverlimieten op het aantal transacties."
+    }
+  ]
+}

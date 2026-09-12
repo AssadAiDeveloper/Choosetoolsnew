@@ -1,0 +1,107 @@
+{
+  "slug": "find-replace",
+  "title": "Rechercher et remplacer du texte en ligne gratuitement : échangez des mots instantanément",
+  "description": "Outil gratuit de recherche et remplacement en ligne pour échanger des mots, des phrases et des caractères dans votre texte en quelques secondes. Options sensibles à la casse et support des expressions régulières. Privé, dans votre navigateur.",
+  "keywords": ["rechercher et remplacer", "rechercher remplacer texte en ligne", "remplacer un mot dans un texte", "rechercher et remplacer", "remplacement de texte en masse", "remplacement regex", "outil de recherche et remplacement"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Les éditeurs rêvent de renommages en masse en un clic",
+      "paragraphs": [
+        "Mettre à jour un nom de produit dans un manuel, corriger le nom mal orthographié d'un auteur dans tout un manuscrit, ou échanger une unité partout dans un jeu de données — [find-replace:rechercher et remplacer] est la corvée exacte que les utilisateurs redoutent de faire à la main.",
+        "Un outil fiable gère des échanges sur des documents entiers en quelques secondes, avec des options qui empêchent les mauvaises correspondances.",
+        "ChooseTools effectue la recherche et le remplacement localement dans votre navigateur, avec des contrôles de casse et d'expressions régulières.",
+        "L'édition manuelle invite à l'erreur humaine : vous sautez une occurrence, modifiez la mauvaise instance ou introduisez une incohérence dont la recherche prend plus de temps que n'aurait pris la tâche d'origine."
+      ]
+    },
+    {
+      "heading": "Comment remplacer du texte instantanément",
+      "paragraphs": [
+        "Une seule passe, toutes les occurrences :",
+        "Collez votre texte, saisissez le terme recherché, saisissez le remplacement et cliquez sur tout remplacer. Chaque correspondance se met à jour simultanément.",
+        "Activez ou désactivez facultativement la sensibilité à la casse, ou activez les expressions régulières pour la correspondance de motifs ; les aperçus montrent le résultat avant de copier.",
+        "L'étape d'aperçu est cruciale : elle vous permet de vérifier le nombre de remplacements et d'inspecter les correspondances individuelles avant de vous engager, afin de détecter les modifications non voulues à temps."
+      ]
+    },
+    {
+      "heading": "Correspondances sensibles à la casse ou souples",
+      "paragraphs": [
+        "Remplacer apple ne devrait pas toucher Apple ou Apples sauf si vous le souhaitez.",
+        "L'interrupteur de casse fait la différence entre un échange chirurgical et un échange balayant ; choisissez délibérément.",
+        "La correspondance de mot entier protège les correspondances partielles comme pineapple des modifications non voulues.",
+        "Dans l'écriture technique, où les sigles et les noms propres apparaissent aux côtés des mots courants, la sensibilité à la casse empêche les erreurs embarrassantes dans les documents publiés."
+      ]
+    },
+    {
+      "heading": "Expressions régulières : les utilisateurs avancés remplacent des motifs, pas seulement des mots",
+      "paragraphs": [
+        "Adresses e-mail, formats de téléphone, espaces répétés — des motifs, pas des chaînes exactes.",
+        "Activer les expressions régulières débloque un remplacement à base de jetons pour un nettoyage structuré.",
+        "Un motif soigneusement construit économise des centaines de modifications manuelles.",
+        "Un exemple courant est la normalisation des numéros de téléphone : un motif regex qui correspond à divers groupements de chiffres et séparateurs peut les unifier tous en un seul format avec un remplacement, quelque chose qui nécessiterait autrement des dizaines de passes de recherche et remplacement individuelles."
+      ]
+    },
+    {
+      "heading": "Scénarios de remplacement concrets",
+      "paragraphs": [
+        "Les équipes de documentation technique renomment les points de terminaison d'API sur des centaines de pages, en mettant à jour à la fois la prose et les exemples de code intégrés. Une seule passe regex remplace l'ancien segment de chemin partout tout en préservant le contexte environnant.",
+        "Les projets de localisation échangent les symboles monétaires, les unités de mesure et les formats de date dans les chaînes traduites. Le remplacement doit respecter le texte environnant sans corrompre les caractères spéciaux ou les balises de balisage intégrées au contenu.",
+        "Les départements juridiques et de conformité masquent ou substituent des noms confidentiels dans les contrats et les politiques avant distribution. La cohérence compte : chaque occurrence doit changer ou aucune ne doit, et les remplacements partiels créent une responsabilité.",
+        "Les gestionnaires de contenu qui mettent à jour un nom de marque dans une archive de blog doivent distinguer la marque utilisée comme nom propre de la même chaîne apparaissant dans des URL ou des extraits de code qui doivent rester intacts."
+      ]
+    },
+    {
+      "heading": "Préserver le contexte pendant l'échange",
+      "paragraphs": [
+        "Le remplacement ne consiste pas seulement à faire correspondre du texte ; il s'agit de préserver le contexte environnant intact. L'outil préserve l'indentation, les sauts de ligne et la ponctuation adjacente afin que remplacer un mot dans un bloc de code ou un paragraphe formaté ne casse pas la disposition.",
+        "Lorsque vous travaillez avec des données structurées comme CSV ou JSON, le mode mot entier empêche les correspondances partielles de corrompre les limites de champs ou les noms de clés.",
+        "Ces protections signifient que vous pouvez remplacer en toute confiance dans des documents à contenu mixte sans inspecter chaque ligne ensuite.",
+        "Le mode aperçu met en évidence chaque correspondance dans son contexte, vous donnant la dernière occasion d'ajuster le motif avant d'exécuter l'échange."
+      ]
+    },
+    {
+      "heading": "Annulation et aperçu pour une itération sûre",
+      "paragraphs": [
+        "Le mode aperçu met en évidence chaque correspondance avec le contexte environnant avant qu'aucun remplacement ne s'exécute, vous permettant de vérifier que le motif capture exactement ce que vous voulez et rien d'autre.",
+        "Si le nombre de remplacements semble trop élevé ou trop faible, vous pouvez ajuster le terme recherché, basculer la sensibilité à la casse ou affiner une regex avant de vous engager. Ce filet de sécurité itératif empêche les erreurs coûteuses.",
+        "La capacité de revenir en arrière et de réappliquer instantanément signifie que vous pouvez expérimenter différentes stratégies de remplacement sur le même texte sans dupliquer la source manuellement.",
+        "Ces contrôles rendent l'outil adapté à la fois aux corrections ponctuelles et aux flux de travail par lots récurrents, réduisant le risque de regret à chaque passe."
+      ]
+    },
+    {
+      "heading": "Privé pour le contenu sensible et non publié",
+      "paragraphs": [
+        "Les manuscrits, les rapports clients et les noms internes reçoivent leurs échanges localement, jamais dans un cloud tiers.",
+        "Aucun envoi, aucun compte, aucun filigrane — sur toutes les plateformes.",
+        "L'intimité de l'édition reste locale.",
+        "Les brouillons confidentiels, les noms de produits avant lancement et les noms de code de projets internes restent sur votre appareil pendant tout le processus de remplacement."
+      ]
+    },
+    {
+      "heading": "Le remplacement aux côtés de la boîte à outils textuelle",
+      "paragraphs": [
+        "Combinez les échanges avec [word-counter:les métriques], [case-converter:la mise en forme de casse] ou [remove-duplicate-lines:la déduplication de lignes] pour un nettoyage complet.",
+        "La suite est gratuite et native au navigateur.",
+        "Renommez une fois, partout, correctement."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puis-je remplacer plusieurs termes différents à la fois ?",
+      "a": "L'outil échange un terme par passe, mais vous pouvez itérer instantanément et à répétition ; avec les expressions régulières, vous pouvez aussi définir des motifs plus larges."
+    },
+    {
+      "q": "Le remplacement insensible à la casse fonctionne-t-il ?",
+      "a": "Oui. Basculez la sensibilité à la casse pour contrôler si les correspondances qui ne diffèrent que par la casse comptent."
+    },
+    {
+      "q": "La recherche et le remplacement sont-ils privés ?",
+      "a": "Oui. Toutes les opérations se déroulent localement dans votre navigateur, sans envois ni comptes."
+    },
+    {
+      "q": "Puis-je utiliser des expressions régulières ?",
+      "a": "Oui. Activer le mode regex permet une correspondance à base de motifs pour des remplacements complexes comme les numéros de téléphone, les adresses e-mail ou les données structurées."
+    }
+  ]
+}

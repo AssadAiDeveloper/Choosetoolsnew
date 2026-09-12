@@ -1,0 +1,106 @@
+{
+  "slug": "remove-exif",
+  "title": "Fotoğraflardan EXIF Verilerini Çevrimiçi Ücretsiz Kaldırma: Konum ve Meta Verileri Temizleme",
+  "description": "ChooseTools ile EXIF verilerini çevrimiçi ücretsiz kaldırın. GPS konumunu, kamera modelini ve kişisel meta verileri fotoğraflardan doğrudan tarayıcınızda temizleyin. Özel, ücretsiz ve filigran yok.",
+  "keywords": ["exif kaldırma", "exif verilerini çevrimiçi ücretsiz kaldırma", "fotoğraftan gps kaldırma", "fotoğraf meta verilerini silme", "fotoğraftan konum kaldırma", "exif temizleyici", "fotoğraf meta verilerini temizleme"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Fotoğraflarınız Gösterdiğinden Fazlasını Anlatır",
+      "paragraphs": [
+        "Her kamera etiketler: GPS koordinatları, cihaz modeli, zaman damgası ve yazılım. Fotoğrafları körü körüne paylaşmak bu bağlamı da paylaşır. [remove-exif:EXIF verilerini kaldırmak] sizin ve karedeki herkesin gizliliğini korur.",
+        "Gazeteciler, ev sahipleri, satıcılar ve ebeveynler; hepsinin gömülü konum olmadan fotoğraf yayınlamak için nedenleri vardır.",
+        "ChooseTools, EXIF'i tarayıcınızda yerel olarak kaldırır; görsel içerik dokunulmadan temiz görseller dışa aktarır."
+      ]
+    },
+    {
+      "heading": "Bir Fotoğraftan EXIF Nasıl Kaldırılır",
+      "paragraphs": [
+        "Herhangi bir resim için bir gizlilik geçişi.",
+        "Fotoğrafı yükleyin; araç hangi meta verilerin gömülü olduğunu okur ve gösterir, ardından istek üzerine GPS, kamera ve düzenleme etiketlerini kaldırır. Görselleri bozulmamış hâliyle temizlenmiş görüntüyü indirin.",
+        "Yerel işleme, meta veri analizinin kendisinin cihazınızda kalması anlamına gelir.",
+        "Hangi etiketleri kaldıracağınız konusunda tam kontrol sizdedir; böylece görsel için önemli olan ayrıntıları koruyarak konumu temizleyebilirsiniz."
+      ]
+    },
+    {
+      "heading": "GPS Sorunu: Konum Tek Bakışta Sızar",
+      "paragraphs": [
+        "Tek bir aile fotoğrafı evinizin tam koordinatlarını taşır. Bu belirli etiketi kaldırmak bazı paylaşımlar için tartışılmazdır.",
+        "Araç konum verilerini tanımlar ve herhangi bir şeyi dağıtmadan önce onu kaldırır.",
+        "Yayınlamak, satmak, raporlamak; artık konum etiketinden güvende.",
+        "Koordinatlar olmasa bile diğer meta veriler genel bir alanı işaret edebilir; bu nedenle kapsamlı bir temizlik, yalnızca bariz koordinat çiftini değil konumla ilgili tüm alanları kaldırır."
+      ]
+    },
+    {
+      "heading": "Konumun Ötesinde: Kamera ve Yazılım İzleri",
+      "paragraphs": [
+        "Cihaz modeli ve düzenleme yazılımı ekipmanınızı ve iş akışınızı açığa çıkarır; zaman damgaları kişisel programları ortaya çıkarır.",
+        "Bu etiketleri kaldırmak, dosyayı açık kaynak araçların yapacağı kadar kapsamlı biçimde anonimleştirir.",
+        "Kimlik ve rutin, yalnızca konum değil, özel kalır.",
+        "Gazeteciler ve aktivistler için kamera markasını veya düzenleme geçmişini açığa çıkarmak bir kaynağı ifşa edebilir; bu da tam meta veri kaldırmayı zorunlu kılar."
+      ]
+    },
+    {
+      "heading": "EXIF Verisi Neler İçerir",
+      "paragraphs": [
+        "EXIF, kameralar ve telefonlar tarafından görüntü dosyalarına gömülen, piksel verilerinin yanında teknik ve bağlamsal bilgileri kaydeden standartlaştırılmış bir meta veri formatıdır.",
+        "Yaygın alanlar arasında kamera üreticisi ve modeli, lens bilgisi, pozlama ayarları, ISO ve odak uzaklığı ile çekimin yapıldığı zamanı işaretleyen bir zaman damgası bulunur.",
+        "Birçok cihazda, kameranın baktığı irtifa ve bazen pusula yönüyle birlikte GPS koordinatları da saklanır.",
+        "Yeniden boyutlandırılmış veya düzenlenmiş dışa aktarımlar bile bu verinin şaşırtıcı bir miktarını tutabilir; bu nedenle ayrı bir kaldırma adımı paylaşım rutininizin bir parçasını hak eder."
+      ]
+    },
+    {
+      "heading": "Tam Anonimlik için Diğer Meta Verileri Kaldırma",
+      "paragraphs": [
+        "EXIF'in yanında dosyalar; adları, telif dizgilerini ve düzenleme geçmişlerini tutan IPTC başlıkları, XMP yan verileri ve üretici uzantıları taşıyabilir.",
+        "Kapsamlı bir temizlik, yalnızca standart EXIF alanlarını değil bu yardımcı meta veri bloklarını da kaldırır; böylece tesadüfi hiçbir şey sızmaz.",
+        "Bazı platformlar ve mesajlaşma uygulamaları fotoğrafları yeniden sıkıştırır ve kendi etiketlerini ekleyebilir; kritik paylaşımlardan önce son bir temizlik yapmak en güvenli alışkanlıktır.",
+        "Meta veri zarfının tamamını temizleyen bir araçla işlemek, dışa aktarılan dosyanın temiz olduğundan emin olmanın tek güvenilir yoludur."
+      ]
+    },
+    {
+      "heading": "EXIF Kaldırmayı Gerektiren Gündelik Durumlar",
+      "paragraphs": [
+        "Evinizin veya eşyalarınızın satış ilanı fotoğrafları, mülkünüzün tam konumunu açığa çıkarabilir; alıcıların ve yabancıların bunu otomatik olarak öğrenmemesi gerekir.",
+        "Ebeveynler, çocuklarının fotoğraflarını sosyal medyada paylaşırken genellikle konumu kaldırmayı tercih eder; böylece okul bahçeleri, evler ve rutinler geniş bir kitleye yayınlanmaz.",
+        "Emlakçılar, avukatlar ve teslimat hizmetleri gibi profesyoneller, müşteriye özel konum verisi içerebilen fotoğraflar gönderir; bunların iletmeden önce temizlenmesi gerekir.",
+        "Hassas bölgelerde çalışan gazeteciler ve saha çalışanları meta veri kaldırmayı standart uygulama olarak görür; çünkü tek bir koordinat kendilerini veya kaynaklarını tehlikeye atabilir."
+      ]
+    },
+    {
+      "heading": "Garantili Özel Temizlik",
+      "paragraphs": [
+        "Meta veri kaldırma, tam olarak gizlemek istediğiniz veriyi okur; bu nedenle yerel olarak yapmak tek güvenli yoldur.",
+        "Yükleme yok, filigran yok, hesap yok ve temizliğin yapıldığına dair hiçbir iz yok.",
+        "Her işletim sisteminde ve telefonda çalışır.",
+        "Hassas dosyayı kaydedebilecek veya bir kopyasını saklayabilecek bir sunucuya asla göndermezsiniz; tüm işlemi tamamen kendi içinde tutarsınız."
+      ]
+    },
+    {
+      "heading": "Paylaşım Çağı için Temiz Fotoğraflar",
+      "paragraphs": [
+        "Bir satış ilanından bir haber odası gönderimine kadar her kamuya açık paylaşımdan önce aracı kullanın ve platform boyutları için [resize-image:yeniden boyutlandırma] ile eşleştirin.",
+        "Fotoğraflarınız, gizli bağlamın her baytı eksik olarak tam olarak aynı güzellikte kalır.",
+        "Niyet ettiğiniz tam mesajla, fazlası değil, parlak paylaşın, korumalı kalın."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hangi EXIF verileri kaldırılabilir?",
+      "a": "GPS koordinatları, kamera ve lens modeli, zaman damgaları ve yazılım etiketleri kaldırılabilir; fotoğrafın görsel içeriği dokunulmadan kalır."
+    },
+    {
+      "q": "Paylaşmadan önce neden EXIF kaldırmalıyım?",
+      "a": "Konumlar ve cihaz ayrıntıları, çoğu insanın asla açıklamak istemediği bir gizlilik gömer; kaldırmak kişisel ve profesyonel itibarları korur."
+    },
+    {
+      "q": "EXIF kaldırıcı özel midir?",
+      "a": "Evet. Tüm işleme, yükleme, filigran veya hesap olmadan tarayıcınızda yerel olarak çalışır."
+    },
+    {
+      "q": "EXIF kaldırmak görüntü kalitesini düşürür mü?",
+      "a": "Hayır. Yalnızca meta veriler kaldırılır; fotoğrafın görsel pikselleri ve ayrıntısı tamamen değişmeden kalır."
+    }
+  ]
+}

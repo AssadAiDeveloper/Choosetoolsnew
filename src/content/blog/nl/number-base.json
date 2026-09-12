@@ -1,0 +1,115 @@
+{
+  "slug": "number-base",
+  "title": "Getalstelselconverter: omzetten tussen binair, hex, octaal en decimaal, gratis online",
+  "description": "Gratis getalstelselconverter om getallen direct om te zetten tussen binair, octaal, decimaal en hexadecimaal. Privé, in uw browser, zonder uploaden.",
+  "keywords": ["getalstelselconverter", "binair naar hex", "hex naar decimaal", "tallestelsel converter online", "decimaal naar binair", "octale converter", "getalstelsel rekenmachine"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Hetzelfde getal, verschillende alfabetten",
+      "paragraphs": [
+        "Computers werken met binair, mensen geven de voorkeur aan decimaal en geheugenkaarten zijn dol op hexadecimaal — toch beschrijven ze allemaal dezelfde hoeveelheid. [number-base:omzetten tussen tallenstelsels] vertaalt tussen die weergaven zonder ook maar één cijfer te verliezen.",
+        "Elk grondtal is gewoon een andere manier om cijfers te groeperen in machten van een getal. Binair groepeert per twee, octaal per acht, decimaal per tien en hexadecimaal per zestien. Inzicht in dit ene principe ontsluit elke conversie die u ooit nodig zult hebben.",
+        "ChooseTools zet getallen tussen grondtallen om lokaal in uw browser."
+      ]
+    },
+    {
+      "heading": "Zo zet u tussen tallenstelsels om",
+      "paragraphs": [
+        "Directe omzetting tussen getalsystemen:",
+        "Voer een getal in, kies het huidige grondtal (binair, octaal, decimaal of hexadecimaal) en het doelgrondtal; de geconverteerde waarde verschijnt onmiddellijk.",
+        "Decimaal 255 wordt bijvoorbeeld FF in hex en 11111111 in binair. De converter verwerkt de berekening in milliseconden en maakt daarmee het handmatige staartdelingproces overbodig dat studenten uren verveling oplevert.",
+        "De conversie is lokaal en synchroon."
+      ]
+    },
+    {
+      "heading": "Binair, octaal, decimaal, hex",
+      "paragraphs": [
+        "Base-2-bits vormen de taal van de machine; base-8 comprimeert trio's bits; base-10 is alledaags; base-16 groepeert tot nette geheugenadressen.",
+        "Hexadecimaal is vooral nuttig voor het weergeven van bytes: elk paar hexcijfers komt overeen met één byte, waardoor geheugendumps en kleurcodes veel gemakkelijker te lezen zijn dan reeksen van enen en nullen.",
+        "Het wisselen van weergave verduidelijkt maskers, kleuren en registers.",
+        "Vaardigheid in de vier dekt het meeste technische werk."
+      ]
+    },
+    {
+      "heading": "Waar het omzetten van grondtallen dagelijks opduikt",
+      "paragraphs": [
+        "Ontwikkelaars komen constant omzettingen tussen grondtallen tegen, zelfs als ze het niet beseffen. Netwerkengineers lezen subnetmaskers in dotted-decimalnotatie die corresponderen met aaneengesloten binaire enen, terwijl databasebeheerders te maken hebben met hexadecimale identificaties voor UUID's en hashes.",
+        "Webontwikkelaars zetten hex-kleurwaarden zoals 2A4B8C om naar RGB-componenten en terug. Embedded-systeemprogrammeurs schakelen individuele bits in statusregisters waarvan de documentatie octale notatie gebruikt.",
+        "Creatieve professionals gebruiken hex-codes voor merkkleurenpaletten. Het punt is universeel: vloeiendheid met grondtallen is geen nichevaardigheid, maar een basiscompetentie in vrijwel elke technische discipline.",
+        "Een snelle converter elimineert de rekenkundige overhead, waardoor professionals zich op betekenis kunnen richten in plaats van op rekenwerk."
+      ]
+    },
+    {
+      "heading": "Waarden debuggen tussen systemen",
+      "paragraphs": [
+        "Logs tonen hex, rekenmachines geven decimaal terug, hardware wil binair.",
+        "Snelle omzetting lost tegenstrijdigheden in adressen, maskers en kleurcodes op.",
+        "Een ontwikkelaar die een netwerkpakketopname debugt, moet bijvoorbeeld een hexadecimaal IP-subnetmasker omzetten naar de decimale of binaire representatie om routeringsregels te controleren. Dat mentaal doen voor een 32-bits adres is foutgevoelig en traag.",
+        "Minder rekenfouten uit het hoofd, zelfverzekerdere oplossingen."
+      ]
+    },
+    {
+      "heading": "Negatieve getallen en breuken verwerken",
+      "paragraphs": [
+        "Het omzetten van grondtallen is niet beperkt tot positieve gehele getallen. Negatieve getallen gebruiken de tweecomplementrepresentatie in binair, en de converter verwerkt ondertekende waarden, zodat u kunt zien hoe een negatief decimaal geheel getal er in hex of binair uitziet.",
+        "Breukwaarden zoals 0.625 in decimaal converteren netjes naar binair als 0.101, waardoor het exacte fractionele deel zichtbaar wordt dat zonder afronding kan worden weergegeven.",
+        "Begrijpen waar breuken in het ene grondtal eindigen maar in het andere repeterend worden, verklaart waarom floating-point-rekenkunde in programma's soms onverwachte resultaten oplevert.",
+        "Deze randgevallen zijn belangrijk in systeemprogrammering, cryptografische berekeningen en elk domein waar precisie over grondtallen cruciaal is."
+      ]
+    },
+    {
+      "heading": "Onderwijs en studie worden zichtbaar",
+      "paragraphs": [
+        "Studenten informatica en elektronica zien precies hoe groepering de representatie verandert.",
+        "Stapsgewijs begrip vervangt uit het hoofd geleerde tabellen.",
+        "Zien dat decimaal 42 als 2A in hex en 00101010 in binair verschijnt, bouwt intuïtie over positionele notatie veel effectiever op dan stampwerk.",
+        "De formatsprong houdt op raadselachtig te zijn."
+      ]
+    },
+    {
+      "heading": "Een werkend voorbeeld: IP-adressen en kleurparen",
+      "paragraphs": [
+        "Een IPv4-adres zoals 192.168.1.1 is eigenlijk vier bytes, geschreven in decimaal, en het omzetten van elke byte naar hex onthult de compacte notatie die veel routers gebruiken: C0.A8.01.01.",
+        "Hetzelfde koppel verschijnt in webkleuren, waar een hex-triplet zoals FF7F50 uiteenvalt in drie bytes die decimaal 255, 127 en 80 betekenen. Tools voor het omzetten verbinden deze werelden direct.",
+        "Oefenen met vertrouwde voorbeelden als deze maakt de abstracte relatie tussen grondtallen concreet en gedenkwaardig.",
+        "Zodra u de byte achter het hexcijfer ziet, beginnen elke dump, elk palet en elk register logisch te worden."
+      ]
+    },
+    {
+      "heading": "Privé rekenwerk met getallen",
+      "paragraphs": [
+        "Configuratie- en offsetwaarden worden op het apparaat omgezet.",
+        "Geen upload, geen account, geen watermerk — op alle platforms.",
+        "Of u nu een offset uit een firmwaredocument vertaalt of een controlesom controleert, de getallen blijven op uw machine.",
+        "Technische wiskunde, stilletjes gedaan."
+      ]
+    },
+    {
+      "heading": "Grondtalwerk in de ontwikkelaarstoolkit",
+      "paragraphs": [
+        "Combineer met [binary-text:binaire tekst], [hex-to-…:kleurtools] en [ascii-tools] voor complete low-levelverwerking.",
+        "De suite is gratis en werkt native in de browser.",
+        "Elk grondtal, feilloos omgezet."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welke grondtallen worden ondersteund?",
+      "a": "Binair (grondtal 2), octaal (grondtal 8), decimaal (grondtal 10) en hexadecimaal (grondtal 16) worden in elke combinatie omgezet."
+    },
+    {
+      "q": "Behoudt de conversie de exacte waarde?",
+      "a": "Ja. Alleen de representatie verandert; het onderliggende getal blijft identiek over grondtallen."
+    },
+    {
+      "q": "Is de converter privé?",
+      "a": "Ja. Alles draait lokaal in uw browser zonder uploads of accounts."
+    },
+    {
+      "q": "Kan de tool negatieve getallen verwerken?",
+      "a": "Ja. Negatieve waarden worden ondersteund, inclusief de tweecomplementrepresentaties die gangbaar zijn in binaire en hexadecimale formaten."
+    }
+  ]
+}

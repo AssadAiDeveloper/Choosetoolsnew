@@ -1,0 +1,132 @@
+{
+  "slug": "file-xray",
+  "title": "Bestands-x-ray: online gratis bestandsdetails en metagegevens inspecteren",
+  "description": "Gratis bestands-x-raytool om bestanden te inspecteren, metagegevens te onthullen en inhoud lokaal in uw browser te verifiëren. Privé, zonder uploaden, zonder aanmelden.",
+  "keywords": ["bestands-x-ray", "bestand inspecteren", "bestandsmetadata viewer", "bestandsdetails online", "bestandsinspectietool", "bestandstype controleren", "bestandsinfo bekijken"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Bestanden dragen meer dan hun inhoud",
+      "paragraphs": [
+        "Grootte, type, wijzigingsdata en verborgen metagegevens beschrijven een bestand allemaal naast de zichtbare data. [file-xray:bestanden inspecteren met een x-raytool] brengt die details naar boven vóór u iets opent of verstuurt.",
+        "Het echte type van een bestand kennen voorkomt verrassende fouten.",
+        "ChooseTools inspecteert bestanden lokaal in uw browser."
+      ]
+    },
+    {
+      "heading": "Zo inspecteert u een bestand",
+      "paragraphs": [
+        "Van dubbelklik-onzekerheid naar een volledig beeld:",
+        "Selecteer een bestand en bekijk de grootte, het gedetecteerde type, formaathints en metagegevens. Bevestig vóór distributie dat de extensie met de werkelijkheid overeenkomt.",
+        "Inspectie is volledig lokaal — niets verlaat uw apparaat."
+      ]
+    },
+    {
+      "heading": "Typedetectie voorbij de extensie",
+      "paragraphs": [
+        "Extensies liegen, magische bytes niet.",
+        "De tool onderzoekt handtekeningen om het echte formaat te rapporteren, ongeacht hernoeming.",
+        "Hernoemde bijlagen glippen niet langer door."
+      ]
+    },
+    {
+      "heading": "Metagegevens en privacy in de praktijk",
+      "paragraphs": [
+        "Foto's dragen locatie- en apparaattags; documenten dragen auteurnamen en tijdstempels.",
+        "Het zien van metagegevens brengt aan het licht wat een bestand onthulde bij het delen.",
+        "Geïnformeerd delen verslaat gegokte blootstelling."
+      ]
+    },
+    {
+      "heading": "Vóór u iets verstuurt",
+      "paragraphs": [
+        "Controleer in één oogopslag de grootte voor maillimieten, het type voor systemen en de metagegevens voor blootstelling.",
+        "Preflightcontroles voorkomen gênante of blokkerende problemen.",
+        "Vertrouwen reist met elke bijlage mee."
+      ]
+    },
+    {
+      "heading": "Privé-inspectie van gevoelige bestanden",
+      "paragraphs": [
+        "Een bestand lokaal onderzoeken betekent dat de metagegevens nooit een opzoekrecord worden.",
+        "Geen upload, geen account, geen watermerk — op alle platforms.",
+        "Inspectie zonder onderschepping."
+      ]
+    },
+    {
+      "heading": "Bestandswerk in de suite",
+      "paragraphs": [
+        "Combineer met [remove-exif:metagegevens verwijderen], [pdf-metadata:documentgegevens] en [convert-image:formaatconversie] voor volledige controle.",
+        "Alles is gratis en werkt native in de browser.",
+        "Ken uw bestanden voordat ze ergens heen gaan."
+      ]
+    },
+    {
+      "heading": "Veelvoorkomende bestandsformaten die de tool herkent",
+      "paragraphs": [
+        "De inspectie-engine dekt een breed scala aan alledaagse formaten: afbeeldingen zoals JPEG, PNG, WebP en GIF; documenten waaronder PDF en platte tekst; archieftypen zoals ZIP en GZIP; audiobestanden in MP3 en WAV; en videocontainers in MP4 en MOV.",
+        "Voor elk herkend formaat rapporteert de tool de versie, de interne structuur en alle ingebedde streamdetails die van belang zijn voor downstreamverwerking.",
+        "Zelfs wanneer de extensie ontbreekt of fout is, identificeert de op handtekeningen gebaseerde detectie nog steeds het echte formaat, zodat u altijd weet waar u mee te maken hebt.",
+        "Niet-herkende bestanden rapporteren nog steeds de ruwe grootte, headerbytes en eventuele detecteerbare brokken, wat ontwikkelaars nuttige aanwijzingen geeft voor verder onderzoek."
+      ]
+    },
+    {
+      "heading": "EXIF, XMP en documenteigenschappen lezen",
+      "paragraphs": [
+        "Afbeeldingsbestanden bevatten vaak EXIF- en XMP-blokken die cameramodel, belichtingsinstellingen, GPS-coördinaten, datum-tijdstempels en de softwareversie die tijdens het maken is gebruikt, vastleggen.",
+        "PDF- en kantoordocumenten stellen auteur, titel, onderwerp, aanmaakdatum en wijzigingsgeschiedenis bloot in hun metagegevenswoordenboeken.",
+        "De bestands-x-ray toont alle beschikbare velden in één weergave, zodat u kunt beslissen of een deel van die informatie vóór publicatie moet worden verwijderd.",
+        "Voor teams die grote hoeveelheden inkomende bestanden verwerken, bespaart een snelle metagegevensvoorvertoning tijd die anders zou worden besteed aan het openen van elk bestand in een speciale editor."
+      ]
+    },
+    {
+      "heading": "Praktische toepassingen van bestandsinspectie",
+      "paragraphs": [
+        "Journalisten die anonieme bijlagen ontvangen, verifiëren de oorsprong van bestanden en verwijderen identificerende metagegevens vóór publicatie.",
+        "IT-ondersteuningsteams bevestigen of een uitvoerbaar bestand echt een binair bestand is of een hernoemd script, waardoor het risico vóór het uitvoeren van diagnostiek afneemt.",
+        "Ontwikkelaars die uploadpipelines bouwen, gebruiken de inspector om inkomende bestandstypen te valideren tegen verwachte MIME-categorieën.",
+        "Ontwerpers bevestigen kleurprofielen, resolutie en kleurdiepte vóór ze assets aan drukkers of webteams overhandigen."
+      ]
+    },
+    {
+      "heading": "Bestandsgrootte in relatie tot e-mail- en cloudlimieten",
+      "paragraphs": [
+        "De meeste e-mailproviders beperken bijlagen tot vijfentwintig megabyte, en clouddeelkoppelingen kunnen hun eigen drempels op individuele bestanden opleggen.",
+        "Een snelle groottecontrole voorkomt teruggestuurde berichten en mislukte uploads, vooral wanneer een foto of scan groter is dan verwacht.",
+        "Wanneer een bestand de limiet overschrijdt, geeft de inspector u het getal dat u nodig hebt om te beslissen of u moet comprimeren, splitsen of een andere bezorgmethode moet gebruiken.",
+        "Het kennen van exacte byteaantallen helpt ook bij het budgetteren van opslag over back-upstations en cloudlagen."
+      ]
+    },
+    {
+      "heading": "Randgevallen: beschadigde, afgekapte en gedeeltelijke bestanden",
+      "paragraphs": [
+        "Bestanden die tijdens het downloaden zijn onderbroken of van falende media zijn gekopieerd, kunnen onvolledige headers of ontbrekende footers bevatten.",
+        "De inspector rapporteert wanneer handtekeningen niet bij de verwachte patronen passen en markeert waarschijnlijke corruptie vóór u probeert het bestand in een andere applicatie te openen.",
+        "Gedeeltelijke bestanden van onvolledige uploads kunnen snel worden geïdentificeerd, waardoor u geen downstream-applicatiefouten hoeft te diagnosticeren die in feite alleen dataproblemen zijn.",
+        "Voor ontwikkelaars zijn deze waarschuwingen een snelle feedbacklus bij het testen van downloadhervatters, synctools of back-upscripts."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan de tool het echte bestandstype detecteren?",
+      "a": "Ja. Typedetectie leest de interne handtekeningen van het bestand in plaats van de extensie te vertrouwen."
+    },
+    {
+      "q": "Welke metagegevens worden onthuld?",
+      "a": "Grootte, gedetecteerd formaat en veelvoorkomende ingebedde metagegevensvelden verschijnen, afhankelijk van het bestandstype."
+    },
+    {
+      "q": "Is inspectie privé?",
+      "a": "Ja. Alles draait lokaal in uw browser zonder uploads of accounts."
+    },
+    {
+      "q": "Kan ik bestanden zonder extensie inspecteren?",
+      "a": "Ja. Op handtekeningen gebaseerde detectie identificeert het formaat, zelfs wanneer de extensie ontbreekt of onjuist is."
+    },
+    {
+      "q": "Verwerkt de tool beschadigde of gedeeltelijke bestanden?",
+      "a": "Ja. Hij meldt wanneer headers onvolledig zijn of handtekeningen niet overeenkomen, zodat u corruptie kunt identificeren voordat u het bestand elders probeert te openen."
+    }
+  ]
+}

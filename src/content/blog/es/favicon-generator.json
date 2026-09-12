@@ -1,0 +1,107 @@
+{
+  "slug": "favicon-generator",
+  "title": "Cómo Crear un Favicon Online Gratis: Haz Iconos para Tu Sitio Web",
+  "description": "Crea un favicon online gratis con ChooseTools. Convierte cualquier imagen en un icono de navegador y conjunto de favicons perfectos, en tu navegador, con preajustes de tamaño y total privacidad.",
+  "keywords": ["generador de favicon", "hacer favicon", "crear favicon online", "favicon para sitio web", "generador de iconos", "creador de iconos web", "favicon 32x32 online"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "El Icono Diminuto que Presenta Tu Sitio",
+      "paragraphs": [
+        "El pequeño icono en la pestaña del navegador es un apreton de manos de marca que los usuarios ven todo el día. Un favicon nítido y acorde a la marca señala pulido antes de que una página siquiera cargue. [favicon-generator:Crear un favicon] a partir de tu logotipo o arte es la ruta más rápida hacia esa identidad.",
+        "Los navegadores solicitan iconos en varios tamaños, por lo que un favicon adecuado llega como un conjunto, no como un solo archivo.",
+        "ChooseTools genera favicons localmente en tu navegador a partir de cualquier imagen que subas."
+      ]
+    },
+    {
+      "heading": "Cómo Hacer un Icono de Sitio Web",
+      "paragraphs": [
+        "Tu logotipo se convierte en un icono de pestaña en segundos:",
+        "Sube la imagen fuente, idealmente un logotipo cuadrado. Elige los tamaños objetivo del icono, previsualiza cada tamaño generado y descarga los archivos de favicon listos para tu sitio.",
+        "Dado que el procesamiento es local, iterar sobre el recorte o el tamaño es instantáneo."
+      ]
+    },
+    {
+      "heading": "El Conjunto de Iconos que Realmente Necesitan los Navegadores",
+      "paragraphs": [
+        "Los sitios modernos referencian múltiples tamaños: el clásico icono de pestaña de 16x16, variantes de mayor resolución para pestañas retina y pantallas de inicio.",
+        "El generador coincide con las definiciones recomendadas, por lo que colocar la salida en tu proyecto simplemente funciona.",
+        "Nada más de escalar píxel a píxel a mano."
+      ]
+    },
+    {
+      "heading": "Recorte Cuadrado que Mantiene la Marca Centrada",
+      "paragraphs": [
+        "Los favicons son implacablemente cuadrados: el recorte de la fuente debe centrar la marca justo en su lugar.",
+        "La herramienta ayuda a recortar con una vista previa cuadrada en vivo para que el icono se lea correctamente en tamaños diminutos.",
+        "La legibilidad mínima a 16px es la prueba real: la vista previa la muestra."
+      ]
+    },
+    {
+      "heading": "Integración HTML y Apple Touch Icons",
+      "paragraphs": [
+        "Una vez que tengas los archivos de icono, añadirlos a tu sitio significa colocar algunas etiquetas link en la sección head de tu HTML. La referencia estándar rel equals icon cubre la mayoría de los navegadores, mientras que la referencia apple-touch-icon asegura que los marcadores de la pantalla de inicio de iOS muestren tu marca en alta resolución.",
+        "Algunos sistemas de gestión de contenido te permiten subir un solo favicon y manejar las variantes de tamaño automáticamente, pero codificar manualmente las etiquetas link te da control total sobre qué versión recibe cada plataforma.",
+        "El generador produce archivos con nombres convencionales que coinciden con las referencias comunes de etiquetas link, por lo que integrarlos en tu proyecto es cuestión de colocarlos en el directorio correcto y añadir el HTML correspondiente."
+      ]
+    },
+    {
+      "heading": "Formatos y Consideraciones de Transparencia",
+      "paragraphs": [
+        "Los navegadores modernos soportan favicons PNG que preservan transparencia y detalle nítido en cada tamaño. El formato ICO clásico sigue siendo compatible con navegadores antiguos y ciertos entornos empresariales que no han actualizado sus portales de intranet en años.",
+        "Los favicons SVG están ganando soporte en navegadores basados en Chromium y ofrecen escalado independiente de resolución, aunque aún no están adoptados universalmente. Tener un respaldo PNG junto a una versión SVG cubre tanto clientes modernos como heredados.",
+        "El generador produce el formato más ampliamente compatible para cada tamaño, asegurando que tu icono aparezca correctamente tanto si un visitante usa la última versión de Chrome como si usa un navegador corporativo obsoleto."
+      ]
+    },
+    {
+      "heading": "Probando Cómo Se Ve Tu Icono en Tamaños Reales",
+      "paragraphs": [
+        "Un logotipo que se ve elegante en un póster puede convertirse en una mancha ilegible a 16 píxeles. El generador previsualiza el icono en los tamaños exactos en que los navegadores lo renderizarán, para que juzgues la legibilidad de forma realista en lugar de ampliado en pantalla.",
+        "Un fuerte contraste entre la marca y el fondo del icono es el ingrediente que mantiene los iconos pequeños reconocibles. Las siluetas simples y las formas gruesas sobreviven mejor a la renderización diminuta que las líneas finas y los degradados delicados.",
+        "Previsualizar, ajustar y regenerar todo ocurre localmente, por lo que iterar hasta que el icono sea legible en su tamaño más pequeño toma minutos en lugar de una sesión de herramienta de diseño."
+      ]
+    },
+    {
+      "heading": "Consistencia de Marca Multiplataforma",
+      "paragraphs": [
+        "Más allá de las pestañas del navegador, la misma marca aparece en barras de marcadores, notificaciones de solicitudes de contraseña y mosaicos de pantalla de inicio móvil. Un conjunto unificado de iconos mantiene la marca reconocible en cada superficie en lugar de fragmentarse en varias aproximaciones inconsistentes.",
+        "Las vistas previas de compartición social y las entradas del historial del navegador también muestran imágenes de favicon, extendiendo el alcance del icono mucho más allá de los sitios profesionales. La consistencia en estas superficies refuerza silenciosamente la marca cada vez que el icono aparece.",
+        "Generar todas las variantes a partir de una sola fuente recortada garantiza que cada superficie refleje exactamente el diseño previsto."
+      ]
+    },
+    {
+      "heading": "Producción Privada de Favicons",
+      "paragraphs": [
+        "Los logotipos prelanzamiento son exactamente la imagen que no deberías subir. La generación de favicons se ejecuta localmente y permanece aquí.",
+        "Sin marca de agua, sin cuenta, sin subidas, en todos los dispositivos.",
+        "Los activos de identidad permanecen en tus manos."
+      ]
+    },
+    {
+      "heading": "De Logotipo a Sitio Activo, Una Pipeline",
+      "paragraphs": [
+        "Crea el icono, luego optimiza la demás imagen del sitio con [resize-image:redimensionar] y [compress-image:comprimir].",
+        "El conjunto es gratuito, privado y enteramente basado en navegador.",
+        "El embajador más pequeño de tu marca, listo en minutos."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Qué tamaños incluirá mi conjunto de favicon?",
+      "a": "El generador produce los tamaños estándar que solicitan los navegadores y las pantallas de inicio, incluyendo el clásico icono de pestaña 16x16 y variantes más grandes."
+    },
+    {
+      "q": "¿Puedo crear un favicon desde cualquier imagen?",
+      "a": "Sí. Un logotipo o arte cuadrado funciona mejor; la herramienta recorta y genera cada tamaño necesario con vista previa en vivo."
+    },
+    {
+      "q": "¿La generación de favicon es privada?",
+      "a": "Sí. Todo se ejecuta localmente en tu navegador sin subidas, marcas de water ni cuentas."
+    },
+    {
+      "q": "¿Qué pasa si mi imagen fuente no es cuadrada?",
+      "a": "La herramienta proporciona una guía de recorte en vivo para que puedas seleccionar la mejor región cuadrada de una imagen rectangular. Centrar la marca dentro del recorte asegura que el icono se lea bien en cada tamaño."
+    }
+  ]
+}

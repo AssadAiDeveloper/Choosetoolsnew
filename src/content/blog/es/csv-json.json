@@ -1,0 +1,132 @@
+{
+  "slug": "csv-json",
+  "title": "Convertidor de CSV a JSON: convierte CSV a JSON en línea gratis",
+  "description": "Convertidor gratuito de CSV a JSON para transformar datos de hojas de cálculo en JSON estructurado con encabezados, formato y vista previa. Privado, en tu navegador, sin subidas.",
+  "keywords": ["csv a json", "convertir csv a json en línea", "convertidor de csv a json", "hoja de cálculo a json", "csv a array json", "convertir csv a json gratis", "herramienta csv a json"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Tablas en CSV, objetos en JSON",
+      "paragraphs": [
+        "Los paneles, las API y los sistemas de configuración prefieren JSON, mientras que el análisis y las importaciones llegan como CSV. [csv-json:Conversión de CSV a JSON] une las hojas de cálculo y el código de forma limpia.",
+        "La conversión consciente de encabezados convierte automáticamente las filas en objetos.",
+        "ChooseTools convierte CSV a JSON localmente en tu navegador, con controles de delimitador y vista previa."
+      ]
+    },
+    {
+      "heading": "Cómo convertir CSV a JSON",
+      "paragraphs": [
+        "De filas a registros, al instante:",
+        "Pega tu CSV, elige el delimitador (coma, punto y coma, tabulación) y deja que la fila de encabezados asigne cada columna a claves JSON. Previsualiza la estructura y descarga o copia el array.",
+        "La conversión se ejecuta por completo en tu dispositivo."
+      ]
+    },
+    {
+      "heading": "Asignación de la fila de encabezados a objetos",
+      "paragraphs": [
+        "Cuando la primera fila contiene los nombres de las columnas, cada fila siguiente se convierte en un objeto con esas claves.",
+        "Los campos entre comillas con comas y saltos de línea incrustados se analizan correctamente.",
+        "La migración de datos gana estructura sin remodelado manual."
+      ]
+    },
+    {
+      "heading": "Archivos de configuración, importaciones e integración",
+      "paragraphs": [
+        "Transforma exportaciones de análisis en arrays de configuración, archivos semilla y cargas útiles de API.",
+        "La salida JSON sirve igualmente para la ingesta de backend y para utilidades de código del frontend.",
+        "El mantenimiento de las hojas de cálculo permanece en Excel mientras el código consume JSON."
+      ]
+    },
+    {
+      "heading": "Casos límite: celdas vacías, tipos y codificación",
+      "paragraphs": [
+        "Las celdas vacías, las comas entre comillas, los tipos variables y las codificaciones condicionan todos la salida.",
+        "El convertidor maneja las realidades desordenadas de las exportaciones reales.",
+        "La vista previa confirma la asignación antes de que confíes en la carga útil."
+      ]
+    },
+    {
+      "heading": "Conversión de datos privados",
+      "paragraphs": [
+        "Los datos tabulares de clientes se convierten localmente con cero contacto con el servidor.",
+        "Sin subidas, sin cuenta, sin marcas de agua, en todas las plataformas.",
+        "Migración sin exposición."
+      ]
+    },
+    {
+      "heading": "CSV/JSON dentro del kit de herramientas de datos",
+      "paragraphs": [
+        "Haz el intercambio completo con [json-to-excel:JSON a Excel], [excel-to-csv:Excel a CSV] y [json-formatter:formato] para un manejo completo.",
+        "La suite es gratuita y nativa del navegador.",
+        "De filas a registros, con precisión y privacidad."
+      ]
+    },
+    {
+      "heading": "Detección de delimitador y anulación manual",
+      "paragraphs": [
+        "Los archivos CSV exportados desde distintas regiones usan delimitadores diferentes: comas en Estados Unidos, puntos y coma en gran parte de Europa y tabulaciones en muchas herramientas de desarrolladores.",
+        "El convertidor intenta la detección automática del delimitador analizando las primeras filas para buscar recuentos de campos coherentes, pero la anulación manual está siempre disponible cuando la heurística falla.",
+        "Elegir el delimitador correcto es el paso más importante para una conversión limpia, porque un desajuste hace que filas enteras se colapsen en un único campo.",
+        "Una vez fijado el delimitador, la vista previa se actualiza inmediatamente para que puedas confirmar la estructura de columnas antes de generar la salida JSON final."
+      ]
+    },
+    {
+      "heading": "Inferencia de tipos: números, booleanos y nulos",
+      "paragraphs": [
+        "El texto CSV en bruto trata cada celda como una cadena, pero JSON se beneficia de un tipado correcto para que el código aguas abajo pueda realizar comparaciones numéricas y lógica booleana sin análisis adicional.",
+        "El convertidor inspecciona cada celda y promueve los valores que parecen números al tipo numérico de JSON, reconoce true y false como booleanos y convierte las celdas vacías o explícitamente nulas a null.",
+        "Las cadenas que resultan contener caracteres numéricos pero llevan ceros a la izquierda o formato especial se conservan como cadenas para evitar pérdida de datos.",
+        "Esta conversión consciente de tipos significa que el array JSON resultante es inmediatamente utilizable en aplicaciones que esperan valores correctamente tipados, sin procesamiento posterior."
+      ]
+    },
+    {
+      "heading": "Manejo de campos multilínea y comas incrustadas",
+      "paragraphs": [
+        "Las exportaciones CSV reales contienen con frecuencia campos entre comillas que abarcan varias líneas o incluyen comas dentro del contenido de texto.",
+        "El convertidor sigue las reglas RFC 4180 para campos entre comillas, identificando correctamente los límites de los campos incluso cuando aparecen saltos de línea o delimitadores dentro de las comillas.",
+        "Este comportamiento refleja cómo exportan los datos las aplicaciones profesionales de hojas de cálculo, garantizando que tu conversión maneje los mismos archivos sin limpieza manual.",
+        "Los campos que contienen comillas escapadas se desescapan correctamente, de modo que la salida JSON refleja el contenido previsto en lugar de las secuencias de escape en bruto."
+      ]
+    },
+    {
+      "heading": "Opciones de formato de salida",
+      "paragraphs": [
+        "La salida JSON compacta minimiza el tamaño del archivo para cargas útiles de API y archivos de configuración en los que el espacio en blanco no aporta valor.",
+        "La salida con sangría coherente hace que el JSON sea legible para depuración, revisión de código e inspección manual.",
+        "El convertidor te permite elegir entre estos formatos para que el archivo descargado coincida con las convenciones de tu proyecto.",
+        "Elegir el formato adecuado en el momento de la conversión ahorra un paso de formato separado más adelante en el flujo de trabajo."
+      ]
+    },
+    {
+      "heading": "Conversión por lotes y flujos de trabajo de automatización",
+      "paragraphs": [
+        "Los equipos que convierten datos CSV con regularidad se benefician de establecer un proceso coherente: pegar, configurar el delimitador, previsualizar y descargar.",
+        "Como la conversión se ejecuta por completo en el navegador, se integra de forma natural en los flujos de trabajo de marcadores y en los scripts de automatización locales que canalizan datos a través de la herramienta.",
+        "La repetibilidad importa cuando el mismo archivo fuente se actualiza cada semana; los ajustes que elijas hoy pueden reaplicarse manualmente a futuras exportaciones.",
+        "Para los desarrolladores que construyen canalizaciones, la estructura JSON predecible que produce el convertidor simplifica el paso de validación de esquema que sigue a la ingesta de datos."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Cómo se asignan las columnas CSV a JSON?",
+      "a": "Cuando la primera fila contiene encabezados, cada fila posterior se convierte en un objeto con esas claves de columna; las demás filas pasan a ser elementos del array."
+    },
+    {
+      "q": "¿Maneja el convertidor las comas entre comillas dentro de los campos?",
+      "a": "Sí. Los campos entre comillas que contienen comas o saltos de línea se analizan correctamente según las reglas CSV."
+    },
+    {
+      "q": "¿Es privada la conversión?",
+      "a": "Sí. Todo se ejecuta localmente en tu navegador, sin subidas ni cuentas."
+    },
+    {
+      "q": "¿Puede el convertidor detectar el delimitador automáticamente?",
+      "a": "Sí. Analiza las primeras filas para buscar recuentos de campos coherentes, aunque la anulación manual está disponible cuando la detección automática no coincide con tu archivo."
+    },
+    {
+      "q": "¿Se conservan los valores numéricos como números en el JSON?",
+      "a": "Sí. Las celdas que contienen números válidos se promueven al tipo numérico de JSON, mientras que los valores con ceros a la izquierda o formato especial permanecen como cadenas."
+    }
+  ]
+}

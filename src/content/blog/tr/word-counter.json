@@ -1,0 +1,113 @@
+{
+  "slug": "word-counter",
+  "title": "Kelime Sayacı Aracı: Kelimeleri, Karakterleri ve Yoğunluğu Gerçek Zamanlı Sayma",
+  "description": "Anahtar kelime yoğunluğu analiziyle kelimeleri, karakterleri, cümleleri ve paragrafları gerçek zamanlı saymak için ücretsiz kelime sayacı aracı. Özel, tarayıcınızda, yükleme yok.",
+  "keywords": ["kelime sayacı", "çevrimiçi kelime sayma", "kelime sayma aracı", "karakter sayacı", "kompozisyon kelime sayısı", "anahtar kelime yoğunluğu kontrolü", "ücretsiz kelime sayma"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Yazarlar Neden Acımasızca Kelime Sayar",
+      "paragraphs": [
+        "Kelime sayıları sözleşme maddeleridir: blog gönderilerinin SEO hedefleri vardır, akademik makaleler sınırları zorunlu kılar, sosyal altyazılar karakterleri sınırlar ve çevrimiçi formlar çok uzun yanıtları reddeder. Güvenilir bir kelime sayacı, her gönderimi sınırlar içinde tutan korkuluktur.",
+        "Elle saymak imkânsızdır; güvenilir araçlar ayrıca yapıyı da ortaya koymalıdır — cümleler, paragraflar ve okuma süresi.",
+        "ChooseTools, yazarken veya yapıştırırken gerçek zamanlı sayar; yükleme olmadan tamamen tarayıcınızda çalışır.",
+        "İçerik ekipleri, yayınlar arasında editoryal tutarlılığı korumak için kelime sayılarını kullanır; hiçbir makalenin beklenen uzunluğun çok üzerine veya altına sürüklenmemesini sağlar."
+      ]
+    },
+    {
+      "heading": "Kelimeler, Boşluklu ve Boşluksuz Karakterler, Cümleler, Paragraflar",
+      "paragraphs": [
+        "Farklı platformlar farklı sayar: veritabanları genellikle kelimeleri, formlar karakterleri ve çalışmalar boşluksuz karakterleri sayar.",
+        "Sayaç, kelimeleri, karakterleri (her iki varyant), cümleleri ve paragrafları aynı anda sunar; böylece asla tahmin etmezsiniz.",
+        "Her ölçümün her tuş vuruşunda canlı güncellendiğini izleyin.",
+        "Boşluksuz karakter sayısı özellikle kodlama yarışmaları, patent başvuruları ve her karakterin maliyet taşıdığı havayolu bagaj etiketleri için önemlidir."
+      ]
+    },
+    {
+      "heading": "Anahtar Kelime Yoğunluğu: İhtiyacınız Olduğunu Bilmediğiniz SEO Sayacı",
+      "paragraphs": [
+        "Bir anahtar kelimeyi aşırı kullanmak spam filtrelerini tetikler; az kullanmak hedefi kaçırır. Yoğunluk analizi, her kelimenin ne sıklıkta tekrarlandığını gösterir.",
+        "Sonuçları gezinerek birincil anahtar kelimenizin makul aralığa isabet ettiğini kontrol edin.",
+        "Bu, kör bir sayacı bir optimizasyon aletine dönüştürür.",
+        "SEO profesyonelleri genellikle birincil anahtar kelime yoğunluğunu yüzde bir ile iki arasında hedefler ve yoğunluk göstergesi hedefi doğrulamayı önemsiz kılar."
+      ]
+    },
+    {
+      "heading": "Yazma Hedefleri: 300'den 4000 Kelimeye",
+      "paragraphs": [
+        "Bloglar, tezler, ürün metinleri ve basın bültenleri her biri bir kelime bandında yaşar. Sayaç, hedef kulvarınıza doğru anında geri bildirim verir.",
+        "Taslaktan finale ilerlerken, ölçüm değişiklikleri kırpmayı ve genişletmeyi hassasiyetle yönlendirir.",
+        "Her boş ilerleme parıltısı geri bildirimdir.",
+        "Katı sınırları olan özetler hazırlayan akademik yazarlar, cümle sayısının gerçek zamanlı yükseldiğini izleyebilir ve dergi gereksinimini aşmadan önce durabilir."
+      ]
+    },
+    {
+      "heading": "Okuma Süresi ve Karmaşıklık Tahminleri",
+      "paragraphs": [
+        "Ham sayımların ötesinde, araç ortalama yetişkin hızına dayalı okuma süresini tahmin eder; editörlerin bültenler ve sunumlar için içerik planlamasına yardımcı olur.",
+        "Cümle uzunluğu ortalamaları okunabilirliğe işaret eder: daha kısa cümleler genel kitleler için anlayışı geliştirirken, daha uzun olanlar akademik düzyazıya uyar.",
+        "Bu tamamlayıcı ölçümler, yazarlara tek başına basit bir kelime sayımından daha eksiksiz bir metin resmi verir."
+      ]
+    },
+    {
+      "heading": "Aşırı Uzun Cümleleri ve Okunabilirlik Sorunlarını Tespit Etme",
+      "paragraphs": [
+        "Ortalama cümle uzunluğu yirmi beş kelimeyi aştığında, çoğu okunabilirlik formülü metni genel kitleler için zor olarak işaretler.",
+        "Yazarlar, netlik için bölünmesi gereken paragrafları belirlemek üzere kelime sayısının yanında cümle sayısını tarayabilir.",
+        "Sayım verilerini manuel bir okunabilirlik incelemesiyle eşleştirmek, hem ölçüm uyumlu hem de gerçekten okuması kolay içerik üretir."
+      ]
+    },
+    {
+      "heading": "Yazdığınız Her Şeyin Özel Sayımı",
+      "paragraphs": [
+        "Denemeler ve müşteri işleri makinenizden asla çıkmaz — ölçüm motoru yerel çalışır.",
+        "Yükleme yok, sözlerinizi satan banner reklamları yok, hesap yok.",
+        "Windows, macOS, Linux veya bir telefonda, aynı davranış.",
+        "Yasal özetler, tıbbi el yazmaları ve tescilli ürün açıklamaları, sayma yardımcı programı tamamen tarayıcı içinde çalıştığında gizli kalır."
+      ]
+    },
+    {
+      "heading": "Canlı Sınırlarla Teslim Tarihlerine Yetişmek",
+      "paragraphs": [
+        "Birçok başvuru portalı sabit bir karakter tavanı belirtir ve tek bir karakter aşmak otomatik reddi tetikler.",
+        "Canlı bir sayaca doğrudan yazmak, tam olarak sınırda durmanızı sağlar; sonradan kullanılan yapıştır-ve-kontrol araçlarında gerekli hâle gelen kırpma turunu önler.",
+        "Hem minimum hem maksimum sınırı olan makale istemleri için canlı bir sayaç, taslağı yazma oturumu boyunca kabul edilebilir pencerenin içinde tutar."
+      ]
+    },
+    {
+      "heading": "Sayın, Ardından Yardımcı Araçlarla Cilalayın",
+      "paragraphs": [
+        "Bir pasaj taştığında, büyük/küçük harf araçlarıyla kırpın, satır yineleme kaldırma aracıyla yinelenenleri temizleyin veya mock-up'lar için yer tutucu üretimiyle yeniden biçimlendirin.",
+        "Komple paket ücretsiz ve tarayıcı tabanlıdır.",
+        "Her kelime — sayıldı, kontrol edildi, teslim edildi.",
+        "Bir kelime sayacını bir metin fark aracıyla birleştiren yazarlar, taslaklar arasında tam olarak hangi cümlelerin eklendiğini veya kaldırıldığını izleyebilir."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Sayaç yazarken gerçek zamanlı güncellenir mi?",
+      "a": "Evet. Kelime, karakter, cümle ve paragraf sayıları her tuş vuruşunda anında güncellenir; boşluklu ve boşluksuz karakter sayılarıyla."
+    },
+    {
+      "q": "Araç anahtar kelime yoğunluğunu ölçebilir mi?",
+      "a": "Evet. Metninizde her kelimenin ne sıklıkta geçtiğini analiz eder; SEO veya stil çalışması için doğal anahtar kelime ağırlığı bulmanıza yardımcı olur."
+    },
+    {
+      "q": "Kelime sayacı özel midir?",
+      "a": "Evet. Her şey tarayıcınızda yerel olarak çalışır — metniniz asla hiçbir yere yüklenmez."
+    },
+    {
+      "q": "Okuma süresi tahmin eder mi?",
+      "a": "Evet. Araç, standart yetişkin okuma hızına dayalı yaklaşık okuma süresini hesaplar; editörlere hızlı bir planlama referansı verir."
+    },
+    {
+      "q": "Kelimeleri birden çok dilde sayabilir miyim?",
+      "a": "Evet. Sayaç boşluklara göre böler ve aksanlı ve Latin olmayan yazılar da dahil olmak üzere normal boşluk kullanan hemen hemen her dildeki metinler için çalışır."
+    },
+    {
+      "q": "Tam bir belgeyi yapıştırıp sayabilir miyim?",
+      "a": "Evet. Tam bir belgeyi yapıştırmak tüm ölçümleri birden günceller; her uzunluktaki metin için anında toplamlar verir."
+    }
+  ]
+}

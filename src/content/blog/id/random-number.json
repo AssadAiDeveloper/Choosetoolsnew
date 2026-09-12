@@ -1,0 +1,107 @@
+{
+  "slug": "random-number",
+  "title": "Generator Angka Acak: Hasilkan Angka Acak Secara Online Gratis",
+  "description": "Generator angka acak gratis untuk membuat angka acak yang aman dalam rentang apa pun, untuk undian, pengujian, dan simulasi. Privat, di browser Anda, tanpa unggahan.",
+  "keywords": ["generator angka acak", "angka acak online", "hasilkan angka acak", "pilih angka acak", "angka acak antara 1 dan", "angka acak aman", "rng online"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Keadilan Dimulai dari Keacakan",
+      "paragraphs": [
+        "Undian, sampel pengujian, dan simulasi semuanya membutuhkan angka yang tidak memihak hasil mana pun. [random-number:Menghasilkan angka acak] menyediakan nilai tanpa bias dalam rentang apa pun, sesuai permintaan.",
+        "Keacakan yang baik menghilangkan bias seleksi dan pola yang dapat diprediksi.",
+        "ChooseTools menghasilkan angka acak secara lokal di browser Anda.",
+        "Ketika setiap peserta berhak atas peluang setara, mengandalkan sumber acak yang aman secara kriptografis adalah satu-satunya pendekatan yang dapat dipertahankan. Pilihan manual dan rumus spreadsheet sering membawa bias tersembunyi yang merusak integritas hasil."
+      ]
+    },
+    {
+      "heading": "Cara Menghasilkan Angka Acak",
+      "paragraphs": [
+        "Sebuah rentang, sebuah jumlah, satu klik:",
+        "Atur batas bawah dan atas, pilih berapa banyak angka yang Anda butuhkan, lalu hasilkan. Salin atau unduh undian Anda sebagai daftar.",
+        "Pembuatan menggunakan keacakan browser Anda — secara lokal dan privat.",
+        "Antarmuka menjaga proses tetap transparan: Anda melihat rentang yang tepat, jumlah yang tepat, dan output yang tepat, tanpa ada yang disembunyikan di balik pengungkapan bertahap atau opsi yang membingungkan."
+      ]
+    },
+    {
+      "heading": "Satu Angka atau Rangkaian Penuh",
+      "paragraphs": [
+        "Pilihan tunggal menyelesaikan keputusan harian; kumpulan mengisi set pengujian dan kerangka sampel.",
+        "Penghitungan, pengulangan, dan format menyesuaikan dengan kasus penggunaan.",
+        "Sumber yang sama melayani kebutuhan sederhana dan massal.",
+        "Menghasilkan satu angka untuk keputusan cepat dan memproduksi kumpulan lima ratus untuk analisis statistik menggunakan mesin yang sama, sehingga kualitas tidak menurun pada skala besar."
+      ]
+    },
+    {
+      "heading": "Pengujian, Simulasi, dan Pilihan yang Adil",
+      "paragraphs": [
+        "Pengujian deterministik menggunakan seed yang tetap, tetapi pengujian eksploratif menolak pola. Undian acak untuk ruang kelas dan kontes membawa kredibilitas.",
+        "Input tanpa bias menjaga eksperimen tetap jujur.",
+        "Simulasi Monte Carlo, penugasan kelompok uji A/B, dan interval kepercayaan bootstrap semuanya bergantung pada keacakan berkualitas tinggi. Generator yang bias memperkenalkan kesalahan sistematis yang terakumulasi secara senyap di ribuan iterasi.",
+        "Guru yang memilih siswa untuk presentasi, kelompok masyarakat yang menyelenggarakan undian berhadiah, dan game master yang membangun tabel pertemuan semuanya diuntungkan oleh alat yang transparan, dapat diulang, dan jelas adil."
+      ]
+    },
+    {
+      "heading": "Perilaku Distribusi dan Rentang",
+      "paragraphs": [
+        "Nilai menyebar di seluruh rentang yang dikonfigurasi tanpa bias yang menggumpal. Distribusi seragam berarti setiap bilangan bulat dalam batas memiliki probabilitas yang sama untuk terpilih pada setiap undian.",
+        "Undian baru bervariasi dari sesi ke sesi sesuai desain. Tidak ada dua pembangkitan yang menghasilkan urutan yang sama kecuali Anda sengaja mengulangi input identik, yang tidak didukung alat ini sesuai desain.",
+        "Kemampuan diulang adalah milik sistem ber-seed, bukan alat ini.",
+        "Memahami distribusi seragam penting dalam jaminan kualitas: jika sumber acak Anda mengelompokkan nilai di dekat tengah rentang atau memihak digit tertentu, analisis hilir mewarisi distorsi itu."
+      ]
+    },
+    {
+      "heading": "Aplikasi Praktis di Luar Pilihan Cepat",
+      "paragraphs": [
+        "Pengembang menggunakan angka acak untuk membuat data pengujian bagi unit test, mengacak larik dalam prototipe algoritma, dan menetapkan token unik di lingkungan pengembangan yang tidak membutuhkan tumpukan kriptografi lengkap.",
+        "Pendidik membuat set soal latihan dengan parameter acak sehingga setiap siswa menerima versi berbeda dari latihan yang sama, mencegah penyontekan sambil menjaga tingkat kesulitan tetap konsisten.",
+        "Peneliti yang mengambil sampel dari populasi menggunakan bilangan bulat acak untuk memilih partisipan tanpa memperkenalkan bias pewawancara atau artefak seleksi diri ke dalam studi mereka.",
+        "Penyelenggara acara menetapkan nomor stan, posisi tempat duduk, dan urutan antrean secara acak untuk memastikan alokasi yang transparan dan dapat dipertanggungjawabkan."
+      ]
+    },
+    {
+      "heading": "Pembuatan Angka yang Privat",
+      "paragraphs": [
+        "Undian sensitif dan pengidentifikasi sampel dibuat di perangkat.",
+        "Tanpa unggahan, tanpa akun, tanpa tanda air — lintas platform.",
+        "Keacakan tanpa pengawasan.",
+        "Kerahasiaan penting ketika angka acak mengidentifikasi individu dalam uji klinis, audit keuangan, atau investigasi internal tempat proses pemilihan itu sendiri harus tetap terlindungi."
+      ]
+    },
+    {
+      "heading": "Menghindari Jebakan Umum dalam Pemilihan Acak",
+      "paragraphs": [
+        "Kesalahan yang sering terjadi adalah menganggap sampel kecil sepenuhnya mewakili rentang. Menghasilkan lima angka antara satu dan seratus tidak menjamin semuanya berjarak rata; pengelompokan di dekat pusat atau tepi adalah hal yang normal secara statistik.",
+        "Jebakan lain adalah menggunakan timestamp atau ID proses sebagai sumber entropi. Nilai-nilai tersebut dapat diprediksi atau berentropi rendah, menjadikannya tidak layak untuk konteks mana pun yang mengutamakan keadilan atau keamanan.",
+        "Alat ini mengelak dari masalah tersebut dengan mengandalkan API kriptografi browser, yang dirancang khusus untuk pembangkitan yang tidak dapat diprediksi dan diaudit secara berkala oleh vendor browser.",
+        "Memahami jebakan ini membantu Anda menafsirkan hasil dengan benar dan memilih alat yang tepat untuk pekerjaan tersebut alih-alih membangun solusi khusus yang rapuh."
+      ]
+    },
+    {
+      "heading": "Banyak Alat Membutuhkan Sentuhan Keacakan",
+      "paragraphs": [
+        "Padukan undian dengan [password-generator:kata sandi], [uuid-generator:ID unik], dan [lorem-ipsum:teks pengganti] untuk membangun data pengujian yang lengkap.",
+        "Suite ini gratis dan berbasis browser.",
+        "Angka tanpa bias dalam sekejap."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bisakah saya mengatur rentang dan jumlah sekaligus?",
+      "a": "Ya. Batas bawah dan atas digabungkan dengan pengaturan kuantitas untuk satu angka atau seluruh urutan."
+    },
+    {
+      "q": "Apakah hasilnya benar-benar acak?",
+      "a": "Hasil berasal dari sumber acak aman browser Anda, memberikan undian tanpa bias tanpa pola yang dapat diprediksi."
+    },
+    {
+      "q": "Apakah generator ini privat?",
+      "a": "Ya. Semuanya berjalan secara lokal di browser Anda tanpa unggahan atau akun."
+    },
+    {
+      "q": "Bisakah duplikat muncul dalam satu kumpulan?",
+      "a": "Ya. Setiap undian bersifat independen, sehingga angka yang sama dapat muncul lebih dari sekali dalam satu kumpulan, sama seperti undian fisik yang adil."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "json-formatter",
+  "title": "JSON Formatter: Prettify, Validasi, dan Perbaiki JSON Online Gratis",
+  "description": "Pembuat format JSON gratis untuk mempercantik, memvalidasi, mencari, dan memperbaiki JSON yang salah dengan cepat. Privat, di browser Anda, tanpa unggahan dan tanpa pendaftaran.",
+  "keywords": ["formatter json", "percantik json", "format json online", "validator json", "percantik json", "pretty print json", "parser json online"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "JSON Menjalankan Tulang Punggung Web Modern",
+      "paragraphs": [
+        "Respons API, file konfigurasi, dan pertukaran data semuanya menggunakan JSON — sering dikompres menjadi satu baris yang tidak terbaca. Memformat JSON mengubah dinding teks itu menjadi dokumen terstruktur dan dapat diperiksa.",
+        "Validasi menangkap koma dan tanda kutip yang merusak alur kerja.",
+        "ChooseTools memformat JSON secara lokal di browser Anda: percantik, kompresi, dan validasi di satu tempat.",
+        "Karena JSON sekaligus dapat dibaca manusia dan diurai mesin, formatter menjembatani kesenjangan antara bentuk komputer yang disukai dan bentuk terbaca yang dibutuhkan pengembang."
+      ]
+    },
+    {
+      "heading": "Cara Memformat dan Memvalidasi JSON",
+      "paragraphs": [
+        "Dari blob yang dikompres menjadi pohon objek yang terbaca.",
+        "Tempel JSON Anda dan klik format. Alat ini mengindentasi, meratakan, dan mewarnai struktur, menandai kesalahan sintaksis, dan menawarkan varian yang dikompres untuk produksi.",
+        "Semua penguraian bersifat lokal, menjaga data Anda tetap rahasia.",
+        "Output yang diwarnai menggunakan warna berbeda untuk kunci, string, angka, dan boolean, memudahkan memindai respons yang besar secara sekilas."
+      ]
+    },
+    {
+      "heading": "Prettify untuk Debugging dan Kolaborasi",
+      "paragraphs": [
+        "JSON yang terbaca mempercepat debugging: kurung yang tidak cocok, kunci duplikat, dan nesting yang dalam menjadi nyata.",
+        "Cuplikan yang dibagikan dapat ditinjau dalam pull request dan obrolan ketika sudah diformat.",
+        "Struktur menyingkap kesalahan yang tersembunyi dalam teks yang dikompres.",
+        "Tim yang memformat JSON sebelum berbagi mengurangi waktu tinjauan karena reviewer menghabiskan lebih sedikit upaya untuk mengurai struktur dan lebih banyak upaya untuk mengevaluasi konten."
+      ]
+    },
+    {
+      "heading": "Validasi Sebelum Merusak Alur Kerja",
+      "paragraphs": [
+        "Satu tanda kutip yang tidak dieskapasi menghentikan deploy penuh. Validasi menandai kesalahan secara instan dengan penunjuk ke masalah.",
+        "Tangkap output yang salah sebelum CI, integrasi, atau konsumen melihatnya.",
+        "Sisi depan dan belakang tetap sinkron karena format telah diverifikasi.",
+        "Validasi sangat kritis ketika JSON dihasilkan secara programatis, karena bug penggabungan string sering menghasilkan output yang secara sintaksis tidak valid tetapi lolos dari pemeriksaan visual kasual."
+      ]
+    },
+    {
+      "heading": "Pohon, Pencarian, dan Perbaikan Cepat",
+      "paragraphs": [
+        "Melampaui indentasi, utilitas mencari di dalam pohon yang sudah diformat dan menerapkan koreksi sintaksis yang lugas.",
+        "Bekerja langsung dalam tampilan terstruktur mempercepat pengeditan pada payload respons dan konfigurasi.",
+        "Sesi debugging memendek secara terukur.",
+        "Mencari di dalam pohon yang sudah diformat memungkinkan Anda melompat langsung ke kunci bersarang alih-alih menggulir ratusan baris yang dikompres untuk menemukan kolom yang Anda butuhkan."
+      ]
+    },
+    {
+      "heading": "Kompresi untuk Payload Produksi",
+      "paragraphs": [
+        "JSON yang diprettify untuk manusia; JSON yang dikompres untuk jaringan. Menghapus spasi, baris baru, dan karakter yang tidak perlu secara signifikan mengurangi ukuran payload.",
+        "File konfigurasi besar yang membentang tiga puluh baris terbaca dapat dikompres menjadi satu baris, memotong waktu transfer pada koneksi lambat.",
+        "Beralih antara tampilan yang diprettify dan yang dikompres dalam alat yang sama menghemat pengembang dari memelihara utilitas terpisah."
+      ]
+    },
+    {
+      "heading": "Menangani Koma Trailing dan Komentar",
+      "paragraphs": [
+        "JSON standar tidak mengizinkan koma trailing atau komentar, tetapi banyak file konfigurasi memasukkannya untuk kenyamanan.",
+        "Formatter yang menandai koma trailing menghemat pengembang dari kesalahan runtime yang hanya muncul ketika parser menemukan token yang tidak terduga.",
+        "Menghapus komentar sebelum validasi juga mencegah positif palsu, karena baris yang diberi komentar secara sintaksis tidak valid dalam JSON ketat."
+      ]
+    },
+    {
+      "heading": "Penanganan JSON Privat untuk Payload Nyata",
+      "paragraphs": [
+        "Data API dan konfigurasi sering berisi token dan catatan pribadi; memformat secara lokal mencegah kebocoran.",
+        "Tanpa unggahan, tanpa akun, tanpa tanda air — di semua platform.",
+        "Terstruktur dan aman.",
+        "Variabel lingkungan produksi, token autentikasi, dan string koneksi basis data tetap tak terlihat oleh layanan eksternal ketika pemformatan terjadi sepenuhnya di browser."
+      ]
+    },
+    {
+      "heading": "Membandingkan Respons di Log dan Output CI",
+      "paragraphs": [
+        "Pengembang secara rutin menempelkan JSON dari log server, traceback kesalahan, dan laporan CI ke formatter untuk membuat struktur mudah dibaca.",
+        "Mempercantik cuplikan-cuplikan ini menyingkap urutan nesting dan kolom yang tepat, yang penting saat membandingkan dua respons yang serupa selama debugging.",
+        "Menjalankan payload yang sama melalui alat diff kemudian menyorot secara tepat kolom mana yang berubah antar rilis."
+      ]
+    },
+    {
+      "heading": "JSON dalam Toolkit Pengembang",
+      "paragraphs": [
+        "Pasangkan pemformatan dengan konversi CSV dan JSON, kompresi CSS, dan enkripsi base64 untuk alur kerja data yang lengkap.",
+        "Rangkaian ini gratis dan berbasis browser.",
+        "Setiap kurung, diperiksa dan indah.",
+        "Pengembang yang menyimpan toolkit berbasis browser dengan mudah menghindari menginstal utilitas desktop untuk tugas pemformatan sekali pakai yang cepat."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah formatter memvalidasi sintaksis JSON saya?",
+      "a": "Ya. Alat ini melaporkan kesalahan sintaksis dengan petunjuk lokasi, memungkinkan koreksi cepat sebelum digunakan."
+    },
+    {
+      "q": "Bisakah saya mengompresi JSON sekaligus mempercantiknya?",
+      "a": "Ya. Mode output kompak menghasilkan payload yang dikompres untuk penggunaan produksi."
+    },
+    {
+      "q": "Apakah pemformatan JSON bersifat privat?",
+      "a": "Ya. Semuanya terjadi secara lokal di browser Anda — data Anda tidak pernah diunggah."
+    },
+    {
+      "q": "Apakah formatter akan memperbaiki kesalahan struktur secara otomatis?",
+      "a": "Alat ini menandai masalah sintaksis dan menyorot lokasinya sehingga Anda dapat memperbaikinya; alat ini tidak diam-diam menulis ulang struktur data Anda."
+    },
+    {
+      "q": "Bisakah alat menangani file JSON yang sangat besar?",
+      "a": "Ya. Formatter mengurai dan merender payload besar secara efisien di browser, meskipun nesting yang sangat dalam mungkin lambat untuk diwarnai."
+    },
+    {
+      "q": "Apakah formatter mempertahankan urutan kunci?",
+      "a": "Ya. Objek JSON dirender dalam urutan kemunculan kuncinya di input, sehingga output terbaca cocok persis dengan struktur sumber."
+    },
+    {
+      "q": "Bisakah saya memformat JSON yang berisi array dan objek bersarang?",
+      "a": "Ya. Formatter mengindentasi setiap tingkat nesting, sehingga array dan objek yang sangat bersarang tetap terbaca dan mudah dilacak."
+    }
+  ]
+}

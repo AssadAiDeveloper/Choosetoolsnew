@@ -1,0 +1,115 @@
+{
+  "slug": "mt940-to-excel",
+  "title": "MT940 to Excel: Convert Bank Statement MT940 to XLSX Online Free",
+  "description": "Free MT940 to Excel converter to parse bank statement MT940 files into structured, filterable spreadsheets. Private, in your browser, no uploads.",
+  "keywords": ["mt940 to excel", "mt940 converter", "mt940 statement to excel", "parse mt940", "bank statement to xlsx", "mt940 to csv", "mt940 file to spreadsheet"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Bank Statements Have Their Own Language",
+      "paragraphs": [
+        "MT940 is the international SWIFT format banks use for account statements — rows of coded tags that are precise but unreadable. [mt940-to-excel:Converting MT940 to Excel] translates those codes into a spreadsheet any accountant can read.",
+        "Every transaction arrives with date, amount and reference intact, preserving the exact data the bank recorded.",
+        "ChooseTools parses MT940 locally in your browser with no data leaving your device."
+      ]
+    },
+    {
+      "heading": "How to Convert MT940 to Excel",
+      "paragraphs": [
+        "From coded file to familiar table:",
+        "Paste the MT940 text or upload the file and convert. Transaction blocks unfold into rows with dates, amounts, balances and descriptions in clearly labeled columns.",
+        "Parsing runs on your device — statements stay private throughout the entire conversion process."
+      ]
+    },
+    {
+      "heading": "Coded Tags Become Meaningful Columns",
+      "paragraphs": [
+        "Tags like opening balance, closing balance and transaction details map onto named columns that finance teams recognize instantly.",
+        "Debits and credits separate clearly for reconciliation, with each row indicating direction and amount.",
+        "Auditors gain rows instead of a wall of codes, making manual spot-checks straightforward and efficient."
+      ]
+    },
+    {
+      "heading": "Understanding MT940 Tag Structure in Detail",
+      "paragraphs": [
+        "The :20 tag carries the statement reference number, a unique identifier the bank assigns to this particular statement. When reconciling multiple months, this reference helps you match each spreadsheet back to the original statement period and source file.",
+        "Balance tags :60M and :62M bracket every statement with opening and closing balances. Each balance line includes a credit-or-debit indicator, a date in YYMMDD format, a currency code and the amount. These bookend figures let reconciliation software verify that no transactions were lost between periods.",
+        "Transaction lines in :61 carry a compact structure: date, value date, credit-or-debit marker, amount, transaction type and reference codes. The :86 tag that follows each :61 provides the human-readable narrative, which is where bank charges, wire references and invoice numbers typically appear."
+      ]
+    },
+    {
+      "heading": "Reconciliation Without the Grunt Work",
+      "paragraphs": [
+        "Spreadsheets enable filters, totals and pivot views over any date or amount range with familiar Excel functionality.",
+        "Match bank lines against internal records quickly and confidently using VLOOKUP or conditional formatting.",
+        "The statement stops being a static file and becomes a working table that supports analysis and reporting."
+      ]
+    },
+    {
+      "heading": "Handling Multiple Statements and Account Types",
+      "paragraphs": [
+        "A single MT940 file can contain statements for several accounts or multiple periods for one account. The converter separates each statement block so you get distinct sheets or clearly labeled sections, preventing data from different accounts from merging into a single ambiguous table.",
+        "Account identifiers in the :25 tag distinguish between current accounts, savings accounts and foreign currency holdings. Keeping these labels in the spreadsheet means finance teams can filter by account type without manually sorting through a combined list.",
+        "Statement reference sequences help identify chronological order when multiple files arrive across a fiscal year. Preserving these references in the spreadsheet gives auditors a reliable trail from the earliest to the latest statement without guesswork."
+      ]
+    },
+    {
+      "heading": "From Spreadsheet to Accounting Software",
+      "paragraphs": [
+        "Once the MT940 data sits in Excel, import it into accounting platforms through their CSV or Excel upload features. Most popular tools accept tabular data with standard column headers, so the parsed spreadsheet plugs directly into bookkeeping workflows.",
+        "Pivot tables summarize spending by category, date range or counterparty within seconds. Accountants gain instant visibility into cash flow patterns that would take hours to assemble from raw MT940 text.",
+        "Conditional formatting highlights unusually large transactions, duplicate entries or dates that fall outside expected ranges. These visual flags surface anomalies early, before they propagate through monthly close processes."
+      ]
+    },
+    {
+      "heading": "Locally Parsed, Fiscally Safe",
+      "paragraphs": [
+        "Bank data is among the most sensitive material a company holds, containing account numbers, balances and transaction histories.",
+        "Local conversion means statements never travel to a third party or pass through external processing servers.",
+        "Privacy by construction, not by promise, with all parsing occurring in your browser session."
+      ]
+    },
+    {
+      "heading": "Errors Reduced, Formats Preserved",
+      "paragraphs": [
+        "Automated extraction removes the typos that manual re-entry introduces across dozens or hundreds of transaction lines.",
+        "Amounts and signatures stay exact across the conversion, with no rounding or truncation of decimal values.",
+        "Financial grade fidelity from file to sheet, ready for audit and compliance review."
+      ]
+    },
+    {
+      "heading": "MT940 Within the Financial Toolkit",
+      "paragraphs": [
+        "Reverse with [excel-to-mt940:Excel to MT940], reuse rows with [excel-to-csv:Excel to CSV] and archive with [pdf-to-text:extractable PDFs] for a complete document workflow.",
+        "The suite is free and browser-native, requiring no installation or subscription.",
+        "Coded statements, decoded into clarity for every finance team."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is an MT940 file?",
+      "a": "It is a SWIFT standard text format banks use to deliver account statements with structured transaction tags."
+    },
+    {
+      "q": "What appears in the generated spreadsheet?",
+      "a": "Each transaction becomes a row with date, amount, debit or credit indication, balance and description fields."
+    },
+    {
+      "q": "Is the parsing private?",
+      "a": "Yes. Everything runs locally in your browser with no uploads or accounts."
+    },
+    {
+      "q": "Can I handle statements for multiple accounts in one file?",
+      "a": "Yes. The converter separates each account and statement period into distinct sections so data does not merge across accounts."
+    },
+    {
+      "q": "How do I use the parsed data in accounting software?",
+      "a": "Export the spreadsheet as CSV and upload it to your accounting platform, or paste data directly into existing templates and pivot tables."
+    },
+    {
+      "q": "Will the parser handle large MT940 files with thousands of transactions?",
+      "a": "Yes. The converter processes files of any size entirely in your browser, with no server-side limits on transaction count."
+    }
+  ]
+}

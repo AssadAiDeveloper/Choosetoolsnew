@@ -1,0 +1,132 @@
+{
+  "slug": "json-to-excel",
+  "title": "Convertidor de JSON a Excel: convierte JSON a XLSX en línea gratis",
+  "description": "Convertidor gratuito de JSON a Excel para transformar arrays y objetos JSON en libros de trabajo XLSX con formato, listos para el análisis. Privado, en tu navegador.",
+  "keywords": ["json a excel", "convertidor de json a xlsx", "convertir json a excel en línea", "json a hoja de cálculo", "json a excel gratis", "herramienta json a xlsx", "datos json a excel"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Los datos de API piden a gritos una cara de hoja de cálculo",
+      "paragraphs": [
+        "El JSON llega de las API y de las exportaciones como objetos compactos, pero los equipos analizan mejor en hojas de cálculo. [json-to-excel:Conversión de JSON a Excel] convierte los datos estructurados en filas y columnas que cualquiera puede filtrar.",
+        "Los arrays se convierten en tablas planas y consultables.",
+        "ChooseTools convierte JSON a XLSX localmente en tu navegador."
+      ]
+    },
+    {
+      "heading": "Cómo convertir JSON a Excel",
+      "paragraphs": [
+        "De registros estructurados a un libro de trabajo nuevo:",
+        "Pega tu array JSON de objetos y convierte. Las claves se convierten en columnas, los registros en filas, y el XLSX descargable se abre listo en tu aplicación de hojas de cálculo.",
+        "El análisis ocurre por completo en tu dispositivo."
+      ]
+    },
+    {
+      "heading": "Objetos anidados aplanados",
+      "paragraphs": [
+        "El JSON real anida; las hojas de cálculo no.",
+        "El convertidor aplana los objetos y arrays anidados en columnas utilizables con claves claras.",
+        "Una estructura amigable para el análisis sustituye a las sesiones enredadas en paréntesis."
+      ]
+    },
+    {
+      "heading": "Paneles, informes y revisores",
+      "paragraphs": [
+        "Las partes interesadas quieren gráficos, filtros y totales, no llaves de JSON.",
+        "Convierte la salida de una API en un informe entregable con un solo gesto.",
+        "Los mismos datos ganan una forma lista para presentar."
+      ]
+    },
+    {
+      "heading": "Fidelidad de tipos a través del puente",
+      "paragraphs": [
+        "Los números permanecen numéricos para sumar; el texto y las fechas conservan su significado.",
+        "Los valores vacíos y los arrays se degradan con seguridad en celdas vacías.",
+        "Las tablas dinámicas aguas abajo confían en los valores que reciben."
+      ]
+    },
+    {
+      "heading": "Manejo privado de los datos de la API",
+      "paragraphs": [
+        "Las cargas útiles y las exportaciones de API pueden contener registros sensibles; la conversión permanece local.",
+        "Sin subidas, sin cuenta, sin marcas de agua, en todas las plataformas.",
+        "Análisis sin exposición."
+      ]
+    },
+    {
+      "heading": "Trabajo JSON dentro de la suite de datos",
+      "paragraphs": [
+        "Haz el intercambio completo con [excel-to-json:Excel a JSON], [excel-to-csv:Excel a CSV] y [csv-json:CSV a JSON] sin esfuerzo.",
+        "Todo es gratuito y nativo del navegador.",
+        "De cargas útiles estructuradas a hojas compartibles, al instante."
+      ]
+    },
+    {
+      "heading": "Manejo de arrays JSON grandes y rendimiento",
+      "paragraphs": [
+        "Las API que devuelven miles de registros producen arrays JSON considerables, y el convertidor los procesa por completo en el navegador sin enviar datos a un servidor remoto.",
+        "Los conjuntos de datos grandes se transmiten a la hoja de cálculo fila a fila, manteniendo predecible el uso de memoria incluso al trabajar con decenas de miles de registros.",
+        "Cuando tu carga útil JSON es demasiado grande para pegarla, puedes cargarla desde un archivo local, y la conversión ocurre en tu dispositivo antes de que el archivo llegue a tocar una red.",
+        "Este enfoque local significa que incluso los conjuntos de datos altamente confidenciales de API financieras o sistemas de salud permanecen bajo tu control durante toda la conversión."
+      ]
+    },
+    {
+      "heading": "Aplanado de estructuras profundamente anidadas",
+      "paragraphs": [
+        "Las respuestas de API del mundo real anidan a menudo objetos tres o cuatro niveles de profundidad, con arrays de objetos dentro de cada registro padre.",
+        "El convertidor aplica un aplanado con notación de puntos, de modo que un campo como address.city.state se convierte en un único encabezado de columna que conserva la jerarquía sin confundir las fórmulas de la hoja de cálculo.",
+        "Los arrays dentro de objetos se expanden en columnas separadas o en valores unidos por comas según la complejidad, garantizando que la salida siga siendo utilizable en lugar de desordenada.",
+        "Para cargas útiles extremadamente anidadas, un paso de vista previa te permite verificar la estructura de columnas aplanadas antes de comprometerte con la descarga final del XLSX."
+      ]
+    },
+    {
+      "heading": "Nombres de columna y asignación de encabezados",
+      "paragraphs": [
+        "Cuando las claves JSON contienen caracteres especiales o nombres muy largos, el convertidor sane los encabezados para que sigan siendo válidos para fórmulas de hoja de cálculo y referencias de tablas dinámicas.",
+        "Las claves en camel case, snake case y separadas por puntos se asignan todas a etiquetas de columna legibles que conservan el significado original sin romper el procesamiento aguas abajo.",
+        "Si tu JSON usa claves de enteros o nombres de propiedad solo numéricos, el convertidor les añade un prefijo para evitar que Excel interprete los encabezados como valores.",
+        "Esta atención a la fidelidad de los encabezados significa que los analistas no necesitan renombrar columnas manualmente después de cada conversión."
+      ]
+    },
+    {
+      "heading": "Trabajo con arrays de tipos mixtos",
+      "paragraphs": [
+        "No todo array JSON contiene objetos uniformes. Algunas cargas útiles mezclan objetos con primitivas, o incluyen valores null junto a registros poblados.",
+        "El convertidor maneja estos casos límite con elegancia: los elementos primitivos se convierten en filas de una sola celda, los valores null en celdas vacías y los arrays mixtos producen una tabla de mejor esfuerzo sin colapsar.",
+        "Para los arrays de arrays, cada array interno se asigna a una fila con encabezados de columna posicionales, conservando el orden que estableció la fuente de datos.",
+        "Esta flexibilidad hace que la herramienta sea útil más allá de los datos de API limpios, incluidos los volcados desordenados de sistemas heredados y los archivos JSON ensamblados manualmente."
+      ]
+    },
+    {
+      "heading": "Consejos de flujo de trabajo post-conversión",
+      "paragraphs": [
+        "Después de descargar el archivo XLSX, aplicar formato condicional en las columnas numéricas ayuda a destacar los valores atípicos en datos financieros u operativos al instante.",
+        "Congela la fila de encabezados y activa los filtros para que los conjuntos de datos convertidos grandes sigan siendo navegables desde el primer desplazamiento.",
+        "Si los datos convertidos alimentan un panel recurrente, guarda los ajustes de conversión como plantilla para que las exportaciones repetidas de la misma API mantengan un orden de columnas coherente.",
+        "Combinar la hoja convertida con plantillas de gráficos convierte la salida JSON en bruto en visualizaciones listas para presentar en cuestión de minutos."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Qué estructuras JSON se convierten limpiamente?",
+      "a": "Los arrays de objetos se convierten mejor, con las claves convirtiéndose en columnas y los elementos en filas; los campos anidados se aplanan de forma transparente."
+    },
+    {
+      "q": "¿Puedo pegar JSON directamente en lugar de subirlo?",
+      "a": "Sí. Pega tu array JSON en el campo y convierte en el lugar."
+    },
+    {
+      "q": "¿Es privada la conversión de JSON a Excel?",
+      "a": "Sí. Todo se ejecuta localmente en tu navegador, sin subidas ni cuentas."
+    },
+    {
+      "q": "¿Cómo maneja el convertidor el JSON profundamente anidado?",
+      "a": "Los objetos anidados se aplanan con notación de puntos, de modo que campos como user.address.city se convierten en encabezados de columna legibles que conservan la jerarquía sin desordenar la hoja de cálculo."
+    },
+    {
+      "q": "¿Puede la herramienta procesar archivos JSON muy grandes?",
+      "a": "Sí. Los arrays grandes se procesan por completo en el navegador, y puedes cargar archivos localmente para evitar cualquier transferencia de red de datos sensibles."
+    }
+  ]
+}

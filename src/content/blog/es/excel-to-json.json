@@ -1,0 +1,128 @@
+{
+  "slug": "excel-to-json",
+  "title": "Convertidor de Excel a JSON: convierte XLSX a JSON en línea gratis",
+  "description": "Convertidor gratuito de Excel a JSON para transformar hojas de cálculo XLSX en objetos y arrays JSON limpios, en tu navegador. Privado, sin subidas y sin registro.",
+  "keywords": ["excel a json", "convertidor de xlsx a json", "convertir excel a json", "hoja de cálculo a json en línea", "excel a json gratis", "herramienta excel a json", "xlsx a datos json"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Los libros de trabajo contienen datos; JSON los entrega",
+      "paragraphs": [
+        "El análisis y las importaciones viven en Excel mientras que las aplicaciones y las API consumen JSON. [excel-to-json:Conversión de Excel a JSON] convierte los datos basados en filas en objetos estructurados que los sistemas pueden ingerir directamente.",
+        "Las filas de encabezados se convierten en claves y las hojas en JSON limpio.",
+        "ChooseTools convierte XLSX a JSON localmente en tu navegador."
+      ]
+    },
+    {
+      "heading": "Cómo convertir una hoja de Excel a JSON",
+      "paragraphs": [
+        "De filas de libro de trabajo a registros estructurados:",
+        "Sube el XLSX, elige la hoja, confirma la fila de encabezados y convierte. Cada fila se convierte en un objeto; descarga o copia el array JSON resultante.",
+        "Todo el análisis se ejecuta en tu dispositivo."
+      ]
+    },
+    {
+      "heading": "La fila de encabezados en claves de objeto",
+      "paragraphs": [
+        "Con una fila de encabezados seleccionada, cada nombre de columna se asigna a una clave JSON y cada fila de datos se convierte en un valor.",
+        "Los valores numéricos producen JSON numérico; el texto conserva su tipado.",
+        "La estructura coincide exactamente con lo que la API consumidora espera."
+      ]
+    },
+    {
+      "heading": "Archivos semilla, API y datos de configuración",
+      "paragraphs": [
+        "Transforma hojas de cálculo curadas en datos semilla, configuración y utilidades de carga útil.",
+        "Mantén los datos en Excel, donde trabajan los editores; distribúyelos como JSON, donde se ejecuta el código.",
+        "Una fuente, muchos formatos, cero reescritura."
+      ]
+    },
+    {
+      "heading": "Manejo de peculiaridades del mundo real",
+      "paragraphs": [
+        "Las celdas vacías, las fechas, los porcentajes y los encabezados bilingües condicionan todos la salida.",
+        "Previsualiza la estructura resultante antes de confiar en una carga útil.",
+        "La verificación precede a la integración, evitando sorpresas aguas abajo."
+      ]
+    },
+    {
+      "heading": "Por qué JSON es el formato universal de traspaso de datos",
+      "paragraphs": [
+        "JSON es el formato de intercambio por defecto para las API web modernas, las bases de datos y los archivos de configuración porque es a la vez legible por humanos y analizable por máquinas.",
+        "A diferencia de los formatos de hojas de cálculo que requieren una aplicación de escritorio para abrirse, JSON puede manejarse con cualquier lenguaje de programación con solo unas pocas líneas de código.",
+        "Las aplicaciones móviles, las funciones serverless y las canalizaciones de análisis consumen JSON de forma nativa, de modo que convertir datos de hojas de cálculo a JSON los hace inmediatamente utilizables en toda una pila tecnológica.",
+        "La naturaleza ligera y basada en texto de JSON también facilita su versionado, almacenamiento en caché y transmisión a través de redes."
+      ]
+    },
+    {
+      "heading": "Cuando las organizaciones dependen de las canalizaciones de hoja de cálculo a API",
+      "paragraphs": [
+        "Muchas empresas mantienen sus datos canónicos en hojas de cálculo porque el personal no técnico se siente cómodo editándolas. Alimentar esos datos a API REST, bases de datos NoSQL o plataformas de análisis requiere un paso de conversión fiable.",
+        "Los equipos de marketing exportan listas de campañas, RR. HH. exporta plantillas de empleados y finanzas exporta asignaciones presupuestarias, todo ello necesitando JSON para la automatización aguas abajo.",
+        "Un convertidor de confianza elimina el bucle manual de copiar y pegar y reformatear que introduce errores y desperdicia horas cada semana.",
+        "Mantener la conversión en el navegador significa que los datos organizativos sensibles nunca tocan un servidor de terceros."
+      ]
+    },
+    {
+      "heading": "Consideraciones sobre tipos de datos y formato",
+      "paragraphs": [
+        "La forma en que Excel almacena fechas y números no siempre se asigna directamente a JSON. Una fecha mostrada como 2024/05/17 puede almacenarse internamente como número de serie, y el convertidor la presenta en una forma limpia y legible.",
+        "Los valores de divisa, los porcentajes y los números con ceros a la izquierda requieren un manejo cuidadoso para que el JSON contenga el tipo previsto, no una cadena engañosa o un número alterado en silencio.",
+        "Revisar la vista previa antes de exportar te permite confirmar que los tipos, los encabezados y los recuentos de filas coinciden con lo que el sistema receptor espera.",
+        "Prestar atención a estos detalles en el momento de la conversión evita costosas depuraciones después de que los datos ya se hayan integrado."
+      ]
+    },
+    {
+      "heading": "Preparar tu hoja de cálculo para una conversión limpia",
+      "paragraphs": [
+        "La calidad de la salida refleja la estructura de la entrada, de modo que un poco de preparación rinde mucho.",
+        "Mantén una única fila de encabezados con nombres únicos y descriptivos, y evita las celdas combinadas, que no se asignan limpiamente a claves JSON.",
+        "Elimina las filas de resumen o filas en blanco fuera de lugar para que el convertidor no produzca objetos con valores inesperados.",
+        "Los tipos de columna coherentes también ayudan: los números permanecen numéricos y las fechas legibles cuando la fuente es ordenada desde el principio."
+      ]
+    },
+    {
+      "heading": "Verificar la salida antes de la integración",
+      "paragraphs": [
+        "El JSON final solo es tan fiable como su revisión rápida, y la vista previa existe precisamente para este momento.",
+        "Confirma que cada fila esperada produjo un objeto, que los encabezados se convirtieron en las claves previstas y que ninguna columna desapareció bajo un nombre inusual.",
+        "Comprueba algunos valores por tipo: precios como números, códigos como cadenas y celdas vacías resueltas de la manera que tu consumidor desea.",
+        "Esta verificación breve, hecha una vez por plantilla, mantiene estable la canalización de cargas útiles durante meses de exportaciones."
+      ]
+    },
+    {
+      "heading": "Conversión privada de libros de trabajo",
+      "paragraphs": [
+        "Las listas de clientes y los conjuntos de datos internos se convierten sin transferencia de red.",
+        "Sin subidas, sin cuenta, sin marcas de agua, en todas las plataformas.",
+        "Estructurado y sellado."
+      ]
+    },
+    {
+      "heading": "Interoperabilidad de Excel en la suite de datos",
+      "paragraphs": [
+        "Compáñalo con [json-to-excel:JSON a Excel], [csv-json:CSV a JSON] y [excel-to-csv:Excel a CSV] para intercambios completos en ambos sentidos.",
+        "El conjunto de herramientas es gratuito y nativo del navegador.",
+        "De celdas a JSON estructurado, con fidelidad y dentro de casa."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Cómo se convierten las columnas de Excel en JSON?",
+      "a": "La fila de encabezados se convierte en claves de objeto y cada fila posterior se convierte en un objeto JSON con esas claves."
+    },
+    {
+      "q": "¿Conserva el convertidor los números y las fechas?",
+      "a": "Sí. Las celdas numéricas permanecen numéricas en JSON y el texto permanece como texto, manteniendo significativos los tipos."
+    },
+    {
+      "q": "¿Es privada la conversión de Excel a JSON?",
+      "a": "Sí. Todo se ejecuta localmente en tu navegador, sin subidas ni cuentas."
+    },
+    {
+      "q": "¿Puedo convertir varias hojas?",
+      "a": "Sí. Selecciona la hoja deseada del libro de trabajo antes de convertir, o procesa cada hoja por separado."
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "file-xray",
+  "title": "Radiografía de Archivos: Inspecciona Detalles y Metadatos de Archivos en Línea Gratis",
+  "description": "Herramienta gratuita de radiografía de archivos para inspeccionar archivos, revelar metadatos y verificar contenidos localmente en tu navegador. Privado, sin subidas, sin registro.",
+  "keywords": ["radiografía archivos", "inspeccionar archivo", "visor metadatos archivo", "detalles archivo online", "herramienta inspección archivo", "verificar tipo archivo", "ver información archivo"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Los Archivos Llevan Más que Sus Contenidos",
+      "paragraphs": [
+        "Tamaño, tipo, fechas de modificación y metadatos ocultos describen un archivo más allá de sus datos visibles. [file-xray:Inspeccionar archivos con herramienta de radiografía] saca a la luz esos detalles antes de que abras o envíes algo.",
+        "Conocer el tipo real de un archivo previene fallos sorpresa.",
+        "ChooseTools inspecciona archivos localmente en tu navegador."
+      ]
+    },
+    {
+      "heading": "Cómo Inspeccionar un Archivo",
+      "paragraphs": [
+        "De la incertidumbre del doble clic a la imagen completa:",
+        "Selecciona un archivo y visualiza su tamaño, tipo detectado, pistas de formato y metadatos. Confirma que la extensión coincida con la realidad antes de distribuir.",
+        "La inspección es completamente local, nada sale de tu dispositivo."
+      ]
+    },
+    {
+      "heading": "Detección de Tipo Más Allá de la Extensión",
+      "paragraphs": [
+        "Las extensiones mienten mientras que los bytes mágicos no.",
+        "La herramienta examina firmas para reportar el formato real independientemente del renombrado.",
+        "Los adjuntos renombrados ya no se cuelan."
+      ]
+    },
+    {
+      "heading": "Realidades de los Metadatos y Privacidad",
+      "paragraphs": [
+        "Las fotos llevan etiquetas de ubicación y dispositivo; los documentos llevan nombres de autores y marcas de tiempo.",
+        "Ver los metadatos revela lo que un archivo mostraría cuando se comparte.",
+        "El intercambio informado supera la exposición supuesta."
+      ]
+    },
+    {
+      "heading": "Antes de Enviar Cualquier Cosa",
+      "paragraphs": [
+        "Verifica el tamaño para límites de correo, el tipo para sistemas y los metadatos para exposición de un vistazo.",
+        "Las comprobaciones previas al vuelo previenen problemas embarrassantes o bloqueantes.",
+        "La confianza viaja con cada adjunto."
+      ]
+    },
+    {
+      "heading": "Inspección Privada de Archivos Sensibles",
+      "paragraphs": [
+        "Examinar un archivo localmente significa que sus metadatos nunca se convierten en un registro de consulta.",
+        "Sin subida, sin cuenta, sin marca de agua, en todas las plataformas.",
+        "Inspección sin interceptación."
+      ]
+    },
+    {
+      "heading": "Trabajo de Archivos en el Conjunto",
+      "paragraphs": [
+        "Combina con [remove-exif:eliminación de metadatos], [pdf-metadata:detalles de documentos] y [convert-image:conversión de formatos] para control completo.",
+        "Todo es gratuito y nativo del navegador.",
+        "Conoce tus archivos antes de que vayan a cualquier parte."
+      ]
+    },
+    {
+      "heading": "Formatos de Archivo Comunes que la Herramienta Reconoce",
+      "paragraphs": [
+        "El motor de inspección cubre un amplio conjunto de formatos cotidianos: imágenes como JPEG, PNG, WebP y GIF; documentos incluyendo PDF y texto plano; tipos de archivo como ZIP y GZIP; archivos de audio en MP3 y WAV; y contenedores de video en MP4 y MOV.",
+        "Para cada formato reconocido, la herramienta reporta la versión, la estructura interna y cualquier detalle de flujo embebido que importe para el procesamiento posterior.",
+        "Incluso cuando la extensión falta o es incorrecta, la detección basada en firmas aún identifica el formato real, por lo que siempre sabes con qué estás tratando.",
+        "Los archivos no reconocidos aún reportan el tamaño sin procesar, los bytes de encabezado y cualquier bloque detectable, dando a los desarrolladores útiles migas de pan para mayor investigación."
+      ]
+    },
+    {
+      "heading": "Leyendo EXIF, XMP y Propiedades de Documentos",
+      "paragraphs": [
+        "Los archivos de imagen comúnmente llevan bloques EXIF y XMP que registran el modelo de cámara, ajustes de exposición, coordenadas GPS, marcas de fecha y hora y la versión de software utilizada durante la creación.",
+        "Los documentos PDF y de oficina exponen autor, título, asunto, fecha de creación e historial de modificaciones en sus diccionarios de metadatos.",
+        "La radiografía de archivos muestra todos los campos disponibles en una única vista, permitiéndote decidir si alguna de esa información debe eliminarse antes de la publicación.",
+        "Para equipos que procesan grandes volúmenes de archivos entrantes, una vista previa rápida de metadatos ahorra tiempo que de otro modo se gastaría abriendo cada archivo en un editor dedicado."
+      ]
+    },
+    {
+      "heading": "Casos de Uso Prácticos para Inspección de Archivos",
+      "paragraphs": [
+        "Los periodistas que reciben adjuntos anónimos verifican los orígenes de los archivos y eliminan metadatos identificativos antes de publicar.",
+        "Los equipos de soporte de TI confirman si un ejecutable es realmente un binario o un script renombrado, reduciendo el riesgo antes de ejecutar diagnósticos.",
+        "Los desarrolladores que construyen canalizaciones de carga utilizan el inspector para validar los tipos de archivo entrantes contra categorías MIME esperadas.",
+        "Los diseñadores confirman perfiles de color, resolución y profundidad de bits antes de entregar activos a impresoras o equipos web."
+      ]
+    },
+    {
+      "heading": "Conciencia del Tamaño de Archivo para Límites de Correo y Nube",
+      "paragraphs": [
+        "La mayoría de los proveedores de correo limitan los adjuntos a veinticinco megabytes, y los enlaces de uso compartido en la nube pueden imponer sus propios umbrales en archivos individuales.",
+        "Una verificación rápida de tamaño previene mensajes rebotados y cargas fallidas, especialmente cuando una foto o escaneo es más grande de lo esperado.",
+        "Cuando un archivo excede el límite, el inspector te da el número que necesitas para decidir si comprimir, dividir o usar un método de entrega diferente.",
+        "Conocer el conteo exacto de bytes también ayuda al presupuestar almacenamiento entre unidades de copia de seguridad y niveles de nube."
+      ]
+    },
+    {
+      "heading": "Casos Extremos: Archivos Corruptos, Truncados y Parciales",
+      "paragraphs": [
+        "Los archivos que fueron interrumpidos durante la descarga o copiados de medios en deterioro pueden llevar encabezados incompletos o pies de página faltantes.",
+        "El inspector reporta cuando las firmas no coinciden con los patrones esperados, señalando una probable corrupción antes de que intentes abrir el archivo en otra aplicación.",
+        "Los archivos parciales de cargas incompletas pueden identificarse rápidamente, ahorrándote el diagnóstico de errores de aplicaciones posteriores que en realidad son problemas de datos.",
+        "Para los desarrolladores, estas advertencias son un bucle de retroalimentación rápido al probar reanudadores de descarga, herramientas de sincronización o scripts de copia de seguridad."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Puede la herramienta detectar el tipo real del archivo?",
+      "a": "Sí. La detección de tipo lee las firmas internas del archivo en lugar de confiar en la extensión."
+    },
+    {
+      "q": "¿Qué metadatos se revelan?",
+      "a": "El tamaño, el formato detectado y los campos comunes de metadatos embebidos aparecen, dependiendo del tipo de archivo."
+    },
+    {
+      "q": "¿La inspección es privada?",
+      "a": "Sí. Todo se ejecuta localmente en tu navegador sin subidas ni cuentas."
+    },
+    {
+      "q": "¿Puedo inspeccionar archivos sin extensión?",
+      "a": "Sí. La detección basada en firmas identifica el formato incluso cuando la extensión falta o es incorrecta."
+    },
+    {
+      "q": "¿La herramienta maneja archivos corruptos o parciales?",
+      "a": "Sí. Reporta cuando los encabezados están incompletos o las firmas no coinciden, ayudándote a identificar la corrupción antes de intentar abrir el archivo en otro lugar."
+    }
+  ]
+}

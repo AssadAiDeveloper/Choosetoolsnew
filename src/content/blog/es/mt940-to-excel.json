@@ -1,0 +1,115 @@
+{
+  "slug": "mt940-to-excel",
+  "title": "MT940 a Excel: convierte extractos bancarios MT940 a XLSX en línea gratis",
+  "description": "Convertidor gratuito de MT940 a Excel para analizar archivos MT940 de extractos bancarios en hojas de cálculo estructuradas y filtrables. Privado, en tu navegador, sin subidas.",
+  "keywords": ["mt940 a excel", "convertidor mt940", "extracto mt940 a excel", "analizar mt940", "extracto bancario a xlsx", "mt940 a csv", "archivo mt940 a hoja de cálculo"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Los extractos bancarios tienen su propio lenguaje",
+      "paragraphs": [
+        "MT940 es el formato internacional SWIFT que los bancos usan para los extractos de cuenta: filas de etiquetas codificadas que son precisas pero ilegibles. [mt940-to-excel:Conversión de MT940 a Excel] traduce esos códigos a una hoja de cálculo que cualquier contable puede leer.",
+        "Cada transacción llega con fecha, importe y referencia intactos, conservando los datos exactos que el banco registró.",
+        "ChooseTools analiza MT940 localmente en tu navegador sin que ningún dato salga de tu dispositivo."
+      ]
+    },
+    {
+      "heading": "Cómo convertir MT940 a Excel",
+      "paragraphs": [
+        "De archivo codificado a tabla familiar:",
+        "Pega el texto MT940 o sube el archivo y convierte. Los bloques de transacciones se despliegan en filas con fechas, importes, saldos y descripciones en columnas claramente etiquetadas.",
+        "El análisis se ejecuta en tu dispositivo: los extractos permanecen privados durante todo el proceso de conversión."
+      ]
+    },
+    {
+      "heading": "Las etiquetas codificadas se convierten en columnas significativas",
+      "paragraphs": [
+        "Etiquetas como saldo inicial, saldo final y detalle de transacciones se asignan a columnas con nombre que los equipos financieros reconocen al instante.",
+        "Los débitos y los créditos se separan claramente para la conciliación, indicando cada fila la dirección y el importe.",
+        "Los auditores obtienen filas en lugar de un muro de códigos, haciendo las comprobaciones manuales directas y eficientes."
+      ]
+    },
+    {
+      "heading": "Comprender en detalle la estructura de etiquetas MT940",
+      "paragraphs": [
+        "La etiqueta :20 lleva el número de referencia del extracto, un identificador único que el banco asigna a este extracto en particular. Al conciliar varios meses, esta referencia te ayuda a emparejar cada hoja de cálculo con el periodo y el archivo fuente originales del extracto.",
+        "Las etiquetas de saldo :60M y :62M delimitan cada extracto con los saldos de apertura y cierre. Cada línea de saldo incluye un indicador de crédito o débito, una fecha en formato AAMMDD, un código de divisa y el importe. Estas cifras de cierre permiten que el software de conciliación verifique que no se perdieron transacciones entre periodos.",
+        "Las líneas de transacción dentro de :61 llevan una estructura compacta: fecha, fecha valor, marcador de crédito o débito, importe, tipo de transacción y códigos de referencia. La etiqueta :86 que sigue a cada :61 proporciona la narrativa legible por humanos, donde suelen aparecer las comisiones bancarias, las referencias de transferencia y los números de factura."
+      ]
+    },
+    {
+      "heading": "Conciliación sin el trabajo pesado",
+      "paragraphs": [
+        "Las hojas de cálculo permiten filtros, totales y vistas dinámicas sobre cualquier rango de fechas o importes con la funcionalidad familiar de Excel.",
+        "Compara las líneas bancarias con los registros internos de forma rápida y segura usando BUSCARV o formato condicional.",
+        "El extracto deja de ser un archivo estático y se convierte en una tabla de trabajo que apoya el análisis y la elaboración de informes."
+      ]
+    },
+    {
+      "heading": "Manejo de varios extractos y tipos de cuenta",
+      "paragraphs": [
+        "Un único archivo MT940 puede contener extractos de varias cuentas o varios periodos de una cuenta. El convertidor separa cada bloque de extracto para que obtengas hojas distintas o secciones claramente etiquetadas, evitando que datos de diferentes cuentas se fusionen en una única tabla ambigua.",
+        "Los identificadores de cuenta en la etiqueta :25 distinguen entre cuentas corrientes, cuentas de ahorro y tenencias en divisa extranjera. Mantener estas etiquetas en la hoja de cálculo significa que los equipos financieros pueden filtrar por tipo de cuenta sin ordenar manualmente una lista combinada.",
+        "Las secuencias de referencia de extracto ayudan a identificar el orden cronológico cuando llegan varios archivos a lo largo de un ejercicio fiscal. Conservar estas referencias en la hoja de cálculo da a los auditores un rastro fiable del extracto más antiguo al más reciente sin conjeturas."
+      ]
+    },
+    {
+      "heading": "De la hoja de cálculo al software de contabilidad",
+      "paragraphs": [
+        "Una vez que los datos MT940 están en Excel, impleméntalos en plataformas contables a través de sus funciones de subida de CSV o Excel. La mayoría de las herramientas populares aceptan datos tabulares con encabezados de columna estándar, de modo que la hoja de cálculo analizada se conecta directamente a los flujos de trabajo contables.",
+        "Las tablas dinámicas resumen el gasto por categoría, rango de fechas o contraparte en cuestión de segundos. Los contables obtienen visibilidad instantánea de los patrones de flujo de caja que tardarían horas en ensamblar a partir del texto MT940 en bruto.",
+        "El formato condicional destaca transacciones inusualmente grandes, entradas duplicadas o fechas fuera de los rangos esperados. Estas señales visuales hacen aflorar las anomalías pronto, antes de que se propaguen por los procesos de cierre mensual."
+      ]
+    },
+    {
+      "heading": "Analizado localmente, fiscalmente seguro",
+      "paragraphs": [
+        "Los datos bancarios se encuentran entre los materiales más sensibles que posee una empresa, ya que contienen números de cuenta, saldos e historiales de transacciones.",
+        "La conversión local significa que los extractos nunca viajan a un tercero ni pasan por servidores de procesamiento externos.",
+        "Privacidad por construcción, no por promesa, con todo el análisis ocurriendo en tu sesión del navegador."
+      ]
+    },
+    {
+      "heading": "Errores reducidos, formatos preservados",
+      "paragraphs": [
+        "La extracción automatizada elimina las erratas que la reintroducción manual introduce en docenas o cientos de líneas de transacciones.",
+        "Los importes y las firmas permanecen exactos durante toda la conversión, sin redondeos ni truncamientos de valores decimales.",
+        "Fidelidad de grado financiero del archivo a la hoja, lista para revisión de auditoría y cumplimiento."
+      ]
+    },
+    {
+      "heading": "MT940 dentro del kit de herramientas financiero",
+      "paragraphs": [
+        "Invierte el sentido con [excel-to-mt940:Excel a MT940], reutiliza filas con [excel-to-csv:Excel a CSV] y archiva con [pdf-to-text:PDF extraíbles] para un flujo de trabajo documental completo.",
+        "La suite es gratuita y nativa del navegador, y no requiere instalación ni suscripción.",
+        "Extractos codificados, decodificados en claridad para cada equipo financiero."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Qué es un archivo MT940?",
+      "a": "Es un formato de texto estándar SWIFT que los bancos usan para entregar extractos de cuenta con etiquetas de transacción estructuradas."
+    },
+    {
+      "q": "¿Qué aparece en la hoja de cálculo generada?",
+      "a": "Cada transacción se convierte en una fila con campos de fecha, importe, indicación de débito o crédito, saldo y descripción."
+    },
+    {
+      "q": "¿Es privado el análisis?",
+      "a": "Sí. Todo se ejecuta localmente en tu navegador, sin subidas ni cuentas."
+    },
+    {
+      "q": "¿Puedo manejar extractos de varias cuentas en un solo archivo?",
+      "a": "Sí. El convertidor separa cada cuenta y periodo de extracto en secciones distintas para que los datos no se fusionen entre cuentas."
+    },
+    {
+      "q": "¿Cómo uso los datos analizados en software de contabilidad?",
+      "a": "Exporta la hoja de cálculo como CSV y súbela a tu plataforma contable, o pega los datos directamente en plantillas y tablas dinámicas existentes."
+    },
+    {
+      "q": "¿Manejará el analizador archivos MT940 grandes con miles de transacciones?",
+      "a": "Sí. El convertidor procesa archivos de cualquier tamaño por completo en tu navegador, sin límites del lado del servidor en el número de transacciones."
+    }
+  ]
+}

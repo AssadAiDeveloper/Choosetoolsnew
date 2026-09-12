@@ -1,0 +1,120 @@
+{
+  "slug": "text-diff",
+  "title": "Text-Diff-Tool: Zwei Texte Online Kostenlos Vergleichen und Änderungen Finden",
+  "description": "Kostenloses Online-Text-Diff-Tool zum Nebeneinander-Vergleichen zweier Dokumente mit Hervorhebung hinzugefügter, entfernter und geänderter Zeilen. Privat, sofort, in deinem Browser.",
+  "keywords": ["Text-Diff", "zwei Texte vergleichen", "Unterschiede zwischen Texten finden", "Diff-Checker", "Text online vergleichen", "Textvergleichstool", "Textänderungen anzeigen"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Erkennen, was sich zwischen Versionen geändert hat",
+      "paragraphs": [
+        "Hat dein Kollege die Bedingungen bearbeitet? Welcher Commit hat die Vereinbarung umformuliert? Versionen mit bloßem Auge zu vergleichen ist unzuverlässig; ein [text-diff:Diff-Tool] markiert exakt, was sich geändert hat, Zeile für Zeile.",
+        "Editoren, Prüfer, Anwälte und Studierende profitieren gleichermaßen von präziser Änderungserkennung.",
+        "ChooseTools vergleicht Texte lokal in deinem Browser mit einem farbcodierten Side-by-Side-Ergebnis."
+      ]
+    },
+    {
+      "heading": "Zwei Texte vergleichen",
+      "paragraphs": [
+        "Unterschiede, hervorgehoben:",
+        "Füge das Original in das linke Feld und die überarbeitete Version in das rechte ein. Das Tool berechnet den Diff sofort und färbt hinzugefügte versus entfernte Zeilen.",
+        "Ergebnisse werden lokal gerendert — Entwürfe verlassen das Gerät nie."
+      ]
+    },
+    {
+      "heading": "Diff auf Zeilenebene: exakt und prüfbar",
+      "paragraphs": [
+        "Das Vergleichen in Zeilen-Granularität entspricht der Arbeitsweise von Editoren: Jede Änderung ist eine diskrete, prüfbare Einheit.",
+        "Hinzugefügte Zeilen, entfernte Zeilen und Änderungen sind jeweils visuell unterschieden.",
+        "Die Stapelprüfung langer Dokumente wird wasserdicht."
+      ]
+    },
+    {
+      "heading": "So funktioniert Diffing im Inneren",
+      "paragraphs": [
+        "Das Tool gleicht die beiden Texte Zeile für Zeile ab, findet die längsten unveränderten Abschnitte und markiert alles andere als eingefügt oder entfernt.",
+        "Eine geänderte Zeile erscheint als Entfernung gepaart mit einer Hinzufügung, sodass Prüfer genau sehen, was ersetzt wurde, statt eines vagen Änderungsflags.",
+        "Der Algorithmus ist auch bei umfangreichen Dokumenten effizient, berechnet den Abgleich schnell und rendert nur die unterschiedlichen Bereiche zur Klarheit.",
+        "Dieses Verhalten zu verstehen hilft dir, Ergebnisse zu interpretieren: Ein neu geschriebener Satz erscheint als eine gelöschte Zeile mit einer daneben eingefügten."
+      ]
+    },
+    {
+      "heading": "Prüf-Workflows mit stillem Vertrauen",
+      "paragraphs": [
+        "Verfolge die Bearbeitungen von Prüfern, ohne jedes Wort zu lesen; bestätige Patches vor der Anwendung; prüfe Vereinbarungen auf stillschweigende Änderungen.",
+        "Die Diff-Ausgabe ist eine Karte dessen, was eine Version versprochen und geliefert hat.",
+        "Sorgfältiges Vergleichen schützt jeden, der unterschreibt, ausliefert oder Code ausliefert."
+      ]
+    },
+    {
+      "heading": "Häufige Anwendungsfälle in verschiedenen Berufen",
+      "paragraphs": [
+        "Rechtsteams vergleichen Vertragsentwürfe, um sicherzustellen, dass zwischen Verhandlungsrunden keine Klausel verändert wurde. Softwareentwickler prüfen Pull Requests, indem sie die vorgeschlagenen Änderungen vor dem Merge mit dem Hauptzweig abgleichen.",
+        "Studierende, die eine Aufsatzüberarbeitung prüfen, sehen sofort, ob das Feedback tatsächlich eingearbeitet wurde. Technische Redakteure halten die Dokumentationsgenauigkeit aufrecht, indem sie Release-Notes über Versionen hinweg vergleichen.",
+        "Übersetzer nutzen Diffs, um zu bestätigen, dass lokalisierter Text mit der genehmigten Quelle übereinstimmt und keine subtilen Auslassungen enthält. In jedem Fall nimmt das Tool die Mühsal des manuellen Vergleichs und ersetzt sie durch eine klare visuelle Änderungskarte.",
+        "Derselbe Mechanismus, der ein fehlendes Komma im Code erkennt, erkennt auch eine geänderte Haftungsklausel in einem Vertrag."
+      ]
+    },
+    {
+      "heading": "Große Dokumente und verschachtelte Änderungen bewältigen",
+      "paragraphs": [
+        "Lange Dateien mit Hunderten von Zeilen bleiben überschaubar, weil der Diff-Algorithmus sie in Segmenten verarbeitet und nur die relevanten Unterschiedsbereiche anzeigt.",
+        "Das Side-by-Side-Layout stellt sicher, dass Kontextzeilen neben ihren Gegenstücken liegen, sodass Prüfer verifizieren können, dass der umgebende Text nicht versehentlich verschoben wurde.",
+        "Selbst wenn Änderungen über ein Dokument verstreut sind, lässt die Farbcodierung das Auge direkt zu jeder Änderung springen, ohne jede Zeile manuell zu scannen.",
+        "Die Verarbeitung erfolgt vollständig auf deinem Gerät, sodass kein Größenlimit durch einen entfernten Server auferlegt wird."
+      ]
+    },
+    {
+      "heading": "Diffing als Qualitäts-Gate",
+      "paragraphs": [
+        "Ein Diff ist im Wesentlichen ein Qualitäts-Gate: Bevor etwas veröffentlicht, gemerged oder signiert wird, beantwortet der Vergleich, ob der endgültige Text dem entspricht, was beschlossen wurde.",
+        "Qualitätsteams führen einen finalen Diff zwischen dem genehmigten Entwurf und der ausgelieferten Version durch und fangen letzte Änderungen ab, die die Prüfung umgangen haben.",
+        "Freiberufliche Autoren gleichen Kundenfeedback mit ihren Manuskripten ab, um zu zeigen, dass jede gewünschte Änderung enthalten ist.",
+        "Selbst eine kurze Prüfung fügt eine Schutzschicht hinzu, die auch sorgfältigstes Korrekturlesen nicht zuverlässig erreicht."
+      ]
+    },
+    {
+      "heading": "Konfigurationen und Vorlagen vergleichen",
+      "paragraphs": [
+        "Über Prosa hinaus eignet sich das Tool für strukturierten Text: den Vergleich zweier Konfigurationsdateien, zweier Codeschnipsel oder zweier Versionen einer E-Mail-Vorlage.",
+        "Ein schneller Vergleich von Einstellungsdateien zeigt genau, welcher Parameter sich zwischen Umgebungen wie Staging und Produktion geändert hat.",
+        "Vorlagen-Editoren vergleichen gespeicherte Entwürfe, um Formatierungsabweichungen zu erkennen, die ein schneller Blick übersehen würde.",
+        "Da dieselbe Side-by-Side-Logik auf Code, Markup und reinem Text funktioniert, deckt ein Werkzeug viele Prüfanforderungen ab."
+      ]
+    },
+    {
+      "heading": "Privater Vergleich vertraulicher Entwürfe",
+      "paragraphs": [
+        "Rechtsdokumente, unveröffentlichte Manuskripte und interne Release-Notes werden lokal abgeglichen — und genau das ist der Punkt.",
+        "Kein Upload, kein Konto, kein Wasserzeichen — auf allen Plattformen.",
+        "Deine Versionshistorie gehört dir."
+      ]
+    },
+    {
+      "heading": "Diff in der kompletten Text-Suite",
+      "paragraphs": [
+        "Nach dem Vergleichen [find-replace:wende Fixes an], [sort-lines:organisiere] oder [case-converter:normalisiere] den Text.",
+        "Die Suite ist kostenlos und browser-nativ.",
+        "Jede Versionsfrage, präzise beantwortet."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Was hebt das Diff-Tool genau hervor?",
+      "a": "Es zeigt beide Texte nebeneinander und färbt Zeilen, die hinzugefügt, entfernt oder geändert wurden, sodass Änderungen sofort sichtbar sind."
+    },
+    {
+      "q": "Kann es sehr lange Dokumente vergleichen?",
+      "a": "Ja. Der zeilenbasierte Diff verarbeitet lange Texte; das Rendering ist lokal und unabhängig von der Länge schnell."
+    },
+    {
+      "q": "Ist der Textvergleich privat?",
+      "a": "Ja. Alles geschieht lokal in deinem Browser, ohne Uploads oder Konten."
+    },
+    {
+      "q": "Zeigt es Kontext rund um die Änderungen?",
+      "a": "Ja. Umgebende unveränderte Zeilen erscheinen neben dem Diff, damit du verifizieren kannst, dass Änderungen im richtigen Kontext liegen."
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "color-picker",
+  "title": "How to Pick a Color From an Image Online Free: Extract HEX, RGB and HSL",
+  "description": "Pick colors from an image online free with ChooseTools. Extract HEX, RGB and HSL values anywhere in a photo, then copy them for design work. Private, fast, in your browser.",
+  "keywords": ["color picker", "pick color from image online", "extract colors from image", "color picker from photo", "hex color from image", "eyedropper online", "get rgb from image"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Designers Need the Exact Color, Not a Guess",
+      "paragraphs": [
+        "Matching a brand exactly, recreating a palette from a photograph, or grabbing the tone of a logo means reading precise color values. [color-picker:Picking colors from images] gives designers the exact HEX, RGB and HSL numbers behind what they see.",
+        "It is the skill behind consistent branding and cohesive palettes everywhere.",
+        "ChooseTools extracts colors locally in your browser: point at any pixel and copy the value."
+      ]
+    },
+    {
+      "heading": "How to Pick a Color From a Photo",
+      "paragraphs": [
+        "From image to code value in seconds:",
+        "Upload the image, move the crosshair over the exact pixel, and read the HEX, RGB and HSL values. Copy whichever format your project needs.",
+        "Because analysis is local, high-res zooming into detail is instant and private."
+      ]
+    },
+    {
+      "heading": "HEX, RGB and HSL for Every Codebase",
+      "paragraphs": [
+        "CSS accepts all three notations, and different design tools default to different ones.",
+        "The picker displays all formats at once, so the value you need is one copy-click away.",
+        "From hex codes in Figma plugins to RGB tuples in Scss, every pipeline is covered."
+      ]
+    },
+    {
+      "heading": "Build Recognizable Palettes From Any Image",
+      "paragraphs": [
+        "Extract the sky tones from a travel photo, the leather hue from a product shot, the accent from a competitor's design.",
+        "Record the values into your design tokens and build themes that echo the source photo faithfully.",
+        "Inspiration inside an image becomes code-ready reality."
+      ]
+    },
+    {
+      "heading": "Private Eyedropping of Client Assets",
+      "paragraphs": [
+        "Client imagery and unreleased designs meet the eyedropper locally, so nothing leaves the workspace.",
+        "No upload, no watermark, no account — on any operating system.",
+        "Design consistency, achieved quietly."
+      ]
+    },
+    {
+      "heading": "The Full Color Ecosystem",
+      "paragraphs": [
+        "Convert between formats afterward with [color-converter:color converters], or pair with image prep tools like [resize-image:resize].",
+        "The whole suite is free and browser-native.",
+        "Every color you need, extracted exactly, from any image you own."
+      ]
+    },
+    {
+      "heading": "Understanding Color Spaces and Why They Matter",
+      "paragraphs": [
+        "HEX and RGB describe colors in the sRGB color space, which is the standard for screens, web browsers and most digital design tools.",
+        "HSL represents the same color as a combination of hue, saturation and lightness, making it more intuitive for designers who think in terms of how a color looks rather than how it is encoded.",
+        "CMYK is the color model used in print, and while the picker does not output CMYK directly, knowing the RGB value lets you approximate the printed result using conversion formulas.",
+        "Understanding which color space your target output uses prevents surprises when a color that looks perfect on screen prints with a noticeably different tone."
+      ]
+    },
+    {
+      "heading": "Sampling Strategies for Accurate Color Extraction",
+      "paragraphs": [
+        "A single pixel may represent a highlight, shadow or compression artifact rather than the intended color of the object, so sampling a small area and noting the dominant value produces more reliable results.",
+        "Zooming into high-resolution images reveals fine detail that casual viewing misses, especially in photographs with subtle gradients or textured surfaces.",
+        "When the image contains noise or grain, clicking several nearby pixels and comparing their values helps you identify the true color rather than a random fluctuation.",
+        "For images with anti-aliased edges, sampling from the center of a color region avoids picking up blended transitional pixels that do not represent either adjacent color accurately."
+      ]
+    },
+    {
+      "heading": "Extracting Palettes for Design Systems and Tokens",
+      "paragraphs": [
+        "Modern design systems define colors as semantic tokens that map to specific HEX or RGB values across light and dark themes.",
+        "The color picker lets you extract each token value from a brand photograph, mood board or competitor screenshot, then record them directly into your design token file.",
+        "Building a palette from real imagery rather than guessing produces a more cohesive visual language that feels grounded and intentional.",
+        "Once the tokens are defined, they propagate automatically through CSS variables, component libraries and style guides, maintaining consistency everywhere the design appears."
+      ]
+    },
+    {
+      "heading": "Color Picking for Accessibility Compliance",
+      "paragraphs": [
+        "Accessible design requires sufficient contrast between text and background colors, and the picker gives you the exact values needed to calculate contrast ratios.",
+        "Extracting the foreground and background colors from a design mockup and checking them against WCAG guidelines ensures that the final product meets accessibility standards.",
+        "Colors that appear distinct on a large monitor may have insufficient contrast for users with low vision, making the numerical check essential rather than optional.",
+        "Pairing the extracted values with a contrast-checking tool completes the accessibility workflow from extraction to validation."
+      ]
+    },
+    {
+      "heading": "Using Extracted Colors in CSS, Sass and Tailwind",
+      "paragraphs": [
+        "HEX values paste directly into CSS custom properties, while RGB values work well in functions that require separate red, green and blue channels.",
+        "Sass variables accept any of the three formats, letting you choose the notation that best matches your project conventions.",
+        "Tailwind CSS uses a configuration file where custom colors are defined as HEX or RGB strings, and the picker output formats map directly to those definitions.",
+        "Having the color in the right notation at extraction time eliminates the extra conversion step that slows down implementation."
+      ]
+    },
+    {
+      "heading": "Working With Low-Resolution and Compressed Images",
+      "paragraphs": [
+        "Social media thumbnails and compressed email attachments often lose color fidelity through JPEG artifacts, making the sampled value less accurate than the original.",
+        "Recognizing the limitation of low-resolution sources prevents you from encoding a slightly wrong color into your design system.",
+        "When possible, extracting from the highest-resolution version of the image available produces the most trustworthy color values.",
+        "For archived or legacy images, noting that the color came from a compressed source helps future maintainers understand why a value may not match the original intent."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which color formats does the picker return?",
+      "a": "It returns HEX, RGB and HSL values simultaneously, so you can copy whichever format your design tool or codebase expects."
+    },
+    {
+      "q": "Can I enlarge parts of the image for precise picking?",
+      "a": "Yes. The picker supports zooming into the photo so you can select exact pixels without guesswork."
+    },
+    {
+      "q": "Is the color picker private and free?",
+      "a": "Yes. All processing happens locally in your browser with no uploads, watermarks or accounts."
+    },
+    {
+      "q": "How do I ensure the color I pick matches the intended design?",
+      "a": "Sample from the center of a color region rather than edges or anti-aliased boundaries, and use high-resolution source images when available for the most accurate result."
+    },
+    {
+      "q": "Can the extracted color values be used for accessibility checks?",
+      "a": "Yes. The HEX and RGB values returned by the picker can be entered into contrast-ratio calculators to verify compliance with WCAG accessibility guidelines."
+    }
+  ]
+}

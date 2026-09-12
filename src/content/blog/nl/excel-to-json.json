@@ -1,0 +1,128 @@
+{
+  "slug": "excel-to-json",
+  "title": "Excel naar JSON Converter: Converteer XLSX naar JSON Gratis Online",
+  "description": "Gratis Excel-naar-JSON-converter om XLSX-spreadsheets om te zetten naar schone JSON-objecten en -arrays, in je browser. Privé, zonder uploads, zonder aanmelding.",
+  "keywords": ["excel naar json", "xlsx naar json converter", "excel naar json converteren", "spreadsheet naar json online", "excel naar json gratis", "excel naar json tool", "xlsx naar json gegevens"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Werkmappen Bewaren Gegevens; JSON Levert Ze",
+      "paragraphs": [
+        "Analyses en imports leven in Excel terwijl apps en API's JSON verwerken. [excel-to-json:Excel naar JSON converteren] zet rijgebaseerde gegevens om in gestructureerde objecten die systemen direct kunnen opnemen.",
+        "Headerrijen worden sleutels en werkbladen worden schone JSON.",
+        "ChooseTools converteert XLSX naar JSON lokaal in je browser."
+      ]
+    },
+    {
+      "heading": "Hoe een Excel-werkblad naar JSON te Converteren",
+      "paragraphs": [
+        "Van werkmaprijen naar gestructureerde records:",
+        "Upload de XLSX, kies het werkblad, bevestig de headerrij en converteer. Elke rij wordt een object; download of kopieer de resulterende JSON-array.",
+        "De volledige parsing draait op je apparaat."
+      ]
+    },
+    {
+      "heading": "Headerrij naar Object-sleutels",
+      "paragraphs": [
+        "Met een geselecteerde headerrij wordt elke kolomnaam aan een JSON-sleutel gekoppeld en wordt elke gegevensrij een waarde.",
+        "Numerieke waarden leveren numerieke JSON op; tekst behoudt zijn typering.",
+        "De structuur komt exact overeen met wat de verwerkende API verwacht."
+      ]
+    },
+    {
+      "heading": "Seedbestanden, API's en Configuratiegegevens",
+      "paragraphs": [
+        "Zet zorgvuldig samengestelde spreadsheets om in seedgegevens, configuratie en payload-fixtures.",
+        "Onderhoud gegevens in Excel waar redacteurs werken; verspreid ze als JSON waar code draait.",
+        "Eén bron, veel formaten, nul keer opnieuw typen."
+      ]
+    },
+    {
+      "heading": "Omgaan met Echte Wereld-afwijkingen",
+      "paragraphs": [
+        "Lege cellen, datums, percentages en tweetalige headers bepalen allemaal de output.",
+        "Bekijk de resulterende structuur in de voorbeeldweergave voordat je een payload vertrouwt.",
+        "Verificatie gaat aan integratie vooraf en voorkomt verrassingen downstream."
+      ]
+    },
+    {
+      "heading": "Waarom JSON Het Universele Gegevens-uitwisselingsformaat Is",
+      "paragraphs": [
+        "JSON is het standaard uitwisselingsformaat voor moderne web-API's, databases en configuratiebestanden, omdat het zowel menselijk leesbaar als machinaal parseerbaar is.",
+        "In tegenstelling tot spreadsheetformaten die een desktopapplicatie vereisen om te openen, kan JSON met slechts een paar regels code in elke programmeertaal worden verwerkt.",
+        "Mobiele apps, serverless functies en analyse-pipelines verwerken JSON allemaal native, zodat het converteren van spreadsheetgegevens naar JSON ze direct bruikbaar maakt binnen een hele technologiestack.",
+        "De lichtgewicht, tekstgebaseerde aard van JSON maakt het bovendien eenvoudig om te versioneren, cachen en via netwerken te verzenden."
+      ]
+    },
+    {
+      "heading": "Wanneer Organisaties Vertrouwen op Spreadsheet-naar-API-pipelines",
+      "paragraphs": [
+        "Veel bedrijven houden hun canonieke gegevens in spreadsheets bij omdat niet-technisch personeel er vertrouwd mee werkt. Die gegevens in REST-API's, NoSQL-databases of analyseplatforms voeden vereist een betrouwbare conversiestap.",
+        "Marketingteams exporteren campagnelijsten, HR exporteert medewerkersregisters en financiën exporteren budgettoewijzingen — allemaal hebben ze JSON nodig voor downstream-automatisering.",
+        "Een betrouwbare converter elimineert de handmatige kopieer-plak-en-herformateer-lus die fouten introduceert en elke week uren verspilt.",
+        "De conversie in de browser houden betekent dat gevoelige organisatiegegevens nooit een externe server raken."
+      ]
+    },
+    {
+      "heading": "Overwegingen voor Gegevenstypen en Opmaak",
+      "paragraphs": [
+        "De manier waarop Excel datums en getallen opslaat, komt niet altijd direct overeen met JSON. Een datum die als 2024/05/17 wordt getoond, kan intern als een serienummer worden opgeslagen, en de converter presenteert hem in een schone, leesbare vorm.",
+        "Valutawaarden, percentages en getallen met leidende nullen vereisen elk zorgvuldige behandeling, zodat de JSON het bedoelde type bevat, geen misleidende string of een stilzwijgend gewijzigd getal.",
+        "De voorbeeldweergave vóór de export beoordelen laat je bevestigen dat typen, headers en rijenaantallen allemaal aansluiten bij wat het ontvangende systeem verwacht.",
+        "Aandacht voor deze details tijdens de conversie voorkomt kostbaar debuggen nadat de gegevens al zijn geïntegreerd."
+      ]
+    },
+    {
+      "heading": "Je Spreadsheet Voorbereiden op een Schone Conversie",
+      "paragraphs": [
+        "De kwaliteit van de output weerspiegelt de structuur van de invoer, dus een beetje voorbereiding helpt enorm.",
+        "Houd een enkele headerrij met unieke, beschrijvende namen aan en vermijd samengevoegde cellen, die niet netjes aan JSON-sleutels koppelen.",
+        "Verwijder losse samenvattingsrijen of lege rijen, zodat de converter geen objecten met onverwachte waarden produceert.",
+        "Consistente kolomtypen helpen ook: getallen blijven numeriek en datums blijven leesbaar wanneer de bron vanaf het begin ordelijk is."
+      ]
+    },
+    {
+      "heading": "De Output Verifiëren Vóór Integratie",
+      "paragraphs": [
+        "De uiteindelijke JSON is slechts zo betrouwbaar als de snelle controle erop, en de voorbeeldweergave bestaat precies voor dit moment.",
+        "Bevestig dat elke verwachte rij een object opleverde, dat headers de bedoelde sleutels werden en dat geen kolom onder een ongebruikelijke naam verdween.",
+        "Controleer steekproefsgewijs enkele waarden op type: prijzen als getallen, codes als tekenreeksen en lege cellen opgelost zoals je consument wil.",
+        "Deze korte verificatie, eenmaal per sjabloon uitgevoerd, houdt de payload-pipeline maanden van exports stabiel."
+      ]
+    },
+    {
+      "heading": "Privé Werkmapconversie",
+      "paragraphs": [
+        "Klantlijsten en interne datasets worden geconverteerd zonder netwerkoverdracht.",
+        "Geen upload, geen account, geen watermerk — op alle platforms.",
+        "Gestructureerd en verzegeld."
+      ]
+    },
+    {
+      "heading": "Excel-interoperabiliteit in de Gegevenssuite",
+      "paragraphs": [
+        "Combineer met [json-to-excel:JSON naar Excel], [csv-json:CSV naar JSON] en [excel-to-csv:Excel naar CSV] voor volledige retourreizen.",
+        "De toolset is gratis en browsergebaseerd.",
+        "Van cellen naar gestructureerde JSON, getrouw en intern."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hoe worden Excel-kolommen omgezet naar JSON?",
+      "a": "De headerrij wordt object-sleutels en elke volgende rij wordt een JSON-object met die sleutels."
+    },
+    {
+      "q": "Behoudt de converter getallen en datums?",
+      "a": "Ja. Numerieke cellen blijven numeriek in JSON en tekst blijft tekst, waardoor typen betekenisvol blijven."
+    },
+    {
+      "q": "Is Excel-naar-JSON-conversie privé?",
+      "a": "Ja. Alles draait lokaal in je browser zonder uploads of accounts."
+    },
+    {
+      "q": "Kan ik meerdere werkbladen converteren?",
+      "a": "Ja. Selecteer het gewenste werkblad uit de werkmap vóór het converteren, of verwerk elk werkblad afzonderlijk."
+    }
+  ]
+}

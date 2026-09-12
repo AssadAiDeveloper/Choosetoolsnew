@@ -1,0 +1,1161 @@
+{
+  "meta": {
+    "title": "ChooseTools — Kostenlose Online-Datei-Tools, die Ihre Dateien niemals hochladen",
+    "description": "PDFs zusammenführen, komprimieren und konvertieren, Bilder bearbeiten – direkt im Browser. Kein Upload, keine Grenzen, kein Warten. Ihre Dateien verlassen Ihr Gerät nie."
+  },
+  "nav": {
+    "tagline": "Kein Hochladen. Keine Limits.",
+    "allTools": "Alle Tools",
+    "pdf": "PDF",
+    "image": "Bild",
+    "text": "Text & Dev",
+    "arabic": "Arabische Texttools",
+    "menu": "Menü",
+    "invoice": "Rechnungsgenerator",
+    "cv": "Lebenslauf-Ersteller",
+    "tools": "Tools",
+    "more": "Mehr",
+    "blog": "Blog"
+  },
+  "home": {
+    "heroTitle": "Jedes Datei-Tool. Null Uploads.",
+    "heroSub": "Alles läuft in Ihrem Browser. Ihre Dateien verlassen niemals Ihr Gerät — daher gibt es keine Größenbegrenzungen, keine Tageslimits und kein Warten auf Uploads.",
+    "search": "Tools suchen… (z. B. PDF zusammenführen)",
+    "noResults": "Kein Tool passt zu Ihrer Suche.",
+    "whyTitle": "Warum ChooseTools?",
+    "why1t": "Ihre Dateien bleiben bei Ihnen",
+    "why1d": "Andere Tool-Websites laden jede Datei auf ihre Server hoch und versprechen dann, sie zu löschen. Wir empfangen sie erst gar nicht — die Verarbeitung erfolgt auf Ihrem eigenen Gerät.",
+    "why2t": "Wirklich unbegrenzt",
+    "why2d": "Keine 15-MB-Grenze, keine „2 Aufgaben pro Tag“, keine Wasserzeichen. Weil nichts auf unseren Servern läuft, kostet unbegrenzte Nutzung uns nichts — und Sie nichts.",
+    "why3t": "Sofort von Natur aus",
+    "why3d": "Keine Upload-Zeit, keine Warteschlange, keine Download-Wartezeit. Eine 100-MB-Datei wird ab dem Moment verarbeitet, in dem Sie sie ablegen."
+  },
+  "privacy": {
+    "badge": "Auf unsere Server hochgeladen: 0 Bytes",
+    "note": "Dieses Tool läuft vollständig in Ihrem Browser. Ihre Datei wird niemals irgendwohin gesendet."
+  },
+  "categories": {
+    "pdf": {
+      "name": "PDF-Tools",
+      "desc": "PDF-Dateien zusammenführen, aufteilen, drehen, komprimieren und konvertieren — privat, in Ihrem Browser."
+    },
+    "image": {
+      "name": "Foto- & Bildtools",
+      "desc": "Bilder komprimieren, skalieren und konvertieren, ohne sie irgendwo hochzuladen."
+    },
+    "text": {
+      "name": "Text- & Entwickler-Tools",
+      "desc": "Zähler, Konverter, Generatoren und Formatierer, die offline funktionieren."
+    },
+    "arabic": {
+      "name": "Arabische Texttools",
+      "desc": "Tools, die speziell für arabische Texte und Daten entwickelt wurden — keine Übersetzungen englischer Tools."
+    }
+  },
+  "tool": {
+    "dropTitle": "Dateien hier ablegen oder zum Auswählen klicken",
+    "dropSingle": "Eine Datei hier ablegen oder zum Auswählen klicken",
+    "processing": "Verarbeitung auf Ihrem Gerät…",
+    "download": "Herunterladen",
+    "downloadAll": "Alle herunterladen (ZIP)",
+    "reset": "Neu beginnen",
+    "addMore": "Weitere Dateien hinzufügen",
+    "run": "Ausführen",
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "error": "Diese Datei konnte nicht verarbeitet werden. Prüfen Sie das Format und versuchen Sie es erneut.",
+    "faqTitle": "Häufig gestellte Fragen",
+    "relatedTitle": "Verwandte Tools",
+    "pages": "Seiten",
+    "fromPage": "Ab Seite",
+    "toPage": "Bis Seite",
+    "quality": "Qualität",
+    "width": "Breite",
+    "height": "Höhe",
+    "keepRatio": "Seitenverhältnis beibehalten",
+    "format": "Format",
+    "input": "Eingabe",
+    "output": "Ausgabe",
+    "generate": "Generieren",
+    "length": "Länge",
+    "result": "Ergebnis",
+    "savings": "kleiner"
+  },
+  "cv": {
+    "personal": "Persönliche Daten",
+    "fullName": "Vollständiger Name",
+    "jobTitle": "Angestrebte Position",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "location": "Stadt/Land",
+    "linkedin": "LinkedIn (optional)",
+    "summary": "Berufliches Profil",
+    "summaryPh": "Zwei oder drei Sätze über Ihre Erfahrung und Ziele",
+    "experience": "Berufserfahrung",
+    "addExp": "Erfahrung hinzufügen",
+    "jobTitleField": "Berufsbezeichnung",
+    "company": "Unternehmen",
+    "start": "Von",
+    "end": "Bis",
+    "present": "Heute",
+    "bullets": "Erfolge (eine Zeile pro Punkt)",
+    "education": "Ausbildung",
+    "addEdu": "Ausbildung hinzufügen",
+    "degree": "Abschluss",
+    "school": "Institution",
+    "skills": "Kenntnisse",
+    "skillsPh": "Mit Kommas trennen: Excel, Projektmanagement, SQL",
+    "languages": "Sprachen",
+    "addLang": "Sprache hinzufügen",
+    "langName": "Sprache",
+    "level": "Niveau",
+    "remove": "Entfernen",
+    "generate": "Lebenslauf erstellen (PDF)",
+    "previewLive": "Live-Vorschau",
+    "previewFast": "Aktualisiert sich beim Tippen sofort in echter A4-Größe",
+    "print": "A4 drucken",
+    "design": "Design",
+    "template": "Vorlage",
+    "classic": "Klassisch",
+    "modern": "Modern",
+    "minimal": "Minimal",
+    "accent": "Akzentfarbe",
+    "photo": "Foto",
+    "photoNone": "Ohne Foto",
+    "photoShow": "Mit Foto",
+    "uploadPhoto": "Foto hochladen",
+    "changePhoto": "Foto ändern",
+    "removePhoto": "Foto entfernen",
+    "importCv": "Vorhandenen Lebenslauf importieren",
+    "importProcessing": "Verarbeitung",
+    "importBtn": "Lebenslauf hochladen (Bild/PDF)",
+    "importHint": "Unterstützt JPG, PNG, PDF"
+  },
+  "tools": {
+    "merge-pdf": {
+      "name": "PDFs zusammenführen",
+      "desc": "Führen Sie mehrere PDF-Dateien in einem Dokument zusammen – online und kostenlos.",
+      "long": "Legen Sie zwei oder mehr PDF-Dateien ab, ziehen Sie sie in die gewünschte Reihenfolge und laden Sie ein einziges zusammengeführtes Dokument herunter. Die Zusammenführung erfolgt auf Ihrem Gerät, sodass auch vertrauliche Verträge Ihren Computer niemals verlassen.",
+      "faq1q": "Gibt es eine Begrenzung bei Dateigröße oder Anzahl der Dateien?",
+      "faq1a": "Nein. Da die Zusammenführung in Ihrem Browser läuft, ist der Speicher Ihres Geräts die einzige Grenze — Dateien mit Hunderten von Megabytes funktionieren auf einem normalen Laptop problemlos.",
+      "faq2q": "Werden meine PDFs auf einen Server hochgeladen?",
+      "faq2a": "Niemals. Die Dateien werden lokal von Ihrem Browser gelesen und zusammengeführt. Sie können nach dem Laden der Seite die Internetverbindung trennen, und das Tool funktioniert weiter."
+    },
+    "split-pdf": {
+      "name": "PDF teilen",
+      "desc": "Einen Seitenbereich aus einer PDF in eine neue Datei extrahieren.",
+      "long": "Wählen Sie die Seiten aus, die Sie benötigen — zum Beispiel die Seiten 3 bis 7 — und Sie erhalten eine neue PDF, die nur diesen Bereich enthält. Es wird nichts hochgeladen.",
+      "faq1q": "Kann ich eine einzelne Seite extrahieren?",
+      "faq1a": "Ja — setzen Sie dieselbe Zahl sowohl als Start- als auch als Endseite.",
+      "faq2q": "Verringert das Aufteilen die Qualität?",
+      "faq2a": "Nein. Seiten werden exakt so kopiert, wie sie sind, ohne erneute Komprimierung."
+    },
+    "rotate-pdf": {
+      "name": "PDF drehen",
+      "desc": "Alle Seiten einer PDF um 90°, 180° oder 270° drehen.",
+      "long": "Korrigieren Sie gescannte Dokumente, die seitlich oder auf dem Kopf stehen. Die Drehung ist verlustfrei und erfolgt sofort.",
+      "faq1q": "Ist die Drehung dauerhaft?",
+      "faq1a": "Ja — die heruntergeladene Datei wird mit der neuen Ausrichtung gespeichert und öffnet sich in jedem PDF-Reader korrekt.",
+      "faq2q": "Beeinflusst das Drehen die Qualität?",
+      "faq2a": "Nein. Es ändert sich nur das Flag der Seitenausrichtung; der Inhalt bleibt unangetastet."
+    },
+    "delete-pdf-pages": {
+      "name": "PDF-Seiten löschen",
+      "desc": "Bestimmte Seiten aus einer PDF-Datei entfernen.",
+      "long": "Geben Sie die Seitenzahlen ein, die Sie entfernen möchten (z. B. 2, 5-7) und laden Sie die bereinigte PDF herunter.",
+      "faq1q": "Wie schreibe ich die Seitenzahlen?",
+      "faq1a": "Verwenden Sie Kommas für einzelne Seiten und einen Bindestrich für Bereiche: „2, 5-7, 10“ entfernt Seite 2, die Seiten 5 bis 7 und Seite 10.",
+      "faq2q": "Kann ich eine Löschung rückgängig machen?",
+      "faq2a": "Ihre Originaldatei wird niemals verändert — sie bleibt unangetastet auf Ihrem Gerät, sodass Sie das Tool einfach erneut ausführen können."
+    },
+    "jpg-to-pdf": {
+      "name": "JPG in PDF",
+      "desc": "Konvertieren Sie JPG-Bilder in eine einzige PDF-Datei.",
+      "long": "Legen Sie JPG- oder PNG-Bilder ab, ordnen Sie die Reihenfolge und laden Sie eine PDF mit einem Bild pro Seite herunter. Ideal für gescannte Belege und Dokumente.",
+      "faq1q": "Kann ich JPG und PNG in einer PDF kombinieren?",
+      "faq1a": "Ja, beide Formate können im selben Dokument frei gemischt werden.",
+      "faq2q": "Werden die Bilder komprimiert?",
+      "faq2a": "Nein — Bilder werden in ihrer ursprünglichen Qualität eingebettet."
+    },
+    "pdf-to-jpg": {
+      "name": "PDF in JPG umwandeln",
+      "desc": "Konvertieren Sie PDF-Seiten in hochwertige JPG-Bilder.",
+      "long": "Jede Seite wird auf Ihrem Gerät gerendert und als Bild heruntergeladen — ein JPG pro Seite oder alle Seiten in einem ZIP.",
+      "faq1q": "Welche Auflösung haben die Bilder?",
+      "faq1a": "Die Seiten werden im 2×-Maßstab gerendert, was für Bildschirme und die meisten Drucke scharf genug ist.",
+      "faq2q": "Meine PDF hat viele Seiten. Ist das ein Problem?",
+      "faq2a": "Nein — die Seiten werden einzeln konvertiert, sodass auch lange Dokumente funktionieren. Sie können alles als eine einzige ZIP-Datei herunterladen."
+    },
+    "compress-pdf": {
+      "name": "PDF komprimieren",
+      "desc": "Komprimieren Sie PDF-Dateien online und verkleinern Sie die Dateigröße ohne Qualitätsverlust.",
+      "long": "Die Datei wird mit optimierter interner Struktur und Objektströmen neu geschrieben. Text und Bilder werden nicht verschlechtert — das ist verlustfreie Optimierung, keine zerstörerische Komprimierung.",
+      "faq1q": "Wie viel kleiner wird meine Datei?",
+      "faq1a": "Das hängt davon ab, wie die PDF erstellt wurde. Schlecht erzeugte Dateien können stark schrumpfen; bereits optimierte Dateien weniger. Die genaue Ersparnis wird vor dem Herunterladen angezeigt.",
+      "faq2q": "Wird die Qualität reduziert?",
+      "faq2a": "Nein. Diese Optimierung ist vollständig verlustfrei — jede Seite sieht exakt gleich aus."
+    },
+    "compress-image": {
+      "name": "Bild komprimieren",
+      "desc": "Komprimieren Sie Bilder wie JPG und PNG für eine kleinere Dateigröße.",
+      "long": "Intelligente Komprimierung reduziert die Dateigröße drastisch, während die Bilder scharf bleiben. Perfekt für Websites, E-Mail-Anhänge und Formulare mit Upload-Limits.",
+      "faq1q": "Wie viel Ersparnis kann ich erwarten?",
+      "faq1a": "Bei Fotos typischerweise 60–90 %, je nach gewählter Qualitätsstufe. Ergebnis und Ersparnis werden vor dem Herunterladen angezeigt.",
+      "faq2q": "Gibt es eine Dateigrößenbegrenzung?",
+      "faq2a": "Keine feste Begrenzung — die Komprimierung läuft auf Ihrem Gerät, sodass auch sehr große Fotos funktionieren."
+    },
+    "resize-image": {
+      "name": "Bildgröße ändern",
+      "desc": "Ändern Sie die Größe und Auflösung von Fotos online, ohne Upload.",
+      "long": "Geben Sie eine neue Breite oder Höhe ein — das Seitenverhältnis wird automatisch beibehalten, sofern Sie es nicht deaktivieren. Läuft sofort auf Ihrem Gerät.",
+      "faq1q": "Wird mein Bild beim Verkleinern unscharf?",
+      "faq1a": "Verkleinern hält Bilder scharf. Beim Vergrößern über die Ursprungsgröße hinaus kann das Bild weich wirken — das ist eine Grenze des Quellbilds, nicht des Tools.",
+      "faq2q": "Welche Formate werden unterstützt?",
+      "faq2a": "JPG, PNG und WebP. Die Ausgabe behält dasselbe Format wie die Eingabe."
+    },
+    "convert-image": {
+      "name": "Bild konvertieren",
+      "desc": "Zwischen JPG-, PNG- und WebP-Formaten umwandeln.",
+      "long": "Wählen Sie das Ausgabeformat und konvertieren Sie sofort. WebP-Ausgaben sind bei gleicher Qualität typischerweise 25–35 % kleiner als JPG.",
+      "faq1q": "Wann sollte ich WebP verwenden?",
+      "faq1a": "Für Websites — es ist bei ähnlicher Qualität kleiner als JPG und PNG und wird von allen modernen Browsern unterstützt.",
+      "faq2q": "Geht beim Konvertieren von PNG zu JPG Transparenz verloren?",
+      "faq2a": "Ja — JPG kennt keine Transparenz, daher werden transparente Bereiche weiß. Verwenden Sie PNG oder WebP, um Transparenz zu erhalten."
+    },
+    "heic-to-jpg": {
+      "name": "HEIC in JPG",
+      "desc": "iPhone-HEIC-Fotos in das allgemein unterstützte JPG-Format konvertieren.",
+      "long": "iPhones speichern Fotos als HEIC, was viele Apps und Websites ablehnen. Konvertieren Sie sie auf Ihrem eigenen Gerät in JPG — Ihre persönlichen Fotos werden niemals irgendwo hochgeladen.",
+      "faq1q": "Warum lassen sich meine HEIC-Fotos unter Windows nicht öffnen?",
+      "faq1a": "Windows benötigt einen kostenpflichtigen Codec, um HEIC zu öffnen. Die Konvertierung in JPG sorgt dafür, dass sich die Fotos ohne Zusatzsoftware überall öffnen lassen.",
+      "faq2q": "Wird die Qualität beibehalten?",
+      "faq2a": "Die Konvertierung verwendet eine JPG-Qualität von 92 %, was bei Fotos optisch mit dem Original identisch ist."
+    },
+    "rotate-image": {
+      "name": "Foto drehen",
+      "desc": "Bilder in 90°-Schritten drehen oder horizontal/vertikal spiegeln.",
+      "long": "Korrigieren Sie quer aufgenommene Fotos oder erstellen Sie gespiegelte Versionen. Alle Änderungen erfolgen lokal und werden sofort heruntergeladen.",
+      "faq1q": "Verringert das Drehen die Bildqualität?",
+      "faq1a": "Die PNG-Ausgabe ist verlustfrei. Die JPG-Ausgabe wird in hoher Qualität (95 %) neu codiert, was optisch nicht zu unterscheiden ist.",
+      "faq2q": "Kann ich in einem beliebigen Winkel drehen?",
+      "faq2a": "Dieses Tool deckt 90°-Schritte und das Spiegeln ab, womit Ausrichtungsprobleme behoben werden. Freiwinklige Drehung steht auf unserer Roadmap."
+    },
+    "remove-exif": {
+      "name": "EXIF-Daten entfernen",
+      "desc": "GPS-Standort und Kamera-Metadaten vor dem Teilen aus Fotos entfernen.",
+      "long": "Fotos tragen heimlich Metadaten: GPS-Koordinaten des Aufnahmeorts, Gerätemodell, Datum und Uhrzeit. Dieses Tool erstellt eine saubere Kopie, aus der all dies entfernt wurde — und da es lokal läuft, wird das zu bereinigende Foto selbst niemals offengelegt.",
+      "faq1q": "Was genau wird entfernt?",
+      "faq1a": "Alle EXIF-Metadaten: GPS-Standort, Kamera- und Handymodell, Zeitstempel, Software-Tags und Thumbnail-Vorschauen. Es bleibt nur das sichtbare Bild.",
+      "faq2q": "Wie kann ich überprüfen, dass es funktioniert hat?",
+      "faq2a": "Prüfen Sie die Dateieigenschaften vorher und nachher (Rechtsklick → Eigenschaften → Details unter Windows). Die bereinigte Kopie zeigt weder Standort- noch Kamerafelder an."
+    },
+    "word-counter": {
+      "name": "Wortzähler",
+      "desc": "Wörter, Zeichen, Sätze und geschätzte Lesezeit zählen.",
+      "long": "Text einfügen oder tippen und Live-Zählungen sehen — einschließlich Zeichen mit und ohne Leerzeichen sowie die Lesezeit bei durchschnittlicher Geschwindigkeit.",
+      "faq1q": "Funktioniert es mit arabischem Text?",
+      "faq1a": "Ja — Wortgrenzen werden für arabische, englische, spanische und gemischte Texte korrekt erkannt.",
+      "faq2q": "Wird mein Text irgendwohin gesendet?",
+      "faq2a": "Nein. Die Zählung erfolgt während des Tippens, vollständig in Ihrem Browser."
+    },
+    "case-converter": {
+      "name": "Groß-/Kleinschreibung",
+      "desc": "Text in GROSSBUCHSTABEN, Kleinschreibung, Titelschreibweise oder Satzform umwandeln.",
+      "long": "Text einfügen, einen Stil anklicken, das Ergebnis kopieren. Praktisch, um Text zu korrigieren, der mit aktivierter Feststelltaste getippt wurde.",
+      "faq1q": "Was ist Titelschreibweise?",
+      "faq1a": "Der erste Buchstabe jedes Wortes wird großgeschrieben — häufig für Überschriften verwendet.",
+      "faq2q": "Verändert es arabischen Text?",
+      "faq2a": "Arabisch kennt keine Groß- und Kleinschreibung, daher bleiben arabische Zeichen unverändert — nur lateinische Buchstaben werden umgewandelt."
+    },
+    "password-generator": {
+      "name": "Passwort-Generator",
+      "desc": "Starke, zufällige Passwörter mit benutzerdefinierten Regeln erzeugen.",
+      "long": "Passwörter werden mit dem kryptografischen Zufallsgenerator Ihres Browsers erzeugt und verlassen niemals Ihr Gerät — nichts wird übertragen oder gespeichert.",
+      "faq1q": "Wie lang sollte mein Passwort sein?",
+      "faq1a": "Mindestens 16 Zeichen für wichtige Konten. Die Länge zählt mehr als die Komplexität — jedes zusätzliche Zeichen vervielfacht die Zeit, die zum Knacken nötig ist.",
+      "faq2q": "Ist es sicher, Passwörter online zu erzeugen?",
+      "faq2a": "Auf dieser Seite: ja — die Erzeugung verwendet crypto.getRandomValues() lokal in Ihrem Browser. Sie können die Seite laden, die Internetverbindung trennen und offline Passwörter erzeugen."
+    },
+    "qr-generator": {
+      "name": "QR-Code erstellen",
+      "desc": "Erstellen Sie kostenlose QR-Codes für Links, Text und WLAN.",
+      "long": "Beliebigen Text oder eine URL eingeben und einen hochauflösenden PNG-QR-Code herunterladen. Keine Registrierung, keine ablaufenden Codes, kein Wasserzeichen.",
+      "faq1q": "Laufen diese QR-Codes ab?",
+      "faq1a": "Niemals. Der Code wird direkt aus Ihrem Text erzeugt — es gibt keinen Verkürzungsdienst oder Server, der abgeschaltet werden könnte.",
+      "faq2q": "Welche Auflösung hat der Download?",
+      "faq2a": "1024×1024 Pixel PNG — scharf genug für Druck, Visitenkarten und Plakate."
+    },
+    "json-formatter": {
+      "name": "JSON formatieren",
+      "desc": "JSON-Daten formatieren, validieren und minifizieren.",
+      "long": "JSON einfügen, um es mit korrekter Einrückung hübsch zu formatieren, oder es für die Produktion zu minifizieren. Fehler werden mit einer klaren Meldung markiert.",
+      "faq1q": "Ist es sicher, API-Antworten mit sensiblen Daten einzufügen?",
+      "faq1a": "Ja — die Formatierung erfolgt lokal in Ihrem Browser. Nichts, was Sie einfügen, wird irgendwohin übertragen.",
+      "faq2q": "Was bedeutet „ungültiges JSON“?",
+      "faq2a": "Der Text verstößt gegen die JSON-Syntaxregeln — üblicherweise ein nachgestelltes Komma, einfache statt doppelte Anführungszeichen oder ein nicht in Anführungszeichen gesetzter Schlüssel. Die Fehlermeldung zeigt, wo."
+    },
+    "base64": {
+      "name": "Base64 kodieren",
+      "desc": "Text in Base64 umwandeln und zurück, mit vollständiger Unicode-Unterstützung.",
+      "long": "Beliebigen Text — einschließlich Arabisch und Emoji — in Base64 kodieren oder Base64 zurück in lesbaren Text dekodieren.",
+      "faq1q": "Wofür wird Base64 verwendet?",
+      "faq1a": "Es stellt Binär- oder Sonderzeichendaten mit nur sicheren ASCII-Zeichen dar — üblich in APIs, E-Mail-Anhängen und Data-URLs.",
+      "faq2q": "Ist Base64 eine Verschlüsselung?",
+      "faq2a": "Nein. Base64 ist Kodierung, keine Verschlüsselung — jeder kann es dekodieren. Verwenden Sie es niemals, um Geheimnisse zu schützen."
+    },
+    "remove-tashkeel": {
+      "name": "Tashkeel entfernen",
+      "desc": "Arabische diakritische Zeichen (Harakat) mit einem Klick aus Text entfernen.",
+      "long": "Entfernt Fatha, Damma, Kasra, Sukun, Schadda, Tanwin und Tatwil aus arabischem Text — nützlich für Suchindexierung, Datenbanken und saubere Typografie.",
+      "faq1q": "Verändert es die Buchstaben selbst?",
+      "faq1a": "Nein — es werden nur die diakritischen Zeichen entfernt. Buchstaben, Leerzeichen und Satzzeichen bleiben exakt, wie sie sind.",
+      "faq2q": "Kann ich die Schadda behalten?",
+      "faq2a": "Ja — aktivieren Sie „Schadda behalten“, um alle Zeichen außer der Schadda zu entfernen, die oft eine Bedeutung trägt."
+    },
+    "arabic-numerals": {
+      "name": "Arabische ↔ westliche Ziffern",
+      "desc": "Zwischen östlichen arabischen (٠١٢٣) und westlichen (0123) Ziffern umwandeln.",
+      "long": "Konvertiert jede Ziffer in Ihrem Text in beiden Richtungen und lässt alle anderen Zeichen unangetastet. Behandelt auch persische Ziffernvarianten.",
+      "faq1q": "Welche Ziffern sind „arabische Ziffern“?",
+      "faq1a": "Verwirrenderweise beide! ٠١٢٣٤ sind östliche arabische (arabisch-indische) Ziffern, die in den meisten arabischen Ländern verwendet werden; 01234 sind westliche arabische Ziffern. Dieses Tool konvertiert zwischen ihnen.",
+      "faq2q": "Werden Daten und Telefonnummern korrekt umgewandelt?",
+      "faq2a": "Ja — Ziffern werden überall dort eins zu eins konvertiert, wo sie vorkommen, sodass Formate wie Daten und Telefonnummern ihre Struktur behalten."
+    },
+    "hijri-gregorian": {
+      "name": "Hidschra ↔ gregorianischer Konverter",
+      "desc": "Daten zwischen dem islamischen (Umm-al-Qura) und dem gregorianischen Kalender umwandeln.",
+      "long": "Präzise bidirektionale Umrechnung mit dem Umm-al-Qura-Kalender — dem offiziellen Kalender Saudi-Arabiens — mit Wochentag für jedes Ergebnis.",
+      "faq1q": "Welcher Hidschra-Kalender wird verwendet?",
+      "faq1a": "Umm al-Qura, der berechnete Kalender, der offiziell in Saudi-Arabien verwendet wird. Die tatsächliche Mondsichtung kann bei religiösen Anlässen um ±1 Tag abweichen.",
+      "faq2q": "Welcher Datumsbereich wird unterstützt?",
+      "faq2a": "Jedes Datum von der Hidschra-Ära (622 n. Chr.) bis weit in die Zukunft — ausreichend für Geburtstage, Verträge und historische Daten."
+    },
+    "reorder-pdf": {
+      "name": "PDF-Seiten sortieren",
+      "desc": "Die Seiten einer PDF mit visuellen Miniaturansichten neu anordnen.",
+      "long": "Jede Seite wird als Miniaturansicht auf Ihrem Gerät gerendert. Verschieben Sie die Seiten in die gewünschte Reihenfolge und laden Sie die neu angeordnete Datei herunter — es wird nichts hochgeladen.",
+      "faq1q": "Kann ich eine Seite von hinten nach vorne verschieben?",
+      "faq1a": "Ja — verwenden Sie die Pfeile unter jeder Miniaturansicht, um Seiten Schritt für Schritt in jede Position zu verschieben.",
+      "faq2q": "Verändert das Neuanordnen die Qualität?",
+      "faq2a": "Nein. Seiten werden exakt so kopiert, wie sie sind; nur ihre Reihenfolge ändert sich."
+    },
+    "watermark-pdf": {
+      "name": "Wasserzeichen hinzufügen",
+      "desc": "Fügen Sie Ihren PDFs ein Wasserzeichen oder Logo hinzu.",
+      "long": "Geben Sie Ihren Wasserzeichentext ein (z. B. VERTRAULICH oder ENTWURF), wählen Sie die Deckkraft, und jede Seite erhält einen sauberen diagonalen Stempel — lokal verarbeitet.",
+      "faq1q": "Kann ich arabischen Text im Wasserzeichen verwenden?",
+      "faq1a": "Noch nicht — die eingebauten PDF-Schriften decken lateinische Buchstaben und Zahlen ab. Arabische Wasserzeichen-Unterstützung mit eingebetteten Schriften steht auf unserer Roadmap.",
+      "faq2q": "Kann das Wasserzeichen später entfernt werden?",
+      "faq2a": "Das Wasserzeichen wird Teil des Seiteninhalts. Bewahren Sie Ihre Originaldatei auf — sie wird niemals verändert."
+    },
+    "page-numbers-pdf": {
+      "name": "Seitenzahlen hinzufügen",
+      "desc": "Seitenzahlen am unteren Rand jeder Seite einfügen.",
+      "long": "Wählen Sie einen einfachen Stil (1, 2, 3) oder das Format „1 / 12“ und laden Sie eine nummerierte Kopie Ihres Dokuments herunter.",
+      "faq1q": "Wo werden die Zahlen platziert?",
+      "faq1a": "Zentriert am unteren Rand jeder Seite, in einer Größe, die lesbar bleibt, ohne mit Ihrem Inhalt zu kollidieren.",
+      "faq2q": "Kann ich die Nummerierung ab einer anderen Seite beginnen?",
+      "faq2a": "Die aktuelle Version nummeriert alle Seiten ab 1. Benutzerdefinierte Startseiten sind geplant."
+    },
+    "crop-image": {
+      "name": "Foto zuschneiden",
+      "desc": "Bilder auf Standard-Seitenverhältnisse wie 1:1 oder 16:9 zuschneiden.",
+      "long": "Wählen Sie ein Zielverhältnis, und das Bild wird mittig auf die größtmögliche Fläche zugeschnitten — perfekt für Profilbilder, Cover und Miniaturansichten.",
+      "faq1q": "Welche Verhältnisse sind verfügbar?",
+      "faq1a": "Quadratisch 1:1, klassisch 4:3 und 3:4 sowie Breitbild 16:9 und 9:16 für Stories und Cover.",
+      "faq2q": "Ist der Zuschnitt mittig?",
+      "faq2a": "Ja — das Tool behält die größte mittige Fläche, die zu Ihrem gewählten Verhältnis passt."
+    },
+    "circle-crop": {
+      "name": "Foto rund zuschneiden",
+      "desc": "Einen perfekten Kreis aus jedem Foto ausschneiden, mit Transparenz.",
+      "long": "Der größte mittige Kreis wird aus Ihrem Bild geschnitten und als transparentes PNG gespeichert — bereit für Avatare und Logos.",
+      "faq1q": "Warum ist die Ausgabe ein PNG?",
+      "faq1a": "Nur PNG (und WebP) unterstützt Transparenz. Die Ecken außerhalb des Kreises sind vollständig transparent.",
+      "faq2q": "Kann ich festlegen, wo der Kreis platziert wird?",
+      "faq2a": "Der Kreis wird automatisch zentriert. Für eine individuelle Platzierung schneiden Sie das Bild vorher mit dem Zuschnitt-Tool zurecht."
+    },
+    "blur-image": {
+      "name": "Foto unscharf machen",
+      "desc": "Einen einstellbaren Gaußschen Weichzeichner auf ein Foto anwenden.",
+      "long": "Wählen Sie die Stärke der Unschärfe mit einem Regler — praktisch für Hintergründe, zum Schwärzen von Details oder für weiche Coverbilder.",
+      "faq1q": "Kann ich nur einen Teil des Bildes unscharf machen?",
+      "faq1a": "Dieses Tool macht das gesamte Bild unscharf. Bereichsbezogene Unschärfe steht auf unserer Roadmap.",
+      "faq2q": "Verbirgt Unschärfe Informationen zuverlässig?",
+      "faq2a": "Starke Unschärfe (20px+) macht Text unlesbar, aber für sensible Daten empfehlen wir, den betroffenen Bereich stattdessen vollständig auszuschneiden."
+    },
+    "image-filters": {
+      "name": "Foto-Filter",
+      "desc": "Graustufen, Sepia, Invertieren, Helligkeit oder Kontrast anwenden.",
+      "long": "Klassische Filter mit einem Klick, sofort auf Ihrem Gerät in voller Auflösung verarbeitet.",
+      "faq1q": "Verringern Filter die Auflösung?",
+      "faq1a": "Nein — das Bild behält seine exakten Originalabmessungen.",
+      "faq2q": "Kann ich mehrere Filter kombinieren?",
+      "faq2a": "Wenden Sie einen Filter an, laden Sie das Ergebnis herunter und lassen Sie es erneut durch das Tool laufen, um Effekte zu kombinieren."
+    },
+    "image-to-base64": {
+      "name": "Bild in Base64",
+      "desc": "Ein Bild in eine Base64-Data-URL zur Einbettung umwandeln.",
+      "long": "Erhalten Sie eine kopierfertige Data-URL für die Verwendung in HTML, CSS oder JSON — lokal erzeugt, sodass auch private Bilder sicher sind.",
+      "faq1q": "Wann sollte ich Bilder als Base64 einbetten?",
+      "faq1a": "Für kleine Bilder (Icons, kleine Logos), bei denen das Einsparen eines HTTP-Requests wichtig ist. Große Bilder sollten besser als normale Dateien ausgeliefert werden.",
+      "faq2q": "Warum ist der Base64-String größer als meine Datei?",
+      "faq2a": "Base64-Kodierung fügt ungefähr 33 % Overhead hinzu — das ist normal und zu erwarten."
+    },
+    "favicon-generator": {
+      "name": "Favicon-Generator",
+      "desc": "Ein komplettes Favicon-Set aus einem einzigen Bild erzeugen.",
+      "long": "Laden Sie ein quadratisches Logo hoch und laden Sie ein ZIP mit allen Standardgrößen (16–512px), dem Apple-Touch-Icon und einem fertigen, kopierfertigen HTML-Snippet herunter.",
+      "faq1q": "Mit welchem Bild sollte ich beginnen?",
+      "faq1a": "Ein quadratisches PNG oder SVG mit mindestens 512×512 Pixeln liefert in jeder Größe die schärfsten Ergebnisse.",
+      "faq2q": "Welche Größen sind enthalten?",
+      "faq2a": "16, 32, 48, 192 und 512 Pixel sowie das 180px große apple-touch-icon — alles, was moderne Browser und Smartphones anfordern."
+    },
+    "color-picker": {
+      "name": "Farbe aus Foto ziehen",
+      "desc": "An beliebiger Stelle auf ein Bild klicken, um exakte HEX- und RGB-Werte zu erhalten.",
+      "long": "Laden Sie ein Foto oder einen Screenshot hoch und klicken Sie auf einen beliebigen Pixel — das Tool erstellt eine Palette Ihrer gewählten Farben mit Kopierfunktion per Klick.",
+      "faq1q": "Wie genau ist die gewählte Farbe?",
+      "faq1a": "Exakt — der Wert wird direkt aus dem Bildpixel gelesen, auf das Sie klicken.",
+      "faq2q": "Kann ich mehrere Farben auswählen?",
+      "faq2a": "Ja, jeder Klick fügt Ihrer Palette eine Farbe hinzu (bis zu den letzten 12 Auswahlen)."
+    },
+    "svg-to-png": {
+      "name": "SVG in PNG",
+      "desc": "Vektor-SVG-Dateien im Maßstab 1×–8× in PNG konvertieren.",
+      "long": "Rendert Ihre SVG auf Ihrem Gerät und exportiert ein gestochen scharfes PNG — wählen Sie einen höheren Maßstab für Druck oder Retina-Displays.",
+      "faq1q": "Was bewirkt die Maßstabseinstellung?",
+      "faq1a": "Sie multipliziert die natürliche Größe der SVG: Ein 100×100 großes Icon, das mit 4× exportiert wird, wird zu einem 400×400-PNG.",
+      "faq2q": "Wird Transparenz beibehalten?",
+      "faq2a": "Ja — transparente Bereiche der SVG bleiben im PNG transparent."
+    },
+    "id-photo": {
+      "name": "Passfoto erstellen",
+      "desc": "Fotos auf offizielle Passgrößen zuschneiden: Saudi-Arabien, VAE, Ägypten, EU, USA.",
+      "long": "Wählen Sie Ihr Länder-Preset und erhalten Sie ein korrekt dimensioniertes Foto in Druckqualität (300 DPI). Der Zuschnitt ist zum oberen Bildrand hin ausgerichtet, wo sich meist das Gesicht befindet — und da es lokal läuft, verlässt Ihr persönliches Foto niemals Ihr Gerät.",
+      "faq1q": "Welche Größen werden unterstützt?",
+      "faq1a": "EU/Schengen 35×45mm, Saudi-Arabien und Ägypten 40×60mm, VAE 43×55mm und USA 51×51mm — alle mit 300 DPI exportiert.",
+      "faq2q": "Prüft das Tool die Fotoanforderungen?",
+      "faq2a": "Es erzeugt die korrekten Abmessungen und die richtige Auflösung. Anforderungen wie Hintergrundfarbe und Gesichtsausdruck bleiben Ihre Verantwortung — prüfen Sie die Richtlinien Ihrer Behörde."
+    },
+    "url-encode": {
+      "name": "URL kodieren",
+      "desc": "Text für die sichere Verwendung in URLs kodieren oder wieder dekodieren.",
+      "long": "Prozentkodierung im Handumdrehen — vollständige Unicode-Unterstützung einschließlich arabischer Zeichen in URLs.",
+      "faq1q": "Wann brauche ich URL-Kodierung?",
+      "faq1a": "Immer wenn Text in einer URL landet: Abfrageparameter, Suchbegriffe oder beliebige Zeichen wie Leerzeichen, ?, & und nicht-lateinische Buchstaben.",
+      "faq2q": "Was ist der Unterschied zu Base64?",
+      "faq2a": "URL-Kodierung hält Text lesbar und ist speziell für URLs gedacht; Base64 ist eine allgemeine Binär-zu-Text-Kodierung."
+    },
+    "uuid-generator": {
+      "name": "UUID-Generator",
+      "desc": "Zufällige Version-4-UUIDs in großen Mengen erzeugen.",
+      "long": "Verwendet die native crypto.randomUUID() Ihres Browsers — kryptografisch starke Identifikatoren, offline erzeugt.",
+      "faq1q": "Wofür wird eine UUID verwendet?",
+      "faq1a": "Als nahezu kollisionsfreier Identifikator für Datenbankdatensätze, API-Objekte, Dateinamen und verteilte Systeme.",
+      "faq2q": "Können zwei erzeugte UUIDs kollidieren?",
+      "faq2a": "Die Wahrscheinlichkeit ist so gering, dass sie in der Praxis vernachlässigbar ist — Sie müssten über Jahrhunderte Milliarden pro Sekunde erzeugen."
+    },
+    "hash-generator": {
+      "name": "Hash-Generator",
+      "desc": "SHA-1-, SHA-256-, SHA-384- und SHA-512-Hashes von Text berechnen.",
+      "long": "Hashes aktualisieren sich live während des Tippens, berechnet mit der nativen Web-Crypto-API des Browsers — Ihr Text verlässt niemals die Seite.",
+      "faq1q": "Warum wird MD5 nicht angeboten?",
+      "faq1a": "MD5 ist kryptografisch gebrochen und Browser implementieren es nicht nativ. SHA-256 ist der moderne Standard.",
+      "faq2q": "Sind Hashes umkehrbar?",
+      "faq2a": "Nein — ein Hash ist ein Einweg-Fingerabdruck. Dieselbe Eingabe ergibt immer denselben Hash, aber die Eingabe kann daraus nicht rekonstruiert werden."
+    },
+    "remove-duplicate-lines": {
+      "name": "Doppelte Zeilen entfernen",
+      "desc": "Wiederholte Zeilen aus einer Liste löschen und dabei die ursprüngliche Reihenfolge beibehalten.",
+      "long": "Beliebige Liste einfügen — E-Mails, Schlüsselwörter, URLs — und jede eindeutige Zeile genau einmal erhalten, mit einer Zählung des Entfernten.",
+      "faq1q": "Ist der Vergleich groß-/kleinschreibungsabhängig?",
+      "faq1a": "Ja — „Apfel“ und „apfel“ gelten als unterschiedliche Zeilen. Verwenden Sie bei Bedarf zuerst den Umwandler für Groß-/Kleinschreibung, um zu vereinheitlichen.",
+      "faq2q": "Wird die ursprüngliche Reihenfolge beibehalten?",
+      "faq2a": "Ja, das erste Vorkommen jeder Zeile bleibt an seiner Stelle; spätere Wiederholungen werden entfernt."
+    },
+    "text-diff": {
+      "name": "Texte vergleichen",
+      "desc": "Zwei Texte vergleichen und hinzugefügte sowie entfernte Zeilen hervorheben.",
+      "long": "Zwei Versionen nebeneinander einfügen und genau sehen, welche Zeilen geändert wurden — Ergänzungen in Grün, Entfernungen in Rot.",
+      "faq1q": "Wie funktioniert der Vergleich?",
+      "faq1a": "Zeile für Zeile, mit demselben Ansatz der längsten gemeinsamen Teilfolge wie bei Programmier-Diff-Tools.",
+      "faq2q": "Kann ich Code vergleichen?",
+      "faq2a": "Ja — das Tool ist inhaltsunabhängig und funktioniert für Code, Verträge, Artikel oder beliebigen Text."
+    },
+    "lorem-ipsum": {
+      "name": "Lorem-Ipsum-Generator",
+      "desc": "Platzhalterabsätze für Designs und Mockups erzeugen.",
+      "long": "Klassischer Lorem-ipsum-Fülltext, 1–10 Absätze, sofort erzeugt und per Klick kopierbar.",
+      "faq1q": "Warum Lorem ipsum statt echtem Text verwenden?",
+      "faq1a": "Seine natürliche Buchstabenverteilung ermöglicht es Betrachtern, ein Layout zu beurteilen, ohne von lesbarem Inhalt abgelenkt zu werden.",
+      "faq2q": "Ist der Text zufällig?",
+      "faq2a": "Ja — Satzlängen und Wortreihenfolge variieren bei jeder Erzeugung, wie bei natürlichem Schreiben."
+    },
+    "markdown-to-html": {
+      "name": "Markdown in HTML",
+      "desc": "Markdown-Syntax in sauberes HTML-Markup umwandeln.",
+      "long": "Angetrieben von der modernen marked-Parser-Bibliothek, die vollständig in Ihrem Browser läuft — Markdown einfügen, produktionsfertiges HTML kopieren.",
+      "faq1q": "Welche Markdown-Funktionen werden unterstützt?",
+      "faq1a": "Der vollständige CommonMark-Standard: Überschriften, Hervorhebungen, Listen, Links, Bilder, Codeblöcke, Zitate und Tabellen (GFM).",
+      "faq2q": "Ist die HTML-Ausgabe bereinigt?",
+      "faq2a": "Die Ausgabe spiegelt Ihre Eingabe wider. Wenn Sie HTML aus nicht vertrauenswürdigen Quellen rendern möchten, bereinigen Sie es in Ihrer Anwendung."
+    },
+    "csv-json": {
+      "name": "CSV ↔ JSON-Converter",
+      "desc": "In beiden Richtungen zwischen CSV-Daten und JSON-Arrays umwandeln.",
+      "long": "Angetrieben von der branchenüblichen Papa-Parse-Engine — verarbeitet in Anführungszeichen gesetzte Felder, Kommas innerhalb von Werten und Kopfzeilen korrekt.",
+      "faq1q": "Verwendet CSV→JSON die erste Zeile als Schlüssel?",
+      "faq1a": "Ja — die Kopfzeile wird zu den JSON-Eigenschaftsnamen für jedes Objekt.",
+      "faq2q": "Meine CSV verwendet Semikolons — funktioniert das?",
+      "faq2a": "Ja, der Parser erkennt gängige Trennzeichen automatisch, einschließlich Semikolons und Tabs."
+    },
+    "tafqit": {
+      "name": "Tafqit — Zahlen in arabische Wörter",
+      "desc": "Zahlen für Rechnungen und Schecks in geschriebene arabische Wörter umwandeln.",
+      "long": "Geben Sie einen beliebigen Betrag bis in die Milliarden ein und erhalten Sie die grammatikalisch korrekte arabische Schreibweise, optional mit Währung (SAR, AED, EGP, USD, EUR) im rechtlichen Format „nur und sonst nichts“, das bei Rechnungen verwendet wird.",
+      "faq1q": "Wofür wird Tafqit verwendet?",
+      "faq1a": "Arabische Rechnungen, Schecks und Verträge verlangen gesetzlich Beträge in Worten — Tafqit wandelt 15.750 sofort in die vollständige arabische Schreibweise um.",
+      "faq2q": "Ist die arabische Grammatik korrekt?",
+      "faq2a": "Ja — das Tool wendet die korrekten Formen für Duale, 3–10-Plurale und den Akkusativ nach 11+ an (z. B. ألفاً / مليوناً)."
+    },
+    "extract-pdf-pages": {
+      "name": "PDF-Seiten extrahieren",
+      "desc": "Bestimmte Seiten oder Bereiche aus einer PDF in eine neue Datei herausholen.",
+      "long": "Geben Sie Seitenbereiche wie „1-3, 5, 8-10“ ein und erhalten Sie eine neue PDF, die genau diese Seiten in dieser Reihenfolge enthält — auf Ihrem Gerät verarbeitet.",
+      "faq1q": "Welche Bereichsformate werden akzeptiert?",
+      "faq1a": "Einzelne Seiten (5), Bereiche (2-7) oder eine beliebige, durch Kommas getrennte Mischung wie 1-3, 6, 9-12.",
+      "faq2q": "Wird die Originaldatei verändert?",
+      "faq2a": "Niemals — es wird eine brandneue PDF erstellt und Ihr Original bleibt unangetastet auf Ihrem Gerät."
+    },
+    "pdf-to-text": {
+      "name": "PDF in Text umwandeln",
+      "desc": "Den gesamten Textinhalt einer PDF als reinen Text extrahieren.",
+      "long": "Liest die Textebene jeder Seite und liefert sauberen, kopierbaren Text — mit einem Ein-Klick-.txt-Download. Funktioniert mit arabischen, lateinischen und spanischen Dokumenten.",
+      "faq1q": "Warum hat meine gescannte PDF keinen Text geliefert?",
+      "faq1a": "Gescannte PDFs sind Bilder ohne Textebene. Die Textextraktion benötigt eine digital erstellte PDF; OCR für Scans steht auf unserer Roadmap.",
+      "faq2q": "Wird das Layout beibehalten?",
+      "faq2a": "Text wird seitenweise in Lesereihenfolge extrahiert, aber komplexe Layouts (Spalten, Tabellen) werden zu einfachem Fließtext."
+    },
+    "png-to-pdf": {
+      "name": "PNG in PDF",
+      "desc": "Ein oder mehrere PNG-Bilder zu einer einzigen PDF kombinieren.",
+      "long": "Jedes Bild wird in seiner ursprünglichen Auflösung zu einer Seite — Transparenz bleibt auf der PDF-Seite erhalten. Perfekt für Screenshots und Scans.",
+      "faq1q": "Kann ich die Seitenreihenfolge steuern?",
+      "faq1a": "Die Seiten folgen der Reihenfolge, in der Sie Dateien hinzufügen — entfernen Sie Dateien und fügen Sie sie erneut hinzu, um neu anzuordnen, oder verwenden Sie anschließend das Tool „PDF-Seiten neu anordnen“.",
+      "faq2q": "Wird die Bildqualität reduziert?",
+      "faq2a": "Nein — PNGs werden verlustfrei in ihrer vollständigen Originalauflösung eingebettet."
+    },
+    "pdf-metadata": {
+      "name": "PDF-Metadaten bearbeiten",
+      "desc": "Titel, Autor, Betreff und Schlüsselwörter einer PDF anzeigen und bearbeiten.",
+      "long": "Metadaten bestimmen, wie ein Dokument in Suchergebnissen und Dateimanagern erscheint. Bearbeiten Sie die Felder und laden Sie eine aktualisierte Kopie herunter — der Inhalt selbst bleibt unangetastet.",
+      "faq1q": "Warum sind Metadaten wichtig?",
+      "faq1a": "Suchmaschinen und Dokumentensysteme indizieren Titel- und Autorenfelder; korrekte Metadaten machen Ihre PDFs auffindbar und professionell.",
+      "faq2q": "Verändert das Bearbeiten der Metadaten den Dokumentinhalt?",
+      "faq2a": "Nein — es ändern sich nur die unsichtbaren Informationsfelder. Jede Seite bleibt byte-identisch."
+    },
+    "grayscale-pdf": {
+      "name": "PDF in Schwarzweiß",
+      "desc": "Eine Farb-PDF in Schwarzweiß umwandeln.",
+      "long": "Jede Seite wird auf Ihrem Gerät in Graustufen neu gerendert — ideal für druckfreundliche Versionen und zur Reduzierung des Tonerverbrauchs.",
+      "faq1q": "Bleibt der Text auswählbar?",
+      "faq1a": "Nein — die Seiten werden in hochauflösende Graustufenbilder umgewandelt, sodass die Textauswahl verloren geht. Bewahren Sie Ihr farbiges Original zum Bearbeiten auf.",
+      "faq2q": "Warum wurde meine Datei größer oder kleiner?",
+      "faq2a": "Seiten werden zu komprimierten Bildern; textlastige Dateien können leicht wachsen, während fotolastige Dateien oft schrumpfen."
+    },
+    "flip-image": {
+      "name": "Foto spiegeln",
+      "desc": "Ein Bild horizontal oder vertikal spiegeln.",
+      "long": "Mit einem Klick wird Ihr Foto entlang der jeweiligen Achse in voller Qualität gespiegelt — nützlich für Selfies, Scans und Design-Assets.",
+      "faq1q": "Was ist der Unterschied zwischen Spiegeln und Drehen?",
+      "faq1a": "Spiegeln spiegelt das Bild (links wird rechts); Drehen dreht es um seinen Mittelpunkt. Wir haben ein separates Dreh-Tool.",
+      "faq2q": "Geht beim Spiegeln Qualität verloren?",
+      "faq2a": "Nein — bei PNG-Quellen werden Pixel neu angeordnet, nicht neu komprimiert; JPGs werden in hoher Qualität neu codiert."
+    },
+    "png-to-jpg": {
+      "name": "PNG in JPG",
+      "desc": "PNG-Bilder mit weißem Hintergrund in JPG konvertieren.",
+      "long": "Transparente Bereiche werden auf Weiß gelegt und das Bild als hochwertiges JPG gespeichert — meist deutlich kleiner als das PNG.",
+      "faq1q": "Was passiert mit Transparenz?",
+      "faq1a": "JPG unterstützt keine Transparenz, daher werden transparente Bereiche mit Weiß gefüllt.",
+      "faq2q": "Wie viel kleiner wird die Datei?",
+      "faq2a": "Fotos schrumpfen typischerweise um 60–80 %. Grafiken mit wenigen Farben schrumpfen möglicherweise kaum — diese sollten besser als PNG erhalten bleiben."
+    },
+    "webp-to-jpg": {
+      "name": "WEBP in JPG",
+      "desc": "WebP-Bilder in das universell kompatible JPG-Format konvertieren.",
+      "long": "WebP-Dateien lassen sich in älterer Software manchmal nicht öffnen — konvertieren Sie sie mit einem Klick direkt in Ihrem Browser in JPG.",
+      "faq1q": "Warum von WebP wegkonvertieren?",
+      "faq1a": "Obwohl WebP effizient ist, lehnen einige Editoren, Drucker und ältere Systeme es weiterhin ab. JPG lässt sich überall öffnen.",
+      "faq2q": "Gibt es einen Qualitätsverlust?",
+      "faq2a": "Die Konvertierung codiert mit 92 % Qualität neu — in der Praxis ist das bei Fotos optisch identisch."
+    },
+    "jpg-to-webp": {
+      "name": "JPG in WEBP",
+      "desc": "JPG-/PNG-Bilder in das moderne, kleinere WebP konvertieren.",
+      "long": "WebP-Dateien sind bei gleicher visueller Qualität typischerweise 25–35 % kleiner als JPG — ideal für schnellere Websites.",
+      "faq1q": "Wo wird WebP unterstützt?",
+      "faq1a": "Alle modernen Browser (Chrome, Safari, Firefox, Edge) unterstützen WebP nativ — über 97 % der Webnutzer.",
+      "faq2q": "Wann sollte ich WebP nicht verwenden?",
+      "faq2a": "Bei Druck-Workflows oder Software, die JPG-/PNG-Eingaben erfordert. Für das Web ist WebP fast immer die bessere Wahl."
+    },
+    "add-text-to-image": {
+      "name": "Text auf Foto einfügen",
+      "desc": "Text auf ein Foto schreiben — Arabisch vollständig unterstützt.",
+      "long": "Wählen Sie Position, Farbe und Größe; der Text wird mit einer sauberen Kontur gezeichnet, damit er auf jedem Hintergrund lesbar bleibt. Arabische Schreibschrift wird korrekt geformt.",
+      "faq1q": "Wird arabischer Text korrekt dargestellt?",
+      "faq1a": "Ja — die native Text-Engine des Browsers übernimmt die arabische Buchstabenformung und die Rechts-nach-links-Ausrichtung korrekt.",
+      "faq2q": "Kann ich mehrere Zeilen hinzufügen?",
+      "faq2a": "Die aktuelle Version fügt pro Durchlauf eine einzelne Zeile hinzu — lassen Sie das Ergebnis für weitere Zeilen erneut durch das Tool laufen."
+    },
+    "pixelate-image": {
+      "name": "Foto verpixeln",
+      "desc": "Einen Retro-Pixelblock-Effekt anwenden oder Details unkenntlich machen.",
+      "long": "Wählen Sie die Pixelgröße mit einem Regler — von dezentem Mosaik bis zu starken Verpixelungsblöcken, sofort auf Ihrem Gerät verarbeitet.",
+      "faq1q": "Ist Verpixeln sicher, um sensible Daten zu verbergen?",
+      "faq1a": "Starke Verpixelung (20+) ist schwer rückgängig zu machen, aber für wirklich sensible Informationen ist das vollständige Ausschneiden sicherer.",
+      "faq2q": "Was ist der Unterschied zur Unschärfe?",
+      "faq2a": "Unschärfe weicht sanft auf; Verpixelung erzeugt harte quadratische Blöcke — der klassische Zensur- und Retro-Spiele-Look."
+    },
+    "round-corners": {
+      "name": "Foto-Ecken abrunden",
+      "desc": "Beliebigen Bildern abgerundete Ecken mit Transparenz hinzufügen.",
+      "long": "Wählen Sie den Eckenradius mit einem Regler und laden Sie ein PNG mit glatten transparenten Ecken herunter — perfekt für App-Icons und UI-Assets.",
+      "faq1q": "Warum ist die Ausgabe PNG?",
+      "faq1a": "Abgerundete Ecken benötigen Transparenz, die JPG nicht speichern kann. PNG hält die Ecken auf jedem Hintergrund scharf.",
+      "faq2q": "Kann ich einen vollständigen Kreis erzeugen?",
+      "faq2a": "Bei 50 % Radius auf einem quadratischen Bild erhalten Sie einen perfekten Kreis — oder verwenden Sie unser spezielles Tool zum kreisförmigen Zuschneiden."
+    },
+    "reverse-text": {
+      "name": "Text umkehren",
+      "desc": "Zeichen, Wortreihenfolge oder Zeilenreihenfolge umkehren.",
+      "long": "Drei Modi mit einem Klick: jedes Zeichen umdrehen, die Wortfolge umkehren oder die Zeilenreihenfolge invertieren — praktisch für Rätsel, Datenkorrekturen und zum Spaß.",
+      "faq1q": "Funktioniert es mit Arabisch?",
+      "faq1a": "Ja — die Umkehrung arbeitet auf Unicode-Zeichen, auch wenn verbundene arabische Schrift umgekehrt erwartungsgemäß ungewöhnlich aussieht.",
+      "faq2q": "Wofür ist die Zeilenumkehr nützlich?",
+      "faq2a": "Chronologische Listen, Logdateien oder Rankings ohne Tabellenkalkulation umdrehen."
+    },
+    "text-to-slug": {
+      "name": "Text in Slug",
+      "desc": "Jeden Titel in einen sauberen, URL-sicheren Slug verwandeln.",
+      "long": "Schreibt klein, entfernt Akzente und ersetzt Leerzeichen und Symbole während des Tippens durch Bindestriche. Arabische Buchstaben bleiben erhalten — moderne Browser und Suchmaschinen unterstützen arabische URLs vollständig.",
+      "faq1q": "Sind arabische Slugs gut für SEO?",
+      "faq1a": "Ja — Google indexiert und zeigt arabische URLs korrekt an, und gut lesbare arabische Slugs verbessern die Klickrate bei arabischsprachigen Nutzern.",
+      "faq2q": "Welche Zeichen werden entfernt?",
+      "faq2a": "Alles außer Buchstaben und Ziffern wird zu einem Bindestrich; akzentuierte lateinische Buchstaben werden in ihre Grundform umgewandelt (é → e)."
+    },
+    "binary-text": {
+      "name": "Binär ↔ Text",
+      "desc": "Text in Binärcode umwandeln und zurück.",
+      "long": "Kodiert Text als UTF-8-Bytes, die in 8-Bit-Binärgruppen angezeigt werden — und dekodiert sie zurück. Funktioniert mit jeder Sprache, einschließlich Arabisch.",
+      "faq1q": "Warum wird ein arabischer Buchstabe zu zwei Bytes?",
+      "faq1a": "UTF-8 kodiert nicht-lateinische Zeichen mit mehreren Bytes — das ist die Standardkodierung des modernen Webs.",
+      "faq2q": "Welches Format erwartet der Dekodierer?",
+      "faq2a": "Gruppen von bis zu 8 Binärziffern, durch Leerzeichen getrennt, z. B. 01001000 01101001."
+    },
+    "morse-code": {
+      "name": "Morse-Übersetzer",
+      "desc": "Text in Morsecode übersetzen und zurück.",
+      "long": "Internationaler Morsecode für Buchstaben, Zahlen und gängige Satzzeichen — Wörter durch „/“ getrennt, Buchstaben durch Leerzeichen.",
+      "faq1q": "Wie werden Wörter getrennt?",
+      "faq1a": "Buchstaben werden durch einzelne Leerzeichen getrennt und Wörter durch einen Schrägstrich (/), der üblichen Textkonvention.",
+      "faq2q": "Werden arabische Buchstaben unterstützt?",
+      "faq2a": "Der internationale Standard deckt lateinische Buchstaben und Ziffern ab; arabische Morsevarianten existieren, sind aber nicht standardisiert und daher nicht enthalten."
+    },
+    "number-base": {
+      "name": "Zahlensystem-Konverter",
+      "desc": "Zwischen Binär-, Oktal-, Dezimal- und Hexadezimalsystem umwandeln.",
+      "long": "Eine Zahl eingeben, ihr System wählen und sie sofort in allen vier Systemen lesen — mit Kopierfunktion per Klick für jedes.",
+      "faq1q": "Kann ich Werte mit Präfixen wie 0x einfügen?",
+      "faq1a": "Ja — 0x-, 0b- und 0o-Präfixe werden vor der Umrechnung automatisch entfernt.",
+      "faq2q": "Was ist der Maximalwert?",
+      "faq2a": "Alles im Bereich sicherer JavaScript-Ganzzahlen — über 9 Billiarden, weit über den Alltagsbedarf hinaus."
+    },
+    "roman-numerals": {
+      "name": "Römische Zahlen",
+      "desc": "Zahlen in römische Ziffern umwandeln und zurück.",
+      "long": "Geben Sie 2026 ein, um MMXXVI zu erhalten — oder fügen Sie eine römische Zahl ein, um sie zu dekodieren. Die Validierung weist fehlerhafte Zahlen wie IIII zurück.",
+      "faq1q": "Was ist der gültige Bereich?",
+      "faq1a": "Standardmäßige römische Ziffern decken 1 bis 3999 ab — es gibt keine standardmäßige Null oder größere Schreibweise.",
+      "faq2q": "Validiert es die strenge Form?",
+      "faq2a": "Ja — es werden nur kanonische Ziffern dekodiert; nicht standardmäßige Formen wie IM oder VV werden abgelehnt."
+    },
+    "random-number": {
+      "name": "Zufallszahl-Generator",
+      "desc": "Echte Zufallszahlen in jedem Bereich erzeugen.",
+      "long": "Verwendet kryptografische Zufälligkeit Ihres Browsers (nicht schwachen Pseudozufall) mit unverzerrter Stichprobenziehung — geeignet für Verlosungen und Gewinnspiele.",
+      "faq1q": "Ist das fair für eine Verlosung?",
+      "faq1a": "Ja — die Werte stammen aus crypto.getRandomValues mit Rejection-Sampling, sodass jede Zahl im Bereich exakt gleich wahrscheinlich ist.",
+      "faq2q": "Kann dieselbe Zahl zweimal erscheinen?",
+      "faq2a": "Ja, die Ziehungen sind unabhängig — wie beim Würfeln. Für eindeutige Auswahlen erzeugen Sie jeweils eine Zahl und entfernen die Gewinner aus Ihrer Liste."
+    },
+    "color-converter": {
+      "name": "Farbkonverter",
+      "desc": "Farben live zwischen HEX, RGB und HSL umwandeln.",
+      "long": "Eine Farbe wählen oder einen HEX-Code einfügen und alle drei Formate sofort lesen, mit Live-Farbfeld und Kopierfunktion per Klick.",
+      "faq1q": "Welches Format sollte ich in CSS verwenden?",
+      "faq1a": "Alle drei funktionieren überall. HEX ist kompakt, RGB intuitiv und HSL am einfachsten für hellere/dunklere Varianten.",
+      "faq2q": "Werden 3-stellige HEX-Codes unterstützt?",
+      "faq2a": "Ja — Kurzformen wie #fa0 werden automatisch zu #ffaa00 erweitert."
+    },
+    "css-minifier": {
+      "name": "CSS minimieren",
+      "desc": "CSS komprimieren, indem Kommentare und Leerraum entfernt werden.",
+      "long": "Entfernt alles, was der Browser nicht benötigt, und zeigt genau, wie viele Prozent Sie gespart haben — typischerweise 20–40 %.",
+      "faq1q": "Ist minifiziertes CSS sicher auszuliefern?",
+      "faq1a": "Ja — es werden nur Kommentare und unbedeutender Leerraum entfernt; Selektoren und Werte bleiben unangetastet.",
+      "faq2q": "Sollte ich die Originaldatei behalten?",
+      "faq2a": "Immer — bearbeiten Sie die lesbare Version und minifizieren Sie als letzten Build-Schritt."
+    },
+    "html-encode": {
+      "name": "HTML kodieren",
+      "desc": "HTML-Sonderzeichen maskieren oder Entities zurückdekodieren.",
+      "long": "Wandelt <, >, & und Anführungszeichen in sichere Entities um, um Code in Webseiten einzubetten — und dekodiert jede Entity zurück in Text.",
+      "faq1q": "Wann brauche ich HTML-Kodierung?",
+      "faq1a": "Immer wenn Sie Benutzertext oder Codebeispiele innerhalb von HTML anzeigen — unescapte < und & zerbrechen die Seite oder ermöglichen Injection.",
+      "faq2q": "Verarbeitet die Dekodierung benannte Entities?",
+      "faq2a": "Ja — &amp;, &copy;, &nbsp; und jede standardmäßige benannte oder numerische Entity werden dekodiert."
+    },
+    "timestamp-converter": {
+      "name": "Zeitstempel-Konverter",
+      "desc": "Unix-Zeitstempel in lesbare Daten umwandeln und zurück.",
+      "long": "Fügen Sie einen 10- oder 13-stelligen Zeitstempel oder einen beliebigen Datumsstring ein und lesen Sie ihn als Unix-Sekunden, -Millisekunden, ISO 8601 und Ihre lokale Zeit.",
+      "faq1q": "Was ist der Unterschied zwischen 10 und 13 Stellen?",
+      "faq1a": "10 Stellen sind Sekunden seit 1970; 13 Stellen sind Millisekunden. Das Tool erkennt, welche Variante Sie eingefügt haben.",
+      "faq2q": "Welche Zeitzone wird angezeigt?",
+      "faq2a": "Die ISO-Ausgabe ist UTC (das Z-Suffix); die lokale Zeile verwendet die Zeitzone Ihres Geräts."
+    },
+    "sort-lines": {
+      "name": "Zeilen sortieren",
+      "desc": "Textzeilen A→Z, Z→A, nach Länge sortieren oder zufällig mischen.",
+      "long": "Sprachbewusste Sortierung, die arabische, spanische und englische Alphabete korrekt behandelt — plus eine zufällige Mischung für Verlosungen.",
+      "faq1q": "Wird Arabisch korrekt sortiert?",
+      "faq1a": "Ja — die Sortierung verwendet gebietsschemabewusste Sortierregeln, sodass arabische Buchstaben der korrekten arabischen alphabetischen Reihenfolge folgen.",
+      "faq2q": "Was passiert mit leeren Zeilen?",
+      "faq2a": "Leere Zeilen werden beim Sortieren entfernt, sodass eine saubere Liste übrig bleibt."
+    },
+    "find-replace": {
+      "name": "Suchen & Ersetzen",
+      "desc": "Text in großen Mengen ersetzen, mit optionaler Regex-Unterstützung.",
+      "long": "Einfaches Suchen und Ersetzen mit Trefferzählung — aktivieren Sie den Regex-Modus für Muster, ersatzfreie Ersetzungen und die Steuerung der Groß-/Kleinschreibung.",
+      "faq1q": "Welche Regex-Variante wird unterstützt?",
+      "faq1a": "Reguläre Ausdrücke von JavaScript — Zeichenklassen, Quantifizierer, Anker, Alternation und mehr.",
+      "faq2q": "Ist es groß-/kleinschreibungsabhängig?",
+      "faq2a": "Standardmäßig nein — aktivieren Sie „Groß-/Kleinschreibung beachten“ für eine exakte Ersetzung."
+    },
+    "arabic-keyboard": {
+      "name": "Arabische Tastatur",
+      "desc": "Mit einer Bildschirmtastatur Arabisch tippen — kein arabisches Layout nötig.",
+      "long": "Klicken Sie Buchstaben, um auf jedem Gerät oder Computer ohne arabische Tastaturunterstützung arabischen Text zu verfassen, und kopieren Sie ihn dann mit einem Klick. Enthält Hamza-Formen und arabische Satzzeichen.",
+      "faq1q": "Für wen ist das gedacht?",
+      "faq1a": "Für alle, die ein Gerät ohne arabisches Layout verwenden — Reisende, Studierende und Arabischsprechende, die fremde Computer nutzen.",
+      "faq2q": "Kann ich Tippen und Klicken mischen?",
+      "faq2a": "Ja — das Textfeld akzeptiert auch normales Tippen, sodass Sie beides kombinieren können."
+    },
+    "arabic-transliteration": {
+      "name": "Arabische Transliteration",
+      "desc": "Arabische Schrift in lesbare lateinische Buchstaben umwandeln.",
+      "long": "Transliteriert arabischen Text Buchstabe für Buchstabe in eine gut lesbare Romanisierung — nützlich für Namen, Adressen und das Sprachenlernen.",
+      "faq1q": "Ist das eine Übersetzung?",
+      "faq1a": "Nein — die Transliteration wandelt Laute/Buchstaben um, nicht die Bedeutung. مرحبا wird zu marhba, nicht zu „Hallo“.",
+      "faq2q": "Welches Romanisierungssystem wird verwendet?",
+      "faq2a": "Ein vereinfachtes, gut lesbares Schema (kh, sh, gh, dh für خ ش غ ذ) statt strenger akademischer Notation — optimiert für den Alltagsgebrauch."
+    },
+    "zakat-calculator": {
+      "name": "Zakat-Rechner",
+      "desc": "Die fällige Zakat von 2,5 % auf Ihr Vermögen berechnen.",
+      "long": "Geben Sie Ihr Bargeld, Gold/Investitionen und ausstehende Schulden ein — das Tool berechnet Ihre Zakat-Basis und den fälligen Betrag, vollständig auf Ihrem Gerät, damit Ihre Finanzen privat bleiben.",
+      "faq1q": "Wie wird Zakat berechnet?",
+      "faq1a": "Zakatpflichtiges Vermögen (Bargeld + Gold/Silber/Investitionen − fällige Schulden), das ein Mondjahr gehalten wird, ist mit 2,5 % fällig, wenn es den Nisab übersteigt (Wert von 85 g Gold).",
+      "faq2q": "Sind meine Finanzdaten sicher?",
+      "faq2a": "Vollständig — nichts, was Sie eingeben, wird irgendwohin übertragen. Die Berechnung läuft in Ihrem Browser und verschwindet, wenn Sie die Seite schließen."
+    },
+    "age-calculator": {
+      "name": "Alter berechnen",
+      "desc": "Ihr genaues Alter berechnen — mit dem Hidschra-Geburtsdatum.",
+      "long": "Geben Sie Ihr Geburtsdatum ein und sehen Sie Ihr genaues Alter in Jahren, Monaten und Tagen, Ihre insgesamt gelebten Tage, Ihr Hidschra-Geburtsdatum (Umm al-Qura) und den Countdown bis zu Ihrem nächsten Geburtstag.",
+      "faq1q": "Wie genau ist die Hidschra-Umrechnung?",
+      "faq1a": "Sie verwendet den offiziellen, in Ihren Browser integrierten Umm-al-Qura-Kalender — denselben Kalender, der in Saudi-Arabien verwendet wird.",
+      "faq2q": "Berücksichtigt er Schaltjahre?",
+      "faq2a": "Ja — die Jahr-/Monat-/Tag-Arithmetik behandelt Schaltjahre und unterschiedliche Monatslängen exakt."
+    },
+    "excel-to-csv": {
+      "name": "Excel in CSV",
+      "desc": "Excel-Tabellen (.xlsx) in CSV-Dateien konvertieren.",
+      "long": "Liest das erste Arbeitsblatt — einschließlich Formelergebnissen, Daten und Rich-Text — und erzeugt eine saubere CSV mit UTF-8-Kodierung, sodass sich arabische und akzentuierte Texte in jedem Programm korrekt öffnen.",
+      "faq1q": "Werden Formeln umgewandelt?",
+      "faq1a": "Ja — das berechnete Ergebnis jeder Formel wird exportiert, nicht die Formel selbst.",
+      "faq2q": "Warum öffnet sich meine CSV mit defekten arabischen Zeichen?",
+      "faq2a": "Unsere CSV enthält gezielt eine UTF-8-Byte-Reihenfolge-Markierung, damit Excel arabische und akzentuierte Texte korrekt öffnet."
+    },
+    "csv-to-excel": {
+      "name": "CSV in Excel",
+      "desc": "CSV-Dateien in formatierte Excel-Tabellen umwandeln.",
+      "long": "Verarbeitet in Anführungszeichen gesetzte Felder, Kommas innerhalb von Werten und automatisch erkannte Trennzeichen (Semikolons, Tabs) — die Ausgabe hat eine fette Kopfzeile und automatisch angepasste Spaltenbreiten.",
+      "faq1q": "Meine CSV verwendet Semikolons — unterstützt?",
+      "faq1a": "Ja, der Parser erkennt Kommas, Semikolons und Tabs automatisch.",
+      "faq2q": "Gibt es eine Zeilengrenze?",
+      "faq2a": "Keine feste Grenze — Dateien mit Zehntausenden von Zeilen lassen sich problemlos konvertieren; sehr große Dateien benötigen nur ein paar Sekunden."
+    },
+    "excel-to-json": {
+      "name": "Excel in JSON",
+      "desc": "Excel-Tabellen in ein JSON-Array von Objekten umwandeln.",
+      "long": "Die erste Zeile wird zu den Eigenschaftsnamen und jede folgende Zeile zu einem Objekt — kopieren Sie das Ergebnis oder laden Sie es als .json-Datei herunter.",
+      "faq1q": "Wie werden leere Zellen behandelt?",
+      "faq1a": "Leere Zellen werden zu null-Werten, wodurch die Struktur jedes Objekts konsistent bleibt.",
+      "faq2q": "Was ist mit Daten?",
+      "faq2a": "Excel-Daten werden im universellen Format JJJJ-MM-TT exportiert."
+    },
+    "json-to-excel": {
+      "name": "JSON in Excel",
+      "desc": "Ein JSON-Array in eine formatierte Excel-Datei umwandeln.",
+      "long": "Fügen Sie ein Array von Objekten ein — Schlüssel werden zu Spaltenüberschriften (über alle Objekte vereinigt), verschachtelte Objekte werden als String dargestellt, und das Blatt erhält eine fette Kopfzeile mit automatisch angepassten Spaltenbreiten.",
+      "faq1q": "Was, wenn Objekte unterschiedliche Schlüssel haben?",
+      "faq1a": "Die Vereinigung aller Schlüssel wird zum Spaltensatz; fehlende Werte bleiben leer.",
+      "faq2q": "Kann ich ein einzelnes Objekt konvertieren?",
+      "faq2a": "Ja — ein einzelnes Objekt wird zu einer einzeiligen Tabelle."
+    },
+    "mt940-to-excel": {
+      "name": "MT940 in Excel",
+      "desc": "MT940-Kontoauszüge (SWIFT) in Excel umwandeln.",
+      "long": "Banken wie ING, Rabobank und ABN AMRO exportieren Kontoauszüge im MT940-Format (.940/.sta). Dieses Tool parst jede Transaktion — Datum, Beschreibung, Soll, Haben, Verwendungszweck — in eine saubere Excel-Tabelle, vollständig auf Ihrem Gerät, sodass Ihre Bankdaten Ihren Computer niemals verlassen.",
+      "faq1q": "Sind meine Bankdaten sicher?",
+      "faq1a": "Vollständig — der Kontoauszug wird in Ihrem Browser geparst, und nichts wird irgendwohin übertragen. Trennen Sie die Internetverbindung, und das Tool funktioniert weiter.",
+      "faq2q": "Welche Banken werden unterstützt?",
+      "faq2a": "Jede Bank, die standardisiertes SWIFT MT940 exportiert — einschließlich ING, Rabobank, ABN AMRO, Deutsche Bank und der meisten europäischen Banken. Reversierungsbuchungen (RC/RD) werden korrekt behandelt."
+    },
+    "txt-to-mt940": {
+      "name": "TXT in MT940",
+      "desc": "Konvertieren Sie eine Text- oder CSV-Datei mit Transaktionen in einen MT940-Auszug.",
+      "long": "Laden Sie eine reine Text- oder CSV-Datei mit den Spalten Datum, Beschreibung, Soll, Haben, WÃ¤hrung und Verwendungszweck hoch (jedes Trennzeichen â€” Komma, Semikolon, Tabulator oder Pipe â€” wird automatisch erkannt), und dieses Tool erstellt einen vollstÃ¤ndigen SWIFT-MT940-Auszug (.940/.sta) mit Kopf, Anfangs- und Endsaldo sowie jeder Transaktion, vollstÃ¤ndig auf Ihrem GerÃ¤t.",
+      "faq1q": "Welche Trennzeichen werden unterstÃ¼tzt?",
+      "faq1a": "Komma, Semikolon, Tabulator und Pipe werden alle automatisch erkannt, und in AnfÃ¼hrungszeichen gesetzte Felder werden behandelt. Eine Kopfzeile mit Spaltennamen wird Ã¼bersprungen.",
+      "faq2q": "Welches Format mÃ¼ssen die Betragsspalten haben?",
+      "faq2a": "Einfache Zahlen wie 1234.56. Tragen Sie einen Soll-Betrag in die Soll-Spalte und einen Haben-Betrag in die Haben-Spalte ein; eine Zeile muss mindestens eine der beiden enthalten."
+    },
+    "excel-to-mt940": {
+      "name": "Excel in MT940",
+      "desc": "Excel-Transaktionstabelle in einen MT940-Kontoauszug umwandeln.",
+      "long": "Das GegenstÃ¼ck zu MT940 in Excel: Laden Sie eine Tabelle mit den Spalten Datum, Beschreibung, Soll, Haben, WÃ¤hrung und Verwendungszweck hoch, und dieses Tool erstellt wieder einen vollstÃ¤ndigen SWIFT-MT940-Auszug (.940/.sta) mit Kopf, Anfangs- und Endsaldo sowie jeder Transaktion â€” vollstÃ¤ndig auf Ihrem GerÃ¤t, sodass Ihre Bankdaten Ihren Computer nie verlassen.",
+      "faq1q": "Sind meine Bankdaten sicher?",
+      "faq1a": "VollstÃ¤ndig â€” alles wird in Ihrem Browser erzeugt und nichts wird Ã¼bertragen. Trennen Sie die Internetverbindung, und das Tool funktioniert trotzdem.",
+      "faq2q": "Welche Spalten muss die Excel-Arbeitsmappe haben?",
+      "faq2a": "Sechs Spalten in dieser Reihenfolge: Datum (JJJJ-MM-TT), Beschreibung, Soll, Haben, WÃ¤hrung und Verwendungszweck â€” dasselbe Layout, das die MT940-in-Excel-Funktion dieser Website erzeugt."
+    },
+    "invoice-generator": {
+      "name": "Rechnung erstellen",
+      "desc": "Eine professionelle Rechnung mit Ihrem Logo, Steuern und jeder Währung erstellen.",
+      "long": "Füllen Sie Ihre Unternehmens- und Kundendaten aus, fügen Sie Positionen hinzu und laden Sie eine hochwertige PDF-Rechnung herunter — vollständig auf Ihrem Gerät erzeugt. Da arabischer Text eine korrekte Buchstabenformung benötigt, die PDF-Schriften nicht direkt leisten können, wird die Rechnung zuerst pixelgenau in Ihrem Browser gerendert und dann als PDF-Seite gespeichert.",
+      "faq1q": "Ist der Rechnungstext in der PDF auswählbar?",
+      "faq1a": "Nein — um arabischen, englischen und spanischen Text korrekt und konsistent darzustellen, wird die Rechnung als gestochen scharfes Bild gezeichnet und in die PDF-Seite eingebettet. Sie lässt sich perfekt drucken und anzeigen, aber der Text selbst ist nicht auswählbar.",
+      "faq2q": "Kann ich mein eigenes Logo und meine Währung verwenden?",
+      "faq2a": "Ja — laden Sie ein PNG- oder JPG-Logo hoch und wählen Sie aus gängigen Währungen (USD, EUR, SAR, AED, EGP, GBP). Steuerprozentsatz und Summen werden automatisch berechnet."
+    },
+    "cv-builder": {
+      "name": "Lebenslauf-Ersteller",
+      "desc": "Einen sauberen, einspaltigen Lebenslauf erstellen, den Bewerbertracking-Systeme lesen können.",
+      "long": "Füllen Sie Ihre Berufserfahrung, Ausbildung und Fähigkeiten aus — das Layout ist bewusst schlicht (eine Spalte, klare Überschriften, keine Tabellen oder Grafiken), weil genau das ATS-Software zuverlässig parsen kann. Lange Lebensläufe laufen automatisch auf zusätzliche Seiten über.",
+      "faq1q": "Warum sieht das Design so schlicht aus?",
+      "faq1a": "Die Bewerbertracking-Systeme der meisten Arbeitgeber tun sich mit mehrspaltigen Layouts, Symbolen und Textfeldern schwer. Ein einspaltiger Lebenslauf mit klaren Überschriften wird mit größerer Wahrscheinlichkeit korrekt geparst und erreicht einen menschlichen Prüfer.",
+      "faq2q": "Darf mein Lebenslauf mehr als eine Seite haben?",
+      "faq2a": "Ja — Inhalt, der nicht auf die erste Seite passt, wird automatisch auf zusätzlichen Seiten fortgesetzt."
+    },
+    "flatten-pdf": {
+      "name": "PDF vereinfachen",
+      "desc": "Formularfelder und Anmerkungen zu einem festen Bestandteil der Seite machen.",
+      "long": "Interaktive Formularfelder, Kommentare und Ebenen werden in den flachen Seiteninhalt überführt, sodass Ihre PDF überall identisch aussieht und von anderen nicht mehr bearbeitet werden kann.",
+      "faq1q": "Was passiert mit ausgefüllten Formularfeldern?",
+      "faq1a": "Ihre aktuellen Werte werden zu dauerhaftem Drucktext; das Formular selbst ist nicht mehr interaktiv.",
+      "faq2q": "Funktioniert das auch bei PDFs ohne Formular?",
+      "faq2a": "Ja — wenn es nichts zu vereinfachen gibt, wird die Datei einfach unverändert neu gespeichert."
+    },
+    "crop-pdf": {
+      "name": "PDF zuschneiden",
+      "desc": "Weiße Ränder entfernen oder den sichtbaren Seitenbereich einer PDF ändern.",
+      "long": "Wählen Sie einen Randprozentsatz, und der sichtbare Bereich jeder Seite schrumpft nach innen — praktisch, um überschüssigen Leerraum vor dem Drucken oder dem Einbetten von Seiten zu entfernen.",
+      "faq1q": "Löscht das Zuschneiden Inhalt?",
+      "faq1a": "Nein — es ändert nur die sichtbare Seitenbegrenzung (Crop-Box); der darunterliegende Seiteninhalt bleibt erhalten.",
+      "faq2q": "Kann ich pro Seite ungleichmäßig zuschneiden?",
+      "faq2a": "Die aktuelle Version wendet auf allen Seiten denselben Prozentsatz an. Individuelles Zuschneiden pro Seite steht auf unserer Roadmap."
+    },
+    "code-snippet": {
+      "name": "Code in Bild",
+      "desc": "Quellcode in ein teilbares, syntaxhervorgehobenes Bild verwandeln.",
+      "long": "Beliebigen Code einfügen, ein helles oder dunkles Design wählen und ein sauberes PNG mit macOS-artiger Titelleiste herunterladen — perfekt für Tweets, Präsentationen und Dokumentationen.",
+      "faq1q": "Welche Sprachen werden hervorgehoben?",
+      "faq1a": "Ein leichtgewichtiger Highlighter erkennt gängige Schlüsselwörter, Strings, Kommentare und Zahlen in den meisten C-ähnlichen und Skriptsprachen.",
+      "faq2q": "Kann ich den in der Titelleiste angezeigten Dateinamen ändern?",
+      "faq2a": "Ja — bearbeiten Sie das Dateinamenfeld oberhalb des Codebereichs, bevor Sie herunterladen."
+    },
+    "handwriting": {
+      "name": "Handschrift-Generator",
+      "desc": "Getippten Text in ein natürlich handgeschriebenes Bild verwandeln.",
+      "long": "Wählen Sie liniertes, blankes oder kariertes Papier und eine Tintenfarbe, und Ihr Text wird in einer fließenden Handschrifttype gerendert — arabische Schreibschrift verbindet und formt sich korrekt.",
+      "faq1q": "Ist das echte Handschrift oder eine Schriftart?",
+      "faq1a": "Es wird eine offene Handschrifttype verwendet, die Ihr Browser renderiert — kein Scan echter Handschrift — aber es sieht natürlich aus und liest sich gut.",
+      "faq2q": "Unterstützt es Arabisch?",
+      "faq2a": "Ja — es wird eine spezielle arabische Anzeigeschrift verwendet, damit sich die Buchstaben korrekt verbinden und formen, anders als einfache Textschriften, die in einen „Handschrift“-Stil gezwungen werden."
+    },
+    "ghost-text": {
+      "name": "Versteckter Text",
+      "desc": "Eine geheime Nachricht unsichtbar in gewöhnlich aussehenden Text einweben.",
+      "long": "Ihre Nachricht wird mit unsichtbaren Nullbreitenzeichen kodiert, die in sichtbaren Text eingewoben werden — kopieren Sie das Ergebnis überallhin, und nur jemand mit diesem Tool kann es aufdecken.",
+      "faq1q": "Wird der versteckte Text sichtbar, wenn ich ihn irgendwo einfüge?",
+      "faq1a": "Nein — die unsichtbaren Zeichen haben die Breite null und werden in den meisten Apps nicht angezeigt, auch wenn einige Plattformen sie beim Einfügen entfernen können.",
+      "faq2q": "Ist das eine sichere Verschlüsselung?",
+      "faq2a": "Nein — betrachten Sie es als unterhaltsame Möglichkeit, eine Notiz offen sichtbar zu verstecken, nicht als Schutz für sensible Geheimnisse."
+    },
+    "steganography": {
+      "name": "Nachricht in Bild verstecken",
+      "desc": "Eine Textnachricht in einem gewöhnlichen PNG-Foto verbergen.",
+      "long": "Ihre Nachricht wird in die niedrigstwertigen Bits der Bildpixel kodiert — für das Auge unsichtbar, aber mit genau diesem Tool wiederherstellbar.",
+      "faq1q": "Verändert das Verstecken das Aussehen des Bildes?",
+      "faq1a": "Kein sichtbarer Unterschied — es ändert sich nur das allerletzte Bit der Farbe jedes Pixels, weit unterhalb dessen, was das menschliche Auge wahrnehmen kann.",
+      "faq2q": "Warum muss das Bild ein PNG sein?",
+      "faq2a": "Die JPEG-Komprimierung verwirft genau die Art feiner Pixeldetails, auf die sich die versteckte Nachricht stützt. PNG erhält jedes Bit exakt."
+    },
+    "file-xray": {
+      "name": "Datei untersuchen",
+      "desc": "Den wahren Typ, die Größe und die Rohbytes jeder Datei untersuchen.",
+      "long": "Laden Sie eine beliebige Datei hoch, um ihren deklarierten Typ, ihren anhand von Binärsignaturen erkannten echten Typ, bei Bildern die Abmessungen und einen Hex-Dump der ersten Bytes zu sehen — nützlich, um zu überprüfen, ob eine Datei das ist, was sie zu sein vorgibt.",
+      "faq1q": "Warum weicht der deklarierte Typ einer Datei vom echten Typ ab?",
+      "faq1a": "Eine umbenannte Datei (z. B. eine .txt, die eigentlich ein JPEG enthält) behält ihre alte Endung, aber ihre Binärsignatur verrät die Wahrheit.",
+      "faq2q": "Wird meine Datei irgendwo hochgeladen?",
+      "faq2a": "Nein — nur die ersten 64 Bytes werden lokal in Ihrem Browser gelesen, um die Signatur zu erkennen; die Datei selbst verlässt niemals Ihr Gerät."
+    },
+    "organize-pdf": {
+      "name": "PDF-Seiten organisieren",
+      "desc": "Seiten an einem Ort neu anordnen, drehen, löschen und extrahieren.",
+      "long": "Laden Sie eine PDF und ordnen Sie jede Seite genau nach Ihren Bedürfnissen an. Ziehen Sie Seiten in eine neue Reihenfolge, drehen Sie einzelne Seiten, löschen Sie die, die Sie nicht benötigen, und exportieren Sie ein sauberes, organisiertes Dokument — alles in Ihrem Browser.",
+      "faq1q": "Kann ich nur einige Seiten entfernen oder drehen?",
+      "faq1a": "Ja. Klicken Sie auf eine Seitenminiatur, um sie auszuwählen oder abzuwählen, verwenden Sie die Dreh-Schaltfläche auf jeder Seite und ordnen Sie vor dem Export frei um.",
+      "faq2q": "Wird meine PDF irgendwo hochgeladen?",
+      "faq2a": "Nein. Alles geschieht lokal auf Ihrem Gerät. Nichts wird an einen Server gesendet."
+    },
+    "images-to-pdf": {
+      "name": "Bilder in PDF",
+      "desc": "Konvertieren Sie mehrere JPG-, PNG- oder WebP-Bilder in eine einzige PDF.",
+      "long": "Wählen Sie mehrere Bilder, ordnen Sie ihre Reihenfolge, bestimmen Sie Seitengröße und Ränder und exportieren Sie alles in eine PDF. Neuanordnung und Layout erfolgen vollständig lokal in Ihrem Browser.",
+      "faq1q": "Welche Bildformate werden unterstützt?",
+      "faq1a": "Alle gängigen Formate, die Ihr Browser anzeigen kann, einschließlich JPG, PNG, WebP, GIF und mehr.",
+      "faq2q": "Kann ich die Seitenausrichtung ändern?",
+      "faq2a": "Ja. Bei A4-Seiten können Sie Hoch- oder Querformat wählen; andernfalls passt sich die Seite automatisch jedem Bild an."
+    },
+    "protect-pdf": {
+      "name": "PDF-Entsperren",
+      "desc": "Entfernen Sie das Passwort und entsperren Sie geschützte PDF-Dateien.",
+      "long": "Laden Sie eine passwortgeschützte PDF hoch, die Sie verwenden dürfen, und dieses Tool speichert sie ohne das Passwort neu — vollständig in Ihrem Browser. Die Datei verlässt niemals Ihr Gerät.",
+      "faq1q": "Welche verschlüsselten PDFs werden unterstützt?",
+      "faq1a": "PDFs mit gängiger Passwortverschlüsselung lassen sich meist ohne das Passwort öffnen und neu speichern. Einige seltene oder stark geschützte Dokumente werden möglicherweise nicht unterstützt.",
+      "faq2q": "Wird wirklich lokal verarbeitet?",
+      "faq2a": "Ja. Der gesamte Prozess läuft auf Ihrem Gerät, und nichts wird auf einen Server hochgeladen."
+    },
+    "pdf-redaction": {
+      "name": "PDF-Schwärzung",
+      "desc": "Sensiblen Text in Ihrer PDF dauerhaft schwärzen.",
+      "long": "Geben Sie die Wörter ein, die Sie verbergen möchten, und dieses Tool findet jedes Vorkommen auf allen Seiten und legt vor dem Export solide schwarze Kästchen darüber. Der entfernte Text erscheint nicht mehr in der Ausgabe.",
+      "faq1q": "Wird der verborgene Text wirklich entfernt?",
+      "faq1a": "Ja. Der passende Text wird in der exportierten Datei mit einem dauerhaften schwarzen Rechteck abgedeckt, nicht nur unsichtbar gemacht.",
+      "faq2q": "Funktioniert es bei gescannten PDFs?",
+      "faq2a": "Es funktioniert bei PDFs, die Text enthalten. Gescannte Seiten ohne Textebene können nicht nach Wörtern durchsucht werden."
+    },
+    "pdf-editor": {
+      "name": "PDF bearbeiten",
+      "desc": "Bearbeiten Sie PDF-Dateien online: fügen Sie Text, Bilder und Unterschriften hinzu.",
+      "long": "Wählen Sie eine Seite, schreiben Sie den Text, den Sie hinzufügen möchten, bestimmen Sie Größe, Farbe und Position und platzieren Sie ihn auf Ihrer PDF. Auf derselben Seite können mehrere Textüberlagerungen geschichtet werden.",
+      "faq1q": "Kann ich vorhandenen Text bearbeiten?",
+      "faq1a": "Dieses Tool fügt neue Textüberlagerungen auf einer Seite hinzu. Zum Bearbeiten des ursprünglichen Textes selbst müssten Sie das Quelldokument neu erzeugen.",
+      "faq2q": "Wo wird der Text platziert?",
+      "faq2a": "Verwenden Sie die X- und Y-Prozentsätze, um den Text von der unteren linken Ecke der Seite aus überall zu positionieren."
+    },
+    "pdf-to-audio": {
+      "name": "PDF in Audio",
+      "desc": "Ihre PDF als gesprochenes Audio anhören.",
+      "long": "Extrahieren Sie den Text aus Ihrer PDF und spielen Sie ihn mit der eingebauten Sprachausgabe Ihres Browsers laut ab. Passen Sie die Lesegeschwindigkeit an und behalten Sie den extrahierten Text bei Bedarf als Datei.",
+      "faq1q": "Funktioniert es offline?",
+      "faq1a": "Die Textextraktion läuft lokal. Die Sprachwiedergabe verwendet Ihre Systemstimmen, die normalerweise offline funktionieren.",
+      "faq2q": "Wird das Audio als Datei heruntergeladen?",
+      "faq2a": "Sprache wird in Echtzeit über Ihren Browser abgespielt. Sie können die extrahierte Textdatei auch für andere Zwecke herunterladen."
+    },
+    "document-scanner": {
+      "name": "Dokumente scannen",
+      "desc": "Ein Foto eines Dokuments in einen sauberen Scan verwandeln.",
+      "long": "Laden Sie ein mit Telefon oder Kamera aufgenommenes Foto hoch und verfeinern Sie es zu einem sauberen Scan-Look — passen Sie Helligkeit und Kontrast an und konvertieren Sie es zu Schwarzweiß, dann laden Sie es als PNG oder PDF herunter.",
+      "faq1q": "Ist eine Internetverbindung erforderlich?",
+      "faq1a": "Nein. Die gesamte Bildverarbeitung erfolgt lokal auf Ihrem Gerät mithilfe des HTML-Canvas.",
+      "faq2q": "Kann ich es mit meiner Kamera verwenden?",
+      "faq2a": "Wählen Sie die Bilddatei von Ihrem Gerät oder aus der Galerie. Jedes Gerät wird unterstützt, da es im Browser läuft."
+    },
+    "qr-with-logo": {
+      "name": "QR-Code mit Logo",
+      "desc": "Bunte QR-Codes mit Ihrem Logo in der Mitte erstellen.",
+      "long": "Erstellen Sie einen personalisierten QR-Code in Ihren Markenfarben und platzieren Sie ein Logo in der Mitte. Es wird eine hohe Fehlerkorrektur verwendet, sodass der Code auch mit überlagerndem Logo zuverlässig gescannt werden kann.",
+      "faq1q": "Lässt sich der Code mit Logo trotzdem scannen?",
+      "faq1a": "Ja. Es wird die höchste Fehlerkorrekturstufe verwendet, sodass der QR-Code auch mit Logo in der Mitte scanbar bleibt.",
+      "faq2q": "Welchen Inhalt kann er aufnehmen?",
+      "faq2a": "Beliebigen Text, URLs, WLAN-Konfigurationen oder Kontaktdaten — genau wie ein normaler QR-Code."
+    },
+    "certificate-generator": {
+      "name": "Zertifikat erstellen",
+      "desc": "Ein professionelles Zertifikat entwerfen und herunterladen.",
+      "long": "Geben Sie den Namen des Empfängers, den Kurs- oder Leistungstitel und Ihre Organisation ein, wählen Sie die Sprache und laden Sie sofort ein schön gestaltetes Zertifikat als hochauflösendes Bild herunter.",
+      "faq1q": "Muss ich mich registrieren?",
+      "faq1a": "Nein. Das Zertifikat wird vollständig in Ihrem Browser erstellt, ohne Konto oder Upload.",
+      "faq2q": "Welches Format erhalte ich?",
+      "faq2a": "Sie laden ein hochauflösendes PNG-Bild herunter, das Sie auf Standardpapier drucken oder digital versenden können."
+    },
+    "letter-generator": {
+      "name": "Offiziellen Brief erstellen",
+      "desc": "Formelle Briefe mit vorgefertigten Formulierungen verfassen.",
+      "long": "Wählen Sie einen Brieftyp — Kündigung, Urlaub, Beschwerde, Einspruch, Versetzung oder Bewerbung — geben Sie Ihren Namen und Ihre Daten ein und erhalten Sie sofort korrekt formulierte formelle Texte, die Sie kopieren oder herunterladen können.",
+      "faq1q": "Welche Sprachen sind verfügbar?",
+      "faq1a": "Die Briefformulare passen sich an Ihre Websitensprache an und sind auf Arabisch, Englisch und Spanisch verfügbar.",
+      "faq2q": "Kann ich die Formulierung bearbeiten?",
+      "faq2a": "Ja. Der erzeugte Brief erscheint in einem bearbeitbaren Textfeld, das Sie vor dem Kopieren oder Herunterladen frei anpassen können."
+    },
+    "id-card-generator": {
+      "name": "Mitarbeiter-Ausweis erstellen",
+      "desc": "Erstellen Sie einen professionellen Mitarbeiterausweis mit Foto, Barcode und QR-Code.",
+      "long": "Geben Sie Name, Berufsbezeichnung, Einstellungsdatum und Personalnummer ein, fügen Sie ein Foto hinzu und laden Sie eine saubere Karte im ISO-ID-1-Format (85,6 × 54 mm) als PDF herunter. Ein CODE128-Barcode und ein QR-Code werden automatisch aus der Personalnummer generiert — die gesamte Verarbeitung erfolgt auf Ihrem Gerät.",
+      "ui": {
+        "name": "Vollständiger Name",
+        "title": "Berufsbezeichnung",
+        "hireDate": "Eintrittsdatum",
+        "idNumber": "Personalnummer",
+        "company": "Organisation / Unternehmen",
+        "photo": "Foto",
+        "uploadPhoto": "Foto auswählen",
+        "capturePhoto": "Foto aufnehmen",
+        "cancel": "Abbrechen",
+        "removePhoto": "Entfernen",
+        "logo": "Firmenlogo (optional)",
+        "uploadLogo": "Logo auswählen",
+        "removeLogo": "Entfernen",
+        "wmIntensity": "Wasserzeichen-Opazität",
+        "wmSizeLabel": "Wasserzeichen-Größe",
+        "placeholder": "Mitarbeiter",
+        "titlePlaceholder": "z. B. Software-Entwickler",
+        "idPlaceholder": "EMP-0001",
+        "save": "Karte ansehen",
+        "print": "Karte als PDF herunterladen",
+        "reset": "Zurücksetzen",
+        "hint": "Füllen Sie die Felder aus und klicken Sie auf « Karte ansehen », um das Design zu sehen",
+        "emptyName": "Geben Sie einen Namen ein, um die Karte zu erstellen",
+        "scanHint": "Beim Scannen zeigt der QR-Code alle Mitarbeiterdaten. Tippen Sie auf den QR auf der Karte, um ihn zu vergrößern (der Barcode enthält nur die Personalnummer).",
+        "qrName": "Name",
+        "qrTitle": "Position",
+        "qrCompany": "Unternehmen",
+        "qrHire": "Eintrittsdatum",
+        "scanDataLabel": "QR-Inhalt (was beim Scannen angezeigt wird):",
+        "employeeId": "Personalnummer",
+        "hire": "Eintrittsdatum",
+        "color": "Primärfarbe",
+        "preview": "Vorschau",
+        "size": "Größe",
+        "processing": "Wird erstellt...",
+        "cameraUnsupported": "Ihr Browser unterstützt keinen Kamerazugriff.",
+        "cameraDenied": "Kamera konnte nicht geöffnet werden. Bitte erlauben Sie den Zugriff und versuchen Sie es erneut.",
+        "createInvoice": "Rechnung erstellen"
+      },
+      "faq1q": "Wie groß ist die Karte?",
+      "faq1a": "Die Karte entspricht dem ISO-ID-1-Standard (85,6 × 54 mm, Größe einer Kreditkarte oder eines Personalausweises) und wird mit 300 DPI exportiert.",
+      "faq2q": "Enthält der Barcode meine Personalnummer?",
+      "faq2a": "Ja — der CODE128-Barcode und der QR-Code speichern beide die von Ihnen eingegebene Personalnummer, sodass der Ausweis von Standard-Lesegeräten gescannt werden kann."
+    }
+  },
+  "footer": {
+    "rights": "Kostenlose browserbasierte Datei-Tools. Ihre Dateien verlassen niemals Ihr Gerät.",
+    "madeBy": "Erstellt von hoursmedia",
+    "toolsCol": "Tools",
+    "popularCol": "Beliebte Tools",
+    "companyCol": "Unternehmen",
+    "blog": "Blog"
+  },
+  "breadcrumb": {
+    "home": "Startseite"
+  },
+  "pages": {
+    "about": {
+      "title": "Über ChooseTools",
+      "body": [
+        "ChooseTools ist eine Sammlung kostenloser Datei-Tools, die vollständig in Ihrem Browser laufen. Anders als traditionelle Tool-Websites empfangen wir Ihre Dateien niemals: das Zusammenführen einer PDF, das Komprimieren eines Fotos oder das Erzeugen eines QR-Codes geschieht lokal auf Ihrem eigenen Gerät.",
+        "Diese Architektur hat drei Konsequenzen, auf die wir stolz sind. Erstens Datenschutz — eine Datei, die niemals übertragen wird, kann nie durchsickern, protokolliert oder aufbewahrt werden. Zweitens Geschwindigkeit — es gibt keine Upload- oder Downloadzeit, sodass selbst große Dateien sofort verarbeitet werden. Drittens Ehrlichkeit — weil die Verarbeitung uns nichts kostet, können wir echte unbegrenzte Nutzung ohne Dateigrößenbegrenzungen, Tageskontingente oder Wasserzeichen anbieten.",
+        "Die Plattform ist in vielen Sprachen verfügbar, wobei jede Erklärung nativ verfasst und nicht maschinell übersetzt ist. Unsere exklusiv arabischen Tools — wie das Entfernen von Tashkeel, die Hidschra-Datumsumrechnung und Tafqit — sind speziell für arabischsprachige Nutzer entwickelt, nicht aus englischen Tools abgeleitet.",
+        "ChooseTools wird von hoursmedia entwickelt und gepflegt. Jede Woche kommen neue Tools hinzu; wenn Ihnen ein Tool fehlt, würden wir uns freuen, davon zu hören."
+      ]
+    },
+    "contact": {
+      "title": "Kontakt",
+      "body": [
+        "Haben Sie eine Frage, einen Fehler gefunden oder möchten Sie ein neues Tool vorschlagen? Wir lesen jede Nachricht.",
+        "Schreiben Sie uns an: contact@choosetools.com (aktualisieren Sie diese Adresse, nachdem Sie Ihr Domain-Postfach eingerichtet haben).",
+        "Da die gesamte Verarbeitung in Ihrem Browser erfolgt, können wir keine Datei sehen oder wiederherstellen, an der Sie gearbeitet haben — bei dateispezifischen Problemen beschreiben Sie bitte den Dateityp und die Schritte, die zum Problem geführt haben.",
+        "ChooseTools wird von hoursmedia betrieben, Niederlande."
+      ]
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung",
+      "body": [
+        "Zuletzt aktualisiert: Juli 2026. Diese Richtlinie erläutert, welche Daten ChooseTools (betrieben von hoursmedia) bei der Nutzung dieser Website verarbeitet und welche nicht.",
+        "Ihre Dateien. Alle Tools dieser Website verarbeiten Dateien lokal in Ihrem Browser mit JavaScript und WebAssembly. Ihre Dateien werden niemals auf unsere Server hochgeladen, dort gespeichert oder von ihnen eingesehen. Sie können dies überprüfen, indem Sie die Internetverbindung trennen, nachdem eine Tool-Seite geladen wurde — das Tool funktioniert weiter.",
+        "Analysen. Wir verwenden datenschutzfreundliche, aggregierte Analysen, um zu verstehen, welche Tools genutzt werden, und um die Website zu verbessern. Dazu können besuchte Seiten, Browsertyp, Standort auf Länderebene und Verweisquelle gehören. Der Inhalt Ihrer Dateien oder Texte ist niemals darin enthalten.",
+        "Werbung. Diese Website kann von Google AdSense ausgelieferte Werbung anzeigen. Google und seine Partner können Cookies verwenden, um Werbung auf der Grundlage Ihrer früheren Besuche dieser oder anderer Websites anzuzeigen. Sie können personalisierte Werbung über die Google-Anzeigeneinstellungen deaktivieren (adssettings.google.com). Besucher aus der EU/EWR und dem Vereinigten Königreich sehen gemäß der DSGVO ein Einwilligungsbanner und erhalten nicht personalisierte Werbung, sofern keine Einwilligung erteilt wird.",
+        "Cookies. Abgesehen von den oben beschriebenen Werbe- und Einwilligungs-Cookies setzt diese Website keine Tracking-Cookies. Ihre Sprachpräferenz kann lokal in Ihrem Browser gespeichert werden.",
+        "Newsletter. Wenn Sie unseren Newsletter abonnieren, speichern wir Ihre E-Mail-Adresse bei unserem E-Mail-Anbieter ausschließlich, um Ihnen den Newsletter zu senden. Jede E-Mail enthält einen Ein-Klick-Abmeldeslink, und wir verwenden Double-Opt-in.",
+        "Ihre Rechte. Gemäß der DSGVO haben Sie das Recht, personenbezogene Daten, die wir über Sie gespeichert haben (bei den meisten Besuchern sind das keine), einzusehen, zu korrigieren oder zu löschen. Kontaktieren Sie uns über die Angaben auf der Kontaktseite.",
+        "Änderungen. Wir können diese Richtlinie anpassen, während sich die Website weiterentwickelt; das obige Datum gibt stets den neuesten Stand wieder."
+      ]
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "body": [
+        "Zuletzt aktualisiert: Juli 2026. Mit der Nutzung von ChooseTools stimmen Sie diesen Bedingungen zu.",
+        "Der Dienst. ChooseTools bietet kostenlose, browserbasierte Datei-Werkzeuge. Die gesamte Verarbeitung erfolgt auf Ihrem Gerät; wir empfangen Ihre Dateien niemals und haben daher keine Möglichkeit, auf sie zuzugreifen, sie wiederherzustellen oder zu sichern.",
+        "Zulässige Nutzung. Sie dürfen die Tools für jeden rechtmäßigen Zweck verwenden, privat oder geschäftlich. Sie dürfen den Dienst nicht zu stören versuchen, ihn in missbräuchlichem Umfang abrufen oder ihn zur Verarbeitung von Material nutzen, das Sie zu verarbeiten nicht berechtigt sind.",
+        "Keine Gewährleistung. Die Tools werden „wie besehen“ und ohne jegliche Gewährleistung bereitgestellt. Obwohl wir jedes Tool sorgfältig testen, sind Sie dafür verantwortlich, Ergebnisse zu überprüfen, bevor Sie sich auf sie verlassen — bewahren Sie stets Ihre Originaldateien auf.",
+        "Haftungsbeschränkung. Im gesetzlich maximal zulässigen Umfang haftet hoursmedia nicht für Schäden, die aus der Nutzung dieser Website entstehen, einschließlich Datenverlust. Da Ihre Originaldateien Ihr Gerät niemals verlassen und von uns niemals verändert werden, bleiben Ihre Originale stets in Ihrem Besitz.",
+        "Geistiges Eigentum. Das Design, die Texte und der Code der Website sind Eigentum von hoursmedia. Die von Ihnen verarbeiteten Dateien bleiben vollständig Ihre eigenen; wir beanspruchen keine Rechte daran.",
+        "Änderungen. Wir können diese Bedingungen jederzeit ändern oder Tools einstellen. Die weitere Nutzung nach Änderungen stellt eine Zustimmung dar."
+      ]
+    }
+  },
+  "sub": {
+    "pdf": {
+      "all": "Alle PDFs",
+      "organize": "Organisieren",
+      "convert": "Konvertieren",
+      "optimize": "Optimieren",
+      "security": "Sicherheit"
+    },
+    "image": {
+      "all": "Alle Bilder",
+      "resizeCrop": "Größe ändern & zuschneiden",
+      "convert": "Konvertieren",
+      "optimize": "Optimieren"
+    },
+    "text": {
+      "all": "Alle Tools",
+      "textTools": "Texttools",
+      "devTools": "Entwicklertools",
+      "arabicTools": "Arabische Texttools"
+    }
+  },
+  "blog": {
+    "metaTitle": "Tools-Blog – Ratgeber, Tutorials und Anleitungen für kostenlose Datei-Tools",
+    "metaDescription": "Stöbern Sie im ChooseTools-Blog für ausführliche Ratgeber, Tutorials und Anleitungen zu jedem kostenlosen Online-Datei-Tool: PDF-, Bild- und Text-Tools, die direkt im Browser laufen.",
+    "indexTitle": "Tools-Blog",
+    "indexIntro": "Experten-Ratgeber, praktische Tutorials und Schnell-Anleitungen für jede ChooseTools-App. Jeder Artikel erklärt das Tool Schritt für Schritt und verlinkt direkt auf das kostenlose Tool.",
+    "countArticles": "Artikel und es werden mehr",
+    "readingTime": "{minutes} Min. Lesezeit",
+    "lastUpdated": "Aktualisiert Sep. 2026",
+    "tocTitle": "In diesem Artikel",
+    "faqTitle": "Häufig gestellte Fragen",
+    "relatedTitle": "Passende Tools",
+    "relatedHint": "Kostenloses Online-Tool",
+    "ctaTitle": "Bereit, {name} zu nutzen?",
+    "openTool": "Tool öffnen",
+    "privacyNote": "Kostenlos · ohne Anmeldung · Dateien verlassen nie dein Gerät",
+    "backToBlog": "Zurück zu allen Artikeln"
+  }
+}

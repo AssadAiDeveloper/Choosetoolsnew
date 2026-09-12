@@ -1,0 +1,114 @@
+{
+  "slug": "text-to-slug",
+  "title": "Metinden Slug Dönüştürücü: Çevrimiçi Ücretsiz URL Dostu Slug Oluşturun",
+  "description": "Başlıkları WordPress, bloglar ve CMS sistemleri için temiz, URL dostu slug'lara dönüştüren ücretsiz çevrimiçi slug oluşturucu. Gizli, anında, tarayıcınızda.",
+  "keywords": ["slug oluşturucu", "metinden slug", "url slug dönüştürücü", "dost url oluşturucu", "wordpress slug", "çevrimiçi slugify", "seo url slug"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "URL'lerin Okunur Olmasını Sağlayan Slug'lardır",
+      "paragraphs": [
+        "Temiz bir slug, »PDF Dosyalarını Birleştirme — Kapsamlı Bir Rehber« başlığını /pdf-dosyalarini-birlestirme haline getirir; insanlar için okunur, makineler için ayrıştırılabilir ve arama motorları tarafından nazikçe dizine eklenir. Başlıklardan [text-to-slug:slug oluşturmak], her CMS editörünün günlük ritüelidir.",
+        "WordPress, Shopify, Hugo ve elle yazılmış rotaların tümü aynı slug kurallarını paylaşır.",
+        "ChooseTools, metni tarayıcınızda yerel olarak, ayırıcı ve harf durumu seçeneklerine saygı göstererek slug'lara dönüştürür."
+      ]
+    },
+    {
+      "heading": "Bir Başlığı Slug'a Dönüştürme",
+      "paragraphs": [
+        "Başlıktan kalıcı bağlantıya tek tıkla.",
+        "Başlığınızı veya ifadenizi yapıştırın; araç onu küçük harfe çevirir, temizler ve tirelerle temiz bir slug haline getirir. Ayırıcı stilini (tire, alt çizgi) ve harf durumunu (küçük, lowerCamel) seçin.",
+        "Çıktı, manuel temizlik gerektirmeden düzenleme ekranınıza yapıştırılmaya hazırdır.",
+        "Bir seçeneği ayarlamak slug'ı anında yeniden oluşturur; böylece CMS kurallarınıza uymak önemsiz hale gelir."
+      ]
+    },
+    {
+      "heading": "Temiz URL'ler SEO ve Kullanılabilirlik için Neden Önemlidir",
+      "paragraphs": [
+        "Arama motorları anlamlı slug'ları bağlam için ayrıştırır; okuyucular onları güvenle paylaşır; analiz araçları onları okunaklı raporlar.",
+        "Öngörülebilir kalıcı bağlantılar, içe aktarmalarda ve taşımalarda sapmadan hayatta kalır.",
+        "Slug'a dikkat edin, URL mimariniz yapı olarak karşılığını verir.",
+        "İnsan tarafından okunabilir URL'ler baskıda, e-postada veya sohbette paylaşıldığında daha fazla tıklama toplar, çünkü hedef ilk bakışta bellidir."
+      ]
+    },
+    {
+      "heading": "Ulusal Karakterler ve Slug Uç Durumları",
+      "paragraphs": [
+        "Aksanlı ve Latin olmayan karakterlerin URL güvenli Latinceye dönüşmesi için çeviriyazım kuralları gerekir.",
+        "Dönüştürücü bu tür uç durumları ele alır; böylece á, é, ü ve benzerleri içeren başlıklar yine de derli toplu slug'lar üretir.",
+        "Noktalama işaretleri, tırnaklar ve boşluklar güvenli ayırıcılara dönüşür.",
+        "Bu normalleştirme, bağlantıları kıran ve profesyonel görünmeyen uzun, bozuk, yüzde kodlu dizeleri önler."
+      ]
+    },
+    {
+      "heading": "Editörler İçin Slug En İyi Uygulamaları",
+      "paragraphs": [
+        "Slug'ları kısa ama tanımlayıcı tutun: birkaç anlamlı anahtar sözcük, tam bir cümleden iyidir ve arama sonuçlarında ile tarayıcı sekmelerinde daha iyi görünür.",
+        "Ayırt edici bir değer katmadığı durumlarda the, of ve and gibi durma sözcüklerinden kaçının; çünkü karakter harcarlar ve sinyali sulandırırlar.",
+        "Yayınlandıktan sonra kalıcı olarak küçük harf kullanın, çünkü bir slug'ı sonradan değiştirmek mevcut bağlantıları kırar ve birikmiş arama yetkisine zarar verir.",
+        "CMS'inizin kuralına uyun: WordPress ve Jekyll için genellikle tire, bazı çerçeveler ise alt çizgi veya camelCase tercih eder; bunları araçtan doğrudan seçebilirsiniz."
+      ]
+    },
+    {
+      "heading": "Kötü Slug'ların SEO Sonuçları",
+      "paragraphs": [
+        "Arama motorları URL'yi bir alaka sinyali olarak tartar ve birincil anahtar sözcüğü içeren bir slug, sayfanın o sorgu için konusal netliğini güçlendirir.",
+        "Başlıklardan otomatik üretilen slug'lar genellikle post-title-2024-06 gibi hiçbir değer katmayan ve sonuç sayfasındaki en görünür anahtar sözcük alanını boşa harcayan sayılar veya parçalar içerir.",
+        "Oturum parametreleri ve makine üretimi tanımlayıcılar, URL'lerin okunmasını, paylaşılmasını ve hatırlanmasını zorlaştırır; gerçek trafiği sağlayan manuel paylaşımı engeller.",
+        "Yayın anında temiz bir slug için harcanan saniyeler, sonraki yılların vasat performansını ve kırık bağlantıları önler."
+      ]
+    },
+    {
+      "heading": "Çeviriyazım ve Çok Dilli Başlıklar",
+      "paragraphs": [
+        "Almanca, Fransızca, İspanyolca ve diğer birçok dildeki başlıklar, tarayıcıların URL'lerde zorlukla ele aldığı aksan işaretleri taşır. ü'nün ue'ye dönüştürülmesi veya u'nun korunması dile ve editoryal tercihinize bağlıdır; araç makul varsayılanlar uygular.",
+        "Kiril, Arapça veya Yunanca gibi Latin olmayan alfabeler için, fonetik bir çeviriyazım, Latin alfabesiyle okuyanlar için konuyla yine de eşleşen İngilizce okunabilir bir slug üretir.",
+        "İspanyolca bir slug ile İngilizce bir slug'ın ikisinin de doğal ve öngörülebilir hissettirmesi gereken çok dilli sitelerde tutarlı çeviriyazım kuralları önemlidir.",
+        "Ayrıca marka kurallarınıza uymak için aksanları korumayı veya atmayı seçebilirsiniz; böylece çok dilli yayıncılar URL'lerinin nasıl okunduğu üzerinde tam kontrole sahip olur."
+      ]
+    },
+    {
+      "heading": "Bir Slug URL Yapınıza Nasıl Sığar",
+      "paragraphs": [
+        "Slug, /blog/kategori-adi/slug gibi daha büyük bir URL yolunun son bölümüdür ve sayfa için en belirgin tanımlama bilgisini taşır.",
+        "Önce kategori sonra gönderi biçimindeki düşünülmüş bir slug hiyerarşisi, hem kullanıcıların hem arama motorlarının bir sayfanın sitenizde nerede olduğunu anlamasına yardımcı olur.",
+        "Yayınlandıktan sonra slug'ları sabit tutmak kritiktir, çünkü her biri birikmesi aylar süren yer imlerini, geri bağlantıları ve arama sıralamalarını sabitler.",
+        "Bir slug'ı değiştirmek zorunda kaldığınızda, bir yönlendirme değerin çoğunu korur, ancak değişiklikten tamamen kaçınmak her zaman daha iyidir."
+      ]
+    },
+    {
+      "heading": "Yayınlanmamış İşler için Gizli Slug Oluşturma",
+      "paragraphs": [
+        "Taslaklar ve yayın öncesi başlıklar, makinenizden hiçbir şey çıkmadan yerel olarak dönüştürülür.",
+        "Her platformda yükleme yok, hesap yok, filigran yok.",
+        "Yayınlanmamış adlarınız, siz yayınlamayı seçene kadar yayınlanmamış kalır."
+      ]
+    },
+    {
+      "heading": "İçerik İş Akışında Slug'lar",
+      "paragraphs": [
+        "Slug'ı oluşturun, taslağı [word-counter:kelime sayısıyla] ölçün ve yayınlamadan önce kopyayı [find-replace:değiştirme] ile iyileştirin.",
+        "Paket ücretsiz ve tarayıcı tabanlıdır; kesintisiz tek bir içerik üretim hattı oluşturur.",
+        "Başlıktan dost /url/'ye, tamamen tarayıcıdan ayrılmadan yapılır."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Slug oluştururken hangi karakterler kaldırılır?",
+      "a": "Noktalama işaretleri, tırnaklar ve semboller ayıklanır veya güvenli ayırıcılarla değiştirilir; aksanlı karakterler ise URL güvenli harflere çevriyazılır."
+    },
+    {
+      "q": "Ayırıcı olarak tire veya alt çizgi seçebilir miyim?",
+      "a": "Evet. Ayırıcı stili ve harf durumu seçenekleri, CMS veya çerçevenizin slug kurallarına birebir uymanızı sağlar."
+    },
+    {
+      "q": "Slug oluşturucu gizli mi?",
+      "a": "Evet. Dönüştürme tamamen tarayıcınızda çalışır; yükleme, hesap ve sunucu tarafı işlem yoktur."
+    },
+    {
+      "q": "Aynı slug'ı farklı CMS platformlarında kullanabilir miyim?",
+      "a": "Evet. Üretilen slug standart bir URL güvenli dizedir; bu nedenle WordPress, Shopify, Hugo ve çoğu yayıncılık sisteminde değişiklik yapılmadan çalışır."
+    }
+  ]
+}

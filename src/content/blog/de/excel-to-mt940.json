@@ -1,0 +1,115 @@
+{
+  "slug": "excel-to-mt940",
+  "title": "Excel zu MT940: XLSX-Finanzdaten online kostenlos in MT940 konvertieren",
+  "description": "Kostenloser Excel-zu-MT940-Konverter zur Erzeugung von MT940-Kontoauszügen im Bankformat aus Tabellendaten, in Ihrem Browser. Privat, ohne Uploads, ohne Anmeldung.",
+  "keywords": ["Excel zu MT940", "MT940-Generator", "XLSX zu MT940 konvertieren", "MT940 aus Excel erzeugen", "Bankkontoauszug zu MT940", "Excel zu MT940 online", "MT940-Dateigenerator"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Wenn Systeme das Bankformat verlangen",
+      "paragraphs": [
+        "Einige Plattformen, Banken und Treasury-Systeme akzeptieren nur MT940. [excel-to-mt940:Die Konvertierung von Excel-Daten zu MT940] verpackt eine Tabellenkalkulation in das getaggte Auszugsformat, das sie verlangen.",
+        "Spalten und Zeilen werden zu den Codes, die nachgelagerte Parser erwarten, wobei jedes Datum, jeder Betrag und jede Referenz exakt erhalten bleibt.",
+        "ChooseTools erzeugt MT940 aus Excel lokal in Ihrem Browser mit voller Kontrolle über die Feldzuordnung."
+      ]
+    },
+    {
+      "heading": "So konvertieren Sie Excel zu MT940",
+      "paragraphs": [
+        "Von der Arbeitstabelle zur kodierten Datei:",
+        "Laden Sie ein Arbeitsbuch hoch, das mit den erwarteten Spalten angelegt ist – Datum, Betrag, Beschreibung, Salden –, ordnen Sie die Felder zu und erzeugen Sie den MT940-Text, der zur Lieferung bereit ist. Die Vorschau bestätigt die Tag-Platzierung vor dem Herunterladen.",
+        "Die Erzeugung erfolgt lokal und hält Finanzaufzeichnungen während des gesamten Prozesses auf Ihrem Rechner versiegelt."
+      ]
+    },
+    {
+      "heading": "Feldzuordnung macht den Unterschied",
+      "paragraphs": [
+        "Die korrekte Zuordnung von Daten, Beträgen und Referenzen bestimmt, ob ein MT940 vom Empfangssystem akzeptiert oder abgelehnt wird.",
+        "Der Konverter führt Sie mit klaren Beschriftungen durch die Zuordnung von Spalten zu Tags, sodass Sie jedes Feld souverän zuordnen.",
+        "Lieferungen werden gegen Standardregeln validiert, nicht nur als Rohtext erzeugt, der später scheitern könnte."
+      ]
+    },
+    {
+      "heading": "MT940-Tag-Struktur erklärt",
+      "paragraphs": [
+        "Jede MT940-Datei folgt einer strengen Tag-Hierarchie. Das :20-Tag trägt eine eindeutige Auszugsreferenz, die diesen bestimmten Export identifiziert. Das :25-Tag benennt das Konto im IBAN- oder bankspezifischen Format, sodass das Empfangssystem weiß, zu welchem Konto die Transaktionen gehören.",
+        "Die Saldo-Tags :60M und :62M rahmen die Transaktionsliste mit Anfangs- und Endbeständen ein. Jedes enthält einen Soll-oder-Haben-Indikator, das Datum, einen Währungscode und den Betrag. Genaue Salden sind Pflicht, weil Abgleichssoftware validiert, dass der Endsaldo eines Auszugs dem Anfangssaldo des nächsten entspricht.",
+        "Einzelne Transaktionen leben in :61-Zeilen mit einem kompakten Datums-, Betrags- und Referenzlayout, während das :86-Tag den Freitext-Narrativ liefert. Die Zuordnung jedes :61 zu seinem :86-Narrativ hält Beschreibungen am korrekten Positionseintrag ausgerichtet und verhindert die Art verwaister Einträge, die Prüfer verwirren."
+      ]
+    },
+    {
+      "heading": "Für Test und Systemintegration",
+      "paragraphs": [
+        "Entwicklungsteams erzeugen Beispieldatenauszüge, um Importer und Abgleichs-Engines zu testen, ohne auf echte Bankexporte zu warten.",
+        "Treasury-Teams exportieren Kontoauszüge für Partnerbanken in deren Dialekt, beim Onboarding neuer Konten oder der Aufrüstung von Integrationsmodulen.",
+        "Ein Arbeitsbuch, viele konforme Ausgaben, das stundenlange manuelle Formatierung über mehrere Testzyklen spart."
+      ]
+    },
+    {
+      "heading": "Mehrwährungs- und Auszugszeiträume handhaben",
+      "paragraphs": [
+        "Unternehmen, die grenzüberschreitend tätig sind, führen oft Konten in mehreren Währungen. Jede Währung erfordert ihren eigenen Auszugsblock mit dem korrekten Währungscode in den Saldo-Tags. Der Konverter erzeugt separate Auszugssequenzen für jede im Arbeitsbuch gefundene Währung und hält sie ordentlich abgegrenzt.",
+        "Auszugszeitraum-Daten bestimmen das :60M-Anfangssaldodatum und das :62M-Endsaldodatum. Diese richtig zu setzen ist wichtig für die automatische Abstimmung, die End- und Anfangssalden über aufeinanderfolgende Auszüge vergleicht, um Lücken oder fehlende Transaktionen zu erkennen.",
+        "Referenznummern im :20-Tag sollten Ihrer Bankkonvention folgen, ob sequenziell, datumsbasiert oder kontobezogen. Ein konsistentes Referenzschema erleichtert es, Auszüge Monate später auf ihr Quell-Arbeitsbuch zurückzuführen, wenn Prüfer Fragen stellen."
+      ]
+    },
+    {
+      "heading": "Standard-Syntax, null Rätselraten",
+      "paragraphs": [
+        "Tags, Feldpositionen und Zeilenlängen folgen automatisch dem Standard, sodass die Ausgabe ohne manuelle Prüfung gültig ist.",
+        "Kein manuelles Klammerzählen oder Tag-Chirurgie bleibt, nachdem der Konverter die Formatierungsregeln angewendet hat.",
+        "Genaue Importe beginnen an der Quelle und reduzieren das Hin und Her mit Bank-Supportteams."
+      ]
+    },
+    {
+      "heading": "Häufige Stolperfallen und wie man sie vermeidet",
+      "paragraphs": [
+        "Datumsformatierung ist die häufigste Ablehnungsquelle. MT940 erfordert YYMMDD ohne Trennzeichen, aber Tabellenkalkulationen speichern Daten oft in lokalspezifischen Formaten. Der Konverter normalisiert Daten automatisch, sodass eine Spalte mit Einträgen vom 15. März in jeder :61- und Saldolinie zu 230315 wird.",
+        "Fehlende oder zusätzliche Leerzeichen in Freitext-:86-Narrativen lassen Parser Transaktionsdetails von ihren Beschreibungen abweichen. Das Werkzeug trimmt und polstert Narrativfelder auf die erwartete Breite und verhindert die subtilen Abstandsfehler, die erst auftreten, wenn die empfangende Bank die Datei verarbeitet.",
+        "Kodierungsabweichungen zwischen der Tabellenkalkulation und der MT940-Ausgabe können nicht-ASCII-Zeichen in Beschreibungen beschädigen. Der Konverter gewährleistet durchgängige UTF-8-Konsistenz, sodass Arabisch, akzentuiertes Latein und andere Schriftsysteme den Hin- und Rückweg intakt überstehen."
+      ]
+    },
+    {
+      "heading": "Private Finanzerzeugung",
+      "paragraphs": [
+        "Banktaugliche Daten bleiben durch lokale Verarbeitung auf Ihrem Rechner, ohne zwischengeschaltete Server oder Cloud-Speicher.",
+        "Kein Upload, kein Konto, kein Wasserzeichen – über Plattformen und Betriebssysteme hinweg.",
+        "Kontoauszüge werden erstellt, nicht exponiert, und wahren Vertraulichkeit von der Erstellung bis zur Lieferung."
+      ]
+    },
+    {
+      "heading": "MT940 in der Finanz-Suite",
+      "paragraphs": [
+        "Kombinieren Sie mit [mt940-to-excel:MT940 zu Excel], [txt-to-mt940:MT940 aus Text] und [excel-to-csv:CSV-Exporten] für eine vollständige Abdeckung von Auszugs-Workflows.",
+        "Alles ist kostenlos und browsernativ und erfordert keine Installation oder Abonnement.",
+        "Tabellenkalkulationen sprechen nach der Konvertierung fließend Banking."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welche Spalten muss die Excel-Datei enthalten?",
+      "a": "Datum, Betrag und Beschreibung sind wesentlich; Salden- und Referenzfelder ordnen sich nach den Anforderungen Ihrer Bank zu."
+    },
+    {
+      "q": "Kann der Konverter unterschiedliche Feldanordnungen handhaben?",
+      "a": "Ja. Die interaktive Feldzuordnung passt das erzeugte MT940 an das Layout Ihrer Tabellenkalkulation an."
+    },
+    {
+      "q": "Ist die Konvertierung privat?",
+      "a": "Ja. Alles läuft lokal in Ihrem Browser ohne Uploads oder Konten."
+    },
+    {
+      "q": "Welches Datumsformat verwendet die Ausgabe?",
+      "a": "MT940-Daten folgen dem YYMMDD-Format ohne Trennzeichen. Der Konverter normalisiert Tabellendaten automatisch."
+    },
+    {
+      "q": "Kann ich Kontoauszüge für mehrere Währungen erzeugen?",
+      "a": "Ja. Das Werkzeug erkennt unterschiedliche Währungswerte in Ihren Daten und erstellt separate Auszugsblöcke mit dem korrekten Währungscode."
+    },
+    {
+      "q": "Wird die Ausgabe die Bankvalidierung bestehen?",
+      "a": "Der Konverter prüft Tag-Struktur, Saldenkonsistenz und Feldlängen gegen Standard-MT940-Regeln, bevor er die Datei erzeugt."
+    }
+  ]
+}

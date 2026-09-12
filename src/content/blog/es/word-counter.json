@@ -1,0 +1,113 @@
+{
+  "slug": "word-counter",
+  "title": "Herramienta de Contador de Palabras: Cuenta Palabras, Caracteres y Densidad en Tiempo Real",
+  "description": "Herramienta gratuita de contador de palabras para contar palabras, caracteres, oraciones y párrafos en tiempo real, con análisis de densidad de palabras clave. Privado, en tu navegador, sin subidas.",
+  "keywords": ["contador de palabras", "contar palabras online", "herramienta de contador de palabras", "contador de caracteres", "conteo de palabras de ensayo", "verificador de densidad de palabras clave", "contar palabras gratis"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Por Qué los Escritores Cuentan Palabras sin Piedad",
+      "paragraphs": [
+        "Los conteos de palabras son cláusulas de contrato: las publicaciones de blogs tienen objetivos de SEO, los ensayos académicos imponen límites, los subtítulos de redes limitan caracteres, y los formularios en línea rechazan respuestas demasiado largas. Un contador de palabras fiable es la barandilla que mantiene cada envío dentro de los límites.",
+        "Contar a mano es imposible; las herramientas fiables también deberían revelar estructura: oraciones, párrafos y tiempo de lectura.",
+        "ChooseTools cuenta en tiempo real mientras escribes o pegas, ejecutándose enteramente en tu navegador sin subidas.",
+        "Los equipos de contenido usan los conteos de palabras para mantener la consistencia editorial en las publicaciones, asegurando que ningún artículo se desplace significativamente por encima o por debajo de la extensión esperada."
+      ]
+    },
+    {
+      "heading": "Palabras, Caracteres con y sin Espacios, Oraciones, Párrafos",
+      "paragraphs": [
+        "Diferentes plataformas cuentan de forma diferente: las bases de datos suelen contar palabras, los formularios cuentan caracteres, y los estudios cuentan caracteres sin espacios.",
+        "El contador presenta palabras, caracteres (ambas variantes), oraciones y párrafos a la vez, para que nunca estimes.",
+        "Observa cada métrica actualizarse en vivo con cada pulsación de tecla.",
+        "El conteo de caracteres sin espacios es especialmente importante para desafíos de programación, solicitudes de patentes y etiquetas de equipaje de aerolíneas donde cada carácter tiene un coste."
+      ]
+    },
+    {
+      "heading": "Densidad de Palabras Clave: El Contador de SEO que No Sabías que Necesitabas",
+      "paragraphs": [
+        "Sobreusar una palabra clave activa filtros de spam; subusarla hace que pierdas tu objetivo. El análisis de densidad muestra con qué frecuencia se repite cada palabra.",
+        "Recorre los resultados para verificar que tu palabra clave principal alcanza un rango plausible.",
+        "Esto convierte un contador tosco en un instrumento de optimización.",
+        "Los profesionales de SEO normalmente apuntan a una densidad de palabra clave principal entre uno y dos por ciento, y el indicador de densidad hace trivial verificar el objetivo."
+      ]
+    },
+    {
+      "heading": "Objetivos de Escritura: de 300 a 4000 Palabras",
+      "paragraphs": [
+        "Blogs, tesis, textos de producto y comunicados de prensa cada uno vive en una banda de palabras. El contador da retroalimentación inmediata hacia tu rango objetivo.",
+        "Progresando de borrador a final, los cambios en las métricas guían el recorte y la expansión con precisión.",
+        "Cada destello de progreso en blanco es retroalimentación.",
+        "Los escritores académicos preparando resúmenes con límites estrictos pueden observar el conteo de oraciones subir en tiempo real y detenerse antes de excedir el requisito de la revista."
+      ]
+    },
+    {
+      "heading": "Tiempo de Lectura y Estimaciones de Complejidad",
+      "paragraphs": [
+        "Más allá de los conteos brutos, la herramienta estima el tiempo de lectura basado en la velocidad media de adultos, ayudando a los editores a programar contenido para newsletters y presentaciones.",
+        "Las medias de longitud de oración sugieren legibilidad: las oraciones más cortas mejoran la comprensión para audiencias generales mientras que las más largas se adaptan a la prosa académica.",
+        "Estas métricas complementarias ofrecen a los escritores una imagen más completa de su texto que un simple conteo de palabras por sí solo."
+      ]
+    },
+    {
+      "heading": "Detectando Oraciones Demasiado Largas y Problemas de Legibilidad",
+      "paragraphs": [
+        "Cuando la longitud media de las oraciones supera las veinticinco palabras, la mayoría de las fórmulas de legibilidad marcan el texto como difícil para audiencias generales.",
+        "Los escritores pueden escanear el conteo de oraciones junto al conteo de palabras para identificar párrafos que necesitan dividirse para mayor claridad.",
+        "Combinar datos de conteo con una revisión manual de legibilidad produce contenido que es tanto conforme a métricas como genuinamente fácil de leer."
+      ]
+    },
+    {
+      "heading": "Conteo Privado de Todo lo que Escribes",
+      "paragraphs": [
+        "Ensayos y trabajo para clientes nunca salen de tu máquina: el motor de métricas se ejecuta localmente.",
+        "Sin subidas, sin banners publicitarios vendiendo tus palabras, sin cuenta.",
+        "En Windows, macOS, Linux o un teléfono, comportamiento idéntico.",
+        "Los informes legales, manuscritos médicos y descripciones de productos propietarios permanecen confidenciales cuando la utilidad de conteo opera enteramente dentro del navegador."
+      ]
+    },
+    {
+      "heading": "Cumpliendo Plazos de Envío con Límites en Vivo",
+      "paragraphs": [
+        "Muchos portales de solicitud establecen un límite duro de caracteres, y excederlo por un solo carácter provoca un rechazo automático.",
+        "Escribir directamente en un contador en vivo te permite detener exactamente en el límite, evitando el ciclo de recorte que se vuelve necesario cuando se usa una herramienta de pegar-y-verificar después del hecho.",
+        "Para preguntas de ensayo con límites tanto mínimos como máximos, un contador en vivo mantiene el borrador dentro de la ventana aceptable durante toda la sesión de escritura."
+      ]
+    },
+    {
+      "heading": "Cuenta, Luego Pulisa con Herramientas Complementarias",
+      "paragraphs": [
+        "Cuando un pasaje se extiende demasiado, recorta con herramientas de caso, deduplica con line dedupe o reformatea con generación de placeholders para maquetas.",
+        "El conjunto completo es gratuito y basado en navegador.",
+        "Cada palabra: contada, controlada, entregada.",
+        "Los escritores que combinan un contador de palabras con una herramienta de diff de texto pueden rastrear exactamente qué oraciones se añadieron o eliminaron entre borradores."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿El contador se actualiza en tiempo real mientras escribo?",
+      "a": "Sí. Los conteos de palabras, caracteres, oraciones y párrafos se actualizan instantáneamente con cada pulsación de tecla, con conteos de caracteres tanto con como sin espacios."
+    },
+    {
+      "q": "¿La herramienta puede medir la densidad de palabras clave?",
+      "a": "Sí. Analiza con qué frecuencia aparece cada palabra en tu texto, ayudándote a encontrar el peso natural de palabras clave para SEO o trabajo de estilo."
+    },
+    {
+      "q": "¿El contador de palabras es privado?",
+      "a": "Sí. Todo se ejecuta localmente en tu navegador: tu texto nunca se sube a ningún lugar."
+    },
+    {
+      "q": "¿Estima el tiempo de lectura?",
+      "a": "Sí. La herramienta calcula el tiempo de lectura aproximado basado en la velocidad de lectura estándar de adultos, dando a los editores una referencia rápida de programación."
+    },
+    {
+      "q": "¿Puedo contar palabras en múltiples idiomas?",
+      "a": "Sí. El contador separa por espacios en blanco y funciona con texto en prácticamente cualquier idioma que use espaciado normal, incluyendo guiones y escrituras no latinas."
+    },
+    {
+      "q": "¿Puedo pegar un documento completo y contarlo?",
+      "a": "Sí. Pegar un documento completo actualiza todas las métricas a la vez, dando totales inmediatos para cualquier longitud de texto."
+    }
+  ]
+}

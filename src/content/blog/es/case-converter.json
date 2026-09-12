@@ -1,0 +1,101 @@
+{
+  "slug": "case-converter",
+  "title": "Convertidor de Mayúsculas y Minúsculas: Cambia el Tipo de Texto Online Gratis en Un Clic",
+  "description": "Convertidor de mayúsculas y minúsculas online gratuito para cambiar texto entre MAYÚSCULAS, minúsculas, Tipo Oración, Oración y más. Privado, instantáneo, en tu navegador sin subir archivos.",
+  "keywords": ["convertidor de mayúsculas", "convertir texto a mayúsculas", "mayúsculas a minúsculas", "convertidor de tipo título", "cambiar tipo de texto", "capitalizar texto online", "herramienta de mayúsculas"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Las Mayúsculas Son Puntuación para Códigos y Titulares",
+      "paragraphs": [
+        "Un titular debe estar en tipo título, los nombres de clases CSS adoran lowerCamel, y los flujos de trabajo heredados exigen todo en mayúsculas o todo en minúsculas. Convertir [case-converter:el tipo de texto] online es un trabajo clásicamente pequeño con una enorme ganancia de formato.",
+        "Hacerlo a mano a gran escala es lento y propenso a errores; un convertidor transforma documentos completos en un instante.",
+        "ChooseTools convierte el tipo de texto localmente en tu navegador, con todas las convenciones habituales disponibles."
+      ]
+    },
+    {
+      "heading": "MAYÚSCULAS, minúsculas, Título, Oración y camelCase",
+      "paragraphs": [
+        "Cada convención tiene su lugar: mayúsculas para acrónimos, tipo título para titulares, tipo oración para textos de interfaz, camelCase para identificadores de código.",
+        "La herramienta muestra cada variante lado a lado para que pegues exactamente lo que el contexto requiere.",
+        "Calidad de copiar y pegar, cero reescritura."
+      ]
+    },
+    {
+      "heading": "Conversión por Lotes para Listas y Feeds",
+      "paragraphs": [
+        "Pega una lista completa de nombres de productos y deja que se conviertan uniformemente para cumplir con los estándares de tu catálogo.",
+        "Titulares, meta descripciones, listas de etiquetas y nombres de archivo se normalizan todos en un solo paso.",
+        "La consistencia a través de cientos de elementos queda automatizada."
+      ]
+    },
+    {
+      "heading": "Flujos de Trabajo de Programación y Técnica",
+      "paragraphs": [
+        "Los desarrolladores necesitan convertir constantemente entre convenciones de nomenclatura. Una variable que comienza como my_variable en Python debe convertirse en myVariable para JavaScript o MyVariable para un nombre de clase en PascalCase. Reescribir cada identificador a mano invita a errores tipográficos que el compilador solo detectará tras perder tiempo depurando. El convertidor transforma listas completas de identificadores en un solo pegado, preservando cada carácter mientras cambia únicamente el tipo de letra.",
+        "Los nombres de columnas de bases de datos y de campos de API a menudo siguen una única convención que difiere de la que usa tu base de código. Al migrar datos o construir capas de integración, convertir los nombres de campos para coincidir con el sistema de destino previene errores en tiempo de ejecución y hace que los esquemas sean más fáciles de leer. Un paso rápido por el convertidor asegura que column_name se convierta en columnName o ColumnName según requiera el destino.",
+        "Las palabras clave de SQL se escriben convencionalmente en mayúsculas (SELECT, FROM, WHERE) para distinguirlas de nombres de tablas y columnas. Los desarrolladores que redactan consultas en minúsculas pueden pegar la sentencia completa y convertir las palabras clave a mayúsculas sin afectar los identificadores. Esto mejora la legibilidad en bases de código compartidas y se alinea con guías de estilo comunes.",
+        "Los archivos de configuración, variables de entorno y parámetros de línea de comandos cada uno sigue sus propias reglas de mayúsculas. ENVIRONMENT_VARIABLES suelen estar en snake mayúscula, mientras que flags de línea de comandos como --output-dir usan kebab minúscula. Convertir entre estas convenciones es tedioso a mano pero instantáneo con la herramienta, reduciendo la fricción al mover configuración entre sistemas."
+      ]
+    },
+    {
+      "heading": "Escritores Reformatean Sin Reescribir",
+      "paragraphs": [
+        "Un borrador escrito en minúsculas se convierte en tipo título listo para publicar; los subtítulos que deben gritar lo hacen.",
+        "La vista previa elimina las conjeturas antes de copiar a cualquier sitio.",
+        "El formato corresponde a la herramienta; la escritura sigue siendo tuya."
+      ]
+    },
+    {
+      "heading": "SEO, Marketing y Consistencia de Marca",
+      "paragraphs": [
+        "Los motores de búsqueda tratan las mayúsculas como una señal menor, pero los lectores humanos las tratan como una señal mayor. Un título de página en tipo oración se lee de forma casual, mientras que las mismas palabras en tipo título se leen con autoridad. Los equipos de marketing prueban ambas opciones para ver cuál genera más clics, y el convertidor les permite producir ambas versiones en segundos en lugar de reescribir cada una manualmente.",
+        "Las guías de estilo de marca a menudo dictan un tipo de mayúsculas específico para nombres de productos, eslóganes y frases de campaña. Cuando el contenido pasa entre diseñadores, traductores y editores, el tipo de mayúsculas se desajusta. El convertidor actúa como un paso de normalización, restaurando el formato aprobado antes de que el texto salga publicado. Esto previene la inconsistencia de marca que se acumula cuando múltiples personas reescriben las mismas cadenas.",
+        "Las publicaciones en redes sociales, asuntos de correo electrónico y notificaciones push compiten por la atención en flujos densos de mayúsculas. Elegir el tipo correcto para cada canal puede significar la diferencia entre una lectura superficial y un clic. El convertidor produce cada variante para que puedas hacer pruebas A/B sin la carga de reformatear manualmente.",
+        "Los equipos de localización reciben con frecuencia contenido en una convención de mayúsculas y deben adaptarlo para mercados con normas diferentes. Un título en tipo título en inglés puede necesitar convertirse a tipo oración en francés o alemán. El convertidor maneja la transformación al instante, liberando a los lingüistas para que se centren en la calidad de la traducción más que en la mecánica del formato."
+      ]
+    },
+    {
+      "heading": "Casos Extremos y Precisión",
+      "paragraphs": [
+        "El convertidor maneja abreviaturas como NASA y URLs como https://example.com sin dañar secuencias de mayúsculas ni prefijos de protocolo. Los acrónimos que aparecen a mitad de oración permanecen intactos cuando eliges tipo oración, y los compuestos con guion como e-commerce convierten cada segmento correctamente. Estos detalles importan porque convertir ciegamente a mayúsculas o minúsculas una cadena completa puede romper términos técnicos.",
+        "Los caracteres Unicode, incluidas letras acentuadas y escrituras no latinas, se convierten fielmente. Una palabra francesa como reference conserva sus acentos al pasar a mayúsculas o minúsculas, y los caracteres árabes o chinos pasan sin cambios. Esta fidelidad previene los errores de codificación sutiles que afectan a convertidores menos cuidadosos.",
+        "Los espacios en blanco al inicio y al final, múltiples espacios entre palabras y caracteres de tabulación se preservan en la salida. El convertidor cambia el tipo de letra sin reformatear los espacios, por lo que los bloques de código pegados y el texto preformateado mantienen su diseño. Esto es esencial cuando la entrada proviene de una fuente donde la indentación tiene significado."
+      ]
+    },
+    {
+      "heading": "Transformación de Texto Privada",
+      "paragraphs": [
+        "Textos no publicados y notas personales se normalizan solo en tu dispositivo.",
+        "Sin subidas, sin cuenta, sin marca de agua — idéntico en todas las plataformas.",
+        "Una tarea de formato gestionada de forma invisible."
+      ]
+    },
+    {
+      "heading": "Trabajo de Mayúsculas en la Suite de Texto",
+      "paragraphs": [
+        "Combina el convertidor con [find-replace:buscar y reemplazar], [sort-lines:ordenador] o [reverse-text:inversor] para un control total.",
+        "La suite es gratuita, privada y nativa del navegador.",
+        "Control de formato, aplicado en todas partes, al instante."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Qué tipos de texto se admiten?",
+      "a": "MAYÚSCULAS, minúsculas, Tipo Título, Tipo Oración, camelCase y convenciones relacionadas están todos disponibles con vista previa instantánea."
+    },
+    {
+      "q": "¿Puedo convertir bloques grandes de texto a la vez?",
+      "a": "Sí. Pega un documento completo o una lista y la transformación se aplica de forma uniforme en una sola conversión."
+    },
+    {
+      "q": "¿El convertidor de mayúsculas es privado?",
+      "a": "Sí. Todo ocurre localmente en tu navegador, tu texto nunca se sube a ningún sitio."
+    },
+    {
+      "q": "¿El convertidor dañará las URLs o las abreviaturas?",
+      "a": "No. La herramienta preserva los acrónimos en mayúsculas, los prefijos de protocolo y los segmentos con guion, por lo que las cadenas técnicas permanecen intactas tras la conversión."
+    }
+  ]
+}

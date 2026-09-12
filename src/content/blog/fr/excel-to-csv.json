@@ -1,0 +1,115 @@
+{
+  "slug": "excel-to-csv",
+  "title": "Convertisseur Excel en CSV : Convertissez du XLSX en CSV en Ligne Gratuitement",
+  "description": "Convertisseur Excel en CSV gratuit pour transformer des tableaux XLSX en fichiers CSV simples, feuille par feuille, dans votre navigateur. Privé, sans téléchargement, sans inscription.",
+  "keywords": ["excel en csv", "convertisseur xlsx en csv", "convertir excel en csv", "excel en csv en ligne gratuit", "exporter xlsx en csv", "tableur en csv", "outil excel en csv"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Des Formats Excel Partout, du CSV Où Se Font les Traitements",
+      "paragraphs": [
+        "Les systèmes, bases de données et scripts ingèrent le CSV bien plus facilement que le XLSX. [excel-to-csv:Convertir Excel en CSV] produit la forme simple et universellement lisible que chaque pipeline souhaite.",
+        "La conversion préserve les valeurs des cellules tout en éliminant la complexité binaire d\u0027Excel, les formules et la surcharge de formatage.",
+        "ChooseTools convertit le XLSX en CSV localement dans votre navigateur, gérant les feuilles et les délimiteurs avec précision."
+      ]
+    },
+    {
+      "heading": "Comment Convertir un Fichier Excel en CSV",
+      "paragraphs": [
+        "Du classeur aux lignes propres :",
+        "Téléversez le fichier XLSX, choisissez la feuille à exporter et le délimiteur (virgule, point-virgule), puis convertissez. Le CSV se télécharge prêt pour les scripts, CRM ou imports de bases de données.",
+        "Le classeur est analysé sur votre appareil \u2014 aucun téléversement et aucune donnée ne quitte votre machine."
+      ]
+    },
+    {
+      "heading": "Sélection de Feuille et Contrôle du Délimiteur",
+      "paragraphs": [
+        "Les classeurs à plusieurs feuilles sont convertis feuille par feuille ; choisissez celle qui compte pour votre tâche actuelle ou traitez-les séparément.",
+        "Le choix du délimiteur satisfait les outils sensibles à la région, que le CSV utilise des virgules dans les paramètres anglais ou des points-virgules dans les paramètres européens.",
+        "La sortie s\u0027intègre exactement au pipeline qui la consommera, sans post-traitement nécessaire."
+      ]
+    },
+    {
+      "heading": "Considérations d\u0027Encodage et de Jeu de Caractères",
+      "paragraphs": [
+        "Les tableurs contiennent fréquemment des caractères accentués, des écritures de droite à gauche et des symboles que les formats texte brut peuvent corrompre si l\u0027encodage est incorrect. Le convertisseur exporte du CSV encodé en UTF-8 par défaut, préservant chaque caractère exactement tel qu\u0027il apparaît dans le classeur.",
+        "Certains systèmes anciens attendent des fichiers encodés en ANSI ou ISO-8859-1. Lorsque l\u0027outil de destination nécessite un encodage spécifique, choisir le bon jeu de caractères de sortie empêche le texte illisible qui apparaît lorsqu\u0027un nom de client français ou une étiquette de champ arabe arrive sous forme de mojibake illisible.",
+        "Les marques d\u0027ordre d\u0027octets (BOM), le préfixe invisible de trois octets qui signale le UTF-8 à certains analyseurs, sont gérées correctement. Les systèmes qui nécessitent une BOM en reçoivent une, et ceux qui la rejettent obtiennent une sortie propre sans le préfixe, évitant le bug de la première ligne vide que de nombreux utilisateurs d\u0027Excel-to-CSV rencontrent."
+      ]
+    },
+    {
+      "heading": "Pourquoi le CSV Gagne pour l\u0027Échange de Données",
+      "paragraphs": [
+        "Les analyseurs universels, les diffs compatibles avec les versions et le scripting trivial favorisent tous le CSV par rapport aux formats propriétaires de tableurs.",
+        "Les exports bancaires, plateformes marketing et imports analytiques sont nativement CSV, faisant de la conversion un pont en une étape vers chaque outil connecté.",
+        "Une seule conversion débloque chaque outil qui lit des lignes simples, des chargeurs de bases de données aux systèmes d\u0027email marketing."
+      ]
+    },
+    {
+      "heading": "Des Valeurs Propres, un Encodage Fiable",
+      "paragraphs": [
+        "Les nombres, dates et textes sont transférés fidèlement, avec des cellules contenant des virgules correctement mises entre guillemets pour éviter les erreurs de découpage de champs.",
+        "L\u0027encodage reste intact pour les données accentuées et multilingues, afin que les noms de clients et descriptions de produits arrivent lisibles.",
+        "L\u0027import en aval fonctionne simplement, que la destination soit une base de données relationnelle, un CRM ou un tableau de bord de reporting."
+      ]
+    },
+    {
+      "heading": "Traitement par Lots et Grands Classeurs",
+      "paragraphs": [
+        "Les tableurs d\u0027entreprise contiennent souvent des centaines de milliers de lignes réparties sur plusieurs feuilles. Le convertisseur traite ces gros fichiers entièrement en mémoire sur votre appareil, produisant une sortie CSV propre sans les limites de timeout ou de taille de téléversement imposées par les serveurs en ligne.",
+        "Lorsque chaque feuille d\u0027un classeur compte, les exporter individuellement vous donne un CSV par feuille avec un formatage cohérent. Cette approche évite l\u0027ambiguïté de la concaténation de toutes les feuilles dans un seul fichier où les en-têtes de colonnes ne s\u0027alignent plus.",
+        "Les tables très larges avec des dizaines de colonnes sont converties avec la même fidélité que les tables étroites et hautes. La sortie CSV met entre guillemets toute cellule contenant le délimiteur choisi, des retours à la ligne ou des guillemets, de sorte que même les structures de données complexes survivent au voyage aller-retour intactes."
+      ]
+    },
+    {
+      "heading": "Variantes CSV et Compatibilité Régionale",
+      "paragraphs": [
+        "La RFC 4180 définit le format standard délimité par des virgules, mais les conventions régionales varient largement. Les paramètres allemands, français et espagnols utilisent couramment des points-virgules comme délimiteurs car les virgules servent de séparateurs décimaux dans ces formats numériques.",
+        "Les valeurs séparées par des tabulations servent d\u0027alternative lorsque les virgules apparaissent fréquemment dans les données elles-mêmes. Choisir le délimiteur tabulation évite les guillemets excessifs et produit des fichiers qui se collent proprement dans les éditeurs texte et les outils de terminal.",
+        "Le convertisseur s\u0027adapte à la variante attendue par votre système cible, de sorte que la sortie s\u0027ouvre correctement dès la première fois plutôt que d\u0027afficher une seule longue colonne de champs concaténés."
+      ]
+    },
+    {
+      "heading": "Données Financières et Clientèles Privées",
+      "paragraphs": [
+        "Les classeurs contiennent souvent les chiffres les plus sensibles qu\u0027une organisation possède ; la conversion locale les maintient scellés en interne sans exposition externe.",
+        "Pas de téléchargement, pas de compte, pas de filigrane \u2014 sur toutes les plateformes et tous les appareils.",
+        "La confidentialité des tableurs préservée, chaque conversion se déroulant entièrement dans votre navigateur."
+      ]
+    },
+    {
+      "heading": "Interopérabilité Excel dans la Boîte à Outils de Données",
+      "paragraphs": [
+        "Associez avec [csv-to-excel:CSV vers Excel], [excel-to-json:Excel vers JSON] et [csv-json:CSV vers JSON] pour un travail de données en boucle complète entre les formats.",
+        "La suite est gratuite et native au navigateur, sans installation requise.",
+        "Des classeurs déverrouillés en lignes universelles prêtes pour tout système en aval."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puis-je choisir le délimiteur pour la sortie CSV ?",
+      "a": "Oui. Les options virgule, point-virgule et tabulation prennent en charge confortablement les données formatées selon les régions."
+    },
+    {
+      "q": "L\u0027outil gère-t-il les classeurs à plusieurs feuilles ?",
+      "a": "Oui. Sélectionnez la feuille spécifique à exporter, ou traitez les feuilles individuellement selon les besoins."
+    },
+    {
+      "q": "La conversion Excel en CSV est-elle privée ?",
+      "a": "Oui. Tout s\u0027exécute localement dans votre navigateur sans téléchargement ni compte."
+    },
+    {
+      "q": "Les caractères accentués et non latins survivront-ils à la conversion ?",
+      "a": "Oui. La sortie est encodée en UTF-8 par défaut, ce qui préserve les caractères accentués, de droite à gauche et multilingues exactement tels qu\u0027ils apparaissent dans le classeur source."
+    },
+    {
+      "q": "Quelle est la taille maximale du fichier Excel ?",
+      "a": "Le convertisseur gère des fichiers contenant des centaines de milliers de lignes entièrement dans votre navigateur, sans restriction de taille de téléversement côté serveur."
+    },
+    {
+      "q": "Les formules des cellules Excel seront-elles incluses dans le CSV ?",
+      "a": "Le CSV ne stocke que les valeurs calculées, pas les formules. Le convertisseur exporte le résultat calculé de chaque cellule plutôt que l\u0027expression sous-jacente."
+    }
+  ]
+}

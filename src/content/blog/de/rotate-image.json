@@ -1,0 +1,99 @@
+{
+  "slug": "rotate-image",
+  "title": "Bild online kostenlos drehen: Schiefe Fotos in Sekunden korrigieren",
+  "description": "Bild online kostenlos drehen mit ChooseTools. Drehen Sie Fotos und Bilder um 90 oder 180 Grad, richten Sie sie aus und speichern Sie das Ergebnis direkt in Ihrem Browser mit voller Privatsphäre.",
+  "keywords": ["Bild drehen", "Bild online kostenlos drehen", "Foto um 90 Grad drehen", "Bild online ausrichten", "schiefe Foto korrigieren", "Bild drehen", "Bild seitlich drehen"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Aufrechte Fotos sind bessere Fotos",
+      "paragraphs": [
+        "Jede Handygalerie enthält ein paar seitlich oder kopfüber aufgenommene Bilder, Opfer von Kamerasensoren und hastigem Fotografieren. Bevor diese Fotos zum Drucken, in ein Portfolio oder ein Kunden-Moodboard gelangen, ist [rotate-image:das Drehen online] die schnellste Lösung überhaupt.",
+        "Die Aufgabe ist technisch trivial, doch viele scheuen sie noch immer, weil spezialisierte Desktop-Editorials für eine einfache Ausrichtungskorrektur überdimensioniert sind.",
+        "ChooseTools dreht Bilder lokal in Ihrem Browser — Vierteldrehungen, halbe Drehungen und manuelles Ausrichten — mit Vorschaufunktion und ohne Upload."
+      ]
+    },
+    {
+      "heading": "So drehen Sie ein Foto im Browser",
+      "paragraphs": [
+        "Eine einfache Ausrichtungskorrektur ist in Sekunden von Upload bis Download erledigt.",
+        "Laden Sie Ihr Bild hoch und wählen Sie Linksrechts drehen, Rechtslinks drehen oder 180 Grad drehen für eine endgültige Korrektur. Für leicht schief horizonzierte Bilder ziehen Sie den Ausrichtungsschieber, bis die Vorschaufunktion waagerecht aussieht. Exportieren Sie das korrigierte Bild, wenn Sie zufrieden sind.",
+        "Alles läuft auf Ihrem Gerät, sodass auch die Stapelverarbeitung mehrerer Fotos schnell und privat erfolgt, ohne Serververarbeitung."
+      ]
+    },
+    {
+      "heading": "Horizonte ausrichten ohne Beschneidungsüberraschungen",
+      "paragraphs": [
+        "Eine minimale Neigung — 2 Grad vom waagerechten Horizont — lässt Scenes unwohl wirken, und die meisten bemerken nicht, warum das Bild falsch aussieht.",
+        "Die Ausrichtungsfunktion dreht das Foto leicht und schneidet automatisch die Kanten ab, die außerhalb des Rahmens liegen, sodass das Ergebnis sowohl waagerecht als auch rechteckig ist, ohne manuelles Beschneiden.",
+        "Die Ausgabe erhält die Fotoqualität: keine Wiederverdichtung, keine Aufweichung der geraden Pixel und keine Farbverschiebung während des Drehvorgangs."
+      ]
+    },
+    {
+      "heading": "EXIF-Ausrichtungsdaten und warum sie wichtig sind",
+      "paragraphs": [
+        "Moderne Smartphones und Digitalkameras speichern in jedem Foto einen EXIF-Ausrichtungstag, der den Betrachtern mitteilt, wie das Bild korrekt dargestellt werden soll, ohne die Pixel physisch zu drehen. Die meisten modernen Apps respektieren diesen Tag, aber ältere Software, bestimmte Drucker und einige Webformulare ignorieren ihn vollständig.",
+        "Wenn ein Foto auf Ihrem Smartphone korrekt aussieht, aber in einer Desktop-Anwendung seitlich angezeigt wird, tut der EXIF-Tag seine Arbeit, während der Betrachter dies nicht tut. Eine physische Drehung über das Tool speichert die korrekte Ausrichtung direkt in den Pixeldaten und eliminiert die Abhängigkeit von der Betracherunterstützung.",
+        "Den EXIF-Ausrichtungstag zu entfernen, während die Pixel in ihrer ursprünglichen Anordnung bleiben, ist ein weiteres häufiges Szenario. Der Konverter unterstützt beide Ansätze — Drehen mit dem Tag oder Einbetten der Drehung in das Bild — sodass das Ergebnis den Anforderungen der Zielplattform entspricht."
+      ]
+    },
+    {
+      "heading": "Drehen vor dem Drucken und Veröffentlichen",
+      "paragraphs": [
+        "Druckereien lehnen seitlich gedrehte Bilder ab, und inkonsistente Ausrichtung verursacht Verzögerungen in Produktionsworkflows; Webplattformen zeigen sie inkonsistent über verschiedene Betrachter und Geräte hinweg gedreht.",
+        "Die Ausrichtung vorab zu normalisieren sorgt für reibungslose Zustellung überall, vom Rahmenstudio bis zum Online-Shop-Upload bis zur Kundenpräsentation.",
+        "Kombinieren Sie mit [crop-image:schneiden] nach dem Ausrichten, um die Komposition zu schärfen, und [convert-image:konvertieren] in ein webfreundliches Format für maximale Kompatibilität."
+      ]
+    },
+    {
+      "heading": "Stapelverarbeitung für Fotosammlungen",
+      "paragraphs": [
+        "Eventfotografen und Immobilienmakler erfassen routinemäßig Dutzende von Bildern in Hoch- und Querformat. Sie einzeln über einen vollwertigen Desktop-Editor zu drehen ist mühsam, wenn das Muster vorhersehbar ist: Links drehen für Aufnahmen, die mit seitlich gehaltenem Handy gemacht wurden.",
+        "Die Stapelverarbeitung über das Browser-Tool wendet dieselbe Korrektur auf jede Datei an, ohne Software neu zu installieren oder eine neue Oberfläche zu erlernen. Die konsistente Ausgabe spart Zeit bei der Nachbereitung von Events oder der Vorbereitung von Immobilienanzeigen.",
+        "Nach der Stapeldrehung organisieren Sie die korrigierten Dateien in Projektordnern mit klaren Namenskonventionen. Die Kombination des Drehvorgangs mit [resize-image:Größenänderung] oder [compress-image:Komprimierung] erstellt eine vollständige Vorbereitungspipeline, die Bilder in einer einzigen Sitzung druckfertig macht."
+      ]
+    },
+    {
+      "heading": "Häufige Drehszenarien und Lösungen",
+      "paragraphs": [
+        "Gescannte Dokumente kommen häufig kopfüber oder gespiegelt an, wenn der Scannerdeckel falsch platziert war. Ein schneller 180-Grad-Dreh oder horizontale Spiegelung korrigiert das Ergebnis, ohne das gesamte Dokument neu zu scannen.",
+        "Screenshots von Mobilgeräten werden manchmal mit unerwarteter Ausrichtung exportiert, wenn sie auf einen Computer übertragen werden. Das Dreh-Tool korrigiert diese sofort und erzeugt eine Datei, die auf jeder Plattform korrekt angezeigt wird.",
+        "Produktfotografie für E-Commerce erfordert konsistente aufrechte Ausrichtung über den gesamten Katalog. Das Anwenden derselben Drehung auf einen Stapel von Bildern sorgt für Gleichmäßigkeit, die Käufervertrauen stärkt und Supportanfragen reduziert."
+      ]
+    },
+    {
+      "heading": "Privat und kostenlos auf jedem Gerät",
+      "paragraphs": [
+        "Ihre Familienfotos, unveröffentlichte Aufnahmen und Kundenmaterials lokal zu drehen bedeutet, dass nichts unter keinen Umständen Ihr Gerät verlässt.",
+        "Kein Wasserzeichen, kein Konto, keine Einschränkungen — identisches Verhalten auf Handys, Tablets und Desktops über alle Betriebssysteme hinweg.",
+        "Jedes Foto verlässt das Tool genau so korrigiert, wie Sie es hinterlassen haben, ohne eingebettetes Branding oder Metadatenänderungen."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kann ich genau 90, 180 oder 270 Grad drehen?",
+      "a": "Ja. Spezielle Drehknöpfe ermöglichen Viertel- und halbe Drehungen in beide Richtungen, plus einen manuellen Ausrichtungsschieber für feine Horizontkorrekturen."
+    },
+    {
+      "q": "Beschneidet das Ausrichtungstool meine Fotoberande?",
+      "a": "Es dreht und schneidet dann automatisch die leeren Ecken ab, die erscheinen, und erzeugt ein sauberes rechteckiges Bild ohne Artefakte."
+    },
+    {
+      "q": "Erfolgt die Bilddrehung privat?",
+      "a": "Ja. Die gesamte Verarbeitung erfolgt lokal in Ihrem Browser ohne Uploads, Wasserzeichen oder Konten."
+    },
+    {
+      "q": "Verringert das Drehen eines Fotos dessen Qualität?",
+      "a": "Viertel- und halbe Drehungen ordnen die Pixel lediglich neu an, ohne Qualitätsverlust. Feinwinkel-Ausrichten schneidet einen kleinen Rand ab, aber das verbleibende Bild behält volle Auflösung und Schärfe."
+    },
+    {
+      "q": "Was ist der EXIF-Ausrichtungstag und sollte ich ihn entfernen?",
+      "a": "Es sind Metadaten, die den Betrachtern mitteilen, wie das Bild angezeigt werden soll. Sein Entfernen verhindert die seitliche Anzeige in älterer Software, erfordert aber, dass die Drehung vorher auf die Pixeldaten angewendet wird."
+    },
+    {
+      "q": "Kann ich einen Stapel von Fotos mit derselben Korrektur drehen?",
+      "a": "Ja. Das Tool verarbeitet mehrere Dateien nacheinander und wendet dieselbe Drehung auf jede an, sodass Ihre gesamte Sammlung konsistent bleibt."
+    }
+  ]
+}

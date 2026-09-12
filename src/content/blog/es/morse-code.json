@@ -1,0 +1,109 @@
+{
+  "slug": "morse-code",
+  "title": "Traductor de Código Morse: Convierte Texto a Morse y Viceversa en Línea Gratis",
+  "description": "Traductor gratuito de código Morse para codificar texto en código Morse y decodificar Morse en letras. Privado, instantáneo, en tu navegador, sin subidas.",
+  "keywords": ["código Morse", "traductor código Morse", "texto a Morse", "Morse a texto", "convertidor código Morse", "traducir morsecode", "código Morse online"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Puntos y Rayas que Siguen Hablando",
+      "paragraphs": [
+        "Mucho antes de la radio y internet, el código Morse transmitía mensajes con un alfabeto engañosamente simple de puntos, rayas y pausas. [morse-code:Traducir texto a código Morse] mantiene ese formato histórico utilizable hoy, y legible en sentido inverso.",
+        "Ambas direcciones hacen posible la comunicación real.",
+        "ChooseTools traduce Morse localmente en tu navegador."
+      ]
+    },
+    {
+      "heading": "Cómo Traducir Texto a Código Morse",
+      "paragraphs": [
+        "Señalización bidireccional en segundos:",
+        "Escribe texto para codificarlo en puntos y rayas, o pega puntos y rayas para decodificarlos en letras. Copia cualquiera de las dos formas o escucha si se admite audio.",
+        "La traducción se ejecuta completamente en tu dispositivo."
+      ]
+    },
+    {
+      "heading": "El Alfabeto Estándar",
+      "paragraphs": [
+        "Cada letra se asigna a un patrón fijo de puntos y rayas, desde A (·−) hasta Z (−−··).",
+        "Números y puntuación están incluidos para una mensajería completa.",
+        "La tabla clásica se vuelve utilizable al instante."
+      ]
+    },
+    {
+      "heading": "El Código Morse en Contextos Modernos",
+      "paragraphs": [
+        "El código Morse sigue siendo una habilidad práctica en la radioafición, donde los operadores lo utilizan para comunicarse a largas distancias con potencia mínima. Los clubs de radioafición de todo el mundo todavía organizan concursos y sesiones de práctica con Morse, y muchos operadores descubren que el código viaja más lejos y con mayor claridad que la voz en bandas congestionadas. Aprender Morse mediante el traductor te ofrece una forma práctica de desarrollar esa competencia sin comprar equipamiento especializado.",
+        "La señalización de emergencia es otro ámbito donde Morse conserva su valor. Tres señales cortas seguidas de tres largas y tres cortas (SOS) son universalmente reconocidas, y el patrón puede golpearse sobre cualquier superficie o señalizarse con una luz. El traductor te ayuda a interiorizar el ritmo para que la señal se convierta en memoria muscular en lugar de una abstracción memorizada.",
+        "Artistas y diseñadores utilizan ocasionalmente patrones Morse como elementos decorativos en joyería, tatuajes y composiciones gráficas. Codificar un nombre o fecha en puntos y rayas crea un cifrado personal que resulta visualmente interesante e intelectualmente significativo. El traductor proporciona la secuencia exacta para que tu diseño sea preciso.",
+        "Jugadores y entusiastas de rompecabezas se encuentran con Morse en salas de escape, huevos de pascua en videojuegos y narrativas de ARG. Decodificar un mensaje en pantalla rápidamente puede marcar la diferencia entre avanzar al siguiente nivel y quedarse atascado. Tener el traductor abierto en un segundo dispositivo convierte un posible cuello de botella en una resolución rápida."
+      ]
+    },
+    {
+      "heading": "Las Pausas Estructuran el Mensaje",
+      "paragraphs": [
+        "El espacio entre letras y palabras porta significado, por lo que el traductor maneja los separadores con precisión.",
+        "Las pausas correctas hacen que la salida sea aceptada por cualquier lector fluido.",
+        "Estructura y señal van de la mano."
+      ]
+    },
+    {
+      "heading": "Aprendizaje, Práctica y Memorización",
+      "paragraphs": [
+        "Practicar con la salida traducida desarrolla el reflejo que requiere el uso de Morse. Comienza codificando palabras y frases cortas, y aumenta gradualmente la longitud a medida que tu reconocimiento de patrones mejore. El bucle de retroalimentación instantánea entre escribir texto y ver el equivalente de puntos y rayas acelera el aprendizaje en comparación con tarjetas de memoria estáticas.",
+        "Clubes, aulas yRadioaficionados afilan habilidades reales intercambiando mensajes en Morse. El traductor te permite preparar mensajes con antelación y verificar la decodificación de señales recibidas, convirtiéndolo en un compañero valioso durante las sesiones de práctica por radio. Muchos operadores informan que el uso regular del traductor redujo significativamente sus errores de temporización Farnsworth.",
+        "La herramienta hace que el estudio sea interactivo en lugar de mecánico. En lugar de memorizar la tabla de código de forma aislada, puedes escribir oraciones que sean significativas para ti, traducirlas y luego practicar el envío o la lectura del resultado. La relevancia personal fortalece la retención de memoria de maneras que las secuencias arbitrarias no pueden."
+      ]
+    },
+    {
+      "heading": "Consideraciones de Codificación Avanzada",
+      "paragraphs": [
+        "El traductor respeta el estándar internacional de Morse, que define no solo los patrones de puntos y rayas sino también las relaciones temporales entre elementos. Una raya tiene tres veces la longitud de un punto, el espacio entre elementos dentro de un carácter es de un largo de punto, y el espacio entre caracteres es de tres largos de punto. Esta precisión garantiza que cualquier persona familiarizada con el estándar pueda leer tu salida sin ambigüedad.",
+        "El manejo de mayúsculas y minúsculas importa en Morse porque las letras mayúsculas y minúsculas producen la misma señal en el Código Morse Internacional estándar. El traductor normaliza esto automáticamente, por lo que no necesitas preocuparte por las mayúsculas o minúsculas de tu entrada. Sin embargo, los números tienen patrones distintos a las letras, y la herramienta los asigna correctamente.",
+        "Caracteres especiales como la ampersand, el símbolo arroba y la barra oblicua tienen representaciones Morse acordadas. Si tu texto contiene estos símbolos, el traductor los incluye en la salida en lugar de eliminarlos silenciosamente. Esta integridad es esencial para mensajes técnicos y transmisión de URLs.",
+        "Al decodificar, el traductor tolera variaciones menores en la longitud de los separadores, lo cual es útil para Morse escrito manualmente que puede no seguir las reglas de temporización perfectamente. Esto hace que la función de decodificación sea indulgente para aprendices mientras produce resultados precisos para entradas exactas."
+      ]
+    },
+    {
+      "heading": "Consideraciones de Formato y Plataforma",
+      "paragraphs": [
+        "El traductor presenta Morse utilizando caracteres Unicode estándar para puntos y rayas, que se muestran correctamente en prácticamente todos los dispositivos y sistemas operativos modernos. Si necesitas pegar la salida en un sistema que no admite Unicode, puedes sustituir puntos y guiones manualmente después de copiar el resultado. El traductor mantiene el patrón intacto independient del conjunto de caracteres utilizado para representarlo.",
+        "La longitud de línea importa al transmitir Morse por canales estrechos como mensajería instantánea o terminales de radio heredadas. El traductor preserva el ajuste de línea de forma natural porque representa los espacios entre palabras, por lo que la salida pegada se corta limpiamente a anchos de línea razonables. Esto evita la necesidad de reformatear mensajes largos antes de enviarlos.",
+        "Al compartir texto decodificado, el traductor produce letras y números ASCII planos sin formato oculto, variantes Unicode especiales o caracteres invisibles. Esto significa que el resultado decodificado se pega limpiamente en correos electrónicos, documentos y editores de código sin introducir artefactos de codificación que podrían confundir los sistemas posteriores."
+      ]
+    },
+    {
+      "heading": "Formatos Auténticos, Privacidad Digital",
+      "paragraphs": [
+        "Los mensajes de práctica personal se traducen localmente.",
+        "Sin subida, sin cuenta, sin marca de agua, en todas las plataformas.",
+        "Señalización, sin vigilancia."
+      ]
+    },
+    {
+      "heading": "Morse en el Kit de Herramientas de Traducción",
+      "paragraphs": [
+        "Combina con [binary-text:binario], [number-base:sistemas de bases] y [reverse-text:inversiones] para un conjunto lúdico y completo.",
+        "Todo es gratuito y nativo del navegador.",
+        "Desde puntos y rayas hasta oraciones completas, al instante."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Puede el traductor decodificar Morse de vuelta a texto?",
+      "a": "Sí. Los puntos, rayas y separadores estándar se traducen de vuelta en letras y números."
+    },
+    {
+      "q": "¿Se admiten números y puntuación?",
+      "a": "Sí. Los numerales y la puntuación común tienen equivalentes en Morse y se convierten en ambas direcciones."
+    },
+    {
+      "q": "¿La traducción es privada?",
+      "a": "Sí. Todo se ejecuta localmente en tu navegador sin subidas ni cuentas."
+    },
+    {
+      "q": "¿La herramienta sigue el estándar del Código Morse Internacional?",
+      "a": "Sí. El traductor utiliza los patrones y la temporización del estándar UIT, por lo que la salida es legible para cualquier persona formada en el Código Morse Internacional."
+    }
+  ]
+}

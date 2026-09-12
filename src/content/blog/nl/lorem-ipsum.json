@@ -1,0 +1,122 @@
+{
+  "slug": "lorem-ipsum",
+  "title": "Lorem Ipsum Generator: Maak Plaatshouderstekst Online Gratis",
+  "description": "Gratis lorem ipsum generator om plaatshouderstekst van elke lengte te maken — alinea's, woorden, zinnen — voor mockups en ontwerpwerk. Privé, direct, in je browser.",
+  "keywords": ["lorem ipsum", "lorem ipsum generator", "plaatshouderstekst", "dummy tekst generator", "lorem generator", "mockup tekst", "voorbeeldtekst generator"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Design Leeft in Plaatshouderstekst",
+      "paragraphs": [
+        "Mockups hebben tekst nodig voordat de echte tekst bestaat: een kop invullen, een alinea vullen, een layout previewen. Plaatshouderstekst is de layoutvriendelijke invaller waar elke designer en ontwikkelaar een beroep op doet.",
+        "De onleesbare maar geloofwaardige lettergrepen houden de blik op de layout in plaats van op de woorden.",
+        "ChooseTools genereert lorem ipsum lokaal in je browser, in precies de omvang die je nodig hebt.",
+        "Door vroeg opvultekst te gebruiken, voorkom je dat belanghebbenden concepttekst bekritiseren in plaats van de visuele hiërarchie en spatiëring te beoordelen."
+      ]
+    },
+    {
+      "heading": "Alinea's, Zinnen, Woorden — Kies Je Eenheid",
+      "paragraphs": [
+        "Kies de granulariteit van de output: enkele woorden voor een knop, zinnen voor een ondertitel, alinea's voor een contentblok.",
+        "Klassiek lorem ipsum begint met de traditionele „Lorem ipsum dolor sit amet“-aanhef.",
+        "Kopieer-plak het gegenereerde blok direct in je ontwerptool.",
+        "Genereren op basis van het aantal woorden is vooral nuttig wanneer je een UI-element met een tekenlimiet moet testen, zoals een tooltip of meldingsbanner."
+      ]
+    },
+    {
+      "heading": "Wireframes en Front-endontwikkeling",
+      "paragraphs": [
+        "Websitemockups, app-prototypes en front-endontwikkeling hebben allemaal grote hoeveelheden onopvallende tekst nodig.",
+        "Plaatshouderstekst op maat bewijst het responsive gedrag voordat echte content verschijnt.",
+        "Genereer zoveel als het frame nodig heeft, zonder giswerk over aantallen.",
+        "Ontwikkelaars kunnen opvultekst in component-storybooks plakken om te controleren dat tekstterugloop, afkapping en overflow zich correct gedragen over breakpoints heen."
+      ]
+    },
+    {
+      "heading": "Terug naar de Afzender: Plaatshouders Later Vervangen",
+      "paragraphs": [
+        "Omdat lorem ipsum duidelijk herkenbaar is, wisselt echte tekst er netjes voor in de plaats via zoeken en vervangen.",
+        "Markeer je blokken en vervang ze systematisch wanneer de echte tekst arriveert.",
+        "De plaatshouder is een belofte, geen val.",
+        "Een nuttige gewoonte is om elk plaatshouderblok in een commentaar of data-attribuut te verpakken, zodat een zoekactie elk exemplaar kan vinden zonder verborgen secties te missen."
+      ]
+    },
+    {
+      "heading": "Lengte en Dichtheid: Layoutvereisten Matchen",
+      "paragraphs": [
+        "Een hero-sectie heeft twee korte zinnen nodig, terwijl een blogpreviewkaart misschien een volledige alinea nodig heeft om het afkappingsgedrag te testen.",
+        "Iets meer tekst genereren dan nodig is, laat je terugknippen tot exact de grens en bevestigt dat de ellips- of line-clamp-styling werkt zoals bedoeld.",
+        "Deze kleine gewoonte vangt layoutbugs op die alleen aan de contentrand verschijnen."
+      ]
+    },
+    {
+      "heading": "Internationale Layouts en Meertalige Mockups",
+      "paragraphs": [
+        "Plaatshouderstekst voor RTL-layouts vereist ander afbreukgedrag, en lorem ipsum onthult of de tekst-engine richtingsveranderingen correct verwerkt.",
+        "Bij het testen van meertalige interfaces simuleert het genereren van opvultekst in verschillende lengtes hoe Duitse samenstellingen of Japanse tekens de afmetingen van de box beïnvloeden.",
+        "Het vroeg in meerdere talen gebruiken van plaatshouderstekst voorkomt layoutverrassingen in een laat stadium van gelokaliseerde releases."
+      ]
+    },
+    {
+      "heading": "Printlayouts en Redactionele Mockups",
+      "paragraphs": [
+        "Boekdesigners en tijdschrift-lay-outartiesten gebruiken plaatshouderstekst om kolombreedtes, baseline-grids en typografische hiërarchie vast te stellen voordat het manuscript arriveert.",
+        "Het genereren van genoeg opvultekst om een volledige spread te vullen bevestigt dat afbrekings- en uitvulinstellingen acceptabele rivieren en weduwen opleveren.",
+        "Printgerichte mockups profiteren van realistische tekstdichtheid, omdat papieren opmaak veel minder vergevingsgezind is dan responsive webopmaak."
+      ]
+    },
+    {
+      "heading": "Variaties in Plaatshouderstekst voor Realisme",
+      "paragraphs": [
+        "Naast de klassieke Latijnse passage hebben sommige designers realistisch ogende neptekst nodig die de dichtheid en het ritme van echte productbeschrijvingen of nieuwsartikelen beter nabootst.",
+        "Variërende zins- en alinealengte in de gegenereerde tekst levert een levendiger layout op dan een gelijkmatig verdeeld blok zinnen van identieke lengte.",
+        "Het kiezen van een gevarieerde generatiemodus wanneer de layout uiteindelijk redactionele content zal bevatten, leidt tot mockups die het uiteindelijke visuele evenwicht beter voorspellen."
+      ]
+    },
+    {
+      "heading": "Privé Plaatshouderproductie",
+      "paragraphs": [
+        "Lokaal opvultekst genereren betekent dat niet-uitgebrachte designs geen spoor van externe tools dragen.",
+        "Geen upload, geen account, geen watermerk — op elk platform.",
+        "Mockup-momentum, nul blootstelling.",
+        "Klantprototypes en productschermen vóór de lancering blijven vertrouwelijk wanneer de tekstgenerator nooit contact maakt met een externe server."
+      ]
+    },
+    {
+      "heading": "Plaatshouders Binnen de Toolkit",
+      "paragraphs": [
+        "Genereer en geef daarna vorm met case-tools of meet met het aantal woorden voor exacte layoutbudgetten.",
+        "De suite is gratis en draait volledig in de browser.",
+        "Elke layout, perfect geprevieuwd.",
+        "Het combineren van plaatshoudergeneratie met een tekenteller zorgt dat je mockups de exacte limieten van het doelplatform respecteren.",
+        "Deze combinatie is onbetaalbaar wanneer een plaatshouder in een component van vaste grootte moet passen, zoals een kaarttitel of tabelcel."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Waarom wordt lorem ipsum in design gebruikt?",
+      "a": "De woorden lijken op echte tekst zonder door de betekenis af te leiden, zodat reviewers de layout beoordelen in plaats van de tekst."
+    },
+    {
+      "q": "Kan ik een specifieke hoeveelheid tekst genereren?",
+      "a": "Ja. Geef alinea's, zinnen of het aantal woorden op en de generator produceert precies die hoeveelheid."
+    },
+    {
+      "q": "Is de generator privé?",
+      "a": "Ja. Tekst wordt lokaal in je browser gegenereerd, zonder uploads of accounts."
+    },
+    {
+      "q": "Begint de gegenereerde tekst met de klassieke Latijnse aanhef?",
+      "a": "Ja. Output in alineamodus begint met de traditionele „Lorem ipsum dolor sit amet“-passage die designers direct herkennen."
+    },
+    {
+      "q": "Kan lorem ipsum helpen om responsive layouts te testen?",
+      "a": "Ja. Het genereren van tekst in wisselende lengtes onthult hoe koppen, alinea's en bijschriften zich gedragen over mobiele, tablet- en desktop-breakpoints."
+    },
+    {
+      "q": "Kan ik plaatshouderstekst genereren zonder de klassieke Latijnse woorden?",
+      "a": "Ja. Als de traditionele passage een reviewer zou afleiden, kun je opvultekst met gevarieerde zinslengtes genereren, zodat de mockup toch realistisch leest zonder zichtbare betekenis."
+    }
+  ]
+}

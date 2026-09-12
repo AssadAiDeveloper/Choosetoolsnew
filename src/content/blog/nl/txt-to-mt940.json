@@ -1,0 +1,132 @@
+{
+  "slug": "txt-to-mt940",
+  "title": "TXT naar MT940 Converter: Maak MT940-afschriften uit Tekst Gratis Online",
+  "description": "Gratis TXT-naar-MT940-converter om MT940-afschriften in bankformaat te genereren uit platte-tekstgegevens, in je browser. Privé, zonder uploads, zonder aanmelding.",
+  "keywords": ["txt naar mt940", "mt940 uit tekst", "mt940 txt genereren", "mt940 converter txt", "mt940 maken uit tekst", "txt naar mt940 online", "mt940 bestand uit tekst"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Platte Tekst In, Bankstandaard Uit",
+      "paragraphs": [
+        "Wanneer een systeem transactiegegevens als eenvoudige tekst levert, maakt het converteren naar MT940 ze verteerbaar voor banken en treasury-tools. [txt-to-mt940:MT940 genereren uit platte tekst] standaardiseert ruwe rijen tot het getagde formaat dat importeurs verwachten.",
+        "Geen spreadsheets, geen handmatig opnieuw intypen — direct gestructureerde output.",
+        "ChooseTools converteert TXT naar MT940 lokaal in je browser."
+      ]
+    },
+    {
+      "heading": "Hoe Tekst naar MT940 te Converteren",
+      "paragraphs": [
+        "Van vrije tekst naar een conform afschrift:",
+        "Plak je transactieregels in platte tekst, beschrijf de indeling (volgorde van datum, bedrag, omschrijving) en genereer het MT940-bestand dat klaar is om aan je ontvanger te leveren.",
+        "De conversie draait lokaal en behoudt vertrouwelijkheid."
+      ]
+    },
+    {
+      "heading": "Regelindelingen Automatisch Gelezen",
+      "paragraphs": [
+        "Eenvoudige, voorspelbare tekstregels worden omgezet in gestructureerde MT940-tags.",
+        "Datums en bedragen worden genormaliseerd naar de verwachtingen van het formaat.",
+        "De converter levert importklare afschriften in plaats van ruwe notities."
+      ]
+    },
+    {
+      "heading": "Voor Testafschriften en Legacy-systemen",
+      "paragraphs": [
+        "Mock-afschriftbestanden voor integratietests komen snel voort uit platte-tekst-fixtures.",
+        "Legacy-exports migreren naar bruikbare bankformaten zonder spreadsheets.",
+        "Gegevens stromen moderne pipelines in in plaats van in een tekstbestand te blijven zitten."
+      ]
+    },
+    {
+      "heading": "Standaardstructuur, Nul Handmatige Bewerkingen",
+      "paragraphs": [
+        "Veldposities en regellengtes worden automatisch gevormd.",
+        "Consistentie garandeert dat downstream-parsers het bestand schoon valideren.",
+        "Bank-grade resultaten bij de eerste poging."
+      ]
+    },
+    {
+      "heading": "Privé Afschriftproductie",
+      "paragraphs": [
+        "Platte-tekstgegevens kunnen rekeningnummers en saldi bevatten; lokale conversie verzegelt ze.",
+        "Geen upload, geen account, geen watermerk — op alle platforms.",
+        "Privé pipelines, conforme output."
+      ]
+    },
+    {
+      "heading": "MT940-werk in de Suite",
+      "paragraphs": [
+        "Maak de cirkel rond met [mt940-to-excel:MT940 naar Excel], [excel-to-mt940:Excel naar MT940] en [csv-to-excel:spreadsheet-imports].",
+        "De toolkit is gratis en browsergebaseerd.",
+        "Tekstregels worden banktaal-vaardige bestanden."
+      ]
+    },
+    {
+      "heading": "De MT940-tagstructuur en Wat Elk Veld Betekent",
+      "paragraphs": [
+        "Het MT940-formaat organiseert gegevens in een reeks getagde velden, beginnend met een basaal header-afschrifttag dat de rekening en afschriftperiode identificeert.",
+        "Transactieregels gebruiken een toegewijd tag dat de valuedatum, boekingsdatum, debet- of creditindicator, bedrag en referentie op vaste posities codeert.",
+        "Een informatief tag bevat vrije-tekstgegevens zoals de transactieomschrijving, de naam van de tegenpartij en eventuele overboekingsinformatie die de bank opneemt.",
+        "Inzicht in deze tags helpt je te verifiëren dat de geconverteerde output overeenkomt met wat je treasury-managementsysteem of boekhoudsoftware verwacht te ontvangen."
+      ]
+    },
+    {
+      "heading": "Datumformaten en Valutanormalisatie",
+      "paragraphs": [
+        "Banken drukken datums doorgaans uit in het zescijferige formaat dat in SWIFT-berichtverkeer wordt gebruikt, terwijl platte-tekstbronnen datums in verschillende regionale indelingen kunnen leveren.",
+        "De converter normaliseert datumreeksen naar het bankstandaardformaat, ongeacht of je bron streepjes, schuine strepen of compacte numerieke reeksen gebruikt.",
+        "Valutabedragen worden uit de tekst geparsed en op de juiste positievelden geplaatst, met behandeling van decimaalscheidingstekens en duizendtalgroepering waar nodig.",
+        "Deze normalisatiestap elimineert de meest voorkomende reden dat MT940-imports falen: misvormde datums of bedragen die niet aan de verwachte indeling voldoen."
+      ]
+    },
+    {
+      "heading": "Test-fixtures Genereren voor Integratiepipelines",
+      "paragraphs": [
+        "Ontwikkelteams die treasury-integraties bouwen, hebben realistische MT940-fixtures nodig om parsers, reconciliatie-engines en dashboard-imports te testen.",
+        "Deze fixtures uit platte-tekstgegevens maken is aanzienlijk sneller dan ze uit een live bankomgeving exporteren, vooral in vroege ontwikkelingsstadia.",
+        "De converter laat je snel itereren: pas een transactieregel in de tekst aan, converteer opnieuw en voer het resultaat binnen enkele seconden aan je testsuite toe.",
+        "Deze snelle feedbacklus vangt parsingbugs voordat ze de productie bereiken, waar verkeerd geclassificeerde transacties reconciliatieproblemen kunnen veroorzaken."
+      ]
+    },
+    {
+      "heading": "Veelvoorkomende Validatiefouten en Hoe Ze te Vermijden",
+      "paragraphs": [
+        "Banken wijzen MT940-bestanden af met ontbrekende verplichte tags, incorrecte regellengtes of bedragen die binnen een afschriftsectie niet kloppen.",
+        "De converter handhaaft veldlengtes en tekenposities automatisch, waardoor het merendeel van de structurele validatiefouten wordt voorkomen vóór je het bestand downloadt.",
+        "Als je brontekst een verplicht veld mist, zoals het rekeningnummer of afschriftnummer, markeert de tool het probleem tijdens de conversie in plaats van een onvolledig bestand te produceren.",
+        "Een validatiecontrole na de conversie uitvoeren geeft je de definitieve bevestiging dat de output bij de eerste inzending de formatpoort van de importeur passeert."
+      ]
+    },
+    {
+      "heading": "Meerdere Rekeningen in Eén Conversie Verwerken",
+      "paragraphs": [
+        "Organisaties die meerdere rekeningen beheren, moeten vaak voor elk daarvan afzonderlijke MT940-afschriften produceren, zelfs wanneer de brontekst door elkaar vermengde transacties bevat.",
+        "De converter laat je transacties op rekeningidentificatie groeperen vóór het genereren van de output, zodat elk afschriftbestand met exact één rekening overeenkomt.",
+        "Deze groepering voorkomt de downstream-reconciliatiefouten die optreden wanneer één bestand gemengde rekeningsgegevens bevat die parsers niet netjes kunnen scheiden.",
+        "Het batchvriendelijke ontwerp betekent dat je meerdere tekstdelen opeenvolgend kunt verwerken zonder de indelingskoppeling elke keer opnieuw te configureren."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Wat heeft de converter nodig van mijn tekstbestand?",
+      "a": "Voorspelbare rijen met ten minste een datum, een bedrag en een omschrijving; de indeling wordt tijdens de conversie bevestigd."
+    },
+    {
+      "q": "Waarom zou ik MT940 uit tekst genereren?",
+      "a": "Om legacy-exports, test-fixtures of eenvoudige exportrijen te voeden aan banksystemen die MT940 accepteren."
+    },
+    {
+      "q": "Is de conversie privé?",
+      "a": "Ja. Alles draait lokaal in je browser zonder uploads of accounts."
+    },
+    {
+      "q": "Welk datumformaat gebruikt de output?",
+      "a": "Datums worden genormaliseerd naar het zescijferige SWIFT-formaat dat MT940-parsers verwachten, ongeacht het formaat in je brontekst."
+    },
+    {
+      "q": "Kan ik afzonderlijke afschriften voor meerdere rekeningen produceren?",
+      "a": "Ja. De converter laat je transacties op rekeningidentificatie groeperen, zodat elk outputbestand met één rekening overeenkomt en downstream-reconciliatiefouten worden voorkomen."
+    }
+  ]
+}

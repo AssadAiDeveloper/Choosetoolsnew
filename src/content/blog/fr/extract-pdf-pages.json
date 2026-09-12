@@ -1,0 +1,81 @@
+{
+  "slug": "extract-pdf-pages",
+  "title": "Comment extraire des pages d'un PDF en ligne gratuitement : enregistrer une plage de pages en un nouveau PDF",
+  "description": "Extrayez des pages d'un PDF en ligne gratuitement avec ChooseTools. Sortez des pages individuelles ou des plages de n'importe quel document et enregistrez-les en un nouveau PDF sans téléverser le moindre octet.",
+  "keywords": ["extraire des pages d'un pdf", "extraire une page d'un pdf en ligne gratuitement", "enregistrer des pages pdf", "sortir des pages d'un pdf", "extraire des pages pdf dans un nouveau fichier", "outil d'extraction de pages pdf", "extraire une plage de pages d'un pdf"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "L'extraction : récupérer exactement ce dont vous avez besoin dans un PDF",
+      "paragraphs": [
+        "On n'a rarement besoin d'un document en entier. Un étudiant a besoin de deux chapitres d'un manuel, un soliciteur a besoin d'une seule page de clause sur trente, un analyste a besoin d'une seule page de graphique dans un diaporama. [extract-pdf-pages:L'extraction de pages PDF] convertit des fichiers volumineux en exactement le contenu qui compte.",
+        "Les alternatives naïves — copier et coller dans un lecteur, capturer chaque page par capture d'écran — produisent des résultats de mauvaise qualité et fragmentés. Un véritable outil d'extraction reconstruit les pages sélectionnées en un PDF propre et correct avec du texte et des vecteurs intacts.",
+        "ChooseTools effectue l'extraction localement dans votre navigateur. Choisissez les pages, cliquez, et un nouveau PDF contenant uniquement ces pages se télécharge. Pas de téléchargement vers un serveur, pas de filigrane et pas de tracas d'inscription.",
+        "Le fichier livré est un PDF ordinaire, entièrement lisible, qui hérite de toutes les qualité des pages que vous avez choisies."
+      ]
+    },
+    {
+      "heading": "Comment extraire des pages PDF dans un nouveau fichier",
+      "paragraphs": [
+        "L'outil transforme un travail manuel de deux minutes en une opération de cinq secondes.",
+        "Ajoutez votre PDF et laissez le moteur de rendu local afficher un aperçu page par page. Sélectionnez les pages que vous souhaitez conserver en entrant une plage littérale telle que « 7-12 ». Confirmez, et un nouveau PDF autonome contenant exactement ces pages se télécharge instantanément.",
+        "Comme l'extraction réutilise le contenu original des pages, le nouveau fichier conserve les vecteurs, polices, liens et images nettes intacts. C'est un PDF valide, ouvable indépendamment, que vous pouvez envoyer par e-mail, archiver ou imprimer.",
+        "Vérifiez les miniatures d'aperçu au fur et à mesure que vous construisez la sélection, et ajustez les plages jusqu'à ce que le nouveau fichier contienne exactement le contenu que vous aviez prévu."
+      ]
+    },
+    {
+      "heading": "Extraction de pages uniques pour signatures, couvertures et preuves",
+      "paragraphs": [
+        "L'extraction de pages uniques est le pain quotidien du travail juridique et administratif : isoler une page de signature, une attestation, une page de certificat ou une feuille de codes-barres d'un document plus long.",
+        "Ces PDF d'une seule page sont des candidats idéaux pour une livraison protégée. Après l'extraction, vous pouvez verrouiller la page avec [protect-pdf:l'encryption PDF], garantissant que seuls les destinataires prévus puissent lire le certificat ou le formulaire isolé.",
+        "La page extraite ressemble exactement à ce qu'elle était dans la source — même mise en forme, mêmes polices — car c'est l'objet de page original enregistré seul, pas une capture d'écran.",
+        "Les pages isolées s'impriment également proprement sur une seule feuille, c'est pourquoi les équipes de vérification et de conformité les demandent si souvent."
+      ]
+    },
+    {
+      "heading": "Extraction de plages pour chapitres, analyses et brouillons de travail",
+      "paragraphs": [
+        "L'extraction de plages est la méthode utilisée par les professionnels pour diviser un livre en chapitres, un manuel en modules, ou un ensemble de données en lots avant de partager les morceaux avec différents intervenants.",
+        "Saisissez les deux extrémités et l'outil retourne une tranche contiguë du document. Combinez cela avec [split-pdf:séparer PDF] lorsque vous avez besoin que chaque chapitre soit son propre fichier, ou avec [merge-pdf:fusionner PDF] pour mélanger des plages extraites de plusieurs sources en un seul dossier.",
+        "Comme chaque extraction est un véritable PDF avec du texte sélectionnable, les destinataires peuvent copier-citer, rechercher et annoter la section livrée — des fonctionnalités qui comptent dans les flux de travail de révision collaborative.",
+        "Que la tranche comprenne deux pages ou deux cents, l'extraction préserve chaque graphique intégré et chaque référence croisée."
+      ]
+    },
+    {
+      "heading": "Confidentialité totale grâce au traitement local",
+      "paragraphs": [
+        "Un outil d'extraction nécessite un accès profond aux entrailles de votre document ; le faire à distance signifie que votre fichier complet traverse le réseau même si vous ne vouliez que quatre pages. ChooseTools garde l'opération entière sur votre machine.",
+        "Le moteur de rendu PDF.js analyse l'arborescence des pages localement, copie les objets de pages choisis, et écrit le nouveau document sans jamais transmettre le fichier source. Pour les NDA, les données médicales et le travail client, c'est le seul modèle acceptable.",
+        "Ajoutez à cela l'absence d'inscription et de filigrane, et l'extraction devient une partie routinière et sans risque de votre flux de travail documentaire quotidien sur Windows, macOS ou les navigateurs mobiles.",
+        "Comme la source ne voyage jamais, vous pouvez conserver l'original en place et itérer les selections aussi souvent que nécessaire en toute confiance."
+      ]
+    },
+    {
+      "heading": "Idées de flux de travail pratiques avec l'extraction",
+      "paragraphs": [
+        "Extrayez la couverture et les pages de tarif d'une proposition pour un aperçu rapide client. Isolez la feuille de référence d'un manuel pour la distribution au personnel sur le terrain. Sortez les tableaux d'un article de recherche pour une lecture hors ligne dans le train.",
+        "Les sections extraites restent entièrement imprimables et recherchables, en faisant des entrées sans couture pour les étapes en aval : compressez avec [compress-pdf:compresser PDF] avant de joindre à un e-mail, ou convertissez avec [pdf-to-jpg:PDF en JPG] pour envoyer sous forme d'images.",
+        "En bref, l'extraction vous donne un contrôle chirurgical sur vos documents sans sacrifier la vitesse, la qualité ou la confidentialité.",
+        "Utilisée régulièrement, elle change la façon dont les équipes distribuent l'information : des tranches pertinentes au lieu de pièces jointes interminables."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puis-je extraire une plage de pages non consécutives ?",
+      "a": "Oui. Vous pouvez spécifier des pages ou des plages précises (par exemple les pages 1, 5-8 et 12), et l'outil construit un nouveau PDF contenant exactement ces pages dans l'ordre choisi."
+    },
+    {
+      "q": "Les pages extraites conservent-elles le texte sélectionnable et recherchable ?",
+      "a": "Oui. L'extraction réutilise les objets de page originaux, le texte reste donc sélectionnable et recherchable, exactement comme dans le document source."
+    },
+    {
+      "q": "Y a-t-il une limite au nombre de pages que je peux extraire gratuitement ?",
+      "a": "Non. L'outil n'impose aucune limite de pages. Comme le traitement est local, la seule contrainte pratique est la mémoire disponible sur votre appareil."
+    },
+    {
+      "q": "Puis-je combiner des pages extraites de différents documents ?",
+      "a": "Oui. Extrayez les plages dont vous avez besoin de chaque source, puis utilisez [merge-pdf:fusionner PDF] pour les combiner en un seul nouveau document."
+    }
+  ]
+}

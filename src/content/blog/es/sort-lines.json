@@ -1,0 +1,122 @@
+{
+  "slug": "sort-lines",
+  "title": "Ordenar Líneas Online Gratis: Ordenar Alfabéticamente e Invertir Líneas en Un Clic",
+  "description": "Herramienta gratuita online para ordenar líneas de texto alfabéticamente, ordenar numéricamente, invertir el orden y eliminar la distinción de mayúsculas en tu navegador. Privado, instantáneo, sin registro.",
+  "keywords": ["ordenar líneas", "ordenar líneas alfabéticamente", "alfabetizador", "ordenar texto online", "invertir orden de líneas", "ordenar lista online", "herramienta para ordenar líneas"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Las Listas Desean Orden, los Humanos Desean Orden Rápido",
+      "paragraphs": [
+        "Listas de nombres, listas de URLs, filas de inventario y pilas de referencias todas claman por ser ordenadas. Hacerlo manualmente invita a errores; un ordenador de líneas organiza todo al instante.",
+        "Los órdenes alfabético, numérico e inverso cubren casi todos los casos prácticos.",
+        "ChooseTools ordena líneas localmente en tu navegador, con opciones de manejo de mayúsculas y salida inmediata.",
+        "Ordenar una lista elimina la carga cognitiva para cualquiera que la lea, ya sea un persona escaneando un directorio o un script procesando datos delimitados por líneas."
+      ]
+    },
+    {
+      "heading": "Cómo Ordenar una Lista Alfabéticamente",
+      "paragraphs": [
+        "Orden restaurado, al instante.",
+        "Pega tus líneas, elige alfabético ascendente o descendente y lee el resultado ordenado. Alterna la distinción de mayúsculas para que Zebra y apple se intercalen correctamente.",
+        "El modo numérico ordena números por valor en lugar de por orden de diccionario.",
+        "La ordenación alfabética es la operación más común para listas de contactos, hojas de vocabulario, entradas bibliográficas y cualquier conjunto de datos donde los nombres constituyen la clave principal."
+      ]
+    },
+    {
+      "heading": "Ordenación Numérica: Valores, No Letras",
+      "paragraphs": [
+        "Una ordenación simple en muchas herramientas coloca 10 antes de 2 porque las cadenas se comparan léxicamente. El modo numérico compara por magnitud.",
+        "Los IDs, importes y medidas se ordenan correctamente en el momento en que cambias de modo.",
+        "Este es el error silencioso que las preferencias de ordenación existen para prevenir.",
+        "En hojas de cálculo y bases de datos, el mismo problema aparece cuando una columna está escrita como texto; un ordenador numérico basado en navegador lo detecta antes de que los datos lleguen a producción."
+      ]
+    },
+    {
+      "heading": "Invertir y Eliminar Duplicados Mientras Estás Aquí",
+      "paragraphs": [
+        "Invertir el orden de líneas es toda una categoría de flujo de trabajo: voltear listas cronológicas, preparar pilas LIFO, verificar simetría.",
+        "Combina la inversión con un escaneo de duplicados, o ejecuta una eliminación de duplicados como paso posterior.",
+        "El orden y la limpieza llegan juntos.",
+        "Invertir también es útil para invertir registros exportados de modo que la entrada más reciente aparezca arriba, lo que acelera la revisión manual."
+      ]
+    },
+    {
+      "heading": "Escenarios de Ordenación del Mundo Real",
+      "paragraphs": [
+        "Los desarrolladores ordenan listas de variables de entorno antes de enviarlas al control de versiones para que las diferencias se mantengan limpias.",
+        "Los profesionales de marketing ordenan alfabéticamente las listas de distribución regional para una búsqueda rápida durante la planificación de campañas.",
+        "Los investigadores ordenan numéricamente las marcas de tiempo de observación para verificar la secuencia cronológica antes del análisis.",
+        "En todos los casos el beneficio central es el mismo: convertir un pegado sin procesar en un artefacto ordenado y listo para usar inmediatamente."
+      ]
+    },
+    {
+      "heading": "Manejo de Espacios en Blanco Iniciales y Líneas Vacías",
+      "paragraphs": [
+        "Las listas pegadas a menudo llevan espacios sueltos o líneas vacías que rompen los scripts posteriores; el ordenador trata cada línea de forma independiente sin importar los espacios en blanco iniciales o finales.",
+        "Las líneas vacías pueden preservarse para separación visual o eliminarse para producir una lista continua, dependiendo de la salida que necesites.",
+        "Limpiar los espacios en blanco durante la ordenación ahorra un paso de preprocesamiento separado y mantiene el flujo de trabajo en una sola acción de pegar y ordenar."
+      ]
+    },
+    {
+      "heading": "Ordenación de Datos Multicolumna y CSV",
+      "paragraphs": [
+        "Cuando cada línea contiene campos separados por comas, ordenar por la primera columna alfabéticamente ordena la clave principal mientras mantiene el resto de la fila intacta.",
+        "Esto es útil para reordenar exportaciones CSV donde la base de datos volcó los registros en orden de inserción pero la hoja de cálculo necesita una presentación alfabética.",
+        "Combinar la ordenación de líneas con un formateador CSV posterior produce un conjunto de datos completamente estructurado y listo para presentación a partir de un pegado sin procesar."
+      ]
+    },
+    {
+      "heading": "Ordenación de URLs y Rutas de Archivo",
+      "paragraphs": [
+        "Las listas de URLs, rutas de inclusión y manifiestos de dependencias se ordenan habitualmente para normalizar un proyecto y hacer que las revisiones de diferencias sean más limpias.",
+        "Ordenar URLs alfabéticamente agrupa subdominios y segmentos de ruta juntos, lo que acelera la inspección manual de un inventario de enlaces extenso.",
+        "La misma técnica organiza una lista de rutas de archivo para que las carpetas relacionadas aparezcan adyacentes, reduciendo el tiempo dedicado a buscar entradas."
+      ]
+    },
+    {
+      "heading": "Procesamiento Privado de Listas Específicas de Clientes",
+      "paragraphs": [
+        "Las listas de clientes, inventarios no publicados y datos internos se ordenan localmente y siguen siendo tuyos.",
+        "Sin subidas, sin cuenta, sin marca de agua — igual en Windows, macOS, Linux y móvil.",
+        "Ordenación rápida sin miradas indiscretas.",
+        "Las listas confidenciales como directorios de empleados o listas de participantes nunca salen del dispositivo, lo cual es esencial para el cumplimiento de políticas de manejo de datos."
+      ]
+    },
+    {
+      "heading": "Ordenación Dentro del Conjunto de Herramientas Completo",
+      "paragraphs": [
+        "Ordena el contenido, luego formatea con herramientas de mayúsculas o compara antes y después con la herramienta text-diff.",
+        "Todo es gratuito y nativo del navegador.",
+        "Listas en orden perfecto, la lista vacía tu bandeja.",
+        "Tras ordenar, puedes alimentar el resultado directamente a un formateador CSV o a una utilidad remove-duplicate-lines para una limpieza adicional."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Puedo ordenar números por su valor real?",
+      "a": "Sí. Cambia al modo numérico y los valores como 2, 10, 100 se ordenan por magnitud en lugar de como texto."
+    },
+    {
+      "q": "¿El ordenador maneja las mayúsculas de forma razonable?",
+      "a": "Sí. Una opción de mayúsculas te permite decidir si las líneas ordenadas tratan el tipo de letra de forma igualitaria."
+    },
+    {
+      "q": "¿El ordenador de líneas es privado?",
+      "a": "Sí. La ordenación ocurre localmente en tu navegador sin subidas ni cuentas."
+    },
+    {
+      "q": "¿Puedo invertir el orden de las líneas?",
+      "a": "Sí. Un simple interruptor invierte la lista a orden descendente, útil para voltear exportaciones cronológicas o crear secuencias de cuenta regresiva."
+    },
+    {
+      "q": "¿La ordenación preservará las líneas originales exactamente?",
+      "a": "Sí. El ordenador reordena líneas completas como unidades indivisibles, por lo que el texto de cada línea permanece intacto mientras su posición cambia."
+    },
+    {
+      "q": "¿Puedo ordenar una lista que contiene tanto palabras como números?",
+      "a": "Sí. Elige el modo que se ajuste al tipo de contenido predominante, o usa el modo alfabético cuando mezcles palabras y números como texto plano."
+    }
+  ]
+}

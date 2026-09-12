@@ -1,0 +1,107 @@
+{
+  "slug": "find-replace",
+  "title": "Localizar e Substituir Texto Online Grátis: Troque Palavras Instantaneamente",
+  "description": "Ferramenta online gratuita de localizar e substituir para trocar palavras, frases e caracteres no seu texto em segundos. Opções sensíveis a maiúsculas e minúsculas e suporte de regex. Privada, no seu navegador.",
+  "keywords": ["localizar e substituir", "substituir texto online", "trocar uma palavra no texto", "procurar e substituir", "substituição em massa de texto", "substituição com regex", "ferramenta de localizar e substituir"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Os Editores Sonham com Renomeações em Massa Num Clique",
+      "paragraphs": [
+        "Atualizar o nome de um produto num manual, corrigir o apelido mal escrito de um autor ao longo de um manuscrito ou trocar uma unidade em todo um conjunto de dados — [find-replace:localizar e substituir] é exatamente a tarefa que os utilizadores receiam fazer à mão.",
+        "Uma ferramenta fiável trata de substituições em documentos inteiros em segundos, com opções que evitam correspondências erradas.",
+        "A ChooseTools faz localizar e substituir localmente no seu navegador, com controlos de maiúsculas e minúsculas e de regex.",
+        "A edição manual convida ao erro humano: salta-se uma ocorrência, altera-se a instância errada ou introduz-se uma inconsistência que demora mais tempo a encontrar do que a própria tarefa original levaria a concluir."
+      ]
+    },
+    {
+      "heading": "Como Substituir Texto Instantaneamente",
+      "paragraphs": [
+        "Uma passagem, todas as ocorrências:",
+        "Cole o seu texto, escreva o termo de pesquisa, escreva a substituição e clique em substituir tudo. Cada correspondência é atualizada simultaneamente.",
+        "Opcionalmente, ligue ou desligue a sensibilidade a maiúsculas e minúsculas, ou ative o regex para correspondência por padrões; as pré-visualizações mostram o resultado antes de copiar.",
+        "O passo da pré-visualização é crucial: permite verificar o número de substituições e inspecionar as correspondências individuais antes de confirmar, para detetar cedo as edições não intencionais."
+      ]
+    },
+    {
+      "heading": "Correspondências Sensíveis a Maiúsculas vs Correspondências Amplas",
+      "paragraphs": [
+        "Substituir apple não deve afetar Apple ou Apples a menos que queira.",
+        "O interruptor de maiúsculas e minúsculas faz a diferença entre uma troca cirúrgica e uma troca ampla; escolha deliberadamente.",
+        "A correspondência por palavra inteira protege correspondências parciais como pineapple de edições não intencionais.",
+        "Na escrita técnica, onde acrónimos e nomes próprios aparecem ao lado de palavras comuns, a sensibilidade a maiúsculas e minúsculas evita erros embaraçosos em documentos publicados."
+      ]
+    },
+    {
+      "heading": "Regex: Utilizadores Avançados Substituem Padrões, Não Apenas Palavras",
+      "paragraphs": [
+        "Endereços de email, formatos de telefone, espaços repetidos — padrões, não strings exatas.",
+        "Ativar o regex permite a substituição baseada em padrões para limpezas estruturadas.",
+        "Um padrão bem construído poupa centenas de edições manuais.",
+        "Um exemplo comum é normalizar números de telefone: um padrão regex que corresponda a vários grupos de dígitos e separadores pode unificá-los todos num único formato com uma substituição, algo que de outra forma exigiria dezenas de passagens individuais de localizar e substituir."
+      ]
+    },
+    {
+      "heading": "Cenários Reais de Substituição",
+      "paragraphs": [
+        "As equipas de documentação técnica renomeiam endpoints de APIs em centenas de páginas, atualizando tanto o texto como os exemplos de código incorporados. Uma única passagem de regex substitui o segmento de caminho antigo em todo o lado, preservando o contexto circundante.",
+        "Os projetos de localização trocam símbolos de moeda, unidades de medida e formatos de data em strings traduzidas. A substituição deve respeitar o texto circundante sem corromper caracteres especiais ou etiquetas de marcação incorporadas no conteúdo.",
+        "Os departamentos jurídicos e de compliance redigem ou substituem nomes confidenciais em contratos e políticas antes da distribuição. A consistência importa: todas as ocorrências devem mudar ou nenhuma deve, e as substituições parciais criam responsabilidade.",
+        "Os gestores de conteúdo que atualizam um nome de marca num arquivo de blogues precisam de distinguir entre a marca usada como nome próprio e a mesma string que aparece em URLs ou excertos de código que devem permanecer intocados."
+      ]
+    },
+    {
+      "heading": "Preservar o Contexto ao Trocar",
+      "paragraphs": [
+        "A substituição não se limita a fazer corresponder texto; trata-se de manter intacto o contexto circundante. A ferramenta preserva a indentação, as quebras de linha e a pontuação adjacente para que substituir uma palavra dentro de um bloco de código ou de um parágrafo formatado não estrague o layout.",
+        "Ao trabalhar com dados estruturados como CSV ou JSON, o modo de palavra inteira evita que correspondências parciais corrompam os limites dos campos ou os nomes das chaves.",
+        "Estas salvaguardas significam que pode substituir com confiança em documentos de conteúdo misto sem inspecionar cada linha depois.",
+        "O modo de pré-visualização realça cada correspondência no seu contexto, dando-lhe a última oportunidade de ajustar o padrão antes de executar a troca."
+      ]
+    },
+    {
+      "heading": "Anular e Pré-visualizar para uma Iteração Segura",
+      "paragraphs": [
+        "O modo de pré-visualização realça cada correspondência com o contexto circundante antes de qualquer substituição ser executada, permitindo-lhe verificar que o padrão captura exatamente o que pretende e nada mais.",
+        "Se o número de substituições parecer demasiado alto ou baixo, pode ajustar o termo de pesquisa, alternar a sensibilidade a maiúsculas e minúsculas ou refinar o regex antes de confirmar. Esta rede de segurança iterativa evita erros dispendiosos.",
+        "A capacidade de anular e reaplicar instantaneamente significa que pode experimentar diferentes estratégias de substituição no mesmo texto sem duplicar manualmente a fonte.",
+        "Estes controlos tornam a ferramenta adequada tanto para correções pontuais como para fluxos de trabalho repetidos em lote, reduzindo o risco de arrependimento a cada passagem."
+      ]
+    },
+    {
+      "heading": "Privado para Conteúdo Sensível e Por Publicar",
+      "paragraphs": [
+        "Manuscritos, relatórios de clientes e nomes internos são trocados localmente, nunca numa nuvem de terceiros.",
+        "Sem uploads, sem conta, sem marcas de água — em todas as plataformas.",
+        "O caráter íntimo da edição permanece local.",
+        "Rascunhos confidenciais, nomes de produtos pré-lançamento e nomes de código de projetos internos permanecem no seu dispositivo durante todo o processo de substituição."
+      ]
+    },
+    {
+      "heading": "Substituição ao Lado da Caixa de Ferramentas de Texto",
+      "paragraphs": [
+        "Combine as trocas com as [word-counter:métricas], com a [case-converter:formatação de maiúsculas] ou com a [remove-duplicate-lines:remoção de linhas duplicadas] para uma limpeza completa.",
+        "A suite é gratuita e nativa do navegador.",
+        "Renomeie uma vez, em todo o lado, corretamente."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Posso substituir vários termos diferentes ao mesmo tempo?",
+      "a": "A ferramenta troca um termo por passagem, mas pode iterar instantânea e repetidamente; com regex pode também definir padrões mais amplos."
+    },
+    {
+      "q": "A substituição que ignora maiúsculas e minúsculas funciona?",
+      "a": "Sim. Ative ou desative a sensibilidade a maiúsculas e minúsculas para controlar se as correspondências diferem apenas no formato das letras."
+    },
+    {
+      "q": "Localizar e substituir é privado?",
+      "a": "Sim. Todas as operações acontecem localmente no seu navegador, sem uploads ou contas."
+    },
+    {
+      "q": "Posso usar expressões regulares?",
+      "a": "Sim. Ativar o modo regex permite correspondência baseada em padrões para substituições complexas como números de telefone, endereços de email ou dados estruturados."
+    }
+  ]
+}

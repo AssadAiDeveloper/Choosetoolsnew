@@ -1,0 +1,111 @@
+{
+  "slug": "svg-to-png",
+  "title": "Cómo Convertir SVG a PNG Online Gratis: Rasteriza Gráficos Vectoriales",
+  "description": "Convierte SVG a PNG online gratis con ChooseTools. Convierte gráficos vectoriales escalables en imágenes PNG nítidas a cualquier tamaño, directamente en tu navegador, con total privacidad y sin marcas de agua.",
+  "keywords": ["svg a png", "convertir svg a png online gratis", "svg a imagen", "rasterizar svg", "conversor svg", "svg a png alta resolución", "exportar svg a png"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Los Vectores Son Infinitos; los Píxeles Son Prácticos",
+      "paragraphs": [
+        "Los logotipos, iconos e ilustraciones viven bellamente como SVG, pero innumerables destinos exigen píxeles: correos, diapositivas, RIP de impresión, gráficos sociales. [svg-to-png:Convertir SVG a PNG] rasteriza el vector exactamente al tamaño y la resolución que necesitas.",
+        "A diferencia de las capturas de pantalla, una conversión real renderiza cada trazo, degradado y filtro con total fidelidad.",
+        "ChooseTools convierte SVG a PNG localmente en tu navegador, produciendo una salida limpia y escalable sin ninguna subida."
+      ]
+    },
+    {
+      "heading": "Cómo Convertir un Archivo SVG a PNG",
+      "paragraphs": [
+        "De vector a raster, bien hecho:",
+        "Sube tu SVG y define el tamaño de salida: píxeles exactos o un factor de escala sobre el tamaño dibujado. Convierte, y el PNG se descarga a la resolución que elegiste.",
+        "Como el renderizado es local, la iteración es gratuita y tu fuente permanece en tu dispositivo."
+      ]
+    },
+    {
+      "heading": "Renderiza a Cualquier Tamaño Sin Resultados Borrosos",
+      "paragraphs": [
+        "Los SVG escalan infinitamente; los PNG son cuadrículas fijas. La herramienta renderiza el vector sobre una cuadrícula de exactamente los píxeles que pediste.",
+        "Las exportaciones grandes para banners impresos y las pequeñas para iconos de aplicaciones salen nítidas porque el vector se redibuja cada vez.",
+        "Las pantallas retina obtienen sus activos a 2x sin hacer dobles cálculos manuales."
+      ]
+    },
+    {
+      "heading": "Transparencia Conservada para Todos los Gráficos",
+      "paragraphs": [
+        "Los logotipos modernos dependen de fondos transparentes. El PNG convertido conserva con precisión cada región transparente.",
+        "Las diapositivas, los sitios web y los materiales de producto aceptan el raster con su canal alfa intacto.",
+        "Los diseñadores dejan de preocuparse por si el PNG llegará con un recuadro blanco: no lo hará."
+      ]
+    },
+    {
+      "heading": "Qué Hace Distinto al SVG de Otros Formatos de Imagen",
+      "paragraphs": [
+        "El SVG almacena las formas como descripciones matemáticas en lugar de una cuadrícula fija de puntos de color. Por eso puede escalar a cualquier tamaño sin perder calidad, mientras que un PNG se pixeliza al ampliarlo.",
+        "La contrapartida es que el SVG requiere software capaz de interpretar las matemáticas vectoriales, que es por lo que los clientes de correo, los sistemas antiguos y muchos servicios de publicación exigen una versión raster.",
+        "El PNG ofrece compresión sin pérdida, lo que lo hace ideal para logotipos y gráficos con bordes nítidos, colores planos y transparencia.",
+        "Rasterizar un SVG conserva exactamente el diseño visual al tiempo que convierte su geometría infinita en una cuadrícula de píxeles acotada y universalmente compatible."
+      ]
+    },
+    {
+      "heading": "Elegir el Tamaño de PNG Adecuado para Cada Trabajo",
+      "paragraphs": [
+        "El tamaño de salida ideal depende del destino: un icono de aplicación necesita solo unos cientos de píxeles, mientras que un póster o un banner exige exportar a miles de píxeles.",
+        "Exportar al doble del tamaño de visualización necesario da resultados nítidos en pantallas retina y de alta densidad, y los SVG se redibujan limpiamente para aportar esos píxeles extra.",
+        "Para impresión, iguala las dimensiones de salida al tamaño físico y a la resolución de impresión, normalmente 300 puntos por pulgada.",
+        "Partir del vector garantiza que cualquiera de estos tamaños siga siendo nítido, porque la conversión siempre vuelve a renderizar desde la geometría original."
+      ]
+    },
+    {
+      "heading": "Usos Típicos de los SVG Rasterizados",
+      "paragraphs": [
+        "Los creadores de aplicaciones rasterizan conjuntos de iconos SVG en los recursos PNG que exigen las tiendas de aplicaciones y los manifiestos de las plataformas móviles, que no aceptan vectores.",
+        "Las newsletters por correo convierten los logotipos SVG a PNG para que se rendericen de forma fiable en clientes que eliminan el código moderno.",
+        "Las plantillas de diapositivas y documentos reciben gráficos PNG aplanados para que el formato se mantenga estable en dispositivos donde el soporte vectorial varía.",
+        "Los diseñadores web generan alternativas PNG para diseños aprobados mientras conservan el SVG original para futuras ediciones."
+      ]
+    },
+    {
+      "heading": "Planifica el Tamaño Más Grande Que Puedas Necesitar",
+      "paragraphs": [
+        "Los diseñadores generan con frecuencia PNG a varias escalas a la vez, ya que el vector se redibuja limpiamente en cada una.",
+        "Conservar el SVG original significa que cualquier tamaño futuro está a una conversión de distancia, así que el PNG nunca se convierte en un callejón sin salida.",
+        "Empezar alto (o exportar múltiplos) es una salvaguarda práctica cuando el diseño final aún no está decidido.",
+        "El conversor hace que cada regeneración sea instantánea y gratuita, fomentando exactamente este hábito."
+      ]
+    },
+    {
+      "heading": "Conversión Privada de Activos de Marca",
+      "paragraphs": [
+        "Los SVG a menudo codifican logotipos no publicados y diagramas propietarios: los últimos archivos que conviene compartir sin cuidado.",
+        "El procesamiento local mantiene tus vectores y sus conversiones en tu máquina, sin marcas de agua, cuentas ni subidas.",
+        "La disponibilidad en cualquier dispositivo convierte al conversor en un compañero de diseño constante."
+      ]
+    },
+    {
+      "heading": "SVG a PNG Dentro del Flujo de Trabajo de Diseño",
+      "paragraphs": [
+        "Convierte iconos para [favicon-generator:conjuntos de favicons], logotipos para [compress-image:uso web comprimido] o diagramas para su entrega en [pdf-to-jpg-style].",
+        "Todo permanece en el navegador y privado en todo el conjunto.",
+        "Del vector infinito al píxel perfecto, bajo demanda."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Puedo elegir el tamaño de salida del PNG?",
+      "a": "Sí. Indica un tamaño de salida en píxeles o un factor de escala, y el SVG se renderiza exactamente a esas dimensiones."
+    },
+    {
+      "q": "¿Se conservará la transparencia en el PNG?",
+      "a": "Sí. Las regiones transparentes del SVG se trasladan al canal alfa del PNG, listas para colocarse sobre cualquier fondo."
+    },
+    {
+      "q": "¿La conversión de SVG a PNG es privada?",
+      "a": "Sí. Todo el renderizado ocurre localmente en tu navegador, sin subidas, marcas de agua ni cuentas."
+    },
+    {
+      "q": "¿Por qué necesito un PNG si el SVG escala mejor?",
+      "a": "Muchas plataformas y clientes de correo no renderizan SVG. El PNG es universalmente compatible y conserva la transparencia, lo que lo convierte en el formato práctico de entrega."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "excel-to-csv",
+  "title": "Excel naar CSV Converter: Converteer XLSX naar CSV Gratis Online",
+  "description": "Gratis Excel-naar-CSV-converter om XLSX-spreadsheets om te zetten naar eenvoudige CSV-bestanden, werkblad voor werkblad, in je browser. Privé, zonder uploads, zonder aanmelding.",
+  "keywords": ["excel naar csv", "xlsx naar csv converter", "excel naar csv converteren", "excel naar csv gratis online", "xlsx exporteren als csv", "spreadsheet naar csv", "excel naar csv tool"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Excel-formaten Overal, CSV Waar Verwerking Nodig Is",
+      "paragraphs": [
+        "Systemen, databases en scripts verwerken CSV veel gemakkelijker dan XLSX. [excel-to-csv:Excel naar CSV converteren] levert de eenvoudige, universeel leesbare vorm die elke pipeline wil.",
+        "De conversie behoudt celwaarden terwijl de binaire complexiteit, formules en opmaakoverhead van Excel vervallen.",
+        "ChooseTools converteert XLSX naar CSV lokaal in je browser en gaat met precisie om met werkbladen en scheidingstekens."
+      ]
+    },
+    {
+      "heading": "Hoe een Excel-bestand naar CSV te Converteren",
+      "paragraphs": [
+        "Van werkmap naar schone rijen:",
+        "Upload het XLSX-bestand, kies welk werkblad je wilt exporteren en het scheidingsteken (komma, puntkomma), en converteer daarna. De CSV wordt gedownload, klaar voor scripting, CRM's of database-imports.",
+        "De werkmap wordt op je apparaat geparseerd — geen upload en geen gegevens verlaten je machine."
+      ]
+    },
+    {
+      "heading": "Werkbladselectie en Scheidingstekenbeheer",
+      "paragraphs": [
+        "Werkboeken met meerdere werkbladen worden werkblad voor werkblad geconverteerd; kies het werkblad dat voor jouw huidige taak belangrijk is of verwerk ze afzonderlijk.",
+        "De keuze van het scheidingsteken houdt regiobewuste tools tevreden, of CSV nu komma's gebruikt in Engelstalige of puntkomma's in Europese regio's.",
+        "De output sluit precies aan bij de pipeline die hem verbruikt, zonder nabewerking."
+      ]
+    },
+    {
+      "heading": "Overwegingen voor Codering en Tekensets",
+      "paragraphs": [
+        "Spreadsheets bevatten vaak accenten, rechts-naar-links-schriften en symbolen die platte-tekstformaten kunnen verminken als de codering verkeerd is. De converter exporteert standaard UTF-8-gecodeerde CSV en behoudt elk teken exact zoals het in de werkmap verschijnt.",
+        "Sommige legacy-systemen verwachten bestanden in ANSI- of ISO-8859-1-codering. Wanneer de bestemmingstool een specifieke codering vereist, voorkomt het kiezen van de juiste output-tekenset de verminkte tekst die verschijnt wanneer een Franse klantnaam of een Arabische veldnaam aankomt als onleesbare mojibake.",
+        "Bytemarkeringen (BOM), de onzichtbare drie-byte prefix die UTF-8 signaleert aan bepaalde parsers, worden correct verwerkt. Systemen die een BOM vereisen krijgen er een, en systemen die hem afwijzen krijgen schone output zonder de prefix, waardoor de lege-eerste-rij-bug wordt voorkomen waar veel Excel-naar-CSV-gebruikers tegenaan lopen."
+      ]
+    },
+    {
+      "heading": "Waarom CSV Wint bij Gegevensuitwisseling",
+      "paragraphs": [
+        "Universele parsers, versievriendelijke diffs en eenvoudige scripting geven allemaal de voorkeur aan CSV boven eigen spreadsheetformaten.",
+        "Bankexports, marketingplatforms en analyse-imports zijn CSV-native, waardoor conversie een eentrapsbrug is naar elk verbonden tool.",
+        "Eén conversie ontsluit elk tool dat platte rijen leest, van databaseloaders tot e-mailmarketingsystemen."
+      ]
+    },
+    {
+      "heading": "Schone Waarden, Betrouwbare Codering",
+      "paragraphs": [
+        "Getallen, datums en tekst worden getrouw overgedragen, waarbij cellen die komma's bevatten correct geciteerd worden om veldsplitsingsfouten te voorkomen.",
+        "De codering blijft intact voor geaccentueerde en meertalige gegevens, zodat klantnamen en productbeschrijvingen leesbaar aankomen.",
+        "Downstream-import werkt gewoon, of de bestemming nu een relationele database, een CRM of een rapportagedashboard is."
+      ]
+    },
+    {
+      "heading": "Batchverwerking en Grote Werkmappen",
+      "paragraphs": [
+        "Bedrijfsspreadsheets bevatten vaak honderdduizenden rijen over meerdere werkbladen. De converter verwerkt deze grote bestanden volledig in het geheugen van je apparaat en levert schone CSV-output zonder de time-outs of uploadlimieten die online servers opleggen.",
+        "Wanneer elk werkblad in een werkmap telt, levert het afzonderlijk exporteren één CSV per werkblad op met consistente opmaak. Deze aanpak vermijdt de dubbelzinnigheid van het samenvoegen van alle werkbladen tot één bestand waarin kolomheaders niet meer op elkaar aansluiten.",
+        "Zeer brede tabellen met tientallen kolommen converteren net zo getrouw als hoge smalle. De CSV-output plaatst elke cel die het gekozen scheidingsteken, nieuwe regels of aanhalingstekens bevat tussen aanhalingstekens, zodat zelfs complexe gegevensstructuren de retourreis intact overleven."
+      ]
+    },
+    {
+      "heading": "CSV-varianten en Regionale Compatibiliteit",
+      "paragraphs": [
+        "RFC 4180 definieert het standaard komma-gescheiden formaat, maar regionale conventies lopen sterk uiteen. Duitse, Franse en Spaanse talen gebruiken vaak puntkomma's als scheidingsteken omdat komma's in die getalnotaties als decimaalteken dienen.",
+        "Tab-gescheiden waarden dienen als alternatief wanneer komma's zelf vaak in de gegevens voorkomen. Het tab-scheidingsteken kiezen voorkomt overmatig citeren en levert bestanden op die netjes in platte-tekst-editors en terminaltools te plakken zijn.",
+        "De converter sluit aan op welke variant je doelsysteem ook verwacht, zodat de output de eerste keer correct opent in plaats van één lange kolom met aaneengeschakelde velden te tonen."
+      ]
+    },
+    {
+      "heading": "Privé Financiële en Klantgegevens",
+      "paragraphs": [
+        "Werkmappen bevatten vaak de meest gevoelige cijfers die een organisatie bezit; lokale conversie houdt ze intern verzegeld zonder externe blootstelling.",
+        "Geen upload, geen account, geen watermerk — op alle platforms en apparaten.",
+        "Spreadsheetgeheimhouding blijft behouden, met elke conversie volledig binnen je browser."
+      ]
+    },
+    {
+      "heading": "Excel-interoperabiliteit in de Gegevens-toolkit",
+      "paragraphs": [
+        "Combineer met [csv-to-excel:CSV naar Excel], [excel-to-json:Excel naar JSON] en [csv-json:CSV naar JSON] voor volledige gegevensverwerking over formaten heen.",
+        "De suite is gratis en browsergebaseerd en vereist geen installatie.",
+        "Werkmappen ontsloten tot universele rijen, klaar voor elk downstream-systeem."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan ik het scheidingsteken voor de CSV-output kiezen?",
+      "a": "Ja. Opties voor komma, puntkomma en tab ondersteunen regionaal opgemaakte gegevens probleemloos."
+    },
+    {
+      "q": "Kan de tool omgaan met werkboeken met meerdere werkbladen?",
+      "a": "Ja. Selecteer het specifieke werkblad om te exporteren, of verwerk werkbladen naar behoefte afzonderlijk."
+    },
+    {
+      "q": "Is Excel-naar-CSV-conversie privé?",
+      "a": "Ja. Alles draait lokaal in je browser zonder uploads of accounts."
+    },
+    {
+      "q": "Overleven accenten en niet-Latijnse tekens de conversie?",
+      "a": "Ja. De output gebruikt standaard UTF-8-codering, die geaccentueerde, rechts-naar-links- en meertalige tekens behoudt zoals ze in de bronwerkmap verschijnen."
+    },
+    {
+      "q": "Hoe groot kan het Excel-bestand zijn?",
+      "a": "De converter verwerkt bestanden met honderdduizenden rijen volledig in je browser, zonder server-zijde uploadgroottelimieten."
+    },
+    {
+      "q": "Worden formules in Excel-cellen opgenomen in de CSV?",
+      "a": "CSV slaat alleen berekende waarden op, geen formules. De converter exporteert het berekende resultaat van elke cel in plaats van de onderliggende expressie."
+    }
+  ]
+}

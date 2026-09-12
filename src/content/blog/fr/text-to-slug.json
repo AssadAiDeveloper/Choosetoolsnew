@@ -1,0 +1,114 @@
+{
+  "slug": "text-to-slug",
+  "title": "Convertisseur de texte en slug : créez des slugs adaptés aux URL en ligne gratuitement",
+  "description": "Générateur de slug en ligne gratuit pour convertir des titres en slugs propres et adaptés aux URL pour WordPress, les blogs et les systèmes CMS. Privé, instantané, dans votre navigateur.",
+  "keywords": ["générateur de slug", "texte vers slug", "convertisseur de slug d'URL", "générateur d'URL conviviale", "slug wordpress", "slugify en ligne", "slug d'URL seo"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Les slugs sont ce qui rend les URL lisibles",
+      "paragraphs": [
+        "Un slug propre transforme « Comment fusionner des fichiers PDF — Un guide complet » en /comment-fusionner-des-fichiers-pdf, lisible par les humains, analysable par les machines et indexé aimablement par les moteurs de recherche. [text-to-slug:Générer des slugs] à partir de titres est le rituel quotidien de tout éditeur de CMS.",
+        "WordPress, Shopify, Hugo et les routes codées à la main partagent tous les mêmes conventions de slug.",
+        "ChooseTools convertit le texte en slugs localement dans votre navigateur, en respectant les options de séparateurs et de casse."
+      ]
+    },
+    {
+      "heading": "Comment convertir un titre en slug",
+      "paragraphs": [
+        "Du titre au permalien en un clic.",
+        "Collez votre titre ou votre phrase et l'outil le met en minuscules, le débarrasse et le relie par des traits d'union pour en faire un slug propre. Choisissez le style de séparateur (trait d'union, trait de soulignement) et la casse (minuscules, lowerCamel).",
+        "La sortie est prête à coller dans votre écran d'édition sans nettoyage manuel.",
+        "Ajuster une option restitue le slug instantanément, de sorte que correspondre aux conventions de votre CMS est trivial."
+      ]
+    },
+    {
+      "heading": "Pourquoi des URL propres comptent pour le SEO et l'ergonomie",
+      "paragraphs": [
+        "Les moteurs de recherche analysent les slugs significatifs pour le contexte ; les lecteurs les partagent de façon fiable ; les analyses les rapportent lisiblement.",
+        "Les permaliens prévisibles survivent aux importations et aux migrations sans dérive.",
+        "Accordez de l'attention à votre slug et votre architecture d'URL vous le rend en structure.",
+        "Les URL lisibles par les humains inspirent aussi plus de clics lorsqu'elles sont partagées en version imprimée, par e-mail ou en discussion, car la destination est évidente au premier regard."
+      ]
+    },
+    {
+      "heading": "Caractères nationaux et cas particuliers de slug",
+      "paragraphs": [
+        "Les caractères accentués et non latins nécessitent des règles de translittération pour devenir du latin sûr pour les URL.",
+        "Le convertisseur gère ces cas particuliers afin que les titres avec á, é, ü et leurs semblables produisent toujours des slugs soignés.",
+        "La ponctuation, les guillemets et les espaces se réduisent en séparateurs sûrs.",
+        "Cette normalisation empêche les longues chaînes brisées et encodées en pourcentage qui cassent les liens et semblent peu professionnelles."
+      ]
+    },
+    {
+      "heading": "Bonnes pratiques de slug pour les éditeurs",
+      "paragraphs": [
+        "Gardez les slugs courts mais descriptifs : quelques mots-clés significatifs valent mieux qu'une phrase complète, et ils se lisent mieux dans les résultats de recherche et les onglets du navigateur.",
+        "Évitez les mots vides comme le, de et et lorsqu'ils n'apportent aucune valeur distinctive, car ils gaspillent des caractères et diluent le signal.",
+        "Utilisez les minuscules de façon permanente une fois publié, car changer un slug plus tard casse les liens existants et endommage l'autorité de recherche accumulée.",
+        "Correspondez à la convention de votre CMS, typiquement les traits d'union pour WordPress et Jekyll, tandis que certains frameworks préfèrent les traits de soulignement ou le camelCase, que l'outil vous permet de sélectionner directement."
+      ]
+    },
+    {
+      "heading": "Conséquences SEO des mauvais slugs",
+      "paragraphs": [
+        "Les moteurs de recherche pèsent l'URL comme un signal de pertinence, et un slug contenant le mot-clé principal renforce la clarté thématique de la page pour cette requête.",
+        "Les slugs générés automatiquement à partir des titres incluent souvent des nombres ou des fragments, comme post-title-2024-06, qui n'apportent aucune valeur et gaspillent l'espace de mots-clés le plus visible d'une page de résultats.",
+        "Les paramètres de session et les identifiants générés par machine rendent les URL plus difficiles à lire, partager et mémoriser, décourageant le partage manuel qui génère un trafic réel.",
+        "Investir quelques secondes dans un slug propre au moment de la publication prévient des années de performances médiocres et de liens cassés plus tard."
+      ]
+    },
+    {
+      "heading": "Translitétration et titres multilingues",
+      "paragraphs": [
+        "Les titres en allemand, français, espagnol et bien d'autres langues portent des diacritiques que les navigateurs gèrent maladroitement dans les URL. Convertir ü en ue ou conserver u dépend de la langue et de votre préférence éditoriale, et l'outil applique des valeurs par défaut judicieuses.",
+        "Pour les écritures non latines comme le cyrillique, l'arabe ou le grec, une translittération phonétique produit un slug lisible en anglais qui correspond toujours au sujet pour les lecteurs en écriture latine.",
+        "Des règles de translittération cohérentes comptent pour les sites multilingues où un slug espagnol et un slug anglais doivent tous deux sembler naturels et prévisibles.",
+        "Vous pouvez aussi choisir de conserver ou de retirer les diacritiques pour correspondre aux conventions de votre marque, donnant aux éditeurs multilingues un contrôle total sur la façon dont leurs URL se lisent."
+      ]
+    },
+    {
+      "heading": "Comment un slug s'insère dans votre structure d'URL",
+      "paragraphs": [
+        "Le slug est le segment final d'un chemin d'URL plus large, comme /blog/nom-de-categorie/slug, et il porte l'information d'identification la plus spécifique de la page.",
+        "Une hiérarchie de slugs réfléchie, avec la catégorie puis l'article, aide à la fois les utilisateurs et les moteurs de recherche à comprendre où une page se situe dans votre site.",
+        "Maintenir les slugs stables après publication est critique, car chacun ancre des signets, des backlinks et des classements de recherche qui mettent des mois à s'accumuler.",
+        "Lorsque vous devez changer un slug, une redirection préserve la majeure partie de la valeur, mais éviter le changement entièrement est toujours meilleur."
+      ]
+    },
+    {
+      "heading": "Génération privée de slug pour les travaux non publiés",
+      "paragraphs": [
+        "Les brouillons et les titres avant lancement se convertissent localement, rien ne quittant votre machine.",
+        "Aucun envoi, aucun compte, aucun filigrane sur toutes les plateformes.",
+        "Vos noms non publiés restent non publiés jusqu'à ce que vous choisissiez de les publier."
+      ]
+    },
+    {
+      "heading": "Les slugs dans le flux de travail de contenu",
+      "paragraphs": [
+        "Créez le slug, mesurez le brouillon avec [word-counter:le compte de mots], et affinez le texte avec [find-replace:le remplacement] avant de publier.",
+        "La suite est gratuite et basée sur le navigateur, formant un pipeline continu de production de contenu.",
+        "Du titre à l'/url/ conviviale, le tout sans jamais quitter le navigateur."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Quels caractères sont supprimés lors de la création d'un slug ?",
+      "a": "La ponctuation, les guillemets et les symboles sont supprimés ou remplacés par des séparateurs sûrs, et les caractères accentués sont translittérés en lettres sûres pour les URL."
+    },
+    {
+      "q": "Puis-je choisir des traits d'union ou des traits de soulignement comme séparateurs ?",
+      "a": "Oui. Le style de séparateur et les options de casse vous permettent de correspondre exactement aux conventions de slug de votre CMS ou framework."
+    },
+    {
+      "q": "Le générateur de slug est-il privé ?",
+      "a": "Oui. La conversion s'exécute entièrement dans votre navigateur, sans envois, sans comptes et sans traitement côté serveur."
+    },
+    {
+      "q": "Puis-je utiliser le même slug sur différentes plateformes CMS ?",
+      "a": "Oui. Le slug généré est une chaîne standard sûre pour les URL, il fonctionne donc dans WordPress, Shopify, Hugo et la plupart des autres systèmes de publication sans modification."
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "file-xray",
+  "title": "File X-Ray: Dateidetails und Metadaten online kostenlos prüfen",
+  "description": "Kostenloses File-X-Ray-Werkzeug zum Prüfen von Dateien, Offenlegen von Metadaten und Verifizieren von Inhalten lokal in Ihrem Browser. Privat, ohne Uploads, ohne Anmeldung.",
+  "keywords": ["file x-ray", "datei prüfen", "metadaten viewer datei", "dateidetails online", "datei inspektor werkzeug", "dateityp prüfen", "dateiinfos anzeigen"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Dateien tragen mehr als nur ihre Inhalte",
+      "paragraphs": [
+        "Größe, Typ, Änderungsdaten und versteckte Metadaten beschreiben eine Datei über ihre sichtbaren Daten hinaus. Die [file-xray:Prüfung von Dateien mit einem Röntgen-Werkzeug] bringt diese Details ans Licht, bevor Sie etwas öffnen oder versenden.",
+        "Den wahren Dateityp zu kennen, verhindert Überraschungsausfälle.",
+        "ChooseTools prüft Dateien lokal in Ihrem Browser."
+      ]
+    },
+    {
+      "heading": "So prüfen Sie eine Datei",
+      "paragraphs": [
+        "Von der Doppelklick-Ungewissheit zum vollständigen Bild:",
+        "Wählen Sie eine Datei und sehen Sie Größe, erkannten Typ, Format-Hinweise und Metadaten. Bestätigen Sie, dass die Endung mit der Realität übereinstimmt, bevor Sie verteilen.",
+        "Die Prüfung ist vollständig lokal – nichts verlässt Ihr Gerät."
+      ]
+    },
+    {
+      "heading": "Typ-Erkennung jenseits der Endung",
+      "paragraphs": [
+        "Endungen lügen; Magic Bytes nicht.",
+        "Das Werkzeug untersucht Signaturen, um das wahre Format zu melden, egal wie die Datei umbenannt wurde.",
+        "Umbenannte Anhänge schlüpfen nicht mehr durch."
+      ]
+    },
+    {
+      "heading": "Metadaten-Realitäten und Datenschutz",
+      "paragraphs": [
+        "Fotos tragen Standort- und Geräte-Tags; Dokumente tragen Autorennamen und Zeitstempel.",
+        "Das Sehen der Metadaten legt offen, was eine Datei beim Teilen preisgeben würde.",
+        "Informiertes Teilen schlägt geratene Offenlegung."
+      ]
+    },
+    {
+      "heading": "Bevor Sie etwas versenden",
+      "paragraphs": [
+        "Prüfen Sie Größe für Mail-Limits, Typ für Systeme und Metadaten für Offenlegung auf einen Blick.",
+        "Vorabkontrollen verhindern peinliche oder blockierende Probleme.",
+        "Vertrauen reist mit jedem Anhang mit."
+      ]
+    },
+    {
+      "heading": "Private Prüfung sensibler Dateien",
+      "paragraphs": [
+        "Eine Datei lokal zu untersuchen, bedeutet, dass ihre Metadaten niemals zu einem Nachschlage-Eintrag werden.",
+        "Kein Upload, kein Konto, kein Wasserzeichen – auf allen Plattformen.",
+        "Prüfung ohne Abhören."
+      ]
+    },
+    {
+      "heading": "Dateiarbeit in der Suite",
+      "paragraphs": [
+        "Kombinieren Sie mit [remove-exif:Metadatenentfernung], [pdf-metadata:Dokumentdetails] und [convert-image:Formatumwandlung] für vollständige Kontrolle.",
+        "Alles ist kostenlos und browser-nativ.",
+        "Kennen Sie Ihre Dateien, bevor sie irgendwohin gehen."
+      ]
+    },
+    {
+      "heading": "Häufige Dateiformate, die das Werkzeug erkennt",
+      "paragraphs": [
+        "Die Prüf-Engine deckt einen breiten Satz alltäglicher Formate ab: Bilder wie JPEG, PNG, WebP und GIF; Dokumente einschließlich PDF und Klartext; Archivtypen wie ZIP und GZIP; Audiodateien in MP3 und WAV; sowie Videocontainer in MP4 und MOV.",
+        "Für jedes erkannte Format meldet das Werkzeug Version, interne Struktur und alle eingebetteten Streamdetails, die für die Weiterverarbeitung wichtig sind.",
+        "Selbst wenn die Endung fehlt oder falsch ist, identifiziert die signaturbasierte Erkennung das echte Format, sodass Sie immer wissen, womit Sie es zu tun haben.",
+        "Nicht erkannte Dateien melden dennoch Rohgröße, Header-Bytes und alle erkennbaren Chunks und geben Entwicklern nützliche Ansatzpunkte für weitere Untersuchungen."
+      ]
+    },
+    {
+      "heading": "EXIF, XMP und Dokumenteigenschaften lesen",
+      "paragraphs": [
+        "Bilddateien tragen häufig EXIF- und XMP-Blöcke, die Kameramodell, Belichtungseinstellungen, GPS-Koordinaten, Datum-Zeit-Stempel und die bei der Erstellung verwendete Softwareversion aufzeichnen.",
+        "PDF- und Office-Dokumente legen Autor, Titel, Betreff, Erstellungsdatum und Änderungshistorie in ihren Metadaten-Wörterbüchern offen.",
+        "Das File-X-Ray zeigt alle verfügbaren Felder in einer einzigen Ansicht und lässt Sie entscheiden, ob Teile dieser Informationen vor der Veröffentlichung entfernt werden sollten.",
+        "Für Teams, die große Mengen eingehender Dateien verarbeiten, spart eine schnelle Metadatenvorschau Zeit, die sonst für das Öffnen jeder Datei in einem dedizierten Editor nötig wäre."
+      ]
+    },
+    {
+      "heading": "Praktische Anwendungsfälle für die Dateiprüfung",
+      "paragraphs": [
+        "Journalisten, die anonyme Anhänge erhalten, verifizieren Dateiursprünge und entfernen identifizierende Metadaten, bevor sie veröffentlichen.",
+        "IT-Support-Teams bestätigen, ob eine ausführbare Datei wirklich ein Binärprogramm oder ein umbenanntes Skript ist, und reduzieren so das Risiko, bevor Diagnosen laufen.",
+        "Entwickler, die Upload-Pipelines bauen, nutzen den Inspektor, um eingehende Dateitypen gegen erwartete MIME-Kategorien zu validieren.",
+        "Designer bestätigen Farbprofile, Auflösung und Bittiefe, bevor sie Assets an Druckereien oder Web-Teams übergeben."
+      ]
+    },
+    {
+      "heading": "Dateigrößen-Bewusstsein für E-Mail- und Cloud-Grenzen",
+      "paragraphs": [
+        "Die meisten E-Mail-Anbieter deckeln Anhänge bei fünfundzwanzig Megabyte, und Cloud-Freigabelinks können eigene Schwellen für einzelne Dateien setzen.",
+        "Ein schneller Größencheck verhindert zurückgewiesene Nachrichten und fehlgeschlagene Uploads, besonders wenn ein Foto oder Scan größer als erwartet ist.",
+        "Überschreitet eine Datei das Limit, liefert der Inspektor die Zahl, die Sie brauchen, um zu entscheiden, ob Sie komprimieren, aufteilen oder einen anderen Übertragungsweg wählen.",
+        "Die genauen Byte-Zahlen zu kennen, hilft auch bei der Budgetierung des Speicherplatzes über Backup-Laufwerke und Cloud-Stufen hinweg."
+      ]
+    },
+    {
+      "heading": "Randfälle: Beschädigte, abgeschnittene und unvollständige Dateien",
+      "paragraphs": [
+        "Dateien, die beim Herunterladen unterbrochen oder von defekten Medien kopiert wurden, können unvollständige Header oder fehlende Footer tragen.",
+        "Der Inspektor meldet, wenn Signaturen nicht zu erwarteten Mustern passen, und kennzeichnet wahrscheinliche Beschädigung, bevor Sie die Datei in einer anderen Anwendung öffnen.",
+        "Unvollständige Dateien aus abgebrochenen Uploads lassen sich schnell identifizieren – das erspart Ihnen die Fehlersuche in nachgelagerten Anwendungsfehlern, die in Wirklichkeit nur Datenprobleme sind.",
+        "Für Entwickler sind diese Warnungen eine schnelle Feedback-Schleife beim Testen von Download-Fortsetzungstools, Synchronisationswerkzeugen oder Backup-Skripten."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kann das Werkzeug den echten Dateityp erkennen?",
+      "a": "Ja. Die Typ-Erkennung liest die internen Signaturen der Datei, statt der Endung zu vertrauen."
+    },
+    {
+      "q": "Welche Metadaten werden offengelegt?",
+      "a": "Größe, erkanntes Format und gängige eingebettete Metadatenfelder erscheinen, je nach Dateityp."
+    },
+    {
+      "q": "Ist die Prüfung privat?",
+      "a": "Ja. Alles läuft lokal in Ihrem Browser ab, ohne Uploads oder Konten."
+    },
+    {
+      "q": "Kann ich Dateien ohne Endung prüfen?",
+      "a": "Ja. Die signaturbasierte Erkennung identifiziert das Format, selbst wenn die Endung fehlt oder falsch ist."
+    },
+    {
+      "q": "Behandelt das Werkzeug beschädigte oder unvollständige Dateien?",
+      "a": "Ja. Es meldet, wenn Header unvollständig sind oder Signaturen nicht übereinstimmen, und hilft Ihnen, Beschädigungen zu erkennen, bevor Sie versuchen, die Datei woanders zu öffnen."
+    }
+  ]
+}

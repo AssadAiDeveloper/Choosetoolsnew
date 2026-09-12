@@ -1,0 +1,100 @@
+{
+  "slug": "pixelate-image",
+  "title": "Görüntüyü Çevrimiçi Ücretsiz Piksellendirme: Piksel Bloklarıyla Sansürleme",
+  "description": "ChooseTools ile görüntüyü çevrimiçi ücretsiz piksellendirin. Temiz pikselleme ile yüzleri, sayıları ve hassas alanları doğrudan tarayıcınızda, tam gizlilik ve filigran olmadan bloklayın.",
+  "keywords": ["görüntü piksellendirme", "görüntünün bir kısmını piksellendirme", "çevrimiçi görsel mozaik", "yüz piksellendirme", "görüntüyü çevrimiçi ücretsiz sansürleme", "fotoğrafı pikselli bulanıklaştırma", "fotoğraf piksellendirme"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Piksellendirme, Dürüst Kalan Sansürdür",
+      "paragraphs": [
+        "Bazen yumuşak bir bulanıklık yetmez ve kasıtlı bir mozaik tam olarak doğrudur: piksellendirme, görüntünün grafik kimliğini korurken »kasıtlı olarak gizlendi« dediğini açıkça söyler. [pixelate-image:Görüntüleri piksellendirmek], bir yüzü, sayıyı veya logoyu gizlemenin klasik yoludur.",
+        "Haber odaları, emniyet bildirileri, pazaryerleri ve okul iletişimleri hepsi mozaik görünümüne güvenir.",
+        "ChooseTools, efekt üzerinde blok boyutu kontrolüyle görüntülerin bölgelerini tarayıcınızda yerel olarak piksellendirir.",
+        "Sonuç, bir fotoğrafın taşıdığı bağlamı asla kaybetmeden gizlilik yasasının ve editoryal rehberliğin ruhunu izleyen bir dosyadır."
+      ]
+    },
+    {
+      "heading": "Mozaik Efekti Nasıl Oluşturulur",
+      "paragraphs": [
+        "Piksellendirme, seçilen bir alanı bloklardan oluşan bir ızgaraya bölerek ve her bloğu altındaki piksellerden alınan tek bir ortalama renkle değiştirerek çalışır.",
+        "Kaba bir ızgara, klasik sansürün ağır, yanılmaz mozaiğini üretir; ince bir ızgara, ayrıntıyı yalnızca yumuşatan grenli bir doku verir.",
+        "Matematik basit ve yerel olduğu için işlem yüksek çözünürlüklü fotoğraflarda bile anındadır ve karar vermeden önce sonucun önizlemesini yapabilirsiniz.",
+        "Seçimden sonra blok boyutunu ayarlamak hiçbir şeye mal olmaz; görüntünün amacına göre ince ayar yapmak yorucu değil pratik olur."
+      ]
+    },
+    {
+      "heading": "Görüntünün Bir Bölgesi Nasıl Piksellendirilir",
+      "paragraphs": [
+        "Stil ve hassasiyetle sansürleyin:",
+        "Görseli yükleyin ve maskelenecek alanı seçin; blok boyutunu ince bir grenten ağır bir mozaiğe kadar ayarlayın. İçeriğin tamamen gizlendiğini doğrulamak için önizleyin, ardından indirin.",
+        "Her şey yerel olarak olur; kimse neyi gizlemeyi seçtiğinizi veya nerede olduğunu görmez.",
+        "Bir bölgeyi yeniden seçmek dikdörtgeni yeniden çizmek kadar kolaydır; dosya cihazınızdan ayrılmadan önce son görünüm üzerinde tam kontrol verir."
+      ]
+    },
+    {
+      "heading": "Kamuya Açık Görüntüler için Mozaik Sansürü",
+      "paragraphs": [
+        "Bir kalabalık fotoğrafı yayınlıyorsanız: seyircileri mozaikleyin. Bir suç mahallini yayınlıyorsanız: tanımlayıcıları maskeleyin. Kullanılmış bir araba satıyorsanız: plakaları bloklayın.",
+        "Ağır mozaik görünümü baskı ve ekranlarda belirsiz ve zamansızdır.",
+        "Sansür asla tüm fotoğrafı silmez — yalnızca yasanın veya edep kurallarının gerektirdiği kısımları.",
+        "Bu cerrahi yaklaşım, görüntüyü açığa çıkarmaması gereken her kişiyi veya ayrıntıyı korurken raporlama, listeleme ve duyurular için kullanışlı tutar."
+      ]
+    },
+    {
+      "heading": "Doğru Görünüm için Blokluluk Kontrolü",
+      "paragraphs": [
+        "Küçük bloklar »grenli ayrıntı«, büyük bloklar yanılmaz sansür olarak okunur.",
+        "Blok boyutunu ne kadar gizlenmesi gerektiğiyle eşleştirmek sonucu orantılı tutar.",
+        "Efekt, tam olarak doğru olana kadar yerel olarak düzenlenebilir kalır.",
+        "Yüzler için orta-büyük bir blok kimliği net şekilde gizler; plakalar ve sayılar için daha sıkı bir blok karenin geri kalanının tanınabilirliğini korur.",
+        "Mozaik görüntünün kendisinden yeniden oluşturulduğu için maskelenen alan, yapıştırılmış bir yama gibi görünmek yerine çevre piksellerle doğal biçimde karışır — efekt baskıda, çevrimiçi ve sosyal akışlarda profesyonel kalır."
+      ]
+    },
+    {
+      "heading": "Bulanıklık veya Mozaik: Doğru Maskeyi Seçmek",
+      "paragraphs": [
+        "Bulanıklık, pikselleri yumuşak bir lekeye yumuşatır; bu, bazen kısmen yeniden oluşturulabilir veya geniş alanlarda görsel olarak dikkat dağıtıcı olabilir.",
+        "Piksellendirme, bölgeyi okunabilir ayrıntıyı kalıcı olarak kaldıran keskin bloklara ayırır; bu nedenle editoryal ve yasal iş akışları onu tercih eder.",
+        "Bir önizlemenin göze hoş kalması gerektiğinde, hafif bir mozaik ağır bir Gauss lekesinden daha temiz okunur.",
+        "Hassas bölgeler kaybolduktan sonra fotoğrafın hâlâ anlatması gereken hikâyeyle eşleşen maske stilini seçin."
+      ]
+    },
+    {
+      "heading": "Hassas Dosyaların Özel Sansürlenmesi",
+      "paragraphs": [
+        "Mozaik işlemi gerektiren görüntüler sıklıkla tam olarak yola çıkmaması gereken içeriği içerir. Yerel işleme onları burada tutar.",
+        "Yükleme yok, filigran yok, hesap yok — her işletim sistemi ve telefonda.",
+        "Kamuya görünürlük konusundaki kararlarınız tamamen sizin elinizde gerçekleşir.",
+        "Dosya yasal bir delil, bir çocuğun okul fotoğrafı veya yayınlanmamış bir ürün görüntüsü olsun, paylaşıma hazırlarken hakkında hiçbir şey asla iletilmez."
+      ]
+    },
+    {
+      "heading": "Dikkatlice Piksellendirin ve Paylaşın",
+      "paragraphs": [
+        "Maskeyi [remove-exif:meta veri kaldırma] ile eşleştirin; böylece dosyanın kendisi başka ayrıntılar sızdırmasın.",
+        "Paket ücretsiz, tarayıcı tabanlı ve özel kalır.",
+        "Hassas biçimde sansürleyin, güvenle paylaşın.",
+        "Bölge maskelenip meta veriler temizlendiğinde, görüntü gömülü sürprizlerden endişe etmeden gazeteler, pazaryerleri veya sosyal akışlar için hazırdır."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Piksel bloklarının boyutunu kontrol edebilir miyim?",
+      "a": "Evet. Maskeli bölgeyle birlikte blok boyutunu ayarlayarak mozaiğin ne kadar yoğun veya kaba göründüğünü ince ayar yapabilirsiniz."
+    },
+    {
+      "q": "Aynı anda birden çok alanı piksellendirebilir miyim?",
+      "a": "Evet. Dışa aktarmadan önce aynı görselde herhangi bir sayıda bölge maskelenebilir."
+    },
+    {
+      "q": "Piksellendirme özel ve ücretsiz midir?",
+      "a": "Evet. Yükleme, filigran veya hesap olmadan tamamen tarayıcınızda çalışır."
+    },
+    {
+      "q": "Hassas içerik için bulanık yerine neden piksellendirmeyi seçmeliyim?",
+      "a": "Piksellendirme, okunabilir ayrıntıyı keskin, kalıcı bloklarla kaldırır ve yüzler ve tanımlayıcılar için editoryal ve yasal endüstrilerin güvendiği standarttır."
+    }
+  ]
+}

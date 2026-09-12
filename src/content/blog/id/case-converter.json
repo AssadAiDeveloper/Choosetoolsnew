@@ -1,0 +1,101 @@
+{
+  "slug": "case-converter",
+  "title": "Konverter Case: Ubah Teks ke UPPERCASE, lowercase, Title Case Gratis Online",
+  "description": "Konverter case gratis online untuk beralih teks antara huruf besar, huruf kecil, Title Case, Sentence case, dan lainnya. Privat, instan, langsung di browser tanpa upload.",
+  "keywords": ["konverter case", "ubah teks ke huruf besar", "huruf besar ke huruf kecil", "title case converter", "pengubah huruf teks", "kapitalisasi teks online", "alat case huruf"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Case adalah Tanda Baca untuk Kode dan Judul",
+      "paragraphs": [
+        "Judul harus menggunakan Title Case, nama class CSS menyukai lowerCamel, dan alur kerja lama menuntut huruf semua besar atau semua kecil. Mengubah [case-converter:text case] secara online adalah pekerjaan kecil klasik dengan hasil formatasi yang sangat besar.",
+        "Melakukannya secara manual dalam skala besar lambat dan rentan kesalahan; konverter mengubah seluruh dokumen dalam sekejap.",
+        "ChooseTools mengubah case secara lokal di browser Anda, dengan semua konvensi umum tersedia."
+      ]
+    },
+    {
+      "heading": "UPPER, lower, Title, Sentence dan camelCase",
+      "paragraphs": [
+        "Setiap konvensi memiliki tempatnya: huruf besar untuk singkatan, title case untuk judul, sentence case untuk teks UI, camelCase untuk identifier kode.",
+        "Alat ini menampilkan setiap varian berdampingan sehingga Anda menyalin persis sesuai kebutuhan konteks.",
+        "Kualitas salin-tempel, tanpa perlu mengetik ulang."
+      ]
+    },
+    {
+      "heading": "Konversi Massal untuk Daftar dan Feed",
+      "paragraphs": [
+        "Tempel seluruh daftar nama produk dan biarkan dikonversi secara seragam agar sesuai standar katalog Anda.",
+        "Judul, meta deskripsi, daftar tag, dan nama file semuanya dinormalisasi dalam satu langkah.",
+        "Konsistensi untuk ratusan item otomatis terjamin."
+      ]
+    },
+    {
+      "heading": "Alur Kerja Pemrograman dan Teknis",
+      "paragraphs": [
+        "Pengembang sering perlu beralih antar konvensi penamaan. Variabel yang awalnya my_variable di Python harus menjadi myVariable untuk JavaScript atau MyVariable untuk nama class PascalCase. Mengetik ulang setiap identifier secara manual mengundang typo yang hanya akan ditangkap kompiler setelah Anda membuang waktu debugging. Konverter mengubah seluruh daftar identifier dalam satu tempel, mempertahankan setiap karakter sambil hanya mengubah case.",
+        "Nama kolom database dan nama field API sering mengikuti satu konvensi yang berbeda dari yang digunakan codebase Anda. Saat memigrasi data atau membangun lapisan integrasi, mengonversi nama field agar sesuai dengan sistem tujuan mencegah error runtime dan membuat skema lebih mudah dibaca. Satu langkah singkat melalui konverter memastikan bahwa column_name menjadi columnName atau ColumnName sesuai kebutuhan tujuan.",
+        "Kata kunci SQL secara konvensi ditulis dalam huruf besar (SELECT, FROM, WHERE) untuk membedakannya dari nama tabel dan kolom. Pengembang yang menulis kueri dalam huruf kecil dapat menempel seluruh pernyataan dan mengonversi kata kunci ke huruf besar tanpa memengaruhi identifier. Ini meningkatkan keterbacaan dalam codebase bersama dan sejuai dengan panduan gaya umum.",
+        "File konfigurasi, variabel lingkungan, dan flag baris perintah masing-masing mengikuti aturan casing tersendiri. ENVIRONMENT_VARIABLES biasanya menggunakan huruf besar dengan underscore, sementara flag baris perintah seperti --output-dir menggunakan huruf kecil dengan tanda hubung. Beralih antar konvensi ini melelahkan secara manual tetapi instan dengan alat ini, mengurangi gesekan saat memindahkan konfigurasi antar sistem."
+      ]
+    },
+    {
+      "heading": "Penulis Memformat Ulang Tanpa Mengetik Ulang",
+      "paragraphs": [
+        "Draf yang diketik dalam huruf kecil menjadi title case yang siap dipublikasikan; keterangan yang perlu menonjol menjadi menonjol.",
+        "Pratinjau menghilangkan dugaan sebelum menyalin ke mana pun.",
+        "Formatasi milik alat; tulisan tetap milik Anda."
+      ]
+    },
+    {
+      "heading": "SEO, Pemasaran dan Konsistensi Merek",
+      "paragraphs": [
+        "Mesin pencari memperlakukan case sebagai sinyal kecil, tetapi pembaca manusia memperlakukannya sebagai sinyal besar. Judul halaman dalam sentence case terasa kasual, sementara kata-kata yang sama dalam title case terasa berwibawa. Tim pemasaran menguji keduanya untuk melihat mana yang menghasilkan lebih banyak klik, dan konverter memungkinkan mereka membuat kedua versi dalam hitungan detik alih-alih mengetik ulang masing-masing secara manual.",
+        "Panduan gaya merek sering menentukan casing spesifik untuk nama produk, tagline, dan frasa kampanye. Saat konten berpindah antara desainer, penerjemah, dan penerbit, casing mulai berubah. Konverter berfungsi sebagai langkah normalisasi, memulihkan format yang disetujui sebelum naskah dipublikasikan. Ini mencegah ketidakkonsistenan merek yang menumpuk ketika beberapa orang mengetik ulang string yang sama.",
+        "Postingan media sosial, baris subjek email, dan notifikasi push semuanya bersaing untuk mendapatkan perhatian dalam feed yang padat huruf besar. Memilih case yang tepat untuk setiap saluran dapat menjadi perbedaan antara sekadar dilewati dan diklik. Konverter menghasilkan setiap varian sehingga Anda dapat melakukan pengujian A/B tanpa beban formatasi ulang manual.",
+        "Tim lokalisasi sering menerima konten dalam satu konvensi casing dan harus menyesuaikannya untuk pasar dengan norma yang berbeda. Judul yang menggunakan title case dalam bahasa Inggris mungkin perlu menggunakan sentence case dalam bahasa Prancis atau Jerman. Konverter menangani transformasi secara instan, membebaskan ahli bahasa untuk fokus pada kualitas terjemahan alih-alih mekanika formatasi."
+      ]
+    },
+    {
+      "heading": "Kasus Khusus dan Akurasi",
+      "paragraphs": [
+        "Konverter menangani singkatan seperti NASA dan URL seperti https://example.com tanpa merusak urutan huruf besar atau prefix protokol. Singkatan yang muncul di tengah kalimat tetap utuh saat Anda memilih sentence case, dan kata majemuk berhubung-hubung seperti e-commerce mengonversi setiap segmen dengan benar. Detail ini penting karena mengubah seluruh string menjadi huruf besar atau kecil secara membabi buta dapat merusak istilah teknis.",
+        "Karakter Unicode, termasuk huruf berdiakritik dan aksara non-Latin, dikonversi dengan setia. Kata Prancis seperti référence mempertahankan diakritiknya saat diubah ke huruf besar atau kecil, dan karakter Arab atau Tionghoa melewati proses tanpa perubahan. Kesetiaan ini mencegah kesalahan enkodasi halus yang sering mengganggu konverter yang kurang teliti.",
+        "Spasi di awal dan akhir, spasi ganda antar kata, dan karakter tab dipertahankan dalam output. Konverter mengubah case tanpa memformat ulang spasi, sehingga blok kode yang ditempel dan teks yang sudah terformat mempertahankan tata letaknya. Ini sangat penting saat input berasal dari sumber di mana indentasi memiliki makna."
+      ]
+    },
+    {
+      "heading": "Transformasi Teks yang Privat",
+      "paragraphs": [
+        "Naskah yang belum dirilis dan catatan pribadi dinormalisasi hanya di perangkat Anda.",
+        "Tanpa upload, tanpa akun, tanpa watermark — sama di semua platform.",
+        "Tugas formatasi yang ditangani secara tak terlihat."
+      ]
+    },
+    {
+      "heading": "Case dalam Suite Teks Lavender",
+      "paragraphs": [
+        "Gabungkan konverter dengan [find-replace:pencarian dan penggantian], [sort-lines:pengurut] atau [reverse-text:pembalik] untuk kontrol penuh.",
+        "Suite ini gratis, privat, dan berbasis browser.",
+        "Kontrol formatasi, diterapkan di mana saja, secara instan."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Case teks apa saja yang didukung?",
+      "a": "UPPERCASE, lowercase, Title Case, Sentence case, camelCase, dan konvensi terkait semuanya tersedia dengan pratinjau instan."
+    },
+    {
+      "q": "Bisakah saya mengonversi blok teks yang besar sekaligus?",
+      "a": "Ya. Tempel seluruh dokumen atau daftar dan transformasi diterapkan secara seragam dalam satu konversi."
+    },
+    {
+      "q": "Apakah konverter case ini privat?",
+      "a": "Ya. Semuanya berjalan secara lokal di browser Anda, teks Anda tidak pernah diunggah ke mana pun."
+    },
+    {
+      "q": "Apakah konverter akan merusak URL atau singkatan?",
+      "a": "Tidak. Alat ini mempertahankan singkatan huruf besar, prefix protokol, dan segmen berhubung-hubung, sehingga string teknis tetap utuh setelah konversi."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "extract-pdf-pages",
+  "title": "Cómo Extraer Páginas de un PDF Online Gratis: Guarda un Rango de Páginas como un Nuevo PDF",
+  "description": "Extrae páginas de un PDF online gratis con ChooseTools. Saca páginas individuales o rangos de cualquier documento y guárdalas como un nuevo PDF sin subir ni un solo byte.",
+  "keywords": ["extraer páginas de pdf", "extraer página de pdf online gratis", "guardar páginas de pdf", "sacar páginas de pdf", "extraer páginas de pdf a nuevo archivo", "extractor de páginas pdf", "extraer un rango de páginas de pdf"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Extracción: Tomando Exactamente lo que Necesitas de un PDF",
+      "paragraphs": [
+        "Los documentos completos rara vez se necesitan en su totalidad. Un estudiante necesita dos capítulos de un libro de texto, un abogado necesita una página de cláusula de treinta, un analista necesita una página de gráfico de una presentación. [extract-pdf-pages:Extraer páginas de PDF] convierte archivos enormes en exactamente el contenido que importa.",
+        "Las alternativas ingenuas — copiar y pegar en un lector, capturar cada página con pantalla — producen resultados de baja calidad y fragmentados. Un extractor genuino reconstruye las páginas seleccionadas como un PDF limpio y adecuado con texto y vectores intactos.",
+        "ChooseTools realiza la extracción localmente en tu navegador. Elige las páginas, haz clic y un nuevo PDF que contiene solo esas páginas se descarga. No hay subida a un servidor, ni marca de agua ni carga de registro.",
+        "El archivo entregado es un PDF ordinario y completamente legible que hereda cada calidad de las páginas que elegiste."
+      ]
+    },
+    {
+      "heading": "Cómo Extraer Páginas de PDF en un Nuevo Archivo",
+      "paragraphs": [
+        "La herramienta convierte un trabajo manual de dos minutos en una operación de cinco segundos.",
+        "Añade tu PDF y deja que el renderizador local muestre una vista previa página por página. Selecciona las páginas que quieres conservar introduciendo un rango literal como \"7-12\". Confirma y un nuevo PDF independiente con exactamente esas páginas se descarga al instante.",
+        "Dado que la extracción reutiliza el contenido original de las páginas, el nuevo archivo conserva vectores, fuentes, enlaces e imágenes nítidas intactas. Es un PDF válido y abrible de forma independencia que puedes enviar por correo, archivar o imprimir.",
+        "Revisa las miniaturas de vista previa mientras construyes la selección y ajusta los rangos hasta que el nuevo archivo contenga exactamente el contenido que planeaste."
+      ]
+    },
+    {
+      "heading": "Extracción de Una Sola Página para Firmas, Portadas y Pruebas",
+      "paragraphs": [
+        "La extracción de una sola página es el pan de cada día del trabajo legal y administrativo: aislar una página de firma, una attestación, una página de certificado o una hoja de código de barras de un documento más largo.",
+        "Estos PDFs de una página son candidatos ideales para entrega protegida. Después de la extracción puedes bloquear la página con [protect-pdf:cifrado de PDF], asegurando que solo los destinatarios pretendidos puedan leer el certificado o formulario aislado.",
+        "La página extraída luce exactamente como en el fuente: mismo diseño, mismas fuentes, porque es el objeto de página original guardado por sí solo, no una captura de pantalla.",
+        "Las páginas aisladas también se imprimen limpiamente en una sola hoja, por lo que los equipos de verificación y cumplimiento las solicitan tan frecuentemente."
+      ]
+    },
+    {
+      "heading": "Extracción por Rangos para Capítulos, Análisis y Borradores de Trabajo",
+      "paragraphs": [
+        "La extracción por rangos es cómo los profesionales dividen un libro en capítulos, un manual en módulos o un conjunto de datos en lotes antes de compartir las piezas con diferentes partes interesadas.",
+        "Introduce ambos extremos y la herramienta devuelve un segmento continuo del documento. Combina esto con [split-pdf:dividir PDF] cuando necesitas cada capítulo como su propio archivo, o con [merge-pdf:fusionar PDF] para mezclar rangos extraídos de varias fuentes en un solo dossier.",
+        "Dado que cada extracción es un PDF genuino con texto seleccionable, los destinatarios pueden copiar-citar, buscar y anotar la sección entregada, capacidades que importan en flujos de trabajo de revisión colaborativa.",
+        "Ya sea que el segmento tenga dos páginas o doscientas, la extracción mantiene cada gráfico incrustado y referencia cruzada intactos."
+      ]
+    },
+    {
+      "heading": "Privacidad Total a Través del Procesamiento Local",
+      "paragraphs": [
+        "Un extractor necesita acceso profundo a los internos de tu documento; hacerlo de forma remota significa que tu archivo completo cruza la red aunque solo querías cuatro páginas de vuelta. ChooseTools mantiene toda la operación en tu máquina.",
+        "El renderizador PDF.js analiza el árbol de páginas localmente, copia los objetos de página elegidos y escribe el nuevo documento sin transmitir nunca el archivo fuente. Para NDAs, datos médicos y trabajo con clientes, ese es el único modelo aceptable.",
+        "Combínalo con sin registro y sin marca de agua, y la extracción se convierte en una parte rutinaria y de riesgo cero de tu flujo diario de documentos en Windows, macOS o navegadores móviles.",
+        "Dado que el fuente nunca viaja, puedes conservar el original en su lugar e iterar las selecciones las veces que necesites con total confianza."
+      ]
+    },
+    {
+      "heading": "Ideas de Flujos de Trabajo Prácticos Con Extracción",
+      "paragraphs": [
+        "Extrae la portada y las páginas de precios de una propuesta para una vista previa rápida para el cliente. Aísla la hoja de referencias de un manual para distribución a personal de campo. Saca las tablas de un artículo de investigación para lectura offline en un tren.",
+        "Las secciones extraídas permanecen totalmente imprimibles y buscables, haciéndolas entradas perfectas para pasos posteriores: comprime con [compress-pdf:comprimir PDF] antes de adjuntar al correo, o convierte con [pdf-to-jpg:PDF a JPG] para enviar como imágenes.",
+        "En resumen, la extracción te da control quirúrgico sobre tus documentos sin sacrificar velocidad, calidad ni confidencialidad.",
+        "Usada regularmente, cambia la forma en que los equipos distribuyen información: segmentos relevantes en lugar de archivos adjuntos gigantes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Puedo extraer un rango de páginas no secuencial?",
+      "a": "Sí. Puedes especificar páginas o rangos precisos (por ejemplo páginas 1, 5-8 y 12), y la herramienta construye un nuevo PDF que contiene exactamente esas páginas en tu orden elegido."
+    },
+    {
+      "q": "¿Las páginas extraídas mantienen el texto seleccionable y buscable?",
+      "a": "Sí. La extracción reutiliza los objetos de página originales, por lo que el texto permanece seleccionable y buscable, exactamente como en el documento fuente."
+    },
+    {
+      "q": "¿Hay un límite de cuántas páginas puedo extraer gratis?",
+      "a": "No. La herramienta no impone límite de páginas. Dado que el procesamiento es local, la única restricción práctica es la memoria disponible en tu dispositivo."
+    },
+    {
+      "q": "¿Puedo combinar páginas extraídas de diferentes documentos?",
+      "a": "Sí. Extrae los rangos que necesitas de cada fuente, luego usa [merge-pdf:fusionar PDF] para mezclarlos en un solo nuevo documento."
+    }
+  ]
+}

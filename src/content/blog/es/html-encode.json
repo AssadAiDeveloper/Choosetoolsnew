@@ -1,0 +1,126 @@
+{
+  "slug": "html-encode",
+  "title": "Codificador y Decodificador HTML: Codifica y Escapa HTML Online Gratis",
+  "description": "Codificador HTML online gratuito para escapar y desescapar caracteres especiales para una publicación web segura, con vista previa. Privado, instantáneo, en tu navegador.",
+  "keywords": ["codificador html", "escapar html", "codificación de entidades html", "escapar caracteres html", "desescapar html", "codificar html online", "conversor de entidades html"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Escapar Es Cómo el HTML Se Mantiene Honesto",
+      "paragraphs": [
+        "Renderizar de forma segura un texto suministrado por el usuario o derivado de código exige escapar caracteres especiales como <, > y &. La codificación de HTML evita la ejecución accidental y los diseños rotos en cada página.",
+        "Escapar es higiene de seguridad y corrección de renderizado en un solo paso.",
+        "ChooseTools codifica y decodifica HTML localmente en tu navegador.",
+        "Sin escapar, un solo ampersand en la descripción de un producto puede romper el diseño de una página entera, convirtiendo contenido significativo en ruido de error del navegador."
+      ]
+    },
+    {
+      "heading": "Cómo Escapar Entidades HTML",
+      "paragraphs": [
+        "Texto seguro, al instante.",
+        "Pega texto crudo para escapar <, >, &, las comillas y otros caracteres especiales convirtiéndolos en entidades, o pega HTML cargado de entidades para decodificarlo de vuelta a texto legible. Copia la versión que necesites.",
+        "El procesamiento es local, manteniendo tus fragmentos confidenciales.",
+        "El flujo bidireccional significa que puedes codificar un fragmento para incrustarlo con seguridad y, más tarde, decodificar el mismo bloque para su revisión humana sin volver a teclear nada."
+      ]
+    },
+    {
+      "heading": "Visualización Segura de la Entrada del Usuario",
+      "paragraphs": [
+        "Los resultados de búsqueda, las vistas previas de mensajes y el renderizado de comentarios necesitan todos escapado para neutralizar los caracteres peligrosos que los usuarios pueden escribir.",
+        "La entrada escapada se renderiza como texto, nunca como etiquetas o scripts.",
+        "Esta única práctica cierra clases enteras de sorpresas por inyección.",
+        "Los ataques de scripting entre sitios se apoyan en entrada sin escapar que llega al DOM; la codificación constante de entidades neutraliza el vector de ataque antes de que el navegador interprete la cadena."
+      ]
+    },
+    {
+      "heading": "Bloques de Código Literales y Documentación",
+      "paragraphs": [
+        "Publicar ejemplos de código en una página significa imprimir pre y code literalmente, lo que exige escapar los mismos caracteres que se muestran.",
+        "Codifica tus fragmentos de ejemplo para mostrarlos como texto limpio.",
+        "La documentación se ve correcta porque las entidades se renderizan como caracteres visibles.",
+        "Los escritores técnicos que escapan ejemplos de código una vez y guardan la versión codificada ahorran horas de re-codificación cuando cambia el motor de documentación."
+      ]
+    },
+    {
+      "heading": "Entidades Comunes y Cuándo Usarlas",
+      "paragraphs": [
+        "Las cinco entidades centrales cubren la mayoría de los casos: &amp; para el ampersand, &lt; para menor que, &gt; para mayor que, &quot; para la comilla doble y &apos; para el apóstrofo.",
+        "Las referencias numéricas de caracteres manejan símbolos no ASCII como rayas largas, comillas curvas y signos de moneda cuando la codificación del documento no los garantiza.",
+        "Saber qué entidades requiere tu contexto de salida evita el mojibake en clientes de correo, editores de CMS y renderizadores de texto plano."
+      ]
+    },
+    {
+      "heading": "Doble Codificación: Un Error Común",
+      "paragraphs": [
+        "Aplicar la codificación HTML dos veces convierte &amp; en &amp;amp;, que muestra el texto literal ampersand en lugar del símbolo previsto.",
+        "Los desarrolladores encuentran la doble codificación cuando un CMS escapa el contenido y luego un motor de plantillas lo escapa de nuevo.",
+        "Ejecutar una pasada de decodificación antes de re-codificar garantiza que la transformación se aplique exactamente una vez, preservando la salida prevista."
+      ]
+    },
+    {
+      "heading": "Dos Direcciones, Una Herramienta",
+      "paragraphs": [
+        "Codifica para una salida segura; decodifica para recuperar el original legible para auditoría o edición.",
+        "Los viajes de ida y vuelta conservan el contenido exactamente.",
+        "Ambas direcciones encajan en el trabajo de compilación y de edición.",
+        "Los desarrolladores usan la codificación en los pipelines de compilación para sanear el HTML generado y luego la decodificación para inspeccionar la misma salida durante la revisión del código."
+      ]
+    },
+    {
+      "heading": "Escapado Privado de Trabajo Web Interno",
+      "paragraphs": [
+        "Los fragmentos HTML de herramientas internas y suites de pruebas se codifican localmente.",
+        "Sin subidas, sin cuentas, sin marcas de agua: en cada plataforma.",
+        "Higiene web sin exposición.",
+        "Los paneles internos y de administración que manejan datos confidenciales de usuarios se benefician de la codificación local porque los fragmentos nunca pasan por un servicio de terceros."
+      ]
+    },
+    {
+      "heading": "Codificación en Plantillas de Correo y Notificaciones",
+      "paragraphs": [
+        "Los clientes de correo renderizan el HTML de forma inconsistente, y los caracteres especiales sin escapar son una causa frecuente de líneas de asunto rotas y cuerpos de mensaje en blanco.",
+        "Codificar las porciones dinámicas de una plantilla de correo antes de fusionar el contenido garantiza que nombres de usuario, títulos de producto y precios se muestren como texto plano en lugar de malinterpretarse.",
+        "Los sistemas de notificación que escapan los campos dinámicos reducen los tickets de soporte causados por salidas corruptas en los muchos renderizadores existentes."
+      ]
+    },
+    {
+      "heading": "Codificación Dentro del Kit de Herramientas Web",
+      "paragraphs": [
+        "Combínala con la conversión de Markdown, la codificación de URLs y la minificación de CSS para un conjunto de publicación completo.",
+        "El conjunto es gratuito y nativo del navegador.",
+        "Cada etiqueta, escapada exactamente como se pretende.",
+        "Encadenar estas herramientas en secuencia produce HTML listo para publicar a partir de contenido crudo sin necesidad de un paso de compilación en el servidor."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Qué caracteres escapa la codificación HTML?",
+      "a": "Los caracteres especiales <, >, &, las comillas y símbolos reservados similares se traducen en entidades seguras."
+    },
+    {
+      "q": "¿Puedo decodificar entidades de vuelta a HTML legible?",
+      "a": "Sí. La herramienta funciona en ambos sentidos, reconstruyendo el texto original a partir de las entidades codificadas."
+    },
+    {
+      "q": "¿La codificación HTML es privada?",
+      "a": "Sí. Todo se ejecuta localmente en tu navegador, sin subidas ni cuentas."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre codificar y minimizar?",
+      "a": "La codificación sustituye los caracteres especiales por entidades seguras para evitar errores de renderizado, mientras que la minimización elimina espacios en blanco y comentarios para reducir el tamaño del archivo. Sirven a propósitos distintos en una compilación web."
+    },
+    {
+      "q": "¿Qué ocurre si codifico el mismo texto dos veces?",
+      "a": "La doble codificación produce una salida incorrecta, como &amp;amp; en lugar de &amp;. La herramienta te permite decodificar antes para garantizar una única pasada limpia de codificación."
+    },
+    {
+      "q": "¿La codificación HTML es lo mismo que la codificación de URLs?",
+      "a": "No. La codificación HTML convierte los caracteres reservados por HTML en entidades para una visualización segura, mientras que la codificación de URLs convierte caracteres en valores codificados en porcentaje para su inclusión segura en direcciones web."
+    },
+    {
+      "q": "¿Necesito escapar los apóstrofos en atributos HTML con comillas simples?",
+      "a": "Sí. Un apóstrofo dentro del valor de un atributo con comillas simples debe escaparse como &apos; para que el navegador no lo trate como la comilla de cierre."
+    }
+  ]
+}

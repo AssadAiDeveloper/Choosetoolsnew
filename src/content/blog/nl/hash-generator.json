@@ -1,0 +1,115 @@
+{
+  "slug": "hash-generator",
+  "title": "Hashgenerator: Maak MD5-, SHA-256- en SHA-1-hashes Gratis Online",
+  "description": "Gratis hashgenerator om MD5-, SHA-1- en SHA-256-checksums voor tekst en bestanden te berekenen en integriteit te verifiëren. Privé, in je browser, zonder uploads.",
+  "keywords": ["hash generator", "sha256 generator", "md5 hash", "sha1 hash", "checksum generator online", "hash calculator", "tekst hash online"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Een Hash Bewijst Wat Je Bedoelt",
+      "paragraphs": [
+        "Hashes condenseren elke invoer tot een vingerafdruk van vaste grootte die verandert wanneer de invoer verandert. [hash-generator:Hashes genereren] verifieert integriteit, detecteert toevallige corruptie en structureert veilige workflows.",
+        "MD5, SHA-1 en SHA-256 zijn de dagelijkse werkpaarden met verschillende sterktes en afwegingen die in specifieke contexten ertoe doen.",
+        "ChooseTools berekent hashes lokaal in je browser, voor tekst en bestanden."
+      ]
+    },
+    {
+      "heading": "Hoe een Hash te Genereren",
+      "paragraphs": [
+        "Van invoer naar vingerafdruk met één klik:",
+        "Plak tekst of kies een bestand, kies een digest-algoritme en bekijk binnen enkele seconden de resulterende checksum voor MD5, SHA-1 of SHA-256.",
+        "De berekening blijft lokaal, zodat inhoud je apparaat nooit verlaat, ongeacht bestandsgrootte of tekstlengte."
+      ]
+    },
+    {
+      "heading": "MD5 voor Snelle Controles, SHA-256 voor Vestingwerk",
+      "paragraphs": [
+        "MD5 draait snel en signaleert nog steeds toevallige corruptie, maar botsingen maken het ongeschikt voor beveiligingskritieke verificatie waar kwaadwillig geknoei een zorg is.",
+        "SHA-256 is de moderne standaard voor releases, downloads en gevoelige vergelijkingsoperaties in de software-industrie.",
+        "Het digest afstemmen op de taak is belangrijker dan het nieuwste beschikbare algoritme kiezen."
+      ]
+    },
+    {
+      "heading": "Het Juiste Algoritme voor de Klus Kiezen",
+      "paragraphs": [
+        "MD5 produceert een 128-bits digest uitgedrukt als 32 hexadecimale tekens. Het blijft nuttig voor niet-beveiligingstaken zoals controleren of een bestand zonder corruptie is gedownload, het genereren van korte identificaties voor cache-sleutels of het verifiëren dat twee kopieën van een document byte-identiek zijn.",
+        "SHA-1 levert een 160-bits digest op dat als 40 hextekens wordt weergegeven. Veel legacy-systemen en versiebeheerplatforms verwijzen nog steeds naar SHA-1-vingerafdrukken, dus het algoritme blijft relevant voor compatibiliteit, ook al voldoet het niet meer aan moderne beveiligingseisen.",
+        "SHA-256 genereert een 256-bits digest dat als 64 hextekens wordt weergegeven. Het is de minimumsterkte die wordt aanbevolen voor digitale handtekeningen, certificaatverificatie en elke workflow waar botsingsbestendigheid direct invloed heeft op vertrouwen. Twijfel je, grijp dan eerst naar SHA-256."
+      ]
+    },
+    {
+      "heading": "Bestandsintegriteit Vóór Je Installeert",
+      "paragraphs": [
+        "Vergelijk de hash van een gedownload bestand met de gepubliceerde checksum van de uitgever om te bevestigen dat het bestand intact is aangekomen.",
+        "Een match bewijst dat het bestand compleet en ongewijzigd is aangekomen en geeft je cryptografisch vertrouwen vóór uitvoering.",
+        "Vertrouwen is cryptografisch in plaats van hoopvol en vervangt giswerk door wiskundig bewijs."
+      ]
+    },
+    {
+      "heading": "Gebruiksgevallen Naast Bestandsverificatie",
+      "paragraphs": [
+        "API's vereisen vaak een gehashte handtekening in elk verzoek, zodat de server kan bevestigen dat parameters onderweg niet zijn gewijzigd. De hash lokaal berekenen en in de header embedden vervult dat contract zonder de ruwe payload aan externe diensten bloot te stellen.",
+        "Content-addressable opslagsystemen gebruiken hashes als bestandsnamen. Een document onder zijn SHA-256-digest opslaan betekent dat dubbele gegevens direct worden gedetecteerd en identieke inhoud altijd naar hetzelfde adres oplost, waardoor opslagkosten dalen en het ophalen versnelt.",
+        "Deduplicatie over grote bestandscollecties profiteert van hashvergelijking. In plaats van bestanden byte voor byte te vergelijken, onthult een snelle digestcontrole duplicaten binnen enkele seconden, waardoor schijfruimte vrijkomt en back-upperoutines in bedrijfsomgevingen eenvoudiger worden."
+      ]
+    },
+    {
+      "heading": "Hashing Is Geen Versleuteling",
+      "paragraphs": [
+        "Hashes zijn eenrichtingsvingerafdrukken; ze kunnen de invoer niet onthullen, maar verbergen die ook niet voor brute force op zwakke waarden.",
+        "Combineer hashing voor wachtwoordopslag met correct salting en een trage sleutelafleidingsfunctie — sla nooit platte tekst op.",
+        "Begrijp de eenrichtingsrichting voordat je er voor om het even welk beveiligingskritiek doel op vertrouwt."
+      ]
+    },
+    {
+      "heading": "Hexadecimale Output en Codering Begrijpen",
+      "paragraphs": [
+        "Hashresultaten verschijnen als tekenreeksen van hexadecimale tekens, waarbij elk paar cijfers één byte voorstelt. Een MD5-hash is 32 hextekens omdat hij 16 bytes codeert, terwijl SHA-256 64 hextekens is die 32 bytes coderen.",
+        "De hex-representatie is menselijk leesbaar en gemakkelijk te vergelijken, maar de onderliggende waarde is binair. Sommige systemen prefereren Base64-codering van het ruwe digest voor compactheid, dus het kennen van het verschil tussen hex- en Base64-output voorkomt kopieer-plakfouten.",
+        "Hoofd- of kleine letters zijn doorgaans irrelevant voor vergelijkingsalgoritmen, maar veel uitgevers publiceren hex in hoofdletters terwijl tools kleine letters kunnen teruggeven. De converter produceert een consistente letterkas, zodat matches eenvoudig zijn ongeacht het bronformaat."
+      ]
+    },
+    {
+      "heading": "Privé Vingerafdrukken Maken",
+      "paragraphs": [
+        "Documenten en geheimen die lokaal worden gehasht, reizen nooit via een server of verschijnen in geen enkel extern log.",
+        "Geen upload, geen account, geen watermerk — identiek gedrag op elk besturingssysteem en in elke browser.",
+        "Integriteitscontroles met totale privacy, geschikt voor vertrouwelijke bestanden en eigen code."
+      ]
+    },
+    {
+      "heading": "Hashing in de Ontwikkelaarstoolkit",
+      "paragraphs": [
+        "Combineer met [base64:codering], [uuid-generator:unieke ID's] en [password-generator:sterke sleutels] voor volledige gegevenshygiëne in ontwikkelings- en deployment-pipelines.",
+        "De suite is gratis en browsergebaseerd, zonder installatie of accountaanmelding.",
+        "Vingerafdrukken binnen handbereik, klaar voor elke verificatietaak."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welke algoritmen worden ondersteund?",
+      "a": "MD5, SHA-1 en SHA-256 worden geboden en dekken dagelijkse checksum- en integriteitsgebruiksgevallen over verschillende beveiligingsniveaus."
+    },
+    {
+      "q": "Kan ik ook een bestand hashen naast tekst?",
+      "a": "Ja. Bestanden kunnen direct worden geselecteerd en gehasht, net als geplakte tekst, met resultaten binnen enkele seconden."
+    },
+    {
+      "q": "Is hashing privé?",
+      "a": "Ja. Alles draait lokaal in je browser zonder uploads of accounts."
+    },
+    {
+      "q": "Hoe lang moet mijn wachtwoordhash zijn om veilig te blijven?",
+      "a": "Gebruik voor wachtwoordhashing in productie een toegewijd algoritme zoals bcrypt of Argon2 met salting. De hashgenerator is geschikt voor checksums, integriteitsverificatie en datavingerafdrukken in plaats van wachtwoordopslag."
+    },
+    {
+      "q": "Wat is het verschil tussen hex- en Base64-hashoutput?",
+      "a": "Hex is een tekstrepresentatie van het binaire digest met de cijfers 0-9 en de letters a-f. Base64 codeert dezelfde binaire gegevens compacter met een grotere tekenset. Beide vertegenwoordigen dezelfde onderliggende hashwaarde."
+    },
+    {
+      "q": "Kunnen twee verschillende bestanden dezelfde hash produceren?",
+      "a": "Botsingen zijn theoretisch mogelijk maar met SHA-256 uiterst onwaarschijnlijk. MD5 en SHA-1 hebben bekende botsingskwetsbaarheden, wat de reden is dat SHA-256 de voorkeur heeft voor beveiligingsgevoelige applicaties."
+    }
+  ]
+}

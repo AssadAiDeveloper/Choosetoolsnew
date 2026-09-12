@@ -1,0 +1,126 @@
+{
+  "slug": "html-encode",
+  "title": "HTML Kodlayıcı Çözücü: Çevrimiçi Ücretsiz HTML Kodlayın ve Kaçış Karakterleri Ekleyin",
+  "description": "Güvenli web yayıncılığı için özel karakterleri kaçışlayan ve kaçışını kaldıran, önizlemeli ücretsiz çevrimiçi HTML kodlayıcı. Gizli, anında, tarayıcınızda.",
+  "keywords": ["html kodlayıcı", "html kaçış", "html varlık kodlama", "html karakterleri kaçışla", "html kaçışını kaldır", "çevrimiçi html kodlama", "html varlık dönüştürücü"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Kaçış, HTML'in Dürüst Kalmasının Yoludur",
+      "paragraphs": [
+        "Kullanıcı kaynaklı veya kod kaynaklı metni güvenli biçimde işlemek, <, > ve & gibi özel karakterleri kaçışlamayı gerektirir. HTML kodlamak, her sayfada kazara yürütmeyi ve bozuk düzenleri önler.",
+        "Kaçış, tek adımda güvenlik hijyeni ve işleme doğruluğudur.",
+        "ChooseTools HTML'i tarayıcınızda yerel olarak kodlar ve kodunu çözer.",
+        "Kaçış olmadan, bir ürün açıklamasındaki tek bir ve işareti tüm sayfa düzenini bozabilir ve anlamlı içeriği tarayıcı hata gürültüsüne dönüştürebilir."
+      ]
+    },
+    {
+      "heading": "HTML Varlıkları Nasıl Kaçışlanır",
+      "paragraphs": [
+        "Güvenli metin, anında.",
+        "<, >, &, tırnak işaretleri ve diğer özel karakterleri varlıklara kaçışlamak için ham metni yapıştırın veya okunabilir metne geri çözmek için varlık yüklü HTML'i yapıştırın. İhtiyacınız olan sürümü kopyalayın.",
+        "İşlem yereldir; parçalarınız gizli kalır.",
+        "Çift yönlü iş akışı, güvenli gömme için bir parçayı kodlayabileceğiniz ve hiçbir şeyi yeniden yazmadan aynı bloğu insan incelemesi için daha sonra çözebileceğiniz anlamına gelir."
+      ]
+    },
+    {
+      "heading": "Kullanıcı Girdisinin Güvenli Görüntülenmesi",
+      "paragraphs": [
+        "Arama sonuçları, mesaj önizlemeleri ve yorum işlemenin tümü, kullanıcıların yazabileceği tehlikeli karakterleri etkisiz hale getirmek için kaçış gerektirir.",
+        "Kaçışlanmış girdi, asla etiket veya betik olarak değil, metin olarak işlenir.",
+        "Bu tek uygulama, bütün enjeksiyon sürprizi sınıflarını kapatır.",
+        "Siteler arası betik saldırıları, DOM'a ulaşan kaçışlanmamış girdiye dayanır; tutarlı varlık kodlama, tarayıcı diziyi yorumlamadan önce saldırı vektörünü etkisiz hale getirir."
+      ]
+    },
+    {
+      "heading": "Değişmez Kod Blokları ve Dokümantasyon",
+      "paragraphs": [
+        "Bir sayfada kod örnekleri yayınlamak, pre ve code öğelerini birebir basmak anlamına gelir; bu da gösterilen aynı karakterlerin kaçışlanmasını gerektirir.",
+        "Örnek parçalarınızı temiz metin olarak görüntülemek için kodlayın.",
+        "Varlıklar görünür karakterler olarak işlendiği için dokümantasyon doğru görünür.",
+        "Kod örneklerini bir kez kaçışlayıp kodlanmış sürümü saklayan teknik yazarlar, dokümantasyon motoru değiştiğinde saatlerce yeniden kodlama zahmetinden kurtulur."
+      ]
+    },
+    {
+      "heading": "Yaygın Varlıklar ve Ne Zaman Kullanılmalı",
+      "paragraphs": [
+        "Beş temel varlık çoğu durumu kapsar: ve işareti için &amp;, küçüktür için &lt;, büyüktür için &gt;, çift tırnak için &quot; ve kesme işareti için &apos;.",
+        "Sayısal karakter referansları, belge kodlaması garanti etmediğinde uzun tire, kıvrık tırnak ve para birimi işareti gibi ASCII dışı sembolleri ele alır.",
+        "Çıktı bağlamınızın hangi varlıkları gerektirdiğini bilmek, e-posta istemcileri, CMS düzenleyicileri ve düz metin işleyicileri arasında karakter bozukluğunu önler."
+      ]
+    },
+    {
+      "heading": "Çift Kodlama: Yaygın Bir Hata",
+      "paragraphs": [
+        "HTML kodlamayı iki kez uygulamak, &amp; değerini &amp;amp; haline getirir; bu, amaçlanan sembol yerine ve işareti kelimesinin birebir metnini görüntüler.",
+        "Geliştiriciler, bir CMS içerik kaçışlıyor ve ardından bir şablon motoru yeniden kaçışlıyorsa çift kodlamayla karşılaşır.",
+        "Yeniden kodlamadan önce bir çözme geçişi çalıştırmak, dönüşümün tam olarak bir kez uygulanmasını sağlar ve amaçlanan çıktıyı korur."
+      ]
+    },
+    {
+      "heading": "İki Yön, Tek Araç",
+      "paragraphs": [
+        "Güvenli çıktı için kodlayın; denetim veya düzenleme için okunabilir orijinali geri almak üzere çözün.",
+        "Gidiş dönüşler içeriği birebir korur.",
+        "Her iki yön de derleme ve editör çalışmalarına uyar.",
+        "Geliştiriciler, üretilen HTML'i sterilize etmek için kodlamayı derleme hatlarında kullanır, ardından kod incelemesi sırasında aynı çıktıyı incelemek için çözmeyi kullanır."
+      ]
+    },
+    {
+      "heading": "Dahili Web İşlerinin Özel Kaçışlanması",
+      "paragraphs": [
+        "Dahili araçlardan ve test paketlerinden gelen HTML parçaları yerel olarak kodlanır.",
+        "Her platformda yükleme yok, hesap yok, filigran yok.",
+        "İfşa olmadan web hijyeni.",
+        "Hassas kullanıcı verilerini işleyen dahili panolar ve yönetim panelleri, parçalar üçüncü taraf bir hizmetten asla geçmediği için yerel kodlamadan fayda görür."
+      ]
+    },
+    {
+      "heading": "E-posta ve Bildirim Şablonlarında Kodlama",
+      "paragraphs": [
+        "E-posta istemcileri HTML'i tutarsız işler ve kaçışlanmamış özel karakterler, bozuk konu satırlarının ve boş mesaj gövdelerinin sık görülen bir nedenidir.",
+        "İçerik birleştirmeden önce bir e-posta şablonunun dinamik kısımlarını kodlamak, kullanıcı adlarının, ürün başlıklarının ve fiyatların yanlış yorumlanmak yerine düz metin olarak görüntülenmesini garanti eder.",
+        "Dinamik alanları kaçışlayan bildirim sistemleri, piyasadaki çok sayıda işleyici arasında bozuk çıktıdan kaynaklanan destek taleplerini azaltır."
+      ]
+    },
+    {
+      "heading": "Web Araç Kutusu İçinde Kodlama",
+      "paragraphs": [
+        "Eksiksiz bir yayın seti için Markdown dönüştürme, URL kodlama ve CSS küçültme ile eşleştirin.",
+        "Araç seti ücretsizdir ve tarayıcı yerelidir.",
+        "Her etiket, tam istendiği gibi kaçışlanmış.",
+        "Bu araçları sırayla zincirlemek, sunucu tarafı bir derleme adımı gerektirmeden ham içerikten yayına hazır HTML üretir."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "HTML kodlama hangi karakterleri kaçışlar?",
+      "a": "<, >, &, tırnak işaretleri ve benzeri ayrılmış semboller gibi özel karakterler güvenli varlıklara çevrilir."
+    },
+    {
+      "q": "Varlıkları tekrar okunabilir HTML'e çözebilir miyim?",
+      "a": "Evet. Araç iki yönde de çalışır; kodlanmış varlıklardan orijinal metni yeniden kurar."
+    },
+    {
+      "q": "HTML kodlama gizli mi?",
+      "a": "Evet. Her şey tarayıcınızda yerel olarak çalışır; yükleme veya hesap yoktur."
+    },
+    {
+      "q": "Kodlama ile küçültme arasındaki fark nedir?",
+      "a": "Kodlama, işleme hatalarını önlemek için özel karakterleri güvenli varlıklarla değiştirir; küçültme ise dosya boyutunu azaltmak için beyaz boşlukları ve yorumları kaldırır. Web derlemesinde farklı amaçlara hizmet ederler."
+    },
+    {
+      "q": "Aynı metni iki kez kodlarsam ne olur?",
+      "a": "Çift kodlama, &amp; yerine &amp;amp; gibi yanlış çıktılar üretir. Araç, tek bir temiz kodlama geçişi sağlamak için önce çözme yapmanıza olanak tanır."
+    },
+    {
+      "q": "HTML kodlamak URL kodlamak ile aynı şey midir?",
+      "a": "Hayır. HTML kodlama, HTML ayrılmış karakterlerini güvenli görüntüleme için varlıklara dönüştürür; URL kodlama ise karakterleri web adreslerine güvenli ekleme için yüzde kodlu değerlere dönüştürür."
+    },
+    {
+      "q": "Tek tırnaklı HTML özelliklerinde kesme işaretlerini kaçışlamam gerekir mi?",
+      "a": "Evet. Tek tırnaklı bir özellik değerinin içindeki kesme işareti, tarayıcının onu kapanış tırnağı olarak görmemesi için &apos; olarak kaçışlanmalıdır."
+    }
+  ]
+}

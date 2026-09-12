@@ -1,0 +1,115 @@
+{
+  "slug": "excel-to-csv",
+  "title": "Konverter Excel ke CSV: Konversi XLSX ke CSV Secara Online Gratis",
+  "description": "Konverter Excel ke CSV gratis untuk mengubah spreadsheet XLSX menjadi file CSV biasa, sheet per sheet, di browser Anda. Privat, tanpa unggahan, tanpa pendaftaran.",
+  "keywords": ["excel ke csv", "konverter xlsx ke csv", "konversi excel ke csv", "excel ke csv online gratis", "ekspor xlsx sebagai csv", "spreadsheet ke csv", "alat excel ke csv"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Format Excel Di Mana-Mana, CSV Di Mana Pemrosesan Berlangsung",
+      "paragraphs": [
+        "Sistem, basis data, dan skrip jauh lebih mudah mengonsumsi CSV daripada XLSX. [excel-to-csv:Mengonversi Excel ke CSV] menghasilkan bentuk sederhana dan universal yang diinginkan setiap pipeline.",
+        "Konversi mempertahankan nilai sel sambil membuang kompleksitas biner Excel, rumus, dan overhead pemformatan.",
+        "ChooseTools mengonversi XLSX ke CSV secara lokal di browser Anda, menangani sheet dan delimiter dengan presisi."
+      ]
+    },
+    {
+      "heading": "Cara Mengonversi File Excel ke CSV",
+      "paragraphs": [
+        "Dari workbook ke baris yang bersih:",
+        "Unggah file XLSX, pilih sheet yang akan diekspor dan delimiter (koma, titik koma), lalu konversi. CSV diunduh siap untuk scripting, CRM, atau impor basis data.",
+        "Workbook diurai di perangkat Anda — tanpa unggahan yang melibatkan dan tanpa data yang meninggalkan mesin Anda."
+      ]
+    },
+    {
+      "heading": "Pemilihan Sheet dan Kontrol Delimiter",
+      "paragraphs": [
+        "Workbook multi-sheet dikonversi sheet per sheet; pilih yang relevan untuk tugas saat ini atau proses masing-masing secara terpisah.",
+        "Pilihan delimiter menjaga alat yang peka wilayah tetap puas, baik CSV menggunakan koma di lokal Inggris atau titik koma di Eropa.",
+        "Output bergabung tepat dengan pipeline yang akan mengonsumsinya, tanpa pemrosesan ulang yang diperlukan."
+      ]
+    },
+    {
+      "heading": "Pertimbangan Pengodean dan Set Karakter",
+      "paragraphs": [
+        "Spreadsheet sering berisi karakter beraksen, naskah kanan-ke-kiri, dan simbol yang dapat dirusak format teks biasa jika pengodean salah. Konverter mengekspor CSV berpengodean UTF-8 secara default, mempertahankan setiap karakter persis seperti yang muncul di workbook.",
+        "Beberapa sistem lama memerlukan file berpengodean ANSI atau ISO-8859-1. Saat alat tujuan memerlukan pengodean tertentu, memilih charset output yang benar mencegah teks yang tercampur yang muncul saat nama klien Prancis atau label bidang Arab tiba sebagai mojibake yang tidak terbaca.",
+        "Byte-order mark, prefix tiga byte tak terlihat yang menandakan UTF-8 ke parser tertentu, ditangani dengan benar. Sistem yang memerlukan BOM menerimanya, dan yang menolaknya mendapat output bersih tanpa prefix, mencegah bug baris kosong-pertama yang dialami banyak pengguna Excel ke CSV."
+      ]
+    },
+    {
+      "heading": "Mengapa CSV Menang untuk Pertukaran Data",
+      "paragraphs": [
+        "Parser universal, diff yang ramah versi, dan skrip yang sederhana semuanya lebih menyukai CSV daripada format spreadsheet proprietary.",
+        "Ekspor bank, platform pemasaran, dan impor analitik semuanya native CSV, menjadikan konversi jembatan satu langkah ke setiap alat yang terhubung.",
+        "Satu konversi membuka setiap alat yang membaca baris biasa, dari pemuat basis data hingga sistem pemasaran surel."
+      ]
+    },
+    {
+      "heading": "Nilai Bersih, Pengodean Andal",
+      "paragraphs": [
+        "Angka, tanggal, dan teks ditransfer secara setia, dengan sel yang berisi koma dikutip dengan benar untuk mencegah kesalahan pemisahan field.",
+        "Pengodean tetap utuh untuk data beraksen dan multibahasa, sehingga nama klien dan deskripsi produk tiba dalam keadaan terbaca.",
+        "Impor downstream berfungsi dengan baik, baik tujuannya adalah basis data relasional, CRM, atau dasbor pelaporan."
+      ]
+    },
+    {
+      "heading": "Pemrosesan Batch dan Workbook Besar",
+      "paragraphs": [
+        "Spreadsheet enterprise sering menampung ratusan ribu baris di beberapa sheet. Konverter memproses file-file besar ini sepenuhnya dalam memori di perangkat Anda, menghasilkan output CSV bersih tanpa batas timeout atau ukuran unggahan yang diberlakukan server online.",
+        "Saat setiap sheet dalam workbook penting, mengekspornya secara individual memberikan satu CSV per sheet dengan pemformatan yang konsisten. Pendekatan ini menghindari ambiguitas penggabungan semua sheet ke dalam satu file di mana header kolom tidak lagi sejajar.",
+        "Tabel yang sangat lebar dengan puluhan kolom dikonversi dengan setia seperti halnya tabel tinggi yang sempit. Output CSV mengutip setiap sel yang berisi delimiter yang dipilih, baris baru, atau kutipan, sehingga bahkan struktur data yang kompleks bertahan utuh."
+      ]
+    },
+    {
+      "heading": "Variasi CSV dan Kompatibilitas Regional",
+      "paragraphs": [
+        "RFC 4180 menentukan format standar yang dipisahkan koma, tetapi konvensi regional bervariasi secara signifikan. Lokal Jerman, Prancis, dan Spanyol umumnya menggunakan titik koma sebagai delimiter karena koma berfungsi sebagai pemisah desimal dalam format angka tersebut.",
+        "Nilai yang dipisahkan tab menjadi alternatif saat koma muncul sering dalam data itu sendiri. Memilih delimiter tab menghindari pengodean berlebihan dan menghasilkan file yang dapat ditempel dengan bersih ke editor teks biasa dan alat terminal.",
+        "Konverter mencocokkan variasi mana pun yang diharapkan sistem target Anda, sehingga output terbuka dengan benar untuk pertama kalinya alih-alih menampilkan satu kolom panjang dari field yang digabung."
+      ]
+    },
+    {
+      "heading": "Data Keuangan dan Klien yang Privat",
+      "paragraphs": [
+        "Workbook sering berisi angka paling sensitif yang dimiliki organisasi; konversi lokal menjaganya tetap tersegel di dalam tanpa paparan eksternal.",
+        "Tanpa unggahan, tanpa akun, tanpa tanda air — lintas platform dan perangkat.",
+        "Kerahasiaan spreadsheet tetap terjaga, dengan setiap konversi terjadi sepenuhnya di browser Anda."
+      ]
+    },
+    {
+      "heading": "Interop Excel dalam Peralatan Data",
+      "paragraphs": [
+        "Pasangkan dengan [csv-to-excel:CSV ke Excel], [excel-to-json:Excel ke JSON] dan [csv-json:CSV ke JSON] untuk pekerjaan data lintas format yang lengkap.",
+        "Suite ini gratis dan berbasis browser, tidak memerlukan instalasi.",
+        "Workbook dibuka menjadi baris universal yang siap untuk sistem downstream mana pun."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bisakah saya memilih delimiter untuk output CSV?",
+      "a": "Ya. Opsi koma, titik koma, dan tab mendukung data yang diformat secara regional dengan nyaman."
+    },
+    {
+      "q": "Apakah alat ini menangani workbook multi-sheet?",
+      "a": "Ya. Pilih sheet tertentu untuk diekspor, atau proses sheet sesuai kebutuhan secara individual."
+    },
+    {
+      "q": "Apakah konversi Excel ke CSV bersifat privat?",
+      "a": "Ya. Semuanya berjalan secara lokal di browser Anda tanpa unggahan atau akun."
+    },
+    {
+      "q": "Apakah karakter beraksen dan non-Latin akan bertahan dari konversi?",
+      "a": "Ya. Output default ke pengodean UTF-8, yang mempertahankan karakter beraksen, kanan-ke-kiri, dan multibahasa persis seperti yang muncul di workbook sumber."
+    },
+    {
+      "q": "Seberapa besar file Excel yang bisa ditangani?",
+      "a": "Konverter menangani file dengan ratusan ribu baris sepenuhnya di browser Anda, tanpa batas ukuran unggahan sisi server."
+    },
+    {
+      "q": "Apakah rumus di sel Excel akan disertakan dalam CSV?",
+      "a": "CSV hanya menyimpan nilai yang sudah dihitung, bukan rumus. Konverter mengekspor hasil kalkulasi dari setiap sel alih-alih ekspresi di baliknya."
+    }
+  ]
+}

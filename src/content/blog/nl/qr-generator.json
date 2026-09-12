@@ -1,0 +1,101 @@
+{
+  "slug": "qr-generator",
+  "title": "QR Code Generator: Maak Gratis QR Codes Online voor URLs en Tekst",
+  "description": "Gratis QR-codegenerator om QR codes te maken voor URLs, tekst, Wi-Fi en meer, direct in je browser. Hoge kwaliteit, privé, geen uploads, geen watermerken.",
+  "keywords": ["qr code generator", "qr code gratis online maken", "qr code generator gratis", "qr code maken", "qr voor url", "qr code maker", "gratis qr code"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Het Vierkant dat een Link Draagt",
+      "paragraphs": [
+        "Restaurantmenu's, productetiketten, evenementtickets en visitekaartjes lopen allemaal via één klein QR-code. [qr-generator:QR codes genereren] voor een URL, een bericht of een Wi-Fi-inloggegevens maakt van elk fysiek oppervlak een klikbare deuropening.",
+        "Moderne telefoons scannen ze native, zonder extra app.",
+        "ChooseTools genereert QR codes lokaal in je browser — de code wordt client-side gerenderd en blijft van jou."
+      ]
+    },
+    {
+      "heading": "Hoe je een QR-code Maakt",
+      "paragraphs": [
+        "Van gegevens tot scanbaar vierkant in seconden:",
+        "Plak je URL of tekst, selecteer het formaat (URL, platte tekst, contactgegevens en meer) en kies een grootte. Download de SVG of PNG met correcte foutcorrectie en rustzone.",
+        "Alles draait lokaal; de code bestaat pas nadat je hem maakt, precies op jouw apparaat."
+      ]
+    },
+    {
+      "heading": "URLs, Tekst, Wi-Fi en Meer",
+      "paragraphs": [
+        "De beschikbare QR-gegevens dekken het dagelijks gebruik: websitelinks, platte berichten, locatiecoördinaten, telefoonnummers en Wi-Fi-gegevens.",
+        "Het kiezen van het juiste gegevenstype verbetert het scan gedrag en de semantiek.",
+        "Labels onder de code maken duidelijk wat hij ontgrendelt."
+      ]
+    },
+    {
+      "heading": "Dagelijkse Plekken Waar QR Codes Echt Werk Doen",
+      "paragraphs": [
+        "Een restaurant drukt één code op elke tafel en gasten openen het menu zonder een app te downloaden of een lange URL te typen. Kleine bedrijven plaatsen codes op de verpakking zodat klanten kunnen nabestellen of een tutorial bekijken, waardoor een statisch product het begin wordt van een doorlopende relatie.",
+        "Evenementorganisatoren verwerken registratielinks in flyers en badges, zodat bezoekers kunnen registreren, een programma vinden of een kanaal betreden voordat de deuren opengaan. Makelaars plaatsen codes op bordjes die een virtuele rondleiding of een detailspagina openen, waarmee ze geïnteresseerde kopers vastleggen op het moment dat ze buiten de woning staan.",
+        "Fitnessstudio's en foodtrucks vertrouwen op codes die een betaalpagina of een reserveringsformulier openen, en vervangen daarmee het onhandige heen-en-weer van een kassier die een account schreeuwt. Elk van deze gevallen draait om één eigenschap: de code komt precies terecht waar de persoon al is.",
+        "Wi-Fi-codes zijn vooral populair in cafés en co-workingruimtes. In plaats van een lang, onoverzichtelijk wachtwoord te typen, scant een gast een code op de bar en maakt verbinding. Gasten onthouden de ervaring als moeiteloos, en het personeel hoeft niet meer elke dag meerdere keren hetzelfde wachtwoord te herhalen."
+      ]
+    },
+    {
+      "heading": "Foutcorrectie en Scanbaarheid",
+      "paragraphs": [
+        "Correctieniveaus ruilen dichtheid in voor robuustheid: hogere niveaus overleven gedeeltelijke afdekking en lage printkwaliteit.",
+        "De gegenereerde code bevat een correcte rustzone, essentieel voor betrouwbaar scannen.",
+        "Professionele print leest hem overal, op elke grootte."
+      ]
+    },
+    {
+      "heading": "Scanbaarheid, Printgrootte en Plaatsing",
+      "paragraphs": [
+        "De afstand tussen de scanner en de code moet matchen met de grootte waarop je hem print. Een menucode die vanaf twintig centimeter wordt gelezen kan klein zijn, terwijl een code op een billboard of etalageruit het vanaf de overkant van de straat moet houden. Te klein printen voor de leesafstand is de meest voorkomende reden waarom echte QR-projecten falen.",
+        "De rustzone, de lege rand rond de modules, is niet decoratief. Scanners hebben die lege marge nodig om de finder-patronen in de hoeken te vinden, en sommige camera-apps wijzen codes af die andere afbeeldingen of tekst raken. De geëxporteerde code bevat de correcte rustzone, zodat het geprinte resultaat de eerste keer probleemloos scant.",
+        "Contrast doet er net zo veel toe als het correctieniveau. Donkere modules op een lichte achtergrond scannen betrouwbaar, terwijl kleurenomgekeerde of laag-contrast codes de telefooncamera's op de proef stellen. Bij cruciale plaatsingen vangt het testen van de geprinte code met meer dan één telefoon vóór een volledige oplage contrastproblemen vroeg op."
+      ]
+    },
+    {
+      "heading": "Download PNG of SVG voor Elk Oppervlak",
+      "paragraphs": [
+        "PNG dekt schermen, flyers en social posts; SVG schaalt oneindig voor largeformat-print en vectorworkflows.",
+        "De exporter respecteert de geselecteerde grootte en de marge van de rustzone.",
+        "Volledige controle over waar je code naartoe gaat.",
+        "PNG kent geen valkuilen voor een klein menu of visitekaartje: het rendert in volledige scherpte op bescheiden formaten en uploadt direct. SVG is de juiste keuze voor een poster, banner of autobeplakking, waar hetzelfde bestand zowel klein als groot moet printen zonder enig verlies van scherpte in de moduleranden."
+      ]
+    },
+    {
+      "heading": "Privé Codecreatie",
+      "paragraphs": [
+        "QR codes coderen soms gevoelige payloads — privélijnen, lidmaatschapsgegevens. Lokale generatie houdt ze beschermd.",
+        "Geen upload, geen account, geen watermerk — op alle platforms.",
+        "Jouw codes, jouw gegevens, jouw apparaat."
+      ]
+    },
+    {
+      "heading": "QR Codes Binnen de Volledige Toolkit",
+      "paragraphs": [
+        "Style een code met [qr-with-logo:een logo in het midden], [resize-image:verklein] voor plaatsingen en [compress-image:comprimeer] voor het web.",
+        "De suite is gratis en draait volledig in de browser.",
+        "Van gegevens tot duurzaam vierkant, direct."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welke gegevenstypen kunnen worden gecodeerd?",
+      "a": "URLs, platte tekst, telefoonnummers, locatiecoördinaten en Wi-Fi-gegevens behoren tot de ondersteunde payloads."
+    },
+    {
+      "q": "Kan ik de QR-code in vectorformaat downloaden?",
+      "a": "Ja. SVG-export biedt een oneindig schaalbare versie naast PNG voor gebruik op scherm en in print."
+    },
+    {
+      "q": "Is QR-generatie privé?",
+      "a": "Ja. Codes worden lokaal in je browser gerenderd; de payload raakt nooit een server."
+    },
+    {
+      "q": "Waarom heeft mijn geprinte code een rustzone nodig?",
+      "a": "Scanners detecteren de finder-patronen in de hoeken door te zoeken naar een lege rand, dus het aanhouden van een lege marge rond de code is essentieel voor betrouwbaar scannen."
+    }
+  ]
+}

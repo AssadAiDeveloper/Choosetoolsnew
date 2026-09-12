@@ -1,0 +1,132 @@
+{
+  "slug": "json-to-excel",
+  "title": "JSON naar Excel Converter: Converteer JSON naar XLSX Gratis Online",
+  "description": "Gratis JSON-naar-Excel-converter om JSON-arrays en -objecten om te zetten naar opgemaakte XLSX-werkmappen, klaar voor analyse. Privé, in je browser.",
+  "keywords": ["json naar excel", "json naar xlsx converter", "json naar excel converteren online", "json naar spreadsheet", "json naar excel gratis", "json naar xlsx tool", "json gegevens naar excel"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "API-gegevens Schreeuwen om een Spreadsheet-uiterlijk",
+      "paragraphs": [
+        "JSON komt uit API's en exports binnen als compacte objecten, maar teams analyseren het beste in werkbladen. [json-to-excel:JSON naar Excel converteren] rendert gestructureerde gegevens tot rijen en kolommen die iedereen kan filteren.",
+        "Arrays worden platte, doorzoekbare tabellen.",
+        "ChooseTools converteert JSON naar XLSX lokaal in je browser."
+      ]
+    },
+    {
+      "heading": "Hoe JSON naar Excel te Converteren",
+      "paragraphs": [
+        "Van gestructureerde records naar een verse werkmap:",
+        "Plak je JSON-array met objecten en converteer. Sleutels worden kolommen, records worden rijen en de downloadbare XLSX opent klaar in je spreadsheet-app.",
+        "De parsing gebeurt volledig op je apparaat."
+      ]
+    },
+    {
+      "heading": "Geneste Objecten Platgemaakt",
+      "paragraphs": [
+        "Echte JSON nest; spreadsheets doen dat niet.",
+        "De converter maakt geneste objecten en arrays plat tot bruikbare kolommen met duidelijke sleutels.",
+        "Een analysevriendelijke structuur vervangt sessies die verstrikt raken in haakjes."
+      ]
+    },
+    {
+      "heading": "Dashboards, Rapporten en Beoordelaars",
+      "paragraphs": [
+        "Belanghebbenden willen grafieken, filters en totalen — geen JSON-accolades.",
+        "Zet API-output in één gebaar om in een opleverbaar rapport.",
+        "Dezelfde gegevens krijgen een presentatieklare vorm."
+      ]
+    },
+    {
+      "heading": "Typegetrouwheid Over de Brug",
+      "paragraphs": [
+        "Getallen blijven numeriek om te sommeren; tekst en datums behouden hun betekenis.",
+        "Lege waarden en arrays vervallen veilig tot lege cellen.",
+        "Downstream-draaitabellen vertrouwen de waarden die ze ontvangen."
+      ]
+    },
+    {
+      "heading": "Privé Verwerking van API-gegevens",
+      "paragraphs": [
+        "API-payloads en -exports kunnen gevoelige records bevatten; de conversie blijft lokaal.",
+        "Geen upload, geen account, geen watermerk — op alle platforms.",
+        "Analyse zonder blootstelling."
+      ]
+    },
+    {
+      "heading": "JSON-werk in de Gegevenssuite",
+      "paragraphs": [
+        "Maak moeiteloos een retourreis met [excel-to-json:Excel naar JSON], [excel-to-csv:Excel naar CSV] en [csv-json:CSV naar JSON].",
+        "Alles is gratis en browsergebaseerd.",
+        "Van gestructureerde payloads naar deelbare werkbladen, direct."
+      ]
+    },
+    {
+      "heading": "Grote JSON-arrays Verwerken en Prestaties",
+      "paragraphs": [
+        "API's die duizenden records teruggeven, produceren omvangrijke JSON-arrays, en de converter verwerkt ze volledig in de browser zonder gegevens naar een externe server te sturen.",
+        "Grote datasets stromen rij voor rij de spreadsheet in, waardoor het geheugengebruik voorspelbaar blijft, zelfs bij tienduizenden records.",
+        "Wanneer je JSON-payload te groot is om te plakken, kun je hem vanuit een lokaal bestand laden, en de conversie gebeurt op je apparaat voordat het bestand ooit een netwerk bereikt.",
+        "Deze lokale aanpak betekent dat zelfs zeer vertrouwelijke datasets van financiële API's of zorgsystemen gedurende de hele conversie onder jouw controle blijven."
+      ]
+    },
+    {
+      "heading": "Diep Geneste Structuren Platmaken",
+      "paragraphs": [
+        "Echte API-antwoorden nesten objecten vaak drie of vier niveaus diep, met arrays van objecten in elk bovenliggend record.",
+        "De converter past puntnotatie-platmaking toe, zodat een veld als address.city.state één kolomheader wordt die de hiërarchie behoudt zonder spreadsheetformules te verwarren.",
+        "Arrays binnen objecten worden uitgebreid tot afzonderlijke kolommen of met komma's samengevoegde waarden, afhankelijk van de complexiteit, zodat de output bruikbaar blijft in plaats van rommelig.",
+        "Voor extreem geneste payloads laat een voorbeeldstap je de platgemaakte kolomstructuur verifiëren voordat je definitief voor de XLSX-download gaat."
+      ]
+    },
+    {
+      "heading": "Kolomnamen en Header-toewijzing",
+      "paragraphs": [
+        "Wanneer JSON-sleutels speciale tekens of zeer lange namen bevatten, ontsmet de converter de headers zodat ze geldig blijven voor spreadsheetformules en draaitabelverwijzingen.",
+        "CamelCase-, snake_case- en met punten gescheiden sleutels worden allemaal gekoppeld aan leesbare kolomlabels die de oorspronkelijke betekenis behouden zonder de downstream-verwerking te breken.",
+        "Als je JSON integer-sleutels of uitsluitend numerieke eigenschapsnamen gebruikt, plaatst de converter er een prefix voor om te voorkomen dat Excel headers als waarden interpreteert.",
+        "Deze aandacht voor headergetrouwheid betekent dat analisten na elke conversie niet handmatig kolommen hoeven te hernoemen."
+      ]
+    },
+    {
+      "heading": "Werken met Arrays van Gemengde Typen",
+      "paragraphs": [
+        "Niet elke JSON-array bevat uniforme objecten. Sommige payloads mengen objecten met primitieven of bevatten null-waarden naast gevulde records.",
+        "De converter gaat elegant om met deze randgevallen: primitieve items worden rijen van één cel, null-waarden worden lege cellen en gemengde arrays produceren een best-effort-tabel zonder te crashen.",
+        "Voor arrays van arrays wordt elke binnenste array gekoppeld aan een rij met positionele kolomheaders, waarbij de volgorde van de brongegevens behouden blijft.",
+        "Deze flexibiliteit maakt de tool bruikbaar naast schone API-gegevens, inclusief rommelige exports van legacy-systemen en handmatig samengestelde JSON-bestanden."
+      ]
+    },
+    {
+      "heading": "Tips voor de Workflow Na Conversie",
+      "paragraphs": [
+        "Na het downloaden van het XLSX-bestand helpt het toepassen van voorwaardelijke opmaak op numerieke kolommen om direct uitschieters in financiële of operationele gegevens te markeren.",
+        "Vries de headerrij in en schakel filters in, zodat grote geconverteerde datasets vanaf de eerste scroll doorzoekbaar blijven.",
+        "Als de geconverteerde gegevens een terugkerend dashboard voeden, sla de conversie-instellingen dan op als sjabloon, zodat herhaalde exports van dezelfde API een consistente kolomvolgorde behouden.",
+        "Het combineren van het geconverteerde werkblad met grafieksjablonen verandert ruwe JSON-output binnen enkele minuten in presentatieklare visualisaties."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welke JSON-structuren converteren netjes?",
+      "a": "Arrays van objecten converteren het beste, waarbij sleutels kolommen worden en items rijen; geneste velden worden transparant platgemaakt."
+    },
+    {
+      "q": "Kan ik JSON direct plakken in plaats van uploaden?",
+      "a": "Ja. Plak je JSON-array in het veld en converteer ter plaatse."
+    },
+    {
+      "q": "Is JSON-naar-Excel-conversie privé?",
+      "a": "Ja. Alles draait lokaal in je browser zonder uploads of accounts."
+    },
+    {
+      "q": "Hoe gaat de converter om met diep geneste JSON?",
+      "a": "Geneste objecten worden met puntnotatie platgemaakt, zodat velden als user.address.city leesbare kolomheaders worden die de hiërarchie behouden zonder de spreadsheet te vervuilen."
+    },
+    {
+      "q": "Kan de tool zeer grote JSON-bestanden verwerken?",
+      "a": "Ja. Grote arrays worden volledig in de browser verwerkt, en je kunt bestanden lokaal laden om elke netwerkoverdracht van gevoelige gegevens te vermijden."
+    }
+  ]
+}

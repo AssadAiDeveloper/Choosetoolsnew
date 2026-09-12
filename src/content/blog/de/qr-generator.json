@@ -1,0 +1,101 @@
+{
+  "slug": "qr-generator",
+  "title": "QR-Code-Generator: Kostenlos QR-Codes Online für URLs und Text Erstellen",
+  "description": "Kostenloser QR-Code-Generator zum Erstellen von QR-Codes für URLs, Text, WLAN und mehr, direkt in deinem Browser. Hochwertig, privat, ohne Uploads, ohne Wasserzeichen.",
+  "keywords": ["QR-Code-Generator", "QR-Code online kostenlos erstellen", "QR-Code-Generator kostenlos", "QR-Code erstellen", "QR für URL", "QR-Code-Maker", "kostenloser QR-Code"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Das Quadrat, das einen Link trägt",
+      "paragraphs": [
+        "Restaurantmenüs, Produktetiketten, Veranstaltungstickets und Visitenkarten laufen alle über einen kleinen QR-Code. [qr-generator:QR-Codes zu generieren] für eine URL, eine Nachricht oder eine WLAN-Anmeldung verwandelt jede physische Oberfläche in eine klickbare Tür.",
+        "Moderne Telefone scannen sie nativ, ohne zusätzliche App.",
+        "ChooseTools generiert QR-Codes lokal in deinem Browser — der Code wird clientseitig gerendert und bleibt deiner."
+      ]
+    },
+    {
+      "heading": "Einen QR-Code erstellen",
+      "paragraphs": [
+        "Von Daten zum scannbaren Quadrat in Sekunden:",
+        "Füge deine URL oder deinen Text ein, wähle das Format (URL, reiner Text, Kontaktdaten und mehr) und wähle eine Größe. Lade das SVG oder PNG mit korrekter Fehlerkorrektur und Ruhezone herunter.",
+        "Alles läuft lokal; der Code existiert erst, nachdem du ihn erstellt hast, genau da, wo du lebst."
+      ]
+    },
+    {
+      "heading": "URLs, Text, WLAN und mehr",
+      "paragraphs": [
+        "Die unterstützten QR-Daten decken den Alltag ab: Website-Links, einfache Nachrichten, Standortkoordinaten, Telefonnummern und WLAN-Zugangsdaten.",
+        "Der richtige Datentyp verbessert das Scanverhalten und die Semantik.",
+        "Beschriftungen unter dem Code erklären, was er freischaltet."
+      ]
+    },
+    {
+      "heading": "Alltägliche Orte, an denen QR-Codes echte Arbeit leisten",
+      "paragraphs": [
+        "Ein Restaurant druckt einen Code auf jeden Tisch, und Gäste öffnen das Menü, ohne eine App zu laden oder eine lange URL zu tippen. Kleine Unternehmen platzieren Codes auf Verpackungen, damit Kunden nachbestellen oder ein Tutorial ansehen können — ein statisches Produkt wird zum Beginn einer laufenden Beziehung.",
+        "Veranstalter betten Registrierungslinks in Flyer und Badges ein, sodass Teilnehmer sich registrieren, einen Zeitplan finden oder einem Kanal beitreten können, bevor die Türen öffnen. Immobilienmakler platzieren Codes auf Schildern, die eine virtuelle Tour oder eine Detailseite öffnen und interessierte Käufer genau in dem Moment einfangen, in dem sie vor dem Gebäude stehen.",
+        "Fitnessstudios und Food Trucks verlassen sich auf Codes, die eine Zahlungsseite oder ein Reservierungsformular öffnen, und ersetzen das umständliche Hin und Her, wenn ein Kassierer eine Bezeichnung ruft. Jeder dieser Fälle hängt von einer Eigenschaft ab: Der Code landet genau dort, wo die Person bereits ist.",
+        "WLAN-Codes sind besonders in Cafés und Co-Working-Spaces beliebt. Statt eines langen, versteckten Passworts scannt ein Gast einen Code auf der Theke und verbindet sich. Gäste erleben das als mühelos, und Mitarbeiter hören auf, dasselbe Passwort mehrmals täglich zu wiederholen."
+      ]
+    },
+    {
+      "heading": "Fehlerkorrektur und Scanbarkeit",
+      "paragraphs": [
+        "Korrekturstufen tauschen Dichte gegen Robustheit: Höhere Stufen überstehen partielle Verdeckung und niedrige Druckqualität.",
+        "Der generierte Code setzt eine korrekte Ruhezone, die für zuverlässiges Scannen unerlässlich ist.",
+        "Professioneller Druck liest ihn überall, in jeder Größe."
+      ]
+    },
+    {
+      "heading": "Scanbarkeit, Druckgröße und Platzierung",
+      "paragraphs": [
+        "Der Abstand zwischen Scanner und Code sollte zur Größe passen, in der du ihn druckst. Ein Menü-Code, der aus zwanzig Zentimetern Entfernung gelesen wird, kann klein sein, während ein Code auf einer Werbetafel oder einem Schaufenster von der anderen Straßenseite funktionieren muss. Zu klein für die Leseentfernung zu drucken ist der häufigste Grund, warum echte QR-Projekte scheitern.",
+        "Die Ruhezone, der leere Rand um die Module, ist nicht dekorativ. Scanner brauchen diesen leeren Rand, um die Suchmuster in den Ecken zu finden, und einige Kamera-Apps lehnen Codes ab, die andere Grafiken oder Text berühren. Der exportierte Code enthält die korrekte Ruhezone, damit das gedruckte Ergebnis beim ersten Mal sauber scannt.",
+        "Kontrast zählt genauso viel wie die Korrekturstufe. Dunkle Module auf hellem Hintergrund scannen zuverlässig, während farbinvertierte oder kontrastarme Codes die Telefonkamera überfordern. Für kritische Platzierungen fängt das Testen des gedruckten Codes mit mehr als einem Telefon vor einer vollen Auflage Kontrastprobleme früh ab."
+      ]
+    },
+    {
+      "heading": "PNG oder SVG für jede Oberfläche herunterladen",
+      "paragraphs": [
+        "PNG deckt Bildschirme, Flyer und Social-Posts ab; SVG skaliert endlos für großformatigen Druck und Vektor-Workflows.",
+        "Der Exporteur respektiert die gewählte Größe und den Ruhezonen-Rand.",
+        "Volle Kontrolle darüber, wohin dein Code als Nächstes geht.",
+        "PNG hat für ein kleines Menü oder eine Visitenkarte keinen Haken: Es rendert bei moderaten Größen in voller Schärfe und lädt sofort. SVG sollte die Wahl für ein Poster, Banner oder eine Fahrzeugwerbung sein, wo dieselbe Datei klein und riesig drucken muss, ohne an Schärfe der Modulkanten zu verlieren."
+      ]
+    },
+    {
+      "heading": "Private Code-Erstellung",
+      "paragraphs": [
+        "QR-Codes kodieren manchmal sensible Daten — private Links, Mitgliedschaftsdaten. Lokale Generierung hält sie unangetastet.",
+        "Kein Upload, kein Konto, kein Wasserzeichen — auf allen Plattformen.",
+        "Deine Codes, deine Daten, dein Gerät."
+      ]
+    },
+    {
+      "heading": "QR-Codes im kompletten Werkzeugkasten",
+      "paragraphs": [
+        "Style einen Code mit [qr-with-logo:Logo in der Mitte], [resize-image:passe die Größe für Platzierungen] an und [compress-image:komprimiere] für das Web.",
+        "Die Suite ist kostenlos und browser-nativ.",
+        "Von Daten zum langlebigen Quadrat, sofort."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welche Datentypen können kodiert werden?",
+      "a": "URLs, reiner Text, Telefonnummern, Standortkoordinaten und WLAN-Zugangsdaten gehören zu den unterstützten Daten."
+    },
+    {
+      "q": "Kann ich den QR-Code im Vektorformat herunterladen?",
+      "a": "Ja. Der SVG-Export liefert eine endlos skalierbare Version neben PNG für Bildschirm- und Druckzwecke."
+    },
+    {
+      "q": "Ist die QR-Generierung privat?",
+      "a": "Ja. Codes werden lokal in deinem Browser gerendert, die Daten berühren nie einen Server."
+    },
+    {
+      "q": "Warum braucht mein gedruckter Code eine Ruhezone?",
+      "a": "Scanner erkennen die Eck-Suchmuster anhand eines leeren Rands, daher ist ein leerer Rand um den Code für zuverlässiges Scannen unerlässlich."
+    }
+  ]
+}

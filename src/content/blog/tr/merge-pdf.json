@@ -1,0 +1,86 @@
+{
+  "slug": "merge-pdf",
+  "title": "PDF Dosyalarını Çevrimiçi Olarak Ücretsiz Nasıl Birleştirirsiniz: PDF Belgesini Yüklemeden Birleştirin",
+  "description": "ChooseTools ile PDF dosyalarını çevrimiçi olarak ücretsiz nasıl birleştireceğinizi öğrenin. Tarayıcınızda iki veya daha fazla PDF belgesini tek bir dosyada birleştirin; yükleme yok, filigran yok ve kayıt gerektirmez.",
+  "keywords": ["pdf çevrimiçi ücretsiz birleştirme", "pdf dosyalarını birleştirme", "birden fazla pdf birleştirme", "pdf sayfalarını tek dosyada birleştirme", "pdf birleştirici", "pdf nasıl birleştirilir", "pdf belgelerini birleştirin"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Neden Tarayıcınızda Çalışan Ücretsiz Bir PDF Birleştiriciye İhtiyacınız Var",
+      "paragraphs": [
+        "PDF dosyalarını birleştirmek, ofislerde, okullarda ve serbest çalışma hayatında en yaygın belge işlerinden biridir. Her gün milyonlarca insanın PDF belgelerini birleştirmesi gerekir: iki faturayı tek dosyada taramak, birkaç sözleşme sayfasını eklemek veya ayrı bölüm PDF'lerinden eksiksiz bir rapor oluşturmak. Güvenilir bir [merge-pdf:PDF birleştirme aracı] çok dosyalı sinir bozucu iş akışını tek bir temiz tıklamaya dönüştürür.",
+        "Çoğu çevrimiçi PDF birleştirici ücretsiz olduğunu iddia eder, ancak özel belgelerinizi sessizce kendi sunucularına yükler, filigran ekler, sayfa sayısını sınırlar veya birleştirme bittiği anda kredi kartı ister. ChooseTools'ın tam olarak çözdüğü sorun budur. Çevrimiçi ücretsiz PDF birleştirme aracımız PDF.js motorunu kullanarak tamamen tarayıcınızın içinde çalışır; böylece belgeleriniz cihazınızdan asla ayrılmaz ve gerçekten hiçbir sınır yoktur.",
+        "Burada gizlilik bir özellik değil; mimarinin kendisidir. PDF'lerinizi bırakma alanına sürüklediğinizde dosyalar JavaScript tarafından yerel olarak işlenir. Hiçbir şey sunuculara iletilmez, kaydedilmez veya önbelleğe alınmaz. Pahalı masaüstü yazılımlarıyla aynı sonucu alırsınız, ancak kurulum, kayıt veya hassas verilerin sızma riski olmadan."
+      ]
+    },
+    {
+      "heading": "PDF Dosyalarını Çevrimiçi Olarak Ücretsiz Üç Adımda Birleştirin",
+      "paragraphs": [
+        "Araç, daha önce hiç belge aracı kullanmamış olsanız bile herkesin PDF'leri bir dakikadan kısa sürede birleştirebilmesi için tasarlanmıştır. Şu adımları izleyin, dosyalarınız anında birleştirilecektir.",
+        "Öncelikle PDF birleştiriciyi açın ve bir veya daha fazla PDF dosyasını yükleme alanına sürükleyin ya da dosya-seç düğmesine tıklayıp cihazınızdan seçin. İkinci olarak, gerekirse her öğenin yanındaki yukarı ve aşağı düğmelerini kullanarak dosyaları yeniden sıralayın — bu, belirli bir sırayla görünmesi gereken belgeler için çok önemlidir. Üçüncü olarak, birleştir düğmesine tıklayın ve sonucu indirmeyi veya yeni bir sekmede açmayı seçin.",
+        "İşleme yerel olduğu için büyük dosyaların olumsuz bir yan etkisi yoktur. Dosya boyutuyla artan bir yükleme süresi ve sunucu kuyruğu yoktur. 200 sayfalık bir birleştirme, iki sayfalık bir birleştirme kadar hızlı biter ki bu, bulut tabanlı PDF birleştirme araçlarına karşı gerçek bir avantajdır."
+      ]
+    },
+    {
+      "heading": "PDF'leri İstediğiniz Sırayla Birleştirin ve Birleştirmeden Önce Sayfaları Yeniden Sıralayın",
+      "paragraphs": [
+        "Sıralama neredeyse her gerçek senaryoda önemlidir. Ekinde özetinden önce yer verilen on sayfalık bir teklif profesyonelce görünmez ve sayfaları sıra dışı taranmış bir sözleşme hukuki sorunlara bile yol açabilir. Bu yüzden birleştirici, dosyaları birleştirmeden önce yeniden düzenlemenize olanak tanır.",
+        "Liste arayüzü, eklediğiniz her dosyayı kendi kontrol setiyle gösterir. Sayfaları istediğiniz sırada görünene kadar bir dosyayı yukarı veya aşağı taşıyın, sonra birleştirin. Birbirinden çok farklı boyutlardaki dosyaları karıştırabilirsiniz — 40 sayfalık bir tez ile tek sayfalık bir ön yazı ikisi de tek bir PDF'de temiz biçimde birleşir.",
+        "Birleştirdikten sonra yanlış sıralamayı fark ederseniz yeniden başlamanıza gerek yoktur. Tek bir belge içindeki sıralamayı düzeltmek için [reorder-pdf:PDF sayfalarını yeniden sıralama] aracını kullanabilirsiniz; bu genellikle tüm birleştirmeyi sıfırdan yeniden yapmaktan daha hızlıdır."
+      ]
+    },
+    {
+      "heading": "Taranmış PDF'leri, JPG'leri, Word Dışa Aktarımlarını ve Daha Fazlasını Birleştirin",
+      "paragraphs": [
+        "Bir PDF birleştirici yalnızca PDF dosyalarını kabul eder, ancak bu pratikte sizi nadiren sınırlar. Word, Excel, Google Docs veya Canva'dan dışa aktarılan belgeler PDF'dir. Yazıcıdan veya telefon uygulamasından kaydedilen taramalar PDF'dir. Elinizde bunun yerine görseller varsa, önce [jpg-to-pdf:JPG'yi PDF'e dönüştürün] veya [images-to-pdf:görüntüleri PDF'e dönüştürün] ve ardından dönüştürülen dosyaları birleştirin.",
+        "Bu iki aşamalı iş akışı — görüntüleri PDF'e dönüştürüp sonra birleştirmek — birçok kullanıcının fotoğraf albümlerini, ürün kataloglarını ve portfolyo teslimlerini oluştururken kullandığı yöntemin aynısıdır. Kendiniz deneyin: bir grup JPG fotoğrafını PDF'e dönüştürün, birleştirin ve altı dağınık görsel yerine tek paylaşılabilir bir dosyanız olsun.",
+        "Süitteki her araç yerel olarak çalıştığı ve dosya boyutu kotası olmadığı için bu kombinasyon, tipik ücretsiz çevrimiçi araçların izin verdiğinin çok ötesine uzanır. 5 MB sınırı ve günlük birleştirme sayısı yoktur; böylece toplu belgeler ve büyük yayınlar rahatça işlenir."
+      ]
+    },
+    {
+      "heading": "Filigransız ve Kayıtsız PDF Birleştirme — Ücretsiz",
+      "paragraphs": [
+        "Filigranlar, birçok freemium birleştiricinin çıktınıza eklediği sessiz vergidir. Ödeme yapmadığınız sürece nihai belgeniz tanıtım amaçlı bir logoyla damgalanmış olarak ulaşır. ChooseTools hiçbir türde filigran, hiçbir tanıtım sayfası ve hiçbir gizli iletişim sayfası eklemez. Ne birleştirirseniz indirdiğiniz tam olarak odur, bayt bayt.",
+        "Kayıt, burada ortadan kalkan bir başka engeldir. Sizinle bitmiş bir dosya arasında hesap, e-posta adresi veya çerez duvarı yoktur. Bu, bir belge aracı sağlayıcısının dosya adlarınızdan işleriyle ilgili bir profil oluşturmasını istemeyen gizlilik bilincine sahip kullanıcılar için önemlidir.",
+        "Bir işletme için PDF'leri ücretsiz olarak nasıl birleştireceğinizi değerlendiriyorsanız hesap basittir: abonelik yok, kullanıcı başına lisans yok, eğitim gerekmez. Araç herkes için sonsuza dek ücretsizdir ve Windows, macOS, Linux, Android tabletler ve iPad'lerde tarayıcı üzerinden aynı şekilde çalışır."
+      ]
+    },
+    {
+      "heading": "Hız ve Güvenlik: Yerel İşleme Neden Bulut Birleştiricilerden Üstündür",
+      "paragraphs": [
+        "Bulut tabanlı PDF birleştiriciler dosyalarınızı yükler, bir sunucu çiftliğinde işler ve ardından sonucu indirmenizi sağlar. Her adım bir hata noktasıdır: yükleme takılabilir, sunucu meşgul olabilir ve dosya önbelleğe alma politikası nedeniyle aylarca üçüncü taraf bir sabit diskte bekleyebilir.",
+        "Yerel işleme tüm bunları ortadan kaldırır. Sayfalar, Firefox'un yerleşik PDF görüntüleyicisine güç veren açık kaynaklı PDF.js kullanılarak tarayıcınızın belleğinde birleştirilir. Birleştirme bittiği anda çıktı yalnızca sizin cihazınızda bulunur.",
+        "Güvenlik ekipleri ve hukuk departmanları, gizlilik anlaşmaları, finansal tablolar ve hasta kayıtları gibi belgelerin üçüncü taraf altyapısına asla temas etmemesini giderek daha fazla şart koşuyor. Sıfır ağ aktarımına sahip çevrimiçi ücretsiz bir PDF birleştirme aracı tek güvenli yanıttır ve pratikte de daha hızlıdır. Testlerimizdeki kıyaslamalar, birleştirmelerin yükleme tabanlı hizmetlerin süresinin çok küçük bir bölümünde tamamlandığını gösteriyor."
+      ]
+    },
+    {
+      "heading": "Birleştiriciyi Diğer PDF Araçlarıyla Ne Zaman Birlikte Kullanmalısınız",
+      "paragraphs": [
+        "Birleştirme, belge iş akışında nadiren son adımdır. Kusursuz bir nihai dosya üretmek için süitin geri kalanıyla iyi bir uyum sağlar.",
+        "Birleştirilmiş çıktınız büyükse veya boyut sınırı olan bir müşteri portalına ekliyorsanız, e-postayla göndermeden önce sıkıştırın — [compress-pdf:PDF sıkıştırma] aracı boyutu küçültürken kaliteyi yüksek tutar. Yalnızca amaçlanan alıcıların açabilmesi için gizli birleştirmeleri [protect-pdf:PDF şifreleme] ile koruyun ve dağıtımdan önce [pdf-metadata:PDF meta verisi] düzenleyicisiyle özel meta verileri kaldırın.",
+        "Sunumlar için birden fazla slayt destesini birleştirip sonucu [pdf-to-jpg:PDF'ten JPG'ye] ile dönüştürmek, slaytları paylaşılabilir görsellere dönüştürmenin hızlı bir yoludur. Süitin tamamı bu kombinasyonlar etrafında tasarlanmıştır; bu yüzden tüm araçlar aynı gizlilik öncelikli, yüklemesiz mimariyi paylaşır."
+      ]
+    },
+    {
+      "heading": "Ücretsiz PDF Birleştirici Hakkında Sık Sorulan Sorular",
+      "paragraphs": [
+        "PDF dosyalarını telefonumda birleştirebilir miyim? Evet — araç, mobilde Safari ve Chrome dahil her modern tarayıcıda çalışır; böylece uygulama kurmadan bir telefon veya tablette PDF'leri birleştirebilirsiniz. Dosyalarım yüklenecek mi? Hayır. Birleştirme tamamen tarayıcınızda yerel olarak gerçekleşir ve hiçbir dosya verisi herhangi bir sunucuya gönderilmez. Dosya boyutu veya dosya sayısıyla ilgili bir sınır var mı? Katı sınırlar yoktur; cihazınızın anlık bellekte tutabileceği kadar dosya ekleyebilirsiniz. Hangi tarayıcılar destekleniyor? Chrome, Edge, Firefox ve Safari. PDF.js ile en iyi performans için en güncel sürümleri öneriyoruz.",
+        "Yazılım kurmam veya hesap oluşturmam gerekiyor mu? Kurulum ve hesap gerekmez — araç anında çalışan tek sayfalık bir uygulamadır. Sekmeyi kapattığımda dosyalarıma ne olur? Bellekten silinirler. Hiçbir şey kaydedilmez, yüklenmez veya izlenmez; bu da süitin tamamının gizlilik öncelikli tasarımını güçlendirir."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "PDF dosyalarını yüklemeden birleştirmek gerçekten ücretsiz mi?",
+      "a": "Evet. ChooseTools PDF birleştiricisi tamamen ücretsizdir, filigran eklemez ve her şeyi tarayıcınızda yerel olarak işler. Dosyalarınız hiçbir sunucuya yüklenmez; bu yüzden maliyet, hesap veya gizlilik riski yoktur."
+    },
+    {
+      "q": "Aynı anda çok sayıda PDF sayfasını birleştirebilir miyim?",
+      "a": "Evet. Rastgele bir sayfa veya dosya sınırı yoktur. Pratik sınır, cihazınızın belleğine bağlıdır çünkü birleştirme PDF.js kullanılarak yerel olarak gerçekleşir; bu da çok büyük belgelerin bile paylaşılan bir sunucuda değil, kendi makinenizde işlendiği anlamına gelir."
+    },
+    {
+      "q": "Birleştirilen PDF'ler orijinal kalitelerini ve metinlerini korur mu?",
+      "a": "Evet. Sayfalar orijinal çözünürlüklerinde yeniden oluşturulur; metin, görsel, köprü ve vektör grafikler korunur. Çıktı, her yerde çalışan standart ve uyumlu bir PDF dosyası olarak indirilir."
+    }
+  ]
+}

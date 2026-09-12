@@ -1,0 +1,115 @@
+{
+  "slug": "hash-generator",
+  "title": "Generator Hash: Buat Hash MD5 SHA-256 dan SHA-1 Secara Online Gratis",
+  "description": "Generator hash gratis untuk menghitung checksum MD5, SHA-1, dan SHA-256 untuk teks dan file guna memverifikasi integritas. Privat, di browser Anda, tanpa unggahan.",
+  "keywords": ["generator hash", "generator sha256", "hash md5", "hash sha1", "generator checksum online", "kalkulator hash", "hash teks online"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Hash Membuktikan Apa yang Anda Maksud",
+      "paragraphs": [
+        "Hash memadatkan input apa pun menjadi sidik jari berukuran tetap yang berubah saat input berubah. [hash-generator:Menghasilkan hash] memverifikasi integritas, mendeteksi kerusakan tidak sengaja, dan membangun alur kerja yang aman.",
+        "MD5, SHA-1, dan SHA-256 adalah kuda kerja sehari-hari dengan kekuatan dan trade-off berbeda yang penting dalam konteks tertentu.",
+        "ChooseTools menghitung hash secara lokal di browser Anda, untuk teks dan file sama."
+      ]
+    },
+    {
+      "heading": "Cara Menghasilkan Hash",
+      "paragraphs": [
+        "Dari input ke sidik jari dalam satu klik:",
+        "Tempel teks atau pilih file, pilih algoritma digest, dan lihat checksum hasil untuk MD5, SHA-1, atau SHA-256 dalam hitungan detik.",
+        "Perhitungan tetap lokal, sehingga konten tidak pernah meninggalkan perangkat Anda terlepas dari ukuran file atau panjang teks."
+      ]
+    },
+    {
+      "heading": "MD5 untuk Pemeriksaan Cepat, SHA-256 untuk Tugas Benteng",
+      "paragraphs": [
+        "MD5 berjalan cepat dan masih menandakan kerusakan kasual, tetapi tabrakan membuatnya tidak cocok untuk verifikasi kritis keamanan di mana pemalsuan jahat menjadi perhatian.",
+        "SHA-256 adalah standar modern untuk rilis, unduhan, dan operasi perbandingan sensitif di seluruh industri perangkat lunak.",
+        "Mencocokkan digest dengan tugas lebih penting daripada memilih algoritma terbaru yang tersedia."
+      ]
+    },
+    {
+      "heading": "Memilih Algoritma yang Tepat untuk Pekerjaan",
+      "paragraphs": [
+        "MD5 menghasilkan digest 128-bit yang dinyatakan sebagai 32 karakter heksadesimal. Alat ini tetap berguna untuk tugas non-keamanan seperti memeriksa apakah file terunduh tanpa kerusakan, menghasilkan pengenal pendek untuk kunci cache, atau memverifikasi bahwa dua salinan dokumen identik byte demi byte.",
+        "SHA-1 menghasilkan digest 160-bit yang dirender sebagai 40 karakter hex. Banyak sistem lama dan platform kontrol versi masih merujuk sidik jari SHA-1, sehingga algoritma tetap relevan untuk kompatibilitas meskipun tidak lagi memenuhi persyaratan keamanan modern.",
+        "SHA-256 menghasilkan digest 256-bit yang ditampilkan sebagai 64 karakter hex. Ini adalah kekuatan minimum yang direkomendasikan untuk tanda tangan digital, verifikasi sertifikat, dan alur kerja mana pun di mana ketahanan tabrakan langsung mempengaruhi kepercayaan. Saat ragu, gunakan SHA-256 terlebih dahulu."
+      ]
+    },
+    {
+      "heading": "Integritas File Sebelum Anda Menginstal",
+      "paragraphs": [
+        "Bandingkan hash file yang diunduh dengan checksum yang dipublikasikan penerbit untuk memastikan file tiba utuh.",
+        "Kecocokan membuktikan file tiba lengkap dan tidak diubah, memberikan kepercayaan kriptografis sebelum eksekusi.",
+        "Kepercayaan bersifat kriptografis alih-alih berharap, menggantikan tebakan dengan bukti matematis."
+      ]
+    },
+    {
+      "heading": "Kasus Penggunaan di Luar Verifikasi File",
+      "paragraphs": [
+        "API secara umum memerlukan tanda tangan yang di-hash dalam setiap permintaan sehingga server dapat memverifikasi bahwa parameter tidak diubah selama transmisi. Menghitung hash secara lokal dan menanamkannya di header memenuhi kontrak itu tanpa mengekspos payload mentah ke layanan pihak ketiga.",
+        "Sistem penyimpanan yang dapat dialamatkan konten menggunakan hash sebagai nama file. Menyimpan dokumen di bawah digest SHA-256 berarti data duplikat terdeteksi secara instan dan konten identik selalu menyelesaikan ke alamat yang sama, memotong biaya penyimpanan dan mempercepat pengambilan.",
+        "Deduplikasi di seluruh kumpulan file besar mendapat manfaat dari perbandingan hash. Daripada membandingkan file byte demi byte, pemeriksaan digest cepat mengungkap duplikat dalam hitungan detik, membebaskan ruang disk dan menyederhanakan rutinitas pencadangan di seluruh lingkungan enterprise."
+      ]
+    },
+    {
+      "heading": "Hash Bukanlah Enkripsi",
+      "paragraphs": [
+        "Hash adalah sidik jari satu arah; mereka tidak dapat mengungkap input, tetapi juga tidak menyembunyikannya dari brute force pada nilai-nilai yang lemah.",
+        "Untuk penyimpanan kata sandi, gabungkan hashing dengan pengacakan yang tepat dan fungsi derivasi kunci yang lambat — jangan pernah menyimpan teks biasa.",
+        "Pahami arah satu arah sebelum mengandalkannya untuk tujuan keamanan kritis apa pun."
+      ]
+    },
+    {
+      "heading": "Memahami Output Heksadesimal dan Pengodean",
+      "paragraphs": [
+        "Hasil hash muncul sebagai string karakter heksadesimal, di mana setiap pasangan digit mewakili satu byte. Hash MD5 adalah 32 karakter hex karena mengkodekan 16 byte, sementara SHA-256 adalah 64 karakter hex yang mengkodekan 32 byte.",
+        "Representasi hex dapat dibaca manusia dan mudah dibandingkan, tetapi nilai dasarnya adalah biner. Beberapa sistem lebih memilih pengodean Base64 dari digest mentah untuk ketangkasan, jadi mengetahui perbedaan antara output hex dan Base64 mencegah kesalahan salin-tempel.",
+        "Ukuran huruf biasanya tidak relevan untuk algoritma perbandingan, tetapi banyak penerbit menerbitkan hex huruf besar sementara alat mungkin mengembalikan huruf kecil. Konverter menghasilkan ukuran huruf yang konsisten sehingga kecocokan mudah terlepas dari format sumber."
+      ]
+    },
+    {
+      "heading": "Sidik Jari Privat",
+      "paragraphs": [
+        "Dokumen dan rahasia yang di-hash secara lokal tidak pernah melintasi server atau muncul di log eksternal mana pun.",
+        "Tanpa unggahan, tanpa akun, tanpa tanda air — perilaku identik di seluruh sistem operasi dan browser.",
+        "Pemeriksaan integritas dengan privasi total, cocok untuk file rahasia dan kode proprietary."
+      ]
+    },
+    {
+      "heading": "Hashing dalam Peralatan Pengembang",
+      "paragraphs": [
+        "Gabungkan dengan [base64:pengodean], [uuid-generator:ID unik] dan [password-generator:kunci kuat] untuk kebersihan data lengkap di seluruh pipeline pengembangan dan penerapan.",
+        "Suite ini gratis dan berbasis browser, tidak memerlukan instalasi atau pembuatan akun.",
+        "Sidik jari di ujung jari, siap untuk tugas verifikasi apa pun."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Algoritma mana yang didukung?",
+      "a": "MD5, SHA-1, dan SHA-256 disediakan, mencakup kasus penggunaan checksum dan integritas sehari-hari di berbagai tingkat keamanan."
+    },
+    {
+      "q": "Bisakah saya meng-hash file juga teks?",
+      "a": "Ya. File dapat dipilih langsung dan di-hash sama seperti teks yang ditempel, dengan hasil yang muncul dalam hitungan detik."
+    },
+    {
+      "q": "Apakah hashing bersifat privat?",
+      "a": "Ya. Semuanya berjalan secara lokal di browser Anda tanpa unggahan atau akun."
+    },
+    {
+      "q": "Seberapa panjang hash kata sandi saya agar tetap aman?",
+      "a": "Untuk hashing kata sandi dalam produksi, gunakan algoritma khusus seperti bcrypt atau Argon2 dengan pengacakan. Generator hash cocok untuk checksum, verifikasi integritas, dan sidik jari data alih-alih penyimpanan kata sandi."
+    },
+    {
+      "q": "Apa perbedaan antara output hash hex dan Base64?",
+      "a": "Hex adalah representasi teks dari digest biner menggunakan digit 0-9 dan huruf a-f. Base64 mengkodekan data biner yang sama secara lebih ringkas menggunakan set karakter yang lebih besar. Keduanya mewakili nilai hash yang sama."
+    },
+    {
+      "q": "Bisakah dua file berbeda menghasilkan hash yang sama?",
+      "a": "Tabrakan secara teori mungkin tetapi sangat kecil kemungkinannya dengan SHA-256. MD5 dan SHA-1 memiliki kerentanan tabrakan yang diketahui, itulah mengapa SHA-256 lebih disukai untuk aplikasi yang sensitif terhadap keamanan."
+    }
+  ]
+}

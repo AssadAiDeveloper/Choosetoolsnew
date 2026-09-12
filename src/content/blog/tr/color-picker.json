@@ -1,0 +1,133 @@
+{
+  "slug": "color-picker",
+  "title": "Görüntüden Çevrimiçi Ücretsiz Renk Seçme: HEX, RGB ve HSL Değerlerini Çıkarma",
+  "description": "ChooseTools ile bir görüntüden çevrimiçi ücretsiz renk seçin. Bir fotoğraftaki herhangi bir yerdeki HEX, RGB ve HSL değerlerini çıkarın, ardından tasarım çalışmalarınız için kopyalayın. Özel, hızlı, tarayıcınızda.",
+  "keywords": ["renk seçici", "görüntüden çevrimiçi renk seçme", "görüntüden renk çıkarma", "fotoğraftan renk seçme", "görüntüden hex renk", "çevrimiçi damlalık", "görüntüden rgb alma"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Tasarımcılar Tahmin Değil, Tam Rengi Gerektirir",
+      "paragraphs": [
+        "Bir markayı tam eşleştirmek, bir fotoğraftan bir palet yeniden oluşturmak veya bir logonun tonunu yakalamak, kesin renk değerlerini okumak demektir. [color-picker:Görüntülerden renk seçmek] tasarımcılara gördüklerinin arkasındaki tam HEX, RGB ve HSL sayılarını verir.",
+        "Her yerde tutarlı markalaşma ve uyumlu paletlerin arkasındaki beceridir.",
+        "ChooseTools renkleri tarayıcınızda yerel olarak çıkarır: herhangi bir piksele işaret edin ve değeri kopyalayın."
+      ]
+    },
+    {
+      "heading": "Bir Fotoğraftan Renk Nasıl Seçilir",
+      "paragraphs": [
+        "Görüntüden kod değerine saniyeler içinde:",
+        "Görseli yükleyin, artı imlecini tam pikselin üzerine getirin ve HEX, RGB ve HSL değerlerini okuyun. Projenizin ihtiyaç duyduğu formatı kopyalayın.",
+        "Analiz yerel olduğundan, ayrıntılara yüksek çözünürlüklü yakınlaştırma anında ve özeldir."
+      ]
+    },
+    {
+      "heading": "Her Kod Tabanı için HEX, RGB ve HSL",
+      "paragraphs": [
+        "CSS üç gösterimi de kabul eder ve farklı tasarım araçları farklı olanlarda varsayılan yapar.",
+        "Seçici tüm formatları aynı anda gösterir; ihtiyacınız olan değer bir kopyala-tık uzağınızdadır.",
+        "Figma eklentilerindeki hex kodlarından Scss'teki RGB demetlerine kadar her boru hattı kapsanır."
+      ]
+    },
+    {
+      "heading": "Herhangi Bir Görselden Tanınabilir Paletler Oluşturun",
+      "paragraphs": [
+        "Bir seyahat fotoğrafından gökyüzü tonlarını, bir ürün görüntüsünden deri rengini, bir rakibin tasarımından vurgu rengini çıkarın.",
+        "Değerleri tasarım belirteçlerinize kaydedin ve kaynak fotoğrafı sadık biçimde yansıtan temalar oluşturun.",
+        "Bir görüntünün içindeki ilham, koda hazır gerçekliğe dönüşür."
+      ]
+    },
+    {
+      "heading": "Müşteri Varlıklarının Özel Damlalık İşlemi",
+      "paragraphs": [
+        "Müşteri görselleri ve yayınlanmamış tasarımlar damlalıkla yerel olarak buluşur; çalışma alanından hiçbir şey çıkmaz.",
+        "Yükleme yok, filigran yok, hesap yok — herhangi bir işletim sisteminde.",
+        "Tasarım tutarlılığı, sessizce elde edilir."
+      ]
+    },
+    {
+      "heading": "Komple Renk Ekosistemi",
+      "paragraphs": [
+        "Sonrasında formatlar arasında [color-converter:renk dönüştürücüler] ile geçiş yapın veya [resize-image:yeniden boyutlandırma] gibi görsel hazırlama araçlarıyla eşleştirin.",
+        "Komple paket ücretsiz ve tarayıcı tabanlıdır.",
+        "Sahip olduğunuz herhangi bir görselden, ihtiyacınız olan her renk, tam olarak çıkarılır."
+      ]
+    },
+    {
+      "heading": "Renk Uzaylarını Anlamak ve Neden Önemli Oldukları",
+      "paragraphs": [
+        "HEX ve RGB renkleri, ekranlar, web tarayıcıları ve çoğu dijital tasarım aracı için standart olan sRGB renk uzayında tanımlar.",
+        "HSL, aynı rengi renk tonu, doygunluk ve açıklığın bir kombinasyonu olarak temsil eder; renklerin nasıl kodlandığından ziyade nasıl göründüğünü düşünen tasarımcılar için daha sezgisel hâle getirir.",
+        "CMYK baskıda kullanılan renk modelidir ve seçici CMYK'yı doğrudan çıkarmasa da RGB değerini bilmek, dönüştürme formüllerini kullanarak basılı sonucu tahmin etmenizi sağlar.",
+        "Hedef çıktınızın hangi renk uzayını kullandığını anlamak, ekranda mükemmel görünen bir rengin belirgin şekilde farklı bir tonla basıldığında sürprizleri önler."
+      ]
+    },
+    {
+      "heading": "Doğru Renk Çıkarma için Örnekleme Stratejileri",
+      "paragraphs": [
+        "Tek bir piksel, nesnenin amaçlanan renginden ziyade bir vurgu, gölge veya sıkıştırma artefaktını temsil edebilir; bu nedenle küçük bir alanı örnekleyip baskın değeri not etmek daha güvenilir sonuçlar üretir.",
+        "Yüksek çözünürlüklü görsellere yakınlaştırmak, sıradan görüntülemenin kaçırdığı ince ayrıntıları ortaya çıkarır; özellikle ince gradyanlı veya dokulu yüzeyli fotoğraflarda.",
+        "Görüntü gürültü veya gren içerdiğinde, birkaç yakın piksele tıklayıp değerlerini karşılaştırmak, rastgele bir dalgalanma yerine gerçek rengi tanımlamanıza yardımcı olur.",
+        "Kenar yumuşatmalı kenarlara sahip görüntülerde, bir renk bölgesinin merkezinden örneklemek, iki bitişik rengi doğru temsil etmeyen harmanlanmış geçiş piksellerini yakalamaktan kaçınır."
+      ]
+    },
+    {
+      "heading": "Tasarım Sistemleri ve Belirteçler için Palet Çıkarma",
+      "paragraphs": [
+        "Modern tasarım sistemleri renkleri, açık ve koyu temalar boyunca belirli HEX veya RGB değerlerine eşlenen anlamsal belirteçler olarak tanımlar.",
+        "Renk seçici, her belirteç değerini bir marka fotoğrafından, ilham panosundan veya rakip ekran görüntüsünden çıkarmanıza, ardından doğrudan tasarım belirteç dosyanıza kaydetmenize olanak tanır.",
+        "Tahmin etmek yerine gerçek görüntülerden bir palet oluşturmak, topraklanmış ve kasıtlı hissettiren daha uyumlu bir görsel dil üretir.",
+        "Belirteçler tanımlandıktan sonra CSS değişkenleri, bileşen kitaplıkları ve stil kılavuzları aracılığıyla otomatik olarak yayılır; tasarımın göründüğü her yerde tutarlılık sağlar."
+      ]
+    },
+    {
+      "heading": "Erişilebilirlik Uyumu için Renk Seçimi",
+      "paragraphs": [
+        "Erişilebilir tasarım, metin ve arka plan renkleri arasında yeterli kontrast gerektirir ve seçici size kontrast oranlarını hesaplamak için gereken tam değerleri verir.",
+        "Bir tasarım mock-up'ından ön plan ve arka plan renklerini çıkarmak ve bunları WCAG yönergelerine karşı kontrol etmek, nihai ürünün erişilebilirlik standartlarını karşılamasını sağlar.",
+        "Büyük bir monitörde farklı görünen renkler, az gören kullanıcılar için yetersiz kontrasta sahip olabilir; bu da sayısal kontrolü isteğe bağlı değil zorunlu kılar.",
+        "Çıkarılan değerleri bir kontrast kontrol aracıyla eşleştirmek, erişilebilirlik iş akışını çıkarmadan doğrulamaya tamamlar."
+      ]
+    },
+    {
+      "heading": "Çıkarılan Renkleri CSS, Sass ve Tailwind'de Kullanma",
+      "paragraphs": [
+        "HEX değerleri doğrudan CSS özel özelliklerine yapıştırılırken, RGB değerleri ayrı kırmızı, yeşil ve mavi kanalları gerektiren işlevlerde iyi çalışır.",
+        "Sass değişkenleri üç formatı da kabul eder; proje kurallarınıza en uygun gösterimi seçmenize olanak tanır.",
+        "Tailwind CSS, özel renklerin HEX veya RGB dizgileri olarak tanımlandığı bir yapılandırma dosyası kullanır ve seçici çıktı formatları doğrudan bu tanımlara eşlenir.",
+        "Çıkarma anında rengin doğru gösterimde olması, uygulamayı yavaşlatan ekstra dönüştürme adımını ortadan kaldırır."
+      ]
+    },
+    {
+      "heading": "Düşük Çözünürlüklü ve Sıkıştırılmış Görsellerle Çalışmak",
+      "paragraphs": [
+        "Sosyal medya küçük resimleri ve sıkıştırılmış e-posta ekleri, JPEG artefaktları aracılığıyla sıklıkla renk doğruluğunu kaybeder; örneklenen değeri orijinalden daha az doğru yapar.",
+        "Düşük çözünürlüklü kaynakların sınırlamasını fark etmek, tasarım sisteminize hafifçe yanlış bir renk kodlamanızı önler.",
+        "Mümkün olduğunda, görüntünün mevcut en yüksek çözünürlüklü sürümünden çıkarmak en güvenilir renk değerlerini üretir.",
+        "Arşivlenmiş veya eski görseller için rengin sıkıştırılmış bir kaynaktan geldiğini not etmek, gelecekteki bakımcıların bir değerin orijinal amaca neden uymayabileceğini anlamasına yardımcı olur."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Seçici hangi renk formatlarını döndürür?",
+      "a": "HEX, RGB ve HSL değerlerini aynı anda döndürür; böylece tasarım aracınızın veya kod tabanınızın beklediği formatı kopyalayabilirsiniz."
+    },
+    {
+      "q": "Hassas seçim için görüntünün bölümlerini büyütebilir miyim?",
+      "a": "Evet. Seçici, fotoğrafa yakınlaştırmayı destekler; böylece tahmin olmadan tam pikselleri seçebilirsiniz."
+    },
+    {
+      "q": "Renk seçici özel ve ücretsiz midir?",
+      "a": "Evet. Tüm işleme, yükleme, filigran veya hesap olmadan tarayıcınızda yerel olarak gerçekleşir."
+    },
+    {
+      "q": "Seçtiğim rengin amaçlanan tasarımla eşleştiğinden nasıl emin olurum?",
+      "a": "Kenarlar veya kenar yumuşatmalı sınırlar yerine bir renk bölgesinin merkezinden örnekleyin ve en doğru sonuç için mümkün olduğunda yüksek çözünürlüklü kaynak görseller kullanın."
+    },
+    {
+      "q": "Çıkarılan renk değerleri erişilebilirlik kontrolleri için kullanılabilir mi?",
+      "a": "Evet. Seçicinin döndürdüğü HEX ve RGB değerleri, WCAG erişilebilirlik yönergelerine uyumu doğrulamak için kontrast oranı hesaplayıcılarına girilebilir."
+    }
+  ]
+}

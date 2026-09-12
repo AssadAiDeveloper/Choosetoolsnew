@@ -1,0 +1,132 @@
+{
+  "slug": "csv-json",
+  "title": "Konverter CSV ke JSON: Konversi CSV ke JSON Secara Online Gratis",
+  "description": "Konverter CSV ke JSON gratis untuk mengubah data spreadsheet menjadi JSON terstruktur dengan header, pemformatan, dan pratinjau. Privat, di browser Anda, tanpa unggahan.",
+  "keywords": ["csv ke json", "konversi csv ke json online", "konverter csv ke json", "spreadsheet ke json", "csv ke json array", "konversi csv ke json gratis", "alat csv ke json"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Tabel dalam CSV, Objek dalam JSON",
+      "paragraphs": [
+        "Dasbor, API, dan sistem konfigurasi lebih memilih JSON sementara analisis dan impor datang sebagai CSV. [csv-json:Mengonversi CSV ke JSON] menjembatani spreadsheet dan kode dengan bersih.",
+        "Konversi yang menyadari header mengubah baris menjadi objek secara otomatis.",
+        "ChooseTools mengonversi CSV ke JSON secara lokal di browser Anda dengan kontrol delimiter dan pratinjau."
+      ]
+    },
+    {
+      "heading": "Cara Mengonversi CSV ke JSON",
+      "paragraphs": [
+        "Dari baris ke catatan secara instan:",
+        "Tempel CSV Anda, pilih delimiter (koma, titik koma, tab), dan biarkan baris header memetakan setiap kolom ke kunci JSON. Pratinjau strukturnya dan unduh atau salin arraynya.",
+        "Konversi berjalan seluruhnya di perangkat Anda."
+      ]
+    },
+    {
+      "heading": "Pemetaan Baris Header ke Objek",
+      "paragraphs": [
+        "Saat baris pertama berisi nama kolom, setiap baris berikutnya menjadi objek dengan kunci-kunci tersebut.",
+        "Field yang dikutip dengan koma dan baris baru yang tertanam diproses dengan benar.",
+        "Migrasi data memperoleh struktur tanpa pemformatan ulang manual."
+      ]
+    },
+    {
+      "heading": "File Konfigurasi, Impor, dan Integrasi",
+      "paragraphs": [
+        "Ubah ekspor analisis menjadi array konfigurasi, file seed, dan payload API.",
+        "Output JSON cocok untuk masukan backend dan fixture frontend secara setara.",
+        "Pemeliharaan spreadsheet tetap di Excel sementara kode mengonsumsi JSON."
+      ]
+    },
+    {
+      "heading": "Kasus Tepi: Sel Kosong, Tipe, dan Pengodean",
+      "paragraphs": [
+        "Sel kosong, koma yang dikutip, tipe yang bervariasi, dan pengodean semuanya membentuk output.",
+        "Konverter menangani kenyataan berantakan dari ekspor nyata.",
+        "Pratinjau memverifikasi pemetaan sebelum Anda mempercayai payload."
+      ]
+    },
+    {
+      "heading": "Konversi Data Privat",
+      "paragraphs": [
+        "Data tabel klien dikonversi secara lokal tanpa kontak server sama sekali.",
+        "Tanpa unggahan, tanpa akun, tanpa tanda air — lintas platform.",
+        "Migrasi tanpa paparan."
+      ]
+    },
+    {
+      "heading": "CSV/JSON dalam Peralatan Data",
+      "paragraphs": [
+        "Perjalanan pulang-pergi dengan [json-to-excel:JSON ke Excel], [excel-to-csv:Excel ke CSV] dan [json-formatter:pemformatan] untuk penanganan lengkap.",
+        "Suite ini gratis dan berbasis browser.",
+        "Baris ke catatan, akurat dan privat."
+      ]
+    },
+    {
+      "heading": "Deteksi Delimiter dan Override Manual",
+      "paragraphs": [
+        "File CSV yang diekspor dari berbagai wilayah menggunakan delimiter yang berbeda: koma di Amerika Serikat, titik koma di sebagian besar Eropa, dan tab di banyak alat pengembang.",
+        "Konverter mencoba deteksi delimiter otomatis dengan menganalisis beberapa baris pertama untuk jumlah field yang konsisten, namun override manual selalu tersedia saat heuristik salah menebak.",
+        "Memilih delimiter yang benar adalah langkah paling penting untuk konversi yang bersih, karena ketidakcocokan menyebabkan seluruh baris runtuh menjadi satu field.",
+        "Setelah delimiter ditetapkan, pratinjau segera diperbarui sehingga Anda dapat mengonfirmasi struktur kolom sebelum menghasilkan output JSON akhir."
+      ]
+    },
+    {
+      "heading": "Inferensi Tipe: Angka, Boolean, dan Null",
+      "paragraphs": [
+        "Teks CSV mentah memperlakukan setiap sel sebagai string, tetapi JSON mendapat manfaat dari pengetikan yang tepat sehingga kode downstream dapat melakukan perbandingan numerik dan logika boolean tanpa parsing tambahan.",
+        "Konverter memeriksa setiap sel dan meningkatkan nilai yang terlihat seperti angka menjadi tipe JSON number, mengenali true dan false sebagai boolean, dan mengonversi sel kosong atau secara eksplisit null menjadi null.",
+        "String yang kebetulan berisi karakter numerik tetapi memiliki nol di depan atau pemformatan khusus dipertahankan sebagai string untuk menghindari kehilangan data.",
+        "Konversi yang menyadari tipe ini berarti array JSON yang dihasilkan langsung dapat digunakan dalam aplikasi yang mengharapkan nilai bertipe dengan benar tanpa pemrosesan ulang."
+      ]
+    },
+    {
+      "heading": "Menangani Field Multibaris dan Koma yang Tertanam",
+      "paragraphs": [
+        "Ekspor CSV nyata sering berisi field yang dibungkus tanda kutip yang membentang beberapa baris atau menyertakan koma di dalam konten teks.",
+        "Konverter mengikuti aturan RFC 4180 untuk field yang dikutip, mengidentifikasi batas field dengan benar bahkan saat baris baru atau delimiter muncul di dalam kutipan.",
+        "Perilaku ini mencerminkan cara aplikasi spreadsheet profesional mengekspor data, memastikan konversi Anda menangani file yang sama tanpa pembersihan manual.",
+        "Field yang berisi kutipan yang dieksekusi di-unescape dengan benar, sehingga output JSON mencerminkan konten yang dimaksud alih-alih urutan escape mentah."
+      ]
+    },
+    {
+      "heading": "Opsi Pemformatan Output",
+      "paragraphs": [
+        "Output JSON ringkas meminimalkan ukuran file untuk payload API dan file konfigurasi di mana spasi putih tidak memberikan nilai.",
+        "Output yang dicetak rapi dengan indentasi konsisten membuat JSON mudah dibaca untuk debugging, tinjauan kode, dan inspeksi manual.",
+        "Konverter memungkinkan Anda memilih di antara format-format ini sehingga file yang diunduh sesuai dengan konvensi proyek Anda.",
+        "Memilih format yang tepat saat konversi menghemat langkah pemformatan terpisah nanti dalam alur kerja."
+      ]
+    },
+    {
+      "heading": "Konversi Batch dan Alur Kerja Otomatisasi",
+      "paragraphs": [
+        "Tim yang mengonversi data CSV secara teratur mendapat manfaat dari penetapan proses yang konsisten: tempel, konfigurasikan delimiter, pratinjau, dan unduh.",
+        "Karena konversi berjalan seluruhnya di browser, ia terintegrasi secara alami ke dalam alur kerja bookmarklet dan skrip otomasi lokal yang menyalurkan data melalui alat.",
+        "Pengulangan menjadi penting saat file sumber yang sama diperbarui mingguan; pengaturan yang Anda pilih hari ini dapat diterapkan kembali secara manual ke ekspor di masa mendatang.",
+        "Bagi pengembang yang membangun pipeline, struktur JSON yang konsisten yang dihasilkan konverter menyederhanakan langkah validasi skema yang mengikuti masukan data."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bagaimana kolom CSV dipetakan ke JSON?",
+      "a": "Saat baris pertama berisi header, setiap baris berikutnya menjadi objek yang dikunci oleh nama-nama kolom tersebut; baris lainnya menjadi item array."
+    },
+    {
+      "q": "Apakah konverter menangani koma yang dikutip di dalam field?",
+      "a": "Ya. Field yang dikutip berisi koma atau baris baru diproses dengan benar sesuai aturan CSV."
+    },
+    {
+      "q": "Apakah konversi bersifat privat?",
+      "a": "Ya. Semuanya berjalan secara lokal di browser Anda tanpa unggahan atau akun."
+    },
+    {
+      "q": "Bisakah konverter mendeteksi delimiter secara otomatis?",
+      "a": "Ya. Konverter menganalisis beberapa baris pertama untuk jumlah field yang konsisten, meskipun override manual tersedia saat deteksi otomatis tidak cocok dengan file Anda."
+    },
+    {
+      "q": "Apakah nilai numerik dipertahankan sebagai angka dalam JSON?",
+      "a": "Ya. Sel yang berisi angka valid ditingkatkan ke tipe JSON number, sementara nilai dengan nol di depan atau pemformatan khusus tetap berupa string."
+    }
+  ]
+}

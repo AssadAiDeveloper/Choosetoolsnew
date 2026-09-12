@@ -1,0 +1,108 @@
+{
+  "slug": "arabic-numerals",
+  "title": "Convertisseur de chiffres arabes : Convertir entre chiffres arabes orientaux et chiffres occidentaux, en ligne et gratuitement",
+  "description": "Convertisseur gratuit pour passer entre les chiffres arabes orientaux (٠١٢) et les chiffres occidentaux (0123) instantanément dans votre navigateur. Privé, sans envoi de données.",
+  "keywords": ["convertisseur chiffres arabes", "chiffres arabes orientaux", "chiffres arabes indiens", "convertir chiffres arabes", "٠١٢٣ en 0123", "convertisseur chiffres arabes en ligne", "oriental en occidental chiffres"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Deux systèmes de numérotation, une famille",
+      "paragraphs": [
+        "Une grande partie du monde arabe écrit ٠١٢٣٤٥٦٧٨٩ tandis que les plateformes numériques attendent 0-9. [arabic-numerals:Conversion entre chiffres arabes et chiffres occidentaux] réconcilie les deux dans les deux sens instantanément.",
+        "Des chiffres corrects dans le bon contexte préviennent des incohérences coûteuses.",
+        "ChooseTools convertit les chiffres localement dans votre navigateur."
+      ]
+    },
+    {
+      "heading": "Comment convertir les chiffres arabes",
+      "paragraphs": [
+        "Un sens ou l'autre, en une seule étape :",
+        "Collez des nombres en forme arabe orientale pour recevoir des chiffres occidentaux, ou collez des chiffres occidentaux pour obtenir des équivalents arabes-indiens. Le texte mixte est converti intact, de sorte que vous pouvez coller un paragraphe entier contenant à la fois de l'écriture arabe et des chiffres sans vous soucier de les séparer manuellement.",
+        "La conversion s'entièrement sur votre appareil, ce qui signifie qu'il n'y a pas de latence d'aller-retour et aucune dépendance à la disponibilité du serveur. Vous pouvez convertir des chiffres même lorsque vous êtes hors ligne, tant que la page est déjà chargée dans votre navigateur."
+      ]
+    },
+    {
+      "heading": "Chiffres arabes orientaux vs. occidentaux",
+      "paragraphs": [
+        "Les chiffres arabes orientaux (٠١٢٣…) sont distincts ; les décimales et les regroupements se traduisent directement. Le chiffre zéro ressemble à un point, tandis que les chiffres restants ont des formes qui diffèrent entièrement de leurs homologues occidentaux, rendant la confusion facile si vous ne faites pas attention.",
+        "Les nombres inclus dans des phrases se mettent à jour ensemble, de sorte qu'un étiquette de prix indiquant ١٥٠٠٠ ر.س devient 15000 SAR sans perturmer l'abréviation de la devise ni le texte environnant. Cela préserve le contexte sémantique sur lequel les lecteurs s'appuient.",
+        "La sortie sensible au contexte préserve le texte arabe environnant, garantissant que les diacritiques, la ponctuation et la mise en forme propre à l'écriture restent intacts. Le convertisseur se concentre uniquement sur les caractères numériques, laissant tout le reste intact."
+      ]
+    },
+    {
+      "heading": "Cas d'utilisation réels pour la conversion de chiffres",
+      "paragraphs": [
+        "Les rapports financiers exportés depuis des systèmes bancaires régionaux contiennent souvent des chiffres arabes-indiens que les tableurs internationaux ne peuvent pas analyser. Convertir ces chiffres en chiffres occidentaux permet aux formules standard et aux tableaux croisés dynamiques de traiter les données correctement. Les comptables et auditeurs font gagner des heures de ressaisie manuelle en collant des colonnes entières de chiffres dans le convertisseur en une fois.",
+        "Les formulaires gouvernementaux et les sorties de registres civils dans de nombreux pays du Moyen-Orient présentent les dates de naissance, les numéros d'identité et les adresses en utilisant des chiffres arabes orientaux. Soumettre ces mêmes nombres à des portails en ligne qui attendent des chiffres occidentaux nécessite une conversion, et le faire manuellement invite aux erreurs de transcription. Une seule étape de collage et conversion élimine le risque.",
+        "Les supports éducatifs enseignent parfois les deux systèmes côte à côte, et les étudiants ont besoin de vérifier leurs conversions. L'outil agit comme une clé de réponse rapide, confirmant le travail manuel de l'étudiant correspond à la sortie correcte. Les enseignants peuvent préparer les corrigés plus rapidement en convertissant des ensembles de problèmes en masse.",
+        "Les voyageurs naviguant dans les systèmes de billetterie, les réservations d'hôtels et les confirmations de compagnies aériennes dans les pays arabophones rencontrent fréquemment des ensembles de chiffres mixtes sur les reçus et itinéraires. Convertir le texte complet du document garantit que chaque numéro de référence, date et montant correspond à ce que la compagnie aérienne ou l'hôtel attend à l'arrivée."
+      ]
+    },
+    {
+      "heading": "Cas limites et détails de formatage",
+      "paragraphs": [
+        "Le convertisseur gère les séparateurs décimaux et les symboles de regroupement par milliers de manière cohérente, de sorte qu'une valeur comme ١٬٢٣٤٫٥٦ devient 1,234.56 sans perte de précision. Les signes négatifs, les symboles de devise et les indicateurs de pourcentage passent inchangés, préservant la signification sémantique de chaque nombre.",
+        "Les très grands nombres, y compris ceux trouvés dans les budgets nationaux ou les ensembles de données statistiques, se convertissent sans troncature ni arrondi. Chaque chiffre est mappé un pour un, de sorte qu'aucune information n'est perdue quelle que soit l'ampleur. L'outil n'impose aucune limite supérieure à la longueur de la chaîne d'entrée.",
+        "Le contenu mixte qui entrelace écriture arabe, chiffres et ponctuation se convertit proprement. Le texte environnant n'est jamais modifié ; seuls les caractères numériques changent de forme. Cela signifie que des paragraphes entiers, des factures ou des corps d'article peuvent être collés sans prétraitement."
+      ]
+    },
+    {
+      "heading": "Erreurs courantes et comment les éviter",
+      "paragraphs": [
+        "Une erreur fréquente est de confondre les chiffres arabes orientaux avec les chiffres arabes standard utilisés en Occident, qui sont en fait d'origine indienne malgré le nom. Le convertisseur rend cette distinction claire en traitant chaque ensemble comme un mapping de caractères séparé, de sorte que vous obtenez toujours la sortie prévue.",
+        "Une autre erreur est de supposer que du texte arabe avec des nombres intégrés se brisera si vous le faites passer par un convertisseur. En réalité, l'outil est sensible au contexte et laisse les caractères non numériques complètement intacts. Vous pouvez coller des phrases entières, des paragraphes ou même des données multi-colonnes sans prétraitement.",
+        "Les gens oublient parfois que les zéros en tête comptent dans les numéros d'identification, les numéros de téléphone et les codes de compte. Le convertisseur préserve chaque chiffre, y compris les zéros en tête, de sorte que la sortie reste une représentation fidèle de l'entrée originale."
+      ]
+    },
+    {
+      "heading": "Fidèle dans les deux sens",
+      "paragraphs": [
+        "Les allers-retours retournent des valeurs identiques, préservant chaque chiffre.",
+        "Les grands nombres se convertissent sans erreurs de longueur.",
+        "La précision tient à toute ampleur."
+      ]
+    },
+    {
+      "heading": "Notes de confidentialité et compatibilité",
+      "paragraphs": [
+        "Parce que la conversion se produit entièrement dans le navigateur, aucune donnée n'est transmise à un serveur. Cela importe particulièrement lorsque les nombres proviennent de registres de paie, de déclarations fiscales ou de documents médicaux portant des informations personnellement identifiables. L'outil ne stocke, n'enregistre ni ne met en cache aucune entrée.",
+        "Le convertisseur fonctionne sur tous les navigateurs modernes, y compris Safari mobile et Chrome sur Android. Il n'y a pas d'installation, pas de plug-in et pas de compte requis, de sorte que l'outil est accessible depuis tout appareil avec une connexion web. Les mises à jour de la table de mapping sous-jacente se produisent côté serveur et prennent effet immédiatement au chargement de la page.",
+        "Pour les équipes qui doivent intégrer la conversion de chiffres dans des pipelines automatisés, la même logique de mapping peut être reproduite dans des scripts côté serveur. L'outil en ligne, cependant, est conçu pour des conversions ponctuelles et ponctuelles où la rapidité et la vie privée importent davantage que le traitement par lots."
+      ]
+    },
+    {
+      "heading": "Travail numérique privé",
+      "paragraphs": [
+        "Les documents et ensembles de données avec des chiffres se convertissent localement.",
+        "Pas d'envoi, pas de compte, pas de filigrane — sur toutes les plateformes.",
+        "Les nombres ne quittent jamais votre machine."
+      ]
+    },
+    {
+      "heading": "Les chiffres dans la boîte à outils arabe",
+      "paragraphs": [
+        "Combiné avec [hijri-gregorian:conversion de dates], [tafqit:épellation des nombres] et [remove-tashkeel:nettoyage du texte] pour une gestion arabe complète.",
+        "La suite est gratuite et native au navigateur.",
+        "Chaque chiffre, dans la bonne écriture, instantanément."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Quels sens sont pris en charge ?",
+      "a": "Les deux : des chiffres arabes orientaux aux chiffres occidentaux et des chiffres occidentaux aux arabes orientaux, en direction sélectionnable."
+    },
+    {
+      "q": "Gère-t-il le texte mixte contenant des nombres ?",
+      "a": "Oui. Les nombres se convertissent en place dans l'écriture arabe environnante sans perturber les autres caractères."
+    },
+    {
+      "q": "Le convertisseur est-il privé ?",
+      "a": "Oui. Tout s'exécute localement dans votre navigateur sans envoi de données ni compte."
+    },
+    {
+      "q": "Puis-je convertir des documents entiers en une fois ?",
+      "a": "Oui. Collez des paragraphes complets, des factures ou des tableurs et chaque chiffre se convertit en une seule passe tandis que le texte environnant reste intact."
+    }
+  ]
+}

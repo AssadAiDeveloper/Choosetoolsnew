@@ -1,0 +1,100 @@
+{
+  "slug": "pixelate-image",
+  "title": "Cómo Pixelar una Imagen Online Gratis: Censura con Bloques de Píxeles",
+  "description": "Pixela una imagen online gratis con ChooseTools. Oculta rostros, números y áreas sensibles con pixelación limpia, directamente en tu navegador, con total privacidad y sin marca de agua.",
+  "keywords": ["pixelar imagen", "pixelar parte de imagen", "mosaico de imagen online", "pixelar rostro", "censurar imagen online gratis", "pixelado de foto", "pixelar una foto"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "La Pixelación es Censura que Permanece Honesta",
+      "paragraphs": [
+        "A veces un difuminado suave no es suficiente y un mosaico deliberado es exactamente lo correcto: la pixelación dice claramente \u00abcensurado a propósito\u00bb mientras conserva la identidad gráfica de la imagen. [pixelate-image:Pixelar imágenes] es la forma clásica de ocultar un rostro, un número o un logotipo.",
+        "Las redacciones, comunicados policiales, marketplaces y comunicaciones escolares todos dependen del aspecto de mosaico.",
+        "ChooseTools pixela regiones de imágenes localmente en tu navegador con control del tamaño de bloque sobre el efecto.",
+        "El resultado es un archivo que sigue el espíritu de la ley de privacidad y las directrices editoriales sin perder nunca el contexto que una imagen conlleva."
+      ]
+    },
+    {
+      "heading": "Cómo se Construye el Efecto de Mosaico",
+      "paragraphs": [
+        "La pixelación funciona dividiendo un área seleccionada en una cuadrícula de bloques y reemplazando cada bloque con un solo color promedio de los píxeles debajo de él.",
+        "Una cuadrícula gruesa produce el mosaico pesado e inconfundible de la censura clásica; una cuadrícula fina produce una textura granulada que solo suaviza el detalle.",
+        "Dado que las matemáticas son simples y locales, la operación es instantánea incluso en fotos de alta resolución, y puedes previsualizar el resultado antes de decidirte.",
+        "Ajustar el tamaño del bloque después de la selección no tiene costo, por lo que afinar hasta el punto exacto de la imagen es práctico en lugar de tedioso."
+      ]
+    },
+    {
+      "heading": "Cómo Pixelar una Región de una Imagen",
+      "paragraphs": [
+        "Censura con estilo y precisión:",
+        "Sube la imagen y selecciona la área a enmascarar; ajusta el tamaño de bloque desde un grano sutil hasta un mosaico pesado. Previsualiza para confirmar que el contenido está completamente oculto, y descarga.",
+        "Todo ocurre localmente, por lo que nadie ve qué elegiste ocultar ni dónde.",
+        "Volver a seleccionar una región es tan fácil como dibujar el rectángulo de nuevo, dándote control total sobre el aspecto final antes de que el archivo salga de tu dispositivo."
+      ]
+    },
+    {
+      "heading": "Censura de Mosaico para Imágenes Públicas",
+      "paragraphs": [
+        "Difundir una foto de multitud: mosaico a los transeúntes. Publicar una escena del crimen: enmascarar identificadores. Vender un coche de segunda mano: ocultar las matrículas.",
+        "El aspecto de mosaico pesado es inequívoco y atemporal en impresión y pantallas.",
+        "La censura nunca borra la foto completa: solo las partes que la ley o la decencia requieren.",
+        "Este enfoque quirúrgico mantiene la imagen útil para informes, listados y anuncios mientras protege a cada persona o detalle que no debería revelar."
+      ]
+    },
+    {
+      "heading": "Controla el Pixelado para el Visual Correcto",
+      "paragraphs": [
+        "Bloques pequeños se leen como \u00abadetalle granulada\u00bb, bloques grandes como censura inconfundible.",
+        "Igualar el tamaño del bloque con cuánto debe ocultarse mantiene el resultado proporcional.",
+        "El efecto permanece editable localmente hasta que esté exactamente correcto.",
+        "Para rostros, un bloque mediano-grande oculta la identidad claramente; para matrículas y números, un bloque más ajustado preserva la reconocibilidad del resto del encuadre.",
+        "Dado que el mosaico se reconstruye a partir de la imagen misma, el área enmascarada se mezcla naturalmente con los píxeles circundantes en lugar de parecer un parche pegado: el efecto se mantiene profesional en impresión, en línea y en feeds sociales."
+      ]
+    },
+    {
+      "heading": "Difuminado o Mosaico: Elige la Máscara Correcta",
+      "paragraphs": [
+        "El difuminado suaviza los píxeles en una mancha lisa que a veces puede reconstruirse parcialmente o resultar visualmente molesta en áreas grandes.",
+        "La pixelación divide la región en bloques nítidos que eliminan permanentemente el detalle legible, por lo que los flujos de trabajo editoriales y legales la prefieren.",
+        "Cuando una vista previa necesita seguir siendo agradable a la vista, un mosaico ligero se lee más limpio que una mancha gaussiana pesada.",
+        "Selecciona el estilo de máscara que coincida con la historia que la foto debe seguir contando después de que las partes sensibles desaparezcan."
+      ]
+    },
+    {
+      "heading": "Censura Privada de Archivos Sensibles",
+      "paragraphs": [
+        "Las imágenes que necesitan tratamiento de mosaico frecuentemente contienen exactamente el contenido que no debería viajar. El procesamiento local las mantiene aquí.",
+        "Sin subidas, sin marca de agua, sin cuenta, en cada sistema operativo y teléfono.",
+        "Tus decisiones sobre la visibilidad pública ocurren enteramente en tus manos.",
+        "Ya sea que el archivo sea un exhibendo legal, una foto escolar de un niño o una foto de producto inédita, nada de él se transmite mientras lo preparas para compartir."
+      ]
+    },
+    {
+      "heading": "Pixela y Comparte con Cuidado",
+      "paragraphs": [
+        "Combina la máscara con [remove-exif:eliminación de metadatos] para que el archivo nunca filtre otros detalles.",
+        "El conjunto sigue siendo gratuito, nativo del navegador y privado.",
+        "Censura con precisión, comparte con confianza.",
+        "Una vez que la región está enmascarada y los metadatos eliminados, la imagen está lista para periódicos, marketplaces o feeds sociales sin preocuparse por sorpresas incrustadas."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Puedo controlar el tamaño de los bloques de píxeles?",
+      "a": "Sí. Ajusta el tamaño del bloque junto con la región enmascarada para afinar qué tan denso o grueso aparece el mosaico."
+    },
+    {
+      "q": "¿Puedo pixelar múltiples áreas a la vez?",
+      "a": "Sí. Cualquier número de regiones se puede enmascarar en la misma imagen antes de exportar."
+    },
+    {
+      "q": "¿La pixelación es privada y gratuita?",
+      "a": "Sí. Se ejecuta enteramente en tu navegador sin subidas, marcas de agua ni cuentas."
+    },
+    {
+      "q": "¿Por qué elegir pixelación en lugar de difuminado para contenido sensible?",
+      "a": "La pixelación elimina el detalle legible con bloques nítidos y permanentes y es el estándar en el que se basan las industrias editorial y legal para rostros e identificadores."
+    }
+  ]
+}

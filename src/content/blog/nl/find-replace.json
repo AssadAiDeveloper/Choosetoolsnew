@@ -1,0 +1,107 @@
+{
+  "slug": "find-replace",
+  "title": "Zoeken en Vervangen Online Gratis: Verwissel Woorden Direct",
+  "description": "Gratis online zoeken-en-vervangen tool om woorden, zinnen en tekens binnen enkele seconden in je tekst te verwisselen. Opties voor hoofdlettergevoeligheid en regex-ondersteuning. Privé, in je browser.",
+  "keywords": ["zoeken en vervangen", "tekst online zoeken en vervangen", "woord vervangen in tekst", "zoek en vervang", "tekst bulksgewijs vervangen", "regex vervangen", "zoek-en-vervang tool"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Editors Dromen van Massahernoemen met één Klik",
+      "paragraphs": [
+        "Een productnaam updaten in een handleiding, de fout gespelde achternaam van een auteur corrigeren in een manuscript, of een eenheid overal in een dataset vervangen — [find-replace:zoeken en vervangen] is precies de klus waar gebruikers tegenop zien om met de hand te doen.",
+        "Een betrouwbaar tool handelt hele-documentwisselingen in seconden af, met opties die verkeerde matches voorkomen.",
+        "ChooseTools voert zoeken en vervangen lokaal in je browser uit, met case- en regex-bediening.",
+        "Handmatig bewerken nodigt menselijke fouten uit: je slaat een voorkomen over, je wijzigt het verkeerde exemplaar of je introduceert een inconsistentie die langer duurt om te vinden dan de oorspronkelijke taak had mogen kosten."
+      ]
+    },
+    {
+      "heading": "Hoe je Tekst Direct Vervangt",
+      "paragraphs": [
+        "Eén doorloop, alle voorkomens:",
+        "Plak je tekst, typ de zoekterm, typ de vervanging en klik op alles vervangen. Elke match wordt gelijktijdig bijgewerkt.",
+        "Schakel naar wens de hoofdlettergevoeligheid aan of uit, of activeer regex voor patroonherkenning; previews tonen het resultaat voordat je kopieert.",
+        "De previewstap is cruciaal: je kunt het aantal vervangingen controleren en individuele matches inspecteren voordat je bevestigt, zodat je onbedoelde bewerkingen vroeg opmerkt."
+      ]
+    },
+    {
+      "heading": "Hoofdlettergevoelig versus Losse Matches",
+      "paragraphs": [
+        "Het vervangen van apple mag Apple of Apples niet aanraken, tenzij je dat wilt.",
+        "De case-schakelaar maakt het verschil tussen een chirurgische wissel en een brede; kies bewust.",
+        "Hele-woord matching beschermt gedeeltelijke treffers zoals pineapple tegen onbedoelde bewerkingen.",
+        "In technisch schrijven, waar acroniemen en eigennamen naast gewone woorden verschijnen, voorkomt hoofdlettergevoeligheid gênante fouten in gepubliceerde documenten."
+      ]
+    },
+    {
+      "heading": "Regex: Power Users Vervangen Patronen, Niet Alleen Woorden",
+      "paragraphs": [
+        "E-mailadressen, telefoonformaten, herhaalde witruimte — patronen, geen exacte strings.",
+        "Het activeren van regex ontketent token-gebaseerde vervanging voor gestructureerd opruimen.",
+        "Eén zorgvuldig opgebouwd patroon bespaart honderden handmatige bewerkingen.",
+        "Een veelvoorkomend voorbeeld is het normaliseren van telefoonnummers: een regex-patroon dat verschillende cijfergroeperingen en scheidingstekens herkent, kan ze allemaal met één vervanging omzetten naar één enkel formaat, iets wat anders tientallen afzonderlijke zoek-en-vervang-rondes zou vergen."
+      ]
+    },
+    {
+      "heading": "Voorbeelden van Vervangingen in de Praktijk",
+      "paragraphs": [
+        "Technische documentatieteams hernoemen API-endpoints over honderden pagina's, waarbij zowel de prozatekst als ingebedde codevoorbeelden worden bijgewerkt. Een enkele regex-doorloop vervangt het oude padsegment overal, terwijl de omliggende context behouden blijft.",
+        "Lokalisatieprojecten wisselen muntsymbolen, meeteenheden en datumformaten in vertaalde strings om. De vervanging moet de omliggende tekst respecteren zonder speciale tekens of markup-tags in de content te beschadigen.",
+        "Juridische en compliance-afdelingen redigeren of vervangen vertrouwelijke namen in contracten en beleidsdocumenten vóór distributie. Consistentie is belangrijk: elk voorkomen moet veranderen of geen enkel, en gedeeltelijke vervangingen creëren aansprakelijkheid.",
+        "Contentmanagers die een merknaam in een blogarchief bijwerken, moeten onderscheid maken tussen het merk als eigennaam en dezelfde string in URLs of codefragmenten die onaangetast moeten blijven."
+      ]
+    },
+    {
+      "heading": "Context Behouden Tijdens het Verwisselen",
+      "paragraphs": [
+        "Vervangen gaat niet alleen over het matchen van tekst; het gaat erom de omliggende context intact te houden. Het tool behoudt inspringing, regeleinden en aangrenzende interpunctie, zodat het vervangen van een woord in een codeblok of een opgemaakte alinea de opmaak niet breekt.",
+        "Bij het werken met gestructureerde gegevens zoals CSV of JSON voorkomt de hele-woord-modus dat gedeeltelijke matches veldgrenzen of sleutelnamen beschadigen.",
+        "Deze waarborgen betekenen dat je vol vertrouwen kunt vervangen in documenten met gemengde content, zonder daarna elke regel te inspecteren.",
+        "De previewmodus markeert elke match in context en geeft je de laatste kans om het patroon aan te passen voordat de wissel wordt uitgevoerd."
+      ]
+    },
+    {
+      "heading": "Ongedaan Maken en Preview voor Veilige Iteratie",
+      "paragraphs": [
+        "De previewmodus markeert elke match met omliggende context voordat enige vervanging wordt uitgevoerd, zodat je kunt controleren dat het patroon precies vangt wat je bedoelt en niets anders.",
+        "Als het aantal vervangingen te hoog of te laag lijkt, kun je de zoekterm aanpassen, de hoofdlettergevoeligheid omzetten of een regex verfijnen voordat je bevestigt. Dit iteratieve vangnet voorkomt kostbare fouten.",
+        "De mogelijkheid om direct ongedaan te maken en opnieuw toe te passen betekent dat je verschillende vervangingsstrategieën op dezelfde tekst kunt uitproberen zonder de bron handmatig te dupliceren.",
+        "Deze bedieningselementen maken het tool geschikt voor eenmalige correcties én terugkerende batchworkflows, waardoor het risico op spijt bij elke doorloop afneemt."
+      ]
+    },
+    {
+      "heading": "Privé voor Gevoelige en Nog Niet Uitgebrachte Content",
+      "paragraphs": [
+        "Manuscripten, klantrapporten en interne namen worden lokaal verwisseld, nooit in een externe cloud.",
+        "Geen upload, geen account, geen watermerk — op alle platforms.",
+        "De intimiteit van het bewerken blijft lokaal.",
+        "Vertrouwelijke concepten, nog niet uitgebrachte productnamen en interne projectcodenamen blijven tijdens het hele vervangingsproces op je apparaat."
+      ]
+    },
+    {
+      "heading": "Vervanging Samen met de Tekstgereedschapskist",
+      "paragraphs": [
+        "Combineer wissels met [word-counter:metrieken], [case-converter:case-opmaak] of [remove-duplicate-lines:regel-deduplicatie] voor een complete opschoning.",
+        "De suite is gratis en draait volledig in de browser.",
+        "Hernoem één keer, overal, correct."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan ik meerdere verschillende termen tegelijk vervangen?",
+      "a": "Het tool wisselt per doorloop één term om, maar je kunt direct en herhaaldelijk itereren; met regex kun je ook bredere patronen definiëren."
+    },
+    {
+      "q": "Werkt vervanging zonder hoofdlettergevoeligheid?",
+      "a": "Ja. Zet de hoofdlettergevoeligheid aan of uit om te bepalen of matches uitsluitend in lettercase mogen verschillen."
+    },
+    {
+      "q": "Is zoeken en vervangen privé?",
+      "a": "Ja. Alle bewerkingen gebeuren lokaal in je browser, zonder uploads of accounts."
+    },
+    {
+      "q": "Kan ik reguliere expressies gebruiken?",
+      "a": "Ja. De regex-modus activeert patroongebaseerde matching voor complexe vervangingen zoals telefoonnummers, e-mailadressen of gestructureerde gegevens."
+    }
+  ]
+}

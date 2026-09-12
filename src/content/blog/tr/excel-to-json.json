@@ -1,0 +1,128 @@
+{
+  "slug": "excel-to-json",
+  "title": "Excel'den JSON'a Dönüştürücü: XLSX'i Çevrimiçi Ücretsiz JSON'a Dönüştürün",
+  "description": "XLSX elektronik tablolarını tarayıcınızda temiz JSON nesnelerine ve dizilerine dönüştürmek için ücretsiz Excel'den JSON'a dönüştürücü. Özel, yükleme yok, kayıt yok.",
+  "keywords": ["excel'den json'a", "xlsx'ten json'a dönüştürücü", "excel'i json'a dönüştürme", "elektronik tablodan çevrimiçi json'a", "excel'den json'a ücretsiz", "excel'den json'a araç", "xlsx'ten json verisine"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Çalışma Kitapları Veriyi Barındırır; JSON Onu Teslim Eder",
+      "paragraphs": [
+        "Analiz ve içe aktarmalar Excel'de yaşarken uygulamalar ve API'ler JSON tüketir. [excel-to-json:Excel'i JSON'a dönüştürmek] satır tabanlı verileri sistemlerin doğrudan alabileceği yapılandırılmış nesnelere çevirir.",
+        "Başlık satırları anahtar olur ve sayfalar temiz JSON'a dönüşür.",
+        "ChooseTools XLSX'i tarayıcınızda yerel olarak JSON'a dönüştürür."
+      ]
+    },
+    {
+      "heading": "Bir Excel Sayfası JSON'a Nasıl Dönüştürülür",
+      "paragraphs": [
+        "Çalışma kitabı satırlarından yapılandırılmış kayıtlara:",
+        "XLSX'i yükleyin, sayfayı seçin, başlık satırını onaylayın ve dönüştürün. Her satır bir nesne olur; ortaya çıkan JSON dizisini indirin veya kopyalayın.",
+        "Tüm ayrıştırma cihazınızda gerçekleşir."
+      ]
+    },
+    {
+      "heading": "Başlık Satırının Nesne Anahtarlarına Dönüşmesi",
+      "paragraphs": [
+        "Başlık satırı seçiliyken her sütun adı bir JSON anahtarına ve her veri satırı bir değere eşlenir.",
+        "Sayısal değerler sayısal JSON üretir; metin türünü korur.",
+        "Yapı, tüketen API'nin beklediğiyle tam olarak eşleşir."
+      ]
+    },
+    {
+      "heading": "Tohum Dosyaları, API'ler ve Yapılandırma Verileri",
+      "paragraphs": [
+        "Derlenmiş elektronik tabloları tohum verilerine, yapılandırmaya ve yük örneklerine dönüştürün.",
+        "Verileri editörlerin çalıştığı Excel'de tutun; kodun çalıştığı yerde JSON olarak dağıtın.",
+        "Tek kaynak, birçok biçim, sıfır yeniden yazma."
+      ]
+    },
+    {
+      "heading": "Gerçek Dünyanın Tuhaflıklarını İşleme",
+      "paragraphs": [
+        "Boş hücreler, tarihler, yüzdeler ve iki dilli başlıklar çıktıyı şekillendirir.",
+        "Bir yüke güvenmeden önce ortaya çıkan yapıyı önizleyin.",
+        "Doğrulama entegrasyondan önce gelir; aşağı akışta sürprizleri önler."
+      ]
+    },
+    {
+      "heading": "JSON Neden Evrensel Veri Teslim Biçimidir",
+      "paragraphs": [
+        "JSON, hem insan tarafından okunabilir hem de makine tarafından ayrıştırılabilir olduğu için modern web API'lerinin, veritabanlarının ve yapılandırma dosyalarının varsayılan değişim biçimidir.",
+        "Açılmak için masaüstü uygulaması gerektiren elektronik tablo biçimlerinin aksine JSON, herhangi bir programlama diliyle birkaç satır kod kullanılarak işlenebilir.",
+        "Mobil uygulamalar, sunucusuz işlevler ve analitik kanallarının tümü JSON'u yerel tüketir; elektronik tablo verilerini JSON'a dönüştürmek onu tüm bir teknoloji yığınında anında kullanılabilir kılar.",
+        "JSON'un hafif, metin tabanlı yapısı, sürümlemeyi, önbelleklemeyi ve ağlar üzerinden iletimi de basitleştirir."
+      ]
+    },
+    {
+      "heading": "Kuruluşların Elektronik Tablo API Kanalına Ne Zaman Bağımlı Olduğu",
+      "paragraphs": [
+        "Birçok işletme, teknik olmayan personel düzenlemeye alışkın olduğu için kanonik verilerini elektronik tablolarda tutar. Bu verileri REST API'lerine, NoSQL veritabanlarına veya analitik platformlarına beslemek güvenilir bir dönüştürme adımı gerektirir.",
+        "Pazarlama ekipleri kampanya listelerini, İK çalışan listelerini ve finans bütçe tahsislerini dışa aktarır — tümü aşağı akış otomasyonu için JSON gerektirir.",
+        "Güvenilir bir dönüştürücü, her hafta saatler kaybettiren ve hatalara yol açan manuel kopyala-yapıştır-ve-yeniden biçimlendir döngüsünü ortadan kaldırır.",
+        "Dönüştürmeyi tarayıcıda tutmak, hassas kurumsal verilerin asla üçüncü taraf bir sunucuya dokunmaması anlamına gelir."
+      ]
+    },
+    {
+      "heading": "Veri Türleri ve Biçimlendirme Konuları",
+      "paragraphs": [
+        "Excel'in tarih ve sayıları saklama biçimi her zaman doğrudan JSON'a eşlenmez. 2024/05/17 olarak gösterilen bir tarih dahili olarak bir seri numarası olarak saklanabilir; dönüştürücü onu temiz, okunabilir bir biçimde sunar.",
+        "Para birimi değerleri, yüzdeler ve başında sıfır olan sayılar, JSON'un yanıltıcı bir dizge veya sessizce değiştirilmiş bir sayı değil amaçlanan türü içermesi için her biri özenli işlem gerektirir.",
+        "Dışa aktarmadan önce önizlemeyi incelemek, türlerin, başlıkların ve satır sayılarının alıcı sistemin bekledikleriyle hizalandığını doğrulamanızı sağlar.",
+        "Dönüştürme sırasında bu ayrıntılara dikkat etmek, veri zaten entegre edildikten sonra pahalı hata ayıklamayı önler."
+      ]
+    },
+    {
+      "heading": "Elektronik Tablonuzu Temiz Bir Dönüştürme İçin Hazırlama",
+      "paragraphs": [
+        "Çıktının kalitesi girdinin yapısını yansıtır; küçük bir hazırlık çok yol alır.",
+        "Benzersiz, açıklayıcı adlara sahip tek bir başlık satırı tutun ve JSON anahtarlarına temiz eşlenmeyen birleştirilmiş hücrelerden kaçının.",
+        "Dönüştürücünün beklenmedik değerlere sahip nesneler üretmemesi için başıboş özet satırlarını veya boş satırları kaldırın.",
+        "Tutarlı sütun türleri de yardımcı olur: kaynak baştan düzenli olduğunda sayılar sayısal, tarihler okunabilir kalır."
+      ]
+    },
+    {
+      "heading": "Entegrasyondan Önce Çıktıyı Doğrulama",
+      "paragraphs": [
+        "Nihai JSON ancak hızlı incelemesi kadar güvenilirdir; önizleme tam da bu an için vardır.",
+        "Beklenen her satırın bir nesne ürettiğini, başlıkların amaçlanan anahtarlara dönüştüğünü ve hiçbir sütunun alışılmadık bir ad altında kaybolmadığını doğrulayın.",
+        "Türler için birkaç değeri kontrol edin: fiyatlar sayı, kodlar dizge ve boş hücreler tüketicinizin istediği biçimde çözülmüş olmalıdır.",
+        "Şablon başına bir kez yapılan bu kısa doğrulama, yük kanalını aylarca dışa aktarım için istikrarlı tutar."
+      ]
+    },
+    {
+      "heading": "Özel Çalışma Kitabı Dönüştürme",
+      "paragraphs": [
+        "Müşteri listeleri ve dahili veri kümeleri, ağ aktarımı olmadan dönüştürülür.",
+        "Yükleme yok, hesap yok, filigran yok — platformlar arasında.",
+        "Yapılandırılmış ve mühürlü."
+      ]
+    },
+    {
+      "heading": "Veri Süitinde Excel Birlikte Çalışabilirliği",
+      "paragraphs": [
+        "Tam gidiş dönüşler için [json-to-excel:JSON'dan Excel'e], [csv-json:CSV'den JSON'a] ve [excel-to-csv:Excel'den CSV'ye] ile eşleştirin.",
+        "Araç seti ücretsiz ve tarayıcı tabanlıdır.",
+        "Hücrelerden yapılandırılmış JSON'a, sadakatle ve şirket içinde."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Excel sütunları JSON'a nasıl dönüştürülür?",
+      "a": "Başlık satırı nesne anahtarları olur ve sonraki her satır bu anahtarlara sahip bir JSON nesnesine dönüşür."
+    },
+    {
+      "q": "Dönüştürücü sayıları ve tarihleri korur mu?",
+      "a": "Evet. Sayısal hücreler JSON'da sayısal, metin de metin kalır; türler anlamlı tutulur."
+    },
+    {
+      "q": "Excel'den JSON'a dönüştürme özel mi?",
+      "a": "Evet. Her şey tarayıcınızda, yükleme veya hesap olmadan yerel olarak çalışır."
+    },
+    {
+      "q": "Birden fazla sayfayı dönüştürebilir miyim?",
+      "a": "Evet. Dönüştürmeden önce çalışma kitabından istediğiniz sayfayı seçin veya her sayfayı ayrı ayrı işleyin."
+    }
+  ]
+}

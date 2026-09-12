@@ -1,0 +1,132 @@
+{
+  "slug": "csv-json",
+  "title": "CSV naar JSON Converter: Converteer CSV naar JSON Gratis Online",
+  "description": "Gratis CSV-naar-JSON-converter om spreadsheetgegevens om te zetten naar gestructureerde JSON met headers, opmaak en voorbeeldweergave. Privé, in je browser, zonder uploads.",
+  "keywords": ["csv naar json", "csv naar json converteren", "csv naar json converter", "spreadsheet naar json", "csv naar json array", "csv naar json gratis", "csv naar json tool"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Tabellen in CSV, Objecten in JSON",
+      "paragraphs": [
+        "Dashboards, API's en configuratiesystemen geven de voorkeur aan JSON, terwijl analyses en imports als CSV binnenkomen. [csv-json:CSV naar JSON converteren] overbrugt spreadsheets en code netjes.",
+        "Headerbewuste conversie zet rijen automatisch om in objecten.",
+        "ChooseTools converteert CSV naar JSON lokaal in je browser met instelmogelijkheden voor scheidingstekens en voorbeeldweergave."
+      ]
+    },
+    {
+      "heading": "Hoe CSV naar JSON te Converteren",
+      "paragraphs": [
+        "Van rijen naar records, direct:",
+        "Plak je CSV, kies het scheidingsteken (komma, puntkomma, tab) en laat de headerrij elke kolom aan JSON-sleutels koppelen. Bekijk de voorbeeldstructuur en download of kopieer de array.",
+        "De conversie draait volledig op je apparaat."
+      ]
+    },
+    {
+      "heading": "Headerrij toewijzen aan Objecten",
+      "paragraphs": [
+        "Wanneer de eerste rij kolomnamen bevat, wordt elke volgende rij een object met die sleutels.",
+        "Geciteerde velden met komma's en ingebedde nieuwe regels worden correct geparseerd.",
+        "Datamigratie krijgt structuur zonder handmatig hervormen."
+      ]
+    },
+    {
+      "heading": "Configuratiebestanden, Imports en Integratie",
+      "paragraphs": [
+        "Zet analyse-exports om in configuratie-arrays, seedbestanden en API-payloads.",
+        "De JSON-output is zowel geschikt voor backend-verwerking als voor front-end fixtures.",
+        "Spreadsheetonderhoud blijft in Excel terwijl code JSON verwerkt."
+      ]
+    },
+    {
+      "heading": "Randgevallen: Lege Cellen, Typen en Codering",
+      "paragraphs": [
+        "Lege cellen, geciteerde komma's, wisselende typen en coderingen bepalen allemaal de output.",
+        "De converter gaat om met de rommelige werkelijkheid van echte exports.",
+        "De voorbeeldweergave bevestigt de toewijzing voordat je de payload vertrouwt."
+      ]
+    },
+    {
+      "heading": "Privé Gegevensconversie",
+      "paragraphs": [
+        "Tabulaire klantgegevens worden lokaal geconverteerd zonder enig servercontact.",
+        "Geen upload, geen account, geen watermerk — op alle platforms.",
+        "Migratie zonder blootstelling."
+      ]
+    },
+    {
+      "heading": "CSV/JSON binnen de Gegevens-toolkit",
+      "paragraphs": [
+        "Maak een volledige retourreis met [json-to-excel:JSON naar Excel], [excel-to-csv:Excel naar CSV] en [json-formatter:opmaak] voor complete verwerking.",
+        "De suite is gratis en browsergebaseerd.",
+        "Van rijen naar records, nauwkeurig en privé."
+      ]
+    },
+    {
+      "heading": "Scheidingstekenherkenning en Handmatige Overschrijving",
+      "paragraphs": [
+        "CSV-bestanden die in verschillende regio's geëxporteerd worden, gebruiken verschillende scheidingstekens: komma's in de Verenigde Staten, puntkomma's in grote delen van Europa en tabs in veel ontwikkelaarstools.",
+        "De converter probeert het scheidingsteken automatisch te herkennen door de eerste paar rijen te analyseren op consistente veldaantallen, maar handmatige overschrijving is altijd beschikbaar wanneer de heuristiek fout raadt.",
+        "Het juiste scheidingsteken kiezen is de allerbelangrijkste stap voor een schone conversie, omdat een mismatch ervoor zorgt dat hele rijen in één veld instorten.",
+        "Zodra het scheidingsteken is ingesteld, werkt de voorbeeldweergave direct bij, zodat je de kolomstructuur kunt bevestigen voordat je de uiteindelijke JSON-output genereert."
+      ]
+    },
+    {
+      "heading": "Typeherkenning: Getallen, Booleans en Nulls",
+      "paragraphs": [
+        "Rauwe CSV-tekst behandelt elke cel als een tekenreeks, maar JSON profiteert van correcte typering zodat downstreamcode numerieke vergelijkingen en booleaanse logica kan uitvoeren zonder extra parsing.",
+        "De converter inspecteert elke cel en verheft waarden die op getallen lijken tot JSON-getaltypen, herkent true en false als booleans en zet lege of expliciet null-cellen om naar null.",
+        "Tekenreeksen die toevallig numerieke tekens bevatten maar leidende nullen of speciale opmaak hebben, blijven behouden als tekenreeks om gegevensverlies te voorkomen.",
+        "Deze typebewuste conversie betekent dat de resulterende JSON-array direct bruikbaar is in applicaties die correct getypeerde waarden verwachten, zonder nabewerking."
+      ]
+    },
+    {
+      "heading": "Omgaan met Meervoudige Regels en Ingesloten Komma's",
+      "paragraphs": [
+        "Echte CSV-exports bevatten vaak velden tussen aanhalingstekens die over meerdere regels lopen of komma's binnen de tekstinhoud bevatten.",
+        "De converter volgt de RFC 4180-regels voor geciteerde velden en identificeert veldgrenzen correct, zelfs wanneer nieuwe regels of scheidingstekens tussen de aanhalingstekens verschijnen.",
+        "Dit gedrag weerspiegelt hoe professionele spreadsheetapplicaties gegevens exporteren, zodat jouw conversie dezelfde bestanden aankan zonder handmatig opschonen.",
+        "Velden met geëscapte aanhalingstekens worden correct de-geëscapt, zodat de JSON-output de bedoelde inhoud weergeeft in plaats van de rauwe escapetekens."
+      ]
+    },
+    {
+      "heading": "Opties voor Outputopmaak",
+      "paragraphs": [
+        "Compacte JSON-output minimaliseert de bestandsgrootte voor API-payloads en configuratiebestanden waar witruimte geen waarde toevoegt.",
+        "Mooi opgemaakte output met consistente inspringing maakt de JSON leesbaar voor debuggen, codereview en handmatige inspectie.",
+        "De converter laat je tussen deze formaten kiezen, zodat het gedownloade bestand aansluit bij de conventies van je project.",
+        "Het juiste formaat kiezen tijdens de conversie bespaart een aparte opmaakstap later in de workflow."
+      ]
+    },
+    {
+      "heading": "Batchconversie en Automatiseringsworkflows",
+      "paragraphs": [
+        "Teams die regelmatig CSV-gegevens converteren, profiteren van een consistent proces: plakken, scheidingsteken instellen, voorbeeld bekijken en downloaden.",
+        "Omdat de conversie volledig in de browser draait, integreert ze van nature in bookmarklet-workflows en lokale automatiseringsscripts die gegevens door de tool sturen.",
+        "Herhaalbaarheid is belangrijk wanneer hetzelfde bronbestand wekelijks wordt bijgewerkt; de instellingen die je vandaag kiest, kun je handmatig opnieuw toepassen op toekomstige exports.",
+        "Voor ontwikkelaars die pipelines bouwen, vereenvoudigt de voorspelbare JSON-structuur van de converter de schemavalidatiestap die op de gegevensinvoer volgt."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hoe worden CSV-kolommen aan JSON toegewezen?",
+      "a": "Wanneer de eerste rij headers bevat, wordt elke latere rij een object met die kolomnamen als sleutels; andere rijen worden array-items."
+    },
+    {
+      "q": "Kan de converter geciteerde komma's binnen velden aan?",
+      "a": "Ja. Geciteerde velden met komma's of nieuwe regels worden volgens de CSV-regels correct geparseerd."
+    },
+    {
+      "q": "Is de conversie privé?",
+      "a": "Ja. Alles draait lokaal in je browser zonder uploads of accounts."
+    },
+    {
+      "q": "Kan de converter het scheidingsteken automatisch herkennen?",
+      "a": "Ja. Het analyseert de eerste rijen op consistente veldaantallen, al is handmatige overschrijving beschikbaar wanneer de automatische herkenning niet overeenkomt met jouw bestand."
+    },
+    {
+      "q": "Blijven numerieke waarden als getallen behouden in de JSON?",
+      "a": "Ja. Cellen met geldige getallen worden verheven tot JSON-getaltypen, terwijl waarden met leidende nullen of speciale opmaak tekenreeksen blijven."
+    }
+  ]
+}

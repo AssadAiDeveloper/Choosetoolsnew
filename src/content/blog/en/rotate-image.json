@@ -1,0 +1,99 @@
+{
+  "slug": "rotate-image",
+  "title": "How to Rotate an Image Online Free: Fix Crooked Photos in Seconds",
+  "description": "Rotate an image online free with ChooseTools. Turn photos and pictures 90 or 180 degrees, straighten them, and save the result in your browser with full privacy.",
+  "keywords": ["rotate image", "rotate image online free", "rotate photo 90 degrees", "straighten image online", "fix crooked photo", "rotate picture", "turn image sideways"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Upright Photos Are Better Photos",
+      "paragraphs": [
+        "Every phone gallery holds a few sideways or upside-down shots, victims of camera sensors and hasty shooting. Before those photos go to print, a portfolio or a client moodboard, [rotate-image:rotating them] online is the quickest fix in existence.",
+        "The task is trivial technically yet something people still avoid because dedicated desktop editors are overkill for a simple orientation change.",
+        "ChooseTools rotates images locally in your browser — quarter turns, half turns and manual straightening — with instant preview and no upload required."
+      ]
+    },
+    {
+      "heading": "How to Rotate a Photo in the Browser",
+      "paragraphs": [
+        "A single orientation fix is a matter of seconds from upload to download.",
+        "Add your image and choose rotate-left, rotate-right or flip 180 degrees for a definitive correction. For slightly tilted horizons, drag the straighten slider until the preview looks level. Export the corrected image when satisfied.",
+        "Everything runs on your device, so even batch rotation of a stack of photos is fast and private with no server processing."
+      ]
+    },
+    {
+      "heading": "Straighten Horizons Without Cropping Surprises",
+      "paragraphs": [
+        "A tiny tilt — 2 degrees off-level horizon — is what makes scenes feel uncomfortable, and people rarely notice why the image feels wrong.",
+        "The straighten control rotates the photo slightly and auto-trims the edges that fall outside the frame, so the result is both level and rectangular without manual cropping.",
+        "The output preserves photo quality: no recompression, no softening of the straight pixels, and no color shift during the rotation process."
+      ]
+    },
+    {
+      "heading": "EXIF Orientation Data and Why It Matters",
+      "paragraphs": [
+        "Modern smartphones and digital cameras embed an EXIF orientation tag in every photo, telling viewers how to display the image correctly without physically rotating pixels. Most modern apps respect this tag, but older software, certain printers and some web forms ignore it entirely.",
+        "When a photo looks correct on your phone but appears sideways on a desktop application, the EXIF tag is doing its job while the viewer is not. Applying a physical rotation through the tool embeds the correct orientation into the pixel data itself, eliminating the dependency on viewer support.",
+        "Stripping the EXIF orientation tag while keeping the pixels in their original arrangement is another common scenario. The converter handles both approaches — rotate with the tag or bake the rotation into the image — so the result matches the requirements of the destination platform."
+      ]
+    },
+    {
+      "heading": "Rotation Before Printing and Publishing",
+      "paragraphs": [
+        "Print shops reject sideways images and inconsistent orientation causes delays in production workflows; web platforms show them rotated inconsistently across viewers and devices.",
+        "Normalizing orientation beforehand makes delivery smooth everywhere, from a frame shop to an online store upload to a client presentation.",
+        "Pair with [crop-image:crop] after straightening to tighten the composition, and [convert-image:convert] to a web-friendly format for maximum compatibility."
+      ]
+    },
+    {
+      "heading": "Batch Rotation for Photo Libraries",
+      "paragraphs": [
+        "Event photographers and real estate agents routinely capture dozens of images in portrait and landscape orientation. Rotating them individually through a full desktop editor is tedious when the pattern is predictable: rotate-left for shots taken with the phone held sideways.",
+        "Processing a stack of photos through the browser tool applies the same correction to each file without reinstalling software or learning a new interface. The consistent output saves time during post-event delivery or property listing preparation.",
+        "After batch rotation, organize the corrected files into project folders with clear naming conventions. Pairing the rotation step with [resize-image:resizing] or [compress-image:compression] creates a complete preparation pipeline that gets images publication-ready in a single session."
+      ]
+    },
+    {
+      "heading": "Common Rotation Scenarios and Solutions",
+      "paragraphs": [
+        "Scanned documents frequently arrive upside down or mirrored when the scanner lid is placed incorrectly. A quick 180-degree flip or horizontal mirror corrects the output without rescanning the entire document.",
+        "Screenshots from mobile devices sometimes export with unexpected orientation when transferred to a computer. The rotation tool fixes these instantly, producing a file that displays correctly on every platform.",
+        "Product photography for e-commerce requires consistent upright orientation across an entire catalog. Applying the same rotation to a batch of images ensures uniformity that builds buyer confidence and reduces support requests."
+      ]
+    },
+    {
+      "heading": "Private and Free on Any Device",
+      "paragraphs": [
+        "Rotating your family photos, unreleased shots and client assets locally means nothing leaves your machine under any circumstances.",
+        "No watermark, no account, no limits — identical behavior on phones, tablets and desktops across all operating systems.",
+        "Every photo leaves the tool exactly as corrected as you left it, with no embedded branding or metadata changes."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I rotate exactly 90, 180 or 270 degrees?",
+      "a": "Yes. Dedicated rotate buttons make quarter and half turns in both directions, plus a manual straighten slider for fine-level horizon corrections."
+    },
+    {
+      "q": "Does the straighten tool trim my photo edges?",
+      "a": "It rotates then automatically trims the empty corners that appear, producing a clean rectangular image without artifacts."
+    },
+    {
+      "q": "Is image rotation done privately?",
+      "a": "Yes. All processing occurs locally in your browser with no uploads, watermarks or accounts."
+    },
+    {
+      "q": "Will rotating a photo reduce its quality?",
+      "a": "Quarter and half turns simply rearrange pixels with no loss. Fine-angle straightening trims a small border, but the remaining image retains full resolution and sharpness."
+    },
+    {
+      "q": "What is the EXIF orientation tag and should I remove it?",
+      "a": "It is metadata that tells viewers how to display the image. Removing it prevents sideways display in older software, but requires the rotation to be applied to the pixel data beforehand."
+    },
+    {
+      "q": "Can I rotate a batch of photos with the same correction?",
+      "a": "Yes. The tool processes multiple files in sequence, applying the same rotation to each so your entire collection stays consistent."
+    }
+  ]
+}

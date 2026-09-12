@@ -1,0 +1,126 @@
+{
+  "slug": "html-encode",
+  "title": "Encodeur Décodeur HTML : Encodez et échappez le HTML en ligne gratuitement",
+  "description": "Encodeur HTML gratuit en ligne pour échapper et déséchapper les caractères spéciaux pour une publication web sûre, avec prévisualisation. Privé, instantané, dans votre navigateur.",
+  "keywords": ["encodeur HTML", "échapper HTML", "encodage entité HTML", "échapper caractères HTML", "déséchapper HTML", "encoder HTML en ligne", "convertisseur entité HTML"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "L'échappement est ce qui garde le HTML honnête",
+      "paragraphs": [
+        "Rendre du texte fourni par l'utilisateur ou issu du code de manière sûre nécessite d'échapper les caractères spéciaux comme <, > et &. Encoder le HTML empêche l'exécution accidentelle et les mises en page cassées sur chaque page.",
+        "L'échappement est à la fois hygiène de sécurité et correction de rendu en une étape.",
+        "ChooseTools encode et décode le HTML localement dans votre navigateur.",
+        "Sans échappement, un seul esperluet dans une description de produit peut casser toute la mise en page d'une page, transformant du contenu significatif en bruit d'erreur de navigateur."
+      ]
+    },
+    {
+      "heading": "Comment échapper les entités HTML",
+      "paragraphs": [
+        "Texte sûr, instantanément.",
+        "Collez du texte brut pour échapper <, >, &, les guillemets et autres caractères spéciaux en entités, ou collez du HTML chargé d'entités pour décoder en texte lisible. Copiez la version dont vous avez besoin.",
+        "Le traitement est local, gardant vos extraits confidentiels.",
+        "Le flux de travail bidirectionnel signifie que vous pouvez encoder un extrait pour une intégration sûre, puis décoder le même bloc pour une lecture humaine sans rien retaper."
+      ]
+    },
+    {
+      "heading": "Affichage sécurisé de l'entrée utilisateur",
+      "paragraphs": [
+        "Les résultats de recherche, les aperçus de messages et le rendu des commentaires nécessitent tous un échappement pour neutraliser les caractères dangereux que les utilisateurs peuvent saisir.",
+        "L'entrée échappée s'affiche comme du texte, jamais comme des balises ou des scripts.",
+        "Cette seule pratique ferme des catégories entières de surprises d'injection.",
+        "Les attaques XSS reposent sur des entrées non échappées atteignant le DOM ; l'encodage d'entités cohérent neutralise le vecteur d'attaque avant même que le navigateur n'interprète la chaîne."
+      ]
+    },
+    {
+      "heading": "Blocs de code littéraux et documentation",
+      "paragraphs": [
+        "Publier des exemples de code sur une page signifie imprimer pre et code tels quels, ce qui nécessite d'échapper les mêmes caractères que ceux affichés.",
+        "Encodez vos extraits d'exemple pour les afficher proprement comme du texte.",
+        "La documentation a l'air correcte car les entités s'affichent comme des caractères visibles.",
+        "Les rédacteurs techniques qui échappent les exemples de code une seule fois et stockent la version encodée gagnent des heures de réencodage lorsque le moteur de documentation change."
+      ]
+    },
+    {
+      "heading": "Entités courantes et quand les utiliser",
+      "paragraphs": [
+        "Les cinq entités de base couvrent la plupart des cas : &amp; pour esperluet, &lt; pour inférieur à, &gt; pour supérieur à, &quot; pour guillemet double, et &apos; pour apostrophe.",
+        "Les références de caractères numériques gèrent les symboles non ASCII comme les tirets cadratins, les guillemets courbes et les signes de devise lorsque l'encodage du document ne les garantit pas.",
+        "Savoir quelles entités votre contexte de sortie requiert prévient le mojibake à travers les clients de courriel, les éditeurs CMS et les moteurs de rendu en texte brut."
+      ]
+    },
+    {
+      "heading": "Double encodage : une erreur courante",
+      "paragraphs": [
+        "Appliquer l'encodage HTML deux fois transforme &amp; en &amp;amp;, qui affiche le texte littéral esperluet au lieu du symbole souhaité.",
+        "Les développeurs rencontrent le double encodage lorsqu'un CMS échappe le contenu puis un moteur de modèle l'échappe à nouveau.",
+        "Exécuter un passage de décodage avant le réencodage garantit que la transformation est appliquée exactement une fois, préservant la sortie voulue."
+      ]
+    },
+    {
+      "heading": "Deux directions, un outil",
+      "paragraphs": [
+        "Encodez pour une sortie sûre ; décoder pour récupérer l'original lisible pour audit ou modification.",
+        "Les allers-retours préservent le contenu exactement.",
+        "Les deux directions conviennent au travail de build et éditorial.",
+        "Les développeurs utilisent l'encodage dans les pipelines de build pour assainir le HTML généré, puis utilisent le décodage pour inspecter la même sortie lors de la revue de code."
+      ]
+    },
+    {
+      "heading": "Échappement privé des travaux web internes",
+      "paragraphs": [
+        "Les fragments HTML provenant d'outils internes et de suites de test sont encodés localement.",
+        "Sans téléchargement, sans compte, sans filigrane — sur toutes les plateformes.",
+        "Hygiène web sans exposition.",
+        "Les tableaux de bord internes et les panneaux d'administration qui traitent des données utilisateur sensibles profitent de l'encodage local car les extraits ne passent jamais par un service tiers."
+      ]
+    },
+    {
+      "heading": "Encodage dans les modèles de courriel et de notification",
+      "paragraphs": [
+        "Les clients de courriel rendent le HTML de manière incohérente, et les caractères spéciaux non échappés sont une cause fréquente d'objets cassés et de corps de messages vides.",
+        "Encoder les parties dynamiques d'un modèle de courriel avant le fusionnement du contenu garantit que les noms d'utilisateurs, les titres de produits et les prix s'affichent en texte brut plutôt que d'être mal interprétés.",
+        "Les systèmes de notification qui échappent les champs dynamiques réduisent les demandes d'assistance causées par des sorties brouillées à travers les nombreux moteurs de rendu en circulation."
+      ]
+    },
+    {
+      "heading": "L'encodage au sein de la boîte à outils web",
+      "paragraphs": [
+        "Associez à la conversion Markdown, à l'encodage URL et à la minification CSS pour un ensemble de publication complet.",
+        "La suite est gratuite et native au navigateur.",
+        "Chaque balise, échappée exactement comme prévu.",
+        "Enchaîner ces outils en séquence produit du HTML prêt à publier à partir de contenu brut sans nécessiter d'étape de build côté serveur."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Quels caractères l'encodage HTML échappe-t-il ?",
+      "a": "Les caractères spéciaux <, >, &, les guillemets et les symboles réservés similaires sont traduits en entités sûres."
+    },
+    {
+      "q": "Puis-je décoder les entités en HTML lisible ?",
+      "a": "Oui. L'outil fonctionne dans les deux sens, reconstituant le texte original à partir d'entités encodées."
+    },
+    {
+      "q": "L'encodage HTML est-il privé ?",
+      "a": "Oui. Tout s'exécute localement dans votre navigateur, sans téléchargement ni compte."
+    },
+    {
+      "q": "Quelle est la différence entre encodage et minification ?",
+      "a": "L'encodage remplace les caractères spéciaux par des entités sûres pour prévenir les erreurs de rendu, tandis que la minification supprime les espaces et les commentaires pour réduire la taille du fichier. Ils servent des objectifs différents dans un build web."
+    },
+    {
+      "q": "Que se passe-t-il si j'encode le même texte deux fois ?",
+      "a": "Le double encodage produit une sortie incorrecte telle que &amp;amp; au lieu de &amp;. L'outil vous permet de décoder d'abord pour garantir un seul passage d'encodage propre."
+    },
+    {
+      "q": "L'encodage HTML est-il le même que l'encodage URL ?",
+      "a": "Non. L'encodage HTML convertit les caractères réservés HTML en entités pour un affichage sûr, tandis que l'encodage URL convertit les caractères en valeurs encodées par pourcentage pour une inclusion sûre dans les adresses web."
+    },
+    {
+      "q": "Dois-je échapper les apostrophes dans les attributs HTML entre guillemets simples ?",
+      "a": "Oui. Une apostrophe à l'intérieur d'une valeur d'attribut entre guillemets simples doit être échappée en &apos; pour que le navigateur ne la traite pas comme le guillemet de fermeture."
+    }
+  ]
+}

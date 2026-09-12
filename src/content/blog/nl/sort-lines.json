@@ -1,0 +1,122 @@
+{
+  "slug": "sort-lines",
+  "title": "Regels Sorteren Online Gratis: Alfabetiseren en Regels Omkeren in Één Klik",
+  "description": "Gratis online regel-sorteerder om tekstregels te alfabetiseren, numeriek te sorteren, de volgorde om te keren en hoofdlettergevoeligheid uit te schakelen in je browser. Privé, direct, zonder aanmelden.",
+  "keywords": ["regels sorteren", "regels alfabetisch sorteren", "alfabetiseerder", "tekst online sorteren", "regelvolgorde omkeren", "lijst online sorteren", "regel sorteer tool"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Lijsten Verlangen Orde, Mensen Verlangen Orde Snel",
+      "paragraphs": [
+        "Naamlijsten, URL-lijsten, voorraadregels en citatiestapels smeken allemaal om sortering. Het handmatig doen nodigt fouten uit; een regel-sorteerder ordent alles direct.",
+        "Alfabetische, numerieke en omgekeerde sorteringen dekken vrijwel elk praktisch geval.",
+        "ChooseTools sorteert regels lokaal in je browser, met opties voor case-verwerking en directe output.",
+        "Het ordenen van een lijst neemt cognitieve overhead weg voor iedereen die hem leest, of het publiek nu een mens is die een directory scant of een script dat regelgescheiden gegevens verwerkt."
+      ]
+    },
+    {
+      "heading": "Hoe je een Lijst Alfabetisch Sorteert",
+      "paragraphs": [
+        "Orde hersteld, direct.",
+        "Plak je regels, kies alfabetisch oplopend of aflopend en lees het gesorteerde resultaat. Zet de hoofdlettergevoeligheid naar wens, zodat Zebra en apple correct door elkaar komen te staan.",
+        "De numerieke modus sorteert getallen op waarde in plaats van op woordenboekvolgorde.",
+        "Alfabetisch sorteren is de meest gangbare bewerking voor contactlijsten, woordenschatlijsten, bibliografieën en elke dataset waar namen de primaire sleutel dragen."
+      ]
+    },
+    {
+      "heading": "Numeriek Sorteren: Waarden, Geen Letters",
+      "paragraphs": [
+        "Een gewone sortering plaatst in veel tools 10 vóór 2, omdat strings lexicaal worden vergeleken. De numerieke modus vergelijkt op grootte.",
+        "IDs, bedragen en metingen ordenen correct op het moment dat je van modus wisselt.",
+        "Dit is de stille bug die sorteeropties bestaan om te voorkomen.",
+        "In spreadsheets en databases verschijnt hetzelfde probleem wanneer een kolom als tekst is ingesteld; een browsergebaseerde numerieke sorteerfunctie vangt het op voordat de gegevens de productie bereiken."
+      ]
+    },
+    {
+      "heading": "Omkeren en Dedupliceren Terwijl Je Toch Bezig Bent",
+      "paragraphs": [
+        "Het omkeren van de regelvolgorde is een hele categorie workflows: chronologische lijsten omdraaien, LIFO-stacks voorbereiden, symmetrie controleren.",
+        "Combineer het omkeren met een scan op duplicaten, of voer daarna een deduplicatie uit.",
+        "Orde en netheid komen samen aan.",
+        "Omkeren is ook handig om geëxporteerde logs om te draaien zodat de meest recente vermelding bovenaan staat, wat handmatige controle versnelt."
+      ]
+    },
+    {
+      "heading": "Sorteerscenario's uit de Praktijk",
+      "paragraphs": [
+        "Ontwikkelaars sorteren lijsten met omgevingsvariabelen vóór ze naar versiebeheer worden gecommit, zodat diffs schoon blijven.",
+        "Marketeers alfabetiseren regionale distributielijsten voor snel opzoeken tijdens campagneplanning.",
+        "Onderzoekers sorteren observatietijdstempels numeriek om vóór de analyse de chronologische volgorde te controleren.",
+        "In elk geval is het kernvoordeel hetzelfde: een ruwe plaktekst omzetten in een direct bruikbaar, geordend resultaat."
+      ]
+    },
+    {
+      "heading": "Omgaan met Voorloopspaties en Lege Regels",
+      "paragraphs": [
+        "Geplakte lijsten bevatten vaak losse spaties of lege regels die downstream-scripts breken; de sorteerfunctie behandelt elke regel onafhankelijk, ongeacht voorloop- of naloopspaties.",
+        "Lege regels kunnen behouden blijven voor visuele scheiding of worden verwijderd voor een doorlopende lijst, afhankelijk van de output die je nodig hebt.",
+        "Het opschonen van witruimte tijdens het sorteren bespaart een aparte voorverwerkingsstap en houdt de workflow beperkt tot één plak-en-sorteer-actie."
+      ]
+    },
+    {
+      "heading": "Multi-kolom- en CSV-gegevens Sorteren",
+      "paragraphs": [
+        "Wanneer elke regel door komma's gescheiden velden bevat, alfabetiseert sorteren op de eerste kolom de primaire sleutel terwijl de rest van de regel intact blijft.",
+        "Dit is handig voor het herordenen van CSV-exporten waar de database records in invoegvolgorde heeft geplaatst, maar het spreadsheet een alfabetische presentatie nodig heeft.",
+        "Het combineren van regels sorteren met een CSV-formatter downstream levert een volledig gestructureerde, presentatieklare dataset op uit een ruwe plaktekst."
+      ]
+    },
+    {
+      "heading": "URLs en Bestandspaden Sorteren",
+      "paragraphs": [
+        "URL-lijsten, include-paden en dependency-manifests worden vaak gesorteerd om een project te normaliseren en diff-reviews overzichtelijker te maken.",
+        "Het alfabetisch sorteren van URLs brengt subdomeinen en padsegmenten samen, wat handmatige controle van een lange linkvoorraad versnelt.",
+        "Dezelfde techniek ordent een lijst bestandspaden zodat gerelateerde mappen naast elkaar verschijnen, waardoor de tijd die je besteedt aan het zoeken naar vermeldingen afneemt."
+      ]
+    },
+    {
+      "heading": "Privéverwerking van Klantspecifieke Lijsten",
+      "paragraphs": [
+        "Klantenlijsten, nog niet uitgebrachte voorraden en interne gegevens worden lokaal gesorteerd en blijven van jou.",
+        "Geen upload, geen account, geen watermerk — hetzelfde op Windows, macOS, Linux en mobiel.",
+        "Snel ordenen zonder nieuwsgierige blikken.",
+        "Vertrouwelijke registers zoals personeelsbestanden of deelnemerslijsten verlaten nooit het apparaat, wat essentieel is voor naleving van gegevensverwerkingsbeleid."
+      ]
+    },
+    {
+      "heading": "Sorteren Binnen de Grotere Toolkit",
+      "paragraphs": [
+        "Ruim de volgorde netjes op, formatteer daarna met case-tools of vergelijk vóór en na met de tekstdiff-tool.",
+        "Alles is gratis en draait volledig in de browser.",
+        "Lijsten in perfecte volgorde ruimen werk van je bord.",
+        "Na het sorteren kun je het resultaat direct in een CSV-formatter of een remove-duplicate-lines-hulpprogramma voeden voor verdere opschoning."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan ik getallen op hun werkelijke waarde sorteren?",
+      "a": "Ja. Schakel naar de numerieke modus en waarden zoals 2, 10, 100 worden op grootte geordend in plaats van als tekst."
+    },
+    {
+      "q": "Gaat de sorteerfunctie verstandig met case om?",
+      "a": "Ja. Een case-optie laat je bepalen of gesorteerde regels lettercase gelijk behandelen."
+    },
+    {
+      "q": "Is de regel-sorteerder privé?",
+      "a": "Ja. Sorteren gebeurt lokaal in je browser, zonder uploads of accounts."
+    },
+    {
+      "q": "Kan ik de volgorde van regels omkeren?",
+      "a": "Ja. Eén schakelaar keert de lijst om naar aflopende volgorde, handig voor het omdraaien van chronologische exporten of het maken van aftelreeksen."
+    },
+    {
+      "q": "Blijven de oorspronkelijke regels bij sorteren exact behouden?",
+      "a": "Ja. De sorteerfunctie herordent hele regels als complete eenheden, zodat de tekst van elke regel intact blijft terwijl de positie verandert."
+    },
+    {
+      "q": "Kan ik een lijst sorteren die zowel woorden als getallen bevat?",
+      "a": "Ja. Kies de modus die past bij het dominante inhoudstype, of gebruik de alfabetische modus wanneer je woorden en getallen als platte tekst mengt."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "crop-image",
+  "title": "How to Crop an Image Online Free: Cut Photos to the Perfect Composition",
+  "description": "Crop an image online free with ChooseTools. Remove unwanted areas, apply classic ratios and reframe your photos in the browser with live preview, full privacy and no watermark.",
+  "keywords": ["crop image", "crop image online free", "crop photo", "crop picture", "crop image for instagram", "crop to aspect ratio", "crop image tool free"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Cropping Is Composition's Last Word",
+      "paragraphs": [
+        "The single most effective edit in photography is cropping: removing what does not serve the subject instantly strengthens the shot. Whether cutting a cluttered background, reframing a portrait or standardizing a product photo, crop images online handles it cleanly.",
+        "Cropping also adapts one image to many formats — square for Instagram, 16:9 for hero banners, 4:5 for print.",
+        "ChooseTools crops images locally in your browser with a drag-and-keep box, preset ratios and pixel value feedback — no upload required.",
+        "Professional photographers routinely crop after the fact to strengthen the rule of thirds, eliminate stray elements at the frame edge, or shift the focal point."
+      ]
+    },
+    {
+      "heading": "How to Crop a Picture in the Browser",
+      "paragraphs": [
+        "Reframe a photo in under thirty seconds.",
+        "Upload your image. Drag the crop box over the area you want to keep, optionally locking a classic aspect ratio such as 1:1 or 16:9, and let the preview confirm the result. Download the cropped file.",
+        "Because everything runs locally, you can iterate on the crop box as many times as you like without penalty.",
+        "The live pixel dimensions displayed beside the crop box help you verify that the output meets the exact size requirements of your target platform."
+      ]
+    },
+    {
+      "heading": "Aspect-Ratio Cropping for Social Media and Print",
+      "paragraphs": [
+        "Every target format has an aspect ratio. Locking it while cropping guarantees the output lands exactly as the platform expects — no surprise white bars or squishing on upload.",
+        "Profile squares, story 9:16, banner 16:9: the preset grid covers the common cases, and free-form mode covers the rest.",
+        "A correctly cropped photo uploads instantly and displays perfectly, saving a round of failed submissions.",
+        "Print designers crop to 3:2 or 4:3 ratios to match standard frame sizes, ensuring the final output requires no further adjustment in the layout software."
+      ]
+    },
+    {
+      "heading": "Focus on the Subject With One Drag",
+      "paragraphs": [
+        "Photographers live by the rule \"crop to the story\": remove the distraction, keep the eyes.",
+        "One drag over the essential area transforms a cluttered snapshot into an intentional composition.",
+        "Pair the crop with resize to hit exact pixel targets afterward, and convert to the format the destination demands.",
+        "Photojournalists apply tight crops to isolate the subject and eliminate background noise that dilutes the narrative impact."
+      ]
+    },
+    {
+      "heading": "Batch Considerations and Pixel Accuracy",
+      "paragraphs": [
+        "When cropping multiple images for a product catalog, maintaining consistent framing across shots keeps the catalog visually coherent.",
+        "Locking the same aspect ratio for every image in the batch ensures uniformity even when the source photos have different original dimensions.",
+        "Checking pixel output dimensions before export prevents surprises when the destination enforces strict resolution requirements."
+      ]
+    },
+    {
+      "heading": "Cropping for E-Commerce and Product Listings",
+      "paragraphs": [
+        "Online marketplaces enforce strict aspect ratios and minimum resolutions, and a product photo that fails the spec is rejected on upload.",
+        "Cropping to a centered square with consistent white space around the product creates the uniform catalog look that marketplaces demand.",
+        "Running crop and then compress in one browser session prepares an entire product gallery without opening a desktop editor.",
+        "Keeping the product fully inside the frame while trimming surrounding table or background clutter improves perceived quality and reduces refunds that arise from misleading photos."
+      ]
+    },
+    {
+      "heading": "Private Cropping for Unreleased Work",
+      "paragraphs": [
+        "Cropping lets you decide what will and will not be seen — a sensitive choice better made on your own device.",
+        "Local processing means the read of the full image happens locally, with no upload, watermark or account.",
+        "The tool behaves the same on every operating system and phone, keeping your workflow flexible and private.",
+        "Unreleased product shots, confidential architectural renders and internal training images stay under your control when cropping never leaves the browser."
+      ]
+    },
+    {
+      "heading": "Part of the Complete Image Workflow",
+      "paragraphs": [
+        "The natural pipeline is usually crop for composition, resize to specification, compress for size and convert for delivery.",
+        "Each step is free and private and runs in-browser, so image preparation never needs a desktop app or a server upload.",
+        "Composition control, anywhere, instantly.",
+        "Designers who chain crop, resize and compress in one browser session eliminate the friction of switching between multiple desktop utilities."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I crop to specific aspect ratios?",
+      "a": "Yes. Choose common ratios like 1:1, 16:9 or 4:5, or crop completely free-form by dragging the box anywhere."
+    },
+    {
+      "q": "Does cropping degrade my image quality?",
+      "a": "No. Cropping removes pixels and dumps nothing else; the remaining area keeps its full quality until you resize separately."
+    },
+    {
+      "q": "Is cropping private and free?",
+      "a": "Yes. All operations run locally in your browser with no uploads, watermarks or accounts."
+    },
+    {
+      "q": "Can I see the exact pixel dimensions of my crop?",
+      "a": "Yes. The tool displays the output width and height in pixels as you adjust the crop box, so you can match platform requirements precisely."
+    },
+    {
+      "q": "Can I keep the aspect ratio locked while moving the crop box?",
+      "a": "Yes. A locked ratio keeps the crop box proportional as you drag it across the image, so every position maintains the same width-to-height relationship."
+    }
+  ]
+}

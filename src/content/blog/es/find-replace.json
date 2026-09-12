@@ -1,0 +1,107 @@
+{
+  "slug": "find-replace",
+  "title": "Buscar y Reemplazar Texto Online Gratis: Intercambia Palabras al Instante",
+  "description": "Herramienta gratuita online de buscar y reemplazar para intercambiar palabras, frases y caracteres en tu texto en segundos. Opciones de distinción de mayúsculas y soporte de expresiones regulares. Privada, en tu navegador.",
+  "keywords": ["buscar y reemplazar", "buscar reemplazar texto online", "reemplazar palabra en texto", "buscar y sustituir", "reemplazo masivo de texto", "reemplazo con regex", "herramienta de buscar y reemplazar"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Los Editores Sueñan con Renombrados Masivos en Un Clic",
+      "paragraphs": [
+        "Actualizar un nombre de producto en todo un manual, corregir el apellido mal escrito de un autor en todo un manuscrito, o intercambiar una unidad en todas partes de un conjunto de datos — [find-replace:buscar y reemplazar] es la tarea exacta que los usuarios temen hacer a mano.",
+        "Una herramienta fiable realiza intercambios de documentos completos en segundos, con opciones que impiden coincidencias erróneas.",
+        "ChooseTools realiza la búsqueda y reemplazo localmente en tu navegador, con controles de mayúsculas y expresiones regulares.",
+        "La edición manual invita al error humano: te saltas una ocurrencia, cambias la instancia equivocada o introduces una inconsistencia que lleva más tiempo encontrar que la tarea original."
+      ]
+    },
+    {
+      "heading": "Cómo Reemplazar Texto al Instante",
+      "paragraphs": [
+        "Un solo paso, todas las ocurrencias:",
+        "Pega tu texto, escribe el término de búsqueda, escribe el reemplazo y haz clic en reemplazar todo. Cada coincidencia se actualiza simultáneamente.",
+        "Opcionalmente activa o desactiva la distinción de mayúsculas, o activa las expresiones regulares para coincidencia por patrones; las vistas previas muestran el resultado antes de copiar.",
+        "El paso de vista previa es crucial: te permite verificar el recuento de reemplazos e inspeccionar cada coincidencia antes de confirmar, para que detectes ediciones no deseadas de forma temprana."
+      ]
+    },
+    {
+      "heading": "Distinción de Mayúsculas vs. Coincidencias Flexibles",
+      "paragraphs": [
+        "Reemplazar apple no debería tocar Apple o Apples a menos que lo desees.",
+        "El interruptor de mayúsculas marca la diferencia entre un intercambio quirúrgico y uno general; elige deliberadamente.",
+        "La coincidencia de palabra completa protege coincidencias parciales como pineapple de ediciones no deseadas.",
+        "En la redacción técnica, donde los acrónimos y nombres propios aparecen junto a palabras comunes, la distinción de mayúsculas previene errores embarrassantes en documentos publicados."
+      ]
+    },
+    {
+      "heading": "Expresiones Regulares: Los Usuarios Avanzados Reemplazan Patrones, No Solo Palabras",
+      "paragraphs": [
+        "Direcciones de correo electrónico, formatos de teléfono, espacios en blanco repetidos — patrones, no cadenas exactas.",
+        "Activar las expresiones regulares libera el reemplazo basado en tokens para una limpieza estructurada.",
+        "Un patrón cuidadosamente construido ahorra cientos de ediciones manuales.",
+        "Un ejemplo común es normalizar números de teléfono: un patrón de expresión regular que coincide con diversas agrupaciones de dígitos y separadores puede unificarlos todos en un solo formato con un solo reemplazo, algo que requeriría docenas de pasos individuales de buscar y reemplazar."
+      ]
+    },
+    {
+      "heading": "Escenarios de Reemplazo del Mundo Real",
+      "paragraphs": [
+        "Los equipos de documentación técnica renombran endpoints de API en cientos de páginas, actualizando tanto el texto como los ejemplos de código incrustados. Un solo paso de expresión regular reemplaza el segmento de ruta antiguo en todas partes preservando el contexto circundante.",
+        "Los proyectos de localización intercambian símbolos de moneda, unidades de medida y formatos de fecha en cadenas traducidas. El reemplazo debe respetar el texto circundante sin corromper caracteres especiales o etiquetas de marcado incrustadas en el contenido.",
+        "Los departamentos legales y de cumplimiento censuran o sustituyen nombres confidenciales en contratos y políticas antes de su distribución. La consistencia importa: cada ocurrencia debe cambiar o ninguna debe, y los reemplazos parciales generan responsabilidad.",
+        "Los gestores de contenido que actualizan un nombre de marca en un archivo de blog necesitan distinguir entre la marca usada como nombre propio y la misma cadena que aparece en URLs o fragmentos de código que deben permanecer intactos."
+      ]
+    },
+    {
+      "heading": "Preservando el Contexto Mientras Se Intercambia",
+      "paragraphs": [
+        "El reemplazo no se trata solo de hacer coincidir texto; se trata de mantener el contexto circundante intacto. La herramienta preserva la indentación, los saltos de línea y la puntuación adyacente para que reemplazar una palabra dentro de un bloque de código o un párrafo formateado no rompa el diseño.",
+        "Al trabajar con datos estructurados como CSV o JSON, el modo de palabra completa impide que las coincidencias parciales corrompan los límites de campos o los nombres de claves.",
+        "Estas protecciones significan que puedes reemplazar con confianza en documentos de contenido mixto sin tener que inspeccionar cada línea después.",
+        "El modo de vista previa resalta cada coincidencia en su contexto, dándote la oportunidad final de ajustar el patrón antes de ejecutar el intercambio."
+      ]
+    },
+    {
+      "heading": "Deshacer y Vista Previa para Iteración Segura",
+      "paragraphs": [
+        "El modo de vista previa resalta cada coincidencia con su contexto circundante antes de que se ejecute cualquier reemplazo, permitiéndote verificar que el patrón captura exactamente lo que pretendes y nada más.",
+        "Si el recuento de reemplazos parece demasiado alto o bajo, puedes ajustar el término de búsqueda, alternar la distinción de mayúsculas o refinar una expresión regular antes de confirmar. Esta red de seguridad iterativa previene errores costosos.",
+        "La capacidad de revertir y reaplicar al instante significa que puedes experimentar con diferentes estrategias de reemplazo en el mismo texto sin duplicar la fuente manualmente.",
+        "Estos controles hacen que la herramienta sea adecuada tanto para correcciones puntuales como para flujos de trabajo por lotes recurrentes, reduciendo el riesgo de arrepentimiento en cada paso."
+      ]
+    },
+    {
+      "heading": "Privada para Contenido Sensible y No Publicado",
+      "paragraphs": [
+        "Manuscritos, informes de clientes y nombres internos reciben sus intercambios localmente, nunca en una nube de terceros.",
+        "Sin subidas, sin cuenta, sin marca de agua — en todas las plataformas.",
+        "La intimidad de edición se mantiene local.",
+        "Borradores confidenciales, nombres de producto previos al lanzamiento y nombres clave internos de proyectos permanecen en tu dispositivo durante todo el proceso de reemplazo."
+      ]
+    },
+    {
+      "heading": "Reemplazo Junto a la Caja de Herramientas de Texto",
+      "paragraphs": [
+        "Combina los intercambios con [word-counter:métricas], [case-converter:formato de mayúsculas] o [remove-duplicate-lines:eliminación de duplicados] para una limpieza completa.",
+        "La suite es gratuita y nativa del navegador.",
+        "Renombra una vez, en todas partes, correctamente."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Puedo reemplazar múltiples términos diferentes a la vez?",
+      "a": "La herramienta intercambia un término por paso, pero puedes iterar al instante y repetidamente; con expresiones regulares también puedes definir patrones más amplios."
+    },
+    {
+      "q": "¿Funciona el reemplazo sin distinción de mayúsculas?",
+      "a": "Sí. Activa o desactiva la distinción de mayúsculas para controlar si las coincidencias difieren únicamente por el tipo de letra."
+    },
+    {
+      "q": "¿Buscar y reemplazar es privado?",
+      "a": "Sí. Todas las operaciones ocurren localmente en tu navegador sin subidas ni cuentas."
+    },
+    {
+      "q": "¿Puedo usar expresiones regulares?",
+      "a": "Sí. Activar el modo de expresiones regulares permite la coincidencia basada en patrones para reemplazos complejos como números de teléfono, direcciones de correo electrónico o datos estructurados."
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "protect-pdf",
+  "title": "PDFs online kostenlos per Passwort schützen: Ihr Dokument verschlüsseln",
+  "description": "Schützen Sie eine PDF online kostenlos per Passwort mit ChooseTools. Verschlüsseln Sie Ihr Dokument in Ihrem Browser mit einem starken Passwort — ohne Uploads, ohne Wasserzeichen, mit vollständiger Privatsphäre.",
+  "keywords": ["pdf mit passwort schützen", "passwort pdf schützen", "pdf verschlüsseln", "pdf online kostenlos mit passwort schützen", "pdf datei sichern", "pdf dokument sperren", "pdf-verschlüsselungstool kostenlos"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Warum manche Dateien verschlossen sein müssen",
+      "paragraphs": [
+        "Nicht jede PDF ist für jedermanns Augen bestimmt. Kontoauszüge, unterschriebene Verträge, medizinische Befunde und unveröffentlichte Berichte reisen besser versiegelt. [protect-pdf:PDFs mit einem Passwort zu schützen] umhüllt den Inhalt, sodass nur Personen mit dem Schlüssel sie öffnen können.",
+        "Verschlüsselung bedeutet auch Vertrauen beim Versand — E-Mails sind undichter, als wir annehmen, und eine verschlossene Datei übersteht einen versehentlichen Cc-Fehler gelassen.",
+        "ChooseTools verschlüsselt PDFs lokal in Ihrem Browser. Legen Sie ein Passwort fest, laden Sie die geschützte Datei herunter — und keine Version Ihres Dokuments hat jemals Ihr Gerät verlassen."
+      ]
+    },
+    {
+      "heading": "So fügen Sie einer PDF ein Passwort hinzu",
+      "paragraphs": [
+        "Ihre Datei zu verschließen dauert weniger als eine Minute.",
+        "Laden Sie Ihre PDF hoch und wählen Sie ein starkes Passwort — wir empfehlen eine wirklich zufällige Phrase. Bestätigen Sie sie, und das Tool verschlüsselt das Dokument im Browser und liefert eine geschützte PDF zum Herunterladen.",
+        "Da die Verschlüsselung lokal läuft, existieren Passwort und Datei nur auf Ihrem Gerät. Teilen Sie das Passwort den Empfängern über einen separaten Kanal mit."
+      ]
+    },
+    {
+      "heading": "Starke Passwörter für echten Schutz",
+      "paragraphs": [
+        "Die Stärke der Verschlüsselung hängt von der Qualität des Passworts ab: Kurze Wörterbuchbegriffe machen auch gute Verschlüsselungsalgorithmen zunichte.",
+        "Verwenden Sie eine lange, für das Dokument einzigartige Passphrase — zwölf oder mehr Zeichen mit Groß- und Kleinbuchstaben sowie Zahlen — und bewahren Sie sie in Ihrem Passwort-Manager auf.",
+        "Wenn Sie einen starken Ausgangspunkt benötigen, erstellt der [password-generator:Passwortgenerator] der Suite in einer Sekunde zufällige, merkbare Passphrasen."
+      ]
+    },
+    {
+      "heading": "Was PDF-Verschlüsselung tatsächlich bewirkt",
+      "paragraphs": [
+        "PDF-Verschlüsselung verschlüsselt den Dokumentinhalt, sodass das Öffnen der Datei ohne das richtige Passwort nur unlesbaren Unsinn ergibt. Starke Algorithmen wie AES-256 mit einem ausreichend langen Passwort widerstehen Brute-Force-Angriffen in der Praxis.",
+        "Die Sicherheitsstufe ist entscheidend: Ältere 40-Bit- und 128-Bit-Verschlüsselungsstandards gelten heute als schwach, während moderne AES-256-Verschlüsselung die derzeitige Best Practice ist. Die Ausgabe verwendet eine starke Verschlüsselung, sodass die geschützte Datei den heutigen Sicherheitserwartungen entspricht.",
+        "Verschlüsselung druckt kein Wasserzeichen auf Ihr Dokument und verändert sein Layout nicht; sie wacht lediglich über den Zugriff. Empfänger, die das richtige Passwort eingeben, öffnen und verwenden die PDF genau so, wie Sie sie erstellt haben."
+      ]
+    },
+    {
+      "heading": "Sensible Dokumente in jedem Szenario",
+      "paragraphs": [
+        "Die Personalabteilung versendet Angebotsschreiben, ein Buchhalter verteilt Jahreszusammenfassungen, Anwälte tauschen Vertragsentwürfe aus — alle verlangen ein Passwort.",
+        "Verschlüsselung fügt sich sauber in andere Schutzmaßnahmen ein: Schwärzen Sie mit [pdf-redaction:PDF-Redaktion] die sensibelsten Inhalte, glätten Sie mit [flatten-pdf:PDF glätten] und verschließen Sie anschließend die finale Datei.",
+        "Die verschlossene PDF öffnet sich nur mit dem Passwort und bleibt für jeden anderen unlesbar, E-Mail-Filter eingeschlossen."
+      ]
+    },
+    {
+      "heading": "Das Passwort sicher weitergeben",
+      "paragraphs": [
+        "Das Passwort in derselben E-Mail wie die PDF zu senden, vereitelt den Zweck der Verschlüsselung, weil ein kompromittiertes Postfach beides zugleich offenlegt. Senden Sie das Dokument über einen Kanal und das Passwort über einen vollständig getrennten — etwa eine SMS oder einen Anruf.",
+        "Messaging-Apps mit Ende-zu-Ende-Verschlüsselung bieten eine sicherere Option für die Zustellung der Passphrase. Passwort-Manager können die Anmeldedaten auch direkt mit einem Empfänger teilen, statt das Geheimnis im Klartext zu übertragen.",
+        "Wenn Sie das Passwort speichern müssen, bewahren Sie es in einem Passwort-Manager auf statt als Notiz an der Datei. So bleibt das Geheimnis organisiert und auffindbar, wenn Sie dasselbe Dokument an mehrere Personen senden."
+      ]
+    },
+    {
+      "heading": "Lokale Verschlüsselung respektiert Ihre Daten",
+      "paragraphs": [
+        "Eine vertrauliche PDF an einen Cloud-Dienst zu senden, damit sie dort geschützt wird, untergräbt den Sinn vollständig. Hier geschieht die Verschlüsselung auf Ihrem Rechner.",
+        "Kein Wasserzeichen, kein Konto, keine Wiederverwendung Ihrer Inhalte und identisches Verhalten unter Windows, macOS, Linux und Mobilbrowsern.",
+        "Kostenlos und privat: Dokumentenschutz ist verfügbar, sobald Sie ihn brauchen, von jedem Gerät aus."
+      ]
+    },
+    {
+      "heading": "Schutz als letztes Tor",
+      "paragraphs": [
+        "Die meisten Workflows behandeln Verschlüsselung als Feinschliff am Ende: finalisieren mit [pdf-editor:Bearbeitung], [compress-pdf:komprimieren] für die Größe, dann vor dem Versand verschließen.",
+        "Bleiben Passwort und Empfängerliste organisiert, kann dieselbe geschützte Datei zirkulieren, ohne je ihre Vertraulichkeit zu verlieren.",
+        "Die Kernaussage: Mit kostenloser browserbasierter Verschlüsselung verlässt jede sensible PDF versiegelt Ihren Schreibtisch."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Schützt der Passwortschutz den PDF-Inhalt tatsächlich per Verschlüsselung?",
+      "a": "Ja. Das Tool wendet echte, durch Ihr Passwort geschlüsselte PDF-Verschlüsselung an; das Dokument kann ohne die richtige Passphrase nicht geöffnet werden."
+    },
+    {
+      "q": "Welche Best Practices gelten für das Passwort, das ich festlege?",
+      "a": "Verwenden Sie eine lange, eindeutige Passphrase mit mindestens zwölf Zeichen aus Buchstaben, Zahlen und Symbolen, gespeichert in einem Passwort-Manager und über einen sicheren Kanal an die Empfänger weitergegeben."
+    },
+    {
+      "q": "Ist PDF-Verschlüsselung kostenlos und privat verfügbar?",
+      "a": "Ja. Alles läuft lokal in Ihrem Browser ohne Uploads, Wasserzeichen oder Konten — nur Sie haben je mit dem Dokument zu tun."
+    },
+    {
+      "q": "Kann ich das Passwort später entfernen?",
+      "a": "Ja. Öffnen Sie das Dokument mit Ihrem festgelegten Passwort und nutzen Sie eine Entschlüsselungs- oder Entsperrfunktion, um eine neue ungeschützte PDF zu erzeugen, sobald die Datei keinen Schutz mehr benötigt."
+    },
+    {
+      "q": "Sieht die verschlüsselte PDF anders aus als das Original?",
+      "a": "Nein. Verschlüsselung ändert, wie die Datei geöffnet wird, nicht wie sie aussieht. Inhalt, Layout und Formatierung des Dokuments bleiben exakt erhalten."
+    }
+  ]
+}

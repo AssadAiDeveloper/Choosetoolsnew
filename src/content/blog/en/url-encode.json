@@ -1,0 +1,107 @@
+{
+  "slug": "url-encode",
+  "title": "URL Encoder Decoder: Encode and Decode URLs Online Free",
+  "description": "Free online URL encoder and decoder to safely encode and decode web addresses, strings and query parameters. Private, instant, in your browser.",
+  "keywords": ["url encode", "url decode", "url decoder", "encode url online", "url encoder tool", "percent encode", "decode url string"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "URLs Speak ASCII, the Web Speaks Everything",
+      "paragraphs": [
+        "Links cannot carry spaces, accents or special symbols raw — they must percent-encode. [url-encode:Encoding URLs] translates any string into a transport-safe address that servers interpret correctly.",
+        "Query parameters, biometrics and redirects all rely on correct encoding.",
+        "ChooseTools encodes and decodes URLs locally in your browser.",
+        "Every HTTP request carries encoded data in its path and query string. When encoding is wrong, servers return 400 errors, redirects loop endlessly and analytics attribution breaks silently."
+      ]
+    },
+    {
+      "heading": "How to Encode or Decode a URL",
+      "paragraphs": [
+        "Both directions, instantly:",
+        "Paste a URL with raw characters to encode it into a link-safe form, or paste an encoded address to decode back to human-readable text. Copy the exact result.",
+        "Local processing keeps your query secrets off any server.",
+        "The tool handles both component encoding for individual parameters and full URL encoding for complete addresses, so you choose the right granularity for the task."
+      ]
+    },
+    {
+      "heading": "Queries With Spaces, Accents and Symbols",
+      "paragraphs": [
+        "Search strings with spaces, international characters and reserved symbols break links unless encoded.",
+        "Correct encoding replaces them with %-sequences that survive every hop intact.",
+        "Recipients receive the intended query, decoded faithfully.",
+        "A search for cafe with an accent, for example, encodes the e-acute into its UTF-8 percent-encoded representation, ensuring the target server reconstructs the original query without data loss or substitution."
+      ]
+    },
+    {
+      "heading": "Redirects, Tokens and Crafted Links",
+      "paragraphs": [
+        "Redirect chains embed full addresses inside query values — double encoding must be deliberate. When a redirect URL is itself a parameter value, encoding the outer layer prevents the inner URL from being misinterpreted as separate query keys.",
+        "Tokens and sensitive parameters in URLs now encode predictably.",
+        "Building valid links becomes exact rather than hopeful.",
+        "OAuth callbacks, SSO return addresses and payment gateway URLs all contain special characters that must be encoded at exactly the right level to function across browsers and server implementations."
+      ]
+    },
+    {
+      "heading": "Decoding for Debugging and Log Analysis",
+      "paragraphs": [
+        "Logs are full of encoded addresses; decoding them reveals the real parameters under scrutiny.",
+        "Understanding the raw string behind %20 and %C3%BC speeds up debugging.",
+        "Two clicks turn log noise into clarity.",
+        "Network engineers and backend developers routinely decode captured request URLs to verify that tracking parameters, UTM values and session tokens arrived intact through proxies and load balancers."
+      ]
+    },
+    {
+      "heading": "Encoding Standards and Character Sets",
+      "paragraphs": [
+        "RFC 3986 defines which characters must be encoded in URIs and which are safe to leave unreserved. The tool follows this specification precisely, encoding spaces as %20 and respecting the allowed set of unreserved characters including letters, digits, hyphens, underscores and tildes.",
+        "UTF-8 multibyte characters like emoji and non-Latin scripts encode into their correct percent-encoded sequences, so a URL containing Japanese text or a smiling face decodes identically on any standards-compliant server.",
+        "Understanding the difference between encoding a full URL and encoding just a query parameter value prevents the common mistake of double-encoding already safe characters.",
+        "The decoder reverses every transformation faithfully, restoring the original string including all Unicode code points."
+      ]
+    },
+    {
+      "heading": "Private Web Work",
+      "paragraphs": [
+        "Tokens, auth strings and unpublished links encode locally.",
+        "No upload, no account, no watermark — across all platforms.",
+        "Secure mail-readiness without any exposure whatsoever.",
+        "Authentication tokens, API keys embedded in URLs and internal redirect addresses never touch a third-party service, keeping your infrastructure details confidential during the encoding process."
+      ]
+    },
+    {
+      "heading": "Component Encoding vs Full URL Encoding",
+      "paragraphs": [
+        "Component encoding encodes only the characters that are unsafe within a single URI component — a query value, a path segment or a fragment identifier. Full URL encoding encodes the entire address, which is appropriate when constructing a URL from individual parts.",
+        "Using the wrong encoding mode is a common source of bugs: component-encoding a full URL leaves slashes and question marks unencoded, while full-encoding a parameter value encodes the separators that should remain literal.",
+        "The tool lets you choose the appropriate mode for the task, preventing these mismatches and ensuring the output is valid regardless of the context in which it will be used.",
+        "Understanding when to use each mode is especially important when building URLs programmatically, where the wrong choice introduces subtle bugs that only manifest under specific input combinations."
+      ]
+    },
+    {
+      "heading": "URLs in the Developer Toolkit",
+      "paragraphs": [
+        "Complement with [base64:base64], [html-encode:HTML escaping] and [json-formatter:JSON formatting] for a full request-building set.",
+        "The suite is free and browser-native.",
+        "Every link, exactly right."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What does URL encoding actually do?",
+      "a": "It replaces characters that are unsafe in URLs — spaces, symbols, accents — with percent-encoded sequences that transport safely."
+    },
+    {
+      "q": "Can I decode an encoded URL back to readable text?",
+      "a": "Yes. The decoder reconstructs spaces, accents and symbols from their encoded form."
+    },
+    {
+      "q": "Is URL encoding private?",
+      "a": "Yes. Everything happens locally in your browser with no uploads or accounts."
+    },
+    {
+      "q": "Does it support non-ASCII characters like emoji?",
+      "a": "Yes. UTF-8 multibyte characters are encoded into their correct percent sequences and decoded back faithfully."
+    }
+  ]
+}

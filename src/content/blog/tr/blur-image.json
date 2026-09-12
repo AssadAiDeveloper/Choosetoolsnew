@@ -1,0 +1,99 @@
+{
+  "slug": "blur-image",
+  "title": "Görüntüyü Çevrimiçi Ücretsiz Bulanıklaştırma: Yüzleri ve Özel Ayrıntıları Bulanıklaştırma",
+  "description": "ChooseTools ile görüntüyü çevrimiçi ücretsiz bulanıklaştırın. Herhangi bir fotoğrafta yüzleri, plakaları ve hassas alanları tarayıcınızda, ayarlanabilir güç ve tam gizlilikle bulanıklaştırın.",
+  "keywords": ["görüntüyü çevrimiçi bulanıklaştırma", "fotoğrafta yüz bulanıklaştırma", "görüntünün bir kısmını bulanıklaştırma", "ücretsiz görüntü bulanıklaştırma", "yüzü piksellendirme", "görüntü arka planını bulanıklaştırma", "fotoğraf bölgesini bulanıklaştırma"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Bazen Pikseller Öznenin Kendisinden Daha Önemlidir",
+      "paragraphs": [
+        "Bir sokak fotoğrafı, yayınlamak için izin almadığınız kişileri gösterir; bir ev ilanı özel sanat eserlerini açığa çıkarır; bir ekran görüntüsü bir e-posta adresini ifşa eder. Paylaşmadan önce [blur-image:görüntüleri bulanıklaştırmak], bu bölümlerin herkese açık olmadığını söylemenin modern yoludur.",
+        "Kare blokları piksellendirmekten daha hızlı, daha yumuşak ve daha doğaldır; neyin sınır dışı olduğu konusunda ise aynı derecede açıktır.",
+        "ChooseTools, görüntülerin alanlarını tarayıcınızda yerel olarak bulanıklaştırır — güç ve bölge tamamen sizin kontrolünüzde.",
+        "Bulanıklaştırma, bağlamı tamamen kaldıran kırpmanın aksine ayrıntıyı gizlerken genel kompozisyonu koruduğu için çoğu editoryal ve profesyonel bağlamda tercih edilen redaksiyon yöntemidir."
+      ]
+    },
+    {
+      "heading": "Görüntünün Bir Kısmı Nasıl Bulanıklaştırılır",
+      "paragraphs": [
+        "Hassas biçimde seçin ve yumuşatın:",
+        "Görseli yükleyin, ardından hassas alanın üzerine bir bölge fırçalayın veya çizin — bir yüz, bir plaka, bir sayı. Ayrıntılar gerçekten okunamaz hâle gelene kadar bulanıklık gücünü ayarlayın ve indirin.",
+        "İşleme cihazınızda kalır; böylece düzenlemenin kendisi bile özel kalır.",
+        "Fırça aracı, gereksiz çevre piksellerini içerebilecek dikdörtgen bir seçim dayatmak yerine korumak istediğiniz alanın hatlarını izleyen serbest biçimli bir bölge boyamanıza olanak tanır."
+      ]
+    },
+    {
+      "heading": "Rıza ve Güvenlik için Yüz Bulanıklaştırma",
+      "paragraphs": [
+        "Gazetecilik, etkinlik fotoğrafçılığı ve okul bültenleri aynı sorunla karşı karşıyadır: eksik rıza.",
+        "Temiz bir yüz bulanıklığı, kompozisyonu yok etmeden kimlikleri korur.",
+        "Bulanık bölge, bir düzenleme hatası değil, açıkça kasıtlı bir koruma olarak okunur.",
+        "Birçok yargı bölgesi, ticari olarak kullanılan veya çevrimiçi yayınlanan tanımlanabilir görüntüler için açık rıza gerektirir. Rıza alınmadığında yüzleri geriye dönük olarak bulanıklaştırmak hem yasal bir güvence hem de görüntülenen kişilere bir nezakettir."
+      ]
+    },
+    {
+      "heading": "Asla Yola Çıkmaması Gereken Ayrıntılar",
+      "paragraphs": [
+        "Plakalar, sokak işaretleri, ev numaraları, kişisel veri içeren ekranlar — hepsi dikkatli bir bulanıklıkla kontrol edilebilir.",
+        "İlanlar ve pazaryerleri ayrıca fotoğraflar halka açılmadan önce seri numaralarını ve gizlilik etiketlerini bulanıklaştırır.",
+        "Doğru bulanıklık, aksi takdirde çekmecede kalacak bir fotoğrafa paylaşılabilirliği geri kazandırır.",
+        "Yazılım arayüzlerinin ekran görüntüleri sıklıkla kuruluş dışına paylaşılmadan önce gizlenmesi gereken dahili URL'ler, veritabanı tanımlayıcıları veya kullanıcı bilgileri içerir."
+      ]
+    },
+    {
+      "heading": "Bulanıklık Gücü: Doğru Seviyeyi Bulmak",
+      "paragraphs": [
+        "Çok az bulanıklık, özellikle izleyici yakınlaştırdığında veya görsel yüksek çözünürlükte görüntülendiğinde ayrıntıları kısmen okunur bırakır. Çok fazla bulanıklık, orijinal ayrıntıdan daha fazla dikkat çeken bariz ve doğal olmayan bir leke yaratır.",
+        "İdeal güç, hedefi tamamen okunamaz hâle getirirken çevredeki alanı görsel olarak tutarlı tutar. Bir yüz tanınmaz olmalı ancak genel fotoğraf yine de iyi kompozisyonlu bir görsel gibi görünmelidir.",
+        "Gerçek çözünürlükte önizleme yaparken kaydırıcıyı ayarlamak, belirli görsel boyutu ve görüntüleme bağlamı için doğru dengeyi bulmanızı sağlar.",
+        "Bulanık sonucu gerçekten yayınlanacağı boyutta test etmek — küçük resim, tam genişlik veya baskı — korumanın olası her görüntüleme ölçeğinde geçerli olduğunu doğrular."
+      ]
+    },
+    {
+      "heading": "Gizlilik Uyumluluğu için Ekran Görüntülerini Bulanıklaştırma",
+      "paragraphs": [
+        "Yazılım demoları, hata raporları ve müşteri destek görüşmeleri sıklıkla dahili verileri, kullanıcı bilgilerini veya yayınlanmamış özellikleri açığa çıkaran ekran görüntüleri gerektirir.",
+        "Bu ekran görüntülerini dışarıyla paylaşmadan önce belirli bölgeleri bulanıklaştırmak, hem teknik destek hem de ürün geliştirme iş akışlarında standart bir gizlilik uygulamasıdır.",
+        "Müşteri hizmetleri ekipleri, yükseltme öncesinde destek biletlerinin ekran görüntülerindeki hesap numaralarını, e-posta adreslerini ve kişisel tanımlayıcıları bulanıklaştırır; veri koruma düzenlemelerine uyum sağlar.",
+        "Geliştirme ekipleri, ilerleme ekran görüntülerini harici paydaşlarla paylaşırken veya genel kanallara yüklerken dahili panoları, API yanıtlarını ve yapılandırma panellerini bulanıklaştırır."
+      ]
+    },
+    {
+      "heading": "Gizli Çekimlerin Özel Düzenlenmesi",
+      "paragraphs": [
+        "Kendi görsel sırlarınızı yerel olarak bulanıklaştırmak, bunların başka hiçbir yerde analiz edilmediğini garanti eder.",
+        "Yükleme yok, filigran yok, hesap yok — Windows, macOS, Linux ve mobil.",
+        "Neyin herkese açık olduğuna dair küratörlüğünüz tamamen sizin işinizdir.",
+        "Bir görseli redakte ettiğiniz gerçeği başlı başına hassas bilgidir; yerel işleme, düzenleme eyleminin bile özel kalmasını sağlar."
+      ]
+    },
+    {
+      "heading": "Diğer Koruyucu Düzenlemelerin Yanında Bulanıklaştırma",
+      "paragraphs": [
+        "Bulanıklaştırmayı [remove-exif:meta veri kaldırma] ile eşleştirin; böylece ne görüntü bölgeleri ne de gizli etiketler özel bir şey açığa çıkarsın.",
+        "Komple araç seti tarayıcı tabanlı ve özeldir.",
+        "Hassas her karenin düzgünce gizlendiğinden emin olarak yayınlayın.",
+        "Bulanıklaştırmayı meta veri temizliğiyle birleştirmek, görüntü hedef kitlesine ulaştığında görsel içeriğin veya gömülü konum, cihaz veya yazarlık verisinin sızmamasını sağlar."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bir görselin birden çok bölgesini bulanıklaştırabilir miyim?",
+      "a": "Evet. Yüzler, plakalar ve sayılar — her biri kendi bulanıklaştırmasıyla ihtiyaç duyulan her alana çizin veya fırçalayın."
+    },
+    {
+      "q": "Bulanıklığın ne kadar güçlü olduğunu kontrol edebilir miyim?",
+      "a": "Evet. Ayrıntılar belirgin şekilde okunamaz hâle gelirken çevredeki görsel doğal kalacak şekilde gücü ayarlayın."
+    },
+    {
+      "q": "Bulanıklaştırma aracı özel ve ücretsiz midir?",
+      "a": "Evet. Her şey yükleme, filigran veya hesap olmadan tarayıcınızda yerel olarak çalışır."
+    },
+    {
+      "q": "Gizlilik için bulanıklık piksellendirmeden daha mı iyi çalışır?",
+      "a": "Bulanıklık genellikle tercih edilir çünkü piksellendirmenin sert bloklu görünümü olmadan ayrıntıyı gizleyen daha yumuşak bir sonuç üretir; ancak her iki yöntem de tanımlamayı etkili şekilde önler."
+    }
+  ]
+}

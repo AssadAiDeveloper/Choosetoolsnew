@@ -1,0 +1,123 @@
+{
+  "slug": "csv-to-excel",
+  "title": "Convertidor de CSV a Excel: convierte CSV a XLSX en línea gratis",
+  "description": "Convertidor gratuito de CSV a Excel para transformar archivos CSV planos en libros de trabajo XLSX con formato, directamente en tu navegador. Privado, sin subidas, sin registro y sin marcas de agua.",
+  "keywords": ["csv a excel", "convertidor de csv a xlsx", "convertir csv a excel en línea", "csv a excel gratis", "importar csv a un libro de trabajo", "herramienta csv a xlsx", "csv a hoja de cálculo"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "CSV es simple; a veces Excel es obligatorio",
+      "paragraphs": [
+        "CSV es perfecto para las máquinas pero plano para los humanos: sin formato, sin varias hojas, sin fórmulas. [csv-to-excel:Conversión de CSV a Excel] viste las filas en bruto en un libro de trabajo familiar para el análisis y la presentación.",
+        "Una sola subida convierte un archivo de texto en una hoja de cálculo lista para hacer doble clic.",
+        "ChooseTools convierte CSV a XLSX localmente en tu navegador."
+      ]
+    },
+    {
+      "heading": "Cómo convertir un CSV a Excel",
+      "paragraphs": [
+        "Del texto en bruto al libro de trabajo con formato:",
+        "Pega o sube tu CSV, confirma el delimitador y los encabezados y convierte. El archivo de Excel se descarga listo para filtrar, crear gráficos y compartir.",
+        "El análisis es local, por lo que los datos de los clientes permanecen en su lugar."
+      ]
+    },
+    {
+      "heading": "Tipos de columna y detección de encabezados",
+      "paragraphs": [
+        "Las filas CSV se convierten en columnas con valores tipados conservados: los números permanecen numéricos para las fórmulas.",
+        "Los encabezados se convierten en la primera fila de una tabla útil.",
+        "Una estructura lista para el análisis sustituye a un pegado de texto en bruto."
+      ]
+    },
+    {
+      "heading": "Para filtrar, crear gráficos y colaborar",
+      "paragraphs": [
+        "Los equipos trabajan más naturalmente en herramientas de hojas: filtros, tablas dinámicas y gráficos sobre columnas limpias.",
+        "Las hojas de cálculo entregables son más fáciles de anotar y aprobar que un CSV en bruto.",
+        "La fricción de la colaboración disminuye a medida que aumenta la familiaridad."
+      ]
+    },
+    {
+      "heading": "Manejo de conjuntos de datos grandes sin colgar tu navegador",
+      "paragraphs": [
+        "Las exportaciones corporativas contienen habitualmente decenas de miles de filas, y pegar ese volumen en una aplicación de hojas de cálculo manualmente es poco práctico. El convertidor procesa archivos grandes de forma eficiente en el navegador, produciendo un libro de trabajo XLSX válido independientemente del número de filas.",
+        "Debido a que la conversión se ejecuta localmente, evitas los retrasos de subida y las restricciones de tamaño de archivo que imponen los servicios en la nube. Un CSV de 50 MB que agotaría el tiempo de espera en muchas herramientas en línea se convierte sin problemas sin salir de tu máquina.",
+        "El libro de trabajo resultante se abre en Excel, Google Sheets o LibreOffice Calc con todas las filas intactas y listas para ordenar, filtrar y crear tablas dinámicas."
+      ]
+    },
+    {
+      "heading": "Exportaciones desordenadas ordenadas en tablas",
+      "paragraphs": [
+        "Las exportaciones de CRMs y plataformas llegan desiguales; el convertidor las normaliza en filas y columnas ordenadas.",
+        "Los campos entre comillas, el espacio en blanco extra y las rarezas del delimitador se resuelven como columnas estándar.",
+        "El libro de trabajo es utilizable al primer abrirlo."
+      ]
+    },
+    {
+      "heading": "Compatibilidad de codificación y delimitador",
+      "paragraphs": [
+        "Los archivos CSV exportados desde distintos sistemas operativos usan codificaciones de caracteres y delimitadores diferentes. Un archivo guardado en Windows puede usar comas mientras que una exportación de un sistema europeo usa puntos y coma. El convertidor te permite elegir el delimitador correcto para que las columnas se analicen con precisión.",
+        "Se manejan UTF-8, Latin-1 y otras codificaciones comunes para que los caracteres acentuados, la escritura árabe o el texto de Asia oriental aparezcan correctamente en el libro de trabajo de salida en lugar de como símbolos corruptos.",
+        "Acertar con estos dos ajustes en el momento de la conversión evita la fuente de frustración más habitual al importar datos a Excel."
+      ]
+    },
+    {
+      "heading": "Fechas, ceros a la izquierda y trampas de pérdida de datos",
+      "paragraphs": [
+        "La trampa clásica de las hojas de cálculo es el dato que parece numérico pero debería almacenarse como texto: los códigos de producto, los códigos postales y los números de identificación que empiezan con ceros pierden esos ceros en el momento en que se tratan como números. El convertidor conserva esos valores como texto para que los códigos lleguen intactos.",
+        "Las fechas exportadas desde bases de datos llegan en formatos incoherentes, desde AAAA-MM-DD hasta estilos regionales con barras. Convertir con un entendimiento explícito del formato fuente te permite conservar los valores o normalizarlos antes del análisis.",
+        "Prevenir la pérdida silenciosa de datos en el momento de la conversión es mucho más fácil que depurar columnas corruptas después de que el libro de trabajo ya esté circulando por un equipo."
+      ]
+    },
+    {
+      "heading": "Evitar errores de fórmula con tipos limpios",
+      "paragraphs": [
+        "Las fórmulas de las hojas de cálculo fallan en silencio con lo que parece números pero se importó como texto, produciendo totales de cero y búsquedas rotas. El convertidor asigna tipos numéricos reales durante la conversión para que SUMAR, PROMEDIO y BUSCARV se comporten como se espera al primer intento.",
+        "Las celdas vacías y los guiones de marcador de posición que llegan de las exportaciones se normalizan para que las filas en blanco permanezcan en blanco en lugar de ser malinterpretadas como cero por las funciones de agregación.",
+        "Un libro de trabajo que entra en un equipo con tipos correctos ahorra a todos el ritual de depuración de reformatear columnas después de la importación."
+      ]
+    },
+    {
+      "heading": "De CSV de bases de datos y CRMs a un libro de trabajo limpio",
+      "paragraphs": [
+        "Las exportaciones de bases de datos rara vez coinciden con la disposición de columnas que espera una parte interesada, y el CSV en bruto es incómodo para quien quiere filtrar o pivotar de inmediato. Convertir a una estructura de hoja de cálculo permite a los destinatarios usar herramientas familiares sin aprender un nuevo flujo de trabajo.",
+        "Los equipos de marketing, los departamentos financieros y el personal de operaciones consumen cada uno la misma exportación de forma diferente, y un libro de trabajo compartible se adapta a sus diferentes necesidades mejor que un volcado de texto plano.",
+        "Debido a que la conversión es local y repetible, regenerar un libro de trabajo nuevo a partir de una exportación actualizada lleva segundos y nunca expone los datos a un servicio externo."
+      ]
+    },
+    {
+      "heading": "Producción privada de hojas de cálculo",
+      "paragraphs": [
+        "Los datos tabulares sensibles se convierten localmente, sin cruzar nunca una red.",
+        "Sin subidas, sin cuenta, sin marcas de agua, en todas las plataformas.",
+        "El análisis permanece dentro de la empresa."
+      ]
+    },
+    {
+      "heading": "Trabajo CSV dentro de la suite de datos completa",
+      "paragraphs": [
+        "Compáñalo con [excel-to-csv:Excel a CSV], [csv-json:CSV a JSON] y [json-to-excel:JSON a Excel] para una interoperabilidad completa.",
+        "Todo es gratuito y basado en el navegador.",
+        "De filas planas a un libro de trabajo pulido, al instante."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Conserva el convertidor los tipos de datos?",
+      "a": "Sí. Los valores numéricos permanecen numéricos y el texto permanece como texto en el libro de trabajo generado, manteniendo fiables las fórmulas y el análisis."
+    },
+    {
+      "q": "¿Puedo elegir un delimitador para mi CSV?",
+      "a": "Sí. Se admiten los delimitadores de coma, punto y coma y tabulación para que las exportaciones regionales se importen correctamente."
+    },
+    {
+      "q": "¿Es privada la conversión?",
+      "a": "Sí. Todo se ejecuta localmente en tu navegador, sin subidas ni cuentas."
+    },
+    {
+      "q": "¿Qué ocurre si mi CSV tiene recuentos de columnas incoherentes?",
+      "a": "El convertidor normaliza las filas para que cada columna esté contabilizada, rellenando los valores que faltan cuando sea necesario para mantener una tabla rectangular limpia en el libro de trabajo de salida."
+    }
+  ]
+}

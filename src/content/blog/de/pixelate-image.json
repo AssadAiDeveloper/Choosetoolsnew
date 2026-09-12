@@ -1,0 +1,100 @@
+{
+  "slug": "pixelate-image",
+  "title": "Bilder online kostenlos verpixeln: Mit Pixelblöcken zensieren",
+  "description": "Verpixeln Sie Bilder online kostenlos mit ChooseTools. Decken Sie Gesichter, Nummern und sensible Bereiche mit sauberer Verpixelung direkt im Browser ab — mit voller Privatsphäre und ohne Wasserzeichen.",
+  "keywords": ["bild verpixeln", "teil eines bildes verpixeln", "bild online mosaikieren", "gesicht verpixeln", "bild online kostenlos zensieren", "foto mit pixeln unkenntlich machen", "foto verpixeln"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Verpixelung ist Zensur, die ehrlich bleibt",
+      "paragraphs": [
+        "Manchmal reicht eine weiche Unschärfe nicht aus und ein bewusst gesetztes Mosaik ist genau richtig: Verpixelung sagt eindeutig „absichtlich verdeckt“ und behält zugleich die grafische Identität des Bildes. Die [pixelate-image:Verpixelung von Bildern] ist der klassische Weg, um ein Gesicht, eine Nummer oder ein Logo zu verbergen.",
+        "Nachrichtenredaktionen, Polizeimitteilungen, Marktplätze und Schulkommunikation verlassen sich alle auf den Mosaik-Look.",
+        "ChooseTools verpixelt Bildbereiche lokal in Ihrem Browser — mit Blockgrößen-Steuerung über den Effekt.",
+        "Das Ergebnis ist eine Datei, die dem Geist der Datenschutzgesetze und redaktioneller Leitlinien folgt, ohne je den Kontext zu verlieren, den ein Foto trägt."
+      ]
+    },
+    {
+      "heading": "Wie der Mosaik-Effekt entsteht",
+      "paragraphs": [
+        "Verpixelung funktioniert, indem ein ausgewählter Bereich in ein Raster aus Blöcken geteilt und jeder Block durch eine einzige Durchschnittsfarbe der darunterliegenden Pixel ersetzt wird.",
+        "Ein grobes Raster erzeugt das schwere, unverkennbare Mosaik klassischer Zensur; ein feines Raster ergibt eine körnige Textur, die nur das Detail weichzeichnet.",
+        "Da die Berechnung einfach und lokal ist, erfolgt der Vorgang selbst bei hochauflösenden Fotos sofort, und Sie können das Ergebnis prüfen, bevor Sie sich festlegen.",
+        "Die Blockgröße nach der Auswahl anzupassen kostet nichts, sodass sich die Feinabstimmung bis zum Punkt des Bildes praktisch statt mühsam gestaltet."
+      ]
+    },
+    {
+      "heading": "So verpixeln Sie einen Bereich eines Bildes",
+      "paragraphs": [
+        "Mit Stil und Präzision zensieren:",
+        "Laden Sie das Bild hoch und wählen Sie den zu maskierenden Bereich; passen Sie die Blockgröße von subtiler Körnung bis zum schweren Mosaik an. Prüfen Sie in der Vorschau, dass der Inhalt vollständig verborgen ist, und laden Sie es dann herunter.",
+        "Alles geschieht lokal, sodass niemand sieht, was Sie verbergen wollten oder wo.",
+        "Einen Bereich erneut auszuwählen ist so einfach wie das erneute Zeichnen des Rechtecks — Sie behalten die volle Kontrolle über das finale Erscheinungsbild, bevor die Datei Ihr Gerät verlässt."
+      ]
+    },
+    {
+      "heading": "Mosaik-Zensur für öffentliches Bildmaterial",
+      "paragraphs": [
+        "Bei der Ausstrahlung eines Crowd-Fotos: Umstehende mosaikieren. Beim Veröffentlichen eines Tatorts: Kennungen maskieren. Beim Verkauf eines Gebrauchtwagens: Kennzeichen abdecken.",
+        "Der schwere Mosaik-Look ist eindeutig und zeitlos — im Druck wie auf Bildschirmen.",
+        "Zensur löscht nie das gesamte Foto — nur die Teile, die Gesetz oder Anstand verlangen.",
+        "Dieser chirurgische Ansatz hält das Bild für Berichterstattung, Listings und Ankündigungen nutzbar und schützt zugleich jede Person oder jedes Detail, das es nicht preisgeben darf."
+      ]
+    },
+    {
+      "heading": "Den Verpixelungsgrad für das richtige Bild steuern",
+      "paragraphs": [
+        "Kleine Blöcke wirken wie „körniges Detail“, große Blöcke wie unverkennbare Zensur.",
+        "Die Blockgröße an das Ausmaß des zu Verbergenden anzupassen hält das Ergebnis verhältnismäßig.",
+        "Der Effekt bleibt lokal bearbeitbar, bis er exakt stimmt.",
+        "Bei Gesichtern verdeckt ein mittlerer bis großer Block die Identität deutlich; bei Kennzeichen und Nummern erhält ein engerer Block die Wiedererkennbarkeit des übrigen Bildausschnitts.",
+        "Da das Mosaik aus dem Bild selbst rekonstruiert wird, fügt sich die maskierte Fläche natürlich in die umgebenden Pixel ein, statt wie ein eingefügtes Pflaster zu wirken — der Effekt bleibt im Druck, online und in sozialen Feeds professionell."
+      ]
+    },
+    {
+      "heading": "Unschärfe oder Mosaik: die richtige Maske wählen",
+      "paragraphs": [
+        "Unschärfe weicht Pixel zu einem weichen Schmierer auf, der sich manchmal teilweise rekonstruieren lässt oder bei großen Flächen visuell ablenkt.",
+        "Verpixelung zerlegt den Bereich in knackige Blöcke, die lesbare Details dauerhaft entfernen — weshalb redaktionelle und juristische Workflows sie bevorzugen.",
+        "Wo eine Vorschau angenehm fürs Auge bleiben soll, wirkt ein leichtes Mosaik aufgeräumter als ein schwerer Gauß-Schmierer.",
+        "Wählen Sie den Maskierungsstil, der zur Geschichte passt, die das Foto nach dem Verschwinden der sensiblen Teile weiter erzählen soll."
+      ]
+    },
+    {
+      "heading": "Privates Zensieren sensibler Dateien",
+      "paragraphs": [
+        "Bilder, die eine Mosaikbehandlung benötigen, enthalten häufig genau den Inhalt, der nicht reisen sollte. Die lokale Verarbeitung hält sie hier.",
+        "Kein Upload, kein Wasserzeichen, kein Konto — auf jedem Betriebssystem und Telefon.",
+        "Ihre Entscheidungen über öffentliche Sichtbarkeit liegen vollständig in Ihren Händen.",
+        "Ob es sich um ein juristisches Beweisstück, ein Schulkindfoto oder ein unveröffentlichtes Produktfoto handelt — während Sie es für die Weitergabe vorbereiten, wird nichts davon jemals übertragen."
+      ]
+    },
+    {
+      "heading": "Verpixeln und mit Bedacht teilen",
+      "paragraphs": [
+        "Kombinieren Sie die Maske mit der [remove-exif:Entfernung von Metadaten], damit die Datei nie andere Details preisgibt.",
+        "Die Suite bleibt kostenlos, browserbasiert und privat.",
+        "Präzise zensieren, vertrauensvoll teilen.",
+        "Sobald der Bereich maskiert und die Metadaten entfernt sind, ist das Bild bereit für Zeitungen, Marktplätze oder soziale Feeds — ohne Sorge vor eingebetteten Überraschungen."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kann ich die Größe der Pixelblöcke steuern?",
+      "a": "Ja. Passen Sie die Blockgröße zusammen mit dem maskierten Bereich an, um fein zu justieren, wie dicht oder grob das Mosaik erscheint."
+    },
+    {
+      "q": "Kann ich mehrere Bereiche gleichzeitig verpixeln?",
+      "a": "Ja. Vor dem Export kann eine beliebige Anzahl von Bereichen im selben Bild maskiert werden."
+    },
+    {
+      "q": "Ist die Verpixelung privat und kostenlos?",
+      "a": "Ja. Sie läuft vollständig in Ihrem Browser ohne Uploads, Wasserzeichen oder Konten."
+    },
+    {
+      "q": "Warum für sensible Inhalte Verpixelung statt Unschärfe wählen?",
+      "a": "Verpixelung entfernt lesbare Details in knackige, dauerhafte Blöcke und ist der Standard, auf den Verlags- und Justizbranche bei Gesichtern und Kennungen vertrauen."
+    }
+  ]
+}

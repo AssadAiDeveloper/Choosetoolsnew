@@ -1,0 +1,107 @@
+{
+  "slug": "favicon-generator",
+  "title": "Como Criar um Favicon Online Gratuitamente: Faça Ícones para o Seu Site",
+  "description": "Crie um favicon online gratuitamente com a ChooseTools. Transforme qualquer imagem num ícone de navegador perfeito e num conjunto de favicons, no seu navegador, com predefinições de tamanho e total privacidade.",
+  "keywords": ["gerador de favicon", "fazer favicon", "criar favicon online", "favicon para site", "gerador de ícones", "criador de ícones para site", "favicon 32x32 online"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "O Pequeno Ícone que Apresenta o Seu Site",
+      "paragraphs": [
+        "O pequeno ícone no separador do navegador é um aperto de mão de marca que os utilizadores veem o dia inteiro. Um favicon nítido e alinhado com a marca transmite polimento antes de a página sequer carregar. [favicon-generator:Criar um favicon] a partir do seu logótipo ou arte é a via mais rápida para essa identidade.",
+        "Os navegadores pedem ícones em vários tamanhos, pelo que um favicon adequado chega como um conjunto, não como um único ficheiro.",
+        "A ChooseTools gera favicons localmente no seu navegador a partir de qualquer imagem que carregue."
+      ]
+    },
+    {
+      "heading": "Como Fazer um Ícone para o Site",
+      "paragraphs": [
+        "O seu logótipo torna-se um ícone de separador em segundos:",
+        "Carregue a imagem fonte — idealmente um logótipo quadrado. Escolha os tamanhos-alvo do ícone, pré-visualize cada tamanho gerado e transfira os ficheiros de favicon prontos para o seu site.",
+        "Como o processamento é local, iterar no recorte ou no tamanho é instantâneo."
+      ]
+    },
+    {
+      "heading": "O Conjunto de Ícones de que os Navegadores Realmente Precisam",
+      "paragraphs": [
+        "Os sites modernos referenciam vários tamanhos: o clássico ícone de separador 16x16, variantes de maior resolução para separadores retina e ecrãs iniciais.",
+        "O gerador corresponde a definições recomendadas, pelo que colocar o resultado no seu projeto simplesmente funciona.",
+        "Chega de escalar à mão pixel a pixel."
+      ]
+    },
+    {
+      "heading": "Recorte Quadrado que Mantém a Marca Centrada",
+      "paragraphs": [
+        "Os favicons são implacavelmente quadrados; o recorte da fonte deve centrar a marca exatamente no sítio certo.",
+        "A ferramenta ajuda a recortar com pré-visualização quadrada em tempo real para que o ícone se leia corretamente em tamanhos minúsculos.",
+        "A legibilidade mínima a 16px é o teste real — a pré-visualização mostra-o."
+      ]
+    },
+    {
+      "heading": "Integração em HTML e Apple Touch Icons",
+      "paragraphs": [
+        "Depois de ter os ficheiros de ícone, adicioná-los ao seu site significa colocar algumas etiquetas link na secção head do seu HTML. A referência padrão rel igual a icon cobre a maioria dos navegadores, enquanto a referência apple-touch-icon garante que os marcadores do ecrã inicial do iOS exibem a sua marca em alta resolução.",
+        "Alguns sistemas de gestão de conteúdo permitem carregar um único favicon e tratar automaticamente das variantes de tamanho, mas codificar manualmente as etiquetas link dá-lhe controlo total sobre qual a versão que cada plataforma recebe.",
+        "O gerador produz ficheiros com nomes convencionais que correspondem a referências comuns de etiquetas link, pelo que integrá-los no seu projeto é uma questão de os colocar no diretório certo e adicionar o HTML correspondente."
+      ]
+    },
+    {
+      "heading": "Formatos e Considerações de Transparência",
+      "paragraphs": [
+        "Os navegadores modernos suportam favicons PNG que preservam a transparência e o detalhe nítido em todos os tamanhos. O clássico formato ICO permanece compatível com navegadores mais antigos e certos ambientes empresariais que não atualizam os seus portais de intranet há anos.",
+        "Os favicons SVG estão a ganhar suporte nos navegadores baseados em Chromium e oferecem escalagem independente de resolução, embora ainda não sejam universalmente adotados. Ter um fallback PNG ao lado de uma versão SVG cobre tanto clientes modernos como antigos.",
+        "O gerador produz o formato mais amplamente compatível para cada tamanho, garantindo que o seu ícone aparece corretamente quer um visitante use a versão mais recente do Chrome quer um navegador empresarial desatualizado."
+      ]
+    },
+    {
+      "heading": "Testar Como o Seu Ícone Fica nos Tamanhos Reais",
+      "paragraphs": [
+        "Um logótipo que parece elegante num poster pode tornar-se uma mancha ilegível a 16 píxeis. O gerador pré-visualiza o ícone nos tamanhos exatos em que os navegadores o vão renderizar, para que julgue a legibilidade realisticamente em vez de ampliado no ecrã.",
+        "O contraste forte entre a marca e o fundo do ícone é o ingrediente que mantém os ícones pequenos reconhecíveis. Silhuetas simples e formas a negrito sobrevivem melhor à renderização minúscula do que linhas finas e gradientes delicados.",
+        "Pré-visualizar, ajustar e regenerar acontecem todos localmente, pelo que iterar até o ícone ser legível no seu tamanho mais pequeno leva minutos em vez de uma sessão de ferramenta de design."
+      ]
+    },
+    {
+      "heading": "Consistência de Marca em Várias Plataformas",
+      "paragraphs": [
+        "Para além dos separadores do navegador, a mesma marca aparece nas barras de marcadores, nas notificações de pedidos de palavra-passe e nos mosaicos do ecrã inicial do telemóvel. Um conjunto de ícones unificado mantém a marca reconhecível em todas as superfícies, em vez de fragmentar em várias aproximações inconsistentes.",
+        "As pré-visualizações de partilha social e as entradas do histórico do navegador também exibem imagens de favicon, estendendo o alcance do ícone muito para além de sites profissionais. A consistência nestas superfícies reforça silenciosamente a marca cada vez que o ícone aparece.",
+        "Gerar todas as variantes a partir de uma única fonte recortada garante que cada superfície espelha exatamente o design pretendido."
+      ]
+    },
+    {
+      "heading": "Produção Privada de Favicons",
+      "paragraphs": [
+        "Os logótipos pré-lançamento são exatamente as imagens que não deve carregar. A geração de favicons é executada localmente e permanece aqui.",
+        "Sem marca de água, sem conta, sem upload — em todos os dispositivos.",
+        "Os ativos de identidade permanecem nas suas mãos."
+      ]
+    },
+    {
+      "heading": "De Logótipo a Site Ativo, um Único Pipeline",
+      "paragraphs": [
+        "Crie o ícone e depois otimize as outras imagens do site com [resize-image:redimensionar] e [compress-image:comprimir].",
+        "O conjunto é gratuito, privado e inteiramente baseado no navegador.",
+        "O embaixador mais pequeno da sua marca, pronto em minutos."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Que tamanhos vai incluir o meu conjunto de favicons?",
+      "a": "O gerador produz os tamanhos padrão que os navegadores e os ecrãs iniciais pedem, incluindo o clássico ícone de separador 16x16 e variantes maiores."
+    },
+    {
+      "q": "Posso criar um favicon a partir de qualquer imagem?",
+      "a": "Sim. Um logótipo quadrado ou arte funciona melhor; a ferramenta recorta e gera cada tamanho necessário com pré-visualização em tempo real."
+    },
+    {
+      "q": "A geração de favicons é privada?",
+      "a": "Sim. Tudo é executado localmente no seu navegador, sem uploads, marcas de água ou contas."
+    },
+    {
+      "q": "E se a minha imagem fonte não for quadrada?",
+      "a": "A ferramenta fornece um guia de recorte em tempo real para que possa selecionar a melhor região quadrada de uma imagem retangular. Centrar a marca no recorte garante que o ícone se lê bem em todos os tamanhos."
+    }
+  ]
+}

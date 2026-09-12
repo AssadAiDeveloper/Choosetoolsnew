@@ -1,0 +1,115 @@
+{
+  "slug": "tafqit",
+  "title": "Tafqit: Convert Numbers to Arabic Words Online Free",
+  "description": "Free Tafqit tool to spell out numbers in Arabic words for invoices, contracts and cheques. Private, in your browser, with Arabic number words.",
+  "keywords": ["tafqit", "number to arabic words", "spell number in arabic", "arabic word number", "tafqit al adad", "convert number to arabic words", "cheque amount in arabic"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Bank Amounts Demand Words, Not Just Digits",
+      "paragraphs": [
+        "Invoices, contracts and cheques spell amounts in words to prevent fraud and ambiguity. [tafqit:Converting numbers to Arabic words] produces correct Arabic text for any figure, instantly.",
+        "Grammar-aware output respects gender and case rules that native readers notice immediately.",
+        "ChooseTools converts numbers to Arabic tafqit locally in your browser with no data leaving the device."
+      ]
+    },
+    {
+      "heading": "How to Convert a Number to Arabic Words",
+      "paragraphs": [
+        "Digits in, correct words out:",
+        "Enter a number and receive its spelling in Arabic word form, with proper units like thousand, million and billions. Pick currency handling if amounts are in currency. The converter accepts both integers and decimal values, handling fractional portions with the correct grammatical connectors.",
+        "Conversion runs entirely on your device, keeping sensitive financial figures away from external servers and third-party services."
+      ]
+    },
+    {
+      "heading": "Grammar That Follows Arabic Rules",
+      "paragraphs": [
+        "Arabic numerals agree with masculine and feminine nouns; the converter applies those rules automatically so the output reads naturally to native speakers.",
+        "Compound forms such as 122 are assembled exactly as native speakers expect, with the correct conjunctions and structural particles joining each component.",
+        "Formal language, correctly structured, suitable for legal and financial documents without further editing."
+      ]
+    },
+    {
+      "heading": "Common Formats and Currency Variations",
+      "paragraphs": [
+        "Arabic tafqit spans several numeric notations. Eastern Arabic-Indic digits are the standard across the Mashriq, while Maghreb countries typically use European-style numerals in everyday contexts. The converter handles both conventions so your output matches regional expectations.",
+        "Currency expressions add another layer. Saudi riyal, Egyptian pound, UAE dirham and Jordanian dinar each have distinct fractional word forms. The tool applies the correct subunit name automatically when currency mode is enabled, saving you from memorizing irregular singular and plural rules.",
+        "Decimal portions require particular care. One and a half riyal reads differently from one and a half dirham in Arabic grammar. Tafqit handles the fractional part with the appropriate connector and unit word so the complete amount sounds natural rather than stitched together."
+      ]
+    },
+    {
+      "heading": "Contracts, Cheques and Invoices",
+      "paragraphs": [
+        "Legal and financial documents commonly duplicate amounts in words as an anti-fraud safeguard, ensuring that any alteration to the numeric value is immediately detectable during manual review.",
+        "Consistent, correct tafqit satisfies banks and auditors who verify that written and numeric amounts match before processing payments or approving transactions.",
+        "Trustworthy prose replaces the manual spelling risk that leads to costly disputes, delayed settlements and embarrassing correspondence with clients or regulatory authorities."
+      ]
+    },
+    {
+      "heading": "Scales Up and Down Instantly",
+      "paragraphs": [
+        "Single figures, thousands and millions all resolve with the same grammatical engine, whether the input is a small petty-cash amount or a seven-figure contract total.",
+        "No longhand table lookups for big numbers anymore, because the converter builds each magnitude from its internal rules rather than referencing a static chart.",
+        "Scale never intimidates correct output, giving finance teams confidence that even unusual amounts will render accurately."
+      ]
+    },
+    {
+      "heading": "Digital vs Written Arabic Number Systems",
+      "paragraphs": [
+        "Arabic-speaking countries use two distinct numeral sets in daily life. Eastern Arabic-Indic digits appear on government forms, currency notes and formal signage across the Gulf and Levant. European Arabic numerals dominate scientific publishing, technology interfaces and much of North African commerce.",
+        "The spoken word forms remain the same regardless of which digit set the reader sees. Tafqit generates the standard Arabic words that correspond to the numeric value, so the output reads identically whether the audience expects Eastern or Western digit shapes.",
+        "When preparing bilingual documents, tafqit produces the Arabic text that translators and typographers can pair with numeral variants. This separation of word form from digit form avoids the awkward mismatches that manual transcription sometimes introduces."
+      ]
+    },
+    {
+      "heading": "From Cheques to Digital Banking: Modern Use Cases",
+      "paragraphs": [
+        "Banks still require the written amount on cheques, but digital invoicing platforms, enterprise resource planning systems and payment gateways also accept or expect Arabic word forms. Automating tafqit in these workflows eliminates a persistent source of human error.",
+        "Accounting software in the region often validates that the digit amount matches the word amount. A mismatch flags the transaction for manual review, delaying settlement. Generating tafqit programmatically or through a trusted tool keeps both fields aligned without extra checks.",
+        "Mobile banking descriptions, payment confirmations and regulatory filings in Arabic-speaking jurisdictions benefit from properly spelled amounts. The professional tone signals accuracy to counterparties and auditors alike, reinforcing trust in every transaction."
+      ]
+    },
+    {
+      "heading": "Private Financial Text Generation",
+      "paragraphs": [
+        "Document amounts convert locally, so sensitive payroll figures, contract values and banking details never travel beyond the machine in front of you.",
+        "No upload, no account, no watermark — identical behavior across Windows, macOS, Linux and mobile browsers.",
+        "Figures stay where they are drafted, giving finance and legal teams a generation tool they can recommend without reservation."
+      ]
+    },
+    {
+      "heading": "Tafqit in the Arabic Toolkit",
+      "paragraphs": [
+        "Pair with [invoice-generator:invoices], [arabic-numerals:digits] and [letter-generator:formal letters] for complete formal Arabic workflows.",
+        "The suite is free and browser-native, requiring no installation or subscription.",
+        "Every amount, spelled right, every time."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does tafqit support currency amounts?",
+      "a": "Yes. Amounts can be rendered with currency words, matching how banks and contracts express sums across multiple currencies."
+    },
+    {
+      "q": "Are very large numbers supported?",
+      "a": "Yes. Thousands, millions, billions and beyond convert with correct Arabic unit words and proper grammatical structure."
+    },
+    {
+      "q": "Is the conversion private?",
+      "a": "Yes. Everything runs locally in your browser with no uploads or accounts."
+    },
+    {
+      "q": "Can I switch between Eastern Arabic and Western numeral conventions?",
+      "a": "Yes. The tool generates Arabic word forms that are compatible with both numeral systems used across different Arabic-speaking regions."
+    },
+    {
+      "q": "Does it handle fractional amounts like half a riyal?",
+      "a": "Yes. Decimal portions are converted with the correct fractional word and connector, matching the grammar of the selected currency."
+    },
+    {
+      "q": "Can I use the output in formal legal documents?",
+      "a": "Yes. The generated Arabic follows formal grammar conventions appropriate for contracts, court filings and official correspondence."
+    }
+  ]
+}

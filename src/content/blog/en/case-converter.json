@@ -1,0 +1,101 @@
+{
+  "slug": "case-converter",
+  "title": "Case Converter: Change Text Case Online Free in One Click",
+  "description": "Free online case converter to switch text between UPPER, lower, Title Case, Sentence case and more. Private, instant, in your browser with no uploads.",
+  "keywords": ["case converter", "convert text to uppercase", "uppercase to lowercase", "title case converter", "text case changer", "capitalize text online", "letter case tool"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Case Is Punctuation for Codes and Headlines",
+      "paragraphs": [
+        "A heading must be title-cased, CSS class names love lowerCamel, and legacy workflows demand all-caps or all-lower. Converting [case-converter:text case] online is a classically small job with huge formatting payoff.",
+        "Doing it by hand at scale is slow and error-prone; a converter transforms whole documents in a blink.",
+        "ChooseTools converts case locally in your browser, with every common convention available."
+      ]
+    },
+    {
+      "heading": "UPPER, lower, Title, Sentence and camelCase",
+      "paragraphs": [
+        "Each convention has a home: uppercase for acronyms, title case for headings, sentence case for UI copy, camelCase for code identifiers.",
+        "The tool outputs each variant side by side so you paste exactly what the context demands.",
+        "Copy-paste quality, zero re-typing."
+      ]
+    },
+    {
+      "heading": "Bulk Conversion for Lists and Feeds",
+      "paragraphs": [
+        "Pasting a whole list of product names and let them convert uniformly to match your catalog standards.",
+        "Headlines, meta descriptions, tag lists and file names all normalize in one pass.",
+        "Consistency across hundreds of items is automated."
+      ]
+    },
+    {
+      "heading": "Programming and Technical Workflows",
+      "paragraphs": [
+        "Developers constantly need to convert between naming conventions. A variable that starts as my_variable in Python must become myVariable for JavaScript or MyVariable for a PascalCase class name. Manually retyping each identifier invites typos that the compiler will catch only after you waste time debugging. The converter transforms entire lists of identifiers in one paste, preserving every character while changing only the casing.",
+        "Database column names and API field names often follow a single convention that differs from the one your codebase uses. When migrating data or building integration layers, converting field names to match the target system prevents runtime errors and makes schemas easier to read. A quick pass through the converter ensures that column_name becomes columnName or ColumnName as the destination requires.",
+        "SQL keywords are conventionally written in uppercase (SELECT, FROM, WHERE) to distinguish them from table and column names. Developers who draft queries in lowercase can paste the entire statement and convert keywords to uppercase without affecting the identifiers. This improves readability in shared codebases and aligns with common style guides.",
+        "Configuration files, environment variables and command-line flags each follow their own casing rules. ENVIRONMENT_VARIABLES are typically upper snake case, while command-line flags like --output-dir use lower kebab case. Converting between these conventions is tedious by hand but instant with the tool, reducing the friction of moving configuration between systems."
+      ]
+    },
+    {
+      "heading": "Writers Reformat Without Retyping",
+      "paragraphs": [
+        "A draft typed in lowercase becomes publish-ready title case; captions that should shout do.",
+        "The preview eliminates guesswork before copying anywhere.",
+        "Formatting belongs to the tool; the writing stays yours."
+      ]
+    },
+    {
+      "heading": "SEO, Marketing and Brand Consistency",
+      "paragraphs": [
+        "Search engines treat case as a minor signal, but human readers treat it as a major one. A page title in sentence case reads casually, while the same words in title case read authoritative. Marketing teams test both to see which drives more clicks, and the converter lets them produce both versions in seconds rather than retyping each one manually.",
+        "Brand style guides often dictate specific casing for product names, taglines and campaign phrases. When content moves between designers, translators and publishers, casing drifts. The converter acts as a normalization pass, restoring the approved format before the copy goes live. This prevents the brand inconsistency that accumulates when multiple people retype the same strings.",
+        "Social media posts, email subject lines and push notifications all compete for attention in uppercase-dense feeds. Choosing the right case for each channel can mean the difference between a skim and a click. The converter produces each variant so you can A/B test without the overhead of manual reformatting.",
+        "Localization teams frequently receive content in one casing convention and must adapt it for markets with different norms. A title that is title-cased in English may need to be sentence-cased in French or German. The converter handles the transformation instantly, freeing linguists to focus on translation quality rather than formatting mechanics."
+      ]
+    },
+    {
+      "heading": "Edge Cases and Accuracy",
+      "paragraphs": [
+        "The converter handles abbreviations like NASA and URLs like https://example.com without mangling uppercase sequences or protocol prefixes. Acronyms that appear mid-sentence remain intact when you choose sentence case, and hyphenated compounds like e-commerce convert each segment correctly. These details matter because blindly uppercasing or lowercasing an entire string can break technical terms.",
+        "Unicode characters, including accented letters and non-Latin scripts, convert faithfully. A French word like reference retains its accents when shifted to uppercase or lowercase, and Arabic or Chinese characters pass through unchanged. This fidelity prevents the subtle encoding errors that plague less careful converters.",
+        "Leading and trailing whitespace, multiple spaces between words and tab characters are preserved in the output. The converter changes case without reformatting spacing, so pasted code blocks and preformatted text maintain their layout. This is essential when the input comes from a source where indentation carries meaning."
+      ]
+    },
+    {
+      "heading": "Private Text Transformation",
+      "paragraphs": [
+        "Unreleased copy and personal notes normalize on your device only.",
+        "No upload, no account, no watermark — identical across platform.",
+        "A formatting chore handled invisibly."
+      ]
+    },
+    {
+      "heading": "Case Work in the Text Lavender Suite",
+      "paragraphs": [
+        "Combine the converter with [find-replace:find and replace], [sort-lines:sorter] or [reverse-text:reverser] for full control.",
+        "The suite is free, private and browser-native.",
+        "Formatting control, applied everywhere, instantly."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which text cases are supported?",
+      "a": "UPPERCASE, lowercase, Title Case, Sentence case, camelCase and related conventions are all available with instant preview."
+    },
+    {
+      "q": "Can I convert large blocks of text at once?",
+      "a": "Yes. Paste a whole document or list and the transformation applies uniformly in a single conversion."
+    },
+    {
+      "q": "Is the case converter private?",
+      "a": "Yes. Everything happens locally in your browser, your text is never uploaded anywhere."
+    },
+    {
+      "q": "Will the converter mangle URLs or abbreviations?",
+      "a": "No. The tool preserves uppercase acronyms, protocol prefixes and hyphenated segments, so technical strings remain intact after conversion."
+    }
+  ]
+}

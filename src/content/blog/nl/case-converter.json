@@ -1,0 +1,101 @@
+{
+  "slug": "case-converter",
+  "title": "Case Converter: Wijzig tekstcase online gratis in één klik",
+  "description": "Gratis online case converter om tekst te schakelen tussen HOOFDLETTERS, kleine letters, Title Case, Sentence case en meer. Privé, direct, in je browser, zonder uploads.",
+  "keywords": ["case converter", "tekst omzetten naar hoofdletters", "hoofdletters naar kleine letters omzetten", "title case converter", "tekstcase wijzigen online", "tekst kapitaliseren online", "lettercase tool"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Hoofdlettergebruik Is Interpunctie voor Code en Koppen",
+      "paragraphs": [
+        "Een kop moet in Title Case staan, CSS-klassenamen houden van lowerCamelCase, en verouderde werkwijzen vereisen volledig HOOFDLETTERS of volledig kleine letters. [case-converter:Tekstcase] online omzetten is een klassiek klein klusje met een enorme formatteringswinst.",
+        "Het handmatig doen op schaal is traag en foutgevoelig; een converter zet hele documenten in een oogwenk om.",
+        "ChooseTools zet case lokaal in je browser om, met elke gangbare conventie beschikbaar."
+      ]
+    },
+    {
+      "heading": "HOOFDLETTERS, kleine letters, Title Case, Sentence case en camelCase",
+      "paragraphs": [
+        "Elke conventie heeft zijn plek: hoofdletters voor acroniemen, title case voor koppen, sentence case voor UI-tekst, camelCase voor code-identifiers.",
+        "Het tool geeft elke variant naast elkaar weer, zodat je precies plakt wat de context vraagt.",
+        "Kopieer-plak-kwaliteit, nul opnieuw typen."
+      ]
+    },
+    {
+      "heading": "Bulkomzetting voor Lijsten en Feeds",
+      "paragraphs": [
+        "Plak een complete lijst productnamen en laat ze uniform omzetten zodat ze voldoen aan je catalogusnormen.",
+        "Koppen, meta descriptions, taglijsten en bestandsnamen worden allemaal in één doorloop genormaliseerd.",
+        "Consistentie over honderden items is geautomatiseerd."
+      ]
+    },
+    {
+      "heading": "Programmeer- en Technische Workflows",
+      "paragraphs": [
+        "Ontwikkelaars moeten voortdurend tussen naamgevingsconventies converteren. Een variabele die in Python begint als my_variable moet myVariable worden voor JavaScript of MyVariable voor een PascalCase-klassenaam. Het handmatig opnieuw typen van elke identifier nodigt typefouten uit die de compiler pas opmerkt nadat je tijd hebt verspild aan debuggen. De converter zet in één plakbeurt complete lijsten identifiers om, waarbij elk teken behouden blijft en alleen de case verandert.",
+        "Databasekolomnamen en API-veldnamen volgen vaak één enkele conventie die verschilt van die van je codebase. Bij datamigraties of het bouwen van integratielagen voorkomt het omzetten van veldnamen naar het doelsysteem runtimefouten en maakt het schema's leesbaarder. Een snelle doorloop door de converter zorgt dat column_name columnName of ColumnName wordt, zoals de bestemming vereist.",
+        "SQL-sleutelwoorden worden conventioneel in hoofdletters geschreven (SELECT, FROM, WHERE) om ze te onderscheiden van tabel- en kolomnamen. Ontwikkelaars die queries in kleine letters opstellen kunnen de hele statement plakken en de sleutelwoorden naar hoofdletters omzetten zonder de identifiers te beïnvloeden. Dit verbetert de leesbaarheid in gedeelde codebases en sluit aan bij gangbare style guides.",
+        "Configuratiebestanden, omgevingsvariabelen en command-line flags volgen elk hun eigen case-regels. ENVIRONMENT_VARIABLES zijn typisch upper snake case, terwijl command-line flags zoals --output-dir lower kebab case gebruiken. Tussen deze conventies converteren is handmatig vervelend maar met het tool direct, waardoor de wrijving van het verplaatsen van configuratie tussen systemen afneemt."
+      ]
+    },
+    {
+      "heading": "Schrijvers Hervormatteren Zonder Opnieuw te Typen",
+      "paragraphs": [
+        "Een concept in kleine letters wordt publicatieklaar in title case; bijschriften die moeten schreeuwen, schreeuwen.",
+        "De preview neemt het giswerk weg voordat je ergens kopieert.",
+        "Het formatteren is aan het tool; het schrijven blijft van jou."
+      ]
+    },
+    {
+      "heading": "SEO, Marketing en Merkconsistentie",
+      "paragraphs": [
+        "Zoekmachines behandelen case als een klein signaal, maar menselijke lezers behandelen het als een groot signaal. Een paginatitel in sentence case leest informeel, terwijl dezelfde woorden in title case gezaghebbend lezen. Marketingteams testen beide om te zien welke meer kliks oplevert, en de converter laat hen beide versies in seconden produceren in plaats van elke versie handmatig opnieuw te typen.",
+        "Merkenstijlgidsen schrijven vaak specifieke casing voor productnamen, taglines en campagnezinnen. Wanneer content tussen designers, vertalers en uitgevers beweegt, drijft de casing af. De converter fungeert als een normalisatieslag die de goedgekeurde opmaak herstelt voordat de tekst live gaat. Dit voorkomt de merk-inconsistentie die ontstaat wanneer meerdere mensen dezelfde strings opnieuw typen.",
+        "Social media-posts, e-mailonderwerpregels en pushmeldingen concurreren allemaal om aandacht in feeds die vol hoofdletters staan. De juiste case voor elk kanaal kiezen kan het verschil betekenen tussen even scannen en klikken. De converter produceert elke variant zodat je A/B-tests kunt doen zonder de overhead van handmatig herformatteren.",
+        "Lokalisatieteams ontvangen vaak content in één casing-conventie en moeten die aanpassen voor markten met andere normen. Een titel die in het Engels in title case staat, moet in het Frans of Duits misschien in sentence case. De converter voert de transformatie direct uit, zodat taalprofessionals zich kunnen richten op vertaalkwaliteit in plaats van op formatteringsmechanica."
+      ]
+    },
+    {
+      "heading": "Randgevallen en Nauwkeurigheid",
+      "paragraphs": [
+        "De converter gaat correct om met afkortingen zoals NASA en URLs zoals https://example.com, zonder hoofdletterreeksen of protocolvoorvoegsels te verknallen. Acroniemen die midden in een zin verschijnen blijven intact wanneer je sentence case kiest, en aan elkaar geschreven samenstellingen met koppelteken zoals e-commerce zet elk segment correct om. Deze details doen ertoe, omdat het blind omzetten van een hele string naar hoofd- of kleine letters technische termen kan breken.",
+        "Unicode-tekens, waaronder letters met accenten en niet-Latijnse schriften, worden getrouw omgezet. Een Frans woord als référence behoudt zijn accenten bij omzetting naar hoofdletters of kleine letters, en Arabische of Chinese tekens passeren onveranderd. Deze getrouwheid voorkomt de subtiele encoderingsfouten die minder zorgvuldige converters teisteren.",
+        "Voorloop- en naloopspaties, meerdere spaties tussen woorden en tabtekens blijven in de output behouden. De converter wijzigt case zonder de spacing te herformatteren, zodat geplakte codeblokken en voorgeformatteerde tekst hun opmaak behouden. Dit is essentieel wanneer de invoer afkomstig is van een bron waar inspringing betekenis draagt."
+      ]
+    },
+    {
+      "heading": "Privé Teksttransformatie",
+      "paragraphs": [
+        "Nog niet uitgebrachte tekst en persoonlijke notities worden uitsluitend op jouw apparaat genormaliseerd.",
+        "Geen upload, geen account, geen watermerk — overal op elk platform hetzelfde.",
+        "Een formatteerklus die onzichtbaar wordt afgehandeld."
+      ]
+    },
+    {
+      "heading": "Casewerk in de Tekstsuite",
+      "paragraphs": [
+        "Combineer de converter met [find-replace:zoeken en vervangen], [sort-lines:sorteerfunctie] of [reverse-text:omkeerfunctie] voor volledige controle.",
+        "De suite is gratis, privé en draait volledig in de browser.",
+        "Formatteercontrole, overal toegepast, direct."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welke tekstcases worden ondersteund?",
+      "a": "HOOFDLETTERS, kleine letters, Title Case, Sentence case, camelCase en verwante conventies zijn allemaal beschikbaar met directe preview."
+    },
+    {
+      "q": "Kan ik grote tekstblokken tegelijk omzetten?",
+      "a": "Ja. Plak een heel document of een hele lijst en de transformatie wordt in één enkele omzetting uniform toegepast."
+    },
+    {
+      "q": "Is de case converter privé?",
+      "a": "Ja. Alles gebeurt lokaal in je browser; je tekst wordt nooit ergens geüpload."
+    },
+    {
+      "q": "Zal de converter URLs of afkortingen verknoeien?",
+      "a": "Nee. Het tool behoudt acroniemen in hoofdletters, protocolvoorvoegsels en segmenten met koppeltekens, zodat technische strings na omzetting intact blijven."
+    }
+  ]
+}

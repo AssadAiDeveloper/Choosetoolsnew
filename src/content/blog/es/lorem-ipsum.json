@@ -1,0 +1,122 @@
+{
+  "slug": "lorem-ipsum",
+  "title": "Generador de Lorem Ipsum: Crea Texto de Posicionamiento Online Gratis",
+  "description": "Generador de lorem ipsum gratuito para crear texto de posicionamiento de cualquier longitud — párrafos, palabras, oraciones — para maquetas y trabajo de diseño. Privado, instantáneo, en tu navegador.",
+  "keywords": ["lorem ipsum", "generador de lorem ipsum", "texto de posicionamiento", "generador de texto ficticio", "generador de lorem", "texto de maqueta", "generador de texto de ejemplo"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "El Diseño Vive Dentro del Texto de Posicionamiento",
+      "paragraphs": [
+        "Las maquetas necesitan texto antes de que exista el texto real: ajustar un titular, rellenar un párrafo, previsualizar un diseño. El texto de posicionamiento es el sustituto amigable con el diseño que todo diseñador y desarrollador utiliza.",
+        "Sus sílabas ilegibles pero plausibles mantienen la vista en el diseño en lugar de en las palabras.",
+        "ChooseTools genera lorem ipsum localmente en tu navegador, dimensionado a tu necesidad exacta.",
+        "Usar texto de relleno temprano evita que los interesados critiques el borrador en lugar de evaluar la jerarquía visual y el espaciado."
+      ]
+    },
+    {
+      "heading": "Párrafos, Oraciones, Palabras — Elige tu Unidad",
+      "paragraphs": [
+        "Elige la granularidad de salida: unas pocas palabras para un botón, oraciones para un subtítulo, párrafos para un bloque de contenido.",
+        "El lorem ipsum clásico comienza con la firma tradicional «Lorem ipsum dolor sit amet».",
+        "Copia y pega el bloque generado directamente en tu herramienta de diseño.",
+        "Generar por recuento de palabras es particularmente útil cuando necesitas probar un elemento de interfaz con caracteres limitados como un tooltip o un banner de notificación."
+      ]
+    },
+    {
+      "heading": "Wireframes y Desarrollo Front-End",
+      "paragraphs": [
+        "Las maquetas de sitios web, los prototipos de aplicaciones y el desarrollo front-end todos necesitan texto invisible a granel.",
+        "El texto de posicionamiento dimensionado demuestra el comportamiento responsivo antes de que llegue el contenido real.",
+        "Genera tanto como el marco necesite, sin estimar recuentos.",
+        "Los desarrolladores pueden pegar texto de relleno en los storybooks de componentes para verificar que el ajuste de texto, la truncación y el desbordamiento se comportan correctamente en todos los breakpoints."
+      ]
+    },
+    {
+      "heading": "Volver al Remitente: Reemplaza los Posicionamientos Después",
+      "paragraphs": [
+        "Como el lorem ipsum es distintivo, el texto real se intercambia limpiamente mediante buscar y reemplazar.",
+        "Marca tus bloques y reemplázalos sistemáticamente cuando llegue la redacción.",
+        "El posicionamiento es una promesa, no una trampa.",
+        "Una práctica útil es envolver cada bloque de posicionamiento en un comentario o atributo de datos para que una búsqueda pueda localizar cada instancia sin pasar por alto secciones ocultas."
+      ]
+    },
+    {
+      "heading": "Longitud y Densidad: Igualando los Requisitos de Diseño",
+      "paragraphs": [
+        "Una sección principal necesita dos oraciones cortas, mientras que una tarjeta de vista previa de blog puede necesitar un párrafo completo para probar el comportamiento de truncación.",
+        "Generar un poco más de texto del necesario te permite recortar hasta el límite exacto y confirmar que el estilo de elipsis o line-clamp funciona como se pretendía.",
+        "Este pequeño hábito detecta errores de diseño que solo aparecen en el borde del contenido."
+      ]
+    },
+    {
+      "heading": "Diseños Internacionales y Maquetas Multilingües",
+      "paragraphs": [
+        "El texto de posicionamiento para diseños RTL necesita un comportamiento de salto de línea diferente, y el lorem ipsum revela si el motor de texto maneja los cambios de dirección correctamente.",
+        "Al probar interfaces multilingües, generar relleno de diferentes longitudes simula cómo las palabras compuestas alemanas o los caracteres japoneses afectan las dimensiones del cuadro.",
+        "Usar texto de posicionamiento temprano en varios idiomas previene sorpresas de diseño tardías en versiones localizadas."
+      ]
+    },
+    {
+      "heading": "Diseños de Impresión y Maquetas Editoriales",
+      "paragraphs": [
+        "Los diseñadores de libros y artistas de diseño de revistas usan texto de posicionamiento para establecer anchos de columna, cuadrículas de línea base y jerarquía tipográfica antes de que llegue el manuscrito.",
+        "Generar suficiente relleno para llenar una doble página confirma que la configuración de partición y justificación produce ríos y huérfanos aceptables.",
+        "Las maquetas orientadas a impresión se benefician de una densidad de texto realista porque el diseño de papel es mucho menos indulgente que el diseño web responsivo."
+      ]
+    },
+    {
+      "heading": "Variaciones de Texto de Posicionamiento para Realismo",
+      "paragraphs": [
+        "Más allá del pasaje clásico en latín, algunos diseñadores necesitan texto ficticio que parezca real y mejor imite la densidad y el ritmo de descripciones reales de productos o artículos de noticias.",
+        "Variar la longitud de oraciones y párrafos en el texto generado produce un diseño más realista que un bloque uniforme de oraciones de igual longitud.",
+        "Elegir un modo de generación variada cuando el diseño eventualmente contendrá contenido editorial conduce a maquetas que predicen con mayor precisión el equilibrio visual final."
+      ]
+    },
+    {
+      "heading": "Producción Privada de Posicionamientos",
+      "paragraphs": [
+        "Generar relleno localmente significa que los diseños no publicados no llevan rastro de herramientas de terceros.",
+        "Sin subidas, sin cuenta, sin marca de agua — en todas las plataformas.",
+        "Momentum de maqueta, cero exposición.",
+        "Los prototipos de clientes y las pantallas de producto previas al lanzamiento permanecen confidenciales cuando el generador de texto nunca contacta un servidor externo."
+      ]
+    },
+    {
+      "heading": "Posicionamientos Dentro del Conjunto de Herramientas",
+      "paragraphs": [
+        "Genera, luego da forma con herramientas de mayúsculas o mide con recuento de palabras para presupuestos de diseño exactos.",
+        "La suite es gratuita y nativa del navegador.",
+        "Cualquier diseño, previsualizado perfectamente.",
+        "Combinar la generación de posicionamientos con un contador de caracteres asegura que tus maquetas respeten los límites exactos de la plataforma de destino.",
+        "Esta combinación es invaluable cuando un posicionamiento debe encajar en un componente de tamaño fijo como el título de una tarjeta o una celda de tabla."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Por qué se usa el lorem ipsum en diseño?",
+      "a": "Sus palabras se asemejan al texto real sin distraer con significado, por lo que los revisores juzgan el diseño en lugar del texto."
+    },
+    {
+      "q": "¿Puedo generar una cantidad específica de texto?",
+      "a": "Sí. Especifica recuentos de párrafos, oraciones o palabras, y el generador produce exactamente esa cantidad."
+    },
+    {
+      "q": "¿El generador es privado?",
+      "a": "Sí. El texto se genera localmente en tu navegador sin subidas ni cuentas."
+    },
+    {
+      "q": "¿El texto generado comienza con la apertura clásica en latín?",
+      "a": "Sí. La salida en modo párrafo comienza con el pasaje tradicional Lorem ipsum dolor sit amet que los diseñadores reconocen al instante."
+    },
+    {
+      "q": "¿El lorem ipsum puede ayudar a probar diseños responsivos?",
+      "a": "Sí. Generar texto de diferentes longitudes revela cómo los titulares, párrafos y subtítulos se comportan en breakpoints de móvil, tablet y escritorio."
+    },
+    {
+      "q": "¿Puedo generar texto de posicionamiento sin las palabras clásicas en latín?",
+      "a": "Sí. Si el pasaje tradicional distraería a un revisor, puedes generar relleno con longitudes de oración variadas para que la maqueta aún se lea de forma realista sin significado visible."
+    }
+  ]
+}

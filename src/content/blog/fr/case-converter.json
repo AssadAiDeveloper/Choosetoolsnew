@@ -1,0 +1,101 @@
+{
+  "slug": "case-converter",
+  "title": "Convertisseur de casse : modifiez la casse d'un texte en ligne gratuitement en un clic",
+  "description": "Convertisseur de casse en ligne gratuit pour basculer un texte entre MAJUSCULES, minuscules, casse de titre, casse de phrase et plus encore. Privé, instantané, dans votre navigateur, sans envoi de fichiers.",
+  "keywords": ["convertisseur de casse", "convertir texte en majuscules", "majuscules en minuscules", "convertisseur de casse de titre", "changer la casse du texte", "mettre du texte en majuscules en ligne", "outil de casse de lettres"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "La casse est une ponctuation pour les codes et les titres",
+      "paragraphs": [
+        "Un titre doit être en casse de titre, les noms de classes CSS aiment le lowerCamel, et les flux de travail hérités exigent tout en majuscules ou tout en minuscules. Convertir [case-converter:la casse du texte] en ligne est une tâche classiquement simple avec un énorme bénéfice de mise en forme.",
+        "Le faire à la main à grande échelle est lent et source d'erreurs ; un convertisseur transforme des documents entiers en un clin d'œil.",
+        "ChooseTools convertit la casse localement dans votre navigateur, avec toutes les conventions courantes disponibles."
+      ]
+    },
+    {
+      "heading": "MAJUSCULES, minuscules, Titre, Phrase et camelCase",
+      "paragraphs": [
+        "Chaque convention a son domaine : les majuscules pour les sigles, la casse de titre pour les titres, la casse de phrase pour les textes d'interface, le camelCase pour les identifiants de code.",
+        "L'outil affiche chaque variante côte à côte afin que vous colliez exactement ce que le contexte exige.",
+        "Une qualité de copier-coller, zéro retape."
+      ]
+    },
+    {
+      "heading": "Conversion en masse pour les listes et les flux",
+      "paragraphs": [
+        "Collez toute une liste de noms de produits et laissez-les se convertir uniformément pour correspondre à vos standards de catalogue.",
+        "Les titres, métadescriptions, listes de balises et noms de fichiers se normalisent en une seule passe.",
+        "La cohérence sur des centaines d'éléments est automatisée."
+      ]
+    },
+    {
+      "heading": "Flux de travail de programmation et techniques",
+      "paragraphs": [
+        "Les développeurs ont constamment besoin de convertir entre les conventions de nommage. Une variable qui commence par my_variable en Python doit devenir myVariable pour JavaScript ou MyVariable pour un nom de classe en PascalCase. Retaper manuellement chaque identifiant invite aux fautes de frappe que le compilateur ne détectera qu'après que vous aurez gaspillé du temps à déboguer. Le convertisseur transforme des listes entières d'identifiants en un seul collage, en préservant chaque caractère tout en ne modifiant que la casse.",
+        "Les noms de colonnes de bases de données et les noms de champs d'API suivent souvent une convention unique qui diffère de celle qu'utilise votre code. Lors de la migration de données ou de la création de couches d'intégration, convertir les noms de champs pour qu'ils correspondent au système cible évite les erreurs d'exécution et rend les schémas plus lisibles. Une passe rapide dans le convertisseur garantit que column_name devient columnName ou ColumnName selon l'exigence de la destination.",
+        "Les mots-clés SQL sont par convention écrits en majuscules (SELECT, FROM, WHERE) pour les distinguer des noms de tables et de colonnes. Les développeurs qui rédigent des requêtes en minuscules peuvent coller l'instruction entière et convertir les mots-clés en majuscules sans affecter les identifiants. Cela améliore la lisibilité dans les bases de code partagées et s'aligne sur les guides de style courants.",
+        "Les fichiers de configuration, les variables d'environnement et les drapeaux de ligne de commande suivent chacun leurs propres règles de casse. Les ENVIRONMENT_VARIABLES sont généralement en snake case majuscule, tandis que les drapeaux de ligne de commande comme --output-dir utilisent le kebab case minuscule. Convertir entre ces conventions est fastidieux à la main mais instantané avec l'outil, ce qui réduit la friction du déplacement de configuration entre systèmes."
+      ]
+    },
+    {
+      "heading": "Les rédacteurs reformatent sans retaper",
+      "paragraphs": [
+        "Un brouillon tapé en minuscules devient une casse de titre prête à publier ; les légendes qui doivent s'imposer le font.",
+        "L'aperçu élimine le tâtonnement avant de copier où que ce soit.",
+        "La mise en forme appartient à l'outil ; la rédaction reste vôtre."
+      ]
+    },
+    {
+      "heading": "SEO, marketing et cohérence de marque",
+      "paragraphs": [
+        "Les moteurs de recherche traitent la casse comme un signal mineur, mais les lecteurs humains la traitent comme un signal majeur. Un titre de page en casse de phrase se lit de façon décontractée, alors que les mêmes mots en casse de titre se lisent comme faisant autorité. Les équipes marketing testent les deux pour voir laquelle génère plus de clics, et le convertisseur leur permet de produire les deux versions en quelques secondes plutôt que de retaper chacune manuellement.",
+        "Les guides de style de marque imposent souvent une casse spécifique pour les noms de produits, les slogans et les phrases de campagne. Lorsque le contenu circule entre designers, traducteurs et éditeurs, la casse dérive. Le convertisseur agit comme une passe de normalisation, restaurant le format approuvé avant que le texte ne soit mis en ligne. Cela évite l'incohérence de marque qui s'accumule lorsque plusieurs personnes retapent les mêmes chaînes.",
+        "Les publications sur les réseaux sociaux, les lignes d'objet d'e-mails et les notifications push rivalisent toutes pour attirer l'attention dans des flux saturés de majuscules. Choisir la bonne casse pour chaque canal peut faire la différence entre un survol et un clic. Le convertisseur produit chaque variante afin que vous puissiez faire des tests A/B sans le coût de la reformatation manuelle.",
+        "Les équipes de localisation reçoivent fréquemment du contenu dans une convention de casse et doivent l'adapter à des marchés aux normes différentes. Un titre en casse de titre en anglais peut devoir passer en casse de phrase en français ou en allemand. Le convertisseur gère la transformation instantanément, libérant les linguistes pour qu'ils se concentrent sur la qualité de la traduction plutôt que sur la mécanique de mise en forme."
+      ]
+    },
+    {
+      "heading": "Cas particuliers et précision",
+      "paragraphs": [
+        "Le convertisseur gère les abréviations comme NASA et les URL comme https://example.com sans abîmer les suites majuscules ou les préfixes de protocole. Les sigles qui apparaissent en milieu de phrase restent intacts lorsque vous choisissez la casse de phrase, et les composés avec trait d'union comme e-commerce convertissent chaque segment correctement. Ces détails comptent car mettre aveuglément une chaîne entière en majuscules ou en minuscules peut briser des termes techniques.",
+        "Les caractères Unicode, y compris les lettres accentuées et les écritures non latines, se convertissent fidèlement. Un mot français comme référence conserve ses accents lorsqu'il passe en majuscules ou en minuscules, et les caractères arabes ou chinois restent inchangés. Cette fidélité évite les erreurs d'encodage subtiles qui affligent les convertisseurs moins soigneux.",
+        "Les espaces de tête et de fin, les espaces multiples entre les mots et les caractères de tabulation sont préservés dans la sortie. Le convertisseur change la casse sans reformater l'espacement, de sorte que les blocs de code collés et le texte préformaté conservent leur disposition. C'est essentiel lorsque l'entrée provient d'une source où l'indentation porte du sens."
+      ]
+    },
+    {
+      "heading": "Transformation de texte privée",
+      "paragraphs": [
+        "Les textes non publiés et les notes personnelles se normalisent uniquement sur votre appareil.",
+        "Aucun envoi, aucun compte, aucun filigrane — identique sur toutes les plateformes.",
+        "Une corvée de mise en forme traitée de façon invisible."
+      ]
+    },
+    {
+      "heading": "La casse dans la suite Text Lavender",
+      "paragraphs": [
+        "Combinez le convertisseur avec [find-replace:rechercher et remplacer], [sort-lines:le trieur] ou [reverse-text:l'inverseur] pour un contrôle complet.",
+        "La suite est gratuite, privée et native au navigateur.",
+        "Contrôle de la mise en forme, appliqué partout, instantanément."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Quelles casses de texte sont prises en charge ?",
+      "a": "Majuscules, minuscules, casse de titre, casse de phrase, camelCase et conventions apparentées sont toutes disponibles avec un aperçu instantané."
+    },
+    {
+      "q": "Puis-je convertir de grands blocs de texte d'un coup ?",
+      "a": "Oui. Collez un document ou une liste entier et la transformation s'applique uniformément en une seule conversion."
+    },
+    {
+      "q": "Le convertisseur de casse est-il privé ?",
+      "a": "Oui. Tout se passe localement dans votre navigateur, votre texte n'est jamais envoyé nulle part."
+    },
+    {
+      "q": "Le convertisseur abîmera-t-il les URL ou les abréviations ?",
+      "a": "Non. L'outil préserve les sigles majuscules, les préfixes de protocole et les segments avec trait d'union, de sorte que les chaînes techniques restent intactes après la conversion."
+    }
+  ]
+}

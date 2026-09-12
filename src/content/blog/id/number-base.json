@@ -1,0 +1,115 @@
+{
+  "slug": "number-base",
+  "title": "Konverter Basis Angka: Konversi Antara Biner, Heksadesimal, Oktal, dan Desimal Secara Online Gratis",
+  "description": "Konverter basis angka gratis untuk mengubah angka antara biner, oktal, desimal, dan heksadesimal secara instan. Privat, di browser Anda, tanpa unggahan.",
+  "keywords": ["konverter basis angka", "biner ke heksadesimal", "heksadesimal ke desimal", "konverter basis online", "desimal ke biner", "konverter oktal", "kalkulator basis angka"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Angka yang Sama, Alfabet yang Berbeda",
+      "paragraphs": [
+        "Komputer mengelola biner, manusia lebih menyukai desimal, dan peta memori menyukai heksadesimal — namun semuanya menggambarkan kuantitas yang sama. [number-base:Mengonversi antar basis] menerjemahkan antara pandangan-pandangan itu tanpa kehilangan satu digit pun.",
+        "Setiap basis hanyalah cara berbeda untuk mengelompokkan digit berdasarkan pangkat suatu angka. Biner mengelompokkan berdasarkan dua, oktal berdasarkan delapan, desimal berdasarkan sepuluh, dan heksadesimal berdasarkan enam belas. Memahami satu prinsip ini membuka semua konversi yang pernah Anda perlukan.",
+        "ChooseTools mengonversi angka antar basis secara lokal di browser Anda."
+      ]
+    },
+    {
+      "heading": "Cara Konversi Antar Basis",
+      "paragraphs": [
+        "Terjemahan instan antara sistem bilangan:",
+        "Masukkan angka, pilih basisnya saat ini (biner, oktal, desimal, atau heksadesimal) dan basis tujuannya; nilai terkonversi muncul seketika.",
+        "Misalnya, desimal 255 menjadi FF dalam heksadesimal dan 11111111 dalam biner. Konverter menangani perhitungannya dalam hitungan milidetik, menghilangkan proses pembagian panjang manual yang membutuhkan waktu berjam-jam bagi para pelajar.",
+        "Konversi bersifat lokal dan sinkron."
+      ]
+    },
+    {
+      "heading": "Biner, Oktal, Desimal, Heksadesimal",
+      "paragraphs": [
+        "Bit basis-2 membentuk bahasa mesin; basis-8 memadatkan trio bit; basis-10 adalah keseharian; basis-16 mengelompok menjadi alamat memori yang rapi.",
+        "Heksadesimal sangat berguna untuk merepresentasikan byte: setiap pasangan digit heksadesimal berkorespondensi dengan satu byte, membuat dump memori dan kode warna jauh lebih mudah dibaca daripada rangkaian satu dan nol.",
+        "Berpindah pandangan memperjelas mask, warna, dan registri.",
+        "Kemahiran di antara keempatnya mencakup hampir semua pekerjaan rekayasa."
+      ]
+    },
+    {
+      "heading": "Di Mana Konversi Basis Muncul Setiap Hari",
+      "paragraphs": [
+        "Pengembang menghadapi konversi basis terus-menerus bahkan saat mereka tidak menyadarinya. Insinyur jaringan membaca subnet mask dalam desimal bertitik yang memetakan ke bit satu biner berurutan, sementara administrator basis data berurusan dengan pengidentifikasi heksadesimal untuk UUID dan hash.",
+        "Pengembang web mengonversi nilai warna heksadesimal seperti 2A4B8C menjadi komponen RGB dan sebaliknya. Pemrogram sistem tertanam menukar bit individual dalam register status yang dokumentasinya menggunakan notasi oktal.",
+        "Profesional kreatif menggunakan kode heksadesimal untuk palet merek. Intinya universal: kemahiran basis bukanlah keterampilan khusus, melainkan kompetensi dasar di hampir setiap disiplin teknis.",
+        "Konverter cepat menghilangkan beban aritmetika sehingga para profesional dapat berfokus pada makna, bukan matematika."
+      ]
+    },
+    {
+      "heading": "Men-debug Nilai Lintas Sistem",
+      "paragraphs": [
+        "Log menampilkan heksadesimal, kalkulator menghasilkan desimal, perangkat keras menginginkan biner.",
+        "Penerjemahan cepat menyelesaikan perbedaan pada alamat, mask, dan kode warna.",
+        "Pengembang yang men-debug tangkapan paket jaringan, misalnya, harus mengonversi subnet mask IP heksadesimal menjadi representasi desimal atau binernya untuk memverifikasi aturan perutean. Melakukan itu secara mental untuk alamat tiga puluh dua bit rawan kesalahan dan lambat.",
+        "Lebih sedikit kesalahan matematika mental, perbaikan yang lebih yakin."
+      ]
+    },
+    {
+      "heading": "Menangani Angka Negatif dan Pecahan",
+      "paragraphs": [
+        "Konversi basis tidak terbatas pada bilangan bulat positif. Angka negatif menggunakan representasi komplemen dua dalam biner, dan konverter menangani nilai bertanda sehingga Anda dapat melihat bagaimana bilangan bulat negatif terlihat dalam heksadesimal atau biner.",
+        "Nilai pecahan seperti 0.625 dalam desimal terkonversi dengan bersih ke biner sebagai 0.101, mengungkap komponen pecahan pasti yang dapat direpresentasikan tanpa pembulatan.",
+        "Memahami tempat pecahan berakhir di satu basis tetapi berulang di basis lain menjelaskan mengapa aritmetika floating-point kadang menghasilkan hasil tak terduga dalam program.",
+        "Kasus tepi ini penting dalam pemrograman sistem, perhitungan kriptografi, dan domain mana pun yang presisi antar basis bersifat kritis."
+      ]
+    },
+    {
+      "heading": "Pendidikan dan Studi Menjadi Terlihat",
+      "paragraphs": [
+        "Mahasiswa komputer dan elektronika melihat dengan tepat bagaimana pengelompokan mengubah representasi.",
+        "Pemahaman langkah demi langkah menggantikan tabel hafalan.",
+        "Melihat bahwa desimal 42 adalah 2A dalam heksadesimal dan 00101010 dalam biner membangun intuisi tentang notasi posisi jauh lebih efektif daripada menghafal.",
+        "Lompatan format tidak lagi membingungkan."
+      ]
+    },
+    {
+      "heading": "Panduan Kerja: Alamat IP dan Pasangan Warna",
+      "paragraphs": [
+        "Alamat IPv4 seperti 192.168.1.1 sebenarnya adalah empat byte yang ditulis dalam desimal, dan mengonversi setiap byte ke heksadesimal mengungkap notasi ringkas yang digunakan banyak router: C0.A8.01.01.",
+        "Pasangan yang sama muncul pada warna web, tempat triplet heksadesimal seperti FF7F50 terpecah menjadi tiga byte yang berarti 255, 127, dan 80 dalam desimal. Alat yang berpindah menjembatani kedua dunia ini secara instan.",
+        "Berlatih dengan contoh-contoh yang familiar seperti ini membuat hubungan abstrak antar basis menjadi konkret dan mudah diingat.",
+        "Begitu Anda melihat byte di balik digit heksadesimal, setiap dump, palet, dan register mulai masuk akal."
+      ]
+    },
+    {
+      "heading": "Pekerjaan Angka yang Privat",
+      "paragraphs": [
+        "Nilai konfigurasi dan offset dikonversi di perangkat.",
+        "Tanpa unggahan, tanpa akun, tanpa tanda air — lintas platform.",
+        "Baik Anda menerjemahkan offset dari dokumen firmware atau memeriksa checksum, angka-angka tersebut tetap berada di mesin Anda.",
+        "Matematika rekayasa, dikerjakan tanpa suara."
+      ]
+    },
+    {
+      "heading": "Pekerjaan Basis dalam Perangkat Pengembang",
+      "paragraphs": [
+        "Padukan dengan [binary-text:teks biner], [hex-to-…:alat warna], dan [ascii-tools] untuk penanganan level rendah yang lengkap.",
+        "Suite ini gratis dan berbasis browser.",
+        "Setiap basis, diterjemahkan dengan sempurna."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Basis apa saja yang didukung?",
+      "a": "Biner (basis 2), oktal (basis 8), desimal (basis 10), dan heksadesimal (basis 16) dapat dikonversi dalam kombinasi apa pun."
+    },
+    {
+      "q": "Apakah konversi mempertahankan nilai yang tepat?",
+      "a": "Ya. Hanya representasinya yang berubah; angka yang mendasarinya tetap identik antar basis."
+    },
+    {
+      "q": "Apakah konverter ini privat?",
+      "a": "Ya. Semuanya berjalan secara lokal di browser Anda tanpa unggahan atau akun."
+    },
+    {
+      "q": "Bisakah alat ini menangani angka negatif?",
+      "a": "Ya. Nilai negatif didukung, termasuk representasi komplemen dua yang umum digunakan dalam format biner dan heksadesimal."
+    }
+  ]
+}

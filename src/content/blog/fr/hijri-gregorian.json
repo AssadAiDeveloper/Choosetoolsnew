@@ -1,0 +1,122 @@
+{
+  "slug": "hijri-gregorian",
+  "title": "Convertisseur hijri au grégorien : Convertir les dates du calendrier islamique en ligne et gratuitement",
+  "description": "Convertisseur de dates hijri au grégorien gratuit avec conversion bidirectionnelle entre les calendriers islamique et grégorien. Privé, dans votre navigateur, sans envoi de données.",
+  "keywords": ["hijri en grégorien", "grégorien en hijri", "convertisseur calendrier islamique", "convertisseur date hijri", "convertir date hijri", "conversion um al qura", "convertisseur hijri grégorien en ligne"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Deux calendriers comptent les mêmes jours différemment",
+      "paragraphs": [
+        "Le calendrier hijri suit les cycles lunaires tandis que le calendrier grégorien suit le soleil ; les dates de l'un nécessitent une constante cartographie vers l'autre. [hijri-gregorian:Conversion entre dates hijri et grégoriennes] élimine la conjecture dans les deux sens.",
+        "Les besoins officiels, religieux et civils l'exigent chaque jour.",
+        "ChooseTools convertit les dates localement dans votre navigateur, en utilisant des algorithmes de conversion reconnus."
+      ]
+    },
+    {
+      "heading": "Comment convertir une date entre les calendriers",
+      "paragraphs": [
+        "Les deux sens, les deux compréhensibles :",
+        "Entrez une date hijri pour voir son équivalent grégorien, ou entrez une date grégorien pour recevoir la forme hijri. Choisissez la convention de conversion (comme Umm al-Qura) lorsque disponible.",
+        "La conversion est locale, immédiate et reproductible."
+      ]
+    },
+    {
+      "heading": "Différences enracinées dans la lune",
+      "paragraphs": [
+        "Les années lunaires durent environ onze jours de moins que les années solaires, de sorte que les dates hijri avancent par rapport aux grégoriennes chaque année.",
+        "Des algorithmes reconnus réconcilient la différence de manière fiable.",
+        "Le contexte prévient les mauvaises interprétations."
+      ]
+    },
+    {
+      "heading": "Documents officiels et applications civiles",
+      "paragraphs": [
+        "Les contrats, certificats et systèmes nécessitent souvent les deux systèmes de dates.",
+        "Les bases de données et les importations restent valides lorsque les dates se cartographient correctement.",
+        "L'exactitude administrative commence à la conversion."
+      ]
+    },
+    {
+      "heading": "Observance religieuse et planification",
+      "paragraphs": [
+        "Les communautés musulmanes planifient le Ramadan, les célébrations de l'Aïd et les dates du Hajj selon le calendrier hijri, mais les calendriers gouvernementaux, les horaires scolaires et la planification en milieu de travail fonctionnent tous sur des dates grégoriennes. Les familles doivent connaître l'équivalent grégorien de chaque jalon religieux pour coordonner les congés, les voyages et les rassemblements.",
+        "Les mosquées et centres communautaires publient les dates d'événements hijri aux côtés des dates grégoriennes afin que les participants puissent noter les deux calendriers. Une conversion précise prévient le scénario gênant d'annoncer une date d'observance qui décale d'un jour ou plus.",
+        "Avoir un convertisseur fiable à portée de main rend la planification saisonnière simple et maintient les calendriers religieux et civils en harmonie tout au long de l'année."
+      ]
+    },
+    {
+      "heading": "Dates historiques et planification à long terme",
+      "paragraphs": [
+        "Les historiens et chercheurs traduisant des archives font face au problème inverse : un ancien document écrit uniquement en hijri doit être cartographié à une date grégorienne pour comparaison avec d'autres sources. Un convertisseur gère ces mappings multi-siècles de manière cohérente plutôt que de s'appuyer sur des équivalents vaguement mémorisés.",
+        "La planification à long terme telle que les calendriers de publication atteignant des années à l'avante bénéficie également d'une conversion fiable plutôt que de conjectures basées sur l'approximation de l'année en cours.",
+        "Distinguer une estimation tabulaire d'une date de calendrier observée maintient les conclusions historiques honnêtes et reproductibles."
+      ]
+    },
+    {
+      "heading": "Format de chiffres et conventions d'affichage",
+      "paragraphs": [
+        "Les dates grégoriennes peuvent être écrites en chiffres occidentaux ou en chiffres arabes orientaux selon le public, et les dates hijri apparaissent likewise en plus d'un style de chiffres selon les régions. Le convertisseur présente les dates dans la notation attendue par votre contexte, de sorte qu'un rapport, un contrat ou un calendrier reste cohérent pour ses lecteurs.",
+        "L'ordre jour-mois diffère également selon les régions : certains systèmes affichent la date en premier tandis que d'autres placent le mois en premier. Sélectionner le format qui correspond à l'application réceptrice prévient les mauvaises interprétations lorsque les nombres entrent dans une base de données ou un formulaire imprimé.",
+        "Maintenir la sortie dans une seule convention cohérente dans tous vos documents rend les recherches futures fiables et lisibles par machine."
+      ]
+    },
+    {
+      "heading": "Planification d'annonces et calendriers publics",
+      "paragraphs": [
+        "Les bulletins communautaires et les calendriers d'organisations listent fréquemment les occasions religieuses en hijri et en grégorien afin que chaque membre puisse planifier voyages et congés. Produire des colonnes parallèles nécessite une conversion précise sur l'ensemble de l'année, que l'outil fournit instantanément pour chaque date souhaitée.",
+        "Les employeurs de la région s'appuient également sur des calendriers combinés pour réconcilier les jours fériés religieux avec les systèmes de congés statutaires, garantissant que les enregistrements de paie et de présence s'alignent."
+      ]
+    },
+    {
+      "heading": "L'exactitude dépend de la convention",
+      "paragraphs": [
+        "Les conventions astronomique et Umm al-Qura peuvent décaler légèrement les dates.",
+        "Sélectionner la bonne convention aligne la sortie avec l'attente du consommateur.",
+        "Le choix surpasse les valeurs par défaut aveugles."
+      ]
+    },
+    {
+      "heading": "Comment les mois lunaires diffèrent des mois solaires",
+      "paragraphs": [
+        "Un mois hijri dure 29 ou 30 jours, déterminé par la visibilité du croissant de lune. Un mois grégorien est fixé de 28 à 31 jours par convention civile indépendamment des événements astronomiques. Cette différence fondamentale signifie que les deux calendriers dérivent d'environ onze jours chaque année.",
+        "Sur un cycle de 33 ans, la dérive complète un cycle entier, ce qui est pourquoi certaines communautés utilisent une approche tabulaire qui moyenne la dérive pour la planification à long terme. D'autres communautés s'appuient sur l'observation réelle de la lune, produisant de légères variations régionales dans les limites de dates.",
+        "Le convertisseur prend en charge les approximations mathématiques reconnues qui correspondent aux attentes civiles et religieuses les plus courantes, tout en reconnaissant que les autorités locales d'observation de la lune peuvent annoncer des dates décalées d'un jour."
+      ]
+    },
+    {
+      "heading": "Travail de dates privé",
+      "paragraphs": [
+        "Les dates personnelles et officielles se convertissent localement.",
+        "Pas d'envoi, pas de compte, pas de filigrane — sur toutes les plateformes.",
+        "Les questions de calendrier restent privées."
+      ]
+    },
+    {
+      "heading": "Les dates dans la boîte à outils arabe",
+      "paragraphs": [
+        "Combiné avec [arabic-numerals:gestion des chiffres], [tafqit:épellation des nombres] et [age-calculator:calcul d'âge] pour un travail calendrier et numérique complet.",
+        "La suite est gratuite et native au navigateur.",
+        "Deux calendriers, une réponse exacte."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Le convertisseur peut-il fonctionner dans les deux sens ?",
+      "a": "Oui. Les dates hijri se convertissent en grégorien et les dates grégoriennes se convertissent en hijri en mode sélectionnable."
+    },
+    {
+      "q": "Quelle convention de conversion est utilisée ?",
+      "a": "Des algorithmes de calendrier islamique reconnus sont proposés, y compris l'approche Umm al-Qura lorsque applicable, pour que les résultats correspondent à l'usage courant."
+    },
+    {
+      "q": "La conversion est-elle privée ?",
+      "a": "Oui. Tout s'exécute localement dans votre navigateur sans envoi de données ni compte."
+    },
+    {
+      "q": "Pourquoi ma date hijri pourrait-elle différer d'un jour d'une autre source ?",
+      "a": "Différentes régions s'appuient sur l'observation locale de la lune ou sur des approximations tabulaires différentes, ce qui peut décaler le début d'un mois hijri d'un jour. Le convertisseur utilise un algorithme reconnu qui correspond à la convention civile la plus largement acceptée."
+    }
+  ]
+}

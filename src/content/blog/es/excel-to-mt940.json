@@ -1,0 +1,115 @@
+{
+  "slug": "excel-to-mt940",
+  "title": "Excel a MT940: convierte datos financieros XLSX a MT940 en línea gratis",
+  "description": "Convertidor gratuito de Excel a MT940 para generar extractos MT940 en formato bancario a partir de datos de hojas de cálculo, en tu navegador. Privado, sin subidas y sin registro.",
+  "keywords": ["excel a mt940", "generador mt940", "convertir xlsx a mt940", "generar mt940 desde excel", "extracto bancario a mt940", "excel a mt940 en línea", "generador de archivos mt940"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Cuando los sistemas exigen el formato del banco",
+      "paragraphs": [
+        "Algunas plataformas, bancos y sistemas de tesorería solo aceptan MT940. [excel-to-mt940:Conversión de datos de Excel a MT940] empaqueta una hoja de cálculo en el formato de extracto etiquetado que requieren.",
+        "Las columnas y las filas se convierten en los códigos que los analizadores aguas abajo esperan, conservando exactamente cada fecha, importe y referencia.",
+        "ChooseTools construye MT940 desde Excel localmente en tu navegador con control total sobre la asignación de campos."
+      ]
+    },
+    {
+      "heading": "Cómo convertir Excel a MT940",
+      "paragraphs": [
+        "De tabla de trabajo a archivo codificado:",
+        "Sube un libro de trabajo dispuesto con las columnas esperadas (fecha, importe, descripción, saldos), asigna los campos y genera el texto MT940 listo para entregar. La vista previa confirma la ubicación de las etiquetas antes de la descarga.",
+        "La generación es local, manteniendo los registros financieros sellados en tu máquina durante todo el proceso."
+      ]
+    },
+    {
+      "heading": "La asignación de campos marca la diferencia",
+      "paragraphs": [
+        "La asignación correcta de fechas, importes y referencias determina si un MT940 es aceptado o rechazado por el sistema receptor.",
+        "El convertidor te guía a través de la asignación de columnas a etiquetas con etiquetas claras para que emparejes cada campo con confianza.",
+        "Los entregables se validan contra las reglas estándar, no solo generan texto en bruto que podría fallar aguas abajo."
+      ]
+    },
+    {
+      "heading": "Estructura de etiquetas MT940 explicada",
+      "paragraphs": [
+        "Cada archivo MT940 sigue una jerarquía estricta de etiquetas. La etiqueta :20 lleva una referencia única de extracto que identifica esta exportación en particular. La etiqueta :25 nombra la cuenta en formato IBAN o local del banco, de modo que el sistema receptor sabe a qué cuenta pertenecen las transacciones.",
+        "Las etiquetas de saldo :60M y :62M delimitan la lista de transacciones con cifras de apertura y cierre. Cada una contiene un indicador de crédito o débito, la fecha, un código de divisa y el importe. Los saldos precisos son obligatorios porque el software de conciliación valida que el saldo de cierre de un extracto coincide con el saldo de apertura del siguiente.",
+        "Las transacciones individuales viven en líneas :61 con una disposición compacta de fecha, importe y referencia, mientras que la etiqueta :86 proporciona la narrativa de texto libre. Emparejar cada :61 con su narrativa :86 mantiene las descripciones alineadas con el elemento de línea correcto, evitando el tipo de entradas huérfanas que confunden a los auditores."
+      ]
+    },
+    {
+      "heading": "Para pruebas e integración de sistemas",
+      "paragraphs": [
+        "Los equipos de desarrollo producen extractos de muestra para probar los importadores y los motores de conciliación sin esperar a exportaciones bancarias reales.",
+        "Los equipos de tesorería exportan extractos para bancos socios en su dialecto al incorporar nuevas cuentas o actualizar módulos de integración.",
+        "Un libro de trabajo, muchas salidas conformes, ahorrando horas de formato manual en múltiples ciclos de prueba."
+      ]
+    },
+    {
+      "heading": "Manejo de multidivisa y periodos de extracto",
+      "paragraphs": [
+        "Las empresas que operan a través de fronteras mantienen a menudo cuentas en varias divisas. Cada divisa requiere su propio bloque de extracto con el código de divisa correcto en las etiquetas de saldo. El convertidor genera secuencias de extracto separadas para cada divisa encontrada en el libro de trabajo, manteniéndolas correctamente delimitadas.",
+        "Las fechas del periodo de extracto determinan la fecha de saldo de apertura :60M y la fecha de saldo de cierre :62M. Acertar con estas fechas importa para la conciliación automatizada, que compara saldos de cierre y apertura entre extractos consecutivos para detectar huecos o transacciones perdidas.",
+        "Los números de referencia en la etiqueta :20 deben seguir la convención de tu banco, ya sea secuencial, basada en fechas o limitada a la cuenta. Un esquema de referencia coherente simplifica rastrear los extractos hasta su libro de trabajo fuente cuando los auditores hacen preguntas meses después."
+      ]
+    },
+    {
+      "heading": "Sintaxis estándar, cero conjeturas",
+      "paragraphs": [
+        "Las etiquetas, las posiciones de los campos y las longitudes de línea siguen el estándar automáticamente para que la salida sea válida sin revisión manual.",
+        "No queda conteo manual de llaves ni cirugía de etiquetas una vez que el convertidor aplica las reglas de formato.",
+        "Las importaciones precisas comienzan en la fuente, reduciendo el ir y venir con los equipos de soporte de los bancos."
+      ]
+    },
+    {
+      "heading": "Errores habituales y cómo evitarlos",
+      "paragraphs": [
+        "El formato de fecha es la fuente de rechazo más frecuente. MT940 requiere AAMMDD sin separadores, pero las hojas de cálculo suelen almacenar las fechas en formatos específicos de la configuración local. El convertidor normaliza las fechas automáticamente, de modo que una columna de entradas del 15 de marzo se convierte en 230315 en cada línea :61 y de saldo.",
+        "Los espacios que faltan o sobran en las narrativas de texto libre :86 hacen que los analizadores desalineen los detalles de las transacciones con sus descripciones. La herramienta recorta y rellena los campos de narrativa al ancho esperado, evitando los errores sutiles de espaciado que afloran solo cuando el banco receptor procesa el archivo.",
+        "Los desajustes de codificación entre la hoja de cálculo y la salida MT940 pueden corromper los caracteres no ASCII en las descripciones. El convertidor garantiza la coherencia UTF-8 en todo momento, de modo que las escrituras árabe, latina acentuada y otras sobreviven intactas al viaje de ida y vuelta."
+      ]
+    },
+    {
+      "heading": "Generación financiera privada",
+      "paragraphs": [
+        "Los datos de grado bancario permanecen en tu máquina mediante el procesamiento local, sin servidores intermedios ni almacenamiento en la nube implicados.",
+        "Sin subidas, sin cuenta, sin marcas de agua, en todas las plataformas y sistemas operativos.",
+        "Los extractos se construyen, no se exponen, manteniendo la confidencialidad desde la creación hasta la entrega."
+      ]
+    },
+    {
+      "heading": "MT940 en la suite financiera",
+      "paragraphs": [
+        "Combínalo con [mt940-to-excel:MT940 a Excel], [txt-to-mt940:MT940 desde texto] y [excel-to-csv:exportaciones CSV] para una cobertura completa de los flujos de trabajo de extractos.",
+        "Todo es gratuito y nativo del navegador, y no requiere instalación ni suscripción.",
+        "Las hojas de cálculo hablan el idioma bancario con fluidez una vez completada la conversión."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Qué columnas debe tener el archivo de Excel?",
+      "a": "La fecha, el importe y la descripción son esenciales; los campos de saldo y referencia se asignan según los requisitos de tu banco."
+    },
+    {
+      "q": "¿Puede el convertidor manejar diferentes disposiciones de campos?",
+      "a": "Sí. La asignación interactiva de campos adapta el MT940 generado a la disposición de tu hoja de cálculo."
+    },
+    {
+      "q": "¿Es privada la conversión?",
+      "a": "Sí. Todo se ejecuta localmente en tu navegador, sin subidas ni cuentas."
+    },
+    {
+      "q": "¿Qué formato de fecha usa la salida?",
+      "a": "Las fechas MT940 siguen el formato AAMMDD sin separadores. El convertidor normaliza las fechas de las hojas de cálculo automáticamente."
+    },
+    {
+      "q": "¿Puedo generar extractos para varias divisas?",
+      "a": "Sí. La herramienta detecta diferentes valores de divisa en tus datos y crea bloques de extracto separados con el código de divisa correcto."
+    },
+    {
+      "q": "¿Pasará la salida la validación del banco?",
+      "a": "El convertidor comprueba la estructura de etiquetas, la coherencia de saldos y las longitudes de los campos contra las reglas estándar MT940 antes de generar el archivo."
+    }
+  ]
+}

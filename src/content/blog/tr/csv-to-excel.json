@@ -1,0 +1,123 @@
+{
+  "slug": "csv-to-excel",
+  "title": "CSV'den Excel'e Dönüştürücü: CSV'yi Çevrimiçi Ücretsiz XLSX'e Dönüştürün",
+  "description": "Düz CSV dosyalarını biçimlendirilmiş XLSX çalışma kitaplarına, tarayıcınızda dönüştürmek için ücretsiz CSV'den Excel'e dönüştürücü. Özel, yükleme yok, kayıt yok, filigran yok.",
+  "keywords": ["csv'den excel'e", "csv'den xlsx'e dönüştürücü", "csv'yi çevrimiçi excel'e dönüştürme", "csv'den excel'e ücretsiz", "csv'yi çalışma kitabına içe aktarma", "csv'den xlsx'e araç", "csv'den elektronik tabloya"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "CSV Basittir; Bazen Excel Gerekir",
+      "paragraphs": [
+        "CSV makineler için mükemmel ama insanlar için sade bir biçimdir — biçimlendirme, çoklu sayfa veya formül yoktur. [csv-to-excel:CSV'yi Excel'e dönüştürmek] ham satırları analiz ve sunum için tanıdık bir çalışma kitabına dönüştürür.",
+        "Tek bir yükleme, metin dosyasını çift tıklamayla açılır bir elektronik tabloya çevirir.",
+        "ChooseTools CSV'yi tarayıcınızda yerel olarak XLSX'e dönüştürür."
+      ]
+    },
+    {
+      "heading": "Bir CSV Excel'e Nasıl Dönüştürülür",
+      "paragraphs": [
+        "Ham metinden biçimlendirilmiş çalışma kitabına:",
+        "CSV'nizi yapıştırın veya yükleyin, ayırıcıyı ve başlıkları onaylayın ve dönüştürün. Excel dosyası filtreleme, grafik oluşturma ve paylaşım için hazır indirilir.",
+        "Ayrıştırma yereldir; müşteri verileri olduğu yerde kalır."
+      ]
+    },
+    {
+      "heading": "Sütun Türleri ve Başlık Algılama",
+      "paragraphs": [
+        "CSV satırları, yazılan değerleri korunan sütunlara dönüşür — formüller için sayılar sayısal kalır.",
+        "Başlıklar kullanılabilir bir tablonun ilk satırı olur.",
+        "Analiz hazır yapı, sade bir metin yapıştırmasının yerini alır."
+      ]
+    },
+    {
+      "heading": "Filtreleme, Grafik Oluşturma ve İşbirliği İçin",
+      "paragraphs": [
+        "Ekipler en doğal şekilde elektronik tablo araçlarında çalışır: temiz sütunlar üzerinde filtreler, pivotlar ve grafikler.",
+        "Teslim edilebilir elektronik tablolar ham CSV'den daha kolay açıklanır ve onaylanır.",
+        "Tanıdıklık arttıkça işbirliği sürtünmesi düşer."
+      ]
+    },
+    {
+      "heading": "Büyük Veri Kümelerini Tarayıcınızı Çökertmeden İşleme",
+      "paragraphs": [
+        "Kurumsal dışa aktarımlar rutin olarak on binlerce satır içerir ve bu hacmi elektronik tablo uygulamasına manuel yapıştırmak pratik değildir. Dönüştürücü büyük dosyaları tarayıcıda verimli işler ve satır sayısından bağımsız olarak geçerli bir XLSX çalışma kitabı üretir.",
+        "Dönüştürme yerel çalıştığı için bulut hizmetlerinin dayattığı yükleme gecikmelerinden ve dosya boyutu kısıtlamalarından kaçınırsınız. Birçok çevrimiçi araçta zaman aşımına uğrayacak 50 MB'lık bir CSV, makinenizden çıkmadan sorunsuz dönüştürülür.",
+        "Ortaya çıkan çalışma kitabı, tüm satırları bozulmadan ve sıralama, filtreleme ve pivot tablo oluşturma için hazır şekilde Excel, Google Sheets veya LibreOffice Calc'ta açılır."
+      ]
+    },
+    {
+      "heading": "Dağınık Dışa Aktarımların Tablolara Dönüştürülmesi",
+      "paragraphs": [
+        "CRM'lerden ve platformlardan gelen dışa aktarımlar düzensiz ulaşır; dönüştürücü onları düzenli satır ve sütunlara normalleştirir.",
+        "Tırnaklı alanlar, fazladan boşluklar ve ayırıcı tuhaflıkları standart sütunlar olarak çözülür.",
+        "Çalışma kitabı ilk açılışta kullanılabilir."
+      ]
+    },
+    {
+      "heading": "Kodlama ve Ayırıcı Uyumluluğu",
+      "paragraphs": [
+        "Farklı işletim sistemlerinden dışa aktarılan CSV dosyaları farklı karakter kodlamaları ve ayırıcılar kullanır. Windows'ta kaydedilen bir dosya virgül kullanabilirken, Avrupa sisteminden bir dışa aktarım noktalı virgül kullanabilir. Dönüştürücü doğru ayırıcıyı seçmenize olanak tanır; böylece sütunlar doğru ayrıştırılır.",
+        "UTF-8, Latin-1 ve diğer yaygın kodlamalar işlenir; aksanlı karakterler, Arapça yazı veya Doğu Asya metinleri çıktı çalışma kitabında bozuk semboller olarak değil, doğru görünür.",
+        "Dönüştürme sırasında bu iki ayarı doğru yapmak, verileri Excel'e içe aktarırken en yaygın hayal kırıklığı kaynağını önler."
+      ]
+    },
+    {
+      "heading": "Tarihler, Başında Sıfırlar ve Veri Kaybı Tuzakları",
+      "paragraphs": [
+        "Klasik elektronik tablo tuzağı, sayısal görünen ancak metin olarak saklanması gereken veridir: sıfırlarla başlayan ürün kodları, posta kodları ve kimlik numaraları, sayı olarak işlendikleri anda sıfırlarını kaybeder. Dönüştürücü bu değerleri metin olarak korur; kodlar eksiksiz ulaşır.",
+        "Veritabanlarından dışa aktarılan tarihler YYYY-AA-GG'den eğik çizgili bölgesel biçimlere kadar tutarsız biçimlerde gelir. Kaynak biçimi açıkça anlayarak dönüştürmek, değerleri korumanıza veya analizden önce normalleştirmenize olanak tanır.",
+        "Dönüştürme sırasında sessiz veri kaybını önlemek, çalışma kitabı ekipte dolaşmaya başladıktan sonra bozuk sütunlarda hata ayıklamaktan çok daha kolaydır."
+      ]
+    },
+    {
+      "heading": "Temiz Türlerle Formül Hatalarından Kaçınma",
+      "paragraphs": [
+        "Elektronik tablo formülleri, sayı gibi görünüp metin olarak içe aktarılan değerlerle sessizce hata verir; sıfır toplamlar ve bozuk aramalar üretir. Dönüştürücü dönüştürme sırasında gerçek sayısal türler atar; SUM, ORTALAMA ve DÜŞEYARA ilk denemede beklenen gibi davranır.",
+        "Dışa aktarımlardan gelen boş hücreler ve yer tutucu kısa çizgiler normalleştirilir; boş satırlar toplama işlevleri tarafından sıfır olarak yanlış okunmak yerine boş kalır.",
+        "Ekipe doğru türlerle giren bir çalışma kitabı, herkesi içe aktarma sonrası sütunları yeniden biçimlendirme hata ayıklama ritüelinden kurtarır."
+      ]
+    },
+    {
+      "heading": "Veritabanlarından ve CRM'lerden Temiz Bir Çalışma Kitabına CSV",
+      "paragraphs": [
+        "Veritabanı dışa aktarımları nadiren bir paydaşın beklediği sütun düzenine uyar ve ham CSV, hemen filtrelemek veya pivot almak isteyen biri için elverişsizdir. Elektronik tablo yapısına dönüştürmek, alıcıların yeni bir iş akışı öğrenmeden tanıdık araçları kullanmasına olanak tanır.",
+        "Pazarlama ekipleri, finans departmanları ve operasyon personeli aynı dışa aktarımı farklı tüketir; paylaşılabilir bir çalışma kitabı, düz bir metin dökümünden daha iyi farklı ihtiyaçlarına uyum sağlar.",
+        "Dönüştürme yerel ve tekrarlanabilir olduğu için güncellenmiş bir dışa aktarımdan taze bir çalışma kitabı yeniden oluşturmak saniyeler sürer ve veriyi asla harici bir hizmete maruz bırakmaz."
+      ]
+    },
+    {
+      "heading": "Özel Elektronik Tablo Üretimi",
+      "paragraphs": [
+        "Hassas tablo verileri yerel olarak dönüştürülür; bir ağdan asla geçmez.",
+        "Yükleme yok, hesap yok, filigran yok — platformlar arasında.",
+        "Analiz şirket içinde kalır."
+      ]
+    },
+    {
+      "heading": "Eksiksiz Veri Süitinde CSV Çalışması",
+      "paragraphs": [
+        "Tam birlikte çalışabilirlik için [excel-to-csv:Excel'den CSV'ye], [csv-json:CSV'den JSON'a] ve [json-to-excel:JSON'dan Excel'e] ile eşleştirin.",
+        "Her şey ücretsiz ve tarayıcı tabanlıdır.",
+        "Düz satırlardan cilalı bir çalışma kitabına, anında."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Dönüştürücü veri türlerini korur mu?",
+      "a": "Evet. Sayısal değerler sayısal, metin de metin olarak oluşturulan çalışma kitabında kalır; formüller ve analiz güvenilir kalır."
+    },
+    {
+      "q": "CSV'm için bir ayırıcı seçebilir miyim?",
+      "a": "Evet. Virgül, noktalı virgül ve sekme ayırıcıları desteklenir; bölgesel dışa aktarımlar doğru içe aktarılır."
+    },
+    {
+      "q": "Dönüştürme özel mi?",
+      "a": "Evet. Her şey tarayıcınızda, yükleme veya hesap olmadan yerel olarak çalışır."
+    },
+    {
+      "q": "CSV'm tutarsız sütun sayıları içerirse ne olur?",
+      "a": "Dönüştürücü satırları normalleştirir; her sütun hesaba katılır ve çıktı çalışma kitabında temiz bir dikdörtgen tablo korumak için gerektiğinde eksik değerler doldurulur."
+    }
+  ]
+}

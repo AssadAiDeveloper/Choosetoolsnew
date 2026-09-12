@@ -1,0 +1,115 @@
+{
+  "slug": "invoice-generator",
+  "title": "Invoice Generator: Create Professional Invoices Online Free",
+  "description": "Free invoice generator to create professional invoices with items, taxes and totals, downloadable as PDF, right in your browser. No sign-up, no uploads, fully private.",
+  "keywords": ["invoice generator", "create invoice online free", "invoice maker", "free invoice template", "make an invoice", "invoice generator pdf", "freelance invoice"],
+  "readingTime": 9,
+  "sections": [
+    {
+      "heading": "Getting Paid Starts With a Legible Invoice",
+      "paragraphs": [
+        "An invoice is the paperwork that turns delivered work into expected money: line items, quantities, rates, tax and a payable total. [invoice-generator:Generating invoices] online turns a potentially clumsy task into a two-minute routine.",
+        "Freelancers, consultants and small teams billing continuously need speed and consistency.",
+        "ChooseTools builds invoices locally in your browser and exports them as clean print-ready PDFs."
+      ]
+    },
+    {
+      "heading": "How to Create an Invoice",
+      "paragraphs": [
+        "From hours worked to sent invoice, fast.",
+        "Enter the sender and client details, add line items with quantity and rate, set tax and discount, and watch the totals compute automatically. Preview, adjust, and export the PDF.",
+        "Everything is generated on your device, with financial details staying with you.",
+        "A guided layout prevents the omissions that delay payment, such as missing payment terms or an unclear due date."
+      ]
+    },
+    {
+      "heading": "Line Items, Tax and Automatic Totals",
+      "paragraphs": [
+        "Each row carries description, quantity, unit price and amount; the total, tax and net calculations update live.",
+        "Discounts apply cleanly and the grand total always matches the arithmetic.",
+        "Zero spreadsheet slips between work and invoice.",
+        "Changing any value re-renders the totals instantly, so the final number is never stale or miscalculated."
+      ]
+    },
+    {
+      "heading": "Invoice Numbers and Structured Delivery",
+      "paragraphs": [
+        "Sequential invoice numbers keep records audit-ready and payments traceable.",
+        "Company info, payment terms and a professional layout make the document easier to approve and pay.",
+        "Consistency from invoice to invoice builds trust with repeat clients.",
+        "An organized number sequence helps you and your accountant reconcile payments across months without manual cross-referencing."
+      ]
+    },
+    {
+      "heading": "What Makes an Invoice Easy to Pay",
+      "paragraphs": [
+        "A clear due date, preferably stated both as a date and as days from issue, removes any ambiguity about when payment is expected.",
+        "An itemized breakdown showing what was delivered or performed, at what rate, lets clients verify charges without emailing back for clarification.",
+        "Your bank details or a payment link positioned prominently near the totals reduces the friction between receipt and transfer.",
+        "A short, polite note thanking the client and stating preferred payment method rounds out a document that is easy to approve and action."
+      ]
+    },
+    {
+      "heading": "Download as PDF: The Universal Bill Format",
+      "paragraphs": [
+        "PDF invoices open everywhere, print cleanly and archive safely.",
+        "The export keeps totals and layout intact, ready for email or a portal.",
+        "Clients and accountants alike expect nothing less than a stable, non-editable format they can file.",
+        "PDF also preserves your branding and layout regardless of the recipient's device or operating system."
+      ]
+    },
+    {
+      "heading": "Managing Multiple Clients and Projects",
+      "paragraphs": [
+        "Freelancers serving several clients at once benefit from being able to reproduce the same clean layout for every engagement, keeping their billing brand uniform.",
+        "Project-based invoicing with several line items per phase avoids the confusion of one lump charge that clients must interrogate.",
+        "Regular contractors can mirror their recurring billing structure each period, adjusting quantities and rates with minimal effort.",
+        "Keeping a repeatable process means Billing Monday stays calm, even when several invoices go out the same week."
+      ]
+    },
+    {
+      "heading": "Private Billing, No Cloud Needed",
+      "paragraphs": [
+        "Rates, client names and revenue streams are sensitive; local generation means none of it is stored elsewhere.",
+        "No sign-up, no upload, no watermark on any device.",
+        "Your bookkeeping stays your bookkeeping, offline and under your control.",
+        "There is no account to compromise, no server breach that could expose your clients, and no third party profiting from your data."
+      ]
+    },
+    {
+      "heading": "Polishing Your Invoice Provider Details",
+      "paragraphs": [
+        "Your invoice header should identify you or your business at a glance: legal name, contact email, phone and, where relevant, tax registration or VAT number.",
+        "Including your payment details, such as a bank account, IBAN or payment link, in a clearly marked block prevents avoidable delays waiting for the client to ask how to transfer funds.",
+        "Payment terms of net 14, 30 or 60 days should match what you agreed before the work began, and restating them on the document keeps both sides aligned.",
+        "A professional header combined with complete contact data makes your invoice look like it comes from an established operation rather than a one-off request."
+      ]
+    },
+    {
+      "heading": "Invoice Work Within the Document Suite",
+      "paragraphs": [
+        "Export, then [compress-pdf:compress] for email, [protect-pdf:encrypt] for confidentiality, or [pdf-to-text:extract text] for bookkeeping.",
+        "The full suite is free and browser-based, covering the entire billing and archiving lifecycle.",
+        "From work done to invoice paid, smoothly and privately."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I add multiple line items to my invoice?",
+      "a": "Yes. Add any number of items with quantity and rate; totals, tax and final amount compute automatically."
+    },
+    {
+      "q": "Can I download the invoice as a PDF?",
+      "a": "Yes. The finished invoice exports as a print-ready, universally compatible PDF with layout intact."
+    },
+    {
+      "q": "Is invoice creation private?",
+      "a": "Yes. Everything runs locally in your browser with no sign-up, uploads or watermarks."
+    },
+    {
+      "q": "Can I include discounts or different tax rates?",
+      "a": "Yes. Discounts apply cleanly to the totals, and tax is calculated automatically so the final figure always matches."
+    }
+  ]
+}

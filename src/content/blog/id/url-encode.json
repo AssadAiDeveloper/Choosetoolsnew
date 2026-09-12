@@ -1,0 +1,107 @@
+{
+  "slug": "url-encode",
+  "title": "URL Encoder Decoder: Enkode dan Dekode URL Secara Online Gratis",
+  "description": "Pengkode dan pendekode URL online gratis untuk mengenkode dan mendekode alamat web, string, dan parameter kueri secara aman. Privat, instan, di browser Anda.",
+  "keywords": ["enkode url", "dekode url", "pendekode url", "enkode url online", "alat enkoder url", "percent encode", "dekode string url"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "URL Berbicara ASCII, Web Berbicara Segalanya",
+      "paragraphs": [
+        "Tautan tidak dapat membawa spasi, aksen, atau simbol khusus secara mentah — mereka harus dienkode persen. [url-encode:Mengenkode URL] menerjemahkan string apa pun menjadi alamat yang aman untuk transportasi yang dapat ditafsirkan server dengan benar.",
+        "Parameter kueri, biometrik, dan pengalihan semuanya bergantung pada pengkodean yang benar.",
+        "ChooseTools mengenkode dan mendekode URL secara lokal di browser Anda.",
+        "Setiap permintaan HTTP membawa data terenkode di jalur dan string kuerinya. Saat pengkodean salah, server mengembalikan kesalahan 400, pengalihan berputar tanpa henti, dan atribusi analitik terganggu secara diam-diam."
+      ]
+    },
+    {
+      "heading": "Cara Mengenkode atau Mendekode URL",
+      "paragraphs": [
+        "Kedua arah, secara instan:",
+        "Tempel URL dengan karakter mentah untuk mengubahnya menjadi bentuk aman-tautan, atau tempel alamat terenkode untuk mendekode kembali ke teks yang dapat dibaca manusia. Salin hasil yang persis.",
+        "Pemrosesan lokal menjaga rahasia kueri Anda tetap jauh dari server mana pun.",
+        "Alat ini menangani pengkodean komponen untuk parameter individu dan pengodean URL penuh untuk alamat lengkap, sehingga Anda memilih granularitas yang tepat untuk tugas tersebut."
+      ]
+    },
+    {
+      "heading": "Kueri dengan Spasi, Aksen, dan Simbol",
+      "paragraphs": [
+        "String pencarian dengan spasi, karakter internasional, dan simbol yang dilarang akan merusak tautan kecuali dienkode.",
+        "Pengkodean yang benar menggantinya dengan urutan persen yang tetap utuh melalui setiap perpindahan.",
+        "Penerima menerima kueri yang dimaksud, didekode dengan setia.",
+        "Pencarian untuk café, misalnya, mengubah é aksen tajam ke dalam representasi persen UTF-8, memastikan server target merekonstruksi kueri asli tanpa kehilangan data atau substitusi."
+      ]
+    },
+    {
+      "heading": "Pengalihan, Token, dan Tautan yang Dibuat",
+      "paragraphs": [
+        "Rantai pengalihan menanamkan alamat lengkap di dalam nilai kueri — pengodean ganda harus disengaja. Saat URL pengalihan itu sendiri adalah nilai parameter, pengodean lapisan luar mencegah URL internal disalahartikan sebagai kunci kueri terpisah.",
+        "Token dan parameter sensitif dalam URL kini diprediksi pengodeannya.",
+        "Membangun tautan yang valid menjadi tepat alih-alih berharap.",
+        "Callback OAuth, alamat pengembalian SSO, dan URL gerbang pembayaran semuanya berisi karakter khusus yang harus dienkode tepat pada tingkat yang benar agar berfungsi di seluruh browser dan implementasi server."
+      ]
+    },
+    {
+      "heading": "Dekode untuk Debugging dan Analisis Log",
+      "paragraphs": [
+        "Log penuh dengan alamat terenkode; mendekodekannya mengungkap parameter sebenarnya yang sedang diteliti.",
+        "Memahami string mentah di balik %20 dan %C3%BC mempercepat debugging.",
+        "Dua klik mengubah kebisingan log menjadi kejelasan.",
+        "Insinyur jaringan dan pengembang backend secara rutin mendekode URL permintaan yang ditangkap untuk memverifikasi bahwa parameter pelacakan, nilai UTM, dan token sesi tiba utuh melalui proxy dan load balancer."
+      ]
+    },
+    {
+      "heading": "Standar Pengkodean dan Set Karakter",
+      "paragraphs": [
+        "RFC 3986 menentukan karakter mana yang harus dienkode dalam URI dan mana yang aman dibiarkan tidak ditentukan. Alat ini mengikuti spesifikasi ini dengan tepat, mengenkode spasi sebagai %20 dan menghormati set karakter yang diizinkan termasuk huruf, angka, tanda hubung, garis bawah, dan tilde.",
+        "Karakter multibyte UTF-8 seperti emoji dan naskah non-Latin dienkode ke urutan persen yang benar, sehingga URL yang berisi teks Jepang atau wajah tersenyum didekode secara identik di server yang sesuai standar.",
+        "Memahami perbedaan antara mengenkode URL penuh dan hanya mengenkode nilai parameter kueri mencegah kesalahan umum pengodean ganda karakter yang sudah aman.",
+        "Pendekode membalikkan setiap transformasi dengan setia, mengembalikan string asli termasuk semua titik kode Unicode."
+      ]
+    },
+    {
+      "heading": "Pekerjaan Web Privat",
+      "paragraphs": [
+        "Token, string autentikasi, dan tautan yang belum dipublikasikan dienkode secara lokal.",
+        "Tanpa unggahan, tanpa akun, tanpa tanda air — di seluruh platform.",
+        "Kesiapan surel yang aman tanpa paparan apa pun.",
+        "Token autentikasi, kunci API yang tertanam dalam URL, dan alamat pengalihan internal tidak pernah menyentuh layanan pihak ketiga, menjaga detail infrastruktur Anda tetap rahasia selama proses pengkodean."
+      ]
+    },
+    {
+      "heading": "Pengodean Komponen vs Pengodean URL Penuh",
+      "paragraphs": [
+        "Pengodean komponen hanya mengenkode karakter yang tidak aman dalam satu komponen URI — nilai kueri, segmen jalur, atau pengenal fragmen. Pengodean URL penuh mengenkode seluruh alamat, yang sesuai saat membangun URL dari bagian-bagian individual.",
+        "Menggunakan mode pengodean yang salah adalah sumber bug yang umum: mengodekan komponen URL penuh meninggalkan garis miring dan tanda tanya tidak terenkode, sementara pengodean penuh nilai parameter mengenkode pemisah yang harus tetap literal.",
+        "Alat ini memungkinkan Anda memilih mode yang tepat untuk tugas tersebut, mencegah ketidakcocokan ini dan memastikan output valid terlepas dari konteks penggunaannya.",
+        "Memahami kapan harus menggunakan setiap mode sangat penting saat membangun URL secara programatik, di mana pilihan yang salah memperkenalkan bug halus yang hanya muncul di bawah kombinasi input tertentu."
+      ]
+    },
+    {
+      "heading": "URL dalam Peralatan Pengembang",
+      "paragraphs": [
+        "Lengkapi dengan [base64:base64], [html-encode:escape HTML] dan [json-formatter:pemformatan JSON] untuk set pembangunan permintaan yang lengkap.",
+        "Suite ini gratis dan berbasis browser.",
+        "Setiap tautan, tepat seperti yang seharusnya."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apa sebenarnya yang dilakukan pengodean URL?",
+      "a": "Pengodean URL menggantikan karakter yang tidak aman dalam URL — spasi, simbol, aksen — dengan urutan persen yang aman untuk transportasi."
+    },
+    {
+      "q": "Bisakah saya mendekode URL yang dienkode kembali ke teks yang dapat dibaca?",
+      "a": "Ya. Pendekode merekonstruksi spasi, aksen, dan simbol dari bentuk terodeknya."
+    },
+    {
+      "q": "Apakah pengodean URL bersifat privat?",
+      "a": "Ya. Semuanya terjadi secara lokal di browser Anda tanpa unggahan atau akun."
+    },
+    {
+      "q": "Apakah mendukung karakter non-ASCII seperti emoji?",
+      "a": "Ya. Karakter multibyte UTF-8 dienkode ke urutan persen yang benar dan didekode kembali dengan setia."
+    }
+  ]
+}

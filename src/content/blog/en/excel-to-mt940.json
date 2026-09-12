@@ -1,0 +1,115 @@
+{
+  "slug": "excel-to-mt940",
+  "title": "Excel to MT940: Convert XLSX Financial Data to MT940 Online Free",
+  "description": "Free Excel to MT940 converter to generate bank-format MT940 statements from spreadsheet data, in your browser. Private, no uploads, no sign-up.",
+  "keywords": ["excel to mt940", "mt940 generator", "convert xlsx to mt940", "generate mt940 from excel", "bank statement to mt940", "excel to mt940 online", "mt940 file generator"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "When Systems Demand the Bank's Format",
+      "paragraphs": [
+        "Some platforms, banks and treasury systems only accept MT940. [excel-to-mt940:Converting Excel data to MT940] packages a spreadsheet into the tagged statement format they require.",
+        "Columns and rows become the codes downstream parsers expect, preserving every date, amount and reference exactly.",
+        "ChooseTools builds MT940 from Excel locally in your browser with full control over field mapping."
+      ]
+    },
+    {
+      "heading": "How to Convert Excel to MT940",
+      "paragraphs": [
+        "From working table to coded file:",
+        "Upload a workbook laid out with the expected columns — date, amount, description, balances — map the fields, and generate the MT940 text ready to deliver. The preview confirms tag placement before download.",
+        "Generation is local, keeping financial records sealed on your machine throughout the process."
+      ]
+    },
+    {
+      "heading": "Field Mapping Makes the Difference",
+      "paragraphs": [
+        "Correct mapping of dates, amounts and references determines whether an MT940 is accepted or rejected by the receiving system.",
+        "The converter walks you through assigning columns to tags with clear labels so you match each field confidently.",
+        "Deliverables validate against standard rules, not just generate raw text that might fail downstream."
+      ]
+    },
+    {
+      "heading": "MT940 Tag Structure Explained",
+      "paragraphs": [
+        "Every MT940 file follows a strict tag hierarchy. The :20 tag carries a unique statement reference that identifies this particular export. The :25 tag names the account in IBAN or bank-local format, so the receiving system knows which account the transactions belong to.",
+        "Balance tags :60M and :62M bookend the transaction list with opening and closing figures. Each contains a credit-or-debit indicator, the date, a currency code and the amount. Accurate balances are mandatory because reconciliation software validates that the closing balance of one statement matches the opening balance of the next.",
+        "Individual transactions live in :61 lines with a compact date, amount and reference layout, while the :86 tag provides the free-text narrative. Matching each :61 with its :86 narrative keeps descriptions aligned with the correct line item, preventing the kind of orphaned entries that confuse auditors."
+      ]
+    },
+    {
+      "heading": "For Testing and System Integration",
+      "paragraphs": [
+        "Development teams produce sample statements to test importers and reconciliation engines without waiting for actual bank exports.",
+        "Treasury teams export statements for partner banks in their dialect when onboarding new accounts or upgrading integration modules.",
+        "One workbook, many compliant outputs, saving hours of manual formatting across multiple test cycles."
+      ]
+    },
+    {
+      "heading": "Handling Multi-Currency and Statement Periods",
+      "paragraphs": [
+        "Companies operating across borders often maintain accounts in multiple currencies. Each currency requires its own statement block with the correct currency code in the balance tags. The converter generates separate statement sequences for each currency found in the workbook, keeping them properly delimited.",
+        "Statement period dates determine the :60M opening balance date and the :62M closing balance date. Getting these right matters for automated reconciliation, which compares closing and opening balances across consecutive statements to detect gaps or missing transactions.",
+        "Reference numbers in the :20 tag should follow your bank's convention, whether sequential, date-based or account-scoped. A consistent reference scheme makes it simpler to trace statements back to their source workbook when auditors ask questions months later."
+      ]
+    },
+    {
+      "heading": "Standard Syntax, Zero Guesswork",
+      "paragraphs": [
+        "Tags, field positions and line lengths follow the standard automatically so the output is valid without manual review.",
+        "No manual brace-counting or tag surgery remains once the converter applies the formatting rules.",
+        "Accurate imports begin at the source, reducing the back-and-forth with bank support teams."
+      ]
+    },
+    {
+      "heading": "Common Pitfalls and How to Avoid Them",
+      "paragraphs": [
+        "Date formatting is the most frequent source of rejection. MT940 requires YYMMDD without separators, but spreadsheets often store dates in locale-specific formats. The converter normalizes dates automatically, so a column of March 15 entries becomes 230315 in every :61 and balance line.",
+        "Missing or extra spaces in free-text :86 narratives cause parsers to misalign transaction details with their descriptions. The tool trims and pads narrative fields to the expected width, preventing the subtle spacing errors that surface only when the receiving bank processes the file.",
+        "Encoding mismatches between the spreadsheet and the MT940 output can corrupt non-ASCII characters in descriptions. The converter ensures UTF-8 consistency throughout, so Arabic, accented Latin and other scripts survive the round trip intact."
+      ]
+    },
+    {
+      "heading": "Private Financial Generation",
+      "paragraphs": [
+        "Bank-grade data stays on your machine through local processing, with no intermediate servers or cloud storage involved.",
+        "No upload, no account, no watermark — across platforms and operating systems.",
+        "Statements are built, not exposed, maintaining confidentiality from creation to delivery."
+      ]
+    },
+    {
+      "heading": "MT940 in the Financial Suite",
+      "paragraphs": [
+        "Combine with [mt940-to-excel:MT940 to Excel], [txt-to-mt940:MT940 from text] and [excel-to-csv:CSV exports] for full coverage of statement workflows.",
+        "Everything is free and browser-native, requiring no installation or subscription.",
+        "Spreadsheets speak banking fluently once the conversion is complete."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which columns must the Excel file have?",
+      "a": "Date, amount and description are essential; balance and reference fields map according to your bank's requirements."
+    },
+    {
+      "q": "Can the converter handle different field arrangements?",
+      "a": "Yes. Interactive field mapping adapts the generated MT940 to your spreadsheet's layout."
+    },
+    {
+      "q": "Is the conversion private?",
+      "a": "Yes. Everything runs locally in your browser with no uploads or accounts."
+    },
+    {
+      "q": "What date format does the output use?",
+      "a": "MT940 dates follow the YYMMDD format without separators. The converter normalizes spreadsheet dates automatically."
+    },
+    {
+      "q": "Can I generate statements for multiple currencies?",
+      "a": "Yes. The tool detects different currency values in your data and creates separate statement blocks with the correct currency code."
+    },
+    {
+      "q": "Will the output pass bank validation?",
+      "a": "The converter checks tag structure, balance consistency and field lengths against standard MT940 rules before generating the file."
+    }
+  ]
+}

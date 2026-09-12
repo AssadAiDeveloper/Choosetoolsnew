@@ -1,0 +1,99 @@
+{
+  "slug": "rotate-image",
+  "title": "Hoe draait u een afbeelding online gratis: Recht scheve foto's in seconden",
+  "description": "Draai een afbeelding online gratis met ChooseTools. Draai foto's en afbeeldingen 90 of 180 graden, recht ze, en sla het resultaat op in uw browser met volledige privacy.",
+  "keywords": ["afbeelding draaien", "afbeelding online gratis draaien", "foto 90 graden draaien", "afbeelding rechtzetten online", "scheve foto corrigeren", "afbeelding draaien", "afbeelding zijwaarts draaien"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Rechte foto's zijn betere foto's",
+      "paragraphs": [
+        "Elke fotogalerij bevat een paar zijwaarts of ondersteboven geschoten foto's, slachtoffers van camerasensoren en haastig fotograferen. Voordat die foto's naar drukwerk, een portfolio of een klantenmoodboard gaan, is [rotate-image:ze online draaien] de snelste oplossing die bestaat.",
+        "De taak is technisch triviaal, maar iets wat mensen nog steeds vermijden omdat dedicated desktop-editors overkill zijn voor een simpele oriëntatiewijziging.",
+        "ChooseTools draait afbeeldingen lokaal in uw browser — kwartomwentelingen, halve omwentelingen en handmatig rechtzetten — met directe voorvertoning en zonder upload."
+      ]
+    },
+    {
+      "heading": "Hoe draait u een foto in de browser",
+      "paragraphs": [
+        "Een enkele oriëntatiecorrectie is een kwestie van seconden van upload tot download.",
+        "Voeg uw afbeelding toe en kies draai-links, draai-rechts of draai 180 graden voor een definitieve correctie. Voor licht scheve horizonnen, schuif de rechtzet-schuifregelaar tot de voorvertoning er recht uitziet. Exporteer de gecorrigeerde afbeelding wanneer u tevreden bent.",
+        "Alles draait op uw apparaat, dus zelfs batch-draaien van een stapel foto's is snel en privé zonder serververwerking."
+      ]
+    },
+    {
+      "heading": "Horizonnen rechtzetten zonder verrassingen bij bijsnijden",
+      "paragraphs": [
+        "Een kleine helling — 2 graden scheve horizon — is wat ervoor zorgt dat scènes oncomfortabel aanvoelen, en mensen merken zelden waarom de afbeelding niet goed aanvoelt.",
+        "De rechtzetfunctie draait de foto lichtjes en snijdt automatisch de randen bij die buiten het kader vallen, zodat het resultaat zowel recht als rechthoekig is zonder handmatig bijsnijden.",
+        "De uitvoer behoudt de fotokwaliteit: geen hercompressie, geen versoepeling van de rechte pixels, en geen kleurverschuiving tijdens het draaiproces."
+      ]
+    },
+    {
+      "heading": "EXIF-oriëntatiedata en waarom het belangrijk is",
+      "paragraphs": [
+        "Moderne smartphones en digitale camera's embedden een EXIF-oriëntatielabel in elke foto, waarmee viewers worden verteld hoe ze de afbeelding correct moeten weergeven zonder de pixels fysiek te draaien. De meeste moderne apps respecteren dit label, maar oudere software, bepaalde printers en sommige webformulieren negeren het volledig.",
+        "Wanneer een foto er op uw telefoon correct uitziet maar zijwaarts verschijnt op een desktop-applicatie, doet het EXIF-label zijn werk terwijl de viewer dat niet doet. Het toepassen van een fysieke draaiing via het tool embedt de juiste oriëntatie in de pixeldata zelf, waardoor de afhankelijkheid van viewerondersteuning wordt geëlimineerd.",
+        "Het EXIF-oriëntatielabel verwijderen terwijl de pixels in hun originele rangschikking blijven is een ander veelvoorkomend scenario. De converter biedt beide benaderingen — draaien met het label of de draaiing in de afbeelding bakken — zodat het resultaat voldoet aan de vereisten van het bestemmingsplatform."
+      ]
+    },
+    {
+      "heading": "Draaien voor afdrukken en publiceren",
+      "paragraphs": [
+        "Drukkerijen wijzen zijwaartse afbeeldingen af en inconsistentie oriëntatie veroorzaakt vertragingen in productieworkflows; webplatforms tonen ze inconsistently gedraaid across viewers en apparaten.",
+        "Oriëntatie van tevoren normaliseren maakt levering soepel overal, van een lijstenwinkel tot een online winkel-upload tot een klantenpresentatie.",
+        "Combineer met [crop-image:bijsnijden] na het rechtzetten om de compositie strakker te maken, en [convert-image:converteren] naar een webvriendelijk formaat voor maximale compatibiliteit."
+      ]
+    },
+    {
+      "heading": "Batch-draaien voor fotobibliotheken",
+      "paragraphs": [
+        "Evenementfotografen en makelaars leggen routinematig tientallen afbeeldingen vast in staand en liggend formaat. Ze individueel draaien via een volledige desktop-editor is tijdrovend wanneer het patroon voorspelbaar is: draai-links voor foto's gemaakt met de telefoon zijwaarts vastgehouden.",
+        "Een stapel foto's verwerken via het browser-tool past dezelfde correctie toe op elk bestand zonder software opnieuw te installeren of een nieuwe interface te leren. De consistente uitvoer bespaart tijd bij post-evenementlevering of vastgoedlijstvoorbereiding.",
+        "Na batch-draaien, organiseer de gecorrigeerde bestanden in projectmappen met duidelijke naamgevingsconventies. Het draaistap combineren met [resize-image:herformatten] of [compress-image:comprimeren] creëert een volledige voorbereidingspipeline die afbeeldingen in één sessie publicatieklaar maakt."
+      ]
+    },
+    {
+      "heading": "Veelvoorkomende draaiscenario's en oplossingen",
+      "paragraphs": [
+        "Gescande documenten komen vaak ondersteboven of gespiegeld aan wanneer het scannerschap verkeerd is geplaatst. Een snelle draaiing van 180 graden of een horizontale spiegeling corrigeert de uitvoer zonder het hele document opnieuw te scannen.",
+        "Schermafbeeldingen van mobiele apparaten worden soms met onverwachte oriëntatie geëxporteerd wanneer ze naar een computer worden overgedragen. Het draaitool corrigeert deze direct, waardoor een bestand ontstaat dat correct wordt weergegeven op elk platform.",
+        "Productfotografie voor e-commerce vereist consistente rechte oriëntatie doorheen een hele catalogus. Hetzelfde draaien toepassen op een batch afbeeldingen zorgt voor uniformiteit die kopersvertrouwen opbouwt en ondersteuningsverzoeken vermindert."
+      ]
+    },
+    {
+      "heading": "Privé en gratis op elk apparaat",
+      "paragraphs": [
+        "Uw familiefoto's, ongepubliceerde opnamen en klantbestanden lokaal draaien betekent dat niets uw apparaat verlaat onder welke omstandigheid dan ook.",
+        "Geen watermerk, geen account, geen limieten — identiek gedrag op telefoons, tablets en desktops op alle besturingssystemen.",
+        "Elke foto verlaat het tool precies zoals u die heeft gecorrigeerd, zonder ingebedde branding of metadataveranderingen."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan ik precies 90, 180 of 270 graden draaien?",
+      "a": "Ja. Speciale draaiknoppen maken kwart- en halve omwentelingen in beide richtingen, plus een handmatige rechtzet-schuifregelaar voor fijne horizoncorrecties."
+    },
+    {
+      "q": "Snijdt het rechtzettool mijn fotoranden bij?",
+      "a": "Het draait en snijdt dan automatisch de lege hoeken bij die verschijnen, waardoor een schone rechthoekige afbeelding ontstaat zonder artefacten."
+    },
+    {
+      "q": "Gebeurt het draaien van afbeeldingen privé?",
+      "a": "Ja. Alle verwerking vindt lokaal in uw browser plaats zonder uploads, watermerken of accounts."
+    },
+    {
+      "q": "Vermindert het draaien van een foto de kwaliteit?",
+      "a": "Kwart- en halve omwentelingen herschikken eenvoudig de pixels zonder verlies. Fijne hoekrechtzet snijdt een kleine rand bij, maar de resterende afbeelding behoudt volledige resolutie en scherpte."
+    },
+    {
+      "q": "Wat is het EXIF-oriëntatielabel en moet ik het verwijderen?",
+      "a": "Het is metadata die viewers vertelt hoe ze de afbeelding moeten weergeven. Het verwijderen voorkomt zijwaartse weergave in oudere software, maar vereist dat de draaiing van tevoren op de pixeldata wordt toegepast."
+    },
+    {
+      "q": "Kan ik een batch foto's met dezelfde correctie draaien?",
+      "a": "Ja. Het tool verwerkt meerdere bestanden op volgorde en past dezelfde draaiing toe op elk, zodat uw hele collectie consistent blijft."
+    }
+  ]
+}

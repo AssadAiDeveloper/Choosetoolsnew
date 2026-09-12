@@ -1,0 +1,115 @@
+{
+  "slug": "number-base",
+  "title": "Sayı Tabanı Dönüştürücü: İkili, Sekizli, Ondalık ve Onaltılı Sayılar Arasında Çevrimiçi Olarak Ücretsiz Dönüştürün",
+  "description": "İkili, sekizli, ondalık ve onaltılık sayılar arasında anında geçiş yapmak için ücretsiz sayı tabanı dönüştürücü. Tarayıcınızda gizli, yükleme yok.",
+  "keywords": ["sayı tabanı dönüştürücü", "ikili sayıyı onaltılıya çevirme", "onaltılı tabanı ondalığa çevirme", "çevrimiçi taban dönüştürücü", "ondalık sayıyı ikiliye çevirme", "sekizli taban dönüştürücü", "sayı tabanı hesaplayıcı"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Aynı Sayı, Farklı Alfabeler",
+      "paragraphs": [
+        "Bilgisayarlar ikili sayıları kullanır, insanlar ondalık sayıları tercih eder ve bellek haritaları onaltılı sistemi sever — ancak hepsi aynı miktarı tanımlar. [number-base:Tabanlar arasında dönüştürme] bu görünümler arasında tek bir basamağı bile kaybetmeden çeviri yapar.",
+        "Her taban, basamakları bir sayının kuvvetlerine göre gruplamanın farklı bir yoludur. İkili sistem ikilerle, sekizli sistem sekizlerle, ondalık sistem onlarla ve onaltılı sistem on altılarla gruplar. Bu tek ilkeyi anlamak, ihtiyacınız olacak her dönüşümün anahtarını verir.",
+        "ChooseTools, sayıları tarayıcınızda yerel olarak tabanlar arasında dönüştürür."
+      ]
+    },
+    {
+      "heading": "Tabanlar Arasında Nasıl Dönüştürürsünüz",
+      "paragraphs": [
+        "Sayı sistemleri arasında anında çeviri:",
+        "Bir sayı girin, mevcut tabanını (ikili, sekizli, ondalık veya onaltılı) ve hedef tabanı seçin; dönüştürülmüş değer anında görünür.",
+        "Örneğin ondalık 255, onaltılı sistemde FF ve ikili sistemde 11111111 olur. Dönüştürücü matematiği milisaniyeler içinde halleder ve öğrencilere saatlerce sıkıntı yaşatan elle uzun bölme işlemine gerek bırakmaz.",
+        "Dönüştürme yerel ve eşzamanlıdır."
+      ]
+    },
+    {
+      "heading": "İkili, Sekizli, Ondalık, Onaltılı",
+      "paragraphs": [
+        "Taban-2 bitleri makinenin dilini oluşturur; taban-8 üçlü bit gruplarını sıkıştırır; taban-10 gündelik hayattır; taban-16 ise temiz bellek adreslerinde gruplama yapar.",
+        "Onaltılı sistem baytları temsil etmek için özellikle kullanışlıdır: her onaltılı basamak çifti bir bayta karşılık gelir ve bellek dökümleri ile renk kodlarını birler ve sıfırlar dizisinden çok daha okunaklı kılar.",
+        "Görünümler arasında geçiş yapmak maskeleri, renkleri ve kayıt defterlerini netleştirir.",
+        "Dört taban arasındaki akıcılık çoğu mühendislik işini kapsar."
+      ]
+    },
+    {
+      "heading": "Taban Dönüşümünün Günlük Karşılaştığı Yerler",
+      "paragraphs": [
+        "Geliştiriciler, fark etmeseler bile sürekli taban dönüşümüyle karşılaşır. Ağ mühendisleri, bitişik ikili birlere karşılık gelen noktalı ondalık alt ağ maskelerini okurken veritabanı yöneticileri UUID ve hash değerlerinin onaltılı kimliklerini işler.",
+        "Web geliştiricileri 2A4B8C gibi onaltılı renk değerlerini RGB bileşenlerine dönüştürür ve geri çevirir. Gömülü sistem programcıları, dokümantasyonu sekizli gösterim kullanan durum kayıtlarındaki tek tek bitleri değiştirir.",
+        "Yaratıcı profesyoneller marka paletleri için onaltılı kodlar kullanır. Önemli olan evrenseldir: taban bilgisi dar bir uzmanlık becerisi değil, neredeyse her teknik disiplinde temel bir yeterliliktir.",
+        "Hızlı bir dönüştürücü aritmetik yükünü ortadan kaldırır; böylece profesyoneller matematiğe değil anlama odaklanabilir."
+      ]
+    },
+    {
+      "heading": "Sistemler Arasında Değerlerde Hata Ayıklama",
+      "paragraphs": [
+        "Günlükler onaltılı gösterir, hesap makineleri ondalık döndürür, donanım ikili ister.",
+        "Hızlı çeviri, adresler, maskeler ve renk kodlarındaki tutarsızlıkları giderir.",
+        "Örneğin bir ağ paketi yakalamasında hata ayıklayan bir geliştiricinin, yönlendirme kurallarını doğrulamak için onaltılı bir IP alt ağ maskesini ondalık veya ikili gösterime çevirmesi gerekir. Bunu otuz iki bitlik bir adres için zihinden yapmak hataya açık ve yavaştır.",
+        "Daha az zihinsel matematik hatası, daha güvenli düzeltmeler."
+      ]
+    },
+    {
+      "heading": "Negatif Sayılar ve Kesirlerle Başa Çıkma",
+      "paragraphs": [
+        "Taban dönüşümü pozitif tam sayılarla sınırlı değildir. Negatif sayılar ikili sistemde ikiye tümleyen gösterimini kullanır ve dönüştürücü işaretli değerleri işler; böylece negatif bir ondalık tam sayının onaltılı veya ikili sistemde nasıl göründüğünü görebilirsiniz.",
+        "Ondalık sistemdeki 0.625 gibi kesirli değerler, ikili sistemde yuvarlama olmadan temsil edilebilen tam kesir bileşenini ortaya çıkararak 0.101 olarak temiz biçimde dönüşür.",
+        "Kesirlerin hangi tabanda sonlandığını, hangisinde tekrar ettiğini anlamak, kayan nokta aritmetiğinin programlarda neden bazen beklenmedik sonuçlar ürettiğini açıklar.",
+        "Bu uç durumlar sistem programcılığında, kriptografik hesaplamalarda ve tabanlar arasında hassasiyetin kritik olduğu her alanda önem taşır."
+      ]
+    },
+    {
+      "heading": "Eğitim ve Çalışma Görünür Kılındı",
+      "paragraphs": [
+        "Bilgisayar ve elektronik öğrencileri, gruplamanın gösterimi nasıl değiştirdiğini tam olarak görür.",
+        "Ezberlenmiş tabloların yerini adım adım anlayış alır.",
+        "Ondalık 42'nin onaltılı sistemde 2A ve ikili sistemde 00101010 olduğunu görmek, konumsal gösterim hakkındaki sezgiyi ezberden çok daha etkili biçimde geliştirir.",
+        "Biçim sıçraması gizemli olmaktan çıkar."
+      ]
+    },
+    {
+      "heading": "Çalışan Bir Örnek: IP Adresleri ve Renk Çiftleri",
+      "paragraphs": [
+        "192.168.1.1 gibi bir IPv4 adresi aslında ondalık yazılmış dört bayttır ve her baytı onaltılıya çevirmek, birçok yönlendiricinin kullandığı kompakt gösterimi ortaya çıkarır: C0.A8.01.01.",
+        "Aynı eşleşme web renklerinde görülür; FF7F50 gibi bir onaltılı üçlü, ondalık sistemde 255, 127 ve 80 anlamına gelen üç bayta bölünür. Araçlar arasında geçiş yapmak bu dünyaları anında birbirine bağlar.",
+        "Bunlara benzer tanıdık örneklerle pratik yapmak, tabanlar arasındaki soyut ilişkiyi somut ve akılda kalıcı kılar.",
+        "Onaltılı basamağın arkasındaki baytı bir kez gördüğünüzde her döküm, palet ve kayıt anlam kazanmaya başlar."
+      ]
+    },
+    {
+      "heading": "Gizli Sayı İşlemleri",
+      "paragraphs": [
+        "Yapılandırma ve ofset değerleri cihaz üzerinde dönüştürülür.",
+        "Yükleme yok, hesap yok, filigran yok — platformlar arası.",
+        "Firmware belgesindeki bir ofseti çeviriyor veya bir sağlama toplamı kontrol ediyor olun, sayılar makinenizde kalır.",
+        "Mühendislik matematiği, sessizce yapılır."
+      ]
+    },
+    {
+      "heading": "Geliştirici Araç Setinde Taban İşlemleri",
+      "paragraphs": [
+        "Düşük düzey işlemlerin tamamı için [binary-text:ikili metin], [hex-to-…:renk araçları] ve [ascii-tools] ile birlikte kullanın.",
+        "Set ücretsiz ve tarayıcı tabanlıdır.",
+        "Her taban, kusursuz biçimde çevrilir."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hangi tabanlar destekleniyor?",
+      "a": "İkili (taban 2), sekizli (taban 8), ondalık (taban 10) ve onaltılı (taban 16) her kombinasyonda dönüştürülür."
+    },
+    {
+      "q": "Dönüştürme tam değeri korur mu?",
+      "a": "Evet. Yalnızca gösterim değişir; alttaki sayı tabanlar arasında aynı kalır."
+    },
+    {
+      "q": "Dönüştürücü gizli mi?",
+      "a": "Evet. Her şey yükleme veya hesap olmadan tamamen tarayıcınızda yerel olarak çalışır."
+    },
+    {
+      "q": "Araç negatif sayıları işleyebilir mi?",
+      "a": "Evet. Negatif değerler desteklenir; buna ikili ve onaltılı biçimlerde yaygın olarak kullanılan ikiye tümleyen gösterimler de dahildir."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "find-replace",
+  "title": "Text online kostenlos suchen und ersetzen: Wörter sofort austauschen",
+  "description": "Kostenloses Online-Werkzeug zum Suchen und Ersetzen, das Wörter, Phrasen und Zeichen in Ihrem Text in Sekunden austauscht. Optionen für Groß-/Kleinschreibung und Regex-Unterstützung. Privat, in Ihrem Browser.",
+  "keywords": ["suchen und ersetzen", "text online suchen und ersetzen", "wort im text ersetzen", "text ersetzen lassen", "text in masse ersetzen", "regex ersetzen", "suchen-und-ersetzen-tool"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Editoren träumen von Massenumbenennungen per Klick",
+      "paragraphs": [
+        "Einen Produktnamen in einem Handbuch aktualisieren, den falsch geschriebenen Nachnamen eines Autors in einem Manuskript korrigieren oder eine Einheit überall in einem Datensatz austauschen — das [find-replace:Suchen und Ersetzen] ist genau die Aufgabe, die Nutzer von Hand zu erledigen fürchten.",
+        "Ein zuverlässiges Werkzeug erledigt dokumentweite Austausche in Sekunden — mit Optionen, die falsche Treffer verhindern.",
+        "ChooseTools führt das Suchen und Ersetzen lokal in Ihrem Browser durch — mit Groß-/Kleinschreibungs- und Regex-Steuerung.",
+        "Manuelle Bearbeitung lädt zu menschlichen Fehlern ein: Man überspringt ein Vorkommen, ändert die falsche Stelle oder führt eine Inkonsistenz ein, deren Suche länger dauert, als die ursprüngliche Aufgabe gedauert hätte."
+      ]
+    },
+    {
+      "heading": "So ersetzen Sie Text sofort",
+      "paragraphs": [
+        "Ein Durchgang, alle Vorkommen:",
+        "Fügen Sie Ihren Text ein, geben Sie den Suchbegriff und den Ersatztext ein und klicken Sie auf Alle ersetzen. Jeder Treffer wird gleichzeitig aktualisiert.",
+        "Schalten Sie optional die Groß-/Kleinschreibung ein oder aus oder aktivieren Sie Regex für Mustervergleich; Vorschauen zeigen das Ergebnis, bevor Sie kopieren.",
+        "Der Vorschauschritt ist entscheidend: Er erlaubt es, die Anzahl der Ersetzungen zu prüfen und einzelne Treffer zu inspizieren, bevor man sich festlegt — so werden unbeabsichtigte Änderungen früh erkannt."
+      ]
+    },
+    {
+      "heading": "Groß-/Kleinschreibung beachtend oder locker?",
+      "paragraphs": [
+        "Beim Ersetzen von „apfel“ sollte „Apfel“ oder „Äpfel“ nicht angefasst werden, außer man möchte es ausdrücklich.",
+        "Der Groß-/Kleinschreibungs-Schalter macht den Unterschied zwischen einem chirurgischen Austausch und einem pauschalen aus; wählen Sie bewusst.",
+        "Der Ganzwortvergleich schützt Teiltreffer wie „Apfelsine“ vor unbeabsichtigten Änderungen, wenn man „apfel“ ersetzt.",
+        "Im technischen Schreiben, wo Akronyme und Eigennamen neben Alltagswörtern vorkommen, verhindert die Groß-/Kleinschreibung peinliche Fehler in veröffentlichten Dokumenten."
+      ]
+    },
+    {
+      "heading": "Regex: Profis ersetzen Muster, nicht nur Wörter",
+      "paragraphs": [
+        "E-Mail-Adressen, Telefonformate, wiederholte Leerzeichen — Muster und nicht exakte Zeichenketten.",
+        "Die Aktivierung von Regex ermöglicht tokenbasierte Ersetzungen für strukturierte Bereinigungen.",
+        "Ein sorgfältig aufgebautes Muster erspart Hunderte manuelle Bearbeitungen.",
+        "Ein häufiges Beispiel ist die Normalisierung von Telefonnummern: Ein Regex-Muster, das verschiedene Zifferngruppierungen und Trennzeichen erkennt, kann sie alle mit einer einzigen Ersetzung in ein einheitliches Format überführen — etwas, das andernfalls Dutzende einzelner Suchen-und-Ersetzen-Durchgänge erfordern würde."
+      ]
+    },
+    {
+      "heading": "Reale Ersetzungsszenarien",
+      "paragraphs": [
+        "Technische Dokumentationsteams benennen API-Endpunkte über Hunderte Seiten hinweg um und aktualisieren dabei sowohl den Fließtext als auch eingebettete Codebeispiele. Ein einziger Regex-Durchgang ersetzt das alte Pfadsegment überall und bewahrt zugleich den umgebenden Kontext.",
+        "Lokalisierungsprojekte tauschen Währungssymbole, Maßeinheiten und Datumsformate über übersetzte Zeichenketten hinweg aus. Die Ersetzung muss den umgebenden Text respektieren, ohne Sonderzeichen oder im Inhalt eingebettete Markup-Tags zu beschädigen.",
+        "Rechts- und Compliance-Abteilungen schwärzen oder ersetzen vertrauliche Namen in Verträgen und Richtlinien vor der Verteilung. Konsistenz ist wichtig: Entweder muss jedes Vorkommen geändert werden oder keines — Teilersetzungen erzeugen Haftungsrisiken.",
+        "Content-Manager, die einen Markennamen über ein Blog-Archiv aktualisieren, müssen unterscheiden zwischen der Marke als Eigennamen und derselben Zeichenkette in URLs oder Code-Snippets, die unangetastet bleiben müssen."
+      ]
+    },
+    {
+      "heading": "Den Kontext beim Austausch bewahren",
+      "paragraphs": [
+        "Beim Ersetzen geht es nicht nur um Textabgleich; es geht darum, den umgebenden Kontext intakt zu halten. Das Werkzeug erhält Einrückungen, Zeilenumbrüche und angrenzende Satzzeichen, sodass das Ersetzen eines Wortes in einem Codeblock oder formatierten Absatz das Layout nicht bricht.",
+        "Bei strukturierten Daten wie CSV oder JSON verhindert der Ganzwortmodus, dass Teiltreffer Feldgrenzen oder Schlüsselnamen beschädigen.",
+        "Diese Sicherheitsvorkehrungen bedeuten, dass Sie in Dokumenten mit gemischtem Inhalt sicher ersetzen können, ohne anschließend jede Zeile zu prüfen.",
+        "Der Vorschaumodus hebt jeden Treffer im Kontext hervor und gibt Ihnen die letzte Gelegenheit, das Muster vor Ausführung des Austauschs anzupassen."
+      ]
+    },
+    {
+      "heading": "Rückgängig und Vorschau für sichere Iteration",
+      "paragraphs": [
+        "Der Vorschaumodus hebt vor jeder ausgeführten Ersetzung jeden Treffer mit umgebendem Kontext hervor und erlaubt Ihnen zu prüfen, dass das Muster genau das erfasst, was Sie beabsichtigen, und sonst nichts.",
+        "Wenn die Anzahl der Ersetzungen zu hoch oder zu niedrig erscheint, können Sie den Suchbegriff anpassen, die Groß-/Kleinschreibung umschalten oder ein Regex verfeinern, bevor Sie sich festlegen. Dieses iterative Sicherheitsnetz verhindert kostspielige Fehler.",
+        "Die Möglichkeit, sofort rückgängig zu machen und erneut anzuwenden, bedeutet, dass Sie am selben Text mit verschiedenen Ersetzungsstrategien experimentieren können, ohne die Quelle manuell zu duplizieren.",
+        "Diese Steuerungen machen das Werkzeug gleichermaßen für einmalige Korrekturen und wiederkehrende Batch-Workflows geeignet und verringern mit jedem Durchgang das Risiko späterer Reue."
+      ]
+    },
+    {
+      "heading": "Privat für sensible und unveröffentlichte Inhalte",
+      "paragraphs": [
+        "Manuskripte, Kundenberichte und interne Namen werden lokal ausgetauscht — niemals in einer Cloud eines Dritten.",
+        "Kein Upload, kein Konto, kein Wasserzeichen — auf allen Plattformen.",
+        "Die Intimität des Bearbeitens bleibt lokal.",
+        "Vertrauliche Entwürfe, Produktnamen vor der Veröffentlichung und interne Projekt-Codenamen bleiben während des gesamten Ersetzungsvorgangs auf Ihrem Gerät."
+      ]
+    },
+    {
+      "heading": "Ersetzen im Verbund mit der Text-Werkzeugkiste",
+      "paragraphs": [
+        "Kombinieren Sie Austausche mit [word-counter:Metriken], [case-converter:Groß-/Kleinschreibungs-Formatierung] oder [remove-duplicate-lines:dem Entfernen doppelter Zeilen] für eine vollständige Bereinigung.",
+        "Die Suite ist kostenlos und browserbasiert.",
+        "Einmal umbenennen — überall, korrekt."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kann ich mehrere verschiedene Begriffe gleichzeitig ersetzen?",
+      "a": "Das Werkzeug tauscht einen Begriff pro Durchgang aus, aber Sie können sofort und wiederholt iterieren; mit Regex lassen sich zudem breitere Muster definieren."
+    },
+    {
+      "q": "Funktioniert die Groß-/Kleinschreibungs-unabhängige Ersetzung?",
+      "a": "Ja. Schalten Sie die Groß-/Kleinschreibungs-Sensitivität ein oder aus, um zu steuern, ob sich Treffer allein durch Groß- und Kleinschreibung unterscheiden dürfen."
+    },
+    {
+      "q": "Ist das Suchen und Ersetzen privat?",
+      "a": "Ja. Alle Vorgänge erfolgen lokal in Ihrem Browser ohne Uploads oder Konten."
+    },
+    {
+      "q": "Kann ich reguläre Ausdrücke verwenden?",
+      "a": "Ja. Die Aktivierung des Regex-Modus ermöglicht musterbasierte Treffer für komplexe Ersetzungen wie Telefonnummern, E-Mail-Adressen oder strukturierte Daten."
+    }
+  ]
+}

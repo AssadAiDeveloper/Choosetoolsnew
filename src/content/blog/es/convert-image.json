@@ -1,0 +1,98 @@
+{
+  "slug": "convert-image",
+  "title": "Cómo Convertir Imágenes Gratis en Línea: Cambia Formatos de Imagen en Tu Navegador",
+  "description": "Convierte imágenes gratis en línea con ChooseTools. Cambia el formato de foto entre JPG, PNG, WebP y más en tu navegador con control de calidad, total privacidad y sin marcas de agua.",
+  "keywords": ["convertir formato de imagen", "convertir imagen gratis en línea", "cambiar tipo de archivo de imagen", "conversor de jpg a png", "conversor de imagen", "convertir formato de foto", "conversor de formato de imagen gratis"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Los Formatos Son un Vocabulario; Los Conversores Son el Intérprete",
+      "paragraphs": [
+        "Los sitios web quieren WebP por velocidad, la impresión quiere PNG o JPG de alta resolución, y los clientes de correo rechazan algunos formatos directamente. Poder [convert-image:convertir formatos de imagen] bajo demanda desbloquea cada tubería.",
+        "Cada formato tiene compromisos diferentes: JPG para fotografías, PNG para transparencia, WebP para eficiencia web. La conversión correcta elige el compromiso correcto.",
+        "ChooseTools convierte imágenes localmente en el navegador con controles de calidad que te permiten elegir el equilibrio.",
+        "Comprender los compromisos de formato ahorra ancho de banda, preserva la calidad donde importa y previene dolores de cabeza de compatibilidad cuando las imágenes viajan entre plataformas."
+      ]
+    },
+    {
+      "heading": "Cómo Cambiar el Formato de una Imagen",
+      "paragraphs": [
+        "Una operación rápida y un archivo listo:",
+        "Sube la imagen, elige el formato objetivo de la lista, ajusta la calidad donde sea relevante y convierte. El archivo nuevo se descarga al instante con tus parámetros elegidos aplicados.",
+        "Como la conversión se ejecuta localmente, incluso una carpeta de imágenes se convierte rápidamente y nada se sube.",
+        "El proceso directo de tres pasos — subir, configurar, descargar — elimina la necesidad de instalar software de escritorio o herramientas de línea de comandos."
+      ]
+    },
+    {
+      "heading": "JPG, PNG, WebP: Elige la Salida Correcta",
+      "paragraphs": [
+        "JPG sigue siendo el caballo de batalla fotográfico; PNG preserva transparencia y bordes de texto; WebP comprime como exige la web moderna.",
+        "La herramienta convierte entre ellos y más, aplicando las fortalezas de cada formato correctamente — sin transparencia de tablero de ajedrez en JPG, sin PNG hinchado donde JPG bastaría.",
+        "Elegir con prudencia en el momento de la conversión ahorra bytes y dolores de cabeza posteriores.",
+        "GIF y BMP también se soportan para sistemas heredados y casos de uso específicos como imágenes animadas o copias de archivo sin comprimir."
+      ]
+    },
+    {
+      "heading": "Con Pérdida Sin Pérdida: Elige la Estrategia de Compresión",
+      "paragraphs": [
+        "La compresión con pérdida como JPG descarta datos de píxeles que el ojo humano es menos probable que note, produciendo archivos más pequeños a costa de algo de fidelidad. La compresión sin pérdida como PNG preserva cada pídeo exactamente, resultando en archivos más grandes.",
+        "El deslizador de calidad para formatos con pérdida te permite elegir dónde en el espectro entre tamaño de archivo y fidelidad visual debería estar tu imagen. Un ajuste de 85 por ciento típicamente produce una salida indistinguible del original mientras reduce el tamaño del archivo a la mitad o más.",
+        "Para imágenes que contienen texto, bordes nítidos o transparencia, los formatos sin pérdida previenen los artefactos y efectos de halo que la compresión con pérdida introduce alrededor de los límites de alto contraste.",
+        "Saber qué estrategia se ajusta al contenido de la imagen previene tanto archivos innecesariamente grandes como salidas visiblemente degradadas."
+      ]
+    },
+    {
+      "heading": "Transparencia y Manejo del Canal Alfa",
+      "paragraphs": [
+        "PNG soporta transparencia de canal alfa, permitiendo que los píxeles varíen de completamente opacos a completamente transparentes. Convertir un PNG transparente a JPG reemplaza la transparencia con un color de fondo sólido, que puede no ser el resultado deseado.",
+        "El conversor advierte o maneja esta transición correctamente, para que puedas elegir un color de fondo que se ajuste a tu contexto de destino en lugar de descubrir que la transparencia se perdió después de que el archivo ya está en producción.",
+        "WebP también soporta transparencia alfa con mejor compresión que PNG, haciéndolo una alternativa atractiva para gráficos web que necesitan tanto transparencia como tamaños de archivo pequeños.",
+        "Comprender el comportamiento de la transparencia durante la conversión previene la sorpresa común de un rectángulo blanco o negro apareciendo donde solía haber un fondo transparente."
+      ]
+    },
+    {
+      "heading": "Ajustes de Calidad Que Respetan Tu Intención",
+      "paragraphs": [
+        "La conversión no se trata de máxima calidad ciegamente; se trata de la calidad adecuada para el contexto de entrega.",
+        "Ajusta los deslizadores de calidad para que las vistas previas en pantalla se mantengan ligeras mientras las versiones para impresión se mantengan con sensación de sin pérdida.",
+        "Combina con [compress-image:compresión] para la huella final más ajustada cuando sea necesario.",
+        "Las imágenes orientadas a vista previa se benefician de una compresión agresiva que prioriza la velocidad de carga, mientras que las copias de archivo merecen una compresión mínima para preservar cada detalle para una edición futura."
+      ]
+    },
+    {
+      "heading": "Conversión Privada en Cada Dispositivo",
+      "paragraphs": [
+        "Convertir lee tu imagen por completo; hacerlo localmente significa que el arte no publicado y las fotos personales nunca salen de tu máquina.",
+        "Sin subida, sin marca de agua, sin cuenta — la misma herramienta funciona en Windows, macOS, Linux y navegadores móviles.",
+        "Las transiciones de formato se mantienen tan privadas como el material de origen merece.",
+        "Los fotógrafos que procesan retratos en bruto, los diseñadores que manejan recursos de marca no publicados y los equipos legales que convierten capturas de evidencia se benefician todos de un paso de conversión que nunca expone la imagen a servidores externos."
+      ]
+    },
+    {
+      "heading": "La Tubería de Formatos, Todo en el Navegador",
+      "paragraphs": [
+        "Convierte después de [resize-image:redimensionar] o [crop-image:recortar], luego [compress-image:comprimir]; las herramientas consistentes significan que todo el flujo de trabajo de imágenes se mantiene local y gratis.",
+        "Nada más buscando qué aplicación abre mi tipo de archivo.",
+        "Un conversor fiable, listo siempre que el formato necesite cambiar."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Entre qué formatos puedo convertir?",
+      "a": "Se soportan los formatos comunes de web e impresión — incluyendo JPG, PNG y WebP — con controles de calidad donde el formato lo permite."
+    },
+    {
+      "q": "¿Convertir una imagen es privado?",
+      "a": "Sí. La conversión se realiza completamente en tu navegador; tu imagen nunca se sube a ningún servidor."
+    },
+    {
+      "q": "¿Puedo controlar la calidad de la imagen durante la conversión?",
+      "a": "Sí. Los ajustes de calidad ajustan el equilibrio compresión/calidad para el formato objetivo, así que decides entre tamaño y fidelidad."
+    },
+    {
+      "q": "¿Qué sucede con la transparencia al convertir a JPG?",
+      "a": "JPG no soporta transparencia, por lo que las áreas transparentes se rellenan con un color de fondo sólido durante la conversión."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "blur-image",
+  "title": "Comment flouter une image en ligne gratuitement : flouter les visages et les détails sensibles",
+  "description": "Floutez une image en ligne gratuitement avec ChooseTools. Floutez les visages, les plaques d'immatriculation et les zones sensibles de n'importe quelle photo dans votre navigateur, avec une intensité réglable et une confidentialité totale.",
+  "keywords": ["flouter image en ligne", "flouter visage photo", "flouter partie image", "flouter image gratuitement en ligne", "mosaïquer visage", "flouter arrière-plan image", "flouter zone photo"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Parfois les pixels comptent plus que le sujet",
+      "paragraphs": [
+        "Une photo de rue montre des passants dont vous n'avez jamais obtenu le consentement pour publier ; une annonce immobilière expose des œuvres d'art privées ; une capture d'écran révèle une adresse e-mail. [blur-image:Flouter les images] avant de les partager est la façon moderne de signaler que ces parties ne sont pas publiques.",
+        "C'est plus rapide, plus doux et plus naturel que de mosaïquer en blocs carrés, tout en étant tout aussi clair sur ce qui est interdit.",
+        "ChooseTools floute des zones d'images localement dans votre navigateur — intensité et région entièrement sous votre contrôle.",
+        "Le flou est la méthode de caviardage préférée dans la plupart des contextes éditoriaux et professionnels car il obscurcit les détails tout en préservant la composition générale, contrairement au recadrage qui supprime entièrement le contexte."
+      ]
+    },
+    {
+      "heading": "Comment flouter une partie d'une image",
+      "paragraphs": [
+        "Sélectionnez et adoucissez avec précision :",
+        "Téléversez l'image, puis peignez ou dessinez une région sur la zone sensible — un visage, une plaque, un numéro. Ajustez l'intensité du flou jusqu'à ce que les détails soient véritablement illisibles, puis téléchargez.",
+        "Le traitement reste sur votre appareil, de sorte que même le fait de l'édition reste privé.",
+        "L'outil pinceau vous permet de peindre une région libre qui suit les contours de la zone à protéger, plutôt que d'imposer un rectangle qui pourrait inclure des pixels environnants inutiles."
+      ]
+    },
+    {
+      "heading": "Floutage de visages pour le consentement et la sécurité",
+      "paragraphs": [
+        "Le journalisme, la photographie d'événements et les newsletters scolaires font tous face au même problème : un consentement imparfait.",
+        "Un floutage de visage soigné protège les identités sans détruire la composition.",
+        "La zone floutée se lit clairement comme une protection intentionnelle, pas comme une erreur d'édition.",
+        "De nombreuses juridictions exigent un consentement explicite pour les images identifiables utilisées commercialement ou publiées en ligne. Flouter les visages rétrospectivement lorsque le consentement n'a pas été obtenu constitue à la fois une sauvegarde juridique et une courtoisie envers les personnes photographiées."
+      ]
+    },
+    {
+      "heading": "Des détails qui ne devraient jamais voyager",
+      "paragraphs": [
+        "Plaques d'immatriculation, panneaux de rue, numéros de maison, écrans affichant des données personnelles — tout est maîtrisable avec un floutage soigneux.",
+        "Les annonces et les places de marché floutent en outre les numéros de série et les étiquettes de confidentialité avant la publication des photos.",
+        "Le bon floutage redonne le droit de partager une photo qui autrement resterait dans le tiroir.",
+        "Les captures d'écran d'interfaces logicielles contiennent fréquemment des URL internes, des identifiants de base de données ou des informations utilisateur qui doivent être obscurcies avant que la capture ne soit partagée en dehors de l'organisation."
+      ]
+    },
+    {
+      "heading": "Intensité du flou : trouver le bon niveau",
+      "paragraphs": [
+        "Un flou insuffisant laisse les détails partiellement lisibles, surtout lorsque le spectateur zoome ou que l'image est affichée en haute résolution. Un flou excessif crée une tache artificielle évidente qui attire plus d'attention que le détail original.",
+        "L'intensité idéale rend la cible totalement illisible tout en conservant la zone environnante visuellement cohérente. Un visage devrait être méconnaissable mais la photo dans son ensemble devrait toujours ressembler à une image bien composée.",
+        "Ajuster le curseur en prévisualisant à la résolution réelle garantit de trouver le bon équilibre pour la taille d'image et le contexte d'affichage spécifiques.",
+        "Tester le résultat flouté à la taille à laquelle il sera réellement publié — miniature, pleine largeur ou impression — confirme que la protection tient à chaque échelle de visualisation probable."
+      ]
+    },
+    {
+      "heading": "Flouter des captures d'écran pour la conformité à la vie privée",
+      "paragraphs": [
+        "Les démonstrations logicielles, les rapports de bogues et les conversations d'assistance client nécessitent fréquemment des captures d'écran exposant des données internes, des informations utilisateur ou des fonctionnalités inédites.",
+        "Flouter des régions spécifiques avant de partager ces captures d'écran en externe est une pratique standard de confidentialité dans les flux de travail d'assistance technique et de développement produit.",
+        "Les équipes de service client floutent les numéros de compte, les adresses e-mail et les identifiants personnels des captures d'écran de tickets d'assistance avant l'escalade, assurant la conformité aux réglementations de protection des données.",
+        "Les équipes de développement floutent les tableaux de bord internes, les réponses API et les panneaux de configuration lors du partage de captures d'écran de progression avec des parties prenantes externes ou de publication sur des canaux publics."
+      ]
+    },
+    {
+      "heading": "Édition privée de photos confidentielles",
+      "paragraphs": [
+        "Flouter vos propres secrets visuels localement garantit qu'ils ne sont analysés nulle part ailleurs.",
+        "Pas d'envoi, pas de filigrane, pas de compte — Windows, macOS, Linux et mobile.",
+        "Votre sélection de ce qui est public reste entièrement votre affaire.",
+        "Le fait que vous caviardiez une image est en soi une information sensible ; le traitement local garantit que même l'acte d'édition reste privé."
+      ]
+    },
+    {
+      "heading": "Flou combiné à d'autres modifications protectrices",
+      "paragraphs": [
+        "Associez le floutage à la [remove-exif:suppression des métadonnées] afin que ni les régions de l'image ni les balises cachées ne révèlent d'informations privées.",
+        "La suite complète est native au navigateur et privée.",
+        "Publiez en toute confiance sachant que chaque zone sensible est correctement dissimulée.",
+        "Combiner le flou à la suppression des métadonnées garantit que ni le contenu visuel ni les données de localisation, d'appareil ou de paternité intégrées ne fuient lorsque l'image atteint son public cible."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puis-je flouter plusieurs régions d'une même image ?",
+      "a": "Oui. Dessinez ou peignez autant de zones que nécessaire — visages, plaques et numéros — chacune avec son propre floutage."
+    },
+    {
+      "q": "Puis-je contrôler l'intensité du flou ?",
+      "a": "Oui. Ajustez l'intensité pour que les détails deviennent clairement illisibles tout en conservant un aspect naturel de l'image environnante."
+    },
+    {
+      "q": "L'outil de flou est-il privé et gratuit ?",
+      "a": "Oui. Tout s'exécute localement dans votre navigateur, sans envoi, filigrane ni compte."
+    },
+    {
+      "q": "Le flou est-il plus efficace que la mosaïque pour la confidentialité ?",
+      "a": "Le flou est généralement préféré car il produit un résultat plus doux qui obscurcit les détails sans l'apparence pixelisée caractéristique de la mosaïque, bien que les deux méthodes empêchent efficacement l'identification."
+    }
+  ]
+}

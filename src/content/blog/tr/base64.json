@@ -1,0 +1,100 @@
+{
+  "slug": "base64",
+  "title": "Base64 Kodlayıcı Çözücü: Çevrimiçi Ücretsiz Metin Kodlayın ve Çözün",
+  "description": "Metin ve ikili veriler için, UTF-8 desteği ve güvenli kopyalamaya hazır çıktıyla ücretsiz çevrimiçi Base64 kodlayıcı ve çözücü. Gizli, anında, tarayıcınızda.",
+  "keywords": ["base64 kodlama", "base64 çözme", "base64 dönüştürücü", "base64'e kodla", "çevrimiçi base64 çözme", "base64 metin aracı", "base64 dize dönüştürücü"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Base64 Baytları Herkesin Taşıyabileceği Metne Dönüştürür",
+      "paragraphs": [
+        "E-posta ekleri, JSON yükleri ve URL'ler, ikili veriyi eski ve modern sistemleri aşan metin güvenli bir alfabe olan base64'e dönüştürür. Çevrimiçi [base64:Base64 kodlama ve çözme], standart bir geliştirici refleksidir.",
+        "Aynı araç her iki yönü de gerçekleştirir; gidiş dönüşü tek tık yapar.",
+        "ChooseTools, doğru UTF-8 işleme ile tarayıcınızda yerel olarak kodlar ve çözer."
+      ]
+    },
+    {
+      "heading": "Base64 Nasıl Kodlanır veya Çözülür",
+      "paragraphs": [
+        "Her iki yön, sorunsuzca:",
+        "Metni base64'e kodlamak için düz metni yapıştırın veya orijinal metni geri almak için bir base64 dizesi yapıştırın. UTF-8 desteği, aksanlı ve Latin alfabesi dışı karakterleri sadık tutar.",
+        "Çıktı, gizli satır sonları olmadan kopyalamaya hazır görüntülenir."
+      ]
+    },
+    {
+      "heading": "Veri Neden Base64 Olarak Seyahat Eder",
+      "paragraphs": [
+        "E-postalar, JSON alanları ve kontrol kanalları belirli karakterleri ayırır; bu nedenle ham ikili veri dönüştürülmelidir. JSON dizesi içindeki bir yeni satır, tırnak veya ters eğik çizgi ayrıştırıcıyı bozar ve boş baytlar metin tabanlı protokolleri tamamen bozar.",
+        "Base64'in yazdırılabilir alfabesi bu kısıtlamalardan evrensel olarak sağ çıkar. Yalnızca harfler, rakamlar ve iki güvenli sembol kullandığı için elde edilen dize, bozulmadan e-posta yoluyla seyahat edebilir, tırnaklı dizeler içinde saklanabilir, yapılandırma dosyalarına yerleştirilebilir ve herhangi bir klavyede yazılabilir.",
+        "Kodlama tersine çevrilebilir ve kayıpsız olduğu için veri bütünlüğü taşımadan sağ çıkar. Her girdi baytı tam olarak tek bir geçerli base64 çıktısına karşılık gelir ve çözme işlevi süreci kesin olarak tersine çevirir; gönderen ve alıcı arasında hiçbir şey kaybolmaz."
+      ]
+    },
+    {
+      "heading": "Base64 Kodlamanın Gerçek Dünya Uygulamaları",
+      "paragraphs": [
+        "Veri URI'leri görselleri, fontları ve sesi doğrudan HTML ve CSS dosyalarının içine gömer; ekstra HTTP isteklerini ortadan kaldırır ve sayfa yüklemelerini hızlandırır. Base64 olarak kodlanmış küçük bir simge, stil sayfasında satır içi durabilir ve tarayıcının sayfayı işlemeden önce yapması gereken sunucu gidiş dönüşlerinin sayısını azaltır. Geliştiriciler bu tekniği hero görselleri, yükleme animasyonları ve algılanan performansı artıran küçük ses klipleri için kullanır.",
+        "API'ler, JSON'da yerel bir ikili tür bulunmadığından ikili yükleri sıklıkla JSON dizeleri içinde iletir. Bir profil fotoğrafı yüklemesi, bir PDF dışa aktarımı veya imzalı belge, JSON gövdesi içinde base64 kodlu bloklar olarak gelir. Alıcı uygulama, işlemeden önce bloğu baytlara geri çözer ve UTF-8 işleme doğru olduğunda gidiş dönüş şeffaftır.",
+        "Ansible ve Terraform gibi yapılandırma yönetimi araçları, sertifikaları, özel anahtarları ve kodlanmış sırları YAML veya HCL dosyalarında base64 dizeleri olarak saklar. Kodlama, dosyaları insan tarafından okunur tutarken YAML girintisini veya kabuk kaçışlarını bozacak karakterlerden kaçınır. Çözme, hedef sisteme kurulum için orijinal baytları geri yükler.",
+        "Günlük kaydı sistemleri, ikili yükleri metin tabanlı günlük akışlarına eklemeden önce bazen kodlar. Bu, kontrol karakterlerinin, boş baytların ve yazdırılamayan dizilerin günlük biçimini bozmasını önler. Analistler, olay incelemesi sırasında orijinal ikili içeriği denetlemek istediklerinde base64 bloklarını çözer."
+      ]
+    },
+    {
+      "heading": "Kodlamak Şifreleme Değildir",
+      "paragraphs": [
+        "Base64 izleyenlerin kafasını karıştırır ama hiçbir şeyi korumaz: çözmek önemsizdir.",
+        "Gerçek gizlilik için [password-generator:güçlü anahtarlar] ve hash'leme katmanlaştırın; bütünlük için [hash-generator:hash'ler] kullanın.",
+        "Base64'e güvenmeden önce dürüst sınırlarını bilin."
+      ]
+    },
+    {
+      "heading": "UTF-8 Metin Bozulmadan Kalır",
+      "paragraphs": [
+        "Emoji, Arapça, Çince ve aksanlı metin, UTF-8 işleme doğru olduğunda sadakatle kodlanır ve çözülür. İki baytlık ve dört baytlık dizilerin her biri, birbiriyle ilgisiz baytlar dizisi yerine eksiksiz bir karakter olarak okunur; hiçbir şey yol boyunca bozulmaz.",
+        "Kodlayıcı çok baytlı ayrıntıları yönetir; gidiş dönüşler girdiyle birebir eşleşir. Emoji dolu bir cümleyi veya bir Arapça paragrafı yapıştırın, kodlayın, sonra sonucu çözün; orijinal karakterleri kesin olarak geri alırsınız.",
+        "İlk geçişten sonra karakter bozukluğu olmaz çünkü dönüşüm, kayıplı yerel ayar bağımlı bir dönüştürme yerine sıkı bir bayt-karakter eşlemesi kullanır. Ne kodladıysanız deseniz, her zaman aynı orijinal metne geri çözebilirsiniz."
+      ]
+    },
+    {
+      "heading": "Satır Uzunluğu, Doldurma ve Birlikte Çalışabilirlik",
+      "paragraphs": [
+        "Standart base64 alfabesi, doldurma için eşittir işaretine ek olarak 64 yazdırılabilir ASCII karakteri kullanır. Farklı sistemler, e-posta uyumluluğu (MIME) için 76 karakterlik aralıklarla satır sonları ekleyebilir; diğerleri kesintisiz tek bir dize bekler. Kodlayıcı, hedef sisteme bağlı olarak sarmalamayı seçebileceğiniz veya kompakt bırakabileceğiniz temiz bir çıktı üretir.",
+        "Doldurma, kodlanmış çıktı uzunluğunun her zaman dört karakterin katı olmasını sağlar. Bazı hoşgörülü çözücüler sondaki eşittir işaretleri olmadan girdiyi kabul eder; ancak sıkı ayrıştırıcılar reddeder. Kodlayıcı her zaman doğru doldurmayı içerir ve çözücü maksimum uyumluluk için hem doldurulmuş hem de doldurulmamış girdiyi tolere eder.",
+        "URL güvenli base64, artı ve eğik çizgi karakterlerini URL yol ayırıcılarıyla çakışmayı önlemek için tire ve alt çizgiyle değiştirir. Kodlanmış değeriniz bir URL parametresinde veya dosya adında görünecekse, araç URL güvenli varyantı üretebilir. Bu küçük ayarlama, üretimde tanımlanması zor kodlama hatalarını önler."
+      ]
+    },
+    {
+      "heading": "Belirteçlerin ve Pinglerin Özel Kodlanması",
+      "paragraphs": [
+        "Dönüştürme yerel olduğunda, istekler ve belirteçler bir sunucuya değil panoya ulaşır.",
+        "Her platformda yükleme yok, hesap yok, filigran yok.",
+        "Veri ifşası olmadan kodlama kolaylığı."
+      ]
+    },
+    {
+      "heading": "Tam Araç Seti İçinde Base64",
+      "paragraphs": [
+        "Eksiksiz veri işleme için [image-to-base64:görüntü kodlama], [hash-generator:kontrol toplamları] ve [json-formatter:JSON işlemleri] ile birleştirin.",
+        "Araç seti ücretsizdir ve tarayıcı yerelidir.",
+        "Her yön, temiz ve gizli."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Araç hem kodlama hem çözme yapabilir mi?",
+      "a": "Evet, her iki yön de tek ekranda, anında ve kopyalamaya hazır sonuçlarla desteklenir."
+    },
+    {
+      "q": "İngilizce olmayan metni doğru işler mi?",
+      "a": "Evet. Doğru UTF-8 işleme, aksanlı, Arapça, Çince ve emoji karakterlerini kodlama/çözme gidiş dönüşlerinde korur."
+    },
+    {
+      "q": "Base64 dönüştürme gizli mi?",
+      "a": "Evet. Her şey tarayıcınızda yerel olarak çalışır; yükleme veya hesap yoktur."
+    },
+    {
+      "q": "URL'de kullanım için veri kodlayabilir miyim?",
+      "a": "Evet. Araç, URL'lere güvenli gömme için artı ve eğik çizgi karakterlerini tire ve alt çizgiyle değiştiren URL güvenli base64 kodlamasını destekler."
+    }
+  ]
+}

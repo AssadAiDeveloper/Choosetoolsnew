@@ -1,0 +1,107 @@
+{
+  "slug": "url-encode",
+  "title": "Codificador e Descodificador de URLs: Codifique e Descodifique URLs Online Grátis",
+  "description": "Codificador e descodificador de URLs online gratuito para codificar e descodificar com segurança endereços web, strings e parâmetros de consulta. Privado, instantâneo, no seu navegador.",
+  "keywords": ["codificar url", "descodificar url", "descodificador de url", "codificar url online", "ferramenta codificador de url", "percent encoding", "descodificar string url"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Os URLs Falam ASCII, a Web Fala Tudo",
+      "paragraphs": [
+        "Os links não podem conter espaços, acentos ou símbolos especiais em bruto — têm de ser codificados por percentagem. O [url-encode:Codificação de URLs] converte qualquer string num endereço seguro para transporte que os servidores interpretam corretamente.",
+        "Os parâmetros de consulta, biometrias e redirecionamentos dependem todos de uma codificação correta.",
+        "A ChooseTools codifica e descodifica URLs localmente no seu navegador.",
+        "Cada pedido HTTP transporta dados codificados no seu caminho e na string de consulta. Quando a codificação está errada, os servidores devolvem erros 400, os redirecionamentos entram em ciclos sem fim e a atribuição de analytics falha silenciosamente."
+      ]
+    },
+    {
+      "heading": "Como Codificar ou Descodificar um URL",
+      "paragraphs": [
+        "Em ambas as direções, instantaneamente:",
+        "Cole um URL com caracteres em bruto para o codificar numa forma segura para links, ou cole um endereço codificado para o descodificar de volta em texto legível. Copie o resultado exato.",
+        "O processamento local mantém os seus segredos de consulta fora de qualquer servidor.",
+        "A ferramenta trata tanto a codificação por componente para parâmetros individuais como a codificação completa de URLs para endereços completos, para que escolha a granularidade certa para cada tarefa."
+      ]
+    },
+    {
+      "heading": "Consultas com Espaços, Acentos e Símbolos",
+      "paragraphs": [
+        "Strings de pesquisa com espaços, caracteres internacionais e símbolos reservados quebram links se não forem codificados.",
+        "A codificação correta substitui-os por sequências % que sobrevivem intactas a cada salto.",
+        "Os destinatários recebem a consulta pretendida, descodificada fielmente.",
+        "Uma pesquisa por café com acento, por exemplo, codifica o e-agudo na sua representação percent-encoded em UTF-8, garantindo que o servidor de destino reconstrói a consulta original sem perda de dados nem substituições."
+      ]
+    },
+    {
+      "heading": "Redirecionamentos, Tokens e Links Personalizados",
+      "paragraphs": [
+        "As cadeias de redirecionamento incorporam endereços completos dentro de valores de consulta — a dupla codificação tem de ser deliberada. Quando um URL de redirecionamento é ele próprio um valor de parâmetro, codificar a camada externa impede que o URL interno seja interpretado erroneamente como chaves de consulta separadas.",
+        "Os tokens e os parâmetros sensíveis em URLs passam agora a codificar-se de forma previsível.",
+        "Construir links válidos torna-se exato em vez de otimista.",
+        "Callbacks OAuth, endereços de retorno SSO e URLs de gateways de pagamento contêm todos caracteres especiais que têm de ser codificados exatamente ao nível certo para funcionarem em diferentes navegadores e implementações de servidores."
+      ]
+    },
+    {
+      "heading": "Descodificação para Depuração e Análise de Registos",
+      "paragraphs": [
+        "Os registos estão cheios de endereços codificados; descodificá-los revela os parâmetros reais sob análise.",
+        "Compreender a string em bruto por trás de %20 e %C3%BC acelera a depuração.",
+        "Dois cliques transformam o ruído dos registos em clareza.",
+        "Os engenheiros de rede e os programadores de backend descodificam rotineiramente URLs de pedidos capturados para verificar se os parâmetros de rastreio, os valores UTM e os tokens de sessão chegaram intactos através de proxies e balanceadores de carga."
+      ]
+    },
+    {
+      "heading": "Normas de Codificação e Conjuntos de Caracteres",
+      "paragraphs": [
+        "O RFC 3986 define quais os caracteres que têm de ser codificados em URIs e quais os que podem permanecer sem reserva. A ferramenta segue esta especificação com precisão, codificando os espaços como %20 e respeitando o conjunto permitido de caracteres sem reserva, incluindo letras, dígitos, hífenes, sublinhados e tiles.",
+        "Os caracteres multibyte UTF-8, como emojis e escrita não latina, codificam-se nas suas sequências percent-encoded corretas, de modo que um URL contendo texto japonês ou um rosto sorridente é descodificado de forma idêntica em qualquer servidor conforme a norma.",
+        "Compreender a diferença entre codificar um URL completo e codificar apenas o valor de um parâmetro de consulta evita o erro comum de codificar duas vezes caracteres que já são seguros.",
+        "O descodificador inverte todas as transformações com fidelidade, restaurando a string original, incluindo todos os code points Unicode."
+      ]
+    },
+    {
+      "heading": "Trabalho Web Privado",
+      "paragraphs": [
+        "Os tokens, as strings de autenticação e os links não publicados codificam-se localmente.",
+        "Sem uploads, sem conta, sem marca de água — em todas as plataformas.",
+        "Pronto para e-mail seguro, sem qualquer exposição.",
+        "Tokens de autenticação, chaves de API incorporadas em URLs e endereços de redirecionamento internos nunca tocam num serviço de terceiros, mantendo os detalhes da sua infraestrutura confidenciais durante o processo de codificação."
+      ]
+    },
+    {
+      "heading": "Codificação por Componente Versus Codificação Completa de URL",
+      "paragraphs": [
+        "A codificação por componente codifica apenas os caracteres que são inseguros dentro de um único componente de URI — um valor de consulta, um segmento de caminho ou um identificador de fragmento. A codificação completa de URL codifica o endereço inteiro, o que é apropriado quando se constrói um URL a partir de partes individuais.",
+        "Usar o modo de codificação errado é uma fonte comum de erros: codificar por componente um URL completo deixa as barras e os pontos de interrogação por codificar, enquanto codificar por completo o valor de um parâmetro codifica os separadores que deveriam permanecer literais.",
+        "A ferramenta permite-lhe escolher o modo adequado para cada tarefa, prevenindo estes desajustes e garantindo que o resultado é válido independentemente do contexto em que será usado.",
+        "Perceber quando usar cada modo é especialmente importante quando se constroem URLs programaticamente, onde a escolha errada introduz erros subtis que só se manifestam com combinações específicas de entrada."
+      ]
+    },
+    {
+      "heading": "URLs no Kit de Ferramentas do Programador",
+      "paragraphs": [
+        "Complemente com [base64:base64], [html-encode:escape HTML] e [json-formatter:formatação JSON] para um conjunto completo de construção de pedidos.",
+        "A suite é gratuita e nativa do navegador.",
+        "Cada link, exatamente certo."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "O que faz realmente a codificação de URLs?",
+      "a": "Substitui os caracteres que são inseguros em URLs — espaços, símbolos, acentos — por sequências percent-encoded que viajam com segurança."
+    },
+    {
+      "q": "Posso descodificar um URL codificado de volta em texto legível?",
+      "a": "Sim. O descodificador reconstrói espaços, acentos e símbolos a partir da sua forma codificada."
+    },
+    {
+      "q": "A codificação de URLs é privada?",
+      "a": "Sim. Tudo acontece localmente no seu navegador, sem uploads nem contas."
+    },
+    {
+      "q": "Suporta caracteres não ASCII, como emojis?",
+      "a": "Sim. Os caracteres multibyte UTF-8 são codificados nas suas sequências percent corretas e descodificados fielmente."
+    }
+  ]
+}

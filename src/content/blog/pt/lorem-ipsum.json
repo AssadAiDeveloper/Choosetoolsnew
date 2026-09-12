@@ -1,0 +1,122 @@
+{
+  "slug": "lorem-ipsum",
+  "title": "Gerador de Lorem Ipsum: Crie Texto de Preenchimento Online Grátis",
+  "description": "Gerador de lorem ipsum gratuito para criar texto de preenchimento em qualquer extensão — parágrafos, palavras, frases — para mockups e trabalho de design. Privado, instantâneo, no seu navegador.",
+  "keywords": ["lorem ipsum", "gerador de lorem ipsum", "texto de preenchimento", "gerador de texto dummy", "gerador de lorem", "texto para mockup", "gerador de texto de amostra"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "O Design Vive Dentro do Texto de Preenchimento",
+      "paragraphs": [
+        "Os mockups precisam de texto antes de existir o texto real: encaixar um título, preencher um parágrafo, pré-visualizar um layout. O texto de preenchimento é o substituto amigável para layouts ao qual todos os designers e programadores recorrem.",
+        "As suas sílabas ilegíveis mas plausíveis mantêm o olhar no layout e não nas palavras.",
+        "A ChooseTools gera lorem ipsum localmente no seu navegador, dimensionado à sua necessidade exata.",
+        "Usar texto de preenchimento cedo impede que os intervenientes critiquem o texto de rascunho em vez de avaliarem a hierarquia visual e o espaçamento."
+      ]
+    },
+    {
+      "heading": "Parágrafos, Frases, Palavras — Escolha a Sua Unidade",
+      "paragraphs": [
+        "Escolha a granularidade do resultado: algumas palavras para um botão, frases para um subtítulo, parágrafos para um bloco de conteúdo.",
+        "O lorem ipsum clássico começa com a assinatura tradicional «Lorem ipsum dolor sit amet».",
+        "Copie e cole o bloco gerado diretamente na sua ferramenta de design.",
+        "Gerar por contagem de palavras é particularmente útil quando precisa de testar um elemento de interface com limite de caracteres, como uma tooltip ou um banner de notificação."
+      ]
+    },
+    {
+      "heading": "Wireframes e Desenvolvimento Front-End",
+      "paragraphs": [
+        "Mockups de sites, protótipos de aplicações e desenvolvimento front-end precisam todos de muito texto invisível.",
+        "O texto de preenchimento dimensionado prova o comportamento responsivo antes de o conteúdo real chegar.",
+        "Gere tanto quanto o frame precisar, sem adivinhar contagens a olho.",
+        "Os programadores podem colar texto de preenchimento em storybooks de componentes para verificar que as quebras de linha, a truncagem e o overflow se comportam corretamente em todos os breakpoints."
+      ]
+    },
+    {
+      "heading": "De Volta ao Remetente: Substitua os Textos de Preenchimento Mais Tarde",
+      "paragraphs": [
+        "Como o lorem ipsum é distinto, o texto real substitui-o limpo através de localizar e substituir.",
+        "Marque os seus blocos e substitua-os sistematicamente quando o texto original chegar.",
+        "O texto de preenchimento é uma promessa, não uma armadilha.",
+        "Uma prática útil é envolver cada bloco de preenchimento num comentário ou atributo de dados para que uma pesquisa localize todas as instâncias sem faltar nas secções escondidas."
+      ]
+    },
+    {
+      "heading": "Extensão e Densidade: Corresponder aos Requisitos do Layout",
+      "paragraphs": [
+        "Uma secção hero precisa de duas frases curtas, enquanto um cartão de pré-visualização de blogue pode precisar de um parágrafo completo para testar o comportamento de truncagem.",
+        "Gerar um pouco mais de texto do que o necessário permite-lhe cortar até ao limite exato e confirmar que o estilo de reticências ou de line-clamp funciona como esperado.",
+        "Este pequeno hábito deteta bugs de layout que só aparecem no limite do conteúdo."
+      ]
+    },
+    {
+      "heading": "Layouts Internacionais e Mockups Multilingues",
+      "paragraphs": [
+        "O texto de preenchimento para layouts RTL precisa de um comportamento de quebra de linha diferente, e o lorem ipsum revela se o motor de texto lida corretamente com as mudanças de direção.",
+        "Ao testar interfaces multilingues, gerar preenchimento com extensões diferentes simula como as palavras compostas alemãs ou os caracteres japoneses afetam as dimensões das caixas.",
+        "Usar texto de preenchimento cedo em várias línguas evita surpresas de layout numa fase tardia nas versões localizadas."
+      ]
+    },
+    {
+      "heading": "Layouts de Impressão e Mockups Editoriais",
+      "paragraphs": [
+        "Os designers de livros e os artistas de layout de revistas usam texto de preenchimento para estabelecer larguras de coluna, grelhas de base e hierarquia tipográfica antes de chegar o manuscrito.",
+        "Gerar preenchimento suficiente para ocupar uma página inteira dupla confirma que as definições de hifenização e justificação produzem rios e viúvas aceitáveis.",
+        "Os mockups focados na impressão beneficiam de densidade de texto realista porque o layout em papel é muito menos tolerante do que o layout web responsivo."
+      ]
+    },
+    {
+      "heading": "Variações de Texto de Preenchimento para Realismo",
+      "paragraphs": [
+        "Para além da passagem latina clássica, alguns designers precisam de texto falso com aspeto realista que imite melhor a densidade e o ritmo de descrições reais de produtos ou artigos de notícias.",
+        "Variar a extensão de frases e parágrafos no texto gerado produz um layout mais natural do que um bloco uniformemente espaçado de frases de comprimento idêntico.",
+        "Escolher um modo de geração variado quando o layout vai eventualmente conter conteúdo editorial leva a mockups que preveem com mais precisão o equilíbrio visual final."
+      ]
+    },
+    {
+      "heading": "Produção Privada de Texto de Preenchimento",
+      "paragraphs": [
+        "Gerar preenchimento localmente significa que os designs por publicar não carregam qualquer vestígio de ferramentas de terceiros.",
+        "Sem uploads, sem conta, sem marcas de água — em todas as plataformas.",
+        "Impulso de mockups, exposição zero.",
+        "Os protótipos de clientes e os ecrãs de produtos pré-lançamento permanecem confidenciais quando o gerador de texto nunca contacta um servidor externo."
+      ]
+    },
+    {
+      "heading": "Textos de Preenchimento Dentro do Conjunto de Ferramentas",
+      "paragraphs": [
+        "Gere, depois molde com as ferramentas de maiúsculas e minúsculas ou meça com a contagem de palavras para orçamentos de layout exatos.",
+        "A suite é gratuita e nativa do navegador.",
+        "Qualquer layout, perfeitamente pré-visualizado.",
+        "Combinar a geração de texto de preenchimento com um contador de caracteres garante que os seus mockups respeitam os limites exatos da plataforma de destino.",
+        "Esta combinação é inestimável quando um texto de preenchimento tem de caber num componente de tamanho fixo, como o título de um cartão ou uma célula de tabela."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Porque é que o lorem ipsum é usado em design?",
+      "a": "As suas palavras assemelham-se a texto real sem distrair com significado, para que os revisores avaliem o layout em vez do texto."
+    },
+    {
+      "q": "Posso gerar uma quantidade específica de texto?",
+      "a": "Sim. Especifique parágrafos, frases ou contagens de palavras, e o gerador produz exatamente essa quantidade."
+    },
+    {
+      "q": "O gerador é privado?",
+      "a": "Sim. O texto é gerado localmente no seu navegador, sem uploads ou contas."
+    },
+    {
+      "q": "O texto gerado começa com a abertura latina clássica?",
+      "a": "Sim. O resultado no modo parágrafo começa com a passagem tradicional Lorem ipsum dolor sit amet que os designers reconhecem instantaneamente."
+    },
+    {
+      "q": "O lorem ipsum pode ajudar a testar layouts responsivos?",
+      "a": "Sim. Gerar texto com extensões variadas revela como os títulos, parágrafos e legendas se comportam nos breakpoints de telemóvel, tablet e desktop."
+    },
+    {
+      "q": "Posso gerar texto de preenchimento sem as palavras latinas clássicas?",
+      "a": "Sim. Se a passagem tradicional distraísse um revisor, pode gerar preenchimento com frases de extensão variada para que o mockup continue a ler-se de forma realista sem significado visível."
+    }
+  ]
+}

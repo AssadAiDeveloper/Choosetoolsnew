@@ -1,0 +1,120 @@
+{
+  "slug": "text-diff",
+  "title": "Herramienta de Diferencias de Texto: Compara Dos Textos Online Gratis para Encontrar Cambios",
+  "description": "Herramienta gratuita online de diferencias de texto para comparar dos documentos lado a lado, resaltando líneas añadidas, eliminadas y modificadas. Privada, instantánea, en tu navegador.",
+  "keywords": ["diferencia de texto", "comparar dos textos", "encontrar diferencias entre textos", "verificador de diferencias", "comparar texto online", "herramienta de comparación de texto", "ver cambios en texto"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Detectando Qué Cambió Entre Versiones",
+      "paragraphs": [
+        "¿Tu colaborador editó las condiciones? ¿Qué commit reformuló el acuerdo? Comparar versiones a ojo es poco fiable; una [text-diff:herramienta de diferencias] marca exactamente qué cambió, línea por línea.",
+        "Editores, revisores, abogados y estudiantes todos se benefician de la detección precisa de cambios.",
+        "ChooseTools compara textos localmente en tu navegador con un resultado lado a lado codificado por colores."
+      ]
+    },
+    {
+      "heading": "Cómo Comparar Dos Textos",
+      "paragraphs": [
+        "Diferencias, resaltadas:",
+        "Pega el original en el cuadro izquierdo y la versión revisada en el derecho. La herramienta calcula la diferencia al instante y colorea las líneas añadidas frente a las eliminadas.",
+        "Los resultados se renderizan localmente — los borradores nunca se envían a ningún sitio."
+      ]
+    },
+    {
+      "heading": "Diferencias a Nivel de Línea: Exactas y Revisables",
+      "paragraphs": [
+        "Comparar a granularidad de línea se alinea con la forma en que trabajan los editores: cada cambio es una unidad discreta y revisable.",
+        "Las líneas añadidas, eliminadas y modificadas son cada una visualmente distintas.",
+        "La revisión por lotes de documentos largos se vuelve infalible."
+      ]
+    },
+    {
+      "heading": "Cómo Funciona la Diferenciación Bajo el Capó",
+      "paragraphs": [
+        "La herramienta alinea los dos textos línea por línea, localizando los tramos más largos que permanecen sin cambios y luego marcando todo lo demás como insertado o eliminado.",
+        "Una línea modificada aparece como una eliminación emparejada con una adición, por lo que los revisores ven exactamente qué fue reemplazado en lugar de una vaga etiqueta de modificación.",
+        "El algoritmo es eficiente incluso con documentos sustanciales, calculando la alineación rápidamente y renderizando solo las regiones que difieren para mayor claridad.",
+        "Comprender este comportamiento te ayuda a interpretar los resultados: una oración reescrita aparece como una línea eliminada y otra insertada junto a ella."
+      ]
+    },
+    {
+      "heading": "Flujos de Revisión con Confianza Oculta",
+      "paragraphs": [
+        "Rastrea las ediciones de los revisores sin leer cada palabra; confirma parches antes de aplicarlos; audita acuerpos por modificaciones silenciosas.",
+        "La salida de diferencias es un mapa de lo que una versión prometió y lo que entregó.",
+        "Comparar con cuidado protege a cualquiera que firme, envíe o publique código."
+      ]
+    },
+    {
+      "heading": "Casos de Uso Comunes en Diversas Profesiones",
+      "paragraphs": [
+        "Los equipos legales comparan borradores de contratos para asegurar que ninguna cláusula fue alterada entre rondas de negociación. Los desarrolladores de software verifican pull requests comparando los cambios propuestos contra la rama principal antes de fusionar.",
+        "Los estudiantes que revisan una redacción de ensayo pueden ver instantáneamente si los comentarios realmente se incorporaron. Los redactores técnicos mantienen la exactitud de la documentación comparando notas de版本 entre versiones.",
+        "Los traductores usan diferencias para confirmar que el texto localizado coincide con la fuente aprobada sin omisiones sutiles. En todos los casos la herramienta elimina la tediosidad de la comparación manual y la reemplaza con un mapa visual claro de los cambios.",
+        "El mismo mecanismo que detecta una coma faltante en código también detecta una cláusula de responsabilidad cambiada en un contrato."
+      ]
+    },
+    {
+      "heading": "Manejo de Documentos Grandes y Cambios Anidados",
+      "paragraphs": [
+        "Los archivos largos con cientos de líneas permanecen manejables porque el algoritmo de diferencias los procesa por segmentos, mostrando solo las áreas relevantes de diferencia.",
+        "El diseño lado a lado asegura que las líneas de contexto se sitúen junto a sus contrapartes, por lo que los revisores pueden verificar que el texto circundante no fue desplazado inadvertidamente.",
+        "Incluso cuando los cambios están esparcidos por todo un documento, la codificación por colores permite al ojo saltar directamente a cada modificación sin tener que escanear cada línea manualmente.",
+        "El procesamiento ocurre completamente en tu dispositivo, por lo que no hay límite de tamaño impuesto por un servidor remoto."
+      ]
+    },
+    {
+      "heading": "La Diferenciación como Puerta de Calidad",
+      "paragraphs": [
+        "Una diferencia es esencialmente una puerta de calidad: antes de que algo sea publicado, fusionado o firmado, la comparación responde si el texto final coincide con lo que se decidió.",
+        "Los equipos de calidad ejecutan una diferencia final entre el borrador aprobado y la versión publicada, detectando ediones de última hora que se saltaron la revisión.",
+        "Los escritores freelance comparan los comentarios del cliente contra sus manuscritos para demostrar que cada cambio solicitado está presente.",
+        "Incluso una breve verificación añade una capa de protección que ninguna cantidad de revisión cuidadosa iguala con fiabilidad."
+      ]
+    },
+    {
+      "heading": "Comparando Configuraciones y Plantillas",
+      "paragraphs": [
+        "Más allá de la prosa, la herramienta se adapta a texto estructurado: comparar dos archivos de configuración, dos fragmentos de código o dos versiones de una plantilla de correo electrónico.",
+        "Una comparación rápida de archivos de configuración revela exactamente qué parámetro cambió entre entornos como preproducción y producción.",
+        "Los editores de plantillas comparan borradores guardados para detectar desviaciones de formato que un vistazo rápido pasaría por alto.",
+        "Como la misma lógica lado a lado funciona con código, marcado y texto plano, una herramienta cubre muchas necesidades de revisión."
+      ]
+    },
+    {
+      "heading": "Comparación Privada de Borradores Confidenciales",
+      "paragraphs": [
+        "Documentos legales, manuscritos no publicados y notas de版本 internas se comparan localmente, y ese es exactamente el punto.",
+        "Sin subidas, sin cuenta, sin marca de agua — en todas las plataformas.",
+        "Tu historial de versiones es tuyo."
+      ]
+    },
+    {
+      "heading": "Diferencias Dentro de la Suite Completa de Texto",
+      "paragraphs": [
+        "Tras comparar, [find-replace:aplica correcciones], [sort-lines:organiza] o [case-converter:normaliza] el texto.",
+        "La suite es gratuita y nativa del navegador.",
+        "Cada pregunta de versión, respondida con precisión."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Qué resalta exactamente la herramienta de diferencias?",
+      "a": "Muestra ambos textos lado a lado, coloreando las líneas que fueron añadidas, eliminadas o modificadas para que los cambios sean visibles al instante."
+    },
+    {
+      "q": "¿Puede comparar documentos muy largos?",
+      "a": "Sí. La diferenciación basada en líneas maneja textos largos; la renderización es local y rápida sin importar la longitud."
+    },
+    {
+      "q": "¿La comparación de texto es privada?",
+      "a": "Sí. Todo ocurre localmente en tu navegador sin subidas ni cuentas."
+    },
+    {
+      "q": "¿Muestra contexto alrededor de los cambios?",
+      "a": "Sí. Las líneas inalteradas circundantes aparecen junto a la diferencia para que puedas verificar que las modificaciones se sitúan dentro del contexto correcto."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "color-converter",
+  "title": "Conversor de Cores: Converta HEX em RGB, HSL e Mais Online Grátis",
+  "description": "Conversor de cores gratuito para traduzir entre os formatos HEX, RGB, HSL, CMYK e muito mais instantaneamente. Privado, no seu navegador, com pré-visualização.",
+  "keywords": ["conversor de cores", "hex para rgb", "hex para hsl", "rgb para hex", "conversor de cor hex", "converter cor online", "conversor de cor css"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Uma Cor, Muitas Linguagens",
+      "paragraphs": [
+        "As ferramentas de design exportam HEX, os programadores criam scripts em RGB, as impressoras esperam CMYK e os designers pensam em HSL. Converter entre formatos de cor mantém uma cor coerente em todos os fluxos de trabalho.",
+        "O mesmo tom escrito da forma como cada ferramenta fala.",
+        "A ChooseTools converte cores localmente no seu navegador com pré-visualização em direto.",
+        "Sem um conversor, as equipas perdem tempo a recalcular valores manualmente, o que introduz erros de arredondamento e descasamentos visuais que aparecem em produção."
+      ]
+    },
+    {
+      "heading": "Como Converter uma Cor",
+      "paragraphs": [
+        "Do seletor a todos os formatos de uma vez.",
+        "Introduza um valor de cor em HEX, RGB, HSL ou um nome de cor CSS, e todas as outras representações atualizam-se juntamente com uma amostra visual.",
+        "A conversão é local e instantânea.",
+        "Também pode colar um valor diretamente da área de transferência, quer venha de um ficheiro de tokens de design, de um guia de estilo ou de um inspetor do navegador."
+      ]
+    },
+    {
+      "heading": "HEX, RGB e HSL Explicados na Prática",
+      "paragraphs": [
+        "O HEX condensa vermelho, verde e azul em seis dígitos para folhas de estilo.",
+        "O RGB serve scripts e APIs; o HSL expressa tom, saturação e luminosidade para ajustes.",
+        "Cada vista serve uma conversa diferente sobre a mesma cor.",
+        "Compreender quando usar cada formato poupa tempo: HEX para declarações CSS rápidas, RGB para mistura programática e HSL para ajustar o brilho sem adivinhar valores dos componentes."
+      ]
+    },
+    {
+      "heading": "Do Design ao Código Sem Itinerários de Ida e Volta",
+      "paragraphs": [
+        "Apanhe uma amostra dos ficheiros de design e receba o valor CSS exato.",
+        "Ajuste o HSL para variações e exporte o HEX que coloca no tema.",
+        "A intenção do design sobrevive à entrega.",
+        "As equipas que convertem cores no ponto de entrega evitam o bug comum em que um designer passa um tripleto RGB aproximado e o programador implementa um tom ligeiramente errado."
+      ]
+    },
+    {
+      "heading": "Precisão Entre Formatos para Sistemas de Marca",
+      "paragraphs": [
+        "As cores da marca precisam de valores consistentes na web, na impressão e na engenharia.",
+        "O conversor alinha matematicamente todas as representações.",
+        "Um tom, idêntico em todo o lado.",
+        "Quando um guia de marca especifica Pantone 286 C, converter isso para variantes HEX, RGB e CMYK garante que todos os pontos de contacto reproduzem a mesma identidade."
+      ]
+    },
+    {
+      "heading": "Considerações sobre Opacidade, Alfa e Transparência",
+      "paragraphs": [
+        "Alguns formatos transportam um canal alfa para sobreposições semitransparentes, enquanto outros não.",
+        "Ao converter de RGBA para HEX, o valor alfa deve ser tratado separadamente ou convertido numa notação HEX de oito dígitos que alguns navegadores modernos suportam.",
+        "Estar ciente do comportamento do alfa evita surpresas quando os componentes de interface em camadas são renderizados de forma diferente do que o design pretendia."
+      ]
+    },
+    {
+      "heading": "Construir Paletas Harmoniosas a Partir de um Único Tom",
+      "paragraphs": [
+        "Uma vez convertida uma cor de base para HSL, ajustar a roda de tons em trinta ou sessenta graus produz paletas complementares e análogas automaticamente.",
+        "Manter a saturação constante enquanto desloca a luminosidade cria tons claros e escuros que funcionam como pares de fundo e primeiro plano.",
+        "Começar a partir de uma conversão verificada garante que todos os membros da paleta partilham a mesma origem no espaço de cor."
+      ]
+    },
+    {
+      "heading": "Acessibilidade e Verificação de Contraste",
+      "paragraphs": [
+        "As Diretrizes de Acessibilidade para o Conteúdo Web exigem rácios de contraste mínimos entre as cores de texto e de fundo.",
+        "Depois de converter um par de cores, comparar os seus valores de luminância revela se a combinação passa os limiares AA ou AAA.",
+        "Designers que convertem e depois verificam o contraste na mesma sessão apanham falhas de acessibilidade antes de o código chegar a produção.",
+        "Um texto cinzento claro num fundo branco, por exemplo, converte para um rácio de contraste muito abaixo do limiar de 4,5 para 1 exigido para o corpo do texto, sinalizando que o primeiro plano ou o fundo precisa de ajuste."
+      ]
+    },
+    {
+      "heading": "Gradientes e Interpolação Entre Formatos",
+      "paragraphs": [
+        "Renderizar gradientes suaves em CSS depende de interpolar entre os canais de componente de um formato escolhido.",
+        "Converter as duas cores de extremidade para RGB antes de construir um gradiente produz a mistura mais previsível, enquanto a interpolação HLS pode passar por tons intermédios inesperados.",
+        "Compreender como um formato interpola ajuda os programadores a escolher a representação correta para botões, gráficos e visualizações de dados."
+      ]
+    },
+    {
+      "heading": "Engenharia de Cores Privada",
+      "paragraphs": [
+        "Paletas em desenvolvimento convertem-se no dispositivo.",
+        "Sem carregamentos, sem conta, sem marca de água — em todas as plataformas.",
+        "Os segredos da marca permanecem dentro do estúdio.",
+        "Esquemas de cor pré-lançamento para lançamentos de produtos ou campanhas sazonais permanecem invisíveis a terceiros quando a conversão acontece localmente."
+      ]
+    },
+    {
+      "heading": "Trabalho de Cores no Conjunto de Ferramentas de Imagem",
+      "paragraphs": [
+        "Combine com a extração de color-picker e os ajustes de image-filter para um fluxo de trabalho de cor completo.",
+        "O conjunto é gratuito e nativo do navegador.",
+        "Todos os tons, em todas as notações, instantaneamente.",
+        "Começando com um valor de cor convertido, pode depois aplicar filtros, gerar gradientes ou criar paletas harmoniosas sem sair do navegador."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Quais formatos de cor são suportados?",
+      "a": "HEX, RGB e HSL são totalmente suportados, juntamente com nomes de cores comuns, e mais representações conforme necessário."
+    },
+    {
+      "q": "A ferramenta mostra uma pré-visualização visual?",
+      "a": "Sim. A cor atual aparece como uma amostra atualizada a cada entrada."
+    },
+    {
+      "q": "O conversor é privado?",
+      "a": "Sim. Tudo é executado localmente no seu navegador, sem carregamentos ou contas."
+    },
+    {
+      "q": "Consigo converter a partir de um nome de cor CSS?",
+      "a": "Sim. Introduza um nome de cor CSS padrão como coral ou slateblue e o conversor devolve os equivalentes HEX, RGB e HSL."
+    },
+    {
+      "q": "O conversor lida com HEX de oito dígitos com alfa?",
+      "a": "Sim. Os navegadores modernos suportam RGBA através da notação HEX de oito dígitos, e o conversor pode produzir e analisar esse formato."
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "zakat-calculator",
+  "title": "Zakat Calculator: Calculate Zakat Online Free",
+  "description": "Free online zakat calculator for Islamic zakat computation on cash, gold, silver and assets. Private, in your browser, no uploads, no sign-up.",
+  "keywords": ["zakat calculator", "calculate zakat online", "zakat on money", "zakat calculator 2026", "zakat on gold", "nisab calculator", "zakat calculation tool"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Zakat Starts With a Correct Assessment",
+      "paragraphs": [
+        "Zakat is an annual obligation of 2.5% on assets above the nisab threshold. [zakat-calculator:Computing zakat online] tallies cash, gold, silver and business assets into an accurate figure.",
+        "Knowing the threshold decides obligation; computation decides the amount.",
+        "ChooseTools calculates zakat locally in your browser."
+      ]
+    },
+    {
+      "heading": "How to Calculate Zakat",
+      "paragraphs": [
+        "From asset list to obligation in minutes:",
+        "Enter your cash, savings, gold, silver and assessable assets. The calculator applies the nisab threshold, computes the 2.5% due, and presents the amount clearly.",
+        "Calculation is local and private."
+      ]
+    },
+    {
+      "heading": "The Nisab Threshold Determines Obligation",
+      "paragraphs": [
+        "Zakat is due when assets reach or exceed the nisab, a threshold defined by the value of gold or silver.",
+        "The calculator measures against the applicable threshold.",
+        "Clarity about qualification comes first."
+      ]
+    },
+    {
+      "heading": "Understanding the Different Nisab Calculations",
+      "paragraphs": [
+        "Scholars differ on whether to use the gold or silver nisab as the reference point, and the choice materially affects who owes zakat. The gold nisab is typically equivalent to 85 grams of pure gold, while the silver nisab corresponds to approximately 595 grams of silver. Because gold and silver prices move independently, the two thresholds can diverge significantly in any given year.",
+        "Some schools of thought recommend using whichever nisab is lower, which means more people qualify to pay. Others prefer the gold standard because it aligns with the historical practice of the Prophet. The calculator can accommodate either approach by letting you compare the two thresholds side by side before entering your asset total.",
+        "Understanding which threshold applies to your situation prevents both underpayment and overpayment. Underpaying leaves a religious obligation unmet, while overpaying beyond what is required is a voluntary charity rather than zakat. Both outcomes are valid, but clarity ensures your intention matches your action."
+      ]
+    },
+    {
+      "heading": "Assets In, Honest Amount Out",
+      "paragraphs": [
+        "Cash, savings, gold, silver and trade goods all enter the calculation visibly.",
+        "Each line item is examined; totals add only what qualifies.",
+        "Transparent math supports confident giving."
+      ]
+    },
+    {
+      "heading": "What Counts and What Does Not",
+      "paragraphs": [
+        "Cash on hand, bank balances, receivables and gold or silver jewelry above the minimum weight all count toward the zakat base. Investment portfolios, rental income held for a full lunar year and business inventory intended for sale are also eligible. The calculator lets you categorize each item so you can see exactly which assets contribute to the total.",
+        "Personal items such as your primary residence, one vehicle for daily use, clothing for the season and basic household furnishings are excluded from the calculation. These are considered necessities, and zakat applies to surplus wealth rather than the means of subsistence. The distinction matters because including necessities would inflate the obligation unfairly.",
+        "Debts owed to you (receivables) are included once they are collectible, while debts you owe others can be subtracted from your total assets. This net approach reflects the Quranic principle that zakat is on net wealth. The calculator supports entering both sides so the final figure represents your actual surplus.",
+        "Gold jewelry below the nisab weight threshold is typically exempt, but jewelry held as an investment or stored without personal use generally counts. Different scholars apply slightly different rules here, so the calculator provides the field but leaves the interpretation to you and your advisor."
+      ]
+    },
+    {
+      "heading": "Updated by Current Precious Metal Values",
+      "paragraphs": [
+        "Gold and silver prices shift daily, so nisab changes with markets.",
+        "Current reference values keep the threshold realistic.",
+        "Obligation reflects reality, not stale charts."
+      ]
+    },
+    {
+      "heading": "When to Pay and How to Distribute",
+      "paragraphs": [
+        "Zakat becomes due once a full lunar year (hawl) has passed since the assets first reached the nisab threshold. Many people choose to pay during Ramadan because of the multiplied rewards associated with charity in that month, but the obligation exists at any time of year. The calculator helps you determine the amount so you can plan your payment regardless of when the hawl completes.",
+        "The Quran specifies eight categories of zakat recipients: the poor, the needy, those who collect zakat, those whose hearts are to be reconciled, those in bondage, debtors, those in the path of Allah and travelers in need. Distributing to these categories is part of the obligation, not separate from it. Planning your distribution before paying ensures every dirham reaches a qualifying recipient.",
+        "Paying zakat through an intermediary or charitable organization is permissible when you trust the organization to distribute correctly. Some donors calculate the amount themselves using the calculator and then hand the total to a verified distributor. Others prefer to pay directly to recipients after identifying them in their community. Both approaches fulfill the obligation when done with sincere intention."
+      ]
+    },
+    {
+      "heading": "Private Finances, Private Calculation",
+      "paragraphs": [
+        "Wealth details are deeply personal; the calculator keeps them on your device.",
+        "No upload, no account, no watermark — across platforms.",
+        "Assessment without exposure."
+      ]
+    },
+    {
+      "heading": "Zakat Within the Financial Toolkit",
+      "paragraphs": [
+        "Record and export amounts with [invoice-generator:documents] and [tafqit:word amounts] for tidy records.",
+        "The suite is free and browser-native.",
+        "Obligations computed privately and confidently."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What assets are included in the calculation?",
+      "a": "Cash, savings, gold, silver and assessable trade or investment assets can all be entered and totaled toward zakat."
+    },
+    {
+      "q": "How is the nisab threshold applied?",
+      "a": "The obligation triggers when total eligible assets reach the gold or silver based threshold using current reference values."
+    },
+    {
+      "q": "Is the calculation private?",
+      "a": "Yes. Everything runs locally in your browser with no uploads or accounts."
+    },
+    {
+      "q": "Can I use the calculator to compare gold and silver nisab?",
+      "a": "Yes. You can view both thresholds side by side to determine which one applies to your situation based on your school of thought."
+    }
+  ]
+}

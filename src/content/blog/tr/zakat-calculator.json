@@ -1,0 +1,108 @@
+{
+  "slug": "zakat-calculator",
+  "title": "Zekât Hesaplayıcı: Çevrimiçi Ücretsiz Zekât Hesaplama",
+  "description": "Nakit, altın, gümüş ve varlıklar üzerinden İslami zekât hesaplaması için ücretsiz çevrimiçi zekât hesaplayıcı. Gizli, tarayıcınızda, yükleme yok, kayıt yok.",
+  "keywords": ["zekât hesaplayıcı", "çevrimiçi zekât hesaplama", "para zekâtı", "zekât hesaplayıcı 2026", "altın zekâtı", "nisap hesaplayıcı", "zekât hesaplama aracı"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Zekât Doğru Bir Değerlendirmeyle Başlar",
+      "paragraphs": [
+        "Zekât, nisap eşiğinin üzerindeki varlıklar üzerinden yıllık %2,5'lik bir yükümlülüktür. [zakat-calculator:Zekâtı çevrimiçi hesaplama], nakit, altın, gümüş ve ticari varlıkları doğru bir rakamda toplar.",
+        "Eşiği bilmek yükümlülüğü belirler; hesaplama ise tutarı belirler.",
+        "ChooseTools zekâtı tarayıcınızda yerel olarak hesaplar."
+      ]
+    },
+    {
+      "heading": "Zekât Nasıl Hesaplanır",
+      "paragraphs": [
+        "Varlık listesinden yükümlülüğe, dakikalar içinde.",
+        "Nakit, birikim, altın, gümüş ve değerlendirilebilir varlıklarınızı girin. Hesaplayıcı nisap eşiğini uygular, tahakkuk eden %2,5'i hesaplar ve tutarı net biçimde sunar.",
+        "Hesaplama yereldir ve gizlidir."
+      ]
+    },
+    {
+      "heading": "Nisap Eşiği Yükümlülüğü Belirler",
+      "paragraphs": [
+        "Zekât, altın veya gümüş değeriyle tanımlanan bir eşik olan nisaba ulaşıldığında ya da aşıldığında tahakkuk eder.",
+        "Hesaplayıcı, geçerli eşiğe göre ölçüm yapar.",
+        "Yükümlülüğe hak kazanıp kazanmadığınız konusunda netlik önce gelir."
+      ]
+    },
+    {
+      "heading": "Farklı Nisap Hesaplamalarını Anlamak",
+      "paragraphs": [
+        "Âlimler referans noktası olarak altın veya gümüş nisabının hangisinin kullanılacağı konusunda ihtilaf eder ve bu seçim, zekâtı kimin vereceğini fiilen etkiler. Altın nisabı tipik olarak 85 gram saf altına denk gelirken, gümüş nisabı yaklaşık 595 gram gümüşe karşılık gelir. Altın ve gümüş fiyatları bağımsız hareket ettiği için iki eşik herhangi bir yılda önemli ölçüde ayrışabilir.",
+        "Bazı mezhepler hangi nisap düşükse onun kullanılmasını önerir; bu da daha fazla kişinin vermeye hak kazanması anlamına gelir. Diğerleri, Peygamber'in tarihsel uygulamasıyla örtüştüğü için altın standardını tercih eder. Hesaplayıcı, varlık toplamınızı girmeden önce iki eşiği yan yana karşılaştırmanıza izin vererek her iki yaklaşımı da karşılayabilir.",
+        "Durumunuz için hangi eşiğin geçerli olduğunu anlamak hem eksik hem de fazla ödemeyi önler. Eksik ödeme, dinî bir yükümlülüğün yerine getirilmemesine yol açar; gerekenden fazla ödemek ise zekât değil gönüllü sadakadır. Her iki sonuç da geçerlidir ancak netlik, niyetinizin eyleminizle örtüşmesini sağlar."
+      ]
+    },
+    {
+      "heading": "Giren Varlıklar, Çıkan Dürüst Tutar",
+      "paragraphs": [
+        "Nakit, birikim, altın, gümüş ve ticaret malları hesaplamanın içine görünür biçimde girer.",
+        "Her satır kalemi incelenir; toplamlar yalnızca hak kazananları ekler.",
+        "Şeffaf matematik, güvenle vermeyi destekler."
+      ]
+    },
+    {
+      "heading": "Hangi Varlıklar Sayılır, Hangileri Sayılmaz",
+      "paragraphs": [
+        "Eldeki nakit, banka bakiyeleri, alacaklar ve asgari ağırlığın üzerindeki altın veya gümüş takılar zekât matrahına dahildir. Yatırım portföyleri, tam bir kameri yıl boyunca tutulan kira geliri ve satışa yönelik ticari stok da uygundur. Hesaplayıcı, her kalemi kategorilendirmenize izin verir; böylece hangi varlıkların toplama katkı sağladığını tam olarak görebilirsiniz.",
+        "Birincil konutunuz, günlük kullanım için bir araç, mevsim kıyafetleri ve temel ev eşyaları gibi kişisel eşyalar hesaplamanın dışında tutulur. Bunlar zorunlu ihtiyaçlar olarak kabul edilir ve zekât, geçim araçlarından ziyade artan servete uygulanır. Bu ayrım önemlidir çünkü zorunlu ihtiyaçların dahil edilmesi yükümlülüğü haksız biçimde şişirir.",
+        "Size borçlu olunan borçlar (alacaklar) tahsil edilebilir hale geldiklerinde dahil edilir; başkalarına borçlu olduklarınız ise toplam varlıklarınızdan düşülebilir. Bu net yaklaşım, zekâtın net servet üzerinden olduğu yönündeki Kur'an ilkesini yansıtır. Hesaplayıcı her iki tarafı girmeyi desteklediğinden nihai rakam gerçek fazlanızı temsil eder.",
+        "Nisap ağırlık eşiğinin altındaki altın takılar genellikle muaftır; ancak yatırım olarak tutulan ya da kişisel kullanım olmadan saklanan takılar genellikle sayılır. Burada farklı âlimler birbirinden azıcık farklı kurallar uygular; bu nedenle hesaplayıcı alanı sağlar ancak yorumu size ve danışmanınıza bırakır."
+      ]
+    },
+    {
+      "heading": "Güncel Kıymetli Maden Değerleriyle Güncel",
+      "paragraphs": [
+        "Altın ve gümüş fiyatları her gün değişir; bu nedenle nisap da piyasalarla birlikte değişir.",
+        "Güncel referans değerleri eşiği gerçekçi tutar.",
+        "Yükümlülük bayat tabloları değil, gerçeği yansıtır."
+      ]
+    },
+    {
+      "heading": "Ne Zaman Ödenir ve Nasıl Dağıtılır",
+      "paragraphs": [
+        "Zekât, varlıkların nisap eşiğine ilk ulaştığı tarihten itibaren bir kameri yılın (havl) geçmesiyle tahakkuk eder. Birçok kişi, o ayda sadakayla ilişkilendirilen kat kat sevaplar nedeniyle Ramazan'da ödemeyi tercih eder; ancak yükümlülük yılın herhangi bir zamanında mevcuttur. Hesaplayıcı, havl ne zaman tamamlanırsa tamamlansın ödemenizi planlayabilmeniz için tutarı belirlemenize yardımcı olur.",
+        "Kur'an, zekât alıcılarının sekiz kategorisini belirtir: fakirler, yoksullar, zekâtı toplayanlar, gönülleri ısındırılmak istenenler, özgürleştirilecek köleler, borçlular, Allah yolunda olanlar ve yolda kalmış yolcular. Bu kategorilere dağıtmak yükümlülüğün ayrılmaz bir parçasıdır. Ödemeden önce dağıtımınızı planlamak, her dirhemin hak sahibi bir alıcıya ulaşmasını sağlar.",
+        "Zekâtı bir aracı kuruluş ya da hayır kurumu aracılığıyla ödemek, kuruluşun doğru dağıtım yapacağına güvendiğinizde caizdir. Bazı bağışçılar tutarı hesaplayıcıyı kullanarak kendileri hesaplar ve toplamı doğrulanmış bir dağıtıcıya teslim eder. Diğerleri, topluluklarında alıcıları belirledikten sonra doğrudan ödemeyi tercih eder. İçten bir niyetle yapıldığında her iki yaklaşım da yükümlülüğü yerine getirir."
+      ]
+    },
+    {
+      "heading": "Gizli Finans, Gizli Hesaplama",
+      "paragraphs": [
+        "Servet ayrıntıları son derece kişiseldir; hesaplayıcı onları cihazınızda tutar.",
+        "Platformlar arasında yükleme yok, hesap yok, filigran yok.",
+        "İfşa olmadan değerlendirme."
+      ]
+    },
+    {
+      "heading": "Finansal Araç Takımı İçinde Zekât",
+      "paragraphs": [
+        "Düzenli kayıtlar için [invoice-generator:belgeler] ve [tafqit:yazıyla tutarlar] ile tutarları kaydedin ve dışa aktarın.",
+        "Takım ücretsizdir ve tarayıcı tabanlıdır.",
+        "Yükümlülükler gizli ve güvenle hesaplanır."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hesaplamaya hangi varlıklar dahildir?",
+      "a": "Nakit, birikim, altın, gümüş ve değerlendirilebilir ticaret veya yatırım varlıkları zekâta yönelik toplama girilebilir ve toplanabilir."
+    },
+    {
+      "q": "Nisap eşiği nasıl uygulanır?",
+      "a": "Yükümlülük, toplam uygun varlıklar güncel referans değerleri kullanılarak altın veya gümüş bazlı eşiğe ulaştığında tetiklenir."
+    },
+    {
+      "q": "Hesaplama gizli mi?",
+      "a": "Evet. Her şey tarayıcınızda yerel olarak çalışır; yükleme veya hesap yoktur."
+    },
+    {
+      "q": "Hesaplayıcıyı altın ve gümüş nisabını karşılaştırmak için kullanabilir miyim?",
+      "a": "Evet. Mezhebiniz doğrultusunda durumunuza hangisinin uygulanacağını belirlemek için iki eşiği yan yana görüntüleyebilirsiniz."
+    }
+  ]
+}

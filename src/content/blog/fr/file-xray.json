@@ -1,0 +1,132 @@
+{
+  "slug": "file-xray",
+  "title": "Rayon X de fichiers : Inspecter les détails et métadonnées de fichiers en ligne et gratuitement",
+  "description": "Outil de rayon X de fichiers gratuit pour inspecter les fichiers, révéler les métadonnées et vérifier le contenu localement dans votre navigateur. Privé, sans envoi de données, sans inscription.",
+  "keywords": ["rayon x fichier", "inspecter fichier", "visionneuse métadonnées fichier", "détails fichier en ligne", "outil inspection fichier", "vérifier type fichier", "voir infos fichier"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Les fichiers transportent plus que leur contenu",
+      "paragraphs": [
+        "La taille, le type, les dates de modification et les métadonnées cachées décrivent tous un fichier au-delà de ses données visibles. [file-xray:Inspection de fichiers avec un outil de rayon X] révèle ces détails avant que vous n'ouvriez ou n'envoyiez quoi que ce soit.",
+        "Connaître le vrai type d'un fichier prévient les échecs inattendus.",
+        "ChooseTools inspecte les fichiers localement dans votre navigateur."
+      ]
+    },
+    {
+      "heading": "Comment inspecter un fichier",
+      "paragraphs": [
+        "Du doute au double-clic au tableau complet :",
+        "Sélectionnez un fichier et visualisez sa taille, son type détecté, les indices de format et les métadonnées. Confirmez que l'extension correspond à la réalité avant distribution.",
+        "L'inspection est entièrement locale — rien ne quitte votre appareil."
+      ]
+    },
+    {
+      "heading": "Détection du type au-delà de l'extension",
+      "paragraphs": [
+        "Les extensions mentent tandis que les octets magiques ne mentent pas.",
+        "L'outil examine les signatures pour rapporter le vrai format quel que soit le renommage.",
+        "Les pièces jointes renommées ne passent plus inaperçues."
+      ]
+    },
+    {
+      "heading": "Réalités des métadonnées et vie privée",
+      "paragraphs": [
+        "Les photos portent des balises de localisation et d'appareil ; les documents portent des noms d'auteur et des horodatages.",
+        "Voir les métadonnées révèle ce qu'un fichier divulguerait lorsqu'il est partagé.",
+        "Un partage éclairé surpasse une exposition devinée."
+      ]
+    },
+    {
+      "heading": "Avant d'envoyer quoi que ce soit",
+      "paragraphs": [
+        "Vérifiez la taille pour les limites de messagerie, le type pour les systèmes et les métadonnées pour l'exposition en un coup d'œil.",
+        "Les vérifications préliminaires préviennent les problèmes gênants ou bloquants.",
+        "La confiance voyage avec chaque pièce jointe."
+      ]
+    },
+    {
+      "heading": "Inspection privée de fichiers sensibles",
+      "paragraphs": [
+        "Examiner un fichier localement signifie que ses métadonnées ne deviennent jamais un enregistrement de consultation.",
+        "Pas d'envoi, pas de compte, pas de filigrane — sur toutes les plateformes.",
+        "Inspection sans interception."
+      ]
+    },
+    {
+      "heading": "Le travail fichier dans la suite",
+      "paragraphs": [
+        "Combiné avec [remove-exif:suppression des métadonnées], [pdf-metadata:détails du document] et [convert-image:conversion de format] pour un contrôle complet.",
+        "Tout est gratuit et natif au navigateur.",
+        "Connaissez vos fichiers avant qu'ils ne partent nulle part."
+      ]
+    },
+    {
+      "heading": "Formats de fichiers courants reconnus par l'outil",
+      "paragraphs": [
+        "Le moteur d'inspection couvre un large éventail de formats courants : images telles que JPEG, PNG, WebP et GIF ; documents incluant PDF et texte brut ; types d'archives comme ZIP et GZIP ; fichiers audio en MP3 et WAV ; et conteneurs vidéo en MP4 et MOV.",
+        "Pour chaque format reconnu, l'outil rapporte la version, la structure interne et les détails de flux intégrés pertinents pour le traitement en aval.",
+        "Même lorsque l'extension est manquante ou incorrecte, la détection basée sur les signatures identifie toujours le vrai format, de sorte que vous savez toujours avec quoi vous avez affaire.",
+        "Les fichiers non reconnus rapportent toujours la taille brute, les octets d'en-tête et tout chunk détectable, donnant aux développeurs des indices utiles pour des investigations approfondies."
+      ]
+    },
+    {
+      "heading": "Lire les EXIF, XMP et propriétés de document",
+      "paragraphs": [
+        "Les fichiers image portent couramment des blocs EXIF et XMP qui enregistrent le modèle d'appareil, les paramètres d'exposition, les coordonnées GPS, les horodatages et la version du logiciel utilisés lors de la création.",
+        "Les documents PDF et bureautiques exposent l'auteur, le titre, le sujet, la date de création et l'historique de modification dans leurs dictionnaires de métadonnées.",
+        "Le rayon X de fichier affiche tous les champs disponibles dans une seule vue, vous permettant de décider si certaines de ces informations doivent être supprimées avant publication.",
+        "Pour les équipes qui traitent un grand volume de fichiers entrants, un aperçu rapide des métadonnées fait gagner du temps qui serait autrement passé à ouvrir chaque fichier dans un éditeur dédié."
+      ]
+    },
+    {
+      "heading": "Cas d'utilisation pratiques pour l'inspection de fichiers",
+      "paragraphs": [
+        "Les journalistes recevant des pièces jointes anonymes vérifient l'origine des fichiers et suppriment les métadonnées identifiantes avant publication.",
+        "Les équipes de support informatique confirment si un exécutable est réellement un binaire ou un script renommé, réduisant le risque avant l'exécution de diagnostics.",
+        "Les développeurs construisant des pipelines de téléchargement utilisent l'inspecteur pour valider les types de fichiers entrants par rapport aux catégories MIME attendues.",
+        "Les designers confirment les profils colorimétriques, la résolution et la profondeur de bits avant de remettre les assets aux imprimeurs ou aux équipes web."
+      ]
+    },
+    {
+      "heading": "Sensibilité à la taille de fichier pour les limites de messagerie et du cloud",
+      "paragraphs": [
+        "La plupart des fournisseurs de messagerie limitent les pièces jointes à vingt-cinq mégaoctets, et les liens de partage cloud peuvent imposer leurs propres seuils pour les fichiers individuels.",
+        "Une vérification rapide de la taille prévient les messages rejetés et les téléchargements échoués, en particulier lorsqu'une photo ou un scan est plus grand que prévu.",
+        "Lorsqu'un fichier dépasse la limite, l'inspecteur vous donne le nombre dont vous avez besoin pour décider s'il faut compresser, diviser ou utiliser une méthode de livraison différente.",
+        "Connaître le nombre exact d'octets aide également lors de la budgétisation de l'espace de stockage entre disques de sauvegarde et niveaux cloud."
+      ]
+    },
+    {
+      "heading": "Cas limites : fichiers corrompus, tronqués et partiels",
+      "paragraphs": [
+        "Les fichiers interrompus pendant le téléchargement ou copiés depuis des supports défaillants peuvent porter des en-têtes incomplets ou des pieds de page manquants.",
+        "L'inspecteur signale lorsque les signatures ne correspondent pas aux motifs attendus, signalant une corruption probable avant que vous n'essayiez d'ouvrir le fichier dans une autre application.",
+        "Les fichiers partiels provenant de téléchargements incomplets peuvent être identifiés rapidement, vous évitant de diagnostiquer des erreurs d'application en aval qui ne sont en réalité que des problèmes de données.",
+        "Pour les développeurs, ces avertissements constituent une boucle de rétroaction rapide lors du test de reprise de téléchargement, d'outils de synchronisation ou de scripts de sauvegarde."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "L'outil peut-il détecter le vrai type de fichier ?",
+      "a": "Oui. La détection de type lit les signatures internes du fichier plutôt que de se fier à l'extension."
+    },
+    {
+      "q": "Quelles métadonnées sont révélées ?",
+      "a": "La taille, le format détecté et les champs de métadonnées courants intégrés apparaissent, selon le type de fichier."
+    },
+    {
+      "q": "L'inspection est-elle privée ?",
+      "a": "Oui. Tout s'exécute localement dans votre navigateur sans envoi de données ni compte."
+    },
+    {
+      "q": "Puis-je inspecter des fichiers sans extension ?",
+      "a": "Oui. La détection basée sur les signatures identifie le format même lorsque l'extension est manquante ou incorrecte."
+    },
+    {
+      "q": "L'outil gère-t-il les fichiers corrompus ou partiels ?",
+      "a": "Oui. Il signale lorsque les en-têtes sont incomplets ou les signatures ne correspondent pas, vous aidant à identifier la corruption avant d'essayer d'ouvrir le fichier ailleurs."
+    }
+  ]
+}

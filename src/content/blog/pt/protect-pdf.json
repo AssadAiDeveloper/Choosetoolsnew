@@ -1,0 +1,95 @@
+{
+  "slug": "protect-pdf",
+  "title": "Como Proteger um PDF Com Palavra-Passe Online Grátis: Encripte o Seu Documento",
+  "description": "Proteja um PDF com palavra-passe online grátis com a ChooseTools. Encripte o seu documento com uma palavra-passe forte no seu navegador — sem carregamentos, sem marcas de água, total privacidade.",
+  "keywords": ["proteger pdf com palavra-passe", "proteger pdf com senha", "encriptar pdf", "adicionar palavra-passe a pdf online grátis", "segurar ficheiro pdf", "trancar documento pdf", "ferramenta de encriptação pdf grátis"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Porque é que Alguns Ficheiros Têm de Estar Trancados",
+      "paragraphs": [
+        "Nem todo PDF é destinado a olhos abertos. Extratos bancários, contratos assinados, resultados médicos e relatórios não publicados viajam melhor selados. [protect-pdf:Proteger um PDF com palavra-passe] envolve o conteúdo de forma que apenas pessoas com a chave possam abri-lo.",
+        "A encriptação também é sobre confiança em trânsito — o e-mail é mais permeável do que assumimos, e um ficheiro trancado sobrevive a um Cc errado com elegância.",
+        "A ChooseTools encripta PDFs localmente no seu navegador. Defina uma palavra-passe, descarregue o ficheiro protegido, e nenhuma versão do seu documento alguma vez saiu do seu dispositivo."
+      ]
+    },
+    {
+      "heading": "Como Adicionar uma Palavra-Passe a um PDF",
+      "paragraphs": [
+        "Trancar o seu ficheiro leva menos de um minuto.",
+        "Carregue o seu PDF e escolha uma palavra-passe forte — aconselhamos uma frase genuinamente aleatória. Confirme-a, e a ferramenta encripta o documento no navegador e entrega um PDF protegido para descarregamento.",
+        "Como a encriptação corre localmente, a palavra-passe e o ficheiro existem ambos apenas na sua máquina. Partilhe a palavra-passe com os destinatários através de um canal separado."
+      ]
+    },
+    {
+      "heading": "Palavras-Passe Fortes Para Proteção Real",
+      "paragraphs": [
+        "A força da encriptação depende da qualidade da palavra-passe: palavras curtas de dicionário desfazem até bons algoritmos de encriptação.",
+        "Use uma frase-passe longa e única para o documento — doze ou mais caracteres misturando maiúsculas e números — e guarde-a no seu gestor de palavras-passe.",
+        "Se precisa de um ponto de partida forte, o [password-generator:gerador de palavras-passe] da suíte cria frases-passe aleatórias e memoráveis num segundo."
+      ]
+    },
+    {
+      "heading": "O Que a Encriptação de PDF Realmente Faz",
+      "paragraphs": [
+        "A encriptação de PDF ofusca o conteúdo do documento de forma que abrir o ficheiro sem a palavra-passe correta produz apenas texto incomprensível. Algoritmos fortes como AES-256 com uma palavra-passe suficientemente longa resistem a ataques de força bruta para fins práticos.",
+        "O nível de segurança importa: padrões de encriptação mais antigos de 40 bits e 128 bits são agora considerados fracos, enquanto a encriptação AES moderna de 256 bits é a melhor prática atual. A saída usa encriptação forte pelo o ficheiro protegido cumpre as expectativas de segurança de hoje.",
+        "A encriptação não imprime uma marca de água no seu documento nem altera o seu layout; simplesmente bloqueia o acesso. Destinatários que inserem a palavra-passe correta abrem e utilizam o PDF exatamente como o criou."
+      ]
+    },
+    {
+      "heading": "Documentos Sensíveis Em Cada Cenário",
+      "paragraphs": [
+        "RH partilha ofertas de emprego, um contabilista distribui resumos anuais, advogados trocam acordos em rascunho — todos exigem uma palavra-passe.",
+        "A encriptação combina limpa e transparente com outras proteções: redija com [pdf-redaction:redação de PDF] o conteúdo mais sensível, aplainhe com [flatten-pdf:achatar PDF] e depois trance o ficheiro final.",
+        "O PDF trancado abre-se apenas com a palavra-passe e permanece ilegível para qualquer outra pessoa, incluindo filtros de e-mail."
+      ]
+    },
+    {
+      "heading": "Partilhar a Palavra-Passe com Segurança",
+      "paragraphs": [
+        "Enviar a palavra-passe no mesmo e-mail que o PDF anula todo o propósito da encriptação, porque uma comprometimento da caixa de correio revela ambos ao mesmo tempo. Envie o documento por um canal e a palavra-passe por completamente outro, como uma SMS ou uma chamada telefónica.",
+        "Aplicações de mensagens móveis com encriptação ponta a ponta oferecem uma opção mais segura para a entrega da frase-passe. Gestores de palavras-passe também podem partilhar a credencial diretamente com um destinatário em vez de transmitir o segredo em texto simples.",
+        "Se precisar de armazenar a palavra-passe, guarde-a num gestor de palavras-passe em vez de como uma nota anexada ao ficheiro. Isto mantém o segredo organizado e recuperável se enviar o mesmo documento para mais do que uma pessoa."
+      ]
+    },
+    {
+      "heading": "Encriptação Local Respeita os Seus Dados",
+      "paragraphs": [
+        "Enviar um PDF confidencial para um serviço na nuvem para o fazer «proteger» subverte completamente o objetivo. Aqui, a encriptação acontece na sua máquina.",
+        "Sem marca de água, sem conta, sem reutilização do seu conteúdo, e comportamento idêntico no Windows, macOS, Linux e navegadores móveis.",
+        "Gratuita e privada, a proteção de documentos está disponível no momento em que precisa, a partir de qualquer dispositivo."
+      ]
+    },
+    {
+      "heading": "Proteção Como a Última Barreira",
+      "paragraphs": [
+        "A maioria dos fluxos de trabalho trata a encriptação como o polimento final: finalize com [pdf-editor:edição], [compress-pdf:comprima] para tamanho, depois trance antes de despachar.",
+        "Mantenha a palavra-passe e a lista de destinatários organizados, e o mesmo ficheiro protegido pode circular sem nunca perder a sua confidencialidade.",
+        "A lição: com encriptação gratuita no navegador, cada PDF sensível sai da sua escrivaninha selado."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "A proteção com palavra-passe realmente encripta o conteúdo do PDF?",
+      "a": "Sim. A ferramenta aplica encriptação real de PDF protegida pela sua palavra-passe; o documento não pode ser aberto sem a frase-passe correta."
+    },
+    {
+      "q": "Quais são as melhores práticas para a palavra-passe que defino?",
+      "a": "Use uma frase-passe longa e única de pelo menos doze caracteres misturando letras, números e símbolos, guardada num gestor de palavras-passe e partilhada com destinatários através de um canal seguro."
+    },
+    {
+      "q": "A encriptação de PDF está disponível gratuitamente e em privado?",
+      "a": "Sim. Tudo corre localmente no seu navegador sem carregamentos, marcas de água ou contas — apenas você lida com o documento."
+    },
+    {
+      "q": "Posso remover a palavra-passe mais tarde?",
+      "a": "Sim. Abra o documento com a palavra-passe que defini e use uma funcionalidade de desencriptação ou desbloqueio para produzir um novo PDF desprotegido quando o ficheiro já não precisa de proteção."
+    },
+    {
+      "q": "O PDF encriptado ficará diferente do original?",
+      "a": "Não. A encriptação altera a forma como o ficheiro é aberto, não a sua aparência. O conteúdo, layout e formatação do documento são preservados exatamente."
+    }
+  ]
+}

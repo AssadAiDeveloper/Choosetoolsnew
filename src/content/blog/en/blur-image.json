@@ -1,0 +1,99 @@
+{
+  "slug": "blur-image",
+  "title": "How to Blur an Image Online Free: Blur Faces and Private Details",
+  "description": "Blur an image online free with ChooseTools. Blur faces, license plates and sensitive areas of any photo in your browser, with adjustable strength and total privacy.",
+  "keywords": ["blur image online", "blur face in photo", "blur part of image", "blur image free online", "pixelate face", "blur background of image", "blur region of photo"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Sometimes the Pixels Matter More Than the Subject",
+      "paragraphs": [
+        "A street photo shows bystanders you never got consent to publish; a home listing exposes private artwork; a screenshot reveals an email address. [blur-image:Blurring images] before sharing is the modern way of saying these parts aren't public.",
+        "It is quicker, softer and more natural than pixelating square blocks, yet equally clear about what is off-limits.",
+        "ChooseTools blurs areas of images locally in your browser — strength and region fully under your control.",
+        "Blur is the preferred redaction method in most editorial and professional contexts because it obscures detail while preserving the overall composition, unlike cropping which removes context entirely."
+      ]
+    },
+    {
+      "heading": "How to Blur a Part of an Image",
+      "paragraphs": [
+        "Select and soften, precisely:",
+        "Upload the image, then brush or draw a region over the sensitive area — a face, a plate, a number. Adjust the blur strength until details are genuinely unreadable, and download.",
+        "Processing stays on your device, so even the fact of the edit stays private.",
+        "The brush tool lets you paint a freeform region that follows the contours of the area you want to protect, rather than forcing a rectangular selection that might include unnecessary surrounding pixels."
+      ]
+    },
+    {
+      "heading": "Face Blurring for Consent and Safety",
+      "paragraphs": [
+        "Journalism, event photography and school newsletters all face the same issue: imperfect consent.",
+        "A clean face blur protects identities without destroying the composition.",
+        "The blurred region reads clearly as intentional protection, not an editing mistake.",
+        "Many jurisdictions require explicit consent for identifiable images used commercially or published online. Blurring faces retroactively when consent was not obtained is both a legal safeguard and a courtesy to the individuals captured."
+      ]
+    },
+    {
+      "heading": "Details That Should Never Travel",
+      "paragraphs": [
+        "License plates, street signs, house numbers, screens with personal data — all controllable with a careful blur.",
+        "Listings and marketplaces additionally blur serials and privacy labels before photos go public.",
+        "The right blur restores shareability to a photo that otherwise would stay in the drawer.",
+        "Screenshots of software interfaces frequently contain internal URLs, database identifiers or user information that must be obscured before the screenshot is shared outside the organization."
+      ]
+    },
+    {
+      "heading": "Blur Strength: Finding the Right Level",
+      "paragraphs": [
+        "Too little blur leaves details partially legible, especially when the viewer zooms in or the image is displayed at high resolution. Too much blur creates an obvious unnatural smudge that draws more attention than the original detail.",
+        "The ideal strength renders the target completely unreadable while keeping the surrounding area visually coherent. A face should be unrecognizable but the overall photo should still look like a well-composed image.",
+        "Adjusting the slider while previewing at actual resolution ensures you find the right balance for the specific image size and viewing context.",
+        "Testing the blurred result at the size it will actually be published — whether thumbnail, full-width or print — confirms the protection holds at every likely viewing scale."
+      ]
+    },
+    {
+      "heading": "Blurring Screenshots for Privacy Compliance",
+      "paragraphs": [
+        "Software demos, bug reports and customer support conversations frequently require screenshots that expose internal data, user information or unreleased features.",
+        "Blurring specific regions before sharing these screenshots externally is a standard privacy practice in both technical support and product development workflows.",
+        "Customer service teams blur account numbers, email addresses and personal identifiers from support ticket screenshots before escalation, ensuring compliance with data protection regulations.",
+        "Development teams blur internal dashboards, API responses and configuration panels when sharing progress screenshots with external stakeholders or posting to public channels."
+      ]
+    },
+    {
+      "heading": "Private Editing of Confidential Shots",
+      "paragraphs": [
+        "Blurring your own visual secrets locally guarantees they're analyzed nowhere else.",
+        "No upload, no watermark, no account — Windows, macOS, Linux and mobile.",
+        "Your curation of what is public remains entirely your business.",
+        "The fact that you are redacting an image is itself sensitive information; processing locally ensures that even the act of editing remains private."
+      ]
+    },
+    {
+      "heading": "Blur Alongside Other Protective Edits",
+      "paragraphs": [
+        "Pair blurring with [remove-exif:metadata removal] so neither the image regions nor the hidden tags reveal anything private.",
+        "The full suite is browser-native and private.",
+        "Publish confident that every sensitive square is properly cloaked.",
+        "Combining blur with metadata stripping ensures that neither visual content nor embedded location, device or authorship data leaks when the image reaches its intended audience."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I blur multiple regions of one image?",
+      "a": "Yes. Draw or brush over as many areas as needed — faces, plates and numbers — each with its own blurring."
+    },
+    {
+      "q": "Can I control how strong the blur is?",
+      "a": "Yes. Adjust the strength so details become clearly unreadable while the surrounding image stays natural."
+    },
+    {
+      "q": "Is the blur tool private and free?",
+      "a": "Yes. Everything runs locally in your browser with no uploads, watermarks or accounts."
+    },
+    {
+      "q": "Does blur work better than pixelation for privacy?",
+      "a": "Blur is generally preferred because it produces a smoother result that obscures detail without the harsh blocky appearance of pixelation, though both methods effectively prevent identification."
+    }
+  ]
+}

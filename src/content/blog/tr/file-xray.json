@@ -1,0 +1,132 @@
+{
+  "slug": "file-xray",
+  "title": "Dosya X-Işını: Dosya Ayrıntılarını ve Meta Verilerini Çevrimiçi Olarak Ücretsiz İnceleyin",
+  "description": "Dosyaları incelemek, meta verileri ortaya çıkarmak ve içerikleri tarayıcınızda yerel olarak doğrulamak için ücretsiz dosya x-ray aracı. Gizli, yükleme yok, kayıt yok.",
+  "keywords": ["dosya x-ray", "dosyayı incele", "dosya meta verisi görüntüleyici", "çevrimiçi dosya ayrıntıları", "dosya inceleme aracı", "dosya türünü kontrol et", "dosya bilgilerini görüntüle"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Dosyalar İçeriklerinden Fazlasını Taşır",
+      "paragraphs": [
+        "Boyut, tür, değiştirme tarihleri ve gizli meta veriler, bir dosyayı görünür verilerinin ötesinde tanımlar. [file-xray:Dosyaları bir x-ray aracıyla inceleme] bu ayrıntıları bir şeyi açmadan veya göndermeden önce yüzeye çıkarır.",
+        "Bir dosyanın gerçek türünü bilmek, beklenmedik hataları önler.",
+        "ChooseTools, dosyaları tarayıcınızda yerel olarak inceler."
+      ]
+    },
+    {
+      "heading": "Bir Dosya Nasıl İncelenir",
+      "paragraphs": [
+        "Çift tıklama belirsizliğinden tam tabloya:",
+        "Bir dosya seçin; boyutunu, algılanan türünü, biçim ipuçlarını ve meta verilerini görüntüleyin. Dağıtmadan önce uzantının gerçeklikle eşleştiğini doğrulayın.",
+        "İnceleme tamamen yereldir — hiçbir şey cihazınızdan ayrılmaz."
+      ]
+    },
+    {
+      "heading": "Uzantının Ötesinde Tür Algılama",
+      "paragraphs": [
+        "Uzantılar yalan söyler; sihirli baytlar söylemez.",
+        "Araç, yeniden adlandırılmış olsa da gerçek biçimi raporlamak için imzaları inceler.",
+        "Yeniden adlandırılmış ekler artık gözden kaçmaz."
+      ]
+    },
+    {
+      "heading": "Meta Veri Gerçekleri ve Gizlilik",
+      "paragraphs": [
+        "Fotoğraflar konum ve cihaz etiketleri taşır; belgeler yazar adları ve zaman damgaları taşır.",
+        "Meta veriyi görmek, bir dosyanın paylaşıldığında neleri ortaya çıkaracağını yüzeye çıkarır.",
+        "Bilinçli paylaşım, tahmini ifşadan daha iyidir."
+      ]
+    },
+    {
+      "heading": "Bir Şey Göndermeden Önce",
+      "paragraphs": [
+        "Tek bakışta posta sınırları için boyutu, sistemler için türü ve ifşa için meta veriyi doğrulayın.",
+        "Kalkış öncesi kontroller, utanç verici veya engelleyici sorunları önler.",
+        "Her ekle birlikte güven de yolculuk eder."
+      ]
+    },
+    {
+      "heading": "Hassas Dosyaların Gizli İncelemesi",
+      "paragraphs": [
+        "Bir dosyayı yerel olarak incelemek, meta verisinin asla bir sorgu kaydı olmaması anlamına gelir.",
+        "Yükleme yok, hesap yok, filigran yok — platformlar arası.",
+        "Araya girmeden inceleme."
+      ]
+    },
+    {
+      "heading": "Set İçinde Dosya İşlemleri",
+      "paragraphs": [
+        "Tam kontrol için [remove-exif:meta veri temizleme], [pdf-metadata:belge ayrıntıları] ve [convert-image:biçim dönüştürme] ile birlikte kullanın.",
+        "Her şey ücretsiz ve tarayıcı tabanlıdır.",
+        "Dosyalarınızı bir yere gitmeden önce tanıyın."
+      ]
+    },
+    {
+      "heading": "Aracın Tanıdığı Yaygın Dosya Biçimleri",
+      "paragraphs": [
+        "İnceleme motoru geniş bir günlük biçim kümesini kapsar: JPEG, PNG, WebP ve GIF gibi görseller; PDF ve düz metin dahil belgeler; ZIP ve GZIP gibi arşiv türleri; MP3 ve WAV biçimindeki ses dosyaları ve MP4 ile MOV biçimindeki video konteynerleri.",
+        "Tanınan her biçim için araç, sürümü, iç yapıyı ve aşağı akış işleme için önemli olan tüm gömülü akış ayrıntılarını raporlar.",
+        "Uzantı eksik veya yanlış olsa bile imza tabanlı algılama gerçek biçimi yine de tanımlar; böylece neyle uğraştığınızı her zaman bilirsiniz.",
+        "Tanınmayan dosyalar yine de ham boyutu, başlık baytlarını ve algılanabilir tüm parçaları raporlar ve geliştiricilere daha fazla araştırma için yararlı ipuçları verir."
+      ]
+    },
+    {
+      "heading": "EXIF, XMP ve Belge Özelliklerini Okuma",
+      "paragraphs": [
+        "Görüntü dosyaları genellikle kamera modelini, pozlama ayarlarını, GPS koordinatlarını, tarih-saat damgalarını ve oluşturma sırasında kullanılan yazılım sürümünü kaydeden EXIF ve XMP blokları taşır.",
+        "PDF ve ofis belgeleri, meta veri sözlüklerinde yazar, başlık, konu, oluşturma tarihi ve değişiklik geçmişini açığa çıkarır.",
+        "Dosya x-ray, mevcut tüm alanları tek bir görünümde gösterir; böylece bu bilgilerden herhangi birinin yayından önce kaldırılması gerekip gerekmediğine siz karar verirsiniz.",
+        "Büyük hacimli gelen dosyaları işleyen ekipler için hızlı bir meta veri önizlemesi, aksi takdirde her dosyayı özel bir editörde açarak geçirilecek zamandan tasarruf sağlar."
+      ]
+    },
+    {
+      "heading": "Dosya İncelemesi İçin Pratik Kullanım Örnekleri",
+      "paragraphs": [
+        "Anonim ekler alan gazeteciler, yayımlamadan önce dosya kökenlerini doğrular ve kimliği belirleyen meta verileri ayıklar.",
+        "BT destek ekipleri, bir çalıştırılabilirin gerçekten bir ikili mi yoksa yeniden adlandırılmış bir betik mi olduğunu doğrular ve tanılamayı çalıştırmadan önce riski azaltır.",
+        "Yükleme boru hatları kuran geliştiriciler, gelen dosya türlerini beklenen MIME kategorilerine karşı doğrulamak için denetçiyi kullanır.",
+        "Tasarımcılar, varlıkları matbaalara veya web ekiplerine teslim etmeden önce renk profillerini, çözünürlüğü ve bit derinliğini doğrular."
+      ]
+    },
+    {
+      "heading": "E-posta ve Bulut Sınırları İçin Dosya Boyutu Farkındalığı",
+      "paragraphs": [
+        "Çoğu e-posta sağlayıcısı ekleri yirmi beş megabayt ile sınırlar ve bulut paylaşım bağlantıları tek tek dosyalar için kendi eşiklerini dayatabilir.",
+        "Hızlı bir boyut kontrolü, özellikle bir fotoğraf veya tarama beklenenden büyük olduğunda geri dönen mesajları ve başarısız yüklemeleri önler.",
+        "Bir dosya sınırı aştığında, denetçi sıkıştırma, bölme veya farklı bir teslim yöntemi seçip seçmeyeceğinize karar vermeniz için gereken sayıyı verir.",
+        "Tam bayt sayılarını bilmek, yedekleme diskleri ve bulut katmanları arasında depolama bütçesi yaparken de yardımcı olur."
+      ]
+    },
+    {
+      "heading": "Uç Durumlar: Bozuk, Kesilmiş ve Kısmi Dosyalar",
+      "paragraphs": [
+        "İndirme sırasında kesintiye uğrayan veya arızalı medyadan kopyalanan dosyalar, eksik başlıklar veya kayıp alt bilgiler taşıyabilir.",
+        "Denetçi, imzalar beklenen kalıplarla eşleşmediğinde bunu raporlar ve dosyayı başka bir uygulamada açmayı denemeden önce olası bozulmayı işaretler.",
+        "Eksik yüklemelerden kaynaklanan kısmi dosyalar hızla tanımlanabilir; böylece aslında yalnızca veri sorunu olan aşağı akış uygulama hatalarını teşhis etmekten kurtulursunuz.",
+        "Geliştiriciler için bu uyarılar, indirme sürdürücülerini, senkronizasyon araçlarını veya yedekleme betiklerini test ederken hızlı bir geri bildirim döngüsüdür."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Araç gerçek dosya türünü algılayabilir mi?",
+      "a": "Evet. Tür algılama, uzantıya güvenmek yerine dosyanın iç imzalarını okur."
+    },
+    {
+      "q": "Hangi meta veriler ortaya çıkar?",
+      "a": "Dosya türüne bağlı olarak boyut, algılanan biçim ve yaygın gömülü meta veri alanları görünür."
+    },
+    {
+      "q": "İnceleme gizli mi?",
+      "a": "Evet. Her şey yükleme veya hesap olmadan tamamen tarayıcınızda yerel olarak çalışır."
+    },
+    {
+      "q": "Uzantısı olmayan dosyaları inceleyebilir miyim?",
+      "a": "Evet. İmza tabanlı algılama, uzantı eksik veya hatalı olsa bile biçimi tanımlar."
+    },
+    {
+      "q": "Araç bozuk veya kısmi dosyalarla başa çıkıyor mu?",
+      "a": "Evet. Başlıkların eksik olduğunu veya imzaların eşleşmediğini raporlar ve dosyayı başka bir yerde açmayı denemeden önce bozulmayı belirlemenize yardımcı olur."
+    }
+  ]
+}

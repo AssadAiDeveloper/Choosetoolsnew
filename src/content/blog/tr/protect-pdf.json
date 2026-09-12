@@ -1,0 +1,95 @@
+{
+  "slug": "protect-pdf",
+  "title": "PDF'i Çevrimiçi Ücretsiz Parolayla Koruma: Belgenizi Şifreleyin",
+  "description": "ChooseTools ile PDF'i çevrimiçi ücretsiz parolayla koruyun. Belgenizi tarayıcınızda güçlü bir parolayla şifreleyin — yükleme yok, filigran yok, tam gizlilik.",
+  "keywords": ["pdf parola koruması", "pdf'i parolayla koruma", "pdf şifreleme", "pdf'e çevrimiçi ücretsiz parola ekleme", "pdf dosyasını güvenceye alma", "pdf belgesini kilitleme", "ücretsiz pdf şifreleme aracı"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Bazı Dosyalar Neden Kilitlenmelidir",
+      "paragraphs": [
+        "Her PDF açık gözler için tasarlanmamıştır. Banka hesap dökümleri, imzalı sözleşmeler, tıbbi sonuçlar ve yayınlanmamış raporlar mühürlü dolaşır. [protect-pdf:Bir PDF'i parola ile korumak], içeriği yalnızca anahtara sahip kişilerin açabileceği şekilde sarar.",
+        "Şifreleme aynı zamanda aktarım sırasındaki güvenle ilgilidir — e-posta, varsaydığımızdan daha sızdırandır ve kilitli bir dosya, yanlış bir Bilgi (Cc) gönderiminden zarar görmeden çıkar.",
+        "ChooseTools, PDF'leri tarayıcınızda yerel olarak şifreler. Bir parola belirleyin, korunan dosyayı indirin; belgenizin hiçbir sürümü cihazınızdan asla çıkmamış olur."
+      ]
+    },
+    {
+      "heading": "PDF'e Parola Ekleme",
+      "paragraphs": [
+        "Dosyanızı kilitlemek bir dakikadan az sürer.",
+        "PDF'inizi yükleyin ve güçlü bir parola seçin — gerçekten rastgele bir ifade öneriyoruz. Onaylayın; araç belgeyi tarayıcıda şifreler ve indirme için korumalı bir PDF sunar.",
+        "Şifreleme yerel olarak çalıştığından parola ve dosya yalnızca makinenizde bulunur. Parolayı alıcılarla ayrı bir kanal üzerinden paylaşın."
+      ]
+    },
+    {
+      "heading": "Gerçek Koruma için Güçlü Parolalar",
+      "paragraphs": [
+        "Şifreleme gücü parola kalitesine bağlıdır: kısa ve sözlükte bulunan kelimeler, iyi şifreleme algoritmalarını bile etkisiz kılar.",
+        "Belgeye özgü uzun bir parola kullanın — büyük/küçük harfleri ve rakamları karıştıran on iki veya daha fazla karakter — ve bunu parola yöneticinizde saklayın.",
+        "Güçlü bir başlangıç noktasına ihtiyacınız varsa, paketin [password-generator:parola üreteci] bir saniyede rastgele ve akılda kalıcı parolalar oluşturur."
+      ]
+    },
+    {
+      "heading": "PDF Şifrelemesi Gerçekte Ne Yapar",
+      "paragraphs": [
+        "PDF şifrelemesi, belge içeriğini karıştırır; böylece dosyayı doğru parola olmadan açmak yalnızca anlamsız metin verir. Yeterince uzun bir parolayla kullanılan AES-256 gibi güçlü algoritmalar, pratik amaçlar için kaba kuvvet saldırılarına direnir.",
+        "Güvenlik düzeyi önemlidir: eski 40 bit ve 128 bit şifreleme standartları artık zayıf kabul edilirken, modern 256 bit AES şifreleme güncel en iyi uygulamadır. Çıktı güçlü şifreleme kullanır; böylece korunan dosya günümüzün güvenlik beklentilerini karşılar.",
+        "Şifreleme, belgenize filigran basmaz veya düzenini değiştirmez; yalnızca erişimi kontrol eder. Doğru parolayı giren alıcılar, PDF'i sizin oluşturduğunuz gibi açar ve kullanır."
+      ]
+    },
+    {
+      "heading": "Her Senaryoda Hassas Belgeler",
+      "paragraphs": [
+        "İnsan kaynakları teklif mektuplarını paylaşır, bir muhasebeci yıllık özetleri dağıtır, avukatlar taslak anlaşmaları paylaşır — hepsi bir parola gerektirir.",
+        "Şifreleme, diğer korumalarla temiz bir şekilde katmanlanır: en hassas içeriği [pdf-redaction:PDF karartması] ile karartın, [flatten-pdf:PDF düzleştirin] ve ardından nihai dosyayı kilitleyin.",
+        "Kilitli PDF yalnızca parolayla açılır ve e-posta filtreleri dahil başka herkes için okunamaz kalır."
+      ]
+    },
+    {
+      "heading": "Parolayı Güvenle Paylaşmak",
+      "paragraphs": [
+        "Parolayı PDF ile aynı e-postada göndermek, şifrelemenin tüm amacını ortadan kaldırır; çünkü bir posta kutusunun ele geçirilmesi ikisini birden açığa çıkarır. Belgeyi bir kanala, parolayı ise SMS metni veya telefon görüşmesi gibi tamamen ayrı bir kanaldan gönderin.",
+        "Uçtan uca şifrelemeli mobil mesajlaşma uygulamaları, parolanın iletilmesi için daha güvenli bir seçenek sunar. Parola yöneticileri de düz metin sırrını iletmek yerine kimlik bilgisini doğrudan bir alıcıyla paylaşabilir.",
+        "Parolayı saklamanız gerekiyorsa, dosyaya eklenmiş bir not yerine bir parola yöneticisinde tutun. Bu, aynı belgeyi birden fazla kişiye gönderdiğinizde sırrın düzenli ve erişilebilir kalmasını sağlar."
+      ]
+    },
+    {
+      "heading": "Yerel Şifreleme Verilerinize Saygı Duyar",
+      "paragraphs": [
+        "Gizli bir PDF'i «korunması» için bir bulut hizmetine göndermek, amacı tamamen baltalar. Burada şifreleme makinenizde gerçekleşir.",
+        "Filigran yok, hesap yok, içeriğinizin yeniden kullanımı yok ve Windows, macOS, Linux ve mobil tarayıcılarda aynı davranış.",
+        "Ücretsiz ve özel olan belge koruma, ihtiyaç duyduğunuz anda herhangi bir cihazdan kullanılabilir."
+      ]
+    },
+    {
+      "heading": "Son Kapı Olarak Koruma",
+      "paragraphs": [
+        "Çoğu iş akışı şifrelemeyi çıkış cilası olarak görür: [pdf-editor:düzenleme] ile son halini verin, boyut için [compress-pdf:sıkıştırın], ardından gönderimden önce kilitleyin.",
+        "Parolayı ve alıcı listesini düzenli tutun; aynı korumalı dosya, gizliliğini asla kaybetmeden dolaşabilir.",
+        "Özet: ücretsiz tarayıcı tabanlı şifrelemeyle, her hassas PDF masanızdan mühürlü çıkar."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Parola koruması PDF içeriğini gerçekten şifreler mi?",
+      "a": "Evet. Araç, parolanızla anahtarlanan gerçek PDF şifrelemesi uygular; belge, doğru parola olmadan açılamaz."
+    },
+    {
+      "q": "Belirleyeceğim parola için en iyi uygulamalar nelerdir?",
+      "a": "Harfleri, rakamları ve sembolleri karıştıran en az on iki karakterlik uzun, benzersiz bir parola kullanın; bunu bir parola yöneticisinde saklayın ve alıcılarla güvenli bir kanal üzerinden paylaşın."
+    },
+    {
+      "q": "PDF şifreleme ücretsiz ve özel olarak kullanılabilir mi?",
+      "a": "Evet. Her şey, yükleme, filigran veya hesap olmadan tarayıcınızda yerel olarak çalışır — belgeyi yalnızca siz işlersiniz."
+    },
+    {
+      "q": "Parolayı daha sonra kaldırabilir miyim?",
+      "a": "Evet. Belgeyi belirlediğiniz parolayla açın ve dosya artık korumaya ihtiyaç duymadığında yeni bir korumasız PDF üretmek için şifre çözme veya kilidini açma özelliğini kullanın."
+    },
+    {
+      "q": "Şifrelenmiş PDF orijinalinden farklı görünür mü?",
+      "a": "Hayır. Şifreleme, dosyanın nasıl göründüğünü değil, nasıl açıldığını değiştirmez. Belge içeriği, düzeni ve biçimlendirmesi birebir korunur."
+    }
+  ]
+}

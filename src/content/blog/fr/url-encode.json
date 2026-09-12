@@ -1,0 +1,107 @@
+{
+  "slug": "url-encode",
+  "title": "Encodeur Décodeur d\u0027URL : Encodez et Décodez des URLs en Ligne Gratuitement",
+  "description": "Encodeur et décodeur d\u0027URL gratuit en ligne pour encoder et décoder en toute sécurité les adresses web, chaînes de caractères et paramètres de requête. Privé, instantané, dans votre navigateur.",
+  "keywords": ["encoder url", "décoder url", "décodeur url", "encoder url en ligne", "outil encodeur url", "encodage percent", "décoder chaîne url"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Les URLs Parlent ASCII, le Web Parle Tout",
+      "paragraphs": [
+        "Les liens ne peuvent pas transporter d\u0027espaces, d\u0027accents ni de symboles spéciaux en brut \u2014 ils doivent être encodés en pourcentage. [url-encode:Encoder des URLs] transforme n\u0027importe quelle chaîne en une adresse sécurisée pour le transport que les serveurs interprètent correctement.",
+        "Les paramètres de requête, les bimétries et les redirections reposent toutes sur un encodage correct.",
+        "ChooseTools encode et décode les URLs localement dans votre navigateur.",
+        "Chaque requête HTTP contient des données encodées dans son chemin et sa chaîne de requête. Lorsque l\u0027encodage est incorrect, les serveurs renvoient des erreurs 400, les redirections bouclent indéfiniment et l\u0027attribution analytique se rompt silencieusement."
+      ]
+    },
+    {
+      "heading": "Comment Encoder ou Décoder une URL",
+      "paragraphs": [
+        "Les deux sens, instantanément :",
+        "Collez une URL contenant des caractères bruts pour l\u0027encoder sous une forme sécurisée pour les liens, ou collez une adresse encodée pour la décoder en texte lisible. Copiez le résultat exact.",
+        "Le traitement local garantit que vos données sensibles de requête ne quittent aucun serveur.",
+        "L\u0027outil gère à la fois l\u0027encodage de composant pour des paramètres individuels et l\u0027encodage d\u0027URL complète pour des adresses entières, afin que vous choisissiez le niveau de granularité adapté à la tâche."
+      ]
+    },
+    {
+      "heading": "Requêtes avec Espaces, Accents et Symboles",
+      "paragraphs": [
+        "Les chaînes de recherche contenant des espaces, des caractères internationaux et des symboles réservés cassent les liens s\u0027ils ne sont pas encodés.",
+        "Un encodage correct les remplace par des séquences en pourcentage qui survivent intactes à chaque saut.",
+        "Les destinataires reçoivent la requête telle qu\u0027elle a été conçue, décodée fidèlement.",
+        "Une recherche pour café avec accent, par exemple, encode l\u0027e accentué dans sa représentation UTF-8 en pourcentage, garantissant que le serveur cible reconstitue la requête originale sans perte ni substitution de données."
+      ]
+    },
+    {
+      "heading": "Redirections, Jetons et Liens sur Mesure",
+      "paragraphs": [
+        "Les chaînes de redirection intègrent des adresses complètes dans les valeurs de requête \u2014 le double encodage doit être délibéré. Lorsqu\u0027une URL de redirection est elle-même une valeur de paramètre, encoder la couche extérieure empêche l\u0027URL intérieure d\u0027être interprétée à tort comme des clés de requête distinctes.",
+        "Les jetons et paramètres sensibles dans les URLs sont désormais encodés de manière prévisible.",
+        "La construction de liens valides devient précise plutôt qu\u0027approximative.",
+        "Les rappels OAuth, les adresses de retour SSO et les URLs de passerelles de paiement contiennent tous des caractères spéciaux qui doivent être encodés au bon niveau pour fonctionner entre les navigateurs et les implémentations serveur."
+      ]
+    },
+    {
+      "heading": "Décodage pour le Débogage et l\u0027Analyse des Journaux",
+      "paragraphs": [
+        "Les journaux regorgent d\u0027adresses encodées ; les décoder révèle les véritables paramètres sous investigation.",
+        "Comprendre la chaîne brute derrière %20 et %C3%BC accélère le débogage.",
+        "Deux clics transforment le bruit des journaux en clarté.",
+        "Les ingénieurs réseau et les développeurs backend décodent routinièrement les URLs de requêtes capturées pour vérifier que les paramètres de suivi, les valeurs UTM et les jetons de session sont arrivés intacts à travers les proxys et les équilibreurs de charge."
+      ]
+    },
+    {
+      "heading": "Normes d\u0027Encodage et Jeux de Caractères",
+      "paragraphs": [
+        "La RFC 3986 définit quels caractères doivent être encodés dans les URIs et lesquels peuvent rester non réservés. L\u0027outil suit cette spécification avec précision, encodant les espaces en %20 et respectant l\u0027ensemble autorisé des caractères non réservés, y compris les lettres, chiffres, tirets bas, traits d\u0027union et tildes.",
+        "Les caractères multi-octets UTF-8 comme les émojis et les écritures non latines sont encodés dans leurs séquences en pourcentage correctes, de sorte qu\u0027une URL contenant du texte japonais ou un visage souriant est décodée de manière identique sur tout serveur conforme aux normes.",
+        "Comprendre la différence entre encoder une URL complète et encoder uniquement la valeur d\u0027un paramètre de requête permet d\u0027éviter l\u0027erreur courante du double encodage de caractères déjà sûrs.",
+        "Le décodeur inverse fidèlement chaque transformation, restituant la chaîne originale y compris tous les points de code Unicode."
+      ]
+    },
+    {
+      "heading": "Travail Web Privé",
+      "paragraphs": [
+        "Les jetons, les chaînes d\u0027authentification et les liens non publiés sont encodés localement.",
+        "Pas de téléchargement, pas de compte, pas de filigrane \u2014 sur toutes les plateformes.",
+        "Préparation à la messagerie sécurisée sans aucune exposition whatsoever.",
+        "Les jetons d\u0027authentification, les clés API intégrées dans les URLs et les adresses de redirection internes ne transitent jamais par un service tiers, gardant les détails de votre infrastructure confidentiels pendant le processus d\u0027encodage."
+      ]
+    },
+    {
+      "heading": "Encodage de Composant vs Encodage d\u0027URL Complète",
+      "paragraphs": [
+        "L\u0027encodage de composant encode uniquement les caractères qui sont dangereux au sein d\u0027un composant URI unique \u2014 une valeur de requête, un segment de chemin ou un identifiant de fragment. L\u0027encodage d\u0027URL complète encode l\u0027adresse entière, ce qui est approprié lors de la construction d\u0027une URL à partir de parties individuelles.",
+        "L\u0027utilisation du mauvais mode d\u0027encodage est une source fréquente de bugs : encoder un composant complet laisse les barres obliques et les points d\u0027interrogation non encodés, tandis qu\u0027encoder complètement la valeur d\u0027un paramètre encode les séparateurs qui devraient rester littéraux.",
+        "L\u0027outil vous permet de choisir le mode approprié pour la tâche, évitant ces incompatibilités et garantissant que la sortie est valide quel que soit le contexte dans lequel elle sera utilisée.",
+        "Comprendre quand utiliser chaque mode est particulièrement important lors de la construction d\u0027URLs de manière programmatique, où le mauvais choix introduit des bugs subtils qui ne se manifestent que sous certaines combinaisons d\u0027entrées."
+      ]
+    },
+    {
+      "heading": "URLs dans la Boîte à Outils du Développeur",
+      "paragraphs": [
+        "Complétez avec [base64:base64], [html-encode:échappement HTML] et [json-formatter:formatage JSON] pour un ensemble complet de construction de requêtes.",
+        "La suite est gratuite et native au navigateur.",
+        "Chaque lien, exactement correct."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Que fait réellement l\u0027encodage d\u0027URL ?",
+      "a": "Il remplace les caractères dangereux dans les URLs \u2014 espaces, symboles, accents \u2014 par des séquences encodées en pourcentage qui se transportent en toute sécurité."
+    },
+    {
+      "q": "Puis-je décoder une URL encodée en texte lisible ?",
+      "a": "Oui. Le décodeur reconstitue les espaces, accents et symboles à partir de leur forme encodée."
+    },
+    {
+      "q": "L\u0027encodage d\u0027URL est-il privé ?",
+      "a": "Oui. Tout se déroule localement dans votre navigateur sans téléchargement ni compte."
+    },
+    {
+      "q": "Prend-il en charge les caractères non ASCII comme les émojis ?",
+      "a": "Oui. Les caractères multi-octets UTF-8 sont encodés dans leurs séquences en pourcentage correctes et décodés fidèlement."
+    }
+  ]
+}

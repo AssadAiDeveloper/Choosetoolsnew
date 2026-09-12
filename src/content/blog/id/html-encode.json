@@ -1,0 +1,126 @@
+{
+  "slug": "html-encode",
+  "title": "HTML Encoder Decoder: Enkode dan Escape HTML Online Gratis",
+  "description": "Encoder HTML online gratis untuk mengescape dan melepaskan karakter khusus untuk penerbitan web yang aman, dengan pratinjau. Privat, instan, di browser Anda.",
+  "keywords": ["encoder html", "escape html", "enkode entitas html", "escape karakter html", "pelepas html", "enkode html online", "konverter entitas html"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Escape Adalah Cara HTML Tetap Jujur",
+      "paragraphs": [
+        "Merender teks yang disediakan pengguna atau berasal dari kode dengan aman membutuhkan pengescapean karakter khusus seperti <, >, dan &. Encoding HTML mencegah eksekusi yang tidak disengaja dan tata letak yang rusak di setiap halaman.",
+        "Escape adalah higiene keamanan dan kebenaran rendering dalam satu langkah.",
+        "ChooseTools menkode dan mendekode HTML secara lokal di browser Anda.",
+        "Tanpa escape, satu ampersand dalam deskripsi produk dapat merusak seluruh tata letak halaman, mengubah konten yang bermakna menjadi kebisingan kesalahan browser."
+      ]
+    },
+    {
+      "heading": "Cara Mengescape Entitas HTML",
+      "paragraphs": [
+        "Teks aman, secara instan.",
+        "Tempel teks mentah untuk mengescape <, >, &, tanda kutip, dan karakter khusus lainnya menjadi entitas, atau tempel HTML yang penuh entitas untuk mendekode kembali ke teks terbaca. Salin versi yang Anda butuhkan.",
+        "Pemrosesan bersifat lokal, menjaga cuplikan Anda tetap rahasia.",
+        "Alur kerja dua arah berarti Anda dapat menkode cuplikan untuk penyematan yang aman, dan kemudian mendekode blok yang sama untuk tinjauan manusia tanpa mengetik ulang apa pun."
+      ]
+    },
+    {
+      "heading": "Tampilan Aman untuk Input Pengguna",
+      "paragraphs": [
+        "Hasil pencarian, pratinjau pesan, dan rendering komentar semuanya membutuhkan escape untuk menetralkan karakter berbahaya yang dapat diketik pengguna.",
+        "Input yang dieskapasi dirender sebagai teks, tidak pernah sebagai tag atau skrip.",
+        "Satu praktik ini menutup seluruh kelas kejutan injeksi.",
+        "Serangan cross-site scripting mengandalkan input yang tidak dieskapasi yang mencapai DOM; encoding entitas yang konsisten menetralkan vektor serangan sebelum browser menerjemahkan string."
+      ]
+    },
+    {
+      "heading": "Blok Kode Literal dan Dokumentasi",
+      "paragraphs": [
+        "Menerbitkan contoh kode di halaman berarti mencetak pre dan code secara literal, yang membutuhkan pengescapean karakter yang sama yang ditampilkan.",
+        "Enkode cuplikan contoh Anda untuk menampilkannya sebagai teks dengan bersih.",
+        "Dokumentasi terlihat benar karena entitas dirender sebagai karakter yang terlihat.",
+        "Penulis teknis yang mengescape contoh kode sekali dan menyimpan versi yang dienkode menghemat berjam-jam peng-encode-an ulang ketika mesin dokumentasi berubah."
+      ]
+    },
+    {
+      "heading": "Entitas Umum dan Kapan Menggunakannya",
+      "paragraphs": [
+        "Lima entitas inti mencakup sebagian besar kasus: &amp; untuk ampersand, &lt; untuk lebih kecil dari, &gt; untuk lebih besar dari, &quot; untuk tanda kutip ganda, dan &apos; untuk apostrof.",
+        "Referensi karakter numerik menangani simbol non-ASCII seperti em dash, tanda kutip melengkung, dan tanda mata uang ketika encoding dokumen tidak menjaminnya.",
+        "Mengetahui entitas yang dibutuhkan konteks output Anda mencegah mojibake di seluruh klien email, editor CMS, dan renderer teks polos."
+      ]
+    },
+    {
+      "heading": "Double-Encoding: Kesalahan yang Umum",
+      "paragraphs": [
+        "Menerapkan encoding HTML dua kali mengubah &amp; menjadi &amp;amp;, yang menampilkan teks literal ampersand alih-alih simbol yang dimaksud.",
+        "Pengembang menghadapi double-encoding ketika CMS mengescape konten dan kemudian mesin template mengescape lagi.",
+        "Menjalankan langkah dekode sebelum meng-encode ulang memastikan transformasi diterapkan tepat sekali, mempertahankan output yang dimaksud."
+      ]
+    },
+    {
+      "heading": "Dua Arah, Satu Alat",
+      "paragraphs": [
+        "Enkode untuk output yang aman; dekode untuk mengembalikan asli yang terbaca untuk audit atau pengeditan.",
+        "Perjalanan bolak-balik mempertahankan konten dengan tepat.",
+        "Kedua arah cocok untuk pekerjaan build dan editorial.",
+        "Pengembang menggunakan encoding dalam alur build untuk mensterilkan HTML yang dihasilkan, kemudian menggunakan decoding untuk memeriksa output yang sama selama tinjauan kode."
+      ]
+    },
+    {
+      "heading": "Escape Privat untuk Pekerjaan Web Internal",
+      "paragraphs": [
+        "Cuplikan HTML dari alat internal dan rangkaian pengujian dienkode secara lokal.",
+        "Tanpa unggahan, tanpa akun, tanpa tanda air — di setiap platform.",
+        "Higiene web tanpa paparan data.",
+        "Dashboard internal dan panel admin yang menangani data pengguna sensitif diuntungkan dari encoding lokal karena cuplikan tidak pernah melalui layanan pihak ketiga."
+      ]
+    },
+    {
+      "heading": "Encoding dalam Template Email dan Notifikasi",
+      "paragraphs": [
+        "Klien email merender HTML secara tidak konsisten, dan karakter khusus yang tidak dieskapasi adalah penyebab umum baris subjek yang rusak dan badan pesan yang kosong.",
+        "Encoding bagian dinamis dari template email sebelum menggabungkan konten menjamin nama pengguna, judul produk, dan harga ditampilkan sebagai teks polos alih-alih disalahartikan.",
+        "Sistem notifikasi yang mengescape kolom dinamis mengurangi tiket dukungan yang disebabkan oleh output yang rusak di banyak renderer yang beredar."
+      ]
+    },
+    {
+      "heading": "Encoding dalam Toolkit Web",
+      "paragraphs": [
+        "Pasangkan dengan konversi Markdown, encoding URL, dan kompresi CSS untuk set penerbitan yang lengkap.",
+        "Rangkaian ini gratis dan berbasis browser.",
+        "Setiap tag, dieskapasi tepat seperti yang dimaksud.",
+        "Merangkai alat-alat ini secara berurutan menghasilkan HTML siap terbit dari konten mentah tanpa memerlukan langkah build di sisi server."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Karakter apa saja yang dieskapasi oleh encoding HTML?",
+      "a": "Karakter khusus <, >, &, tanda kutip, dan simbol cadangan serupa diterjemahkan menjadi entitas yang aman."
+    },
+    {
+      "q": "Bisakah saya mendekode entitas kembali ke HTML yang terbaca?",
+      "a": "Ya. Alat bekerja dua arah, merekonstruksi teks asli dari entitas yang dienkode."
+    },
+    {
+      "q": "Apakah encoding HTML bersifat privat?",
+      "a": "Ya. Semuanya berjalan secara lokal di browser Anda tanpa unggahan atau akun."
+    },
+    {
+      "q": "Apa perbedaan antara encoding dan pengompresan?",
+      "a": "Encoding mengganti karakter khusus dengan entitas yang aman untuk mencegah kesalahan rendering, sementara pengompresan menghilangkan spasi dan komentar untuk mengurangi ukuran file. Keduanya memiliki tujuan berbeda dalam build web."
+    },
+    {
+      "q": "Apa yang terjadi jika saya menkode teks yang sama dua kali?",
+      "a": "Double-encoding menghasilkan output yang salah seperti &amp;amp; alih-alih &amp;. Alat memungkinkan Anda mendekode terlebih dahulu untuk memastikan satu langkah encoding yang bersih."
+    },
+    {
+      "q": "Apakah encoding HTML sama dengan encoding URL?",
+      "a": "Tidak. Encoding HTML mengonversi karakter cadangan HTML menjadi entitas untuk tampilan yang aman, sementara encoding URL mengonversi karakter menjadi nilai berbasis persen untuk penyertaan yang aman dalam alamat web."
+    },
+    {
+      "q": "Apakah saya perlu mengescape apostrof dalam atribut HTML bertanda kutip tunggal?",
+      "a": "Ya. Apostrof di dalam nilai atribut bertanda kutip tunggal harus dieskapasi sebagai &apos; sehingga browser tidak memperlakukannya sebagai tanda kutip penutup."
+    }
+  ]
+}

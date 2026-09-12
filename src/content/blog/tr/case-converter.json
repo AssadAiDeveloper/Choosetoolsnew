@@ -1,0 +1,101 @@
+{
+  "slug": "case-converter",
+  "title": "Harf Durumu Dönüştürücü: Metin Harf Durumunu Tek Tıkla Çevrimiçi ve Ücretsiz Değiştirin",
+  "description": "BÜYÜK, küçük, Başlık Durumu, Cümle durumu ve daha fazlası arasında metin geçişi yapan ücretsiz çevrimiçi harf durumu dönüştürücü. Gizli, anında ve yüklemesiz, tarayıcınızda.",
+  "keywords": ["harf dönüştürücü", "metni büyük harfe çevirme", "büyük harften küçük harfe çevirme", "başlık durumu dönüştürücü", "metin harf durumu değiştirici", "metni çevrimiçi büyük harfleme", "harf durumu aracı"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Harf Durumu, Kodlar ve Başlıklar İçin Noktalama Gibidir",
+      "paragraphs": [
+        "Bir başlık başlık durumunda yazılmalıdır, CSS sınıf adları lowerCamel'i sever ve eski iş akışları tamamı büyük veya tamamı küçük harf ister. [case-converter:metin harf durumunu] çevrimiçi dönüştürmek, biçimlendirme açısından büyük kazanç sağlayan klasik küçük bir iştir.",
+        "Bunu büyük ölçekte elle yapmak yavaş ve hataya açıktır; bir dönüştürücü tüm belgeleri göz açıp kapayıncaya kadar dönüştürür.",
+        "ChooseTools, harf durumunu tarayıcınızda yerel olarak dönüştürür; tüm yaygın kurallar hazırdır."
+      ]
+    },
+    {
+      "heading": "BÜYÜK, küçük, Başlık, Cümle ve camelCase",
+      "paragraphs": [
+        "Her kuralın bir yeri vardır: kısaltmalar için tamamı büyük harf, başlıklar için başlık durumu, arayüz metinleri için cümle durumu, kod tanımlayıcıları için camelCase.",
+        "Araç her varyantı yan yana gösterir, böylece bağlamın gerektirdiği tam biçimi yapıştırırsınız.",
+        "Kopyala-yapıştır kalitesi, sıfır yeniden yazma."
+      ]
+    },
+    {
+      "heading": "Listeler ve Akışlar İçin Toplu Dönüştürme",
+      "paragraphs": [
+        "Bir ürün adı listesini yapıştırın ve katalog standartlarınıza uyacak şekilde hepsinin tek tipte dönüşmesini sağlayın.",
+        "Başlıklar, meta açıklamalar, etiket listeleri ve dosya adları tek geçişte normalleşir.",
+        "Yüzlerce öğe arasında tutarlılık otomatik hale gelir."
+      ]
+    },
+    {
+      "heading": "Programlama ve Teknik İş Akışları",
+      "paragraphs": [
+        "Geliştiricilerin adlandırma kuralları arasında sürekli dönüştürme yapması gerekir. Python'da my_variable olarak başlayan bir değişken, JavaScript için myVariable veya PascalCase bir sınıf adı için MyVariable olmalıdır. Her tanımlayıcıyı elle yeniden yazmak, derleyicinin ancak hata ayıklamayla vakit kaybettikten sonra yakalayacağı yazım hatalarına davetiye çıkarır. Dönüştürücü, her karakteri koruyup yalnızca harf durumunu değiştirerek tanımlayıcı listelerinin tamamını tek yapıştırmada dönüştürür.",
+        "Veritabanı sütun adları ve API alan adları genellikle kod tabanınızın kullandığından farklı tek bir kural izler. Veri taşırken veya entegrasyon katmanları kurarken alan adlarını hedef sisteme uyacak şekilde dönüştürmek, çalışma zamanı hatalarını önler ve şemaların okunmasını kolaylaştırır. Dönüştürücüden hızlı bir geçiş, hedefin gerektirdiği şekilde column_name'in columnName veya ColumnName olmasını sağlar.",
+        "SQL anahtar kelimeleri geleneksel olarak büyük harfle yazılır (SELECT, FROM, WHERE) ve böylece tablo ve sütun adlarından ayırt edilir. Sorguları küçük harfle taslak olarak yazan geliştiriciler, tüm ifadeyi yapıştırıp tanımlayıcıları etkilemeden anahtar kelimeleri büyük harfe dönüştürebilir. Bu, paylaşılan kod tabanlarında okunabilirliği artırır ve yaygın stil kılavuzlarıyla uyum sağlar.",
+        "Yapılandırma dosyaları, ortam değişkenleri ve komut satırı bayrakları kendi harf durumu kurallarını izler. ENVIRONMENT_VARIABLES genellikle büyük snake case iken, --output-dir gibi komut satırı bayrakları küçük kebab case kullanır. Bu kurallar arasında dönüştürme elle yapıldığında sıkıcıdır ancak araçla anlıktır; yapılandırmanın sistemler arasında taşınması sürtünmesini azaltır."
+      ]
+    },
+    {
+      "heading": "Yazarlar Yeniden Yazmadan Biçimlendirir",
+      "paragraphs": [
+        "Küçük harfle yazılan bir taslak, yayına hazır başlık durumuna dönüşür; bağırması gereken altyazılar bağırır.",
+        "Önizleme, hiçbir yere kopyalamadan önce tahmin yürütmeyi ortadan kaldırır.",
+        "Biçimlendirme araca aittir; yazı sizin olarak kalır."
+      ]
+    },
+    {
+      "heading": "SEO, Pazarlama ve Marka Tutarlılığı",
+      "paragraphs": [
+        "Arama motorları harf durumunu küçük bir sinyal olarak görür ancak insan okuyucular onu önemli bir sinyal olarak görür. Cümle durumundaki bir sayfa başlığı rahat okunurken, aynı sözcüklerin başlık durumundaki hali otoriter okunur. Pazarlama ekipleri hangisinin daha fazla tıklama getirdiğini görmek için ikisini de test eder ve dönüştürücü, her birini elle yeniden yazmak yerine iki sürümü de saniyeler içinde üretmelerini sağlar.",
+        "Marka stil kılavuzları, ürün adları, sloganlar ve kampanya ifadeleri için belirli harf durumlarını şart koşar. İçerik tasarımcılar, çevirmenler ve yayıncılar arasında dolaşırken harf durumu kayar. Dönüştürücü, kopya yayına çıkmadan önce onaylı biçimi geri kazandıran bir normalleştirme geçişi işlevi görür. Bu, aynı dizeleri birden çok kişinin yeniden yazması durumunda biriken marka tutarsızlığını önler.",
+        "Sosyal medya gönderileri, e-posta konu satırları ve anlık bildirimler, büyük harfle dolu akışlarda dikkat için yarışır. Her kanal için doğru harf durumunu seçmek, bakış ile tıklama arasındaki fark anlamına gelebilir. Dönüştürücü her varyantı üretir; böylece elle yeniden biçimlendirme yükü olmadan A/B testi yapabilirsiniz.",
+        "Yerelleştirme ekipleri genellikle içeriği tek bir harf durumu kuralıyla alır ve bunu farklı normlara sahip pazarlara uyarlamak zorundadır. İngilizcede başlık durumunda olan bir başlığın Fransızcada veya Almancada cümle durumunda olması gerekebilir. Dönüştürücü dönüşümü anında halleder; dilbilimciler biçimlendirme mekaniği yerine çeviri kalitesine odaklanır."
+      ]
+    },
+    {
+      "heading": "Uç Durumlar ve Doğruluk",
+      "paragraphs": [
+        "Dönüştürücü, NASA gibi kısaltmaları ve https://example.com gibi URL'leri, büyük harf dizilerini veya protokol öneklerini bozmadan işler. Cümle durumunu seçtiğinizde cümlenin ortasında görünen kısaltmalar olduğu gibi kalır ve e-commerce gibi tireli bileşikler her bölümü doğru biçimde dönüştürür. Bu ayrıntılar önemlidir, çünkü tüm bir dizeyi körü körüne büyük veya küçük harfe çevirmek teknik terimleri bozabilir.",
+        "Aksanlı harfler ve Latin olmayan alfabeler dahil Unicode karakterler sadakatle dönüştürülür. reference gibi bir Fransızca sözcük, büyük veya küçük harfe çevrildiğinde aksanını korur ve Arapça veya Çince karakterler değişmeden geçer. Bu sadakat, daha az özenli dönüştürücüleri rahatsız eden ince kodlama hatalarını önler.",
+        "Baştaki ve sondaki boşluklar, sözcükler arasındaki birden çok boşluk ve sekme karakterleri çıktıda korunur. Dönüştürücü, boşlukları yeniden biçimlendirmeden yalnızca harf durumunu değiştirir; böylece yapıştırılan kod blokları ve önceden biçimlendirilmiş metin düzenini korur. Girintinin anlam taşıdığı bir kaynaktan gelen girdilerde bu hayati önem taşır."
+      ]
+    },
+    {
+      "heading": "Gizli Metin Dönüşümü",
+      "paragraphs": [
+        "Yayınlanmamış kopyalar ve kişisel notlar yalnızca cihazınızda normalleşir.",
+        "Yükleme yok, hesap yok, filigran yok — platformda aynı deneyim.",
+        "Fark edilmeden halledilen bir biçimlendirme işi."
+      ]
+    },
+    {
+      "heading": "Text Lavender Paketinde Harf Durumu Çalışması",
+      "paragraphs": [
+        "Dönüştürücüyü [find-replace:bul ve değiştir], [sort-lines:sıralayıcı] veya [reverse-text:ters çevirici] ile birleştirerek tam kontrol sağlayın.",
+        "Paket ücretsiz, gizli ve tarayıcı doğalıdır.",
+        "Biçimlendirme kontrolü, her yerde, anında."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hangi metin harf durumları destekleniyor?",
+      "a": "BÜYÜK HARF, küçük harf, Başlık Durumu, Cümle durumu, camelCase ve ilgili kuralların tümü anlık önizleme ile kullanılabilir."
+    },
+    {
+      "q": "Aynı anda büyük metin bloklarını dönüştürebilir miyim?",
+      "a": "Evet. Bir belgenin veya listenin tamamını yapıştırın; dönüşüm tek bir işlemde tek tipte uygulanır."
+    },
+    {
+      "q": "Harf durumu dönüştürücüsü gizli mi?",
+      "a": "Evet. Her şey tarayıcınızda yerel olarak gerçekleşir; metniniz hiçbir yere yüklenmez."
+    },
+    {
+      "q": "Dönüştürücü URL'leri veya kısaltmaları bozar mı?",
+      "a": "Hayır. Araç, büyük harfli kısaltmaları, protokol öneklerini ve tireli bölümleri korur; böylece teknik dizeler dönüştürmeden sonra bozulmadan kalır."
+    }
+  ]
+}

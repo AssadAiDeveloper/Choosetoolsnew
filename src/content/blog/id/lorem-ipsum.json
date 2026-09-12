@@ -1,0 +1,122 @@
+{
+  "slug": "lorem-ipsum",
+  "title": "Generator Lorem Ipsum: Buat Teks Placeholder Gratis Online",
+  "description": "Generator lorem ipsum gratis untuk membuat teks placeholder dengan panjang apa pun — paragraf, kata, kalimat — untuk mockup dan pekerjaan desain. Privat, instan, langsung di browser.",
+  "keywords": ["lorem ipsum", "generator lorem ipsum", "teks placeholder", "generator teks dummy", "generator lorem", "teks mockup", "generator teks contoh"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Desain Hidup di Dalam Teks Placeholder",
+      "paragraphs": [
+        "Mockup membutuhkan teks sebelum teks asli ada: pasang judul, isi paragraf, pratinjau tata letak. Teks placeholder adalah pengganti yang ramah tata letak yang digunakan setiap desainer dan pengembang.",
+        "Suku kata yang tidak terbaca namun meyakinkan menjaga mata tetap pada tata letak alih-alih kata-kata.",
+        "ChooseTools menghasilkan lorem ipsum secara lokal di browser Anda, diukur sesuai kebutuhan Anda yang tepat.",
+        "Menggunakan teks pengisi lebih awal mencegah pemangku kepentingan mengkritik draf alih-alih mengevaluasi hierarki visual dan jarak."
+      ]
+    },
+    {
+      "heading": "Paragraf, Kalimat, Kata — Pilih Unit Anda",
+      "paragraphs": [
+        "Pilih granularitas output: beberapa kata untuk tombol, kalimat untuk subjudul, paragraf untuk blok konten.",
+        "Lorem ipsum klasik dimulai dengan tanda tangan tradisional <<Lorem ipsum dolor sit amet>>.",
+        "Salin-tempel blok yang dihasilkan langsung ke alat desain Anda.",
+        "Menghasilkan berdasarkan hitungan kata sangat berguna saat Anda perlu menguji elemen UI yang dibatasi karakter seperti tooltip atau bannner notifikasi."
+      ]
+    },
+    {
+      "heading": "Wireframe dan Pengembangan Front-End",
+      "paragraphs": [
+        "Mockup situs web, prototipe aplikasi, dan pengembangan front-end semuanya membutuhkan teks tak terlihat dalam jumlah besar.",
+        "Teks placeholder yang diukur membuktikan perilaku responsif sebelum konten asli tiba.",
+        "Hasilkan sebanyak yang dibingkai butuhkan, tanpa menebak-nebak jumlah.",
+        "Pengembang dapat menempel teks pengisi ke dalam buku cerita komponen untuk memverifikasi bahwa pembungkusan teks, pemotongan, dan overflow berfungsi dengan benar di seluruh breakpoint."
+      ]
+    },
+    {
+      "heading": "Kembali ke Pengirim: Ganti Placeholder Nanti",
+      "paragraphs": [
+        "Karena lorem ipsum berbeda, teks asli dapat ditukar dengan bersih melalui pencarian dan penggantian.",
+        "Tandai blok Anda dan ganti secara sistematis saat tulisan tiba.",
+        "Placeholder adalah janji, bukan perangkap.",
+        "Praktik yang berguna adalah membungkus setiap blok placeholder dalam komentar atau atribut data sehingga pencarian dapat menemukan setiap instansi tanpa melewatkan bagian tersembunyi."
+      ]
+    },
+    {
+      "heading": "Panjang dan Densitas: Mencocokkan Persyaratan Tata Letak",
+      "paragraphs": [
+        "Bagian hero membutuhkan dua kalimat singkat, sementara kartu pratinjau blog mungkin membutuhkan paragraf penuh untuk menguji perilaku pemotongan.",
+        "Menghasilkan sedikit lebih banyak teks dari yang diperlukan memungkinkan Anda memangkas tepat pada batas dan memverifikasi gaya ellipsis atau line-clamp berfungsi sebagaimana dimaksud.",
+        "Kebiasaan kecil ini menangkap bug tata letak yang hanya muncul di tepi konten."
+      ]
+    },
+    {
+      "heading": "Tata Letak Internasional dan Mockup Multibahasa",
+      "paragraphs": [
+        "Teks placeholder untuk tata letak RTL membutuhkan perilaku pemutusan baris yang berbeda, dan lorem ipsum mengungkapkan apakah mesin teks menangani perubahan arah dengan benar.",
+        "Saat menguji antarmuka multibahasa, menghasilkan pengisi dengan panjang berbeda mensimulasikan bagaimana kata majemuk Jerman atau karakter Jepang memengaruhi dimensi kotak.",
+        "Menggunakan teks placeholder lebih awal lintas bahasa mencegah kejutan tata letak di tahap akhir pada rilis yang dilokalisasi."
+      ]
+    },
+    {
+      "heading": "Tata Letak Cetak dan Mockup Editorial",
+      "paragraphs": [
+        "Perancang buku dan artis tata letak majalah menggunakan teks placeholder untuk menetapkan lebar kolom, grid baseline, dan hierarki tipografi sebelum naskah tiba.",
+        "Menghasilkan pengisi yang cukup untuk mengisi halaman ganda penuh memverifikasi bahwa pengaturan pemenggalan dan perataan menghasilkan sungai dan janda yang dapat diterima.",
+        "Mockup yang berfokus pada cetak mendapat manfaat dari densitas teks yang realistis karena tata letak kertas jauh kurang mengampuni daripada tata letak web responsif."
+      ]
+    },
+    {
+      "heading": "Variasi Teks Placeholder untuk Realisme",
+      "paragraphs": [
+        "Selain kutipan Latin klasik, beberapa desainer membutuhkan teks tiruan yang terlihat realistis yang lebih meniru densitas dan ritme deskripsi produk asli atau artikel berita.",
+        "Mengubah panjang kalimat dan paragraf dalam teks yang dihasilkan menghasilkan tata letak yang lebih hidup daripada blok kalimat dengan panjang sama yang rata.",
+        "Memilih mode pembuatan yang bervariasi saat tata letak pada akhirnya akan menampung konten editorial mengarah ke mockup yang lebih memprediksi keseimbangan visual akhir."
+      ]
+    },
+    {
+      "heading": "Pembuatan Placeholder yang Privat",
+      "paragraphs": [
+        "Menghasilkan pengisi secara lokal berarti desain yang belum dirilis tidak membawa jejak alat pihak ketiga.",
+        "Tanpa upload, tanpa akun, tanpa watermark — di setiap platform.",
+        "Momentum mockup, paparan nol.",
+        "Prototipe klien dan layar produk pra-peluncuran tetap rahasia ketika generator teks tidak pernah menghubungi server eksternal."
+      ]
+    },
+    {
+      "heading": "Placeholder dalam Kotak Alat",
+      "paragraphs": [
+        "Hasilkan, lalu bentuk dengan alat case atau ukur dengan hitungan kata untuk anggaran tata letak yang tepat.",
+        "Suite ini gratis dan berbasis browser.",
+        "Tata letak apa pun, dipratinjau dengan sempurna.",
+        "Menggabungkan pembuatan placeholder dengan penghitung karakter memastikan mockup Anda menghormati batas tepat dari platform tujuan.",
+        "Pasangan ini sangat berharga saat placeholder harus muat dalam komponen berukuran tetap seperti judul kartu atau sel tabel."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mengapa lorem ipsum digunakan dalam desain?",
+      "a": "Katanya menyerupai teks tanpa mengalihkan perhatian dengan makna, sehingga pengulas menilai tata letak alih-alih naskah."
+    },
+    {
+      "q": "Bisakah saya menghasilkan jumlah teks tertentu?",
+      "a": "Ya. Tentukan hitungan paragraf, kalimat, atau kata, dan generator menghasilkan jumlah tersebut secara tepat."
+    },
+    {
+      "q": "Apakah generator ini privat?",
+      "a": "Ya. Teks dihasilkan secara lokal di browser Anda tanpa upload atau akun."
+    },
+    {
+      "q": "Apakah teks yang dihasilkan dimulai dengan pembukaan Latin klasik?",
+      "a": "Ya. Output mode paragraf dimulai dengan kutipan tradisional Lorem ipsum dolor sit amet yang langsung dikenali oleh desainer."
+    },
+    {
+      "q": "Dapatkah lorem ipsum membantu menguji tata letak responsif?",
+      "a": "Ya. Menghasilkan teks dengan panjang bervariasi mengungkapkan bagaimana judul, paragraf, dan keterangan berperilaku di seluruh breakpoint seluler, tablet, dan desktop."
+    },
+    {
+      "q": "Bisakah saya menghasilkan teks placeholder tanpa kata Latin klasik?",
+      "a": "Ya. Jika kutipan tradisional akan mengalihkan perhatian pengulas, Anda dapat menghasilkan pengisi dengan panjang kalimat bervariasi sehingga mockup tetap terbaca secara realistis tanpa makna yang terlihat."
+    }
+  ]
+}

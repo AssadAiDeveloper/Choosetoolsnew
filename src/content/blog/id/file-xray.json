@@ -1,0 +1,132 @@
+{
+  "slug": "file-xray",
+  "title": "File X-Ray: Periksa Detail dan Metadata File Secara Online Gratis",
+  "description": "Alat file x-ray gratis untuk memeriksa file, mengungkap metadata, dan memverifikasi konten secara lokal di browser Anda. Privat, tanpa unggahan, tanpa pendaftaran.",
+  "keywords": ["file x-ray", "periksa file", "penampil metadata file", "detail file online", "alat inspeksi file", "cek tipe file", "lihat info file"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "File Membawa Lebih dari Isinya",
+      "paragraphs": [
+        "Ukuran, tipe, tanggal modifikasi, dan metadata tersembunyi semuanya menggambarkan sebuah file di luar data yang terlihat. [file-xray:Memeriksa file dengan alat sinar-x] mengungkap detail tersebut sebelum Anda membuka atau mengirim apa pun.",
+        "Mengetahui tipe sebenarnya sebuah file mencegah kegagalan yang mengejutkan.",
+        "ChooseTools memeriksa file secara lokal di browser Anda."
+      ]
+    },
+    {
+      "heading": "Cara Memeriksa File",
+      "paragraphs": [
+        "Dari ketidakpastian klik dua kali hingga gambaran penuh:",
+        "Pilih file dan lihat ukurannya, tipe yang terdeteksi, petunjuk format, dan metadatanya. Konfirmasikan bahwa ekstensi sesuai kenyataan sebelum didistribusikan.",
+        "Pemeriksaan sepenuhnya lokal — tidak ada yang meninggalkan perangkat Anda."
+      ]
+    },
+    {
+      "heading": "Deteksi Tipe di Balik Ekstensi",
+      "paragraphs": [
+        "Ekstensi bisa berdusta, tetapi magic bytes tidak.",
+        "Alat ini memeriksa tanda tangan untuk melaporkan format sebenarnya terlepas dari penggantian nama.",
+        "Lampiran yang diganti namanya tidak lagi luput."
+      ]
+    },
+    {
+      "heading": "Realitas Metadata dan Privasi",
+      "paragraphs": [
+        "Foto membawa tag lokasi dan perangkat; dokumen membawa nama penulis dan timestamp.",
+        "Melihat metadata mengungkap apa yang akan disebarkan sebuah file ketika dibagikan.",
+        "Berbagi secara bijak mengalahkan paparan yang hanya diduga."
+      ]
+    },
+    {
+      "heading": "Sebelum Anda Mengirim Apa Pun",
+      "paragraphs": [
+        "Verifikasi ukuran untuk batas email, tipe untuk sistem, dan metadata untuk paparan dalam sekali pandang.",
+        "Pemeriksaan awal mencegah masalah yang memalukan atau menghalangi.",
+        "Kepercayaan diri menyertai setiap lampiran."
+      ]
+    },
+    {
+      "heading": "Pemeriksaan Privat untuk File Sensitif",
+      "paragraphs": [
+        "Memeriksa file secara lokal berarti metadatanya tidak pernah menjadi catatan yang dapat ditelusuri.",
+        "Tanpa unggahan, tanpa akun, tanpa tanda air — lintas platform.",
+        "Pemeriksaan tanpa intersepsi."
+      ]
+    },
+    {
+      "heading": "Pekerjaan File dalam Suite",
+      "paragraphs": [
+        "Padukan dengan [remove-exif:penghapusan metadata], [pdf-metadata:detail dokumen], dan [convert-image:konversi format] untuk kendali yang lengkap.",
+        "Semuanya gratis dan berbasis browser.",
+        "Kenali file Anda sebelum file itu pergi ke mana pun."
+      ]
+    },
+    {
+      "heading": "Format File Umum yang Dikenali Alat Ini",
+      "paragraphs": [
+        "Mesin inspeksi mencakup serangkaian format harian yang luas: gambar seperti JPEG, PNG, WebP, dan GIF; dokumen termasuk PDF dan teks polos; jenis arsip seperti ZIP dan GZIP; file audio dalam MP3 dan WAV; serta kontainer video dalam MP4 dan MOV.",
+        "Untuk setiap format yang dikenali, alat melaporkan versi, struktur internal, dan detail aliran tersemat apa pun yang penting bagi pemrosesan hilir.",
+        "Bahkan ketika ekstensi hilang atau salah, deteksi berbasis tanda tangan tetap mengidentifikasi format aslinya, sehingga Anda selalu tahu apa yang sedang dihadapi.",
+        "File yang tidak dikenali tetap melaporkan ukuran mentah, byte header, dan potongan yang dapat dideteksi, memberi pengembang jejak berguna untuk penyelidikan lebih lanjut."
+      ]
+    },
+    {
+      "heading": "Membaca Properti EXIF, XMP, dan Dokumen",
+      "paragraphs": [
+        "File gambar umumnya membawa blok EXIF dan XMP yang mencatat model kamera, pengaturan eksposur, koordinat GPS, cap waktu tanggal-waktu, dan versi perangkat lunak yang digunakan saat pembuatan.",
+        "PDF dan dokumen kantor mengekspos penulis, judul, subjek, tanggal pembuatan, dan riwayat modifikasi dalam kamus metadata mereka.",
+        "File x-ray menampilkan semua bidang yang tersedia dalam satu tampilan, memungkinkan Anda memutuskan apakah sebagian informasi tersebut perlu dihapus sebelum publikasi.",
+        "Bagi tim yang memproses volume besar file masuk, pratinjau metadata yang cepat menghemat waktu yang seharusnya dihabiskan untuk membuka setiap file di editor khusus."
+      ]
+    },
+    {
+      "heading": "Kasus Penggunaan Praktis untuk Inspeksi File",
+      "paragraphs": [
+        "Jurnalis yang menerima lampiran anonim memverifikasi asal file dan menghilangkan metadata pengidentifikasi sebelum publikasi.",
+        "Tim dukungan TI mengonfirmasi apakah file yang dapat dieksekusi benar-benar biner atau skrip yang diganti namanya, mengurangi risiko sebelum menjalankan diagnostik.",
+        "Pengembang yang membangun pipeline unggahan menggunakan inspector untuk memvalidasi tipe file masuk terhadap kategori MIME yang diharapkan.",
+        "Desainer mengonfirmasi profil warna, resolusi, dan kedalaman bit sebelum menyerahkan aset kepada printer atau tim web."
+      ]
+    },
+    {
+      "heading": "Kesadaran Ukuran File untuk Batas Email dan Cloud",
+      "paragraphs": [
+        "Sebagian besar penyedia email membatasi lampiran pada dua puluh lima megabyte, dan tautan berbagi cloud dapat memberlakukan ambangnya sendiri pada file individual.",
+        "Pemeriksaan ukuran yang cepat mencegah pesan yang ditolak dan unggahan yang gagal, terutama ketika foto atau pindaian lebih besar dari perkiraan.",
+        "Ketika file melebihi batas, inspector memberi Anda angka yang dibutuhkan untuk memutuskan apakah akan mengompres, membagi, atau menggunakan metode pengiriman yang berbeda.",
+        "Mengetahui jumlah byte yang tepat juga membantu saat menganggarkan penyimpanan di antara drive cadangan dan tingkatan cloud."
+      ]
+    },
+    {
+      "heading": "Kasus Tepi: File Rusak, Terpotong, dan Parsial",
+      "paragraphs": [
+        "File yang terputus selama unduhan atau disalin dari media yang bermasalah dapat membawa header tidak lengkap atau footer yang hilang.",
+        "Inspector melaporkan ketika tanda tangan tidak cocok dengan pola yang diharapkan, menandai kemungkinan kerusakan sebelum Anda mencoba membuka file di aplikasi lain.",
+        "File parsial dari unggahan yang tidak lengkap dapat diidentifikasi dengan cepat, menyelamatkan Anda dari mendiagnosis error aplikasi hilir yang sebenarnya hanya masalah data.",
+        "Bagi pengembang, peringatan ini adalah putaran umpan balik cepat saat menguji download resumer, alat sinkronisasi, atau skrip pencadangan."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bisakah alat ini mendeteksi tipe file yang sebenarnya?",
+      "a": "Ya. Deteksi tipe membaca tanda tangan internal file alih-alih mempercayai ekstensi."
+    },
+    {
+      "q": "Metadata apa saja yang diungkap?",
+      "a": "Ukuran, format yang terdeteksi, dan bidang metadata tersemat yang umum muncul, tergantung pada tipe filenya."
+    },
+    {
+      "q": "Apakah pemeriksaan bersifat privat?",
+      "a": "Ya. Semuanya berjalan secara lokal di browser Anda tanpa unggahan atau akun."
+    },
+    {
+      "q": "Bisakah saya memeriksa file tanpa ekstensi?",
+      "a": "Ya. Deteksi berbasis tanda tangan mengidentifikasi format bahkan ketika ekstensi hilang atau salah."
+    },
+    {
+      "q": "Apakah alat ini menangani file rusak atau parsial?",
+      "a": "Ya. Ia melaporkan ketika header tidak lengkap atau tanda tangan tidak cocok, membantu Anda mengidentifikasi kerusakan sebelum mencoba membuka file di tempat lain."
+    }
+  ]
+}

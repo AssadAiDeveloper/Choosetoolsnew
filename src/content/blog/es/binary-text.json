@@ -1,0 +1,122 @@
+{
+  "slug": "binary-text",
+  "title": "Convertidor de binario a texto: codifica texto a binario y de vuelta en línea gratis",
+  "description": "Convertidor gratuito de binario a texto para codificar texto como binario y decodificar binario de vuelta a texto legible. Privado, instantáneo, en tu navegador y sin subidas.",
+  "keywords": ["binario a texto", "texto a binario", "convertidor binario", "convertir texto a binario", "traductor de código binario", "binario a palabras", "codificador binario en línea"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Bajo cada palabra, bits",
+      "paragraphs": [
+        "Cada carácter se representa como un byte que tu CPU interpreta como un número. [binary-text:Conversión de texto a binario] expone esa base, y la decodificación la trae de vuelta a palabras legibles.",
+        "Ambas direcciones funcionan de forma idéntica, haciendo los viajes de ida y vuelta exactos y sin pérdidas.",
+        "ChooseTools convierte texto y binario localmente en tu navegador, de modo que tu entrada nunca sale del dispositivo."
+      ]
+    },
+    {
+      "heading": "Cómo codificar texto como binario",
+      "paragraphs": [
+        "Del lenguaje natural a 1s y 0s al instante.",
+        "Pega texto para ver su representación binaria, byte a byte, o pega binario para decodificarlo en palabras. Copia cualquier dirección según lo necesites.",
+        "Elegir la dirección correcta es intuitivo, con una salida en vivo que se actualiza mientras escribes.",
+        "La conversión ocurre en tu dispositivo sin ninguna participación del servidor en ningún paso."
+      ]
+    },
+    {
+      "heading": "Ocho bits por carácter",
+      "paragraphs": [
+        "El texto UTF-8 estándar asigna cada carácter a uno o más bytes; la vista binaria muestra los bits exactos.",
+        "Los espacios entre bytes mantienen las secuencias legibles para su estudio y depuración.",
+        "El patrón convierte la codificación abstracta en algo inspeccionable y verificable a mano.",
+        "Los caracteres ASCII se asignan a un único byte cada uno, mientras que los caracteres Unicode extendidos abarcan varios bytes que conservan su plena fidelidad a través de la conversión."
+      ]
+    },
+    {
+      "heading": "Aprendizaje, acertijos y formatos interesantes",
+      "paragraphs": [
+        "Los estudiantes de informática ven la mecánica de la codificación hecha visible.",
+        "Las plantillas de RR. PP., los acertijos y los mensajes secretos crean usos lúdicos.",
+        "Un puente concreto de lo mecánico a lo significativo hace tangibles los conceptos abstractos.",
+        "Los instructores de informática y los estudiantes autodidactas usan el convertidor para verificar su comprensión de la representación de bits y del orden de los bytes."
+      ]
+    },
+    {
+      "heading": "Usos prácticos más allá del aula",
+      "paragraphs": [
+        "Los equipos de control de calidad incrustan literales binarios en utilidades de prueba y necesitan confirmar que se decodifican en la cadena esperada, ahorrando el tiempo que consumiría el cálculo manual.",
+        "El trabajo forense y de depuración implica a menudo inspeccionar secuencias de bytes en bruto, donde una comparación rápida de texto a binario revela desajustes que la simple lectura pasaría por alto.",
+        "Los redactores técnicos que documentan protocolos binarios ilustran las cargas útiles esperadas convirtiendo mensajes de muestra a su forma a nivel de bits.",
+        "Los entusiastas que construyen proyectos retro, emuladores y juguetes educativos traducen constantemente entre la entrada humana y las secuencias de bytes que su hardware espera."
+      ]
+    },
+    {
+      "heading": "Nota: codificar no es ocultar",
+      "paragraphs": [
+        "El binario es universalmente decodificable; anonimiza pero no oculta nada.",
+        "Para una discreción genuina usa [password-generator:claves robustas] y [hash-generator:hashing]; para el transporte usa [base64:codificación].",
+        "Mantén expectativas honestas y reserva el binario para la claridad y la educación más que para la protección."
+      ]
+    },
+    {
+      "heading": "Casos límite en la conversión binaria",
+      "paragraphs": [
+        "Se tolera el espacio en blanco dentro de la entrada binaria, de modo que las secuencias pegadas con saltos de línea o espacios extra se decodifican correctamente de todos modos.",
+        "El contenido mixto con caracteres ASCII y Unicode extendido se maneja sin fisuras, conservando el rango completo de cada forma codificada.",
+        "La entrada vacía y las cadenas de un solo carácter producen una salida sensata en ambas direcciones, evitando resultados parciales confusos.",
+        "La conversión es simétrica, de modo que el texto convertido a binario y de vuelta reproduce el original exacto sin pérdida ni corrupción de caracteres."
+      ]
+    },
+    {
+      "heading": "Cómo se relacionan el texto y el binario",
+      "paragraphs": [
+        "En el nivel más bajo, un ordenador lo almacena todo como secuencias de bits, y el texto no es una excepción. Cada carácter que escribes tiene un punto de código numérico asignado por el estándar Unicode, y ese número se almacena como un patrón fijo de unos y ceros.",
+        "Cuando conviertes texto a binario, simplemente estás revelando la representación numérica que tu máquina ya usa internamente. Convertir de vuelta lee esos mismos patrones de bits y los asigna a los caracteres que representan.",
+        "Comprender esta relación desmitifica conceptos como la codificación de archivos, los juegos de caracteres y el orden de los bytes, todos los cuales se vuelven intuitivos una vez que has visto una palabra real representada en su forma a nivel de bits.",
+        "Ver tu propio nombre o una frase favorita como binario hace concreto lo abstracto, razón por la cual la herramienta funciona tan bien para la enseñanza y para cualquier persona curiosa sobre cómo piensa su ordenador."
+      ]
+    },
+    {
+      "heading": "Leer binario a mano",
+      "paragraphs": [
+        "Una vez que ves un byte dividido en sus ocho posiciones de bit, leerlo se convierte en cuestión de sumar valores posicionales. El bit más a la derecha representa uno, el siguiente dos, luego cuatro, ocho, dieciséis, treinta y dos, sesenta y cuatro y ciento veintiocho.",
+        "Un byte como 01000001 suma sesenta y cinco, que es el código ASCII de la letra A mayúscula. Detectar el patrón convierte cadenas de dígitos aparentemente aleatorias en caracteres significativos que puedes decodificar mentalmente.",
+        "Practicar con el convertidor adivinando un resultado antes de pulsar convertir construye la intuición con rapidez, convirtiendo una lección de teoría seca en un juego interactivo.",
+        "Esta comprensión táctil es la base para carreras en redes, seguridad y programación de bajo nivel, donde pensar en bytes se vuelve algo natural."
+      ]
+    },
+    {
+      "heading": "Experimentos de código privados",
+      "paragraphs": [
+        "Los experimentos y los conjuntos de datos de práctica se codifican localmente sin transmitir nada.",
+        "Sin subidas, sin cuenta, sin marcas de agua en ninguna plataforma.",
+        "Los bits permanecen donde los dejaste, disponibles en cualquier momento sin iniciar sesión."
+      ]
+    },
+    {
+      "heading": "Binario en el kit de herramientas del desarrollador",
+      "paragraphs": [
+        "Puedes combinarlo con [morse-code:Morse], [number-base:conversiones de base] y [base64:base64] para un conjunto completo de traducción.",
+        "La suite es gratuita y nativa del navegador, cubriendo las necesidades de codificación de la mayoría de los desarrolladores.",
+        "De palabras a bits y de vuelta, limpiamente y sin salir del navegador."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Decodifica la herramienta binario de vuelta a texto?",
+      "a": "Sí. Se admiten ambas direcciones: texto a binario y binario de vuelta a texto legible, con fidelidad exacta de ida y vuelta."
+    },
+    {
+      "q": "¿Cómo se representan los caracteres?",
+      "a": "Cada carácter se convierte en su byte o bytes bajo la codificación UTF-8 estándar, mostrado como secuencias de 8 bits con espacios entre los bytes."
+    },
+    {
+      "q": "¿Es privada la conversión binaria?",
+      "a": "Sí. Todo se ejecuta localmente en tu navegador, sin subidas, sin cuentas y sin procesamiento del lado del servidor."
+    },
+    {
+      "q": "¿Puedo pegar binario con saltos de línea y espacios?",
+      "a": "Sí. El espacio en blanco extra en la entrada se ignora, de modo que los bloques pegados con formato se decodifican correctamente de todos modos."
+    }
+  ]
+}

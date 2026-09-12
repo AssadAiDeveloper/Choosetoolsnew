@@ -1,0 +1,129 @@
+{
+  "slug": "age-calculator",
+  "title": "Yaş Hesaplayıcı: Yıl, Ay ve Gün Olarak Kesin Yaşı Çevrimiçi Ücretsiz Hesaplayın",
+  "description": "Yıl, ay ve gün olarak, veya herhangi bir tarihten herhangi bir tarihe tam yaşı hesaplayan ücretsiz çevrimiçi yaş hesaplayıcı. Tarayıcınızda anında, hassas ve tamamen gizli.",
+  "keywords": ["yaş hesaplayıcı", "yaş hesaplama", "kaç yaşındayım", "tarihler arası yaş", "tarih farkı hesaplayıcı", "yıl ve gün olarak yaş", "doğum günü hesaplayıcı"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Kesin Yaş Bir Hafıza Sorunu Değil, Bir Tarih Sorunudur",
+      "paragraphs": [
+        "Formlar hassas yaşlar ister, doğum günleri kesin yıldönümü sayımlarını hak eder ve uygunluk kuralları tarih farklarına bağlıdır. [age-calculator:Yaşı kesin biçimde hesaplamak] tahmin yürütmeyi ve aritmetik hataları ortadan kaldırır.",
+        "Yıl, ay ve gün cinsinden sonuç, belgelere, kayıtlara ve planlamaya netlik kazandırır.",
+        "ChooseTools yaşları tarayıcınızda yerel olarak, anında ve gizlice hesaplar."
+      ]
+    },
+    {
+      "heading": "Kesin Yaşınızı Hesaplama",
+      "paragraphs": [
+        "Doğum gününden ayrıntılı yaşa tek tıkla:",
+        "Doğum tarihini ve isteğe bağlı olarak bugünün tarihini veya özel bir kesim tarihini girin. Araç, yıl, ay ve günü, ayrıca her birimdeki toplam sayıları döndürür.",
+        "Tüm hesaplama yereldir — doğum günü verileriniz asla makinenizden çıkmaz."
+      ]
+    },
+    {
+      "heading": "İki Tarih Arasındaki Yaş",
+      "paragraphs": [
+        "Bazen aralık doğum günleriyle ilgili değildir: işe alım tarihleri arasındaki süre, görev süreleri, proje kapsamları.",
+        "Her iki tarihi girin ve aralarındaki kesin geçen yıl, ay ve günü okuyun.",
+        "Her meşru son tarih için evrensel tarih aritmetiği."
+      ]
+    },
+    {
+      "heading": "Formlar, Kayıtlar ve Uygunluk İçin Yanıtlar",
+      "paragraphs": [
+        "Formlar için tamamlanan yıl cinsinden yaş, kayıtlar için kesin süreler ve uygunluk pencereleri için tarih farkları.",
+        "Artık ne yaklaşık değer, ne de bir eksik bir fazla anlaşılma.",
+        "Kesin sonuç, alanlar ve dosyalar için kopyalamaya hazırdır."
+      ]
+    },
+    {
+      "heading": "Yaş ve Süre Nasıl Doğru Hesaplanır",
+      "paragraphs": [
+        "Güvenilir bir yaş hesaplayıcı, takvim yılı sayılarını körlemesine çıkarmak yerine tarihleri bileşen bileşen karşılaştırır.",
+        "Bir çocuk artık yılda 29 Şubat'ta doğduysa, araç artık olmayan yıllardaki yıldönümlerini doğru biçimde ele alır; kurala bağlı olarak 28 Şubat veya 1 Mart'a çözülür.",
+        "Farklı uzunluktaki aylar hesaba katılır; bildirilen yaş, yuvarlanmış yaklaşımlar yerine gerçek zamanı yansıtır.",
+        "Sonuç, kayıtlar ve kararlar için güvenebileceğiniz kesin ve savunulabilir bir sayıdır."
+      ]
+    },
+    {
+      "heading": "Kesin Yaş Gerektiren Pratik Senaryolar",
+      "paragraphs": [
+        "Sigorta şirketleri, poliçe düzenlenme zamanındaki yaşı yaklaşık bir değer olarak değil, tam olarak ister. Devlet programları, bir kişinin bir eşiğe ulaştığı kesin güne göre uygunluk sınırları koyar.",
+        "Okul kayıt sistemleri, bir çocuğun belirli bir tarihte beş yaşına dönüp dönmediğini kontrol eder ve yanıt, hiçbir belirsizlik olmadan evet veya hayır olmalıdır.",
+        "İnsan kaynakları departmanları, hak birikimi için görev süresini aya ve güne kadar hesaplar; çünkü yuvarlama hataları maaş bordrosu tutarsızlıklarına dönüşür.",
+        "Herhangi bir tarih çifti için kesin değerler döndüren güvenilir bir araca sahip olmak, bu idari baş ağrılarını tamamen ortadan kaldırır."
+      ]
+    },
+    {
+      "heading": "Dönüm Noktaları, Yıldönümleri ve Planlama",
+      "paragraphs": [
+        "Araç aynı zamanda yıldönümleri, emeklilik tarihleri, iş yıldönümleri ve dönüm noktası doğum günleri için bir planlama yardımcısı olarak çalışır.",
+        "Bir başlangıç tarihi verildiğinde, hedef bir olaya kadar kaç yıl, ay ve gün kaldığını projelendirebilir veya bir şeyin tam olarak ne kadar süredir yürürlükte olduğunu doğrulayabilirsiniz.",
+        "Etkinlik planlayıcıları proje zaman çizelgelerini programlamak için süre hesaplamalarını kullanır; bireyler ise kişisel hedef takibi için kullanır.",
+        "Herhangi iki tarih arasında hesaplama esnekliği, onu basit bir doğum günü aracından çok daha fazlası yapar."
+      ]
+    },
+    {
+      "heading": "Farklı Takvim Sistemlerini Destekleme",
+      "paragraphs": [
+        "Pek çok bölge, Gregoryen sistemin yanında veya yerine Hicri, Budist veya Etiyopya takvimlerini kullanır. Hesaplayıcı Gregoryen tarihleriyle çalışırken, uluslararası kullanım için takvim farklarını anlamak önemlidir.",
+        "Takvim sistemleri arasında çalışırken önce Gregoryen'e dönüştürün ve sonra hesaplayın veya boşluğu kapatmak için [hijri-gregorian:Hicri ve Gregoryen dönüşümü] gibi eşleştirilmiş bir araç kullanın.",
+        "Bu, kaynak verinin hangi takvimi izlediğine bakılmaksızın doğruluğu sağlar.",
+        "Takvimler arası farkındalık, küresel kuruluşlarda maliyetli yanlış hesaplamaları önler."
+      ]
+    },
+    {
+      "heading": "Gündelik Karar Almada Yaş",
+      "paragraphs": [
+        "Resmi evrak işlerinin ötesinde, kesin yaş her gün sıradan seçimleri etkiler. Ebeveynler, bir çocuğun bir koltuk, bir sınıf veya bir lig için yeterince büyük olup olmadığını kontrol eder.",
+        "İşverenler belirli roller için asgari yaş gereksinimlerini doğrular ve yan hak planları, ayın başı yerine işe alım gününden itibaren yıldönümü tarihleri belirler.",
+        "Fitness rutinleri ve seyahat indirimleri genellikle belirli bir doğum gününe ulaşmaya bağlıdır; bir gün eksik olmak yanıtı değiştirir.",
+        "Güvenilir bir yaş hesabı bu küçük anlaşmazlıkları başlamadan önler."
+      ]
+    },
+    {
+      "heading": "Hesaplayıcılar, Sağlık ve Kişisel Kayıtlar",
+      "paragraphs": [
+        "Pediyatri kayıtları, aşı takvimleri ve yasal yaş belgelerinin tümü kesin bir doğum tarihi ile güncel tarih üzerine kuruludur.",
+        "Sağlık formları genellikle tamamlanan yıl cinsinden yaşın yanı sıra kesin doğum tarihini sorar ve ikisi arasındaki tutarlılık idari incelemeleri önler.",
+        "Elde güvenilir bir hesap bulundurmak, ara sıra gelen soruları anında, kendinden emin yanıtlara dönüştürür.",
+        "Kayıt bir klinik, bir okul veya bir hak sahibi ofisi için olsun, hassasiyet hem bireyi hem dosyayı korur."
+      ]
+    },
+    {
+      "heading": "Gizli ve Anında",
+      "paragraphs": [
+        "Doğum günleri kişisel verilerdir; bunları yerel hesaplamak, ait oldukları yerde tutar.",
+        "Her cihazda yükleme yok, hesap yok, filigran yok.",
+        "Maruz kalmadan hassasiyet."
+      ]
+    },
+    {
+      "heading": "Araç Setinde Tarihler",
+      "paragraphs": [
+        "Yaş matematiğini global tarih işleri için [timestamp-converter:zaman damgası dönüşümü] veya [hijri-gregorian:Hicri ve Gregoryen dönüşümü] ile eşleştirin.",
+        "Paket ücretsiz ve tarayıcı doğalıdır.",
+        "Her tarih sorusu, tam olarak yanıtlanır."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Yaş hesaplayıcı hangi birimleri raporlar?",
+      "a": "Yıl, ay ve gün, ayrıca sağladığınız herhangi iki tarih arasındaki fark ve her birimdeki toplam sayılar."
+    },
+    {
+      "q": "İki rastgele tarih arasındaki süreyi hesaplayabilir miyim?",
+      "a": "Evet. Kesin geçen süreyi yıl, ay ve gün olarak almak için bir başlangıç ve bitiş tarihi girin."
+    },
+    {
+      "q": "Hesaplayıcı gizli mi?",
+      "a": "Evet. Tüm hesaplama tarayıcınızda yerel olarak gerçekleşir; hiçbir veri cihazınızdan çıkmaz."
+    },
+    {
+      "q": "Artık yılları doğru ele alıyor mu?",
+      "a": "Evet. Hesaplayıcı artık yılları ve değişen ay uzunluklarını hesaba katar; böylece Şubat doğumlular için bile sonuçlar doğrudur."
+    }
+  ]
+}

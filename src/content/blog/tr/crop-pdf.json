@@ -1,0 +1,90 @@
+{
+  "slug": "crop-pdf",
+  "title": "PDF Sayfalarını Çevrimiçi Olarak Ücretsiz Nasıl Kırpılır: Kenar Boşluklarını Ayarlayın ve İstenmeyen Alanları Kaldırın",
+  "description": "ChooseTools ile PDF sayfalarını çevrimiçi olarak ücretsiz kırpın. Kenar boşluklarını ayarlayın, istenmeyen bölgeleri kesin ve sayfa başına düzeni iyileştirin; hepsi sıfır yükleme ve sıfır kalite kaybıyla tarayıcınızda.",
+  "keywords": ["pdf sayfalarını kırpma", "pdf çevrimiçi ücretsiz kırpma", "pdf kenar boşluğu ayarlama", "yüklemeden pdf kırpma", "pdf sayfası kesme", "pdf'ten beyaz kenar boşluğu kaldırma", "pdf dosyası kırpma"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Kırpma: Görünür Sayfa Alanı Üzerinde Cerrahi Kontrol",
+      "paragraphs": [
+        "İyi kırpılmış bir sayfa daha iyi okunur, daha iyi yazdırılır ve daha profesyonel görünür. Aşırı kenar boşlukları kağıt israf eder ve içeriği küçültür; tarayıcı yatağından kalan kırıntılar veya başka bir sayfanın kenarı belgeyi bitmemiş gösterir. [crop-pdf:PDF sayfalarını kırpmak], tam olarak neyin görünür kalacağı üzerinde size hassas kontrol sağlar.",
+        "Tüm belgenin yeniden dışa aktarılmasını gerektiren düzenleyiciler, küçük kırpmaları uzun işlemelerle cezalandırır. Özel bir kırpma aracı, her sayfanın görünür kutusunu ayarlar ve güncellenmiş bir PDF'i saniyeler içinde kaydeder.",
+        "ChooseTools kırpmayı yerel olarak gerçekleştirir. Sayfa başına kırpma bölgesini çizin veya ayarlayın, sonucu önizleyin ve kırpılmış dosyayı indirin — yükleme, filigran ve kayıt yok.",
+        "Kırpma kutusu okuyucuların gördüğünü tanımlar; içindeki her öğe tam kalitesini korur."
+      ]
+    },
+    {
+      "heading": "Bir PDF Sayfası Adım Adım Nasıl Kırpılır",
+      "paragraphs": [
+        "Kusursuz kırpmayı elde etmek canlı geri bildirimle basittir.",
+        "PDF'inizle kırpıcıyı açın. Bir sayfa seçin ve neyi tutmak istediğinizi tanımlamak için kırpma tutamaçlarını görünür alan üzerinde sürükleyin; ayrıca araç tekdüzen beyaz kenar boşluklarını otomatik algılayıp sizin için kırpabilir. Kırpmayı uygulayın ve düzeltilmiş PDF'i indirin.",
+        "İşleme yerel olduğu için çok megabaytlık dosyalarda bile önizlemeler anlıktır; bu da kırpma kutusunu kaydetmeden önce piksel mükemmelliğine getirmenizi sağlar.",
+        "İlk geçişten sonra kutuyu ayarlamak hiçbir ücrete mal olmaz; bu yüzden her sayfa tam olarak doğru oturana kadar yinelemek kolaydır."
+      ]
+    },
+    {
+      "heading": "Daha Temiz Sayfalar İçin Beyaz Kenar Boşluklarını Otomatik Kırpın",
+      "paragraphs": [
+        "Taramalar büyük beyaz çerçevelerle bir sayfaya yerleştiğinde — veya bir belge aşırı boşlukla dışa aktarıldığında — en yaygın ihtiyaç basitçe tekdüzen boş kenar boşluğunu kaldırmaktır.",
+        "Otomatik kırpma, içerik sınır alanını algılar ve her sayfayı ona göre sıkılaştırır; tek tıkla kompakt, yazdırmaya uygun bir sonuç üretir. Makale kaydeden araştırmacıların ve kitap işleyen dijitalleştirme ekiplerinin favorisidir.",
+        "Otomatik kırpmadan sonra birçok sayfa belirli sayfalarda son bir elle ayara ihtiyaç duyar — otomatik geçişi sayfa başına mikro ayarlarla birleştirmek iki yaklaşımın da en iyisini sunar.",
+        "Dijital öncelikli ekipler, yayınlamadan önce dışa aktarılan slaytlardan ve panolardan aşırı büyük boş çerçeveleri sıyırmak için aynı geçişi kullanır."
+      ]
+    },
+    {
+      "heading": "Odak İçin Kırpın: Arka Planları, Açıklamaları ve Kenar Çubuklarını Kaldırın",
+      "paragraphs": [
+        "Bazen kırpma yalnızca kenar boşluklarıyla değil, odakla ilgilidir: bir ekran görüntüsünde yakalanan araç çubuğunu kesmek, istenmeyen bir açıklama alanını kaldırmak veya bir sayfanın içindeki bir grafiği yalıtmak.",
+        "Kutu seçimi bu durumları kusursuz şekilde ele alır. Önemli olan bölgeyi seçin, kırpın; dağınıklık çıktıdan kaybolurken önemli içerik jilet keskinliğinde kalır.",
+        "Daha geniş süitle entegrasyon iş akışını sorunsuz tutar: slayt destelerinde veya e-posta gövde görsellerinde kullanmak için [pdf-to-jpg:kırpılmış PDF'i dönüştürün] veya dağıtımdan önce [compress-pdf:sıkıştırın].",
+        "Odaklı bir kırpma ayrıca basılı materyallere yardımcı olur: sayfada daha az dağınıklık, çekirdek mesajın sayfaya hükmetmesi demektir."
+      ]
+    },
+    {
+      "heading": "Başlıkları, Alt Bilgileri ve Sayfa Numaralarını Tutarlı Tutmak",
+      "paragraphs": [
+        "Her sayfada çalışan bir başlık taşıyan belgeler, bu şeridi görünür tutarken altındaki veya yanındaki ölü alanı kırpan tekdüzen bir kırpmadan yararlanır.",
+        "Aynı kırpma kutusunu belgenin tamamına uygulamak her sayfada tutarlı bir kırpma üretir — orijinal düzen dosyalarına dokunmadan profesyonelce dizilmiş bir belge görünümü.",
+        "Normdan sapan sayfalar için, finalin grubun geri kalanıyla eşleşmesi için tek sayfa kırpmasına geri dönün.",
+        "Tutarlılık, düzenli bir arşivi bir tarama yığınından ayıran şeydir ve ortak bir kırpma kutusu bunu tek tıkla sağlar."
+      ]
+    },
+    {
+      "heading": "Gizlilik, Hız ve Filigram Yok",
+      "paragraphs": [
+        "Kırpma, alıcıların neyi görüp neyi görmeyeceğine karar verir; bu da onu gerçekten hassas kılar. Yerel işleme, bu kararın tamamen cihazınızda alındığı anlamına gelir.",
+        "Kırpılmış çıktı, tanıtım metni olmayan temiz bir PDF'dir ve işi kesintiye uğratacak bir hesap veya kota yoktur. Masaüstü, dizüstü ve mobil tarayıcılarda aynı şekilde çalışır.",
+        "Kalite korunur çünkü kırpma yalnızca görünür kutu tanımını değiştirir; metin, yazı tipleri, vektörler ve görseller sonuç dosyasında bozulmadan ve seçilebilir kalır.",
+        "Kırpma işlemiyle ilgili hiçbir şey kaydedilmez veya saklanmaz; böylece kırpma, belgenin kendisi kadar özel kalır."
+      ]
+    },
+    {
+      "heading": "Tutarlı Çok Sayfalı Kırpma İçin En İyi Uygulamalar",
+      "paragraphs": [
+        "Her sayfanın aynı düzeni paylaştığı belgeler için tüm sayfalara tek ve aynı kırpma kutusu uygulamak sonucu tekdüzen tutar — raporlar, kitaplar ve portfolyolar için idealdir.",
+        "Karışık taramalar için kırpmayı daha büyük bir temizliğin parçası olarak ele alın: [rotate-pdf:PDF döndürme] ile yönelimi normalleştirin, ardından kırpın, sonra gerçekten sunulabilir bir arşiv için [delete-pdf-pages:artıkları kaldırın].",
+        "Kaynağınız ne olursa olsun, tarayıcı tabanlı kırpma zorlu bir düzen işini hızlı, tekrarlanabilir ve dışa aktarmasız bir sürece dönüştürür.",
+        "Temizlik adımlarını zincirlemek, ağır bir düzenleyiciden asla yeniden dışa aktarmadan her arşivin, teklifin ve belgenin tutarlı kalmasını sağlar."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Farklı sayfaları farklı bölgelerle kırpabilir miyim?",
+      "a": "Evet. Belgenize bağlı olarak her sayfa için ayrı bir kırpma kutusu ayarlayabilir veya tekdüzen bir sonuç için aynı kırpmayı tüm sayfalara uygulayabilirsiniz."
+    },
+    {
+      "q": "Kırpma metin kalitesini veya seçilebilirliği azaltır mı?",
+      "a": "Hayır. Kırpma yalnızca görünür sayfa alanını ayarlar. Kırpılan bölgedeki metin, orijinal kalitesinde tamamen seçilebilir ve aranabilir kalır."
+    },
+    {
+      "q": "Beyaz kenar boşluklarını kaldırmak için otomatik bir seçenek var mı?",
+      "a": "Evet. Otomatik kırpma özelliği, içerik sınırlama kutusunu algılar ve tek tıkla sayfalar arasındaki tekdüzen beyaz kenar boşluklarını kırpar."
+    },
+    {
+      "q": "Sayfanın geri kalanını kırparken çalışan bir başlık tutabilir miyim?",
+      "a": "Evet. Tüm sayfalarda başlık şeridini koruyan bir kırpma kutusu uygulayın veya farklı bir kırpma gerektiren sayfaları tek tek ince ayar yapın."
+    }
+  ]
+}

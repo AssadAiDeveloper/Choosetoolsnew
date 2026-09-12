@@ -1,0 +1,120 @@
+{
+  "slug": "text-diff",
+  "title": "Tekst Diff Tool: Twee Teksten Online Gratis Vergelijken om Wijzigingen te Vinden",
+  "description": "Gratis online tekstdiff-tool om twee documenten naast elkaar te vergelijken, met markering van toegevoegde, verwijderde en gewijzigde regels. Privé, direct, in je browser.",
+  "keywords": ["tekst diff", "twee teksten vergelijken", "verschillen tussen teksten vinden", "diff checker", "tekst online vergelijken", "tekstvergelijkingstool", "wijzigingen in tekst zien"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Wat er Tussen Versies Veranderde Opsporen",
+      "paragraphs": [
+        "Heeft je collega de voorwaarden aangepast? Welke commit herschreef de overeenkomst? Versies met het blote oog vergelijken is onbetrouwbaar; een [text-diff:diff-tool] markeert precies wat er veranderde, regel voor regel.",
+        "Redacteuren, reviewers, juristen en studenten profiteren allemaal van precieze wijzigingsdetectie.",
+        "ChooseTools vergelijkt teksten lokaal in je browser met een kleurgecodeerd naast-elkaar-resultaat."
+      ]
+    },
+    {
+      "heading": "Hoe je Twee Teksten Vergelijkt",
+      "paragraphs": [
+        "Verschillen, gemarkeerd:",
+        "Plak het origineel in het linkerveld en de herziene versie in het rechter. Het tool berekent de diff direct en kleurt toegevoegde versus verwijderde regels.",
+        "Resultaten worden lokaal gerenderd — concepten worden nooit ergens naartoe gestuurd."
+      ]
+    },
+    {
+      "heading": "Diff op Regelniveau: Exact en Controleerbaar",
+      "paragraphs": [
+        "Vergelijken op regelgranulariteit sluit aan bij hoe redacteuren werken: elke wijziging is een discrete, controleerbare eenheid.",
+        "Toegevoegde regels, verwijderde regels en wijzigingen zijn elk visueel te onderscheiden.",
+        "De beoordeling van lange documenten wordt waterdicht."
+      ]
+    },
+    {
+      "heading": "Hoe Diffing Onder de Motorkap Werkt",
+      "paragraphs": [
+        "Het tool lijnt de twee teksten regel voor regel uit, lokaliseert de langste stukken die onveranderd blijven en markeert vervolgens al het andere als toegevoegd of verwijderd.",
+        "Een gewijzigde regel verschijnt als een verwijdering gecombineerd met een toevoeging, zodat reviewers precies zien wat er werd vervangen in plaats van een vage gewijzigd-vlag.",
+        "Het algoritme is ook bij omvangrijke documenten efficiënt: het berekent de uitlijning snel en rendert voor de duidelijkheid alleen de afwijkende regio's.",
+        "Inzicht in dit gedrag helpt je resultaten te interpreteren: een herschreven zin verschijnt als één verwijderde regel met een andere ernaast toegevoegd."
+      ]
+    },
+    {
+      "heading": "Reviewworkflows vol Vertrouwen",
+      "paragraphs": [
+        "Volg redacteursbewerkingen zonder elk woord te lezen; bevestig patches vóór je ze toepast; controleer overeenkomsten op stille wijzigingen.",
+        "De diff-output is een kaart van wat een versie beloofde en wat hij waarmaakte.",
+        "Zorgvuldig vergelijken beschermt iedereen die ondertekent, verzendt of code verzendt."
+      ]
+    },
+    {
+      "heading": "Veelvoorkomende Gebruikssituaties per Beroep",
+      "paragraphs": [
+        "Juridische teams vergelijken contractontwerpen om te controleren dat er tussen onderhandelingsrondes geen clausule is gewijzigd. Softwareontwikkelaars verifiëren pull requests door de voorgestelde wijzigingen tegen de hoofdbranch te diffen vóór het mergen.",
+        "Studenten die een herziene versie van een opstel controleren, kunnen direct zien of feedback daadwerkelijk is verwerkt. Technisch schrijvers behouden de nauwkeurigheid van documentatie door releasenotes over versies te vergelijken.",
+        "Vertalers gebruiken diffs om te bevestigen dat gelokaliseerde tekst overeenkomt met de goedgekeurde bron, zonder subtiele weglatingen. In elk geval neemt het tool het sleurwerk van handmatig vergelijken weg en vervangt het door een duidelijk visueel overzicht van de wijziging.",
+        "Hetzelfde mechanisme dat een ontbrekende komma in code opmerkt, merkt ook een gewijzigde aansprakelijkheidsclausule in een contract op."
+      ]
+    },
+    {
+      "heading": "Omgaan met Grote Documenten en Geneste Wijzigingen",
+      "paragraphs": [
+        "Lange bestanden met honderden regels blijven beheersbaar, omdat het diff-algoritme ze in segmenten verwerkt en alleen de relevante afwijkingsgebieden toont.",
+        "De naast-elkaar-layout zorgt dat contextregels naast hun tegenhangers staan, zodat reviewers kunnen controleren dat de omringende tekst niet per ongeluk is verschoven.",
+        "Zelfs wanneer wijzigingen door een heel document verspreid zijn, laat de kleurcodering het oog direct naar elke wijziging springen zonder elke regel handmatig te scannen.",
+        "De verwerking gebeurt volledig op je apparaat, dus er is geen omvanglimiet die door een externe server wordt opgelegd."
+      ]
+    },
+    {
+      "heading": "Diffing als Kwaliteitspoort",
+      "paragraphs": [
+        "Een diff is in essentie een kwaliteitspoort: voordat er iets wordt gepubliceerd, gemerged of ondertekend, beantwoordt de vergelijking de vraag of de eindtekst overeenkomt met wat er is besloten.",
+        "Kwaliteitsteams draaien een laatste diff tussen het goedgekeurde concept en de verzonden versie, waarbij bewerkingen op het laatste moment die de review omzeilden worden opgemerkt.",
+        "Freelance schrijvers diffen klantfeedback tegen hun manuscripten om aan te tonen dat elke gevraagde wijziging aanwezig is.",
+        "Zelfs een korte controle voegt een beschermingslaag toe die geen enkele hoeveelheid zorgvuldig proeflezen betrouwbaar evenaart."
+      ]
+    },
+    {
+      "heading": "Configuraties en Templates Vergelijken",
+      "paragraphs": [
+        "Naast proza is het tool geschikt voor gestructureerde tekst: het vergelijken van twee configuratiebestanden, twee codefragmenten of twee versies van een e-mailtemplate.",
+        "Een snelle vergelijking van instellingenbestanden toont precies welke parameter er is gewijzigd tussen omgevingen zoals staging en productie.",
+        "Template-editors vergelijken opgeslagen concepten om formatdrift te ontdekken die een snelle blik zou missen.",
+        "Omdat dezelfde naast-elkaar-logica werkt voor code, markup en platte tekst, dekt één tool veel reviewbehoeften."
+      ]
+    },
+    {
+      "heading": "Privé Vergelijking van Vertrouwelijke Concepten",
+      "paragraphs": [
+        "Juridische documenten, niet-gepubliceerde manuscripten en interne releasenotes worden lokaal gediffed, en dat is precies de bedoeling.",
+        "Geen upload, geen account, geen watermerk — op alle platforms.",
+        "Je versiegeschiedenis is van jou."
+      ]
+    },
+    {
+      "heading": "Diff Binnen de Complete Tekstsuite",
+      "paragraphs": [
+        "Na het vergelijken: [find-replace:correcties toepassen], [sort-lines:organiseren] of [case-converter:normaliseren].",
+        "De suite is gratis en draait volledig in de browser.",
+        "Elke versievraag, precies beantwoord."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Wat markeert het diff-tool precies?",
+      "a": "Het toont beide teksten naast elkaar en kleurt regels die zijn toegevoegd, verwijderd of gewijzigd, zodat wijzigingen direct zichtbaar zijn."
+    },
+    {
+      "q": "Kan het zeer lange documenten vergelijken?",
+      "a": "Ja. Diff op basis van regels verwerkt lange teksten; het renderen is lokaal en snel, ongeacht de lengte."
+    },
+    {
+      "q": "Is tekstvergelijking privé?",
+      "a": "Ja. Alles gebeurt lokaal in je browser, zonder uploads of accounts."
+    },
+    {
+      "q": "Toont het context rond wijzigingen?",
+      "a": "Ja. Omliggende onveranderde regels verschijnen naast de diff, zodat je kunt controleren dat wijzigingen binnen de juiste context staan."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "url-encode",
+  "title": "URL Encoder Decoder: Encode en Decodeer URL's Gratis Online",
+  "description": "Gratis online URL-encoder en -decoder om webadressen, tekenreeksen en queryparameters veilig te encoderen en decoderen. Privé, direct, in je browser.",
+  "keywords": ["url encoder", "url decoder", "url online encoderen", "url decoderen", "url encoder tool", "percent encoding", "url string decoderen"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "URL's Spreken ASCII, het Web Spreekt Alles",
+      "paragraphs": [
+        "Links kunnen geen spaties, accenten of speciale symbolen rauw dragen — ze moeten percent-gecodeerd worden. [url-encode:URLs coderen] zet elke tekenreeks om naar een transportveilig adres dat servers correct interpreteren.",
+        "Queryparameters, biometrie en redirects zijn allemaal afhankelijk van een correcte codering.",
+        "ChooseTools encodeert en decodeert URL's lokaal in je browser.",
+        "Elk HTTP-verzoek draagt gecodeerde gegevens in zijn pad en querystring. Wanneer de codering verkeerd is, geven servers 400-fouten terug, lopen redirects eindeloos rond en valt de analytische toewijzing stilletjes weg."
+      ]
+    },
+    {
+      "heading": "Hoe een URL te Encoderen of Decoderen",
+      "paragraphs": [
+        "Beide richtingen, direct:",
+        "Plak een URL met rauwe tekens om hem naar een linkveilige vorm te encoderen, of plak een gecodeerd adres om terug te decoderen naar leesbare tekst. Kopieer het exacte resultaat.",
+        "Lokale verwerking houdt je querystring-geheimen van elke server.",
+        "De tool ondersteunt zowel componentcodering voor individuele parameters als volledige URL-codering voor complete adressen, zodat je de juiste granulariteit voor de taak kiest."
+      ]
+    },
+    {
+      "heading": "Querystrings met Spaties, Accenten en Symbolen",
+      "paragraphs": [
+        "Zoekreeksen met spaties, internationale tekens en gereserveerde symbolen breken links tenzij ze gecodeerd worden.",
+        "Correcte codering vervangt ze door %-reeksen die elke sprong intact overleven.",
+        "Ontvangers ontvangen de bedoelde query, getrouw gedecodeerd.",
+        "Een zoekopdracht naar café met een accent codeert bijvoorbeeld de e-acute naar zijn UTF-8 percent-gecodeerde vorm, zodat de doelserver de originele query zonder gegevensverlies of vervanging reconstructeert."
+      ]
+    },
+    {
+      "heading": "Redirects, Tokens en Zorgvuldig Opgebouwde Links",
+      "paragraphs": [
+        "Redirectketens plaatsen complete adressen binnenin querywaarden — dubbele codering moet bewust gebeuren. Wanneer een redirect-URL zelf een parameterwaarde is, voorkomt het coderen van de buitenste laag dat de binnenste URL als afzonderlijke querysleutels wordt geïnterpreteerd.",
+        "Tokens en gevoelige parameters in URL's worden nu voorspelbaar gecodeerd.",
+        "Het bouwen van geldige links wordt exact in plaats van hoopvol.",
+        "OAuth-callbacks, SSO-retouradressen en betalingsgateway-URL's bevatten allemaal speciale tekens die op exact het juiste niveau gecodeerd moeten worden om te werken in browsers en serverimplementaties."
+      ]
+    },
+    {
+      "heading": "Decoderen voor Debuggen en Loganalyse",
+      "paragraphs": [
+        "Logs staan vol gecodeerde adressen; door ze te decoderen komen de werkelijke parameters tevoorschijn die onderzocht worden.",
+        "Inzicht in de rauwe tekenreeks achter %20 en %C3%BC versnelt het debuggen.",
+        "Twee klikken veranderen logruis in duidelijkheid.",
+        "Netwerkingenieurs en backendontwikkelaars decoderen routinematig opgevangen request-URL's om te controleren dat trackingparameters, UTM-waarden en sessietokens intact aankomen via proxies en load balancers."
+      ]
+    },
+    {
+      "heading": "Coderingstandaarden en Tekensets",
+      "paragraphs": [
+        "RFC 3986 definieert welke tekens in URI's gecodeerd moeten worden en welke veilig unreserved gelaten kunnen worden. De tool volgt deze specificatie precies, codeert spaties als %20 en respecteert de toegestane set unreserved tekens, waaronder letters, cijfers, streepjes, underscores en tildes.",
+        "UTF-8-meerbyte-tekens zoals emoji en niet-Latijnse schriften worden gecodeerd tot hun correcte percent-gecodeerde reeksen, zodat een URL met Japanse tekst of een lachend gezicht op elke conformerende server identiek decodeert.",
+        "Inzicht in het verschil tussen het coderen van een volledige URL en het coderen van alleen een queryparameterwaarde voorkomt de veelgemaakte fout van het dubbel encoderen van al veilige tekens.",
+        "De decoder keert elke transformatie getrouw om en herstelt de originele tekenreeks inclusief alle Unicode-codepunten."
+      ]
+    },
+    {
+      "heading": "Privé Werken op het Web",
+      "paragraphs": [
+        "Tokens, auth-tekenreeksen en niet-gepubliceerde links worden lokaal gecodeerd.",
+        "Geen upload, geen account, geen watermerk — op alle platforms.",
+        "Veilige mail-paraatheid zonder enige blootstelling.",
+        "Authenticatietokens, API-sleutels in URL's en interne redirectadressen raken nooit een externe dienst, zodat je infrastructuurgegevens vertrouwelijk blijven tijdens het coderingsproces."
+      ]
+    },
+    {
+      "heading": "Componentcodering versus Volledige URL-codering",
+      "paragraphs": [
+        "Componentcodering codeert alleen de tekens die onveilig zijn binnen één URI-component — een querywaarde, een padsegment of een fragmentidentificator. Volledige URL-codering codeert het hele adres, wat gepast is wanneer je een URL uit afzonderlijke delen opbouwt.",
+        "De verkeerde coderingsmodus gebruiken is een veelvoorkomende bron van bugs: component-coderen van een volledige URL laat schuine strepen en vraagtekens ongecodeerd, terwijl volledige codering van een parameterwaarde de scheidingstekens codeert die letterlijk moeten blijven.",
+        "De tool laat je de juiste modus voor de taak kiezen, voorkomt deze mismatches en zorgt dat de output geldig is ongeacht de context waarin hij gebruikt wordt.",
+        "Weten wanneer je elke modus gebruikt, is vooral belangrijk bij het programmatisch bouwen van URL's, waar de verkeerde keuze subtiele bugs introduceert die alleen onder specifieke invoercombinaties tot uiting komen."
+      ]
+    },
+    {
+      "heading": "URL's in de Ontwikkelaarstoolkit",
+      "paragraphs": [
+        "Combineer met [base64:base64], [html-encode:HTML-escaping] en [json-formatter:JSON-opmaak] voor een complete set om verzoeken te bouwen.",
+        "De suite is gratis en browsergebaseerd.",
+        "Elke link, exact correct."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Wat doet URL-codering precies?",
+      "a": "Het vervangt tekens die onveilig zijn in URL's — spaties, symbolen, accenten — door percent-gecodeerde reeksen die veilig transporteren."
+    },
+    {
+      "q": "Kan ik een gecodeerde URL terug decoderen naar leesbare tekst?",
+      "a": "Ja. De decoder reconstructeert spaties, accenten en symbolen uit hun gecodeerde vorm."
+    },
+    {
+      "q": "Is URL-codering privé?",
+      "a": "Ja. Alles gebeurt lokaal in je browser zonder uploads of accounts."
+    },
+    {
+      "q": "Ondersteunt het niet-ASCII-tekens zoals emoji?",
+      "a": "Ja. UTF-8-meerbyte-tekens worden gecodeerd tot hun correcte percent-reeksen en getrouw teruggedecodeerd."
+    }
+  ]
+}

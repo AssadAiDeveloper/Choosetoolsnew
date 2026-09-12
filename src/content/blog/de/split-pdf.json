@@ -1,0 +1,70 @@
+{
+  "slug": "split-pdf",
+  "title": "PDF-Seiten kostenlos online aufteilen: Seiten aus einem PDF extrahieren, ohne es hochzuladen",
+  "description": "Teilen Sie PDF-Seiten kostenlos online mit ChooseTools. Teilen Sie eine große PDF-Datei in mehrere kleinere Dateien, extrahieren Sie einzelne Seiten oder Seitenbereiche — direkt in Ihrem Browser mit vollständiger Privatsphäre.",
+  "keywords": ["pdf kostenlos online aufteilen", "pdf in seiten teilen", "seiten aus pdf extrahieren", "pdf-datei aufteilen", "pdf-seiten trennen", "pdf-splitter-tool", "pdf ohne hochladen aufteilen"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Wenn das Aufteilen eines PDFs zur täglichen Notwendigkeit wird",
+      "paragraphs": [
+        "Ein einzelnes PDF bleibt selten für immer ein einzelnes PDF. Sie müssen möglicherweise PDF-Seiten für Ablagesysteme aufteilen, einem Mitarbeiter ein Kapitel schicken, das nur zehn Seiten benötigt, oder ein 300-seitiges Handbuch in installierbare Unterdokumente gliedern. Manuelles Kopieren und Einfügen in Desktop-Editoren ist langsam und fehleranfällig; ein spezielles [split-pdf:Online-PDF-Splitter-Tool] erledigt die Aufgabe in Sekunden.",
+        "Die meisten PDF-Splitter-Tools im Web zwingen Ihr Dokument in ihre Cloud und bewahren dann Kopien für Analysezwecke in ihrem Speicher auf. Das ist ein echtes Problem für Verträge, medizinische Unterlagen und Finanzberichte. ChooseTools baut den Splitter auf PDF.js auf, sodass Ihre Datei vollständig in Ihrem Browser gelesen und aufgeteilt wird. Kein Upload, keine Warteschlange, keine übrig gebliebenen Kopien auf einem Server, den Sie nicht kontrollieren.",
+        "Da das Tool kostenlos ist und weder Werbung noch Wasserzeichen enthält, kostet das Aufteilen von Hunderten von Seiten nichts und unterbricht Ihren Workflow nie. Die Ausgabedateien sind bytegenaue Ausschnitte des Originals und bewahren Text, Bilder, Links und eingebettete Schriften."
+      ]
+    },
+    {
+      "heading": "Schritt für Schritt: So teilen Sie ein PDF in separate Dateien",
+      "paragraphs": [
+        "Die Nutzung des PDF-Splitters umfasst drei kurze Schritte und funktioniert für jeden, unabhängig von technischen Kenntnissen.",
+        "Öffnen Sie das Tool, ziehen Sie Ihr PDF in den Ablagebereich oder wählen Sie es von der Festplatte aus. Das Dokument wird lokal geparst und zeigt Ihnen eine seitenweise Vorschau im Browser. Wählen Sie dann einen der Aufteilungsmodi: eine einzelne Seite extrahieren, einen Bereich extrahieren oder alle N Seiten in eine eigene Datei aufteilen. Klicken Sie schließlich auf den Aufteilen-Button und laden Sie jedes resultierende PDF einzeln herunter.",
+        "Der gesamte Prozess läuft mit der Geschwindigkeit Ihrer Maschine, da es keine Hin- und Rückreise zu einem Server gibt. Das Aufteilen eines 500-seitigen PDFs wird nur durch den Arbeitsspeicher Ihres Computers begrenzt, was dies zu einem der praktischsten kostenlosen Online-PDF-Splitter-Tools überhaupt macht."
+      ]
+    },
+    {
+      "heading": "Einzelne Seiten oder Seitenbereiche präzise extrahieren",
+      "paragraphs": [
+        "Manchmal brauchen Sie nur eine einzige Seite — die Unterschriftenseite eines Mietvertrags, das Zertifikat am Ende eines Angebots oder das Cover, das Ihr Kunde separat angefordert hat. Der Modus Einzelne Seite extrahieren ermöglicht es Ihnen, die exakte Seite anzuklicken und sie separat zu exportieren.",
+        "Seitenbereiche sind ebenso einfach. Benötigen Sie die Seiten 5 bis 12 aus einem 40-seitigen Deck? Geben Sie „5-12“ ein, und das Tool erzeugt ein kompaktes PDF mit genau diesen Seiten, während der Rest der Quelldatei unangetastet bleibt. Das ist weitaus genauer als das Abfotografieren von Seiten oder das Neuerstellen des PDFs in einer Textverarbeitung.",
+        "In Kombination mit [extract-pdf-pages:PDF-Seiten extrahieren]-Workflows gibt Ihnen das Aufteilen volle Kontrolle: Nehmen Sie exakt den benötigten Bereich und fügen Sie ihn anschließend mit dem [merge-pdf:PDF-Zusammenführungs]-Tool mit anderen extrahierten Abschnitten zu einem maßgeschneiderten Dokument zusammen."
+      ]
+    },
+    {
+      "heading": "Jede Seite aufteilen oder ein Intervall für Stapelarbeiten nutzen",
+      "paragraphs": [
+        "Für lange Dokumente ist der Intervallmodus ein Lebensretter. Setzen Sie ein Intervall von „1“ und jede Seite wird zu einer eigenen Datei — ideal, wenn jede Seite eines Rechnungsstapels separat per E-Mail versendet oder archiviert werden muss.",
+        "Wählen Sie ein größeres Intervall, etwa „10“, um ein Handbuch automatisch in Kapitel von zehn Seiten zu unterteilen. Der Splitter nummeriert die Ausgaben fortlaufend, sodass Sie die ursprüngliche Reihenfolge jederzeit wiederherstellen können, indem Sie die Dateien erneut durch einen PDF-Merger laufen lassen.",
+        "Keine Desktop-Software ist hier wirklich portabel: Dieser Splitter läuft auf Windows, macOS, Linux und mobilen Browsern gleichermaßen. Deshalb können Teams in verschiedenen Ländern ein einziges kostenloses PDF-Splitter-Tool standardisieren, statt plattformabhängige Lizenzen zu kaufen."
+      ]
+    },
+    {
+      "heading": "Datenschutzorientiertes Aufteilen: Dateien verlassen nie Ihr Gerät",
+      "paragraphs": [
+        "Die wichtigste Garantie dieses PDF-Splitters ist, dass Ihr Dokument nie einen Server eines Dritten erreicht. Jede Seite wird mit der Open-Source-Technologie PDF.js im Arbeitsspeicher Ihres Browsers extrahiert.",
+        "Das ist für alle wichtig, die mit regulierten oder vertraulichen Daten arbeiten: Anwaltsteams, die Discovery-Dokumente aufteilen, HR-Abteilungen, die Gehaltsabrechnungen splitten, Buchhalter, die Steuerunterlagen unterteilen. Bei lokaler Verarbeitung findet der Begriff „Datenschutzverletzung“ einfach keine Anwendung, weil es überhaupt keine externen Daten gibt.",
+        "Sie erhalten exakt das, was Sie aufteilen: saubere, wasserzeichenfreie PDFs, die in der Qualität identisch mit der Quelle sind. Vergleichen Sie das mit Online-Konkurrenten, deren kostenlose Stufe jedes Ergebnis mit ihrer Marke versieht, sofern Sie nicht abonnieren."
+      ]
+    },
+    {
+      "heading": "Häufige Fragen zum Aufteilen von PDFs",
+      "paragraphs": [
+        "Kann ich ein PDF ohne Softwareinstallation aufteilen? Ja — alles läuft im Browser, sodass nie eine Installation erforderlich ist. Verschlechtert das Aufteilen die Druckqualität? Nein; extrahierte Seiten behalten ihre ursprünglichen Vektoren, eingebetteten Schriften und ihre Auflösung. Welche Formate kann ich aufteilen? Jedes PDF, einschließlich gescannter und passwortgeschützter Dateien, sobald das Passwort mit [protect-pdf:PDF-Sicherheits]-Tools entfernt wurde. Gibt es eine Seitenbegrenzung? Es gibt keine künstliche Obergrenze; die einzige Grenze ist der Arbeitsspeicher Ihres Geräts.",
+        "Brauche ich ein Konto? Überhaupt keine Registrierung nötig, und ein Konto bedeutet auch keine Cookies, die Ihre Dokumente verfolgen. Was, wenn meine Datei sehr groß ist? Die lokale Verarbeitung bewältigt selbst extrem große PDFs schneller als jeder Cloud-Dienst, weil Sie die Upload- und Download-Schritte vollständig überspringen."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kann der PDF-Splitter eine Datei automatisch in einzelne Seiten unterteilen?",
+      "a": "Ja. Setzen Sie das Intervall auf 1, und das Tool exportiert jede Seite als eigene PDF-Datei, nummeriert in Quellreihenfolge, bereit für separate Archivierung oder E-Mail-Versand."
+    },
+    {
+      "q": "Reduziert das Aufteilen die Dateiqualität oder komprimiert es Inhalte erneut?",
+      "a": "Nein. Jede extrahierte Seite ist eine originalgetreue Kopie der Quellseite mit intaktem Text, Bildern, Vektorgrafiken, Hyperlinks und Schriften. Die Qualität bleibt exakt erhalten."
+    },
+    {
+      "q": "Ist es sicher, hier vertrauliche PDF-Dokumente aufzuteilen?",
+      "a": "Absolut. Die gesamte Verarbeitung erfolgt lokal in Ihrem Browser mit PDF.js. Ihre Dateien werden auf keinem Server hochgeladen, gespeichert oder analysiert, was das Tool sicher für NDAs sowie medizinische und rechtliche Dokumente macht."
+    }
+  ]
+}

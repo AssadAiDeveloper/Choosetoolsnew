@@ -1,0 +1,108 @@
+{
+  "slug": "arabic-numerals",
+  "title": "Arabische-Ziffern-Konverter: Zwischen östlich-arabischen und westlichen Ziffern online kostenlos umschalten",
+  "description": "Kostenloser Konverter zum sofortigen Umschalten zwischen östlich-arabischen Ziffern (٠١٢) und westlichen Ziffern (0123) in Ihrem Browser. Privat, ohne Uploads.",
+  "keywords": ["arabische ziffern konverter", "östlich-arabische ziffern", "arabisch-indische ziffern", "arabische ziffern umwandeln", "٠١٢٣ zu 0123", "arabische ziffern online umrechnen", "östliche zu westliche ziffern"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Zwei Zahlensysteme, eine Familie",
+      "paragraphs": [
+        "Vieles in der arabischen Welt schreibt ٠١٢٣٤٥٦٧٨٩, während digitale Plattformen 0-9 erwarten. Die [arabic-numerals:Umwandlung zwischen arabischen Ziffern und westlichen Ziffern] bringt beide in beide Richtungen sofort in Einklang.",
+        "Korrekte Ziffern im richtigen Kontext verhindern kostspielige Abweichungen.",
+        "ChooseTools wandelt Ziffern lokal in Ihrem Browser um."
+      ]
+    },
+    {
+      "heading": "So wandeln Sie arabische Ziffern um",
+      "paragraphs": [
+        "Die eine oder die andere Richtung, in einem einzigen Schritt:",
+        "Fügen Sie Zahlen in östlich-arabischer Form ein, um westliche Ziffern zu erhalten, oder fügen Sie westliche Ziffern ein, um arabisch-indische Entsprechungen zu bekommen. Gemischter Text wird intakt umgewandelt, sodass Sie einen ganzen Absatz einfügen können, der sowohl arabische Schrift als auch Ziffern enthält, ohne ihn manuell trennen zu müssen.",
+        "Die Umwandlung läuft vollständig auf Ihrem Gerät, was keine Roundtrip-Latenz und keine Abhängigkeit von der Serververfügbarkeit bedeutet. Sie können Ziffern sogar offline umwandeln, solange die Seite bereits in Ihrem Browser geladen ist."
+      ]
+    },
+    {
+      "heading": "Östlich-arabische im Vergleich zu westlichen Ziffern",
+      "paragraphs": [
+        "Östlich-arabische Ziffern (٠١٢٣…) sind eigenständig; Dezimaltrennzeichen und Gruppierungen übersetzen sich direkt. Die Ziffer für Null sieht wie ein Punkt aus, während die übrigen Ziffern Formen haben, die sich komplett von ihren westlichen Pendants unterscheiden – Verwechslungen sind leicht, wenn man nicht aufpasst.",
+        "Zahlen, die in Sätze eingebettet sind, aktualisieren sich gemeinsam, sodass ein Preisschild mit ١٥٠٠٠ ر.س zu 15000 SAR wird, ohne die Währungsabkürzung oder den umgebenden Text zu stören. Das bewahrt den semantischen Kontext, auf den sich Leser verlassen.",
+        "Kontextbewusste Ausgabe bewahrt den umgebenden arabischen Text und stellt sicher, dass Diakritika, Interpunktion und schriftspezifische Formatierung intakt bleiben. Der Konverter fokussiert sich ausschließlich auf Ziffernzeichen und lässt alles andere unangetastet."
+      ]
+    },
+    {
+      "heading": "Praktische Anwendungsfälle für die Ziffernumwandlung",
+      "paragraphs": [
+        "Finanzberichte, die aus regionalen Banksystemen exportiert werden, enthalten oft arabisch-indische Ziffern, die internationale Tabellenkalkulationen nicht parsen können. Diese Zahlen in westliche Ziffern umzuwandeln, erlaubt Standardformeln und Pivot-Tabellen, die Daten korrekt zu verarbeiten. Buchhalter und Prüfer sparen Stunden manueller Neuerfassung, indem sie ganze Zahlenspalten auf einmal in den Konverter einfügen.",
+        "Behördliche Formulare und Registerausgaben in vielen Nahost-Ländern stellen Geburtsdaten, ID-Nummern und Adressen mit östlich-arabischen Ziffern dar. Dieselben Nummern in Online-Portale einzugeben, die westliche Ziffern erwarten, erfordert eine Umwandlung – und das manuell zu tun, lädt Transkriptionsfehler ein. Ein einziger Schritt aus Einfügen und Umwandeln beseitigt das Risiko.",
+        "Lehrmaterial unterrichtet beide Systeme mitunter nebeneinander, und Schüler müssen ihre Umwandlungen verifizieren. Das Werkzeug fungiert als schneller Lösungsschlüssel und bestätigt, dass die manuelle Arbeit eines Schülers der korrekten Ausgabe entspricht. Lehrkräfte können Lösungsblätter schneller vorbereiten, indem sie ganze Übungssätze im Stapel umwandeln.",
+        "Reisende, die Ticketingsysteme, Hotelbuchungen und Flugbestätigungen in arabischsprachigen Ländern nutzen, begegnen auf Belegen und Reiserouten häufig gemischten Ziffernsätzen. Den gesamten Dokumenttext umzuwandeln, stellt sicher, dass jede Referenznummer, jedes Datum und jeder Betrag mit dem übereinstimmt, was die Fluggesellschaft oder das Hotel bei der Ankunft erwartet."
+      ]
+    },
+    {
+      "heading": "Randfälle und Formatierungsdetails",
+      "paragraphs": [
+        "Der Konverter behandelt Dezimaltrennzeichen und Tausendergruppierungssymbole konsistent, sodass eine Zahl wie ١٬٢٣٤٫٥٦ zu 1,234.56 wird, ohne an Präzision zu verlieren. Negative Vorzeichen, Währungssymbole und Prozentzeichen gehen unverändert durch und bewahren die semantische Bedeutung jeder Zahl.",
+        "Sehr große Zahlen, etwa aus nationalen Haushalten oder statistischen Datensätzen, werden ohne Kürzung oder Rundung umgewandelt. Jede Ziffer wird eins zu eins abgebildet, sodass unabhängig von der Größenordnung keine Information verloren geht. Das Werkzeug setzt der Länge der Eingabezeichenkette keine Obergrenze.",
+        "Gemischte Inhalte, die arabische Schrift mit Ziffern und Interpunktion verschränken, werden sauber umgewandelt. Der umgebende Text wird nie verändert; nur die Ziffernzeichen ändern ihre Form. Ganze Absätze, Rechnungen oder Artikelkörper können ohne Vorverarbeitung eingefügt werden."
+      ]
+    },
+    {
+      "heading": "Häufige Fehler und wie man sie vermeidet",
+      "paragraphs": [
+        "Ein häufiger Fehler ist die Verwechslung östlich-arabischer Ziffern mit den standardmäßigen arabischen Ziffern des Westens, die trotz des Namens eigentlich indischen Ursprungs sind. Der Konverter macht diese Unterscheidung deutlich, indem er jeden Satz als separate Zeichenabbildung behandelt, sodass Sie immer die beabsichtigte Ausgabe erhalten.",
+        "Ein weiterer Fehler ist die Annahme, arabischer Text mit eingebetteten Zahlen gehe durch einen Konverter kaputt. In Wirklichkeit ist das Werkzeug kontextbewusst und lässt Nicht-Ziffernzeichen völlig in Ruhe. Sie können ganze Sätze, Absätze oder sogar mehrspaltige Daten ohne Vorverarbeitung einfügen.",
+        "Manchmal vergessen Menschen, dass führende Nullen in Kennnummern, Telefonnummern und Kontocodes wichtig sind. Der Konverter bewahrt jede Ziffer, einschließlich führender Nullen, sodass die Ausgabe eine getreue Darstellung der ursprünglichen Eingabe bleibt."
+      ]
+    },
+    {
+      "heading": "In beiden Richtungen treu",
+      "paragraphs": [
+        "Hin- und Rückwandlungen geben identische Werte zurück und bewahren jede Ziffer.",
+        "Große Zahlen werden ohne Längenfehler umgewandelt.",
+        "Genauigkeit hält in jeder Größenordnung."
+      ]
+    },
+    {
+      "heading": "Datenschutz- und Kompatibilitätshinweise",
+      "paragraphs": [
+        "Da die Umwandlung vollständig im Browser geschieht, werden keine Daten an einen Server übertragen. Das ist besonders wichtig, wenn die Zahlen aus Lohnlisten, Steuererklärungen oder medizinischen Dokumenten stammen, die personenbezogene Informationen tragen. Das Werkzeug speichert, protokolliert oder cached nie eine Eingabe.",
+        "Der Konverter funktioniert in jedem modernen Browser, einschließlich Mobile Safari und Chrome auf Android. Es gibt keine Installation, kein Plug-in und keine Kontopflicht, sodass das Werkzeug von jedem Gerät mit Internetverbindung erreichbar ist. Aktualisierungen der zugrunde liegenden Abbildungstabelle erfolgen serverseitig und werden beim Laden der Seite sofort wirksam.",
+        "Für Teams, die die Ziffernumwandlung in automatisierte Pipelines integrieren müssen, kann dieselbe Abbildungslogik in serverseitigen Skripten nachgebildet werden. Das Online-Werkzeug ist jedoch für Ad-hoc-Einzelumwandlungen gedacht, bei denen Geschwindigkeit und Datenschutz mehr zählen als Stapelverarbeitung."
+      ]
+    },
+    {
+      "heading": "Private Ziffernarbeit",
+      "paragraphs": [
+        "Dokumente und Datensätze mit Ziffern werden lokal umgewandelt.",
+        "Kein Upload, kein Konto, kein Wasserzeichen – auf allen Plattformen.",
+        "Zahlen verlassen nie Ihre Maschine."
+      ]
+    },
+    {
+      "heading": "Ziffern im arabischen Werkzeugset",
+      "paragraphs": [
+        "Kombinieren Sie mit [hijri-gregorian:Datumsumrechnung], [tafqit:Zahlenverschriftlichung] und [remove-tashkeel:Textbereinigung] für vollständige Arabisch-Handhabung.",
+        "Die Suite ist kostenlos und browser-nativ.",
+        "Jede Ziffer, in der richtigen Schrift, sofort."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welche Richtungen werden unterstützt?",
+      "a": "Beide: östlich-arabische Ziffern in westliche Ziffern und westliche Ziffern in östlich-arabische, in wählbarer Richtung."
+    },
+    {
+      "q": "Behandelt es gemischten Text mit Zahlen?",
+      "a": "Ja. Zahlen werden innerhalb der umgebenden arabischen Schrift an Ort und Stelle umgewandelt, ohne die anderen Zeichen zu stören."
+    },
+    {
+      "q": "Ist der Konverter privat?",
+      "a": "Ja. Alles läuft lokal in Ihrem Browser ab, ohne Uploads oder Konten."
+    },
+    {
+      "q": "Kann ich ganze Dokumente auf einmal umwandeln?",
+      "a": "Ja. Fügen Sie ganze Absätze, Rechnungen oder Tabellenblätter ein, und jede Ziffer wird in einem einzigen Durchgang umgewandelt, während der umgebende Text unangetastet bleibt."
+    }
+  ]
+}

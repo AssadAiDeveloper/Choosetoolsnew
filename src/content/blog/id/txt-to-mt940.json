@@ -1,0 +1,132 @@
+{
+  "slug": "txt-to-mt940",
+  "title": "Konverter TXT ke MT940: Buat Pernyataan MT940 dari Teks Secara Online Gratis",
+  "description": "Konverter TXT ke MT940 gratis untuk menghasilkan pernyataan MT940 format bank dari data teks biasa, di browser Anda. Privat, tanpa unggahan, tanpa pendaftaran.",
+  "keywords": ["txt ke mt940", "mt940 dari teks", "hasilkan mt940 txt", "konverter mt940 txt", "buat mt940 dari teks", "txt ke mt940 online", "file mt940 dari teks"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Teks Mentah Masuk, Standar Bank Keluar",
+      "paragraphs": [
+        "Saat sistem menyampaikan data transaksi sebagai teks biasa, mengonversinya ke MT940 membuatnya mudah dicerna oleh bank dan alat perbendaharaan. [txt-to-mt940:Menghasilkan MT940 dari teks polos] menstandarkan baris mentah menjadi format bertag yang diharapkan importir.",
+        "Tanpa spreadsheet, tanpa pengetikan ulang manual — output terstruktur secara langsung.",
+        "ChooseTools mengonversi TXT ke MT940 secara lokal di browser Anda."
+      ]
+    },
+    {
+      "heading": "Cara Mengonversi Teks ke MT940",
+      "paragraphs": [
+        "Dari teks bebas ke pernyataan yang sesuai standar:",
+        "Tempel baris transaksi teks biasa Anda, jelaskan tata letaknya (urutan tanggal, jumlah, deskripsi), dan hasilkan file MT940 yang siap dikirim ke penerima Anda.",
+        "Konversi berjalan secara lokal, menjaga kerahasiaan."
+      ]
+    },
+    {
+      "heading": "Tata Letak Baris Dibaca Secara Otomatis",
+      "paragraphs": [
+        "Baris teks sederhana dan dapat diprediksi dikonversi menjadi tag MT940 yang terstruktur.",
+        "Tanggal dan jumlah dinormalisasi sesuai ekspektasi format.",
+        "Konverter menghasilkan pernyataan yang siap diimpor alih-alih catatan mentah."
+      ]
+    },
+    {
+      "heading": "Untuk Menguji Pernyataan dan Sistem Lama",
+      "paragraphs": [
+        "File pernyataan palsu untuk uji integrasi cepat dibuat dari fixture teks polos.",
+        "Ekspor lama dimigrasikan ke format bank yang dapat digunakan tanpa spreadsheet.",
+        "Data mengalir ke alur kerja modern alih-alih hanya duduk di file teks."
+      ]
+    },
+    {
+      "heading": "Struktur Standar, Tanpa Editasi Manual",
+      "paragraphs": [
+        "Posisi field dan panjang baris terbentuk secara otomatis.",
+        "Konsistensi menjamin bahwa parser downstream memvalidasi file dengan bersih.",
+        "Hasil kelas bank sejak percobaan pertama."
+      ]
+    },
+    {
+      "heading": "Pembuatan Pernyataan Privat",
+      "paragraphs": [
+        "Data teks polos mungkin memuat nomor akun dan saldo; konversi lokal menyegelnya.",
+        "Tanpa unggahan, tanpa akun, tanpa tanda air — lintas platform.",
+        "Pipeline privat, output sesuai standar."
+      ]
+    },
+    {
+      "heading": "Pekerjaan MT940 dalam Suite",
+      "paragraphs": [
+        "Lengkapi siklus dengan [mt940-to-excel:MT940 ke Excel], [excel-to-mt940:Excel ke MT940] dan [csv-to-excel:impor spreadsheet].",
+        "Peralatan ini gratis dan berbasis browser.",
+        "Baris teks menjadi file yang fasih dalam perbankan."
+      ]
+    },
+    {
+      "heading": "Struktur Tag MT940 dan Apa Arti Setiap Field",
+      "paragraphs": [
+        "Format MT940 mengorganisasi data ke dalam urutan field bertag, dimulai dengan tag pernyataan header dasar yang mengidentifikasi akun dan periode pernyataan.",
+        "Baris transaksi menggunakan tag khusus yang mengkodekan tanggal nilai, tanggal pencatat, indikator debit atau kredit, jumlah, dan referensi dalam posisi tetap.",
+        "Tag informasi membawa detail teks bebas seperti deskripsi transaksi, nama mitra, dan informasi pembayaran apa pun yang disertakan bank.",
+        "Memahami tag-tag ini membantu memverifikasi bahwa output yang dikonversi sesuai dengan apa yang diharapkan sistem manajemen perbendaharaan atau perangkat lunak akuntansi Anda."
+      ]
+    },
+    {
+      "heading": "Format Tanggal dan Normalisasi Mata Uang",
+      "paragraphs": [
+        "Bank umumnya mengekspresikan tanggal dalam format enam digit yang digunakan di seluruh pesan SWIFT, sementara sumber teks polos mungkin menyediakan tanggal dalam berbagai tata letak regional.",
+        "Konverter menormalisasi string tanggal ke format standar bank terlepas dari apakah sumber Anda menggunakan tanda hubung, garis miring, atau urutan numerik padat.",
+        "Jumlah mata uang diurai dari teks dan ditempatkan ke field posisi yang benar, menangani pemisah desimal dan pengelompokan ribuan sesuai kebutuhan.",
+        "Langkah normalisasi ini mengeliminasi alasan paling umum kegagalan impor MT940: tanggal atau jumlah yang salah format yang tidak sesuai dengan tata letak yang diharapkan."
+      ]
+    },
+    {
+      "heading": "Menghasilkan Fixture Pengujian untuk Pipeline Integrasi",
+      "paragraphs": [
+        "Tim pengembangan yang membangun integrasi perbendaharaan memerlukan fixture MT940 yang realistis untuk menguji parser, mesin rekonsiliasi, dan impor dasbor.",
+        "Membuat fixture tersebut dari data teks polos jauh lebih cepat daripada mengekspornya dari lingkungan bank langsung, terutama selama tahap pengembangan awal.",
+        "Konverter memungkinkan iterasi cepat: menyesuaikan baris transaksi dalam teks, mengonversi ulang, dan memberi makan hasilnya ke suite pengujian dalam hitungan detik.",
+        "Umpan balik cepat ini menangkap bug parsing sebelum mencapai produksi, di mana transaksi yang salah klasifikasi dapat menyebabkan masalah rekonsiliasi."
+      ]
+    },
+    {
+      "heading": "Kesalahan Validasi Umum dan Cara Menghindarinya",
+      "paragraphs": [
+        "Bank menolak file MT940 yang memiliki tag wajib yang hilang, panjang baris yang salah, atau jumlah yang tidak seimbang dalam bagian pernyataan.",
+        "Konverter memberlakukan panjang field dan posisi karakter secara otomatis, mencegah sebagian besar kegagalan validasi struktural sebelum Anda mengunduh file.",
+        "Jika teks sumber Anda kekurangan field yang diperlukan seperti nomor akun atau nomor pernyataan, alat ini menandai masalah selama konversi alih-alih menghasilkan file yang tidak lengkap.",
+        "Menjalankan pemeriksaan validasi setelah konversi memberikan konfirmasi akhir bahwa output akan lulus gerbang format importir pada pengiriman pertama."
+      ]
+    },
+    {
+      "heading": "Menangani Beberapa Akun dalam Satu Konversi",
+      "paragraphs": [
+        "Organisasi yang mengelola beberapa akun sering perlu menghasilkan pernyataan MT940 terpisah untuk masing-masing, bahkan ketika teks sumber berisi transaksi yang tercampur.",
+        "Konverter memungkinkan pengelompokan transaksi berdasarkan pengidentifikasi akun sebelum menghasilkan output, memastikan setiap file pernyataan sesuai dengan tepat satu akun.",
+        "Pengelompokan ini mencegah kesalahan rekonsiliasi downstream yang terjadi ketika satu file berisi data akun campuran yang tidak dapat dipisahkan parser dengan bersih.",
+        "Desain ramah batch berarti Anda dapat memproses beberapa cuplikan teks secara berurutan tanpa mengonfigurasi ulang pemetaan tata letak setiap kali."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apa yang dibutuhkan konverter dari file teks saya?",
+      "a": "Baris teks yang dapat diprediksi berisi setidaknya tanggal, jumlah, dan deskripsi; tata letak dikonfirmasi selama konversi."
+    },
+    {
+      "q": "Mengapa saya harus menghasilkan MT940 dari teks?",
+      "a": "Untuk memberi makan ekspor lama, fixture pengujian, atau baris ekspor polos ke sistem perbankan yang menerima MT940."
+    },
+    {
+      "q": "Apakah konversi bersifat privat?",
+      "a": "Ya. Semuanya berjalan secara lokal di browser Anda tanpa unggahan atau akun."
+    },
+    {
+      "q": "Format tanggal apa yang digunakan output?",
+      "a": "Tanggal dinormalisasi ke format enam digit SWIFT yang diharapkan parser MT940, terlepas dari format dalam teks sumber Anda."
+    },
+    {
+      "q": "Bisakah saya menghasilkan pernyataan terpisah untuk beberapa akun?",
+      "a": "Ya. Konverter memungkinkan pengelompokan transaksi berdasarkan pengidentifikasi akun sehingga setiap file output sesuai dengan satu akun, mencegah kesalahan rekonsiliasi downstream."
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "slug": "age-calculator",
+  "title": "Calculateur d'âge : calculez l'âge exact en années, mois et jours en ligne gratuitement",
+  "description": "Calculateur d'âge en ligne gratuit pour calculer l'âge exact en années, mois et jours, ou d'une date quelconque à une autre. Instantané, précis et entièrement privé dans votre navigateur.",
+  "keywords": ["calculateur d'âge", "calculer l'âge", "quel âge ai-je", "âge entre deux dates", "calculateur de différence de dates", "âge en années et jours", "calculateur d'anniversaire"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "L'âge exact est un problème de dates, pas une mémoire",
+      "paragraphs": [
+        "Les formulaires veulent des âges précis, les anniversaires méritent des comptages d'anniversaires exacts, et les règles d'éligibilité reposent sur des différences de dates. [age-calculator:Calculer l'âge] précisément élimine les suppositions et les erreurs d'arithmétique.",
+        "Le résultat en années, mois et jours apporte de la clarté aux documents, aux enregistrements et à la planification.",
+        "ChooseTools calcule les âges localement dans votre navigateur, instantanément et en privé."
+      ]
+    },
+    {
+      "heading": "Comment calculer votre âge exact",
+      "paragraphs": [
+        "De la date de naissance à l'âge détaillé en un clic :",
+        "Saisissez la date de naissance et, facultativement, la date du jour ou une date limite personnalisée. L'outil renvoie les années, les mois et les jours, plus les comptages totaux dans chaque unité.",
+        "Tout le calcul est local — aucune donnée d'anniversaire ne quitte jamais votre machine."
+      ]
+    },
+    {
+      "heading": "Âge entre deux dates",
+      "paragraphs": [
+        "Parfois l'intervalle ne concerne pas les anniversaires : la durée entre les dates d'embauche, les mandats, les périodes de projets.",
+        "Saisissez les deux dates et lisez les années, les mois et les jours exacts écoulés entre elles.",
+        "Une arithmétique universelle des dates pour toute échéance légitime."
+      ]
+    },
+    {
+      "heading": "Des réponses pour les formulaires, les enregistrements et l'éligibilité",
+      "paragraphs": [
+        "L'âge en années révolues pour les formulaires, les durées exactes pour les enregistrements, et les différences de dates pour les fenêtres d'éligibilité.",
+        "Plus d'à peu près, plus de malentendus de décalage d'un.",
+        "Le résultat précis est prêt à copier pour les champs et les fichiers."
+      ]
+    },
+    {
+      "heading": "Comment l'âge et la durée sont calculés correctement",
+      "paragraphs": [
+        "Un calculateur d'âge fiable compare les dates composant par composant plutôt que de soustraire aveuglément les numéros d'année du calendrier.",
+        "Si un enfant est né le 29 février d'une année bissextile, l'outil gère correctement les anniversaires dans les années non bissextiles, résolvant au 28 février ou au 1er mars selon la convention.",
+        "Les mois de durées différentes sont pris en compte, de sorte que l'âge rapporté reflète le temps réel plutôt que des approximations arrondies.",
+        "Le résultat est un nombre exact et défendable sur lequel vous pouvez vous fier pour les enregistrements et les décisions."
+      ]
+    },
+    {
+      "heading": "Scénarios pratiques qui exigent l'âge exact",
+      "paragraphs": [
+        "Les compagnies d'assurance exigent l'âge au moment de l'émission de la police, pas une approximation. Les programmes gouvernementaux fixent des seuils d'éligibilité au jour exact où une personne atteint un seuil.",
+        "Les systèmes d'inscription scolaire vérifient qu'un enfant a eu cinq ans à une date précise, et la réponse doit être oui ou non sans ambiguïté.",
+        "Les services des ressources humaines calculent l'ancienneté pour l'accumulation des avantages jusqu'au mois et au jour près, car les erreurs d'arrondi se cumulent en écarts de paie.",
+        "Disposer d'un outil fiable qui renvoie des valeurs précises pour toute paire de dates élimine entièrement ces casse-têtes administratifs."
+      ]
+    },
+    {
+      "heading": "Jalons, anniversaires et planification",
+      "paragraphs": [
+        "L'outil sert aussi d'aide à la planification pour les anniversaires de mariage, les dates de retraite, les anniversaires de travail et les anniversaires charnières.",
+        "Étant donné une date de départ, vous pouvez projeter combien d'années, de mois et de jours jusqu'à un événement cible, ou confirmer exactement depuis combien de temps quelque chose tourne.",
+        "Les planificateurs d'événements utilisent les calculs de durée pour planifier les chronologies de projets, et les particuliers les utilisent pour le suivi d'objectifs personnels.",
+        "La flexibilité du calcul entre deux dates quelconques en fait bien plus qu'un simple outil d'anniversaire."
+      ]
+    },
+    {
+      "heading": "Prise en charge de différents systèmes de calendrier",
+      "paragraphs": [
+        "De nombreuses régions utilisent les calendriers hégirien, bouddhiste ou éthiopien aux côtés du système grégorien ou à sa place. Bien que le calculateur travaille avec les dates grégoriennes, comprendre les différences de calendrier compte pour l'usage international.",
+        "Lorsque vous travaillez entre les systèmes de calendrier, convertissez d'abord en grégorien puis calculez, ou utilisez un outil apparié comme [hijri-gregorian:la conversion hégirienne et grégorienne] pour combler le fossé.",
+        "Cela garantit l'exactitude quel que soit le calendrier que suit la donnée source.",
+        "La conscience inter-calendriers prévient les erreurs de calcul coûteuses dans les organisations mondiales."
+      ]
+    },
+    {
+      "heading": "L'âge dans la prise de décision quotidienne",
+      "paragraphs": [
+        "Au-delà des formalités administratives, l'âge exact affecte des choix banals chaque jour. Les parents vérifient si un enfant est assez grand pour un siège, une classe ou une ligue.",
+        "Les employeurs vérifient les exigences d'âge minimal pour des rôles spécifiques, et les régimes d'avantages fixent les dates d'anniversaire à partir du jour d'embauche plutôt que du début d'un mois.",
+        "Les routines de remise en forme et les remises de voyage dépendent fréquemment de l'atteinte d'un anniversaire précis, où être à un jour près change la réponse.",
+        "Un calcul d'âge fiable élimine ces petits litiges avant qu'ils ne commencent."
+      ]
+    },
+    {
+      "heading": "Calculateurs, santé et dossiers personnels",
+      "paragraphs": [
+        "Les dossiers pédiatriques, les calendriers de vaccination et la documentation d'âge légal reposent tous sur une date de naissance exacte et la date actuelle.",
+        "Les formulaires de santé demandent couramment l'âge en années révolues plus la date de naissance exacte, et la cohérence entre les deux empêche les revues administratives.",
+        "Garder un calcul fiable à portée de main transforme des questions occasionnelles en réponses instantanées et confiantes.",
+        "Que le dossier soit pour une clinique, une école ou un bureau de prestations, la précision protège à la fois l'individu et le fichier."
+      ]
+    },
+    {
+      "heading": "Privé et instantané",
+      "paragraphs": [
+        "Les anniversaires sont des données personnelles ; les calculer localement les garde là où ils appartiennent.",
+        "Aucun envoi, aucun compte, aucun filigrane — sur tous les appareils.",
+        "La précision sans exposition."
+      ]
+    },
+    {
+      "heading": "Les dates dans la boîte à outils",
+      "paragraphs": [
+        "Associez le calcul d'âge à [timestamp-converter:la conversion d'horodatage] ou [hijri-gregorian:la conversion hégirienne et grégorienne] pour le travail de dates mondial.",
+        "La suite est gratuite et native au navigateur.",
+        "Toute question de date, répondue exactement."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Quelles unités le calculateur d'âge rapporte-t-il ?",
+      "a": "Les années, les mois et les jours, plus les comptages totaux dans chaque unité et la différence entre deux dates quelconques que vous fournissez."
+    },
+    {
+      "q": "Puis-je calculer la durée entre deux dates arbitraires ?",
+      "a": "Oui. Saisissez une date de début et une date de fin pour obtenir la période exacte écoulée en années, mois et jours."
+    },
+    {
+      "q": "Le calculateur est-il privé ?",
+      "a": "Oui. Tout le calcul se déroule localement dans votre navigateur, sans aucune donnée quittant votre appareil."
+    },
+    {
+      "q": "Gère-t-il correctement les années bissextiles ?",
+      "a": "Oui. Le calculateur tient compte des années bissextiles et des durées de mois variables, donc les résultats sont exacts même pour les anniversaires de février."
+    }
+  ]
+}

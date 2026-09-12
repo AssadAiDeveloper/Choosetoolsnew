@@ -1,0 +1,122 @@
+{
+  "slug": "sort-lines",
+  "title": "Trier des lignes en ligne gratuitement : alphabétisez et inversez des lignes en un clic",
+  "description": "Trieur de lignes en ligne gratuit pour alphabétiser des lignes de texte, trier numériquement, inverser l'ordre et enlever la sensibilité à la casse dans votre navigateur. Privé, instantané, sans inscription.",
+  "keywords": ["trier des lignes", "trier des lignes par ordre alphabétique", "alphabétiseur", "trier du texte en ligne", "inverser l'ordre des lignes", "trier une liste en ligne", "outil de tri de lignes"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Les listes réclament l'ordre, les humains le réclament vite",
+      "paragraphs": [
+        "Les listes de noms, les listes d'URL, les lignes d'inventaire et les piles de citations réclament toutes un tri. Le faire manuellement invite aux erreurs ; un trieur de lignes ordonne tout instantanément.",
+        "Les tris alphabétique, numérique et inversé couvrent presque tous les cas pratiques.",
+        "ChooseTools trie les lignes localement dans votre navigateur, avec des options de gestion de la casse et une sortie immédiate.",
+        "Ordonner une liste élimine la charge cognitive pour quiconque la lit, que le public soit un humain parcourant un répertoire ou un script traitant des données délimitées par lignes."
+      ]
+    },
+    {
+      "heading": "Comment trier une liste par ordre alphabétique",
+      "paragraphs": [
+        "Ordre rétabli, instantanément.",
+        "Collez vos lignes, choisissez l'ordre alphabétique croissant ou décroissant, et lisez le résultat trié. Basculez la sensibilité à la casse pour que Zebra et apple s'intercalent correctement.",
+        "Le mode numérique trie les nombres selon leur valeur plutôt que selon l'ordre du dictionnaire.",
+        "Le tri alphabétique est l'opération la plus courante pour les listes de contacts, les fiches de vocabulaire, les entrées bibliographiques et tout jeu de données où les noms portent la clé primaire."
+      ]
+    },
+    {
+      "heading": "Tri numérique : les valeurs, pas les lettres",
+      "paragraphs": [
+        "Un tri simple dans de nombreux outils place 10 avant 2 car les chaînes se comparent de façon lexicale. Le mode numérique compare par magnitude.",
+        "Les identifiants, les montants et les mesures s'ordonnent correctement dès que vous changez de mode.",
+        "C'est le bug silencieux que les préférences de tri existent pour empêcher.",
+        "Dans les feuilles de calcul et les bases de données, le même problème apparaît lorsqu'une colonne est saisie en tant que texte ; un trieur numérique basé sur le navigateur le détecte avant que les données n'atteignent la production."
+      ]
+    },
+    {
+      "heading": "Inversez et dédupliquez pendant que vous y êtes",
+      "paragraphs": [
+        "Inverser l'ordre des lignes est toute une catégorie de flux de travail : retourner des listes chronologiques, préparer des piles LIFO, vérifier la symétrie.",
+        "Combinez l'inversion avec un balayage des doublons, ou passez par une déduplication en suivi.",
+        "L'ordre et la propreté arrivent ensemble.",
+        "L'inversion est aussi utile pour inverser des journaux exportés afin que l'entrée la plus récente apparaisse en haut, ce qui accélère la revue manuelle."
+      ]
+    },
+    {
+      "heading": "Scénarios de tri concrets",
+      "paragraphs": [
+        "Les développeurs trient les listes de variables d'environnement avant de les valider dans le contrôle de version afin que les diffs restent propres.",
+        "Les marketeurs alphabétisent les listes de distribution régionales pour une consultation rapide lors de la planification de campagnes.",
+        "Les chercheurs trient les horodatages d'observation numériquement pour vérifier la séquence chronologique avant l'analyse.",
+        "Dans chaque cas, le bénéfice central est le même : transformer un collage brut en un artefact ordonné et immédiatement utilisable."
+      ]
+    },
+    {
+      "heading": "Gestion des espaces de tête et des lignes vides",
+      "paragraphs": [
+        "Les listes collées portent souvent des espaces parasites ou des lignes vides qui cassent les scripts en aval ; le trieur traite chaque ligne indépendamment, quelles que soient les espaces de tête ou de fin.",
+        "Les lignes vides peuvent être conservées pour la séparation visuelle ou supprimées pour produire une liste continue, selon la sortie dont vous avez besoin.",
+        "Nettoyer les espaces pendant le tri économise une étape de prétraitement séparée et maintient le flux de travail à une seule action coller-et-trier."
+      ]
+    },
+    {
+      "heading": "Tri des données multi-colonnes et CSV",
+      "paragraphs": [
+        "Lorsque chaque ligne contient des champs séparés par des virgules, trier par la première colonne alphabétise la clé primaire tout en gardant le reste de la ligne intact.",
+        "C'est utile pour réordonner des exportations CSV où la base de données a déversé des enregistrements dans l'ordre d'insertion mais où la feuille de calcul a besoin d'une présentation alphabétique.",
+        "Combiner le tri de lignes avec un formateur CSV en aval produit un jeu de données entièrement structuré et prêt pour la présentation à partir d'un collage brut."
+      ]
+    },
+    {
+      "heading": "Tri des URL et des chemins de fichiers",
+      "paragraphs": [
+        "Les listes d'URL, les chemins d'inclusion et les manifestes de dépendances sont couramment triés pour normaliser un projet et rendre les revues de diff plus propres.",
+        "Trier les URL alphabétiquement regroupe les sous-domaines et les segments de chemin, ce qui accélère l'inspection manuelle d'un inventaire de liens long.",
+        "La même technique organise une liste de chemins de fichiers afin que les dossiers apparentés apparaissent adjacents, réduisant le temps passé à chercher des entrées."
+      ]
+    },
+    {
+      "heading": "Traitement privé des listes spécifiques aux clients",
+      "paragraphs": [
+        "Les listes de clients, les inventaires non publiés et les données internes se trient localement et restent vôtres.",
+        "Aucun envoi, aucun compte, aucun filigrane — identique sur Windows, macOS, Linux et mobile.",
+        "Un ordre rapide sans regards indiscrets.",
+        "Les registres confidentiels comme les répertoires d'employés ou les listes de participants ne quittent jamais l'appareil, ce qui est essentiel pour la conformité avec les politiques de traitement des données."
+      ]
+    },
+    {
+      "heading": "Le tri au sein de la boîte à outils élargie",
+      "paragraphs": [
+        "Mettez l'ordre au propre, puis formatez avec les outils de casse ou faites un diff avant et après avec l'outil de comparaison de texte.",
+        "Tout est gratuit et natif au navigateur.",
+        "Des listes en parfait ordre, la liste vide votre assiette.",
+        "Après le tri, vous pouvez alimenter directement le résultat dans un formateur CSV ou un utilitaire de suppression de lignes en double pour un nettoyage supplémentaire."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puis-je trier les nombres par leur valeur réelle ?",
+      "a": "Oui. Passez en mode numérique et des valeurs comme 2, 10, 100 s'ordonnent par magnitude plutôt que comme texte."
+    },
+    {
+      "q": "Le trieur gère-t-il la casse de façon judicieuse ?",
+      "a": "Oui. Une option de casse vous permet de décider si les lignes triées traitent la casse des lettres de façon égale."
+    },
+    {
+      "q": "Le trieur de lignes est-il privé ?",
+      "a": "Oui. Le tri se déroule localement dans votre navigateur, sans envois ni comptes."
+    },
+    {
+      "q": "Puis-je inverser l'ordre des lignes ?",
+      "a": "Oui. Un seul interrupteur inverse la liste en ordre décroissant, utile pour retourner des exportations chronologiques ou créer des séquences de compte à rebours."
+    },
+    {
+      "q": "Le tri préservera-t-il les lignes d'origine exactement ?",
+      "a": "Oui. Le trieur réordonne les lignes entières comme des unités complètes, donc le texte de chaque ligne reste intact pendant que sa position change."
+    },
+    {
+      "q": "Puis-je trier une liste qui contient à la fois des mots et des nombres ?",
+      "a": "Oui. Choisissez le mode qui correspond au type de contenu dominant, ou utilisez le mode alphabétique lorsque vous mélangez des mots et des nombres en texte brut."
+    }
+  ]
+}

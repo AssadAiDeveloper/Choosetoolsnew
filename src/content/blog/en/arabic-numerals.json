@@ -1,0 +1,108 @@
+{
+  "slug": "arabic-numerals",
+  "title": "Arabic Numerals Converter: Convert Between Eastern Arabic and Western Digits Online Free",
+  "description": "Free converter to switch between Eastern Arabic numerals (٠١٢) and Western digits (0123) instantly in your browser. Private, no uploads.",
+  "keywords": ["arabic numerals converter", "eastern arabic numerals", "arabic indian numerals", "convert arabic digits", "٠١٢٣ to 0123", "arabic numeral converter online", "eastern to western digits"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Two Numbering Systems, One Family",
+      "paragraphs": [
+        "Much of the Arab world writes ٠١٢٣٤٥٦٧٨٩ while digital platforms expect 0-9. [arabic-numerals:Converting between Arabic numerals and Western digits] reconciles the two in either direction instantly.",
+        "Correct digits in the right context prevent costly mismatches.",
+        "ChooseTools converts numerals locally in your browser."
+      ]
+    },
+    {
+      "heading": "How to Convert Arabic Numerals",
+      "paragraphs": [
+        "One direction or the other, in a single step:",
+        "Paste numbers in Eastern Arabic form to receive Western digits, or paste Western digits to get Arabic-Indic equivalents. Mixed text converts intact, so you can paste an entire paragraph that contains both Arabic script and numerals without worrying about manually separating them.",
+        "Conversion runs entirely on your device, which means there is no round-trip latency and no dependency on server availability. You can convert numerals even when you are offline, as long as the page has already loaded in your browser."
+      ]
+    },
+    {
+      "heading": "Eastern Arabic vs. Western Digits",
+      "paragraphs": [
+        "Eastern Arabic numerals (٠١٢٣…) are distinct; decimals and groupings translate directly. The digit for zero looks like a dot, while the remaining digits have shapes that differ entirely from their Western counterparts, making confusion easy if you are not paying attention.",
+        "Numbers embedded in sentences update together, so a price tag reading ١٥٠٠٠ ر.س becomes 15000 SAR without disturbing the currency abbreviation or surrounding text. This preserves the semantic context that readers rely on.",
+        "Context-aware output preserves surrounding Arabic text, ensuring that diacritics, punctuation and script-specific formatting stay intact. The converter focuses solely on digit characters, leaving everything else untouched."
+      ]
+    },
+    {
+      "heading": "Real-World Use Cases for Digit Conversion",
+      "paragraphs": [
+        "Financial reports exported from regional banking systems often contain Arabic-Indic digits that international spreadsheets cannot parse. Converting those figures to Western digits allows standard formulas and pivot tables to process the data correctly. Accountants and auditors save hours of manual re-entry by pasting entire columns of figures into the converter at once.",
+        "Government forms and civil registry outputs in many Middle Eastern countries present birth dates, ID numbers and addresses using Eastern Arabic digits. Submitting those same numbers to online portals that expect Western digits requires conversion, and doing it manually invites transcription errors. A single paste-and-convert step eliminates the risk.",
+        "Educational materials sometimes teach both systems side by side, and students need to verify their conversions. The tool acts as a quick answer key, confirming that a student's manual work matches the correct output. Teachers can prepare answer sheets faster by converting entire problem sets in bulk.",
+        "Travelers navigating ticketing systems, hotel bookings and airline confirmations in Arabic-speaking countries frequently encounter mixed digit sets on receipts and itineraries. Converting the full document text ensures that every reference number, date and amount lines up with what the airline or hotel expects on arrival."
+      ]
+    },
+    {
+      "heading": "Edge Cases and Formatting Details",
+      "paragraphs": [
+        "The converter handles decimal separators and thousand-grouping symbols consistently, so a figure like ١٬٢٣٤٫٥٦ becomes 1,234.56 without losing precision. Negative signs, currency symbols and percentage markers pass through unchanged, preserving the semantic meaning of each number.",
+        "Very large numbers, including those found in national budgets or statistical datasets, convert without truncation or rounding. Each digit maps one-to-one, so no information is lost regardless of magnitude. The tool does not impose any upper limit on the length of the input string.",
+        "Mixed content that interlaces Arabic script with numerals and punctuation converts cleanly. The surrounding text is never altered; only the digit characters change form. This means entire paragraphs, invoices or article bodies can be pasted without preprocessing."
+      ]
+    },
+    {
+      "heading": "Common Mistakes and How to Avoid Them",
+      "paragraphs": [
+        "One frequent error is confusing Eastern Arabic numerals with the standard Arabic numerals used in the West, which are actually of Indian origin despite the name. The converter makes this distinction clear by treating each set as a separate character mapping, so you always get the intended output.",
+        "Another mistake is assuming that Arabic text with embedded numbers will break if you run it through a converter. In reality, the tool is context-aware and leaves non-digit characters completely alone. You can paste full sentences, paragraphs or even multi-column data without preprocessing.",
+        "People sometimes forget that leading zeros matter in identification numbers, phone numbers and account codes. The converter preserves every digit, including leading zeros, so the output remains a faithful representation of the original input."
+      ]
+    },
+    {
+      "heading": "Faithful in Both Directions",
+      "paragraphs": [
+        "Round trips return identical values, preserving every digit.",
+        "Large numbers convert without length errors.",
+        "Accuracy holds at any magnitude."
+      ]
+    },
+    {
+      "heading": "Privacy and Compatibility Notes",
+      "paragraphs": [
+        "Because conversion happens entirely in the browser, no data is transmitted to any server. This matters especially when the numbers come from payroll records, tax filings or medical documents that carry personally identifiable information. The tool never stores, logs or caches any input.",
+        "The converter works on every modern browser, including mobile Safari and Chrome on Android. There is no installation, no plug-in and no account requirement, so the tool is accessible from any device with a web connection. Updates to the underlying mapping table happen server-side and take effect immediately on page load.",
+        "For teams that need to integrate digit conversion into automated pipelines, the same mapping logic can be replicated in server-side scripts. The online tool, however, is designed for ad-hoc, one-off conversions where speed and privacy matter more than batch processing."
+      ]
+    },
+    {
+      "heading": "Private Digit Work",
+      "paragraphs": [
+        "Documents and datasets with numerals convert locally.",
+        "No upload, no account, no watermark — across platforms.",
+        "Numbers never leave your machine."
+      ]
+    },
+    {
+      "heading": "Numerals in the Arabic Toolkit",
+      "paragraphs": [
+        "Pair with [hijri-gregorian:date conversion], [tafqit:number speller] and [remove-tashkeel:text clean-up] for complete Arabic handling.",
+        "The suite is free and browser-native.",
+        "Every digit, in the right script, instantly."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which directions are supported?",
+      "a": "Both: Eastern Arabic numerals to Western digits and Western digits to Eastern Arabic, in selectable direction."
+    },
+    {
+      "q": "Does it handle mixed text containing numbers?",
+      "a": "Yes. Numbers convert in place within surrounding Arabic script without disturbing the other characters."
+    },
+    {
+      "q": "Is the converter private?",
+      "a": "Yes. Everything runs locally in your browser with no uploads or accounts."
+    },
+    {
+      "q": "Can I convert entire documents at once?",
+      "a": "Yes. Paste full paragraphs, invoices or spreadsheets and every digit converts in a single pass while surrounding text remains untouched."
+    }
+  ]
+}

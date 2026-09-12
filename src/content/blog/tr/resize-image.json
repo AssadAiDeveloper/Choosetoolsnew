@@ -1,0 +1,102 @@
+{
+  "slug": "resize-image",
+  "title": "Görüntüyü Çevrimiçi Ücretsiz Yeniden Boyutlandırma: Görüntü Boyutlarını Anında Değiştirin",
+  "description": "ChooseTools ile görüntüyü çevrimiçi ücretsiz yeniden boyutlandırın. Tarayıcınızda herhangi bir fotoğrafın genişliğini, yüksekliğini ve çözünürlüğünü kaliteyi yüksek tutarak değiştirin — yükleme yok, filigran yok.",
+  "keywords": ["görüntü yeniden boyutlandırma", "görüntüyü çevrimiçi ücretsiz yeniden boyutlandırma", "görüntü boyutlarını değiştirme", "kalite kaybı olmadan fotoğraf boyutlandırma", "görüntü boyutlandırıcı", "görüntüyü küçük kb yapma", "instagram için görüntü boyutlandırma"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Her Platformun Kendi Boyut Gereksinimleri Vardır",
+      "paragraphs": [
+        "Instagram 1080×1080 ister, LinkedIn banner'ları 1584×396, e-posta ekleri birkaç megabaytın altında. Uyumsuz bir fotoğrafı ortalıkta dolaştırmak bozulmaya, reddedilmeye veya harcanan bant genişliğine neden olur. [resize-image:Görüntüleri yeniden boyutlandırmak], tam hedefe yönelik olarak rutin ama temel bir işlemdir.",
+        "Yeniden boyutlandırma bilgi kaybettirdiğinden, hüner, hedefi vururken keskinliği korumaktır — kaliteli bir boyutlandırıcının tam olarak dengelediği şey budur.",
+        "ChooseTools, görüntüleri tarayıcınızda yerel olarak yeniden boyutlandırır. Boyutları piksel, yüzde veya yaygın hazır ayarlar olarak seçin ve hiçbir yükleme olmadan optimize edilmiş dosyayı indirin."
+      ]
+    },
+    {
+      "heading": "Bir Fotoğrafı Adım Adım Yeniden Boyutlandırma",
+      "paragraphs": [
+        "İstenen boyuta fotoğraflar, tek temiz geçişte:",
+        "Görselinizi ekleyin ve bir yeniden boyutlandırma yöntemi seçin — tam genişlik ve yükseklik, orijinalin yüzdesi veya sosyal platformlar için yardımcı bir hazır ayar. Bozulmayı önlemek için tek tıkla oranları sabitleyin, ardından dışa aktarın.",
+        "İşlem yerel olarak gerçekleştiğinden önizlemeler anındadır ve birden çok deneme hiçbir şeye mal olmaz."
+      ]
+    },
+    {
+      "heading": "En Boy Oranını Kilitleyin: Bozulmadan Yeniden Boyutlandırın",
+      "paragraphs": [
+        "Bir fotoğrafı rastgele sayıları tutturmak için germek yüzleri, logoları ve metni mahveder. En boy oranını korumak, hedefi tam olarak doldurarak eşit şekilde ölçekler.",
+        "Aracın oran kilidi, 1024×768'in istediğiniz her boyutta 4:3 kalmasını garanti eder; fotoğraf gerektiğinde letterbox yapılır veya düzgünce kırpılır.",
+        "Bu, profesyonelce hazırlanmış görünen bir görüntü ile ezilmiş diye bağıran bir görüntü arasındaki farktır."
+      ]
+    },
+    {
+      "heading": "Dev Ham Dosyalardan Web'e Hazır Boyutlara",
+      "paragraphs": [
+        "4000 piksellik bir kamera karesi, bir blog veya mağaza için fazlasıyla büyüktür. Yeniden boyutlandırma, onu görüntüleme boyutlarına indirir ve megabaytları da onunla birlikte azaltır.",
+        "Bu, görünür kalite kaybı olmadan daha küçük görüntülere giden en hızlı yoldur. İsteğe bağlı olarak aşırı inceltme için [compress-image:görüntü sıkıştırma] ile birlikte kullanın.",
+        "Web siteleri daha hızlı yüklenir, formlar dosyayı kabul eder ve galeriler akıcı kayar — tümü tek bir hızlı yeniden boyutlandırmayla."
+      ]
+    },
+    {
+      "heading": "Hangi Platform Hangi Boydaki Görseli Gerektirir",
+      "paragraphs": [
+        "Her ağın, gereksiz dosya ağırlığı olmadan net gösterim için ideal bir görüntü boyutu vardır. Instagram gönderileri 1080'e 1080'de, hikâyeler 1080'e 1920'de ve profil resimleri 320'ye 320'de en iyi görünür.",
+        "Twitter akış görselleri genellikle 1600'e 900'de, Facebook paylaşılan bağlantılar için 1200'e 630'da ve LinkedIn banner'ları 1584'e 396'da iyi çalışır.",
+        "Blog öne çıkan görselleri genellikle yaklaşık 1200 piksel genişliğinde, e-posta başlıkları ise çoğu istemcinin içinde oluşturulmak için yaklaşık 600 piksel genişliğinde olmalıdır.",
+        "Bu hedefleri doğrudan hazır ayar olarak kullanmak tahmin yürütmeyi ortadan kaldırır ve amaçlanan akışta keskin görünen görüntüler sunar."
+      ]
+    },
+    {
+      "heading": "Fotoğrafları Küçültürken Kaliteyi Koruma",
+      "paragraphs": [
+        "İyi yeniden boyutlandırma araçları, orijinal pikselleri yumuşak biçimde harmanlamak için enterpolasyon kullanır; böylece büyük bir fotoğrafı daha küçük bir boyuta indirmek keskin ve görünür bozukluklardan arınmış kalır.",
+        "Hatırlanması gereken kural: bir görüntüyü görünür kayıp olmadan küçültmek güvenlidir, ancak küçük bir görüntüyü büyütmek yalnızca mevcut pikselleri yayar ve yumuşaklığı ortaya çıkarır.",
+        "Araç her seferinde orijinal piksellerden yerel olarak oluşturduğundan, birkaç hedef boyutu deneyebilir ve kalite ile dosya ağırlığını en iyi dengeleyeni saklayabilirsiniz.",
+        "Sonuç, orijinalin ağır megabaytları olmadan ekranda amaçlandığı gibi görünen yeniden boyutlandırılmış bir fotoğraftır."
+      ]
+    },
+    {
+      "heading": "Dışa Aktarmadan Önce Sonucu Kontrol Etme",
+      "paragraphs": [
+        "Önizleme, son dışa aktarım kareyi yargılamadan önceki son savunma hattıdır.",
+        "Kenarların temiz kaldığını ve yüzlerin keskin durduğunu doğrulamak için yakınlaştırın, ardından hedefin karşılandığını doğrulamak için bildirilen piksel boyutlarına göz atın.",
+        "Yeniden boyutlandırmadan sonra kompozisyon hatalı hissettirirse, küçültülmüş bir sürümü kabul etmek yerine adımı biraz farklı bir çerçeveyle tekrarlayın.",
+        "Yerel oluşturma, bu kontrol-et-ve-yeniden-dene döngüsünü pratikte ücretsiz yapar; böylece dışa aktarılan dosya her zaman en iyi deneme olur."
+      ]
+    },
+    {
+      "heading": "Hassas veya Yayınlanmamış Fotoğraflar için Özel Yeniden Boyutlandırma",
+      "paragraphs": [
+        "Yeniden boyutlandırma, fotoğrafınızın piksellerini okur. Bunu yerel olarak yapmak; yayınlanmamış tasarımların, özel portrelerin ve müşteri varlıklarının yerinde kalması anlamına gelir.",
+        "Yükleme yok, filigran yok, hesap yok — aynı araç Windows, macOS, Linux, tabletler ve telefonlarda çalışır.",
+        "Ne elde ettiğinizi her seferinde saniyeler içinde tam olarak siz kontrol edersiniz."
+      ]
+    },
+    {
+      "heading": "Görüntü Setinin Geri Kalanıyla Birlikte Yeniden Boyutlandırma",
+      "paragraphs": [
+        "Tipik hatlar: kompozisyonu [crop-image:kırpın], hedefe göre yeniden boyutlandırın, teslim için sıkıştırın ve gereken biçim için [convert-image:dönüştürün].",
+        "Komple paket tarayıcı içinde ve özel çalışır; böylece görüntü hazırlığı asla bir bulut yüklemesine bağlı olmaz.",
+        "Rutin boyut değişiklikleri artık bir masaüstü uygulaması sapması değil, beş saniyelik bir adımdır."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tam piksel değerleriyle veya yüzdeyle yeniden boyutlandırabilir miyim?",
+      "a": "Evet. Genişlik ve yüksekliği piksel olarak belirtin, yüzdeyle ölçeklendirin veya yaygın hazır ayarları seçin; en boy oranı kilidi bozulmayı önler."
+    },
+    {
+      "q": "Yeniden boyutlandırma görüntü kalitesini düşürür mü?",
+      "a": "İyi enterpolasyon, makul küçültmelerde fotoğrafları keskin tutar. Aşırı büyütmeler, her yeniden boyutlandırıcıda olduğu gibi orijinal veriyle sınırlıdır."
+    },
+    {
+      "q": "Görüntü yeniden boyutlandırıcı ücretsiz ve özel midir?",
+      "a": "Evet. Her şey, yükleme, filigran veya hesap olmadan tarayıcınızda yerel olarak çalışır — fotoğrafınız cihazınızdan asla çıkmaz."
+    },
+    {
+      "q": "Sosyal medya görselleri için iyi bir boyut nedir?",
+      "a": "Instagram gönderileri 1080'e 1080'de, Facebook paylaşılan bağlantıları 1200'e 630'da ve LinkedIn banner'ları 1584'e 396'da iyi çalışır. Yararlı hazır ayarlar bu durumları kapsar."
+    }
+  ]
+}

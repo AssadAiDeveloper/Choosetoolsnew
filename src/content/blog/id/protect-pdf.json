@@ -1,0 +1,95 @@
+{
+  "slug": "protect-pdf",
+  "title": "Cara Melindungi PDF dengan Kata Sandi Online Gratis: Enkripsi Dokumen Anda",
+  "description": "Lindungi PDF dengan kata sandi online gratis dengan ChooseTools. Enkripsi dokumen Anda dengan kata sandi yang kuat di browser Anda — tanpa unggahan, tanpa watermark, privasi penuh.",
+  "keywords": ["lindungi pdf dengan kata sandi", "lindungi pdf dengan password", "enkripsi pdf", "tambahkan kata sandi ke pdf online gratis", "amankan file pdf", "kunci dokumen pdf", "alat enkripsi pdf gratis"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Mengapa Beberapa File Harus Dikunci",
+      "paragraphs": [
+        "Tidak semua PDF ditujukan untuk mata terbuka. Pernyataan bank, kontrak yang ditandatangani, hasil medis, dan laporan yang belum dirilis lebih baik jika tersegel. [protect-pdf:Melindungi PDF dengan kata sandi] membungkus konten sehingga hanya orang dengan kunci yang dapat membukanya.",
+        "Enkripsi juga tentang kepercayaan dalam transit — email lebih bocor dari yang kita duga, dan file yang terkunci tetap aman ketika salah Cc.",
+        "ChooseTools mengenkripsi PDF secara lokal di browser Anda. Atur kata sandi, unduh file yang dilindungi, dan tidak ada versi dokumen Anda yang pernah meninggalkan perangkat Anda."
+      ]
+    },
+    {
+      "heading": "Cara Menambahkan Kata Sandi ke PDF",
+      "paragraphs": [
+        "Mengunci file Anda memakan waktu kurang dari satu menit.",
+        "Unggah PDF Anda dan pilih kata sandi yang kuat — kami menyarankan frasa yang benar-benar acak. Konfirmasikan, dan alat ini mengenkripsi dokumen di browser dan menghasilkan PDF yang dilundungi untuk diunduh.",
+        "Karena enkripsi berjalan lokal, kata sandi dan file keduanya hanya ada di mesin Anda. Bagikan kata sandi kepada penerima melalui saluran terpisah."
+      ]
+    },
+    {
+      "heading": "Kata Sandi Kuat untuk Perlindungan Nyata",
+      "paragraphs": [
+        "Kekuatan enkripsi tergantung pada kualitas kata sandi: kata-kata kamus pendek bahkan dapat membongkar algoritme enkripsi yang baik.",
+        "Gunakan frasa sandi panjang yang unik untuk dokumen — dua belas karakter atau lebih yang menggabungkan huruf besar-kecil dan angka — dan simpan di pengelola kata sandi Anda.",
+        "Jika Anda memerlukan titik awal yang kuat, [password-generator:pembuat kata sandi] dari suite ini membuat frasa sandi acak dan mudah diingat dalam satu detik."
+      ]
+    },
+    {
+      "heading": "Apa yang Sebenarnya Dilakukan Enkripsi PDF",
+      "paragraphs": [
+        "Enkripsi PDF mengacak konten dokumen sehingga membuka file tanpa kata sandi yang benar hanya menghasilkan huruf acak. Algoritme kuat seperti AES-256 dengan kata sandi yang cukup panjang menahan serangan brute-force untuk tujuan praktis.",
+        "Tingkat keamanan penting: standar enkripsi 40-bit dan 128-bit yang lebih tua sekarang dianggap lemah, sementara enkripsi AES 256-bit modern adalah praktik terbaik saat ini. Output menggunakan enkripsi kuat sehingga file yang dilindungi memenuhi ekspektasi keamanan masa kini.",
+        "Enkripsi tidak mencetak watermark ke dokumen Anda atau mengubah tata letaknya; ia sekadar membatasi akses. Penerima yang memasukkan kata sandi yang benar membuka dan menggunakan PDF tepat seperti yang Anda buat."
+      ]
+    },
+    {
+      "heading": "Dokumen Sensitif di Setiap Skenario",
+      "paragraphs": [
+        "SDM membagikan surat penawaran, akuntan mendistribusikan ringkasan tahunan, pengacara bertukar draft perjanjian — semuanya memerlukan kata sandi.",
+        "Enkripsi berlapis bersih dengan perlindungan lain: redaksi dengan [pdf-redaction:redaksi PDF] konten paling sensitif, ratakan dengan [flatten-pdf:ratakan PDF], lalu kunci file akhir.",
+        "PDF yang terkunci hanya terbuka dengan kata sandi dan tetap tidak dapat dibaca oleh siapa pun termasuk filter email."
+      ]
+    },
+    {
+      "heading": "Membagikan Kata Sandi dengan Aman",
+      "paragraphs": [
+        "Mengirimkan kata sandi dalam email yang sama dengan PDF mengalahkan seluruh tujuan enkripsi, karena kompromi kotak surat mengekspos keduanya sekaligus. Kirimkan dokumen ke satu saluran dan kata sandi melalui saluran yang benar-benar terpisah, seperti SMS atau telepon.",
+        "Aplikasi pesan seluler dengan enkripsi ujung-ke-ujung menawarkan opsi yang lebih aman untuk pengiriman frasa sandi. Pengelola kata sandi juga dapat berbagi kredensial langsung dengan penerima alih-alih mengirimkan rahasia teks biasa.",
+        "Jika Anda harus menyimpan kata sandi, simpan di pengelola kata sandi alih-alih sebagai catatan yang dilampirkan ke file. Ini menjaga rahasia tetap terorganisir dan dapat diambil jika Anda mengirim dokumen yang sama ke lebih dari satu orang."
+      ]
+    },
+    {
+      "heading": "Enkripsi Lokal Menghormati Data Anda",
+      "paragraphs": [
+        "Mengirim PDF rahasia ke layanan cloud agar «dilindungi» justru merusak seluruh tujuannya. Di sini, enkripsi terjadi di mesin Anda.",
+        "Tanpa watermark, tanpa akun, tanpa penggunaan ulang konten Anda, dan perilaku identik di Windows, macOS, Linux, dan browser seluler.",
+        "Gratis dan privat, melindungi dokumen tersedia saat Anda membutuhkannya, dari perangkat apa pun."
+      ]
+    },
+    {
+      "heading": "Perlindungan sebagai Gerbang Terakhir",
+      "paragraphs": [
+        "Kebanyakan alur kerja memperlakukan enkripsi sebagai sentuhan akhir: selesaikan dengan [pdf-editor:pengeditan], [compress-pdf:kompresi] untuk ukuran, lalu kunci sebelum dikirim.",
+        "Jaga kata sandi dan daftar penerima tetap terorganisir, dan file yang dilindungi yang sama dapat beredar tanpa pernah kehilangan kerahasiaannya.",
+        "Intinya: dengan enkripsi berbasis browser yang gratis, setiap PDF sensitif meninggalkan meja Anda dalam keadaan tersegel."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apakah perlindungan kata sandi benar-benar mengenkripsi konten PDF?",
+      "a": "Ya. Alat ini menerapkan enkripsi PDF nyata yang dikunci dengan kata sandi Anda; dokumen tidak dapat dibuka tanpa frasa sandi yang benar."
+    },
+    {
+      "q": "Apa praktik terbaik untuk kata sandi yang saya atur?",
+      "a": "Gunakan frasa sandi panjang dan unik minimal dua belas karakter yang menggabungkan huruf, angka, dan simpan di pengelola kata sandi dan bagikan kepada penerima melalui saluran aman."
+    },
+    {
+      "q": "Apakah enkripsi PDF tersedia secara gratis dan privat?",
+      "a": "Ya. Semuanya berjalan secara lokal di browser Anda tanpa unggahan, watermark, atau akun — hanya Anda yang pernah menangani dokumen."
+    },
+    {
+      "q": "Bisakah saya menghapus kata sandi nanti?",
+      "a": "Ya. Buka dokumen dengan kata sandi yang Anda atur dan gunakan fitur dekripsi atau buka kunci untuk menghasilkan PDF baru yang tidak dilindungi ketika file tidak lagi membutuhkan perlindungan."
+    },
+    {
+      "q": "Apakah PDF yang terenkripsi akan terlihat berbeda dari yang asli?",
+      "a": "Tidak. Enkripsi mengubah cara file dibuka, bukan tampilannya. Konten, tata letak, dan pemformatan dokumen dipertahankan secara persis."
+    }
+  ]
+}

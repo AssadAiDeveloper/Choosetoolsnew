@@ -1,0 +1,115 @@
+{
+  "slug": "excel-to-csv",
+  "title": "Conversor de Excel para CSV: Converta XLSX para CSV Online Grátis",
+  "description": "Conversor gratuito de Excel para CSV para transformar folhas de cálculo XLSX em ficheiros CSV simples, folha a folha, no seu navegador. Privado, sem uploads, sem registo.",
+  "keywords": ["excel para csv", "conversor de xlsx para csv", "converter excel para csv", "excel para csv online grátis", "exportar xlsx como csv", "folha de cálculo para csv", "ferramenta excel para csv"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Excel em Todo o Lado, CSV Onde Vai o Processamento",
+      "paragraphs": [
+        "Os sistemas, as bases de dados e os scripts ingerem CSV muito mais facilmente do que XLSX. A [excel-to-csv:Conversão de Excel para CSV] produz a forma simples e universalmente legível que todos os pipelines querem.",
+        "A conversão preserva os valores das células enquanto remove a complexidade binária do Excel, as fórmulas e a sobrecarga de formatação.",
+        "A ChooseTools converte XLSX para CSV localmente no seu navegador, tratando folhas e delimitadores com precisão."
+      ]
+    },
+    {
+      "heading": "Como Converter um Ficheiro Excel para CSV",
+      "paragraphs": [
+        "Do livro de trabalho a linhas limpas:",
+        "Carregue o ficheiro XLSX, escolha qual a folha a exportar e o delimitador (vírgula, ponto e vírgula), e converta. O CSV é descarregado pronto para scripts, CRMs ou importações de bases de dados.",
+        "O livro de trabalho é analisado no seu dispositivo — sem uploads envolvidos e nenhum dado sai da sua máquina."
+      ]
+    },
+    {
+      "heading": "Seleção de Folhas e Controlo do Delimitador",
+      "paragraphs": [
+        "Os livros de trabalho com várias folhas convertem-se folha a folha; escolha a que importa para a sua tarefa atual ou processe cada uma separadamente.",
+        "A escolha do delimitador mantém felizes as ferramentas sensíveis à região, quer o CSV use vírgulas em ambientes de língua inglesa quer ponto e vírgula nos europeus.",
+        "A saída junta-se exatamente ao pipeline que a vai consumir, sem pós-processamento necessário."
+      ]
+    },
+    {
+      "heading": "Considerações sobre Codificação e Conjuntos de Caracteres",
+      "paragraphs": [
+        "As folhas de cálculo contêm frequentemente caracteres acentuados, scripts da direita para a esquerda e símbolos que os formatos de texto simples podem estragar se a codificação estiver errada. O conversor exporta CSV codificado em UTF-8 por predefinição, preservando cada caractere exatamente como aparece no livro de trabalho.",
+        "Alguns sistemas legados esperam ficheiros codificados em ANSI ou ISO-8859-1. Quando a ferramenta de destino exige uma codificação específica, escolher o conjunto de caracteres de saída correto evita o texto baralhado que aparece quando um nome de cliente francês ou um rótulo de campo árabe chega como mojibake ilegível.",
+        "As marcas de ordem de byte, o prefixo invisível de três bytes que sinaliza UTF-8 a certos analisadores, são tratadas corretamente. Os sistemas que exigem BOM recebem uma, e os que a rejeitam recebem saída limpa sem o prefixo, evitando o erro da primeira linha vazia que muitos utilizadores de Excel para CSV encontram."
+      ]
+    },
+    {
+      "heading": "Porque É Que o CSV Vence na Troca de Dados",
+      "paragraphs": [
+        "Analisadores universais, diffs amigáveis a versões e scripting trivial favorecem o CSV em relação aos formatos proprietários de folhas de cálculo.",
+        "As exportações bancárias, as plataformas de marketing e as importações de analytics são nativas de CSV, tornando a conversão uma ponte de um passo para todas as ferramentas ligadas.",
+        "Uma conversão desbloqueia todas as ferramentas que leem linhas simples, desde carregadores de bases de dados a sistemas de email marketing."
+      ]
+    },
+    {
+      "heading": "Valores Limpos, Codificação Fiável",
+      "paragraphs": [
+        "Números, datas e texto transferem-se fielmente, com células que contêm vírgulas corretamente entre aspas para evitar erros de divisão de campos.",
+        "A codificação permanece intacta para dados acentuados e multilingues, de modo que nomes de clientes e descrições de produtos chegam legíveis.",
+        "A importação a jusante simplesmente funciona, quer o destino seja uma base de dados relacional, um CRM ou um dashboard de relatórios."
+      ]
+    },
+    {
+      "heading": "Processamento em Lote e Livros de Trabalho Grandes",
+      "paragraphs": [
+        "As folhas de cálculo empresariais contêm frequentemente centenas de milhares de linhas em várias folhas. O conversor processa estes ficheiros grandes inteiramente em memória no seu dispositivo, produzindo saída CSV limpa sem os tempos limite ou limites de tamanho de upload que os servidores online impõem.",
+        "Quando cada folha de um livro de trabalho importa, exportá-las individualmente dá-lhe um CSV por folha com formatação consistente. Esta abordagem evita a ambiguidade de concatenar todas as folhas num único ficheiro onde os cabeçalhos das colunas já não se alinham.",
+        "As tabelas muito largas, com dezenas de colunas, convertem-se tão fielmente quanto as altas e estreitas. A saída CSV coloca entre aspas qualquer célula que contenha o delimitador escolhido, novas linhas ou aspas, de modo que até estruturas de dados complexas sobrevivem intactas ao ciclo."
+      ]
+    },
+    {
+      "heading": "Variantes de CSV e Compatibilidade Regional",
+      "paragraphs": [
+        "O RFC 4180 define o formato padrão delimitado por vírgulas, mas as convenções regionais variam muito. Os ambientes alemão, francês e espanhol usam normalmente ponto e vírgula como delimitador porque as vírgulas servem de separadores decimais nesses formatos numéricos.",
+        "Os valores separados por tabulação servem de alternativa quando as vírgulas aparecem frequentemente nos próprios dados. Escolher o delimitador de tabulação evita aspas excessivas e produz ficheiros que colam de forma limpa em editores de texto simples e ferramentas de terminal.",
+        "O conversor corresponde a qualquer variante que o seu sistema de destino espere, de modo que a saída abre corretamente à primeira em vez de mostrar uma única coluna longa de campos concatenados."
+      ]
+    },
+    {
+      "heading": "Dados Financeiros e de Clientes Privados",
+      "paragraphs": [
+        "Os livros de trabalho contêm frequentemente os números mais sensíveis que uma organização possui; a conversão local mantém-nos selados internamente, sem exposição externa.",
+        "Sem uploads, sem conta, sem marca de água — em todas as plataformas e dispositivos.",
+        "Sigilo de folhas de cálculo preservado, com cada conversão a ocorrer inteiramente dentro do seu navegador."
+      ]
+    },
+    {
+      "heading": "Interoperabilidade Excel no Kit de Ferramentas de Dados",
+      "paragraphs": [
+        "Combine com [csv-to-excel:CSV para Excel], [excel-to-json:Excel para JSON] e [csv-json:CSV para JSON] para trabalho de dados em ciclo completo entre formatos.",
+        "A suite é gratuita e nativa do navegador, sem exigir instalação.",
+        "Livros de trabalho desbloqueados em linhas universais prontas para qualquer sistema a jusante."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Posso escolher o delimitador para a saída CSV?",
+      "a": "Sim. As opções de vírgula, ponto e vírgula e tabulação suportam dados formatados regionalmente com conforto."
+    },
+    {
+      "q": "A ferramenta lida com livros de trabalho com várias folhas?",
+      "a": "Sim. Selecione a folha específica a exportar ou processe as folhas conforme necessário, individualmente."
+    },
+    {
+      "q": "A conversão de Excel para CSV é privada?",
+      "a": "Sim. Tudo é executado localmente no seu navegador, sem uploads nem contas."
+    },
+    {
+      "q": "Os caracteres acentuados e não latinos sobrevivem à conversão?",
+      "a": "Sim. A saída é por predefinição codificada em UTF-8, o que preserva caracteres acentuados, da direita para a esquerda e multilingues exatamente como aparecem no livro de trabalho de origem."
+    },
+    {
+      "q": "Qual o tamanho máximo do ficheiro Excel?",
+      "a": "O conversor lida com ficheiros com centenas de milhares de linhas inteiramente no seu navegador, sem restrições de tamanho de upload do lado do servidor."
+    },
+    {
+      "q": "As fórmulas nas células do Excel serão incluídas no CSV?",
+      "a": "O CSV armazena apenas valores calculados, não fórmulas. O conversor exporta o resultado calculado de cada célula em vez da expressão subjacente."
+    }
+  ]
+}

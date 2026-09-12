@@ -1,0 +1,132 @@
+{
+  "slug": "json-to-excel",
+  "title": "JSON'dan Excel'e Dönüştürücü: JSON'u Çevrimiçi Ücretsiz XLSX'e Dönüştürün",
+  "description": "JSON dizilerini ve nesnelerini analiz için hazır biçimlendirilmiş XLSX çalışma kitaplarına dönüştürmek için ücretsiz JSON'dan Excel'e dönüştürücü. Özel, tarayıcınızda.",
+  "keywords": ["json'dan excel'e", "json'dan xlsx'e dönüştürücü", "json'u çevrimiçi excel'e dönüştürme", "json'dan elektronik tabloya", "json'dan excel'e ücretsiz", "json'dan xlsx'e araç", "json verisinden excel'e"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "API Verisi Elektronik Tablo Yüzü İster",
+      "paragraphs": [
+        "JSON, API'lerden ve dışa aktarımlardan kompakt nesneler olarak gelir; yine de ekipler en iyi sayfalarda analiz eder. [json-to-excel:JSON'u Excel'e dönüştürmek] yapılandırılmış verileri herkesin filtreleyebileceği satır ve sütunlara dönüştürür.",
+        "Diziler düz, sorgulanabilir tablolar olur.",
+        "ChooseTools JSON'u tarayıcınızda yerel olarak XLSX'e dönüştürür."
+      ]
+    },
+    {
+      "heading": "JSON Excel'e Nasıl Dönüştürülür",
+      "paragraphs": [
+        "Yapılandırılmış kayıtlardan yepyeni bir çalışma kitabına:",
+        "Nesnelerden oluşan JSON dizinizi yapıştırın ve dönüştürün. Anahtarlar sütun, kayıtlar satır olur ve indirilebilir XLSX, elektronik tablo uygulamanızda hazır açılır.",
+        "Ayrıştırma tamamen cihazınızda gerçekleşir."
+      ]
+    },
+    {
+      "heading": "İç İçe Nesneler Düzleştirilir",
+      "paragraphs": [
+        "Gerçek JSON iç içe geçer; elektronik tablolar geçmez.",
+        "Dönüştürücü iç içe nesneleri ve dizileri net anahtarlarla kullanılabilir sütunlara düzleştirir.",
+        "Analiz dostu yapı, paranteze boğulmuş oturumların yerini alır."
+      ]
+    },
+    {
+      "heading": "Panolar, Raporlar ve İnceleyenler",
+      "paragraphs": [
+        "Paydaşlar JSON süslü parantezlerini değil grafikleri, filtreleri ve toplamları ister.",
+        "API çıktısını tek bir hareketle teslim edilebilir bir rapora dönüştürün.",
+        "Aynı veri sunuma hazır bir biçim kazanır."
+      ]
+    },
+    {
+      "heading": "Köprü Boyunca Tür Doğruluğu",
+      "paragraphs": [
+        "Toplama için sayılar sayısal kalır; metin ve tarihler anlamlarını korur.",
+        "Boş değerler ve diziler güvenle boş hücrelere dönüşür.",
+        "Aşağı akış pivot tabloları aldıkları değerlere güvenir."
+      ]
+    },
+    {
+      "heading": "API Verilerinin Özel İşlenmesi",
+      "paragraphs": [
+        "API yükleri ve dışa aktarımlar hassas kayıtlar içerebilir; dönüştürme yerel kalır.",
+        "Yükleme yok, hesap yok, filigran yok — platformlar arasında.",
+        "İfşasız analiz."
+      ]
+    },
+    {
+      "heading": "Veri Süitinde JSON Çalışması",
+      "paragraphs": [
+        "[excel-to-json:Excel'den JSON'a], [excel-to-csv:Excel'den CSV'ye] ve [csv-json:CSV'den JSON'a] ile zahmetsiz gidiş dönüş yapın.",
+        "Her şey ücretsiz ve tarayıcı tabanlıdır.",
+        "Yapılandırılmış yüklerden paylaşılabilir sayfalara, anında."
+      ]
+    },
+    {
+      "heading": "Büyük JSON Dizilerini ve Performansı İşleme",
+      "paragraphs": [
+        "Binlerce kayıt döndüren API'ler büyük JSON dizileri üretir; dönüştürücü bunları veriyi uzak bir sunucuya göndermeden tamamen tarayıcıda işler.",
+        "Büyük veri kümeleri elektronik tabloya satır satır akar; on binlerce kayıtla çalışırken bile bellek kullanımı öngörülebilir kalır.",
+        "JSON yükünüz yapıştırmak için çok büyükse yerel bir dosyadan yükleyebilirsiniz; dönüştürme, dosya bir ağa ulaşmadan önce cihazınızda gerçekleşir.",
+        "Bu yerel yaklaşım; finansal API'lerden veya sağlık sistemlerinden gelen son derece gizli veri kümelerinin bile dönüştürme boyunca kontrolünüz altında kalmasını sağlar."
+      ]
+    },
+    {
+      "heading": "Derin İç İçe Yapıları Düzleştirme",
+      "paragraphs": [
+        "Gerçek dünya API yanıtları genellikle nesneleri üç veya dört seviye derinliğinde yuvalar; her üst kaydın içinde nesne dizileri bulunur.",
+        "Dönüştürücü nokta gösterimiyle düzleştirme uygular; address.city.state gibi bir alan, elektronik tablo formüllerini karıştırmadan hiyerarşiyi koruyan tek bir sütun başlığı olur.",
+        "Nesneler içindeki diziler, karmaşıklığa bağlı olarak ayrı sütunlara veya virgülle birleştirilmiş değerlere genişletilir; çıktının dağınık değil kullanılabilir kalması sağlanır.",
+        "Aşırı iç içe yükler için bir önizleme adımı, nihai XLSX indirmesinden önce düzleştirilmiş sütun yapısını doğrulamanıza olanak tanır."
+      ]
+    },
+    {
+      "heading": "Sütun Adlandırma ve Başlık Eşleme",
+      "paragraphs": [
+        "JSON anahtarları özel karakterler veya çok uzun adlar içerdiğinde, dönüştürücü elektronik tablo formülleri ve pivot tablo başvuruları için geçerli kalacak şekilde başlıkları temizler.",
+        "Camel-case, snake-case ve nokta ile ayrılmış anahtarların tümü, orijinal anlamı koruyan ve aşağı akış işlemeyi bozmayan okunabilir sütun etiketlerine eşlenir.",
+        "JSON'unuz tamsayı anahtarlar veya yalnızca sayısal özellik adları kullanıyorsa, dönüştürücü Excel'in başlıkları değer olarak yorumlamasını önlemek için onları önekleştirir.",
+        "Başlık doğruluğuna gösterilen bu özen, analistlerin her dönüştürmeden sonra sütunları manuel olarak yeniden adlandırmasına gerek kalmamasını sağlar."
+      ]
+    },
+    {
+      "heading": "Karışık Türlü Dizilerle Çalışma",
+      "paragraphs": [
+        "Her JSON dizisi tek biçimli nesneler içermez. Bazı yükler ilkel değerlerle nesneleri karıştırır veya dolu kayıtların yanında null değerler içerir.",
+        "Dönüştürücü bu uç durumları zarifçe işler: ilkel öğeler tek hücreli satırlar, null değerler boş hücreler olur ve karışık diziler çökmeden en iyi çaba tablosu üretir.",
+        "Dizi dizileri için her iç dizi, kaynak verinin kurduğu sırayı koruyarak konumsal sütun başlıklarıyla bir satıra eşlenir.",
+        "Bu esneklik, aracı temiz API verilerinin ötesinde, eski sistemlerden gelen dağınık dışa aktarımlar ve elle hazırlanmış JSON dosyaları için de yararlı kılar."
+      ]
+    },
+    {
+      "heading": "Dönüştürme Sonrası İş Akışı İpuçları",
+      "paragraphs": [
+        "XLSX dosyasını indirdikten sonra sayısal sütunlarda koşullu biçimlendirme uygulamak, finansal veya operasyonel verilerdeki aykırı değerleri anında vurgulamaya yardımcı olur.",
+        "Başlık satırını sabitleyin ve filtreleri etkinleştirin; büyük dönüştürülmüş veri kümeleri ilk kaydırmadan itibaren gezinilebilir kalır.",
+        "Dönüştürülen veri yinelenen bir panoyu besliyorsa, dönüştürme ayarlarını bir şablon olarak kaydedin; aynı API'den yapılan tekrarlanan dışa aktarımlar tutarlı sütun sırasını korur.",
+        "Dönüştürülen sayfayı grafik şablonlarıyla birleştirmek, ham JSON çıktısını dakikalar içinde sunuma hazır görselleştirmelere çevirir."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hangi JSON yapıları temiz dönüştürülür?",
+      "a": "Nesne dizileri en iyi dönüştürülür; anahtarlar sütun, öğeler satır olur ve iç içe alanlar saydam biçimde düzleştirilir."
+    },
+    {
+      "q": "Yüklemek yerine doğrudan JSON yapıştırabilir miyim?",
+      "a": "Evet. JSON dizinizi alana yapıştırın ve yerinde dönüştürün."
+    },
+    {
+      "q": "JSON'dan Excel'e dönüştürme özel mi?",
+      "a": "Evet. Her şey tarayıcınızda, yükleme veya hesap olmadan yerel olarak çalışır."
+    },
+    {
+      "q": "Dönüştürücü derin iç içe JSON'u nasıl işler?",
+      "a": "İç içe nesneler nokta gösterimiyle düzleştirilir; user.address.city gibi alanlar elektronik tabloyu karmaşıklaştırmadan hiyerarşiyi koruyan okunabilir sütun başlıkları olur."
+    },
+    {
+      "q": "Araç çok büyük JSON dosyalarını işleyebilir mi?",
+      "a": "Evet. Büyük diziler tamamen tarayıcıda işlenir ve hassas verilerin ağ aktarımından kaçınmak için dosyaları yerel olarak yükleyebilirsiniz."
+    }
+  ]
+}

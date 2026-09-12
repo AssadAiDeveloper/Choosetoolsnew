@@ -1,0 +1,103 @@
+{
+  "slug": "compress-image",
+  "title": "Comment compresser une image en ligne gratuitement : réduire la taille des fichiers photo",
+  "description": "Comprimez une image en ligne gratuitement avec ChooseTools. Réduisez la taille des fichiers photo pour les e-mails, le web et les envois tout en conservant la qualité, directement dans votre navigateur, sans envoi et en toute confidentialité.",
+  "keywords": ["compresser image", "réduire taille image ko", "compresser image en ligne gratuitement", "réduire taille photo", "compresseur image", "compresser jpg", "réduire taille photo mo"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Les images lourdes cassent les flux de travail",
+      "paragraphs": [
+        "Une photo de 12 mégapixels est un plaisir — jusqu'à ce qu'elle dépasse la limite d'un e-mail, bloque l'envoi d'un portail ou traîne dans une conversation. [compress-image:Compresser les images] les allège selon ce que la destination tolère.",
+        "La compression est la tâche image la plus répandue au monde, et la plupart des outils la font maladroitement dans le cloud.",
+        "ChooseTools compresse les images localement dans votre navigateur : choisissez le niveau cible, observez la taille diminuer et téléchargez — jamais d'envoi."
+      ]
+    },
+    {
+      "heading": "Comment compresser une image dans le navigateur",
+      "paragraphs": [
+        "Allégez un fichier avec un contrôle total :",
+        "Téléversez la photo et choisissez un niveau de compression — léger, équilibré ou fort — ou visez une taille de sortie approximative. L'outil prévisualise le résultat et affiche la nouvelle taille avant le téléchargement.",
+        "Exécuté localement, le traitement est instantané et répétable, de sorte qu'atteindre une limite de taille ne prend que quelques secondes."
+      ]
+    },
+    {
+      "heading": "L'équilibre parfait : taille vs qualité visible",
+      "paragraphs": [
+        "Une compression aveugle écrase la qualité ; une recherche obsessionnelle de mégaoctets laisse les fichiers surdimensionnés. Le contrôle par niveau trouve le juste milieu.",
+        "Les photographies se compriment admirablement avec un changement imperceptible aux paramètres équilibrés ; les paramètres forts conviennent aux miniatures et aperçus.",
+        "Chaque tâche obtient exactement le compromis dont elle a besoin."
+      ]
+    },
+    {
+      "heading": "Tout canal nécessitant des photos plus légères",
+      "paragraphs": [
+        "Les e-mails, les portails d'emploi, les soumissions scolaires, les catalogues e-commerce, les applications de messagerie et les galeries web ont tous des limites de taille.",
+        "Une seule compression fait passer les photos partout, d'un plafond de 2 Mo sur un portail à la limite polie de 10 Mo d'un chat.",
+        "Rapide, stockée, transférée — jamais rejetée à nouveau."
+      ]
+    },
+    {
+      "heading": "Comprendre la compression JPEG et le choix de format",
+      "paragraphs": [
+        "La compression JPEG fonctionne en simplifiant les détails fins que l'œil humain est peu susceptible de remarquer, ce qui explique pourquoi une photo de plage et un diagramme technique aux mêmes paramètres produisent des tailles de fichier très différentes. Les scènes à contraste élevé et mouvementées nécessitent plus d'octets pour rester nettes, tandis que les dégradés lisses se compriment de manière spectaculaire.",
+        "Pour les graphiques à couleurs plates tels que logos et illustrations, le PNG ou le WebP se compriment souvent mieux que le JPEG tout en restant nets. Si votre source est un PNG avec un arrière-plan transparent, choisir un format préservant la transparence compte plus que de chercher la plus petite taille possible.",
+        "Savoir quel format convient à votre contenu évite l'erreur classique de comprimer un logo en JPEG pour découvrir des bords anguleux et des franges de couleur autour du texte et des formes pleines."
+      ]
+    },
+    {
+      "heading": "Recompression des captures d'écran et des scans",
+      "paragraphs": [
+        "Les captures d'écran et les documents scannés se compressent différemment des photographies car leur contenu est principalement constitué de couleurs plates et de texte. Ces images se réduisent généralement de manière spectaculaire avec un paramètre modéré, produisant des fichiers qui restent nets à l'écran tout en diminuant à une fraction de la taille originale.",
+        "Pour les documents destinés à un cours ou un rapport, la lisibilité du texte prime sur la fidélité chromatique parfaite. Choisir le niveau équilibré protège les contours nets des lettres tout en réduisant significativement le fichier.",
+        "Réduire un ensemble de captures d'écran de cours avant de les envoyer par e-mail maintient le message sous les limites de pièces jointes sans sacrifier la lisibilité."
+      ]
+    },
+    {
+      "heading": "Compression par lots pour les sites web et portfolios",
+      "paragraphs": [
+        "Publier une galerie photo ou mettre à jour un portfolio signifie compresser des dizaines d'images à la fois, et les traiter une par une gaspille des heures. Travailler sur un dossier d'images avec des paramètres de compression constants produit un ensemble uniforme de fichiers qu'un site peut diffuser efficacement.",
+        "Les budgets de performance web ciblent couramment des envois d'images de quelques centaines de kilo octets par page. En partant d'un ensemble d'originaux de 3 Mo provenant de l'appareil photo, comprimer à environ 200 Ko par image permet cinq photos ou plus par page tout en restant dans le budget.",
+        "Utiliser la même source reproductible et les mêmes paramètres maintient une qualité constante dans une galerie entière plutôt que d'avoir quelques images dégradées parce qu'elles ont été compressées trop fortement par accident."
+      ]
+    },
+    {
+      "heading": "Compression privée de photos personnelles et client",
+      "paragraphs": [
+        "Les photos de famille, les visuels de produits inédits et les ensembles client se compressent localement ; ils ne voyagent jamais vers le serveur d'un compresseur.",
+        "Pas de filigrane, pas de compte, pas de quota — et aucune copie résiduelle nulle part.",
+        "Le même comportement sur Windows, macOS, Linux, tablettes et téléphones."
+      ]
+    },
+    {
+      "heading": "Comprimez après avoir redimensionné et converti",
+      "paragraphs": [
+        "La combinaison gagnante est généralement le [resize-image:redimensionnement] aux dimensions d'affichage, la [convert-image:conversion] au bon format, puis la compression pour la livraison.",
+        "Les trois s'exécutent gratuitement, localement et dans le navigateur.",
+        "La chaîne de traitement des photos ne nécessite plus que quelques clics privés au lieu d'un détour par le cloud."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "De combien la taille de l'image peut-elle être réduite ?",
+      "a": "La compression réduit couramment les fichiers JPEG de 50 à 80 %, selon le contenu et le niveau de qualité choisi."
+    },
+    {
+      "q": "L'image compressée aura-t-elle un aspect différent ?",
+      "a": "Les niveaux équilibrés sont visuellement quasi identiques pour les photographies ; une compression plus forte sacrifie des détails subtils pour une taille réduite."
+    },
+    {
+      "q": "Le compresseur d'images est-il gratuit et privé ?",
+      "a": "Oui. Tout s'exécute localement dans votre navigateur, sans envoi, filigrane ni compte."
+    },
+    {
+      "q": "Quels formats d'images puis-je compresser ?",
+      "a": "L'outil prend en charge les formats courants tels que JPG, PNG et WebP, vous permettant de comprimer ou de convertir au format qui convient le mieux à votre destination."
+    },
+    {
+      "q": "Puis-je compresser une image à une taille cible précise ?",
+      "a": "Oui. Vous pouvez choisir une taille de sortie approximative et l'outil ajuste automatiquement le niveau de compression pour s'en approcher."
+    }
+  ]
+}

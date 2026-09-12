@@ -1,0 +1,126 @@
+{
+  "slug": "html-encode",
+  "title": "HTML-Encoder-Decoder: HTML online kostenlos kodieren und maskieren",
+  "description": "Kostenloser Online-HTML-Encoder zum Maskieren und Entmaskieren von Sonderzeichen für sicheres Web-Publishing, mit Vorschau. Privat, sofort, in Ihrem Browser.",
+  "keywords": ["HTML-Encoder", "HTML-Escaping", "HTML-Entity-Kodierung", "HTML-Zeichen maskieren", "HTML entmaskieren", "HTML online kodieren", "HTML-Entity-Konverter"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Maskieren hält HTML ehrlich",
+      "paragraphs": [
+        "Die sichere Darstellung von Nutzer- oder Code-abgeleiteten Texten erfordert das Maskieren von Sonderzeichen wie <, > und &. Die HTML-Kodierung verhindert versehentliche Ausführung und kaputte Layouts auf jeder Seite.",
+        "Maskieren ist Sicherheitshygiene und Render-Korrektheit in einem einzigen Schritt.",
+        "ChooseTools kodiert und dekodiert HTML lokal in Ihrem Browser.",
+        "Ohne Maskieren kann ein einziges kaufmännisches Und in einer Produktbeschreibung das gesamte Seitenlayout zerstören und sinnvollen Inhalt in Browser-Fehlerrauschen verwandeln."
+      ]
+    },
+    {
+      "heading": "So maskieren Sie HTML-Entities",
+      "paragraphs": [
+        "Sicherer Text, sofort.",
+        "Fügen Sie Rohtext ein, um <, >, &, Anführungszeichen und andere Sonderzeichen in Entities zu maskieren, oder fügen Sie mit Entities versetztes HTML ein, um es zurück in lesbaren Text zu dekodieren. Kopieren Sie die Version, die Sie benötigen.",
+        "Die Verarbeitung erfolgt lokal und hält Ihre Einfügungen vertraulich.",
+        "Der bidirektionale Workflow bedeutet, dass Sie ein Fragment zur sicheren Einbettung kodieren und später denselben Block zur menschlichen Prüfung dekodieren können, ohne etwas neu zu tippen."
+      ]
+    },
+    {
+      "heading": "Sichere Anzeige von Nutzereingaben",
+      "paragraphs": [
+        "Suchergebnisse, Nachrichtenvorschauen und Kommentar-Rendering benötigen alle Maskieren, um die gefährlichen Zeichen zu neutralisieren, die Nutzer eingeben können.",
+        "Maskierte Eingaben rendern als Text, nie als Tags oder Skripte.",
+        "Diese eine Praxis schließt ganze Klassen von Injektions-Überraschungen aus.",
+        "Cross-Site-Scripting-Angriffe beruhen auf unmaskierten Eingaben, die das DOM erreichen; konsistente Entity-Kodierung neutralisiert den Angriffsvektor, bevor der Browser die Zeichenkette jemals interpretiert."
+      ]
+    },
+    {
+      "heading": "Wörtliche Codeblöcke und Dokumentation",
+      "paragraphs": [
+        "Codebeispiele auf einer Seite zu veröffentlichen bedeutet, pre und code wörtlich zu drucken, was erfordert, dieselben Zeichen zu maskieren, die gezeigt werden.",
+        "Kodieren Sie Ihre Beispiel-Einfügungen, um sie sauber als Text anzuzeigen.",
+        "Dokumentation sieht korrekt aus, weil Entities als sichtbare Zeichen rendern.",
+        "Technische Redakteure, die Codebeispiele einmal maskieren und die kodierte Version speichern, sparen Stunden an Neukodierung, wenn die Dokumentations-Engine wechselt."
+      ]
+    },
+    {
+      "heading": "Gängige Entities und wann man sie verwendet",
+      "paragraphs": [
+        "Die fünf Kern-Entities decken die meisten Fälle ab: &amp; für das kaufmännische Und, &lt; für kleiner-als, &gt; für größer-als, &quot; für das doppelte Anführungszeichen und &apos; für den Apostroph.",
+        "Numerische Zeichenreferenzen behandeln nicht-ASCII-Symbole wie Geviertstriche, typografische Anführungszeichen und Währungszeichen, wenn die Dokumentkodierung sie nicht garantiert.",
+        "Zu wissen, welche Entities Ihr Ausgabekontext verlangt, verhindert Mojibake in E-Mail-Clients, CMS-Editoren und Klartext-Renderern."
+      ]
+    },
+    {
+      "heading": "Doppelte Kodierung: ein häufiger Fehler",
+      "paragraphs": [
+        "Die doppelte Anwendung von HTML-Kodierung verwandelt &amp; in &amp;amp;, wodurch der wörtliche Text „ampersand“ anstelle des beabsichtigten Symbols angezeigt wird.",
+        "Entwicklern begegnet doppelte Kodierung, wenn ein CMS Inhalte maskiert und dann eine Template-Engine sie erneut maskiert.",
+        "Ein Dekodierungsdurchlauf vor der Neukodierung stellt sicher, dass die Transformation genau einmal angewendet wird und die beabsichtigte Ausgabe bewahrt bleibt."
+      ]
+    },
+    {
+      "heading": "Zwei Richtungen, ein Werkzeug",
+      "paragraphs": [
+        "Kodieren für sichere Ausgabe; dekodieren, um das lesbare Original für Prüfung oder Bearbeitung wiederherzustellen.",
+        "Hin- und Rückwege bewahren den Inhalt exakt.",
+        "Beide Richtungen passen zu Build- und Redaktionsarbeit.",
+        "Entwickler verwenden Kodierung in Build-Pipelines, um generiertes HTML zu bereinigen, und dann Dekodierung, um dieselbe Ausgabe während des Code-Reviews zu prüfen."
+      ]
+    },
+    {
+      "heading": "Privates Maskieren interner Webarbeit",
+      "paragraphs": [
+        "HTML-Fragmente aus internen Werkzeugen und Testsuiten werden lokal kodiert.",
+        "Kein Upload, kein Konto, kein Wasserzeichen – auf jeder Plattform.",
+        "Webhygiene ohne Offenlegung.",
+        "Interne Dashboards und Admin-Panels, die sensible Benutzerdaten verarbeiten, profitieren von lokaler Kodierung, weil die Fragmente nie einen Drittanbieterdienst passieren."
+      ]
+    },
+    {
+      "heading": "Kodierung in E-Mail- und Benachrichtigungsvorlagen",
+      "paragraphs": [
+        "E-Mail-Clients rendern HTML inkonsistent, und unmaskierte Sonderzeichen sind eine häufige Ursache für kaputte Betreffzeilen und leere Nachrichtentexte.",
+        "Die dynamischen Teile einer E-Mail-Vorlage vor dem Zusammenführen von Inhalten zu kodieren garantiert, dass Benutzernamen, Produkttitel und Preise als Klartext angezeigt werden, statt fehlinterpretiert zu werden.",
+        "Benachrichtigungssysteme, die dynamische Felder maskieren, reduzieren Support-Tickets durch verstümmelte Ausgaben über die vielen Renderer hinweg."
+      ]
+    },
+    {
+      "heading": "Kodierung im Web-Toolkit",
+      "paragraphs": [
+        "Kombinieren Sie mit Markdown-Konvertierung, URL-Kodierung und CSS-Minifizierung für ein vollständiges Publikations-Set.",
+        "Die Suite ist kostenlos und browsernativ.",
+        "Jeder Tag, exakt wie beabsichtigt maskiert.",
+        "Die Verkettung dieser Werkzeuge in Folge erzeugt publikationsfertiges HTML aus Rohtext, ohne einen serverseitigen Build-Schritt zu benötigen."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welche Zeichen maskiert die HTML-Kodierung?",
+      "a": "Die Sonderzeichen <, >, &, Anführungszeichen und ähnliche reservierte Symbole werden in sichere Entities übersetzt."
+    },
+    {
+      "q": "Kann ich Entities zurück in lesbares HTML dekodieren?",
+      "a": "Ja. Das Werkzeug arbeitet in beide Richtungen und rekonstruiert den Originaltext aus kodierten Entities."
+    },
+    {
+      "q": "Ist die HTML-Kodierung privat?",
+      "a": "Ja. Alles läuft lokal in Ihrem Browser ohne Uploads oder Konten."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen Kodierung und Minifizierung?",
+      "a": "Kodierung ersetzt Sonderzeichen durch sichere Entities, um Renderfehler zu verhindern, während Minifizierung Leerzeichen und Kommentare entfernt, um die Dateigröße zu reduzieren. Sie dienen unterschiedlichen Zwecken in einem Web-Build."
+    },
+    {
+      "q": "Was passiert, wenn ich denselben Text zweimal kodiere?",
+      "a": "Doppelte Kodierung erzeugt eine inkorrekte Ausgabe wie &amp;amp; statt &amp;. Das Werkzeug lässt Sie zuerst dekodieren, um einen einzigen sauberen Kodierungspass zu gewährleisten."
+    },
+    {
+      "q": "Ist die HTML-Kodierung dasselbe wie die URL-Kodierung?",
+      "a": "Nein. Die HTML-Kodierung wandelt HTML-reservierte Zeichen in Entities für die sichere Anzeige um, während die URL-Kodierung Zeichen in prozentkodierte Werte für die sichere Einbindung in Webadressen umwandelt."
+    },
+    {
+      "q": "Muss ich Apostrophe in HTML-Attributen mit einfachen Anführungszeichen maskieren?",
+      "a": "Ja. Ein Apostroph innerhalb eines mit einfachen Anführungszeichen umschlossenen Attributwerts muss als &apos; maskiert werden, damit der Browser ihn nicht als schließendes Anführungszeichen behandelt."
+    }
+  ]
+}

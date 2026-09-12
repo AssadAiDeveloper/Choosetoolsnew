@@ -1,0 +1,120 @@
+{
+  "slug": "text-diff",
+  "title": "Text Diff Tool: Compare Two Texts Online Free to Find Changes",
+  "description": "Free online text diff tool to compare two documents side by side, highlighting added, removed and changed lines. Private, instant, in your browser.",
+  "keywords": ["text diff", "compare two texts", "find differences between texts", "diff checker", "compare text online", "text comparison tool", "see changes in text"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Spotting What Changed Between Versions",
+      "paragraphs": [
+        "Did your collaborator edit the terms? Which commit reworded the agreement? Comparing versions by eye is unreliable; a [text-diff:diff tool] marks exactly what changed, line by line.",
+        "Editors, reviewers, attorneys and students all benefit from precise change detection.",
+        "ChooseTools compares texts locally in your browser with a color-coded side-by-side result."
+      ]
+    },
+    {
+      "heading": "How to Compare Two Texts",
+      "paragraphs": [
+        "Differences, highlighted:",
+        "Paste the original into the left box and the revised version into the right. The tool computes the diff instantly and colors added versus removed lines.",
+        "Results are rendered locally — drafts never ship anywhere."
+      ]
+    },
+    {
+      "heading": "Line-Level Diff: Exact and Reviewable",
+      "paragraphs": [
+        "Comparing at line granularity aligns with how editors work: each change is a discrete, reviewable unit.",
+        "Added lines, removed lines and alterations are each visually distinct.",
+        "Batch review of long documents becomes bulletproof."
+      ]
+    },
+    {
+      "heading": "How Diffing Works Under the Hood",
+      "paragraphs": [
+        "The tool aligns the two texts line by line, locating the longest stretches that remain unchanged and then marking everything else as inserted or removed.",
+        "A changed line appears as a removal paired with an addition, so reviewers see exactly what was replaced rather than a vague modified flag.",
+        "The algorithm is efficient even with substantial documents, computing the alignment quickly and rendering only the differing regions for clarity.",
+        "Understanding this behavior helps you interpret results: a rewritten sentence appears as one line deleted and another inserted beside it."
+      ]
+    },
+    {
+      "heading": "Review Workflows With Hidden Confidence",
+      "paragraphs": [
+        "Track reviewer edits without reading every word; confirm patches before applying; audit agreements for silent modifications.",
+        "The diff output is a map of what a version promised and what it delivered.",
+        "Careful comparing protects anyone who signs, ships or ships code."
+      ]
+    },
+    {
+      "heading": "Common Use Cases Across Professions",
+      "paragraphs": [
+        "Legal teams compare contract drafts to ensure no clause was altered between negotiation rounds. Software developers verify pull requests by diffing the proposed changes against the main branch before merging.",
+        "Students checking an essay revision can instantly see whether feedback was actually incorporated. Technical writers maintain documentation accuracy by comparing release notes across versions.",
+        "Translators use diffs to confirm that localized text matches the approved source without subtle omissions. In every case the tool removes the tedium of manual comparison and replaces it with a clear visual map of change.",
+        "The same mechanism that catches a missing comma in code also catches a changed liability clause in a contract."
+      ]
+    },
+    {
+      "heading": "Handling Large Documents and Nested Changes",
+      "paragraphs": [
+        "Long files with hundreds of lines remain manageable because the diff algorithm processes them in segments, displaying only the relevant areas of difference.",
+        "The side-by-side layout ensures that context lines sit next to their counterparts, so reviewers can verify that the surrounding text was not inadvertently shifted.",
+        "Even when changes are scattered throughout a document, the color coding lets the eye jump directly to each modification without scanning every line manually.",
+        "Processing happens entirely on your device, so there is no size limit imposed by a remote server."
+      ]
+    },
+    {
+      "heading": "Diffing as a Quality Gate",
+      "paragraphs": [
+        "A diff is essentially a quality gate: before anything is published, merged or signed, the comparison answers whether the final text matches what was decided.",
+        "Quality teams run a final diff between the approved draft and the shipped version, catching last-minute edits that bypassed review.",
+        "Freelance writers diff client feedback against their manuscripts to demonstrate that every requested change is present.",
+        "Even a short check adds a layer of protection that no amount of careful proofreading reliably matches."
+      ]
+    },
+    {
+      "heading": "Comparing Configurations and Templates",
+      "paragraphs": [
+        "Beyond prose, the tool suits structured text: comparing two configuration files, two code snippets or two versions of an email template.",
+        "A quick compare on settings files reveals exactly which parameter changed between environments such as staging and production.",
+        "Template editors compare saved drafts to spot formatting drift that a quick glance would miss.",
+        "Because the same side-by-side logic works on code, markup and plain text, one tool covers many review needs."
+      ]
+    },
+    {
+      "heading": "Private Comparison of Confidential Drafts",
+      "paragraphs": [
+        "Legal documents, unpublished manuscripts and internal release notes diff locally, and that is exactly the point.",
+        "No upload, no account, no watermark — across all platforms.",
+        "Your version history is your own."
+      ]
+    },
+    {
+      "heading": "Diff Within the Complete Text Suite",
+      "paragraphs": [
+        "After comparing, [find-replace:apply fixes], [sort-lines:organize] or [case-converter:normalize] the copy.",
+        "The suite is free and browser-native.",
+        "Every version question, answered precisely."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What exactly does the diff tool highlight?",
+      "a": "It displays both texts side by side, coloring lines that were added, removed or modified so changes are instantly visible."
+    },
+    {
+      "q": "Can it compare very long documents?",
+      "a": "Yes. Line-based diff handles long texts; rendering is local and fast regardless of length."
+    },
+    {
+      "q": "Is text comparison private?",
+      "a": "Yes. Everything happens locally in your browser with no uploads or accounts."
+    },
+    {
+      "q": "Does it show context around changes?",
+      "a": "Yes. Surrounding unchanged lines appear alongside the diff so you can verify that modifications sit within the correct context."
+    }
+  ]
+}

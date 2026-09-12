@@ -1,0 +1,108 @@
+{
+  "slug": "arabic-numerals",
+  "title": "Arapça Rakam Dönüştürücü: Doğu Arapçası ve Batı Rakamları Arasında Çevrimiçi Olarak Ücretsiz Dönüştürün",
+  "description": "Doğu Arapçası rakamları (٠١٢) ile Batı rakamları (0123) arasında anında geçiş yapan ücretsiz dönüştürücü. Tarayıcınızda gizli, yükleme yok.",
+  "keywords": ["arapça rakam dönüştürücü", "doğu arapçası rakamları", "arap-hint rakamları", "arapça rakam çevirme", "٠١٢٣ to 0123", "çevrimiçi arapça rakam dönüştürücü", "doğudan batıya rakamlar"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "İki Numaralandırma Sistemi, Tek Aile",
+      "paragraphs": [
+        "Arap dünyasının büyük bir kısmı ٠١٢٣٤٥٦٧٨٩ yazarken dijital platformlar 0-9 bekler. [arabic-numerals:Arapça rakamlar ve Batı rakamları arasında dönüştürme] ikisini her iki yönde de anında uzlaştırır.",
+        "Doğru bağlamdaki doğru rakamlar, maliyetli uyumsuzlukları önler.",
+        "ChooseTools, rakamları tarayıcınızda yerel olarak dönüştürür."
+      ]
+    },
+    {
+      "heading": "Arapça Rakamlar Nasıl Dönüştürülür",
+      "paragraphs": [
+        "Tek adımda olur, olsa olsa diğer yön:",
+        "Batı rakamlarını almak için Doğu Arapçası biçimindeki sayıları yapıştırın veya Arap-Hint karşılıklarını almak için Batı rakamlarını yapıştırın. Karışık metin sağlam dönüşür; böylece hem Arap yazısı hem de rakamlar içeren tam bir paragrafı elle ayırmak zorunda kalmadan yapıştırabilirsiniz.",
+        "Dönüştürme tamamen cihazınızda gerçekleşir; bu da gidiş dönüş gecikmesi ve sunucu kullanılabilirliğine bağımlılık olmadığı anlamına gelir. Sayfa tarayıcınızda yüklendiği sürece çevrimdışıyken bile rakam dönüştürebilirsiniz."
+      ]
+    },
+    {
+      "heading": "Doğu Arapçası vs. Batı Rakamları",
+      "paragraphs": [
+        "Doğu Arapçası rakamları (٠١٢٣…) ayrıdır; ondalık ayraçlar ve gruplamalar doğrudan çevrilir. Sıfırın rakamı bir noktayı andırırken, geri kalan rakamlar Batı karşılıklarından tamamen farklı şekillere sahiptir; dikkat etmezseniz karışıklık kolaydır.",
+        "Cümlelere gömülü sayılar birlikte güncellenir; bu yüzden ١٥٠٠٠ ر.س okuyan bir fiyat etiketi, para birimi kısaltmasını veya çevresindeki metni bozmadan 15000 SAR olur. Bu, okuyucuların güvendiği anlamsal bağlamı korur.",
+        "Bağlama duyarlı çıktı, çevredeki Arapça metni korur ve işaretlerin, noktalamanın ve yazıya özgü biçimlendirmenin sağlam kalmasını sağlar. Dönüştürücü yalnızca rakam karakterlerine odaklanır, diğer her şeyi dokunulmadan bırakır."
+      ]
+    },
+    {
+      "heading": "Rakam Dönüşümü İçin Gerçek Dünya Kullanım Örnekleri",
+      "paragraphs": [
+        "Bölgesel bankacılık sistemlerinden dışa aktarılan finansal raporlar genellikle uluslararası elektronik tabloların ayrıştıramadığı Arap-Hint rakamları içerir. Bu rakamları Batı rakamlarına dönüştürmek, standart formüllerin ve pivot tabloların verileri doğru işlemesine olanak tanır. Muhasebeciler ve denetçiler, tüm rakam sütunlarını aynı anda dönüştürücüye yapıştırarak saatlerce süren manuel yeniden girişten kurtulur.",
+        "Birçok Orta Doğu ülkesindeki devlet formları ve nüfus kayıt çıktıları, doğum tarihlerini, kimlik numaralarını ve adresleri Doğu Arapçası rakamlarıyla sunar. Bu sayıları Batı rakamı bekleyen çevrimiçi portallara göndermek dönüştürme gerektirir ve bunu elle yapmak yazım hatalarına davetiye çıkarır. Tek bir yapıştır-ve-dönüştür adımı riski ortadan kaldırır.",
+        "Eğitim materyalleri bazen iki sistemi yan yana öğretir ve öğrencilerin dönüşümlerini doğrulaması gerekir. Araç, bir öğrencinin elle yaptığı işin doğru çıktıyla eşleştiğini onaylayan hızlı bir cevap anahtarı işlevi görür. Öğretmenler, tüm problem setlerini toplu dönüştürerek cevap kağıtlarını daha hızlı hazırlayabilir.",
+        "Arapça konuşulan ülkelerde bilet sistemleri, otel rezervasyonları ve havayolu onaylarında gezen gezginler, makbuzlarda ve güzergahlarda sık sık karışık rakam setleriyle karşılaşır. Belgenin tamamını dönüştürmek, her referans numarasının, tarihin ve tutarın varışta havayolunun veya otelin beklediğiyle eşleşmesini sağlar."
+      ]
+    },
+    {
+      "heading": "Uç Durumlar ve Biçimlendirme Ayrıntıları",
+      "paragraphs": [
+        "Dönüştürücü ondalık ayraçları ve binlik gruplama sembollerini tutarlı işler; bu yüzden ١٬٢٣٤٫٥٦ gibi bir rakam, hassasiyet kaybetmeden 1,234.56 olur. Negatif işaretler, para birimi sembolleri ve yüzde işaretleri değişmeden geçer ve her sayının anlamsal anlamını korur.",
+        "Ulusal bütçelerde veya istatistiksel veri kümelerinde bulunanlar dahil çok büyük sayılar, kesilme veya yuvarlama olmadan dönüştürülür. Her rakam bire bir eşlenir; bu yüzden büyüklükten bağımsız olarak hiçbir bilgi kaybolmaz. Araç, girdi dizesinin uzunluğuna herhangi bir üst sınır dayatmaz.",
+        "Arap yazısını rakamlar ve noktalama ile iç içe geçiren karışık içerik temiz dönüşür. Çevredeki metin asla değiştirilmez; yalnızca rakam karakterleri biçim değiştirir. Bu, paragrafların, faturaların veya makale gövdelerinin tamamının ön işleme olmadan yapıştırılabileceği anlamına gelir."
+      ]
+    },
+    {
+      "heading": "Sık Yapılan Hatalar ve Bunlardan Nasıl Kaçınılır",
+      "paragraphs": [
+        "Sık yapılan bir hata, Doğu Arapçası rakamlarını Batı'da kullanılan standart Arap rakamlarıyla karıştırmaktır; bunlar adına rağmen aslında Hint kökenlidir. Dönüştürücü, her seti ayrı bir karakter eşlemesi olarak değerlendirerek bu ayrımı netleştirir; böylece her zaman istediğiniz çıktıyı alırsınız.",
+        "Bir başka hata, gömülü sayılar içeren Arapça metnin bir dönüştürücüden geçirildiğinde bozulacağını varsaymaktır. Gerçekte araç bağlama duyarlıdır ve rakam olmayan karakterlere tamamen dokunmaz. Ön işleme olmadan tam cümleleri, paragrafları veya çok sütunlu verileri bile yapıştırabilirsiniz.",
+        "İnsanlar bazen baştaki sıfırların kimlik numaralarında, telefon numaralarında ve hesap kodlarında önemli olduğunu unutur. Dönüştürücü, baştaki sıfırlar dahil her rakamı korur; bu yüzden çıktı, orijinal girdinin sadık bir temsili olarak kalır."
+      ]
+    },
+    {
+      "heading": "Her İki Yönde De Sadık",
+      "paragraphs": [
+        "Gidiş dönüşler, her rakamı koruyarak aynı değerleri döndürür.",
+        "Büyük sayılar uzunluk hatası olmadan dönüştürülür.",
+        "Doğruluk her büyüklükte geçerlidir."
+      ]
+    },
+    {
+      "heading": "Gizlilik ve Uyumluluk Notları",
+      "paragraphs": [
+        "Dönüştürme tamamen tarayıcıda gerçekleştiği için hiçbir veri herhangi bir sunucuya iletilmez. Bu, özellikle sayılar kişisel olarak tanımlanabilir bilgi taşıyan maaş kayıtlarından, vergi beyanlarından veya tıbbi belgelerden geldiğinde önemlidir. Araç hiçbir girdiyi saklamaz, günlüğe kaydetmez veya önbelleğe almaz.",
+        "Dönüştürücü, mobil Safari ve Android'deki Chrome dahil her modern tarayıcıda çalışır. Kurulum, eklenti veya hesap gereksinimi yoktur; bu yüzden araca web bağlantısı olan her cihazdan erişilebilir. Altta yatan eşleme tablosundaki güncellemeler sunucu tarafında gerçekleşir ve sayfa yüklemesinde anında etkili olur.",
+        "Rakam dönüşümünü otomatik boru hatlarına entegre etmesi gereken ekipler için aynı eşleme mantığı sunucu tarafı betiklerinde çoğaltılabilir. Ancak çevrimiçi araç, toplu işlemeden çok hız ve gizliliğin önemli olduğu geçici, tek seferlik dönüşümler için tasarlanmıştır."
+      ]
+    },
+    {
+      "heading": "Gizli Rakam İşlemleri",
+      "paragraphs": [
+        "Rakam içeren belgeler ve veri kümeleri yerel olarak dönüştürülür.",
+        "Yükleme yok, hesap yok, filigran yok — platformlar arası.",
+        "Sayılar makinenizden asla ayrılmaz."
+      ]
+    },
+    {
+      "heading": "Arapça Araç Setinde Rakamlar",
+      "paragraphs": [
+        "Eksiksiz Arapça işleme için [hijri-gregorian:tarih dönüştürme], [tafqit:sayı yazımı] ve [remove-tashkeel:metin temizleme] ile birlikte kullanın.",
+        "Set ücretsiz ve tarayıcı tabanlıdır.",
+        "Her rakam, doğru yazıda, anında."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hangi yönler destekleniyor?",
+      "a": "İkisi de: Doğu Arapçası rakamlarından Batı rakamlarına ve Batı rakamlarından Doğu Arapçasına, seçilebilir yönde."
+    },
+    {
+      "q": "Sayı içeren karışık metinleri işler mi?",
+      "a": "Evet. Sayılar, çevredeki Arap yazısında yine yerinde dönüşür ve diğer karakterleri rahatsız etmez."
+    },
+    {
+      "q": "Dönüştürücü gizli mi?",
+      "a": "Evet. Her şey yükleme veya hesap olmadan tamamen tarayıcınızda yerel olarak çalışır."
+    },
+    {
+      "q": "Belgelerin tamamını aynı anda dönüştürebilir miyim?",
+      "a": "Evet. Paragrafların, faturaların veya elektronik tabloların tamamını yapıştırın; çevredeki metin dokunulmadan kalırken her rakam tek geçişte dönüşür."
+    }
+  ]
+}

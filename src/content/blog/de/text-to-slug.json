@@ -1,0 +1,114 @@
+{
+  "slug": "text-to-slug",
+  "title": "Text-zu-Slug-Konverter: URL-freundliche Slugs Online Kostenlos Erstellen",
+  "description": "Kostenloser Online-Slug-Generator zum Umwandeln von Titeln in saubere, URL-freundliche Slugs für WordPress, Blogs und CMS-Systeme. Privat, sofort, in deinem Browser.",
+  "keywords": ["Slug-Generator", "Text zu Slug", "URL-Slug-Konverter", "URL-Generator freundlich", "WordPress-Slug", "Slugify online", "SEO-URL-Slug"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Slugs machen URLs lesbar",
+      "paragraphs": [
+        "Ein sauberer Slug macht aus „How to Merge PDF Files — A Complete Guide“ die Adresse /how-to-merge-pdf-files: lesbar für Menschen, parsebar für Maschinen und freundlich indiziert von Suchmaschinen. [text-to-slug:Slugs zu erzeugen] ist das tägliche Ritual jedes CMS-Editors.",
+        "WordPress, Shopify, Hugo und selbst gebaute Routen teilen dieselben Slug-Konventionen.",
+        "ChooseTools wandelt Text lokal in deinem Browser in Slugs um und berücksichtigt dabei Trennzeichen- und Schreibweise-Optionen."
+      ]
+    },
+    {
+      "heading": "Einen Titel in einen Slug umwandeln",
+      "paragraphs": [
+        "Von der Überschrift zum Permalink mit einem Klick.",
+        "Füge deinen Titel oder Satz ein, und das Tool schreibt ihn klein, entfernt überflüssiges und fügt Bindestriche zu einem sauberen Slug zusammen. Wähle den Trennzeichenstil (Bindestriche, Unterstriche) und die Schreibweise (lower, lowerCamel).",
+        "Die Ausgabe kann ohne manuelle Bereinigung direkt in deine Bearbeitungsoberfläche eingefügt werden.",
+        "Das Anpassen einer Option rendert den Slug sofort neu, sodass es trivial ist, die Konventionen deines CMS zu treffen."
+      ]
+    },
+    {
+      "heading": "Warum saubere URLs für SEO und Usability wichtig sind",
+      "paragraphs": [
+        "Suchmaschinen analysieren aussagekräftige Slugs für den Kontext; Leser teilen sie zuverlässig; Analysen melden sie lesbar.",
+        "Vorhersehbare Permalinks überstehen Imports und Migrationen ohne Abweichung.",
+        "Schenke dem Slug Aufmerksamkeit, und deine URL-Architektur zahlt es strukturell zurück.",
+        "Menschenlesbare URLs erzeugen auch mehr Klicks, wenn sie im Print, per E-Mail oder im Chat geteilt werden, weil das Ziel auf einen Blick erkennbar ist."
+      ]
+    },
+    {
+      "heading": "Nationale Zeichen und die Slug-Grenzfälle",
+      "paragraphs": [
+        "Akzentuierte und nicht-lateinische Zeichen benötigen Transkriptionsregeln, um URL-sicheres Latein zu werden.",
+        "Der Konverter behandelt solche Grenzfälle, sodass Titel mit á, é, ü und ähnlichen Zeichen trotzdem ordentliche Slugs erzeugen.",
+        "Satzzeichen, Anführungszeichen und Leerzeichen werden zu sicheren Trennzeichen zusammengeführt.",
+        "Diese Normalisierung verhindert die langen, kaputten, prozentkodierten Zeichenfolgen, die Links brechen und unprofessionell aussehen."
+      ]
+    },
+    {
+      "heading": "Slug-Best-Practices für Editoren",
+      "paragraphs": [
+        "Halte Slugs kurz, aber beschreibend: Ein paar aussagekräftige Schlüsselwörter schlagen einen ganzen Satz, und sie lesen sich besser in Suchergebnissen und Browser-Registern.",
+        "Vermeide Stoppwörter wie „und“, „der“ und „als“, wo sie keinen unterscheidenden Wert hinzufügen, denn sie verschwenden Zeichen und verwässern das Signal.",
+        "Verwende nach der Veröffentlichung dauerhaft Kleinschreibung, denn ein später geänderter Slug bricht bestehende Links und schädigt die aufgebaute Suchautorität.",
+        "Passe dich der Konvention deines CMS an, typischerweise Bindestriche bei WordPress und Jekyll, während einige Frameworks Unterstriche oder camelCase bevorzugen — das Tool lässt dich das direkt auswählen."
+      ]
+    },
+    {
+      "heading": "SEO-Folgen schwacher Slugs",
+      "paragraphs": [
+        "Suchmaschinen gewichten die URL als Relevanzsignal, und ein Slug mit dem primären Schlüsselwort stärkt die thematische Klarheit der Seite für diese Suchanfrage.",
+        "Automatisch generierte Slugs aus Titeln enthalten oft Zahlen oder Fragmente, etwa post-title-2024-06, die keinen Wert hinzufügen und den sichtbarsten Schlüsselwort-Raum in einer Ergebnisliste verschwenden.",
+        "Session-Parameter und maschinell generierte Kennungen machen URLs schwerer lesbar, teilbar und merkbar und entmutigen das manuelle Teilen, das echten Traffic antreibt.",
+        "Sekunden in einen sauberen Slug bei der Veröffentlichung zu investieren, verhindert später Jahre mittelmäßiger Performance und kaputter Links."
+      ]
+    },
+    {
+      "heading": "Transliteration und mehrsprachige Titel",
+      "paragraphs": [
+        "Titel auf Deutsch, Französisch, Spanisch und vielen anderen Sprachen tragen Diakritika, die Browser in URLs nur umständlich behandeln. Ob ü zu ue wird oder erhalten bleibt, hängt von der Sprache und deiner redaktionellen Präferenz ab, und das Tool wendet sinnvolle Standardwerte an.",
+        "Für nicht-lateinische Schriften wie Kyrillisch, Arabisch oder Griechisch erzeugt eine phonetische Transliteration einen in lateinischer Schrift lesbaren Slug, der für Leser lateinischer Schrift trotzdem zum Thema passt.",
+        "Einheitliche Transkriptionsregeln sind für mehrsprachige Websites wichtig, wo ein spanischer Slug und ein englischer Slug beide natürlich und vorhersehbar wirken sollten.",
+        "Du kannst auch wählen, Diakritika zu behalten oder zu entfernen, um den Konventionen deiner Marke zu entsprechen — das gibt mehrsprachigen Publishern volle Kontrolle darüber, wie ihre URLs gelesen werden."
+      ]
+    },
+    {
+      "heading": "Wie ein Slug in deine URL-Struktur passt",
+      "paragraphs": [
+        "Der Slug ist das letzte Segment eines größeren URL-Pfads, etwa /blog/kategorie-name/slug, und trägt die spezifischste identifizierende Information für die Seite.",
+        "Eine durchdachte Slug-Hierarchie, Kategorie vor Beitrag, hilft Nutzern und Suchmaschinen zu verstehen, wo eine Seite in deiner Website steht.",
+        "Stabile Slugs nach der Veröffentlichung sind entscheidend, denn jeder von ihnen verankert Lesezeichen, Backlinks und Suchrankings, die Monate brauchen, um sich aufzubauen.",
+        "Wenn du einen Slug ändern musst, bewahrt eine Weiterleitung den Großteil des Werts, aber die Änderung ganz zu vermeiden ist immer besser."
+      ]
+    },
+    {
+      "heading": "Private Slug-Generierung für unveröffentlichte Arbeit",
+      "paragraphs": [
+        "Entwürfe und Titel vor dem Launch werden lokal umgewandelt, ohne dass etwas deine Maschine verlässt.",
+        "Kein Upload, kein Konto, kein Wasserzeichen auf jeder Plattform.",
+        "Deine unveröffentlichten Namen bleiben unveröffentlicht, bis du dich entscheidest, sie zu veröffentlichen."
+      ]
+    },
+    {
+      "heading": "Slugs im Content-Workflow",
+      "paragraphs": [
+        "Erzeuge den Slug, miss den Entwurf mit dem [word-counter:Wortzähler] und verfeinere den Text mit [find-replace:Suchen und Ersetzen], bevor du veröffentlichst.",
+        "Die Suite ist kostenlos und browserbasiert und bildet eine durchgehende Content-Produktionspipeline.",
+        "Von der Überschrift zur freundlichen /url/ — komplett ohne den Browser zu verlassen."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welche Zeichen werden beim Erstellen eines Slugs entfernt?",
+      "a": "Satzzeichen, Anführungszeichen und Symbole werden entfernt oder durch sichere Trennzeichen ersetzt, und akzentuierte Zeichen werden in URL-sichere Buchstaben transkribiert."
+    },
+    {
+      "q": "Kann ich Bindestriche oder Unterstriche als Trennzeichen wählen?",
+      "a": "Ja. Trennzeichenstil- und Schreibweise-Optionen lassen dich die Slug-Konventionen deines CMS oder Frameworks exakt treffen."
+    },
+    {
+      "q": "Ist der Slug-Generator privat?",
+      "a": "Ja. Die Umwandlung läuft vollständig in deinem Browser, ohne Uploads, Konten oder serverseitige Verarbeitung."
+    },
+    {
+      "q": "Kann ich denselben Slug auf verschiedenen CMS-Plattformen verwenden?",
+      "a": "Ja. Der generierte Slug ist eine standardmäßige URL-sichere Zeichenfolge und funktioniert daher ohne Änderungen in WordPress, Shopify, Hugo und den meisten anderen Publishing-Systemen."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "png-to-jpg",
+  "title": "How to Convert PNG to JPG Online Free: Slash Size From Your Images",
+  "description": "Convert PNG to JPG online free with ChooseTools. Turn bulky PNG screenshots and scans into lighter JPG files in your browser with quality control and full privacy.",
+  "keywords": ["png to jpg", "convert png to jpg online free", "png to jpg converter", "reduce png size", "screenshot to jpg", "png to jpeg free", "png to jpg without losing quality"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "When PNG Is Heavy, JPG Is Light",
+      "paragraphs": [
+        "PNG stores losslessly, which makes screenshots and scans precise but heavy. Converting [png-to-jpg:PNG to JPG] trades a little detail for dramatically smaller files — the classic trade-off for email, web and storage.",
+        "Photos and captured screens bands that don't need pixel-perfect fidelity are much lighter as JPG.",
+        "ChooseTools converts PNG to JPG locally in your browser: you pick the quality, and the file shrinks without any upload."
+      ]
+    },
+    {
+      "heading": "How to Convert a PNG to JPG",
+      "paragraphs": [
+        "A lighter file in one pass:",
+        "Upload your PNG, choose the JPG quality that matches the purpose, and convert. The JPG downloads immediately at the chosen balance of size and fidelity.",
+        "Everything runs on your device, so multiple tweaks are free and private."
+      ]
+    },
+    {
+      "heading": "The Size Story: Screenshots and Scans Shrink",
+      "paragraphs": [
+        "A PNG screenshot of a full screen can exceed several megabytes; the JPG commonly lands at 10-20% of that.",
+        "Email servers, forms and portals that reject large images accept the JPG without complaint.",
+        "Storage for archives and backups gets a lot smaller too."
+      ]
+    },
+    {
+      "heading": "Transparency: the One Real Difference",
+      "paragraphs": [
+        "PNG supports transparent pixels while JPG does not, so the conversion must decide what to do with any transparency in the source. Areas that were transparent become filled with a background color you choose, typically solid white for documents and screenshots.",
+        "For screenshots, which rarely contain true transparency, the filled background is invisible in practice: most captures are fully opaque already. Logos, icons and cutouts with transparent regions need the choice to be deliberate, because the visible background becomes part of the permanent JPG.",
+        "If the source's transparency is essential to your design, a JPG will not preserve it by design. In that case PNG remains the correct format, and the convert JPG path is best reserved for photos, scans and opaque document captures."
+      ]
+    },
+    {
+      "heading": "Quality Control, Not Blind Compression",
+      "paragraphs": [
+        "High quality settings keep image content essentially identical for photos and documents; balanced settings suit most sharing.",
+        "The choice is yours per file, which beats one-size-fits-all conversion tools.",
+        "When maximum fidelity matters more than size, keep the PNG; JPG is for when the file needs to travel light."
+      ]
+    },
+    {
+      "heading": "Picking the Quality Setting for Each Job",
+      "paragraphs": [
+        "For an image going into an email attachment or a quick share, a balanced setting keeps the file small while retaining natural-looking photos. For scans of text that must stay legible when enlarged, a higher setting preserves edge sharpness that low compression would soften.",
+        "For images destined to social media or a website, a moderate setting usually suffices because both platforms recompress anyway; sending a huge PNG there wastes transfer time for no visible benefit. For archival or possible printing, keep quality high because the extra size buys headroom later.",
+        "Because every conversion runs locally, you can try two quality levels side by side and compare the file sizes instantly. That means the final choice reflects your actual priorities for this exact image, not a preset applied uniformly to everything."
+      ]
+    },
+    {
+      "heading": "Best Practices for Screenshots, Scans and Photos",
+      "paragraphs": [
+        "Screenshots convert beautifully because their flat color areas compress extremely well as JPG at high quality settings. Scans of black-and-white documents stay crisp when you keep quality high, preserving the subtle texture of the paper without turning text into gray mush.",
+        "Photographs from cameras are already photo-like, so converting them from PNG to JPG costs very little even at moderate settings. The pattern to follow: high quality for text and documents, balanced for most photos, lower only when files must be tiny for a specific upload limit.",
+        "Before converting, check whether the file has a transparent layer and consider cropping unneeded borders first. A quick crop reduces width and height, and every removed pixel is another chunk of file size saved before compression even begins."
+      ]
+    },
+    {
+      "heading": "Private Conversion Everywhere",
+      "paragraphs": [
+        "Converting captures of private screens or scanned documents locally means nothing leaves your machine.",
+        "No upload, no watermark, no account — desktop and mobile behave the same.",
+        "One click, and your heavy PNG becomes a portable JPG."
+      ]
+    },
+    {
+      "heading": "PNG to JPG Inside the Full Image Kit",
+      "paragraphs": [
+        "Follow conversion with [resize-image:resize] for exact targets or [compress-image:compression] for the smallest footprint.",
+        "The full suite is free, private and browser-native.",
+        "Both formats, used precisely when each is the right tool."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does PNG to JPG conversion always reduce file size?",
+      "a": "For typical screenshots and photographs, yes — JPG's compression usually yields a much smaller file. The degree depends on content and the quality setting."
+    },
+    {
+      "q": "Will the JPG look different from my PNG?",
+      "a": "At high quality the difference is negligible for photos; heavy compression introduces subtle artifacts. Choose the setting that matches the file's purpose."
+    },
+    {
+      "q": "Is conversion private and free?",
+      "a": "Yes. Everything happens locally in your browser with no uploads, watermarks or accounts."
+    },
+    {
+      "q": "What happens to transparency in my PNG?",
+      "a": "JPG has no transparency, so transparent areas are filled with a background color you choose, typically white, before the file is saved."
+    }
+  ]
+}

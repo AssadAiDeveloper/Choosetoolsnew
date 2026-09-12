@@ -1,0 +1,115 @@
+{
+  "slug": "mt940-to-excel",
+  "title": "MT940'tan Excel'e: Banka Hesap Özeti MT940'ı Çevrimiçi Ücretsiz XLSX'e Dönüştürün",
+  "description": "Banka hesap özeti MT940 dosyalarını yapılandırılmış, filtrelenebilir elektronik tablolara ayrıştırmak için ücretsiz MT940'tan Excel'e dönüştürücü. Özel, tarayıcınızda, yükleme yok.",
+  "keywords": ["mt940'tan excel'e", "mt940 dönüştürücü", "mt940 hesap özetinden excel'e", "mt940 ayrıştırma", "banka hesap özetinden xlsx'e", "mt940'tan csv'ye", "mt940 dosyasından elektronik tabloya"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Banka Hesap Özetlerinin Kendine Has Bir Dili Vardır",
+      "paragraphs": [
+        "MT940, bankaların hesap özetleri için kullandığı uluslararası SWIFT biçimidir — kesin ama okunaksız kodlanmış etiket satırları. [mt940-to-excel:MT940'ı Excel'e dönüştürmek] bu kodları her muhasebecinin okuyabileceği bir elektronik tabloya çevirir.",
+        "Her işlem tarih, tutar ve referansla eksiksiz gelir; bankanın kaydettiği tam veriler korunur.",
+        "ChooseTools, MT940'ı tarayıcınızda, hiçbir veri cihazınızı terk etmeden yerel olarak ayrıştırır."
+      ]
+    },
+    {
+      "heading": "MT940 Excel'e Nasıl Dönüştürülür",
+      "paragraphs": [
+        "Kodlu dosyadan tanıdık tabloya:",
+        "MT940 metnini yapıştırın veya dosyayı yükleyin ve dönüştürün. İşlem blokları, net etiketli sütunlarda tarihler, tutarlar, bakiyeler ve açıklamalarla satırlara açılır.",
+        "Ayrıştırma cihazınızda gerçekleşir — hesap özetleri tüm dönüştürme süreci boyunca özel kalır."
+      ]
+    },
+    {
+      "heading": "Kodlanmış Etiketler Anlamlı Sütunlar Olur",
+      "paragraphs": [
+        "Açılış bakiyesi, kapanış bakiyesi ve işlem ayrıntıları gibi etiketler, finans ekiplerinin anında tanıdığı adlandırılmış sütunlara eşlenir.",
+        "Borçlar ve alacaklar mutabakat için net biçimde ayrışır; her satır yönü ve tutarı gösterir.",
+        "Denetçiler bir kod duvarı yerine satırlar kazanır; manuel örnek kontrolleri basit ve verimli hâle gelir."
+      ]
+    },
+    {
+      "heading": "MT940 Etiket Yapısını Ayrıntılı Anlama",
+      "paragraphs": [
+        ":20 etiketi, bankanın bu özel hesap özetine atadığı benzersiz bir tanımlayıcı olan hesap özeti referans numarasını taşır. Birden fazla ayı mutabakat yaparken bu referans, her elektronik tabloyu orijinal özet dönemine ve kaynak dosyaya geri eşleştirmenize yardımcı olur.",
+        ":60M ve :62M bakiye etiketleri her hesap özetini açılış ve kapanış bakiyeleriyle çevreler. Her bakiye satırı bir alacak-borç göstergesi, YYAAGG biçiminde bir tarih, bir para birimi kodu ve tutarı içerir. Bu uç rakamlar, mutabakat yazılımının dönemler arasında işlem kaybolmadığını doğrulamasını sağlar.",
+        ":61 içindeki işlem satırları kompakt bir yapı taşır: tarih, değer tarihi, alacak-borç işareti, tutar, işlem türü ve referans kodları. Her :61'i izleyen :86 etiketi, banka ücretlerinin, havale referanslarının ve fatura numaralarının tipik olarak göründüğü insan tarafından okunabilir anlatıyı sağlar."
+      ]
+    },
+    {
+      "heading": "Yorucu İş Olmadan Mutabakat",
+      "paragraphs": [
+        "Elektronik tablolar, tanıdık Excel işlevleriyle herhangi bir tarih veya tutar aralığı üzerinde filtreleri, toplamları ve pivot görünümleri etkinleştirir.",
+        "Banka satırlarını DÜŞEYARA veya koşullu biçimlendirme kullanarak dahili kayıtlarla hızlı ve güvenli eşleştirin.",
+        "Hesap özeti statik bir dosya olmaktan çıkar; analiz ve raporlamayı destekleyen çalışan bir tablo hâline gelir."
+      ]
+    },
+    {
+      "heading": "Çoklu Hesap Özetlerini ve Hesap Türlerini İşleme",
+      "paragraphs": [
+        "Tek bir MT940 dosyası birkaç hesabın özetlerini veya tek bir hesabın birden fazla dönemini içerebilir. Dönüştürücü her özet bloğunu ayırır; farklı hesapların verilerinin tek bir belirsiz tabloda birleşmesini önleyerek ayrı sayfalar veya net etiketli bölümler elde edersiniz.",
+        ":25 etiketindeki hesap tanımlayıcıları vadesiz hesaplar, tasarruf hesapları ve döviz mevduatları arasında ayrım yapar. Bu etiketleri elektronik tabloda tutmak, finans ekiplerinin birleşik bir listede manuel arama yapmadan hesap türüne göre filtrelemesini sağlar.",
+        "Hesap özeti referans dizileri, bir mali yıl boyunca birden fazla dosya geldiğinde kronolojik sırayı belirlemeye yardımcı olur. Bu referansları elektronik tabloda korumak, denetçilere tahmin olmadan en erken özete kadar güvenilir bir iz sunar."
+      ]
+    },
+    {
+      "heading": "Elektronik Tablodan Muhasebe Yazılımına",
+      "paragraphs": [
+        "MT940 verileri Excel'e girdikten sonra, muhasebe platformlarına CSV veya Excel yükleme özellikleri aracılığıyla aktarın. Çoğu popüler araç standart sütun başlıklarına sahip tablo verilerini kabul eder; ayrıştırılan elektronik tablo doğrudan defter tutma iş akışlarına bağlanır.",
+        "Pivot tablolar harcamaları kategoriye, tarih aralığına veya karşı tarafa göre saniyeler içinde özetler. Muhasebeciler, ham MT940 metninden derlenmesi saatler alacak nakit akışı kalıplarına anında görünürlük kazanır.",
+        "Koşullu biçimlendirme alışılmadık derecede büyük işlemleri, yinelenen kayıtları veya beklenen aralıkların dışındaki tarihleri vurgular. Bu görsel işaretler anormallikleri, aylık kapanış süreçlerinde yayılmadan önce erkenden su yüzüne çıkarır."
+      ]
+    },
+    {
+      "heading": "Yerel Ayrıştırılmış, Mali Açıdan Güvenli",
+      "paragraphs": [
+        "Banka verileri, hesap numaraları, bakiyeler ve işlem geçmişleri içeren bir şirketin elindeki en hassas malzemedir.",
+        "Yerel dönüştürme, hesap özetlerinin asla üçüncü bir tarafa gitmemesi veya harici işleme sunucularından geçmemesi anlamına gelir.",
+        "Tüm ayrıştırma tarayıcı oturumunuzda gerçekleşir; gizlilik vaatle değil, tasarım gereği sağlanır."
+      ]
+    },
+    {
+      "heading": "Hatalar Azalır, Biçimler Korunur",
+      "paragraphs": [
+        "Otomatik çıkarım, düzinelerce veya yüzlerce işlem satırında manuel yeniden girişin getirdiği yazım hatalarını ortadan kaldırır.",
+        "Tutarlar ve imzalar dönüştürme boyunca birebir kalır; ondalık değerlerde yuvarlama veya kısaltma yoktur.",
+        "Dosyadan sayfaya finansal düzeyde doğruluk; denetim ve uyumluluk incelemesi için hazır."
+      ]
+    },
+    {
+      "heading": "Finansal Araç Setinde MT940",
+      "paragraphs": [
+        "Eksiksiz bir belge iş akışı için [excel-to-mt940:Excel'den MT940'a] ile tersini yapın, [excel-to-csv:Excel'den CSV'ye] ile satırları yeniden kullanın ve [pdf-to-text:çıkarılabilir PDF'ler] ile arşivleyin.",
+        "Süit ücretsiz ve tarayıcı tabanlıdır; kurulum veya abonelik gerektirmez.",
+        "Her finans ekibi için kodlanmış hesap özetleri, netliğe çözülür."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "MT940 dosyası nedir?",
+      "a": "Bankaların yapılandırılmış işlem etiketleriyle hesap özetleri sunduğu bir SWIFT standart metin biçimidir."
+    },
+    {
+      "q": "Oluşturulan elektronik tabloda ne görünür?",
+      "a": "Her işlem, tarih, tutar, borç veya alacak göstergesi, bakiye ve açıklama alanlarıyla bir satır olur."
+    },
+    {
+      "q": "Ayrıştırma özel mi?",
+      "a": "Evet. Her şey tarayıcınızda, yükleme veya hesap olmadan yerel olarak çalışır."
+    },
+    {
+      "q": "Tek dosyada birden fazla hesabın özetlerini işleyebilir miyim?",
+      "a": "Evet. Dönüştürücü her hesabı ve özet dönemini ayrı bölümlere ayırır; veriler hesaplar arasında birleşmez."
+    },
+    {
+      "q": "Ayrıştırılmış verileri muhasebe yazılımında nasıl kullanırım?",
+      "a": "Elektronik tabloyu CSV olarak dışa aktarıp muhasebe platformunuza yükleyin veya verileri doğrudan mevcut şablonlara ve pivot tablolara yapıştırın."
+    },
+    {
+      "q": "Ayrıştırıcı, binlerce işlem içeren büyük MT940 dosyalarını işler mi?",
+      "a": "Evet. Dönüştürücü her boyuttaki dosyayı tamamen tarayıcınızda işler; işlem sayısı için sunucu tarafı sınırı yoktur."
+    }
+  ]
+}

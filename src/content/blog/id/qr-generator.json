@@ -1,0 +1,101 @@
+{
+  "slug": "qr-generator",
+  "title": "Generator Kode QR: Buat Kode QR Gratis Online untuk URL dan Teks",
+  "description": "Generator kode QR gratis untuk membuat kode QR untuk URL, teks, Wi-Fi, dan lainnya, langsung di browser Anda. Berkualitas tinggi, privat, tanpa upload, tanpa watermark.",
+  "keywords": ["generator kode qr", "buat kode qr online gratis", "generator kode qr gratis", "buat kode qr", "qr untuk url", "pembuat kode qr", "kode qr gratis"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Persegi yang Membawa Tautan",
+      "paragraphs": [
+        "Menu restoran, label produk, tiket acara, dan kartu bisnis semuanya melewati satu kode QR kecil. [qr-generator:Menghasilkan kode QR] untuk URL, pesan, atau kredensial Wi-Fi mengubah permukaan fisik apa pun menjadi pintu masuk yang dapat diklik.",
+        "Ponsel modern memindainya secara native tanpa aplikasi tambahan.",
+        "ChooseTools menghasilkan kode QR secara lokal di browser Anda — kode dirender di sisi klien dan tetap milik Anda."
+      ]
+    },
+    {
+      "heading": "Cara Membuat Kode QR",
+      "paragraphs": [
+        "Dari data ke persegi yang dapat dipindai dalam hitungan detik:",
+        "Tempel URL atau teks Anda, pilih format (URL, teks polos, detail kontak, dan lainnya), dan pilih ukuran. Unduh SVG atau PNG dengan koreksi error dan zona tenang yang tepat.",
+        "Semuanya berjalan secara lokal; kode hanya ada setelah Anda membuatnya, tepat di mana Anda berada."
+      ]
+    },
+    {
+      "heading": "URL, Teks, Wi-Fi dan Lainnya",
+      "paragraphs": [
+        "Data QR yang dibuat mencakup kebutuhan sehari-hari: tautan situs web, pesan polos, koordinat lokasi, nomor telepon, dan kredensial Wi-Fi.",
+        "Memilih tipe data yang tepat meningkatkan perilaku pemindaian dan semantik.",
+        "Label di bawah kode menjelaskan apa yang dibukanya."
+      ]
+    },
+    {
+      "heading": "Tempat Sehari-hari di Mana Kode QR Bekerja Nyata",
+      "paragraphs": [
+        "Restoran mencetak satu kode di setiap meja, dan pengunjung membuka menu tanpa mengunduh aplikasi atau mengetik URL panjang. Usaha kecil menempatkan kode pada kemasan sehingga pelanggan dapat memesan ulang atau menonton tutorial, mengubah produk statis menjadi awal hubungan yang berkelanjutan.",
+        "Penyelenggara acara menyematkan tautan pendaftaran di selebaran dan lencana, memungkinkan peserta mendaftar, menemukan jadwal, atau bergabung dengan saluran sebelum pintu dibuka. Agen real estat menempatkan kode pada papan nama yang membuka tur virtual atau halaman detail, menangkap pembeli yang tertarik saat mereka berdiri di luar properti.",
+        "Studio kebugaran dan truk makanan mengandalkan kode yang membuka halaman pembayaran atau formulir reservasi, menggantikan pertukaran canggung kasir yang berteriak nama pengguna. Masing-masing kasus ini bergantung pada satu propori: kode mendarat tepat di mana orang sudah berada.",
+        "Kode Wi-Fi sangat populer di kafe dan ruang kerja bersama. Alih-alih mengetik kata sandi yang panjang dan tersembunyi, tamu memindai kode di meja dan terhubung. Tamu mengingat pengalaman tersebut tanpa usaha, dan staf berhenti mengulang kata sandi yang sama beberapa kali sehari."
+      ]
+    },
+    {
+      "heading": "Koreksi Error dan Keterpindaian",
+      "paragraphs": [
+        "Level koreksi menukar densitas dengan ketahanan: level lebih tinggi bertahan dari penghalangan sebagian dan kualitas cetak rendah.",
+        "Kode yang dihasilkan menempatkan zona tenang yang tepat, sangat penting untuk pemindaian yang andal.",
+        "Cetakan profesional akan membacanya di mana saja, dalam ukuran apa pun."
+      ]
+    },
+    {
+      "heading": "Keterpindaian, Ukuran Cetak, dan Penempatan",
+      "paragraphs": [
+        "Jarak antara pemindai dan kode harus sesuai dengan ukuran yang Anda cetak. Kode menu yang dibaca dari jarak dua puluh sentimeter bisa berukuran kecil, sementara kode di papan reklame atau jendela toko harus bertahan dari seberang jalan. Mencetak terlalu kecil untuk jarak baca adalah alasan paling umum proyek QR nyata gagal.",
+        "Zona tenang, batas kosong di sekitar modul, bukan dekoratif. Pemindai membutuhkan margin kosong itu untuk menemukan pola finder di sudut-sudut, dan beberapa aplikasi kamera menolak kode yang menyentuh grafik atau teks lain. Kode yang diekspor mencakup zona tenang yang benar sehingga hasil cetak terpindai bersih untuk pertama kalinya.",
+        "Kontras sama pentingnya dengan level koreksi. Modul gelap pada latar terang terpindai secara andal, sementara kode yang warnanya terbalik atau kontras rendah memberatkan kamera ponsel. Untuk penempatan kritis, menguji kode yang dicetak dengan lebih dari satu ponsel sebelum cetak penuh menangkap masalah kontras lebih awal."
+      ]
+    },
+    {
+      "heading": "Unduh PNG atau SVG untuk Setiap Permukaan",
+      "paragraphs": [
+        "PNG mencakup layar, selebaran, dan postingan media sosial; SVG skalabel tanpa batas untuk cetak format besar dan alur kerja vektor.",
+        "Pengekspor menghormati ukuran dan margin zona tenang yang dipilih.",
+        "Kendali penuh atas ke mana kode Anda pergi selanjutnya.",
+        "PNG tidak ada masalah untuk menu kecil atau kartu bisnis: dirender dengan ketajaman penuh dalam ukuran moderat dan langsung diunggah. SVG harus menjadi pilihan untuk poster, spanduk, atau wrap kendaraan, di mana file yang sama harus cetak baik kecil maupun besar tanpa kehilangan ketajaman di tepi modul."
+      ]
+    },
+    {
+      "heading": "Pembuatan Kode yang Privat",
+      "paragraphs": [
+        "Kode QR kadang mengenkripsi muatan sensitif — tautan pribadi, data keanggotaan. Pembuatan lokal menjaga mereka tetap tidak terpaksa.",
+        "Tanpa upload, tanpa akun, tanpa watermark — di semua platform.",
+        "Kode Anda, data Anda, perangkat Anda."
+      ]
+    },
+    {
+      "heading": "Kode QR dalam Kotak Alat Lengkap",
+      "paragraphs": [
+        "Gaya kode dengan [qr-with-logo:logo di tengah], [resize-image:ubah ukuran] untuk penempatan, dan [compress-image:kompresi] untuk web.",
+        "Suite ini gratis dan berbasis browser.",
+        "Dari data ke persegi yang tahan lama, secara instan."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Tipe data apa yang dapat dienkripsi?",
+      "a": "URL, teks polos, nomor telepon, koordinat lokasi, dan kredensial Wi-Fi termasuk di antara muatan yang didukung."
+    },
+    {
+      "q": "Bisakah saya mengunduh kode QR dalam format vektor?",
+      "a": "Ya. Ekspor SVG menyediakan versi yang skalabel tanpa batas bersama PNG untuk kegunaan layar dan cetak."
+    },
+    {
+      "q": "Apakah pembuatan QR privat?",
+      "a": "Ya. Kode dirender secara lokal di browser Anda, muatan tidak pernah menyentuh server."
+    },
+    {
+      "q": "Mengapa kode cetak saya membutuhkan zona tenang?",
+      "a": "Pemindai mendeteksi pola finder sudut dengan mencari batas kosong, sehingga menjaga margin kosong di sekitar kode sangat penting untuk pemindaian yang andal."
+    }
+  ]
+}

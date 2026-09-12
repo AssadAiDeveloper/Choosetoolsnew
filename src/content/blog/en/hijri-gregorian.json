@@ -1,0 +1,122 @@
+{
+  "slug": "hijri-gregorian",
+  "title": "Hijri to Gregorian Converter: Convert Islamic Calendar Dates Online Free",
+  "description": "Free Hijri to Gregorian date converter with two-way conversion between the Islamic and Gregorian calendars. Private, in your browser, no uploads.",
+  "keywords": ["hijri to gregorian", "gregorian to hijri", "islamic calendar converter", "hijri date converter", "convert hijri date", "um al qura conversion", "hijri gregorian converter online"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Two Calendars Count the Same Days Differently",
+      "paragraphs": [
+        "The Hijri calendar follows lunar cycles while the Gregorian calendar follows the sun; dates in one need mapping to the other constantly. [hijri-gregorian:Converting between Hijri and Gregorian dates] removes the guesswork in either direction.",
+        "Official, religious and civil needs call for it every day.",
+        "ChooseTools converts dates locally in your browser, using recognized conversion algorithms."
+      ]
+    },
+    {
+      "heading": "How to Convert a Date Between Calendars",
+      "paragraphs": [
+        "Both directions, both comprehensible:",
+        "Enter a Hijri date to see its Gregorian equivalent, or enter a Gregorian date to receive the Hijri form. Choose the conversion convention (such as Umm al-Qura) when available.",
+        "Conversion is local, immediate and repeatable."
+      ]
+    },
+    {
+      "heading": "Differences Rooted in the Moon",
+      "paragraphs": [
+        "Lunar years run roughly eleven days shorter than solar ones, so Hijri dates shift forward relative to Gregorian each year.",
+        "Recognized algorithms reconcile the difference reliably.",
+        "Context prevents misinterpretation."
+      ]
+    },
+    {
+      "heading": "Official Documents and Civil Applications",
+      "paragraphs": [
+        "Contracts, certificates and systems often require both date systems.",
+        "Databases and imports stay valid when dates map correctly.",
+        "Administrative correctness starts at the conversion."
+      ]
+    },
+    {
+      "heading": "Religious Observance and Planning",
+      "paragraphs": [
+        "Muslim communities schedule Ramadan, Eid celebrations and Hajj dates according to the Hijri calendar, but government calendars, school schedules and workplace planning all operate on Gregorian dates. Families need to know the Gregorian equivalent of each religious milestone to coordinate leave, travel and gatherings.",
+        "Mosques and community centers publish Hijri event dates alongside Gregorian ones so that attendees can mark both calendars. Accurate conversion prevents the embarrassing scenario of announcing an observance date that is off by a day or more.",
+        "Having a reliable converter on hand makes seasonal planning straightforward and keeps religious and civil schedules in harmony throughout the year."
+      ]
+    },
+    {
+      "heading": "Historical Dates and Long-Range Planning",
+      "paragraphs": [
+        "Historians and researchers translating records face the reverse problem: an old document written only in Hijri must be mapped to a Gregorian date for comparison with other sources. A converter handles these multi-century mappings consistently instead of relying on roughly remembered equivalents.",
+        "Long-range planning such as publishing schedules that reach years ahead also benefits from reliable conversion rather than guesswork based on the current year's approximation.",
+        "Distinguishing between a tabular estimate and an observed calendar date keeps historical conclusions honest and repeatable."
+      ]
+    },
+    {
+      "heading": "Digit Format and Display Conventions",
+      "paragraphs": [
+        "Gregorian dates can be written in Western digits or in Eastern Arabic numerals depending on the audience, and Hijri dates likewise appear in more than one numeral style across regions. The converter presents dates in the notation your context expects, so a report, contract or calendar stays consistent for its readers.",
+        "Day-month ordering also differs by region: some systems display date first while others place the month first. Selecting the format that matches the receiving application prevents misinterpretation when the numbers cross into a database or a printed form.",
+        "Keeping the output in a single consistent convention across all your documents makes future lookups reliable and machine-readable."
+      ]
+    },
+    {
+      "heading": "Planning Announcements and Public Schedules",
+      "paragraphs": [
+        "Community newsletters and organization calendars frequently list religious occasions in both Hijri and Gregorian so that every member can plan travel and time off. Producing parallel columns requires accurate conversion across the full year, which the tool provides instantly for each desired date.",
+        "Employers in the region also rely on combined calendars to reconcile religious holidays with statutory leave systems, ensuring payroll and attendance records align."
+      ]
+    },
+    {
+      "heading": "Accuracy Depends on the Convention",
+      "paragraphs": [
+        "Astronomical and Umm al-Qura conventions can shift dates slightly.",
+        "Selecting the right convention aligns output with the consumer's expectation.",
+        "Choice beats blind defaults."
+      ]
+    },
+    {
+      "heading": "How Lunar Months Differ from Solar Months",
+      "paragraphs": [
+        "A Hijri month is either 29 or 30 days long, determined by the visibility of the new crescent moon. A Gregorian month is fixed at 28 to 31 days by civil agreement regardless of astronomical events. This fundamental difference means the two calendars drift apart by about eleven days each year.",
+        "Over a 33-year cycle the drift completes a full cycle, which is why some communities use a tabular approach that averages the drift for long-range planning. Other communities rely on actual moon sighting, producing slight regional variations in date boundaries.",
+        "The converter supports recognized mathematical approximations that match the most common civil and religious expectations, while acknowledging that local moon-sighting authorities may announce dates one day differently."
+      ]
+    },
+    {
+      "heading": "Private Date Work",
+      "paragraphs": [
+        "Personal and official dates convert locally.",
+        "No upload, no account, no watermark — across platforms.",
+        "Calendar matters stay private."
+      ]
+    },
+    {
+      "heading": "Dates in the Arabic Toolkit",
+      "paragraphs": [
+        "Combine with [arabic-numerals:numeral handling], [tafqit:number spelling] and [age-calculator:age math] for complete calendar and numeric work.",
+        "The suite is free and browser-native.",
+        "Two calendars, one accurate answer."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can the converter work in both directions?",
+      "a": "Yes. Hijri dates convert to Gregorian and Gregorian dates convert to Hijri in selectable mode."
+    },
+    {
+      "q": "Which conversion convention is used?",
+      "a": "Recognized Islamic calendar algorithms are offered, including the Umm al-Qura approach where relevant, so results align with common usage."
+    },
+    {
+      "q": "Is conversion private?",
+      "a": "Yes. Everything runs locally in your browser with no uploads or accounts."
+    },
+    {
+      "q": "Why might my Hijri date differ by one day from another source?",
+      "a": "Different regions rely on local moon sighting or different tabular approximations, which can shift the start of a Hijri month by one day. The converter uses a recognized algorithm that matches the most widely accepted civil convention."
+    }
+  ]
+}

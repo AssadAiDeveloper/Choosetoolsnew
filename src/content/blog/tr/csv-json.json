@@ -1,0 +1,132 @@
+{
+  "slug": "csv-json",
+  "title": "CSV'den JSON'a Dönüştürücü: CSV'yi Çevrimiçi Ücretsiz JSON'a Dönüştürün",
+  "description": "Elektronik tablo verilerini başlıklar, biçimlendirme ve önizleme ile yapılandırılmış JSON'a dönüştürmek için ücretsiz CSV'den JSON'a dönüştürücü. Özel, tarayıcınızda, yükleme yok.",
+  "keywords": ["csv'den json'a", "csv'yi çevrimiçi json'a dönüştürme", "csv'den json'a dönüştürücü", "elektronik tablodan json'a", "csv'den json dizisine", "csv'yi json'a ücretsiz dönüştürme", "csv'den json'a araç"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "CSV'de Tablolar, JSON'da Nesneler",
+      "paragraphs": [
+        "Pano yazılımları, API'ler ve yapılandırma sistemleri JSON'u tercih ederken analiz ve içe aktarma işleri CSV olarak gelir. [csv-json:CSV'yi JSON'a dönüştürmek] elektronik tablolar ile kodu temiz biçimde buluşturur.",
+        "Başlık duyarlı dönüştürme, satırları otomatik olarak nesnelere çevirir.",
+        "ChooseTools, CSV'yi ayırıcı ve önizleme kontrolleriyle tarayıcınızda yerel olarak JSON'a dönüştürür."
+      ]
+    },
+    {
+      "heading": "CSV JSON'a Nasıl Dönüştürülür",
+      "paragraphs": [
+        "Satırlardan kayıtlara, anında:",
+        "CSV'nizi yapıştırın, ayırıcıyı seçin (virgül, noktalı virgül, sekme) ve başlık satırının her sütunu JSON anahtarlarına eşlemesine izin verin. Yapıyı önizleyin ve diziyi indirin ya da kopyalayın.",
+        "Dönüştürme tamamen cihazınızda gerçekleşir."
+      ]
+    },
+    {
+      "heading": "Başlık Satırının Nesnelere Eşlenmesi",
+      "paragraphs": [
+        "İlk satır sütun adlarını taşıdığında, sonraki her satır bu anahtarlara sahip bir nesne hâline gelir.",
+        "Virgül ve gömülü satır sonları içeren tırnaklı alanlar doğru ayrıştırılır.",
+        "Veri taşıma, manuel yeniden biçimlendirme olmadan yapı kazanır."
+      ]
+    },
+    {
+      "heading": "Yapılandırma Dosyaları, İçe Aktarmalar ve Entegrasyon",
+      "paragraphs": [
+        "Analiz dışa aktarımlarını yapılandırma dizilerine, tohum dosyalarına ve API yüklerine dönüştürün.",
+        "JSON çıktısı arka uç alımına ve ön yüz test gereçlerine eşit ölçüde uygundur.",
+        "Elektronik tablo bakımı Excel'de kalırken kod JSON tüketir."
+      ]
+    },
+    {
+      "heading": "Uç Durumlar: Boş Hücreler, Türler ve Kodlama",
+      "paragraphs": [
+        "Boş hücreler, tırnaklı virgüller, değişken türler ve kodlamalar çıktıyı şekillendirir.",
+        "Dönüştürücü gerçek dışa aktarımların dağınık gerçekleriyle başa çıkar.",
+        "Önizleme, yüke güvenmeden önce eşlemeyi doğrular."
+      ]
+    },
+    {
+      "heading": "Özel Veri Dönüştürme",
+      "paragraphs": [
+        "Müşteri tablo verileri, sunucu teması olmadan yerel olarak dönüştürülür.",
+        "Yükleme yok, hesap yok, filigran yok — platformlar arasında.",
+        "İfşasız taşıma."
+      ]
+    },
+    {
+      "heading": "Veri Araç Setinde CSV ve JSON",
+      "paragraphs": [
+        "Eksiksiz işlem için [json-to-excel:JSON'dan Excel'e], [excel-to-csv:Excel'den CSV'ye] ve [json-formatter:biçimlendirme] ile gidiş dönüş yapın.",
+        "Süit ücretsiz ve tarayıcı tabanlıdır.",
+        "Satırlardan kayıtlara, doğru ve özel."
+      ]
+    },
+    {
+      "heading": "Ayırıcı Algılama ve Manuel Geçersiz Kılma",
+      "paragraphs": [
+        "Farklı bölgelerden dışa aktarılan CSV dosyaları farklı ayırıcılar kullanır: Amerika Birleşik Devletleri'nde virgül, Avrupa'nın büyük bölümünde noktalı virgül ve birçok geliştirici aracında sekme.",
+        "Dönüştürücü, ilk birkaç satırdaki tutarlı alan sayılarını analiz ederek otomatik ayırıcı algılamayı dener; ancak sezgisel yöntem yanlış tahmin ettiğinde manuel geçersiz kılma her zaman kullanılabilir.",
+        "Doğru ayırıcıyı seçmek, temiz dönüştürmenin en önemli adımıdır; çünkü bir uyumsuzluk tüm satırların tek bir alana çökmesine neden olur.",
+        "Ayırıcı ayarlandığı anda önizleme hemen güncellenir; böylece nihai JSON çıktısını üretmeden önce sütun yapısını onaylayabilirsiniz."
+      ]
+    },
+    {
+      "heading": "Tür Çıkarımı: Sayılar, Boole Değerleri ve Null'lar",
+      "paragraphs": [
+        "Ham CSV metni her hücreyi bir dizge olarak ele alır, ancak JSON doğru türlemeden yarar sağlar; böylece aşağı akış kodu ek ayrıştırma olmadan sayısal karşılaştırmalar ve boole mantığı yürütebilir.",
+        "Dönüştürücü her hücreyi inceler, sayıya benzeyen değerleri JSON sayı türüne yükseltir, true ve false değerlerini boole olarak tanır ve boş veya açıkça null hücreleri null'a çevirir.",
+        "İçinde sayısal karakterler bulunan ancak başında sıfır veya özel biçimlendirme olan dizgeler veri kaybını önlemek için dizge olarak korunur.",
+        "Bu tür duyarlı dönüştürme, elde edilen JSON dizisinin sonradan işlem yapılmadan doğru türlü değerler bekleyen uygulamalarda hemen kullanılabilir olmasını sağlar."
+      ]
+    },
+    {
+      "heading": "Çok Satırlı Alanlar ve Gömülü Virgüllerin İşlenmesi",
+      "paragraphs": [
+        "Gerçek CSV dışa aktarımları sıklıkla birden fazla satıra yayılan veya metin içeriği içinde virgül bulunduran tırnak işaretleriyle sarılmış alanlar içerir.",
+        "Dönüştürücü, tırnaklı alanlar için RFC 4180 kurallarını izler; tırnakların içinde satır sonları veya ayırıcılar görünse bile alan sınırlarını doğru şekilde belirler.",
+        "Bu davranış, profesyonel elektronik tablo uygulamalarının veri dışa aktarma biçimini yansıtır; dönüştürmenizin aynı dosyaları manuel temizlik olmadan işlemesini sağlar.",
+        "Kaçışlı tırnaklar içeren alanlar doğru şekilde kaçışı çözülür; böylece JSON çıktısı ham kaçış dizileri yerine amaçlanan içeriği yansıtır."
+      ]
+    },
+    {
+      "heading": "Çıktı Biçimlendirme Seçenekleri",
+      "paragraphs": [
+        "Kompakt JSON çıktısı, boşlukların değer katmadığı API yükleri ve yapılandırma dosyaları için dosya boyutunu en aza indirir.",
+        "Tutarlı girintili güzel yazdırılmış çıktı, JSON'u hata ayıklama, kod inceleme ve manuel denetim için okunabilir kılar.",
+        "Dönüştürücü bu biçimler arasında seçim yapmanıza olanak tanır; böylece indirilen dosya projenizin kurallarıyla eşleşir.",
+        "Dönüştürme anında doğru biçimi seçmek, iş akışında daha sonra ayrı bir biçimlendirme adımından tasarruf sağlar."
+      ]
+    },
+    {
+      "heading": "Toplu Dönüştürme ve Otomasyon İş Akışları",
+      "paragraphs": [
+        "CSV verilerini düzenli dönüştüren ekipler tutarlı bir süreç kurmaktan yarar sağlar: yapıştır, ayırıcıyı yapılandır, önizle ve indir.",
+        "Dönüştürme tamamen tarayıcıda gerçekleştiği için verileri araçtan geçiren bookmarklet iş akışlarına ve yerel otomasyon betiklerine doğal biçimde uyum sağlar.",
+        "Kaynak dosya haftalık güncellendiğinde tekrarlanabilirlik önem kazanır; bugün seçtiğiniz ayarlar gelecekteki dışa aktarımlara manuel olarak yeniden uygulanabilir.",
+        "Piyasalar kuran geliştiriciler için dönüştürücünün ürettiği öngörülebilir JSON yapısı, veri alımını izleyen şema doğrulama adımını basitleştirir."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "CSV sütunları JSON'a nasıl eşlenir?",
+      "a": "İlk satır başlıkları içerdiğinde, sonraki her satır bu sütun adlarıyla anahtarlanan bir nesneye dönüşür; diğer satırlar dizi öğeleri olur."
+    },
+    {
+      "q": "Dönüştürücü, alan içindeki tırnaklı virgülleri işler mi?",
+      "a": "Evet. Virgül veya satır sonu içeren tırnaklı alanlar CSV kurallarına göre doğru ayrıştırılır."
+    },
+    {
+      "q": "Dönüştürme özel mi?",
+      "a": "Evet. Her şey tarayıcınızda, yükleme veya hesap olmadan yerel olarak çalışır."
+    },
+    {
+      "q": "Dönüştürücü ayırıcıyı otomatik algılayabilir mi?",
+      "a": "Evet. Tutarlı alan sayıları için ilk satırları analiz eder; ancak otomatik algılama dosyanızla eşleşmediğinde manuel geçersiz kılma mevcuttur."
+    },
+    {
+      "q": "JSON'da sayısal değerler sayı olarak korunur mu?",
+      "a": "Evet. Geçerli sayılar içeren hücreler JSON sayı türlerine yükseltilirken, başında sıfır veya özel biçimlendirme bulunan değerler dizge olarak kalır."
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "compress-image",
+  "title": "How to Compress an Image Online Free: Reduce Photo File Size",
+  "description": "Compress an image online free with ChooseTools. Shrink photo file size for email, web and uploads while keeping quality, right in your browser with no upload and full privacy.",
+  "keywords": ["compress image", "reduce image size kb", "compress image online free", "make photo smaller", "image compressor", "compress jpg", "reduce photo size mb"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Heavy Images Break Workflows",
+      "paragraphs": [
+        "A 12-megapixel photo is a delight until it exceeds an email limit, stalls a portal upload or crawls across a chat. [compress-image:Compressing images] slims them to whatever the destination tolerates.",
+        "Compression is the most common image chore on the planet, and most tools do it clumsily in the cloud.",
+        "ChooseTools compresses images locally in your browser: choose the target level, watch the size drop, and download — no upload ever."
+      ]
+    },
+    {
+      "heading": "How to Compress an Image in the Browser",
+      "paragraphs": [
+        "Lighten a file with full control:",
+        "Upload the photo and pick a compression level — light, balanced or strong — or target an approximate output size. The tool previews the result and shows the new size before you download.",
+        "Running locally, compression is instant and repeatable, so matching a size cap is a matter of seconds."
+      ]
+    },
+    {
+      "heading": "The Sweet Spot: Size vs Visible Quality",
+      "paragraphs": [
+        "Blind packing crushes quality; grasping at megabytes leaves files oversized. Level-based control finds the middle.",
+        "Photographs compress beautifully with imperceptible change at balanced settings; strong settings suit thumbnails and previews.",
+        "Every job gets exactly the trade-off it needs."
+      ]
+    },
+    {
+      "heading": "Every Channel That Needs Smaller Photos",
+      "paragraphs": [
+        "Email, job portals, school submissions, e-commerce catalogs, messenger apps and web galleries all cap size.",
+        "One compression keeps photos passing everywhere, from a 2 MB portal ceiling to a chat's polite 10 MB.",
+        "Fast, stored, forwarded — never rejected again."
+      ]
+    },
+    {
+      "heading": "Understanding JPEG Compression and File Format Choice",
+      "paragraphs": [
+        "JPEG compression works by simplifying fine detail that human eyes are unlikely to notice, which is why a beach photo and a technical diagram at identical settings produce very different file sizes. Busy, high-contrast scenes need more bytes to stay clean, while smooth gradients compress dramatically.",
+        "For graphics with flat colors such as logos and illustrations, PNG or WebP often compress better than JPEG while remaining crisp. If your source is a PNG with a transparent background, choosing a format that preserves transparency matters more than chasing the smallest byte count.",
+        "Knowing which format suits your content prevents the classic mistake of compressing a logo as JPEG only to find jagged edges and color fringing around text and solid shapes."
+      ]
+    },
+    {
+      "heading": "Recompressing Screen Shots and Scans",
+      "paragraphs": [
+        "Screen shots and scanned documents compress differently from photographs because their content is mostly flat color and text. Such images usually reduce dramatically with a moderate setting, producing files that stay sharp on screen while shrinking to a fraction of the original.",
+        "For documents bound for a lecture or a report, keeping text legible matters more than perfect color fidelity. Choosing the balanced level protects the crisp edges of letters while still cutting the file meaningfully.",
+        "Reducing a pile of lecture screen shots before sending them in an email keeps the message under attachment limits without sacrificing readability."
+      ]
+    },
+    {
+      "heading": "Compressing in Batches for Websites and Portfolios",
+      "paragraphs": [
+        "Publishing a photo gallery or updating a portfolio means compressing dozens of images at once, and handling them one at a time wastes hours. Working through a folder of images with consistent compression settings produces a uniform set of files that a website can serve efficiently.",
+        "Web performance budgets commonly target image payloads of a few hundred kilobytes per page. Starting from a set of 3 MB camera originals, compressing to around 200 KB per image allows five or more photos per page while staying within the budget.",
+        "Using the same repeatable source and the same settings keeps quality consistent across an entire gallery rather than having a few images look degraded because they were compressed harder by accident."
+      ]
+    },
+    {
+      "heading": "Private Compression of Personal and Client Photos",
+      "paragraphs": [
+        "Family photos, unreleased product shots and client sets compress locally; they never travel to a compressor's server.",
+        "No watermark, no account, no quota — and no lingering copies anywhere.",
+        "Same behavior on Windows, macOS, Linux, tablets and phones."
+      ]
+    },
+    {
+      "heading": "Compress After You Resize and Convert",
+      "paragraphs": [
+        "The winning set is usually [resize-image:resize] to display dimensions, [convert-image:convert] to the right format, then compress for delivery.",
+        "All three run free, locally and in-browser.",
+        "The photo pipeline is now a few private clicks instead of a cloud detour."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How much can image size be reduced?",
+      "a": "Compression commonly cuts JPEG files 50-80%, depending on the content and the quality level you choose."
+    },
+    {
+      "q": "Will the compressed image look different?",
+      "a": "Balanced levels are visually near-identical for photographs; stronger compression trades subtle details for smaller size."
+    },
+    {
+      "q": "Is the image compressor free and private?",
+      "a": "Yes. Everything runs locally in your browser with no uploads, watermarks or accounts."
+    },
+    {
+      "q": "Which image formats can I compress?",
+      "a": "The tool supports common formats such as JPG, PNG and WebP, letting you compress or convert to the format that best suits your destination."
+    },
+    {
+      "q": "Can I compress an image to a specific size target?",
+      "a": "Yes. You can choose an approximate output size and the tool adjusts the compression level automatically to land close to that target."
+    }
+  ]
+}

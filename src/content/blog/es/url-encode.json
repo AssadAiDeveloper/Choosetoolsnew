@@ -1,0 +1,107 @@
+{
+  "slug": "url-encode",
+  "title": "Codificador y decodificador de URL: codifica y decodifica URL en línea gratis",
+  "description": "Codificador y decodificador de URL gratuito en línea para codificar y decodificar direcciones web, cadenas y parámetros de consulta de forma segura. Privado, instantáneo y en tu navegador.",
+  "keywords": ["codificar url", "decodificar url", "decodificador de url", "codificar url en línea", "herramienta codificadora de url", "codificación porcentual", "decodificar cadena url"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Las URL hablan ASCII, la web habla de todo",
+      "paragraphs": [
+        "Los enlaces no pueden llevar espacios, acentos ni símbolos especiales en bruto, deben codificarse por porcentajes. [url-encode:Codificación de URL] traduce cualquier cadena a una dirección segura para el transporte que los servidores interpretan correctamente.",
+        "Los parámetros de consulta, las redirecciones y los códigos de seguimiento dependen de una codificación correcta.",
+        "ChooseTools codifica y decodifica URL localmente en tu navegador.",
+        "Toda petición HTTP transporta datos codificados en su ruta y en su cadena de consulta. Cuando la codificación es incorrecta, los servidores devuelven errores 400, las redirecciones entran en bucles infinitos y la atribución de análisis se rompe en silencio."
+      ]
+    },
+    {
+      "heading": "Cómo codificar o decodificar una URL",
+      "paragraphs": [
+        "Las dos direcciones, al instante:",
+        "Pega una URL con caracteres en bruto para codificarla en una forma segura para enlaces, o pega una dirección codificada para decodificarla de nuevo en texto legible para humanos. Copia el resultado exacto.",
+        "El procesamiento local mantiene tus secretos de consulta alejados de cualquier servidor.",
+        "La herramienta maneja tanto la codificación por componentes para parámetros individuales como la codificación de URL completa para direcciones completas, de modo que eliges la granularidad adecuada para cada tarea."
+      ]
+    },
+    {
+      "heading": "Consultas con espacios, acentos y símbolos",
+      "paragraphs": [
+        "Las cadenas de búsqueda con espacios, caracteres internacionales y símbolos reservados rompen los enlaces si no se codifican.",
+        "La codificación correcta los sustituye por secuencias % que sobreviven intactas a cada salto.",
+        "Los destinatarios reciben la consulta prevista, decodificada fielmente.",
+        "Por ejemplo, una búsqueda de café con acento codifica la e aguda en su representación codificada por porcentajes en UTF-8, lo que garantiza que el servidor de destino reconstruye la consulta original sin pérdida de datos ni sustituciones."
+      ]
+    },
+    {
+      "heading": "Redirecciones, tokens y enlaces construidos",
+      "paragraphs": [
+        "Las cadenas de redirección incrustan direcciones completas dentro de los valores de consulta, por lo que la doble codificación debe ser deliberada. Cuando una URL de redirección es en sí misma un valor de parámetro, codificar la capa externa evita que la URL interna se malinterprete como claves de consulta separadas.",
+        "Los tokens y los parámetros sensibles de las URL ahora se codifican de forma predecible.",
+        "Construir enlaces válidos se vuelve exacto en lugar de confiado a la suerte.",
+        "Las devoluciones de llamada de OAuth, las direcciones de retorno de SSO y las URL de pasarelas de pago contienen caracteres especiales que deben codificarse exactamente en el nivel correcto para funcionar en distintos navegadores e implementaciones de servidor."
+      ]
+    },
+    {
+      "heading": "Decodificación para depuración y análisis de registros",
+      "paragraphs": [
+        "Los registros están llenos de direcciones codificadas; decodificarlas revela los parámetros reales bajo escrutinio.",
+        "Comprender la cadena en bruto que hay detrás de %20 y %C3%BC agiliza la depuración.",
+        "Dos clics convierten el ruido de los registros en claridad.",
+        "Los ingenieros de redes y los desarrolladores de backend decodifican habitualmente las URL de petición capturadas para verificar que los parámetros de seguimiento, los valores UTM y los tokens de sesión llegaron intactos a través de proxies y balanceadores de carga."
+      ]
+    },
+    {
+      "heading": "Estándares de codificación y juegos de caracteres",
+      "paragraphs": [
+        "RFC 3986 define qué caracteres deben codificarse en las URI y cuáles es seguro dejar sin reservar. La herramienta sigue esta especificación con precisión, codificando los espacios como %20 y respetando el conjunto permitido de caracteres sin reservar, incluidas letras, dígitos, guiones, guiones bajos y tildes.",
+        "Los caracteres multibyte UTF-8, como los emoji y las escrituras no latinas, se codifican en sus secuencias porcentuales correctas, de modo que una URL con texto japonés o una carita sonriente se decodifica idénticamente en cualquier servidor que cumpla las normas.",
+        "Comprender la diferencia entre codificar una URL completa y codificar solo el valor de un parámetro de consulta evita el error habitual de codificar dos veces caracteres que ya son seguros.",
+        "El decodificador revierte fielmente cada transformación, restaurando la cadena original incluidos todos los puntos de código Unicode."
+      ]
+    },
+    {
+      "heading": "Trabajo web privado",
+      "paragraphs": [
+        "Los tokens, las cadenas de autenticación y los enlaces no publicados se codifican localmente.",
+        "Sin subidas, sin cuenta, sin marcas de agua, en todas las plataformas.",
+        "Disponibilidad segura para correo sin ninguna exposición.",
+        "Los tokens de autenticación, las claves de API incrustadas en URL y las direcciones de redirección internas nunca tocan un servicio de terceros, manteniendo confidenciales los detalles de tu infraestructura durante el proceso de codificación."
+      ]
+    },
+    {
+      "heading": "Codificación por componentes frente a codificación de URL completa",
+      "paragraphs": [
+        "La codificación por componentes codifica únicamente los caracteres que no son seguros dentro de un único componente URI: un valor de consulta, un segmento de ruta o un identificador de fragmento. La codificación de URL completa codifica toda la dirección, algo apropiado al construir una URL a partir de partes individuales.",
+        "Usar el modo de codificación equivocado es una fuente habitual de errores: codificar por componentes una URL completa deja sin codificar las barras y los signos de interrogación, mientras que codificar por completo el valor de un parámetro codifica los separadores que deberían permanecer literales.",
+        "La herramienta te permite elegir el modo adecuado para cada tarea, evitando estos desajustes y garantizando que la salida sea válida independientemente del contexto en el que se vaya a usar.",
+        "Saber cuándo usar cada modo es especialmente importante al construir URL mediante programación, donde la elección incorrecta introduce errores sutiles que solo se manifiestan con combinaciones específicas de entrada."
+      ]
+    },
+    {
+      "heading": "URL en el kit de herramientas del desarrollador",
+      "paragraphs": [
+        "Complementa con [base64:base64], [html-encode:escape de HTML] y [json-formatter:formato de JSON] para un conjunto completo de construcción de peticiones.",
+        "La suite es gratuita y nativa del navegador.",
+        "Cada enlace, exactamente correcto."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Qué hace exactamente la codificación de URL?",
+      "a": "Sustituye los caracteres que no son seguros en las URL (espacios, símbolos, acentos) por secuencias codificadas por porcentajes que se transportan de forma segura."
+    },
+    {
+      "q": "¿Puedo decodificar una URL codificada para volver al texto legible?",
+      "a": "Sí. El decodificador reconstruye espacios, acentos y símbolos a partir de su forma codificada."
+    },
+    {
+      "q": "¿Es privada la codificación de URL?",
+      "a": "Sí. Todo ocurre localmente en tu navegador, sin subidas ni cuentas."
+    },
+    {
+      "q": "¿Admite caracteres no ASCII como los emoji?",
+      "a": "Sí. Los caracteres multibyte UTF-8 se codifican en sus secuencias porcentuales correctas y se decodifican de vuelta fielmente."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "extract-pdf-pages",
+  "title": "How to Extract Pages From a PDF Online Free: Save a Page Range as a New PDF",
+  "description": "Extract pages from a PDF online free with ChooseTools. Pull single pages or ranges out of any document and save them as a new PDF without uploading a single byte.",
+  "keywords": ["extract pages from pdf", "extract page from pdf online free", "save pdf pages", "pull pages out of pdf", "extract pdf pages to new file", "pdf page extractor", "extract a range of pages from pdf"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Extraction: Taking Exactly What You Need From a PDF",
+      "paragraphs": [
+        "Full documents are rarely needed in full. A student needs two chapters from a textbook, a solicitor needs one clause page from thirty, an analyst needs a single chart page from a slide deck. [extract-pdf-pages:Extracting PDF pages] converts huge files into precisely the content that matters.",
+        "The naive alternatives — copying and pasting in a reader, screen-capturing each page — produce low-quality, fragmented results. A genuine extractor rebuilds the selected pages as a proper, clean PDF with intact text and vectors.",
+        "ChooseTools performs extraction locally in your browser. Choose the pages, click, and a new PDF containing only those pages downloads. There is no upload to a server, no watermark and no account overhead.",
+        "The delivered file is an ordinary, fully readable PDF that inherits every quality of the pages you chose."
+      ]
+    },
+    {
+      "heading": "How to Extract PDF Pages Into a New File",
+      "paragraphs": [
+        "The tool turns a two-minute manual job into a five-second operation.",
+        "Add your PDF and let the local renderer display a page-by-page preview. Select the pages you want to keep by entering a literal range such as \"7-12\". Confirm, and a new standalone PDF with exactly those pages downloads instantly.",
+        "Because extraction reuses the original page content, the new file keeps vectors, fonts, links and crisp images untouched. It is a valid, independently openable PDF you can email, archive or print.",
+        "Check the preview thumbnails as you build the selection, and adjust ranges until the new file contains exactly the content you planned."
+      ]
+    },
+    {
+      "heading": "Single-Page Extraction for Signatures, Covers and Proofs",
+      "paragraphs": [
+        "Single-page extraction is the bread and butter of legal and administrative work: isolating a signature page, an attestation, a certificate page or a barcode sheet from a longer document.",
+        "These one-page PDFs are ideal candidates for protected delivery. After extraction you can lock the page with [protect-pdf:PDF encryption], ensuring only intended recipients can read the isolated certificate or form.",
+        "The extracted page looks exactly as it did in the source — same layout, same fonts — because it is the original page object saved alone, not a screenshot.",
+        "The isolated pages also print cleanly on a single sheet, which is why verification and compliance teams request them so often."
+      ]
+    },
+    {
+      "heading": "Range Extraction for Chapters, Analyses and Working Drafts",
+      "paragraphs": [
+        "Range extraction is how professionals split a book into chapters, a manual into modules, or a dataset into batches before sharing the pieces with different stakeholders.",
+        "Enter both endpoints and the tool returns a contiguous slice of the document. Combine this with [split-pdf:split PDF] when you need every chapter as its own file, or with [merge-pdf:merge PDF] to blend extracted ranges from several sources into one dossier.",
+        "Because each extraction is a true PDF with selectable text, recipients can copy-quote, search and annotate the delivered section — capabilities that matter in collaborative review workflows.",
+        "Whether the slice is two pages or two hundred, the extraction keeps every embedded graphic and cross-reference intact."
+      ]
+    },
+    {
+      "heading": "Full Privacy Through Local Processing",
+      "paragraphs": [
+        "An extractor needs deep access to your document's internals; doing that remotely means your full file crosses the network even though you only wanted four pages back. ChooseTools keeps the whole operation on your machine.",
+        "The PDF.js renderer parses the page tree locally, copies the chosen page objects, and writes the new document without ever transmitting the source file. For NDAs, medical data and client work, that is the only acceptable model.",
+        "Combine that with no registration and no watermark, and extraction becomes a routine, zero-risk part of your daily document pipeline across Windows, macOS or mobile browsers.",
+        "Because the source never travels, you can keep the original in place and iterate selections as often as needed with total confidence."
+      ]
+    },
+    {
+      "heading": "Practical Workflow Ideas With Extraction",
+      "paragraphs": [
+        "Extract the cover and pricing pages of a proposal for a quick client preview. Isolate the reference sheet of a manual for distribution to field staff. Pull the tables of a research paper for offline reading on a train.",
+        "Extracted sections remain fully printable and searchable, making them seamless inputs to downstream steps: compress with [compress-pdf:compress PDF] before attaching to email, or convert with [pdf-to-jpg:PDF to JPG] to send as images.",
+        "In short, extraction gives you surgical control over your documents without sacrificing speed, quality or confidentiality.",
+        "Used regularly, it changes how teams distribute information: relevant slices instead of towering attachments."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I extract a non-sequential range of pages?",
+      "a": "Yes. You can specify precise pages or ranges (for example pages 1, 5-8, and 12), and the tool builds a new PDF containing exactly those pages in your chosen order."
+    },
+    {
+      "q": "Do extracted pages keep text selectable and searchable?",
+      "a": "Yes. Extraction reuses the original page objects, so text remains selectable and searchable, exactly as in the source document."
+    },
+    {
+      "q": "Is there a limit to how many pages I can extract for free?",
+      "a": "No. The tool imposes no page limit. Since processing is local, the only practical constraint is the memory available on your device."
+    },
+    {
+      "q": "Can I combine extracted pages from different documents?",
+      "a": "Yes. Extract the ranges you need from each source, then use [merge-pdf:merge PDF] to blend them into a single new document."
+    }
+  ]
+}

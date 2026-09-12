@@ -1,0 +1,132 @@
+{
+  "slug": "file-xray",
+  "title": "File X-Ray: Inspect File Details and Metadata Online Free",
+  "description": "Free file x-ray tool to inspect files, reveal metadata and verify contents locally in your browser. Private, no uploads, no sign-up.",
+  "keywords": ["file x-ray", "inspect file", "file metadata viewer", "file details online", "file inspector tool", "check file type", "view file info"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Files Carry More Than Their Contents",
+      "paragraphs": [
+        "Size, type, modification dates and hidden metadata all describe a file beyond its visible data. [file-xray:Inspecting files with an x-ray tool] surfaces those details before you open or send anything.",
+        "Knowing a file's true type prevents surprise failures.",
+        "ChooseTools inspects files locally in your browser."
+      ]
+    },
+    {
+      "heading": "How to Inspect a File",
+      "paragraphs": [
+        "From double-click uncertainty to full picture:",
+        "Select a file and view its size, detected type, format hints and metadata. Confirm the extension matches reality before distribution.",
+        "Inspection is fully local — nothing leaves your device."
+      ]
+    },
+    {
+      "heading": "Type Detection Beyond the Extension",
+      "paragraphs": [
+        "Extensions lie while magic bytes do not.",
+        "The tool examines signatures to report true format regardless of renaming.",
+        "Renamed attachments no longer slip through."
+      ]
+    },
+    {
+      "heading": "Metadata Realities and Privacy",
+      "paragraphs": [
+        "Photos carry location and device tags; documents carry author names and timestamps.",
+        "Seeing metadata surfaces what a file would reveal when shared.",
+        "Informed sharing beats guessed exposure."
+      ]
+    },
+    {
+      "heading": "Before You Send Anything",
+      "paragraphs": [
+        "Verify size for mail limits, type for systems and metadata for exposure in one glance.",
+        "Preflight checks prevent embarrassing or blocking issues.",
+        "Confidence travels with every attachment."
+      ]
+    },
+    {
+      "heading": "Private Inspection of Sensitive Files",
+      "paragraphs": [
+        "Examining a file locally means its metadata never becomes a lookup record.",
+        "No upload, no account, no watermark — across platforms.",
+        "Inspection without interception."
+      ]
+    },
+    {
+      "heading": "File Work in the Suite",
+      "paragraphs": [
+        "Pair with [remove-exif:metadata stripping], [pdf-metadata:document details] and [convert-image:format conversion] for complete control.",
+        "Everything is free and browser-native.",
+        "Know your files before they go anywhere."
+      ]
+    },
+    {
+      "heading": "Common File Formats the Tool Recognizes",
+      "paragraphs": [
+        "The inspection engine covers a broad set of everyday formats: images such as JPEG, PNG, WebP and GIF; documents including PDF and plain text; archive types like ZIP and GZIP; audio files in MP3 and WAV; and video containers in MP4 and MOV.",
+        "For each recognized format the tool reports the version, internal structure and any embedded stream details that matter for downstream processing.",
+        "Even when the extension is missing or wrong, the signature-based detection still identifies the real format, so you always know what you are dealing with.",
+        "Unrecognized files still report raw size, header bytes and any detectable chunks, giving developers useful breadcrumbs for further investigation."
+      ]
+    },
+    {
+      "heading": "Reading EXIF, XMP and Document Properties",
+      "paragraphs": [
+        "Image files commonly carry EXIF and XMP blocks that record camera model, exposure settings, GPS coordinates, date-time stamps and software version used during creation.",
+        "PDF and office documents expose author, title, subject, creation date and modification history in their metadata dictionaries.",
+        "The file x-ray displays all available fields in a single view, letting you decide whether any of that information should be removed before publication.",
+        "For teams that process large volumes of incoming files, a quick metadata preview saves time that would otherwise be spent opening each file in a dedicated editor."
+      ]
+    },
+    {
+      "heading": "Practical Use Cases for File Inspection",
+      "paragraphs": [
+        "Journalists receiving anonymous attachments verify file origins and strip identifying metadata before publishing.",
+        "IT support teams confirm whether an executable really is a binary or a renamed script, reducing risk before running diagnostics.",
+        "Developers building upload pipelines use the inspector to validate incoming file types against expected MIME categories.",
+        "Designers confirm color profiles, resolution and bit depth before handing assets to printers or web teams."
+      ]
+    },
+    {
+      "heading": "File Size Awareness for Email and Cloud Limits",
+      "paragraphs": [
+        "Most email providers cap attachments at twenty-five megabytes, and cloud sharing links may impose their own thresholds on individual files.",
+        "A quick size check prevents bounced messages and failed uploads, especially when a photo or scan is larger than expected.",
+        "When a file exceeds the limit, the inspector gives you the number you need to decide whether to compress, split or use a different delivery method.",
+        "Knowing exact byte counts also helps when budgeting storage across backup drives and cloud tiers."
+      ]
+    },
+    {
+      "heading": "Edge Cases: Corrupted, Truncated and Partial Files",
+      "paragraphs": [
+        "Files that were interrupted during download or copied from failing media may carry incomplete headers or missing footers.",
+        "The inspector reports when signatures do not match expected patterns, flagging likely corruption before you attempt to open the file in another application.",
+        "Partial files from incomplete uploads can be identified quickly, saving you from diagnosing downstream application errors that are really just data problems.",
+        "For developers, these warnings are a fast feedback loop when testing download resumers, sync tools or backup scripts."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can the tool detect the real file type?",
+      "a": "Yes. Type detection reads the file's internal signatures rather than trusting the extension."
+    },
+    {
+      "q": "What metadata is revealed?",
+      "a": "Size, detected format and common embedded metadata fields appear, depending on the file type."
+    },
+    {
+      "q": "Is inspection private?",
+      "a": "Yes. Everything runs locally in your browser with no uploads or accounts."
+    },
+    {
+      "q": "Can I inspect files without an extension?",
+      "a": "Yes. Signature-based detection identifies the format even when the extension is missing or incorrect."
+    },
+    {
+      "q": "Does the tool handle corrupted or partial files?",
+      "a": "Yes. It reports when headers are incomplete or signatures do not match, helping you identify corruption before attempting to open the file elsewhere."
+    }
+  ]
+}

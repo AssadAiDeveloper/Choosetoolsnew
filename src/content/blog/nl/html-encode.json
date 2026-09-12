@@ -1,0 +1,126 @@
+{
+  "slug": "html-encode",
+  "title": "HTML Encoder Decoder: Codeer en Escape HTML Gratis Online",
+  "description": "Gratis online HTML-encoder om speciale tekens te escaperen en te ontsnappen voor veilig webpubliceren, met voorvertoning. Privé, direct, in je browser.",
+  "keywords": ["html encoder", "html escape", "html entity encode", "html tekens escaperen", "html unescape", "html online coderen", "html entity converter"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Escapen Is Hoe HTML Eerlijk Blijft",
+      "paragraphs": [
+        "Veilig renderen van door gebruikers aangeleverde of code-afgeleide tekst vereist het escaperen van speciale tekens zoals <, > en &. HTML coderen voorkomt onbedoelde uitvoering en gebroken lay-outs op elke pagina.",
+        "Escapen is beveiligingshygiëne en renderingcorrectie in één stap.",
+        "ChooseTools codeert en decodeert HTML lokaal in je browser.",
+        "Zonder escapen kan één enkel ampersand in een productbeschrijving een volledige paginalay-out breken, en betekenisvolle inhoud veranderen in browserfoutruis."
+      ]
+    },
+    {
+      "heading": "Hoe HTML Entities Escapen",
+      "paragraphs": [
+        "Veilige tekst, direct.",
+        "Plak ruwe tekst om <, >, &, aanhalingstekens en andere speciale tekens te escaperen naar entities, of plak entity-beladen HTML om terug te decoderen naar leesbare tekst. Kopieer de versie die je nodig hebt.",
+        "Verwerking is lokaal, waardoor je fragmenten vertrouwelijk blijven.",
+        "De bidirectionele workflow betekent dat je een fragment kunt coderen voor veilige embedding, en later hetzelfde blok kunt decoderen voor menselijke beoordeling zonder iets opnieuw te typen."
+      ]
+    },
+    {
+      "heading": "Veilige Weergave van Gegevensinvoer",
+      "paragraphs": [
+        "Zoekresultaten, berichtenvoorvertoningen en commentaarrendering hebben allemaal escapen nodig om gevaarlijke tekens te neutraliseren die gebruikers kunnen typen.",
+        "Geëscapeerde invoer rendert als tekst, nooit als tags of scripts.",
+        "Deze ene praktijk sluit hele categorieën van injectie-uitbarstingen.",
+        "Cross-site scripting-aanvallen steunen op ongeëscapeerde invoer die de DOM bereikt; consistente entity-codering neutraliseert de aanvalsvector voordat de browser de tekenreeks ooit interpreteert."
+      ]
+    },
+    {
+      "heading": "Letterlijke Codeblokken en Documentatie",
+      "paragraphs": [
+        "Voorbeeldcode publiceren op een pagina betekent het letterlijk afdrukken van pre en code, wat vereist dat dezelfde tekens die worden getoond, worden geëscapeerd.",
+        "Codeer je voorbeeldfragmenten om ze als tekst schoon weer te geven.",
+        "Documentatie ziet er correct uit omdat entities als zichtbare tekens renderen.",
+        "Technische schrijvers die codevoorbeelden één keer escaperen en de gecodeerde versie opslaan, besparen uren hersencoderen wanneer de documentatie-engine verandert."
+      ]
+    },
+    {
+      "heading": "Veelgebruikte Entities en Wanneer Ze Te Gebruiken",
+      "paragraphs": [
+        "De vijf kernentities dekken de meeste gevallen: &amp; voor ampersand, &lt; voor kleiner-dan, &gt; voor groter-dan, &quot; voor dubbel aanhalingsteken en &apos; voor apostrof.",
+        "Numerieke tekenreferenties verwerken niet-ASCII-symbolen zoals em-dashes, gebogen aanhalingstekens en valutasymbolen wanneer de documentcodering ze niet garandeert.",
+        "Weten welke entities je outputcontext vereist, voorkomt mojibake over e-mailclients, CMS-editors en plaintext-renderers."
+      ]
+    },
+    {
+      "heading": "Dubbele Codering: Een Veelgemaakte Fout",
+      "paragraphs": [
+        "HTML-codering tweemaal toepassen verandert &amp; in &amp;amp;, wat de letterlijke tekst ampersand weergeeft in plaats van het beoogde symbool.",
+        "Ontwikkelaars komen dubbele codering tegen wanneer een CMS de content eescap en een template engine deze opnieuw escapeert.",
+        "Eén decodedoorloop draaien voordat je hercodeert, zorgt ervoor dat de transformatie precies één keer wordt toegepast en de beoogde output behouden blijft."
+      ]
+    },
+    {
+      "heading": "Twee Richtingen, Eén Tool",
+      "paragraphs": [
+        "Codeer voor veilige output; decodeer om de leesbare originele tekst terug te halen voor audit of bewerking.",
+        "Retourreizen bewaren de inhoud exact.",
+        "Beide richtingen passen in bouw- en redactiewerk.",
+        "Ontwikkelaars gebruiken codering in buildpijplijnen om gegenereerde HTML te saneren, en gebruiken decoding om dezelfde output te inspecteren tijdens codereview."
+      ]
+    },
+    {
+      "heading": "Privé Escapen van Intern Webwerk",
+      "paragraphs": [
+        "HTML-fragmenten van interne tools en testsuites worden lokaal gecodeerd.",
+        "Geen upload, geen account, geen watermerk — op elk platform.",
+        "Webhygiëne zonder blootstelling.",
+        "Interne dashboards en adminpanelen die gevoelige gebruikersgegevens verwerken, profiteren van lokale codering omdat de fragmenten nooit een service van derden passeren."
+      ]
+    },
+    {
+      "heading": "Codering in E-mail- en Notificatiesjablonen",
+      "paragraphs": [
+        "E-mailclients renderen HTML inconsistent, en ongeëscapeerde speciale tekens zijn een veelvoorkomende oorzaak van gebroken onderwerpregels en lege berichten.",
+        "De dynamische delen van een e-mailsjabloon coderen voordat je content samenvoegt, garandeert dat gebruikersnamen, producttitels en prijzen als platte tekst worden weergegeven in plaats van verkeerd te worden geïnterpreteerd.",
+        "Notificatiesystemen die dynamische velden escapen, verminderen supporttickets die worden veroorzaakt door verminkte output in de vele renderers in het veld."
+      ]
+    },
+    {
+      "heading": "Codering Binnen de Webgereedschapskist",
+      "paragraphs": [
+        "Combineer met Markdown-conversie, URL-codering en CSS-minificatie voor een volledige publicatieset.",
+        "De suite is gratis en browsergebaseerd.",
+        "Elke tag, exact geëscapeerd zoals bedoeld.",
+        "Deze tools achtereenvolgens gebruiken produceert publicatieklaar HTML uit ruwe inhoud zonder een server-side bouwstap."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welke tekens escapt HTML-codering?",
+      "a": "De speciale tekens <, >, &, aanhalingstekens en vergelijkbare gereserveerde symbolen worden vertaald naar veilige entities."
+    },
+    {
+      "q": "Kan ik entities terugdecoderen naar leesbare HTML?",
+      "a": "Ja. De tool werkt in beide richtingen en reconstrueert de originele tekst uit gecodeerde entities."
+    },
+    {
+      "q": "Is HTML-codering privé?",
+      "a": "Ja. Alles draait lokaal in je browser zonder uploads of accounts."
+    },
+    {
+      "q": "Wat is het verschil tussen codering en minificatie?",
+      "a": "Codering vervangt speciale tekens door veilige entities om renderingfouten te voorkomen, terwijl minificatie witruimte en opmerkingen verwijdert om de bestandsgrootte te verkleinen. Ze dienen verschillende doelen in een webbuild."
+    },
+    {
+      "q": "Wat gebeurt er als ik dezelfde tekst tweemaal codeer?",
+      "a": "Dubbele codering produceert onjuiste output zoals &amp;amp; in plaats van &amp;. De tool laat je eerst decoderen om een enkele schone coderingsdoorloop te garanderen."
+    },
+    {
+      "q": "Is HTML-codering hetzelfde als URL-codering?",
+      "a": "Nee. HTML-codering converteert HTML-gereserveerde tekens naar entities voor veilige weergave, terwijl URL-codering tekens converteert naar percent-gecodeerde waarden voor veilige opname in webadressen."
+    },
+    {
+      "q": "Moet ik apostroffen escaperen in enkel-aanhalingsteken HTML-attributen?",
+      "a": "Ja. Een apostrof binnen een attribuutwaarde met enkele aanhalingstekens moet worden geëscapeerd als &apos; zodat de browser hem niet als het sluitende aanhalingsteken behandelt."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "timestamp-converter",
+  "title": "Tijdstempelconverter: Unix-tijdstempel omzetten naar datum en terug, gratis online",
+  "description": "Gratis Unix-tijdstempelconverter om tijdstempels om te zetten naar leesbare datums en datums naar epoch-milliseconden. Privé, in uw browser, zonder uploaden.",
+  "keywords": ["tijdstempelconverter", "unix timestamp naar datum", "epoch converter", "timestamp naar datum online", "datum naar unix timestamp", "epoch-tijdconverter", "unix-tijd"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Elke seconde sinds 1970 heeft een getal",
+      "paragraphs": [
+        "API's en databases volgen tijd als één epochgetal — seconden (of milliseconden) sinds 1 januari 1970 UTC. [timestamp-converter:tijdstempels omzetten naar datums] maakt dat gehele getal weer menselijk betekenisvol.",
+        "De Unix-epoch is de universele ruggengraat voor het sequencen van gebeurtenissen in softwaresystemen, van login-tokens tot analytics-pipelines. Wanneer elke milliseconde telt, elimineert een betrouwbare converter tussen de numerieke en mensleesbare vorm al het giswerk.",
+        "Beide richtingen dekken debuggen en coderen.",
+        "ChooseTools zet tijdstempels lokaal om in uw browser."
+      ]
+    },
+    {
+      "heading": "Zo zet u een tijdstempel om",
+      "paragraphs": [
+        "Getallen naar kalenders en terug, direct:",
+        "Plak een Unix-tijdstempel om de exacte datum en tijd in UTC en uw lokale zone te bekijken. Kies omgekeerd een datum om het epochgetal te genereren.",
+        "De converter accepteert gewone gehele invoer en toont resultaten onmiddellijk, zonder een knopdruk of netwerktrip te vereisen. Of u nu een desktop of een telefoon gebruikt, de interface schaalt mee en blijft volledig responsief.",
+        "De conversie is lokaal, synchroon en nauwkeurig."
+      ]
+    },
+    {
+      "heading": "Seconden versus milliseconden",
+      "paragraphs": [
+        "Platforms verschillen van mening: veel API's geven seconden terwijl JavaScript-datums milliseconden geven. Het verschil is drie grootteordes, en het verwarren van de een met de ander produceert datums tientallen jaren in het verleden of ver in de toekomst.",
+        "De converter detecteert en ondersteunt beide, duidelijk gelabeld zodat u altijd weet met welke eenheid u werkt. Een getal van tien cijfers hoort bij seconden, een getal van dertien cijfers bij milliseconden.",
+        "Geen verwarring meer door drie nullen scheef.",
+        "Inzicht in dit onderscheid bespaart uren debuggen, vooral bij het integreren van data uit meerdere diensten die elk een andere conventie hanteren."
+      ]
+    },
+    {
+      "heading": "Logregels en databasewaarden ontcijferd",
+      "paragraphs": [
+        "Serverlogs en dashboard-exporten zitten vol epochgehele getallen. Een enkele CSV-kolom met tijdstempels wordt pas leesbaar wanneer elke waarde wordt omgezet naar een correcte datumstring.",
+        "Vertaal ze direct naar de incidenten waarnaar ze verwijzen. Het correleren van een door een gebruiker gemelde storing om 14:15 uur met de serverlogregel 1695236100 wordt ineens eenvoudig.",
+        "De debuggingtijdlijn springt naar helderheid.",
+        "Operationsteams die duizenden rijen verwerken, kunnen in bulk converteren door elke waarde afzonderlijk te plakken, waarbij elke transformatie volledig op het apparaat blijft."
+      ]
+    },
+    {
+      "heading": "Tijdzonebewustzijn zonder dubbelzinnigheid",
+      "paragraphs": [
+        "Een tijdstempel is absoluut in UTC; mensen hebben hun lokale weergave nodig. Het naast elkaar tonen van beide voorkomt de al te gangbare verkeerde interpretatie waarbij een gebeurtenis op de verkeerde dag lijkt plaats te vinden.",
+        "Lokale en UTC-weergaven naast elkaar elimineren verkeerde interpretaties. Een team verspreid over New York, Londen en Tokio kan naar dezelfde epochwaarde verwijzen terwijl iedereen hem in zijn eigen klok ziet uitgedrukt.",
+        "Absolute waarheid, lokaal gecontextualiseerd.",
+        "De converter handelt ook zomer- en wintertijdovergangen correct af, zodat tijdstempels die binnen een overgang vallen met de juiste offset worden getoond in plaats van een misleidende vaste offset."
+      ]
+    },
+    {
+      "heading": "Werken met negatieve tijdstempels en datums in de verre toekomst",
+      "paragraphs": [
+        "Niet alle tijdstempels zitten comfortabel in de jaren 2000 en 2010. Historische databases en legacysystemen verwijzen incidenteel naar datums vóór 1970, wat negatieve epochwaarden oplevert die veel tools weigeren weer te geven.",
+        "De converter handelt negatieve invoer sierlijk af en toont datums vóór de Unix-epoch zonder fout. Dit is essentieel voor wetenschappelijke archieven, retrocomputerprojecten en financiële administraties die van vóór de epochgrens dateren.",
+        "Aan het andere uiteinde testen tijdstempels die datums ver in de toekomst of ver in het verleden vertegenwoordigen de grenzen van 32-bits gehele getallen. De converter werkt met volledige 64-bits precisie, zodat waarden na 2038 en vóór 1901 correct worden weergegeven.",
+        "Deze randgevallen zijn zeldzaam in dagelijks werk maar cruciaal wanneer ze opduiken."
+      ]
+    },
+    {
+      "heading": "Veelvoorkomende toepassingen in de industrie",
+      "paragraphs": [
+        "Software-engineers zetten dagelijks tijdstempels om bij het debuggen van API-antwoorden, het valideren van JWT-vervalclaims of het volgen van gebeurtenisreeksen door gedistribueerde systemen. Eén geconverteerde waarde onthult vaak de hoofdoorzaak van een tijdgevoelige bug.",
+        "Data-analisten en -wetenschappers vertrouwen op epochvelden in datasets die zijn geëxporteerd uit ClickHouse, BigQuery of Elasticsearch. Het omzetten hiervan naar leesbare datums maakt verkennende analyses en visualisatietools veel bruikbaarder.",
+        "Beveiligingsprofessionals inspecteren certificaatgeldigheidsperioden, tokenlevensduren en auditlogs waarin elk item in epochformaat is voorzien van een tijdstempel. Nauwkeurige conversie zorgt ervoor dat nalevingscontroles en forensische onderzoeken op een solide basis verlopen.",
+        "Zelfs niet-technische gebruikers komen incidenteel epochwaarden tegen in spreadsheet-exporten van SaaS-platforms, en een snelle conversie verwijdert de barrière tussen ruwe data en bruikbare informatie."
+      ]
+    },
+    {
+      "heading": "Privé tijdwerk",
+      "paragraphs": [
+        "Logs en gebeurtenissen worden op uw apparaat omgezet.",
+        "Geen upload, geen account, geen watermerk — op alle platforms.",
+        "Tijdlijnen die van u blijven.",
+        "Gevoelige tijdstempels uit beveiligingsauditsporen, medische dossiers en financiële transacties verlaten uw machine nooit, waardoor de converter geschikt is voor vertrouwelijk werk waar privacy niet onderhandelbaar is."
+      ]
+    },
+    {
+      "heading": "Tijdstempels in de ontwikkelaarstoolkit",
+      "paragraphs": [
+        "Combineer met [uuid-generator:event-id's], [hash-generator:controlesommen] en [json-formatter:logparsing] voor volledig observability-werk.",
+        "De suite is gratis en werkt native in de browser.",
+        "Elke epoch ter plekke leesbaar gemaakt."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Verwerkt de converter milliseconden?",
+      "a": "Ja. Zowel seconden- als millisecondentijdstempels worden herkend en correct omgezet."
+    },
+    {
+      "q": "Kan ik een datum omzetten naar een tijdstempel?",
+      "a": "Ja. Het selecteren van een willekeurige datum en tijd produceert de equivalente epochwaarde in beide eenheden."
+    },
+    {
+      "q": "Is de converter privé?",
+      "a": "Ja. Alles draait lokaal in uw browser zonder uploads of accounts."
+    },
+    {
+      "q": "Verwerkt hij datums vóór 1970?",
+      "a": "Ja. Negatieve tijdstempels die datums vóór de Unix-epoch vertegenwoordigen, worden correct omgezet en nauwkeurig weergegeven."
+    },
+    {
+      "q": "Werkt hij ook na het jaar 2038?",
+      "a": "Ja. De converter ondersteunt 64-bits tijdstempels, zodat datums voorbij de 32-bits limiet zonder overflowfouten worden weergegeven."
+    }
+  ]
+}

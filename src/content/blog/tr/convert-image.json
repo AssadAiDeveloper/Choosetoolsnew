@@ -1,0 +1,98 @@
+{
+  "slug": "convert-image",
+  "title": "Görselleri Çevrimiçi Ücretsiz Dönüştürme: Tarayıcınızda Görsel Biçimlerini Değiştirin",
+  "description": "ChooseTools ile görselleri çevrimiçi ücretsiz dönüştürün. Fotoğraf biçimini tarayıcınızda kalite kontrolü, tam gizlilik ve filigransız şekilde JPG, PNG, WebP ve daha fazlası arasında değiştirin.",
+  "keywords": ["görsel biçimi dönüştürme", "çevrimiçi ücretsiz görsel dönüştürme", "görsel dosya türünü değiştir", "jpg png dönüştürücü", "görsel dönüştürücü", "fotoğraf biçimi dönüştür", "ücretsiz görsel biçimi dönüştürücü"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Biçimler Bir Kelime Dağarcığıdır; Dönüştürücüler Çevirmendir",
+      "paragraphs": [
+        "Web siteleri hız için WebP ister, baskı yüksek çözünürlüklü PNG veya JPG ister, e-posta istemcileri ise bazı biçimleri doğrudan reddeder. Görsel biçimlerini isteğe bağlı [convert-image:dönüştürebilmek] her hattın önünü açar.",
+        "Her biçim farklı ödünleşimler sunar: JPG fotoğraflar, PNG saydamlık, WebP web verimliliği için. Doğru dönüştürme, doğru ödünleşimi seçer.",
+        "ChooseTools görselleri, dengeyi seçmenize olanak tanıyan kalite kontrolleriyle tarayıcıda yerel olarak dönüştürür.",
+        "Biçim ödünleşimlerini anlamak bant genişliği kazandırır, önemli olan yerlerde kaliteyi korur ve görseller platformlar arasında dolaşırken uyumluluk sorunlarını önler."
+      ]
+    },
+    {
+      "heading": "Bir Görselin Biçimi Nasıl Değiştirilir",
+      "paragraphs": [
+        "Tek bir hızlı işlem ve hazır bir dosya:",
+        "Görseli yükleyin, listeden hedef biçimi seçin, gereken yerlerde kaliteyi ayarlayın ve dönüştürün. Yeni dosya, seçtiğiniz parametreler uygulanmış olarak anında iner.",
+        "Dönüştürme yerel olarak çalıştığı için bir klasör dolusu görsel bile hızlı dönüşür ve hiçbir şey yüklenmez.",
+        "Yükle, yapılandır, indir şeklindeki basit üç adımlı süreç, masaüstü yazılımı kurma veya komut satırı araçları gereğini ortadan kaldırır."
+      ]
+    },
+    {
+      "heading": "JPG, PNG, WebP: Doğru Çıktıyı Seçme",
+      "paragraphs": [
+        "JPG fotoğrafçılığın iş atı olmaya devam eder; PNG saydamlığı ve metin kenarlarını korur; WebP modern webin beklediği gibi sıkıştırır.",
+        "Araç bunlar ve daha fazlası arasında dönüştürme yapar; her biçimin gücünü doğru uygular: JPG'de dama tahtası saydamlığı yok, JPG'nin yeteceği yerde şişkin PNG yok.",
+        "Dönüştürme anında akıllıca seçim yapmak bayt tasarrufu sağlar ve sonraki süreçte baş ağrılarını önler.",
+        "GIF ve BMP de eski sistemler ile animasyonlu görseller veya sıkıştırılmamış arşiv kopyaları gibi belirli kullanım durumları için desteklenir."
+      ]
+    },
+    {
+      "heading": "Kayıplı ve Kayıpsız: Sıkıştırma Stratejisi Seçme",
+      "paragraphs": [
+        "JPG gibi kayıplı sıkıştırma, insan gözünün fark etme olasılığının düşük olduğu piksel verilerini atar ve bir miktar hassasiyet pahasına daha küçük dosyalar üretir. PNG gibi kayıpsız sıkıştırma her pikseli birebir korur ve daha büyük dosyalarla sonuçlanır.",
+        "Kayıplı biçimler için kalite kaydırıcısı, görselinizin dosya boyutu ile görsel hassasiyet spektrumunda nerede durması gerektiğini seçmenizi sağlar. Yüzde 85'lik bir ayar, dosya boyutunu yarı yarıya veya daha fazla küçültürken tipik olarak orijinalinden ayırt edilemeyen bir çıktı üretir.",
+        "Metin, keskin kenar veya saydamlık içeren görsellerde kayıpsız biçimler, kayıplı sıkıştırmanın yüksek kontrastlı sınırların çevresinde oluşturduğu artefaktları ve hale efektlerini önler.",
+        "Hangi stratejinin görsel içeriğine uyduğunu bilmek, hem gereksiz yere büyük dosyaları hem de belirgin biçimde bozulmuş çıktıyı önler."
+      ]
+    },
+    {
+      "heading": "Saydamlık ve Alfa Kanalı Yönetimi",
+      "paragraphs": [
+        "PNG, alfa kanalı saydamlığını destekler; piksellerin tamamen opaktan tamamen saydama uzanmasına izin verir. Saydam bir PNG'yi JPG'ye dönüştürmek, saydamlığı düz bir arka plan rengiyle değiştirir; bu beklenen sonuç olmayabilir.",
+        "Dönüştürücü bu geçiş konusunda uyarır veya doğru şekilde ele alır; böylece dosya üretime girmişken saydamlığın kaybolduğunu fark etmek yerine, hedef bağlamınıza uyan bir arka plan rengi seçebilirsiniz.",
+        "WebP ayrıca PNG'den daha iyi sıkıştırmayla alfa saydamlığını destekler; hem saydamlık hem küçük dosya boyutu gerektiren web grafikleri için cazip bir alternatif yapar.",
+        "Dönüştürme sırasındaki saydamlık davranışını anlamak, eskiden saydam arka planın olduğu yerde beyaz veya siyah bir dikdörtgenin belirmesi gibi yaygın sürprizi önler."
+      ]
+    },
+    {
+      "heading": "Niyetinize Saygı Duyan Kalite Ayarları",
+      "paragraphs": [
+        "Dönüştürme körü körüne maksimum kaliteyle ilgili değildir; teslimat bağlamı için doğru kaliteyle ilgilidir.",
+        "Kalite kaydırıcılarını, ekran önizlemeleri hafif kalacak ve baskı paylaşımları kayıpsız hissi verir kalacak şekilde ayarlayın.",
+        "Gerektiğinde en küçük nihai boyut için [compress-image:sıkıştırma] ile birleştirin.",
+        "Önizleme odaklı görseller, yükleme hızına öncelik veren agresif sıkıştırmadan yararlanırken, arşiv kopyaları ileride yapılacak düzenlemeler için her ayrıntıyı korumak üzere minimum sıkıştırmayı hak eder."
+      ]
+    },
+    {
+      "heading": "Her Cihazda Gizli Dönüştürme",
+      "paragraphs": [
+        "Dönüştürme görselinizi tamamen okur; bunu yerel olarak yapmak, yayınlanmamış sanat eserlerinin ve kişisel fotoğrafların makinenizden asla çıkmadığı anlamına gelir.",
+        "Yükleme yok, filigran yok, hesap yok: aynı araç Windows, macOS, Linux ve mobil tarayıcılarda çalışır.",
+        "Biçim geçişleri, kaynak materyalin hak ettiği kadar gizli kalır.",
+        "Ham portreleri işleyen fotoğrafçılar, yayınlanmamış marka varlıklarını yöneten tasarımcılar ve delil ekran görüntülerini dönüştüren hukuk ekipleri, görseli asla harici sunuculara maruz bırakmayan bir dönüştürme adımından yararlanır."
+      ]
+    },
+    {
+      "heading": "Tümüyle Tarayıcıda Yürüyen Biçim Hattı",
+      "paragraphs": [
+        "[resize-image:yeniden boyutlandırma] veya [crop-image:kırpma] sonrasında dönüştürün, ardından [compress-image:sıkıştırın]; tutarlı araçlar, tüm görsel iş akışının yerel ve ücretsiz kalması anlamına gelir.",
+        "Dosya türümü hangi uygulamanın açtığını aramak yok artık.",
+        "Biçim değiştirmek gerektiğinde her zaman hazır, güvenilir bir dönüştürücü."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hangi biçimler arasında dönüştürme yapabilirim?",
+      "a": "JPG, PNG ve WebP dahil yaygın web ve baskı biçimleri, biçimin izin verdiği yerlerde kalite kontrolleriyle desteklenir."
+    },
+    {
+      "q": "Görsel dönüştürme gizli mi?",
+      "a": "Evet. Dönüştürme tamamen tarayıcınızda gerçekleşir; görseliniz asla hiçbir sunucuya yüklenmez."
+    },
+    {
+      "q": "Dönüştürme sırasında görsel kalitesini kontrol edebilir miyim?",
+      "a": "Evet. Kalite ayarları hedef biçim için sıkıştırma/kalite dengesini ayarlar; boyut ve hassasiyet arasında siz karar verirsiniz."
+    },
+    {
+      "q": "JPG'ye dönüştürürken saydamlığa ne olur?",
+      "a": "JPG saydamlığı desteklemez; dönüştürme sırasında saydam alanlar düz bir arka plan rengiyle doldurulur."
+    }
+  ]
+}

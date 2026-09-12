@@ -1,0 +1,122 @@
+{
+  "slug": "lorem-ipsum",
+  "title": "Lorem-Ipsum-Generator: Platzhaltertext Online Kostenlos Erstellen",
+  "description": "Kostenloser Lorem-Ipsum-Generator zum Erstellen von Platzhaltertext in jeder Länge — Absätze, Wörter, Sätze — für Mockups und Designarbeit. Privat, sofort, in deinem Browser.",
+  "keywords": ["Lorem Ipsum", "Lorem-Ipsum-Generator", "Platzhaltertext", "Dummy-Text-Generator", "Lorem-Generator", "Mockup-Text", "Beispieltext-Generator"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Design lebt im Platzhaltertext",
+      "paragraphs": [
+        "Mockups brauchen Text, bevor der echte Copy existiert: eine Überschrift einpassen, einen Absatz füllen, ein Layout in der Vorschau prüfen. Platzhaltertext ist der layoutfreundliche Stellvertreter, auf den jeder Designer und Entwickler zurückgreift.",
+        "Seine unlesbaren, aber plausiblen Silben halten die Blicke auf dem Layout statt auf den Wörtern.",
+        "ChooseTools generiert Lorem Ipsum lokal in deinem Browser, zugeschnitten auf deinen genauen Bedarf.",
+        "Platzhaltertext früh zu verwenden verhindert, dass Stakeholder den Entwurfstext kritisieren, statt die visuelle Hierarchie und die Abstände zu bewerten."
+      ]
+    },
+    {
+      "heading": "Absätze, Sätze, Wörter — wähle deine Einheit",
+      "paragraphs": [
+        "Wähle die Ausgabe-Granularität: ein paar Wörter für einen Button, Sätze für einen Untertitel, Absätze für einen Inhaltsblock.",
+        "Klassisches Lorem Ipsum beginnt mit der traditionellen Signatur „Lorem ipsum dolor sit amet“.",
+        "Füge den generierten Block direkt in dein Design-Tool ein.",
+        "Das Generieren nach Wortzahl ist besonders nützlich, wenn du ein zeichenbegrenztes UI-Element wie einen Tooltip oder ein Benachrichtigungsbanner testen musst."
+      ]
+    },
+    {
+      "heading": "Wireframes und Front-End-Entwicklung",
+      "paragraphs": [
+        "Website-Mockups, App-Prototypen und Front-End-Entwicklung brauchen alle massenhaft unsichtbaren Text.",
+        "Platzhaltertext in passender Größe beweist responsives Verhalten, bevor echter Inhalt geliefert wird.",
+        "Generiere so viel, wie der Rahmen braucht, ohne nach Augenmaß zu zählen.",
+        "Entwickler können Platzhaltertext in Component-Storybooks einfügen, um zu prüfen, dass Textumbruch, Kürzung und Überlauf über alle Breakpoints korrekt funktionieren."
+      ]
+    },
+    {
+      "heading": "Später zurücktauschen: Platzhalter ersetzen",
+      "paragraphs": [
+        "Weil Lorem Ipsum unverwechselbar ist, lässt sich echter Copy sauber per Suchen und Ersetzen austauschen.",
+        "Markiere deine Blöcke und ersetze sie systematisch, wenn der Text eintrifft.",
+        "Der Platzhalter ist ein Versprechen, keine Falle.",
+        "Eine nützliche Praxis ist es, jeden Platzhalterblock in einen Kommentar oder ein Datenattribut zu packen, damit eine Suche jede Instanz findet, ohne versteckte Abschnitte zu übersehen."
+      ]
+    },
+    {
+      "heading": "Länge und Dichte: Layout-Anforderungen treffen",
+      "paragraphs": [
+        "Eine Hero-Section braucht zwei kurze Sätze, während eine Blog-Vorschaukarte einen vollen Absatz brauchen kann, um das Kürzungsverhalten zu testen.",
+        "Etwas mehr Text als nötig zu generieren erlaubt es dir, bis zur exakten Grenze zu kürzen und zu bestätigen, dass Ellipsen- oder Line-Clamp-Styling wie gewünscht funktioniert.",
+        "Diese kleine Gewohnheit fängt Layout-Bugs, die nur am Rand des Inhalts auftauchen."
+      ]
+    },
+    {
+      "heading": "Internationale Layouts und mehrsprachige Mockups",
+      "paragraphs": [
+        "Platzhaltertext für RTL-Layouts braucht ein anderes Umbruchverhalten, und Lorem Ipsum zeigt, ob die Text-Engine Richtungswechsel korrekt behandelt.",
+        "Beim Testen mehrsprachiger Oberflächen simuliert das Generieren von Platzhaltertext in verschiedenen Längen, wie deutsche Komposita oder japanische Zeichen die Box-Dimensionen beeinflussen.",
+        "Platzhaltertext früh über Sprachen hinweg zu verwenden verhindert Layout-Überraschungen in späten Phasen lokalisierter Releases."
+      ]
+    },
+    {
+      "heading": "Print-Layouts und redaktionelle Mockups",
+      "paragraphs": [
+        "Buchdesigner und Magazin-Layouter verwenden Platzhaltertext, um Spaltenbreiten, Grundlinienraster und typografische Hierarchie festzulegen, bevor das Manuskript eintrifft.",
+        "Genug Platzhaltertext zu generieren, um eine ganze Doppelseite zu füllen, bestätigt, dass Silbentrennung und Blocksatz akzeptable Flüsse und Hurenkinder erzeugen.",
+        "Print-fokussierte Mockups profitieren von realistischer Textdichte, weil das Papierlayout weitaus weniger nachsichtig ist als responsives Web-Layout."
+      ]
+    },
+    {
+      "heading": "Platzhaltertext-Varianten für Realismus",
+      "paragraphs": [
+        "Jenseits des klassischen lateinischen Passus brauchen einige Designer realistisch aussehenden Fake-Copy, der Dichte und Rhythmus echter Produktbeschreibungen oder Nachrichtenartikel besser nachahmt.",
+        "Variierende Satz- und Absatzlängen im generierten Text erzeugen ein lebensechteres Layout als ein gleichmäßiger Block aus Sätzen gleicher Länge.",
+        "Einen variablen Generierungsmodus zu wählen, wenn das Layout später redaktionellen Inhalt aufnehmen wird, führt zu Mockups, die die finale visuelle Balance genauer vorhersagen."
+      ]
+    },
+    {
+      "heading": "Private Platzhalter-Produktion",
+      "paragraphs": [
+        "Platzhaltertext lokal zu generieren bedeutet, dass unveröffentlichte Designs keine Spur von Drittanbieter-Tools tragen.",
+        "Kein Upload, kein Konto, kein Wasserzeichen — auf jeder Plattform.",
+        "Mockup-Dynamik, null Offenlegung.",
+        "Kundenprototypen und Produktbildschirme vor dem Launch bleiben vertraulich, wenn der Textgenerator nie einen externen Server kontaktiert."
+      ]
+    },
+    {
+      "heading": "Platzhalter im Werkzeugkasten",
+      "paragraphs": [
+        "Generiere, forme dann mit den Schreibweise-Tools oder miss mit der Wortzahl für exakte Layout-Budgets.",
+        "Die Suite ist kostenlos und browser-nativ.",
+        "Jedes Layout, perfekt in der Vorschau.",
+        "Die Kombination von Platzhalter-Generierung mit einem Zeichenzähler stellt sicher, dass deine Mockups die exakten Grenzen der Zielplattform einhalten.",
+        "Diese Kombination ist unschätzbar, wenn ein Platzhalter in eine Komponente fester Größe wie einen Kartentitel oder eine Tabellenzelle passen muss."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Warum wird Lorem Ipsum im Design verwendet?",
+      "a": "Seine Wörter ähneln echtem Text, ohne durch Bedeutung abzulenken, sodass Prüfer das Layout statt des Copy bewerten."
+    },
+    {
+      "q": "Kann ich eine bestimmte Textmenge generieren?",
+      "a": "Ja. Gib Absätze, Sätze oder Wortzahlen an, und der Generator erzeugt genau diese Menge."
+    },
+    {
+      "q": "Ist der Generator privat?",
+      "a": "Ja. Der Text wird lokal in deinem Browser generiert, ohne Uploads oder Konten."
+    },
+    {
+      "q": "Beginnt der generierte Text mit der klassischen lateinischen Eröffnung?",
+      "a": "Ja. Die Ausgabe im Absatz-Modus beginnt mit dem traditionellen Passus „Lorem ipsum dolor sit amet“, den Designer sofort erkennen."
+    },
+    {
+      "q": "Kann Lorem Ipsum beim Testen responsiver Layouts helfen?",
+      "a": "Ja. Text in variierenden Längen zu generieren zeigt, wie sich Überschriften, Absätze und Bildunterschriften über Mobile-, Tablet- und Desktop-Breakpoints verhalten."
+    },
+    {
+      "q": "Kann ich Platzhaltertext ohne die klassischen lateinischen Wörter generieren?",
+      "a": "Ja. Wenn der traditionelle Passus einen Prüfer ablenken würde, kannst du Platzhaltertext mit variierenden Satzlängen generieren, sodass das Mockup realistisch bleibt, ohne eine sichtbare Bedeutung zu tragen."
+    }
+  ]
+}

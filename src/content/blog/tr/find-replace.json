@@ -1,0 +1,107 @@
+{
+  "slug": "find-replace",
+  "title": "Çevrimiçi Ücretsiz Bul ve Değiştir: Sözcükleri Anında Değiştirin",
+  "description": "Sözcükleri, ifadeleri ve karakterleri metniniz genelinde saniyeler içinde değiştirmek için ücretsiz çevrimiçi bul ve değiştir aracı. Büyük/küçük harfe duyarlı seçenekler ve regex desteği. Gizli, tarayıcınızda.",
+  "keywords": ["bul ve değiştir", "metni çevrimiçi bul ve değiştir", "metinde sözcük değiştir", "ara ve değiştir", "toplu metin değiştirme", "regex ile değiştirme", "bul ve değiştir aracı"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Editörler Tek Tıkla Toplu Yeniden Adlandırmanın Hayalini Kurar",
+      "paragraphs": [
+        "Bir el kitabında ürün adını güncellemek, bir yazarın yanlış yazılan soyadını bir el yazması boyunca düzeltmek veya bir veri kümesinde birimin her yerde değiştirilmesi — [find-replace:bul ve değiştir], kullanıcıların elle yapmaktan korktuğu tam bir angaryadır.",
+        "Güvenilir bir araç, belge genelindeki değişimleri saniyeler içinde, yanlış eşleşmeleri önleyen seçeneklerle halleder.",
+        "ChooseTools, bul ve değiştir işlemini tarayıcınızda yerel olarak, büyük/küçük harf ve regex denetimleriyle gerçekleştirir.",
+        "Elle düzenleme insan hatasına davetiye çıkarır: bir geçişi atlarsınız, yanlış örneği değiştirirsiniz veya bulunması, orijinal görevin tamamlanmasından daha uzun süren bir tutarsızlık yaratırsınız."
+      ]
+    },
+    {
+      "heading": "Metni Anında Değiştirme",
+      "paragraphs": [
+        "Tek geçişte tüm geçişler:",
+        "Metninizi yapıştırın, aranan terimi yazın, değiştirilecek terimi yazın ve tümünü değiştir seçeneğine tıklayın. Her eşleşme aynı anda güncellenir.",
+        "İsteğe bağlı olarak büyük/küçük harf duyarlılığını açıp kapatın veya kalıp eşleştirmesi için regex'i etkinleştirin; önizlemeler, kopyalamadan önce sonucu gösterir.",
+        "Önizleme adımı çok önemlidir: değiştirme sayısını doğrulamanıza ve işlem yapmadan önce bireysel eşleşmeleri incelemenize olanak tanır; böylece istenmeyen düzenlemeleri erken yakalarsınız."
+      ]
+    },
+    {
+      "heading": "Büyük/Küçük Harfe Duyarlı ve Esnek Eşleşmeler",
+      "paragraphs": [
+        "apple değiştiriliyorsa, istemediğiniz sürece Apple veya Apples'a dokunulmamalıdır.",
+        "Harf durumu değiş tokuşu, cerrahi bir değişim ile kapsamlı bir değişim arasındaki farkı yaratır; bilinçli seçin.",
+        "Tam sözcük eşleştirme, pineapple gibi kısmi eşleşmeleri istenmeyen düzenlemelerden korur.",
+        "Kısaltmaların ve özel adların sıradan sözcüklerin yanında göründüğü teknik yazılarda, büyük/küçük harf duyarlılığı yayınlanmış belgelerde utanç verici hataları önler."
+      ]
+    },
+    {
+      "heading": "Regex: Güç Kullanıcıları Yalnızca Sözcükleri Değil Kalıpları Değiştirir",
+      "paragraphs": [
+        "E-posta adresleri, telefon biçimleri, tekrarlayan boşluklar — yalnızca tam dizeler değil, kalıplar.",
+        "Regex'i etkinleştirmek, yapılandırılmış temizlik için belirteç tabanlı değiştirmeyi serbest bırakır.",
+        "Özenle kurulmuş tek bir kalıp, yüzlerce elle düzenlemeyi kurtarır.",
+        "Yaygın bir örnek telefon numaralarını normalleştirmektir: çeşitli rakam gruplarını ve ayırıcıları eşleştiren bir regex kalıbı, hepsini tek bir değiştirmeyle tek bir biçime getirebilir; bu, aksi takdirde düzinelerce ayrı bul-değiştir geçişi gerektirir."
+      ]
+    },
+    {
+      "heading": "Gerçek Dünyadan Değiştirme Senaryoları",
+      "paragraphs": [
+        "Teknik dokümantasyon ekipleri, yüzlerce sayfada API uç noktalarını yeniden adlandırır ve hem düz metni hem de gömülü kod örneklerini günceller. Tek bir regex geçişi, çevredeki bağlamı koruyarak eski yol bölümünü her yerde değiştirir.",
+        "Yerelleştirme projeleri, çevrilmiş dizelerde döviz simgelerini, ölçü birimlerini ve tarih biçimlerini değiştirir. Değiştirme, içerikte gömülü özel karakterleri veya işaretleme etiketlerini bozmadan çevreleyen metne saygı göstermelidir.",
+        "Hukuk ve uyum departmanları, dağıtımdan önce sözleşmelerdeki ve politikalardaki gizli adları karartır veya değiştirir. Tutarlılık önemlidir: her geçiş değişmeli ya da hiçbiri değişmemelidir ve kısmi değişimler yükümlülük yaratır.",
+        "Bir blog arşivinde marka adını güncelleyen içerik yöneticileri, özel ad olarak kullanılan marka ile dokunulmadan kalması gereken URL'lerde veya kod parçacıklarında görünen aynı dizeyi ayırt etmek zorundadır."
+      ]
+    },
+    {
+      "heading": "Değiştirirken Bağlamı Koruma",
+      "paragraphs": [
+        "Değiştirme yalnızca metni eşleştirmekle ilgili değildir; çevredeki bağlamı sağlam tutmakla ilgilidir. Araç, girinti, satır sonları ve bitişik noktalama işaretlerini korur; böylece bir kod bloğunun veya biçimlendirilmiş paragrafın içindeki bir sözcüğü değiştirmek düzeni bozmaz.",
+        "CSV veya JSON gibi yapılandırılmış verilerle çalışırken, tam sözcük modu kısmi eşleşmelerin alan sınırlarını veya anahtar adlarını bozmasını önler.",
+        "Bu güvenceler, karışık içerikli belgelerde her satırı sonradan incelemeden güvenle değişiklik yapabileceğiniz anlamına gelir.",
+        "Önizleme modu her eşleşmeyi bağlamıyla birlikte vurgular; değişimi uygulamadan önce kalıbı ayarlamak için size son fırsatı tanır."
+      ]
+    },
+    {
+      "heading": "Güvenli Yineleme için Geri Alma ve Önizleme",
+      "paragraphs": [
+        "Önizleme modu, herhangi bir değiştirme uygulanmadan önce her eşleşmeyi çevreleyen bağlamla vurgular; kalıbın tam olarak istediğiniz şeyi yakaladığını, başka hiçbir şeyi yakalamadığını doğrulamanızı sağlar.",
+        "Değiştirme sayısı çok yüksek veya çok düşük görünüyorsa, arama terimini ayarlayabilir, büyük/küçük harf duyarlılığını değiştirebilir veya uygulamadan önce regex'i iyileştirebilirsiniz. Bu yinelemeli güvenlik ağı maliyetli hataları önler.",
+        "Anında geri alma ve yeniden uygulama yeteneği, kaynağı elle çoğaltmadan aynı metin üzerinde farklı değiştirme stratejileri deneyebileceğiniz anlamına gelir.",
+        "Bu denetimler aracı, tek seferlik düzeltmeler ve tekrarlayan toplu iş akışları için uygun kılar ve her geçişte pişmanlık riskini azaltır."
+      ]
+    },
+    {
+      "heading": "Hassas ve Yayınlanmamış İçerik için Gizlilik",
+      "paragraphs": [
+        "El yazmaları, müşteri raporları ve iç adlar, değişimlerini üçüncü taraf bir bulut yerine yerel olarak alır.",
+        "Yükleme yok, hesap yok, filigran yok — tüm platformlarda.",
+        "Düzenleme mahremiyeti yerelde kalır.",
+        "Gizli taslaklar, yayın öncesi ürün adları ve iç proje kod adları, değiştirme süreci boyunca cihazınızda kalır."
+      ]
+    },
+    {
+      "heading": "Metin Araç Kutusunun Yanında Değiştirme",
+      "paragraphs": [
+        "Değişimleri [word-counter:ölçümler], [case-converter:harf durumu biçimlendirme] veya [remove-duplicate-lines:satır tekilleştirme] ile birleştirerek eksiksiz bir temizlik yapın.",
+        "Paket ücretsiz ve tarayıcı doğalıdır.",
+        "Bir kez yeniden adlandırın, her yerde, doğru biçimde."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Aynı anda birden çok farklı terimi değiştirebilir miyim?",
+      "a": "Araç her geçişte bir terimi değiştirir, ancak anında ve tekrar tekrar yineleyebilirsiniz; regex ile daha geniş kalıplar da tanımlayabilirsiniz."
+    },
+    {
+      "q": "Büyük/küçük harfe duyarsız değiştirme çalışıyor mu?",
+      "a": "Evet. Eşleşmelerin yalnızca harf durumu açısından farklı olup olmadığını kontrol etmek için büyük/küçük harf duyarlılığını açıp kapatın."
+    },
+    {
+      "q": "Bul ve değiştir işlemi gizli mi?",
+      "a": "Evet. Tüm işlemler tarayıcınızda yerel olarak, yükleme veya hesap olmadan gerçekleşir."
+    },
+    {
+      "q": "Düzenli ifadeleri kullanabilir miyim?",
+      "a": "Evet. Regex modunu etkinleştirmek, telefon numaraları, e-posta adresleri veya yapılandırılmış veriler gibi karmaşık değişimler için kalıp tabanlı eşleştirme sağlar."
+    }
+  ]
+}

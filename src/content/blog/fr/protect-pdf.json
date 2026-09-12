@@ -1,0 +1,95 @@
+{
+  "slug": "protect-pdf",
+  "title": "Comment protéger un PDF par mot de passe en ligne gratuitement : chiffrez votre document",
+  "description": "Protégez un PDF par mot de passe en ligne gratuitement avec ChooseTools. Chiffrez votre document avec un mot de passe robuste dans votre navigateur \u2014 sans téléchargement, sans filigrane, en toute confidentialité.",
+  "keywords": ["protéger un pdf par mot de passe", "protéger un pdf avec un mot de passe", "chiffrer un pdf", "ajouter un mot de passe à un pdf en ligne gratuitement", "sécuriser un fichier pdf", "verrouiller un document pdf", "outil de chiffrement pdf gratuit"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Pourquoi certains fichiers doivent être verrouillés",
+      "paragraphs": [
+        "Tous les PDF ne sont pas destinés à des yeux ouverts. Les relevés bancaires, les contrats signés, les résultats médicaux et les rapports non publiés circulent mieux scellés. [protect-pdf:Protéger un PDF par mot de passe] enrobe le contenu pour que seules les personnes disposant de la clé puissent l\u0027ouvrir.",
+        "Le chiffrement concerne également la confiance en transit \u2014 la messagerie est plus perméable que nous ne le supposons, et un fichier verrouillé survit gracieusement à un Cc erroné.",
+        "ChooseTools chiffre les PDF localement dans votre navigateur. Définissez un mot de passe, téléchargez le fichier protégé, et aucune version de votre document n\u0027a quitté votre appareil."
+      ]
+    },
+    {
+      "heading": "Comment ajouter un mot de passe à un PDF",
+      "paragraphs": [
+        "Verrouiller votre fichier prend moins d\u0027une minute.",
+        "Téléversez votre PDF et choisissez un mot de passe robuste \u2014 nous conseillons une phrase véritablement aléatoire. Confirmez-le, et l\u0027outil chiffre le document dans le navigateur et livre un PDF protégé en téléchargement.",
+        "Le chiffrement s\u0027exécutant localement, le mot de passe et le fichier n\u0027existent tous deux que sur votre machine. Partagez le mot de passe avec les destinataires par un canal séparé."
+      ]
+    },
+    {
+      "heading": "Mots de passe robustes pour une vraie protection",
+      "paragraphs": [
+        "La force du chiffrement dépend de la qualité du mot de passe : les mots courts tirés d\u0027un dictionnaire sapent même les bons algorithmes de chiffrement.",
+        "Utilisez une longue phrase de passe unique au document \u2014 douze caractères ou plus mélangeant casse et chiffres \u2014 et stockez-la dans votre gestionnaire de mots de passe.",
+        "Si vous avez besoin d\u0027un point de départ robuste, le [password-generator:générateur de mots de passe] de la suite crée des phrases de passe aléatoires et mémorables en une seconde."
+      ]
+    },
+    {
+      "heading": "Ce que fait réellement le chiffrement PDF",
+      "paragraphs": [
+        "Le chiffrement PDF brouille le contenu du document de sorte que l\u0027ouverture du fichier sans le mot de passe correct ne produit que du charabia. Des algorithmes robustes tels qu\u0027AES-256 avec un mot de passe suffisamment long résistent aux attaques par force brute dans un cadre pratique.",
+        "Le niveau de sécurité compte : les anciens standards de chiffrement à 40 bits et 128 bits sont désormais considérés comme faibles, tandis que le chiffrement AES 256 bits moderne constitue la meilleure pratique actuelle. La sortie utilise un chiffrement robuste pour que le fichier protégé satisfasse aux attentes de sécurité d\u0027aujourd\u0027hui.",
+        "Le chiffrement n\u0027imprime pas de filigrane sur votre document ni ne modifie sa mise en page ; il se contente de contrôler l\u0027accès. Les destinataires qui entrent le mot de passe correct ouvrent et utilisent le PDF exactement comme vous l\u0027avez créé."
+      ]
+    },
+    {
+      "heading": "Documents sensibles dans chaque scénario",
+      "paragraphs": [
+        "Les ressources humaines partagent des lettres d\u0027offre, un comptable distribue des bilans annuels, des avocats échangent des projets d\u0027accords \u2014 tous nécessitent un mot de passe.",
+        "Le chiffrement se superpose proprement aux autres protections : caviardez avec le [pdf-redaction:caviardage PDF] le contenu le plus sensible, aplatissez avec le [flatten-pdf:aplatissement PDF], puis verrouillez le fichier final.",
+        "Le PDF verrouillé ne s\u0027ouvre qu\u0027avec le mot de passe et reste illisible pour quiconque d\u0027autre, filtres de messagerie inclus."
+      ]
+    },
+    {
+      "heading": "Partager le mot de passe en toute sécurité",
+      "paragraphs": [
+        "Envoyer le mot de passe dans le même e-mail que le PDF annule tout le but du chiffrement, car la compromission d\u0027une boîte aux lettres révèle les deux en même temps. Envoyez le document par un canal et le mot de passe par un canal totalement séparé, tel qu\u0027un SMS ou un appel téléphonique.",
+        "Les applications de messagerie mobile avec chiffrement de bout en bout offrent une option plus sûre pour la livraison de la phrase de passe. Les gestionnaires de mots de passe peuvent également partager les identifiants directement avec un destinataire plutôt que de transmettre le secret en texte brut.",
+        "Si vous devez stocker le mot de passe, conservez-le dans un gestionnaire de mots de passe plutôt que comme une note jointe au fichier. Cela garde le secret organisé et récupérable si vous envoyez le même document à plus d\u0027une personne."
+      ]
+    },
+    {
+      "heading": "Le chiffrement local respecte vos données",
+      "paragraphs": [
+        "Envoyer un PDF confidentiel à un service cloud pour qu\u0027il soit « protégé » sape entièrement l\u0027objectif. Ici, le chiffrement se produit sur votre machine.",
+        "Sans filigrane, sans compte, sans réutilisation de votre contenu, et un comportement identique sur Windows, macOS, Linux et navigateurs mobiles.",
+        "Gratuit et privé, la protection des documents est disponible dès que vous en avez besoin, depuis n\u0027importe quel appareil."
+      ]
+    },
+    {
+      "heading": "La protection comme dernière porte",
+      "paragraphs": [
+        "La plupart des flux de travail considèrent le chiffrement comme la finition finale : finalisez avec l\u0027[pdf-editor:édition], [compress-pdf:compressez] pour la taille, puis verrouillez avant l\u0027envoi.",
+        "Conservez le mot de passe et la liste des destinataires organisés, et le même fichier protégé peut circuler sans jamais perdre sa confidentialité.",
+        "Le message : avec le chiffrement gratuit dans le navigateur, chaque PDF sensible quitte votre bureau scellé."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "La protection par mot de passe chiffre-t-elle réellement le contenu du PDF ?",
+      "a": "Oui. L\u0027outil applique un vrai chiffrement PDF déclenché par votre mot de passe ; le document ne peut pas être ouvert sans la bonne phrase de passe."
+    },
+    {
+      "q": "Quelles sont les meilleures pratiques pour le mot de passe que je définis ?",
+      "a": "Utilisez une longue phrase de passe unique d\u0027au moins douze caractères mélangeant lettres, chiffres et symboles, stockée dans un gestionnaire de mots de passe et partagée avec les destinataires via un canal sécurisé."
+    },
+    {
+      "q": "Le chiffrement PDF est-il disponible gratuitement et en toute confidentialité ?",
+      "a": "Oui. Tout s\u0027exécute localement dans votre navigateur sans téléchargements, filigranes ni comptes \u2014 vous seul manipulez le document."
+    },
+    {
+      "q": "Puis-je supprimer le mot de passe ultérieurement ?",
+      "a": "Oui. Ouvrez le document avec le mot de passe que vous avez défini et utilisez une fonction de déchiffrement ou de déverrouillage pour produire un nouveau PDF non protégé lorsque le fichier n\u0027a plus besoin de protection."
+    },
+    {
+      "q": "Le PDF chiffré aura-t-il un aspect différent de l\u0027original ?",
+      "a": "Non. Le chiffrement modifie la manière dont le fichier est ouvert, pas son apparence. Le contenu du document, la mise en page et le formatage sont préservés exactement."
+    }
+  ]
+}

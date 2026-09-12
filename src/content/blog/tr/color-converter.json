@@ -1,0 +1,127 @@
+{
+  "slug": "color-converter",
+  "title": "Renk Dönüştürücü: HEX, RGB, HSL ve Daha Fazlasına Çevrimiçi Olarak Ücretsiz Dönüştürün",
+  "description": "HEX, RGB, HSL, CMYK ve daha fazla renk biçimi arasında anında geçiş yapan ücretsiz renk dönüştürücü. Tarayıcınızda gizli, önizlemeli.",
+  "keywords": ["renk dönüştürücü", "hex to rgb", "hex to hsl", "rgb to hex", "renk hex dönüştürücü", "çevrimiçi renk dönüştürme", "css renk dönüştürücü"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Tek Renk, Birçok Dil",
+      "paragraphs": [
+        "Tasarım araçları HEX dışa aktarır, geliştiriciler RGB ile kodlar, matbaalar CMYK bekler ve tasarımcılar HSL ile düşünür. Renk biçimleri arasında dönüştürme, tek bir rengi her iş akışında tutarlı tutar.",
+        "Her aracın konuştuğu dille yazılmış aynı ton.",
+        "ChooseTools, renkleri canlı önizlemeyle tarayıcınızda yerel olarak dönüştürür.",
+        "Dönüştürücü olmadan ekipler, üretimde ortaya çıkan yuvarlama hataları ve görsel tutarsızlıklar ekleyen değerleri elle yeniden hesaplayarak zaman kaybeder."
+      ]
+    },
+    {
+      "heading": "Bir Renk Nasıl Dönüştürülür",
+      "paragraphs": [
+        "Renk seçiciden her biçime aynı anda.",
+        "HEX, RGB, HSL veya adlandırılmış bir CSS rengi girin; diğer tüm gösterimler görsel bir renk örneğiyle birlikte güncellenir.",
+        "Dönüştürme yerel ve anlıktır.",
+        "Ayrıca değeri doğrudan panonuzdan da yapıştırabilirsiniz; ister bir tasarım belirteci dosyasından, ister bir stil kılavuzundan veya tarayıcı denetçisinden gelsin."
+      ]
+    },
+    {
+      "heading": "HEX, RGB ve HSL Kullanımda Açıklanıyor",
+      "paragraphs": [
+        "HEX, stil sayfaları için kırmızı, yeşil ve maviyi altı basamağa sıkıştırır.",
+        "RGB betikler ve API'ler için uygundur; HSL ise ton, doygunluk ve açıklığı ayarlamalar için ifade eder.",
+        "Her görünüm aynı renk hakkında farklı bir iletişime hizmet eder.",
+        "Her biçimi ne zaman kullanacağınızı anlamak zaman kazandırır: hızlı CSS bildirimleri için HEX, programatik harmanlama için RGB ve bileşen değerlerini tahmin etmeden parlaklığı ayarlamak için HSL."
+      ]
+    },
+    {
+      "heading": "Gidiş Dönüşsüz Tasarımdan Koda",
+      "paragraphs": [
+        "Tasarım dosyalarından bir renk örneği alın ve tam CSS değerini elde edin.",
+        "Varyasyonlar için HSL'i ayarlayın, ardından temaya yerleştirdiğiniz HEX'i dışa aktarın.",
+        "Tasarım niyeti teslimatta hayatta kalır.",
+        "Renkleri teslim noktasında dönüştüren ekipler, tasarımcının yaklaşık bir RGB üçlüsü aktardığı ve geliştiricinin hafif yanlış bir ton uyguladığı yaygın hatadan kaçınır."
+      ]
+    },
+    {
+      "heading": "Marka Sistemleri İçin Biçimler Arası Doğruluk",
+      "paragraphs": [
+        "Marka renklerinin web, baskı ve mühendislikte tutarlı değerlere ihtiyacı vardır.",
+        "Dönüştürücü, her gösterimi matematiksel olarak hizalar.",
+        "Bir ton, her yerde aynı.",
+        "Bir marka kılavuzu Pantone 286 C belirttiğinde, bunu HEX, RGB ve CMYK varyantlarına dönüştürmek her temas noktasının aynı kimliği göstermesini sağlar."
+      ]
+    },
+    {
+      "heading": "Opaklık, Alfa ve Şeffaflık Konuları",
+      "paragraphs": [
+        "Bazı biçimler yarı saydam bindirmeler için bir alfa kanalı taşırken bazıları taşımaz.",
+        "RGBA'dan HEX'e dönüştürürken alfa değeri ayrı işlenmeli veya bazı modern tarayıcıların desteklediği sekiz haneli HEX gösterimine dönüştürülmelidir.",
+        "Alfa davranışının farkında olmak, katmanlı arayüz bileşenleri tasarımın amaçladığından farklı göründüğünde sürprizleri önler."
+      ]
+    },
+    {
+      "heading": "Tek Bir Tondan Uyumlu Paletler Oluşturma",
+      "paragraphs": [
+        "Temel bir renk HSL'e dönüştürüldüğünde, renk çarkını otuz veya altmış derece ayarlamak otomatik olarak tamamlayıcı ve benzer paletler üretir.",
+        "Açıklığı kaydırırken doygunluğu sabit tutmak, arka plan ve ön plan çiftleri olarak çalışan tonlar ve gölgeler yaratır.",
+        "Doğrulanmış bir dönüştürmeyle başlamak, her palet üyesinin aynı renk uzayı kökenini paylaşmasını sağlar."
+      ]
+    },
+    {
+      "heading": "Erişilebilirlik ve Kontrast Kontrolü",
+      "paragraphs": [
+        "Web İçerik Erişilebilirlik Kılavuzları, metin ve arka plan renkleri arasında minimum kontrast oranları gerektirir.",
+        "Bir renk çiftini dönüştürdükten sonra parlaklık değerlerini karşılaştırmak, kombinasyonun AA veya AAA eşiklerini geçip geçmediğini ortaya çıkarır.",
+        "Aynı oturumda dönüştürüp kontrastı kontrol eden tasarımcılar, erişilebilirlik hatalarını kodun üretime ulaşmasından önce yakalar.",
+        "Örneğin beyaz bir arka plan üzerindeki açık gri metin, gövde metni için gereken 4.5'e 1 eşiğinin çok altında bir kontrast oranına dönüşür ve ya ön planın ya da arka planın ayarlanması gerektiğini işaret eder."
+      ]
+    },
+    {
+      "heading": "Biçimler Arası Degradeler ve Enterpolasyon",
+      "paragraphs": [
+        "CSS'te yumuşak degradeler oluşturmak, seçilen bir biçimin bileşen kanalları arasında enterpolasyon yapılmasına bağlıdır.",
+        "Bir degrade oluşturmadan önce iki uç rengi RGB'ye dönüştürmek en öngörülebilir karışımı üretir; oysa HSL enterpolasyonu beklenmedik ara tonlardan geçebilir.",
+        "Bir biçimin nasıl enterpolasyon yaptığını anlamak, geliştiricilerin düğmeler, çizelgeler ve veri görselleştirmeleri için doğru gösterimi seçmesine yardımcı olur."
+      ]
+    },
+    {
+      "heading": "Gizli Renk Mühendisliği",
+      "paragraphs": [
+        "Geliştirilmekte olan paletler cihaz üzerinde dönüştürülür.",
+        "Yükleme yok, hesap yok, filigran yok — platformlar arası.",
+        "Marka sırları stüdyonun içinde kalır.",
+        "Ürün lansmanları veya sezonluk kampanyalar için üretim öncesi renk şemaları, dönüştürme yerel gerçekleştiğinde üçüncü taraflara görünmez kalır."
+      ]
+    },
+    {
+      "heading": "Görüntü Araç Setinde Renk İşlemleri",
+      "paragraphs": [
+        "Eksiksiz bir renk iş akışı için bunu renk seçici çıkarma ve görüntü filtresi ayarlamalarıyla birlikte kullanın.",
+        "Set ücretsiz ve tarayıcı tabanlıdır.",
+        "Her ton, her gösterimde, anında.",
+        "Dönüştürülmüş bir renk değeriyle başlayarak tarayıcıdan çıkmadan filtreler uygulayabilir, degradeler üretebilir veya uyumlu paletler oluşturabilirsiniz."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hangi renk biçimleri destekleniyor?",
+      "a": "HEX, RGB ve HSL, yaygın adlandırılmış renklerle birlikte tam olarak desteklenir; gerektikçe daha fazla gösterim de eklenir."
+    },
+    {
+      "q": "Araç görsel bir önizleme gösteriyor mu?",
+      "a": "Evet. Geçerli renk, her girdiyle güncellenen bir renk örneği olarak görünür."
+    },
+    {
+      "q": "Dönüştürücü gizli mi?",
+      "a": "Evet. Her şey yükleme veya hesap olmadan tamamen tarayıcınızda yerel olarak çalışır."
+    },
+    {
+      "q": "Bir CSS adlandırılmış renginden dönüştürebilir miyim?",
+      "a": "Evet. Coral veya slateblue gibi standart bir CSS renk adı girin; dönüştürücü HEX, RGB ve HSL karşılıklarını döndürür."
+    },
+    {
+      "q": "Dönüştürücü alfalı sekiz haneli HEX'i işler mi?",
+      "a": "Evet. Modern tarayıcılar RGBA'yı sekiz haneli HEX gösterimiyle destekler ve dönüştürücü bu biçimi üretebilir ve ayrıştırabilir."
+    }
+  ]
+}

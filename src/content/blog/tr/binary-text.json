@@ -1,0 +1,122 @@
+{
+  "slug": "binary-text",
+  "title": "İkiliden Metne Dönüştürücü: Metni İkiliye Kodlayın ve Geri Çözün, Çevrimiçi Ücretsiz",
+  "description": "Metni ikili olarak kodlamak ve ikiliyi okunabilir metne geri çözmek için ücretsiz ikiliden metne dönüştürücü. Özel, anlık, tarayıcınızda, yükleme yok.",
+  "keywords": ["ikiliden metne", "metinden ikiliye", "ikili dönüştürücü", "metni ikiliye dönüştürme", "ikili kod çevirici", "ikiliden kelimelere", "çevrimiçi ikili kodlayıcı"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Her Kelimenin Altında Bitler",
+      "paragraphs": [
+        "Her karakter, CPU'nuzun sayı olarak yorumladığı bir bayt olarak işlenir. [binary-text:Metni ikiliye dönüştürmek] bu temeli gözler önüne serer; çözme ise onu okunabilir kelimelere geri getirir.",
+        "Her iki yön de aynı çalışır; gidiş dönüşler birebir ve kayıpsızdır.",
+        "ChooseTools metni ve ikiliyi tarayıcınızda yerel olarak dönüştürür; girdiniz cihazı asla terk etmez."
+      ]
+    },
+    {
+      "heading": "Metin İkili Nasıl Kodlanır",
+      "paragraphs": [
+        "Doğal dilden 1'lere ve 0'lara, anında.",
+        "Metnin ikili gösterimini bayt bayt görmek için metin yapıştırın veya kelimelere çözmek için ikili yapıştırın. Gerektiğinde her iki yönü de kopyalayın.",
+        "Doğru yönü seçmek sezgiseldir; yazarken canlı çıktı güncellenir.",
+        "Dönüştürme, hiçbir adımda sunucu katılımı olmadan cihazınızda gerçekleşir."
+      ]
+    },
+    {
+      "heading": "Karakter Başına Sekiz Bit",
+      "paragraphs": [
+        "Standart UTF-8 metni her karakteri bir veya daha fazla bayta eşler; ikili görünüm tam bitleri gösterir.",
+        "Baytlar arasındaki boşluklar, dizileri çalışma ve hata ayıklama için okunabilir tutar.",
+        "Desen, soyut kodlamayı elle incelenebilir ve doğrulanabilir bir şeye dönüştürür.",
+        "ASCII karakterlerin her biri tek bir bayta eşlenirken, genişletilmiş Unicode karakterler dönüştürme boyunca tam sadakatlerini koruyan birden fazla bayta yayılır."
+      ]
+    },
+    {
+      "heading": "Öğrenme, Bulmacalar ve İlginç Biçimler",
+      "paragraphs": [
+        "Bilgisayar öğrencileri kodlama mekaniğini görünür kılmış görür.",
+        "PR şablonları, bulmacalar ve gizli mesajlar oyunsu kullanımlar yaratır.",
+        "Mekanikten anlamlıya somut bir köprü, soyut kavramları elle tutulur kılar.",
+        "Bilgisayar bilimi eğitmenleri ve kendi kendine öğrenenler, bit gösterimi ve bayt sırası anlayışlarını doğrulamak için dönüştürücüyü kullanır."
+      ]
+    },
+    {
+      "heading": "Sınıfın Ötesinde Pratik Kullanımlar",
+      "paragraphs": [
+        "Kalite güvence ekipleri, test örneklerine ikili sabitler gömer ve manuel hesaplamanın tüketeceği zamandan tasarruf ederek beklenen dizgeye çözüldüklerini doğrulamaları gerektirir.",
+        "Adli bilişim ve hata ayıklama çalışmaları, hızlı bir metinden ikiliye karşılaştırmanın düz okumanın kaçıracağı uyumsuzlukları ortaya çıkardığı ham bayt dizilerini incelemeyi içerir.",
+        "İkili protokolleri belgeleyen teknik yazarlar, örnek mesajları bit düzeyi biçimlerine dönüştürerek beklenen yükleri gösterir.",
+        "Retro projeler, emülatörler ve eğitim oyuncakları kuran meraklılar, insan girdisi ile donanımlarının beklediği bayt akışları arasında sürekli çeviri yapar."
+      ]
+    },
+    {
+      "heading": "Not: Kodlama Gizlilik Değildir",
+      "paragraphs": [
+        "İkili evrensel olarak çözülebilir; anonimleştirir ama hiçbir şeyi gizlemez.",
+        "Gerçek gizlilik için [password-generator:güçlü anahtarlar] ve [hash-generator:karmalama] kullanın; taşıma için [base64:kodlama] kullanın.",
+        "Beklentileri dürüst tutun ve koruma yerine netlik ve eğitim için ikiliyi saklayın."
+      ]
+    },
+    {
+      "heading": "İkili Dönüştürmede Uç Durumlar",
+      "paragraphs": [
+        "İkili girdi içindeki boşluk göz yumulur; satır sonları veya fazladan boşluklar içeren yapıştırılmış diziler yine de doğru çözülür.",
+        "Hem ASCII hem de genişletilmiş Unicode karakterler içeren karışık içerik kesintisiz işlenir; kodlanan her biçimin tam aralığı korunur.",
+        "Boş girdi ve tek karakterli dizgeler her iki yönde de anlamlı çıktı üretir; kafa karıştırıcı kısmi sonuçlardan kaçınılır.",
+        "Dönüştürme simetriktir; ikiliye çevrilen ve geri çözülen metin, karakter kaybı veya bozulma olmadan tam orijinali yeniden üretir."
+      ]
+    },
+    {
+      "heading": "Metin ve İkili Nasıl İlişkilidir",
+      "paragraphs": [
+        "En alt düzeyde bir bilgisayar her şeyi bit dizileri olarak saklar ve metin de istisna değildir. Yazdığınız her karakterin Unicode standardı tarafından atanmış sayısal bir kod noktası vardır ve bu sayı sabit bir birler ve sıfırlar deseni olarak saklanır.",
+        "Metni ikiliye dönüştürdüğünüzde, makinenizin dahili olarak zaten kullandığı sayısal gösterimi ortaya çıkarırsınız. Geri dönüştürmek aynı bit desenlerini okur ve onları temsil ettikleri karakterlere eşler.",
+        "Bu ilişkiyi anlamak, dosya kodlaması, karakter kümeleri ve bayt sırası gibi kavramları efsaneleştirir; gerçek bir kelimeyi bit düzeyi biçiminde gördüğünüzde tümü sezgisel hâle gelir.",
+        "Kendi adınızı veya sevdiğiniz bir ifadeyi ikili olarak görmek soyutlamayı somutlaştırır; aracın öğretimde ve bilgisayarının nasıl düşündüğünü merak eden herkes için bu kadar iyi çalışmasının nedeni budur."
+      ]
+    },
+    {
+      "heading": "İkiliyi Elle Okuma",
+      "paragraphs": [
+        "Bir baytın sekiz bit konumuna bölündüğünü gördüğünüzde, onu okumak yer değerlerini toplama meselesi olur. En sağdaki bit biri, sonraki ikiyi, ardından dört, sekiz, on altı, otuz iki, altmış dört ve yüz yirmi sekizi temsil eder.",
+        "01000001 gibi bir bayt, büyük A harfinin ASCII kodu olan altmış beşe toplanır. Deseni fark etmek, görünüşte rastgele rakam dizilerini zihinsel olarak çözebileceğiniz anlamlı karakterlere dönüştürür.",
+        "Dönüştür düğmesine basmadan önce sonucu tahmin ederek dönüştürücüyle pratik yapmak sezgiyi hızla geliştirir; kuru bir teori dersini etkileşimli bir oyuna çevirir.",
+        "Bu dokunsal anlayış, baytlarla düşünmenin ikinci doğa hâline geldiği ağ, güvenlik ve düşük seviyeli programlama kariyerlerinin temelidir."
+      ]
+    },
+    {
+      "heading": "Özel Kod Deneyleri",
+      "paragraphs": [
+        "Deneyler ve pratik veri kümeleri, hiçbir şey iletilmeden yerel olarak kodlanır.",
+        "Platformlar arasında yükleme yok, hesap yok, filigran yok.",
+        "Bitler onları bıraktığınız yerde kalır; oturum açmadan her zaman kullanılabilir."
+      ]
+    },
+    {
+      "heading": "Geliştirici Araç Setinde İkili",
+      "paragraphs": [
+        "Eksiksiz bir çeviri seti için [morse-code:Mors], [number-base:taban dönüşümleri] ve [base64:base64] ile eşleştirin.",
+        "Süit ücretsiz ve tarayıcı tabanlıdır; çoğu geliştiricinin kodlama ihtiyaçlarını karşılar.",
+        "Kelimelerden bitlere ve geriye, tarayıcıdan ayrılmadan temiz biçimde."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Araç ikiliyi metne geri çözer mi?",
+      "a": "Evet. Her iki yön de desteklenir: metinden ikiliye ve ikiliden okunabilir metne, birebir gidiş dönüş doğruluğuyla."
+    },
+    {
+      "q": "Karakterler nasıl temsil edilir?",
+      "a": "Her karakter, standart UTF-8 kodlaması altında, baytlar arasında boşluklarla 8 bitlik diziler olarak gösterilen baytı veya baytları olur."
+    },
+    {
+      "q": "İkili dönüştürme özel mi?",
+      "a": "Evet. Her şey tarayıcınızda yerel olarak çalışır; yükleme, hesap ve sunucu tarafı işleme yoktur."
+    },
+    {
+      "q": "Satır sonları ve boşluklar içeren ikili yapıştırabilir miyim?",
+      "a": "Evet. Girdideki fazla boşluk yok sayılır; biçimlendirilmiş yapıştırılan bloklar yine de doğru çözülür."
+    }
+  ]
+}

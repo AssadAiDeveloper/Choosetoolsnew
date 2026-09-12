@@ -1,0 +1,121 @@
+{
+  "slug": "code-snippet",
+  "title": "Generator Cuplikan Kode: Buat Cuplikan Kode yang Dapat Dibagikan Secara Online Gratis",
+  "description": "Generator cuplikan kode gratis untuk memformat, menyorot, dan menyalin cuplikan kode yang bersih untuk dokumentasi dan berbagi. Privat, di browser Anda, dengan dukungan bahasa.",
+  "keywords": ["cuplikan kode", "generator cuplikan kode", "pemformat cuplikan", "bagikan kode online", "pemformat kode dengan sintaks", "salin cuplikan kode", "pembuat cuplikan"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Kode yang Baik Layak Diberi Bingkai yang Tepat",
+      "paragraphs": [
+        "Dokumentasi, forum, dan README bersinar ketika kode diformat dan disorot dengan jelas. [code-snippet:Membuat cuplikan kode] membungkus cuplikan Anda dalam presentasi yang tepat sejak pertama kali.",
+        "Output yang dapat dibaca, disalin, dan dibagikan membuat perbedaan di setiap konteks tempat kode muncul.",
+        "ChooseTools memformat cuplikan secara lokal di browser Anda, sehingga seluruh proses tetap privat dan cepat."
+      ]
+    },
+    {
+      "heading": "Cara Membuat Cuplikan Kode",
+      "paragraphs": [
+        "Dari tempelan mentah ke blok yang dipoles dalam hitungan detik.",
+        "Tempel kode Anda, pilih bahasa untuk kesadaran sintaks, dan terima output yang terformat dan berjarak rapi yang siap disalin ke dokumentasi atau chat.",
+        "Alat ini menormalkan indentasi, merapikan spasi putih di akhir, dan mempertahankan struktur logis kode Anda.",
+        "Pemformatan berjalan sepenuhnya di perangkat Anda, memastikan pekerjaan milik sendiri atau yang sedang berjalan tidak pernah lepas dari kendali Anda."
+      ]
+    },
+    {
+      "heading": "Pemformatan yang Sadar Bahasa",
+      "paragraphs": [
+        "Indentasi, pembungkusan baris, dan penyorotan menghormati bahasa yang Anda pilih.",
+        "Struktur yang benar menjaga pembaca tetap fokus pada makna alih-alih menguraikan spasi yang tidak konsisten.",
+        "Kejelasan sintaks tanpa pembersihan manual berarti lebih sedikit kesalahan dan siklus peninjauan yang lebih cepat.",
+        "Generator mengenali bahasa pemrograman umum dan menerapkan konvensi pemformatan yang sesuai secara otomatis."
+      ]
+    },
+    {
+      "heading": "Kasus Penggunaan untuk Cuplikan yang Dapat Dibagikan",
+      "paragraphs": [
+        "Pengembang berbagi cuplikan kode setiap hari dalam komentar pull request yang menjelaskan perubahan logika, dalam pesan Slack yang menunjukkan pemanggilan fungsi, atau dalam utas isu yang mereproduksi bug. Setiap konteks menuntut pembingkaian berbeda, tetapi semuanya diuntungkan oleh indentasi yang konsisten dan pewarnaan sintaks.",
+        "Penulis teknis menyematkan cuplikan dalam tutorial dan referensi API tempat kejelasan menentukan apakah pembaca berhasil atau meninggalkan panduan. Blok yang terformat baik mengurangi beban kognitif dan mempercepat pemahaman secara signifikan.",
+        "Siswa yang mengumpulkan tugas, instruktur yang membagikan contoh dalam catatan kuliah, dan pemelihara open-source yang mendokumentasikan langkah pengaturan semuanya mengandalkan penyajian kode yang dapat dibaca untuk berkomunikasi efektif lintas tingkat keterampilan.",
+        "Tim dukungan pelanggan menempelkan perintah diagnostik dan fragmen konfigurasi ke tiket. Memformat cuplikan ini membuat instruksi tidak ambigu dan mengurangi bolak-balik yang diperlukan untuk menyelesaikan masalah teknis."
+      ]
+    },
+    {
+      "heading": "Menangani Blok Multi-Baris dan Bersarang",
+      "paragraphs": [
+        "Kode nyata sering membentang hingga puluhan baris dengan struktur bersarang. Generator mempertahankan kedalaman indentasi sehingga fungsi di dalam fungsi tetap berbeda secara visual dan mudah dilacak.",
+        "Blok komentar, literal string yang memuat baris baru, dan template literal semuanya mempertahankan pemformatan internalnya tanpa jeda baris yang tidak diinginkan atau spasi putih yang runtuh.",
+        "Hasilnya terbaca alami baik ditampilkan di monitor lebar maupun dibungkus dalam kolom sempit, beradaptasi dengan anggun pada konteks tampilan yang berbeda.",
+        "Cuplikan kompleks dengan banyak bagian diuntungkan oleh spasi konsisten yang diterapkan alat, membuat peninjauan kode dan debugging terasa lebih cepat."
+      ]
+    },
+    {
+      "heading": "Dokumentasi, Chat, dan Portofolio",
+      "paragraphs": [
+        "Tutorial dan referensi API memperoleh cuplikan otoritatif yang dipercaya dan diikuti pembaca tanpa ragu-ragu.",
+        "Forum menerima blok yang dapat dibaca dan dibandingkan yang dapat dikutip serta dijawab kontributor lain secara presisi.",
+        "Jangkauan profesional dimulai dari bingkai: cuplikan yang bersih menandakan kompetensi sebelum sepatah kata pun dibaca."
+      ]
+    },
+    {
+      "heading": "Siap Disalin dan Tepat Saat Ditempel",
+      "paragraphs": [
+        "Tombol salin menyajikan cuplikan yang tepat untuk penggunaan segera tanpa seleksi atau perapian tambahan.",
+        "Karakter yang dipertahankan berarti tidak ada kejutan di tengah skrip, baik kode berisi simbol khusus maupun urutan escape.",
+        "Blok yang Anda lihat adalah blok yang dijalankan pengguna, menghilangkan celah antara pratinjau dan eksekusi."
+      ]
+    },
+    {
+      "heading": "Kompatibilitas Lintas Platform",
+      "paragraphs": [
+        "Platform yang berbeda merender blok kode secara berbeda, tetapi cuplikan yang diformat dengan baik menyesuaikan diri dengan GitHub, GitLab, Notion, Confluence, dan puluhan renderer lainnya tanpa penyesuaian.",
+        "Pelolosan HTML, pelestarian karakter khusus, dan normalisasi akhir baris semuanya terjadi di balik layar sehingga Anda tidak pernah men-debug artefak pemformatan di produksi.",
+        "Baik tujuan mengharapkan fence Markdown, tag pre HTML, maupun teks mentah, sumber yang bersih beradaptasi dengan gesekan minimal dan tanpa pemformatan ulang manual.",
+        "Keandalan lintas platform berarti Anda menghabiskan waktu pada kode itu sendiri alih-alih bergelut dengan keanehan rendering di setiap alat publikasi atau editor."
+      ]
+    },
+    {
+      "heading": "Kasus Tepi: Cuplikan Panjang dan Konten Campuran",
+      "paragraphs": [
+        "Cuplikan yang melebihi lima puluh baris tetap dapat dibaca karena alat mempertahankan spasi baris yang konsisten dan menghindari runtuhnya blok logis.",
+        "Konten campuran seperti komentar sebaris dengan URL, struktur data beranotasi, atau SQL yang disematkan dalam kode aplikasi menjaga setiap elemen tetap terpisah secara visual.",
+        "Bahkan ketika kode mengandung karakter non-ASCII atau pengidentifikasi Unicode, pemformat menanganinya tanpa merusak atau menghilangkan simbol penting.",
+        "Perlindungan kasus tepi ini memastikan alat bekerja andal pada basis kode dunia nyata, bukan hanya pada contoh ideal."
+      ]
+    },
+    {
+      "heading": "Penanganan Sumber yang Privat",
+      "paragraphs": [
+        "Kode milik sendiri dan sedang dikembangkan diformat secara lokal tanpa mengirimkan data apa pun ke server eksternal.",
+        "Tanpa unggahan, tanpa akun, tanpa tanda air lintas platform, sehingga alat ini terintegrasi ke alur kerja apa pun tanpa beban administratif.",
+        "Sumber tetap di tempatnya: di mesin Anda, di bawah kendali Anda, hanya terlihat oleh Anda dan orang yang Anda pilih untuk berbagi."
+      ]
+    },
+    {
+      "heading": "Kode dalam Perangkat Pengembang",
+      "paragraphs": [
+        "Kombinasikan dengan [markdown-to-html:output Markdown], [html-encode:escape HTML], dan [css-minifier:minifikasi] untuk alur kerja publikasi yang lengkap.",
+        "Suite ini gratis dan berbasis browser, tanpa memerlukan instalasi atau konfigurasi selain membuka tab.",
+        "Blok yang terbaca sebersih saat dijalankan, menjembatani celah antara pengembangan dan dokumentasi."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Bahasa apa saja yang dikenali?",
+      "a": "Bahasa pemrograman umum didukung untuk pemformatan dan penyorotan yang sadar sintaks, mencakup JavaScript, Python, Java, C, Go, Rust, dan banyak lainnya."
+    },
+    {
+      "q": "Bisakah saya menyalin cuplikan secara langsung?",
+      "a": "Ya. Output siap tempel disediakan dengan satu aksi salin, mempertahankan semua pemformatan dan karakter khusus dengan tepat."
+    },
+    {
+      "q": "Apakah pemformatan cuplikan bersifat privat?",
+      "a": "Ya. Semuanya berjalan secara lokal di browser Anda tanpa unggahan, tanpa akun, dan tanpa pemrosesan sisi server apa pun."
+    },
+    {
+      "q": "Bisakah saya menggunakan output dalam dokumen Markdown atau HTML?",
+      "a": "Tentu. Cuplikan yang terformat menempel dengan bersih ke fence kode Markdown, blok pre HTML, atau editor mana pun yang menerima teks polos."
+    }
+  ]
+}

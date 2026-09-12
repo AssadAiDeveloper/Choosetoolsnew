@@ -1,0 +1,125 @@
+{
+  "slug": "steganography",
+  "title": "How to Hide Text in Images Online Free: Steganography in the Browser",
+  "description": "Hide and reveal secret text inside images online free with ChooseTools. Encode messages into photos using steganography, entirely in your browser with no uploads.",
+  "keywords": ["steganography", "hide text in image", "hide message in photo", "steganography online", "encode message in image", "secret text in picture", "decode image steganography"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "The Oldest Trick in Digital Communication",
+      "paragraphs": [
+        "Before encryption, there was hiding: burying a message where nobody looks. [steganography:Hiding text inside images] is modern technique's elegant remix — the carrier looks like an innocent photo while the bytes of your message ride inside it.",
+        "Valid use cases include watermarking ownership, hiding notes in shared graphics and academic demonstrations of covert channels.",
+        "ChooseTools performs steganography locally in your browser: encode a message into an image or extract the one it carries, with no upload."
+      ]
+    },
+    {
+      "heading": "How to Hide a Message in an Image",
+      "paragraphs": [
+        "Encoding is a matter of seconds:",
+        "Upload a carrier image, type or paste the message you want to hide, and encode. The tool weaves the text into the image pixels, and you download a file that looks unchanged.",
+        "To reveal, re-upload the modified image and decode; the message reappears.",
+        "All of it happens on your device."
+      ]
+    },
+    {
+      "heading": "How the Bytes Hide Invisible",
+      "paragraphs": [
+        "Subtle changes to the least-significant bits of pixel colors carry data while remaining imperceptible to human eyes.",
+        "An observer sees a normal photo; a decoder finds the message.",
+        "Images of appropriate complexity carry the payload most cleanly."
+      ]
+    },
+    {
+      "heading": "Legitimate Uses: Watermarks, Notes, Study",
+      "paragraphs": [
+        "Artists embed their signature invisibly; collaborators tuck a message into a shared preview; students explore the technique's power and limits.",
+        "Combined with a [password-generator:strong key] or a [base64:base64] wrapper, the hidden payload becomes both obscure and encoded.",
+        "As with any powerful tool, use it responsibly."
+      ]
+    },
+    {
+      "heading": "Privacy of the Whole Exchange",
+      "paragraphs": [
+        "Encoding a hidden message is the very last thing you want to hand to a cloud server. Local processing keeps the carrier and the secret together on your machine.",
+        "No upload, no account, no watermark — and no third party learning that a message exists.",
+        "Windows, macOS, Linux and mobile all behave identically."
+      ]
+    },
+    {
+      "heading": "Steganography in the Wider Toolkit",
+      "paragraphs": [
+        "Pair hidden-message work with [compress-image:image compression] for smaller carriers, and [resize-image:resize] for target dimensions.",
+        "The entire suite is free and browser-native.",
+        "Stealth, dignity and total privacy in one neat trick."
+      ]
+    },
+    {
+      "heading": "Carrier Image Selection and Capacity Limits",
+      "paragraphs": [
+        "The amount of text you can hide depends directly on the carrier image's dimensions and color depth, because each pixel contributes a small number of bits to the hidden payload.",
+        "A high-resolution photograph with millions of colors can carry significantly more data than a small icon or a heavily compressed thumbnail.",
+        "Complex images with varied textures and gradients hide data more effectively than flat, single-color areas, because the subtle pixel changes blend naturally into the existing noise.",
+        "Selecting a carrier that is both visually innocuous and sufficiently large ensures the message remains hidden while fitting within the capacity the image provides."
+      ]
+    },
+    {
+      "heading": "Detection Resistance and Statistical Analysis",
+      "paragraphs": [
+        "Steganalysis techniques examine images for statistical anomalies that reveal hidden data, such as unnatural distributions in the least-significant bit planes.",
+        "Simple encoding methods are more vulnerable to detection because they produce patterns that automated tools can identify reliably.",
+        "Choosing carrier images with natural photographic noise provides inherent cover, as the existing pixel variation masks the additions made during encoding.",
+        "Awareness of these detection methods helps you select carriers and techniques that maintain the secrecy the communication requires."
+      ]
+    },
+    {
+      "heading": "Combining Steganography With Encryption",
+      "paragraphs": [
+        "Hiding a message conceals its existence, but does not protect its content if someone discovers the hidden data through advanced analysis.",
+        "Encrypting the message before encoding it into the image adds a second layer of security: even if the hidden payload is found, the content remains unreadable without the decryption key.",
+        "Strong symmetric encryption algorithms like AES produce ciphertext that is indistinguishable from random data, making it an ideal input for steganographic encoding.",
+        "Using both techniques together achieves the goal of covert communication: the message is hidden from casual observation and protected against determined extraction."
+      ]
+    },
+    {
+      "heading": "Use Cases in Digital Rights and Creative Protection",
+      "paragraphs": [
+        "Photographers embed invisible watermarks in portfolio images shared online, allowing them to prove ownership if unauthorized copies appear elsewhere.",
+        "Graphic designers hide version identifiers in draft assets, so they can trace which revision leaked if confidential work appears before the official release.",
+        "Publishers use steganographic markers to identify the source of a distributed document without visibly branding every copy.",
+        "These applications demonstrate that steganography serves practical business purposes beyond academic curiosity."
+      ]
+    },
+    {
+      "heading": "Limitations and What Steganography Cannot Do",
+      "paragraphs": [
+        "Steganography hides the existence of a message but does not encrypt it, so anyone who discovers the technique and extracts the payload reads it in plain text.",
+        "Image format conversions, compression and resizing can destroy the hidden data, making the choice of carrier format and careful handling essential.",
+        "The capacity is inherently limited by the carrier image, so steganography is unsuitable for transmitting large documents or files.",
+        "Understanding these constraints ensures you use steganography where it is effective and rely on other security measures when they are more appropriate."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Will hiding data change the look of my image?",
+      "a": "No. The technique alters only minor pixel details imperceptible to the eye, so the carrier image appears unchanged."
+    },
+    {
+      "q": "Is the hidden message readable without the tool?",
+      "a": "No. Only re-running this decoder on the modified image reveals the payload; it is invisible to ordinary viewers."
+    },
+    {
+      "q": "Is steganography done privately?",
+      "a": "Yes. Everything runs locally in your browser — no uploads, watermarks or accounts — so the existence of the message stays between you and the recipient."
+    },
+    {
+      "q": "How much text can I hide in a single image?",
+      "a": "The capacity depends on the carrier image's resolution and color depth. A high-resolution photograph can hold several paragraphs, while a small thumbnail may only accommodate a short sentence."
+    },
+    {
+      "q": "Can image compression or format conversion destroy the hidden message?",
+      "a": "Yes. Converting between formats, resizing or applying lossy compression can alter the pixel data enough to erase the hidden payload, so handle encoded images carefully."
+    }
+  ]
+}

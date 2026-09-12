@@ -1,0 +1,120 @@
+{
+  "slug": "text-diff",
+  "title": "Metin Fark Aracı: Değişiklikleri Bulmak için İki Metni Çevrimiçi Ücretsiz Karşılaştırın",
+  "description": "İki belgeyi yan yana karşılaştırıp eklenen, kaldırılan ve değiştirilen satırları vurgulayan ücretsiz çevrimiçi metin fark aracı. Gizli, anında, tarayıcınızda.",
+  "keywords": ["metin fark", "iki metni karşılaştırma", "metinler arasındaki farkları bulma", "fark denetleyici", "metni çevrimiçi karşılaştırma", "metin karşılaştırma aracı", "metindeki değişiklikleri görme"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Sürümler Arasında Ne Değiştiğini Fark Etme",
+      "paragraphs": [
+        "İş arkadaşınız şartları değiştirdi mi? Sözleşmeyi hangi işlem yeniden yazdı? Sürümleri gözle karşılaştırmak güvenilmezdir; bir [text-diff:fark aracı], satır satır tam olarak neyin değiştiğini işaretler.",
+        "Editörler, inceleyenler, avukatlar ve öğrencilerin tümü hassas değişiklik tespitinden yararlanır.",
+        "ChooseTools metinleri tarayıcınızda yerel olarak, renk kodlu yan yana bir sonuçla karşılaştırır."
+      ]
+    },
+    {
+      "heading": "İki Metni Karşılaştırma",
+      "paragraphs": [
+        "Farklar, vurgulanmış:",
+        "Orijinali sol kutuya, revize edilmiş sürümü sağ kutuya yapıştırın. Araç farkı anında hesaplar ve eklenen ile kaldırılan satırları renklendirir.",
+        "Sonuçlar yerel olarak işlenir — taslaklar hiçbir yere gönderilmez."
+      ]
+    },
+    {
+      "heading": "Satır Düzeyinde Fark: Kesin ve İncelenebilir",
+      "paragraphs": [
+        "Satır ayrıntısında karşılaştırma, editörlerin çalışma biçimiyle uyumludur: her değişiklik ayrı, incelenebilir bir birimdir.",
+        "Eklenen satırlar, kaldırılan satırlar ve değişiklikler görsel olarak birbirinden farklıdır.",
+        "Uzun belgelerin toplu incelemesi hataya karşı dayanıklı hale gelir."
+      ]
+    },
+    {
+      "heading": "Fark Alma Perde Arkasında Nasıl Çalışır",
+      "paragraphs": [
+        "Araç iki metni satır satır hizalayarak değişmeden kalan en uzun bölümleri bulur ve geri kalan her şeyi eklenen veya kaldırılan olarak işaretler.",
+        "Değiştirilen bir satır, bir kaldırma ile eşleşen bir ekleme olarak görünür; inceleyenler belirsiz bir değiştirildi bayrağı yerine tam olarak neyin değiştirildiğini görür.",
+        "Algoritma, büyük belgelerde bile verimlidir: hizalamayı hızlı hesaplar ve netlik için yalnızca farklı bölgeleri işler.",
+        "Bu davranışı anlamak sonuçları yorumlamanıza yardımcı olur: yeniden yazılan bir cümle, yanına başka bir satırın eklendiği silinmiş bir satır olarak görünür."
+      ]
+    },
+    {
+      "heading": "Gizli Güven Katmanıyla İnceleme İş Akışları",
+      "paragraphs": [
+        "İnceleyenin düzenlemelerini her sözcüğü okumadan izleyin; yamaları uygulamadan önce onaylayın; sessiz değişiklikler için sözleşmeleri denetleyin.",
+        "Fark çıktısı, bir sürümün ne vaat ettiğinin ve neyi teslim ettiğinin haritasıdır.",
+        "Özenli karşılaştırma, imza atanı, göndereni ve kod yayınlayanı korur."
+      ]
+    },
+    {
+      "heading": "Meslekler Genelinde Yaygın Kullanım Durumları",
+      "paragraphs": [
+        "Hukuk ekipleri, müzakere turları arasında hiçbir maddenin değiştirilmediğinden emin olmak için sözleşme taslaklarını karşılaştırır. Yazılım geliştiriciler, birleştirmeden önce önerilen değişiklikleri ana dala göre fark alarak çekme isteklerini doğrular.",
+        "Bir makale revizyonunu kontrol eden öğrenciler, geri bildirimin gerçekten işlenip işlenmediğini anında görebilir. Teknik yazarlar, sürümler arasındaki sürüm notlarını karşılaştırarak dokümantasyon doğruluğunu korur.",
+        "Çevirmenler, yerelleştirilmiş metnin onaylı kaynakla ince çıkarmalar olmadan eşleştiğini doğrulamak için fark kullanır. Her durumda araç, manuel karşılaştırmanın sıkıcılığını kaldırır ve yerine değişimin net bir görsel haritasını koyar.",
+        "Kodda eksik virgülü yakalayan mekanizma, sözleşmede değiştirilmiş bir sorumluluk maddesini de yakalar."
+      ]
+    },
+    {
+      "heading": "Büyük Belgeleri ve İç İçe Değişiklikleri Yönetme",
+      "paragraphs": [
+        "Yüzlerce satırlık uzun dosyalar yönetilebilir kalır, çünkü fark algoritması onları bölümler halinde işler ve yalnızca ilgili farklılık alanlarını gösterir.",
+        "Yan yana düzen, bağlam satırlarının karşılıklarına bitişik oturmasını sağlar; inceleyenler çevredeki metnin istemeden kaymadığını doğrulayabilir.",
+        "Değişiklikler belgenin her yerine dağılmış olsa bile, renk kodu gözün her satırı elle taramadan doğrudan her değişikliğe atlamasını sağlar.",
+        "İşlem tamamen cihazınızda gerçekleşir; bu nedenle uzak bir sunucunun dayattığı boyut sınırı yoktur."
+      ]
+    },
+    {
+      "heading": "Kalite Kapısı Olarak Fark Alma",
+      "paragraphs": [
+        "Fark esasen bir kalite kapısıdır: bir şey yayınlanmadan, birleştirilmeden veya imzalanmadan önce, karşılaştırma nihai metnin kararlaştırılanla eşleşip eşleşmediğini yanıtlar.",
+        "Kalite ekipleri, onaylı taslak ile yayınlanan sürüm arasında son bir fark çalıştırır ve incelemeyi atlayan son dakika düzenlemelerini yakalar.",
+        "Serbest çalışan yazarlar, istenen her değişikliğin mevcut olduğunu göstermek için müşteri geri bildirimini el yazmalarına karşı fark alır.",
+        "Kısa bir kontrol bile, hiçbir miktarda özenli düzeltme okumasının güvenilir biçimde eşleştiremediği bir koruma katmanı ekler."
+      ]
+    },
+    {
+      "heading": "Yapılandırmaları ve Şablonları Karşılaştırma",
+      "paragraphs": [
+        "Düz metnin ötesinde araç, yapılandırılmış metin için uygundur: iki yapılandırma dosyasını, iki kod parçacığını veya bir e-posta şablonunun iki sürümünü karşılaştırmak.",
+        "Ayar dosyaları üzerinde hızlı bir karşılaştırma, hazırlama ve üretim gibi ortamlar arasında tam olarak hangi parametrenin değiştiğini ortaya çıkarır.",
+        "Şablon editörleri, hızlı bir bakışta kaçacak biçimlendirme sapmalarını fark etmek için kaydedilmiş taslakları karşılaştırır.",
+        "Aynı yan yana mantık kod, işaretleme ve düz metin üzerinde çalıştığı için tek bir araç birçok inceleme ihtiyacını karşılar."
+      ]
+    },
+    {
+      "heading": "Gizli Taslakların Özel Karşılaştırması",
+      "paragraphs": [
+        "Hukuki belgeler, yayınlanmamış el yazmaları ve iç sürüm notları yerel olarak farklanır ve amaç tam olarak budur.",
+        "Yükleme yok, hesap yok, filigran yok — tüm platformlarda.",
+        "Sürüm geçmişiniz size aittir."
+      ]
+    },
+    {
+      "heading": "Eksiksiz Metin Paketinde Fark Alma",
+      "paragraphs": [
+        "Karşılaştırdıktan sonra kopyayı [find-replace:düzeltmeleri uygulayın], [sort-lines:düzenleyin] veya [case-converter:normalleştirin].",
+        "Paket ücretsiz ve tarayıcı doğalıdır.",
+        "Her sürüm sorusu, hassas biçimde yanıtlanır."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Fark aracı tam olarak neyi vurgular?",
+      "a": "Her iki metni yan yana gösterir; eklenen, kaldırılan veya değiştirilen satırları renklendirir; böylece değişiklikler anında görünür."
+    },
+    {
+      "q": "Çok uzun belgeleri karşılaştırabilir mi?",
+      "a": "Evet. Satır tabanlı fark, uzun metinleri işler; işleme uzunluktan bağımsız olarak yerel ve hızlıdır."
+    },
+    {
+      "q": "Metin karşılaştırma gizli mi?",
+      "a": "Evet. Her şey tarayıcınızda yerel olarak, yükleme veya hesap olmadan gerçekleşir."
+    },
+    {
+      "q": "Değişikliklerin çevresindeki bağlamı gösteriyor mu?",
+      "a": "Evet. Değişmeyen çevre satırlar farkın yanında görünür; böylece değişikliklerin doğru bağlam içinde olduğunu doğrulayabilirsiniz."
+    }
+  ]
+}

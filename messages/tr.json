@@ -1,0 +1,1161 @@
+{
+  "meta": {
+    "title": "ChooseTools — Dosyalarınızı asla yüklemeyen ücretsiz çevrimiçi dosya araçları",
+    "description": "PDF birleştir, sıkıştır ve dönüştür, resim düzenle — doğrudan tarayıcınızda. Yükleme yok, sınır yok, bekleme yok. Dosyalarınız cihazınızdan asla çıkmaz."
+  },
+  "nav": {
+    "tagline": "Yükleme yok. Sınır yok.",
+    "allTools": "Tüm araçlar",
+    "pdf": "PDF",
+    "image": "Görsel",
+    "text": "Metin ve Geliştirme",
+    "arabic": "Arapça Metin Araçları",
+    "menu": "Menü",
+    "invoice": "Fatura Oluşturucu",
+    "cv": "CV Oluşturucu",
+    "tools": "Araçlar",
+    "more": "Daha fazla",
+    "blog": "Blog"
+  },
+  "home": {
+    "heroTitle": "Her dosya aracı. Sıfır yükleme.",
+    "heroSub": "Her şey tarayıcınızın içinde çalışır. Dosyalarınız asla cihazınızdan çıkmaz — bu yüzden boyut sınırı yok, günlük kota yok ve yükleme beklemenize gerek yok.",
+    "search": "Araç arayın… (ör. PDF birleştir)",
+    "noResults": "Aramanızla eşleşen bir araç bulunamadı.",
+    "whyTitle": "Neden ChooseTools?",
+    "why1t": "Dosyalarınız sizinle kalır",
+    "why1d": "Diğer araç siteleri her dosyayı sunucularına yükler ve sonra silmeyi vaat eder. Biz hiçbir zaman dosyanızı almıyoruz — işlemler kendi cihazınızda gerçekleşir.",
+    "why2t": "Gerçekten sınırsız",
+    "why2d": "15 MB sınırı yok, \"günde 2 görev\" yok, filigran yok. Sunucularımızda hiçbir şey çalışmadığından, sınırsız kullanım bize hiçbir şeyinize mal olmaz — dolayısıyla size de hiçbir şeyinize mal olmaz.",
+    "why3t": "Tasarım olarak anlık",
+    "why3d": "Yükleme süresi yok, kuyruk yok, indirme beklentisi yok. 100 MB'lık bir dosya, bıraktığınız anda işlemeye başlar."
+  },
+  "privacy": {
+    "badge": "Sunucularımıza yüklenen: 0 bayt",
+    "note": "Bu araç tamamen tarayıcınızda çalışır. Dosyanız hiçbir yere gönderilmez."
+  },
+  "categories": {
+    "pdf": {
+      "name": "PDF Araçları",
+      "desc": "PDF dosyalarını birleştirin, bölün, döndürün, sıkıştırın ve dönüştürün — gizlilikle, tarayıcınızda."
+    },
+    "image": {
+      "name": "Fotoğraf & Resim Araçları",
+      "desc": "Görselleri hiçbir yere yüklemeden sıkıştırın, yeniden boyutlandırın ve dönüştürün."
+    },
+    "text": {
+      "name": "Metin ve geliştirici araçları",
+      "desc": "Çevrimdışı çalışan sayaçlar, dönüştürücüler, oluşturucular ve biçimlendiriciler."
+    },
+    "arabic": {
+      "name": "Arapça Metin Araçları",
+      "desc": "Özellikle Arapça metin ve tarihler için oluşturulmuş araçlar — İngilizce araçların çevirisi değildir."
+    }
+  },
+  "tool": {
+    "dropTitle": "Dosyaları buraya sürükleyin veya seçmek için tıklayın",
+    "dropSingle": "Bir dosyayı buraya sürükleyin veya seçmek için tıklayın",
+    "processing": "Cihazınızda işleniyor…",
+    "download": "İndir",
+    "downloadAll": "Tümünü indir (ZIP)",
+    "reset": "Baştan başla",
+    "addMore": "Daha fazla dosya ekle",
+    "run": "Çalıştır",
+    "copy": "Kopyala",
+    "copied": "Kopyalandı!",
+    "error": "Bu dosya işlenemedi. Formatı kontrol edin ve tekrar deneyin.",
+    "faqTitle": "Sıkça sorulan sorular",
+    "relatedTitle": "İlgili araçlar",
+    "pages": "sayfa",
+    "fromPage": "Sayfa",
+    "toPage": "den",
+    "quality": "Kalite",
+    "width": "Genişlik",
+    "height": "Yükseklik",
+    "keepRatio": "En-boy oranını koru",
+    "format": "Format",
+    "input": "Girdi",
+    "output": "Çıktı",
+    "generate": "Oluştur",
+    "length": "Uzunluk",
+    "result": "Sonuç",
+    "savings": "daha küçük"
+  },
+  "cv": {
+    "personal": "Kişisel bilgiler",
+    "fullName": "Tam ad",
+    "jobTitle": "Hedef pozisyon",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "location": "Şehir/Ülke",
+    "linkedin": "LinkedIn (isteğe bağlı)",
+    "summary": "Profesyonel özet",
+    "summaryPh": "Deneyiminiz ve hedefleriniz hakkında iki-üç cümle",
+    "experience": "İş deneyimi",
+    "addExp": "Deneyim ekle",
+    "jobTitleField": "Ünvan",
+    "company": "Şirket",
+    "start": "Başlangıç",
+    "end": "Bitiş",
+    "present": "Günümüz",
+    "bullets": "Başarılar (her madde için bir satır)",
+    "education": "Eğitim",
+    "addEdu": "Eğitim ekle",
+    "degree": "Derece",
+    "school": "Kurum",
+    "skills": "Beceriler",
+    "skillsPh": "Virgülle ayırın: Excel, proje yönetimi, SQL",
+    "languages": "Diller",
+    "addLang": "Dil ekle",
+    "langName": "Dil",
+    "level": "Seviye",
+    "remove": "Kaldır",
+    "generate": "CV oluştur (PDF)",
+    "previewLive": "Canlı önizleme",
+    "previewFast": "Yazarken gerçek A4 boyutunda anında güncellenir",
+    "print": "A4 yazdır",
+    "design": "Tasarım",
+    "template": "Şablon",
+    "classic": "Klasik",
+    "modern": "Modern",
+    "minimal": "Minimal",
+    "accent": "Vurgu rengi",
+    "photo": "Fotoğraf",
+    "photoNone": "Fotoğrafsız",
+    "photoShow": "Fotoğraflı",
+    "uploadPhoto": "Fotoğraf yükle",
+    "changePhoto": "Fotoğrafı değiştir",
+    "removePhoto": "Fotoğrafı kaldır",
+    "importCv": "Mevcut CV'yi içe aktar",
+    "importProcessing": "İşleniyor",
+    "importBtn": "CV Yükle (Görsel/PDF)",
+    "importHint": "JPG, PNG, PDF destekler"
+  },
+  "tools": {
+    "merge-pdf": {
+      "name": "PDF Birleştir",
+      "desc": "Birden fazla PDF dosyasını tek bir belgede birleştirin, tamamen çevrimiçi ve ücretsiz.",
+      "long": "İki veya daha fazla PDF dosyasını sürükleyin, istediğiniz sıraya yerleştirin ve tek bir birleşik belge olarak indirin. Birleştirme cihazınızda gerçekleşir, bu yüzden gizli sözleşmeler bile bilgisayarınızdan çıkmaz.",
+      "faq1q": "Dosya boyutu veya dosya sayısı konusunda bir sınır var mı?",
+      "faq1a": "Hayır. Birleştirme tarayıcınızda çalıştığı için tek sınır cihazınızın belleğidir — yüzlerce megabaytlık dosyalar normal bir dizüstü bilgisayarda sorunsuz çalışır.",
+      "faq2q": "PDF'lerim bir sunucuya yükleniyor mu?",
+      "faq2a": "Asla. Dosyalar tarayıcınız tarafından yerel olarak okunur ve birleştirilir. Sayfa yüklendikten sonra interneti kesebilirsiniz ve araç çalışmaya devam eder."
+    },
+    "split-pdf": {
+      "name": "PDF Böl",
+      "desc": "Bir PDF'ten belirli bir sayfa aralığını yeni bir dosyaya çıkarın.",
+      "long": "İhtiyacınız olan sayfaları seçin — örneğin 3 ila 7 arası sayfaları — ve yalnızca o aralığı içeren yeni bir PDF alın. Hiçbir şey yüklenmez.",
+      "faq1q": "Tek bir sayfa çıkarabilir miyim?",
+      "faq1a": "Evet — başlangıç ve bitiş sayfası olarak aynı numarayı girin.",
+      "faq2q": "Bölme kaliteyi düşürür mü?",
+      "faq2a": "Hayır. Sayfalar aynen kopyalanır, yeniden sıkıştırma yapılmaz."
+    },
+    "rotate-pdf": {
+      "name": "PDF Döndür",
+      "desc": "Bir PDF'in tüm sayfalarını 90°, 180° veya 270° döndürün.",
+      "long": "Yanlış yönde veya baş aşağı taranmış belgeleri düzeltin. Döndürme kayıpsızdır ve anında gerçekleşir.",
+      "faq1q": "Döndürme kalıcı mı?",
+      "faq1a": "Evet — indirilen dosya yeni orientasyonla kaydedilir ve herhangi bir PDF okuyucuda doğru açılır.",
+      "faq2q": "Döndürme kaliteyi etkiler mi?",
+      "faq2a": "Hayır. Yalnızca sayfa orientasyon bayrağı değişir; içerik el değmemiş kalır."
+    },
+    "delete-pdf-pages": {
+      "name": "PDF Sayfası Sil",
+      "desc": "Bir PDF dosyasından belirli sayfaları kaldırın.",
+      "long": "Kaldırmak istediğiniz sayfa numaralarını yazın (ör. 2, 5-7) ve temizlenmiş PDF'i indirin.",
+      "faq1q": "Sayfa numaralarını nasıl yazarım?",
+      "faq1a": "Tek sayfalar için virgül, aralıklar için tire kullanın: \"2, 5-7, 10\" 2. sayfayı, 5'ten 7'ye kadar olan sayfaları ve 10. sayfayı kaldırır.",
+      "faq2q": "Bir silme işlemini geri alabilir miyim?",
+      "faq2a": "Orijinal dosyanız asla değiştirilmez — cihazınızda el değmemiş kalır, bu yüzden aracı basitçe tekrar çalıştırabilirsiniz."
+    },
+    "jpg-to-pdf": {
+      "name": "JPG’den PDF’e Çevir",
+      "desc": "JPG görsellerinizi tek bir PDF dosyasına dönüştürün.",
+      "long": "JPG veya PNG görsellerini sürükleyin, sıralamayı ayarlayın ve sayfa başına bir görsel içeren bir PDF indirin. Taranan makbuzlar ve belgeler için mükemmeldir.",
+      "faq1q": "JPG ve PNG'yi tek bir PDF'te birleştirebilir miyim?",
+      "faq1a": "Evet, her iki format da aynı belgede serbestçe karıştırılabilir.",
+      "faq2q": "Görseller sıkıştırılıyor mu?",
+      "faq2a": "Hayır — görseller orijinal kalitelerinde gömülür."
+    },
+    "pdf-to-jpg": {
+      "name": "PDF’ten JPG’ye Çevir",
+      "desc": "PDF sayfalarını yüksek kaliteli JPG görsellerine dönüştürün.",
+      "long": "Her sayfa cihazınızda oluşturulur ve görsel olarak indirilir — sayfa başına bir JPG veya tüm sayfalar ZIP içinde.",
+      "faq1q": "Görseller hangi çözünürlükte?",
+      "faq1a": "Sayfalar 2× ölçekte oluşturulur; bu, ekranlar ve çoğu baskı için yeterince keskindir.",
+      "faq2q": "PDF'imde çok fazla sayfa var. Bu bir sorun mu?",
+      "faq2a": "Hayır — sayfalar tek tek dönüştürülür, bu yüzden uzun belgeler bile çalışır. Her şeyi tek bir ZIP olarak indirebilirsiniz."
+    },
+    "compress-pdf": {
+      "name": "PDF Sıkıştır",
+      "desc": "PDF dosyanızı çevrimiçi sıkıştırın ve boyutunu kaliteyi koruyarak küçültün.",
+      "long": "Dosya, optimize edilmiş dahili yapı ve akış nesneleriyle yeniden yazılır. Metin ve görseller bozulmaz — bu kayıpsız optimizasyondur, yıkıcı sıkıştırma değil.",
+      "faq1q": "Dosyam ne kadar küçülecek?",
+      "faq1a": "PDF'in nasıl oluşturulduğuna bağlıdır. Düşük kaliteli dosyalar çok fazla küçülebilir; halihazırda optimize edilmiş dosyalar daha az. Kesin tasarruf, indirmeden önce gösterilir.",
+      "faq2q": "Kalite düşecek mi?",
+      "faq2a": "Hayır. Bu optimizasyon tamamen kayıpsızdır — her sayfa birebir aynı görünür."
+    },
+    "compress-image": {
+      "name": "Resim Sıkıştır",
+      "desc": "Resimlerinizi sıkıştırın, dosya boyutunu web için küçültün.",
+      "long": "Akıllı sıkıştırma, görselleri keskin görünürken tutarak dosya boyutunu dramatik şekilde azaltır. Web siteleri, e-posta ekleri ve yükleme sınırlırmalı formlar için mükemmeldir.",
+      "faq1q": "Ne kadar tasarruf edebilirim?",
+      "faq1a": "Genellikle fotoğraflar için %60-90 arası, seçtiğiniz kalite seviyesine bağlıdır. Sonuç ve tasarruf, indirmeden önce gösterilir.",
+      "faq2q": "Dosya boyutu sınırı var mı?",
+      "faq2a": "Sabit sınır yok — sıkıştırma cihazınızda çalışır, bu yüzden çok büyük fotoğraflar bile çalışır."
+    },
+    "resize-image": {
+      "name": "Resim Boyutlandır",
+      "desc": "Fotoğraflarınızın boyutunu ve çözünürlüğünü çevrimiçi olarak yeniden boyutlandırın.",
+      "long": "Yeni bir genişlik veya yükseklik girin — kapatmadığınız sürece en-boy oranı otomatik olarak korunur. Cihazınızda anında çalışır.",
+      "faq1q": "Yeniden boyutlandırma görselimi bulanıklaştırır mı?",
+      "faq1a": "Küçültme görselleri keskin tutar. Orijinal boyutun üzerine çıkarmak daha yumuşak görünebilir — bu kaynağın görselinin bir sınırıdır, aracın değil.",
+      "faq2q": "Hangi formatlar desteklenir?",
+      "faq2a": "JPG, PNG ve WebP. Çıktı aynı formatı korur."
+    },
+    "convert-image": {
+      "name": "Görsel Dönüştür",
+      "desc": "JPG, PNG ve WebP formatları arasında dönüştürün.",
+      "long": "Çıktı formatını seçin ve anında dönüştürün. WebP çıktısı genellikle aynı kalitede JPG'den %25-35 daha küçüktür.",
+      "faq1q": "WebP'yi ne zaman kullanmalıyım?",
+      "faq1a": "Web siteleri için — benzer kalitede JPG ve PNG'den daha küçüktür ve tüm modern tarayıcılar tarafından desteklenir.",
+      "faq2q": "PNG'yi JPG'ye dönüştürmek şeffaflığı kaybettirir mi?",
+      "faq2a": "Evet — JPG şeffaflık desteklemez, bu yüzden şeffaf alanlar beyaz olur. Şeffaflığı korumak için PNG veya WebP kullanın."
+    },
+    "heic-to-jpg": {
+      "name": "HEIC’ten JPG’ye",
+      "desc": "iPhone HEIC fotoğraflarını evrensel olarak desteklenen JPG'ye dönüştürün.",
+      "long": "iPhone'lar fotoğrafları HEIC olarak kaydeder; birçok uygulama ve web sitesi bunu reddeder. Bunları kendi cihazınızda JPG'ye dönüştürün — kişisel fotoğraflarınız hiçbir yere yüklenmez.",
+      "faq1q": "HEIC fotoğraflarım neden Windows'ta açılmıyor?",
+      "faq1a": "Windows'un HEIC açmak için ücretli bir kodeke ihtiyacı var. JPG'ye dönüştürmek fotoğrafların ekstra yazılım olmadan her yerde açılmasını sağlar.",
+      "faq2q": "Kalite korunuyor mu?",
+      "faq2a": "Dönüşüm %92 JPG kalitesi kullanır; bu, fotoğraflar için görsel olarak orijinaliyle aynıdır."
+    },
+    "rotate-image": {
+      "name": "Fotoğrafı Döndür",
+      "desc": "Görselleri 90° adımlarla döndürün veya yatay/dikey olarak aynalayın.",
+      "long": "Yanlış yönde çekilmiş fotoğrafları düzeltin veya aynalı sürümler oluşturun. Tüm düzenlemeler yerel olarak yapılır ve anında indirilir.",
+      "faq1q": "Döndürme görsel kalitesini düşürür mü?",
+      "faq1a": "PNG çıktısı kayıpsızdır. JPG çıktısı yüksek kalitede (yeniden kodlanır %95), bu görsel olarak ayırt edilemez.",
+      "faq2q": "Özel bir açıyla döndürebilir miyim?",
+      "faq2a": "Bu araç 90° adımları ve aynalamayı kapsar; bu, orientasyon sorunlarını düzeltir. Serbest açılı döndürme yol haritamızdadır."
+    },
+    "remove-exif": {
+      "name": "EXIF Verilerini Kaldır",
+      "desc": "Fotoğrafları paylaşmadan önce GPS konumu ve kamera meta verilerini temizleyin.",
+      "long": "Fotoğraflar gizlice meta veri taşır: çekildikleri yerin GPS koordinatları, cihaz modeli, tarih ve saat. Bu araç, tümü kaldırılmış temiz bir kopya üretir — ve yerel olarak çalıştığı için, temizlediğiniz fotoğrafın kendisi asla açığa çıkmaz.",
+      "faq1q": "Tam olarak ne kaldırılıyor?",
+      "faq1a": "Tüm EXIF meta verileri: GPS konumu, kamera ve telefon modeli, zaman damgaları, yazılım etiketleri ve küçük resim önizlemeleri. Yalnızca görünür görsel kalır.",
+      "faq2q": "Çalıştığını nasıl doğrulayabilirim?",
+      "faq2a": "Dosyanın özelliklerini önceden ve sonrasında kontrol edin (Windows'ta sağ tıkla → Özellikler → Ayrıntılar). Temizlenmiş kopyada konum veya kamera alanları gösterilmez."
+    },
+    "word-counter": {
+      "name": "Kelime Sayacı",
+      "desc": "Kelimeleri, karakterleri, cümleleri ve tahmini okuma süresini sayın.",
+      "long": "Metin yapıştırın veya yazın ve canlı sayaçları görün — boşluklu ve boşluksuz karakter sayıları ile ortalama hızda okuma süresi dahil.",
+      "faq1q": "Arapça metin için çalışıyor mu?",
+      "faq1a": "Evet — kelime sınırları Arapça, İngilizce, İspanyolca ve karışık metin için doğru algılanır.",
+      "faq2q": "Metnim herhangi bir yere gönderiliyor mu?",
+      "faq2a": "Hayır. Sayma, yazarken tamamen tarayıcınızda gerçekleşir."
+    },
+    "case-converter": {
+      "name": "Metni Büyük/Küçük Harf Yap",
+      "desc": "Metni BÜYÜK HARF, küçük harf, Başlık Durumu veya Cümle Durumuna dönüştürün.",
+      "long": "Metin yapıştırın, bir stil seçin, sonucu kopyalayın. Caps Lock açıkken yazılan metinleri düzeltmek için kullanışlıdır.",
+      "faq1q": "Başlık Durumu nedir?",
+      "faq1a": "Her Kelimenin İlk Harfi Büyük Yazılır — genellikle başlıklar için kullanılır.",
+      "faq2q": "Arapça metni değiştirir mi?",
+      "faq2a": "Arapça'da büyük/küçük harf farklılığı yoktur, bu yüzden Arapça karakterler değişmez — yalnızca Latin harfleri dönüştürülür."
+    },
+    "password-generator": {
+      "name": "Şifre Oluşturucu",
+      "desc": "Özel kurallarla güçlü rastgele şifreler oluşturun.",
+      "long": "Şifreler tarayıcınızın kriptografik rastgele üreticisiyle oluşturulur ve cihazınızdan asla çıkmaz — hiçbir şey iletilmez veya saklanmaz.",
+      "faq1q": "Şifrem ne kadar uzun olmalı?",
+      "faq1a": "Önemli hesaplar için en az 16 karakter. Uzunluk karmaşıklıktan daha önemlidir — ekstra her karakter kırma süresini katlar.",
+      "faq2q": "Çevrimiçi şifre oluşturmak güvenli mi?",
+      "faq2a": "Bu sayfada, evet: oluşturma tarayıcınızda yerel olarak crypto.getRandomValues() kullanır. Sayfayı yükleyebilir, interneti kesebilir ve çevrimdışı oluşturabilirsiniz."
+    },
+    "qr-generator": {
+      "name": "QR Kod Oluştur",
+      "desc": "Bağlantı, metin ve Wi-Fi için ücretsiz QR kod oluşturun.",
+      "long": "Herhangi bir metin veya URL yazın ve yüksek çözünürlüklü bir PNG QR kodu indirin. Kayıt yok, süresi dolan kodlar yok, filigran yok.",
+      "faq1q": "Bu QR kodlarının süresi doluyor mu?",
+      "faq1a": "Asla. Kod doğrudan metninizden oluşturulur — kapatılabilecek bir kısaltma servisi veya sunucu yoktur.",
+      "faq2q": "İndirme çözünürlüğü nedir?",
+      "faq2a": "1024×1024 piksel PNG — baskı, kartvizitler ve posterler için yeterince keskin."
+    },
+    "json-formatter": {
+      "name": "JSON Biçimlendirici",
+      "desc": "JSON verilerini biçimlendirin, doğrulayın ve küçültün.",
+      "long": "JSON yapıştırın, düzgün girintili olarak yazdırın veya production için küçültün. Hatalar net bir mesajla işaretlenir.",
+      "faq1q": "Hassas veri içeren API yanıtlarını yapıştırmak güvenli mi?",
+      "faq1a": "Evet — biçimlendirme tarayıcınızda yerel olarak gerçekleşir. Yapıştırdığınız hiçbir şey hiçbir yere iletilmez.",
+      "faq2q": "\"Geçersiz JSON\" ne anlama gelir?",
+      "faq2a": "Metin JSON sözdizimi kurallarını ihlal eder — genellikle sondan virgül, tırnak yerine tek tırnak veya tırnaksız anahtar. Hata mesajı nerede olduğunu gösterir."
+    },
+    "base64": {
+      "name": "Base64 Kodla",
+      "desc": "Metni Base64'e ve geriye dönüştürün, tam Unicode desteğiyle.",
+      "long": "Herhangi bir metni — Arapça ve emoji dahil — Base64'e kodlayın veya Base64'ü okunabilir metne çözümleyin.",
+      "faq1q": "Base64 ne için kullanılır?",
+      "faq1a": "İkili veya özel karakterli verileri yalnızca güvenli ASCII karakterleri kullanarak temsil eder — API'lerde, e-posta eklerinde ve veri URL'lerinde yaygındır.",
+      "faq2q": "Base64 şifreleme mi?",
+      "faq2a": "Hayır. Base64 kodlamadır, şifreleme değil — herkes onu çözümleyebilir. Gizli bilgilerinizi korumak için asla kullanmayın."
+    },
+    "remove-tashkeel": {
+      "name": "Tashkeel'i kaldır",
+      "desc": "Arapça sesli harf işaretlerini (harakat) tek tıklamayla temizleyin.",
+      "long": "Arapça metinden fatha, damma, kasra, sukun, shadda, tanween ve tatweel'i kaldırır — arama indeksleme, veritabanları ve temiz tipografi için kullanışlıdır.",
+      "faq1q": "Harflerin kendisini değiştirir mi?",
+      "faq1a": "Hayır — yalnızca sesli harf işaretleri kaldırılır. Harfler, boşluklar ve noktalama işaretleri aynen kalır.",
+      "faq2q": "Shadda'yı koruyabilir miyim?",
+      "faq2a": "Evet — \"shadda'yı koru\" seçeneğini açarak shadda dışında tüm işaretleri kaldırın; shadda çoğu zaman anlam taşır."
+    },
+    "arabic-numerals": {
+      "name": "Arapça ↔ Batı rakamları",
+      "desc": "Doğu Arapça (٠١٢٣) ve Batı (0123) rakamları arasında dönüştürün.",
+      "long": "Metninizdeki her rakamı her iki yönde dönüştürürken diğer tüm karakterleri el değmemiş bırakır. Farsça rakam varyantlarını da işler.",
+      "faq1q": "\"Arapça rakamları\" hangileri?",
+      "faq1a": "Kafa karıştırıcı şekilde, her ikisi de! ٠١٢٣٤ Doğu Arapça (Arap-İndik) rakamlarıdır; 01234 Batı Arapça rakamlarıdır. Bu araç aralarında dönüştürme yapar.",
+      "faq2q": "Tarihleri ve telefon numaralarını doğru dönüştürür mü?",
+      "faq2a": "Evet — rakamlar göründükleri her yerde tek tek dönüştürülür, bu yüzden tarih ve telefon numarası formatları yapılarını korur."
+    },
+    "hijri-gregorian": {
+      "name": "Hijri ↔ Miladi dönüştürücü",
+      "desc": "Tarihleri İslam (Umm al-Qura) ve Miladi takvimleri arasında dönüştürün.",
+      "long": "Umm al-Qura takvimini kullanarak doğru iki yönlü dönüşüm — bu takvim Suudi Arabistan'ın resmi takvimdir — her sonuç için haftanın günü gösterilir.",
+      "faq1q": "Hangi Hijri takvim kullanılıyor?",
+      "faq1a": "Umm al-Qura, Suudi Arabistan'da resmi olarak kullanılan hesaplanmış takvim. Gerçek hilal gözlemi dini günler için ±1 gün farklı olabilir.",
+      "faq2q": "Hangi tarih aralığı destekleniyor?",
+      "faq2a": "Hijri başlangıcından (MS 622) geleceğe kadar herhangi bir tarih — doğum günleri, sözleşmeler ve tarihi tarihler için yeterli."
+    },
+    "reorder-pdf": {
+      "name": "PDF Sayfalarını Sırala",
+      "desc": "Bir PDF'in sayfalarını görsel küçük resimlerle yeniden düzenleyin.",
+      "long": "Her sayfa cihazınızda küçük resim olarak oluşturulur. Sayfaları istediğiniz sıraya taşıyın ve yeniden düzenlenmiş dosyayı indirin — hiçbir şey yüklenmez.",
+      "faq1q": "Bir sayfayı sondan başa taşıyabilir miyim?",
+      "faq1a": "Evet — her küçük resim altındaki okları kullanarak sayfaları adım adım herhangi bir konuma taşıyın.",
+      "faq2q": "Yeniden sıralama kaliteyi değiştirir mi?",
+      "faq2a": "Hayır. Sayfalar aynen kopyalanır; yalnızca sıraları değişir."
+    },
+    "watermark-pdf": {
+      "name": "PDF’e Filigran Ekle",
+      "desc": "PDF dosyanıza filigran veya logo ekleyin.",
+      "long": "Filigran metninizi yazın (ör. GİZLİ veya TASLAK), opaklığı seçin ve her sayfaya temiz bir çapraz damga eklenir — yerel olarak işlenir.",
+      "faq1q": "Filigranda Arapça metin kullanabilir miyim?",
+      "faq1a": "Henüz değil — dahili PDF fontları Latin harflerini ve sayıları kapsar. Gömülü fontlu Arapça filigran desteği yol haritamızdadır.",
+      "faq2q": "Filigran daha sonra kaldırılabilir mi?",
+      "faq2a": "Filigran sayfa içeriğinin bir parçası olur. Orijinal dosyanızı saklayın — asla değiştirilmez."
+    },
+    "page-numbers-pdf": {
+      "name": "PDF’e Sayfa Numarası Ekle",
+      "desc": "Her sayfanın altına sayfa numaraları ekleyin.",
+      "long": "Basit bir stil seçin (1, 2, 3) veya \"1 / 12\" formatını ve belgenizin numaralandırılmış bir kopyasını indirin.",
+      "faq1q": "Numaralar nereye yerleştirilir?",
+      "faq1a": "Her sayfanın alt ortasında, içeriğinizle çakışmadan okunabilir bir boyutta.",
+      "faq2q": "Numaralandırmaya 1'den farklı bir sayfadan başlayabilir miyim?",
+      "faq2a": "Mevcut sürüm tüm sayfaları 1'den başlar. Özel başlangıç sayfaları planlanmaktadır."
+    },
+    "crop-image": {
+      "name": "Fotoğraf Kırp",
+      "desc": "Görselleri 1:1 veya 16:9 gibi standart en-boy oranlarına göre kırpın.",
+      "long": "Hedef oranı seçin ve görsel, mümkün olan en büyük alana ortalanmış olarak kırpılır — profil resimleri, kapaklar ve küçük resimler için mükemmeldir.",
+      "faq1q": "Hangi oranlar mevcut?",
+      "faq1a": "Kare 1:1, klasik 4:3 ve 3:4, ve geniş ekran 16:9 ve 9:16 hikayeler ve kapaklar için.",
+      "faq2q": "Kırpma merkezli mi?",
+      "faq2a": "Evet — araç seçtiğiniz orana uyan en büyük merkezli bölgeyi korur."
+    },
+    "circle-crop": {
+      "name": "Yuvarlak Fotoğraf Kırp",
+      "desc": "Herhangi bir fotoğraftan şeffaf bir daire kesin.",
+      "long": "Görselinizden en büyük merkezli daire kesilir ve şeffaf PNG olarak kaydedilir — avatarlar ve logolar için hazır.",
+      "faq1q": "Neden çıktı PNG?",
+      "faq1a": "Yalnızca PNG (ve WebP) şeffaflık destekler. Dairenin dışındaki köşeler tamamen şeffaftır.",
+      "faq2q": "Dairenin nereye yerleştirileceğini seçebilir miyim?",
+      "faq2a": "Daire otomatik olarak ortalanır. Özel yerleştirme için, önce Kırpma aracıyla görseli kırpın."
+    },
+    "blur-image": {
+      "name": "Fotoğrafı Bulanıklaştır",
+      "desc": "Fotoğrafa ayarlanabilir bir Gauss bulanıklığı uygulayın.",
+      "long": "Bulanıklık gücünü bir kaydırıcıyla seçin — arka planlar, ayrıntıları sansürlemek veya yumuşak kapak görselleri oluşturmak için kullanışlıdır.",
+      "faq1q": "Yalnızca görselin bir kısmını bulanıklaştırabilir miyim?",
+      "faq1a": "Bu araç tüm görseli bulanıklaştırır. Bölge tabanlı bulanıklık yol haritamızdadır.",
+      "faq2q": "Bulanıklık bilgiyi güvenilir şekilde gizler mi?",
+      "faq2a": "Güçlü bulanıklık (20px+) metni okunamaz hale getirir, ancak hassas veriler için tamamen kırpmanızı öneririz."
+    },
+    "image-filters": {
+      "name": "Fotoğraf Filtreleri",
+      "desc": "Grayscale, sepia, ters, parlaklık veya kontrast uygulayın.",
+      "long": "Tek tıklamayla klasik filtreler, cihazınızda tam çözünürlükte anında işlenir.",
+      "faq1q": "Filtreler çözünürlüğü düşürür mü?",
+      "faq1a": "Hayır — görsel tam orijinal boyutlarını korur.",
+      "faq2q": "Birden fazla filtre uygulayabilir miyim?",
+      "faq2a": "Bir filtre uygulayın, indirin, sonra sonucu aracı tekrar çalıştırarak efektleri birleştirin."
+    },
+    "image-to-base64": {
+      "name": "Görseli Base64’e Çevir",
+      "desc": "Bir görseli gömme için Base64 veri URL'sine dönüştürün.",
+      "long": "HTML, CSS veya JSON'da kullanıma hazır, kopyalanabilir bir veri URL'si alın — yerel olarak oluşturulduğu için, gizli görseller bile güvendedir.",
+      "faq1q": "Görselleri ne zaman Base64 olarak gömmeliyim?",
+      "faq1a": "Bir HTTP istek kaydetmenin önemli olduğu küçük görseller (simge, küçük logo) için. Büyük görseller normal dosyalar olarak daha iyi sunulur.",
+      "faq2q": "Base64 dizgesi neden dosyamdan daha büyük?",
+      "faq2a": "Base64 kodlaması yaklaşık %33 ek yük ekler — bu normal ve beklenendir."
+    },
+    "favicon-generator": {
+      "name": "Favicon Oluşturucu",
+      "desc": "Bir görselden tam bir favicon seti oluşturun.",
+      "long": "Kare bir logo yükleyin ve tüm standart boyutları (16-512px), Apple touch icon'u ve yapıştırmaya hazır bir HTML kod parçasını içeren bir ZIP indirin.",
+      "faq1q": "Hangi görselle başlamalıyım?",
+      "faq1a": "En az 512×512 piksel kare bir PNG veya SVG, her boyutta en keskin sonuçları verir.",
+      "faq2q": "Hangi boyutlar dahil?",
+      "faq2a": "16, 32, 48, 192 ve 512 piksel artı 180px apple-touch-icon — modern tarayıcıların ve telefonların istediği her şey."
+    },
+    "color-picker": {
+      "name": "Fotoğraftan Renk Seç",
+      "desc": "Bir görselin herhangi bir yerine tıklayarak tam HEX ve RGB değerleri alın.",
+      "long": "Bir fotoğraf veya ekran görüntüsü yükleyin ve herhangi bir piksele tıklayın — araç seçtiğiniz renklerin tek tıklamayla kopyalanabildiği bir palet oluşturur.",
+      "faq1q": "Seçilen renk ne kadar doğru?",
+      "faq1a": "Tam — değer doğrudan tıkladığınız görsel pikselinden okunur.",
+      "faq2q": "Birden fazla renk seçebilir miyim?",
+      "faq2a": "Evet, her tıklama paletinize eklenir (son 12 seçime kadar)."
+    },
+    "svg-to-png": {
+      "name": "SVG’den PNG’ye",
+      "desc": "Vektörel SVG dosyalarını 1×–8× ölçekle PNG'ye dönüştürün.",
+      "long": "SVG'nizi cihazınızda oluşturur ve keskin bir PNG dışa aktarır — baskı veya retina ekranlar için daha yüksek ölçek seçin.",
+      "faq1q": "Ölçek ayarı ne işe yarar?",
+      "faq1a": "SVG'nin doğal boyutunu çarpar: 4× ile dışa aktarılan 100×100 boyutunda bir simge 400×400 PNG olur.",
+      "faq2q": "Şeffaflık korunuyor mu?",
+      "faq2a": "Evet — SVG'nin şeffaf alanları PNG'de şeffaf kalır."
+    },
+    "id-photo": {
+      "name": "Kimlik Fotoğrafı",
+      "desc": "Fotoğrafları resmi pasaport boyutlarına yeniden boyutlandırın: Suudi Arabistan, BAE, Mısır, AB, ABD.",
+      "long": "Ülke ön ayarınızı seçin ve baskı kalitesinde (300 DPI) doğru boyutta bir fotoğraf alın. Kırpma, yüzün genellikle bulunduğu çerçevenin üstüne yönelik yapılır — ve yerel olarak çalıştığı için, kişisel fotoğrafınız cihazınızdan asla çıkmaz.",
+      "faq1q": "Hangi boyutlar destekleniyor?",
+      "faq1a": "AB/Schengen 35×45mm, Suudi Arabistan ve Mısır 40×60mm, BAE 43×55mm, ve ABD 51×51mm — tümü 300 DPI olarak dışa aktarılır.",
+      "faq2q": "Araç fotoğraf gereksinimlerini doğruluyor mu?",
+      "faq2a": "Doğru boyutları ve çözünürlüğü üretir. Arka plan rengi ve yüz ifadesi gibi gereksinimler sizin sorumluluğunuzdadır — ilgili otoritenin yönergelerini kontrol edin."
+    },
+    "url-encode": {
+      "name": "URL Kodla",
+      "desc": "Metni URL'lerde güvenli kullanım için kodlayın veya geri çözümleyin.",
+      "long": "Yüzde kodlaması anında — URL'lerdeki Arapça karakterler dahil tam Unicode desteği.",
+      "faq1q": "URL kodlamasına ne zaman ihtiyacım var?",
+      "faq1a": "Metin bir URL'ye girdiğinde: sorgu parametreleri, arama terimleri veya boşluklar, ?, & ve Latin olmayan harfler gibi herhangi bir karakter.",
+      "faq2q": "Base64 ile farkı nedir?",
+      "faq2a": "URL kodlaması metni okunabilir tutar ve özellikle URL'ler içindir; Base64 genel bir ikili-metin kodlamasıdır."
+    },
+    "uuid-generator": {
+      "name": "UUID Üretici",
+      "desc": "Toplu halde rastgele sürüm-4 UUID'leri oluşturun.",
+      "long": "Tarayıcınızın yerel crypto.randomUUID() fonksiyonunu kullanır — kriptografik olarak güçlü tanımlayıcılar, çevrimdışı oluşturulur.",
+      "faq1q": "UUID ne için kullanılır?",
+      "faq1a": "Veritabanı kayıtları, API nesneleri, dosya adları ve dağıtık sistemler için pratik olarak çakışmasız bir tanımlayıcı olarak.",
+      "faq2q": "İki oluşturulmuş UUID çakışabilir mi?",
+      "faq2a": "Olasılık o kadar düşüktür ki pratikte ihmal edilebilir — asırlarca her saniye milyarlarca oluşturmanız gerekir."
+    },
+    "hash-generator": {
+      "name": "Hash Üretici",
+      "desc": "Metnin SHA-1, SHA-256, SHA-384 ve SHA-512 hash değerlerini hesaplayın.",
+      "long": "Hash değerleri yazarken canlı olarak güncellenir, tarayıcınızın yerel Web Crypto API'siyle hesaplanır — metniniz sayfadan asla çıkmaz.",
+      "faq1q": "Neden MD5 sunulmuyor?",
+      "faq1a": "MD5 kriptografik olarak kırılmıştır ve tarayıcılar tarafından yerel olarak uygulanmaz. SHA-256 modern standarttır.",
+      "faq2q": "Hash değerleri tersine çevrilebilir mi?",
+      "faq2a": "Hayır — bir hash tek yönlü bir parmak izidir. Aynı girdi her zaman aynı hash'i verir, ancak girdi ondan geri kurtarılamaz."
+    },
+    "remove-duplicate-lines": {
+      "name": "Yinelenen Satırları Kaldır",
+      "desc": "Orijinal sıralamayı koruyarak listeden tekrarlanan satırları silin.",
+      "long": "Herhangi bir liste yapıştırın — e-postalar, anahtar kelimeler, URL'ler — ve her benzersiz satırı tam olarak bir kez, kaldırılanların sayısıyla birlikte alın.",
+      "faq1q": "Karşılaştırma büyük/küçük harfe duyarlı mı?",
+      "faq1a": "Evet — \"Elma\" ve \"elma\" farklı satırlar olarak ele alınır. Gerekirse önce Büyük/Küçük Harf Dönüştürücüsünü kullanarak normalleştirmek için.",
+      "faq2q": "Orijinal sıra korunuyor mu?",
+      "faq2a": "Evet, her satırın ilk oluşumu yerinde kalır; sonraki tekrarlar kaldırılır."
+    },
+    "text-diff": {
+      "name": "Metin Karşılaştır",
+      "desc": "İki metni karşılaştırın ve eklenen ve kaldırılan satırları vurgulayın.",
+      "long": "İki sürümü yan yana yapıştırın ve hangi satırların değiştiğini tam olarak görün — eklemeler yeşil, silmeler kırmızı.",
+      "faq1q": "Karşılaştırma nasıl çalışır?",
+      "faq1a": "Satır satır, programlama karşılaştırma araçlarıyla aynı en-uzun-ortak-alt-dizi yaklaşımını kullanarak.",
+      "faq2q": "Kod karşılaştırabilir miyim?",
+      "faq2a": "Evet — araç içeriğe duyarsızdır ve kod, sözleşmeler, makaleler veya herhangi bir metin için çalışır."
+    },
+    "lorem-ipsum": {
+      "name": "Lorem Ipsum Üretici",
+      "desc": "Tasarımlar ve mockup'lar için yer tutucu paragraflar oluşturun.",
+      "long": "Klasik lorem ipsum dolgu metni, 1–10 paragraf, tek tıklamayla kopyalama ile anında oluşturulur.",
+      "faq1q": "Neden gerçek metin yerine lorem ipsum kullanılır?",
+      "faq1a": "Doğal harf dağılımı, izleyicilerin okunabilir içeriğe dikkati dağılmadan bir düzeni değerlendirmesini sağlar.",
+      "faq2q": "Metin rastgele mi?",
+      "faq2a": "Evet — cümle uzunlukları ve kelime sırası her oluşturmada değişir, doğal yazım gibi."
+    },
+    "markdown-to-html": {
+      "name": "Markdown’dan HTML’ye",
+      "desc": "Markdown sözdizimini temiz HTML işaretlemesine dönüştürün.",
+      "long": "Modern marked parser tarafından desteklenir, tamamen tarayıcınızda çalışır — Markdown yapıştırın, production'a hazır HTML kopyalayın.",
+      "faq1q": "Hangi Markdown özellikleri destekleniyor?",
+      "faq1a": "Tam CommonMark standartı: başlıklar, vurgular, listeler, bağlantılar, görseller, kod blokları, alıntı tabloları ve tablolar (GFM).",
+      "faq2q": "HTML çıktısı temizleniyor mu?",
+      "faq2a": "Çıktı girdinizi yansıtır. Güvenilmeyen kaynaklardan HTML oluşturmayı planlıyorsanız, uygulamanızda temizleyin."
+    },
+    "csv-json": {
+      "name": "CSV ↔ JSON Dönüştürücü",
+      "desc": "CSV verileri ve JSON dizileri arasında her iki yönde dönüştürün.",
+      "long": "Sektör standardı Papa Parse motoru tarafından desteklenir — tırnaklı alanları, değerlerin içindeki virgülleri ve başlıkları doğru işler.",
+      "faq1q": "CSV→JSON ilk satırı anahtar olarak kullanıyor mu?",
+      "faq1a": "Evet — başlık satırı her nesne için JSON özellikleri adları olur.",
+      "faq2q": "CSV'im virgül yerine noktalı virgül kullanıyor — çalışır mı?",
+      "faq2a": "Evet, ayrıştırıcı noktalı virgül ve sekme dahil yaygın ayıraçları otomatik algılar."
+    },
+    "tafqit": {
+      "name": "Tafqit — sayıları Arapça kelimelere dönüştürme",
+      "desc": "Sayıları faturalar ve çekler için yazılı Arapça kelimelere dönüştürün.",
+      "long": "Milyarlarca kadar herhangi bir tutar yazın ve faturalarda kullanılan yasal \"yalnızca ve başka bir şey\" formatında, isteğe bağlı para birimiyle (SAR, AED, EGP, USD, EUR) dilbilgisel olarak doğru Arapça ifadeyi alın.",
+      "faq1q": "Tafqit ne için kullanılır?",
+      "faq1a": "Arapça faturalar, çekler ve sözleşmeler yasal olarak kelimelerle yazılan tutarları gerektirir — tafqit 15.750'yi tam Arapça ifadesine anında dönüştürür.",
+      "faq2q": "Arapça dilbilgisi doğru mu?",
+      "faq2a": "Evet — araç ikili çoğullar, 3–10 çoğullar ve 11+ sonrası için kullanılan isim halini doğru formlarla uygular (ör. ألفاً / مليوناً)."
+    },
+    "extract-pdf-pages": {
+      "name": "PDF Sayfası Çıkar",
+      "desc": "Bir PDF'ten belirli sayfaları veya aralıkları yeni bir dosyaya çıkarın.",
+      "long": "\"1-3, 5, 8-10\" gibi sayfa aralıkları yazın ve o sırayla tam olarak o sayfaları içeren yeni bir PDF alın — cihazınızda işlenir.",
+      "faq1q": "Hangi aralık formatları kabul ediliyor?",
+      "faq1a": "Tek sayfalar (5), aralıklar (2-7) veya 1-3, 6, 9-12 gibi herhangi bir virgülle ayrılmış karışım.",
+      "faq2q": "Orijinal dosya değişiyor mu?",
+      "faq2a": "Asla — yepyeni bir PDF oluşturulur ve orijinaliniz cihazınızda el değmemiş kalır."
+    },
+    "pdf-to-text": {
+      "name": "PDF’ten Metne Çevir",
+      "desc": "Bir PDF'ten tüm metin içeriğini düz metin olarak çıkarın.",
+      "long": "Her sayfanın metin katmanını okur ve temiz, kopyalanabilir metin verir — tek tıklamayla .txt indirme ile. Arapça, Latin ve İspanyolca belgelerle çalışır.",
+      "faq1q": "Taranmış PDF'im neden metin döndürmedi?",
+      "faq1a": "Taranmış PDF'ler metin katmanı olmadan görsellerdir. Metin çıkarma dijital olarak oluşturulmuş PDF gerektirir; taramalar için OCR yol haritamızdadır.",
+      "faq2q": "Yerleşim korunuyor mu?",
+      "faq2a": "Metin okuma sırasıyla sayfa sayfa çıkarılır, ancak karmaşık yerleşimler (sütunlar, tablolar) düz akışkan metin olur."
+    },
+    "png-to-pdf": {
+      "name": "PNG’den PDF’e",
+      "desc": "Bir veya birden fazla PNG görselini tek bir PDF'te birleştirin.",
+      "long": "Her görsel orijinal çözünürlüğünde bir sayfa olur — şeffaflık PDF sayfasında korunur. Ekran görüntüleri ve taramalar için mükemmeldir.",
+      "faq1q": "Sayfa sırasını kontrol edebilir miyim?",
+      "faq1a": "Sayfalar dosyaları eklediğiniz sırayı izler — yeniden düzenlemek için kaldırın ve yeniden ekleyin veya sonra PDF'i Yeniden Sırala aracını kullanın.",
+      "faq2q": "Görsel kalitesi düşüyor mu?",
+      "faq2a": "Hayır — PNG'ler tam orijinal çözünürlüklerinde kayıpsız olarak gömülür."
+    },
+    "pdf-metadata": {
+      "name": "PDF Meta Verilerini Düzenle",
+      "desc": "Bir PDF'in başlığını, yazarını, konusunu ve anahtar kelimelerini görüntüleyin ve düzenleyin.",
+      "long": "Meta veriler, bir belgenin arama sonuçlarında ve dosya yöneticilerinde nasıl göründüğünü belirler. Alanları düzenleyin ve güncellenmiş bir kopya indirin — içerik el değmemiş kalır.",
+      "faq1q": "Meta veriler neden önemli?",
+      "faq1a": "Arama motorları ve belge sistemleri başlık ve yazar alanlarını indeksler; doğru meta veriler PDF'lerinizi bulunur ve profesyonel yapar.",
+      "faq2q": "Meta verileri düzenlemek belge içeriğini değiştirir mi?",
+      "faq2a": "Hayır — yalnızca görünmez bilgi alanları değişir. Her sayfa bayt olarak aynı kalır."
+    },
+    "grayscale-pdf": {
+      "name": "PDF’i Siyah Beyaz Yap",
+      "desc": "Renkli bir PDF'i siyah-beyaza dönüştürün.",
+      "long": "Her sayfa cihazınızda gri tonlamada yeniden oluşturulur — yazdırma dostu sürümler ve toner kullanımını azaltmak için mükemmeldir.",
+      "faq1q": "Metin seçilebilir kalıyor mu?",
+      "faq1a": "Hayır — sayfalar yüksek çözünürlüklü gri tonlamalı görsellere dönüştürülür, bu yüzden metin seçimi kaybolur. Düzenleme için renkli orijinalinizi saklayın.",
+      "faq2q": "Dosyam neden büyüdü veya küçüldü?",
+      "faq2a": "Sayfalar sıkıştırılmış görseller olur; metin ağırlıklı dosyalar biraz büyüyebilirken fotoğraf ağırlıklı dosyalar genellikle küçülür."
+    },
+    "flip-image": {
+      "name": "Fotoğrafı Çevir",
+      "desc": "Bir görseli yatay veya dikey olarak aynalayın.",
+      "long": "Tek tıklamayla fotoğrafınızı tam kalitede herhangi bir eksende çevirir — selfie'ler, taramalar ve tasarım varlıkları için kullanışlıdır.",
+      "faq1q": "Çevirme ve döndürme arasındaki fark nedir?",
+      "faq1a": "Çevirme görseli aynalar (sol sağ olur); döndürme etrafında döndürür. Ayrı bir Döndürme aracımız var.",
+      "faq2q": "Çevirme kalite kaybına neden olur mu?",
+      "faq2a": "Hayır — pikseller yeniden sıkıştırılmaz, yeniden düzenlenir; kaynak PNG ise; JPG'ler yüksek kalitede yeniden kodlanır."
+    },
+    "png-to-jpg": {
+      "name": "PNG’den JPG’ye",
+      "desc": "PNG görsellerini beyaz arka plan dolgusuyla JPG'ye dönüştürün.",
+      "long": "Şeffaf alanlar beyaz üzerine düzleştirilir ve görsel yüksek kaliteli JPG olarak kaydedilir — genellikle PNG'den çok daha küçüktür.",
+      "faq1q": "Şaffaflığa ne olur?",
+      "faq1a": "JPG şeffaflık desteklemez, bu yüzden şeffaf alanlar beyaz ile doldurulur.",
+      "faq2q": "Dosya ne kadar küçülecek?",
+      "faq2a": "Fotoğraflar genellikle %60-80 küçülür. Az renkli grafikler çok fazla küçülmeyebilir — bunlar PNG olarak daha iyi saklanır."
+    },
+    "webp-to-jpg": {
+      "name": "WEBP’den JPG’ye",
+      "desc": "WebP görsellerini evrensel olarak uyumlu JPG'ye dönüştürün.",
+      "long": "WebP dosyaları bazen eski yazılımlarda açılamaz — tek tıklamayla tarayıcınızda JPG'ye dönüştürün.",
+      "faq1q": "Neden WebP'den dönüştürelim?",
+      "faq1a": "WebP verimli olsa da, bazı düzenleyiciler, yazıcılar ve eski sistemler hala reddeder. JPG her yerde açılır.",
+      "faq2q": "Kalite kaybı var mı?",
+      "faq2a": "Dönüşüm %92 kalitede yeniden kodlanır — pratikte fotoğraflar için görsel olarak aynıdır."
+    },
+    "jpg-to-webp": {
+      "name": "JPG’den WEBP’ye",
+      "desc": "JPG/PNG görsellerini modern, daha küçük WebP'ye dönüştürün.",
+      "long": "WebP dosyaları genellikle aynı görsel kalitede JPG'den %25-35 daha küçüktür — daha hızlı web siteleri için mükemmeldir.",
+      "faq1q": "WebP nerede desteklenir?",
+      "faq1a": "Tüm modern tarayıcılar (Chrome, Safari, Firefox, Edge) WebP'yi yerel olarak destekler — web kullanıcılarının %97'sinden fazlası.",
+      "faq2q": "WebP'yi ne zaman kullanmamalıyım?",
+      "faq2a": "Baskı iş akışları veya JPG/PNG girişi gerektiren yazılımlar için. Web için WebP neredeyse her zaman daha iyi bir seçimdir."
+    },
+    "add-text-to-image": {
+      "name": "Fotoğrafa Yazı Ekle",
+      "desc": "Fotoğrafın üzerine metin yazın — Arapça tamamen desteklenir.",
+      "long": "Konum, renk ve boyut seçin; metin, herhangi bir arka plan üzerinde okunabilir kalması için temiz bir çizgiyle çizilir. Arapça harfler doğru şekilde bağlanır.",
+      "faq1q": "Arapça metin doğru şekilde oluşturuluyor mu?",
+      "faq1a": "Evet — tarayıcınızın yerel metin motoru Arapça harf şekillendirmesini ve sağdan sola yönlendirmeyi doğru işler.",
+      "faq2q": "Birden fazla satır ekleyebilir miyim?",
+      "faq2a": "Mevcut sürüm geçiş başına tek bir satır ekler — ek satırlar için sonucu aracı tekrar çalıştırın."
+    },
+    "pixelate-image": {
+      "name": "Fotoğrafı Pikselleştir",
+      "desc": "Retro piksel blok efekti uygulayın veya ayrıntıları sansürleyin.",
+      "long": "Piksel boyutunu bir kaydırıcıyla seçin — ince bir mozaikten ağır sansür bloklarına kadar, cihazınızda anında işlenir.",
+      "faq1q": "Pikselleme hassas verileri gizlemek için güvenli mi?",
+      "faq1a": "Ağır pikselleme (20+) tersine çevirmesi zordur, ancak gerçekten hassas bilgi için tamamen kırpmanız daha güvenlidir.",
+      "faq2q": "Bulanıklık ile farkı nedir?",
+      "faq2a": "Bulanıklık yumuşak şekilde yumuşatır; pikselleme sert kare bloklar oluşturur — klasik sansür ve retro oyun görünümü."
+    },
+    "round-corners": {
+      "name": "Fotoğraf Köşelerini Yuvarlat",
+      "desc": "Herhangi bir görselin köşelerini yuvarlak yapın, şeffaflıkla.",
+      "long": "Köşe yarıçapını bir kaydırıcıyla seçin ve pürüzsüz şeffaf köşelerle bir PNG indirin — uygulama simgeleri ve UI varlıkları için mükemmeldir.",
+      "faq1q": "Neden çıktı PNG?",
+      "faq1a": "Yuvarlak köşeler şeffaflık gerektirir; JPG bunu depolayamaz. PNG köşeleri herhangi bir arka plan üzerinde keskin tutar.",
+      "faq2q": "Tam daire yapabilir miyim?",
+      "faq2a": "Kare bir görselde %50 yarıçapla tam bir daire elde edersiniz — veya özel Dairesel Kırpma aracımızı kullanın."
+    },
+    "reverse-text": {
+      "name": "Metni Ters Çevir",
+      "desc": "Karakterleri, kelime sırasını veya satır sırasını ters çevirin.",
+      "long": "Üç tek tıklama modu: her karakteri çevirin, kelime sırasını tersleştirin veya satır sırasını ters çevirin — bulmacalar, veri düzeltmeleri ve eğlence için kullanışlıdır.",
+      "faq1q": "Arapça ile çalışıyor mu?",
+      "faq1a": "Evet — ters çevirme Unicode karakterleri üzerinde çalışır, ancak bağlı Arapça harfler ters çevrilmiş olarak beklenen şekilde tuhaf görünebilir.",
+      "faq2q": "Satır tersi ne için kullanışlı?",
+      "faq2a": "Bir elektronik tablo olmadan kronolojik listeleri, günlük dosyalarını veya sıralamaları tersine çevirmek için."
+    },
+    "text-to-slug": {
+      "name": "Metni Slug Yap",
+      "desc": "Herhangi bir başlığı temiz, URL-güvenli bir slug'a dönüştürün.",
+      "long": "Küçük harfe çevirir, vurguları temizler ve boşlukları ve sembolleri tirelerle değiştirir. Arapça harfler korunur — modern tarayıcılar ve arama motorları Arapça URL'leri tam destekler.",
+      "faq1q": "Arapça slug'ları SEO için iyi mi?",
+      "faq1a": "Evet — Google Arapça URL'leri doğru indeksler ve görüntüler, okunabilir Arapça slug'ları Arapça kitlenin tıklama oranını artırır.",
+      "faq2q": "Hangi karakterler kaldırılıyor?",
+      "faq2a": "Harfler ve rakamlar dışında her şey tireye dönüşür; vurgulu Latin harfleri düz formuna dönüştürülür (é → e)."
+    },
+    "binary-text": {
+      "name": "İkili Kod Çevirici",
+      "desc": "Metni ikili koda ve geriye dönüştürün.",
+      "long": "Metni 8 bitlik ikili gruplarda gösterilen UTF-8 baytları olarak kodlar — ve onları geri çözümler. Arapça dahil herhangi bir dille çalışır.",
+      "faq1q": "Neden bir Arapça harfi iki bayt oluyor?",
+      "faq1a": "UTF-8 Latin olmayan karakterleri birden fazla bayt kullanarak kodlar — bu modern web'in standart kodlamasıdır.",
+      "faq2q": "Çözücü hangi formatı bekler?",
+      "faq2a": "Boşlukla ayrılmış 8 ikili rakama kadar gruplar, ör. 01001000 01101001."
+    },
+    "morse-code": {
+      "name": "Mors Kod Çevirici",
+      "desc": "Metni Morse koduna ve geriye çevirin.",
+      "long": "Harfler, rakamlar ve yaygın noktalama işaretleri için Uluslararası Morse — kelimeler \"/\" ile, harfler boşlukla ayrılır.",
+      "faq1q": "Kelimeler nasıl ayrılır?",
+      "faq1a": "Harfler tek boşluklarla, kelimeler eğik çizgi (/) ile ayrılır; bu yaygın metin kuralıdır.",
+      "faq2q": "Arapça harfler destekleniyor mu?",
+      "faq2a": "Uluslararası standart Latin harflerini ve rakamları kapsar; Arapça Morse varyantları mevcuttur ancak standartlaştırılmamıştır, bu yüzden dahil edilmemiştir."
+    },
+    "number-base": {
+      "name": "Sayı Tabanı Çevirici",
+      "desc": "İkili, sekizli, onlu ve on altılık tabanlar arasında dönüştürün.",
+      "long": "Bir sayı yazın, tabanını seçin ve anında dört tabanda da okuyun — her biri için tek tıklamayla kopyalama.",
+      "faq1q": "0x gibi önekleri olan değerler yapıştırabilir miyim?",
+      "faq1a": "Evet — 0x, 0b ve 0o önekleri dönüşüm öncesi otomatik olarak temizlenir.",
+      "faq2q": "Maksimum değer nedir?",
+      "faq2a": "JavaScript'in güvenli tam aralığı içindeki her şey — 9 katrilyonun üzerinde, günlük kullanımdan çok daha fazla."
+    },
+    "roman-numerals": {
+      "name": "Roma Rakamları",
+      "desc": "Sayıları Roma rakamlarına ve geriye dönüştürün.",
+      "long": "MMXXVI almak için 2026 yazın — veya çözümlemek için bir Roma rakamı yapıştırın. Doğrulama IIII gibi hatalı formattaki rakamları reddeder.",
+      "faq1q": "Geçerli aralık nedir?",
+      "faq1a": "Standart Roma rakamları 1'den 3999'a kadar kapsar — sıfır veya daha büyük için standart bir gösterim yoktur.",
+      "faq2q": "Sıkı formu doğruluyor mu?",
+      "faq2a": "Evet — yalnızca kanonik rakamlar çözümlenir; IM veya VV gibi standart dışı formlar reddedilir."
+    },
+    "random-number": {
+      "name": "Rastgele Sayı Üretici",
+      "desc": "Herhangi bir aralıkta gerçek rastgele sayılar üretin.",
+      "long": "Tarayıcınızın kriptografik rastgeleliğini (zayıf sözde-rastgele değil) önyargısız örnekleme ile kullanır — çekilişler ve hediyeler için uygundur.",
+      "faq1q": "Bu bir çekiliş için adil mi?",
+      "faq1a": "Evet — değerler crypto.getRandomValues ile reddetme örneklemeden gelir, bu yüzden aralıktaki her sayı tam olarak eşit olasılıklıdır.",
+      "faq2q": "Aynı sayı iki kez çıkabilir mi?",
+      "faq2a": "Evet, çekilişler bağımsızdır — zar atmak gibi. Benzersiz seçimler için, birer birer oluşturun ve kazananları listenizden çıkarın."
+    },
+    "color-converter": {
+      "name": "Renk Dönüştürücü",
+      "desc": "Renkleri HEX, RGB ve HSL arasında canlı olarak dönüştürün.",
+      "long": "Bir renk seçin veya bir HEX kodu yapıştırın ve üç formattan hepsini anında canlı bir renk örneği ve tek tıklamayla kopyalama ile okuyun.",
+      "faq1q": "CSS'de hangi formatı kullanmalıyım?",
+      "faq1a": "Üçü de her yerde çalışır. HEX derli topludur, RGB sezgiseldir ve HSL daha açık/koyu varyantlar oluşturmak için en kolayıdır.",
+      "faq2q": "3 haneli HEX kodları destekleniyor mu?",
+      "faq2a": "Evet — #fa0 gibi kısa formsal ifadeler otomatik olarak #ffaa00'a genişletilir."
+    },
+    "css-minifier": {
+      "name": "CSS Küçültücü",
+      "desc": "Yorumları ve boşlukları kaldırarak CSS'i sıkıştırın.",
+      "long": "Tarayıcının ihtiyaç duymadığı her şeyi temizler ve tam olarak ne kadar yüzde tasarruf ettiğinizi gösterir — genellikle %20-40.",
+      "faq1q": "Küçültülmüş CSS'i dağıtmak güvenli mi?",
+      "faq1a": "Evet — yalnızca yorumlar ve önemsiz boşluklar kaldırılır; seçiciler ve değerler el değmemiş kalır.",
+      "faq2q": "Orijinal dosyamı saklamalı mıyım?",
+      "faq2a": "Her zaman — okunabilir sürümü düzenleyin ve küçültmeyi son bir derleme adımına kadar bir Compression adımında yapın."
+    },
+    "html-encode": {
+      "name": "HTML Kodla",
+      "desc": "HTML özel karakterlerini kaçırın veya varlıkları geri çözümleyin.",
+      "long": "<, >, &, tırnakları web sayfalarında kod gömme için güvenli varlıklara dönüştürür — ve herhangi bir varlığı metne geri çözer.",
+      "faq1q": "HTML kodlamasına ne zaman ihtiyacım var?",
+      "faq1a": "Kullanıcı metnini veya kod örneklerini HTML içinde görüntülediğinizde — kaçırılmamış < ve & sayfayı bozar veya enjeksiyona olanak tanır.",
+      "faq2q": "Çözümleme adlı varlıkları işler mi?",
+      "faq2a": "Evet — &amp;, &copy;, &nbsp; ve her standart adlı veya sayılı varlık çözümlenir."
+    },
+    "timestamp-converter": {
+      "name": "Zaman Damgası Çevirici",
+      "desc": "Unix zaman damgalarını okunabilir tarihlere ve geriye dönüştürün.",
+      "long": "10 veya 13 haneli bir zaman damgası veya herhangi bir tarih dizgesi yapıştırın ve Unix saniyeleri, milisaniyeleri, ISO 8601 ve yerel saatinizde okuyun.",
+      "faq1q": "10 ve 13 hane arasındaki fark nedir?",
+      "faq1a": "10 hane 1970'ten bu yana saniyelerdir; 13 hane milisaniyelerdir. Araç yapıştırdığınızı otomatik algılar.",
+      "faq2q": "Hangi saat dilimi gösteriliyor?",
+      "faq2a": "ISO çıktısı UTC'dir (Z eki); Yerel satırı cihazınızın saat dilimini kullanır."
+    },
+    "sort-lines": {
+      "name": "Satırları Sırala",
+      "desc": "Metin satırlarını A→Z, Z→A, uzunluğa göre veya rastgele karıştırın.",
+      "long": "Arapça, İspanyolca ve İngilizce alfabelerini doğru işleyen dil farkındalıklı sıralama — artı çekilişler için rastgele karıştırma.",
+      "faq1q": "Arapça doğru sıralanıyor mu?",
+      "faq1a": "Evet — sıralama dilbilinci farkındalıklı sıralama kullanır, bu yüzden Arapça harfler doğru Arapça alfabetik sırayı izler.",
+      "faq2q": "Boş satırlara ne olur?",
+      "faq2a": "Boş satırlar sıralama sırasında kaldırılır, temiz bir liste bırakılır."
+    },
+    "find-replace": {
+      "name": "Bul ve Değiştir",
+      "desc": "İsteğe bağlı regex desteğiyle toplu metin değiştirme.",
+      "long": "Eşleşme sayımı ile basit bul-değiştir — kalıplar, yakalama-olmayan değiştirmeler ve büyük/küçük harf kontrolü için Regex moduna geçin.",
+      "faq1q": "Hangi regex lehçesi destekleniyor?",
+      "faq1a": "JavaScript düzenli ifadeleri — karakter sınıfları, miktar belirleyicileri, çapalar, alternatifler ve daha fazlası.",
+      "faq2q": "Büyük/küçük harfe duyarlı mı?",
+      "faq2a": "Varsayılan olarak hayır — tam büyük/küçük harf duyarlılığı için \"Büyük/küçük harf eşleşmesi\"ni etkinleştirin."
+    },
+    "arabic-keyboard": {
+      "name": "Arapça klavye",
+      "desc": "Ekran klavyesiyle Arapça yazın — Arapça düzen gerekmez.",
+      "long": "Arapça klavye desteği olmayan herhangi bir cihaz veya bilgisayarda harflere tıklayarak Arapça metin oluşturun, sonra tek tıklamayla kopyalayın. Hamza formları ve Arapça noktalama işaretleri dahildir.",
+      "faq1q": "Bu kimin için?",
+      "faq1a": "Arapça düzeni olmayan bir cihazda olan herkes — gezginler, öğrenciler ve ödünç alınmış veya yabancı bilgisayar kullanan Arapça konuşanlar.",
+      "faq2q": "Yazma ve tıklamayı karıştırabilir miyim?",
+      "faq2a": "Evet — metin alanı normal yazmayı da kabul eder, her ikisini birleştirebilirsiniz."
+    },
+    "arabic-transliteration": {
+      "name": "Arapça transliterasyon",
+      "desc": "Arapça harfleri okunabilir Latin harflerine dönüştürün.",
+      "long": "Arapça metni harf harf okunabilir bir romanizasyona dönüştürür — isimler, adresler ve dil öğrenme için kullanışlıdır.",
+      "faq1q": "Bu bir çeviri mi?",
+      "faq1a": "Hayır — transliterasyon sesleri/harfleri, anlamı dönüştürür. مرحبا 'merhba' olur, 'merhaba' değil.",
+      "faq2q": "Hangi romanizasyon sistemi kullanılıyor?",
+      "faq2a": "Günlük okunabilirlik için optimize edilmiş, basitleştirilmiş bir okunabilir şema (kh, sh, gh, dh — خ ش غ ذ için) — sıkı akademik gösterimden ziyade."
+    },
+    "zakat-calculator": {
+      "name": "Zekat hesaplayıcı",
+      "desc": "Servetiniz üzerinden %2,5 zekatı hesaplayın.",
+      "long": "Nakit, altın/yatırımlar ve borçlarınızı girin — araç zekatınızı ve ödenmesi gereken tutarı tamamen cihazınızda hesaplar, böylece finansal bilgileriniz gizli kalır.",
+      "faq1q": "Zekat nasıl hesaplanır?",
+      "faq1a": "Bir hicri yıl boyunca tutulan zekata tabi servet (nakit + altın/gümüş/yatırımlar - borçlar) %2,5 oranında ödenir, eğer nisab değerini (85g altın değeri) aşıyorsa.",
+      "faq2q": "Finansal verilerim güvende mi?",
+      "faq2a": "Tamamen — yazdığınız hiçbir şey hiçbir yere iletilmez. Hesaplama tarayıcınızda çalışır ve sayfayı kapattığınızda yok olur."
+    },
+    "age-calculator": {
+      "name": "Yaş Hesaplama",
+      "desc": "Tam yaşınızı hesaplayın — Hijri doğum tarihiyle birlikte.",
+      "long": "Doğum tarihinizi girin ve yaşınızı yıllar, aylar ve günler olarak, toplam yaşanılan günleri, Hijri (Umm al-Qura) doğum tarihinizi ve bir sonraki doğum gününüze geri sayımı görün.",
+      "faq1q": "Hijri dönüşümü ne kadar doğru?",
+      "faq1a": "Tarayıcınıza dahil edilmiş resmi Umm al-Qura takvimini kullanır — Suudi Arabistan'da kullanılan aynı takvim.",
+      "faq2q": "Artık yılları hesaba katıyor mu?",
+      "faq2a": "Evet — yıl/ay/gün hesaplaması artık yılları ve değişen ay uzunluklarını tam olarak işler."
+    },
+    "excel-to-csv": {
+      "name": "Excel’den CSV’ye",
+      "desc": "Excel elektronik tablolarını (.xlsx) CSV dosyalarına dönüştürün.",
+      "long": "Formül sonuçları, tarihler ve zengin metin dahil ilk çalışma sayfasını okur ve UTF-8 kodlamalı temiz bir CSV üretir, böylece Arapça ve vurgulu metin herhangi bir programda doğru açılır.",
+      "faq1q": "Formüller dönüştürülüyor mu?",
+      "faq1a": "Evet — her formülün hesaplanan sonucu dışa aktarılır, formülün kendisi değil.",
+      "faq2q": "CSV'im neden bozuk Arapça karakterlerle açılıyor?",
+      "faq2a": "CSV'imiz, Excel'in Arapça ve vurgulu metni doğru açması için özellikle UTF-8 bayt sıralama imzası (BOM) içerir."
+    },
+    "csv-to-excel": {
+      "name": "CSV’den Excel’e",
+      "desc": "CSV dosyalarını biçimlendirilmiş Excel elektronik tablolarına dönüştürün.",
+      "long": "Tırnaklı alanları, değerlerin içindeki virgülleri ve otomatik algılanan ayıraçları (noktalı virgül, sekme) işler — çıktı kalın başlık satırı ve otomatik boyutlandırılmış sütunlara sahiptir.",
+      "faq1q": "CSV'im noktalı virgül kullanıyor — destekleniyor mu?",
+      "faq1a": "Evet, ayrıştırıcı virgül, noktalı virgül ve sekmeyi otomatik algılar.",
+      "faq2q": "Satır sınırı var mı?",
+      "faq2a": "Sabit sınır yok — on binlerce satırlık dosyalar sorunsuz dönüştürülür; çok büyük dosyalar yalnızca birkaç saniye sürer."
+    },
+    "excel-to-json": {
+      "name": "Excel’den JSON’a",
+      "desc": "Excel elektronik tablolarını nesnelerden oluşan bir JSON dizisine dönüştürün.",
+      "long": "İlk satır özellik adları olur ve her sonraki satır bir nesne olur — sonucu kopyalayın veya .json dosyası olarak indirin.",
+      "faq1q": "Boş hücreler nasıl işlenir?",
+      "faq1a": "Boş hücreler null değerleri olur, her nesnenin yapısını tutarlı tutar.",
+      "faq2q": "Peki ya tarihler?",
+      "faq2a": "Excel tarihleri evrensel YYYY-MM-DD formatında dışa aktarılır."
+    },
+    "json-to-excel": {
+      "name": "JSON’dan Excel’e",
+      "desc": "Bir JSON dizisini biçimlendirilmiş bir Excel dosyasına dönüştürün.",
+      "long": "Bir nesne dizisi yapıştırın — anahtarlar sütun başlıkları olur (tüm nesneler boyunca birleştirilmiş), iç içe nesneler dizgeye dönüştürülür ve sayfa kalın bir başlık ve otomatik boyutlandırılmış sütunlar alır.",
+      "faq1q": "Nesnelerin farklı anahtarları varsa ne olur?",
+      "faq1a": "Tüm anahtarların birleşimi sütun kümesi olur; eksik değerler boş hücreler olarak bırakılır.",
+      "faq2q": "Tek bir nesneyi dönüştürebilir miyim?",
+      "faq2a": "Evet — tek bir nesne tek satırlık bir elektronik tablo olur."
+    },
+    "mt940-to-excel": {
+      "name": "MT940'den Excel'e",
+      "desc": "MT940 banka hesap özetlerini (SWIFT) Excel'e dönüştürün.",
+      "long": "ING, Rabobank ve ABN AMRO gibi bankalar hesap özetlerini MT940 formatında (.940/.sta) dışa aktarır. Bu araç her işlemi — tarih, açıklama, borç, alacak, referans — temiz bir Excel sayfasına dönüştürür; tamamen cihazınızda çalışır, böylece bankacılık verileriniz bilgisayarınızdan asla çıkmaz.",
+      "faq1q": "Banka verilerim güvende mi?",
+      "faq1a": "Tamamen — hesap özeti tarayıcınızda ayrıştırılır ve hiçbir şey hiçbir yere iletilmez. İnterneti kesin ve araç hala çalışır.",
+      "faq2q": "Hangi bankalar destekleniyor?",
+      "faq2a": "Standart SWIFT MT940 dışa aktaran her banka — ING, Rabobank, ABN AMRO, Deutsche Bank ve Avrupa'daki çoğu banka dahil. Ters işlemler (RC/RD) doğru işlenir."
+    },
+    "txt-to-mt940": {
+      "name": "TXT'ten MT940'a",
+      "desc": "Ä°ÅŸlemlerin metin veya CSV dosyasÄ±nÄ± MT940 hesap Ã¶zetine dÃ¶nÃ¼ÅŸtÃ¼rÃ¼n.",
+      "long": "Tarih, AÃ§Ä±klama, BorÃ§, Alacak, Para birimi ve Referans sÃ¼tunlarÄ±nÄ± iÃ§eren dÃ¼z metin veya CSV dosyasÄ± yÃ¼kleyin (herhangi bir ayraÃ§ â€” virgÃ¼l, noktalÄ± virgÃ¼l, sekme veya dikey Ã§ubuk â€” otomatik olarak algÄ±lanÄ±r) ve bu araÃ§ baÅŸlÄ±k, aÃ§Ä±lÄ±ÅŸ ve kapanÄ±ÅŸ bakiyeleri ve her iÅŸlemle birlikte tam bir SWIFT MT940 hesap Ã¶zeti (.940/.sta) oluÅŸturur, tamamen cihazÄ±nÄ±zda.",
+      "faq1q": "Hangi ayraÃ§lar destekleniyor?",
+      "faq1a": "VirgÃ¼l, noktalÄ± virgÃ¼l, sekme ve dikey Ã§ubuk otomatik olarak algÄ±lanÄ±r ve tÄ±rnaklÄ± alanlar iÅŸlenir. SÃ¼tun adlarÄ±nÄ± iÃ§eren baÅŸlÄ±k satÄ±rÄ± atlanÄ±r.",
+      "faq2q": "Tutar sÃ¼tunlarÄ± hangi formatta olmalÄ±?",
+      "faq2a": "1234.56 gibi basit sayÄ±lar. BorÃ§ tutarÄ±nÄ± BorÃ§ sÃ¼tununa, alacak tutarÄ±nÄ± Alacak sÃ¼tununa koyun; bir satÄ±rda bunlardan en az biri olmalÄ±dÄ±r."
+    },
+    "excel-to-mt940": {
+      "name": "Excel'den MT940'a",
+      "desc": "Bir Excel iÅŸlem sayfasÄ±nÄ± MT940 banka hesap Ã¶zetine dÃ¶nÃ¼ÅŸtÃ¼rÃ¼n.",
+      "long": "MT940'dan Excel'e aracÄ±nÄ±n tersi: Tarih, AÃ§Ä±klama, BorÃ§, Alacak, Para birimi ve Referans sÃ¼tunlarÄ±nÄ± iÃ§eren bir elektronik tablo yÃ¼kleyin; bu araÃ§ baÅŸlÄ±k, aÃ§Ä±lÄ±ÅŸ ve kapanÄ±ÅŸ bakiyeleri ve her iÅŸlemle birlikte tam bir SWIFT MT940 hesap Ã¶zeti (.940/.sta) oluÅŸturur â€” tamamen cihazÄ±nÄ±zda Ã¼retilir, bÃ¶ylece bankacÄ±lÄ±k verileriniz bilgisayarÄ±nÄ±zdan asla Ã§Ä±kmaz.",
+      "faq1q": "Banka verilerim gÃ¼vende mi?",
+      "faq1a": "Tamamen â€” her ÅŸey tarayÄ±cÄ±nÄ±zda Ã¼retilir ve hiÃ§bir yere hiÃ§bir ÅŸey gÃ¶nderilmez. Ä°nternet baÄŸlantÄ±nÄ±zÄ± kesin ve araÃ§ yine de Ã§alÄ±ÅŸÄ±r.",
+      "faq2q": "Excel sayfasÄ±nda hangi sÃ¼tunlar olmalÄ±?",
+      "faq2a": "SÄ±rasÄ±yla altÄ± sÃ¼tun: Tarih (YYYY-AA-GG), AÃ§Ä±klama, BorÃ§, Alacak, Para birimi ve Referans â€” bu sitenin MT940'dan Excel'e aracÄ±nÄ±n Ã¼rettiÄŸiyle aynÄ± dÃ¼zen."
+    },
+    "invoice-generator": {
+      "name": "Fatura Oluştur",
+      "desc": "Ücretsiz, profesyonel ve yazdırılmaya hazır fatura oluşturun.",
+      "long": "Şirket ve müşteri bilgilerinizi doldurun, satır kalemleri ekleyin ve cilalı bir PDF fatura indirin — tamamen cihazınızda oluşturulur. Arapça metin PDF fontlarının doğrudan yapamayacağı doğru harf şekillendirmesi gerektirdiğinden, fatura tarayıcınızda piksel-perfekt olarak oluşturulur ve sonra PDF sayfası olarak kaydedilir.",
+      "faq1q": "Fatura metni PDF'te seçilebilir mi?",
+      "faq1a": "Hayır — Arapça, İngilizce ve İspanyolca metni doğru ve tutarlı şekilde oluşturmak için fatura temiz bir görsel olarak çizilir ve PDF sayfasına gömülür. Mükemmel yazdırır ve görüntülenir, ancak metnin kendisi seçilebilir değildir.",
+      "faq2q": "Kendi logomu ve para birimimi kullanabilir miyim?",
+      "faq2a": "Evet — PNG veya JPG logonu yüklleyin ve yaygın para birimlerinden seçin (USD, EUR, SAR, AED, EGP, GBP). Vergi yüzdesi ve toplamlar otomatik olarak hesaplanır."
+    },
+    "cv-builder": {
+      "name": "CV Oluşturucu",
+      "desc": "Başvuru takip sistemlerinin okuyabileceği temiz, tek sütunlu bir özgeçmiş oluşturun.",
+      "long": "Deneyiminizi, eğitim ve becerilerinizi doldurun — yerleşim kasıtlı olarak basittir (tek sütun, düz başlıklar, tablo veya grafik yok) çünkü ATS yazılımının güvenilir şekilde ayrıştırdığı şey tam olarak budur. Uzun özgeçmişler otomatik olarak ek sayfalara akar.",
+      "faq1q": "Tasarım neden bu kadar sade görünüyor?",
+      "faq1a": "Çoğu işverenin kullandığı başvuru takip sistemleri çok sütunlu yerleşimler, simgeler ve metin kutularıyla zorlanır. Açık başlıklara sahip tek sütunlu bir özgeçmiş daha doğru ayrıştırılır ve insan inceleyiciye ulaşır.",
+      "faq2q": "Özgeçmişim birden fazla sayfa olabilir mi?",
+      "faq2a": "Evet — ilk sayfaya sığmayan içerik otomatik olarak ek sayfalara devam eder."
+    },
+    "flatten-pdf": {
+      "name": "PDF Düzleştir",
+      "desc": "Form alanlarını ve notları sayfanın kalıcı bir parçası yapın.",
+      "long": "Etkileşimli form alanları, yorumlar ve katmanlar düz sayfa içeriğine birleştirilir, böylece PDF'iniz her yerde aynı görünür ve artık başkası tarafından düzenlenemez.",
+      "faq1q": "Doldurulmuş form alanlarına ne olur?",
+      "faq1a": "Mevcut değerleri kalıcı basılı metin olur; form artık etkileşimli değildir.",
+      "faq2q": "Bu formu olmayan PDF'lerde çalışır mı?",
+      "faq2a": "Evet — düzleştirilecek bir şey yoksa, dosya basitçe değişmeden yeniden kaydedilir."
+    },
+    "crop-pdf": {
+      "name": "PDF Kırp",
+      "desc": "Beyaz kenarlıkları kırpın veya bir PDF'in görünür sayfa alanını değiştirin.",
+      "long": "Bir kenarlık yüzdesi seçin ve her sayfanın görünür alanı içeriye doğru küçülür — yazdırma veya sayfaları başka bir yere gömme önce fazla beyaz alanı kaldırmak için kullanışlıdır.",
+      "faq1q": "Kırpma içeriği siler mi?",
+      "faq1a": "Hayır — yalnızca görünür sayfa sınırını (kırpma kutusunu) değiştirir; alttaki orijinal sayfa içeriği korunur.",
+      "faq2q": "Her kenarı farklı kırpabilir miyim?",
+      "faq2a": "Mevcut sürüm tüm kenarlara aynı yüzdesi uygular. Özel kenar başı kırpma yol haritamızdadır."
+    },
+    "code-snippet": {
+      "name": "Kodu Görsele Çevir",
+      "desc": "Kaynak kodunu paylaşılabilir, sözdizimi vurgulu bir görsele dönüştürün.",
+      "long": "Herhangi bir kod yapıştırın, açık veya koyu tema seçin ve macOS tarzı başlık çubuğuyla temiz bir PNG indirin — tweetler, sunumlar ve dokümantasyon için mükemmeldir.",
+      "faq1q": "Hangi diller vurgulanıyor?",
+      "faq1a": "Hafif bir vurgulayıcı, C benzeri ve betik dillerinin çoğunda yaygın anahtar kelimeleri, dizgileri, yorumları ve sayıları tanır.",
+      "faq2q": "Başlık çubuğunda gösterilen dosya adını değiştirebilir miyim?",
+      "faq2a": "Evet — indirmeden önce kod alanının üstündeki dosya adı alanını düzenleyin."
+    },
+    "handwriting": {
+      "name": "Yazı Stili Üretici",
+      "desc": "Yazılmış metni doğal el yazısı stilinde bir görsele dönüştürün.",
+      "long": "Çizgili, düz veya kareli kağıt ve bir mürekkep rengi seçin ve metniniz akan bir el yazısı stilindeki fontla oluşturulur — Arapça harfler doğru şekilde bağlanır ve şekillenir.",
+      "faq1q": "Bu gerçek el yazısı mı yoksa bir font mu?",
+      "faq1a": "Gerçek el yazısının bir taraması değil, tarayıcınız tarafından oluşturulmuş açık kaynaklı bir el yazısı stilindeki yazı tipi kullanır — ama doğal görünür ve iyi okunur.",
+      "faq2q": "Arapça destekliyor mu?",
+      "faq2a": "Evet — harflerin düzgün bağlanması ve şekillenmesi için özel bir Arapça ekran yazı tipi kullanılır, düz metin fontlarının zorla 'el yazısı' stiline sokulmasının aksine."
+    },
+    "ghost-text": {
+      "name": "Gizli Metin Oluştur",
+      "desc": "Sıradan görünen metin içinde görünmez bir gizli mesaj saklayın.",
+      "long": "Mesajınız görünmez genişliği sıfır karakterler kullanılarak görünür metne dokunarak kodlanır — sonucu her yere kopyalayın ve yalnızca bu aracı bilen biri onu ortaya çıkarabilir.",
+      "faq1q": "Gizli metin bir yere yapıştırırsam görünür olur mu?",
+      "faq1a": "Hayır — görünmez karakterlerin sıfır genişliği vardır ve çoğu uygulamada gösterilmez; ancak bazı platformlar yapıştırırken bunları temizleyebilir.",
+      "faq2q": "Bu güvenli bir şifreleme mi?",
+      "faq2a": "Hayır — bunu hassas sırları korumanın bir yolu olarak değil, düzgün görünen bir not gizlemenin eğlenceli bir yolu olarak düşünün."
+    },
+    "steganography": {
+      "name": "Görsele Gizli Mesaj Ekle",
+      "desc": "Bir metin mesajını sıradan bir PNG fotoğrafın içine gizleyin.",
+      "long": "Mesajınız görselin en az anlamlı bitlerine kodlanır — göze görünmez, ancak aynı araçla geri alınabilir.",
+      "faq1q": "Bir mesaj gizlemek görselin görünümünü değiştirir mi?",
+      "faq1a": "Görünür bir fark yoktur — yalnızca her pikselin renginin son biti değişir; bu, insan gözünün algılayamayacağı kadar düşüktür.",
+      "faq2q": "Neden görsel PNG olmalı?",
+      "faq2a": "JPEG'nin sıkıştırması, gizli mesajın güvendiği ince piksel ayrıntısını tam olarak atar. PNG her biti tam olarak korur."
+    },
+    "file-xray": {
+      "name": "Dosya İnceleme",
+      "desc": "Herhangi bir dosyanın gerçek türünü, boyutunu ve ham baytlarını inceleyin.",
+      "long": "Herhangi bir dosyayı yükleyin, beyan türünü, ikili imzalardan algılanan gerçek türünü, bir görselse boyutlarını ve ilk baytların on altılık dökümünü görün — dosyanın iddia ettiği şey olduğunu doğrulamak için kullanışlıdır.",
+      "faq1q": "Bir dosyanın beyan türü neden gerçek türünden farklı olabilir?",
+      "faq1a": "Yeniden adlandırılmış bir dosya (ör. aslında JPEG içeren bir .txt) eski uzantısını korur, ancak ikili imzası gerçeği ortaya koyar.",
+      "faq2q": "Dosyam herhangi bir yere yükleniyor mu?",
+      "faq2a": "Hayır — yalnızca ilk 64 bayt tarayıcınızda yerel olarak imzayı algılamak için okunur; dosyanın kendisi cihazınızdan asla çıkmaz."
+    },
+    "organize-pdf": {
+      "name": "PDF Sayfalarını Düzenle",
+      "desc": "Sayfaları tek bir yerde yeniden sıralayın, döndürün, silin ve çıkarın.",
+      "long": "Bir PDF yükleyin ve her sayfayı tam istediğiniz şekilde ayarlayın. Sayfaları yeni bir sıraya sürükleyin, tek tek sayfaları döndürün, istemediklerinizi silin ve temiz düzenlenmiş bir belge dışa aktarın — hepsi tarayıcınızda.",
+      "faq1q": "Yalnızca bazı sayfaları kaldırabilir veya döndürebilir miyim?",
+      "faq1a": "Evet. Bir sayfa küçük resmine tıklayarak seçin veya seçimi kaldırın, herhangi bir sayfada döndürme düğmesini kullanın ve dışa aktarmadan önce serbestçe yeniden sıralayın.",
+      "faq2q": "PDF'im herhangi bir yere yükleniyor mu?",
+      "faq2a": "Hayır. Her şey cihazınızda yerel olarak gerçekleşir. Hiçbir şey sunucuya gönderilmez."
+    },
+    "images-to-pdf": {
+      "name": "Görselleri PDF’e Çevir",
+      "desc": "JPG, PNG veya WebP görsellerinizi tek bir PDF dosyasına çevirin.",
+      "long": "Birkaç görsel seçin, sıralamalarını ayarlayın, sayfa boyutu ve kenarlıklar seçin ve hepsini tek bir PDF'e dışa aktarın. Yeniden sıralama ve yerleşim hepsi tarayıcınızda yerel olarak gerçekleşir.",
+      "faq1q": "Hangi görsel formatları destekleniyor?",
+      "faq1a": "Tarayıcınızın görüntüleyebildiği tüm yaygın formatlar, JPG, PNG, WebP, GIF ve daha fazlası dahil.",
+      "faq2q": "Sayfa orientasyonunu değiştirebilir miyim?",
+      "faq2a": "Evet. A4 sayfalar kullanırken dikey veya yatay seçebilirsiniz; aksi takdirde sayfa her görseli otomatik olarak sığdırır."
+    },
+    "protect-pdf": {
+      "name": "PDF Şifresini Kaldır",
+      "desc": "PDF şifresini kaldırın ve kilitli PDF dosyalarınızın kilidini açın.",
+      "long": "Şifre korumalı, kullanma izniniz olan bir PDF yükleyin ve bu araç onu şifre olmadan tarayıcınızda tamamen yeniden kaydeder. Dosya cihazınızdan asla çıkmaz.",
+      "faq1q": "Hangi şifreli PDF'ler destekleniyor?",
+      "faq1a": "Yaygın şifreleme kullanan PDF'ler genellikle şifre olmadan açılıp yeniden kaydedilebilir. Bazı nadir veya güçlü korumalı belgeler desteklenmeyebilir.",
+      "faq2q": "Gerçekten yerel olarak işleniyor mu?",
+      "faq2a": "Evet. Tüm süreç cihazınızda çalışır ve hiçbir şey herhangi bir sunucuya yüklenmez."
+    },
+    "pdf-redaction": {
+      "name": "PDF Kırmızılama",
+      "desc": "PDF'inizdeki hassas metni kalıcı olarak silin.",
+      "long": "Gizlenmesini istediğiniz kelimeleri yazın ve bu araç tüm sayfalarda her görünümü bulur, dışa aktarmadan önce üzerlerine katı siyah kutular çizer. Kaldırılan metin artık çıktıda görünmez.",
+      "faq1q": "Gizlenen metin gerçekten kaldırılıyor mu?",
+      "faq1a": "Evet. Eşleşen metin dışa aktarılan dosyada kalıcı bir siyah dikdörtgenle kaplanır, yalnızca gizlenmez.",
+      "faq2q": "Taranmış PDF'lerde çalışır mı?",
+      "faq2a": "Metin içeren PDF'lerde çalışır. Metin katmanı olmayan taranmış sayfalarda kelime aranamaz."
+    },
+    "pdf-editor": {
+      "name": "PDF Düzenle",
+      "desc": "PDF dosyanızı çevrimiçi düzenleyin: metin, görsel ve imza ekleyin.",
+      "long": "Bir sayfa seçin, eklemek istediğiniz metni yazın, boyutunu, rengini ve konumunu seçin ve PDF'inize yerleştirin. Aynı sayfaya birden fazla metin bindirmesi yerleştirilebilir.",
+      "faq1q": "Mevcut metni düzenleyebilir miyim?",
+      "faq1a": "Bu araç sayfanın üzerine yeni metin bindirmeleri ekler. Orijinal metnin kendisini düzenlemek için kaynak belgeyi yeniden oluşturmanız gerekir.",
+      "faq2q": "Metin nereye yerleştiriliyor?",
+      "faq2a": "Metni sayfanın herhangi bir yerine konumlandırmak için X ve Y yüzdelerini kullanın; sayfanın sol alt köşesinden ölçülür."
+    },
+    "pdf-to-audio": {
+      "name": "PDF’ten Sese Çevir",
+      "desc": "PDF'inizi sesli olarak dinleyin.",
+      "long": "PDF'inizden metni çıkarın ve tarayıcınızın yerleşik ses motoruyla sesli olarak çalın. Okuma hızını ayarlayın, sonra isterseniz çıkarılmış metni dosya olarak saklayın.",
+      "faq1q": "Çevrimdışı çalışıyor mu?",
+      "faq1a": "Metin çıkarma yerel olarak çalışır. Sesli çalma sistem seslerinizi kullanır; bunlar genellikle çevrimdışı çalışır.",
+      "faq2q": "Ses dosya olarak indiriliyor mu?",
+      "faq2a": "Ses tarayıcınız üzerinden gerçek zamanlı olarak çalınır. Çıkarılmış metin dosyasını da diğer kullanımlar için indirebilirsiniz."
+    },
+    "document-scanner": {
+      "name": "Belge Tarayıcı",
+      "desc": "Bir belge fotoğrafını temiz bir taramaya dönüştürün.",
+      "long": "Telefonunuzla veya kamerayla çekilmiş bir fotoğrafı yükleyin ve temiz bir tarama görünümü için keskinleştirin — parlaklık ve kontrastı ayarlayın, siyah-beyaza dönüştürün ve PNG veya PDF olarak indirin.",
+      "faq1q": "İnternet bağlantısı gerekli mi?",
+      "faq1a": "Hayır. Tüm görsel işleme cihazınızda HTML canvas kullanılarak yerel olarak yapılır.",
+      "faq2q": "Kameramla kullanabilir miyim?",
+      "faq2a": "Cihazınızdan veya galerinizden görüntü dosyası seçin. Tarayıcıda çalıştığı için her cihaz desteklenir."
+    },
+    "qr-with-logo": {
+      "name": "Logolu QR Kod",
+      "desc": "Logonuzu ortasına koyarak renkli QR kodları oluşturun.",
+      "long": "Marka renklerinizle özelleştirilmiş bir QR kodu oluşturun ve ortaya bir logo yerleştirin. Yüksek hata düzeltme kullanılır, böylece kod logo üstte olsa bile güvenilir şekilde taranır.",
+      "faq1q": "Kod logoyla hala taranıyor mu?",
+      "faq1a": "Evet. En yüksek hata düzeltme seviyesi kullanılır, böylece QR kodu ortada bir logo olsa bile taranabilir kalır.",
+      "faq2q": "Hangi içeriği tutabilir?",
+      "faq2a": "Normal bir QR kodu gibi herhangi bir metin, URL, WiFi yapılandırması veya iletişim bilgisi."
+    },
+    "certificate-generator": {
+      "name": "Sertifika Oluştur",
+      "desc": "Profesyonel bir sertifika tasarlayın ve indirin.",
+      "long": "Alıcı adını, kurs veya başarı başlığını ve kuruluşunuzu girin, dili seçin ve anında yüksek çözünürlüklü bir görsel olarak güzel tasarlanmış bir sertifika indirin.",
+      "faq1q": "Kayıt olmam gerekiyor mu?",
+      "faq1a": "Hayır. Sertifika tamamen tarayıcınızda hiçbir hesap veya yükleme gerektirmeden oluşturulur.",
+      "faq2q": "Hangi formatı alıyorum?",
+      "faq2a": "Standart kağıda yazdırabileceğiniz veya dijital olarak gönderebileceğiniz yüksek çözünürlüklü bir PNG görseli indirirsiniz."
+    },
+    "letter-generator": {
+      "name": "Resmî Mektup Oluştur",
+      "desc": "Hazır cümlelerle resmi mektuplar yazın.",
+      "long": "Bir mektup türü seçin — istifa, izin, şikayet, itiraz, nakil veya iş başvurusu — adınızı ve bilgilerinizi doldurun ve anında kopyalayabileceğiniz veya indirebileceğiniz doğru cümleli resmi metin alın.",
+      "faq1q": "Hangi diller mevcut?",
+      "faq1a": "Mektup şablonları site dilinize uyarlanır ve Arapça, İngilizce ve İspanyolca olarak mevcuttur.",
+      "faq2q": "Cümleleri düzenleyebilir miyim?",
+      "faq2a": "Evet. Oluşturulan mektup, kopyalamadan veya indirmeden önce serbestçe düzenleyebileceğiniz düzenlenebilir bir metin kutusunda görünür."
+    },
+    "id-card-generator": {
+      "name": "Çalışan Kimlik Kartı Oluştur",
+      "desc": "Fotoğraf, barkod ve QR kod ile profesyonel bir çalışan rozeti oluşturun.",
+      "long": "Adı, iş unvanını, işe başlama tarihini ve personel numarasını girin, bir fotoğraf ekleyin ve PDF olarak temiz bir ISO ID-1 boyutunda kart (85,6 × 54 mm) indirin. Personel numarasından otomatik olarak bir CODE128 barkodu ve bir QR kodu üretilir — tüm işlemler cihazınızda gerçekleşir.",
+      "ui": {
+        "name": "Ad Soyad",
+        "title": "Unvan",
+        "hireDate": "İşe giriş tarihi",
+        "idNumber": "Çalışan No",
+        "company": "Kurum / Şirket",
+        "photo": "Fotoğraf",
+        "uploadPhoto": "Fotoğraf seç",
+        "capturePhoto": "Fotoğraf çek",
+        "cancel": "İptal",
+        "removePhoto": "Kaldır",
+        "logo": "Şirket logosu (isteğe bağlı)",
+        "uploadLogo": "Logo seç",
+        "removeLogo": "Kaldır",
+        "wmIntensity": "Filigran opaklığı",
+        "wmSizeLabel": "Filigran boyutu",
+        "placeholder": "Çalışan",
+        "titlePlaceholder": "örn. Yazılım Mühendisi",
+        "idPlaceholder": "EMP-0001",
+        "save": "Kartı önizle",
+        "print": "Kartı PDF indir",
+        "reset": "Sıfırla",
+        "hint": "Alanları doldurun, ardından tasarımı görmek için « Kartı önizle » düğmesine basın",
+        "emptyName": "Kart oluşturmak için bir ad girin",
+        "scanHint": "Tarandığında QR, çalışanın tüm bilgilerini gösterir. Karttaki QR'ye dokunarak büyütün (barkod yalnızca çalışan numarasını taşır).",
+        "qrName": "Ad",
+        "qrTitle": "Unvan",
+        "qrCompany": "Şirket",
+        "qrHire": "İşe giriş tarihi",
+        "scanDataLabel": "QR içeriği (tarandığında görünen):",
+        "employeeId": "Çalışan No",
+        "hire": "İşe giriş tarihi",
+        "color": "Ana renk",
+        "preview": "Önizleme",
+        "size": "Boyut",
+        "processing": "Oluşturuluyor...",
+        "cameraUnsupported": "Tarayıcınız kamera erişimini desteklemiyor.",
+        "cameraDenied": "Kamera açılamadı. Lütfen izin verin ve tekrar deneyin.",
+        "createInvoice": "Fatura oluştur"
+      },
+      "faq1q": "Kartın boyutu nedir?",
+      "faq1a": "Kart ISO ID-1 standardına (85,6 × 54 mm, kredi kartı veya kimlik kartı boyutu) uygundur ve 300 DPI ile dışa aktarılır.",
+      "faq2q": "Barkod personel numaramı kodluyor mu?",
+      "faq2a": "Evet — CODE128 barkodu ve QR kodu, girdiğiniz personel numarasını saklar, böylece rozet standart okuyucularla taranabilir."
+    }
+  },
+  "footer": {
+    "rights": "Ücretsiz tarayıcı tabanlı dosya araçları. Dosyalarınız asla cihazınızdan çıkmaz.",
+    "madeBy": "hoursmedia tarafından yapılmıştır",
+    "toolsCol": "Araçlar",
+    "popularCol": "Popüler araçlar",
+    "companyCol": "Şirket",
+    "blog": "Blog"
+  },
+  "breadcrumb": {
+    "home": "Ana Sayfa"
+  },
+  "pages": {
+    "about": {
+      "title": "ChooseTools Hakkında",
+      "body": [
+        "ChooseTools, tamamen tarayıcınızın içinde çalışan ücretsiz dosya araçları koleksiyonudur. Geleneksel araç web sitelerinin aksine, dosyalarınızı hiçbir zaman almıyoruz: bir PDF'i birleştirmek, bir fotoğrafı sıkıştırmak veya bir QR kodu oluşturmak hepsi kendi cihazınızda yerel olarak gerçekleşir.",
+        "Bu mimarinin gurur duyduğumuz üç sonucu vardır. Birincisi, gizlilik — hiç iletilmemiş bir dosya asla sızamaz, günlüğe kaydedilemez veya saklanamaz. İkincisi, hız — yükleme veya indirme süresi yoktur, bu yüzden büyük dosyalar bile anında işlenir. Üçüncüsü, dürüstlük — işleme bize hiçbir şeye mal olmadığından, dosya boyutu sınırları, günlük kotalar veya filigran olmadan gerçekten sınırsız kullanım sunabiliriz.",
+        "Platform, her açıklamanın makine çevirisi değil, ana dilinde yazılmasıyla İngilizce, Arapça ve İspanyolca olarak tamamen kullanıma açıktır. Arapça özel araçlarımız — tashkeel kaldırma, Hijri tarih dönüşümü ve tafqit gibi — İngilizce araçlardan uyarlanmış değil, Arapça kullanıcılar için özel olarak oluşturulmuştur. Arapça araçlarımıza ek olarak platformumuz, her geçen gün daha fazla dil ve araçla büyümeye devam etmektedir.",
+        "ChooseTools hoursmedia tarafından geliştirilmiştir ve sürdürülmektedir. Her hafta yeni araçlar eklenir; eksik bir araç varsa, duymayı çok isteriz."
+      ]
+    },
+    "contact": {
+      "title": "İletişim",
+      "body": [
+        "Bir sorunuz mu var, bir hata mı buldunuz veya yeni bir araç önermek mi istiyorsunuz? Her mesajı okuyoruz.",
+        "Bize e-posta gönderin: contact@choosetools.com (alan adı posta kutunuzu bağladıktan sonra bu adresi güncelleyin).",
+        "Tüm işleme tarayıcınızda gerçekleştiğinden, çalıştığınız herhangi bir dosyayı göremiyor veya kurtaramıyoruz — dosya özel sorunlar için lütfen dosya türünü ve soruna yol adımlarını açıklayın.",
+        "ChooseTools Hollanda'da hoursmedia tarafından işletilmektedir."
+      ]
+    },
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "body": [
+        "Son güncelleme: Temmuz 2026. Bu politika, ChooseTools'un (hoursmedia tarafından işletilen) bu web sitesini kullandığınızda hangi verileri işlediğini ve işlemediğini açıklar.",
+        "Dosyalarınız. Bu sitedeki tüm araçlar, dosyaları tarayıcınızda JavaScript ve WebAssembly kullanarak yerel olarak işler. Dosyalarınız sunucularımıza asla yüklenmez, saklanmaz veya görülmez. Bunu, bir araç sayfası yüklendikten sonra interneti keserek doğrulayabilirsiniz — araç çalışmaya devam eder.",
+        "Analitik. Hangi araçların kullanıldığını anlamak ve siteyi iyileştirmek için gizliliğe saygılı toplu analitik kullanıyoruz. Bu, ziyaret edilen sayfalar, tarayıcı türü, ülke düzeyinde konum ve yönlendirme kaynağını içerebilir. Dosyalarınızın veya metinlerinizin içeriğini asla içermez.",
+        "Reklamcılık. Bu site, Google AdSense tarafından sunulan reklamlar gösterebilir. Google ve ortakları, bu veya diğer web sitelerine önceki ziyaretlerinize göre reklam sunmak için çerezler kullanabilir. Kişiselleştirilmiş reklamcılıktan Google Reklam Ayarları'nı (adssettings.google.com) ziyaret ederek çıkabilirsiniz. AB/AA/BK ziyaretçilerine GDPR kapsamında onay bannerı gösterilir ve onay verilmediği sürece kişiselleştirilmemiş reklamlar sunulur.",
+        "Çerezler. Yukarıda açıklanan reklam ve onay çerezleri dışında bu site izleme çerezleri ayarlamaz. Dil tercihiniz tarayıcınızda yerel olarak saklanabilir.",
+        "Bülten. Bültenimize abone olursanız, e-posta adresinizi yalnızca size bülteni göndermek için e-posta sağlayıcımızla saklıyoruz. Her e-posta tek tıklamayla abonelikten çıkma bağlantısı içerir ve çift onay kullanıyoruz.",
+        "Haklarınız. GDPR kapsamında hakkınızda tuttuğumuz kişisel verilere erişme, düzeltme veya silme hakkına sahipsiniz (çoğu ziyaretçi için bu, hiç yoktur). İletişim sayfasındaki bilgileri kullanarak bizimle iletişime geçin.",
+        "Değişiklikler. Site geliştikçe bu politikayı güncelleyebiliriz; yukarıdaki tarih her zaman en son revizyonu yansıtır."
+      ]
+    },
+    "terms": {
+      "title": "Hizmet Şartları",
+      "body": [
+        "Son güncelleme: Temmuz 2026. ChooseTools'u kullanarak bu şartları kabul etmiş olursunuz.",
+        "Hizmet. ChooseTools ücretsiz, tarayıcı tabanlı dosya yardımcı programları sunar. Tüm işleme cihazınızda gerçekleşir; dosyalarınızı asla almıyoruz ve bu nedenle onlara erişme, geri yükleme veya yedekleme yeteneğimiz yoktur.",
+        "Kabul edilebilir kullanım. Araçları herhangi bir yasal amaçla, kişisel veya ticari kullanabilirsiniz. Hizmeti bozmaya çalışamaz, suiistimal düzeyinde kazıyamaz veya işleme hakkınız olmayan materyalleri işlemek için kullanamazsınız.",
+        "Garanti yok. Araçlar \"olduğu gibi\" hiçbir garanti olmaksızın sunulur. Her aracı dikkatle test etsek de, sonuçlara güvenmeden önce doğrulamak sizin sorumluluğunuzdadır — her zaman orijinal dosyalarınızı saklayın.",
+        "Sorumluluk sınırlaması. Yasaların izin verdiği en üst düzede hoursmedia, bu sitenin kullanımından kaynaklanan herhangi bir hasardan, veri kaybı dahil, sorumlu değildir. Orijinal dosyalarınız asla cihazınızdan çıkmadığı ve biz tarafından asla değiştirilmediğinden, orijinalleriniz her zaman sizin kontrolünüzde kalır.",
+        "Fikri mülkiyet. Site tasarımı, metinleri ve kodu hoursmedia'nın mülkiyetindedir. İşlediğiniz dosyalar tamamen size aittir; bunlar üzerinde hak iddia etmiyoruz.",
+        "Değişiklikler. Bu şartları istediğimiz zaman değiştirebilir veya araçları durdurabiliriz. Değişikliklerden sonra devam eden kullanım kabul anlamına gelir."
+      ]
+    }
+  },
+  "sub": {
+    "pdf": {
+      "all": "Tüm PDF'ler",
+      "organize": "Düzenle",
+      "convert": "Dönüştür",
+      "optimize": "Optimize Et",
+      "security": "Güvenlik"
+    },
+    "image": {
+      "all": "Tüm Görseller",
+      "resizeCrop": "Boyutlandır ve Kırp",
+      "convert": "Dönüştür",
+      "optimize": "Optimize Et"
+    },
+    "text": {
+      "all": "Tüm Araçlar",
+      "textTools": "Metin Araçları",
+      "devTools": "Geliştirici Araçları",
+      "arabicTools": "Arapça Metin Araçları"
+    }
+  },
+  "blog": {
+    "metaTitle": "Araçlar Blogu - Ücretsiz Dosya Araçları için Rehberler, Eğitimler ve Nasıl Yapılır Yazıları",
+    "metaDescription": "Her ücretsiz çevrimiçi dosya aracı hakkında derinlemesine rehberler, eğitimler ve pratik yazılar için ChooseTools bloguna göz atın: tarayıcınızda çalışan PDF, görsel ve metin araçları.",
+    "indexTitle": "Araçlar Blogu",
+    "indexIntro": "Her ChooseTools uygulaması için uzman rehberler, pratik eğitimler ve hızlı nasıl yapılır kılavuzları. Her makale aracı adım adım açıklar ve doğrudan ücretsiz araca bağlantı verir.",
+    "countArticles": "makale ve büyümeye devam",
+    "readingTime": "{minutes} dk okuma",
+    "lastUpdated": "Eylül 2026'da güncellendi",
+    "tocTitle": "Bu yazıda",
+    "faqTitle": "Sık sorulan sorular",
+    "relatedTitle": "İlgili araçlar",
+    "relatedHint": "Ücretsiz çevrimiçi araç",
+    "ctaTitle": "{name} kullanmaya hazır mısınız?",
+    "openTool": "Aracı aç",
+    "privacyNote": "Ücretsiz · kayıt yok · dosyalarınız cihazınızdan asla çıkmaz",
+    "backToBlog": "Tüm yazılara dön"
+  }
+}

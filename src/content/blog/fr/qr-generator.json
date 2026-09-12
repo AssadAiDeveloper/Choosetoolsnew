@@ -1,0 +1,101 @@
+{
+  "slug": "qr-generator",
+  "title": "Générateur de code QR : créez des codes QR gratuits en ligne pour URL et texte",
+  "description": "Générateur de code QR gratuit pour créer des codes QR pour URL, texte, Wi-Fi et plus, directement dans votre navigateur. Haute qualité, privé, sans envois, sans filigranes.",
+  "keywords": ["générateur de code QR", "créer un code QR en ligne gratuitement", "générateur de code QR gratuit", "créer un code QR", "QR pour URL", "créateur de code QR", "code QR gratuit"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Le carré qui porte un lien",
+      "paragraphs": [
+        "Menus de restaurant, étiquettes de produits, billets d'événements et cartes de visite passent tous par un petit code QR. [qr-generator:Générer des codes QR] pour une URL, un message ou un identifiant Wi-Fi transforme toute surface physique en porte cliquable.",
+        "Les téléphones modernes les scannent nativement sans application supplémentaire.",
+        "ChooseTools génère les codes QR localement dans votre navigateur — le code est rendu côté client et reste vôtre."
+      ]
+    },
+    {
+      "heading": "Comment créer un code QR",
+      "paragraphs": [
+        "De la donnée au carré scannable en quelques secondes :",
+        "Collez votre URL ou votre texte, sélectionnez le format (URL, texte brut, coordonnées de contact et plus), et choisissez une taille. Téléchargez le SVG ou le PNG avec le niveau de correction d'erreur et la zone de silence appropriés.",
+        "Tout s'exécute localement ; le code n'existe qu'après que vous l'avez créé, exactement là où vous vivez."
+      ]
+    },
+    {
+      "heading": "URL, texte, Wi-Fi et plus",
+      "paragraphs": [
+        "Les données QR couvrent le quotidien : liens de sites web, messages simples, coordonnées de localisation, numéros de téléphone et identifiants Wi-Fi.",
+        "Choisir le bon type de données améliore le comportement de scan et la sémantique.",
+        "Les libellés sous le code clarifient ce qu'il déverrouille."
+      ]
+    },
+    {
+      "heading": "Les lieux quotidiens où les codes QR font un travail réel",
+      "paragraphs": [
+        "Un restaurant imprime un code sur chaque table, et les clients ouvrent le menu sans télécharger d'application ni taper une longue URL. Les petites entreprises placent des codes sur les emballages pour que les clients puissent recommander ou regarder un tutoriel, transformant un produit statique en début d'une relation continue.",
+        "Les organisateurs d'événements intègrent des liens d'inscription dans les dépliants et les badges, permettant aux participants de s'inscrire, de trouver un programme ou de rejoindre un canal avant l'ouverture des portes. Les agents immobiliers placent des codes sur les panneaux qui ouvrent une visite virtuelle ou une page de détails, capturant les acheteurs intéressés au moment où ils se tiennent devant la propriété.",
+        "Les studios de fitness et les food trucks s'appuient sur des codes qui ouvrent une page de paiement ou un formulaire de réservation, remplaçant l'aller-retour maladroit d'un caissier qui crie un nom d'utilisateur. Chacun de ces cas repose sur une propriété : le code atterrit exactement là où la personne se trouve déjà.",
+        "Les codes Wi-Fi sont particulièrement populaires dans les cafés et les espaces de coworking. Au lieu de taper un long mot de passe obscurci, un client scanne un code sur le comptoir et se connecte. Les clients se souviennent de l'expérience comme sans effort, et le personnel cesse de répéter le même mot de passe plusieurs fois par jour."
+      ]
+    },
+    {
+      "heading": "Correction d'erreur et scannabilité",
+      "paragraphs": [
+        "Les niveaux de correction échangent la densité contre la robustesse : les niveaux plus élevés survivent à l'obstruction partielle et à une faible qualité d'impression.",
+        "Le code généré place une zone de silence propre, essentielle pour un scan fiable.",
+        "L'impression professionnelle le lira partout, à n'importe quelle taille."
+      ]
+    },
+    {
+      "heading": "Scannabilité, taille d'impression et emplacement",
+      "paragraphs": [
+        "La distance entre le scanner et le code doit correspondre à la taille à laquelle vous l'imprimez. Un code de menu lu à vingt centimètres peut être petit, tandis qu'un code sur un panneau publicitaire ou une vitrine doit tenir depuis l'autre côté de la rue. Imprimer trop petit pour la distance de lecture est la raison la plus courante d'échec des projets QR réels.",
+        "La zone de silence, la bordure vide autour des modules, n'est pas décorative. Les scanners ont besoin de cette marge vierge pour trouver les motifs de détection dans les coins, et certaines applications de caméra rejettent les codes qui touchent d'autres graphiques ou textes. Le code exporté inclut la zone de silence correcte afin que le résultat imprimé se scanne proprement du premier coup.",
+        "Le contraste compte autant que le niveau de correction. Les modules sombres sur un fond clair se scannent de façon fiable, tandis que les codes inversés en couleur ou à faible contraste fatiguent les caméras des téléphones. Pour les emplacements critiques, tester le code imprimé avec plus d'un téléphone avant un tirage complet attrape les problèmes de contraste tôt."
+      ]
+    },
+    {
+      "heading": "Téléchargez en PNG ou SVG pour toute surface",
+      "paragraphs": [
+        "Le PNG couvre les écrans, les dépliants et les publications sociales ; le SVG évolue à l'infini pour l'impression grand format et les flux vectoriels.",
+        "L'exportateur respecte la taille sélectionnée et la marge de zone de silence.",
+        "Un contrôle total sur la destination de votre code.",
+        "Le PNG ne présente aucun piège pour un petit menu ou une carte de visite : il se rend avec une netteté totale aux tailles modestes et se télécharge instantanément. Le SVG devrait être le choix pour une affiche, une bannière ou un habillage de véhicule, où le même fichier doit s'imprimer à la fois petit et énorme sans aucune perte de netteté dans les bords des modules."
+      ]
+    },
+    {
+      "heading": "Création de code privée",
+      "paragraphs": [
+        "Les codes QR encodent parfois des charges utiles sensibles — des liens privés, des données d'adhésion. La génération locale les garde non contraintes.",
+        "Aucun envoi, aucun compte, aucun filigrane — sur toutes les plateformes.",
+        "Vos codes, vos données, votre appareil."
+      ]
+    },
+    {
+      "heading": "Les codes QR au sein de la boîte à outils complète",
+      "paragraphs": [
+        "Stylisez un code avec [qr-with-logo:un logo au centre], [resize-image:redimensionnez] pour les emplacements et [compress-image:compressez] pour le web.",
+        "La suite est gratuite et native au navigateur.",
+        "De la donnée au carré durable, instantanément."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Quels types de données peuvent être encodés ?",
+      "a": "Les URL, le texte brut, les numéros de téléphone, les coordonnées de localisation et les identifiants Wi-Fi figurent parmi les charges utiles prises en charge."
+    },
+    {
+      "q": "Puis-je télécharger le code QR au format vectoriel ?",
+      "a": "Oui. L'export SVG fournit une version indéfiniment évolutive aux côtés du PNG pour les usages à l'écran et à l'impression."
+    },
+    {
+      "q": "La génération de QR est-elle privée ?",
+      "a": "Oui. Les codes sont rendus localement dans votre navigateur, la charge utile ne touche jamais un serveur."
+    },
+    {
+      "q": "Pourquoi mon code imprimé a-t-il besoin d'une zone de silence ?",
+      "a": "Les scanners détectent les motifs de détection des coins en cherchant une bordure vierge, donc conserver une marge vide autour du code est essentiel pour un scan fiable."
+    }
+  ]
+}

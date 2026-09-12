@@ -1,0 +1,127 @@
+{
+  "slug": "color-converter",
+  "title": "Kleurconverter: Hex omzetten naar RGB, HSL en meer, gratis online",
+  "description": "Gratis kleurconverter om direct tussen HEX, RGB, HSL, CMYK en meer kleurformaten om te zetten. Privé, in uw browser, met voorbeeld.",
+  "keywords": ["kleurconverter", "hex naar rgb", "hex naar hsl", "rgb naar hex", "hex kleurconverter", "kleur online converteren", "css kleurconverter"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Eén kleur, vele talen",
+      "paragraphs": [
+        "Ontwerptools exporteren HEX, ontwikkelaars scripten RGB, printers verwachten CMYK en ontwerpers denken in HSL. Het omzetten tussen kleurformaten houdt één kleur coherent in elke workflow.",
+        "Dezelfde tint, geschreven zoals elke tool spreekt.",
+        "ChooseTools zet kleuren lokaal om in uw browser met live voorbeeld.",
+        "Zonder converter verspillen teams tijd aan het handmatig herberekenen van waarden, wat afrondingsfouten en visuele verschillen introduceert die in productie naar boven komen."
+      ]
+    },
+    {
+      "heading": "Zo zet u een kleur om",
+      "paragraphs": [
+        "Van kleurkiezer naar elk formaat tegelijk.",
+        "Voer een kleurwaarde in HEX, RGB, HSL of een benoemde CSS-kleur in, en alle andere representaties worden bijgewerkt naast een visueel kleurstaal.",
+        "De conversie is lokaal en direct.",
+        "U kunt ook een waarde rechtstreeks vanuit uw klembord plakken, of die nu uit een design-tokenbestand, een stijlgids of een browserinspecteur komt."
+      ]
+    },
+    {
+      "heading": "HEX, RGB en HSL uitgelegd in gebruik",
+      "paragraphs": [
+        "HEX condenseert rood, groen en blauw tot zes cijfers voor stylesheets.",
+        "RGB past bij scripts en API's; HSL drukt tint, verzadiging en lichtheid uit voor aanpassingen.",
+        "Elke weergave dient een ander gesprek over dezelfde kleur.",
+        "Weten wanneer u elk formaat moet gebruiken, bespaart tijd: HEX voor snelle CSS-declaraties, RGB voor programmatisch mengen en HSL voor het bijstellen van de helderheid zonder componentwaarden te hoeven raden."
+      ]
+    },
+    {
+      "heading": "Van ontwerp naar code zonder omwegen",
+      "paragraphs": [
+        "Haal een kleurstaal uit ontwerpbestanden en ontvang de exacte CSS-waarde.",
+        "Stel HSL bij voor variaties en exporteer daarna de HEX die u in het thema plaatst.",
+        "De ontwerpintentie overleeft de overdracht.",
+        "Teams die kleuren op het moment van overdracht converteren, vermijden de veelvoorkomende bug waarbij een ontwerper een benaderd RGB-triplet doorgeeft en de ontwikkelaar een licht afwijkende tint implementeert."
+      ]
+    },
+    {
+      "heading": "Cross-formaatnauwkeurigheid voor merksystemen",
+      "paragraphs": [
+        "Merkkleuren hebben consistente waarden nodig over web, drukwerk en techniek.",
+        "De converter lijnt elke representatie wiskundig uit.",
+        "Eén tint, overal identiek.",
+        "Wanneer een merkrichtlijn Pantone 286 C specificeert, zorgt het omzetten daarvan naar HEX-, RGB- en CMYK-varianten ervoor dat elk contactpunt dezelfde identiteit toont."
+      ]
+    },
+    {
+      "heading": "Overwegingen bij dekking, alpha en transparantie",
+      "paragraphs": [
+        "Sommige formaten hebben een alphakanaal voor semi-transparante overlays, andere niet.",
+        "Bij het omzetten van RGBA naar HEX moet de alphawaarde afzonderlijk worden behandeld of worden omgezet naar een notatie van acht HEX-cijfers die sommige moderne browsers ondersteunen.",
+        "Bewust zijn van het alpha-gedrag voorkomt verrassingen wanneer gelaagde UI-componenten anders worden weergegeven dan het ontwerp bedoelde."
+      ]
+    },
+    {
+      "heading": "Harmonieuze paletten bouwen vanuit één tint",
+      "paragraphs": [
+        "Zodra een basiskleur naar HSL is omgezet, produceert het verdraaien van het tintwiel met dertig of zestig graden automatisch complementaire en analoge paletten.",
+        "Het verzadiging constant houden terwijl de lichtheid verschuift, creëert tinten en schakeringen die werken als achtergrond- en voorgrondparen.",
+        "Beginnen vanuit een geverifieerde conversie garandeert dat elk paletlid dezelfde kleurruimte-oorsprong deelt."
+      ]
+    },
+    {
+      "heading": "Toegankelijkheid en contrast controleren",
+      "paragraphs": [
+        "De Web Content Accessibility Guidelines vereisen minimale contrastverhoudingen tussen tekst- en achtergrondkleuren.",
+        "Na het omzetten van een kleurpaar onthult het vergelijken van hun luminantiewaarden of de combinatie de AA- of AAA-drempels haalt.",
+        "Ontwerpers die in dezelfde sessie converteren en daarna het contrast controleren, vangen toegankelijkheidsfouten op voordat code de productie bereikt.",
+        "Lichtgrijze tekst op een witte achtergrond converteert bijvoorbeeld naar een contrastverhouding ver onder de drempel van 4,5 tegen 1 die voor lopende tekst vereist is, een signaal dat ofwel de voorgrond ofwel de achtergrond moet worden aangepast."
+      ]
+    },
+    {
+      "heading": "Gradiënten en interpolatie tussen formaten",
+      "paragraphs": [
+        "Het weergeven van vloeiende gradiënten in CSS hangt af van interpolatie tussen de componentkanalen van een gekozen formaat.",
+        "Het omzetten van de twee eindkleuren naar RGB vóór het bouwen van een gradiënt produceert de meest voorspelbare overgang, terwijl HLS-interpolatie door onverwachte tussenliggende tinten kan gaan.",
+        "Begrijpen hoe een formaat interpoleert, helpt ontwikkelaars de juiste representatie te kiezen voor knoppen, diagrammen en datavisualisaties."
+      ]
+    },
+    {
+      "heading": "Privé kleurontwerp",
+      "paragraphs": [
+        "Paletten in ontwikkeling worden op het apparaat omgezet.",
+        "Geen upload, geen account, geen watermerk — op alle platforms.",
+        "Merkgeheimen blijven binnen de studio.",
+        "Pre-releasekleurschema's voor productlanceringen of seizoenscampagnes blijven onzichtbaar voor derden wanneer de conversie lokaal plaatsvindt."
+      ]
+    },
+    {
+      "heading": "Kleurwerk in de beeldtoolkit",
+      "paragraphs": [
+        "Combineer met kleurkiezer-extractie en beeldfilter-aanpassingen voor een complete kleurworkflow.",
+        "De suite is gratis en werkt native in de browser.",
+        "Elke tint, in elke notatie, direct.",
+        "Beginnend met een geconverteerde kleurwaarde kunt u daarna filters toepassen, gradiënten genereren of harmonieuze paletten maken zonder uw browser te verlaten."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welke kleurformaten worden ondersteund?",
+      "a": "HEX, RGB en HSL worden volledig ondersteund, naast gangbare benoemde kleuren, met meer representaties indien nodig."
+    },
+    {
+      "q": "Toont de tool een visueel voorbeeld?",
+      "a": "Ja. De huidige kleur verschijnt als een kleurstaal dat bij elke invoer wordt bijgewerkt."
+    },
+    {
+      "q": "Is de converter privé?",
+      "a": "Ja. Alles draait lokaal in uw browser zonder uploads of accounts."
+    },
+    {
+      "q": "Kan ik converteren vanuit een benoemde CSS-kleur?",
+      "a": "Ja. Voer een standaard CSS-kleurnaam in, zoals coral of slateblue, en de converter retourneert de HEX-, RGB- en HSL-equivalenten."
+    },
+    {
+      "q": "Verwerkt de converter achtcijferige HEX met alpha?",
+      "a": "Ja. Moderne browsers ondersteunen RGBA via een notatie van acht HEX-cijfers, en de converter kan dat formaat produceren en parsen."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "cv-builder",
+  "title": "CV Builder: Create a Professional Resume Online Free in Minutes",
+  "description": "Free CV builder to create a professional resume with sections, experience and skills, exported as PDF. Private, in your browser, no sign-up, no uploads.",
+  "keywords": ["cv builder", "resume builder free", "create resume online", "cv maker", "professional resume", "resume template", "build cv online"],
+  "readingTime": 9,
+  "sections": [
+    {
+      "heading": "Your First Impression Is Headline-Sized",
+      "paragraphs": [
+        "Recruiters skim a resume in seconds: header, roles, skills. A well-built [cv-builder:CV] presents those seconds perfectly — structure, hierarchy and wording in one clean document.",
+        "Whether you're a first-time applicant or a veteran switching roles, the format carries half the message that determines whether your application advances.",
+        "ChooseTools builds CVs locally in your browser and exports a polished, printable PDF with no watermark or branding."
+      ]
+    },
+    {
+      "heading": "How to Create a Professional CV",
+      "paragraphs": [
+        "From raw facts to polished pages:",
+        "Fill in personal details, a headline, experience entries and skills. Pick a layout that matches the industry, reorder sections as needed, and preview as you go. Export the PDF when it reads right and matches your target role.",
+        "Everything stays on your device throughout the entire building process."
+      ]
+    },
+    {
+      "heading": "Sections That Interviewers Actually Read",
+      "paragraphs": [
+        "Contact info, a crisp summary, reverse-chronological experience, education and hard skills top the scan order in virtually every industry.",
+        "The builder keeps these sections prominent while optional extras (certifications, languages, volunteer work) slot in without clutter.",
+        "Structure does the talking before words begin, guiding the reader's eye to the information that matters most."
+      ]
+    },
+    {
+      "heading": "Achievement-First Bullets and Clean Hierarchy",
+      "paragraphs": [
+        "Strong resumes lead with outcomes: \"raised conversion 18%\" beats \"responsible for marketing\" every time because results are concrete and memorable.",
+        "Templates guide achievements into the bullets that fill an ATS-friendly page with consistent formatting and spacing.",
+        "Recruiters read the result as professional instinct, not formatting effort, because the layout communicates competence before content."
+      ]
+    },
+    {
+      "heading": "Writing a Compelling Professional Summary",
+      "paragraphs": [
+        "The summary sits directly below your contact details and is the first substantive text a recruiter reads. Three to four sentences that name your role, your strongest quantifiable result and the domain you operate in give enough context to anchor the rest of the document.",
+        "Avoid generic statements such as \"hard-working team player\" that could describe anyone. Instead, reference a specific technology stack, a measurable achievement or a niche industry so the hiring manager immediately sees relevance to the open position.",
+        "Tailor the summary for each application by echoing keywords from the job description. Applicant tracking systems weigh early document content heavily, so placing role-specific terms in the summary increases match scores before a human ever opens the file."
+      ]
+    },
+    {
+      "heading": "Tailoring Your CV for Different Industries",
+      "paragraphs": [
+        "Creative fields reward visual personality. A graphic designer or architect benefits from a layout that showcases typography and whitespace, while still keeping text selectable for ATS parsing. The builder's clean templates let design speak through structure rather than decorative clutter.",
+        "Corporate and technical roles prioritize substance over style. Accountants, engineers and project managers need dense, scannable sections where certifications, tools and responsibilities appear in predictable order. The builder places these sections prominently so recruiters find them within seconds.",
+        "Academic and research CVs diverge from the standard format by expanding the education section and listing publications, grants and conference appearances. While the builder focuses on professional resumes, the reorderable section feature accommodates these extended structures without forcing an unnatural layout."
+      ]
+    },
+    {
+      "heading": "ATS-Friendly Output That Prints Beautifully",
+      "paragraphs": [
+        "Applicant tracking systems parse simple, consistent formatting; the PDF export keeps text selectable and headings clear so the software reads every section correctly.",
+        "The same document prints crisply on standard A4 and letter paper, and reads on screen for human reviewers who prefer digital review.",
+        "Machine and human screening, both satisfied by a single document that meets the technical requirements of both audiences."
+      ]
+    },
+    {
+      "heading": "Common Resume Mistakes the Builder Prevents",
+      "paragraphs": [
+        "Overly creative fonts and complex column layouts confuse ATS parsers, causing important information to vanish from search results. The builder's clean single-column templates avoid this pitfall while still looking polished and professional.",
+        "Inconsistent date formats and missing job titles make recruiters question attention to detail. The builder enforces a uniform structure across all experience entries so the document reads as a cohesive professional narrative.",
+        "Exceeding two pages dilutes impact unless the candidate has fifteen or more years of directly relevant experience. The builder's section guidance helps you prioritize the most relevant information and stay within the length that recruiters actually read."
+      ]
+    },
+    {
+      "heading": "Private Job-Hunting Tooling",
+      "paragraphs": [
+        "Resumes contain sensitive personal stories and employment histories; building locally keeps them looped to you and your device alone.",
+        "No sign-up, no upload, no watermark — across all platforms including Windows, macOS, Linux, iOS and Android.",
+        "Career material, privately crafted without third-party access or data retention."
+      ]
+    },
+    {
+      "heading": "CV Context in the Suite",
+      "paragraphs": [
+        "Pair the builder with [letter-generator:cover letters] and [compress-pdf:PDF compression] for portal-friendly delivery that meets file size requirements.",
+        "The whole suite runs free in-browser with no account required for any tool.",
+        "From drafts to application-ready in one sitting, with every document generated privately."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is the resume exported as a PDF?",
+      "a": "Yes. The finished CV exports as a clean, print-ready PDF that is also selectable for applicant tracking systems."
+    },
+    {
+      "q": "Can I reorder sections for my field?",
+      "a": "Yes. Section order and layout adapt so the document emphasizes what matters for the role you target."
+    },
+    {
+      "q": "Is the CV builder private?",
+      "a": "Yes. Everything happens locally in your browser — no sign-up, no uploads and no storage of your data."
+    },
+    {
+      "q": "How long should a professional summary be?",
+      "a": "Three to four concise sentences work best. State your role, a key measurable result and your domain to give recruiters immediate context."
+    },
+    {
+      "q": "Should I customize my CV for every job application?",
+      "a": "Yes. Adjusting the summary, key skills and highlighted achievements to match each job description improves ATS match scores and demonstrates targeted interest to hiring managers."
+    },
+    {
+      "q": "How many pages should my CV be?",
+      "a": "One to two pages for most professionals. Candidates with over fifteen years of directly relevant experience may extend to two pages, but brevity improves read-through rates."
+    }
+  ]
+}

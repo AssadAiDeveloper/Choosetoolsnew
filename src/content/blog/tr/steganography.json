@@ -1,0 +1,125 @@
+{
+  "slug": "steganography",
+  "title": "Görüntülerde Çevrimiçi Ücretsiz Metin Gizleme: Tarayıcıda Steganografi",
+  "description": "ChooseTools ile görsellerin içinde gizli metni çevrimiçi ücretsiz gizleyin ve ortaya çıkarın. Steganografi kullanarak mesajları fotoğraflara kodlayın; yükleme olmadan tamamen tarayıcınızda.",
+  "keywords": ["steganografi", "görüntüde metin gizleme", "fotoğrafta mesaj gizleme", "çevrimiçi steganografi", "görüntüye mesaj kodlama", "resimde gizli metin", "görüntü steganografisi çözme"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Dijital İletişimin En Eski Hilesi",
+      "paragraphs": [
+        "Şifrelemeden önce gizleme vardı: kimsenin bakmadığı yere bir mesaj gömmek. [steganography:Görüntülerin içine metin gizlemek], modern tekniğin zarif bir yeniden yorumudur — taşıyıcı masum bir fotoğraf gibi görünürken mesajınızın baytları onun içinde seyahat eder.",
+        "Geçerli kullanım durumları arasında sahiplik filigranlama, paylaşılan grafiklerde not gizleme ve gizli kanalların akademik gösterimleri bulunur.",
+        "ChooseTools steganografiyi tarayıcınızda yerel olarak gerçekleştirir: bir görsele mesaj kodlayın veya taşıdığı mesajı çıkarın, yükleme yok."
+      ]
+    },
+    {
+      "heading": "Bir Görselde Mesaj Nasıl Gizlenir",
+      "paragraphs": [
+        "Kodlama saniyeler meselesidir:",
+        "Bir taşıyıcı görsel yükleyin, gizlemek istediğiniz mesajı yazın veya yapıştırın ve kodlayın. Araç metni görüntü piksellerine örer ve değişmemiş görünen bir dosya indirirsiniz.",
+        "Ortaya çıkarmak için değiştirilmiş görseli yeniden yükleyin ve çözün; mesaj yeniden görünür.",
+        "Hepsi cihazınızda gerçekleşir."
+      ]
+    },
+    {
+      "heading": "Baytlar Nasıl Görünmez Gizlenir",
+      "paragraphs": [
+        "Piksel renklerinin en önemsiz bitlerindeki ince değişiklikler, insan gözü için algılanamaz kalırken veri taşır.",
+        "Bir gözlemci normal bir fotoğraf görür; bir çözücü mesajı bulur.",
+        "Uygun karmaşıklıktaki görseller yükü en temiz şekilde taşır."
+      ]
+    },
+    {
+      "heading": "Meşru Kullanımlar: Filigranlar, Notlar, Çalışma",
+      "paragraphs": [
+        "Sanatçılar imzalarını görünmez şekilde gömer; işbirlikçiler paylaşılan bir önizlemeye bir mesaj iliştirir; öğrenciler tekniğin gücünü ve sınırlarını keşfeder.",
+        "[password-generator:güçlü bir anahtar] veya bir [base64:base64] sarmalayıcıyla birleştirildiğinde, gizli yük hem gizli hem de kodlanmış hâle gelir.",
+        "Her güçlü araçta olduğu gibi, sorumlu kullanın."
+      ]
+    },
+    {
+      "heading": "Tüm Alışverişin Gizliliği",
+      "paragraphs": [
+        "Gizli bir mesaj kodlamak, bir bulut sunucusuna emanet etmek isteyeceğiniz en son şeydir. Yerel işleme, taşıyıcıyı ve sırrı makinenizde bir arada tutar.",
+        "Yükleme yok, hesap yok, filigran yok — ve bir mesajın var olduğunu öğrenen üçüncü taraf yok.",
+        "Windows, macOS, Linux ve mobil aynı davranır."
+      ]
+    },
+    {
+      "heading": "Daha Geniş Araç Setinde Steganografi",
+      "paragraphs": [
+        "Gizli mesaj işini daha küçük taşıyıcılar için [compress-image:görüntü sıkıştırma] ve hedef boyutlar için [resize-image:yeniden boyutlandırma] ile eşleştirin.",
+        "Komple paket ücretsiz ve tarayıcı tabanlıdır.",
+        "Tek temiz bir numarada gizlilik, saygınlık ve tam mahremiyet."
+      ]
+    },
+    {
+      "heading": "Taşıyıcı Görsel Seçimi ve Kapasite Sınırları",
+      "paragraphs": [
+        "Gizleyebileceğiniz metin miktarı doğrudan taşıyıcı görselin boyutlarına ve renk derinliğine bağlıdır; çünkü her piksel gizli yüke küçük sayıda bit katkıda bulunur.",
+        "Milyonlarca renge sahip yüksek çözünürlüklü bir fotoğraf, küçük bir simgeden veya ağır sıkıştırılmış bir küçük resimden önemli ölçüde daha fazla veri taşıyabilir.",
+        "Çeşitli dokulara ve gradyanlara sahip karmaşık görseller, ince piksel değişiklikleri mevcut gürültüye doğal biçimde karıştığı için düz, tek renkli alanlardan daha etkili veri gizler.",
+        "Hem görsel olarak masum hem de yeterince büyük bir taşıyıcı seçmek, mesajın görüntünün sunduğu kapasiteye sığarken gizli kalmasını sağlar."
+      ]
+    },
+    {
+      "heading": "Algılama Direnci ve İstatistiksel Analiz",
+      "paragraphs": [
+        "Steganaliz teknikleri, en önemsiz bit düzlemlerindeki doğal olmayan dağılımlar gibi gizli verileri açığa çıkaran istatistiksel anormallikler için görüntüleri inceler.",
+        "Basit kodlama yöntemleri, otomatik araçların güvenilir şekilde tanımlayabileceği desenler ürettikleri için algılamaya karşı daha savunmasızdır.",
+        "Doğal fotografik gürültüye sahip taşıyıcı görselleri seçmek, mevcut piksel varyasyonu kodlama sırasında yapılan eklemeleri maskelediği için doğal bir örtü sağlar.",
+        "Bu algılama yöntemlerinin farkında olmak, iletişimin gerektirdiği gizliliği koruyan taşıyıcılar ve teknikler seçmenize yardımcı olur."
+      ]
+    },
+    {
+      "heading": "Steganografiyi Şifrelemeyle Birleştirme",
+      "paragraphs": [
+        "Bir mesajı gizlemek onun varlığını gizler, ancak birisi gelişmiş analiz yoluyla gizli verileri keşfederse içeriğini korumaz.",
+        "Mesajı görüntüye kodlamadan önce şifrelemek ikinci bir güvenlik katmanı ekler: gizli yük bulunsa bile, içerik şifre çözme anahtarı olmadan okunamaz kalır.",
+        "AES gibi güçlü simetrik şifreleme algoritmaları, rastgele veriden ayırt edilemeyen şifreli metin üretir; bu da onu steganografik kodlama için ideal bir girdi yapar.",
+        "Her iki tekniği birlikte kullanmak gizli iletişim hedefine ulaşır: mesaj sıradan gözlemden gizlenir ve kararlı çıkarmaya karşı korunur."
+      ]
+    },
+    {
+      "heading": "Dijital Haklarda ve Yaratıcı Korumada Kullanım Örnekleri",
+      "paragraphs": [
+        "Fotoğrafçılar, çevrimiçi paylaşılan portfolyo görsellerine görünmez filigranlar gömer; yetkisiz kopyalar başka yerde görünürse sahipliği kanıtlamalarına olanak tanır.",
+        "Grafik tasarımcılar taslak varlıklara sürüm tanımlayıcıları gizler; böylece gizli çalışma resmi resmî yayından önce ortaya çıkarsa hangi revizyonun sızdığını izleyebilirler.",
+        "Yayıncılar, her kopyayı görünür şekilde markalamadan dağıtılmış bir belgenin kaynağını tanımlamak için steganografik işaretler kullanır.",
+        "Bu uygulamalar, steganografinin akademik merakın ötesinde pratik iş amaçlarına hizmet ettiğini gösterir."
+      ]
+    },
+    {
+      "heading": "Sınırlamalar ve Steganografinin Yapamadıkları",
+      "paragraphs": [
+        "Steganografi bir mesajın varlığını gizler ancak şifrelemez; bu nedenle tekniği keşfeden ve yükü çıkaran herkes onu düz metin olarak okur.",
+        "Görüntü format dönüşümleri, sıkıştırma ve yeniden boyutlandırma gizli verileri yok edebilir; taşıyıcı format seçimini ve dikkatli taşımayı zorunlu kılar.",
+        "Kapasite, taşıyıcı görselle doğal olarak sınırlıdır; bu nedenle steganografi büyük belgeleri veya dosyaları iletmek için uygun değildir.",
+        "Bu kısıtlamaları anlamak, steganografiyi etkili olduğu yerde kullanmanızı ve daha uygun olduklarında diğer güvenlik önlemlerine güvenmenizi sağlar."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Veri gizlemek görüntümün görünümünü değiştirir mi?",
+      "a": "Hayır. Teknik yalnızca gözle algılanamayan küçük piksel ayrıntılarını değiştirir; taşıyıcı görsel değişmemiş görünür."
+    },
+    {
+      "q": "Gizli mesaj araç olmadan okunabilir mi?",
+      "a": "Hayır. Yalnızca bu çözücünün değiştirilmiş görsel üzerinde yeniden çalıştırılması yükü ortaya çıkarır; sıradan izleyiciler için görünmezdir."
+    },
+    {
+      "q": "Steganografi özel olarak mı yapılır?",
+      "a": "Evet. Her şey tarayıcınızda yerel olarak çalışır — yükleme, filigran veya hesap yok — bu nedenle mesajın varlığı sizinle alıcı arasında kalır."
+    },
+    {
+      "q": "Tek bir görsele ne kadar metin gizleyebilirim?",
+      "a": "Kapasite, taşıyıcı görselin çözünürlüğüne ve renk derinliğine bağlıdır. Yüksek çözünürlüklü bir fotoğraf birkaç paragraf tutabilirken, küçük bir küçük resim yalnızca kısa bir cümleyi barındırabilir."
+    },
+    {
+      "q": "Görüntü sıkıştırma veya format dönüştürme gizli mesajı yok edebilir mi?",
+      "a": "Evet. Formatlar arasında dönüştürme, yeniden boyutlandırma veya kayıplı sıkıştırma uygulamak, gizli yükü silmek için yeterli piksel verisini değiştirebilir; bu nedenle kodlanmış görselleri dikkatli kullanın."
+    }
+  ]
+}

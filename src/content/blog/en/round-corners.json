@@ -1,0 +1,116 @@
+{
+  "slug": "round-corners",
+  "title": "How to Round Image Corners Online Free: Soften Photos With Rounded Corners",
+  "description": "Round the corners of an image online free with ChooseTools. Apply soft, elegant rounded corners to photos and graphics in your browser, with transparency and full privacy.",
+  "keywords": ["round image corners", "rounded corners image", "make corners round online", "round photo edges", "rounded square image", "smooth corner image", "rounded edges photo"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Rounded Corners Soften the Sharpest Design Moments",
+      "paragraphs": [
+        "Modern interfaces and editorial layouts favor rounded shapes: they read friendlier, more premium. Applying [round-corners:rounded corners] to a photo or graphic brings it in line with those design sensibilities instantly.",
+        "Thumbnails, profile frames, cards, badges and social graphics all benefit from the softened silhouette.",
+        "ChooseTools rounds image corners locally in your browser; adjust the radius, preview, and export with transparency where needed — no upload."
+      ]
+    },
+    {
+      "heading": "How to Round Photo Edges in the Browser",
+      "paragraphs": [
+        "A refined corner treatment in under a minute:",
+        "Upload your image and drag the corner-radius slider — larger values mean softer, rounder corners. Choose whether all four corners share the radius or individual corners differ, preview, and download.",
+        "The space outside the rounded silhouette is made transparent, so the image slots cleanly into any background."
+      ]
+    },
+    {
+      "heading": "Design Consistency for Cards and Galleries",
+      "paragraphs": [
+        "Product tiles, article thumbnails and personnel photos look cohesive when every image carries the same corner radius.",
+        "A single repeatable setting applied per image produces a consistent gallery that feels custom-designed.",
+        "Designers can export a whole set of uniformly rounded assets in minutes."
+      ]
+    },
+    {
+      "heading": "Transparent Edges for Flexible Placement",
+      "paragraphs": [
+        "Rounded corners create a transparent quarter-circle outside the curve, letting the image harmonize with colored cards, dark modes and textured backgrounds alike.",
+        "This transparency is exactly what modern web and app UI expects from ready-to-ship graphics.",
+        "If a background fill is preferred, frame the rounded image onto a canvas during export."
+      ]
+    },
+    {
+      "heading": "Private, Free and Instant",
+      "paragraphs": [
+        "Rounded-corner processing runs entirely on your device, so unreleased designs and personal photos stay with you.",
+        "No watermark, no account, no quota — on Windows, macOS, Linux and mobile alike.",
+        "Soft, elegant corners whenever your layout asks for them."
+      ]
+    },
+    {
+      "heading": "Choosing the Right Radius for Your Use Case",
+      "paragraphs": [
+        "A small radius of four to eight pixels adds subtle polish to professional headshots and product photos without making the shape feel playful or informal.",
+        "Medium values between twelve and twenty-four pixels suit card layouts, social media posts and blog thumbnails where the softened corners contribute to a friendly tone.",
+        "Large radii above thirty-two pixels produce pill-shaped or nearly circular results that work well for avatars, badges and decorative UI elements.",
+        "Matching the radius to the overall design language of your project ensures the rounded image feels intentional rather than arbitrary."
+      ]
+    },
+    {
+      "heading": "Individual Corner Control for Asymmetric Designs",
+      "paragraphs": [
+        "Not every design calls for uniform rounding. Modern UI patterns frequently round only the top corners of a banner or the bottom corners of a navigation card.",
+        "The tool lets you set each corner independently, so you can produce exactly the shape your layout demands without exporting to a full design application.",
+        "Asymmetric rounding is especially useful for creating speech-bubble shapes, folded-corner effects and custom UI components that combine straight and curved edges.",
+        "Previewing each combination before export ensures the result matches the design specification precisely."
+      ]
+    },
+    {
+      "heading": "Output Formats and Transparency Handling",
+      "paragraphs": [
+        "PNG is the natural choice for rounded images because it supports full alpha transparency, preserving the clean edges outside the curved silhouette.",
+        "When transparency is not needed, the tool can composite the rounded image onto a solid background color, producing a JPEG that is smaller in file size.",
+        "Choosing between transparent and filled output depends on the destination: web pages and apps benefit from transparency, while printed materials typically require a solid backing.",
+        "The preview shows exactly how the final file will look in either mode, removing any guesswork before you download."
+      ]
+    },
+    {
+      "heading": "Batch Rounding for Consistent Asset Libraries",
+      "paragraphs": [
+        "When you need every image in a collection to carry the same corner treatment, applying the radius setting to each file individually ensures identical results across the set.",
+        "Consistent rounding across product catalogs, team directories and content galleries creates a visual coherence that signals attention to detail.",
+        "Because processing happens locally, you can work through a batch of images at your own pace without upload queues or processing limits.",
+        "The time saved by avoiding a desktop image editor for this single task adds up significantly when managing large asset libraries."
+      ]
+    },
+    {
+      "heading": "Integration With Design Workflows and Platforms",
+      "paragraphs": [
+        "Rounded images export in formats accepted by web content management systems, social media uploaders and design collaboration tools without additional conversion.",
+        "Developers embedding rounded thumbnails in HTML and CSS can reference the transparent PNG directly, relying on the alpha channel rather than CSS border-radius hacks.",
+        "Designers moving assets into Figma, Sketch or Canva benefit from pre-rounded images that maintain their shape regardless of the container size.",
+        "This interoperability makes the round-corner tool a useful early step in any multi-tool design pipeline."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I control the roundness of the corners?",
+      "a": "Yes. A corner-radius slider adjusts the curvature, and you can apply the radius to all corners or fine-tune individual corners."
+    },
+    {
+      "q": "Does the output support transparent edges?",
+      "a": "Yes. The area outside the rounded silhouette is transparent, making the image drop cleanly onto any background."
+    },
+    {
+      "q": "Is the rounded-corner tool private and free?",
+      "a": "Yes. Everything runs locally in your browser — no upload, no watermark, no account."
+    },
+    {
+      "q": "Which file format should I choose for the rounded image?",
+      "a": "PNG preserves transparency around the curved edges, while JPEG with a solid background works better for print or situations where transparency is unnecessary."
+    },
+    {
+      "q": "Can I round only specific corners of an image?",
+      "a": "Yes. Individual corner control lets you set different radii for each corner, enabling asymmetric designs like banner shapes or speech bubbles."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "split-pdf",
+  "title": "PDF Sayfalarını Çevrimiçi Olarak Ücretsiz Nasıl Bölünür: PDF'ten Sayfaları Yüklemeden Ayıklayın",
+  "description": "ChooseTools ile PDF sayfalarını çevrimiçi olarak ücretsiz bölün. Tek bir büyük PDF'i birkaç küçük dosyaya bölün, tek sayfaları veya aralıkları ayıklayın; hepsi tarayıcınızda ve tamamen gizli biçimde.",
+  "keywords": ["pdf çevrimiçi ücretsiz bölme", "pdf'i sayfalara bölme", "pdf'ten sayfa ayıklama", "pdf dosyasını bölme", "pdf sayfalarını ayırma", "pdf bölme aracı", "yüklemeden pdf bölme"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "PDF Bölme Ne Zaman Günlük Bir Gereklilik Haline Gelir",
+      "paragraphs": [
+        "Tek bir PDF nadiren sonsuza dek tek bir PDF olarak kalır. Dosyalama sistemleri için PDF sayfalarını bölmeniz, yalnızca on sayfaya ihtiyaç duyan bir iş arkadaşına bir bölüm göndermeniz veya 300 sayfalık bir kılavuzu yüklenebilir alt belgelere ayırmanız gerekebilir. Masaüstü düzenleyicilerde elle kopyalama ve yapıştırma yavaş ve hataya açıktır; özel bir [split-pdf:çevrimiçi ücretsiz PDF bölme] aracı bu işi saniyeler içinde yapar.",
+        "Web'deki çoğu PDF bölme aracı belgenizi kendi bulutlarına zorlar ve ardından analiz için kopyalarını saklar. Bu, sözleşmeler, tıbbi kayıtlar ve finansal tablolar için gerçek bir sorundur. ChooseTools bölücüyü PDF.js üzerine kurar; böylece dosyanız tamamen tarayıcınızda okunur ve bölünür. Yükleme yok, kuyruk yok, kontrol etmediğiniz bir sunucuda artık kopyalar yok.",
+        "Araç reklamsız ve filigramsız ücretsiz olduğu için yüzlerce sayfayı bölmek hiçbir ücrete mal olmaz ve iş akışınızı asla kesintiye uğratmaz. Çıktı dosyaları, metin, görsel, bağlantı ve gömülü yazı tiplerini koruyan orijinalin bayt düzeyinde hassas dilimleridir."
+      ]
+    },
+    {
+      "heading": "Bir PDF'i Adım Adım Ayrı Dosyalara Nasıl Bölersiniz",
+      "paragraphs": [
+        "PDF bölücüyü kullanmak üç kısa adımdan oluşur ve teknik beceriden bağımsız olarak herkes için işe yarar.",
+        "Aracı açın, PDF'inizi bırakma alanına sürükleyin veya diskten seçin. Belge yerel olarak ayrıştırılır ve tarayıcının içinde sayfa sayfa önizleme elde edersiniz. Ardından bölme modlarından birini seçin: tek bir sayfayı ayıklayın, bir aralık ayıklayın veya her N sayfayı kendi dosyasına bölün. Son olarak böl düğmesine basın ve ortaya çıkan her PDF'i ayrı ayrı indirin.",
+        "Sunucuya gidiş dönüş olmadığı için tüm süreç makinenizin hızında gerçekleşir. 500 sayfalık bir PDF'i bölmek yalnızca bilgisayarınızın belleğiyle sınırlıdır; bu da bu aracı günümüzde çevrimiçi olarak sunulan en pratik ücretsiz PDF sayfa bölücülerden biri yapar."
+      ]
+    },
+    {
+      "heading": "Tek Sayfaları veya Sayfa Aralıklarını Hassas Biçimde Ayıklayın",
+      "paragraphs": [
+        "Bazen yalnızca tek bir sayfaya ihtiyacınız olur — bir kira sözleşmesinin imza sayfası, bir teklifin sonundaki sertifika ya da müşterinizin ayrıca istediği kapak. Tek sayfa ayıklama modu, istediğiniz sayfaya tıklamanıza ve onu tek başına dışa aktarmanıza olanak tanır.",
+        "Sayfa aralıkları da aynı derecede basittir. 40 sayfalık bir desteden 5 ile 12 arasındaki sayfalara mı ihtiyacınız var? »5-12« girin; araç, kaynak dosyanın geri kalanına dokunmadan tam olarak bu sayfaları içeren kompakt bir PDF üretir. Bu, sayfaların ekran görüntüsünü almak veya PDF'i bir kelime işlemcide yeniden oluşturmaktan çok daha doğrudur.",
+        "[extract-pdf-pages:PDF sayfalarını ayıklama] iş akışlarıyla birleştirildiğinde bölme size tam kontrol sağlar: ihtiyacınız olan aralığı alın, ardından özel bir belge oluşturmak için [merge-pdf:PDF birleştirme] aracıyla diğer ayıklanan bölümlerle birleştirin."
+      ]
+    },
+    {
+      "heading": "Her Sayfayı Bölün veya Toplu İş İçin Aralık Kullanın",
+      "paragraphs": [
+        "Uzun belgeler için aralık modu hayat kurtarır. Aralığı »1« olarak ayarlayın ve her sayfa kendi dosyasına dönüşür — bir fatura yığınındaki her sayfanın ayrı ayrı e-postayla gönderilmesi veya arşivlenmesi gereken durumlar için idealdir.",
+        "»10« gibi daha büyük bir aralık seçerek bir kılavuzu otomatik olarak onar sayfalık bölümlere ayırabilirsiniz. Bölücü çıktıları sıralı olarak numaralandırır; böylece dosyaları bir PDF birleştiriciden geçirerek orijinal sırayı istediğiniz zaman yeniden oluşturabilirsiniz.",
+        "Hiçbir masaüstü yazılım burada gerçek anlamda taşınabilir olamaz: bu bölücü Windows, macOS, Linux ve mobil tarayıcılarda aynı şekilde çalışır; bu yüzden farklı ülkelerdeki ekipler platform bazında lisanslar yerine tek bir ücretsiz PDF bölme aracında standartlaşabilir."
+      ]
+    },
+    {
+      "heading": "Gizlilik Öncelikli Bölme: Dosyalar Cihazınızdan Asla Ayrılmaz",
+      "paragraphs": [
+        "Bu PDF bölücünün en önemli tek garantisi, belgenizin üçüncü taraf bir sunucuya asla ulaşmamasıdır. Her sayfa, açık kaynaklı PDF.js teknolojisiyle tarayıcınızın belleğinde ayıklanır.",
+        "Bu, düzenlemeye tabi veya gizli verilerle ilgilenen herkes için önemlidir: keşif belgelerini bölen hukuk ekipleri, maaş bordrolarını bölen İK, vergi kayıtlarını bölen muhasebeciler. Yerel işlemede »veri ihlali« terimi tam anlamıyla geçerli değildir çünkü dışarıda hiçbir veri yoktur.",
+        "Böldüğünüz şeyin aynısını alırsınız: kaynakla aynı kalitede, temiz ve filigramsız PDF'ler. Bunu, ücretsiz katmanı abone olmadığınız sürece her çıktıya kendi markasını ekleyen çevrimiçi rakiplerle karşılaştırın."
+      ]
+    },
+    {
+      "heading": "PDF Bölme Hakkında Sık Sorulan Sorular",
+      "paragraphs": [
+        "Yazılım kurmadan bir PDF'i bölebilir miyim? Evet — her şey tarayıcıda çalışır, bu yüzden kurulum asla gerekmez. Bölme baskı kalitesini düşürür mü? Hayır; ayıklanan sayfalar orijinal vektörlerini, gömülü yazı tiplerini ve çözünürlüklerini korur. Hangi formatları bölebilirim? [protect-pdf:PDF güvenlik] araçlarıyla parola kaldırıldıktan sonra taranmış ve parola korumalı dosyalar dahil her türlü PDF'i bölebilirsiniz. Sayfa sınırı var mı? Yapay bir sınır yoktur; tek sınır cihazınızın kullanılabilir belleğidir.",
+        "Hesaba ihtiyacım var mı? Hiçbir kayıt gerekmez ve hesap olmaması, belgelerinizi izleyen çerezlerin de olmaması demektir. Ya dosyam çok büyükse? Yerel işleme, son derece büyük PDF'leri bile bulut hizmetlerinden daha hızlı işler çünkü yükleme ve indirme adımlarını tamamen atlarsınız."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "PDF bölücü bir dosyayı otomatik olarak tek tek sayfalara bölebilir mi?",
+      "a": "Evet. Aralığı 1 olarak ayarlayın; araç her sayfayı, ayrı arşivleme veya e-posta için hazır, kaynak sırasına göre numaralandırılmış kendi PDF dosyası olarak dışa aktarır."
+    },
+    {
+      "q": "Bölme dosya kalitesini düşürür veya içeriği yeniden sıkıştırır mı?",
+      "a": "Hayır. Ayıklanan her sayfa, metni, görselleri, vektör grafikleri, köprüleri ve yazı tipleri bozulmamış orijinal sayfanın birebir kopyasıdır. Kalite aynen korunur."
+    },
+    {
+      "q": "Burada gizli PDF belgelerini bölmek güvenli midir?",
+      "a": "Kesinlikle. Tüm işleme, PDF.js ile tarayıcınızda yerel olarak gerçekleşir. Dosyalarınız hiçbir sunucuya yüklenmez, saklanmaz veya analiz edilmez; bu da gizlilik anlaşmaları, tıbbi ve hukuki belgeler için güvenli kılar."
+    }
+  ]
+}

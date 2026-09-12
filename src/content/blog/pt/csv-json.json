@@ -1,0 +1,132 @@
+{
+  "slug": "csv-json",
+  "title": "Conversor de CSV para JSON: Converta CSV para JSON Online Grátis",
+  "description": "Conversor gratuito de CSV para JSON para transformar dados de folhas de cálculo em JSON estruturado com cabeçalhos, formatação e pré-visualização. Privado, no seu navegador, sem uploads.",
+  "keywords": ["csv para json", "converter csv para json online", "conversor de csv para json", "folha de cálculo para json", "csv para array json", "converter csv para json grátis", "ferramenta csv para json"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Tabelas em CSV, Objetos em JSON",
+      "paragraphs": [
+        "Os dashboards, as APIs e os sistemas de configuração preferem JSON enquanto a análise e as importações chegam como CSV. A [csv-json:Conversão de CSV para JSON] faz a ponte entre folhas de cálculo e código de forma limpa.",
+        "A conversão com reconhecimento de cabeçalhos transforma linhas em objetos automaticamente.",
+        "A ChooseTools converte CSV para JSON localmente no seu navegador com controlos de delimitador e pré-visualização."
+      ]
+    },
+    {
+      "heading": "Como Converter CSV para JSON",
+      "paragraphs": [
+        "De linhas a registos instantaneamente:",
+        "Cole o seu CSV, escolha o delimitador (vírgula, ponto e vírgula, tabulação) e deixe que a linha de cabeçalho mapeie cada coluna em chaves JSON. Pré-visualize a estrutura e descarregue ou copie o array.",
+        "A conversão é executada inteiramente no seu dispositivo."
+      ]
+    },
+    {
+      "heading": "Mapeamento da Linha de Cabeçalho para Objetos",
+      "paragraphs": [
+        "Quando a primeira linha contém os nomes das colunas, cada linha seguinte torna-se um objeto com essas chaves.",
+        "Os campos entre aspas com vírgulas e novas linhas incorporadas são analisados corretamente.",
+        "A migração de dados ganha estrutura sem remodelação manual."
+      ]
+    },
+    {
+      "heading": "Ficheiros de Configuração, Importações e Integração",
+      "paragraphs": [
+        "Transforme exportações de análise em arrays de configuração, ficheiros seed e payloads de API.",
+        "A saída JSON serve tanto para ingestão backend como para fixtures de front-end.",
+        "A manutenção de folhas de cálculo permanece no Excel enquanto o código consome JSON."
+      ]
+    },
+    {
+      "heading": "Casos Extremos: Células Vazias, Tipos e Codificação",
+      "paragraphs": [
+        "Células vazias, vírgulas entre aspas, tipos variados e codificações diferentes moldam todos o resultado.",
+        "O conversor lida com as realidades complicadas das exportações reais.",
+        "A pré-visualização confirma o mapeamento antes de confiar no payload."
+      ]
+    },
+    {
+      "heading": "Conversão Privada de Dados",
+      "paragraphs": [
+        "Os dados tabulares do cliente são convertidos localmente com zero contacto com servidores.",
+        "Sem uploads, sem conta, sem marca de água — em todas as plataformas.",
+        "Migração sem exposição."
+      ]
+    },
+    {
+      "heading": "CSV/JSON no Kit de Ferramentas de Dados",
+      "paragraphs": [
+        "Faça o ciclo completo com [json-to-excel:JSON para Excel], [excel-to-csv:Excel para CSV] e [json-formatter:formatação] para um tratamento completo.",
+        "A suite é gratuita e nativa do navegador.",
+        "De linhas a registos, com precisão e privacidade."
+      ]
+    },
+    {
+      "heading": "Deteção de Delimitadores e Substituição Manual",
+      "paragraphs": [
+        "Os ficheiros CSV exportados de diferentes regiões usam delimitadores diferentes: vírgulas nos Estados Unidos, ponto e vírgula em grande parte da Europa e tabulações em muitas ferramentas de programação.",
+        "O conversor tenta a deteção automática de delimitadores analisando as primeiras linhas à procura de contagens de campos consistentes, mas a substituição manual está sempre disponível quando a heurística falha.",
+        "Escolher o delimitador correto é o passo mais importante para uma conversão limpa, porque um desajuste faz com que linhas inteiras colapsem num único campo.",
+        "Assim que o delimitador está definido, a pré-visualização atualiza-se imediatamente para que possa confirmar a estrutura das colunas antes de gerar o JSON final."
+      ]
+    },
+    {
+      "heading": "Inferência de Tipos: Números, Booleanos e Nulos",
+      "paragraphs": [
+        "O texto CSV em bruto trata cada célula como uma string, mas o JSON beneficia de tipos corretos para que o código a jusante possa fazer comparações numéricas e lógica booleana sem análise adicional.",
+        "O conversor inspeciona cada célula e promove os valores que parecem números para tipos numéricos JSON, reconhece true e false como booleanos e converte células vazias ou explicitamente nulas em null.",
+        "Strings que por acaso contêm caracteres numéricos, mas que têm zeros à esquerda ou formatação especial, são preservadas como strings para evitar perda de dados.",
+        "Esta conversão com noção de tipos significa que o array JSON resultante é imediatamente utilizável em aplicações que esperam valores corretamente tipados, sem pós-processamento."
+      ]
+    },
+    {
+      "heading": "Tratamento de Campos Multilinha e Vírgulas Incorporadas",
+      "paragraphs": [
+        "As exportações CSV reais contêm frequentemente campos envoltos em aspas que se estendem por várias linhas ou incluem vírgulas dentro do conteúdo.",
+        "O conversor segue as regras RFC 4180 para campos entre aspas, identificando corretamente os limites dos campos mesmo quando ocorrem novas linhas ou delimitadores dentro das aspas.",
+        "Este comportamento espelha a forma como as aplicações profissionais de folhas de cálculo exportam dados, garantindo que a sua conversão trata os mesmos ficheiros sem limpeza manual.",
+        "Os campos que contêm aspas escapeadas são corretamente desescapeados, de modo que a saída JSON reflete o conteúdo pretendido em vez das sequências de escape em bruto."
+      ]
+    },
+    {
+      "heading": "Opções de Formatação da Saída",
+      "paragraphs": [
+        "A saída JSON compacta minimiza o tamanho do ficheiro para payloads de API e ficheiros de configuração onde os espaços em branco não acrescentam valor.",
+        "A saída bem impressa, com indentação consistente, torna o JSON legível para depuração, revisão de código e inspeção manual.",
+        "O conversor permite-lhe escolher entre estes formatos para que o ficheiro descarregado corresponda às convenções do seu projeto.",
+        "Escolher o formato certo no momento da conversão poupa um passo de formatação separado mais tarde no fluxo de trabalho."
+      ]
+    },
+    {
+      "heading": "Conversão em Lote e Fluxos de Trabalho de Automação",
+      "paragraphs": [
+        "As equipas que convertem dados CSV regularmente beneficiam de um processo consistente: colar, configurar delimitador, pré-visualizar e descarregar.",
+        "Como a conversão é executada inteiramente no navegador, integra-se naturalmente em fluxos de trabalho de bookmarklets e scripts de automação locais que enviam dados através da ferramenta.",
+        "A repetibilidade é importante quando o mesmo ficheiro de origem é atualizado semanalmente; as definições que escolher hoje podem ser reaplicadas manualmente a exportações futuras.",
+        "Para programadores que constroem pipelines, a estrutura JSON previsível produzida pelo conversor simplifica o passo de validação de schema que se segue à ingestão de dados."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Como são mapeadas as colunas CSV para JSON?",
+      "a": "Quando a primeira linha contém cabeçalhos, cada linha seguinte torna-se um objeto com essas colunas como chaves; as restantes linhas tornam-se itens do array."
+    },
+    {
+      "q": "O conversor lida com vírgulas entre aspas dentro dos campos?",
+      "a": "Sim. Os campos entre aspas que contêm vírgulas ou novas linhas são analisados corretamente de acordo com as regras CSV."
+    },
+    {
+      "q": "A conversão é privada?",
+      "a": "Sim. Tudo é executado localmente no seu navegador, sem uploads nem contas."
+    },
+    {
+      "q": "O conversor consegue detetar o delimitador automaticamente?",
+      "a": "Sim. Analisa as primeiras linhas à procura de contagens de campos consistentes, embora a substituição manual esteja disponível quando a deteção automática não corresponde ao seu ficheiro."
+    },
+    {
+      "q": "Os valores numéricos são preservados como números no JSON?",
+      "a": "Sim. As células que contêm números válidos são promovidas a tipos numéricos JSON, enquanto os valores com zeros à esquerda ou formatação especial permanecem como strings."
+    }
+  ]
+}

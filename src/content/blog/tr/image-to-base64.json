@@ -1,0 +1,99 @@
+{
+  "slug": "image-to-base64",
+  "title": "Görüntüyü Çevrimiçi Ücretsiz Base64'e Dönüştürme: Görselleri Kodda Gömme",
+  "description": "ChooseTools ile görüntüyü çevrimiçi ücretsiz base64'e dönüştürün. CSS, e-posta ve data URI'leri için boyut seçimiyle herhangi bir görseli tarayıcınızda base64 dizgisine kodlayın. Tamamen özel.",
+  "keywords": ["görüntüyü base64'e dönüştürme", "görüntüyü çevrimiçi base64'e dönüştürme", "base64 görsel kodlama", "data uri üretici", "görseli base64'e kodlama", "görsel base64 dönüştürücü", "css data uri"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Tek Dizi, Tek Görsel, Sıfır İstek",
+      "paragraphs": [
+        "Base64, bir görseli doğrudan HTML, CSS veya JSON içine gömmeyi sağlar: ayrı dosya yok, ek HTTP isteği yok, barındırma bağımlılığı yok. [image-to-base64:Görüntüyü base64'e dönüştürmek] gerçek bir geliştirici kısayoludur.",
+        "Ekler olmadan görüntülenmesi gereken e-postalar, küçük UI simgeleri ve veri aktarım boru hatları, bu kodlamaya posta istemcileri arasında doğru çalışmak için güvenir.",
+        "ChooseTools, maksimum esneklik için data URI önekini dahil etme veya hariç tutma seçeneğiyle görüntüleri tarayıcınızda lokal olarak base64'e kodlar."
+      ]
+    },
+    {
+      "heading": "Görüntü Base64'e Nasıl Dönüştürülür",
+      "paragraphs": [
+        "Piksellerden kopyalamaya hazır bir dizgiye:",
+        "Görselinizi yükleyin, isteğe bağlı olarak e-posta dostu yükler için yeniden boyutlandırın; araç, data:image/png;base64 gibi format önekiyle base64 çıktısını üretir. Doğrudan kodunuza kopyalayın.",
+        "Kodlama yereldir — dönüştürme harici işlem olmadan yalnızca cihazınızda gerçekleşir."
+      ]
+    },
+    {
+      "heading": "E-postalar, CSS ve JSON Yükleri İçin",
+      "paragraphs": [
+        "Bültenler, logoları ve banner'ları base64 olarak satır içine alır; böylece posta istemcileri engellenen ekler veya kırık görsel bağlantıları olmadan bunları görüntüler.",
+        "CSS data URI'leri küçük simgeleri tek bir stil sayfası isteğinde sunar; JSON API'leri zengin küçük resimleri harici sunucularda barındırmadan serileştirir.",
+        "Aynı araçla dönüştürme, manuel yeniden biçimlendirme olmadan dizginin her kullanım durumu için tam olarak biçimlendirilmiş kalmasını sağlar."
+      ]
+    },
+    {
+      "heading": "Base64 Ne Zaman Kullanılır ve Ne Zaman Kaçınılır",
+      "paragraphs": [
+        "Base64 kodlama, girişteki her üç baytın dört ASCII karakterine dönüşmesi nedeniyle ikili veriyi kabaca yüzde otuz üç oranında şişirir. Bu ek yük, logolar, favicon'lar ve satır içi UI öğeleri gibi küçük grafikler için kabul edilebilir; ancak büyük fotoğraflar veya ayrıntılı illüstrasyonlar için maliyetli hâle gelir.",
+        "Önbelleğe alma başka bir husustur. Harici görsel dosyaları tarayıcılar ve içerik dağıtım ağları tarafından bağımsız olarak önbelleğe alınabilir; böylece geri dönen ziyaretçiler bunları herhangi bir ağ aktarımı olmadan yerel depolamadan yükler. HTML veya CSS içine gömülü base64 kodlu görseller, onları içeren belgeden ayrı olarak önbelleğe alınamaz.",
+        "Base64 için ideal nokta, HTML e-postalarında, tek kullanımlık data URI'lerinde veya ayrı bir dosya yönetmenin pratik olmadığı durumlarda görünen kabaca on kilobaytın altındaki görsellerdir. Diğer her şey için, uygun önbellek başlıklarına sahip barındırılan bir görsel daha iyi performans ve daha düşük bant genişliği maliyeti sunar."
+      ]
+    },
+    {
+      "heading": "Küçük Dosyalar, Büyük Kolaylık",
+      "paragraphs": [
+        "Base64 veriyi yaklaşık üçte bir oranında şişirir; bu nedenle tam çözünürlüklü fotoğraflar veya ayrıntılı sanat eserleri yerine logolar, sprite'lar ve küçük resimler gibi küçük grafiklere uygundur.",
+        "Yeniden boyutlandırma seçeneği, ayrı bir görsel düzenleyici açmadan aynı adımda e-posta dostu bir yük vererek daha küçük varyantları anında hazırlar.",
+        "Kopyalanan dizgi eksiksizdir ve dosya uğraşısı veya geçici depolama gerektirmeden kodunuza yapıştırılmaya hazırdır."
+      ]
+    },
+    {
+      "heading": "Farklı Programlama Bağlamlarında Base64",
+      "paragraphs": [
+        "HTML'de base64 bir görsel doğrudan img src özniteliğine veya bir CSS background-image özelliğine gider. Tarayıcı data URI önekini okur, dizgiyi çözer ve tek bir harici kaynak istemeden görseli işler.",
+        "JavaScript'te base64 dizgisi JSON yüklerine, dinamik DOM yapısına veya canvas çizimine entegre olur. Görsel verilerini dizgi olarak kabul eden kitaplıklar çıktıyla sorunsuz çalışır; sunucu gidiş-dönüşleri olmadan istemci tarafı manipülasyon sağlar.",
+        "E-posta şablonlarında base64 kodlama, birçok kurumsal posta sunucusunun ek engelleme davranışını atlar. Görsel, indirilebilir bir dosya yerine metin olarak taşındığı için doğrudan mesaj gövdesinde görüntülenir; açılma oranlarını ve alıcı deneyimini iyileştirir."
+      ]
+    },
+    {
+      "heading": "Tescilli Varlıkların Özel Kodlanması",
+      "paragraphs": [
+        "Yayınlanmamış logoları veya arayüz görsellerini yerel olarak koda dönüştürmek, onları harici maruz kalma olmadan tam olarak bulundukları yerde tutar.",
+        "Yükleme yok, filigran yok, hesap yok — Windows, macOS, Linux ve mobil tarayıcılarda aynı.",
+        "Önizlemeler ve yük boyutları üzerinde hızlı yineleme, ağdan tamamen uzakta ve kontrolünüz altında."
+      ]
+    },
+    {
+      "heading": "Geliştirici Araç Setiyle Birleştirin",
+      "paragraphs": [
+        "Kodlamadan önce dönüştürmeyi [resize-image:yeniden boyutlandırma] ile eşleştirin veya raster çıktı gerektiğinde küçük SVG'leri [svg-to-png:SVG'den PNG'ye] ile dönüştürün.",
+        "Komple araç seti tarayıcı tabanlı ve özeldir; kurulum veya hesap gerektirmez.",
+        "Kodunuzun istediği tam formatta, doğru boyutta satır içi görseller, her seferinde."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Base64 kodlama görüntüme tam olarak ne yapar?",
+      "a": "İkili görüntü verilerini HTML, CSS veya JSON içine gömülebilen, genellikle data URI öneki ve MIME türü içeren bir metin dizgisine dönüştürür."
+    },
+    {
+      "q": "Kodlamadan önce görseli yeniden boyutlandırabilir miyim?",
+      "a": "Evet. İsteğe bağlı yeniden boyutlandırma adımı, base64 dizgisi üretilmeden önce daha küçük, e-posta dostu yükler hazırlar."
+    },
+    {
+      "q": "Dönüştürme özel midir?",
+      "a": "Evet. Her şey tarayıcınızda yerel olarak çalışır; görsel ve dizgisi cihazınızdan asla çıkmaz."
+    },
+    {
+      "q": "Base64 görüntü verilerimi ne kadar büyütür?",
+      "a": "Kabaca yüzde otuz üç. İkili verinin üç baytı kodlanmış dizgide dört ASCII karakteri olur; bu nedenle on kilobaytlık bir görsel yaklaşık on üç kilobaytlık metin üretir."
+    },
+    {
+      "q": "Çıktıyı doğrudan bir HTML e-postasında kullanabilir miyim?",
+      "a": "Evet. data URI önekiyle base64 dizgisini bir img src özniteliğine yapıştırın. Görsel, harici bir dosya veya sunucu barındırma gerektirmeden satır içi görüntülenir."
+    },
+    {
+      "q": "Base64 görüntü kalitesini etkiler mi?",
+      "a": "Hayır. Base64 bir kodlama biçimidir, sıkıştırma değildir. Görüntü verileri piksel değerleri veya görsel doğrulukta hiçbir değişiklik olmaksızın metin olarak temsil edilir."
+    }
+  ]
+}

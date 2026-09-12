@@ -1,0 +1,115 @@
+{
+  "slug": "excel-to-mt940",
+  "title": "Excel para MT940: Converta Dados Financeiros XLSX para MT940 Online Grátis",
+  "description": "Conversor gratuito de Excel para MT940 para gerar extratos MT940 em formato bancário a partir de dados de folhas de cálculo, no seu navegador. Privado, sem uploads, sem registo.",
+  "keywords": ["excel para mt940", "gerador de mt940", "converter xlsx para mt940", "gerar mt940 a partir do excel", "extrato bancário para mt940", "excel para mt940 online", "gerador de ficheiros mt940"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Quando os Sistemas Exigem o Formato do Banco",
+      "paragraphs": [
+        "Algumas plataformas, bancos e sistemas de tesouraria só aceitam MT940. A [excel-to-mt940:Conversão de dados Excel para MT940] empacota uma folha de cálculo no formato de extrato com tags que exigem.",
+        "As colunas e linhas tornam-se os códigos que os analisadores a jusante esperam, preservando exatamente cada data, montante e referência.",
+        "A ChooseTools constrói MT940 a partir do Excel localmente no seu navegador, com controlo total sobre o mapeamento de campos."
+      ]
+    },
+    {
+      "heading": "Como Converter Excel para MT940",
+      "paragraphs": [
+        "De tabela de trabalho a ficheiro codificado:",
+        "Carregue um livro de trabalho organizado com as colunas esperadas — data, montante, descrição, saldos — mapeie os campos e gere o texto MT940 pronto a entregar. A pré-visualização confirma a colocação das tags antes do download.",
+        "A geração é local, mantendo os registos financeiros selados na sua máquina durante todo o processo."
+      ]
+    },
+    {
+      "heading": "O Mapeamento de Campos Faz a Diferença",
+      "paragraphs": [
+        "O mapeamento correto de datas, montantes e referências determina se um MT940 é aceite ou rejeitado pelo sistema recetor.",
+        "O conversor guia-o na atribuição de colunas a tags com rótulos claros para que associe cada campo com confiança.",
+        "Os entregáveis validam-se contra regras padrão, não apenas gerando texto em bruto que pode falhar a jusante."
+      ]
+    },
+    {
+      "heading": "Estrutura de Tags MT940 Explicada",
+      "paragraphs": [
+        "Todos os ficheiros MT940 seguem uma hierarquia de tags estrita. A tag :20 transporta uma referência única de extrato que identifica esta exportação em particular. A tag :25 nomeia a conta em formato IBAN ou local do banco, de modo que o sistema recetor sabe a que conta pertencem as transações.",
+        "As tags de saldo :60M e :62M delimitam a lista de transações com cifras de abertura e fecho. Cada uma contém um indicador de crédito ou débito, a data, um código de moeda e o montante. Os saldos exatos são obrigatórios porque o software de reconciliação valida que o saldo de fecho de um extrato corresponde ao saldo de abertura do seguinte.",
+        "As transações individuais vivem em linhas :61 com um layout compacto de data, montante e referência, enquanto a tag :86 fornece a narrativa de texto livre. Associar cada :61 à sua narrativa :86 mantém as descrições alinhadas com a linha de item correta, impedindo o tipo de entradas órfãs que confundem os auditores."
+      ]
+    },
+    {
+      "heading": "Para Testes e Integração de Sistemas",
+      "paragraphs": [
+        "As equipas de desenvolvimento produzem extratos de exemplo para testar importadores e motores de reconciliação sem esperar por exportações bancárias reais.",
+        "As equipas de tesouraria exportam extratos para bancos parceiros no seu dialeto ao integrar novas contas ou atualizar módulos de integração.",
+        "Um livro de trabalho, muitas saídas conforme a norma, poupando horas de formatação manual ao longo de vários ciclos de teste."
+      ]
+    },
+    {
+      "heading": "Tratamento de Multi-Moeda e Períodos de Extrato",
+      "paragraphs": [
+        "As empresas que operam além-fronteiras mantêm frequentemente contas em várias moedas. Cada moeda exige o seu próprio bloco de extrato com o código de moeda correto nas tags de saldo. O conversor gera sequências de extrato separadas para cada moeda encontrada no livro de trabalho, mantendo-as devidamente delimitadas.",
+        "As datas de período do extrato determinam a data de saldo de abertura :60M e a data de saldo de fecho :62M. Acertar nestas datas é importante para a reconciliação automatizada, que compara saldos de fecho e abertura entre extratos consecutivos para detetar lacunas ou transações em falta.",
+        "Os números de referência na tag :20 devem seguir a convenção do seu banco, seja sequencial, baseada em data ou limitada à conta. Um esquema de referência consistente torna mais simples rastrear extratos até ao seu livro de trabalho de origem quando os auditores fazem perguntas meses depois."
+      ]
+    },
+    {
+      "heading": "Sintaxe Padrão, Zero Adivinhação",
+      "paragraphs": [
+        "As tags, as posições de campo e os comprimentos de linha seguem o padrão automaticamente para que a saída seja válida sem revisão manual.",
+        "Não resta contagem manual de chavetas nem cirurgia de tags quando o conversor aplica as regras de formatação.",
+        "Importações exatas começam na origem, reduzindo o vai-e-vem com as equipas de suporte bancário."
+      ]
+    },
+    {
+      "heading": "Erros Comuns e Como Evitá-los",
+      "paragraphs": [
+        "A formatação de datas é a fonte mais frequente de rejeição. O MT940 exige AAMMDD sem separadores, mas as folhas de cálculo armazenam frequentemente datas em formatos específicos do local. O conversor normaliza as datas automaticamente, de modo que uma coluna de entradas de 15 de março se torna 230315 em cada linha :61 e de saldo.",
+        "Espaços em falta ou extra nas narrativas de texto livre :86 fazem os analisadores desalinharem os detalhes das transações das suas descrições. A ferramenta apara e preenche os campos narrativos até à largura esperada, prevenindo os subtis erros de espaçamento que só surgem quando o banco recetor processa o ficheiro.",
+        "Desajustes de codificação entre a folha de cálculo e a saída MT940 podem corromper caracteres não ASCII nas descrições. O conversor garante consistência UTF-8 em todo o processo, de modo que scripts árabes, latinos acentuados e outros sobrevivem intactos ao ciclo."
+      ]
+    },
+    {
+      "heading": "Geração Financeira Privada",
+      "paragraphs": [
+        "Os dados de nível bancário permanecem na sua máquina através de processamento local, sem servidores intermédios nem armazenamento na nuvem.",
+        "Sem uploads, sem conta, sem marca de água — em todas as plataformas e sistemas operativos.",
+        "Os extratos são construídos, não expostos, mantendo a confidencialidade desde a criação até à entrega."
+      ]
+    },
+    {
+      "heading": "MT940 na Suite Financeira",
+      "paragraphs": [
+        "Combine com [mt940-to-excel:MT940 para Excel], [txt-to-mt940:MT940 a partir de texto] e [excel-to-csv:exportações CSV] para cobertura completa dos fluxos de trabalho de extratos.",
+        "Tudo é gratuito e nativo do navegador, sem exigir instalação ou subscrição.",
+        "As folhas de cálculo falam banca fluentemente assim que a conversão está completa."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Que colunas o ficheiro Excel deve ter?",
+      "a": "Data, montante e descrição são essenciais; os campos de saldo e referência mapeiam de acordo com os requisitos do seu banco."
+    },
+    {
+      "q": "O conversor consegue lidar com diferentes disposições de campos?",
+      "a": "Sim. O mapeamento interativo de campos adapta o MT940 gerado ao layout da sua folha de cálculo."
+    },
+    {
+      "q": "A conversão é privada?",
+      "a": "Sim. Tudo é executado localmente no seu navegador, sem uploads nem contas."
+    },
+    {
+      "q": "Que formato de data usa a saída?",
+      "a": "As datas MT940 seguem o formato AAMMDD sem separadores. O conversor normaliza as datas da folha de cálculo automaticamente."
+    },
+    {
+      "q": "Posso gerar extratos para várias moedas?",
+      "a": "Sim. A ferramenta deteta diferentes valores de moeda nos seus dados e cria blocos de extrato separados com o código de moeda correto."
+    },
+    {
+      "q": "A saída passará na validação do banco?",
+      "a": "O conversor verifica a estrutura de tags, a consistência de saldos e os comprimentos de campo contra as regras MT940 padrão antes de gerar o ficheiro."
+    }
+  ]
+}

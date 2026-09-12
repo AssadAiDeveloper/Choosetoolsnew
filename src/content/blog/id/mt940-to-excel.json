@@ -1,0 +1,115 @@
+{
+  "slug": "mt940-to-excel",
+  "title": "MT940 ke Excel: Konversi Pernyataan Bank MT940 ke XLSX Secara Online Gratis",
+  "description": "Konverter MT940 ke Excel gratis untuk mengurai file MT940 pernyataan bank menjadi spreadsheet yang terstruktur dan dapat difilter. Privat, di browser Anda, tanpa unggahan.",
+  "keywords": ["mt940 ke excel", "konverter mt940", "pernyataan mt940 ke excel", "urai mt940", "pernyataan bank ke xlsx", "mt940 ke csv", "file mt940 ke spreadsheet"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Pernyataan Bank Memiliki Bahasa Sendiri",
+      "paragraphs": [
+        "MT940 adalah format SWIFT internasional yang digunakan bank untuk pernyataan akun — baris tag bertuliskan yang presisi tetapi tidak terbaca. [mt940-to-excel:Mengonversi MT940 ke Excel] menerjemahkan kode-kode tersebut menjadi spreadsheet yang dapat dibaca akuntan mana pun.",
+        "Setiap transaksi tiba dengan tanggal, jumlah, dan referensi utuh, mempertahankan data persis yang direkam bank.",
+        "ChooseTools menganalisis MT940 secara lokal di browser Anda tanpa data yang meninggalkan perangkat Anda."
+      ]
+    },
+    {
+      "heading": "Cara Mengonversi MT940 ke Excel",
+      "paragraphs": [
+        "Dari file bertuliskan ke tabel yang dikenal:",
+        "Tempel teks MT940 atau unggah file dan konversi. Blok transaksi terurai menjadi baris dengan tanggal, jumlah, saldo, dan deskripsi di kolom yang diberi label jelas.",
+        "Penguraian berjalan di perangkat Anda — pernyataan tetap privat selama seluruh proses konversi."
+      ]
+    },
+    {
+      "heading": "Tag Bertuliskan Menjadi Kolom Bermakna",
+      "paragraphs": [
+        "Tag seperti saldo pembukaan, saldo penutup, dan detail transaksi dipetakan ke kolom bernama yang langsung dikenali tim keuangan.",
+        "Debit dan kredit terpisah dengan jelas untuk rekonsiliasi, dengan setiap baris menunjukkan arah dan jumlah.",
+        "Auditor memperoleh baris alih-alih dinding kode, membuat pemeriksaan spot manual menjadi sederhana dan efisien."
+      ]
+    },
+    {
+      "heading": "Memahami Struktur Tag MT940 secara Detail",
+      "paragraphs": [
+        "Tag :20 membawa nomor referensi pernyataan, pengidentifikasi unik yang ditetapkan bank untuk pernyataan tertentu ini. Saat merekonsiliasi beberapa bulan, referensi ini membantu mencocokkan setiap spreadsheet kembali ke periode pernyataan dan file sumber asli.",
+        "Tag saldo :60M dan :62M membingkai setiap pernyataan dengan saldo pembukaan dan penutup. Setiap baris saldo mencakup indikator debit atau kredit, tanggal dalam format YYMMDD, kode mata uang, dan jumlah. Angka-angka penanda ini memungkinkan perangkat lunak rekonsiliasi memverifikasi bahwa tidak ada transaksi yang hilang antar periode.",
+        "Baris transaksi dalam :61 membawa struktur padat: tanggal, tanggal nilai, penanda debit atau kredit, jumlah, jenis transaksi, dan kode referensi. Tag :86 yang mengikuti setiap :61 memberikan narasi yang dapat dibaca manusia, tempat biaya bank, referensi transfer, dan nomor faktur biasanya muncul."
+      ]
+    },
+    {
+      "heading": "Rekonsiliasi Tanpa Kerja Keras",
+      "paragraphs": [
+        "Spreadsheet memungkinkan filter, total, dan tampilan pivot di rentang tanggal atau jumlah mana pun dengan fungsionalitas Excel yang dikenal.",
+        "Cocokkan baris bank dengan catatan internal dengan cepat dan percaya diri menggunakan VLOOKUP atau pemformatan bersyarat.",
+        "Pernyataan berhenti menjadi file statis dan menjadi tabel kerja yang mendukung analisis dan pelaporan."
+      ]
+    },
+    {
+      "heading": "Menangani Beberapa Pernyataan dan Jenis Akun",
+      "paragraphs": [
+        "Satu file MT940 dapat berisi pernyataan untuk beberapa akun atau beberapa periode untuk satu akun. Konverter memisahkan setiap blok pernyataan sehingga Anda memperoleh sheet terpisah atau bagian yang diberi label jelas, mencegah data dari akun berbeda bergabung menjadi satu tabel yang ambigu.",
+        "Pengidentifikasi akun dalam tag :25 membedakan antara rekening giro, tabungan, dan simpanan mata uang asing. Menjaga label-label ini di spreadsheet berarti tim keuangan dapat memfilter berdasarkan jenis akun tanpa mengurutkan secara manual daftar gabungan.",
+        "Urutan referensi pernyataan membantu mengidentifikasi urutan kronologis saat beberapa file tiba sepanjang tahun fiskal. Mempertahankan referensi-referensi ini di spreadsheet memberikan auditor jejak yang andal dari pernyataan paling awal hingga paling baru tanpa tebakan."
+      ]
+    },
+    {
+      "heading": "Dari Spreadsheet ke Perangkat Lunak Akuntansi",
+      "paragraphs": [
+        "Setelah data MT940 ada di Excel, impor ke platform akuntansi melalui fitur unggahan CSV atau Excel mereka. Sebagian besar alat populer menerima data tabular dengan header kolom standar, sehingga spreadsheet yang sudah dianalisis langsung terhubung ke alur kerja pembukuan.",
+        "Tabel pivot merangkum pengeluaran berdasarkan kategori, rentang tanggal, atau mitra dalam hitungan detik. Akuntan memperoleh visibilitas instan ke pola arus kas yang membutuhkan waktu berjam-jam untuk disusun dari teks MT940 mentah.",
+        "Pemformatan bersyarat menyorot transaksi yang tidak biasa besar, entri duplikat, atau tanggal yang jatuh di luar rentang yang diharapkan. Bendera visual ini mengungkap anomali lebih awal, sebelum menyebar melalui proses penutupan bulanan."
+      ]
+    },
+    {
+      "heading": "Diurai Secara Lokal, Aman Secara Fiskal",
+      "paragraphs": [
+        "Data bank termasuk materi paling sensitif yang dimiliki perusahaan, berisi nomor akun, saldo, dan riwayat transaksi.",
+        "Konversi lokal berarti pernyataan tidak pernah bepergian ke pihak ketiga atau melewati server pemrosesan eksternal.",
+        "Privasi dibangun, bukan dijanjikan, dengan semua penguraian terjadi di sesi browser Anda."
+      ]
+    },
+    {
+      "heading": "Kesalahan Berkurang, Format Dipertahankan",
+      "paragraphs": [
+        "Ekstraksi otomatis menghapus kesalahan ketik yang diperkenalkan oleh pengisian ulang manual di lusinan atau ratusan baris transaksi.",
+        "Jumlah dan tanda tangan tetap akurat melalui konversi, tanpa pembulatan atau pemotongan nilai desimal.",
+        "Keamanan kelas keuangan dari file ke sheet, siap untuk audit dan tinjauan kepatuhan."
+      ]
+    },
+    {
+      "heading": "MT940 dalam Peralatan Keuangan",
+      "paragraphs": [
+        "Balikkan dengan [excel-to-mt940:Excel ke MT940], gunakan kembali baris dengan [excel-to-csv:Excel ke CSV], dan arsipkan dengan [pdf-to-text:PDF yang dapat diekstrak] untuk alur kerja dokumen yang lengkap.",
+        "Suite ini gratis dan berbasis browser, tidak memerlukan instalasi atau langganan.",
+        "Pernyataan bertuliskan, didekode menjadi kejelasan untuk setiap tim keuangan."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apa itu file MT940?",
+      "a": "Ini adalah format teks standar SWIFT yang digunakan bank untuk mengirimkan pernyataan akun dengan tag transaksi terstruktur."
+    },
+    {
+      "q": "Apa yang muncul di spreadsheet yang dihasilkan?",
+      "a": "Setiap transaksi menjadi baris dengan tanggal, jumlah, indikasi debit atau kredit, saldo, dan bidang deskripsi."
+    },
+    {
+      "q": "Apakah penguraian bersifat privat?",
+      "a": "Ya. Semuanya berjalan secara lokal di browser Anda tanpa unggahan atau akun."
+    },
+    {
+      "q": "Bisakah saya menangani pernyataan untuk beberapa akun dalam satu file?",
+      "a": "Ya. Konverter memisahkan setiap akun dan periode pernyataan ke bagian yang berbeda sehingga data tidak bergabung antar akun."
+    },
+    {
+      "q": "Bagaimana saya menggunakan data yang sudah dianalisis dalam perangkat lunak akuntansi?",
+      "a": "Ekspor spreadsheet sebagai CSV dan unggah ke platform akuntansi Anda, atau tempel data langsung ke template dan tabel pivot yang sudah ada."
+    },
+    {
+      "q": "Apakah parser akan menangani file MT940 besar dengan ribuan transaksi?",
+      "a": "Ya. Konverter memproses file ukuran berapa pun sepenuhnya di browser Anda, tanpa batasan sisi server untuk jumlah transaksi."
+    }
+  ]
+}

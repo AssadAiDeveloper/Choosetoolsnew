@@ -1,0 +1,118 @@
+{
+  "slug": "css-minifier",
+  "title": "CSS Küçültücü: Web Sitenizi Hızlandırmak İçin Çevrimiçi Ücretsiz CSS Küçültün",
+  "description": "Stil sayfalarını sıkıştırmak ve daha hızlı web siteleri için dosya boyutunu azaltmak üzere ücretsiz CSS küçültücü. Gizli, tarayıcınızda, biçimlendirme ve önizleme seçenekleriyle.",
+  "keywords": ["css küçültücü", "çevrimiçi css küçültme", "css sıkıştırma", "css sıkıştırıcı", "css boyutunu azaltma", "ücretsiz css küçültme", "css küçültme aracı"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Her CSS Baytı Bir Saniyelik Yüke Değerdir",
+      "paragraphs": [
+        "Küçültülmüş CSS; beyaz boşlukları, yorumları ve gereksizlikleri atarak mobil kullanıcıların her ziyarette indirdiği stil sayfalarını küçültür. [css-minifier:CSS küçültme], her sitenin kullanabildiği en hızlı performans kazancıdır.",
+        "Daha küçük CSS, daha hızlı işleme, daha iyi puanlar ve daha düşük bant genişliği anlamına gelir.",
+        "ChooseTools CSS'i tarayıcınızda yerel olarak, güvenli ve geri alınabilir şekilde küçültür."
+      ]
+    },
+    {
+      "heading": "CSS'inizi Nasıl Küçültürsünüz",
+      "paragraphs": [
+        "Okunabilir stil sayfasından sıkıştırılmış yayın dosyasına:",
+        "CSS'inizi yapıştırın ve küçült düğmesine tıklayın. Araç, kuralları, seçicileri ve bildirimleri tam olarak korurken kaldırılabilir baytları atar.",
+        "Bir önizleme, sonucu kopyalamadan önce boyut kazancını gösterir."
+      ]
+    },
+    {
+      "heading": "Küçültme Ne Kaldırır, Nelere Asla Dokunmaz",
+      "paragraphs": [
+        "Beyaz boşluklar, yorumlar ve zararsız gereksizlikler kaldırılır; seçiciler, değerler ve satıcı önekleri birebir korunur.",
+        "İşlevsel çıktı, yük ağırlığı hariç kaynakla birebir aynı işlenir.",
+        "Anlamlar hiç değişmediği için üretim için güvenlidir."
+      ]
+    },
+    {
+      "heading": "Biçimle, Küçült, Karşılaştır",
+      "paragraphs": [
+        "Geliştirmede okunabilir kaynağı, üretimde kompakt çıktıyı tercih edin.",
+        "Biçimle, küçült ve önizle, araçlar arasında geçiş yapmadan o döngüyü destekler.",
+        "Her iki biçim de incelenebilir olduğu için sürüm kontrolü temiz kalır."
+      ]
+    },
+    {
+      "heading": "Yükleme Süresi Üzerindeki Gerçek Etkiyi Ölçmek",
+      "paragraphs": [
+        "80 KB'den 25 KB'ye küçülen bir stil sayfası, ziyaretçi başına 55 KB tasarruf sağlar ve bu tasarruf her sayfa görüntülemesinde çoğalır. Günde on bin ziyaretçiye hizmet veren bir site için kümülatif bant genişliği azalması, tek bir tasarım kararı değiştirilmeden her hafta yüzlerce megabayta ulaşır.",
+        "Largest Contentful Paint ve First Contentful Paint gibi Core Web Vitals metrikleri, CSS daha hızlı geldiğinde doğrudan iyileşir. Arama motorları sayfaları sıralamak için bu sinyalleri kullanır; daha hafif bir stil sayfası sonuçlardaki konumunuzu yükseltebilir.",
+        "Araç, küçültmeden önceki ve sonraki tam bayt sayısını gösterir; performans raporlarında belirsiz iyileştirme iddiaları yerine somut rakamlar sunar."
+      ]
+    },
+    {
+      "heading": "Küçültme ve Sıkıştırma Karşılaştırması ve Neyi Küçültmemek Gerekir",
+      "paragraphs": [
+        "Küçültme ve sıkıştırma rekabet etmekten çok tamamlayıcıdır: gzip veya Brotli sıkıştırılmış yanıtlar gönderen bir sunucu, önceden küçültülmüş kaynaktan daha da fazla fayda görür. İkisini birleştirmek, tarayıcının tel üzerinden olabilecek en küçük yükü indirmesi anlamına gelir.",
+        "Birkaç dosya bilinçli olarak güzel biçimde yazdırılmış kalmalıdır; örneğin üretimde doğrudan okuyup hata ayıklamayı planladığınız üçüncü taraf kütüphane dosyaları. Bu durumlarda, okunabilir kopyayı kalıcı olarak sökmek yerine küçültülmüş derlemenin yanında tutun.",
+        "Araç yapıştırdığınız orijinal kaynağı koruduğu için, agresif ayarlarla güvenle deney yapabilir ve deponuz için okunabilir sürümü aynı anda saklayabilirsiniz."
+      ]
+    },
+    {
+      "heading": "Küçültülmüş CSS'i Derlemenize Entegre Etmek",
+      "paragraphs": [
+        "Stilli bir siteyi yayımlamak genellikle hosting platformuna bir derleme dizini teslim etmek anlamına gelir. Depoda tek bir kanonik okunabilir stil sayfası tutmak ve yayın zamanında küçültülmüş bir kopya üretmek, işi çoğaltmadan sürdürülebilirlik ve performans sağlar.",
+        "Bazı dağıtım hatları otomatik küçültür; ancak elle tarayıcı içi geçiş, tek sayfalık siteler, prototipler ve derleme sistemi olmayan hızlı düzeltmeler için mükemmeldir. Küçültülmüş dosyanın nereden geldiğini ve neyin kaldırıldığını bilmek, gelecekteki düzenlemeleri öngörülebilir kılar."
+      ]
+    },
+    {
+      "heading": "Ön Uç Genelinde Birleşik Performans",
+      "paragraphs": [
+        "Küçültülmüş CSS'i [compress-image:görüntü sıkıştırma] ile sıkıştırılmış görsellerle ve [json-formatter:biçimlendiriciler] ile sade HTML/JSON ile eşleştirin.",
+        "Tıraşlanan her katman, daha hızlı bir ilk işleme anlamına gelir.",
+        "Sayfa ölçümleri tüm hatta teşekkür eder."
+      ]
+    },
+    {
+      "heading": "Kenar Durumları ve Güvenlik Notları",
+      "paragraphs": [
+        "Beyaz boşluk içeren dizeleri olan içerik özelliklerini barındıran CSS doğru biçimde korunur; sitenizdeki hiçbir metin küçültme nedeniyle değiştirilmez. İki nokta üst üste, köşeli ayraç ve sözde-sınıf içerenler dahil seçici adları, anlam taşıdıkları için elle dokunulmadan geçer.",
+        "-webkit- ve -moz- gibi satıcı önekleri, belirli tarayıcılarda özellikleri etkinleştirdikleri için asla sökülmez. Küçültücü bunları gerekli olarak tanır ve tam yazıldığı gibi tutar.",
+        "Stil sayfanız CSS özel özellikleri veya calc() ifadeleri kullanıyorsa, araç değerleri değerlendirmek yerine sözdizimi düzeyinde çalıştığı için tüm bu gelişmiş yapılar küçültmeden zarar görmeden çıkar."
+      ]
+    },
+    {
+      "heading": "Özel Sayfalar, Bulut Yok",
+      "paragraphs": [
+        "Yayınlanmamış stil sayfaları, yerel olarak işlendiğinde tam da bu şekilde kalır.",
+        "Platformlar arasında yükleme yok, hesap yok, filigran yok.",
+        "Site kodu kurum içinde kalır."
+      ]
+    },
+    {
+      "heading": "Geliştirici Araç Kutusunda CSS",
+      "paragraphs": [
+        "Küçültmeyi eksiksiz bir derleme seti için [convert-image:varlık dönüşümleri] ve [url-encode:URL işleme] ile takip edin.",
+        "Her şey ücretsizdir ve tarayıcı yerelidir.",
+        "Daha hafif stil sayfaları, her derlemede özel olarak teslim edilir."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Küçültmek CSS'in işlenme biçimini değiştirir mi?",
+      "a": "Hayır. Yalnızca beyaz boşluklar, yorumlar ve kaldırılabilir gereksizlikler sökülür; seçiciler ve değerler korunur, bu yüzden işleme değişmez."
+    },
+    {
+      "q": "Kopyalamadan önce boyut kazancını görebilir miyim?",
+      "a": "Evet. Araç, sıkıştırılmış sonucu önizler ve dışa aktarmadan önce boyut iyileştirmesini gösterir."
+    },
+    {
+      "q": "CSS küçültücü gizli mi?",
+      "a": "Evet. Her şey tarayıcınızda yerel olarak çalışır; yükleme veya hesap yoktur."
+    },
+    {
+      "q": "Küçültme medya sorgularımı veya animasyonlarımı bozar mı?",
+      "a": "Hayır. Medya sorguları, keyframes, animasyonlar ve tüm yapısal CSS yapıları eksiksiz korunur. Yalnızca işlemeyi etkilemeyen kozmetik karakterler kaldırılır."
+    },
+    {
+      "q": "Çıktıyı doğrudan üretimde kullanabilir miyim?",
+      "a": "Evet. Küçültülmüş çıktı üretime hazırdır ve kaynak stil sayfanızla birebir aynı işlenir; yalnızca dosya boyutu daha küçüktür."
+    }
+  ]
+}

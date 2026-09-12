@@ -1,0 +1,125 @@
+{
+  "slug": "steganography",
+  "title": "Cómo Ocultar Texto en Imágenes Online Gratis: Esteganografía en el Navegador",
+  "description": "Oculta y revela texto secreto dentro de imágenes online gratis con ChooseTools. Codifica mensajes en fotos usando esteganografía, enteramente en tu navegador sin subidas.",
+  "keywords": ["esteganografía", "ocultar texto en imagen", "ocultar mensaje en foto", "esteganografía online", "codificar mensaje en imagen", "texto secreto en imagen", "decodificar esteganografía de imagen"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "El Truco Más Antiguo en la Comunicación Digital",
+      "paragraphs": [
+        "Antes de la cifración, había ocultar: enterrar un mensaje donde nadie mira. [steganography:Ocultar texto dentro de imágenes] es el remix elegante de la técnica moderna: el portador parece una foto inocente mientras los bytes de tu mensaje viajan dentro de él.",
+        "Los casos de uso legítimos incluyen marcas de agua de propiedad, ocultar notas en gráficos compartidos y demostraciones académicas de canales encubiertos.",
+        "ChooseTools realiza esteganografía localmente en tu navegador: codifica un mensaje en una imagen o extrae el que lleva, sin subidas."
+      ]
+    },
+    {
+      "heading": "Cómo Ocultar un Mensaje en una Imagen",
+      "paragraphs": [
+        "La codificación es cuestión de segundos:",
+        "Sube una imagen portadora, escribe o pega el mensaje que quieres ocultar, y codifica. La herramienta teje el texto en los píxeles de la imagen, y descargas un archivo que parece inalterado.",
+        "Para revelar, vuelve a subir la imagen modificada y decodifica: el mensaje reaparece.",
+        "Todo ocurre en tu dispositivo."
+      ]
+    },
+    {
+      "heading": "Cómo los Bytes se Ocultan Invisible",
+      "paragraphs": [
+        "Los cambios sutiles en los bits menos significativos de los colores de los píxeles transportan datos sin ser perceptibles al ojo humano.",
+        "Un observador ve una foto normal; un decodificador encuentra el mensaje.",
+        "Las imágenes de complejidad adecuada transportan la carga de la forma más limpia."
+      ]
+    },
+    {
+      "heading": "Usos Legítimos: Marcas de Agua, Notas, Estudio",
+      "paragraphs": [
+        "Los artistas incrustan su firma de forma invisible; los colaboradores colocan un mensaje en una vista previa compartida; los estudiantes exploran el poder y los límites de la técnica.",
+        "Combinado con una [password-generator:clave fuerte] o un envoltorio [base64:base64], la carga oculta se vuelve tanto opaca como codificada.",
+        "Como con cualquier herramienta poderosa, úsala de forma responsable."
+      ]
+    },
+    {
+      "heading": "Privacidad de Todo el Intercambio",
+      "paragraphs": [
+        "Codificar un mensaje oculto es lo último que quieres entregar a un servidor en la nube. El procesamiento local mantiene al portador y al secreto juntos en tu máquina.",
+        "Sin subidas, sin cuenta, sin marca de agua, y sin que un tercero se entere de que existe un mensaje.",
+        "Windows, macOS, Linux y móvil se comportan todos de forma idéntica."
+      ]
+    },
+    {
+      "heading": "Esteganografía en el Kit de Herramientas Amplio",
+      "paragraphs": [
+        "Combina el trabajo de mensajes ocultos con [compress-image:compresión de imagen] para portadores más pequeños, y [resize-image:redimensionar] para dimensiones objetivo.",
+        "El conjunto completo es gratuito y nativo del navegador.",
+        "Sigilo, dignidad y total privacidad en un solo truco elegante."
+      ]
+    },
+    {
+      "heading": "Selección de Imagen Portadora y Límites de Capacidad",
+      "paragraphs": [
+        "La cantidad de texto que puedes ocultar depende directamente de las dimensiones y la profundidad de color de la imagen portadora, ya que cada píxel contribuye un pequeño número de bits a la carga oculta.",
+        "Una fotografía de alta resolución con millones de colores puede transportar significativamente más datos que un icono pequeño o una miniatura muy comprimida.",
+        "Las imágenes complejas con texturas y degradados variados ocultan datos más eficazmente que las áreas planas de un solo color, ya que los cambios sutiles de píxel se mezclan naturalmente en el ruido existente.",
+        "Seleccionar un portador que sea visualmente inocuo y suficientemente grande asegura que el mensaje permanezca oculto mientras se ajusta a la capacidad que la imagen proporciona."
+      ]
+    },
+    {
+      "heading": "Resistencia a la Detección y Análisis Estadístico",
+      "paragraphs": [
+        "Las técnicas de esteganálisis examinan imágenes en busca de anomalías estadísticas que revelan datos ocultos, como distribuciones antinaturales en los planos de bits menos significativos.",
+        "Los métodos de codificación simples son más vulnerables a la detección porque producen patrones que las herramientas automatizadas pueden identificar de forma fiable.",
+        "Elegir imágenes portadoras con ruido fotográfico natural proporciona cobertura inherente, ya que la variación existente de píxeles enmascara las adiciones realizadas durante la codificación.",
+        "El conocimiento de estos métodos de detección te ayuda a seleccionar portadores y técnicas que mantengan el secreto que la comunicación requiere."
+      ]
+    },
+    {
+      "heading": "Combinando Esteganografía con Cifración",
+      "paragraphs": [
+        "Ocultar un mensaje oculta su existencia, pero no protege su contenido si alguien descubre los datos ocultos a través de análisis avanzado.",
+        "Cifrar el mensaje antes de codificarlo en la imagen añade una segunda capa de seguridad: incluso si se descubre la carga oculta, el contenido permanece ilegible sin la clave de descifrado.",
+        "Los algoritmos de cifrado simétrico fuertes como AES producen texto cifrado que es indistinguible de datos aleatorios, convirtiéndolo en una entrada ideal para la codificación esteganográfica.",
+        "Usar ambas técnicas juntas logra el objetivo de la comunicación encubierta: el mensaje está oculto de la observación casual y protegido contra la extracción decidida."
+      ]
+    },
+    {
+      "heading": "Casos de Uso en Derechos Digitales y Protección Creativa",
+      "paragraphs": [
+        "Los fotógrafos incrustan marcas de agua invisibles en imágenes de portafolio compartidas en línea, permitiéndoles demostrar propiedad si aparecen copias no autorizadas en otro lugar.",
+        "Los diseñadores gráficos ocultan identificadores de versión en recursos de borrador, para que puedan rastrear qué revisión se filtró si el trabajo confidencial aparece antes del lanzamiento oficial.",
+        "Los editores usan marcadores esteganográficos para identificar la fuente de un documento distribuido sin marcar visiblemente cada copia.",
+        "Estas aplicaciones demuestran que la esteganografía sirve a propósitos de negocio prácticos más allá de la curiosidad académica."
+      ]
+    },
+    {
+      "heading": "Limitaciones y Qué No Puede Hacer la Esteganografía",
+      "paragraphs": [
+        "La esteganografía oculta la existencia de un mensaje pero no lo cifra, por lo que cualquiera que descubra la técnica y extraiga la carga lo lee en texto plano.",
+        "Las conversiones de formato de imagen, la compresión y el redimensionamiento pueden destruir los datos ocultos, haciendo que la elección del formato portador y el manejo cuidadoso sean esenciales.",
+        "La capacidad está inherentemente limitada por la imagen portadora, por lo que la esteganografía no es adecuada para transmitir documentos o archivos grandes.",
+        "Comprender estas restricciones asegura que uses la esteganografía donde es eficaz y dependas de otras medidas de seguridad cuando son más apropiadas."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Ocultar datos cambiará el aspecto de mi imagen?",
+      "a": "No. La técnica solo altera detalles menores de píxel imperceptibles al ojo, por lo que la imagen portadora parece inalterada."
+    },
+    {
+      "q": "¿El mensaje oculto se puede leer sin la herramienta?",
+      "a": "No. Solo volver a ejecutar este decodificador en la imagen modificada revela la carga; es invisible para los espectadores normales."
+    },
+    {
+      "q": "¿La esteganografía se realiza de forma privada?",
+      "a": "Sí. Todo se ejecuta localmente en tu navegador: sin subidas, marcas de agua ni cuentas, por lo que la existencia del mensaje permanece entre tú y el destinatario."
+    },
+    {
+      "q": "¿Cuánto texto puedo ocultar en una sola imagen?",
+      "a": "La capacidad depende de la resolución y la profundidad de color de la imagen portadora. Una fotografía de alta resolución puede contener varios párrafos, mientras que una miniatura pequeña solo puede alojar una oración corta."
+    },
+    {
+      "q": "¿La compresión de imagen o la conversión de formato pueden destruir el mensaje oculto?",
+      "a": "Sí. Convertir entre formatos, redimensionar o aplicar compresión con pérdidas pueden alterar los datos de píxel lo suficiente como para borrar la carga oculta, por lo que manipula las imágenes codificadas con cuidado."
+    }
+  ]
+}

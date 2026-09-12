@@ -1,0 +1,115 @@
+{
+  "slug": "reverse-text",
+  "title": "Inverter Texto Online Grátis: Inverta Letras, Palavras e Linhas Instantaneamente",
+  "description": "Inversor de texto online gratuito para inverter texto, reverter palavras ou inverter a ordem das linhas instantaneamente. Ótimo para diversão, formatação e quebra-cabeças. Privado, no seu navegador.",
+  "keywords": ["inverter texto", "inverter texto online", "inverter string", "inverter palavras", "espelhar texto", "texto ao contrário", "ferramenta de texto espelhado"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Ao Contrário É um Visual, Por Vezes uma Lógica",
+      "paragraphs": [
+        "Inverter texto vira uma sequência de pernas para o ar: as letras trocam, as palavras invertem-se, as linhas trocam de lugar. Das legendas divertidas nas redes sociais ao design de quebra-cabeças e experiências de legibilidade, o [reverse-text:inversor de texto] online é um utilitário deliciosamente simples.",
+        "Os programadores usam-no para testar lógica de palíndromos; os designers utilizam-no para tipografia espelhada.",
+        "A ChooseTools inverte texto localmente no seu navegador, em modos de letra, palavra e linha."
+      ]
+    },
+    {
+      "heading": "Inverter Letras, Palavras ou Linhas",
+      "paragraphs": [
+        "Três inversões distintas, uma ferramenta:",
+        "O modo de letra inverte «hello» para «olleh». O modo de palavra inverte «one two three» para «three two one». O modo de linha inverte cada linha de uma lista.",
+        "Escolha a granularidade que a sua tarefa exige e copie o resultado."
+      ]
+    },
+    {
+      "heading": "Teste de Palíndromos para Programadores e Enigmas",
+      "paragraphs": [
+        "Um palíndromo lê-se igual de trás para a frente: invertê-lo é o teste definitivo.",
+        "Quem aprende e quem concebe quebra-cabeças confirma strings instantaneamente com o resultado da inversão de letras.",
+        "A inversão da ordem das palavras ajuda modelos de linguagem e tradutores a verificar pontos sintáticos."
+      ]
+    },
+    {
+      "heading": "Texto Divertido e Efeitos Criativos",
+      "paragraphs": [
+        "As legendas ao contrário na cultura das mensagens transmitem fantasia; o texto espelhado dá ao design um cunho editorial.",
+        "Mostre a versão normal e a versão invertida lado a lado para apreciação do público.",
+        "A criatividade precisa de um espelho com um clique."
+      ]
+    },
+    {
+      "heading": "Casos de Uso de Programadores e de Controlo de Qualidade",
+      "paragraphs": [
+        "Os engenheiros de software testam frequentemente funções de tratamento de strings alimentando-as com entrada invertida para verificar que os algoritmos lidam com ordens de caracteres não padronizadas. A depuração de texto da direita para a esquerda também beneficia de gerar rapidamente amostras espelhadas sem alterar os ficheiros de origem.",
+        "As equipas de controlo de qualidade usam texto invertido para testar sob pressão campos de pesquisa, lógica de autocompletar e motores de renderização de texto. Se um componente renderizar strings invertidas corretamente, é muito mais provável que lide com elegância com casos extremos invulgares de Unicode.",
+        "Ter um inversor instantâneo baseado em navegador significa que os programadores podem prototipar dados de teste em segundos, em vez de escreverem scripts descartáveis para um único passo de verificação."
+      ]
+    },
+    {
+      "heading": "Exploração Linguística e Educação",
+      "paragraphs": [
+        "Quem aprende línguas usa a inversão para estudar estruturas silábicas e padrões de acentuação de um novo ângulo. Ver palavras e frases ao contrário realça componentes fonéticos que são fáceis de ignorar na ordem de leitura normal.",
+        "Os professores atribuem exercícios de inversão para ajudar os alunos a desenvolver raciocínio espacial e capacidade de reconhecimento de padrões. A atividade é simples o suficiente para aprendizes jovens e conceitualmente rica o suficiente para discussões avançadas de linguística.",
+        "Como a ferramenta funciona inteiramente no navegador, a utilização em sala de aula não exige contas, downloads ou partilha de dados, tornando-a adequada para ambientes escolares com requisitos rigorosos de privacidade."
+      ]
+    },
+    {
+      "heading": "Detalhes de SEO e Usabilidade Que Vale a Pena Conhecer",
+      "paragraphs": [
+        "O texto invertido é ocasionalmente usado por donos de sites para rodar uma frase visualmente, mas os motores de busca leem os caracteres subjacentes e podem indexá-los em ordem literalmente invertida. Para estilização legítima, os efeitos espelhados conseguem-se melhor com transformações CSS do que com strings de caracteres invertidos.",
+        "Os leitores de acessibilidade também processam o texto pela ordem em que aparece, pelo que as strings invertidas são anunciadas ao contrário aos utilizadores de leitores de ecrã. Manter o efeito de inversão decorativo, e não funcional, preserva a experiência de todos.",
+        "Para efeitos verdadeiramente direcionais, como texto vertical ou títulos rodados, ferramentas de formatação dedicadas produzem melhores resultados do que inverter a própria string."
+      ]
+    },
+    {
+      "heading": "Quebra-Cabeças, Enigmas e Salas de Fuga",
+      "paragraphs": [
+        "Os designers de salas de fuga embutem mensagens invertidas em adereços, cartas e notas como mecânica central de quebra-cabeças, e escrever essas pistas exige gerar texto invertido limpo a pedido. Os organizadores que preparam uma nova sala podem redigir cada pista ao contrário em segundos e verificar a forma decifrada antes de imprimir.",
+        "Livros de enigmas, caças ao tesouro e convites de festa usam frases invertidas como um guardião lúdico que os participantes devem decifrar. Ter o texto invertido instantaneamente mantém o fluxo de produção curto e o desafio consistente.",
+        "Mesmo que esteja apenas a surpreender um amigo com uma mensagem de aniversário ao contrário, a ferramenta produz um resultado impecável em segundos, exatamente tão longo ou curto quanto o seu original."
+      ]
+    },
+    {
+      "heading": "Unicode, Emoji e Escritas Mistas",
+      "paragraphs": [
+        "O texto moderno raramente é ASCII simples, e um inversor deve lidar com letras acentuadas, emoji e escritas da direita para a esquerda sem corromper os caracteres. A ferramenta funciona ao nível do caractere, para que diacríticos e símbolos permaneçam intactos enquanto a ordem é invertida.",
+        "Emoji compostos por vários code points, como os emoji de família que combinam várias pessoas num único glifo, são tratados como unidades completas para que permaneçam legíveis após a inversão, em vez de se dispersarem em pedaços quebrados.",
+        "Strings de escrita mista que combinam árabe, latim e números invertem-se de forma previsível, o que é valioso ao testar motores de layout e renderização de texto em várias línguas."
+      ]
+    },
+    {
+      "heading": "Texto Privado para Brincar",
+      "paragraphs": [
+        "Rascunhos e experiências acontecem localmente.",
+        "Sem uploads, sem conta, sem marcas de água — em todos os dispositivos.",
+        "Ao contrário é opcional; privacidade não é."
+      ]
+    },
+    {
+      "heading": "Inversão na Suite de Texto",
+      "paragraphs": [
+        "Inverta o texto e depois [find-replace:limpe-o], [word-counter:meça-o] ou [case-converter:reformate-o].",
+        "Toda a suite é gratuita e nativa do navegador.",
+        "Lúdico, preciso, privado."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Qual é a diferença entre os modos de inversão?",
+      "a": "O modo de letra espelha cada caractere, o modo de palavra inverte a sequência de palavras e o modo de linha inverte a ordem das linhas."
+    },
+    {
+      "q": "Posso verificar se uma palavra é um palíndromo?",
+      "a": "Sim. Inverta a palavra no modo de letra e compare — um resultado idêntico significa que se lê igual de trás para a frente."
+    },
+    {
+      "q": "O inversor de texto é privado?",
+      "a": "Sim. Todo o processamento acontece localmente no seu navegador, sem uploads ou contas."
+    },
+    {
+      "q": "A inversão preserva espaços e pontuação?",
+      "a": "Sim. O modo de letra inverte cada caractere, incluindo espaços e pontuação, nas suas posições exatas. Os modos de palavra e de linha preservam a estrutura interna das palavras ao reordenar."
+    }
+  ]
+}

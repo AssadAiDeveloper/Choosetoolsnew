@@ -1,0 +1,103 @@
+{
+  "slug": "id-photo",
+  "title": "How to Make ID Photos Online Free: ID Photo Maker With Correct Sizes",
+  "description": "Make ID photos online free with ChooseTools. Create passport-style and ID photos with correct dimensions, backgrounds and crop in your browser, entirely private.",
+  "keywords": ["id photo maker", "passport photo online free", "make id photo", "passport size photo", "id photo size calculator", "passport photo app", "visa photo online"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Travel, Visas and Documents All Demand Exact Photos",
+      "paragraphs": [
+        "Passports, visas, national IDs and work badges each specify photo dimensions, background colors and face placement. Meeting those specs used to mean a professional booth; today a good [id-photo:ID photo maker] prints-perfect result comes from a home camera.",
+        "Local editing means trying variations and correcting a bad shot costs nothing and never uploads your face.",
+        "ChooseTools makes ID photos directly in your browser with document-specific size presets."
+      ]
+    },
+    {
+      "heading": "How to Make a Passport Photo Step by Step",
+      "paragraphs": [
+        "Careful composition rules govern official photos; the tool enforces them.",
+        "Upload a straight-on photo with even lighting. Select the target — passport, visa, ID — and the tool crops to the required dimensions and guides background and face placement. Preview against the official spec and export.",
+        "Processing locally gives you instant feedback and unlimited retakes without leaving the browser."
+      ]
+    },
+    {
+      "heading": "Exact Dimensions for Every Document",
+      "paragraphs": [
+        "A US passport wants a specific size; a Schengen visa yet another; most national IDs differ again.",
+        "The preset library matches the document you are applying for, cropping precisely and offering the proper background (often pure white or light gray).",
+        "Getting the size exactly right avoids the classic rejection — wrong dimensions — before you ever print a sheet."
+      ]
+    },
+    {
+      "heading": "Background Control Without Photoshop",
+      "paragraphs": [
+        "Most official photos require a uniform background; a cluttered wall disqualifies the shot.",
+        "The tool lets you set a clean white or light background from your photo, keeping the process office-spec simple.",
+        "The final image matches regulation expectations found in embassy guidance."
+      ]
+    },
+    {
+      "heading": "Lighting, Pose and the Rules That Get Photos Approved",
+      "paragraphs": [
+        "Official photo guidelines converge on the same principles across most countries: facing the camera, neutral expression, mouth closed and eyes open and clearly visible. Glasses must be free of glare, and head coverings are permitted only for religious reasons that are declared to the interviewer or service.",
+        "Lighting should fall evenly on the face with no shadows behind you, and the background must be a plain solid color without textures. Wearing clothing that contrasts with the background prevents your outline from disappearing into the image.",
+        "Reviewing each official guideline before taking the shot saves a rejected application, and the tool positions your crop within the required head-height and face-width proportions that scanners expect."
+      ]
+    },
+    {
+      "heading": "Printing at the Correct Physical Size",
+      "paragraphs": [
+        "A digital photo that looks correct on screen can still be rejected if it prints at the wrong physical dimensions. Passport photo booths and application offices require specifics like 35 by 45 mm for many passport types or 2 by 2 inches for US passports.",
+        "Setting the correct pixels-per-inch value matters because a file that is exactly 600 by 600 pixels prints at 1 inch when saved at 600 PPI but at 2 inches when saved at 300 PPI. Choosing a print-ready export keeps the math consistent.",
+        "When an application office prints your photos, the file must also preserve enough resolution that the face remains sharp at the required print size. Exporting at a resolution that satisfies both the pixel dimensions and the physical print size removes the final rejection risk."
+      ]
+    },
+    {
+      "heading": "Privacy for Very Personal Imagery",
+      "paragraphs": [
+        "Your ID photo is personal-identity material, the least suitable file for a random web service. Local processing keeps it entirely on your device.",
+        "No upload, no watermark, no account — identical behavior on desktop and mobile.",
+        "Print a sheet or take the digital file to the service directly; the result is entirely yours."
+      ]
+    },
+    {
+      "heading": "Expiry Renewal and Consistency Across Documents",
+      "paragraphs": [
+        "Renewing a passport or updating a work badge calls for a fresh photo that still reads as the same person across all your documents. Keeping one current portrait as the reference and regenerating compliant crops from it makes every new card recognizably yours.",
+        "Consistency matters for verification: border systems and HR databases compare new photos against stored biometric references, and a photo that obviously resembles your existing records clears checks faster.",
+        "Preparing the digital file at the correct size means you can submit electronically exactly as required, while simultaneously printing a sheet in the physical size for offices that still request paper."
+      ]
+    },
+    {
+      "heading": "Complete Photo Prep in the Browser",
+      "paragraphs": [
+        "Prepare the portrait with [resize-image:resize], tidy the background by [crop-image:crop], and finalize the ID format here.",
+        "The whole suite is free, private and browser-based for any document run.",
+        "From camera roll to compliant ID photo, in one continuous session."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Which ID photo sizes are supported?",
+      "a": "Presets cover passport, visa and national ID dimensions with the correct aspect and background expectations; you can also enter custom dimensions."
+    },
+    {
+      "q": "Can I take a compliant photo with a phone camera?",
+      "a": "Yes. Use even lighting and a plain background, then let the tool crop to the required proportions and adjust the background to spec."
+    },
+    {
+      "q": "Is the ID photo maker private?",
+      "a": "Yes. Everything runs locally in your browser with no uploads or accounts — your photo never leaves your device."
+    },
+    {
+      "q": "Can I set a custom size for an unusual ID document?",
+      "a": "Yes. Beyond the preset library you can enter exact custom dimensions, so nonstandard badges and internal security cards are covered too."
+    },
+    {
+      "q": "How do I know the background will meet the specification?",
+      "a": "The tool applies a controlled white or light background adjustment and shows you the final result so you can verify that the plain background matches the guidance for your document."
+    }
+  ]
+}

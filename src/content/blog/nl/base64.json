@@ -1,0 +1,100 @@
+{
+  "slug": "base64",
+  "title": "Base64 Encoder Decoder: Codeer en Decodeer Tekst Gratis Online",
+  "description": "Gratis online Base64-encoder en -decoder voor tekst en binaire gegevens, met UTF-8-ondersteuning en veilige, koppelklare output. Privé, direct, in je browser.",
+  "keywords": ["base64 encode", "base64 decode", "base64 converter", "base64 coderen", "base64 online decoderen", "base64 tekst tool", "base64 tekenreeks converter"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Base64 Verandert Bytes in Tekst die Iedereen Kan Verplaatsen",
+      "paragraphs": [
+        "E-mailbijlagen, JSON-verzoeken en URLs converteren allemaal binair naar base64, een tekenset die zowel oude als moderne systemen overstijgt. [base64:Base64 coderen en decoderen] online is een standaard ontwikkelaarsreflex.",
+        "Datzelfde tool doet beide richtingen, waardoor retourreizen één klik zijn.",
+        "ChooseTools codeert en decodeert lokaal in je browser met correcte UTF-8-verwerking."
+      ]
+    },
+    {
+      "heading": "Hoe Base64 Coderen of Decoderen",
+      "paragraphs": [
+        "Beide richtingen, naadloos:",
+        "Plak gewone tekst om hem te coderen naar base64, of plak een base64-tekenreeks om de originele tekst terug te halen. UTF-8-ondersteuning houdt accenten en niet-Latijns tekens trouw.",
+        "De output toont koppelklaar zonder verborgen regeleinden."
+      ]
+    },
+    {
+      "heading": "Waarom Gegevens als Base64 Reizen",
+      "paragraphs": [
+        "E-mail, JSON-velden en kanalen voor besturing reserveren bepaalde tekens, dus ruwe binaire gegevens moeten transformeren. Een regeleinde, een aanhalingsteken of een backslash in een JSON-tekenreeks zou de parser breken, en null-bytes zouden tekengebaseerde protocollen volledig corrupt maken.",
+        "Base64's afdrukbare alfabet overleeft die beperkingen universeel. Omdat het alleen letters, cijfers en twee veilige symbolen gebruikt, kan de resulterende tekenreeks door e-mail reizen, opgeslagen worden in aanhalingstekens, in configuratiebestanden worden geplaatst en op elk toetsenbord worden ingetypt zonder corruptie.",
+        "Gegevensintegriteit overleeft transport omdat codering reversibel en verliesvrij is. Elke invoerbyte komt overeen met exact één geldige base64-output, en de decodeerfunctie inverteert het proces precies, zodat er niets verloren gaat tussen verzender en ontvanger."
+      ]
+    },
+    {
+      "heading": "Praktijktoepassingen van Base64-codering",
+      "paragraphs": [
+        "Data URIs embedden afbeeldingen, lettertypen en audio direct in HTML- en CSS-bestanden, waardoor extra HTTP-verzoeken worden geëlimineerd en paginaloading wordt versneld. Een klein pictogram gecodeerd als base64 kan inline in de stylesheet staan, waardoor het aantal retouren dat een browser moet maken voordat de pagina wordt gerenderd, wordt verminderd. Ontwikkelaars gebruiken deze techniek voor hero-afbeeldingen, laadspinners en kleine audioclips die de waargenomen prestaties verbeteren.",
+        "API's verzenden vaak binaire verzoeken in JSON-tekenreeksen omdat JSON geen binair type heeft. Een profielfoto-upload, een PDF-export of een ondertekend document komen allemaal aan als base64-gecodeerde blokken in de JSON-body. De ontvangende applicatie decodeert het blok terug naar bytes voordat het wordt verwerkt, en de retourreis is transparant wanneer de UTF-8-verwerking correct is.",
+        "Configuratiebeheertools zoals Ansible en Terraform slaan certificaten, privésleutels en gecodeerde geheimen op als base64-tekenreeksen in YAML- of HCL-bestanden. Codering houdt de bestanden leesbaar voor mensen terwijl tekens worden vermeden die YAML-inspringing of shell-escaping zouden breken. Decoderen herstelt de originele bytes voor installatie in het doelsysteem.",
+        "Logging-pijplijnen coderen soms binaire verzoeken voordat ze worden toegevoegd aan tekengebaseerde logstroom. Dit voorkomt dat bedieningstekens, null-bytes en niet-afdrukbare tekens het logformaat corrupt maken. Analisten decoderen de base64-blokken wanneer ze de originele binaire inhoud moeten inspecteren tijdens incidentonderzoek."
+      ]
+    },
+    {
+      "heading": "Codering Is Geen Versleuteling",
+      "paragraphs": [
+        "Base64 verward kijkers maar beschermt niets: decoderen is eenvoudig.",
+        "Voor echte geheimhouding, gebruik [password-generator:sterke sleutels] en hashing; voor integriteit, gebruik [hash-generator:hashes]",
+        "Ken de eerlijke beperkingen van Base64 voordat je erop vertrouwt."
+      ]
+    },
+    {
+      "heading": "UTF-8-tekst Blijft Intact",
+      "paragraphs": [
+        "Emoji, Arabisch, Chinees en tekst met accenten worden getrouw gecodeerd en gedecodeerd wanneer de UTF-8-verwerking correct is. Zowel tweebijtes als vierbijtes-reeksen worden gelezen als een volledig teken in plaats van een reeks ongerelateerde bytes, zodat er niets wordt verminkt onderweg.",
+        "De encoder beheert de multibyte-details zodat retourreizen exact met de invoer overeenkomen. Plak een volledige zin met emoji of een Arabische paragraaf, codeer het en decodeer het resultaat, en je herstelt de originele tekens precies.",
+        "Geen mojibake na de eerste passage, omdat de conversie een strikte byte-naar-teken-mapping gebruikt in plaats van een verliesgevoelige, locale-specifieke transformatie. Wat je ook hebt gecodeerd, je kunt altijd terugdecoderen naar exact dezelfde originele tekst."
+      ]
+    },
+    {
+      "heading": "Tekengrootte, Padding en Interoperabiliteit",
+      "paragraphs": [
+        "Het standaard base64-alfabet gebruikt 64 afdrukbare ASCII-tekens plus het gelijkheidsteken voor padding. Verschillende systemen kunnen regeleinden invoegen op 76-tekenintervallen voor e-mailnaleving (MIME), terwijl andere een enkele ononderbroken tekenreeks verwachten. De encoder produceert schone output die je kunt kiezen om te wikelen of compact te laten, afhankelijk van het doelsysteem.",
+        "Padding zorgt ervoor dat de lengte van de gecodeerde output altijd een veelvoud van vier tekens is. Sommige soepele decoders accepteren invoer zonder trailing gelijkheidstekens, maar strikte parsers verwerpen het. De encoder bevat altijd correcte padding, en de decoder tolereert zowel gepadded als ongepadded invoer voor maximale compatibiliteit.",
+        "URL-veilig base64 vervangt de plus- en schuinstreektekens door een streepje en underscore om conflicten met scheidings tekens in URL-pad te voorkomen. Als je gecodeerde waarde in een URL-parameter of bestandsnaam verschijnt, kan de tool de URL-veilige variant produceren. Deze kleine aanpassing voorkomt coderingsfouten die moeilijk te diagnosticeren zijn in productie."
+      ]
+    },
+    {
+      "heading": "Privé Codering van Tokens en Pings",
+      "paragraphs": [
+        "Verzoeken en tokens raken het klembord, niet een server, wanneer conversie lokaal is.",
+        "Geen upload, geen account, geen watermerk — op elk platform.",
+        "Coderingsgemak zonder gegevensblootstelling."
+      ]
+    },
+    {
+      "heading": "Base64 Binnen de Volledige Gereedschapskist",
+      "paragraphs": [
+        "Combineer met [image-to-base64:afbeeldingscodering], [hash-generator:checksummen] en [json-formatter:JSON-werk] voor volledige gegevensverwerking.",
+        "De suite is gratis en browsergebaseerd.",
+        "Elke richting, schoon en privé."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan het tool zowel coderen als decoderen?",
+      "a": "Ja, beide richtingen worden ondersteund in één scherm met directe, koppelklare resultaten."
+    },
+    {
+      "q": "Verwerkt het niet-Engelse tekst correct?",
+      "a": "Ja. Correcte UTF-8-verwerking bewaart tekens met accenten, Arabisch, Chinees en emoji door codering/decodering-retourreizen."
+    },
+    {
+      "q": "Is base64-conversie privé?",
+      "a": "Ja. Alles draait lokaal in je browser zonder uploads of accounts."
+    },
+    {
+      "q": "Kan ik gegevens coderen voor gebruik in een URL?",
+      "a": "Ja. De tool ondersteunt URL-veilige base64-codering die plus- en schuinstreektekens vervangt door streepje en underscore voor veilige embedding in URLs."
+    }
+  ]
+}

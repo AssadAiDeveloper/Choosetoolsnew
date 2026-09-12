@@ -1,0 +1,120 @@
+{
+  "slug": "text-diff",
+  "title": "Outil de comparaison de texte : comparez deux textes en ligne gratuitement pour repérer les changements",
+  "description": "Outil gratuit de comparaison de texte en ligne pour comparer deux documents côte à côte, en mettant en évidence les lignes ajoutées, supprimées et modifiées. Privé, instantané, dans votre navigateur.",
+  "keywords": ["diff de texte", "comparer deux textes", "trouver les différences entre textes", "vérificateur de diff", "comparer du texte en ligne", "outil de comparaison de texte", "voir les changements dans un texte"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Repérer ce qui a changé entre les versions",
+      "paragraphs": [
+        "Votre collaborateur a-t-il modifié les conditions ? Quel commit a reformulé l'accord ? Comparer les versions à l'œil n'est pas fiable ; un [text-diff:outil de diff] marque exactement ce qui a changé, ligne par ligne.",
+        "Les éditeurs, relecteurs, avocats et étudiants bénéficient tous d'une détection précise des changements.",
+        "ChooseTools compare les textes localement dans votre navigateur avec un résultat côte à côte codé par couleur."
+      ]
+    },
+    {
+      "heading": "Comment comparer deux textes",
+      "paragraphs": [
+        "Les différences, mises en évidence :",
+        "Collez l'original dans la boîte de gauche et la version révisée dans celle de droite. L'outil calcule le diff instantanément et colore les lignes ajoutées par rapport aux lignes supprimées.",
+        "Les résultats sont rendus localement — les brouillons ne partent jamais nulle part."
+      ]
+    },
+    {
+      "heading": "Diff au niveau des lignes : exact et révisable",
+      "paragraphs": [
+        "Comparer à la granularité des lignes s'aligne sur la façon dont travaillent les éditeurs : chaque changement est une unité discrète et révisable.",
+        "Les lignes ajoutées, les lignes supprimées et les altérations sont chacune visuellement distinctes.",
+        "La revue par lots de longs documents devient infaillible."
+      ]
+    },
+    {
+      "heading": "Comment fonctionne le diff sous le capot",
+      "paragraphs": [
+        "L'outil aligne les deux textes ligne par ligne, localisant les plus longs segments restés inchangés puis marquant tout le reste comme inséré ou supprimé.",
+        "Une ligne modifiée apparaît comme une suppression appariée à une addition, de sorte que les relecteurs voient exactement ce qui a été remplacé plutôt qu'un drapeau modifié vague.",
+        "L'algorithme est efficace même avec des documents conséquents, calculant l'alignement rapidement et rendant uniquement les régions différentes pour plus de clarté.",
+        "Comprendre ce comportement vous aide à interpréter les résultats : une phrase réécrite apparaît comme une ligne supprimée et une autre insérée à côté."
+      ]
+    },
+    {
+      "heading": "Flux de travail de revue avec une confiance cachée",
+      "paragraphs": [
+        "Suivez les modifications du relecteur sans lire chaque mot ; confirmez les correctifs avant de les appliquer ; auditez les accords pour les modifications silencieuses.",
+        "La sortie du diff est une carte de ce qu'une version a promis et de ce qu'elle a livré.",
+        "Comparer soigneusement protège quiconque signe, expédie ou livre du code."
+      ]
+    },
+    {
+      "heading": "Cas d'usage courants selon les professions",
+      "paragraphs": [
+        "Les équipes juridiques comparent les brouillons de contrats pour s'assurer qu'aucune clause n'a été altérée entre les tours de négociation. Les développeurs logiciels vérifient les demandes d'extraction en comparant les changements proposés à la branche principale avant de fusionner.",
+        "Les étudiants qui vérifient une révision de dissertation peuvent voir instantanément si le retour a réellement été intégré. Les rédacteurs techniques maintiennent l'exactitude de la documentation en comparant les notes de version entre les versions.",
+        "Les traducteurs utilisent les diffs pour confirmer que le texte localisé correspond à la source approuvée sans omissions subtiles. Dans chaque cas, l'outil supprime la lassitude de la comparaison manuelle et la remplace par une carte visuelle claire des changements.",
+        "Le même mécanisme qui attrape une virgule manquante dans le code attrape aussi une clause de responsabilité modifiée dans un contrat."
+      ]
+    },
+    {
+      "heading": "Gestion des grands documents et des changements imbriqués",
+      "paragraphs": [
+        "Les longs fichiers de centaines de lignes restent gérables car l'algorithme de diff les traite par segments, affichant uniquement les zones de différence pertinentes.",
+        "La disposition côte à côte garantit que les lignes de contexte se trouvent à côté de leurs homologues, de sorte que les relecteurs peuvent vérifier que le texte environnant n'a pas été déplacé par inadvertance.",
+        "Même lorsque les changements sont dispersés dans tout un document, le codage par couleur permet à l'œil de sauter directement à chaque modification sans parcourir chaque ligne manuellement.",
+        "Le traitement se déroule entièrement sur votre appareil, de sorte qu'il n'y a aucune limite de taille imposée par un serveur distant."
+      ]
+    },
+    {
+      "heading": "Le diff comme portail de qualité",
+      "paragraphs": [
+        "Un diff est essentiellement un portail de qualité : avant que quoi que ce soit ne soit publié, fusionné ou signé, la comparaison répond si le texte final correspond à ce qui a été décidé.",
+        "Les équipes qualité exécutent un diff final entre le brouillon approuvé et la version livrée, attrapant les modifications de dernière minute qui ont contourné la revue.",
+        "Les rédacteurs indépendants comparent les retours clients à leurs manuscrits pour démontrer que chaque changement demandé est présent.",
+        "Même un contrôle court ajoute une couche de protection qu'aucun montant de relecture attentive ne rejoint de façon fiable."
+      ]
+    },
+    {
+      "heading": "Comparer configurations et modèles",
+      "paragraphs": [
+        "Au-delà de la prose, l'outil convient au texte structuré : comparer deux fichiers de configuration, deux extraits de code ou deux versions d'un modèle d'e-mail.",
+        "Une comparaison rapide sur les fichiers de paramètres révèle exactement quel paramètre a changé entre les environnements comme la préproduction et la production.",
+        "Les éditeurs de modèles comparent les brouillons enregistrés pour repérer une dérive de mise en forme qu'un coup d'œil rapide manquerait.",
+        "Comme la même logique côte à côte fonctionne sur le code, le balisage et le texte brut, un seul outil couvre de nombreux besoins de revue."
+      ]
+    },
+    {
+      "heading": "Comparaison privée de brouillons confidentiels",
+      "paragraphs": [
+        "Les documents juridiques, les manuscrits non publiés et les notes de version internes se comparent localement, et c'est exactement le but.",
+        "Aucun envoi, aucun compte, aucun filigrane — sur toutes les plateformes.",
+        "Votre historique de versions est vôtre."
+      ]
+    },
+    {
+      "heading": "Le diff au sein de la suite de texte complète",
+      "paragraphs": [
+        "Après comparaison, [find-replace:appliquez des correctifs], [sort-lines:organisez] ou [case-converter:normalisez] le texte.",
+        "La suite est gratuite et native au navigateur.",
+        "Chaque question de version, répondue avec précision."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Qu'est-ce que l'outil de diff met exactement en évidence ?",
+      "a": "Il affiche les deux textes côte à côte, colorant les lignes ajoutées, supprimées ou modifiées afin que les changements soient immédiatement visibles."
+    },
+    {
+      "q": "Peut-il comparer de très longs documents ?",
+      "a": "Oui. Le diff basé sur les lignes gère les longs textes ; le rendu est local et rapide quelle que soit la longueur."
+    },
+    {
+      "q": "La comparaison de texte est-elle privée ?",
+      "a": "Oui. Tout se déroule localement dans votre navigateur, sans envois ni comptes."
+    },
+    {
+      "q": "Affiche-t-il le contexte autour des changements ?",
+      "a": "Oui. Les lignes inchangées environnantes apparaissent aux côtés du diff afin que vous puissiez vérifier que les modifications s'insèrent dans le contexte correct."
+    }
+  ]
+}

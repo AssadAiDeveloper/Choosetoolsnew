@@ -1,0 +1,100 @@
+{
+  "slug": "document-scanner",
+  "title": "How to Scan Documents With a Phone Online Free: Document Scanner in the Browser",
+  "description": "Scan documents with your phone's camera online free with ChooseTools. Turn photos of papers into clean, straight scanned documents in your browser, with total privacy.",
+  "keywords": ["document scanner online", "scan document with phone", "document scanning app free", "scan paper to pdf", "clean document photo", "scan app browser", "scan documents free online"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Your Phone Camera Is Already a Scanner",
+      "paragraphs": [
+        "Flatbed scanners sit unused, but every pocket holds a camera good enough for documents. The missing piece is processing: perspective correction, edge detection, shadow removal and cleanup. A capable [document-scanner:browser document scanner] turns a quick photo into a clean, office-ready scan.",
+        "Receipts for expenses, forms for submission, letters for OCR, all become crisp digital copies without hardware.",
+        "ChooseTools scans locally: the photo is straightened, cropped to the paper and cleaned entirely in your browser."
+      ]
+    },
+    {
+      "heading": "How to Scan a Document From Your Camera",
+      "paragraphs": [
+        "A scanned result in four steps.",
+        "Photograph the paper with even light and minimal angle. Upload or capture from the camera, then the tool detects the page edges, corrects perspective, and lets you adjust the crop. Save as a clean scanned document in your chosen image format.",
+        "Local processing keeps precapture sensitive receipts and confidential letters entirely on your device.",
+        "You can photograph a document one at a time and process each, or capture several pages in sequence for a longer document run."
+      ]
+    },
+    {
+      "heading": "Perspective Correction for Angled Shots",
+      "paragraphs": [
+        "Hand-held photos are rarely straight-on. Strong perspective makes text unreadable and pages trapezoidal.",
+        "The scanner detects the page's quadrilateral, warps it to a perfect rectangle and produces a top-down document view, the hallmark of pro scanning apps.",
+        "OCR and sharing software downstream read the corrected scan far better.",
+        "The straightening and edge detection work without a flatbed or tripod, so any reasonably lit table photo produces a usable scan."
+      ]
+    },
+    {
+      "heading": "Cleanup: Shadows, Backgrounds and Paper Tone",
+      "paragraphs": [
+        "Real scans shave the shadows around the page and normalize paper whiteness.",
+        "Automatic cleanup removes gray casts so the output looks like a flatbed scan, not a table photo.",
+        "The result is presentable for expense systems, school portals and legal filings alike.",
+        "This enhancement also improves text contrast, making the scanned page easier to read and more accurate for any OCR step that follows.",
+        "Background clutter, stray objects at the page edge and uneven lighting are handled so the final document contains only the intended page."
+      ]
+    },
+    {
+      "heading": "Shooting Tips for a Better Scan",
+      "paragraphs": [
+        "Place the document on a flat, non-reflective surface and light it evenly, avoiding harsh shadows from a window or a single overhead lamp.",
+        "Hold the camera directly above the page and parallel to it; a gentle angle is fine because the tool corrects perspective, but a very steep angle makes the correction harder.",
+        "Make sure the whole page is in the frame with a small margin, and let the camera focus on the text rather than the table around it.",
+        "Steady hands or a brief rest on a stack of books produce the sharpest results, and even slight shaking is often rescued by the cleanup stage."
+      ]
+    },
+    {
+      "heading": "Privacy for Documents That Shouldn't Travel",
+      "paragraphs": [
+        "Bank letters, medical forms and NDAs captured in a scan deserve local-only processing.",
+        "Everything runs on your machine: no upload, no account, no watermark on phones, tablets and desktops.",
+        "Scan wherever you are; the file never leaves your hands.",
+        "Because no image is transmitted, there is no server copy to delete, expire or ever be subpoenaed."
+      ]
+    },
+    {
+      "heading": "Scanning as the Start of a Document Pipeline",
+      "paragraphs": [
+        "A clean scan feeds everything: [convert-image:convert] to the format needed, [compress-image:compress] for email, or combine pages into a PDF workflow.",
+        "The whole suite functions in-browser and private, so digitizing your paperwork never requires an external service.",
+        "From a pocket photo to a ready document, in under a minute.",
+        "This uninterrupted local pipeline keeps even the most sensitive records entirely under your control from capture to delivery."
+      ]
+    },
+    {
+      "heading": "Who Benefits From Browser Scanning",
+      "paragraphs": [
+        "Freelancers and remote workers scan signed agreements and expense receipts while traveling, without searching for a physical scanner.",
+        "Students digitize handouts and handwritten notes for backup and search rather than carrying paper around campus.",
+        "Small-business owners record invoices, warranties and contracts directly from a smartphone camera, keeping their office lean.",
+        "Professionals in finance and healthcare rely on local scanning to respect confidentiality rules that forbid routing client documents through third-party cloud services.",
+        "Anyone who has ever lost an important paper now has a simple habit that guarantees a durable digital copy exists."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a physical scanner to use this tool?",
+      "a": "No. Use your phone or webcam to photograph the document, and the tool corrects perspective and cleans the result into a professional-looking scan."
+    },
+    {
+      "q": "Will angled photos be fixed automatically?",
+      "a": "Yes. The tool detects the page edges and warps the image to a straight rectangle, giving a clean top-down result."
+    },
+    {
+      "q": "Is document scanning private?",
+      "a": "Yes. All processing happens locally in your browser with no uploads, no accounts and no cloud copies of your documents."
+    },
+    {
+      "q": "Can I scan multiple pages in one session?",
+      "a": "Yes. Capture and process several pages one after another, keeping each clean scan ready for combination or delivery."
+    }
+  ]
+}

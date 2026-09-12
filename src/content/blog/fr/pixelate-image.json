@@ -1,0 +1,100 @@
+{
+  "slug": "pixelate-image",
+  "title": "Comment mosaïquer une image en ligne gratuitement : censurer avec des blocs de pixels",
+  "description": "Mosaïquez une image en ligne gratuitement avec ChooseTools. Masquez les visages, les numéros et les zones sensibles avec une mosaïque soignée, directement dans votre navigateur, en toute confidentialité et sans filigrane.",
+  "keywords": ["mosaïquer image", "mosaïquer partie image", "mosaïque image en ligne", "mosaïquer visage", "censurer image en ligne gratuitement", "flou pixel photo", "mosaïquer photo"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "La mosaïque est une censure qui reste honnête",
+      "paragraphs": [
+        "Parfois un flou doux ne suffit pas et un mosaïque délibérée est exactement ce qu'il faut : la mosaïque indique clairement « obscurci volontairement » tout en conservant l'identité graphique de l'image. [pixelate-image:Mosaïquer des images] est la méthode classique pour cacher un visage, un numéro ou un logo.",
+        "Les salles de rédaction, les communiqués de police, les places de marché et les communications scolaires reposent toutes sur l'aspect mosaïque.",
+        "ChooseTools mosaïque des régions d'images localement dans votre navigateur avec un contrôle de la taille des blocs.",
+        "Le résultat est un fichier qui respecte l'esprit de la loi sur la vie privée et les directives éditoriales sans jamais perdre le contexte qu'une photo transporte."
+      ]
+    },
+    {
+      "heading": "Comment l'effet mosaïque est construit",
+      "paragraphs": [
+        "La mosaïque fonctionne en divisant une zone sélectionnée en une grille de blocs et en remplaçant chaque bloc par une couleur moyenne unique issue des pixels en dessous.",
+        "Une grille grossière produit la mosaïque lourde et indiscutable de la censure classique ; une grille fine donne un texture granuleuse qui adoucit simplement le détail.",
+        "Comme le calcul est simple et local, l'opération est instantanée même sur des photos en haute résolution, et vous pouvez prévisualiser le résultat avant de valider.",
+        "Ajuster la taille des blocs après la sélection ne coûte rien, ce qui rend l'affinage au pixel près pratique plutôt que fastidieux."
+      ]
+    },
+    {
+      "heading": "Comment mosaïquer une région d'une image",
+      "paragraphs": [
+        "Censurez avec style et précision :",
+        "Téléversez l'image et sélectionnez la zone à masquer ; ajustez la taille des blocs d'un grain subtil à une mosaïque lourde. Prévisualisez pour confirmer que le contenu est entièrement masqué, puis téléchargez.",
+        "Tout se passe localement, de sorte que personne ne voit ce que vous avez choisi de cacher ni où.",
+        "Resélectionner une région est aussi simple que de redessiner le rectangle, vous donnant un contrôle total sur le rendu final avant que le fichier ne quitte votre appareil."
+      ]
+    },
+    {
+      "heading": "Censure mosaïque pour les images publiques",
+      "paragraphs": [
+        "Diffuser une photo de foule : mosaïquez les passants. Publier une scène de crime : masquez les identifiants. Vendre une voiture d'occasion : masquez les plaques.",
+        "L'aspect mosaïque lourd est sans ambiguïté et intemporel sur papier et à l'écran.",
+        "La censure ne jamais supprimer la photo entière — seulement les parties que la loi ou la décence l'exigent.",
+        "Cette approche chirurgicale rend l'image utile pour les reportages, les annonces et les communiqués tout en protégeant chaque personne ou détail qu'elle ne devrait pas révéler."
+      ]
+    },
+    {
+      "heading": "Contrôler la pixelisation pour le bon rendu visuel",
+      "paragraphs": [
+        "De petits blocs se lisent comme « détail granuleux », de grands blocs comme une censure indiscutable.",
+        "Adapter la taille des blocs à la quantité à masquer garde le résultat proportionné.",
+        "L'effet reste localement éditable jusqu'à ce qu'il soit exactement correct.",
+        "Pour les visages, un bloc moyen à grand masque clairement l'identité ; pour les plaques d'immatriculation et les numéros, un bloc plus serré préserve la reconnaissance du reste de la scène.",
+        "La mosaïque étant reconstituée à partir de l'image elle-même, la zone masquée se fond naturellement dans les pixels environnants plutôt que de ressembler à un patch collé — l'effet reste professionnel à l'impression, en ligne et sur les flux sociaux."
+      ]
+    },
+    {
+      "heading": "Flou ou mosaïque : choisir le bon masque",
+      "paragraphs": [
+        "Le flou adoucit les pixels en une tache lisse qui peut parfois être partiellement reconstituée ou visuellement gênante sur de grandes zones.",
+        "La mosaïque divise la région en blocs nets qui suppriment définitivement les détails lisibles, ce qui explique que les flux éditoriaux et juridiques la préfèrent.",
+        "Lorsqu'un aperçu doit rester agréable à l'œil, une mosaïque légère se lit plus proprement qu'un flou gaussien appuyé.",
+        "Sélectionnez le style de masque qui correspond à l'histoire que la photo doit encore raconter après que les parties sensibles disparaissent."
+      ]
+    },
+    {
+      "heading": "Censure privée de fichiers sensibles",
+      "paragraphs": [
+        "Les images nécessitant un traitement mosaïque contiennent fréquemment exactement le contenu qui ne devrait pas voyager. Le traitement local les garde ici.",
+        "Pas d'envoi, pas de filigrane, pas de compte — sur tous les systèmes d'exploitation et téléphones.",
+        "Vos décisions sur la visibilité publique se prennent entièrement entre vos mains.",
+        "Que le fichier soit une pièce à conviction judiciaire, une photo scolaire d'enfant ou un visuel de produit inédit, rien n'est jamais transmis pendant que vous le préparez au partage."
+      ]
+    },
+    {
+      "heading": "Mosaïquez et partagez en toute confiance",
+      "paragraphs": [
+        "Associez le masque à la [remove-exif:suppression des métadonnées] afin que la structure du fichier ne fuit jamais d'autres détails.",
+        "La suite reste gratuite, native au navigateur et privée.",
+        "Censurez avec précision, partagez en toute confiance.",
+        "Une fois la région masquée et les métadonnées effacées, l'image est prête pour les journaux, les places de marché ou les flux sociaux sans craindre de surprises intégrées."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Puis-je contrôler la taille des blocs de pixels ?",
+      "a": "Oui. Ajustez la taille des blocs ainsi que la région masquée pour affiner le rendu de la mosaïque, plus ou moins grossière."
+    },
+    {
+      "q": "Puis-je mosaïquer plusieurs zones à la fois ?",
+      "a": "Oui. Un nombre illimité de régions peut être masqué sur la même image avant l'exportation."
+    },
+    {
+      "q": "La mosaïque est-elle privée et gratuite ?",
+      "a": "Oui. Elle s'exécute entièrement dans votre navigateur, sans envoi, filigrane ni compte."
+    },
+    {
+      "q": "Pourquoi choisir la mosaïque plutôt que le flou pour du contenu sensible ?",
+      "a": "La mosaïque supprime les détails lisibles avec des blocs nets et permanents, et c'est la norme sur laquelle les milieux éditorial et juridique s'appuient pour les visages et les identifiants."
+    }
+  ]
+}

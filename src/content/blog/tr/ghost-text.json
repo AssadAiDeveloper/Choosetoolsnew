@@ -1,0 +1,128 @@
+{
+  "slug": "ghost-text",
+  "title": "Hayalet Metin Dönüştürücü: Çevrimiçi Ücretsiz Yarı Saydam Görünmez Metin Oluşturun",
+  "description": "Mesajlaşma ve sosyal oyunlar için sıfır genişlikli görünmez metin karakterleri üreten ücretsiz hayalet metin dönüştürücü. Gizli, anında, tarayıcınızda.",
+  "keywords": ["hayalet metin", "görünmez metin", "sıfır genişlikli boşluk", "görünmez karakter", "boş metin kopyala", "hayalet mesaj", "görünmez karakter kopyala"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Görünmez Metin Görünür Piksellerde Yaşar",
+      "paragraphs": [
+        "Sıfır genişlikli karakterler, metin akışında bir yer kaplarken hiçbir şey olarak görüntülenir; bu, sosyal akımları, biçimlendirilmiş başlıkları ve oyun dolu mesajları besleyen bir hiledir. [ghost-text:Hayalet metin] oluşturucular bu görünmez dizileri istek üzerine üretir.",
+        "Boşlukları kırpan platformlar sıfır genişlikli karakterleri korur; bu da görünmez mesajları mümkün kılar.",
+        "ChooseTools hayalet metni tarayıcınızda yerel olarak üretir ve kopyalamaya hazır hale getirir."
+      ]
+    },
+    {
+      "heading": "Görünmez Metin Nasıl Oluşturulur",
+      "paragraphs": [
+        "Hiçbir şeyden bir mesaja:",
+        "Kaç adet görünmez karakter oluşturmak istediğinizi seçin veya kendi metninizi görünmez akışa kodlayın. Sonucu, boş içeriğin hedef olduğu herhangi bir metin alanına kopyalayın.",
+        "Üretim yereldir ve anında gerçekleşir."
+      ]
+    },
+    {
+      "heading": "Sıfır Genişlikli Karakterler Açıklandı",
+      "paragraphs": [
+        "Sıfır genişlikli boşluk ve birleştiriciler, görünür işaretler olmadan yerleşim alanı kaplar.",
+        "Bazı platformlar normal boşlukları kırpar ancak bu karakterleri korur; »hayalet« etkisini mümkün kılan budur.",
+        "Ne gönderdiğinizi bilin; görünmez, izlenemez anlamına gelmez."
+      ]
+    },
+    {
+      "heading": "Yaratıcı ve Sosyal Kullanımlar",
+      "paragraphs": [
+        "Sohbetlerde, profil adlarında ve başlıklarda hileler, stil ve yaratıcı biçimlendirme, kullanımın çoğunu oluşturur.",
+        "Oluşturucu, güvenilir işleme için seçilebilir uzunlukta diziyi üretir.",
+        "Sorumlu eğlenin; bazı platformlar bu tür hileleri haklı olarak süzer."
+      ]
+    },
+    {
+      "heading": "Özel Metin Oyunu",
+      "paragraphs": [
+        "Görünmez dizileri yerel olarak oluşturmak, deneylerinizin cihazda kalmasını sağlar.",
+        "Tüm platformlarda yükleme yok, hesap yok, filigran yok.",
+        "İfşa olmadan deneme."
+      ]
+    },
+    {
+      "heading": "Araç Kutusunda Görünmez Metin",
+      "paragraphs": [
+        "Hileleri gerçek gizleme çalışmaları için [reverse-text:tersine çevirme], [case-converter:büyük/küçük harf araçları] veya [base64:kodlama] ile tamamlayın.",
+        "Araç seti ücretsizdir ve tarayıcı yerelidir.",
+        "Görünür çabalar, görünmez sonuçlar; amacın bu olduğunda."
+      ]
+    },
+    {
+      "heading": "Unicode Görünmez Karakterleri Anlamak",
+      "paragraphs": [
+        "Unicode, işlendiğinde glif üretmeyen birkaç kod noktası tanımlar: sıfır genişlikli boşluk U+200B, sıfır genişlikli birleştirmeyen U+200C, sıfır genişlikli birleştirici U+200D ve yumuşak tire U+00AD.",
+        "Bu karakterlerin her biri, karmaşık betiklerde bitişik harf oluşumunu kontrol etmekten uzun sözcüklerde isteğe bağlı heceleme noktalarını işaretlemeye kadar meşru bir tipografik amaca hizmet eder.",
+        "Hayalet metin oluşturucular, bazı platformların dayattığı karakter sayısı sınırlarını aşabilecek kadar uzun diziler üretmek için tipik olarak birden fazla sıfır genişlikli kod noktasını birleştirir.",
+        "Bu kod noktaları arasındaki farkı anlamak, hedeflediğiniz platform için doğru kombinasyonu seçmenize yardımcı olur."
+      ]
+    },
+    {
+      "heading": "Platform Davranışı ve İşleme Farklılıkları",
+      "paragraphs": [
+        "Sosyal medya uygulamaları, mesajlaşma istemcileri ve web tarayıcıları, metin işleme motorlarına bağlı olarak görünmez karakterleri farklı şekilde ele alır.",
+        "Bazı uygulamalar sıfır genişlikli boşlukları tamamen kırpar veya sökerken bazıları bunları sadakatle korur; bu, aynı hayalet metnin bir uygulamada boş, diğerinde fazladan boşluk olarak görünebileceği anlamına gelir.",
+        "Bazı platformlardaki profil adı alanları yalnızca görünmez karakterler içeren dizileri reddeder; durum ve yorum alanları ise tipik olarak kısıtlama olmadan kabul eder.",
+        "Paylaşmadan önce belirli hedef alanını test etmek, etkinin beklenen gibi davranmasını sağlar; kaybolmaz veya tuhaf beyaz boşluğa dönüşmez."
+      ]
+    },
+    {
+      "heading": "Karakter Sayısı Sınırları ve Toplu Üretim",
+      "paragraphs": [
+        "Birçok platform biyografilerde, adlarda ve mesajlarda katı karakter sınırları uygular; oluşturucu, tam olarak kaç görünmez karakter üreteceğinizi belirlemenize olanak tanır.",
+        "Kısa diziler tek bir boşluk oluşturmak için yeterlidir; daha uzun diziler ise başta ve sonda görünmez karakterleri söken platformlarda hayatta kalır.",
+        "Toplu üretim, form doğrulama mantığını test eden veya görünmez girdiyi zarif biçimde işlemesi gereken otomatik metin işleme hatları kuran geliştiriciler için yararlıdır.",
+        "Üretim yerel çalıştığından, yükleme boyutu veya sunucu işlem süresi endişesi olmadan büyük diziler üretebilir ve kopyalayabilirsiniz."
+      ]
+    },
+    {
+      "heading": "Biçimlendirme ve Metin Yerleşimi Uygulamaları",
+      "paragraphs": [
+        "Oyun dolu sosyal mesajlaşmanın ötesinde, sıfır genişlikli karakterler, boşluk kontrolünün önemli olduğu kelime işlemcilerde ve zengin metin düzenleyicilerde pratik biçimlendirme amaçlarına hizmet eder.",
+        "Sıfır genişlikli birleştiriciler, Arapça ve Hint dilleri gibi karmaşık betiklerin bitişik karakterleri nasıl işlediğini etkiler; bunları bilinçli olarak eklemek, görüntülenen metindeki bozuk bitişik harfleri düzeltebilir.",
+        "Yumuşak tire — başka bir görünmez kod noktası — kelime işlemcilere uzun bir sözcüğün hangi satırlara bölünebileceğini söyler ve onu üreten bir oluşturucu, heceleme davranışını test etmenizi sağlar.",
+        "Bu meşru tipografik rolleri anlamak, hayalet metin tekniklerini yalnızca hileler için değil, yapıcı biçimde kullanmanıza yardımcı olur."
+      ]
+    },
+    {
+      "heading": "Erişilebilirlik ve Ekran Okuyucu Değerlendirmeleri",
+      "paragraphs": [
+        "Ekran okuyucular, konuşma sentezi sırasında sıfır genişlikli karakterleri genellikle yok sayar; bu, hayalet metnin yardımcı teknoloji kullanıcıları için duyulabilir bir çıktı üretmediği anlamına gelir.",
+        "Ancak bazı ekran okuyucular, ifade ayrıntı ayarlarına bağlı olarak fazladan beyaz boşluğun varlığını duyurabilir veya görünmez karakterlerin göründüğü yerlerde duraksayabilir.",
+        "Görünmez metni dekoratif amaçlarla kullanan web geliştiricileri, çevredeki içeriğin erişilebilir kalmasını ve görünmez karakterlerin gezinmeye müdahale etmemesini sağlamalıdır.",
+        "Bu değerlendirmelerin farkında olmak, erişilebilirliğin önemli olduğu bağlamlarda görünmez metni sorumlu biçimde kullanmanıza yardımcı olur."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hayalet metin tam olarak nedir?",
+      "a": "Hayalet metin, boşluk kaplayan ancak görünmeyen sıfır genişlikli Unicode karakterleri kullanır; çeşitli platformlarda boş görünümlü içerik sağlar."
+    },
+    {
+      "q": "Görünmez metin neden her yerde her zaman çalışmaz?",
+      "a": "Bazı platformlar sıfır genişlikli karakterleri süzer veya normal boşluklar olarak işler; davranış uygulamaya göre değişir, bu yüzden hedef alanda test edin."
+    },
+    {
+      "q": "Oluşturucu gizli mi?",
+      "a": "Evet. Her şey tarayıcınızda yerel olarak gerçekleşir; yükleme veya hesap yoktur."
+    },
+    {
+      "q": "Kaç tane görünmez karakter üretmeliyim?",
+      "a": "Temel boş içerik için tek bir sıfır genişlikli boşluk yeterlidir; ancak on ila yirmi karakterlik daha uzun diziler, başta veya sonda görünmez girdiyi söken platformlarda hayatta kalır."
+    },
+    {
+      "q": "Görünmez metin form doğrulamasını bozabilir mi?",
+      "a": "Evet. Bazı formlar yalnızca beyaz boşluk veya görünmez karakterler içeren girdiyi reddeder; bu yüzden ona güvenmeden önce diziyi kabul ettiğini doğrulamak için hedef alanı test edin."
+    },
+    {
+      "q": "Sıfır genişlikli karakterler meşru bir biçimlendirme amacına hizmet eder mi?",
+      "a": "Evet. Sıfır genişlikli birleştiriciler betik bitişik harflerini kontrol eder ve yumuşak tire isteğe bağlı satır sonu noktalarını işaretler; bu karakterleri hem tipografi hem sosyal hileler için yararlı kılar."
+    }
+  ]
+}

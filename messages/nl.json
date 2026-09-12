@@ -1,0 +1,1161 @@
+{
+  "meta": {
+    "title": "ChooseTools — Gratis online bestandstools die je bestanden nooit uploaden",
+    "description": "Voeg PDF's samen, comprimeer en converteer afbeeldingen — direct in je browser. Geen uploads, geen limieten, geen wachten. Je bestanden verlaten je apparaat nooit."
+  },
+  "nav": {
+    "tagline": "Geen uploads. Geen limieten.",
+    "allTools": "Alle tools",
+    "pdf": "PDF",
+    "image": "Afbeelding",
+    "text": "Tekst & Dev",
+    "arabic": "Arabische Teksttools",
+    "menu": "Menu",
+    "invoice": "Factuurgenerator",
+    "cv": "CV-maker",
+    "tools": "Tools",
+    "more": "Meer",
+    "blog": "Blog"
+  },
+  "home": {
+    "heroTitle": "Elke bestandstool. Nul uploads.",
+    "heroSub": "Alles draait in je browser. Je bestanden verlaten nooit je apparaat — dus geen groottebeperkingen, geen dagelijkse limieten en geen wachttijden voor uploads.",
+    "search": "Zoek tools… (bijv. PDF samenvoegen)",
+    "noResults": "Geen tool komt overeen met je zoekopdracht.",
+    "whyTitle": "Waarom ChooseTools?",
+    "why1t": "Je bestanden blijven bij jou",
+    "why1d": "Andere toolwebsites uploaden elk bestand naar hun servers en beloven het daarna te verwijderen. Wij ontvangen het in de eerste plaats nooit — de verwerking gebeurt op je eigen apparaat.",
+    "why2t": "Echt onbeperkt",
+    "why2d": "Geen limieten van 15 MB, geen “2 taken per dag”, geen watermerken. Omdat er niets op onze servers draait, kost onbeperkt gebruik ons niets — en dus ook jou niets.",
+    "why3t": "Onmiddellijk door ontwerp",
+    "why3d": "Geen uploadtijd, geen wachtrij, geen downloadwachttijd. Een bestand van 100 MB begint met verwerken op het moment dat je het neerzet."
+  },
+  "privacy": {
+    "badge": "Geüpload naar onze servers: 0 bytes",
+    "note": "Deze tool draait volledig in je browser. Je bestand wordt nooit ergens heen gestuurd."
+  },
+  "categories": {
+    "pdf": {
+      "name": "PDF-tools",
+      "desc": "PDF-bestanden samenvoegen, splitsen, roteren, comprimeren en converteren — privé, in je browser."
+    },
+    "image": {
+      "name": "Foto- & beeldtools",
+      "desc": "Afbeeldingen comprimeren, vergroten/verkleinen en converteren zonder ze ergens te uploaden."
+    },
+    "text": {
+      "name": "Tekst- en ontwikkelaarstools",
+      "desc": "Tellers, converters, generatoren en formatters die offline werken."
+    },
+    "arabic": {
+      "name": "Arabische Teksttools",
+      "desc": "Tools die speciaal zijn gebouwd voor Arabische tekst en datums — geen vertalingen van Engelse tools."
+    }
+  },
+  "tool": {
+    "dropTitle": "Zet bestanden hier neer of klik om te kiezen",
+    "dropSingle": "Zet hier een bestand neer of klik om te kiezen",
+    "processing": "Wordt verwerkt op je apparaat…",
+    "download": "Downloaden",
+    "downloadAll": "Alles downloaden (ZIP)",
+    "reset": "Opnieuw beginnen",
+    "addMore": "Meer bestanden toevoegen",
+    "run": "Uitvoeren",
+    "copy": "Kopiëren",
+    "copied": "Gekopieerd!",
+    "error": "Dat bestand kon niet worden verwerkt. Controleer het formaat en probeer het opnieuw.",
+    "faqTitle": "Veelgestelde vragen",
+    "relatedTitle": "Gerelateerde tools",
+    "pages": "pagina's",
+    "fromPage": "Vanaf pagina",
+    "toPage": "Tot pagina",
+    "quality": "Kwaliteit",
+    "width": "Breedte",
+    "height": "Hoogte",
+    "keepRatio": "Aspectverhouding behouden",
+    "format": "Formaat",
+    "input": "Invoer",
+    "output": "Uitvoer",
+    "generate": "Genereren",
+    "length": "Lengte",
+    "result": "Resultaat",
+    "savings": "kleiner"
+  },
+  "cv": {
+    "personal": "Persoonsgegevens",
+    "fullName": "Volledige naam",
+    "jobTitle": "Gewenste functie",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "location": "Stad/land",
+    "linkedin": "LinkedIn (optioneel)",
+    "summary": "Professionale samenvatting",
+    "summaryPh": "Twee of drie zinnen over je ervaring en doelstellingen",
+    "experience": "Werkervaring",
+    "addExp": "Ervaring toevoegen",
+    "jobTitleField": "Functietitel",
+    "company": "Bedrijf",
+    "start": "Van",
+    "end": "Tot",
+    "present": "Heden",
+    "bullets": "Prestaties (één regel per punt)",
+    "education": "Opleiding",
+    "addEdu": "Opleiding toevoegen",
+    "degree": "Diploma",
+    "school": "Instelling",
+    "skills": "Vaardigheden",
+    "skillsPh": "Scheiden met komma's: Excel, projectmanagement, SQL",
+    "languages": "Talen",
+    "addLang": "Taal toevoegen",
+    "langName": "Taal",
+    "level": "Niveau",
+    "remove": "Verwijderen",
+    "generate": "Curriculum vitae genereren (PDF)",
+    "previewLive": "Live voorbeeld",
+    "previewFast": "Wordt direct bijgewerkt terwijl je typt op echt A4-formaat",
+    "print": "A4 afdrukken",
+    "design": "Ontwerp",
+    "template": "Sjabloon",
+    "classic": "Klassiek",
+    "modern": "Modern",
+    "minimal": "Minimaal",
+    "accent": "Accentkleur",
+    "photo": "Foto",
+    "photoNone": "Zonder foto",
+    "photoShow": "Met foto",
+    "uploadPhoto": "Foto uploaden",
+    "changePhoto": "Foto wijzigen",
+    "removePhoto": "Foto verwijderen",
+    "importCv": "Bestaande CV importeren",
+    "importProcessing": "Verwerken",
+    "importBtn": "CV uploaden (Afbeelding/PDF)",
+    "importHint": "Ondersteunt JPG, PNG, PDF"
+  },
+  "tools": {
+    "merge-pdf": {
+      "name": "PDF samenvoegen",
+      "desc": "Voeg meerdere PDF-bestanden samen tot één document, online en gratis.",
+      "long": "Zet twee of meer PDF-bestanden neer, sleep ze in de gewenste volgorde en download één samengevoegd document. Het samenvoegen gebeurt op je apparaat, zodat zelfs vertrouwelijke contracten nooit je computer verlaten.",
+      "faq1q": "Is er een limiet op bestandsgrootte of het aantal bestanden?",
+      "faq1a": "Nee. Omdat het samenvoegen in je browser draait, is het geheugen van je apparaat het enige dat beperkend is — bestanden van honderden megabytes werken prima op een gewone laptop.",
+      "faq2q": "Worden mijn PDF's geüpload naar een server?",
+      "faq2a": "Nooit. De bestanden worden lokaal door je browser gelezen en gecombineerd. Je kunt de internetverbinding verbreken nadat de pagina is geladen en de tool blijft werken."
+    },
+    "split-pdf": {
+      "name": "PDF splitsen",
+      "desc": "Haal een paginabereik uit een PDF en bewaar dit als nieuw bestand.",
+      "long": "Kies de pagina's die je nodig hebt — bijvoorbeeld pagina 3 tot en met 7 — en ontvang een nieuwe PDF met alleen dat bereik. Er wordt niets geüpload.",
+      "faq1q": "Kan ik een enkele pagina extraheren?",
+      "faq1a": "Ja — vul hetzelfde nummer in als begin- en eindpagina.",
+      "faq2q": "Vermindert splitsen de kwaliteit?",
+      "faq2a": "Nee. Pagina's worden exact gekopieerd zoals ze zijn, zonder opnieuw te comprimeren."
+    },
+    "rotate-pdf": {
+      "name": "PDF roteren",
+      "desc": "Roteer alle pagina's van een PDF met 90°, 180° of 270°.",
+      "long": "Repareer gescande documenten die zijwaarts of ondersteboven zijn gescand. Roteren is verliesvrij en onmiddellijk.",
+      "faq1q": "Is de rotatie permanent?",
+      "faq1a": "Ja — het gedownloade bestand wordt opgeslagen in de nieuwe stand en opent correct in elke PDF-reader.",
+      "faq2q": "Heeft roteren invloed op de kwaliteit?",
+      "faq2a": "Nee. Alleen de pagina-oriëntatievlag verandert; de inhoud blijft onaangeroerd."
+    },
+    "delete-pdf-pages": {
+      "name": "PDF-pagina's verwijderen",
+      "desc": "Verwijder specifieke pagina's uit een PDF-bestand.",
+      "long": "Typ de paginanummers die je wilt verwijderen (bijv. 2, 5-7) en download de opgeschoolde PDF.",
+      "faq1q": "Hoe schrijf ik de paginanummers?",
+      "faq1a": "Gebruik komma's voor losse pagina's en een liggend streepje voor bereiken: “2, 5-7, 10” verwijdert pagina 2, pagina 5 tot en met 7 en pagina 10.",
+      "faq2q": "Kan ik een verwijdering ongedaan maken?",
+      "faq2a": "Je originele bestand wordt nooit aangepast — het blijft onaangeroerd op je apparaat, dus je kunt de tool gewoon opnieuw uitvoeren."
+    },
+    "jpg-to-pdf": {
+      "name": "JPG naar PDF",
+      "desc": "Converteer JPG-afbeeldingen naar één PDF-bestand.",
+      "long": "Zet JPG- of PNG-afbeeldingen neer, bepaal de volgorde en download een PDF met één afbeelding per pagina. Ideaal voor gescande bonnetjes en documenten.",
+      "faq1q": "Kan ik JPG en PNG combineren in één PDF?",
+      "faq1a": "Ja, beide formaten kunnen vrij door elkaar in hetzelfde document worden gebruikt.",
+      "faq2q": "Worden de afbeeldingen gecomprimeerd?",
+      "faq2a": "Nee — afbeeldingen worden ingebed in hun originele kwaliteit."
+    },
+    "pdf-to-jpg": {
+      "name": "PDF naar JPG",
+      "desc": "Converteer PDF-pagina's naar JPG-afbeeldingen van hoge kwaliteit.",
+      "long": "Elke pagina wordt op je apparaat weergegeven en gedownload als afbeelding — één JPG per pagina, of alle pagina's in een ZIP.",
+      "faq1q": "Welke resolutie hebben de afbeeldingen?",
+      "faq1a": "Pagina's worden weergegeven op 2× schaal, wat scherp genoeg is voor schermen en het meeste drukwerk.",
+      "faq2q": "Mijn PDF heeft veel pagina's. Is dat een probleem?",
+      "faq2a": "Nee — pagina's worden één voor één geconverteerd, dus zelfs lange documenten werken. Je kunt alles als één ZIP-bestand downloaden."
+    },
+    "compress-pdf": {
+      "name": "PDF comprimeren",
+      "desc": "Comprimeer PDF-bestanden online en verklein de bestandsgrootte zonder kwaliteitsverlies.",
+      "long": "Het bestand wordt herschreven met een geoptimaliseerde interne structuur en objectstromen. Tekst en afbeeldingen worden niet aangetast — dit is verliesvrije optimalisatie, geen destructieve compressie.",
+      "faq1q": "Hoeveel kleiner wordt mijn bestand?",
+      "faq1a": "Dat hangt af van hoe de PDF is gemaakt. Slecht gegenereerde bestanden kunnen flink krimpen; al geoptimaliseerde bestanden minder. De exacte besparing wordt getoond voordat je downloadt.",
+      "faq2q": "Wordt de kwaliteit verminderd?",
+      "faq2a": "Nee. Deze optimalisatie is volledig verliesvrij — elke pagina ziet er exact hetzelfde uit."
+    },
+    "compress-image": {
+      "name": "Afbeelding verkleinen",
+      "desc": "Verklein afbeeldingen zoals JPG en PNG voor een kleiner bestandsformaat.",
+      "long": "Slimme compressie verkleint de bestandsgrootte drastisch terwijl afbeeldingen scherp blijven. Perfect voor websites, e-mailbijlagen en formulieren met uploadlimieten.",
+      "faq1q": "Hoeveel kan ik naar verwachting besparen?",
+      "faq1a": "Doorgaans 60–90% voor foto's, afhankelijk van het kwaliteitsniveau dat je kiest. Het resultaat en de besparing worden getoond voordat je downloadt.",
+      "faq2q": "Is er een limiet op bestandsgrootte?",
+      "faq2a": "Geen vaste limiet — compressie draait op je apparaat, dus zelfs zeer grote foto's werken."
+    },
+    "resize-image": {
+      "name": "Afbeelding verkleinen",
+      "desc": "Pas de grootte en resolutie van afbeeldingen online aan, zonder upload.",
+      "long": "Voer een nieuwe breedte of hoogte in — de aspectverhouding wordt automatisch behouden, tenzij je dit uitschakelt. Werkt onmiddellijk op je apparaat.",
+      "faq1q": "Wordt mijn afbeelding onscherp door het vergroten/verkleinen?",
+      "faq1a": "Verkleinen houdt afbeeldingen scherp. Vergroten tot boven de originele omvang kan er zacht uitzien — dat is een beperking van de bronafbeelding, niet van de tool.",
+      "faq2q": "Welke formaten worden ondersteund?",
+      "faq2a": "JPG, PNG en WebP. De uitvoer behoudt hetzelfde formaat als de invoer."
+    },
+    "convert-image": {
+      "name": "Afbeelding converteren",
+      "desc": "Converteer tussen de formaten JPG, PNG en WebP.",
+      "long": "Kies het uitvoerformaat en converteer direct. WebP-uitvoer maakt bestanden doorgaans 25–35% kleiner dan JPG bij dezelfde kwaliteit.",
+      "faq1q": "Wanneer moet ik WebP gebruiken?",
+      "faq1a": "Voor websites — het is kleiner dan JPG en PNG bij vergelijkbare kwaliteit en wordt ondersteund door alle moderne browsers.",
+      "faq2q": "Gaat transparantie verloren bij het converteren van PNG naar JPG?",
+      "faq2a": "Ja — JPG ondersteunt geen transparantie, dus transparante delen worden wit. Gebruik PNG of WebP om transparantie te behouden."
+    },
+    "heic-to-jpg": {
+      "name": "HEIC naar JPG",
+      "desc": "Converteer iPhone-HEIC-foto's naar het universeel ondersteunde JPG.",
+      "long": "iPhones slaan foto's op als HEIC, wat veel apps en websites afwijzen. Converteer ze op je eigen apparaat naar JPG — je persoonlijke foto's worden nooit ergens geüpload.",
+      "faq1q": "Waarom openen mijn HEIC-foto's niet op Windows?",
+      "faq1a": "Windows heeft een betaalde codec nodig om HEIC te openen. Door naar JPG te converteren openen foto's overal zonder extra software.",
+      "faq2q": "Wordt de kwaliteit behouden?",
+      "faq2a": "Bij de conversie wordt 92% JPG-kwaliteit gebruikt, wat voor foto's visueel identiek is aan het origineel."
+    },
+    "rotate-image": {
+      "name": "Foto roteren",
+      "desc": "Roteer afbeeldingen in stappen van 90° of spiegel ze horizontaal/verticaal.",
+      "long": "Repareer foto's die zijwaarts zijn genomen of maak gespiegelde versies. Alle bewerkingen gebeuren lokaal en downloads zijn onmiddellijk.",
+      "faq1q": "Vermindert roteren de kwaliteit van de afbeelding?",
+      "faq1a": "PNG-uitvoer is verliesvrij. JPG-uitvoer wordt opnieuw gecodeerd met hoge kwaliteit (95%), wat visueel niet te onderscheiden is.",
+      "faq2q": "Kan ik roteren over een eigen hoek?",
+      "faq2a": "Deze tool behandelt stappen van 90° en spiegelen, waarmee oriëntatieproblemen worden opgelost. Rotatie over vrije hoeken staat op onze roadmap."
+    },
+    "remove-exif": {
+      "name": "EXIF-gegevens verwijderen",
+      "desc": "Verwijder gps-locatie en cameragegevens uit foto's voordat je ze deelt.",
+      "long": "Foto's bevatten stiekem metadata: gps-coördinaten van waar ze zijn genomen, apparaatmodel, datum en tijd. Deze tool maakt een schone kopie waar alles uit is verwijderd — en omdat het lokaal draait, wordt de foto die je opschoont zelf nooit blootgesteld.",
+      "faq1q": "Wat wordt er precies verwijderd?",
+      "faq1a": "Alle EXIF-metadata: gps-locatie, camera- en telefoonmodel, tijdstempels, softwaretags en miniatuurvoorbeelden. Alleen de zichtbare afbeelding blijft over.",
+      "faq2q": "Hoe kan ik controleren dat het werkt?",
+      "faq2a": "Controleer de eigenschappen van het bestand voor en erna (rechtsklikken → Eigenschappen → Details op Windows). De schone kopie toont geen locatie- of cameravelden."
+    },
+    "word-counter": {
+      "name": "Woordenteller",
+      "desc": "Tel woorden, tekens, zinnen en de geschatte leestijd.",
+      "long": "Plak of typ tekst en zie live tellingen — inclusief het aantal tekens met en zonder spaties, en de leestijd bij gemiddeld tempo.",
+      "faq1q": "Werkt het ook voor Arabische tekst?",
+      "faq1a": "Ja — woordgrenzen worden correct gedetecteerd voor Arabische, Engelse, Spaanse en gemengde tekst.",
+      "faq2q": "Wordt mijn tekst ergens heen gestuurd?",
+      "faq2a": "Nee. Het tellen gebeurt terwijl je typt, volledig in je browser."
+    },
+    "case-converter": {
+      "name": "Hoofd- en kleine letters",
+      "desc": "Converteer tekst naar HOOFDLETTERS, kleine letters, Titelhoofdletters of Zinshoofdletters.",
+      "long": "Plak tekst, klik op een stijl en kopieer het resultaat. Handig om tekst te corrigeren die met Caps Lock aan is getypt.",
+      "faq1q": "Wat is titelhoofdletters?",
+      "faq1a": "De Eerste Letter Van Elk Woord Wordt Met Hoofdletter Geschreven — veelgebruikt voor koppen.",
+      "faq2q": "Verandert het Arabische tekst?",
+      "faq2a": "Het Arabisch kent geen hoofd- en kleine letters, dus Arabische tekens blijven ongewijzigd — alleen Latijnse letters worden geconverteerd."
+    },
+    "password-generator": {
+      "name": "Wachtwoordgenerator",
+      "desc": "Genereer sterke willekeurige wachtwoorden met eigen regels.",
+      "long": "Wachtwoorden worden gegenereerd met de cryptografische willekeurige generator van je browser en verlaten nooit je apparaat — er wordt nooit iets verzonden of opgeslagen.",
+      "faq1q": "Hoe lang moet mijn wachtwoord zijn?",
+      "faq1a": "Minimaal 16 tekens voor belangrijke accounts. Lengte is belangrijker dan complexiteit — elk extra teken vermenigvuldigt de tijd om het te kraken.",
+      "faq2q": "Is het veilig om online wachtwoorden te genereren?",
+      "faq2a": "Op deze pagina, ja: het genereren gebruikt crypto.getRandomValues() lokaal in je browser. Je kunt de pagina laden, de internetverbinding verbreken en offline wachtwoorden genereren."
+    },
+    "qr-generator": {
+      "name": "QR-code maken",
+      "desc": "Maak gratis QR-codes voor links, tekst en wifi.",
+      "long": "Typ willekeurige tekst of een URL en download een QR-code in hoge resolutie als PNG. Geen aanmelding, geen vervallende codes, geen watermerk.",
+      "faq1q": "Vervallen deze QR-codes?",
+      "faq1a": "Nooit. De code wordt rechtstreeks uit je tekst gegenereerd — er is geen verkortingsdienst of server die kan stoppen.",
+      "faq2q": "Welke resolutie heeft de download?",
+      "faq2a": "1024×1024 pixels PNG — scherp genoeg voor drukwerk, visitekaartjes en posters."
+    },
+    "json-formatter": {
+      "name": "JSON formatteren",
+      "desc": "Formatteer, valideer en verklein JSON-gegevens.",
+      "long": "Plak JSON om het netjes op te maken met correcte inspringing, of verklein het voor productie. Fouten worden nauwkeurig aangewezen met een duidelijke melding.",
+      "faq1q": "Is het veilig om API-reacties met gevoelige gegevens te plakken?",
+      "faq1a": "Ja — het formatteren gebeurt lokaal in je browser. Niets wat je plakt wordt ergens heen verzonden.",
+      "faq2q": "Wat betekent “ongeldige JSON”?",
+      "faq2a": "De tekst overtreedt de JSON-syntaxregels — meestal een staartkomma, enkele aanhalingstekens in plaats van dubbele, of een sleutel zonder aanhalingstekens. De foutmelding laat zien waar."
+    },
+    "base64": {
+      "name": "Base64 coderen",
+      "desc": "Converteer tekst naar Base64 en terug, met volledige Unicode-ondersteuning.",
+      "long": "Codeer willekeurige tekst — inclusief Arabisch en emoji — naar Base64, of decodeer Base64 terug naar leesbare tekst.",
+      "faq1q": "Waar wordt Base64 voor gebruikt?",
+      "faq1a": "Het stelt binaire gegevens of gegevens met speciale tekens voor met alleen veilige ASCII-tekens — gebruikelijk in API's, e-mailbijlagen en data-URL's.",
+      "faq2q": "Is Base64 versleuteling?",
+      "faq2a": "Nee. Base64 is codering, geen versleuteling — iedereen kan het decoderen. Gebruik het nooit om geheimen te beschermen."
+    },
+    "remove-tashkeel": {
+      "name": "Tashkeel verwijderen",
+      "desc": "Verwijder Arabische diakritische tekens (harakat) uit tekst met één klik.",
+      "long": "Verwijdert fatha, damma, kasra, sukun, shadda, tanween en tatweel uit Arabische tekst — handig voor zoekindexering, databases en strakke typografie.",
+      "faq1q": "Verandert het de letters zelf?",
+      "faq1a": "Nee — alleen de diakritische tekens worden verwijderd. De letters, spaties en leestekens blijven exact zoals ze zijn.",
+      "faq2q": "Kan ik de shadda behouden?",
+      "faq2a": "Ja — schakel “shadda behouden” in om alle tekens te verwijderen behalve shadda, dat vaak betekenis draagt."
+    },
+    "arabic-numerals": {
+      "name": "Arabische ↔ westerse cijfers",
+      "desc": "Converteer tussen Oost-Arabische (٠١٢٣) en westerse (0123) cijfers.",
+      "long": "Converteert elk cijfer in je tekst in beide richtingen, terwijl alle andere tekens onaangeroerd blijven. Behandelt ook Perzische cijfervarianten.",
+      "faq1q": "Welke cijfers zijn “Arabische cijfers”?",
+      "faq1a": "Verwarrend genoeg: allebei! ٠١٢٣٤ zijn Oost-Arabische (Arabisch-Indische) cijfers die in de meeste Arabische landen worden gebruikt; 01234 zijn westerse Arabische cijfers. Deze tool converteert tussen beide.",
+      "faq2q": "Verandert het datums en telefoonnummers correct?",
+      "faq2a": "Ja — cijfers worden één-op-één geconverteerd waar ze ook voorkomen, dus formaten zoals datums en telefoonnummers behouden hun structuur."
+    },
+    "hijri-gregorian": {
+      "name": "Hijri ↔ gregoriaanse converter",
+      "desc": "Converteer datums tussen de islamitische (Umm al-Qura) en gregoriaanse kalender.",
+      "long": "Nauwkeurige conversie in beide richtingen met de Umm al-Qura-kalender — de officiële kalender van Saoedi-Arabië — met de weekdag voor elk resultaat.",
+      "faq1q": "Welke Hijri-kalender wordt gebruikt?",
+      "faq1a": "Umm al-Qura, de berekende kalender die officieel in Saoedi-Arabië wordt gebruikt. Het daadwerkelijk waarnemen van de maan kan voor religieuze vieringen ±1 dag afwijken.",
+      "faq2q": "Welk datumbereik wordt ondersteund?",
+      "faq2a": "Elke datum vanaf het begin van de Hijri-jaartelling (622 n.Chr.) tot ver in de toekomst — genoeg voor verjaardagen, contracten en historische datums."
+    },
+    "reorder-pdf": {
+      "name": "PDF-pagina's herschikken",
+      "desc": "Herschik de pagina's van een PDF met visuele miniaturen.",
+      "long": "Elke pagina wordt als miniatuur op je apparaat weergegeven. Verplaats pagina's in de gewenste volgorde en download het herschikte bestand — er wordt niets geüpload.",
+      "faq1q": "Kan ik een pagina van het einde naar het begin verplaatsen?",
+      "faq1a": "Ja — gebruik de pijlen onder elke miniatuur om pagina's stap voor stap naar elke gewenste positie te verplaatsen.",
+      "faq2q": "Verandert herordenen de kwaliteit?",
+      "faq2a": "Nee. Pagina's worden exact gekopieerd zoals ze zijn; alleen hun volgorde verandert."
+    },
+    "watermark-pdf": {
+      "name": "Watermerk aan PDF toevoegen",
+      "desc": "Voeg een watermerk of logo toe aan PDF-bestanden.",
+      "long": "Typ je watermerktekst (bijv. VERTROUWELIJK of CONCEPT), kies de dekking en elke pagina krijgt een strak diagonaal stempel — lokaal verwerkt.",
+      "faq1q": "Kan ik Arabische tekst in het watermerk gebruiken?",
+      "faq1a": "Nog niet — de ingebouwde PDF-lettertypen dekken Latijnse letters en cijfers. Ondersteuning voor Arabische watermerken met ingebedde lettertypen staat op onze roadmap.",
+      "faq2q": "Kan het watermerk later worden verwijderd?",
+      "faq2a": "Het watermerk wordt onderdeel van de pagina-inhoud. Bewaar je originele bestand — het wordt nooit aangepast."
+    },
+    "page-numbers-pdf": {
+      "name": "Paginanummers toevoegen",
+      "desc": "Voeg paginanummers toe aan de onderkant van elke pagina.",
+      "long": "Kies een eenvoudige stijl (1, 2, 3) of het formaat “1 / 12” en download een genummerde kopie van je document.",
+      "faq1q": "Waar worden de nummers geplaatst?",
+      "faq1a": "Gecentreerd onderaan elke pagina, in een formaat dat leesbaar blijft zonder te botsen met je inhoud.",
+      "faq2q": "Kan ik de nummering bij een andere pagina dan 1 laten beginnen?",
+      "faq2a": "De huidige versie nummert alle pagina's vanaf 1. Eigen startpagina's zijn gepland."
+    },
+    "crop-image": {
+      "name": "Foto bijsnijden",
+      "desc": "Snijd afbeeldingen bij tot standaard aspectverhoudingen zoals 1:1 of 16:9.",
+      "long": "Kies een doelverhouding en de afbeelding wordt gecentreerd bijgesneden tot het grootst mogelijke oppervlak — perfect voor profielfoto's, covers en miniaturen.",
+      "faq1q": "Welke verhoudingen zijn beschikbaar?",
+      "faq1a": "Vierkant 1:1, klassiek 4:3 en 3:4, en breedbeeld 16:9 en 9:16 voor stories en covers.",
+      "faq2q": "Is het bijsnijden gecentreerd?",
+      "faq2a": "Ja — de tool behoudt het grootste gecentreerde gebied dat past bij de door jou gekozen verhouding."
+    },
+    "circle-crop": {
+      "name": "Ronde foto bijsnijden",
+      "desc": "Snijd een perfecte cirkel uit elke foto, met transparantie.",
+      "long": "De grootst mogelijke gecentreerde cirkel wordt uit je afbeelding gesneden en opgeslagen als transparante PNG — klaar voor avatars en logo's.",
+      "faq1q": "Waarom is de uitvoer een PNG?",
+      "faq1a": "Alleen PNG (en WebP) ondersteunen transparantie. De hoeken buiten de cirkel zijn volledig transparant.",
+      "faq2q": "Kan ik kiezen waar de cirkel wordt geplaatst?",
+      "faq2a": "De cirkel wordt automatisch gecentreerd. Voor een eigen plaatsing snijd je de afbeelding eerst bij met de tool Bijsnijden."
+    },
+    "blur-image": {
+      "name": "Foto vervagen",
+      "desc": "Pas een instelbare Gaussiaanse vervaging toe op een foto.",
+      "long": "Kies de sterkte van de vervaging met een schuifregelaar — handig voor achtergronden, het onleesbaar maken van details of het maken van zachte coverafbeeldingen.",
+      "faq1q": "Kan ik alleen een deel van de afbeelding vervagen?",
+      "faq1a": "Deze tool vervaagt de hele afbeelding. Vervaging per gebied staat op onze roadmap.",
+      "faq2q": "Verbergt vervagen informatie betrouwbaar?",
+      "faq2a": "Sterke vervaging (20px+) maakt tekst onleesbaar, maar voor gevoelige gegevens raden we aan om het er volledig uit te snijden."
+    },
+    "image-filters": {
+      "name": "Foto-filters",
+      "desc": "Pas grijstinten, sepia, negatief, helderheid of contrast toe.",
+      "long": "Klassieke filters met één klik, direct verwerkt op je apparaat in volledige resolutie.",
+      "faq1q": "Verminderen filters de resolutie?",
+      "faq1a": "Nee — de afbeelding behoudt zijn exacte originele afmetingen.",
+      "faq2q": "Kan ik meerdere filters combineren?",
+      "faq2a": "Pas één filter toe, download en voer het resultaat opnieuw door de tool om effecten te combineren."
+    },
+    "image-to-base64": {
+      "name": "Afbeelding naar Base64",
+      "desc": "Converteer een afbeelding naar een Base64-data-URL voor inbedding.",
+      "long": "Ontvang een direct te kopiëren data-URL voor gebruik in HTML, CSS of JSON — lokaal gegenereerd, dus zelfs privéafbeeldingen zijn veilig.",
+      "faq1q": "Wanneer moet ik afbeeldingen als Base64 inbedden?",
+      "faq1a": "Voor kleine afbeeldingen (pictogrammen, kleine logo's) waarbij het besparen van een HTTP-verzoek van belang is. Grote afbeeldingen kunnen beter als gewone bestanden worden aangeboden.",
+      "faq2q": "Waarom is de Base64-tekenreeks groter dan mijn bestand?",
+      "faq2a": "Base64-codering voegt ongeveer 33% overhead toe — dat is normaal en te verwachten."
+    },
+    "favicon-generator": {
+      "name": "Favicon-generator",
+      "desc": "Genereer een complete favicon-set uit één afbeelding.",
+      "long": "Upload een vierkant logo en download een ZIP met alle standaardformaten (16–512px), het Apple-touch-pictogram en een kant-en-klaar HTML-fragment.",
+      "faq1q": "Met welke afbeelding moet ik beginnen?",
+      "faq1a": "Een vierkante PNG of SVG van minimaal 512×512 pixels geeft op elk formaat de scherpste resultaten.",
+      "faq2q": "Welke formaten zijn inbegrepen?",
+      "faq2a": "16, 32, 48, 192 en 512 pixels plus het 180px apple-touch-icon — alles wat moderne browsers en telefoons aanvragen."
+    },
+    "color-picker": {
+      "name": "Kleur uit foto halen",
+      "desc": "Klik ergens op een afbeelding om exacte HEX- en RGB-waarden te krijgen.",
+      "long": "Upload een foto of screenshot en klik op een willekeurige pixel — de tool bouwt een palet van de door jou gekozen kleuren met kopiëren in één klik.",
+      "faq1q": "Hoe nauwkeurig is de gekozen kleur?",
+      "faq1a": "Exact — de waarde wordt rechtstreeks uit de pixel gelezen waarop je klikt.",
+      "faq2q": "Kan ik meerdere kleuren kiezen?",
+      "faq2a": "Ja, elke klik voegt toe aan je palet (tot de laatste 12 keuzes)."
+    },
+    "svg-to-png": {
+      "name": "SVG naar PNG",
+      "desc": "Converteer vector-SVG-bestanden naar PNG op 1×–8× schaal.",
+      "long": "Geeft je SVG weer op je apparaat en exporteert een scherpe PNG — kies een hogere schaal voor drukwerk of retina-schermen.",
+      "faq1q": "Wat doet de schaalinstelling?",
+      "faq1a": "Het vermenigvuldigt de natuurlijke omvang van de SVG: een pictogram van 100×100 geëxporteerd op 4× wordt een PNG van 400×400.",
+      "faq2q": "Wordt transparantie behouden?",
+      "faq2a": "Ja — transparante delen van de SVG blijven transparant in de PNG."
+    },
+    "id-photo": {
+      "name": "ID-foto maken",
+      "desc": "Pas foto's aan naar officiële paspoortformaten: Saoedi-Arabië, VAE, Egypte, EU, VS.",
+      "long": "Kies je landenpreset en ontvang een foto met de juiste afmetingen in drukwerkkwaliteit (300 DPI). Het bijsnijden is gericht op het bovenste deel van het beeld, waar het gezicht meestal zit — en omdat het lokaal draait, verlaat je persoonlijke foto nooit je apparaat.",
+      "faq1q": "Welke formaten worden ondersteund?",
+      "faq1a": "EU/Schengen 35×45mm, Saoedi-Arabië en Egypte 40×60mm, VAE 43×55mm en VS 51×51mm — allemaal geëxporteerd op 300 DPI.",
+      "faq2q": "Controleert de tool de foto-eisen?",
+      "faq2a": "Het produceert de juiste afmetingen en resolutie. Eisen zoals achtergrondkleur en gezichtsuitdrukking blijven jouw verantwoordelijkheid — raadpleeg de richtlijnen van de betreffende instantie."
+    },
+    "url-encode": {
+      "name": "URL coderen",
+      "desc": "Codeer tekst voor veilig gebruik in URL's, of decodeer het weer terug.",
+      "long": "Procentcodering, direct gemaakt — volledige Unicode-ondersteuning inclusief Arabische tekens in URL's.",
+      "faq1q": "Wanneer heb ik URL-codering nodig?",
+      "faq1a": "Wanneer tekst in een URL terechtkomt: queryparameters, zoektermen of tekens zoals spaties, ?, & en niet-Latijnse letters.",
+      "faq2q": "Wat is het verschil met Base64?",
+      "faq2a": "URL-codering houdt tekst leesbaar en is specifiek voor URL's; Base64 is een algemene codering van binair naar tekst."
+    },
+    "uuid-generator": {
+      "name": "UUID-generator",
+      "desc": "Genereer willekeurige versie-4-UUID's in bulk.",
+      "long": "Gebruikt crypto.randomUUID() van je browser — cryptografisch sterke identificatoren, offline gegenereerd.",
+      "faq1q": "Waar wordt een UUID voor gebruikt?",
+      "faq1a": "Als een vrijwel botsingsvrije identificator voor databaserecords, API-objecten, bestandsnamen en gedistribueerde systemen.",
+      "faq2q": "Kunnen twee gegenereerde UUID's botsen?",
+      "faq2a": "De kans is zo klein dat het in de praktijk te verwaarlozen is — je zou eeuwenlang miljarden per seconde moeten genereren."
+    },
+    "hash-generator": {
+      "name": "Hash-generator",
+      "desc": "Bereken SHA-1-, SHA-256-, SHA-384- en SHA-512-hashes van tekst.",
+      "long": "Hashes werken live bij terwijl je typt, berekend met de native Web Crypto API van de browser — je tekst verlaat de pagina nooit.",
+      "faq1q": "Waarom wordt MD5 niet aangeboden?",
+      "faq1a": "MD5 is cryptografisch gebroken en browsers implementeren het niet native. SHA-256 is de moderne standaard.",
+      "faq2q": "Zijn hashes omkeerbaar?",
+      "faq2a": "Nee — een hash is een eenrichtingsvingerafdruk. Dezelfde invoer geeft altijd dezelfde hash, maar de invoer kan er niet uit worden teruggehaald."
+    },
+    "remove-duplicate-lines": {
+      "name": "Dubbele regels verwijderen",
+      "desc": "Verwijder herhaalde regels uit een lijst terwijl de oorspronkelijke volgorde behouden blijft.",
+      "long": "Plak een willekeurige lijst — e-mails, trefwoorden, URL's — en ontvang elke unieke regel exact één keer, met een telling van wat is verwijderd.",
+      "faq1q": "Is de vergelijking hoofdlettergevoelig?",
+      "faq1a": "Ja — “Apple” en “apple” worden als verschillende regels behandeld. Gebruik indien nodig eerst de Hoofdletterconverter om te normaliseren.",
+      "faq2q": "Wordt de oorspronkelijke volgorde behouden?",
+      "faq2a": "Ja, het eerste voorkomen van elke regel blijft op zijn plaats; latere herhalingen worden verwijderd."
+    },
+    "text-diff": {
+      "name": "Teksten vergelijken",
+      "desc": "Vergelijk twee teksten en markeer toegevoegde en verwijderde regels.",
+      "long": "Plak twee versies naast elkaar en zie precies welke regels zijn veranderd — toevoegingen in het groen, verwijderingen in het rood.",
+      "faq1q": "Hoe werkt de vergelijking?",
+      "faq1a": "Regel voor regel, met dezelfde aanpak van de langste gemeenschappelijke deelreeks als diff-tools in de programmering.",
+      "faq2q": "Kan ik code vergelijken?",
+      "faq2a": "Ja — de tool is inhoudsonafhankelijk en werkt voor code, contracten, artikelen of elke tekst."
+    },
+    "lorem-ipsum": {
+      "name": "Lorem ipsum-generator",
+      "desc": "Genereer tijdelijke alinea's voor ontwerpen en mock-ups.",
+      "long": "Klassieke lorem ipsum-vultekst, 1–10 alinea's, direct gegenereerd met kopiëren in één klik.",
+      "faq1q": "Waarom lorem ipsum gebruiken in plaats van echte tekst?",
+      "faq1a": "De natuurlijke letterverdeling laat kijkers een opmaak beoordelen zonder afgeleid te worden door leesbare inhoud.",
+      "faq2q": "Is de tekst willekeurig?",
+      "faq2a": "Ja — zinslengtes en woordvolgorde variëren bij elke generatie, net als bij natuurlijk schrijven."
+    },
+    "markdown-to-html": {
+      "name": "Markdown naar HTML",
+      "desc": "Converteer Markdown-syntax naar nette HTML-opmaak.",
+      "long": "Mogelijk gemaakt door de moderne marked-parser, die volledig in je browser draait — plak Markdown, kopieer productieklare HTML.",
+      "faq1q": "Welke Markdown-functies worden ondersteund?",
+      "faq1a": "De volledige CommonMark-standaard: koppen, nadruk, lijsten, links, afbeeldingen, codeblokken, citaten en tabellen (GFM).",
+      "faq2q": "Wordt de HTML-uitvoer gesaneerd?",
+      "faq2a": "De uitvoer weerspiegelt je invoer. Als je HTML uit niet-vertrouwde bronnen wilt weergeven, saneer het dan in je applicatie."
+    },
+    "csv-json": {
+      "name": "CSV ↔ JSON-converter",
+      "desc": "Converteer in beide richtingen tussen CSV-gegevens en JSON-reeksen.",
+      "long": "Mogelijk gemaakt door de industrienorm-engine Papa Parse — verwerkt gequote velden, komma's in waarden en koppen correct.",
+      "faq1q": "Gebruikt CSV→JSON de eerste rij als sleutels?",
+      "faq1a": "Ja — de koprij wordt de JSON-eigenschapsnaam voor elk object.",
+      "faq2q": "Mijn CSV gebruikt puntkomma's — werkt het dan?",
+      "faq2a": "Ja, de parser detecteert automatisch veelvoorkomende scheidingstekens, waaronder puntkomma's en tabs."
+    },
+    "tafqit": {
+      "name": "Tafqit — getallen naar Arabische woorden",
+      "desc": "Converteer getallen naar uitgeschreven Arabische woorden voor facturen en cheques.",
+      "long": "Typ elk bedrag tot miljarden en ontvang de grammaticaal correcte Arabische formulering, met optionele valuta (SAR, AED, EGP, USD, EUR) in het wettelijke formaat “alleen en niets meer” dat op facturen wordt gebruikt.",
+      "faq1q": "Waar wordt tafqit voor gebruikt?",
+      "faq1a": "Arabische facturen, cheques en contracten vereisen wettelijk dat bedragen in woorden worden uitgeschreven — tafqit converteert 15.750 direct naar de volledige Arabische formulering.",
+      "faq2q": "Is de Arabische grammatica correct?",
+      "faq2a": "Ja — de tool past de correcte vormen toe voor dualis, meervouden van 3–10 en de accusatief na 11+ (bijv. ألفاً / مليوناً)."
+    },
+    "extract-pdf-pages": {
+      "name": "PDF-pagina's extraheren",
+      "desc": "Haal specifieke pagina's of bereiken uit een PDF en bewaar ze in een nieuw bestand.",
+      "long": "Typ paginabereiken zoals “1-3, 5, 8-10” en ontvang een nieuwe PDF die exact die pagina's bevat, in die volgorde — verwerkt op je apparaat.",
+      "faq1q": "Welke bereikformaten worden geaccepteerd?",
+      "faq1a": "Losse pagina's (5), bereiken (2-7) of een mix gescheiden door komma's zoals 1-3, 6, 9-12.",
+      "faq2q": "Verandert het originele bestand?",
+      "faq2a": "Nooit — er wordt een gloednieuwe PDF gemaakt en je origineel blijft onaangeroerd op je apparaat."
+    },
+    "pdf-to-text": {
+      "name": "PDF naar tekst",
+      "desc": "Haal alle tekst uit een PDF en bewaar deze als platte tekst.",
+      "long": "Leest de tekstlaag van elke pagina en geeft je nette, te kopiëren tekst — met een .txt-download in één klik. Werkt met Arabische, Latijnse en Spaanse documenten.",
+      "faq1q": "Waarom gaf mijn gescande PDF geen tekst terug?",
+      "faq1a": "Gescande PDF's zijn afbeeldingen zonder tekstlaag. Voor tekstextractie is een digitaal gemaakt PDF nodig; OCR voor scans staat op onze roadmap.",
+      "faq2q": "Wordt de opmaak behouden?",
+      "faq2a": "Tekst wordt pagina voor pagina in leesvolgorde geëxtraheerd, maar complexe opmaak (kolommen, tabellen) wordt gewone doorlopende tekst."
+    },
+    "png-to-pdf": {
+      "name": "PNG naar PDF",
+      "desc": "Combineer één of meer PNG-afbeeldingen tot één PDF.",
+      "long": "Elke afbeelding wordt een pagina op zijn oorspronkelijke resolutie — transparantie blijft behouden op de PDF-pagina. Perfect voor screenshots en scans.",
+      "faq1q": "Kan ik de paginavolgorde bepalen?",
+      "faq1a": "Pagina's volgen de volgorde waarin je bestanden toevoegt — verwijder en voeg opnieuw toe om te herschikken, of gebruik daarna de tool PDF-pagina's herordenen.",
+      "faq2q": "Wordt de beeldkwaliteit verminderd?",
+      "faq2a": "Nee — PNG's worden verliesvrij ingebed op hun volledige oorspronkelijke resolutie."
+    },
+    "pdf-metadata": {
+      "name": "PDF-metadata bewerken",
+      "desc": "Bekijk en bewerk de titel, auteur, onderwerp en trefwoorden van een PDF.",
+      "long": "Metadata bepaalt hoe een document verschijnt in zoekresultaten en bestandsbeheerders. Bewerk de velden en download een bijgewerkte kopie — de inhoud zelf blijft onaangeroerd.",
+      "faq1q": "Waarom is metadata belangrijk?",
+      "faq1a": "Zoekmachines en documentsystemen indexeren titel- en auteurvelden; correcte metadata maakt je PDF's vindbaar en professioneel.",
+      "faq2q": "Verandert het bewerken van metadata de documentinhoud?",
+      "faq2a": "Nee — alleen de onzichtbare informatievelden veranderen. Elke pagina blijft byte-identiek."
+    },
+    "grayscale-pdf": {
+      "name": "PDF in zwart-wit",
+      "desc": "Converteer een kleuren-PDF naar zwart-wit.",
+      "long": "Elke pagina wordt op je apparaat opnieuw weergegeven in grijstinten — ideaal voor printvriendelijke versies en om tonerverbruik te verminderen.",
+      "faq1q": "Blijft de tekst selecteerbaar?",
+      "faq1a": "Nee — pagina's worden geconverteerd naar grijstintafbeeldingen in hoge resolutie, waardoor tekstselectie verloren gaat. Bewaar je kleurenorigineel voor bewerking.",
+      "faq2q": "Waarom werd mijn bestand groter of kleiner?",
+      "faq2a": "Pagina's worden gecomprimeerde afbeeldingen; tekstzware bestanden kunnen iets groeien, terwijl fotozware bestanden vaak krimpen."
+    },
+    "flip-image": {
+      "name": "Foto spiegelen",
+      "desc": "Spiegel een afbeelding horizontaal of verticaal.",
+      "long": "Met één klik spiegel je je foto langs beide assen in volledige kwaliteit — handig voor selfies, scans en ontwerpmateriaal.",
+      "faq1q": "Wat is het verschil tussen spiegelen en roteren?",
+      "faq1a": "Spiegelen kantelt de afbeelding (links wordt rechts); roteren draait hem om zijn middelpunt. Wij hebben een aparte tool Roteren.",
+      "faq2q": "Gaat er kwaliteit verloren bij spiegelen?",
+      "faq2a": "Nee — pixels worden herschikt, niet opnieuw gecomprimeerd, wanneer de bron PNG is; JPG's worden opnieuw gecodeerd in hoge kwaliteit."
+    },
+    "png-to-jpg": {
+      "name": "PNG naar JPG",
+      "desc": "Converteer PNG-afbeeldingen naar JPG met witte achtergrond.",
+      "long": "Transparante delen worden op wit gevlakt en de afbeelding wordt opgeslagen als een JPG van hoge kwaliteit — meestal stukken kleiner dan de PNG.",
+      "faq1q": "Wat gebeurt er met transparantie?",
+      "faq1a": "JPG ondersteunt geen transparantie, dus transparante delen worden opgevuld met wit.",
+      "faq2q": "Hoeveel kleiner wordt het bestand?",
+      "faq2a": "Foto's krimpen doorgaans 60–80%. Afbeeldingen met weinig kleuren krimpen misschien niet veel — die kun je beter als PNG behouden."
+    },
+    "webp-to-jpg": {
+      "name": "WEBP naar JPG",
+      "desc": "Converteer WebP-afbeeldingen naar universeel compatibel JPG.",
+      "long": "WebP-bestanden openen soms niet in oudere software — converteer ze met één klik naar JPG, rechtstreeks in je browser.",
+      "faq1q": "Waarom weg van WebP converteren?",
+      "faq1a": "Hoewel WebP efficiënt is, wijzen sommige editors, printers en oudere systemen het nog steeds af. JPG opent overal.",
+      "faq2q": "Gaat er kwaliteit verloren?",
+      "faq2a": "De conversie codeert opnieuw op 92% kwaliteit — in de praktijk visueel identiek voor foto's."
+    },
+    "jpg-to-webp": {
+      "name": "JPG naar WEBP",
+      "desc": "Converteer JPG/PNG-afbeeldingen naar modern, kleiner WebP.",
+      "long": "WebP-bestanden zijn doorgaans 25–35% kleiner dan JPG bij dezelfde visuele kwaliteit — ideaal voor snellere websites.",
+      "faq1q": "Waar wordt WebP ondersteund?",
+      "faq1a": "Alle moderne browsers (Chrome, Safari, Firefox, Edge) ondersteunen WebP native — meer dan 97% van de webgebruikers.",
+      "faq2q": "Wanneer moet ik WebP niet gebruiken?",
+      "faq2a": "Voor printworkflows of software die JPG/PNG-invoer vereist. Voor het web is WebP vrijwel altijd de betere keuze."
+    },
+    "add-text-to-image": {
+      "name": "Tekst aan foto toevoegen",
+      "desc": "Schrijf tekst op een foto — Arabisch volledig ondersteund.",
+      "long": "Kies positie, kleur en formaat; de tekst wordt getekend met een strakke omtrek zodat die op elke achtergrond leesbaar blijft. Arabisch schrift vormt zich correct.",
+      "faq1q": "Wordt Arabische tekst correct weergegeven?",
+      "faq1a": "Ja — de native tekstengine van de browser verzorgt de Arabische lettervormgeving en de rechts-naar-links-richting correct.",
+      "faq2q": "Kan ik meerdere regels toevoegen?",
+      "faq2a": "De huidige versie voegt per beurt één regel toe — voer het resultaat opnieuw door de tool voor extra regels."
+    },
+    "pixelate-image": {
+      "name": "Foto pixeleren",
+      "desc": "Pas een retro-pixelblokeffect toe of censureer details.",
+      "long": "Kies de pixelgrootte met een schuifregelaar — van een subtiel mozaïek tot zware censuurblokken, direct verwerkt op je apparaat.",
+      "faq1q": "Is pixelering veilig om gevoelige gegevens te verbergen?",
+      "faq1a": "Zware pixelering (20+) is moeilijk ongedaan te maken, maar voor echt gevoelige informatie is volledig uitsnijden veiliger.",
+      "faq2q": "Wat is het verschil met vervagen?",
+      "faq2a": "Vervagen verzacht geleidelijk; pixelering creëert harde vierkante blokken — de klassieke censuur- en retrogamelook."
+    },
+    "round-corners": {
+      "name": "Foto-hoeken afronden",
+      "desc": "Voeg afgeronde hoeken toe aan elke afbeelding, met transparantie.",
+      "long": "Kies de hoekradius met een schuifregelaar en download een PNG met vloeiende transparante hoeken — perfect voor app-pictogrammen en UI-materiaal.",
+      "faq1q": "Waarom is de uitvoer een PNG?",
+      "faq1a": "Afgeronde hoeken vereisen transparantie, die JPG niet kan opslaan. PNG houdt de hoeken scherp op elke achtergrond.",
+      "faq2q": "Kan ik een volledige cirkel maken?",
+      "faq2a": "Met 50% radius op een vierkante afbeelding krijg je een perfecte cirkel — of gebruik onze speciale tool Cirkel bijsnijden."
+    },
+    "reverse-text": {
+      "name": "Tekst omkeren",
+      "desc": "Keer tekens, woordvolgorde of regelvolgorde om.",
+      "long": "Drie modi met één klik: elk teken omdraaien, de woordvolgorde omkeren of de regelvolgorde omdraaien — handig voor puzzels, gegevenscorrecties en plezier.",
+      "faq1q": "Werkt het met Arabisch?",
+      "faq1a": "Ja — het omkeren werkt op Unicode-tekens, hoewel verbonden Arabisch schrift omgekeerd er, zoals te verwachten, ongebruikelijk uitziet.",
+      "faq2q": "Waar is het omkeren van regels nuttig voor?",
+      "faq2a": "Chronologische lijsten, logbestanden of ranglijsten omdraaien zonder spreadsheet."
+    },
+    "text-to-slug": {
+      "name": "Tekst naar slug",
+      "desc": "Zet elke titel om in een nette, URL-veilige slug.",
+      "long": "Zet om naar kleine letters, verwijdert accenten en vervangt spaties en symbolen door koppeltekens terwijl je typt. Arabische letters blijven behouden — moderne browsers en zoekmachines ondersteunen Arabische URL's volledig.",
+      "faq1q": "Zijn Arabische slugs goed voor SEO?",
+      "faq1a": "Ja — Google indexeert en toont Arabische URL's correct, en leesbare Arabische slugs verbeteren de doorklikratio voor Arabische doelgroepen.",
+      "faq2q": "Welke tekens worden verwijderd?",
+      "faq2a": "Alles behalve letters en cijfers wordt een koppelteken; Latijnse letters met accenten worden omgezet naar hun gewone vorm (é → e)."
+    },
+    "binary-text": {
+      "name": "Binair ↔ tekst",
+      "desc": "Converteer tekst naar binaire code en terug.",
+      "long": "Codeert tekst als UTF-8-bytes weergegeven in 8-bits binaire groepen — en decodeert ze weer terug. Werkt met elke taal, inclusief Arabisch.",
+      "faq1q": "Waarom wordt één Arabische letter twee bytes?",
+      "faq1a": "UTF-8 codeert niet-Latijnse tekens met meerdere bytes — dat is de standaardcodering van het moderne web.",
+      "faq2q": "Welk formaat verwacht de decoder?",
+      "faq2a": "Groepen van maximaal 8 binaire cijfers gescheiden door spaties, bijv. 01001000 01101001."
+    },
+    "morse-code": {
+      "name": "Morsecode-vertaler",
+      "desc": "Vertaal tekst naar morsecode en terug.",
+      "long": "Internationale morsecode voor letters, cijfers en veelvoorkomende leestekens — woorden gescheiden door “/”, letters door spaties.",
+      "faq1q": "Hoe worden woorden gescheiden?",
+      "faq1a": "Letters worden gescheiden door enkele spaties en woorden door een schuine streep (/), de gangbare tekstconventie.",
+      "faq2q": "Worden Arabische letters ondersteund?",
+      "faq2a": "De internationale standaard dekt Latijnse letters en cijfers; Arabische morsevarianten bestaan maar zijn niet gestandaardiseerd, dus ze zijn niet opgenomen."
+    },
+    "number-base": {
+      "name": "Talstelsel-converter",
+      "desc": "Converteer tussen binair, octaal, decimaal en hexadecimaal.",
+      "long": "Typ een getal, kies de basis en lees het direct in alle vier de bases — met kopiëren in één klik voor elk.",
+      "faq1q": "Kan ik waarden plakken met voorvoegsels zoals 0x?",
+      "faq1a": "Ja — de voorvoegsels 0x, 0b en 0o worden automatisch verwijderd vóór de conversie.",
+      "faq2q": "Wat is de maximale waarde?",
+      "faq2a": "Alles binnen het veilige gehele-getallenbereik van JavaScript — meer dan 9 quadriljoen, ver boven het dagelijks gebruik."
+    },
+    "roman-numerals": {
+      "name": "Romeinse cijfers",
+      "desc": "Converteer getallen naar Romeinse cijfers en terug.",
+      "long": "Typ 2026 en je krijgt MMXXVI — of plak een Romeins cijfer om het te decoderen. Validatie wijst misvormde cijfers zoals IIII af.",
+      "faq1q": "Wat is het geldige bereik?",
+      "faq1a": "Standaard Romeinse cijfers bestrijken 1 tot 3999 — er is geen standaardnotatie voor nul of hogere getallen.",
+      "faq2q": "Valideert het de strikte vorm?",
+      "faq2a": "Ja — alleen canonieke cijfers worden gedecodeerd; niet-standaardvormen zoals IM of VV worden afgewezen."
+    },
+    "random-number": {
+      "name": "Willekeurig getal-generator",
+      "desc": "Genereer echte willekeurige getallen in elk bereik.",
+      "long": "Gebruikt de cryptografische willekeur van je browser (geen zwak pseudo-willekeurig) met onpartijdige steekproefname — geschikt voor trekkingen en weggeefacties.",
+      "faq1q": "Is dit eerlijk voor een weggeef-trekking?",
+      "faq1a": "Ja — waarden komen uit crypto.getRandomValues met afwijzingssteekproef, zodat elk getal in het bereik exact even waarschijnlijk is.",
+      "faq2q": "Kan hetzelfde getal twee keer verschijnen?",
+      "faq2a": "Ja, trekkingen zijn onafhankelijk — zoals dobbelen. Voor unieke keuzes genereer je er één tegelijk en verwijder je winnaars uit je lijst."
+    },
+    "color-converter": {
+      "name": "Kleurconverter",
+      "desc": "Converteer kleuren live tussen HEX, RGB en HSL.",
+      "long": "Kies een kleur of plak een HEX-code en lees direct alle drie de formaten, met een live kleurstaal en kopiëren in één klik.",
+      "faq1q": "Welk formaat moet ik in CSS gebruiken?",
+      "faq1a": "Alle drie werken overal. HEX is compact, RGB is intuïtief en HSL is het gemakkelijkst om lichtere/donkere variaties te maken.",
+      "faq2q": "Worden HEX-codes van 3 cijfers ondersteund?",
+      "faq2a": "Ja — snelnotatie zoals #fa0 wordt automatisch uitgebreid naar #ffaa00."
+    },
+    "css-minifier": {
+      "name": "CSS verkleinen",
+      "desc": "Comprimeer CSS door opmerkingen en spaties te verwijderen.",
+      "long": "Verwijdert alles wat de browser niet nodig heeft en toont exact hoeveel procent je hebt bespaard — doorgaans 20–40%.",
+      "faq1q": "Is verkleinde CSS veilig om te deployen?",
+      "faq1a": "Ja — alleen opmerkingen en niet-betekenisvolle spaties worden verwijderd; selectors en waarden blijven onaangeroerd.",
+      "faq2q": "Moet ik het originele bestand bewaren?",
+      "faq2a": "Altijd — bewerk de leesbare versie en verklein pas bij de uiteindelijke buildstap."
+    },
+    "html-encode": {
+      "name": "HTML coderen",
+      "desc": "Escape speciale HTML-tekens of decodeer entiteiten terug.",
+      "long": "Converteert <, >, & en aanhalingstekens naar veilige entiteiten voor het inbedden van code in webpagina's — en decodeert elke entiteit terug naar tekst.",
+      "faq1q": "Wanneer heb ik HTML-codering nodig?",
+      "faq1a": "Wanneer je gebruikerstekst of codevoorbeelden binnen HTML weergeeft — niet-ge-escaped < en & verbreken de pagina of maken injectie mogelijk.",
+      "faq2q": "Hanteert decoderen benoemde entiteiten?",
+      "faq2a": "Ja — &amp;, &copy;, &nbsp; en elke standaard benoemde of numerieke entiteit worden gedecodeerd."
+    },
+    "timestamp-converter": {
+      "name": "Tijdstempel-converter",
+      "desc": "Converteer Unix-timestamps naar leesbare datums en terug.",
+      "long": "Plak een timestamp van 10 of 13 cijfers of een willekeurige datumtekenreeks en lees het als Unix-seconden, milliseconden, ISO 8601 en je lokale tijd.",
+      "faq1q": "Wat is het verschil tussen 10 en 13 cijfers?",
+      "faq1a": "10 cijfers zijn seconden sinds 1970; 13 cijfers zijn milliseconden. De tool detecteert welke je hebt geplakt.",
+      "faq2q": "Welke tijdzone wordt getoond?",
+      "faq2a": "ISO-uitvoer is UTC (het achtervoegsel Z); de rij “Lokaal” gebruikt de tijdzone van je apparaat."
+    },
+    "sort-lines": {
+      "name": "Regels sorteren",
+      "desc": "Sorteer tekstregels A→Z, Z→A, op lengte, of schud ze willekeurig.",
+      "long": "Taalbewust sorteren dat correct omgaat met het Arabische, Spaanse en Engelse alfabet — plus een willekeurige shuffle voor trekkingen.",
+      "faq1q": "Wordt Arabisch correct gesorteerd?",
+      "faq1a": "Ja — sorteren gebruikt locatiebewuste collatie, zodat Arabische letters de juiste Arabische alfabetische volgorde volgen.",
+      "faq2q": "Wat gebeurt er met lege regels?",
+      "faq2a": "Lege regels worden tijdens het sorteren verwijderd, waardoor een nette lijst overblijft."
+    },
+    "find-replace": {
+      "name": "Zoeken en vervangen",
+      "desc": "Vervang tekst in bulk, met optionele regex-ondersteuning.",
+      "long": "Eenvoudig zoeken en vervangen met telling van overeenkomsten — schakel de modus Regex in voor patronen, vervangingen zonder vastleggingen en hoofdlettercontrole.",
+      "faq1q": "Welke regex-variant wordt ondersteund?",
+      "faq1a": "JavaScript-reguliere expressies — tekensets, kwantificatoren, ankers, alternatieven en meer.",
+      "faq2q": "Is het hoofdlettergevoelig?",
+      "faq2a": "Standaard niet — schakel “Hoofdletters matchen” in voor vervanging met exacte hoofdletters."
+    },
+    "arabic-keyboard": {
+      "name": "Arabisch toetsenbord",
+      "desc": "Typ Arabisch met een schermtoetsenbord — geen Arabische indeling nodig.",
+      "long": "Klik op letters om Arabische tekst op te stellen op elk apparaat of elke computer zonder Arabische toetsenbordondersteuning en kopieer daarna met één klik. Inclusief hamza-vormen en Arabische leestekens.",
+      "faq1q": "Voor wie is dit bedoeld?",
+      "faq1a": "Iedereen op een apparaat zonder Arabische indeling — reizigers, studenten en Arabischtaligen op geleende of buitenlandse computers.",
+      "faq2q": "Kan ik typen en klikken combineren?",
+      "faq2a": "Ja — het tekstvak accepteert ook normaal typen, zodat je beide kunt combineren."
+    },
+    "arabic-transliteration": {
+      "name": "Arabische transliteratie",
+      "desc": "Converteer Arabisch schrift naar leesbare Latijnse letters.",
+      "long": "Translitereert Arabische tekst letter voor letter naar een leesbare romanisering — handig voor namen, adressen en taalonderwijs.",
+      "faq1q": "Is dit een vertaling?",
+      "faq1a": "Nee — transliteratie zet de klanken/letters om, niet de betekenis. مرحبا wordt marhba, niet “hallo”.",
+      "faq2q": "Welk romaniseringssysteem wordt gebruikt?",
+      "faq2a": "Een vereenvoudigd leesbaar systeem (kh, sh, gh, dh voor خ ش غ ذ) in plaats van strikte academische notatie — geoptimaliseerd voor dagelijkse leesbaarheid."
+    },
+    "zakat-calculator": {
+      "name": "Zakatcalculator",
+      "desc": "Bereken de 2,5% zakat die over je vermogen verschuldigd is.",
+      "long": "Voer je geld, goud/beleggingen en openstaande schulden in — de tool berekent je zakatgrondslag en het verschuldigde bedrag, volledig op je apparaat zodat je financiën privé blijven.",
+      "faq1q": "Hoe wordt zakat berekend?",
+      "faq1a": "Vermogen dat voor zakat in aanmerking komt (geld + goud/zilver/beleggingen − verschuldigde schulden) dat een maanjaar wordt aangehouden, is 2,5% verschuldigd als het boven de nisab (waarde van 85 g goud) uitkomt.",
+      "faq2q": "Zijn mijn financiële gegevens veilig?",
+      "faq2a": "Volledig — niets wat je typt wordt ergens heen verzonden. De berekening draait in je browser en verdwijnt wanneer je de pagina sluit."
+    },
+    "age-calculator": {
+      "name": "Leeftijd berekenen",
+      "desc": "Bereken je exacte leeftijd — met de Hijri-geboortedatum.",
+      "long": "Voer je geboortedatum in en zie je exacte leeftijd in jaren, maanden en dagen, het totaal aantal geleefde dagen, je Hijri-geboortedatum (Umm al-Qura) en de aftelling naar je volgende verjaardag.",
+      "faq1q": "Hoe nauwkeurig is de Hijri-conversie?",
+      "faq1a": "Het gebruikt de officiële Umm al-Qura-kalender die in je browser is ingebouwd — dezelfde kalender die in Saoedi-Arabië wordt gebruikt.",
+      "faq2q": "Houdt het rekening met schrikkeljaren?",
+      "faq2a": "Ja — de jaar/maand/dag-berekening gaat exact om met schrikkeljaren en wisselende maandlengtes."
+    },
+    "excel-to-csv": {
+      "name": "Excel naar CSV",
+      "desc": "Converteer Excel-workbooks (.xlsx) naar CSV-bestanden.",
+      "long": "Leest het eerste werkblad — inclusief formuleresultaten, datums en rijke tekst — en produceert een nette CSV met UTF-8-codering, zodat Arabische tekst en tekst met accenten correct opent in elk programma.",
+      "faq1q": "Worden formules geconverteerd?",
+      "faq1a": "Ja — het berekende resultaat van elke formule wordt geëxporteerd, niet de formule zelf.",
+      "faq2q": "Waarom opent mijn CSV met gebroken Arabische tekens?",
+      "faq2a": "Onze CSV bevat een UTF-8-byteordemerk, specifiek zodat Excel Arabische tekst en tekst met accenten correct opent."
+    },
+    "csv-to-excel": {
+      "name": "CSV naar Excel",
+      "desc": "Converteer CSV-bestanden naar opgemaakte Excel-workbooks.",
+      "long": "Verwerkt gequote velden, komma's in waarden en automatisch gedetecteerde scheidingstekens (puntkomma's, tabs) — de uitvoer heeft een vetgedrukte koprij en kolommen die zich automatisch aanpassen.",
+      "faq1q": "Mijn CSV gebruikt puntkomma's — wordt dat ondersteund?",
+      "faq1a": "Ja, de parser detecteert automatisch komma's, puntkomma's en tabs.",
+      "faq2q": "Is er een rijenlimiet?",
+      "faq2a": "Geen vaste limiet — bestanden met tienduizenden rijen converteren prima; zeer grote bestanden kosten alleen een paar seconden."
+    },
+    "excel-to-json": {
+      "name": "Excel naar JSON",
+      "desc": "Converteer Excel-workbooks naar een JSON-reeks van objecten.",
+      "long": "De eerste rij wordt de eigenschapsnamen en elke volgende rij wordt een object — kopieer het resultaat of download het als .json-bestand.",
+      "faq1q": "Hoe worden lege cellen behandeld?",
+      "faq1a": "Lege cellen worden null-waarden, waardoor de structuur van elk object consistent blijft.",
+      "faq2q": "Hoe zit het met datums?",
+      "faq2a": "Excel-datums worden geëxporteerd in het universele formaat YYYY-MM-DD."
+    },
+    "json-to-excel": {
+      "name": "JSON naar Excel",
+      "desc": "Converteer een JSON-reeks naar een opgemaakt Excel-bestand.",
+      "long": "Plak een reeks objecten — sleutels worden kolomkoppen (samengevoegd over alle objecten), geneste objecten worden als tekenreeksen weergegeven en het blad krijgt een vetgedrukte kop met kolommen die zich automatisch aanpassen.",
+      "faq1q": "Wat als objecten verschillende sleutels hebben?",
+      "faq1a": "De verzameling van alle sleutels wordt de kolomset; ontbrekende waarden blijven lege cellen.",
+      "faq2q": "Kan ik een enkel object converteren?",
+      "faq2a": "Ja — een enkel object wordt een werkblad met één rij."
+    },
+    "mt940-to-excel": {
+      "name": "MT940 naar Excel",
+      "desc": "Converteer MT940-bankafschriften (SWIFT) naar Excel.",
+      "long": "Banken zoals ING, Rabobank en ABN AMRO exporteren afschriften in het MT940-formaat (.940/.sta). Deze tool verwerkt elke transactie — datum, omschrijving, debet, credit, referentie — tot een net Excel-werkblad, volledig op je apparaat, zodat je bankgegevens nooit je computer verlaten.",
+      "faq1q": "Zijn mijn bankgegevens veilig?",
+      "faq1a": "Volledig — het afschrift wordt in je browser verwerkt en er wordt niets ergens heen verzonden. Verbreek de internetverbinding en de tool blijft werken.",
+      "faq2q": "Welke banken worden ondersteund?",
+      "faq2a": "Elke bank die standaard SWIFT MT940 exporteert — waaronder ING, Rabobank, ABN AMRO, Deutsche Bank en de meeste Europese banken. Terugboekings-snippers (RC/RD) worden correct verwerkt."
+    },
+    "txt-to-mt940": {
+      "name": "TXT naar MT940",
+      "desc": "Zet een tekst- of CSV-bestand met transacties om in een MT940-afschrift.",
+      "long": "Upload een plat-tekst- of CSV-bestand met de kolommen Datum, Omschrijving, Debet, Credit, Valuta en Referentie (elk scheidingsteken â€” komma, puntkomma, tab of pipe â€” wordt automatisch herkend), en deze tool bouwt een volledig SWIFT MT940-afschrift (.940/.sta) op met kop, openings- en sluitingssaldo en elke transactie, volledig op uw apparaat.",
+      "faq1q": "Welke scheidingstekens worden ondersteund?",
+      "faq1a": "Komma, puntkomma, tab en pipe worden allemaal automatisch herkend en tussen aanhalingstekens geplaatste velden worden verwerkt. Een kopregel met kolomnamen wordt overgeslagen.",
+      "faq2q": "Welk formaat moeten de bedragkolommen hebben?",
+      "faq2a": "Eenvoudige getallen zoals 1234.56. Zet een debetbedrag in de Debet-kolom en een creditbedrag in de Credit-kolom; een rij moet ten minste een van beide bevatten."
+    },
+    "excel-to-mt940": {
+      "name": "Excel naar MT940",
+      "desc": "Zet een Excel-transactieblad om in een MT940-bankafschrift.",
+      "long": "Het omgekeerde van MT940 naar Excel: upload een werkblad met de kolommen Datum, Omschrijving, Debet, Credit, Valuta en Referentie, en deze tool bouwt een volledig SWIFT MT940-afschrift (.940/.sta) op met kop, openings- en sluitingssaldo en elke transactie â€” volledig op uw apparaat gegenereerd, zodat uw bankgegevens uw computer nooit verlaten.",
+      "faq1q": "Zijn mijn bankgegevens veilig?",
+      "faq1a": "Volledig â€” alles wordt in uw browser gegenereerd en er wordt niets verzonden. Koppel los van internet en de tool blijft werken.",
+      "faq2q": "Welke kolommen moet het Excel-blad bevatten?",
+      "faq2a": "Zes kolommen in volgorde: Datum (JJJJ-MM-DD), Omschrijving, Debet, Credit, Valuta en Referentie â€” dezelfde indeling die de MT940-naar-Excel-tool van deze site produceert."
+    },
+    "invoice-generator": {
+      "name": "Factuur maken",
+      "desc": "Maak een professionele factuur met je logo, btw en elke valuta.",
+      "long": "Vul je bedrijfs- en klantgegevens in, voeg regels toe en download een verzorgde PDF-factuur — volledig gegenereerd op je apparaat. Omdat Arabische tekst een correcte lettervormgeving vereist die PDF-lettertypen niet direct kunnen, wordt de factuur eerst pixelperfect in je browser weergegeven en daarna opgeslagen als PDF-pagina.",
+      "faq1q": "Is de factuurtekst selecteerbaar in de PDF?",
+      "faq1a": "Nee — om Arabische, Engelse en Spaanse tekst correct en consistent weer te geven, wordt de factuur als scherpe afbeelding getekend en ingebed in de PDF-pagina. Het print en toont perfect, maar de tekst zelf is niet selecteerbaar.",
+      "faq2q": "Kan ik mijn eigen logo en valuta gebruiken?",
+      "faq2a": "Ja — upload een PNG- of JPG-logo en kies uit gangbare valuta's (USD, EUR, SAR, AED, EGP, GBP). Het belastingpercentage en de totalen worden automatisch berekend."
+    },
+    "cv-builder": {
+      "name": "CV-maker",
+      "desc": "Maak een net, éénkolomscv dat applicant tracking systems kunnen lezen.",
+      "long": "Vul je ervaring, opleiding en vaardigheden in — de opmaak is bewust eenvoudig (één kolom, gewone koppen, geen tabellen of afbeeldingen), want dat is precies wat ATS-software betrouwbaar verwerkt. Lange cv's lopen automatisch door naar extra pagina's.",
+      "faq1q": "Waarom ziet het ontwerp er zo eenvoudig uit?",
+      "faq1a": "Applicant tracking systems die de meeste werkgevers gebruiken, hebben moeite met meerkolomsopmaak, pictogrammen en tekstvakken. Een éénkolomscv met duidelijke koppen wordt waarschijnlijk correct verwerkt en bereikt eerder een menselijke beoordelaar.",
+      "faq2q": "Mag mijn cv meer dan één pagina hebben?",
+      "faq2a": "Ja — inhoud die niet op de eerste pagina past, loopt automatisch door naar extra pagina's."
+    },
+    "flatten-pdf": {
+      "name": "PDF afvlakken",
+      "desc": "Maak formuliervelden en aantekeningen een permanent onderdeel van de pagina.",
+      "long": "Interactieve formuliervelden, opmerkingen en lagen worden samengevoegd in de platte pagina-inhoud, zodat je PDF er overal identiek uitziet en niet meer door anderen kan worden bewerkt.",
+      "faq1q": "Wat gebeurt er met ingevulde formuliervelden?",
+      "faq1a": "Hun huidige waarden worden permanente afdruktext; het formulier zelf is niet meer interactief.",
+      "faq2q": "Werkt dit ook op PDF's zonder formulier?",
+      "faq2a": "Ja — als er niets is om af te vlakken, wordt het bestand simpelweg ongewijzigd opnieuw opgeslagen."
+    },
+    "crop-pdf": {
+      "name": "PDF bijsnijden",
+      "desc": "Verwijder witte marges of wijzig het zichtbare paginaoppervlak van een PDF.",
+      "long": "Kies een margepercentage en het zichtbare oppervlak van elke pagina krimpt naar binnen — handig om overtollige witte ruimte te verwijderen voor het printen of het elders inbedden van pagina's.",
+      "faq1q": "Verwijdert bijsnijden inhoud?",
+      "faq1a": "Nee — het verandert alleen de zichtbare paginagrens (cropbox); de oorspronkelijke pagina-inhoud eronder blijft behouden.",
+      "faq2q": "Kan ik aan elke zijde ongelijk bijsnijden?",
+      "faq2a": "De huidige versie past hetzelfde percentage toe aan alle zijden. Aangepast bijsnijden per zijde staat op onze roadmap."
+    },
+    "code-snippet": {
+      "name": "Code naar afbeelding",
+      "desc": "Zet broncode om in een deelbare afbeelding met syntaxismarkering.",
+      "long": "Plak willekeurige code, kies een licht of donker thema en download een nette PNG met een titelbalk in macOS-stijl — perfect voor tweets, presentaties en documentatie.",
+      "faq1q": "Welke talen worden gemarkeerd?",
+      "faq1a": "Een lichtgewicht marker herkent veelvoorkomende trefwoorden, tekenreeksen, opmerkingen en getallen in de meeste C-achtige en scripttalen.",
+      "faq2q": "Kan ik de bestandsnaam in de titelbalk wijzigen?",
+      "faq2a": "Ja — bewerk het veld Bestandsnaam boven het codevak voordat je downloadt."
+    },
+    "handwriting": {
+      "name": "Handschrift-generator",
+      "desc": "Zet getypte tekst om in een natuurlijke afbeelding in handschriftstijl.",
+      "long": "Kies gelinieerd, blanco of geruit papier en een inktkleur, en je tekst wordt weergegeven in een vloeiend handschriftlettertype — Arabisch schrift verbindt en vormt zich correct.",
+      "faq1q": "Is dit echt handschrift of een lettertype?",
+      "faq1a": "Het gebruikt een open lettertype in handschriftstijl dat door je browser wordt weergegeven, geen scan van echt handschrift — maar het ziet er natuurlijk uit en leest goed.",
+      "faq2q": "Ondersteunt het Arabisch?",
+      "faq2a": "Ja — er wordt een speciaal Arabisch displaylettertype gebruikt, zodat letters correct verbinden en vorm krijgen, in tegenstelling tot gewone tekstlettertypen die in een “handschrift”stijl worden gedwongen."
+    },
+    "ghost-text": {
+      "name": "Verborgen tekst-generator",
+      "desc": "Verberg een geheime boodschap onzichtbaar in ogenschijnlijk gewone tekst.",
+      "long": "Je boodschap wordt gecodeerd met onzichtbare nulbreedtetekens die in zichtbare tekst zijn verwerkt — kopieer het resultaat overal heen en alleen iemand met deze tool kan het onthullen.",
+      "faq1q": "Is de verborgen tekst zichtbaar als ik het ergens plak?",
+      "faq1a": "Nee — de onzichtbare tekens hebben nulbreedte en verschijnen niet in de meeste apps, hoewel sommige platforms ze kunnen verwijderen wanneer je plakt.",
+      "faq2q": "Is dit beveiligde versleuteling?",
+      "faq2a": "Nee — zie het als een leuke manier om een notitie in het zicht te verbergen, niet als bescherming voor gevoelige geheimen."
+    },
+    "steganography": {
+      "name": "Verborgen bericht in afbeelding",
+      "desc": "Verberg een tekstbericht in een gewone PNG-foto.",
+      "long": "Je boodschap wordt gecodeerd in de minst significante bits van de pixels van de afbeelding — onzichtbaar voor het oog, maar terug te halen met dezezelfde tool.",
+      "faq1q": "Verandert het verbergen van een boodschap het uiterlijk van de afbeelding?",
+      "faq1a": "Geen zichtbaar verschil — alleen de allerlaatste bit van de kleur van elke pixel verandert, ver onder wat het menselijk oog kan waarnemen.",
+      "faq2q": "Waarom moet de afbeelding een PNG zijn?",
+      "faq2a": "De compressie van JPEG verwijdert precies het soort fijne pixeldetail waar de verborgen boodschap van afhangt. PNG behoudt elke bit exact."
+    },
+    "file-xray": {
+      "name": "Bestand inspecteren",
+      "desc": "Inspecteer het werkelijke type, de omvang en de ruwe bytes van elk bestand.",
+      "long": "Upload elk bestand om het opgegeven type te zien, het werkelijke type dat is gedetecteerd uit binaire handtekeningen, de afmetingen als het een afbeelding is, en een hexdump van de eerste bytes — handig om te controleren of een bestand is wat het beweert te zijn.",
+      "faq1q": "Waarom zou het opgegeven type van een bestand verschillen van het werkelijke type?",
+      "faq1a": "Een hernoemd bestand (bijv. een .txt die eigenlijk een JPEG bevat) behoudt zijn oude extensie, maar de binaire handtekening onthult de waarheid.",
+      "faq2q": "Wordt mijn bestand ergens geüpload?",
+      "faq2a": "Nee — alleen de eerste 64 bytes worden lokaal in je browser gelezen om de handtekening te detecteren; het bestand zelf verlaat nooit je apparaat."
+    },
+    "organize-pdf": {
+      "name": "PDF-pagina's ordenen",
+      "desc": "Herorden, roteer, verwijder en extraheer pagina's op één plek.",
+      "long": "Laad een PDF en rangschik elke pagina precies zoals je nodig hebt. Sleep pagina's in een nieuwe volgorde, roteer afzonderlijke pagina's, verwijder de pagina's die je niet wilt en exporteer een net geordend document — allemaal in je browser.",
+      "faq1q": "Kan ik alleen sommige pagina's verwijderen of roteren?",
+      "faq1a": "Ja. Klik op een paginaminiatuur om deze te selecteren of deselecteren, gebruik de draaiknop op elke pagina en herorden vrij voordat je exporteert.",
+      "faq2q": "Wordt mijn PDF ergens geüpload?",
+      "faq2a": "Nee. Alles gebeurt lokaal op je apparaat. Er wordt niets naar een server verzonden."
+    },
+    "images-to-pdf": {
+      "name": "Afbeeldingen naar PDF",
+      "desc": "Converteer meerdere JPG-, PNG- of WebP-afbeeldingen naar één PDF.",
+      "long": "Selecteer meerdere afbeeldingen, bepaal de volgorde, kies een paginagrootte en marges en exporteer ze allemaal naar één PDF. Herordenen en opmaak gebeuren allemaal lokaal in je browser.",
+      "faq1q": "Welke afbeeldingformaten worden ondersteund?",
+      "faq1a": "Alle gangbare formaten die je browser kan weergeven, waaronder JPG, PNG, WebP, GIF en meer.",
+      "faq2q": "Kan ik de pagina-oriëntatie wijzigen?",
+      "faq2a": "Ja. Bij A4-pagina's kun je staand of liggend kiezen; anders past de pagina elke afbeelding automatisch aan."
+    },
+    "protect-pdf": {
+      "name": "PDF-wachtwoord verwijderen",
+      "desc": "Verwijder het wachtwoord en ontgrendel beveiligde PDF-bestanden.",
+      "long": "Upload een wachtwoordbeveiligde PDF waarvoor je toestemming hebt en deze tool slaat hem opnieuw op zonder het wachtwoord, volledig in je browser. Het bestand verlaat nooit je apparaat.",
+      "faq1q": "Welke versleutelde PDF's worden ondersteund?",
+      "faq1a": "PDF's die gebruikmaken van gangbare wachtwoordversleuteling kunnen meestal worden geopend en opnieuw worden opgeslagen zonder het wachtwoord. Sommige zeldzame of sterk beveiligde documenten worden mogelijk niet ondersteund.",
+      "faq2q": "Wordt het echt lokaal verwerkt?",
+      "faq2a": "Ja. Het volledige proces draait op je apparaat en er wordt niets naar een server geüpload."
+    },
+    "pdf-redaction": {
+      "name": "PDF-redactie",
+      "desc": "Maak gevoelige tekst in je PDF permanent zwart.",
+      "long": "Typ de woorden die je wilt verbergen en deze tool vindt elk voorkomen op alle pagina's, waarmee er vóór het exporteren effen zwarte vakken overheen worden geverfd. De verwijderde tekst verschijnt niet meer in de uitvoer.",
+      "faq1q": "Wordt de verborgen tekst echt verwijderd?",
+      "faq1a": "Ja. De overeenkomende tekst wordt in het geëxporteerde bestand bedekt met een permanent zwarte rechthoek, niet slechts verborgen.",
+      "faq2q": "Werkt het op gescande PDF's?",
+      "faq2a": "Het werkt op PDF's die tekst bevatten. In gescande pagina's zonder tekstlaag kunnen geen woorden worden gezocht."
+    },
+    "pdf-editor": {
+      "name": "PDF bewerken",
+      "desc": "Bewerk PDF-bestanden online: voeg tekst, afbeeldingen en handtekeningen toe.",
+      "long": "Kies een pagina, schrijf de tekst die je wilt toevoegen, kies het formaat, de kleur en de positie en plaats deze op je PDF. Meerdere tekstoverlays kunnen op dezelfde pagina worden gelaagd.",
+      "faq1q": "Kan ik bestaande tekst bewerken?",
+      "faq1a": "Deze tool voegt nieuwe tekstoverlays bovenop een pagina toe. Voor het bewerken van de originele tekst zelf moet je het brondocument opnieuw genereren.",
+      "faq2q": "Waar wordt de tekst geplaatst?",
+      "faq2a": "Gebruik de X- en Y-percentages om de tekst overal op de pagina te plaatsen, gemeten vanaf de linkerbenedenhoek van de pagina."
+    },
+    "pdf-to-audio": {
+      "name": "PDF naar spraak",
+      "desc": "Luister naar je PDF als gesproken audio.",
+      "long": "Haal de tekst uit je PDF en speel deze hardop af met de ingebouwde spraakengine van je browser. Pas de leessnelheid aan en bewaar de geëxtraheerde tekst desgewenst als bestand.",
+      "faq1q": "Werkt het offline?",
+      "faq1a": "De tekstextractie draait lokaal. De spraakweergave gebruikt de stemmen van je systeem, die meestal offline werken.",
+      "faq2q": "Wordt de audio als bestand gedownload?",
+      "faq2a": "Spraak wordt in realtime via je browser afgespeeld. Je kunt het geëxtraheerde tekstbestand ook downloaden voor ander gebruik."
+    },
+    "document-scanner": {
+      "name": "Documenten scannen",
+      "desc": "Zet een foto van een document om in een nette scan.",
+      "long": "Upload een foto die met je telefoon of camera is gemaakt en maak er een nette gescande look van — pas helderheid en contrast aan en converteer naar zwart-wit, en download daarna als PNG of PDF.",
+      "faq1q": "Is een internetverbinding nodig?",
+      "faq1a": "Nee. Alle beeldverwerking gebeurt lokaal op je apparaat met behulp van de HTML-canvas.",
+      "faq2q": "Kan ik het met mijn camera gebruiken?",
+      "faq2a": "Kies het afbeeldingsbestand van je apparaat of uit je galerij. Elk apparaat wordt ondersteund omdat het in de browser draait."
+    },
+    "qr-with-logo": {
+      "name": "QR-code met logo",
+      "desc": "Maak kleurrijke QR-codes met je logo in het midden.",
+      "long": "Maak een aangepaste QR-code in je merkkleuren en plaats een logo in het midden. Er wordt een hoge foutcorrectie gebruikt, zodat de code ook met het logo erbovenop betrouwbaar scant.",
+      "faq1q": "Blijft de code scannen met een logo?",
+      "faq1a": "Ja. Het hoogste foutcorrectieniveau wordt gebruikt, zodat de QR-code scanbaar blijft, zelfs met een logo in het midden.",
+      "faq2q": "Welke inhoud kan het bevatten?",
+      "faq2a": "Elke tekst, URL, wifi-configuratie of contactgegevens, net als bij een gewone QR-code."
+    },
+    "certificate-generator": {
+      "name": "Certificaat maken",
+      "desc": "Ontwerp en download een professioneel certificaat.",
+      "long": "Voer de naam van de ontvanger, de titel van de cursus of prestatie en je organisatie in, kies de taal en download direct een prachtig vormgegeven certificaat als afbeelding in hoge resolutie.",
+      "faq1q": "Moet ik me aanmelden?",
+      "faq1a": "Nee. Het certificaat wordt volledig in je browser gegenereerd zonder account of upload.",
+      "faq2q": "Welk formaat krijg ik?",
+      "faq2a": "Je downloadt een PNG-afbeelding in hoge resolutie die je op standaardpapier kunt printen of digitaal kunt versturen."
+    },
+    "letter-generator": {
+      "name": "Officiële brief maken",
+      "desc": "Schrijf formele brieven met kant-en-klare formuleringen.",
+      "long": "Kies een briefsoort — ontslag, verlof, klacht, bezwaar, overplaatsing of sollicitatie — vul je naam en gegevens in en ontvang direct correct geformuleerde formele tekst die je kunt kopiëren of downloaden.",
+      "faq1q": "Welke talen zijn beschikbaar?",
+      "faq1a": "De briefsjablonen passen zich aan de taal van de site aan en zijn beschikbaar in het Arabisch, Engels en Spaans.",
+      "faq2q": "Kan ik de formulering bewerken?",
+      "faq2a": "Ja. De gegenereerde brief verschijnt in een bewerkbaar tekstvak dat je vrij kunt aanpassen voordat je kopieert of downloadt."
+    },
+    "id-card-generator": {
+      "name": "Werknemers-ID-kaart Generator",
+      "desc": "Maak een professionele werknemersbadge met foto, barcode en QR-code.",
+      "long": "Vul de naam, functietitel, indiensttredingsdatum en werknemersnummer in, voeg een foto toe en download een schone ISO-ID-1-formaat kaart (85,6 × 54 mm) als PDF. Een CODE128-barcode en een QR-code worden automatisch gegenereerd uit het werknemersnummer — alles wordt op uw apparaat verwerkt.",
+      "ui": {
+        "name": "Volledige naam",
+        "title": "Functie",
+        "hireDate": "Datum in dienst",
+        "idNumber": "Werknemersnummer",
+        "company": "Organisatie / Bedrijf",
+        "photo": "Foto",
+        "uploadPhoto": "Foto kiezen",
+        "capturePhoto": "Foto maken",
+        "cancel": "Annuleren",
+        "removePhoto": "Verwijderen",
+        "logo": "Bedrijfslogo (optioneel)",
+        "uploadLogo": "Logo kiezen",
+        "removeLogo": "Verwijderen",
+        "wmIntensity": "Watermerk dekking",
+        "wmSizeLabel": "Watermerk grootte",
+        "placeholder": "Werknemer",
+        "titlePlaceholder": "bijv. Software-ingenieur",
+        "idPlaceholder": "EMP-0001",
+        "save": "Kaart voorbeeld",
+        "print": "Kaart als PDF downloaden",
+        "reset": "Resetten",
+        "hint": "Vul de velden in en klik op « Kaart voorbeeld » om het ontwerp te bekijken",
+        "emptyName": "Voer een naam in om de kaart te maken",
+        "scanHint": "Bij het scannen toont de QR alle werknemersgegevens. Tik op de QR op de kaart om te vergroten (de barcode bevat alleen het werknemersnummer).",
+        "qrName": "Naam",
+        "qrTitle": "Functie",
+        "qrCompany": "Bedrijf",
+        "qrHire": "Datum in dienst",
+        "scanDataLabel": "QR-inhoud (weergegeven bij scannen):",
+        "employeeId": "Werknemersnummer",
+        "hire": "Datum in dienst",
+        "color": "Primaire kleur",
+        "preview": "Voorbeeld",
+        "size": "Grootte",
+        "processing": "Genereren...",
+        "cameraUnsupported": "Uw browser ondersteunt geen cameratoegang.",
+        "cameraDenied": "Kan de camera niet openen. Sta toegang toe en probeer het opnieuw.",
+        "createInvoice": "Factuur maken"
+      },
+      "faq1q": "Welk formaat heeft de kaart?",
+      "faq1a": "De kaart voldoet aan de ISO ID-1-standaard (85,6 × 54 mm, het formaat van een creditcard of identiteitsbewijs), geëxporteerd op 300 DPI.",
+      "faq2q": "Codeert de barcode mijn werknemersnummer?",
+      "faq2a": "Ja — zowel de CODE128-barcode als de QR-code slaan het werknemersnummer op dat u invoert, zodat de badge door standaardlezers kan worden gescand."
+    }
+  },
+  "footer": {
+    "rights": "Gratis bestandstools voor in de browser. Je bestanden verlaten nooit je apparaat.",
+    "madeBy": "Gemaakt door hoursmedia",
+    "toolsCol": "Tools",
+    "popularCol": "Populaire tools",
+    "companyCol": "Bedrijf",
+    "blog": "Blog"
+  },
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "pages": {
+    "about": {
+      "title": "Over ChooseTools",
+      "body": [
+        "ChooseTools is een verzameling gratis bestandstools die volledig in je browser draaien. In tegenstelling tot traditionele toolwebsites ontvangen we je bestanden nooit: een PDF samenvoegen, een foto comprimeren of een QR-code genereren gebeurt allemaal lokaal op je eigen apparaat.",
+        "Deze architectuur heeft drie gevolgen waar we trots op zijn. Ten eerste privacy — een bestand dat nooit wordt verzonden kan nooit uitlekken, worden gelogd of worden bewaard. Ten tweede snelheid — er is geen upload- of downloadtijd, dus zelfs grote bestanden worden direct verwerkt. Ten derde eerlijkheid — omdat verwerking ons niets kost, kunnen we echt onbeperkt gebruik aanbieden zonder groottebeperkingen, dagelijkse limieten of watermerken.",
+        "Het platform is beschikbaar in veel talen, waarbij elke uitleg in de oorspronkelijke taal is geschreven in plaats van machinaal vertaald. Onze exclusief Arabische tools — zoals het verwijderen van tashkeel, de Hijri-datumconversie en tafqit — zijn speciaal gebouwd voor Arabische gebruikers, niet aangepast van Engelse tools.",
+        "ChooseTools wordt gebouwd en onderhouden door hoursmedia. Elke week komen er nieuwe tools uit; als je er één mist, horen we dat graag."
+      ]
+    },
+    "contact": {
+      "title": "Contact",
+      "body": [
+        "Heb je een vraag, een bug gevonden of wil je een nieuwe tool voorstellen? We lezen elk bericht.",
+        "E-mail ons op: contact@choosetools.com (werk dit adres bij nadat je je domeinmailbox hebt aangesloten).",
+        "Omdat alle verwerking in je browser plaatsvindt, kunnen we geen enkel bestand waar je aan hebt gewerkt zien of herstellen — beschrijf bij bestandsspecifieke problemen het bestandstype en de stappen die tot het probleem leidden.",
+        "ChooseTools wordt beheerd door hoursmedia, Nederland."
+      ]
+    },
+    "privacy": {
+      "title": "Privacybeleid",
+      "body": [
+        "Laatst bijgewerkt: juli 2026. Dit beleid legt uit welke gegevens ChooseTools (beheerd door hoursmedia) wel en niet verwerkt wanneer je deze website gebruikt.",
+        "Je bestanden. Alle tools op deze site verwerken bestanden lokaal in je browser met JavaScript en WebAssembly. Je bestanden worden nooit geüpload naar, opgeslagen op of gezien door onze servers. Je kunt dit controleren door na het laden van een toolpagina de internetverbinding te verbreken — de tool blijft werken.",
+        "Analytics. We gebruiken privacy-vriendelijke geaggregeerde analyses om te begrijpen welke tools worden gebruikt en om de site te verbeteren. Dit kan pagina's die zijn bezocht, browsertype, locatie op landniveau en verwijzingsbron omvatten. Het omvat nooit de inhoud van je bestanden of teksten.",
+        "Reclame. Deze site kan advertenties tonen die door Google AdSense worden geleverd. Google en zijn partners kunnen cookies gebruiken om advertenties te tonen op basis van je eerdere bezoeken aan deze of andere websites. Je kunt gepersonaliseerde advertenties uitschakelen via Google Ads-instellingen (adssettings.google.com). Bezoekers uit de EU/EER/VK krijgen een toestemmingsbanner in overeenstemming met de AVG en krijgen niet-gepersonaliseerde advertenties te zien, tenzij toestemming wordt gegeven.",
+        "Cookies. Afgezien van de hierboven beschreven advertentie- en toestemmingscookies plaatst deze site geen trackingcookies. Je taalvoorkeur kan lokaal in je browser worden opgeslagen.",
+        "Nieuwsbrief. Als je je aanmeldt voor onze nieuwsbrief, bewaren we je e-mailadres bij onze e-mailprovider uitsluitend om je de nieuwsbrief te sturen. Elke e-mail bevat een link om je met één klik af te melden, en we gebruiken dubbele opt-in.",
+        "Jouw rechten. Op grond van de AVG heb je het recht om persoonlijke gegevens die wij over jou bewaren in te zien, te corrigeren of te verwijderen (wat voor de meeste bezoekers geen gegevens zijn). Neem contact met ons op via de gegevens op de contactpagina.",
+        "Wijzigingen. We kunnen dit beleid bijwerken naarmate de site zich ontwikkelt; de datum hierboven weerspiegelt altijd de laatste herziening."
+      ]
+    },
+    "terms": {
+      "title": "Servicevoorwaarden",
+      "body": [
+        "Laatst bijgewerkt: juli 2026. Door ChooseTools te gebruiken ga je akkoord met deze voorwaarden.",
+        "De dienst. ChooseTools biedt gratis bestandshulpmiddelen voor in de browser. Alle verwerking gebeurt op je apparaat; we ontvangen je bestanden nooit en kunnen ze daarom niet inzien, herstellen of er back-ups van maken.",
+        "Toegestaan gebruik. Je mag de tools gebruiken voor elk wettig doel, persoonlijk of commercieel. Je mag niet proberen de dienst te verstoren, deze op misbruikende schaal te scrapen of de tools te gebruiken om materiaal te verwerken waarop je geen recht hebt.",
+        "Geen garantie. De tools worden “as is” geleverd, zonder enige garantie. Hoewel we elke tool zorgvuldig testen, ben je verantwoordelijk voor het controleren van resultaten voordat je erop vertrouwt — bewaar altijd je originele bestanden.",
+        "Beperking van aansprakelijkheid. Voor zover de wet dit toestaat, is hoursmedia niet aansprakelijk voor schade die voortvloeit uit het gebruik van deze site, waaronder gegevensverlies. Omdat je originele bestanden nooit je apparaat verlaten en nooit door ons worden gewijzigd, blijven je originelen altijd in jouw bezit.",
+        "Intellectueel eigendom. Het ontwerp, de teksten en de code van de site zijn eigendom van hoursmedia. De bestanden die je verwerkt blijven volledig van jou; wij maken geen aanspraak op de rechten daarop.",
+        "Wijzigingen. We kunnen deze voorwaarden op elk moment wijzigen of tools beëindigen. Voortgezet gebruik na wijzigingen geldt als aanvaarding."
+      ]
+    }
+  },
+  "sub": {
+    "pdf": {
+      "all": "Alle PDF's",
+      "organize": "Ordenen",
+      "convert": "Converteren",
+      "optimize": "Optimaliseren",
+      "security": "Beveiliging"
+    },
+    "image": {
+      "all": "Alle afbeeldingen",
+      "resizeCrop": "Verkleinen en bijsnijden",
+      "convert": "Converteren",
+      "optimize": "Optimaliseren"
+    },
+    "text": {
+      "all": "Alle tools",
+      "textTools": "Teksttools",
+      "devTools": "Ontwikkelaarstools",
+      "arabicTools": "Arabische teksttools"
+    }
+  },
+  "blog": {
+    "metaTitle": "Tools Blog - Handleidingen, Tutorials en Hoe-te-Doen-Artikelen voor Gratis Bestandstools",
+    "metaDescription": "Bekijk het ChooseTools-blog voor uitgebreide handleidingen, tutorials en praktische artikelen over elke gratis bestandstool: PDF-, afbeeldings- en teksttools die volledig in je browser draaien.",
+    "indexTitle": "Tools blog",
+    "indexIntro": "Deskundige handleidingen, praktische tutorials en snelle 'hoe doe ik'-gidsen voor elke ChooseTools-app. Elk artikel legt de tool stap voor stap uit en linkt meteen naar de gratis tool.",
+    "countArticles": "artikelen en meer",
+    "readingTime": "{minutes} min leestijd",
+    "lastUpdated": "Bijgewerkt sep. 2026",
+    "tocTitle": "In dit artikel",
+    "faqTitle": "Veelgestelde vragen",
+    "relatedTitle": "Gerelateerde tools",
+    "relatedHint": "Gratis onlinetool",
+    "ctaTitle": "Klaar om {name} te gebruiken?",
+    "openTool": "Tool openen",
+    "privacyNote": "Gratis · geen aanmelding · bestanden verlaten je apparaat nooit",
+    "backToBlog": "Terug naar alle artikelen"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "file-xray",
+  "title": "File X-Ray: Inspecione Detalhes e Metadados de Ficheiros Online Grátis",
+  "description": "Ferramenta file x-ray gratuita para inspecionar ficheiros, revelar metadados e verificar conteúdos localmente no seu navegador. Privada, sem carregamentos, sem registo.",
+  "keywords": ["file x-ray", "inspecionar ficheiro", "visualizador de metadados de ficheiros", "detalhes de ficheiros online", "ferramenta de inspeção de ficheiros", "verificar tipo de ficheiro", "ver informações do ficheiro"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Os Ficheiros Transportam Mais do que o Seu Conteúdo",
+      "paragraphs": [
+        "Tamanho, tipo, datas de modificação e metadados ocultos descrevem todos um ficheiro para além dos seus dados visíveis. [file-xray:Inspecionar ficheiros com uma ferramenta x-ray] traz esses detalhes à superfície antes de abrir ou enviar qualquer coisa.",
+        "Saber o tipo verdadeiro de um ficheiro evita falhas surpresa.",
+        "A ChooseTools inspeciona ficheiros localmente no seu navegador."
+      ]
+    },
+    {
+      "heading": "Como Inspecionar um Ficheiro",
+      "paragraphs": [
+        "Da incerteza do duplo clique ao quadro completo:",
+        "Selecione um ficheiro e veja o seu tamanho, tipo detetado, indícios de formato e metadados. Confirme que a extensão corresponde à realidade antes da distribuição.",
+        "A inspeção é totalmente local — nada sai do seu dispositivo."
+      ]
+    },
+    {
+      "heading": "Deteção de Tipo Para Além da Extensão",
+      "paragraphs": [
+        "As extensões mentem; os bytes mágicos não.",
+        "A ferramenta examina assinaturas para reportar o formato verdadeiro independentemente da renomeação.",
+        "Anexos renomeados deixam de passar despercebidos."
+      ]
+    },
+    {
+      "heading": "Realidades dos Metadados e Privacidade",
+      "paragraphs": [
+        "As fotografias transportam etiquetas de localização e dispositivo; os documentos transportam nomes de autor e carimbos de data/hora.",
+        "Ver os metadados revela o que um ficheiro exporia ao ser partilhado.",
+        "Partilha informada vence exposição adivinhada."
+      ]
+    },
+    {
+      "heading": "Antes de Enviar Qualquer Coisa",
+      "paragraphs": [
+        "Verifique o tamanho para limites de e-mail, o tipo para sistemas e os metadados para exposição num só olhar.",
+        "Verificações pré-partida previnem problemas embaraçosos ou bloqueantes.",
+        "Confiança viaja com cada anexo."
+      ]
+    },
+    {
+      "heading": "Inspeção Privada de Ficheiros Sensíveis",
+      "paragraphs": [
+        "Examinar um ficheiro localmente significa que os seus metadados nunca se tornam um registo de consulta.",
+        "Sem carregamentos, sem conta, sem marca de água — em todas as plataformas.",
+        "Inspeção sem interceção."
+      ]
+    },
+    {
+      "heading": "Trabalho de Ficheiros no Conjunto",
+      "paragraphs": [
+        "Combine com [remove-exif:remoção de metadados], [pdf-metadata:detalhes de documentos] e [convert-image:conversão de formatos] para controlo completo.",
+        "Tudo é gratuito e nativo do navegador.",
+        "Conheça os seus ficheiros antes de irem para qualquer lado."
+      ]
+    },
+    {
+      "heading": "Formatos de Ficheiro Comuns que a Ferramenta Reconhece",
+      "paragraphs": [
+        "O motor de inspeção cobre um conjunto alargado de formatos do dia a dia: imagens como JPEG, PNG, WebP e GIF; documentos incluindo PDF e texto simples; tipos de arquivo como ZIP e GZIP; ficheiros de áudio em MP3 e WAV; e contentores de vídeo em MP4 e MOV.",
+        "Para cada formato reconhecido, a ferramenta reporta a versão, a estrutura interna e qualquer detalhe de fluxos embutidos que importe para processamento a jusante.",
+        "Mesmo quando a extensão está em falta ou está errada, a deteção baseada em assinaturas identifica ainda assim o formato real, para que saiba sempre com o que está a lidar.",
+        "Ficheiros não reconhecidos reportam ainda o tamanho bruto, os bytes de cabeçalho e quaisquer blocos detetáveis, dando aos programadores migalhas úteis para investigação adicional."
+      ]
+    },
+    {
+      "heading": "Ler Propriedades EXIF, XMP e de Documentos",
+      "paragraphs": [
+        "Os ficheiros de imagem transportam comumente blocos EXIF e XMP que registam o modelo de câmara, as definições de exposição, as coordenadas GPS, os carimbos de data-hora e a versão de software usada durante a criação.",
+        "Os PDF e os documentos de escritório expõem autor, título, assunto, data de criação e histórico de modificação nos seus dicionários de metadados.",
+        "O file x-ray apresenta todos os campos disponíveis numa única vista, permitindo decidir se alguma dessa informação deve ser removida antes da publicação.",
+        "Para equipas que processam grandes volumes de ficheiros recebidos, uma pré-visualização rápida de metadados poupa o tempo que de outro modo seria gasto a abrir cada ficheiro num editor dedicado."
+      ]
+    },
+    {
+      "heading": "Casos de Uso Práticos para Inspeção de Ficheiros",
+      "paragraphs": [
+        "Jornalistas que recebem anexos anónimos verificam origens de ficheiros e removem metadados identificadores antes de publicar.",
+        "As equipas de apoio de TI confirmam se um executável é realmente um binário ou um script renomeado, reduzindo o risco antes de executar diagnósticos.",
+        "Programadores que constroem pipelines de carregamento usam o inspetor para validar os tipos de ficheiros recebidos contra as categorias MIME esperadas.",
+        "Designers confirmam perfis de cor, resolução e profundidade de bits antes de entregar ativos a impressoras ou equipas web."
+      ]
+    },
+    {
+      "heading": "Consciência do Tamanho de Ficheiro para Limites de E-mail e Nuvem",
+      "paragraphs": [
+        "A maioria dos fornecedores de e-mail limita os anexos a vinte e cinco megabytes, e as ligações de partilha na nuvem podem impor os seus próprios limiares em ficheiros individuais.",
+        "Uma verificação rápida de tamanho evita mensagens devolvidas e carregamentos falhados, especialmente quando uma fotografia ou digitalização é maior do que o esperado.",
+        "Quando um ficheiro excede o limite, o inspetor dá-lhe o número de que precisa para decidir se deve comprimir, dividir ou usar um método de entrega diferente.",
+        "Conhecer as contagens exatas de bytes também ajuda ao planear armazenamento entre unidades de backup e níveis de nuvem."
+      ]
+    },
+    {
+      "heading": "Casos Extremos: Ficheiros Corrompidos, Truncados e Parciais",
+      "paragraphs": [
+        "Ficheiros interrompidos durante o download ou copiados de suportes com falhas podem trazer cabeçalhos incompletos ou rodapés em falta.",
+        "O inspetor reporta quando as assinaturas não correspondem aos padrões esperados, sinalizando provável corrupção antes de tentar abrir o ficheiro noutra aplicação.",
+        "Ficheiros parciais de carregamentos incompletos podem ser identificados rapidamente, poupando-lhe o diagnóstico de erros de aplicações a jusante que são na realidade apenas problemas de dados.",
+        "Para programadores, estes avisos são um ciclo de feedback rápido ao testar retomadores de download, ferramentas de sincronização ou scripts de backup."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "A ferramenta consegue detetar o tipo de ficheiro real?",
+      "a": "Sim. A deteção de tipo lê as assinaturas internas do ficheiro em vez de confiar na extensão."
+    },
+    {
+      "q": "Que metadados são revelados?",
+      "a": "Tamanho, formato detetado e campos de metadados embutidos comuns aparecem, dependendo do tipo de ficheiro."
+    },
+    {
+      "q": "A inspeção é privada?",
+      "a": "Sim. Tudo é executado localmente no seu navegador, sem carregamentos ou contas."
+    },
+    {
+      "q": "Consigo inspecionar ficheiros sem extensão?",
+      "a": "Sim. A deteção baseada em assinaturas identifica o formato mesmo quando a extensão está em falta ou incorreta."
+    },
+    {
+      "q": "A ferramenta lida com ficheiros corrompidos ou parciais?",
+      "a": "Sim. Reporta quando os cabeçalhos estão incompletos ou as assinaturas não correspondem, ajudando a identificar corrupção antes de tentar abrir o ficheiro noutro local."
+    }
+  ]
+}

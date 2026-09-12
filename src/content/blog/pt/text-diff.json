@@ -1,0 +1,120 @@
+{
+  "slug": "text-diff",
+  "title": "Ferramenta de Diff de Texto: Compare Dois Textos Online Grátis para Encontrar Alterações",
+  "description": "Ferramenta de diff de texto online gratuita para comparar dois documentos lado a lado, realçando linhas adicionadas, removidas e alteradas. Privada, instantânea, no seu navegador.",
+  "keywords": ["diff de texto", "comparar dois textos", "encontrar diferenças entre textos", "verificador de diff", "comparar texto online", "ferramenta de comparação de texto", "ver alterações no texto"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Detetar o Que Mudou Entre Versões",
+      "paragraphs": [
+        "O seu colaborador editou os termos? Que commit reformulou o acordo? Comparar versões a olho nu é pouco fiável; uma [text-diff:ferramenta de diff] marca exatamente o que mudou, linha a linha.",
+        "Editores, revisores, advogados e estudantes beneficiam todos da deteção precisa de alterações.",
+        "A ChooseTools compara textos localmente no seu navegador com um resultado lado a lado com código de cores."
+      ]
+    },
+    {
+      "heading": "Como Comparar Dois Textos",
+      "paragraphs": [
+        "Diferenças, realçadas:",
+        "Cole o original na caixa da esquerda e a versão revista na da direita. A ferramenta calcula o diff instantaneamente e colore as linhas adicionadas em relação às removidas.",
+        "Os resultados são renderizados localmente — os rascunhos nunca vão para lugar nenhum."
+      ]
+    },
+    {
+      "heading": "Diff ao Nível da Linha: Exato e Passível de Revisão",
+      "paragraphs": [
+        "Comparar com granularidade de linha está alinhado com a forma como os editores trabalham: cada alteração é uma unidade discreta e passível de revisão.",
+        "As linhas adicionadas, as linhas removidas e as alterações são visualmente distintas entre si.",
+        "A revisão em lote de documentos longos torna-se à prova de bala."
+      ]
+    },
+    {
+      "heading": "Como o Diff Funciona Por Dentro",
+      "paragraphs": [
+        "A ferramenta alinha os dois textos linha a linha, localizando os trechos mais longos que permanecem inalterados e marcando depois tudo o resto como inserido ou removido.",
+        "Uma linha alterada aparece como uma remoção emparelhada com uma adição, para que os revisores vejam exatamente o que foi substituído em vez de um sinal vago de modificação.",
+        "O algoritmo é eficiente mesmo com documentos substanciais, calculando o alinhamento rapidamente e renderizando apenas as regiões diferentes para maior clareza.",
+        "Perceber este comportamento ajuda a interpretar os resultados: uma frase reescrita aparece como uma linha eliminada e outra inserida ao lado."
+      ]
+    },
+    {
+      "heading": "Fluxos de Revisão Com Confiança Tranquila",
+      "paragraphs": [
+        "Acompanhe as edições dos revisores sem ler cada palavra; confirme os patches antes de aplicar; audite os acordos para detetar modificações silenciosas.",
+        "O resultado do diff é um mapa do que uma versão prometeu e do que entregou.",
+        "Comparar com cuidado protege quem assina, publica ou faz o deploy de código."
+      ]
+    },
+    {
+      "heading": "Casos de Uso Comuns em Várias Profissões",
+      "paragraphs": [
+        "As equipas jurídicas comparam minutas de contratos para garantir que nenhuma cláusula foi alterada entre rondas de negociação. Os programadores verificam pull requests fazendo o diff das alterações propostas contra o branch principal antes de fazer merge.",
+        "Os estudantes que verificam a revisão de um ensaio podem ver instantaneamente se o feedback foi realmente incorporado. Os escritores técnicos mantêm a exatidão da documentação comparando as notas de versão entre versões.",
+        "Os tradutores usam diffs para confirmar que o texto localizado corresponde à fonte aprovada sem omissões subtis. Em todos os casos a ferramenta remove o tédio da comparação manual e substitui-o por um mapa visual claro das alterações.",
+        "O mesmo mecanismo que deteta uma vírgula em falta no código também deteta uma cláusula de responsabilidade alterada num contrato."
+      ]
+    },
+    {
+      "heading": "Lidar com Documentos Grandes e Alterações Entrelaçadas",
+      "paragraphs": [
+        "Ficheiros longos com centenas de linhas permanecem geríveis porque o algoritmo de diff os processa em segmentos, mostrando apenas as áreas relevantes de diferença.",
+        "O layout lado a lado garante que as linhas de contexto ficam ao lado das suas contrapartes, para que os revisores possam verificar que o texto circundante não foi deslocado inadvertidamente.",
+        "Mesmo quando as alterações estão espalhadas por um documento, o código de cores permite que o olhar salte diretamente para cada modificação sem percorrer cada linha manualmente.",
+        "O processamento acontece inteiramente no seu dispositivo, por isso não há limite de tamanho imposto por um servidor remoto."
+      ]
+    },
+    {
+      "heading": "O Diff como Portão de Qualidade",
+      "paragraphs": [
+        "Um diff é essencialmente um portão de qualidade: antes de algo ser publicado, fundido ou assinado, a comparação responde se o texto final corresponde ao que foi decidido.",
+        "As equipas de qualidade fazem um diff final entre o rascunho aprovado e a versão publicada, detetando edições de última hora que contornaram a revisão.",
+        "Os redatores freelancers fazem o diff do feedback dos clientes contra os seus manuscritos para demonstrar que cada alteração pedida está presente.",
+        "Mesmo uma verificação rápida acrescenta uma camada de proteção que nenhuma quantidade de revisão cuidadosa iguala de forma fiável."
+      ]
+    },
+    {
+      "heading": "Comparar Configurações e Modelos",
+      "paragraphs": [
+        "Para além da prosa, a ferramenta adapta-se a texto estruturado: comparar dois ficheiros de configuração, dois excertos de código ou duas versões de um modelo de email.",
+        "Uma comparação rápida em ficheiros de definições revela exatamente que parâmetro mudou entre ambientes como o de teste e o de produção.",
+        "Os editores de modelos comparam rascunhos guardados para detetar desvios de formatação que um olhar rápido não veria.",
+        "Como a mesma lógica lado a lado funciona com código, marcação e texto simples, uma ferramenta cobre muitas necessidades de revisão."
+      ]
+    },
+    {
+      "heading": "Comparação Privada de Rascunhos Confidenciais",
+      "paragraphs": [
+        "Documentos legais, manuscritos por publicar e notas de versão internas são comparados com diff localmente, e esse é exatamente o objetivo.",
+        "Sem uploads, sem conta, sem marcas de água — em todas as plataformas.",
+        "O seu histórico de versões é seu."
+      ]
+    },
+    {
+      "heading": "Diff Dentro da Suite de Texto Completa",
+      "paragraphs": [
+        "Depois de comparar, [find-replace:aplique correções], [sort-lines:organize] ou [case-converter:normalize] o texto.",
+        "A suite é gratuita e nativa do navegador.",
+        "Cada questão de versão, respondida com precisão."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "O que realça exatamente a ferramenta de diff?",
+      "a": "Apresenta ambos os textos lado a lado, colorindo as linhas que foram adicionadas, removidas ou modificadas para que as alterações sejam visíveis instantaneamente."
+    },
+    {
+      "q": "Consegue comparar documentos muito longos?",
+      "a": "Sim. O diff baseado em linhas lida com textos longos; a renderização é local e rápida independentemente do comprimento."
+    },
+    {
+      "q": "A comparação de texto é privada?",
+      "a": "Sim. Tudo acontece localmente no seu navegador, sem uploads ou contas."
+    },
+    {
+      "q": "Mostra o contexto em redor das alterações?",
+      "a": "Sim. As linhas inalteradas circundantes aparecem ao lado do diff para poder verificar que as modificações estão no contexto correto."
+    }
+  ]
+}

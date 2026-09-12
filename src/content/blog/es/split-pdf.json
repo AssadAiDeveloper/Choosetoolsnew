@@ -1,0 +1,70 @@
+{
+  "slug": "split-pdf",
+  "title": "Cómo Dividir Páginas de PDF Online Gratis: Extrae Páginas de un PDF Sin Subir Archivos",
+  "description": "Divide páginas de PDF online gratis con ChooseTools. Separa un PDF grande en varios archivos más pequeños, extrae páginas individuales o rangos, directamente en tu navegador con total privacidad.",
+  "keywords": ["dividir pdf online gratis", "separar pdf en páginas", "extraer páginas de pdf", "dividir archivo pdf", "separar páginas de pdf", "herramienta para dividir pdf", "dividir pdf sin subir"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Cuando Dividir un PDF se Convierte en una Necesidad Diaria",
+      "paragraphs": [
+        "Un solo PDF rara vez permanece como un solo PDF para siempre. Puede que necesites dividir páginas de PDF para sistemas de archivos, enviar un capítulo a un colaborador que solo necesita diez páginas o dividir un manual de 300 páginas en subdocumentos instalables. Copiar y pegar manualmente en editores de escritorio es lento y propenso a errores; una herramienta dedicada de [split-pdf:dividir PDF online gratis] hace el trabajo en segundos.",
+        "La mayoría de las herramientas de división de PDF en la web fuerzan a tu documento a su nube, y luego conservan copias en su almacenamiento para análisis. Ese es un problema real para contratos, historiales médicos y estados financieros. ChooseTools construye el divisor sobre PDF.js para que tu archivo se lea y divida completamente en tu navegador. Sin subida, sin cola, sin copias residuales en un servidor que no controlas.",
+        "Dado que la herramienta es gratuita sin anuncios ni marcas de agua, dividir cientos de páginas no cuesta nada y nunca interrumpe tu flujo de trabajo. Los archivos de salida son porciones precisas del original, preservando texto, imágenes, enlaces y fuentes incrustadas."
+      ]
+    },
+    {
+      "heading": "Cómo Dividir un PDF en Archivos Separados, Paso a Paso",
+      "paragraphs": [
+        "Usar el divisor de PDF requiere tres pasos cortos y funciona para cualquiera independientemente de su nivel técnico.",
+        "Abre la herramienta, arrastra tu PDF al área de carga o elígelo desde el disco. El documento se analiza localmente, dándote una vista previa página por página dentro del navegador. Luego, elige uno de los modos de división: extraer una página individual, extraer un rango o dividir cada N páginas en su propio archivo. Finalmente, pulsa el botón de dividir y descarga cada PDF resultante individualmente.",
+        "Todo el proceso ocurre a la velocidad de tu máquina porque no hay idas y vueltas al servidor. Dividir un PDF de 500 páginas está limitado solo por la memoria de tu computadora, lo que lo convierte en uno de los divisores de páginas PDF gratuitos más prácticos disponibles online hoy en día."
+      ]
+    },
+    {
+      "heading": "Extrae Páginas Individuales o Rangos de Páginas con Precisión",
+      "paragraphs": [
+        "A veces solo necesitas una página: la página de firma de un contrato de arrendamiento, el certificado al final de una propuesta o la portada que tu cliente solicitó por separado. El modo de extracción de página individual te permite hacer clic en la página exacta y exportarla por sí sola.",
+        "Los rangos de páginas son igualmente simples. ¿Necesitas las páginas 5 a 12 de una presentación de 40 páginas? Introduce \"5-12\" y la herramienta produce un PDF compacto con exactamente esas páginas, dejando el resto del archivo fuente intacto. Esto es mucho más preciso que capturar páginas con pantalla o reconstruir el PDF en un procesador de textos.",
+        "Combinado con los flujos de trabajo de [extract-pdf-pages:extraer páginas de PDF], la división te da control total: toma el rango exacto que necesitas, luego únelo con otras secciones extraídas usando la herramienta de [merge-pdf:fusionar PDF] para ensamblar un documento a medida."
+      ]
+    },
+    {
+      "heading": "Divide Todas las Páginas o Usa un Intervalo para Trabajo por Lotes",
+      "paragraphs": [
+        "Para documentos largos, el modo de intervalo es una salvación. Establece un intervalo de \"1\" y cada página se convierte en su propio archivo, ideal cuando cada página de una pila de facturas necesita enviarse por correo o archivarse por separado.",
+        "Elige un intervalo mayor, como \"10\", para dividir un manual en capítulos de diez páginas automáticamente. El divisor numer las salidas secuencialmente para que puedas reconstruir el orden original en cualquier momento ejecutando los archivos de vuelta a través de un fusionador de PDF.",
+        "Ningún software de escritorio puede ser genuinamente portátil aquí: este divisor funciona en Windows, macOS, Linux y navegadores móviles por igual, por lo que los equipos en diferentes países pueden estandarizarse en una sola herramienta gratuita de división de PDF en lugar de licencias por plataforma."
+      ]
+    },
+    {
+      "heading": "División con Privacidad Primero: Los Archivos Nunca Salen de Tu Dispositivo",
+      "paragraphs": [
+        "La garantía más importante de este divisor de PDF es que tu documento nunca llega a un servidor de terceros. Cada página se extrae en la memoria de tu navegador con la tecnología de código abierto PDF.js.",
+        "Esto importa para cualquiera que maneje datos regulados o confidenciales: equipos legales dividiendo documentos de descubrimiento, RR. HH. dividiendo nóminas, contables dividiendo registros fiscales. Con el procesamiento local, el término \"fuga de datos simplemente no aplica, porque no hay datos externos en absoluto.",
+        "Recibes exactamente lo que dividiste: PDFs limpios sin marcas de agua, idénticos en calidad al fuente. Compara eso con competidores online cuya capa gratuita añade su marca a cada resultado a menos que te suscribas."
+      ]
+    },
+    {
+      "heading": "Preguntas Frecuentes Sobre la División de PDFs",
+      "paragraphs": [
+        "¿Puedo dividir un PDF sin instalar software? Sí, todo funciona en el navegador, por lo que nunca se requiere instalación. ¿La división degrada la calidad de impresión? No; las páginas extraídas conservan sus vectores originales, fuentes incrustadas y resolución. ¿Qué formatos puedo dividir? Cualquier PDF, incluidos escaneados y protegidos con contraseña una vez que la contraseña se haya eliminado con herramientas de [protect-pdf:seguridad de PDF]. ¿Hay un límite de páginas? No hay un límite artificial; la única restricción es la memoria disponible en tu dispositivo.",
+        "¿Necesito una cuenta? No se requiere registro en absoluto, y sin cuenta no hay cookies que rastreen tus documentos. ¿Qué pasa si mi archivo es muy grande? El procesamiento local maneja incluso PDFs extremadamente grandes más rápido que cualquier servicio en la nube, porque omites los pasos de subida y descarga por completo."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿El divisor de PDF puede dividir un archivo en páginas individuales automáticamente?",
+      "a": "Sí. Establece el intervalo en 1 y la herramienta exporta cada página como su propio archivo PDF, numerado en orden fuente, listo para archivado o envío por correo por separado."
+    },
+    {
+      "q": "¿La división reduce la calidad del archivo o recomprime el contenido?",
+      "a": "No. Cada página extraída es una copia fiel de la página original con texto, imágenes, gráficos vectoriales, hipervínculos y fuentes intactos. La calidad se preserva exactamente."
+    },
+    {
+      "q": "¿Es seguro dividir documentos PDF confidenciales aquí?",
+      "a": "Absolutamente. Todo el procesamiento ocurre localmente en tu navegador con PDF.js. Tus archivos nunca se suben, almacenan ni analizan en ningún servidor, lo que lo hace seguro para NDAs, documentos médicos y legales."
+    }
+  ]
+}

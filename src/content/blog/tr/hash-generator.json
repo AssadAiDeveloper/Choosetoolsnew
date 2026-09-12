@@ -1,0 +1,115 @@
+{
+  "slug": "hash-generator",
+  "title": "Hash Üreteci: MD5 SHA-256 ve SHA-1 Karmaları Çevrimiçi Ücretsiz Oluşturun",
+  "description": "Bütünlüğü doğrulamak için metin ve dosyaların MD5, SHA-1 ve SHA-256 sağlama toplamlarını hesaplayan ücretsiz hash üreteci. Özel, tarayıcınızda, yükleme yok.",
+  "keywords": ["hash üreteci", "sha256 üreteci", "md5 hash", "sha1 hash", "çevrimiçi sağlama toplamı üreteci", "hash hesaplayıcı", "metni çevrimiçi hash'leme"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Bir Hash Ne Demek İstediğinizi Kanıtlar",
+      "paragraphs": [
+        "Hash'ler her girdiyi, girdi değiştiğinde değişen sabit boyutlu bir parmak izine yoğunlaştırır. [hash-generator:Hash üretmek] bütünlüğü doğrular, kazara bozulmayı tespit eder ve güvenli iş akışlarını yapılandırır.",
+        "MD5, SHA-1 ve SHA-256, belirli bağlamlarda önem taşıyan farklı güçlü yönleri ve takaslarıyla günlük iş yükleridir.",
+        "ChooseTools, metin ve dosyalar için karmaları tarayıcınızda yerel olarak hesaplar."
+      ]
+    },
+    {
+      "heading": "Bir Hash Nasıl Oluşturulur",
+      "paragraphs": [
+        "Girdiden parmak izine tek tıklamayla:",
+        "Metin yapıştırın veya bir dosya seçin, bir özet algoritması seçin ve MD5, SHA-1 veya SHA-256 için ortaya çıkan sağlama toplamını saniyeler içinde görün.",
+        "Hesaplama yerel kalır; içerikler dosya boyutu veya metin uzunluğundan bağımsız olarak cihazınızdan asla çıkmaz."
+      ]
+    },
+    {
+      "heading": "Hızlı Kontroller İçin MD5, Kale Görevi İçin SHA-256",
+      "paragraphs": [
+        "MD5 hızlı çalışır ve yine de sıradan bozulmayı işaret eder; ancak çakışmalar onu, kötü niyetli müdahalenin endişe olduğu güvenlik açısından kritik doğrulamalar için uygunsuz kılar.",
+        "SHA-256, yazılım sektöründe sürümler, indirmeler ve hassas karşılaştırma işlemleri için modern standarttır.",
+        "Özeti göreve eşleştirmek, mevcut en yeni algoritmayı seçmekten daha önemlidir."
+      ]
+    },
+    {
+      "heading": "İş İçin Doğru Algoritmayı Seçme",
+      "paragraphs": [
+        "MD5, 32 onaltılık karakter olarak ifade edilen 128 bitlik bir özet üretir. Bir dosyanın bozulmadan indirilip indirilmediğini kontrol etmek, önbellek anahtarları için kısa tanımlayıcılar üretmek veya bir belgenin iki kopyasının bayt olarak aynı olduğunu doğrulamak gibi güvenlik dışı görevler için yararlı kalır.",
+        "SHA-1, 40 hex karakter olarak sunulan 160 bitlik bir özet çıkarır. Birçok eski sistem ve sürüm kontrol platformu hâlâ SHA-1 parmak izlerine başvurur; algoritma, modern güvenlik gereksinimlerini artık karşılamasa da uyumluluk için alakalı kalır.",
+        "SHA-256, 64 onaltılık karakter olarak görüntülenen 256 bitlik bir özet üretir. Dijital imzalar, sertifika doğrulama ve çakışma direncinin güveni doğrudan etkilediği her iş akışı için önerilen minimum güçtür. Kararsız kaldığınızda önce SHA-256'ya uzanın."
+      ]
+    },
+    {
+      "heading": "Kurulumdan Önce Dosya Bütünlüğü",
+      "paragraphs": [
+        "İndirilen dosyanın karmasını yayıncının yayımladığı sağlama toplamıyla karşılaştırarak dosyanın eksiksiz geldiğini doğrulayın.",
+        "Eşleşme, dosyanın eksiksiz ve değişmemiş geldiğini kanıtlar; yürütmeden önce size kriptografik güvence verir.",
+        "Güven, umut verici olmaktan çıkıp kriptografik olur; tahmini matematiksel kanıtla değiştirir."
+      ]
+    },
+    {
+      "heading": "Dosya Doğrulamanın Ötesinde Kullanım Örnekleri",
+      "paragraphs": [
+        "API'ler genellikle her istekte, sunucunun parametrelerin aktarım sırasında değiştirilmediğini doğrulayabilmesi için karmalanmış bir imza ister. Karmayı yerel hesaplayıp başlığa gömmek, ham yükü üçüncü taraf hizmetlere maruz bırakmadan bu sözleşmeyi yerine getirir.",
+        "İçerik adresli depolama sistemleri, filo adı olarak karmaları kullanır. Bir belgeyi SHA-256 özeti altında saklamak, yinelenen verilerin anında tespit edildiği ve aynı içeriğin her zaman aynı adrese çözüldüğü anlamına gelir; depolama maliyetlerini düşürür ve alımı hızlandırır.",
+        "Büyük dosya koleksiyonlarında yinelenenleri temizleme, hash karşılaştırmasından yarar sağlar. Dosyaları bayt bayt karşılaştırmak yerine hızlı bir özet kontrolü kopyaları saniyeler içinde ortaya çıkarır; disk alanı boşaltır ve kurumsal ortamlarda yedekleme rutinlerini basitleştirir."
+      ]
+    },
+    {
+      "heading": "Karmalama Şifreleme Değildir",
+      "paragraphs": [
+        "Hash'ler tek yönlü parmak izleridir; girdiyi açığa çıkaramazlar, ancak zayıf değerlere kaba kuvvet uygulanmasına karşı da gizlemezler.",
+        "Parola saklama için karmalamayı uygun tuzlama ve yavaş bir anahtar türetme işleviyle birleştirin — düz metin asla saklamayın.",
+        "Güvenlik açısından kritik herhangi bir amaç için ona güvenmeden önce tek yönlü yönü anlayın."
+      ]
+    },
+    {
+      "heading": "Onaltılık Çıktıyı ve Kodlamayı Anlama",
+      "paragraphs": [
+        "Hash sonuçları, her rakam çiftinin bir baytı temsil ettiği onaltılık karakter dizileri olarak görünür. Bir MD5 hash'i 16 baytı kodladığı için 32 hex karakterdir; SHA-256 ise 32 baytı kodlayan 64 hex karakterdir.",
+        "Hex gösterimi insan tarafından okunabilir ve karşılaştırması kolaydır, ancak alttaki değer ikilidir. Bazı sistemler kompaktlık için ham özetin Base64 kodlamasını tercih eder; hex ve Base64 çıktısı arasındaki farkı bilmek kopyala-yapıştır hatalarını önler.",
+        "Karakter büyüklüğü genellikle karşılaştırma algoritmaları için önemsizdir, ancak birçok yayıncı büyük harf hex yayımlarken araçlar küçük harf döndürebilir. Dönüştürücü tutarlı bir büyüklük üretir; kaynak biçimden bağımsız olarak eşleşmeler basittir."
+      ]
+    },
+    {
+      "heading": "Özel Parmak İzi",
+      "paragraphs": [
+        "Yerel olarak karmalanan belgeler ve sırlar asla bir sunucudan geçmez veya herhangi bir harici günlükte görünmez.",
+        "Yükleme yok, hesap yok, filigran yok — her işletim sistemi ve tarayıcıda aynı davranış.",
+        "Gizli dosyalar ve özel kodlar için uygun, tam gizlilikle bütünlük kontrolleri."
+      ]
+    },
+    {
+      "heading": "Geliştirici Araç Setinde Karmalama",
+      "paragraphs": [
+        "Geliştirme ve dağıtım kanallarında eksiksiz veri hijyeni için [base64:kodlama], [uuid-generator:benzersiz kimlikler] ve [password-generator:güçlü anahtarlar] ile birleştirin.",
+        "Süit ücretsiz ve tarayıcı tabanlıdır; kurulum veya hesap oluşturma gerektirmez.",
+        "Parmak izleri parmaklarınızın ucunda; her doğrulama görevi için hazır."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hangi algoritmalar destekleniyor?",
+      "a": "MD5, SHA-1 ve SHA-256 sağlanır; farklı güvenlik düzeylerinde günlük sağlama toplamı ve bütünlük kullanım örneklerini kapsar."
+    },
+    {
+      "q": "Metnin yanı sıra bir dosyayı da karmalayabilir miyim?",
+      "a": "Evet. Dosyalar doğrudan seçilebilir ve yapıştırılan metin gibi karmalanır; sonuçlar saniyeler içinde görünür."
+    },
+    {
+      "q": "Karmalama özel mi?",
+      "a": "Evet. Her şey tarayıcınızda, yükleme veya hesap olmadan yerel olarak çalışır."
+    },
+    {
+      "q": "Parolamın karması güvende kalmak için ne kadar uzun olmalı?",
+      "a": "Üretimde parola karmalama için tuzlama ile bcrypt veya Argon2 gibi özel bir algoritma kullanın. Hash üreteci, parola saklama yerine sağlama toplamları, bütünlük doğrulaması ve veri parmak izi çıkarma için uygundur."
+    },
+    {
+      "q": "Hex ve Base64 hash çıktısı arasındaki fark nedir?",
+      "a": "Hex, ikili özetin 0-9 rakamlarını ve a-f harflerini kullanan metin gösterimidir. Base64 aynı ikili veriyi daha büyük bir karakter kümesiyle daha kompakt kodlar. İkisi de aynı alttaki hash değerini temsil eder."
+    },
+    {
+      "q": "İki farklı dosya aynı karmayı üretebilir mi?",
+      "a": "Çakışmalar teorik olarak mümkündür ancak SHA-256 ile son derece olasılık dışıdır. MD5 ve SHA-1 bilinen çakışma güvenlik açıklarına sahiptir; güvenlik duyarlı uygulamalar için SHA-256'nın tercih edilmesinin nedeni budur."
+    }
+  ]
+}

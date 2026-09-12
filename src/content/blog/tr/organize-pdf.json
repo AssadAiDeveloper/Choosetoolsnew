@@ -1,0 +1,81 @@
+{
+  "slug": "organize-pdf",
+  "title": "PDF Sayfalarını Çevrimiçi Olarak Ücretsiz Nasıl Düzenlenir: Tek Araçla Bir PDF'i Sıralayın, Döndürün ve Temizleyin",
+  "description": "ChooseTools ile PDF sayfalarını çevrimiçi olarak ücretsiz düzenleyin. Sayfaları pano-benzeri tek bir araçtan sıralayın, döndürün, silin ve yeniden düzenleyin; hepsi tarayıcınızda ve tam gizlilikle.",
+  "keywords": ["pdf sayfalarını düzenleme", "pdf çevrimiçi ücretsiz düzenleme", "pdf sayfalarını yönetme", "pdf sayfalarını çevrimiçi sıralama", "pdf sayfa yöneticisi", "pdf dosyasını düzenleme", "pdf sayfalarını yeniden düzenleme ve silme"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Kaostan Düzene: Çok Sayfalı Bir PDF'in Yaşamını Yönetmek",
+      "paragraphs": [
+        "Her karmaşık belge dağınık başlar. Taramalar karışık yönelimlerle gelir, boş sayfalar sızar ve bölümler sıra dışı yerleşir. Kusursuz bir nihai dosyaya ulaşmak genellikle birçok araç ve epeyce yeniden indirme gerektirirdi. Hepsi bir arada bir [organize-pdf:PDF sayfa düzenleyici], tüm işi tek yerde çözer.",
+        "Düzenleme, ham bir sayfa yığını ile dağıtmaktan gurur duyacağınız bir eser arasındaki farktır. Sıra, yönelim ve eksiksizlik, bu aracın kontrolünüze verdiği özelliklerin tam olarak kendisidir.",
+        "ChooseTools düzenlemeyi PDF.js ile yerel olarak çalıştırır. Her değişiklik canlı önizlemeye anında yansır ve bitmiş belge, cihazınızdan hiç ayrılmadan indirilir.",
+        "Birleştirilen dosya standart bir PDF olarak her yerde açılır; e-posta, yazdırma veya arşivleme için hazırdır."
+      ]
+    },
+    {
+      "heading": "Tek Araç, İhtiyacınız Olan Her Sayfa İşlemi",
+      "paragraphs": [
+        "Düzenleyiciyi belgenizin sayfa ağacı için mini bir çalışma tezgahı gibi düşünün.",
+        "Küçük resimleri sürükleyerek sayfaları yeniden sıralayabilir, bir sayfayı veya grubu döndürebilir, ızgarada işaretlenen artıkları silebilir ve her şeyi tek bir hamlede birleştirebilirsiniz. Tüm bu işlemler bir veya birden çok sayfaya aynı anda uygulanır ve tüm belgelere kadar ölçeklenir.",
+        "Önizleme canlı olduğu için her değişikliğin etkisini hemen görürsünüz; bu da toplu işlemlerdeki tahmini ortadan kaldırır ve düzenlemeyi tek geçişte bitirmenizi sağlar.",
+        "Bir belgeyi aşamalı olarak oluşturmak da aynı derecede doğaldır: bir bölüm ekleyin, döndürün, yerleştirin, devam edin — araç akışa ayak uydurur."
+      ]
+    },
+    {
+      "heading": "Tek Sürekli İş Akışında Sıralayın, Döndürün ve Silin",
+      "paragraphs": [
+        "Tipik iş akışları bir yeniden sıralama aracı, bir döndürme aracı ve bir silme aracı arasında zıplar; üç indirme ve üç dışa aktarma. Düzenleyici bu adımları birleştirir; böylece uygulama değiştirmeden dağınık bir tarama temiz bir belgeye dönüşür.",
+        "Yana dönmüş sayfaları çevirerek başlayın, diziyi doğru sıraya sürükleyin, boş veya yinelenen sayfaları işaretleyip kaldırın ve düzenli bir dosyayla bitirin. Tüm dönüşüm gözlerinizin önünde gerçekleşir.",
+        "Bu birleştirilmiş akış, her fazladan dışa aktarmanın kayıp zaman olduğu, son tarihe bağlı işlerde özellikle değerlidir. Sonuç, e-posta için küçülmesi gerekiyorsa doğrudan [compress-pdf:sıkıştırma] adımına geçebilir.",
+        "Her adım tek ekranda görünür olduğu için hatalar anında yüzeye çıkar ve teslim edilen dosyaya asla ulaşmaz."
+      ]
+    },
+    {
+      "heading": "Taranmış Arşivleri Ekipler Arasında Tutarlı Biçimde Temizleyin",
+      "paragraphs": [
+        "Arşiv ekipleri haftada yüzlerce tarama işler. Karışık yönelim ve başıboş sayfalar gibi tutarlılık sorunları toplu işler arasında çoğalır ve her hata arşive yayılır.",
+        "Düzenleyici, arşiv operatörlerine tekrarlanabilir tek bir kontrol listesi verir: toplu işi döndür, boşlukları kaldır, bölümleri yeniden sırala, kaydet. Her çıktı aynı düzenli standarda ulaşır; bu da adlandırmayı, dosyalamayı ve erişimi basitleştirir.",
+        "Görünümü normalleştirmek için [grayscale-pdf:gri tonlama] ve depolamayı sınırlamak için [compress-pdf:sıkıştırma] ile eşleştirildiğinde iş akışı, depoların yalın ve tekdüzen kalmasını sağlar.",
+        "Yeni personel, bir dizi yardımcı araç yerine tek bir araç öğrenir ve arşivleme standardı uygulanabilir kalır."
+      ]
+    },
+    {
+      "heading": "Tarayıcı Tabanlı Sayfa Yönetiminin Gizlilik Garantileri",
+      "paragraphs": [
+        "Sayfa yönetimi, belgenizin tüm yapısını okur. Tarayıcınızda gerçekleştiğinde, bu yapıya ilişkin hiçbir şey — sayfa başlıkları, sıra, meta veriler — herhangi bir sunucuyla paylaşılmaz.",
+        "ChooseTools hesap, filigran ve kullanım kotası eklemez. Düzenleyici Windows, macOS, Linux, telefon ve tabletlerde aynı şekilde davranır; bu da onu güvenilir bir platformlar arası standart yapar.",
+        "Düzenlenmiş ortamlar için değer basittir: kaynak belgeniz kendi deponuzda eksiksiz yaşar, çıktı yalnızca sizin mülkünüzdür ve düzenleme geçmişinin tamamı makinenizin dışında hiçbir iz bırakmaz.",
+        "Denetlenecek hiçbir şey yoktur çünkü hiçbir şey cihazdan ayrılmaz — bir gizlilik politikasının sunabileceği en güçlü garantidir."
+      ]
+    },
+    {
+      "heading": "Nihai Ürünü Oluşturun: Düzenlenmiş Sayfalardan Teslim Edilen Dosyaya",
+      "paragraphs": [
+        "Sayfalar yerine oturduğunda son birleştirme adımı size aittir. Ek materyali [merge-pdf:PDF birleştirme] ile ekleyin, sonucu [protect-pdf:PDF şifreleme] ile güvenliğe alın ve gömülü özel verileri [pdf-metadata:meta verileri temizleme] ile çıkarın.",
+        "Bu boru hattının her aşaması da yerel olarak çalışır; gizlilik garantisini baştan sona korur.",
+        "Özet: ücretsiz, tarayıcı içi sayfa düzenlemeyle başına buyruk bir sayfa yığınını profesyonel, paylaşıma hazır bir PDF'e dönüştürmek artık çok araçlı bir angarya değil, dakikalar süren bir rutindir.",
+        "Belge ne olursa olsun — ihale, tez, dosya veya yıllık rapor — düzenlenmiş sonuç, arkasındaki işi temsil etmeye hazırdır."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "PDF'imi bir sunucuya yüklemeden sayfaları düzenleyebilir miyim?",
+      "a": "Evet. Düzenleyici her şeyi PDF.js ile tarayıcınızda yerel olarak işler. Belgeniz asla yüklenmez, saklanmaz veya uzaktan incelenmez."
+    },
+    {
+      "q": "Tek oturumda hangi sayfa işlemleri desteklenir?",
+      "a": "Sürükle-bırakla yeniden sıralama, tek tek sayfaları veya tüm grupları döndürme ve seçili sayfaları silme — hepsi nihai PDF'i indirmeden önce aynı canlı önizleme içinde."
+    },
+    {
+      "q": "Düzenleme metin aranabilirliğini veya görüntü kalitesini düşürür mü?",
+      "a": "Hayır. Sayfalar orijinal nesneler olarak kopyalanır ve yeniden konumlandırılır; yazı tipleri, vektörler, bağlantılar ve seçilebilir metin çıktı dosyasında tamamen korunur."
+    },
+    {
+      "q": "Düzenleyici büyük, arşiv ölçeğindeki toplu işler için uygun mudur?",
+      "a": "Evet. İşleme yerel olduğu için tek pratik sınır cihazınızın belleğidir ve canlı önizleme, kaydetmeden önce toplu tutarlılığın doğrulanmasını kolaylaştırır."
+    }
+  ]
+}

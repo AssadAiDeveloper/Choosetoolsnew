@@ -1,0 +1,101 @@
+{
+  "slug": "qr-generator",
+  "title": "QR Kod Oluşturucu: Çevrimiçi Ücretsiz URL'ler ve Metin İçin QR Kod Oluşturun",
+  "description": "URL'ler, metin, Wi-Fi ve daha fazlası için doğrudan tarayıcınızda QR kod oluşturan ücretsiz QR kod oluşturucu. Yüksek kalite, gizli, yüklemesiz, filigransız.",
+  "keywords": ["qr kod oluşturucu", "çevrimiçi ücretsiz qr kod yapma", "ücretsiz qr kod oluşturucu", "qr kod oluştur", "url için qr", "qr kod üretici", "ücretsiz qr kod"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Bağlantı Taşıyan Kare",
+      "paragraphs": [
+        "Restoran menüleri, ürün etiketleri, etkinlik biletleri ve kartvizitler tek bir küçük QR koddan geçer. Bir URL, mesaj veya Wi-Fi kimlik bilgisi için [qr-generator:QR kod üretmek], herhangi bir fiziksel yüzeyi tıklanabilir bir kapıya dönüştürür.",
+        "Modern telefonlar ekstra uygulama olmadan bunları yerel olarak tarar.",
+        "ChooseTools QR kodlarını tarayıcınızda yerel olarak üretir — kod istemci tarafında işlenir ve size ait kalır."
+      ]
+    },
+    {
+      "heading": "QR Kodu Oluşturma",
+      "paragraphs": [
+        "Veriden taranabilir kareye saniyeler içinde:",
+        "URL'nizi veya metninizi yapıştırın, biçimi seçin (URL, düz metin, iletişim bilgileri ve daha fazlası) ve bir boyut seçin. Doğru hata düzeltme ve sessiz bölgeyle SVG veya PNG indirin.",
+        "Her şey yerel çalışır; kod, yalnızca siz oluşturduktan sonra, tam olarak sizin bulunduğunuz yerde var olur."
+      ]
+    },
+    {
+      "heading": "URL'ler, Metin, Wi-Fi ve Daha Fazlası",
+      "paragraphs": [
+        "Yazılan QR verileri gündelik ihtiyaçları kapsar: web sitesi bağlantıları, düz mesajlar, konum koordinatları, telefon numaraları ve Wi-Fi kimlik bilgileri.",
+        "Doğru veri türünü seçmek tarama davranışını ve anlambilimi iyileştirir.",
+        "Kodun altındaki etiketler, kodun neyi açtığını netleştirir."
+      ]
+    },
+    {
+      "heading": "QR Kodların Gerçek İş Yaptığı Gündelik Yerler",
+      "paragraphs": [
+        "Bir restoran her masaya tek bir kod basar ve müşteriler uygulama indirmeden veya uzun bir URL yazmadan menüyü açar. Küçük işletmeler, müşterilerin yeniden sipariş verebilmesi veya bir öğretici izleyebilmesi için ambalajlara kod koyar; statik bir ürünü devam eden bir ilişkinin başlangıcına dönüştürür.",
+        "Etkinlik organizatörleri, afişlere ve rozetlere kayıt bağlantıları gömer; katılımcılar kapılar açılmadan önce kayıt olabilir, bir program bulabilir veya bir kanala katılabilir. Emlakçılar, kapı dışında durdukları anda ilgilenen alıcıları yakalamak için tabelalara sanal tur veya ayrıntı sayfası açan kodlar yerleştirir.",
+        "Fitness stüdyoları ve yemek kamyonları, bir ödeme sayfası veya rezervasyon formu açan kodlara güvenir; kasiyerin bağırıp durduğu o tezgah üstü pazarlık oyununun yerini alır. Bu durumların her biri tek bir özelliğe bağlıdır: kod, kişinin zaten bulunduğu yere düşer.",
+        "Wi-Fi kodları özellikle kafelerde ve ortak çalışma alanlarında popülerdir. Uzun ve karartılmış bir parola yazmak yerine, konuk tezgahtaki bir kodu tarar ve bağlanır. Konuklar deneyimi zahmetsiz olarak hatırlar ve personel aynı parolayı günde birkaç kez tekrarlamayı bırakır."
+      ]
+    },
+    {
+      "heading": "Hata Düzeltme ve Taranabilirlik",
+      "paragraphs": [
+        "Düzeltme düzeyleri yoğunluğu sağlamlıkla takas eder: daha yüksek düzeyler kısmi engeli ve düşük baskı kalitesini tolere eder.",
+        "Üretilen kod, güvenilir tarama için gereken uygun bir sessiz bölgeye sahiptir.",
+        "Profesyonel baskı, her boyutta ve her yerde okur."
+      ]
+    },
+    {
+      "heading": "Taranabilirlik, Baskı Boyutu ve Konumlandırma",
+      "paragraphs": [
+        "Tarayıcı ile kod arasındaki mesafe, kodu bastığınız boyutla eşleşmelidir. Yirmi santimetre uzaklıktan okunan bir menü kodu küçük olabilirken, bir reklam panosundaki veya mağaza vitrinindeki bir kodun karşıdan karşıya dayanması gerekir. Okuma mesafesi için çok küçük basmak, gerçek QR projelerinin başarısız olmasının en yaygın nedenidir.",
+        "Sessiz bölge, modüllerin etrafındaki boş kenarlık dekoratif değildir. Tarayıcıların köşelerdeki bulucu desenlerini bulmak için bu boş kenar boşluğuna ihtiyacı vardır ve bazı kamera uygulamaları diğer grafiklere veya metne değen kodları reddeder. Dışa aktarılan kod, doğru sessiz bölgeyi içerir; böylece basılan sonuç ilk seferde temiz taranır.",
+        "Kontrast, düzeltme düzeyi kadar önemlidir. Açık zemin üzerindeki koyu modüller güvenilir biçimde taranırken, renk ters çevrilmiş veya düşük kontrastlı kodlar telefon kameralarını zorlar. Kritik yerleşimler için, tam baskıdan önce basılan kodu birden fazla telefondan test etmek kontrast sorunlarını erken yakalar."
+      ]
+    },
+    {
+      "heading": "Her Yüzey İçin PNG veya SVG İndirme",
+      "paragraphs": [
+        "PNG ekranları, el ilanlarını ve sosyal gönderileri kapsar; SVG büyük formatlı baskı ve vektör iş akışları için sonsuz ölçeklenir.",
+        "Dışa aktarıcı, seçilen boyuta ve sessiz bölge kenar boşluğuna saygı gösterir.",
+        "Kodunuzun nereye gideceği konusunda tam kontrol.",
+        "PNG, küçük bir menü veya kartvizit için rahatsızlık yaratmaz: mütevazı boyutlarda tam netlikte işlenir ve anında yüklenir. SVG, aynı dosyanın modül kenarlarında keskinlik kaybı olmadan hem küçük hem de büyük basılması gereken poster, pankart veya araç kaplaması için tercih edilmelidir."
+      ]
+    },
+    {
+      "heading": "Gizli Kod Oluşturma",
+      "paragraphs": [
+        "QR kodlar bazen hassas yükleri kodlar — özel bağlantılar, üyelik verileri. Yerel üretim onları zorunlu tutulmadan saklar.",
+        "Yükleme yok, hesap yok, filigran yok — tüm platformlarda.",
+        "Kodlarınız, verileriniz, cihazınız."
+      ]
+    },
+    {
+      "heading": "Tam Araç Seti İçinde QR Kodlar",
+      "paragraphs": [
+        "Bir kodu [qr-with-logo:ortadaki logoyla] stilleştirin, yerleşimler için [resize-image:yeniden boyutlandırın] ve web için [compress-image:sıkıştırın].",
+        "Paket ücretsiz ve tarayıcı doğalıdır.",
+        "Veriden dayanıklı kareye, anında."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hangi veri türleri kodlanabilir?",
+      "a": "URL'ler, düz metin, telefon numaraları, konum koordinatları ve Wi-Fi kimlik bilgileri desteklenen yükler arasındadır."
+    },
+    {
+      "q": "QR kodunu vektör biçiminde indirebilir miyim?",
+      "a": "Evet. SVG dışa aktarımı, ekran ve baskı kullanımları için PNG'nin yanında sonsuz ölçeklenebilir bir sürüm sağlar."
+    },
+    {
+      "q": "QR üretimi gizli mi?",
+      "a": "Evet. Kodlar tarayıcınızda yerel olarak işlenir; yük asla bir sunucuya dokunmaz."
+    },
+    {
+      "q": "Basılan kodum neden sessiz bir bölgeye ihtiyaç duyuyor?",
+      "a": "Tarayıcılar, köşedeki bulucu desenlerini boş bir kenarlık arayarak algılar; bu nedenle kodun çevresinde boş bir kenar boşluğu bırakmak güvenilir tarama için gereklidir."
+    }
+  ]
+}

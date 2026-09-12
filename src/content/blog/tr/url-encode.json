@@ -1,0 +1,107 @@
+{
+  "slug": "url-encode",
+  "title": "URL Kodlayıcı Çözücü: URL'leri Çevrimiçi Ücretsiz Kodlayın ve Çözün",
+  "description": "Web adreslerini, dizeleri ve sorgu parametrelerini güvenle kodlamak ve çözmek için ücretsiz çevrimiçi URL kodlayıcı ve çözücü. Özel, anlık, tarayıcınızda.",
+  "keywords": ["url kodlama", "url çözme", "url çözücü", "url çevrimiçi kodlama", "url kodlama aracı", "yüzde kodlama", "url dizesi çözme"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "URL'ler ASCII Konuşur, Web Her Şeyi Konuşur",
+      "paragraphs": [
+        "Bağlantılar ham hâlde boşluk, aksan veya özel semboller taşıyamaz — yüzde kodlaması gerekir. [url-encode:URL kodlama] herhangi bir dizgeyi sunucuların doğru yorumladığı taşınabilir bir adrese dönüştürür.",
+        "Sorgu parametreleri, biyometrik veriler ve yönlendirmelerin tümü doğru kodlamaya dayanır.",
+        "ChooseTools URL'leri tarayıcınızda yerel olarak kodlar ve çözer.",
+        "Her HTTP isteği yolu ve sorgu dizesinde kodlanmış veri taşır. Kodlama hatalı olduğunda sunucular 400 hataları döndürür, yönlendirmeler sonsuz döngüye girer ve analitik ilişkilendirme sessizce bozulur."
+      ]
+    },
+    {
+      "heading": "Bir URL Nasıl Kodlanır veya Çözülür",
+      "paragraphs": [
+        "Her iki yön, anında:",
+        "Ham karakterler içeren bir URL yapıştırarak bağlantı güvenli bir biçime kodlayın veya kodlanmış bir adresi insan tarafından okunabilir metne geri çözmek için yapıştırın. Birebir sonucu kopyalayın.",
+        "Yerel işleme, sorgu sırlarınızı herhangi bir sunucudan uzak tutar.",
+        "Araç, tek tek parametreler için bileşen kodlamasının hem de tam adresler için tam URL kodlamasının üstesinden gelir; böylece görev için doğru ayrıntı düzeyini seçersiniz."
+      ]
+    },
+    {
+      "heading": "Boşluklu, Aksanlı ve Sembollü Sorgular",
+      "paragraphs": [
+        "Boşluk, uluslararası karakter ve ayrılmış sembol içeren arama dizgeleri kodlanmadıkça bağlantıları bozar.",
+        "Doğru kodlama bunları her atlamada bozulmadan kalan yüzde dizilerine dönüştürür.",
+        "Alıcılar amaçlanan sorguyu sadakatle çözülmüş şekilde alır.",
+        "Örneğin aksanlı bir cafe araması, e harfinin aksan işaretini UTF-8 yüzde kodlu temsiline kodlar ve hedef sunucunun orijinal sorguyu veri kaybı veya ikame olmadan yeniden kurmasını sağlar."
+      ]
+    },
+    {
+      "heading": "Yönlendirmeler, Belirteçler ve Özenle Hazırlanmış Bağlantılar",
+      "paragraphs": [
+        "Yönlendirme zincirleri sorgu değerlerinin içine tam adresler gömer — çift kodlama kasıtlı olmalıdır. Bir yönlendirme URL'si aynı zamanda bir parametre değeri olduğunda, dış katmanı kodlamak iç URL'nin ayrı sorgu anahtarları olarak yanlış yorumlanmasını önler.",
+        "URL'lerdeki belirteçler ve hassas parametreler artık öngörülebilir şekilde kodlanır.",
+        "Geçerli bağlantılar oluşturmak umut verici olmaktan çıkıp kesin hâle gelir.",
+        "OAuth geri çağırmaları, SSO dönüş adresleri ve ödeme ağ geçidi URL'leri, tarayıcılarda ve sunucu uygulamalarında işlev görmesi için tam olarak doğru düzeyde kodlanması gereken özel karakterler içerir."
+      ]
+    },
+    {
+      "heading": "Hata Ayıklama ve Günlük Analizi İçin Çözme",
+      "paragraphs": [
+        "Günlükler kodlanmış adreslerle doludur; onları çözmek inceleme altındaki gerçek parametreleri ortaya çıkarır.",
+        "%20 ve %C3%BC arkasındaki ham dizgiyi anlamak hata ayıklamayı hızlandırır.",
+        "İki tıklama günlük gürültüsünü netliğe dönüştürür.",
+        "Ağ mühendisleri ve arka uç geliştiriciler, izleme parametrelerinin, UTM değerlerinin ve oturum belirteçlerinin proxy'ler ve yük dengeleyicilerden sağlam geçtiğini doğrulamak için yakalanan istek URL'lerini rutin olarak çözer."
+      ]
+    },
+    {
+      "heading": "Kodlama Standartları ve Karakter Kümeleri",
+      "paragraphs": [
+        "RFC 3986, URI'lerde hangi karakterlerin kodlanması gerektiğini ve hangilerinin ayrılmamış olarak güvenle bırakılabileceğini tanımlar. Araç bu şartnameyi tam olarak izler; boşlukları %20 olarak kodlar ve harfler, rakamlar, kısa çizgiler, alt çizgiler ve tilde dahil izin verilen ayrılmamış karakter kümesine saygı gösterir.",
+        "Emoji ve Latin alfabesi dışı yazılar gibi UTF-8 çok baytlı karakterler doğru yüzde kodlu dizilerine kodlanır; böylece Japonca metin veya gülen yüz içeren bir URL, standartlara uyumlu herhangi bir sunucuda aynı şekilde çözülür.",
+        "Tam bir URL'yi kodlamak ile yalnızca bir sorgu parametresi değerini kodlamak arasındaki farkı anlamak, zaten güvenli karakterleri çift kodlamanın yaygın hatasını önler.",
+        "Çözücü her dönüşümü sadakatle tersine çevirir; tüm Unicode kod noktaları dahil orijinal dizgiyi geri yükler."
+      ]
+    },
+    {
+      "heading": "Özel Web Çalışması",
+      "paragraphs": [
+        "Belirteçler, kimlik doğrulama dizgeleri ve yayınlanmamış bağlantılar yerel olarak kodlanır.",
+        "Yükleme yok, hesap yok, filigran yok — tüm platformlarda.",
+        "Hiçbir ifşa olmadan güvenli e-posta hazırlığı.",
+        "Kimlik doğrulama belirteçleri, URL'lere gömülü API anahtarları ve dahili yönlendirme adresleri hiçbir üçüncü taraf hizmetine dokunmaz; böylece kodlama süreci boyunca altyapı ayrıntılarınız gizli kalır."
+      ]
+    },
+    {
+      "heading": "Bileşen Kodlaması ve Tam URL Kodlaması",
+      "paragraphs": [
+        "Bileşen kodlaması, tek bir URI bileşeni içinde güvenli olmayan karakterleri kodlar — bir sorgu değeri, bir yol parçası veya bir parça tanımlayıcısı. Tam URL kodlaması, tüm adresi kodlar; bu, bir URL'yi tek tek parçalardan oluştururken uygundur.",
+        "Yanlış kodlama modunu kullanmak yaygın bir hata kaynağıdır: tam bir URL'yi bileşen olarak kodlamak eğik çizgileri ve soru işaretlerini kodlanmamış bırakırken, bir parametre değerini tam kodlamak değişmez kalması gereken ayırıcıları kodlar.",
+        "Araç görev için uygun modu seçmenize olanak tanır; bu uyumsuzlukları önler ve çıktının, kullanılacağı bağlamdan bağımsız olarak geçerli olmasını sağlar.",
+        "Her modun ne zaman kullanılacağını anlamak, özellikle URL'leri programlı olarak oluştururken önemlidir; çünkü yanlış seçim yalnızca belirli girdi kombinasyonlarında ortaya çıkan ince hatalara yol açar."
+      ]
+    },
+    {
+      "heading": "Geliştirici Araç Setinde URL'ler",
+      "paragraphs": [
+        "Eksiksiz bir istek oluşturma seti için [base64:base64], [html-encode:HTML kaçış] ve [json-formatter:JSON biçimlendirme] ile tamamlayın.",
+        "Süit ücretsiz ve tarayıcı tabanlıdır.",
+        "Her bağlantı, tam olarak doğru."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "URL kodlama aslında ne yapar?",
+      "a": "URL'lerde güvenli olmayan karakterleri — boşluklar, semboller, aksanlar — güvenle taşınan yüzde kodlu dizilerle değiştirir."
+    },
+    {
+      "q": "Kodlanmış bir URL'yi okunabilir metne geri çözebilir miyim?",
+      "a": "Evet. Çözücü boşlukları, aksanları ve sembolleri kodlanmış biçimlerinden yeniden kurar."
+    },
+    {
+      "q": "URL kodlama özel mi?",
+      "a": "Evet. Her şey tarayıcınızda, yükleme veya hesap olmadan yerel olarak çalışır."
+    },
+    {
+      "q": "Emoji gibi ASCII dışı karakterleri destekliyor mu?",
+      "a": "Evet. UTF-8 çok baytlı karakterler doğru yüzde dizilerine kodlanır ve sadakatle geri çözülür."
+    }
+  ]
+}

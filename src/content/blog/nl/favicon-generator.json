@@ -1,0 +1,107 @@
+{
+  "slug": "favicon-generator",
+  "title": "Hoe een Favicon Online Gratis Maken: Iconen voor je Website Maken",
+  "description": "Maak online gratis een favicon met ChooseTools. Verander elke afbeelding in een perfect browsericoon en favicon-set, in je browser, met grootte-presets en totale privacy.",
+  "keywords": ["favicon generator", "favicon maken", "favicon online maken", "favicon voor website", "icoon generator", "website icon maker", "favicon 32x32 online"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Het Kleine Icoon dat je Site Voorstelt",
+      "paragraphs": [
+        "Het kleine icoon in de browsertab is een merkenhanddruk die gebruikers de hele dag zien. Een scherp, on-brand favicon signaleert afwerking vóór een pagina zelfs laadt. [favicon-generator:Een favicon maken] uit je logo of artwork is de snelste route naar die identiteit.",
+        "Browsers vragen iconen in verschillende groottes aan, dus een degelijk favicon komt als set, niet als enkel bestand.",
+        "ChooseTools genereert favicons lokaal in je browser uit elke afbeelding die je uploadt."
+      ]
+    },
+    {
+      "heading": "Hoe je een Website-Icoon Maakt",
+      "paragraphs": [
+        "Je logo wordt in seconden een tab-icoon:",
+        "Upload de bronafbeelding — idealiter een vierkant logo. Kies de icoon-formaatdoelen, bekijk elk gegenereerd formaat en download de favicon-bestanden die klaar zijn voor je site.",
+        "Omdat de verwerking lokaal is, is itereren op de uitsnede of grootte onmiddellijk."
+      ]
+    },
+    {
+      "heading": "De Icoonset die Browsers Werkelijk Nodig Hebben",
+      "paragraphs": [
+        "Moderne sites verwijzen naar meerdere groottes: het klassieke 16x16 tab-icoon, hogere-resolutievarianten voor retina-tabs en startschermen.",
+        "De generator volgt aanbevolen definities, zodat het plaatsen van de uitvoer in je project gewoon werkt.",
+        "Geen handmatig pixel-voor-pixel schalen meer."
+      ]
+    },
+    {
+      "heading": "Vierkant Bijsnijden dat het Merkteken Gecentreerd Houdt",
+      "paragraphs": [
+        "Favicons zijn onverbiddelijk vierkant; de bronuitsnede moet het merkteken precies centreren.",
+        "Het tool helpt bijsnijden met een live vierkante preview zodat het icoon op kleine maten correct leest.",
+        "Minimale leesbaarheid op 16px is de echte test — de preview toont het."
+      ]
+    },
+    {
+      "heading": "HTML-Integratie en Apple Touch Iconen",
+      "paragraphs": [
+        "Zodra je de icobestanden hebt, betekent het toevoegen ervan aan je site het plaatsen van een paar link-tags in je HTML-head-sectie. De standaard rel-equals-icon verwijzing dekt de meeste browsers, terwijl de apple-touch-icon verwijzing ervoor zorgt dat iOS-startschermbladenwijzers je branding op hoge resolutie weergeven.",
+        "Sommige contentmanagementsystemen laten je een enkel favicon uploaden en de groottevarianten automatisch afhandelen, maar het handcoderen van de link-tags geeft je volledige controle over welke versie elk platform ontvangt.",
+        "De generator produceert bestanden met conventionele namen die overeenkomen met gangbare link-tag verwijzingen, zodat integreren in je project neerkomt op het in de juiste map droppen en de bijbehorende HTML toevoegen."
+      ]
+    },
+    {
+      "heading": "Formaat- en Transparantieoverwegingen",
+      "paragraphs": [
+        "Moderne browsers ondersteunen PNG-favicons die transparantie en scherp detail bij elke grootte behouden. Het klassieke ICO-formaat blijft compatibel met oudere browsers en bepaalde bedrijfsomgevingen die hun intranetportalen al jaren niet hebben bijgewerkt.",
+        "SVG-favicons winnen ondersteuning in Chromium-gebaseerde browsers en bieden resolutie-onafhankelijk schalen, hoewel ze nog niet universeel worden toegepast. Een PNG-fallback naast een SVG-versie dekt zowel moderne als legacy-clients.",
+        "De generator levert voor elke grootte het meest breed compatibele formaat, zodat je icoon correct verschijnt of een bezoeker nu de nieuwste Chrome-release of een verouderde bedrijfsbrowser gebruikt."
+      ]
+    },
+    {
+      "heading": "Testen Hoe je Icoon er op Echte Grootten Uitziet",
+      "paragraphs": [
+        "Een logo dat er op een poster elegant uitziet kan op 16 pixels een onleesbare vlek worden. De generator toont het icoon op de exacte groottes waarop browsers het renderen, zodat je de leesbaarheid realistisch beoordeelt in plaats van uitvergroot op het scherm.",
+        "Sterk contrast tussen het merkteken en de iconachtergrond is het ingrediënt dat kleine iconen herkenbaar houdt. Simple silhouetten en gedurfde vormen overleven kleine rendering beter dan fijne lijnen en delicate gradiënten.",
+        "Previewen, aanpassen en regenereren gebeurt allemaal lokaal, zodat itereren totdat het icoon op zijn kleinste grootte leesbaar is minuten kost in plaats van een ontwerptoolsessie."
+      ]
+    },
+    {
+      "heading": "Multi-Platform Branding Consistentie",
+      "paragraphs": [
+        "Verder dan browsertabs verschijnt hetzelfde merkteken in bladwijzerbalken, wachtwoordprompt-meldingen en mobiele startschermtegels. Een uniforme icoonset houdt het merk op elk oppervlak herkenbaar in plaats van het te fragmenteren in verschillende inconsistente benaderingen.",
+        "Social-sharingpreviews en browsergeschiedenis-items tonen ook favicon-afbeeldingen, waardoor het bereik van het icoon ver voorbij professionele sites reikt. Consistentie over deze oppervlakken versterkt het merk stilletjes telkens wanneer het icoon verschijnt.",
+        "Alle varianten uit één bijgesneden bron genereren garandeert dat elk oppervlak het beoogde ontwerp exact weerspiegelt."
+      ]
+    },
+    {
+      "heading": "Privé-Faviconproductie",
+      "paragraphs": [
+        "Pre-launch logo's zijn precies de beelden die je niet zou moeten uploaden. Favicongeneratie draait lokaal en blijft hier.",
+        "Geen watermerk, geen account, geen upload — op alle apparaten.",
+        "Identiteitsassets blijven in jouw handen."
+      ]
+    },
+    {
+      "heading": "Van Logo naar Live Site, Eén Pijplijn",
+      "paragraphs": [
+        "Maak het icoon en optimaliseer daarna de andere beelden van de site met [resize-image:verkleinen] en [compress-image:comprimeren].",
+        "De suite is gratis, privé en volledig browser-gebaseerd.",
+        "De kleinste ambassadeur van je merk, klaar in minuten."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welke groottes zal mijn favicon-set bevatten?",
+      "a": "De generator levert de standaard groottes die browsers en startschermen vragen, waaronder het klassieke 16x16 tab-icoon en grotere varianten."
+    },
+    {
+      "q": "Kan ik een favicon uit elke afbeelding maken?",
+      "a": "Ja. Een vierkant logo of artwork werkt het beste; het tool snijdt en genereert elke vereiste grootte met live preview."
+    },
+    {
+      "q": "Is favicongeneratie privé?",
+      "a": "Ja. Alles draait lokaal in je browser zonder uploads, watermerken of accounts."
+    },
+    {
+      "q": "Wat als mijn bronafbeelding niet vierkant is?",
+      "a": "Het tool biedt een live bijsnijdhulp zodat je het beste vierkante deel van een rechthoekige afbeelding kunt selecteren. Het merkcentreren binnen de uitsnede zorgt ervoor dat het icoon op elke grootte goed leest."
+    }
+  ]
+}

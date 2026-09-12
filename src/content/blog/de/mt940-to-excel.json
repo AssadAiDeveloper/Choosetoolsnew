@@ -1,0 +1,115 @@
+{
+  "slug": "mt940-to-excel",
+  "title": "MT940 zu Excel: Bankkontoauszug MT940 online kostenlos in XLSX konvertieren",
+  "description": "Kostenloser MT940-zu-Excel-Konverter zum Parsen von MT940-Bankkontoauszügen in strukturierte, filterbare Tabellenkalkulationen. Privat, in Ihrem Browser, ohne Uploads.",
+  "keywords": ["MT940 zu Excel", "MT940-Konverter", "MT940-Kontoauszug zu Excel", "MT940 parsen", "Bankkontoauszug zu XLSX", "MT940 zu CSV", "MT940-Datei zu Tabellenblatt"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Bankkontoauszüge haben ihre eigene Sprache",
+      "paragraphs": [
+        "MT940 ist das internationale SWIFT-Format, das Banken für Kontoauszüge verwenden – Zeilen kodierter Tags, die präzise, aber unlesbar sind. [mt940-to-excel:Die Konvertierung von MT940 zu Excel] übersetzt diese Codes in eine Tabellenkalkulation, die jeder Buchhalter lesen kann.",
+        "Jede Transaktion kommt mit Datum, Betrag und Referenz intakt und bewahrt exakt die Daten, die die Bank aufgezeichnet hat.",
+        "ChooseTools parst MT940 lokal in Ihrem Browser, wobei keine Daten Ihr Gerät verlassen."
+      ]
+    },
+    {
+      "heading": "So konvertieren Sie MT940 zu Excel",
+      "paragraphs": [
+        "Vom kodierten File zur vertrauten Tabelle:",
+        "Fügen Sie den MT940-Text ein oder laden Sie die Datei hoch und konvertieren Sie. Transaktionsblöcke entfalten sich zu Zeilen mit Daten, Beträgen, Salden und Beschreibungen in klar beschrifteten Spalten.",
+        "Das Parsen läuft auf Ihrem Gerät – Kontoauszüge bleiben während des gesamten Konvertierungsprozesses privat."
+      ]
+    },
+    {
+      "heading": "Kodierte Tags werden zu aussagekräftigen Spalten",
+      "paragraphs": [
+        "Tags wie Anfangssaldo, Endsaldo und Transaktionsdetails ordnen sich benannten Spalten zu, die Finanzteams sofort erkennen.",
+        "Soll- und Haben-Buchungen trennen sich klar für den Abgleich, wobei jede Zeile Richtung und Betrag angibt.",
+        "Prüfer erhalten Zeilen statt einer Wand aus Codes, was manuelle Stichproben einfach und effizient macht."
+      ]
+    },
+    {
+      "heading": "Die MT940-Tag-Struktur im Detail verstehen",
+      "paragraphs": [
+        "Das :20-Tag trägt die Referenznummer des Kontoauszugs, eine eindeutige Kennung, die die Bank diesem bestimmten Auszug zuweist. Beim Abgleich mehrerer Monate hilft diese Referenz, jede Tabellenkalkulation dem ursprünglichen Auszugszeitraum und der Quelldatei zuzuordnen.",
+        "Die Saldo-Tags :60M und :62M rahmen jeden Auszug mit Anfangs- und Endsaldos ein. Jede Saldolinie enthält einen Soll-oder-Haben-Indikator, ein Datum im Format YYMMDD, einen Währungscode und den Betrag. Diese Rahmendaten lassen Abgleichssoftware verifizieren, dass zwischen den Zeiträumen keine Transaktionen verloren gegangen sind.",
+        "Transaktionszeilen in :61 tragen eine kompakte Struktur: Datum, Valutadatum, Soll-oder-Haben-Marker, Betrag, Transaktionstyp und Referenzcodes. Das :86-Tag, das auf jedes :61 folgt, liefert den menschenlesbaren Text, in dem typischerweise Bankgebühren, Überweisungsreferenzen und Rechnungsnummern erscheinen."
+      ]
+    },
+    {
+      "heading": "Abgleich ohne Knochenarbeit",
+      "paragraphs": [
+        "Tabellenkalkulationen ermöglichen Filter, Summen und Pivot-Ansichten über beliebige Datums- oder Betragsbereiche mit vertrauter Excel-Funktionalität.",
+        "Gleichen Sie Bankzeilen schnell und sicher mit internen Aufzeichnungen ab, mithilfe von VLOOKUP oder bedingter Formatierung.",
+        "Der Kontoauszug hört auf, eine statische Datei zu sein, und wird zu einer arbeitsfähigen Tabelle, die Analyse und Berichterstattung unterstützt."
+      ]
+    },
+    {
+      "heading": "Mehrere Kontoauszüge und Kontotypen handhaben",
+      "paragraphs": [
+        "Eine einzelne MT940-Datei kann Kontoauszüge für mehrere Konten oder mehrere Zeiträume für ein Konto enthalten. Der Konverter trennt jeden Auszugsblock, sodass Sie getrennte Tabellenblätter oder klar beschriftete Abschnitte erhalten und Daten verschiedener Konten nicht zu einer einzigen unklaren Tabelle verschmelzen.",
+        "Kontokennungen im :25-Tag unterscheiden zwischen Girokonten, Sparkonten und Fremdwährungsbeständen. Diese Beschriftungen in der Tabelle zu behalten bedeutet, dass Finanzteams nach Kontotyp filtern können, ohne eine kombinierte Liste manuell zu sortieren.",
+        "Auszugsreferenzsequenzen helfen, die chronologische Reihenfolge zu identifizieren, wenn mehrere Dateien über ein Geschäftsjahr eintreffen. Diese Referenzen in der Tabelle zu bewahren gibt Prüfern eine zuverlässige Spur vom frühesten bis zum neuesten Auszug, ohne Raten."
+      ]
+    },
+    {
+      "heading": "Von der Tabelle zur Buchhaltungssoftware",
+      "paragraphs": [
+        "Sobald die MT940-Daten in Excel liegen, importieren Sie sie über die CSV- oder Excel-Importfunktionen in Buchhaltungsplattformen. Die meisten gängigen Werkzeuge akzeptieren tabellarische Daten mit Standard-Spaltenüberschriften, sodass die geparste Tabelle direkt in Buchhaltungs-Workflows passt.",
+        "Pivot-Tabellen fassen Ausgaben nach Kategorie, Zeitraum oder Gegenpartei innerhalb von Sekunden zusammen. Buchhalter gewinnen sofortige Sicht auf Cashflow-Muster, deren Zusammenstellung aus rohem MT940-Text Stunden dauern würde.",
+        "Bedingte Formatierung hebt ungewöhnlich große Transaktionen, doppelte Einträge oder Daten außerhalb erwarteter Bereiche hervor. Diese visuellen Signale machen Auffälligkeiten früh sichtbar, bevor sie sich durch monatliche Abschlussprozesse ausbreiten."
+      ]
+    },
+    {
+      "heading": "Lokal geparst, fiskalisch sicher",
+      "paragraphs": [
+        "Bankdaten gehören zum sensibelsten Material, das ein Unternehmen besitzt, einschließlich Kontonummern, Salden und Transaktionshistorien.",
+        "Die lokale Konvertierung bedeutet, dass Kontoauszüge nie zu einem Dritten reisen oder externe Verarbeitungsserver passieren.",
+        "Datenschutz durch Konstruktion, nicht durch Versprechen, wobei das gesamte Parsen in Ihrer Browser-Sitzung erfolgt."
+      ]
+    },
+    {
+      "heading": "Fehler reduziert, Formate bewahrt",
+      "paragraphs": [
+        "Die automatisierte Extraktion entfernt die Tippfehler, die die manuelle Neuaufnahme über Dutzende oder Hunderte von Transaktionszeilen einführt.",
+        "Beträge und Vorzeichen bleiben über die Konvertierung exakt, ohne Rundung oder Verkürzung von Dezimalwerten.",
+        "Finanztaugliche Wiedergabetreue von der Datei zur Tabelle, bereit für Prüfung und Compliance-Review."
+      ]
+    },
+    {
+      "heading": "MT940 im Finanz-Toolkit",
+      "paragraphs": [
+        "Kehren Sie mit [excel-to-mt940:Excel zu MT940] um, nutzen Sie Zeilen mit [excel-to-csv:Excel zu CSV] wieder und archivieren Sie mit [pdf-to-text:extrahierten PDFs] für einen vollständigen Dokument-Workflow.",
+        "Die Suite ist kostenlos und browsernativ und erfordert keine Installation oder Abonnement.",
+        "Kodierte Kontoauszüge, dekodiert zu Klarheit für jedes Finanzteam."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Was ist eine MT940-Datei?",
+      "a": "Es ist ein SWIFT-Standardtextformat, das Banken zur Lieferung von Kontoauszügen mit strukturierten Transaktionstags verwenden."
+    },
+    {
+      "q": "Was erscheint in der erzeugten Tabellenkalkulation?",
+      "a": "Jede Transaktion wird zu einer Zeile mit Datum, Betrag, Soll-oder-Haben-Anzeige, Saldo und Beschreibungsfeldern."
+    },
+    {
+      "q": "Ist das Parsen privat?",
+      "a": "Ja. Alles läuft lokal in Ihrem Browser ohne Uploads oder Konten."
+    },
+    {
+      "q": "Kann ich Kontoauszüge mehrerer Konten in einer Datei verarbeiten?",
+      "a": "Ja. Der Konverter trennt jedes Konto und jeden Auszugszeitraum in eigene Abschnitte, sodass die Daten nicht über Konten hinweg verschmelzen."
+    },
+    {
+      "q": "Wie verwende ich die geparsten Daten in Buchhaltungssoftware?",
+      "a": "Exportieren Sie die Tabellenkalkulation als CSV und laden Sie sie in Ihre Buchhaltungsplattform hoch, oder fügen Sie die Daten direkt in bestehende Vorlagen und Pivot-Tabellen ein."
+    },
+    {
+      "q": "Behandelt der Parser große MT940-Dateien mit Tausenden von Transaktionen?",
+      "a": "Ja. Der Konverter verarbeitet Dateien jeder Größe vollständig in Ihrem Browser, ohne serverseitige Begrenzungen der Transaktionsanzahl."
+    }
+  ]
+}

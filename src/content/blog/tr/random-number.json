@@ -1,0 +1,107 @@
+{
+  "slug": "random-number",
+  "title": "Rastgele Sayı Üretici: Çevrimiçi Olarak Ücretsiz Rastgele Sayı Üretin",
+  "description": "Çekilişler, testler ve simülasyonlar için herhangi bir aralıkta güvenli rastgele sayılar oluşturan ücretsiz rastgele sayı üretici. Tarayıcınızda gizli, yükleme yok.",
+  "keywords": ["rastgele sayı üretici", "çevrimiçi rastgele sayılar", "rastgele sayı üretme", "rastgele sayı seçme", "1 ile arasında rastgele sayı", "güvenli rastgele sayılar", "çevrimiçi rng"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Adillik Rastgelelikle Başlar",
+      "paragraphs": [
+        "Piyango çekilişleri, test örnekleri ve simülasyonların tümü hiçbir sonucu kayırmayan sayılara ihtiyaç duyar. [random-number:Rastgele sayılar üretme] herhangi bir aralıkta, talep üzerine yansız değerler sunar.",
+        "İyi rastgelelik, seçim yanlılığını ve önizleme kalıplarını ortadan kaldırır.",
+        "ChooseTools, rastgele sayıları tarayıcınızda yerel olarak üretir.",
+        "Her katılımcının eşit şansa sahip olması gerektiğinde, kriptografik olarak sağlam bir rastgele kaynağa güvenmek savunulabilir tek yaklaşımdır. Elle seçimler ve elektronik tablo formülleri genellikle sonucun bütünlüğünü zedeleyen gizli yanlılıklar taşır."
+      ]
+    },
+    {
+      "heading": "Rastgele Sayılar Nasıl Üretilir",
+      "paragraphs": [
+        "Bir aralık, bir adet, bir tık:",
+        "Alt ve üst sınırları ayarlayın, kaç sayıya ihtiyacınız olduğunu seçin ve üretin. Çekilişinizi liste olarak kopyalayın veya indirin.",
+        "Üretim, tarayıcınızın rastgelelik kaynağını kullanır — yerel ve gizli.",
+        "Arayüz süreci şeffaf tutar: tam aralığı, tam adeti ve tam çıktıyı görürsünüz; aşamalı gizlenen seçenekler veya kafa karıştıran ayarlar yoktur."
+      ]
+    },
+    {
+      "heading": "Tek Sayı veya Tam Seri",
+      "paragraphs": [
+        "Tek seçimler günlük kararları sonuçlandırır; paketler test kümelerini ve örneklem çerçevelerini doldurur.",
+        "Sayım, tekrarlar ve biçimler kullanım durumuna uyum sağlar.",
+        "Aynı kaynak, basit ve toplu ihtiyaçlara hizmet eder.",
+        "Hızlı bir karar için tek sayı üretmek ile istatistiksel analiz için beş yüz sayılık bir paket oluşturmak aynı temel motoru kullanır; bu nedenle kalite ölçekte düşmez."
+      ]
+    },
+    {
+      "heading": "Testler, Simülasyonlar ve Adil Seçimler",
+      "paragraphs": [
+        "Belirlenimci testler sabit tohumlar kullanır, ancak keşfedici testler kalıpları reddeder. Sınıflar ve yarışmalar için yapılan rastgele çekilişler güvenilirlik taşır.",
+        "Yansız girdi, deneyleri dürüst tutar.",
+        "Monte Carlo simülasyonları, A/B test grubu atamaları ve bootstrap güven aralıklarının tümü yüksek kaliteli rastgeleliğe bağlıdır. Yanlı bir üretici, binlerce yineleme boyunca sessizce biriken sistematik hata ekler.",
+        "Sunumlar için öğrenci seçen öğretmenler, çekiliş düzenleyen topluluk grupları ve karşılaşma tabloları oluşturan oyun yöneticilerinin tümü şeffaf, tekrarlanabilir ve açıkça adil bir araçtan yararlanır."
+      ]
+    },
+    {
+      "heading": "Dağılım ve Aralık Davranışı",
+      "paragraphs": [
+        "Değerler, yığılmış yanlılık olmadan yapılandırılmış aralık boyunca yayılır. Düzgün dağılım, sınırlar içindeki her tam sayının belirli bir çekilişte seçilme olasılığının eşit olduğu anlamına gelir.",
+        "Yeni çekilişler tasarım gereği oturumdan oturuma değişir. Aynı girdiyi kasıtlı olarak tekrarlamadığınız sürece hiçbir iki üretim aynı diziyi üretmez; bu araç da tasarım gereği bunu desteklemez.",
+        "Tekrarlanabilirlik tohumlu sistemlere aittir, bu araca değil.",
+        "Düzgün dağılımı anlamak kalite güvencesinde önemlidir: rastgele kaynağınız değerleri aralığın ortasına yığıyorsa veya belirli rakamları kayırıyorsa, aşağı akış analizi bu bozulmayı devralır."
+      ]
+    },
+    {
+      "heading": "Hızlı Seçimlerin Ötesinde Pratik Uygulamalar",
+      "paragraphs": [
+        "Geliştiriciler birim testleri için test verisi üretmekte, algoritma prototiplerinde dizileri karıştırmakta ve tam bir kriptografik yığının gereksiz olduğu geliştirme ortamlarında benzersiz belirteçler atamakta rastgele sayılar kullanır.",
+        "Eğitimciler, her öğrencinin aynı alıştırmanın farklı bir sürümünü alması için parametreleri rastgeleleştirilmiş pratik problem setleri oluşturur; bu, kopya çekmeyi caydırırken zorluğu tutarlı tutar.",
+        "Bir popülasyondan örneklem alan araştırmacılar, görüşmeci yanlılığı veya kendi kendine seçim kalıntıları oluşturmadan katılımcı seçmek için rastgele tam sayılar kullanır.",
+        "Etkinlik organizatörleri, şeffaf ve savunulabilir bir yerleşim sağlamak için stant numaralarını, oturma konumlarını ve kuyruk sıralarını rastgele atar."
+      ]
+    },
+    {
+      "heading": "Gizli Sayı Üretimi",
+      "paragraphs": [
+        "Hassas çekilişler ve örnekleme kimlikleri cihaz üzerinde üretilir.",
+        "Yükleme yok, hesap yok, filigran yok — platformlar arası.",
+        "Gözetim olmadan rastgelelik.",
+        "Gizlilik, seçim sürecinin kendisinin korunması gereken klinik deneylerde, finansal denetimlerde veya iç soruşturmalarda bireyleri tanımlayan rastgele sayılar söz konusu olduğunda önem taşır."
+      ]
+    },
+    {
+      "heading": "Rastgele Seçimde Sık Yapılan Hatalardan Kaçınma",
+      "paragraphs": [
+        "Sık yapılan bir hata, küçük bir örneğin aralığı tamamen temsil ettiğini varsaymaktır. Bir ile yüz arasında beş sayı üretmek, sayıların eşit aralıklı olacağını garanti etmez; merkeze veya uçlara yığılma istatistiksel olarak normaldir.",
+        "Bir başka tuzak, zaman damgalarını veya proses kimliklerini entropi kaynağı olarak kullanmaktır. Bu değerler öngörülebilir veya düşük entropilidir; bu yüzden adilliğin veya güvenliğin önemli olduğu her bağlamda uygunsuzdur.",
+        "Araç, özellikle öngörülemez üretim için tasarlanan ve tarayıcı satıcıları tarafından düzenli denetlenen tarayıcı kriptografik API'sine güvenerek bu sorunları devre dışı bırakır.",
+        "Bu tuzakları anlamak, kırılgan özel çözümler kurmak yerine sonuçları doğru yorumlamanıza ve iş için doğru aracı seçmenize yardımcı olur."
+      ]
+    },
+    {
+      "heading": "Birçok Araç Küçük Bir Rastgeleliğe İhtiyaç Duyar",
+      "paragraphs": [
+        "Eksiksiz test verisi oluşturmak için çekilişleri [password-generator:sırlar], [uuid-generator:benzersiz kimlikler] ve [lorem-ipsum:yer tutucular] ile eşleştirin.",
+        "Set ücretsiz ve tarayıcı tabanlıdır.",
+        "Anında yansız sayılar."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Hem aralığı hem de adedi ayarlayabilir miyim?",
+      "a": "Evet. Alt ve üst sınırlar, tek bir sayı veya tam bir dizi için adet ayarıyla birleşir."
+    },
+    {
+      "q": "Sonuçlar gerçekten rastgele mi?",
+      "a": "Tarayıcınızın güvenli rastgele kaynağından gelirler; öngörülebilir kalıplar olmadan yansız çekilişler sağlarlar."
+    },
+    {
+      "q": "Üretici gizli mi?",
+      "a": "Evet. Her şey yükleme veya hesap olmadan tamamen tarayıcınızda yerel olarak çalışır."
+    },
+    {
+      "q": "Bir pakette tekrarlar görünebilir mi?",
+      "a": "Evet. Her çekiliş bağımsızdır; bu yüzden adil bir fiziksel çekilişte olduğu gibi aynı sayı bir pakette birden fazla kez görünebilir."
+    }
+  ]
+}

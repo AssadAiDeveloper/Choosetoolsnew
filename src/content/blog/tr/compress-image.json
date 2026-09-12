@@ -1,0 +1,103 @@
+{
+  "slug": "compress-image",
+  "title": "Görüntüyü Çevrimiçi Ücretsiz Sıkıştırma: Fotoğraf Dosya Boyutunu Küçültme",
+  "description": "ChooseTools ile görüntüyü çevrimiçi ücretsiz sıkıştırın. Kaliteyi korurken e-posta, web ve yüklemeler için fotoğraf dosya boyutunu küçültün — yükleme olmadan tam gizlilikle, doğrudan tarayıcınızda.",
+  "keywords": ["görüntü sıkıştırma", "görüntü boyutunu kb küçültme", "görüntüyü çevrimiçi ücretsiz sıkıştırma", "fotoğrafı küçültme", "görüntü sıkıştırıcı", "jpg sıkıştırma", "fotoğraf boyutunu mb küçültme"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Ağır Görseller İş Akışlarını Bozar",
+      "paragraphs": [
+        "12 megapiksellik bir fotoğraf, bir e-posta sınırını aşana, bir portal yüklemesini durdurana veya bir sohbette sürünene kadar bir zevktir. [compress-image:Görüntüleri sıkıştırmak], onları hedefin kabul ettiği her şeye inceltir.",
+        "Sıkıştırma, gezegendeki en yaygın görüntü işidir ve çoğu araç bunu bulutta beceriksizce yapar.",
+        "ChooseTools görüntüleri tarayıcınızda yerel olarak sıkıştırır: hedef seviyeyi seçin, boyutun düştüğünü izleyin ve indirin — asla yükleme yoktur."
+      ]
+    },
+    {
+      "heading": "Tarayıcıda Görüntü Nasıl Sıkıştırılır",
+      "paragraphs": [
+        "Dosyayı tam kontrolle hafifletin:",
+        "Fotoğrafı yükleyin ve bir sıkıştırma seviyesi seçin — hafif, dengeli veya güçlü — ya da yaklaşık bir çıktı boyutu hedefleyin. Araç, indirmeden önce sonucu önizler ve yeni boyutu gösterir.",
+        "Yerel çalıştığı için sıkıştırma anında ve tekrarlanabilirdir; boyut sınırını tutturmak saniyeler meselesidir."
+      ]
+    },
+    {
+      "heading": "İdeal Nokta: Boyut ve Görünür Kalite",
+      "paragraphs": [
+        "Kör paketleme kaliteyi ezer; megabaytların peşinde koşmak dosyaları aşırı büyük bırakır. Seviye tabanlı kontrol ortayı bulur.",
+        "Fotoğraflar, dengeli ayarlarda fark edilemeyen değişimle güzelce sıkışır; güçlü ayarlar küçük resimler ve önizlemeler için uygundur.",
+        "Her iş tam olarak ihtiyaç duyduğu takası alır."
+      ]
+    },
+    {
+      "heading": "Daha Küçük Fotoğraflara İhtiyaç Duyan Her Kanal",
+      "paragraphs": [
+        "E-posta, iş portalları, okul başvuruları, e-ticaret katalogları, mesajlaşma uygulamaları ve web galerileri boyut sınırı koyar.",
+        "Tek bir sıkıştırma, fotoğrafları 2 MB'lık bir portal tavanından bir sohbet uygulamasının kibar 10 MB'ına kadar her yerde kabul ettirir.",
+        "Hızlı, saklanan, iletilen — asla yeniden reddedilmez."
+      ]
+    },
+    {
+      "heading": "JPEG Sıkıştırmayı ve Dosya Formatı Seçimini Anlamak",
+      "paragraphs": [
+        "JPEG sıkıştırma, insan gözünün fark etme olasılığı düşük ince ayrıntıları basitleştirerek çalışır; bu nedenle aynı ayarlardaki bir plaj fotoğrafı ve teknik bir diyagram çok farklı dosya boyutları üretir. Yoğun, yüksek kontrastlı sahnelerin temiz kalması için daha fazla bayt gerekir; yumuşak gradyanlar ise dramatik biçimde sıkışır.",
+        "Logolar ve illüstrasyonlar gibi düz renkli grafikler için PNG veya WebP, JPEG'ten daha iyi sıkışırken net kalmayı sürdürür. Kaynağınız şeffaf arka planlı bir PNG ise, şeffaflığı koruyan bir format seçmek en küçük bayt sayısını kovalamaktan daha önemlidir.",
+        "İçeriğinize hangi formatın uygun olduğunu bilmek, bir logoyu JPEG olarak sıkıştırıp metin ve düz şekillerin çevresinde pürüzlü kenarlar ve renk saçaklanması bulmanın klasik hatasını önler."
+      ]
+    },
+    {
+      "heading": "Ekran Görüntülerini ve Taramaları Yeniden Sıkıştırma",
+      "paragraphs": [
+        "Ekran görüntüleri ve taranmış belgeler, içerikleri çoğunlukla düz renk ve metin olduğu için fotoğraflardan farklı sıkışır. Bu tür görseller genellikle orta bir ayarla dramatik biçimde küçülür; ekranda keskin kalırken orijinalin bir kesrine inen dosyalar üretir.",
+        "Bir ders veya rapor için hazırlanan belgelerde, metnin okunaklı kalması mükemmel renk doğruluğundan daha önemlidir. Dengeli seviyeyi seçmek, dosyayı anlamlı şekilde kırparken harflerin keskin kenarlarını korur.",
+        "Bir dersin ekran görüntülerini e-posta ile göndermeden önce küçültmek, okunabilirlikten ödün vermeden mesajı ek sınırlarının altında tutar."
+      ]
+    },
+    {
+      "heading": "Web Siteleri ve Portfolyolar için Toplu Sıkıştırma",
+      "paragraphs": [
+        "Bir fotoğraf galerisi yayınlamak veya bir portfolyo güncellemek, aynı anda düzinelerce görseli sıkıştırmak demektir; tek tek uğraşmak saatler harcatır. Tutarlı sıkıştırma ayarlarıyla bir görsel klasörü üzerinde çalışmak, bir web sitesinin verimli şekilde sunabileceği tek biçimli bir dosya seti üretir.",
+        "Web performans bütçeleri genellikle sayfa başına birkaç yüz kilobaytlık görsel yükünü hedefler. 3 MB'lık kamera orijinallerinden başlayarak görsel başına yaklaşık 200 KB'ye sıkıştırmak, bütçe içinde kalırken sayfa başına beş veya daha fazla fotoğrafa olanak tanır.",
+        "Aynı tekrarlanabilir kaynağı ve aynı ayarları kullanmak, birkaç görselin kazara daha sert sıkıştırılarak bozulmuş görünmesi yerine tüm galeri boyunca tutarlı kalite sağlar."
+      ]
+    },
+    {
+      "heading": "Kişisel ve Müşteri Fotoğraflarının Özel Sıkıştırılması",
+      "paragraphs": [
+        "Aile fotoğrafları, yayınlanmamış ürün görselleri ve müşteri setleri yerel olarak sıkıştırılır; bir sıkıştırıcının sunucusuna asla gitmez.",
+        "Filigran yok, hesap yok, kota yok — ve hiçbir yerde kalan kopya yok.",
+        "Windows, macOS, Linux, tabletler ve telefonlarda aynı davranış."
+      ]
+    },
+    {
+      "heading": "Yeniden Boyutlandırıp Dönüştürdükten Sonra Sıkıştırın",
+      "paragraphs": [
+        "Kazanan set genellikle görüntüleme boyutlarına [resize-image:yeniden boyutlandırma], doğru formata [convert-image:dönüştürme], ardından teslim için sıkıştırmadır.",
+        "Üçü de ücretsiz, yerel ve tarayıcı içinde çalışır.",
+        "Fotoğraf hattı artık bir bulut sapması yerine birkaç özel tıktır."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Görüntü boyutu ne kadar azaltılabilir?",
+      "a": "Sıkıştırma, içeriğe ve seçtiğiniz kalite seviyesine bağlı olarak JPEG dosyalarını genellikle %50-80 oranında keser."
+    },
+    {
+      "q": "Sıkıştırılmış görsel farklı görünür mü?",
+      "a": "Dengeli seviyeler fotoğraflar için görsel olarak neredeyse aynıdır; daha güçlü sıkıştırma ince ayrıntıları daha küçük boyutla takas eder."
+    },
+    {
+      "q": "Görüntü sıkıştırıcı ücretsiz ve özel midir?",
+      "a": "Evet. Her şey yükleme, filigran veya hesap olmadan tarayıcınızda yerel olarak çalışır."
+    },
+    {
+      "q": "Hangi görüntü formatlarını sıkıştırabilirim?",
+      "a": "Araç, JPG, PNG ve WebP gibi yaygın formatları destekler; hedefinize en uygun formata sıkıştırmanıza veya dönüştürmenize olanak tanır."
+    },
+    {
+      "q": "Görüntüyü belirli bir boyut hedefine sıkıştırabilir miyim?",
+      "a": "Evet. Yaklaşık bir çıktı boyutu seçebilirsiniz ve araç, bu hedefe yakın kalmak için sıkıştırma seviyesini otomatik olarak ayarlar."
+    }
+  ]
+}

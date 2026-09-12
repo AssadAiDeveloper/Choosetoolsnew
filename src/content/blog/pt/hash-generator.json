@@ -1,0 +1,115 @@
+{
+  "slug": "hash-generator",
+  "title": "Gerador de Hash: Crie Hashes MD5 SHA-256 e SHA-1 Online Grátis",
+  "description": "Gerador de hash gratuito para calcular checksums MD5, SHA-1 e SHA-256 para texto e ficheiros e verificar integridade. Privado, no seu navegador, sem uploads.",
+  "keywords": ["gerador de hash", "gerador de sha256", "hash md5", "hash sha1", "gerador de checksum online", "calculadora de hash", "hash de texto online"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Um Hash Prova o Que Quer Dizer",
+      "paragraphs": [
+        "Os hashes condensam qualquer entrada numa impressão digital de tamanho fixo que muda quando a entrada muda. A [hash-generator:Geração de hashes] verifica integridade, deteta corrupção acidental e estrutura fluxos de trabalho seguros.",
+        "O MD5, o SHA-1 e o SHA-256 são os cavalos de batalha do dia a dia com forças e compromissos diferentes que importam em contextos específicos.",
+        "A ChooseTools calcula hashes localmente no seu navegador, para texto e ficheiros."
+      ]
+    },
+    {
+      "heading": "Como Gerar um Hash",
+      "paragraphs": [
+        "Da entrada à impressão digital num clique:",
+        "Cole texto ou escolha um ficheiro, selecione um algoritmo de digest e veja o checksum resultante para MD5, SHA-1 ou SHA-256 em segundos.",
+        "O cálculo permanece local, de modo que os conteúdos nunca saem do seu dispositivo, independentemente do tamanho do ficheiro ou do comprimento do texto."
+      ]
+    },
+    {
+      "heading": "MD5 para Verificações Rápidas, SHA-256 para Dever de Fortaleza",
+      "paragraphs": [
+        "O MD5 corre depressa e ainda sinaliza corrupção casual, mas as colisões tornam-no inadequado para verificação crítica de segurança onde a adulteração maliciosa é uma preocupação.",
+        "O SHA-256 é o padrão moderno para lançamentos, downloads e operações de comparação sensíveis em toda a indústria de software.",
+        "Alinhar o digest à tarefa importa mais do que escolher o algoritmo mais recente disponível."
+      ]
+    },
+    {
+      "heading": "Escolher o Algoritmo Certo para a Tarefa",
+      "paragraphs": [
+        "O MD5 produz um digest de 128 bits expresso em 32 caracteres hexadecimais. Permanece útil para tarefas não relacionadas com segurança, como verificar se um ficheiro foi transferido sem corrupção, gerar identificadores curtos para chaves de cache ou confirmar que duas cópias de um documento são byte-idênticas.",
+        "O SHA-1 produz um digest de 160 bits apresentado em 40 caracteres hex. Muitos sistemas legados e plataformas de controlo de versões ainda referenciam impressões digitais SHA-1, de modo que o algoritmo continua relevante por compatibilidade mesmo já não satisfazendo requisitos modernos de segurança.",
+        "O SHA-256 gera um digest de 256 bits apresentado em 64 caracteres hex. É a força mínima recomendada para assinaturas digitais, verificação de certificados e qualquer fluxo de trabalho onde a resistência a colisões afeta diretamente a confiança. Em caso de dúvida, pegue no SHA-256 em primeiro lugar."
+      ]
+    },
+    {
+      "heading": "Integridade de Ficheiros Antes de Instalar",
+      "paragraphs": [
+        "Compare o hash de um ficheiro transferido com o checksum publicado pelo editor para confirmar que o ficheiro chegou intacto.",
+        "Uma correspondência prova que o ficheiro chegou completo e sem modificações, dando-lhe confiança criptográfica antes da execução.",
+        "A confiança é criptográfica em vez de esperançosa, substituindo a adivinhação por prova matemática."
+      ]
+    },
+    {
+      "heading": "Casos de Uso Para Além da Verificação de Ficheiros",
+      "paragraphs": [
+        "As APIs exigem normalmente uma assinatura com hash em cada pedido para que o servidor possa confirmar que os parâmetros não foram alterados em trânsito. Calcular o hash localmente e incorporá-lo no cabeçalho cumpre esse contrato sem expor o payload em bruto a serviços de terceiros.",
+        "Os sistemas de armazenamento com endereçamento por conteúdo usam hashes como nomes de ficheiros. Guardar um documento sob o seu digest SHA-256 significa que dados duplicados são detetados instantaneamente e conteúdo idêntico resolve sempre para o mesmo endereço, reduzindo custos de armazenamento e acelerando a recuperação.",
+        "A desduplicação em grandes coleções de ficheiros beneficia da comparação por hash. Em vez de comparar ficheiros byte a byte, uma verificação rápida de digest revela duplicados em segundos, libertando espaço em disco e simplificando rotinas de backup em ambientes empresariais."
+      ]
+    },
+    {
+      "heading": "Hash Não É Encriptação",
+      "paragraphs": [
+        "Os hashes são impressões digitais unidirecionais; não conseguem revelar a entrada, mas também não a escondem da força bruta sobre valores fracos.",
+        "Para armazenamento de palavras-passe, combine hashing com salting adequado e uma função de derivação de chaves lenta — nunca armazene texto simples.",
+        "Entenda a direção unidirecional antes de depender dela para qualquer propósito crítico de segurança."
+      ]
+    },
+    {
+      "heading": "Compreender a Saída Hexadecimal e a Codificação",
+      "paragraphs": [
+        "Os resultados de hash aparecem como strings de caracteres hexadecimais, onde cada par de dígitos representa um byte. Um hash MD5 tem 32 caracteres hex porque codifica 16 bytes, enquanto o SHA-256 tem 64 caracteres hex codificando 32 bytes.",
+        "A representação hex é legível por humanos e fácil de comparar, mas o valor subjacente é binário. Alguns sistemas preferem codificação Base64 do digest em bruto por compacidade, de modo que conhecer a distinção entre saída hex e Base64 evita erros de copiar-e-colar.",
+        "A capitalização dos caracteres é habitualmente irrelevante para algoritmos de comparação, mas muitos editores publicam hex maiúsculo enquanto as ferramentas podem devolver minúsculo. O conversor produz uma capitalização consistente para que as correspondências sejam diretas independentemente do formato de origem."
+      ]
+    },
+    {
+      "heading": "Impressão Digital Privada",
+      "paragraphs": [
+        "Documentos e segredos com hash local nunca transitam por um servidor nem aparecem em qualquer registo externo.",
+        "Sem uploads, sem conta, sem marca de água — comportamento idêntico em todos os sistemas operativos e navegadores.",
+        "Verificações de integridade com total privacidade, adequadas para ficheiros confidenciais e código proprietário."
+      ]
+    },
+    {
+      "heading": "Hashing no Kit de Ferramentas do Programador",
+      "paragraphs": [
+        "Combine com [base64:codificação], [uuid-generator:IDs únicos] e [password-generator:chaves fortes] para higiene de dados completa em pipelines de desenvolvimento e implementação.",
+        "A suite é gratuita e nativa do navegador, sem exigir instalação ou criação de conta.",
+        "Impressões digitais à mão, prontas para qualquer tarefa de verificação."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Que algoritmos são suportados?",
+      "a": "São fornecidos MD5, SHA-1 e SHA-256, cobrindo os casos de uso quotidianos de checksum e integridade em diferentes níveis de segurança."
+    },
+    {
+      "q": "Posso calcular o hash de um ficheiro além de texto?",
+      "a": "Sim. Os ficheiros podem ser selecionados diretamente e receber hash tal como texto colado, com resultados em segundos."
+    },
+    {
+      "q": "O hashing é privado?",
+      "a": "Sim. Tudo é executado localmente no seu navegador, sem uploads nem contas."
+    },
+    {
+      "q": "Qual deve ser o comprimento do meu hash de palavra-passe para permanecer seguro?",
+      "a": "Para hashing de palavras-passe em produção, use um algoritmo dedicado como bcrypt ou Argon2 com salting. O gerador de hash é adequado para checksums, verificação de integridade e impressão digital de dados em vez de armazenamento de palavras-passe."
+    },
+    {
+      "q": "Qual é a diferença entre a saída de hash hex e Base64?",
+      "a": "O hex é uma representação textual do digest binário usando os dígitos 0-9 e as letras a-f. O Base64 codifica os mesmos dados binários de forma mais compacta usando um conjunto de caracteres maior. Ambos representam o mesmo valor de hash subjacente."
+    },
+    {
+      "q": "Dois ficheiros diferentes podem produzir o mesmo hash?",
+      "a": "As colisões são teoricamente possíveis mas extremamente improváveis com SHA-256. O MD5 e o SHA-1 têm vulnerabilidades de colisão conhecidas, razão pela qual o SHA-256 é preferido para aplicações sensíveis à segurança."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "text-to-slug",
+  "title": "Conversor de Texto para Slug: Crie Slugs Amigáveis para URLs Online Grátis",
+  "description": "Gerador de slugs online gratuito para converter títulos em slugs limpos e amigáveis para URLs, para WordPress, blogues e sistemas CMS. Privado, instantâneo, no seu navegador.",
+  "keywords": ["gerador de slug", "texto para slug", "conversor de slug para url", "gerador de url amigável", "slug wordpress", "slugify online", "slug seo para url"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Os Slugs São Como os URLs Se Tornam Legíveis",
+      "paragraphs": [
+        "Um slug limpo transforma «How to Merge PDF Files — A Complete Guide» em /how-to-merge-pdf-files, legível por humanos, analisável por máquinas e indexado sem problemas pelos motores de busca. [text-to-slug:Gerar slugs] a partir de títulos é o ritual diário de qualquer editor de CMS.",
+        "O WordPress, o Shopify, o Hugo e as rotas feitas à mão partilham as mesmas convenções de slugs.",
+        "A ChooseTools converte texto em slugs localmente no seu navegador, respeitando os separadores e as opções de maiúsculas e minúsculas."
+      ]
+    },
+    {
+      "heading": "Como Converter um Título num Slug",
+      "paragraphs": [
+        "De título a permalink num clique.",
+        "Cole o seu título ou frase e a ferramenta converte-o em minúsculas, retira caracteres não desejados e usa hífenes para criar um slug limpo. Escolha o estilo de separador (hífenes, underscores) e as maiúsculas e minúsculas (lower, lowerCamel).",
+        "O resultado está pronto a colar no seu ecrã de edição sem limpeza manual.",
+        "Ajustar uma opção volta a gerar o slug instantaneamente, pelo que corresponder às convenções do seu CMS é trivial."
+      ]
+    },
+    {
+      "heading": "Porque É Que Os URLs Limpos Importam para o SEO e a Usabilidade",
+      "paragraphs": [
+        "Os motores de busca analisam slugs com significado para contexto; os leitores partilham-nos de forma fiável; as ferramentas de análise reportam-nos de forma legível.",
+        "Permalinks previsíveis sobrevivem a importações e migrações sem deriva.",
+        "Dê atenção ao slug e a arquitetura do seu URL recompensa-o em estrutura.",
+        "URLs legíveis também inspiram mais cliques quando partilhados em impresso, por email ou em chat, porque o destino é óbvio à primeira vista."
+      ]
+    },
+    {
+      "heading": "Caracteres Nacionais e os Casos Extremos dos Slugs",
+      "paragraphs": [
+        "Os caracteres acentuados e não latinos precisam de regras de transliteração para se tornarem latim seguro para URLs.",
+        "O conversor lida com estes casos extremos para que títulos com á, é, ü e semelhantes continuem a produzir slugs arrumados.",
+        "Pontuação, aspas e espaços transformam-se em separadores seguros.",
+        "Esta normalização evita as strings longas, quebradas e codificadas em percentagem que estragam ligações e parecem pouco profissionais."
+      ]
+    },
+    {
+      "heading": "Boas Práticas de Slugs para Editores",
+      "paragraphs": [
+        "Mantenha os slugs curtos mas descritivos: algumas palavras-chave com significado vencem uma frase completa, e leem-se melhor nos resultados de pesquisa e nos separadores do navegador.",
+        "Evite palavras vazias como de, em e e onde não acrescentam valor distintivo, pois desperdiçam caracteres e enfraquecem o sinal.",
+        "Use minúsculas permanentemente depois de publicado, porque mudar um slug mais tarde quebra ligações existentes e prejudica a autoridade de pesquisa acumulada.",
+        "Corresponda à convenção do seu CMS, normalmente hífenes para WordPress e Jekyll, enquanto alguns frameworks preferem underscores ou camelCase, que a ferramenta permite selecionar diretamente."
+      ]
+    },
+    {
+      "heading": "Consequências de SEO de Slugs de Má Qualidade",
+      "paragraphs": [
+        "Os motores de busca pesam o URL como sinal de relevância, e um slug que contém a palavra-chave principal reforça a clareza temática da página para essa consulta.",
+        "Slugs gerados automaticamente a partir de títulos incluem frequentemente números ou fragmentos, como post-title-2024-06, que não acrescentam valor e desperdiçam o espaço de palavra-chave mais visível numa página de resultados.",
+        "Parâmetros de sessão e identificadores gerados por máquina tornam os URLs mais difíceis de ler, partilhar e lembrar, desincentivando a partilha manual que gera tráfego real.",
+        "Investir segundos num slug limpo no momento da publicação evita anos de desempenho mediano e ligações quebradas mais tarde."
+      ]
+    },
+    {
+      "heading": "Transliteração e Títulos Multilingues",
+      "paragraphs": [
+        "Títulos em alemão, francês, espanhol e muitas outras línguas trazem diacríticos que os navegadores tratam de forma desajeitada nos URLs. Converter ü em ue ou manter u depende da língua e da sua preferência editorial, e a ferramenta aplica predefinições sensatas.",
+        "Para escritas não latinas, como o cirílico, o árabe ou o grego, uma transliteração fonética produz um slug legível em inglês que continua a corresponder ao tema para os leitores de escrita latina.",
+        "Regras de transliteração consistentes importam em sites multilingues, onde um slug em espanhol e um slug em inglês devem ambos parecer naturais e previsíveis.",
+        "Também pode optar por manter ou remover diacríticos para corresponder às convenções da sua marca, dando aos editores multilingues controlo total sobre como os seus URLs são lidos."
+      ]
+    },
+    {
+      "heading": "Como um Slug Se Enquadra na Sua Estrutura de URL",
+      "paragraphs": [
+        "O slug é o segmento final de um caminho de URL maior, como /blog/category-name/slug, e contém a informação de identificação mais específica da página.",
+        "Uma hierarquia de slugs ponderada, primeiro a categoria e depois o artigo, ajuda utilizadores e motores de busca a perceber onde uma página se encaixa no seu site.",
+        "Manter os slugs estáveis após a publicação é crítico, já que cada um ancora favoritos, backlinks e rankings de pesquisa que levam meses a acumular.",
+        "Quando tem de mudar um slug, um redirecionamento preserva a maior parte do valor, mas evitar a mudança por completo é sempre melhor."
+      ]
+    },
+    {
+      "heading": "Geração Privada de Slugs para Trabalho Não Publicado",
+      "paragraphs": [
+        "Rascunhos e títulos de pré-lançamento são convertidos localmente, sem que nada saia da sua máquina.",
+        "Sem uploads, sem conta, sem marcas de água em todas as plataformas.",
+        "Os seus nomes não publicados permanecem não publicados até decidir publicá-los."
+      ]
+    },
+    {
+      "heading": "Slugs no Fluxo de Trabalho de Conteúdo",
+      "paragraphs": [
+        "Crie o slug, meça o rascunho com a [word-counter:contagem de palavras] e refine o texto com o [find-replace:substituir] antes de publicar.",
+        "A suite é gratuita e baseada em navegador, formando um pipeline contínuo de produção de conteúdo.",
+        "De título a /url/ amigável, tudo feito sem sair do navegador."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Que caracteres são removidos ao criar um slug?",
+      "a": "A pontuação, as aspas e os símbolos são removidos ou substituídos por separadores seguros, e os caracteres acentuados são transliterados para letras seguras para URLs."
+    },
+    {
+      "q": "Posso escolher hífenes ou underscores como separadores?",
+      "a": "Sim. O estilo de separador e as opções de maiúsculas e minúsculas permitem-lhe corresponder exatamente às convenções de slugs do seu CMS ou framework."
+    },
+    {
+      "q": "O gerador de slugs é privado?",
+      "a": "Sim. A conversão acontece inteiramente no seu navegador, sem uploads, sem contas e sem processamento no servidor."
+    },
+    {
+      "q": "Posso usar o mesmo slug em diferentes plataformas de CMS?",
+      "a": "Sim. O slug gerado é uma string padrão segura para URLs, pelo que funciona no WordPress, Shopify, Hugo e na maioria dos outros sistemas de publicação sem modificação."
+    }
+  ]
+}

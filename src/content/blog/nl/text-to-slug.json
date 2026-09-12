@@ -1,0 +1,114 @@
+{
+  "slug": "text-to-slug",
+  "title": "Tekst naar Slug-Converter: Maak URL-vriendelijke Slugs Online Gratis",
+  "description": "Gratis online slug-generator om titels om te zetten naar schone, URL-vriendelijke slugs voor WordPress, blogs en CMS-systemen. Privé, direct, in je browser.",
+  "keywords": ["slug generator", "tekst naar slug", "url slug converter", "vriendelijke url generator", "wordpress slug", "slugify online", "seo url slug"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Slugs Maken URLs Leesbaar",
+      "paragraphs": [
+        "Een schone slug verandert „Hoe PDF-bestanden samenvoegen — een complete gids“ in /how-to-merge-pdf-files, leesbaar voor mensen, te parsen door machines en vriendelijk geïndexeerd door zoekmachines. [text-to-slug:Slugs genereren] uit titels is het dagelijkse ritueel van elke CMS-redacteur.",
+        "WordPress, Shopify, Hugo en handgemaakte routes delen allemaal dezelfde slug-conventies.",
+        "ChooseTools zet tekst lokaal in je browser om naar slugs, met respect voor de opties voor scheidingstekens en hoofdletters."
+      ]
+    },
+    {
+      "heading": "Hoe je een Titel Omzet in een Slug",
+      "paragraphs": [
+        "Van kop naar permalink in één klik.",
+        "Plak je titel of zin en het tool maakt er door kleine letters, stripping en afbreekstreepjes een schone slug van. Kies de stijl van het scheidingsteken (streepjes, underscores) en de case (lower, lowerCamel).",
+        "De output is klaar om in je editor te plakken zonder handmatige opschoning.",
+        "Het aanpassen van één optie rendert de slug direct opnieuw, zodat het matchen van je CMS-conventies triviaal is."
+      ]
+    },
+    {
+      "heading": "Waarom Schone URLs Ertoe Doen voor SEO en Bruikbaarheid",
+      "paragraphs": [
+        "Zoekmachines parsen betekenisvolle slugs voor context; lezers delen ze betrouwbaar; analytics rapporteren ze leesbaar.",
+        "Voorspelbare permalinks overleven imports en migraties zonder afwijking.",
+        "Besteed aandacht aan de slug en je URL-architectuur betaalt terug in structuur.",
+        "Voor mensen leesbare URLs leiden ook tot meer kliks wanneer ze in print, per e-mail of in chat worden gedeeld, omdat de bestemming in één oogopslag duidelijk is."
+      ]
+    },
+    {
+      "heading": "Nationale Tekens en de Randgevallen van Slugs",
+      "paragraphs": [
+        "Letters met accenten en niet-Latijnse tekens hebben transliteratieregels nodig om URL-veilig Latijn te worden.",
+        "De converter gaat met zulke randgevallen om, zodat titels met á, é, ü en dergelijke toch nette slugs opleveren.",
+        "Interpunctie, aanhalingstekens en spaties worden teruggebracht tot veilige scheidingstekens.",
+        "Deze normalisatie voorkomt de lange, gebroken, percent-gecodeerde strings die links breken en onprofessioneel ogen."
+      ]
+    },
+    {
+      "heading": "Slug-beste Praktijken voor Redacteuren",
+      "paragraphs": [
+        "Houd slugs kort maar beschrijvend: een paar betekenisvolle trefwoorden verslaan een hele zin, en ze lezen beter in zoekresultaten en browsertabbladen.",
+        "Vermijd stopwoorden zoals „de“, „van“ en „en“ waar ze geen onderscheidende waarde toevoegen, omdat ze tekens verspillen en het signaal verzwakken.",
+        "Gebruik na publicatie permanent kleine letters, omdat het later wijzigen van een slug bestaande links breekt en opgebouwde zoekautoriteit schaadt.",
+        "Sluit aan bij de conventie van je CMS, meestal streepjes voor WordPress en Jekyll, terwijl sommige frameworks de voorkeur geven aan underscores of camelCase, wat je met het tool direct kunt selecteren."
+      ]
+    },
+    {
+      "heading": "SEO-gevolgen van Slechte Slugs",
+      "paragraphs": [
+        "Zoekmachines wegen de URL als relevantiesignaal, en een slug die het primaire trefwoord bevat versterkt de onderwerpelijke duidelijkheid van de pagina voor die query.",
+        "Automatisch gegenereerde slugs uit titels bevatten vaak nummers of fragmenten, zoals post-title-2024-06, die geen waarde toevoegen en de zichtbaarste trefwoordruimte in een resultatenpagina verspillen.",
+        "Sessieparameters en machinegegenereerde identifiers maken URLs moeilijker te lezen, te delen en te onthouden, waardoor het handmatig delen dat echt verkeer oplevert wordt ontmoedigd.",
+        "Bij publicatie enkele seconden investeren in een schone slug voorkomt jaren van middelmatige prestaties en gebroken links later."
+      ]
+    },
+    {
+      "heading": "Transliteratie en Meertalige Titels",
+      "paragraphs": [
+        "Titels in het Duits, Frans, Spaans en vele andere talen dragen diakritische tekens waar browsers in URLs onhandig mee omgaan. Het omzetten van ü naar ue of het behouden van u hangt af van de taal en je redactionele voorkeur, en het tool past verstandige standaarden toe.",
+        "Voor niet-Latijnse schriften zoals Cyrillisch, Arabisch of Grieks produceert een fonetische transliteratie een leesbare slug die voor lezers van het Latijnse schrift nog steeds bij het onderwerp past.",
+        "Consistente transliteratieregels zijn belangrijk voor meertalige sites, waar een Spaanse slug en een Engelse slug beide natuurlijk en voorspelbaar moeten aanvoelen.",
+        "Je kunt er ook voor kiezen diakritische tekens te behouden of weg te laten om aan de conventies van je merk te voldoen, waardoor meertalige uitgevers volledige controle hebben over hoe hun URLs lezen."
+      ]
+    },
+    {
+      "heading": "Hoe een Slug Past in je URL-structuur",
+      "paragraphs": [
+        "De slug is het laatste segment van een groter URL-pad, zoals /blog/category-name/slug, en draagt de meest specifieke identificerende informatie voor de pagina.",
+        "Een doordachte slug-hiërarchie, eerst categorie dan bericht, helpt zowel gebruikers als zoekmachines begrijpen waar een pagina in je site staat.",
+        "Het stabiel houden van slugs na publicatie is cruciaal, omdat elke slug bookmarks, backlinks en zoekrankings verankert die maanden nodig hebben om op te bouwen.",
+        "Wanneer je een slug toch moet wijzigen, behoudt een redirect het meeste van de waarde, maar het volledig vermijden van de wijziging is altijd beter."
+      ]
+    },
+    {
+      "heading": "Privé Slug-generatie voor Niet-gepubliceerd Werk",
+      "paragraphs": [
+        "Concepten en titels vóór de lancering worden lokaal omgezet, zonder dat er iets je machine verlaat.",
+        "Geen upload, geen account, geen watermerk, op elk platform.",
+        "Je niet-gepubliceerde namen blijven niet-gepubliceerd totdat je ervoor kiest ze te publiceren."
+      ]
+    },
+    {
+      "heading": "Slugs Binnen de Contentworkflow",
+      "paragraphs": [
+        "Maak de slug, meet het concept met [word-counter:het aantal woorden] en verfijn de tekst met [find-replace:vervangen] vóór publicatie.",
+        "De suite is gratis en browsergebaseerd en vormt één doorlopende contentproductiepijplijn.",
+        "Van kop naar vriendelijke /url/, volledig gedaan zonder de browser te verlaten."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Welke tekens worden verwijderd bij het maken van een slug?",
+      "a": "Interpunctie, aanhalingstekens en symbolen worden verwijderd of vervangen door veilige scheidingstekens, en letters met accenten worden getranslitereerd naar URL-veilige letters."
+    },
+    {
+      "q": "Kan ik streepjes of underscores als scheidingstekens kiezen?",
+      "a": "Ja. De stijl van het scheidingsteken en de case-opties laten je exact aansluiten bij de slug-conventies van je CMS of framework."
+    },
+    {
+      "q": "Is de slug-generator privé?",
+      "a": "Ja. De conversie draait volledig in je browser, zonder uploads, zonder accounts en zonder server-side verwerking."
+    },
+    {
+      "q": "Kan ik dezelfde slug in verschillende CMS-platforms gebruiken?",
+      "a": "Ja. De gegenereerde slug is een standaard URL-veilige string, dus hij werkt in WordPress, Shopify, Hugo en de meeste andere publicatiesystemen zonder aanpassing."
+    }
+  ]
+}

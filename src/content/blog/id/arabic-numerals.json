@@ -1,0 +1,108 @@
+{
+  "slug": "arabic-numerals",
+  "title": "Konverter Angka Arab: Konversi Antara Angka Arab Timur dan Digit Barat Secara Online Gratis",
+  "description": "Konverter gratis untuk berpindah antara angka Arab Timur (٠١٢) dan digit Barat (0123) secara instan di browser Anda. Privat, tanpa unggahan.",
+  "keywords": ["konverter angka arab", "angka arab timur", "angka arab india", "konversi digit arab", "٠١٢٣ ke 0123", "konverter angka arab online", "digit timur ke barat"],
+  "readingTime": 5,
+  "sections": [
+    {
+      "heading": "Dua Sistem Penomoran, Satu Keluarga",
+      "paragraphs": [
+        "Sebagian besar dunia Arab menulis ٠١٢٣٤٥٦٧٨٩ sementara platform digital mengharapkan 0-9. [arabic-numerals:Mengonversi angka Arab dan digit Barat] menyatukan keduanya di kedua arah secara instan.",
+        "Digit yang benar dalam konteks yang tepat mencegah ketidakcocokan yang mahal.",
+        "ChooseTools mengonversi angka secara lokal di browser Anda."
+      ]
+    },
+    {
+      "heading": "Cara Mengonversi Angka Arab",
+      "paragraphs": [
+        "Satu arah atau lainnya, dalam satu langkah:",
+        "Tempel angka dalam bentuk Arab Timur untuk menerima digit Barat, atau tempel digit Barat untuk mendapatkan padanan Arab-India. Teks campuran terkonversi secara utuh, sehingga Anda dapat menempelkan seluruh paragraf yang memuat aksara Arab dan angka tanpa khawatir harus memisahkannya secara manual.",
+        "Konversi berjalan sepenuhnya di perangkat Anda, yang berarti tidak ada latensi bolak-balik dan tidak ada ketergantungan pada ketersediaan server. Anda dapat mengonversi angka bahkan saat offline, selama halaman telah dimuat di browser Anda."
+      ]
+    },
+    {
+      "heading": "Angka Arab Timur vs. Digit Barat",
+      "paragraphs": [
+        "Angka Arab Timur (٠١٢٣…) berbeda; desimal dan pengelompokan diterjemahkan secara langsung. Digit untuk nol terlihat seperti titik, sementara digit lainnya memiliki bentuk yang sepenuhnya berbeda dari padanan Baratnya, membuat kebingungan mudah terjadi jika Anda tidak memperhatikan.",
+        "Angka yang tertanam dalam kalimat diperbarui bersamaan, sehingga label harga yang terbaca ١٥٠٠٠ ر.س menjadi 15000 SAR tanpa mengganggu singkatan mata uang atau teks di sekitarnya. Ini mempertahankan konteks semantik yang diandalkan pembaca.",
+        "Output yang sadar konteks mempertahankan teks Arab di sekitarnya, memastikan harakat, tanda baca, dan pemformatan khusus aksara tetap utuh. Konverter berfokus semata-mata pada karakter digit, membiarkan yang lainnya tidak tersentuh."
+      ]
+    },
+    {
+      "heading": "Kasus Penggunaan Dunia Nyata untuk Konversi Digit",
+      "paragraphs": [
+        "Laporan keuangan yang diekspor dari sistem perbankan regional sering memuat digit Arab-India yang tidak dapat diurai spreadsheet internasional. Mengonversi angka-angka itu menjadi digit Barat memungkinkan rumus standar dan tabel pivot memproses data dengan benar. Akuntan dan auditor menghemat berjam-jam entri ulang manual dengan menempelkan seluruh kolom angka ke konverter sekaligus.",
+        "Formulir pemerintah dan keluaran registri sipil di banyak negara Timur Tengah menyajikan tanggal lahir, nomor identitas, dan alamat menggunakan digit Arab Timur. Mengirimkan nomor yang sama ke portal daring yang mengharapkan digit Barat memerlukan konversi, dan melakukannya secara manual mengundang kesalahan transkripsi. Satu langkah tempel-dan-konversi menghilangkan risiko tersebut.",
+        "Materi pendidikan kadang mengajarkan kedua sistem secara berdampingan, dan siswa perlu memverifikasi konversi mereka. Alat ini bertindak sebagai kunci jawaban cepat, mengonfirmasi bahwa pekerjaan manual siswa cocok dengan output yang benar. Guru dapat menyiapkan lembar jawaban lebih cepat dengan mengonversi seluruh set soal secara massal.",
+        "Wisatawan yang menavigasi sistem tiket, pemesanan hotel, dan konfirmasi penerbangan di negara berbahasa Arab sering menjumpai set digit campuran pada kuitansi dan itinerary. Mengonversi teks dokumen penuh memastikan setiap nomor referensi, tanggal, dan jumlah sejalan dengan apa yang diharapkan maskapai atau hotel saat tiba."
+      ]
+    },
+    {
+      "heading": "Kasus Tepi dan Detail Pemformatan",
+      "paragraphs": [
+        "Konverter menangani pemisah desimal dan simbol pengelompokan ribuan secara konsisten, sehingga angka seperti ١٬٢٣٤٫٥٦ menjadi 1,234.56 tanpa kehilangan presisi. Tanda negatif, simbol mata uang, dan penanda persentase melewati tanpa perubahan, mempertahankan makna semantik setiap angka.",
+        "Angka yang sangat besar, termasuk yang ditemukan dalam anggaran negara atau kumpulan data statistik, terkonversi tanpa pemotongan atau pembulatan. Setiap digit terpetakan satu-ke-satu, sehingga tidak ada informasi yang hilang berapa pun besarnya. Alat tidak memberlakukan batas atas apa pun pada panjang string input.",
+        "Konten campuran yang menjalin aksara Arab dengan angka dan tanda baca terkonversi dengan bersih. Teks di sekitarnya tidak pernah diubah; hanya karakter digit yang berubah bentuk. Ini berarti seluruh paragraf, faktur, atau isi artikel dapat ditempel tanpa prapemrosesan."
+      ]
+    },
+    {
+      "heading": "Kesalahan Umum dan Cara Menghindarinya",
+      "paragraphs": [
+        "Salah satu kesalahan yang sering terjadi adalah mengacaukan angka Arab Timur dengan angka Arab standar yang digunakan di Barat, yang sebenarnya berasal dari India meskipun namanya demikian. Konverter memperjelas perbedaan ini dengan memperlakukan setiap set sebagai pemetaan karakter terpisah, sehingga Anda selalu mendapatkan output yang dimaksud.",
+        "Kesalahan lain adalah mengira bahwa teks Arab dengan angka tersemat akan rusak jika dijalankan melalui konverter. Kenyataannya, alat ini sadar konteks dan membiarkan karakter non-digit sepenuhnya tidak tersentuh. Anda dapat menempelkan kalimat penuh, paragraf, atau bahkan data multi-kolom tanpa prapemrosesan.",
+        "Orang kadang lupa bahwa nol di depan penting dalam nomor identifikasi, nomor telepon, dan kode akun. Konverter mempertahankan setiap digit, termasuk nol di depan, sehingga output tetap merupakan representasi setia dari input asli."
+      ]
+    },
+    {
+      "heading": "Setia di Kedua Arah",
+      "paragraphs": [
+        "Perjalanan pulang-pergi mengembalikan nilai identik, mempertahankan setiap digit.",
+        "Angka besar terkonversi tanpa kesalahan panjang.",
+        "Akurasi bertahan pada magnitudo apa pun."
+      ]
+    },
+    {
+      "heading": "Catatan Privasi dan Kompatibilitas",
+      "paragraphs": [
+        "Karena konversi terjadi sepenuhnya di browser, tidak ada data yang dikirimkan ke server mana pun. Ini penting terutama ketika angka berasal dari catatan penggajian, berkas pajak, atau dokumen medis yang membawa informasi identitas pribadi. Alat tidak pernah menyimpan, mencatat, atau meng-cache input apa pun.",
+        "Konverter bekerja di semua browser modern, termasuk Safari seluler dan Chrome di Android. Tidak ada instalasi, tidak ada plug-in, dan tidak ada persyaratan akun, sehingga alat dapat diakses dari perangkat mana pun dengan koneksi web. Pembaruan pada tabel pemetaan yang mendasarinya terjadi di sisi server dan berlaku seketika saat halaman dimuat.",
+        "Bagi tim yang perlu mengintegrasikan konversi digit ke dalam pipeline otomatis, logika pemetaan yang sama dapat direplikasi dalam skrip sisi server. Namun, alat daring ini dirancang untuk konversi ad-hoc satu kali yang lebih mengutamakan kecepatan dan privasi daripada pemrosesan batch."
+      ]
+    },
+    {
+      "heading": "Pekerjaan Digit yang Privat",
+      "paragraphs": [
+        "Dokumen dan kumpulan data dengan angka dikonversi secara lokal.",
+        "Tanpa unggahan, tanpa akun, tanpa tanda air — lintas platform.",
+        "Angka tidak pernah meninggalkan mesin Anda."
+      ]
+    },
+    {
+      "heading": "Angka dalam Perangkat Arab",
+      "paragraphs": [
+        "Padukan dengan [hijri-gregorian:konversi tanggal], [tafqit:penyebut angka], dan [remove-tashkeel:pembersihan teks] untuk penanganan Arab yang lengkap.",
+        "Suite ini gratis dan berbasis browser.",
+        "Setiap digit, dalam aksara yang tepat, secara instan."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Arah mana saja yang didukung?",
+      "a": "Keduanya: angka Arab Timur ke digit Barat dan digit Barat ke angka Arab Timur, dalam arah yang dapat dipilih."
+    },
+    {
+      "q": "Apakah ia menangani teks campuran yang memuat angka?",
+      "a": "Ya. Angka terkonversi di tempat di dalam aksara Arab di sekitarnya tanpa mengganggu karakter lainnya."
+    },
+    {
+      "q": "Apakah konverter ini privat?",
+      "a": "Ya. Semuanya berjalan secara lokal di browser Anda tanpa unggahan atau akun."
+    },
+    {
+      "q": "Bisakah saya mengonversi seluruh dokumen sekaligus?",
+      "a": "Ya. Tempel paragraf penuh, faktur, atau spreadsheet dan setiap digit terkonversi dalam satu lintasan sementara teks di sekitarnya tetap tidak tersentuh."
+    }
+  ]
+}

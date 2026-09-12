@@ -1,0 +1,109 @@
+{
+  "slug": "morse-code",
+  "title": "Traducteur de code Morse : Convertir du texte en Morse et inversement, en ligne et gratuitement",
+  "description": "Traducteur de code Morse gratuit pour encoder du texte en code Morse et décoder le Morse en lettres. Privé, instantané, dans votre navigateur, sans envoi de données.",
+  "keywords": ["code Morse", "traducteur code Morse", "texte en Morse", "Morse en texte", "convertisseur code Morse", "traduire code Morse", "code Morse en ligne"],
+  "readingTime": 6,
+  "sections": [
+    {
+      "heading": "Les points et les tirets parlent encore",
+      "paragraphs": [
+        "Bien avant la radio et Internet, le code Morse transmettait des messages avec un alphabet trompeusement simple de points, de tirets et de pauses. [morse-code:Traduire du texte en code Morse] maintient ce format historique utilisable aujourd'hui — et déchiffrable à nouveau.",
+        "Les deux directions rendent une vraie communication possible.",
+        "ChooseTools traduit le Morse localement dans votre navigateur."
+      ]
+    },
+    {
+      "heading": "Comment traduire du texte en code Morse",
+      "paragraphs": [
+        "Signalement bidirectionnel en quelques secondes :",
+        "Saisissez du texte pour l'encoder en points et tirets, ou collez des points et tirets pour les décoder en lettres. Copiez l'un ou l'autre format ou écoutez si l'audio est pris en charge.",
+        "La traduction s'entièrement sur votre appareil."
+      ]
+    },
+    {
+      "heading": "L'alphabet standard",
+      "paragraphs": [
+        "Chaque lettre correspond à un motif fixe de points et tirets, de A (·−) à Z (−−··).",
+        "Les chiffres et la ponctuation sont inclus pour une messagerie complète.",
+        "Le tableau classique devient immédiatement exploitable."
+      ]
+    },
+    {
+      "heading": "Le code Morse dans les contextes modernes",
+      "paragraphs": [
+        "Le code Morse reste une compétence pratique en radio amateur, où les opérateurs l'utilisent pour communiquer sur de longues distances avec une puissance minimale. Les clubs de radio du monde entier organisent encore des concours et des sessions d'entraînement en Morse, et de nombreux opérateurs constatent que le code voyage plus loin et plus clairement que la voix sur les bandes encombrées. Apprendre le Morse grâce au traducteur vous offre un moyen concret de développer cette compétence sans acheter de matériel spécialisé.",
+        "Le signalement d'urgence est un autre domaine où le Morse conserve sa valeur. Trois signaux brefs suivis de trois signaux longs et trois brefs (SOS) sont universellement reconnus, et le motif peut être tapoté sur n'importe quelle surface ou clignoté avec une lumière. Le traducteur vous aide à intérioriser le rythme afin que le signal devienne un réflexe musculaire plutôt qu'une abstraction mémorisée.",
+        "Artistes et designers utilisent occasionnellement des motifs Morse comme éléments décoratifs dans les bijoux, les tatouages et les mises en page graphiques. Encoder un nom ou une date en points et tirets crée un chiffre personnel à la fois visuellement intéressant et intellectuellement significatif. Le traducteur fournit la séquence exacte pour que votre design soit précis.",
+        "Les joueurs et les amateurs d'énigmes rencontrent le Morse dans les escape rooms, les easter eggs de jeux vidéo et les récits ARG. Déchiffrer un message à l'écran rapidement peut faire la différence entre avancer au niveau suivant et rester bloqué. Avoir le traducteur ouvert sur un second appareil transforme un goulot d'étranglement potentiel en une résolution rapide."
+      ]
+    },
+    {
+      "heading": "Les pauses structurent le message",
+      "paragraphs": [
+        "L'espacement entre les lettres et les mots porte un sens, et le traducteur gère les séparateurs avec précision.",
+        "Des pauses correctes garantissent une sortie acceptée par tout lecteur fluent.",
+        "Structure et signal vont de pair."
+      ]
+    },
+    {
+      "heading": "Apprentissage, entraînement et mémorisation",
+      "paragraphs": [
+        "S'entraîner avec les sorties traduites développe le réflexe nécessaire à l'utilisation du Morse. Commencez par encoder de courts mots et expressions, puis augmentez progressivement la longueur à mesure que votre reconnaissance des motifs s'améliore. La boucle de rétroaction instantanée entre la saisie du texte et l'affichage de l'équivalent en points et tirets accélère l'apprentissage par rapport aux cartes mémoire statiques.",
+        "Les clubs, les classes et les radioamateurs affinent leurs compétences réelles en échangeant des messages en Morse. Le traducteur vous permet de préparer des messages à l'avance et de vérifier votre décodage des signaux reçus, ce qui en fait un compagnon précieux lors des sessions d'entraînement en ondes. De nombreux opérateurs rapportent que l'utilisation régulière du traducteur a considérablement réduit leurs erreurs de chronométrage Farnsworth.",
+        "L'outil rend l'étude interactive plutôt que mécanique. Au lieu de mémoriser la table des codes isolément, vous pouvez saisir des phrases qui vous sont personnelles, les traduire, puis pratiquer l'envoi ou la lecture du résultat. La pertinence personnelle renforce la rétention mnésique de manière que les séquences arbitraires ne peuvent égaler."
+      ]
+    },
+    {
+      "heading": "Considérations avancées d'encodage",
+      "paragraphs": [
+        "Le traducteur respecte la norme internationale du code Morse, qui définit non seulement les motifs de points et tirets mais aussi les relations temporelles entre les éléments. Un tiret est trois fois la longueur d'un point, l'espace entre les éléments d'un caractère est d'une longueur de point, et l'espace entre les caractères est de trois longueurs de point. Cette précision garantit que toute personne familiarisée avec la norme peut lire votre sortie sans ambiguïté.",
+        "La gestion de la casse est importante en Morse car les lettres majuscules et minuscules produisent le même signal dans le code Morse international standard. Le traducteur normalise cela automatiquement, vous n'avez donc pas à vous soucier de la casse de votre entrée. Les chiffres, en revanche, ont des motifs distincts des lettres, et l'outil les mappe correctement.",
+        "Les caractères spéciaux comme l esperluette, l arobase et la barre oblique ont chacun des représentations Morse convenues. Si votre texte contient ces symboles, le traducteur les inclut dans la sortie au lieu de les supprimer silencieusement. Cette exhaustivité est essentielle pour les messages techniques et la transmission d'URL.",
+        "Lors du décodage, le traducteur tolère de légères variations de longueur de séparateur, ce qui est utile pour du Morse tapé manuellement qui ne suit peut-être pas parfaitement les règles de timing. Cela rend la fonction de décodage indulgente pour les apprenants tout en produisant des résultats précis pour les entrées fidèles."
+      ]
+    },
+    {
+      "heading": "Mise en forme et considérations de plateforme",
+      "paragraphs": [
+        "Le traducteur présente le Morse en utilisant des caractères Unicode standards pour les points et tirets, qui s'affichent correctement sur pratiquement tous les appareils et systèmes d'exploitation modernes. Si vous devez coller la sortie dans un système ne prenant pas en charge l'Unicode, vous pouvez substituer manuellement des points et des tirets après avoir copié le résultat. Le traducteur maintient le motif intact quel que soit le jeu de caractères utilisé pour le représenter.",
+        "La longueur des lignes compte lors de la transmission du Morse sur des canaux étroits comme la messagerie instantanée ou les terminaux radio anciens. Le traducteur préserve le retour à la ligne naturellement car il représente les espaces entre les mots, de sorte que la sortie collée se découpe proprement à des largeurs de ligne raisonnables. Cela évite la nécessité de reformatage de messages longs avant envoi.",
+        "Lors du partage du texte décodé, le traducteur produit des lettres et chiffres ASCII purs sans mise en forme cachée, variantes Unicode spéciales ou caractères invisibles. Cela signifie que le résultat décodé se colle proprement dans les e-mails, documents et éditeurs de code sans introduire des artefacts d'encodage qui pourraient perturber les systèmes en aval."
+      ]
+    },
+    {
+      "heading": "Formats authentiques, confidentialité numérique",
+      "paragraphs": [
+        "Les messages d'entraînement personnel sont traduits localement.",
+        "Pas d'envoi, pas de compte, pas de filigrane — sur toutes les plateformes.",
+        "Signaler, sans surveillance."
+      ]
+    },
+    {
+      "heading": "Le Morse dans la boîte à outils de traduction",
+      "paragraphs": [
+        "Combiné avec [binary-text:binaire], [number-base:systèmes de base] et [reverse-text:inversions] pour une suite complète et ludique.",
+        "Tout est gratuit et nativement navigable.",
+        "Des points et tirets à des phrases complètes, instantanément."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Le traducteur peut-il décoder le Morse en texte ?",
+      "a": "Oui. Les points, tirets et séparateurs standards sont traduits en lettres et chiffres."
+    },
+    {
+      "q": "Les chiffres et la ponctuation sont-ils pris en charge ?",
+      "a": "Oui. Les numéros et la ponctuation courante ont des équivalents Morse et se convertissent dans les deux sens."
+    },
+    {
+      "q": "La traduction est-elle privée ?",
+      "a": "Oui. Tout s'exécute localement dans votre navigateur sans envoi de données ni compte."
+    },
+    {
+      "q": "L'outil suit-il la norme internationale du code Morse ?",
+      "a": "Oui. Le traducteur utilise les motifs et le timing de la norme UIT, de sorte que la sortie est lisible par toute personne formée au code Morse international."
+    }
+  ]
+}

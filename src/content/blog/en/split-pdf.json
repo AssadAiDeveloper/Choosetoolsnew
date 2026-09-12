@@ -1,0 +1,70 @@
+{
+  "slug": "split-pdf",
+  "title": "How to Split PDF Pages Online Free: Extract Pages From a PDF Without Uploading",
+  "description": "Split PDF pages online free with ChooseTools. Divide one large PDF into several smaller files, extract single pages or ranges, right in your browser with complete privacy.",
+  "keywords": ["split pdf online free", "divide pdf into pages", "extract pages from pdf", "split pdf file", "separate pdf pages", "pdf splitter tool", "split pdf without uploading"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "When Splitting a PDF Becomes a Daily Necessity",
+      "paragraphs": [
+        "A single PDF rarely stays a single PDF forever. You might need to split PDF pages for filing systems, send one chapter to a collaborator who only needs ten pages, or divide a 300-page manual into installable sub-documents. Manual copying and pasting in desktop editors is slow and error-prone; a dedicated [split-pdf:split PDF online free] tool does the job in seconds.",
+        "Most split PDF tools on the web force your document into their cloud, then keep copies in their storage for analytics. That is a real problem for contracts, medical records and financial statements. ChooseTools builds the splitter on PDF.js so your file is read and divided entirely in your browser. No upload, no queue, no leftover copies on a server you do not control.",
+        "Because the tool is free with no ads and no watermarks, splitting hundreds of pages costs nothing and never interrupts your workflow. The output files are byte-precise slices of the original, preserving text, images, links and embedded fonts."
+      ]
+    },
+    {
+      "heading": "How to Split a PDF Into Separate Files, Step by Step",
+      "paragraphs": [
+        "Using the PDF splitter takes three short steps and works for anyone regardless of technical skill.",
+        "Open the tool, drag your PDF into the drop area or choose it from disk. The document is parsed locally, giving you a page-by-page preview inside the browser. Next, choose one of the splitting modes: extract a single page, extract a range, or split every N pages into its own file. Finally, hit the split button and download each resulting PDF individually.",
+        "The whole process happens at the speed of your machine because there is no round trip to a server. Splitting a 500-page PDF is limited only by your computer's memory, which makes this one of the most practical free PDF page splitters available online today."
+      ]
+    },
+    {
+      "heading": "Extract Single Pages or Page Ranges Precisely",
+      "paragraphs": [
+        "Sometimes you need just one page — the signature page of a lease, the certificate at the back of a proposal, or the cover that your client requested separately. The extract single page mode lets you click the exact page and export it on its own.",
+        "Page ranges are equally simple. Need pages 5 through 12 from a 40-page deck? Enter \"5-12\" and the tool produces a compact PDF with precisely those pages, leaving the rest of the source file untouched. This is far more accurate than screen-capturing pages or rebuilding the PDF in a word processor.",
+        "Combined with [extract-pdf-pages:extract PDF pages] workflows, splitting gives you complete control: take the exact range you need, then join it with other extracted sections using the [merge-pdf:merge PDF] tool to assemble a bespoke document."
+      ]
+    },
+    {
+      "heading": "Split Every Page or Use an Interval for Batch Work",
+      "paragraphs": [
+        "For long documents the interval mode is a lifesaver. Set an interval of \"1\" and every page becomes its own file — ideal when each page of a stack of invoices needs to be emailed or archived separately.",
+        "Choose a larger interval, such as \"10\", to divide a manual into ten-page chapters automatically. The splitter numbers the outputs sequentially so you can reconstruct the original order anytime by running the files back through a PDF merger.",
+        "No desktop software can be genuinely portable here: this splitter runs on Windows, macOS, Linux and mobile browsers alike, which is why teams in different countries can standardize on one free PDF splitter tool rather than per-platform licenses."
+      ]
+    },
+    {
+      "heading": "Privacy-First Splitting: Files Never Leave Your Device",
+      "paragraphs": [
+        "The single most important guarantee of this PDF splitter is that your document never reaches a third-party server. Every page is extracted in your browser's memory with open-source PDF.js technology.",
+        "This matters for anyone handling regulated or confidential data: legal teams splitting discovery documents, HR splitting payslips, accountants dividing tax records. With local processing, the term \"data breach\" simply does not apply, because there is no external data at all.",
+        "You receive exactly what you split: clean, unwatermarked PDFs identical in quality to the source. Compare that with online competitors whose free tier adds their brand to every output unless you subscribe."
+      ]
+    },
+    {
+      "heading": "Common Questions About Splitting PDFs",
+      "paragraphs": [
+        "Can I split a PDF without installing software? Yes — everything runs in the browser, so no installation is ever required. Will splitting degrade print quality? No; extracted pages keep their original vectors, embedded fonts and resolution. Which formats can I split? Any PDF, including scanned and password-protected_files once the password has been removed with [protect-pdf:PDF security] tools. Is there a page limit? There is no artificial cap; the only limit is the memory your device has available.",
+        "Do I need an account? No registration is needed at all, and no account means no cookies tracking your documents. What if my file is very large? Local processing handles even extremely large PDFs faster than any cloud service can, because you skip the upload and download steps entirely."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can the PDF splitter divide a file into individual pages automatically?",
+      "a": "Yes. Set the interval to 1 and the tool exports every page as its own PDF file, numbered in source order, ready for separate archiving or emailing."
+    },
+    {
+      "q": "Does splitting reduce file quality or recompress content?",
+      "a": "No. Each extracted page is a faithful copy of the original page with intact text, images, vector graphics, hyperlinks and fonts. Quality is preserved exactly."
+    },
+    {
+      "q": "Is it safe to split confidential PDF documents here?",
+      "a": "Absolutely. All processing occurs locally in your browser with PDF.js. Your files are never uploaded, stored or analyzed on any server, which makes it safe for NDAs, medical and legal documents."
+    }
+  ]
+}

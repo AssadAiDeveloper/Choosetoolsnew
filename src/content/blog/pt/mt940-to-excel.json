@@ -1,0 +1,115 @@
+{
+  "slug": "mt940-to-excel",
+  "title": "MT940 para Excel: Converta Extratos Bancários MT940 para XLSX Online Grátis",
+  "description": "Conversor gratuito de MT940 para Excel para analisar ficheiros MT940 de extratos bancários em folhas de cálculo estruturadas e filtráveis. Privado, no seu navegador, sem uploads.",
+  "keywords": ["mt940 para excel", "conversor de mt940", "extrato mt940 para excel", "analisar mt940", "extrato bancário para xlsx", "mt940 para csv", "ficheiro mt940 para folha de cálculo"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Os Extratos Bancários Têm a Sua Própria Linguagem",
+      "paragraphs": [
+        "O MT940 é o formato internacional SWIFT que os bancos usam para extratos de conta — linhas de tags codificadas que são precisas mas ilegíveis. A [mt940-to-excel:Conversão de MT940 para Excel] traduz esses códigos numa folha de cálculo que qualquer contabilista consegue ler.",
+        "Cada transação chega com data, montante e referência intactos, preservando exatamente os dados que o banco registou.",
+        "A ChooseTools analisa MT940 localmente no seu navegador, sem que nenhum dado saia do seu dispositivo."
+      ]
+    },
+    {
+      "heading": "Como Converter MT940 para Excel",
+      "paragraphs": [
+        "De ficheiro codificado a tabela familiar:",
+        "Cole o texto MT940 ou carregue o ficheiro e converta. Os blocos de transações desdobram-se em linhas com datas, montantes, saldos e descrições em colunas claramente rotuladas.",
+        "A análise é executada no seu dispositivo — os extratos permanecem privados durante todo o processo de conversão."
+      ]
+    },
+    {
+      "heading": "Tags Codificadas Tornam-se Colunas Significativas",
+      "paragraphs": [
+        "As tags como saldo de abertura, saldo de fecho e detalhes de transações mapeiam para colunas nomeadas que as equipas financeiras reconhecem instantaneamente.",
+        "Os débitos e créditos separam-se claramente para reconciliação, com cada linha a indicar direção e montante.",
+        "Os auditores ganham linhas em vez de uma parede de códigos, tornando as verificações manuais por amostragem simples e eficientes."
+      ]
+    },
+    {
+      "heading": "Compreender em Detalhe a Estrutura de Tags MT940",
+      "paragraphs": [
+        "A tag :20 transporta o número de referência do extrato, um identificador único que o banco atribui a este extrato em particular. Ao reconciliar vários meses, esta referência ajuda-o a associar cada folha de cálculo de volta ao período e ao ficheiro de origem do extrato.",
+        "As tags de saldo :60M e :62M delimitam cada extrato com saldos de abertura e de fecho. Cada linha de saldo inclui um indicador de crédito ou débito, uma data no formato AAMMDD, um código de moeda e o montante. Estas cifras de fecho permitem ao software de reconciliação verificar que nenhuma transação se perdeu entre períodos.",
+        "As linhas de transação em :61 transportam uma estrutura compacta: data, data-valor, marcador de crédito ou débito, montante, tipo de transação e códigos de referência. A tag :86 que segue cada :61 fornece a narrativa legível, onde costumam aparecer comissões bancárias, referências de transferências e números de faturas."
+      ]
+    },
+    {
+      "heading": "Reconciliação Sem o Trabalho Repetitivo",
+      "paragraphs": [
+        "As folhas de cálculo permitem filtros, totais e vistas de tabela dinâmica sobre qualquer intervalo de datas ou montantes com a funcionalidade familiar do Excel.",
+        "Associe linhas bancárias a registos internos de forma rápida e confiante usando VLOOKUP ou formatação condicional.",
+        "O extrato deixa de ser um ficheiro estático e torna-se uma tabela de trabalho que suporta análise e relatórios."
+      ]
+    },
+    {
+      "heading": "Tratamento de Vários Extratos e Tipos de Conta",
+      "paragraphs": [
+        "Um único ficheiro MT940 pode conter extratos de várias contas ou vários períodos para uma conta. O conversor separa cada bloco de extrato para que obtenha folhas distintas ou secções claramente rotuladas, impedindo que dados de contas diferentes se fundam numa única tabela ambígua.",
+        "Os identificadores de conta na tag :25 distinguem entre contas à ordem, contas poupança e participações em moeda estrangeira. Manter estes rótulos na folha de cálculo significa que as equipas financeiras podem filtrar por tipo de conta sem ordenar manualmente uma lista combinada.",
+        "As sequências de referência de extratos ajudam a identificar a ordem cronológica quando vários ficheiros chegam ao longo de um ano fiscal. Preservar estas referências na folha de cálculo dá aos auditores um rasto fiável do extrato mais antigo ao mais recente, sem adivinhação."
+      ]
+    },
+    {
+      "heading": "Da Folha de Cálculo ao Software de Contabilidade",
+      "paragraphs": [
+        "Assim que os dados MT940 estão no Excel, importe-os para plataformas de contabilidade através das suas funcionalidades de upload CSV ou Excel. A maioria das ferramentas populares aceita dados tabulares com cabeçalhos de coluna padrão, pelo que a folha analisada encaixa diretamente nos fluxos de trabalho de contabilidade.",
+        "As tabelas dinâmicas resumem gastos por categoria, intervalo de datas ou contraparte em segundos. Os contabilistas ganham visibilidade imediata sobre padrões de fluxo de caixa que levariam horas a montar a partir do texto MT940 em bruto.",
+        "A formatação condicional destaca transações invulgarmente grandes, entradas duplicadas ou datas que caem fora dos intervalos esperados. Estes sinalizadores visuais revelam anomalias cedo, antes de se propagarem pelos processos de fecho mensal."
+      ]
+    },
+    {
+      "heading": "Analisado Localmente, Fiscalmente Seguro",
+      "paragraphs": [
+        "Os dados bancários estão entre os materiais mais sensíveis que uma empresa detém, contendo números de conta, saldos e históricos de transações.",
+        "A conversão local significa que os extratos nunca viajam para um terceiro nem passam por servidores de processamento externos.",
+        "Privacidade por construção, não por promessa, com toda a análise a ocorrer na sessão do seu navegador."
+      ]
+    },
+    {
+      "heading": "Erros Reduzidos, Formatos Preservados",
+      "paragraphs": [
+        "A extração automatizada remove os erros de digitação que a reintrodução manual introduz em dezenas ou centenas de linhas de transações.",
+        "Montantes e assinaturas permanecem exatos durante toda a conversão, sem arredondamentos nem truncaturas de valores decimais.",
+        "Fidelidade de nível financeiro de ficheiro para folha, pronta para revisão de auditoria e conformidade."
+      ]
+    },
+    {
+      "heading": "MT940 no Kit de Ferramentas Financeiro",
+      "paragraphs": [
+        "Inverta com [excel-to-mt940:Excel para MT940], reutilize linhas com [excel-to-csv:Excel para CSV] e arquive com [pdf-to-text:PDFs extraíveis] para um fluxo de trabalho documental completo.",
+        "A suite é gratuita e nativa do navegador, sem exigir instalação ou subscrição.",
+        "Extratos codificados, descodificados em clareza para todas as equipas financeiras."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "O que é um ficheiro MT940?",
+      "a": "É um formato de texto padrão SWIFT que os bancos usam para entregar extratos de conta com tags de transação estruturadas."
+    },
+    {
+      "q": "O que aparece na folha de cálculo gerada?",
+      "a": "Cada transação torna-se uma linha com campos de data, montante, indicação de débito ou crédito, saldo e descrição."
+    },
+    {
+      "q": "A análise é privada?",
+      "a": "Sim. Tudo é executado localmente no seu navegador, sem uploads nem contas."
+    },
+    {
+      "q": "Posso tratar extratos de várias contas num único ficheiro?",
+      "a": "Sim. O conversor separa cada conta e período de extrato em secções distintas para que os dados não se misturem entre contas."
+    },
+    {
+      "q": "Como uso os dados analisados no software de contabilidade?",
+      "a": "Exporte a folha de cálculo como CSV e carregue-a na sua plataforma de contabilidade, ou cole os dados diretamente em modelos e tabelas dinâmicas existentes."
+    },
+    {
+      "q": "O analisador tratará ficheiros MT940 grandes com milhares de transações?",
+      "a": "Sim. O conversor processa ficheiros de qualquer tamanho inteiramente no seu navegador, sem limites do lado do servidor quanto ao número de transações."
+    }
+  ]
+}

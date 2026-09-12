@@ -1,0 +1,100 @@
+{
+  "slug": "pixelate-image",
+  "title": "How to Pixelate an Image Online Free: Censor With Pixel Blocks",
+  "description": "Pixelate an image online free with ChooseTools. Block out faces, numbers and sensitive areas with clean pixelation, right in your browser, with full privacy and no watermark.",
+  "keywords": ["pixelate image", "pixelate part of image", "mosaic image online", "pixelate face", "censor image online free", "pixel blur photo", "pixelate a photo"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Pixelation Is Censorship That Stays Honest",
+      "paragraphs": [
+        "Sometimes a soft blur isn't enough and a deliberate mosaic is exactly right: pixelation clearly says \"obscured on purpose\" while keeping the image's graphic identity. [pixelate-image:Pixelating images] is the classic way to hide a face, a number or a logo.",
+        "Newsrooms, police releases, marketplaces and school communications all rely on the mosaic look.",
+        "ChooseTools pixelates regions of images locally in your browser with block-size control over the effect.",
+        "The result is a file that follows the spirit of privacy law and editorial guidance without ever losing the context a photo carries."
+      ]
+    },
+    {
+      "heading": "How the Mosaic Effect Is Built",
+      "paragraphs": [
+        "Pixelation works by dividing a selected area into a grid of blocks and replacing each block with a single average color from the pixels beneath it.",
+        "A coarse grid produces the heavy, unmistakable mosaic of classic censorship; a fine grid yields a grainy texture that only softens the detail.",
+        "Because the math is simple and local, the operation is instant even on high-resolution photos, and you can preview the result before committing to it.",
+        "Adjusting the block size after the selection costs nothing, so fine-tuning to the point of the image is practical rather than tedious."
+      ]
+    },
+    {
+      "heading": "How to Pixelate a Region of an Image",
+      "paragraphs": [
+        "Censor with style and precision:",
+        "Upload the image and select the area to mask; adjust block size from a subtle grain to a heavy mosaic. Preview to confirm the content is fully hidden, then download.",
+        "Everything happens locally, so no one sees what you chose to hide or where.",
+        "Re-selecting a region is as easy as drawing the rectangle again, giving you total control over the final look before the file leaves your device."
+      ]
+    },
+    {
+      "heading": "Mosaic Censorship for Public Imagery",
+      "paragraphs": [
+        "Broadcasting a crowd photo: mosaic the bystanders. Publishing a crime scene: mask identifiers. Selling a used car: block the plates.",
+        "The heavy mosaic look is unambiguous and timeless across print and screens.",
+        "Censoring never wipes the whole photo — only the parts the law or decency requires.",
+        "This surgical approach keeps the image useful for reporting, listings and announcements while protecting every person or detail it should not reveal."
+      ]
+    },
+    {
+      "heading": "Control the Blockiness for the Right Visual",
+      "paragraphs": [
+        "Small blocks read as \"grainy detail\", large blocks as unmistakable censorship.",
+        "Matching the block size to how much must be hidden keeps the result proportionate.",
+        "The effect stays locally editable until precisely right.",
+        "For faces, a medium-to-large block hides identity clearly; for license plates and numbers, a tighter block preserves recognizability of the rest of the frame.",
+        "Because the mosaic is reconstructed from the image itself, the masked area blends naturally with the surrounding pixels rather than looking like a pasted patch — the effect stays professional in print, online and on social feeds."
+      ]
+    },
+    {
+      "heading": "Blur or Mosaic: Choosing the Right Mask",
+      "paragraphs": [
+        "Blur softens pixels into a smooth smudge that can sometimes be partially reconstructed or visually distracting at large areas.",
+        "Pixelation breaks the region into crisp blocks that permanently remove readable detail, which is why editorial and legal workflows prefer it.",
+        "Where a preview needs to stay pleasant to the eye, a light mosaic reads cleaner than a heavy Gaussian smear.",
+        "Select the mask style that matches the story the photo must still tell after the sensitive parts disappear."
+      ]
+    },
+    {
+      "heading": "Private Censoring of Sensitive Files",
+      "paragraphs": [
+        "Images that need mosaic treatment frequently contain exactly the content that should not travel. Local processing keeps them here.",
+        "No upload, no watermark, no account — on every OS and phone.",
+        "Your decisions about public visibility happen entirely in your hands.",
+        "Whether the file is a legal exhibit, a child's school photo or an unreleased product shot, nothing about it is ever transmitted while you prepare it for sharing."
+      ]
+    },
+    {
+      "heading": "Pixelate and Share With Care",
+      "paragraphs": [
+        "Pair the mask with [remove-exif:metadata removal] so the tile of the file never leaks other details.",
+        "The suite stays free, browser-native and private.",
+        "Censor precisely, share confidently.",
+        "Once the region is masked and the metadata is stripped, the image is ready for newspapers, marketplaces or social feeds without worrying about embedded surprises."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I control the size of the pixel blocks?",
+      "a": "Yes. Adjust the block size along with the masked region to fine-tune how dense or coarse the mosaic appears."
+    },
+    {
+      "q": "Can I pixelate multiple areas at once?",
+      "a": "Yes. Any number of regions can be masked on the same image before export."
+    },
+    {
+      "q": "Is pixelation private and free?",
+      "a": "Yes. It runs entirely in your browser with no uploads, watermarks or accounts."
+    },
+    {
+      "q": "Why choose pixelation over blur for sensitive content?",
+      "a": "Pixelation removes readable detail with crisp, permanent blocks and is the standard the editorial and legal industries rely on for faces and identifiers."
+    }
+  ]
+}

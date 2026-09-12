@@ -1,0 +1,133 @@
+{
+  "slug": "color-picker",
+  "title": "Cómo Obtener un Color de una Imagen Online Gratis: Extrae HEX, RGB y HSL",
+  "description": "Obtén colores de una imagen online gratis con ChooseTools. Extrae valores HEX, RGB y HSL en cualquier punto de una foto, luego cópialos para tu trabajo de diseño. Privado, rápido, en tu navegador.",
+  "keywords": ["selector de color", "obtener color de imagen online", "extraer colores de imagen", "selector de color de foto", "color hex de imagen", "gotero online", "obtener rgb de imagen"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Los Diseñadores Necesitan el Color Exacto, No una Estimación",
+      "paragraphs": [
+        "Igualar una marca con exactitud, recrear una paleta a partir de una fotografía o capturar el tono de un logotipo significa leer valores de color precisos. [color-picker:Obtener colores de imágenes] ofrece a los diseñadores los números exactos de HEX, RGB y HSL detrás de lo que ven.",
+        "Es la habilidad detrás del branding consistente y las paletas cohesivas en todas partes.",
+        "ChooseTools extrae colores localmente en tu navegador: apunta a cualquier píxel y copia el valor."
+      ]
+    },
+    {
+      "heading": "Cómo Obtener un Color de una Foto",
+      "paragraphs": [
+        "De imagen a valor de código en segundos:",
+        "Sube la imagen, mueve el cursor sobre el píxel exacto y lee los valores HEX, RGB y HSL. Copia el formato que tu proyecto necesite.",
+        "Dado que el análisis es local, el zoom de alta resolución hacia los detalles es instantáneo y privado."
+      ]
+    },
+    {
+      "heading": "HEX, RGB y HSL para Cada Base de Código",
+      "paragraphs": [
+        "CSS acepta las tres notaciones, y diferentes herramientas de diseño tienen formatos predeterminados diferentes.",
+        "El selector muestra todos los formatos a la vez, por lo que el valor que necesitas está a un clic-copia de distancia.",
+        "Desde códigos hex en plugins de Figma hasta tuplas RGB en Scss, cada pipeline está cubierto."
+      ]
+    },
+    {
+      "heading": "Construye Paletas Reconocibles desde Cualquier Imagen",
+      "paragraphs": [
+        "Extrae los tonos del cielo de una foto de viaje, el color del cuero de una foto de producto, el acento del diseño de un competidor.",
+        "Registra los valores en tus tokens de diseño y construye temas que echen fielmente la foto de referencia.",
+        "La inspiración dentro de una imagen se convierte en una realidad lista para código."
+      ]
+    },
+    {
+      "heading": "Gotero Privado de Recursos de Clientes",
+      "paragraphs": [
+        "La imagen de clientes y los diseños no publicados se encuentran con el gotero localmente, por lo que nada sale del espacio de trabajo.",
+        "Sin subidas, sin marca de water, sin cuenta, en cualquier sistema operativo.",
+        "Consistencia de diseño, lograda en silencio."
+      ]
+    },
+    {
+      "heading": "El Ecosistema Completo de Color",
+      "paragraphs": [
+        "Convierte entre formatos después con [color-converter:conversores de color], o combina con herramientas de preparación de imagen como [resize-image:redimensionar].",
+        "El conjunto completo es gratuito y nativo del navegador.",
+        "Cada color que necesitas, extraído con exactitud, de cualquier imagen que poseas."
+      ]
+    },
+    {
+      "heading": "Comprendiendo los Espacios de Color y por Qué Importan",
+      "paragraphs": [
+        "HEX y RGB describen colores en el espacio de color sRGB, que es el estándar para pantallas, navegadores web y la mayoría de herramientas de diseño digital.",
+        "HSL representa el mismo color como una combinación de matiz, saturación y luminosidad, haciéndolo más intuitivo para diseñadores que piensan en términos de cómo se ve un color en lugar de cómo se codifica.",
+        "CMYK es el modelo de color utilizado en impresión, y aunque el selector no produce CMYK directamente, conocer el valor RGB te permite aproximar el resultado impreso usando fórmulas de conversión.",
+        "Comprender qué espacio de color usa tu salida objetivo previene sorpresas cuando un color que se ve perfecto en pantalla se imprime con un tono notablemente diferente."
+      ]
+    },
+    {
+      "heading": "Estrategias de Muestreo para una Extracción de Color Precisa",
+      "paragraphs": [
+        "Un solo píxel puede representar un brillo, una sombra o un artefacto de compresión en lugar del color previsto del objeto, por lo que muestrear un área pequeña y anotar el valor dominante produce resultados más fiables.",
+        "Hacer zoom en imágenes de alta resolución revela detalles finos que la visualización casual pasa por alto, especialmente en fotografías con degradados sutiles o superficies con textura.",
+        "Cuando la imagen contiene ruido o grano, hacer clic en varios píxeles cercanos y comparar sus valores te ayuda a identificar el color real en lugar de una fluctuación aleatoria.",
+        "Para imágenes con bordes antialiased, muestrear desde el centro de una región de color evita capturar píxeles de transición fusionados que no representan con precisión ninguno de los colores adyacentes."
+      ]
+    },
+    {
+      "heading": "Extracción de Paletas para Sistemas de Diseño y Tokens",
+      "paragraphs": [
+        "Los sistemas de diseño modernos definen colores como tokens semánticos que se mapean a valores HEX o RGB específicos en temas claros y oscuros.",
+        "El selector de color te permite extraer cada valor de token de una fotografía de marca, tablero de inspiración o captura de pantalla de un competidor, y luego registrarlos directamente en tu archivo de tokens de diseño.",
+        "Construir una paleta a partir de imágenes reales en lugar de adivinar produce un lenguaje visual más cohesivo que se siente fundamentado e intencional.",
+        "Una vez que los tokens están definidos, se propagan automáticamente a través de variables CSS, bibliotecas de componentes y guías de estilo, manteniendo la consistencia en todas partes donde aparezca el diseño."
+      ]
+    },
+    {
+      "heading": "Selección de Color para Cumplimiento de Accesibilidad",
+      "paragraphs": [
+        "El diseño accesible requiere un contraste suficiente entre los colores de texto y fondo, y el selector te da los valores exactos necesarios para calcular ratios de contraste.",
+        "Extraer los colores de primer plano y fondo de un boceto de diseño y verificarlos contra las directrices WCAG asegura que el producto final cumpla los estándares de accesibilidad.",
+        "Los colores que parecen distintos en un monitor grande pueden tener contraste insuficiente para usuarios con baja visión, haciendo que la verificación numérica sea esencial en lugar de opcional.",
+        "Combinar los valores extraídos con una herramienta de verificación de contraste completa el flujo de trabajo de accesibilidad desde la extracción hasta la validación."
+      ]
+    },
+    {
+      "heading": "Usando Colores Extraídos en CSS, Sass y Tailwind",
+      "paragraphs": [
+        "Los valores HEX se pegan directamente en propiedades personalizadas de CSS, mientras que los valores RGB funcionan bien en funciones que requieren canales de rojo, verde y azul separados.",
+        "Las variables de Sass aceptan cualquiera de los tres formatos, permitiéndote elegir la notación que mejor se adapte a las convenciones de tu proyecto.",
+        "Tailwind CSS usa un archivo de configuración donde los colores personalizados se definen como cadenas HEX o RGB, y los formatos de salida del selector se mapean directamente a esas definiciones.",
+        "Tener el color en la notación correcta en el momento de la extracción elimina el paso adicional de conversión que ralentiza la implementación."
+      ]
+    },
+    {
+      "heading": "Trabajando con Imágenes de Baja Resolución y Comprimidas",
+      "paragraphs": [
+        "Las miniaturas de redes sociales y los adjuntos de correo comprimidos frecuentemente pierden fidelidad de color a través de artefactos JPEG, haciendo que el valor muestreado sea menos preciso que el original.",
+        "Reconocer la limitación de las fuentes de baja resolución te previene de codificar un color ligeramente incorrecto en tu sistema de diseño.",
+        "Cuando sea posible, extraer de la versión de mayor resolución de la imagen disponible produce los valores de color más fiables.",
+        "Para imágenes archivadas o heredadas, anotar que el color provino de una fuente comprimida ayuda a los futuros mantenedores a entender por qué un valor puede no coincidir con la intención original."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Qué formatos de color devuelve el selector?",
+      "a": "Devuelve valores HEX, RGB y HSL simultáneamente, para que puedas copiar el formato que tu herramienta de diseño o base de código espere."
+    },
+    {
+      "q": "¿Puedo ampliar partes de la imagen para una selección precisa?",
+      "a": "Sí. El selector soporta hacer zoom en la foto para que puedas seleccionar píxeles exactos sin adivinar."
+    },
+    {
+      "q": "¿El selector de color es privado y gratuito?",
+      "a": "Sí. Todo el procesamiento ocurre localmente en tu navegador sin subidas, marcas de agua ni cuentas."
+    },
+    {
+      "q": "¿Cómo aseguro que el color que obtengo coincida con el diseño previsto?",
+      "a": "Muestrea desde el centro de una región de color en lugar de bordes o límites antialiased, y usa imágenes fuente de alta resolución cuando estén disponibles para el resultado más preciso."
+    },
+    {
+      "q": "¿Los valores de color extraídos se pueden usar para verificaciones de accesibilidad?",
+      "a": "Sí. Los valores HEX y RGB que devuelve el selector se pueden introducir en calculadoras de ratio de contraste para verificar el cumplimiento de las directrices de accesibilidad WCAG."
+    }
+  ]
+}

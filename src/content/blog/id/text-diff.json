@@ -1,0 +1,120 @@
+{
+  "slug": "text-diff",
+  "title": "Alat Perbedaan Teks: Bandingkan Dua Teks Online Gratis untuk Menemukan Perubahan",
+  "description": "Alat perbedaan teks gratis online untuk membandingkan dua dokumen berdampingan, menyorot baris yang ditambahkan, dihapus, dan diubah. Privat, instan, langsung di browser.",
+  "keywords": ["perbedaan teks", "bandingkan dua teks", "temukan perbedaan antara teks", "pemeriksa perbedaan", "bandingkan teks online", "alat perbandingan teks", "lihat perubahan dalam teks"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Mendeteksi Perubahan Antara Versi",
+      "paragraphs": [
+        "Apakah rekan Anda mengedit ketentuannya? Commit mana yang mengubah kata-kata perjanjian? Membandingkan versi secara visual tidak dapat diandalkan; [text-diff:alat perbedaan] menandai persis apa yang berubah, baris demi baris.",
+        "Editor, pengulas, pengacara, dan siswa semuanya mendapat manfaat dari deteksi perubahan yang tepat.",
+        "ChooseTools membandingkan teks secara lokal di browser Anda dengan hasil berdampingan berwarna."
+      ]
+    },
+    {
+      "heading": "Cara Membandingkan Dua Teks",
+      "paragraphs": [
+        "Perbedaan, ditonjolkan:",
+        "Tempel versi asli ke kotak kiri dan versi yang direvisi ke kotak kanan. Alat ini menghitung perbedaan secara instan dan mewarnai baris yang ditambahkan versus yang dihapus.",
+        "Hasil dirender secara lokal — draf tidak pernah dikirim ke mana pun."
+      ]
+    },
+    {
+      "heading": "Perbedaan Tingkat Baris: Tepat dan Dapat Ditinjau",
+      "paragraphs": [
+        "Membandingkan pada granularitas baris selaras dengan cara kerja editor: setiap perubahan adalah satuan yang terpisah dan dapat ditinjau.",
+        "Baris yang ditambahkan, baris yang dihapus, dan perubahan semuanya terlihat berbeda secara visual.",
+        "Tinjauan batch dokumen panjang menjadi sempurna."
+      ]
+    },
+    {
+      "heading": "Cara Differencing Bekerja di Balik Layar",
+      "paragraphs": [
+        "Alat ini menyelaraskan kedua teks baris demi baris, menemukan rentang terpanjang yang tetap tidak berubah dan kemudian menandai sisanya sebagai dimasukkan atau dihapus.",
+        "Baris yang diubah muncul sebagai penghapusan yang dipasangkan dengan penambahan, sehingga pengulas melihat persis apa yang diganti alih-alih tanda modifikasi yang samar.",
+        "Algoritma ini efisien bahkan dengan dokumen substansial, menghitung penyesuaian dengan cepat dan hanya merender wilayah yang berbeda untuk kejelasan.",
+        "Memahami perilaku ini membantu Anda menafsirkan hasil: kalimat yang ditulis ulang muncul sebagai satu baris yang dihapus dan baris lain yang dimasukkan di sebelahnya."
+      ]
+    },
+    {
+      "heading": "Alur Kerja Tinjauan dengan Kepercayaan Tersembunyi",
+      "paragraphs": [
+        "Lacak pengeditan pengulas tanpa membaca setiap kata; konfirmasi patch sebelum menerapkan; audit perjanjian untuk modifikasi sunyi.",
+        "Output perbedaan adalah peta dari apa yang dijanjikan versi dan apa yang disampaikannya.",
+        "Perbandingan yang cermat melindungi siapa pun yang menandatangani, mengirim, atau mempublikasikan kode."
+      ]
+    },
+    {
+      "heading": "Kasus Penggunaan Umum lintas Profesi",
+      "paragraphs": [
+        "Tim hukum membandingkan draf kontrak untuk memastikan tidak ada klausul yang diubah antara putaran negosiasi. Pengembang perangkat lunak memverifikasi pull request dengan membedakan perubahan yang diusulkan terhadap cabang utama sebelum merge.",
+        "Siswa yang memeriksa revisi esai dapat langsung melihat apakah umpan balik benar-benar telah diintegrasikan. Penulis teknis menjaga akurasi dokumentasi dengan membandingkan catatan rilis lintas versi.",
+        "Penerjemah menggunakan differencing untuk memastikan teks yang dilokalisasi cocok dengan sumber yang disetujui tanpa penghapusan halus. Dalam setiap kasus, alat ini menghilangkan kebosanan perbandingan manual dan menggantinya dengan peta visual perubahan yang jelas.",
+        "Mekanisme yang sama yang menangkap koma yang hilang dalam kode juga menangkap klausul kewajiban yang berubah dalam kontrak."
+      ]
+    },
+    {
+      "heading": "Menangani Dokumen Besar dan Perubahan Bersarang",
+      "paragraphs": [
+        "File panjang dengan ratusan baris tetap dapat dikelola karena algoritma perbedaan memprosesnya dalam segmen, hanya menampilkan area perbedaan yang relevan.",
+        "Tata letak berdampingan memastikan baris konteks duduk di sebelah lawannya, sehingga pengulas dapat memverifikasi bahwa teks di sekitarnya tidak sengaja bergeser.",
+        "Bahkan saat perubahan tersebar di seluruh dokumen, pewarnaan memungkinkan mata melompat langsung ke setiap modifikasi tanpa memindai setiap baris secara manual.",
+        "Pemrosesan terjadi sepenuhnya di perangkat Anda, sehingga tidak ada batas ukur yang dikenakan oleh server jarak jauh."
+      ]
+    },
+    {
+      "heading": "Differencing sebagai Gerbang Kualitas",
+      "paragraphs": [
+        "Perbedaan pada dasarnya adalah gerbang kualitas: sebelum sesuatu dipublikasikan, di-merge, atau ditandatangani, perbandingan menjawab apakah teks akhir cocok dengan apa yang diputuskan.",
+        "Tim kualitas menjalankan perbedaan terakhir antara draf yang disetujui dan versi yang dikirim, menangkap pengeditan menit terakhir yang lolos dari tinjauan.",
+        "Penulis lepas membedakan umpan balik klien terhadap naskah mereka untuk menunjukkan bahwa setiap perubahan yang diminta hadir.",
+        "Bahkan pemeriksaan singkat menambahkan lapisan pelindung yang tidak dapat disamai oleh berapa pun bukti baca yang cermat."
+      ]
+    },
+    {
+      "heading": "Membandingkan Konfigurasi dan Template",
+      "paragraphs": [
+        "Selain prosa, alat ini cocok untuk teks terstruktur: membandingkan dua file konfigurasi, dua cuplikan kode, atau dua versi template email.",
+        "Perbandingan cepat pada file pengaturan mengungkapkan persis parameter mana yang berubah antara lingkungan seperti staging dan produksi.",
+        "Editor template membandingkan draf yang disimpan untuk menemukan formatasi yang bergeser yang akan terlewatkan oleh sekilas pandang.",
+        "Karena logika berdampingan yang sama berfungsi pada kode, markup, dan teks biasa, satu alat mencakup banyak kebutuhan tinjauan."
+      ]
+    },
+    {
+      "heading": "Perbandingan Privat Draf Rahasia",
+      "paragraphs": [
+        "Dokumen hukum, naskah yang belum dipublikasikan, dan catatan rilis internal di-differencing secara lokal, dan itu intinya.",
+        "Tanpa upload, tanpa akun, tanpa watermark — di semua platform.",
+        "Riwayat versi Anda adalah milik Anda."
+      ]
+    },
+    {
+      "heading": "Differencing dalam Suite Teks Lengkap",
+      "paragraphs": [
+        "Setelah membandingkan, [find-replace:terapkan perbaikan], [sort-lines:atur] atau [case-converter:normalisasi] naskahnya.",
+        "Suite ini gratis dan berbasis browser.",
+        "Setiap pertanyaan versi, dijawab dengan tepat."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Apa persisnya yang ditonjolkan oleh alat perbedaan?",
+      "a": "Alat ini menampilkan kedua teks berdampingan, mewarnai baris yang ditambahkan, dihapus, atau diubah sehingga perubahan terlihat secara instan."
+    },
+    {
+      "q": "Bisakah ini membandingkan dokumen yang sangat panjang?",
+      "a": "Ya. Perbedaan berbasis baris menangani teks panjang; rendering lokal dan cepat terlepas dari panjang."
+    },
+    {
+      "q": "Apakah perbandingan teks ini privat?",
+      "a": "Ya. Semuanya berjalan secara lokal di browser Anda tanpa upload atau akun."
+    },
+    {
+      "q": "Apakah ini menampilkan konteks di sekitar perubahan?",
+      "a": "Ya. Baris yang tidak berubah di sekitarnya muncul di samping perbedaan sehingga Anda dapat memverifikasi bahwa modifikasi berada dalam konteks yang benar."
+    }
+  ]
+}

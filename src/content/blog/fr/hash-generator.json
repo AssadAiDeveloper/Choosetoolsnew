@@ -1,0 +1,115 @@
+{
+  "slug": "hash-generator",
+  "title": "Générateur de Hachage : Créez des Hachages MD5 SHA-256 et SHA-1 en Ligne Gratuitement",
+  "description": "Générateur de hachage gratuit pour calculer les sommes de contrôle MD5, SHA-1 et SHA-256 pour du texte et des fichiers afin de vérifier l\u0027intégrité. Privé, dans votre navigateur, sans téléchargement.",
+  "keywords": ["générateur de hachage", "générateur sha256", "hachage md5", "hachage sha1", "générateur de somme de contrôle en ligne", "calculatrice de hachage", "hacher du texte en ligne"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Un Hachage Prouve ce Que Vous Voulez Dire",
+      "paragraphs": [
+        "Les hachages condensent toute entrée en une empreinte de taille fixe qui change lorsque l\u0027entrée change. [hash-generator:Générer des hachages] vérifie l\u0027intégrité, détecte la corruption accidentelle et structure des flux de travail sécurisés.",
+        "MD5, SHA-1 et SHA-256 sont les chevaux de trait du quotidien avec des forces et compromis différents qui comptent dans des contextes spécifiques.",
+        "ChooseTools calcule les hachages localement dans votre navigateur, pour le texte et les fichiers."
+      ]
+    },
+    {
+      "heading": "Comment Générer un Hachage",
+      "paragraphs": [
+        "De l\u0027entrée à l\u0027empreinte en un clic :",
+        "Collez du texte ou choisissez un fichier, sélectionnez un algorithme de résumé, et visualisez la somme de contrôle résultante pour MD5, SHA-1 ou SHA-256 en quelques secondes.",
+        "Le calcul reste local, de sorte que les contenus ne quittent jamais votre appareil quelle que soit la taille du fichier ou la longueur du texte."
+      ]
+    },
+    {
+      "heading": "MD5 Pour les Vérifications Rapides, SHA-256 pour le Devoir de Forteresse",
+      "paragraphs": [
+        "MD5 s\u0027exécute rapidement et signale encore la corruption accidentelle, mais les collisions le rendent inadapté à la vérification critique de sécurité où la falsification malveillante est une préoccupation.",
+        "SHA-256 est la norme moderne pour les versions, téléchargements et opérations de comparaison sensibles dans toute l\u0027industrie du logiciel.",
+        "Faire correspondre le résumé à la tâche compte plus que de choisir l\u0027algorithme le plus récent disponible."
+      ]
+    },
+    {
+      "heading": "Choisir le Bon Algorithme pour la Tâche",
+      "paragraphs": [
+        "MD5 produit un résumé de 128 bits exprimé en 32 caractères hexadécimaux. Il reste utile pour les tâches non liées à la sécurité comme vérifier si un fichier a été téléchargé sans corruption, générer des identifiants courts pour des clés de cache, ou vérifier que deux copies d\u0027un document sont octet-identiques.",
+        "SHA-1 produit un résumé de 160 bits rendu en 40 caractères hexadécimaux. De nombreux systèmes anciens et plateformes de contrôle de version référencent encore des empreintes SHA-1, donc l\u0027algorithme reste pertinent pour la compatibilité même s\u0027il ne satisfait plus les exigences de sécurité modernes.",
+        "SHA-256 génère un résumé de 256 bits affiché en 64 caractères hexadécimaux. C\u0027est la force minimale recommandée pour les signatures numériques, la vérification de certificats et tout flux de travail où la résistance aux collisions impacte directement la confiance. En cas de doute, optez pour SHA-256 en premier."
+      ]
+    },
+    {
+      "heading": "Intégrité du Fichier Avant d\u0027Installer",
+      "paragraphs": [
+        "Comparez le hachage d\u0027un fichier téléchargé avec la somme de contrôle publiée par l\u0027éditeur pour confirmer que le fichier est arrivé intact.",
+        "Une correspondance prouve que le fichier est arrivé complet et non modifié, vous donnant une confiance cryptographique avant l\u0027exécution.",
+        "La confiance est cryptographique au lieu de l\u0027espoir, remplaçant la conjecture par une preuve mathématique."
+      ]
+    },
+    {
+      "heading": "Cas d\u0027Usage au-delà de la Vérification de Fichiers",
+      "paragraphs": [
+        "Les API exigent couramment une signature hachée dans chaque requête afin que le serveur puisse confirmer que les paramètres n\u0027ont pas été modifiés en transit. Calculer le hachage localement et l\u0027intégrer dans l\u0027en-tête satisfait ce contrat sans exposer la charge utile brute à des services tiers.",
+        "Les systèmes de stockage à contenu adressable utilisent les hachages comme noms de fichiers. Stocker un document sous son résumé SHA-256 signifie que les données en double sont détectées instantanément et que le contenu identique résout toujours vers la même adresse, réduisant les coûts de stockage et accélérant la récupération.",
+        "La déduplication à travers de grandes collections de fichiers bénéficie de la comparaison de hachages. Plutôt que de comparer les fichiers octet par octet, une vérification rapide des résumés révèle les doublons en quelques secondes, libérant de l\u0027espace disque et simplifiant les routines de sauvegarde dans les environnements d\u0027entreprise."
+      ]
+    },
+    {
+      "heading": "Le Hachage n\u0027Est Pas un Chiffrement",
+      "paragraphs": [
+        "Les hachages sont des empreintes à sens unique ; ils ne peuvent pas révéler l\u0027entrée, mais ils ne la cachent pas non plus de la force brute sur des valeurs faibles.",
+        "Pour le stockage de mots de passe, combinez le hachage avec un salage approprié et une fonction de dérivation de clé lente \u2014 ne stockez jamais en texte clair.",
+        "Comprenez la direction à sens unique avant de vous y fier pour tout objectif critique de sécurité."
+      ]
+    },
+    {
+      "heading": "Comprendre la Sortie Hexadécimale et l\u0027Encodage",
+      "paragraphs": [
+        "Les résultats de hachage apparaissent comme des chaînes de caractères hexadécimaux, où chaque paire de chiffres représente un octet. Un hachage MD5 fait 32 caractères hexadécimaux car il encode 16 octets, tandis que SHA-256 fait 64 caractères hexadécimaux encodant 32 octets.",
+        "La représentation hexadécimale est lisible par l\u0027homme et facile à comparer, mais la valeur sous-jacente est binaire. Certains systèmes préfèrent l\u0027encodage Base64 du résumé brut pour la compacité, donc connaître la distinction entre la sortie hex et Base64 évite les erreurs de copier-coller.",
+        "La casse des caractères est généralement sans importance pour les algorithmes de comparaison, mais de nombreux éditeurs publient du hex en majuscules tandis que les outils peuvent retourner en minuscules. Le convertisseur produit une casse cohérente afin que les correspondances soient simples quel que soit le format source."
+      ]
+    },
+    {
+      "heading": "Empreintes Privées",
+      "paragraphs": [
+        "Les documents et secrets hachés localement ne transitent jamais un serveur ni n\u0027apparaissent dans aucun journal externe.",
+        "Pas de téléchargement, pas de compte, pas de filigrane \u2014 un comportement identique sur chaque système d\u0027exploitation et navigateur.",
+        "Des vérifications d\u0027intégrité avec confidentialité totale, adaptées aux fichiers confidentiels et au code propriétaire."
+      ]
+    },
+    {
+      "heading": "Hachage dans la Boîte à Outils du Développeur",
+      "paragraphs": [
+        "Combiné avec [base64:l\u0027encodage], [uuid-generator:identifiants uniques] et [password-generator:clés fortes] pour une hygiène complète des données à travers les pipelines de développement et de déploiement.",
+        "La suite est gratuite et native au navigateur, sans installation ni création de compte requise.",
+        "Des empreintes à portée de main, prêtes pour toute tâche de vérification."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Quels algorithmes sont pris en charge ?",
+      "a": "MD5, SHA-1 et SHA-256 sont fournis, couvrant les cas d\u0027usage quotidiens de somme de contrôle et d\u0027intégrité à travers différents niveaux de sécurité."
+    },
+    {
+      "q": "Puis-je hacher un fichier aussi bien que du texte ?",
+      "a": "Oui. Les fichiers peuvent être sélectionnés directement et hachés comme du texte collé, avec des résultats apparaissant en quelques secondes."
+    },
+    {
+      "q": "Le hachage est-il privé ?",
+      "a": "Oui. Tout s\u0027exécute localement dans votre navigateur sans téléchargement ni compte."
+    },
+    {
+      "q": "Combien de temps mon hachage de mot de passe doit-il être pour rester sûr ?",
+      "a": "Pour le hachage de mots de passe en production, utilisez un algorithme dédié comme bcrypt ou Argon2 avec salage. Le générateur de hachage est adapté aux sommes de contrôle, à la vérification d\u0027intégrité et à l\u0027empreinte de données plutôt qu\u0027au stockage de mots de passe."
+    },
+    {
+      "q": "Quelle est la différence entre la sortie de hachage hex et Base64 ?",
+      "a": "Le hex est une représentation textuelle du résumé binaire utilisant les chiffres 0-9 et les lettres a-f. Le Base64 encode les mêmes données binaires plus compactement en utilisant un jeu de caractères plus large. Les deux représentent la même valeur de hachage sous-jacente."
+    },
+    {
+      "q": "Deux fichiers différents peuvent-ils produire le même hachage ?",
+      "a": "Les collisions sont théoriquement possibles mais extrêmement improbables avec SHA-256. MD5 et SHA-1 ont des vulnérabilités de collision connues, c\u0027est pourquoi SHA-256 est préféré pour les applications sensibles à la sécurité."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "pdf-editor",
+  "title": "PDF'i Çevrimiçi Ücretsiz Düzenleme: Tarayıcıda Metin, Görüntü ve Düzeni Değiştirin",
+  "description": "ChooseTools ile PDF'i çevrimiçi ücretsiz düzenleyin. Canlı önizleme ve tam gizlilikle tarayıcınızda metni değiştirin, görüntüleri değiştirin ve düzeni ayarlayın. Kurulum yok, yükleme yok, filigran yok.",
+  "keywords": ["pdf düzenleme", "pdf'i çevrimiçi ücretsiz düzenleme", "pdf'te metin düzenleme", "ücretsiz pdf düzenleyici", "pdf belgesini değiştirme", "yüklemeden pdf düzenleme", "pdf içeriğini değiştirme"],
+  "readingTime": 9,
+  "sections": [
+    {
+      "heading": "PDF Son Bir Eserdir — Ta ki Öyle Olmaktan Çıkıncaya Dek",
+      "paragraphs": [
+        "PDF'ler belgelerin kesinleşmek için gittiği yerdir: düzenler kilitlenir, yazı tipleri gömülür, sayfalar son halini alır. Ancak arada bir bu kesinleşmenin yeniden gözden geçirilmesi gerekir — başlıkta bir yazım hatası, değiştirilmesi gereken bir fotoğraf, sivriltilecek bir cümle. Yetenekli bir [pdf-editor:PDF düzenleyicisi], bu son aşama düzeltmelerini kaynak uygulamaya dönmeden mümkün kılar.",
+        "Ücretsiz düzenleyiciler tarihsel olarak yalnızca açıklama eklemeye indirgenmişti. ChooseTools, tarayıcıda gerçekten düzenler: metin, görüntüler ve sayfa yapısı değişikliklerinize yanıt verir.",
+        "Her şey cihazınızda yerel olarak gerçekleşir; bu nedenle gizli düzenlemeler asla hiçbir yere gitmez."
+      ]
+    },
+    {
+      "heading": "PDF'i Doğrudan Tarayıcıda Düzenleme",
+      "paragraphs": [
+        "Çalışan bir düzenleme döngüsü, Word'de yeniden oluşturma döngüsünün yerini alır.",
+        "PDF'i düzenleyicide açın. Kelimeleri değiştirmek için metne tıklayın, değiştirmek için bir görüntü seçin ve canlı önizlemeyle sayfadaki öğeleri ayarlayın. Kaydedin; tüm düzenlemeleri içeren yeni bir PDF indirilir.",
+        "Oluşturma yerel olduğundan her tuş vuruşu anında yansır ve büyük dosyalar duyarlı kalır."
+      ]
+    },
+    {
+      "heading": "Metin Düzenlemeleri, Görüntü Değişimleri ve Düzen Ayarlamaları",
+      "paragraphs": [
+        "Tipik düzeltmeler: bir teknik şartnamede ürün adını düzeltmek, güncelliğini yitirmiş bir portre fotoğrafını değiştirmek, bir sürüm numarasını güncellemek veya bir grafiği hizaya sokmak.",
+        "Düzenleyici, hedefli değişiklikler yaparken yazı tiplerini, boşlukları ve genel tasarımı koruyarak bu tam ihtiyaçlara odaklanır.",
+        "Daha ağır içerik için, aynı oturumda [merge-pdf:alternatif sayfaları birleştirme] veya [crop-pdf:bölgeleri kırpma] ile birlikte kullanın."
+      ]
+    },
+    {
+      "heading": "İş Akışı Küçük Bir Kararlar Kümesidir",
+      "paragraphs": [
+        "Bir PDF'i düzenlemek bir avuç seçime indirgenir: hangi metin değişecek, hangi görüntü hangisinin yerini alacak ve hangi öğeler konum değiştirecek. Kararı adlandırmak her adımı bilinçli yapar — metne tıklayın, düzeltmeyi yazın, ardından menülerde gezinmeden bir sonraki değişikliğe geçin.",
+        "Canlı önizleme, gerçek bir düzenleyiciyi form doldurucudan ayıran şeydir. Her tuş vuruşu sayfayı yeniden çizer; böylece bir kutuyu taşıracak veya bir öğeyle çakışacak bir değişiklik, dışa aktarmadan sonra keşfedilmek yerine anında görünür. Bu geri bildirim döngüsü, düzenleme oturumunu hızlı ve kendini düzelten yapar.",
+        "Birden çok düzenleme aynı sayfayı kapsadığında, yukarıdan aşağıya çalışmak düzeni tutarlı tutar. Bir açıklamayı genişletmek veya bir paragrafı kısaltmak gibi bir eklemeyi iyileştirmek; ayrı bir araç açmak veya belgenin tamamını yeniden biçimlendirmek değil, ona geri tıklamak meselesidir."
+      ]
+    },
+    {
+      "heading": "Kelime İşlemci Gidiş Gelişleri Olmadan Taslak Yineleme",
+      "paragraphs": [
+        "Microsoft Word veya Google Dokümanlar'da düzenlemek her şeyi yeniden akışlandırır ve PDF'e geri dışa aktarma, özenli tipografiyi çoğu zaman yok eder.",
+        "PDF'in kendisini düzenlemek, değişiklikleri karşılarken tasarımı korur — taslaktan temiz son sürüme giden en hızlı yol.",
+        "Dolaştırın, düzenleyin, onaylayın: kaynak PDF olarak kaldığı için döngü kısalır."
+      ]
+    },
+    {
+      "heading": "Gerçek Dünyada Yaygın Düzenleme Görevleri",
+      "paragraphs": [
+        "Sözleşmeler ve teklifler imzadan önce küçük revizyonlar biriktirir: düzeltilmiş bir şirket adı, güncellenmiş bir tarih, değiştirilmiş bir ek sayfası. Her biri, incelemecilerin beklediği hukuki görünümü koruyarak anlaşmanın geri kalanına dokunmayan hedefli bir metin düzenlemesidir.",
+        "Pazarlama sunumları son teslim tarihine kadar değişir — yeni bir istatistik eskisinin yerini alır, bir fiyatlandırma slaydı güncellenir, bir logo değiştirilir. Bunları doğrudan PDF'te düzenlemek, dosya tasarımını bozulmadan tutar ve sunum yazılımında tüm sunumun yeniden oluşturulmasını önler.",
+        "Kağıttan taranan PDF'ler, OCR sürecinin eklediği yazım hataları içerebilir. Bunları düzenleyicide düzeltmek, sayfa düzenini değiştirmeden metin katmanını onarır; normal şekilde yazdırılan ve paylaşılan temiz bir belge bırakır.",
+        "Doldurulmuş formlar bazen düzeltilmiş bir doğum tarihi veya yeniden girilen bir tutar gibi seçici düzeltmelere ihtiyaç duyar. Düzenleyici mevcut dosyayı yüklediğinden, bu nokta düzeltmeleri sıfırdan başlamaya zorlamak yerine doğrudan teslim edilen sürüme uygulanır."
+      ]
+    },
+    {
+      "heading": "Yazı Tipleri, Boşluklar ve Düzenin Korunması",
+      "paragraphs": [
+        "Düzenleyici, sözcükleri değiştirdiğinizde dosyanın gömülü yazı tiplerini ve karakter aralığını korur; böylece düzeltilen bir cümle yine orijinalin birebir yazı tipinde oluşturulur. Bu, bir yazı tipi uyumsuzluğunun okuyucu tarafından anında görüleceği marka belgeleri için önemlidir.",
+        "Paragraf akışı, yetki verdiğiniz metinle sınırlı kalır. Daha kısa veya daha uzun bir değiştirme satır sayılarını değiştirdiğinde, çevredeki tasarım farkı, alakasız öğeleri sayfa boyunca itmeden soğurur. Sonuç, yeniden inşa edilmiş gibi değil bilinçli görünen bir revizyondur.",
+        "Sıkı görsel hizalamaya sahip belgeler için canlı önizleme, dosya kaydedilmeden önce ayarlanan öğelerin marjlara ve sınırlara hâlâ uyduğunu doğrulamanızı sağlar. Konuma yapılan küçük ayarlamalar anında etkili olur; bu, birden çok düzenleme turundan sonra düzenleri derli toplu tutar."
+      ]
+    },
+    {
+      "heading": "Yayınlanmamış İşler için Özel Düzenleme",
+      "paragraphs": [
+        "Yayınlanmamış fiyatlandırmalar, özel çizimler ve açıklanmamış planlar bir bulut düzenleyiciye gitmemelidir. Yerel düzenleme onları çalışma alanınızla sınırlı tutar.",
+        "Filigran yok, hesap yok, saklama yok; Windows, macOS, Linux ve mobilde aynı.",
+        "Güvenle düzenleyin, onaylanan sonucu paylaşın."
+      ]
+    },
+    {
+      "heading": "Son Rötuşun Bir Parçası Olarak Düzenleme",
+      "paragraphs": [
+        "Yaygın son geçiş, düzenlemeleri gönderimden önce [compress-pdf:sıkıştırma], [watermark-pdf:filigran ekleme] ve [protect-pdf:şifreleme] ile birleştirir.",
+        "Tek sayfalık bir düzeltme artık koca bir masaüstü paketini açmaya mal olmaz.",
+        "Ücretsiz tarayıcı tabanlı düzenleme, «neredeyse final» ile «gönderildi» arasındaki boşluğu kapatır."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Mevcut bir PDF'in içindeki metni değiştirebilir miyim?",
+      "a": "Evet. Düzenleyici PDF'i yükler ve canlı oluşturmayla sözcükleri değiştirmek için metne tıklamanıza olanak tanır; düzenlemelerinizden yeni bir PDF kaydedilir."
+    },
+    {
+      "q": "Düzenleme belgemi yüklemeyi gerektirir mi?",
+      "a": "Hayır. Tüm düzenleme tarayıcınızda yerel olarak çalışır — dosya ve her değişiklik, hesap veya filigran olmadan cihazınızda kalır."
+    },
+    {
+      "q": "Hangi tür düzenlemeler desteklenir?",
+      "a": "Destek, pratik düzeltmelere odaklanır: metin ayarlamaları, görüntü değiştirme ve öğe konumlandırma; tümü canlı önizleme ve düzen korumasıyla."
+    },
+    {
+      "q": "Metni düzeltmek düzenin geri kalanına zarar verir mi?",
+      "a": "Hayır. Düzenlemeler değiştirdiğiniz içeriğe uygulanırken çevredeki tasarım, yazı tipleri ve boşluklar yerinde kalır; canlı önizleme, kaydetmeden önce sonucu doğrular."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "hash-generator",
+  "title": "Generador de hash: crea hashes MD5 SHA-256 y SHA-1 en línea gratis",
+  "description": "Generador de hash gratuito para calcular sumas de comprobación MD5, SHA-1 y SHA-256 de textos y archivos para verificar su integridad. Privado, en tu navegador, sin subidas.",
+  "keywords": ["generador de hash", "generador sha256", "hash md5", "hash sha1", "generador de suma de comprobación en línea", "calculadora de hash", "hash de texto en línea"],
+  "readingTime": 8,
+  "sections": [
+    {
+      "heading": "Un hash demuestra lo que quieres decir",
+      "paragraphs": [
+        "Los hashes condensan cualquier entrada en una huella de tamaño fijo que cambia cuando cambia la entrada. [hash-generator:Generación de hashes] verifica la integridad, detecta la corrupción accidental y estructura flujos de trabajo seguros.",
+        "MD5, SHA-1 y SHA-256 son los caballos de batalla cotidianos con distintas fortalezas y compensaciones que importan en contextos específicos.",
+        "ChooseTools calcula hashes localmente en tu navegador, tanto de texto como de archivos."
+      ]
+    },
+    {
+      "heading": "Cómo generar un hash",
+      "paragraphs": [
+        "De entrada a huella con un clic:",
+        "Pega texto o elige un archivo, selecciona un algoritmo de resumen y consulta la suma de comprobación resultante para MD5, SHA-1 o SHA-256 en cuestión de segundos.",
+        "El cálculo permanece local, de modo que los contenidos nunca salen de tu dispositivo independientemente del tamaño del archivo o de la longitud del texto."
+      ]
+    },
+    {
+      "heading": "MD5 para comprobaciones rápidas, SHA-256 para servicio de fortaleza",
+      "paragraphs": [
+        "MD5 corre rápido y sigue señalando la corrupción casual, pero las colisiones lo hacen inadecuado para la verificación crítica de seguridad cuando la manipulación maliciosa es una preocupación.",
+        "SHA-256 es el estándar moderno para versiones, descargas y operaciones sensibles de comparación en toda la industria del software.",
+        "Hacer coincidir el resumen con la tarea importa más que elegir el algoritmo más novedoso disponible."
+      ]
+    },
+    {
+      "heading": "Elegir el algoritmo adecuado para cada tarea",
+      "paragraphs": [
+        "MD5 produce un resumen de 128 bits expresado como 32 caracteres hexadecimales. Sigue siendo útil para tareas no relacionadas con la seguridad, como comprobar si un archivo se descargó sin corrupción, generar identificadores cortos para claves de caché o verificar que dos copias de un documento son idénticas byte a byte.",
+        "SHA-1 genera un resumen de 160 bits mostrado como 40 caracteres hex. Muchos sistemas heredados y plataformas de control de versiones aún referencian las huellas SHA-1, de modo que el algoritmo sigue siendo relevante por compatibilidad aunque ya no satisfaga los requisitos de seguridad modernos.",
+        "SHA-256 genera un resumen de 256 bits mostrado como 64 caracteres hex. Es la fortaleza mínima recomendada para firmas digitales, verificación de certificados y cualquier flujo de trabajo en el que la resistencia a colisiones incide directamente en la confianza. En caso de duda, acude primero a SHA-256."
+      ]
+    },
+    {
+      "heading": "Integridad de archivos antes de instalar",
+      "paragraphs": [
+        "Compara el hash de un archivo descargado con la suma de comprobación publicada por el editor para confirmar que el archivo llegó intacto.",
+        "Una coincidencia demuestra que el archivo llegó completo y sin modificar, dándote confianza criptográfica antes de la ejecución.",
+        "La confianza es criptográfica en lugar de confiada a la suerte, sustituyendo las conjeturas por una prueba matemática."
+      ]
+    },
+    {
+      "heading": "Casos de uso más allá de la verificación de archivos",
+      "paragraphs": [
+        "Las API requieren habitualmente una firma con hash en cada petición para que el servidor pueda confirmar que los parámetros no fueron alterados durante el tránsito. Calcular el hash localmente e incrustarlo en la cabecera cumple ese contrato sin exponer la carga útil en bruto a servicios de terceros.",
+        "Los sistemas de almacenamiento direccionable por contenido usan los hashes como nombres de archivo. Almacenar un documento bajo su resumen SHA-256 significa que los datos duplicados se detectan al instante y que el contenido idéntico siempre se resuelve en la misma dirección, reduciendo los costes de almacenamiento y acelerando la recuperación.",
+        "La deduplicación entre colecciones de archivos grandes se beneficia de la comparación por hash. En lugar de comparar archivos byte a byte, una comprobación rápida del resumen revela los duplicados en segundos, liberando espacio en disco y simplificando las rutinas de copia de seguridad en entornos empresariales."
+      ]
+    },
+    {
+      "heading": "El hash no es cifrado",
+      "paragraphs": [
+        "Los hashes son huellas de un solo sentido; no pueden revelar la entrada, pero tampoco la ocultan de la fuerza bruta sobre valores débiles.",
+        "Para el almacenamiento de contraseñas, combina el hash con un salado adecuado y una función lenta de derivación de claves: nunca almacenes texto plano.",
+        "Comprende la dirección de un solo sentido antes de confiar en ella para cualquier propósito crítico de seguridad."
+      ]
+    },
+    {
+      "heading": "Comprender la salida hexadecimal y la codificación",
+      "paragraphs": [
+        "Los resultados de hash aparecen como cadenas de caracteres hexadecimales, donde cada par de dígitos representa un byte. Un hash MD5 son 32 caracteres hex porque codifica 16 bytes, mientras que SHA-256 son 64 caracteres hex que codifican 32 bytes.",
+        "La representación hexadecimal es legible por humanos y fácil de comparar, pero el valor subyacente es binario. Algunos sistemas prefieren la codificación Base64 del resumen en bruto por compacidad, de modo que conocer la distinción entre la salida hexadecimal y la Base64 evita errores de copiar y pegar.",
+        "Las mayúsculas de los caracteres suelen ser irrelevantes para los algoritmos de comparación, pero muchos editores publican hexadecimal en mayúsculas mientras que las herramientas pueden devolverlo en minúsculas. El convertidor produce un caso coherente para que las coincidencias sean directas independientemente del formato de la fuente."
+      ]
+    },
+    {
+      "heading": "Huellas dactilares privadas",
+      "paragraphs": [
+        "Los documentos y los secretos con hash local nunca transitan por un servidor ni aparecen en registros externos.",
+        "Sin subidas, sin cuenta, sin marcas de agua: comportamiento idéntico en todos los sistemas operativos y navegadores.",
+        "Comprobaciones de integridad con privacidad total, adecuadas para archivos confidenciales y código propietario."
+      ]
+    },
+    {
+      "heading": "Hash en el kit de herramientas del desarrollador",
+      "paragraphs": [
+        "Combínalo con [base64:codificación], [uuid-generator:IDs únicos] y [password-generator:claves robustas] para una higiene completa de datos en las canalizaciones de desarrollo y despliegue.",
+        "La suite es gratuita y nativa del navegador, sin requerir instalación ni creación de cuenta.",
+        "Huellas al alcance de la mano, listas para cualquier tarea de verificación."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "¿Qué algoritmos están soportados?",
+      "a": "Se proporcionan MD5, SHA-1 y SHA-256, que cubren los casos de uso cotidianos de suma de comprobación e integridad en distintos niveles de seguridad."
+    },
+    {
+      "q": "¿Puedo aplicar hash tanto a un archivo como a texto?",
+      "a": "Sí. Los archivos pueden seleccionarse directamente y someterse a hash igual que el texto pegado, con resultados en cuestión de segundos."
+    },
+    {
+      "q": "¿Es privado el hashing?",
+      "a": "Sí. Todo se ejecuta localmente en tu navegador, sin subidas ni cuentas."
+    },
+    {
+      "q": "¿Cuán largo debe ser mi hash de contraseña para mantenerse seguro?",
+      "a": "Para el hashing de contraseñas en producción, usa un algoritmo dedicado como bcrypt o Argon2 con salado. El generador de hash es adecuado para sumas de comprobación, verificación de integridad y huellas de datos, más que para el almacenamiento de contraseñas."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre la salida de hash hexadecimal y la Base64?",
+      "a": "El hexadecimal es una representación de texto del resumen binario con los dígitos 0-9 y las letras a-f. Base64 codifica los mismos datos binarios de forma más compacta usando un conjunto de caracteres más amplio. Ambos representan el mismo valor de hash subyacente."
+    },
+    {
+      "q": "¿Pueden dos archivos diferentes producir el mismo hash?",
+      "a": "Las colisiones son teóricamente posibles pero extremadamente improbables con SHA-256. MD5 y SHA-1 tienen vulnerabilidades de colisión conocidas, razón por la cual SHA-256 es el preferido para aplicaciones sensibles a la seguridad."
+    }
+  ]
+}
