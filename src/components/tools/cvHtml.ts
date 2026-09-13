@@ -157,11 +157,9 @@ export function buildResumeHtml(d: CvHtmlData): string {
     body = `<div class="classic-name-area">
   <div class="c-head">
     ${avatar}
-    <div>
-      <div class="c-name">${esc(d.fullName || "—")}</div>
-      <div class="c-title">${esc(d.jobTitle)}</div>
-      ${contact ? `<div class="c-contact">${contact}</div>` : ""}
-    </div>
+    <div class="c-name">${esc(d.fullName || "—")}</div>
+    <div class="c-title">${esc(d.jobTitle)}</div>
+    ${contact ? `<div class="c-contact">${contact}</div>` : ""}
   </div>
   <div class="c-divider"></div>
   ${secs}
@@ -182,7 +180,7 @@ img.avatar { display: block; }
 .avatar-placeholder { display: block; background: #e5e7eb; }
 /* ===== classic ===== */
 .classic-name-area { position: relative; width: 210mm; height: 297mm; padding: 16mm 18mm; overflow: hidden; text-align: start; }
-.c-head { display: flex; align-items: center; gap: 7mm; padding-bottom: 6mm; margin-bottom: 6mm; }
+.c-head { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 2.5mm; padding-bottom: 6mm; margin-bottom: 6mm; }
 .c-head img.avatar, .c-head .avatar-placeholder { width: 30mm; height: 30mm; border-radius: 50%; object-fit: cover; border: 1mm solid ${A}; flex-shrink: 0; }
 .c-divider { display: block; width: 100%; height: 1.2mm; background: ${A}; border-radius: 1mm; margin: 0 0 7mm; }
 .c-name { font-size: 26pt; font-weight: 700; color: #111827; line-height: 1.15; }
@@ -277,6 +275,10 @@ html[dir="rtl"] .mi-item-head { flex-wrap: wrap; row-gap: 1mm; }
 html[dir="rtl"] .c-bullets,
 html[dir="rtl"] .mo-bullets,
 html[dir="rtl"] .mi-bullets { padding-inline-start: 6mm; margin-right: 0; }
+/* classic header content stays centered in both directions */
+.classic-name-area .c-name,
+.classic-name-area .c-title,
+.classic-name-area .c-contact { text-align: center; }
 </style>
 </head>
 <body>${body}</body>

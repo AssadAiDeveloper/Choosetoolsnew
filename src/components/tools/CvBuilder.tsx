@@ -275,43 +275,47 @@ export default function CvBuilder() {
       ctx.stroke();
       y += 50;
     } else {
-      // classic: circular avatar on one side, name beside it
+      // classic: centered avatar with name/title/contact centered below it
       const avR = 105;
-      const headerBottom = MARGIN + 250;
-      const sideX = isRtl ? W - MARGIN - avR : MARGIN + avR;
-      const sideAlign: CanvasTextAlign = isRtl ? "right" : "left";
-      const sideLabel = isRtl ? sideX - avR - 70 : sideX + avR + 70;
-      const midY = MARGIN + 130;
+      const centerX = W / 2;
+      const topY = MARGIN + 30;
       if (img) {
         ctx.save();
         ctx.beginPath();
-        ctx.arc(sideX, midY, avR, 0, Math.PI * 2);
+        ctx.arc(centerX, topY + avR, avR, 0, Math.PI * 2);
         ctx.closePath();
         ctx.clip();
         const s = Math.min(img.naturalWidth, img.naturalHeight);
-        ctx.drawImage(img, (img.naturalWidth - s) / 2, (img.naturalHeight - s) / 2, s, s, sideX - avR, midY - avR, avR * 2, avR * 2);
+        ctx.drawImage(img, (img.naturalWidth - s) / 2, (img.naturalHeight - s) / 2, s, s, centerX - avR, topY, avR * 2, avR * 2);
         ctx.restore();
         ctx.beginPath();
-        ctx.arc(sideX, midY, avR, 0, Math.PI * 2);
+        ctx.arc(centerX, topY + avR, avR, 0, Math.PI * 2);
         ctx.strokeStyle = accent;
         ctx.lineWidth = 8;
         ctx.stroke();
       }
-      ctx.textAlign = sideAlign;
+      y = topY + (img ? avR * 2 + 40 : 100);
+      ctx.textAlign = "center";
       ctx.fillStyle = "#111827";
       ctx.font = "bold 58px system-ui, sans-serif";
-      ctx.fillText(fullName || "—", sideLabel, midY - 40);
+      for (const line of wrapText(fullName || "—", contentW * 0.9, "bold 58px system-ui, sans-serif")) {
+        ctx.fillText(line, centerX, y);
+        y += 62;
+      }
       ctx.font = "32px system-ui, sans-serif";
       ctx.fillStyle = accent;
-      ctx.fillText(jobTitle, sideLabel, midY + 16);
+      ctx.fillText(jobTitle, centerX, y);
+      y += 46;
       ctx.font = "24px system-ui, sans-serif";
       ctx.fillStyle = "#6b7280";
-      ctx.fillText(contactParts.join("   •   "), sideLabel, midY + 58);
+      ctx.fillText(contactParts.join("   •   "), centerX, y);
+      y += 40;
+      const headerBottom = y + 10;
       ctx.strokeStyle = accent;
       ctx.lineWidth = 4;
       ctx.beginPath();
-      ctx.moveTo(isRtl ? W - MARGIN - 60 : MARGIN + 60, headerBottom);
-      ctx.lineTo(isRtl ? x0 - contentW : x0 + contentW, headerBottom);
+      ctx.moveTo(centerX - 60, headerBottom);
+      ctx.lineTo(centerX + 60, headerBottom);
       ctx.stroke();
       y = headerBottom + 50;
     }
