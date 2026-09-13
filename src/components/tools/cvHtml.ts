@@ -276,6 +276,9 @@ html[dir="rtl"] .c-bullets,
 html[dir="rtl"] .mo-bullets,
 html[dir="rtl"] .mi-bullets { padding-inline-start: 6mm; margin-right: 0; }
 /* classic header content stays centered in both directions */
+html[dir="rtl"] .classic-name-area .c-name,
+html[dir="rtl"] .classic-name-area .c-title,
+html[dir="rtl"] .classic-name-area .c-contact,
 .classic-name-area .c-name,
 .classic-name-area .c-title,
 .classic-name-area .c-contact { text-align: center; }
