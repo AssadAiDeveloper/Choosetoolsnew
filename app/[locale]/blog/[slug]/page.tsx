@@ -135,7 +135,7 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
       <nav aria-label="breadcrumb" className="mb-6 flex flex-wrap items-center gap-1.5 text-sm text-ink-soft">
         <Link href="/" className="transition hover:text-brand-700">{tb("home")}</Link>
         <span aria-hidden className="select-none">/</span>
-        <Link href={blogIndexPathFor(locale)} className="transition hover:text-brand-700">{t("indexTitle")}</Link>
+        <Link href="/blog" className="transition hover:text-brand-700">{t("indexTitle")}</Link>
         <span aria-hidden className="select-none">/</span>
         <span className="font-medium text-ink">{article.title}</span>
       </nav>
@@ -146,7 +146,7 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
             <ToolIcon icon={tool.icon} size={26} />
           </span>
           <div>
-            <Link href={toolPathFor(locale, tool.category, tool.slug)} className="text-sm font-semibold text-brand-700 transition hover:text-brand-800">
+            <Link href={`/${tool.category}/${tool.slug}`} className="text-sm font-semibold text-brand-700 transition hover:text-brand-800">
               {tt("name")} → {t("openTool")}
             </Link>
             <p className="text-xs text-ink-soft">
@@ -191,7 +191,7 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
       <div className="mt-10 rounded-2xl border border-brand-200 bg-brand-50 p-6 text-center">
         <p className="font-semibold text-brand-800">{t("ctaTitle", { name: tt("name") })}</p>
         <Link
-          href={toolPathFor(locale, tool.category, tool.slug)}
+          href={`/${tool.category}/${tool.slug}`}
           className="mt-3 inline-block rounded-xl bg-brand-600 px-6 py-2.5 font-semibold text-white shadow-sm transition hover:bg-brand-700"
         >
           {tt("name")} → {t("openTool")}
@@ -228,7 +228,7 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
             {relatedNames.map((r) => (
               <li key={r.slug}>
                 <Link
-                  href={toolPathFor(locale, r.category, r.slug)}
+                  href={`/${r.category}/${r.slug}`}
                   className="group flex h-full flex-col rounded-card border border-line bg-surface p-4 transition hover:border-brand-400 hover:shadow-sm"
                 >
                   <span className={`flex h-9 w-9 items-center justify-center rounded-lg ${iconTintClass(r)}`}>
@@ -245,7 +245,7 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
 
       {/* Back to blog */}
       <div className="mt-10 border-t border-line pt-6 text-center">
-        <Link href={blogIndexPathFor(locale)} className="text-sm font-medium text-brand-700 transition hover:underline">
+        <Link href="/blog" className="text-sm font-medium text-brand-700 transition hover:underline">
           ← {t("backToBlog")}
         </Link>
       </div>
@@ -268,7 +268,7 @@ function renderInlineTokens(text: string, locale: string): React.ReactNode {
     const slug = m[1];
     const anchor = m[2];
     const tool = findToolForSlug(slug);
-    const href = tool ? toolPathFor(locale, tool.category, slug) : blogPathFor(locale, slug);
+    const href = tool ? `/${tool.category}/${slug}` : `/blog/${slug}`;
     parts.push(
       <Link key={key++} href={href} className="font-medium text-brand-700 underline decoration-brand-300 underline-offset-2 transition hover:text-brand-800">
         {anchor}

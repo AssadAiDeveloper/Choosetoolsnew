@@ -88,7 +88,7 @@ export default async function BlogIndexPage({ params }: { params: Promise<Params
                 return (
                   <Link
                     key={a.slug}
-                    href={blogPathFor(locale, a.slug)}
+                    href={`/blog/${a.slug}`}
                     className="group flex flex-col rounded-card border border-line bg-surface p-5 transition hover:border-brand-400 hover:shadow-sm"
                   >
                     <div className="flex items-center gap-2.5">
