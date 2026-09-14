@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...TOOLS.map((t) => `/${t.category}/${t.slug}`),
     ...blogPaths,
     "/about",
+    "/donate",
     "/contact",
     "/privacy",
     "/terms",

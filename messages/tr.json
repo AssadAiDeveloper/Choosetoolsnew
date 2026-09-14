@@ -1082,7 +1082,8 @@
         "ChooseTools, tamamen tarayıcınızın içinde çalışan ücretsiz dosya araçları koleksiyonudur. Geleneksel araç web sitelerinin aksine, dosyalarınızı hiçbir zaman almıyoruz: bir PDF'i birleştirmek, bir fotoğrafı sıkıştırmak veya bir QR kodu oluşturmak hepsi kendi cihazınızda yerel olarak gerçekleşir.",
         "Bu mimarinin gurur duyduğumuz üç sonucu vardır. Birincisi, gizlilik — hiç iletilmemiş bir dosya asla sızamaz, günlüğe kaydedilemez veya saklanamaz. İkincisi, hız — yükleme veya indirme süresi yoktur, bu yüzden büyük dosyalar bile anında işlenir. Üçüncüsü, dürüstlük — işleme bize hiçbir şeye mal olmadığından, dosya boyutu sınırları, günlük kotalar veya filigran olmadan gerçekten sınırsız kullanım sunabiliriz.",
         "Platform, her açıklamanın makine çevirisi değil, ana dilinde yazılmasıyla İngilizce, Arapça ve İspanyolca olarak tamamen kullanıma açıktır. Arapça özel araçlarımız — tashkeel kaldırma, Hijri tarih dönüşümü ve tafqit gibi — İngilizce araçlardan uyarlanmış değil, Arapça kullanıcılar için özel olarak oluşturulmuştur. Arapça araçlarımıza ek olarak platformumuz, her geçen gün daha fazla dil ve araçla büyümeye devam etmektedir.",
-        "ChooseTools hoursmedia tarafından geliştirilmiştir ve sürdürülmektedir. Her hafta yeni araçlar eklenir; eksik bir araç varsa, duymayı çok isteriz."
+        "ChooseTools hoursmedia tarafından geliştirilmiştir ve sürdürülmektedir. Her hafta yeni araçlar eklenir; eksik bir araç varsa, duymayı çok isteriz.",
+        "Ve her şey cihazınızda çalıştığı için ChooseTools gezegene de dosttur. Ağır sunucular barındırmıyor ve hiçbir şey saklamıyoruz; bu yüzden her ziyaret, sunucu tabanlı bir araç sitesinin harcayacağı enerjinin çok küçük bir kısmını kullanır — ve yerel olarak kullandığınız her araç, emisyonları düşük tutmaya yardımcı olur. Yazılımın daha az tüketerek daha fazlasını başarması gerektiğine inanıyor ve birlikte karşılık vermenizi davet ediyoruz: ağaç dikin, kuyu kazın ve bağış sayfamızdaki nedenler aracılığıyla dünya çapında yetimlere bakın."
       ]
     },
     "contact": {
@@ -1118,6 +1119,35 @@
         "Fikri mülkiyet. Site tasarımı, metinleri ve kodu hoursmedia'nın mülkiyetindedir. İşlediğiniz dosyalar tamamen size aittir; bunlar üzerinde hak iddia etmiyoruz.",
         "Değişiklikler. Bu şartları istediğimiz zaman değiştirebilir veya araçları durdurabiliriz. Değişikliklerden sonra devam eden kullanım kabul anlamına gelir."
       ]
+    },
+    "donate": {
+      "title": "Bağış Yap",
+      "intro": [
+        "ChooseTools ücretsizdir ve her zaman öyle kalacaktır. Ama bize katılıp karşılığını verebilirsiniz: ağaç dikmek, topluluklara temiz su ulaştırmak ve dünya çapında yetimlere bakmak.",
+        "Aşağıdaki her neden güvenilir bir küresel kuruluştur. Bağışınız doğrudan onlara ulaşır — ChooseTools paranıza asla dokunmaz ve ondan hiçbir şey almaz."
+      ],
+      "trustNote": "ChooseTools bir aracı değildir ve hiçbir ücret almaz. Bağışlar %100 doğrudan burada listelenen kuruluşlara gider.",
+      "causes": {
+        "trees": {
+          "title": "Ağaç dikmek",
+          "desc": "Bir dolar bir ağaç diker. Yeniden ağaçlandırmayı desteklemek yaşam alanlarını onarır, iklimi serinletir ve biyoçeşitliliği korur."
+        },
+        "water": {
+          "title": "Temiz su ve kuyular",
+          "desc": "Kuyu kazmak ve yoksun topluluklara temiz, güvenli içme suyu getirmek — sağlık ve günlük yaşamda dönüşüm."
+        },
+        "orphans": {
+          "title": "Yetimlerin bakımı",
+          "desc": "Ebeveyn bakımı olmayan çocuklara küresel çocuk bakım kuruluşları aracılığıyla sevgi dolu bir yuva, eğitim ve gelecek vermek."
+        }
+      },
+      "donateBtn": "Bağış Yap",
+      "support": {
+        "title": "ChooseTools'u Destekle",
+        "desc": "Bu platformu ücretsiz tutmak gerçek kaynaklar gerektirir ve her araç özenle yapılır. ChooseTools size zaman kazandırdıysa, geliştirilmesine herhangi bir tutarla destek olabilirsiniz.",
+        "btn": "ChooseTools'u Destekle",
+        "via": "Ödemeler, ödeme sağlayıcımız tarafından güvenli şekilde işlenir."
+      }
     }
   },
   "sub": {

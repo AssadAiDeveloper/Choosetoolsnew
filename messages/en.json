@@ -1082,7 +1082,8 @@
         "ChooseTools is a collection of free file tools that run entirely inside your browser. Unlike traditional tool websites, we never receive your files: merging a PDF, compressing a photo or generating a QR code all happen locally on your own device.",
         "This architecture has three consequences we are proud of. First, privacy â€” a file that is never transmitted can never be leaked, logged or retained. Second, speed â€” there is no upload or download time, so even large files process instantly. Third, honesty â€” because processing costs us nothing, we can offer genuinely unlimited use with no file-size caps, daily quotas or watermarks.",
         "The platform is fully available in English, Arabic and Spanish, with every explanation written natively rather than machine-translated. Our Arabic-exclusive tools â€” like tashkeel removal, Hijri date conversion and tafqit â€” are built specifically for Arabic users, not adapted from English tools.",
-        "ChooseTools is built and maintained by hoursmedia. New tools ship every week; if you are missing one, we would love to hear about it."
+        "ChooseTools is built and maintained by hoursmedia. New tools ship every week; if you are missing one, we would love to hear about it.",
+        "Because everything runs on your device, ChooseTools is also kind to the planet. We host no heavy backends and store nothing, so every visit uses a fraction of the energy a server-side tool site would — and each tool you use locally helps keep emissions low. We believe software should achieve more while consuming less, and we invite you to give back with us: plant trees, dig wells and care for orphans worldwide through the causes on our Donate page."
       ]
     },
     "contact": {
@@ -1118,6 +1119,35 @@
         "Intellectual property. The site design, texts and code are the property of hoursmedia. The files you process remain entirely yours; we claim no rights over them.",
         "Changes. We may modify these terms or discontinue tools at any time. Continued use after changes constitutes acceptance."
       ]
+    },
+    "donate": {
+      "title": "Donate",
+      "intro": [
+        "ChooseTools is free, and it always will be. But you can join us in giving back: plant trees, bring clean water to communities, and care for orphans around the world.",
+        "Every cause below is a trusted global organization. Your donation goes directly to them — ChooseTools never touches your money and takes nothing from it."
+      ],
+      "trustNote": "ChooseTools is not an intermediary and takes no fee. Donations go 100% directly to the organizations listed here.",
+      "causes": {
+        "trees": {
+          "title": "Plant trees",
+          "desc": "One dollar plants one tree. Supporting reforestation restores habitats, cools the climate and protects biodiversity."
+        },
+        "water": {
+          "title": "Clean water & wells",
+          "desc": "Dig wells and bring clean, safe drinking water to communities that lack it — transforming health and daily life."
+        },
+        "orphans": {
+          "title": "Care for orphans",
+          "desc": "Give children without parental care a loving home, education and a future through global child-care organizations."
+        }
+      },
+      "donateBtn": "Donate",
+      "support": {
+        "title": "Support ChooseTools",
+        "desc": "Keeping this platform free costs real resources and every tool is built with care. If ChooseTools has saved you time, you can support its development with any amount.",
+        "btn": "Support ChooseTools",
+        "via": "Payments are handled securely by our payment provider."
+      }
     }
   },
   "sub": {

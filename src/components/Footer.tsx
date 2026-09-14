@@ -3,7 +3,7 @@ import { Link } from "@/i18n/navigation";
 import { CATEGORIES, POPULAR_SLUGS, TOOLS } from "@/lib/tools";
 import { Logo } from "./Logo";
 
-const COMPANY_LINKS = ["about", "contact", "privacy", "terms"] as const;
+const COMPANY_LINKS = ["about", "donate", "contact", "privacy", "terms"] as const;
 
 export function Footer() {
   const t = useTranslations("footer");

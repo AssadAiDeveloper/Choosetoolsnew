@@ -1082,7 +1082,8 @@
         "ChooseTools is een verzameling gratis bestandstools die volledig in je browser draaien. In tegenstelling tot traditionele toolwebsites ontvangen we je bestanden nooit: een PDF samenvoegen, een foto comprimeren of een QR-code genereren gebeurt allemaal lokaal op je eigen apparaat.",
         "Deze architectuur heeft drie gevolgen waar we trots op zijn. Ten eerste privacy — een bestand dat nooit wordt verzonden kan nooit uitlekken, worden gelogd of worden bewaard. Ten tweede snelheid — er is geen upload- of downloadtijd, dus zelfs grote bestanden worden direct verwerkt. Ten derde eerlijkheid — omdat verwerking ons niets kost, kunnen we echt onbeperkt gebruik aanbieden zonder groottebeperkingen, dagelijkse limieten of watermerken.",
         "Het platform is beschikbaar in veel talen, waarbij elke uitleg in de oorspronkelijke taal is geschreven in plaats van machinaal vertaald. Onze exclusief Arabische tools — zoals het verwijderen van tashkeel, de Hijri-datumconversie en tafqit — zijn speciaal gebouwd voor Arabische gebruikers, niet aangepast van Engelse tools.",
-        "ChooseTools wordt gebouwd en onderhouden door hoursmedia. Elke week komen er nieuwe tools uit; als je er één mist, horen we dat graag."
+        "ChooseTools wordt gebouwd en onderhouden door hoursmedia. Elke week komen er nieuwe tools uit; als je er één mist, horen we dat graag.",
+        "En omdat alles op je apparaat draait, is ChooseTools ook vriendelijk voor de planeet. We hosten geen zware servers en bewaren niets, dus elk bezoek verbruikt een fractie van de energie die een servergebaseerde toolsite zou gebruiken — en elke tool die je lokaal gebruikt helpt emissies laag te houden. Wij geloven dat software meer moet bereiken met minder verbruik, en nodigen je uit om met ons terug te geven: plant bomen, graaf putten en zorg voor wezen wereldwijd via de doelen op onze donatiepagina."
       ]
     },
     "contact": {
@@ -1118,6 +1119,35 @@
         "Intellectueel eigendom. Het ontwerp, de teksten en de code van de site zijn eigendom van hoursmedia. De bestanden die je verwerkt blijven volledig van jou; wij maken geen aanspraak op de rechten daarop.",
         "Wijzigingen. We kunnen deze voorwaarden op elk moment wijzigen of tools beëindigen. Voortgezet gebruik na wijzigingen geldt als aanvaarding."
       ]
+    },
+    "donate": {
+      "title": "Doneren",
+      "intro": [
+        "ChooseTools is gratis en dat blijft het altijd. Maar je kunt met ons iets teruggeven: bomen planten, schoon water brengen naar gemeenschappen en voor wezen over de hele wereld zorgen.",
+        "Elke oorzaak hieronder is een vertrouwde wereldwijde organisatie. Je donatie gaat er rechtstreeks naartoe: ChooseTools raakt je geld nooit aan en houdt er niets aan over."
+      ],
+      "trustNote": "ChooseTools is geen tussenpersoon en rekent geen vergoeding. Donaties gaan 100% rechtstreeks naar de hier genoemde organisaties.",
+      "causes": {
+        "trees": {
+          "title": "Bomen planten",
+          "desc": "Eén dollar plant één boom. Herbebossing herstelt leefgebieden, koelt het klimaat en beschermt biodiversiteit."
+        },
+        "water": {
+          "title": "Schoon water en putten",
+          "desc": "Putten graven en schoon, veilig drinkwater brengen naar gemeenschappen die het missen — een transformatie voor gezondheid en dagelijks leven."
+        },
+        "orphans": {
+          "title": "Zorg voor wezen",
+          "desc": "Kinderen zonder ouderlijke zorg een liefdevol thuis, onderwijs en een toekomst geven via wereldwijde kinderzorgorganisaties."
+        }
+      },
+      "donateBtn": "Doneer",
+      "support": {
+        "title": "Steun ChooseTools",
+        "desc": "Deze platform gratis houden kost echte middelen en elke tool is met zorg gebouwd. Als ChooseTools je tijd heeft bespaard, kun je de ontwikkeling steunen met elk bedrag.",
+        "btn": "Steun ChooseTools",
+        "via": "Betalingen worden veilig afgehandeld door onze betaalaanbieder."
+      }
     }
   },
   "sub": {

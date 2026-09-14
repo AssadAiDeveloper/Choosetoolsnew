@@ -1082,7 +1082,8 @@
         "ChooseTools adalah kumpulan alat berkas gratis yang berjalan sepenuhnya di dalam peramban Anda. Tidak seperti situs alat tradisional, kami tidak pernah menerima berkas Anda: menggabungkan PDF, mengompres foto, atau membuat kode QR semuanya terjadi secara lokal di perangkat Anda sendiri.",
         "Arsitektur ini memiliki tiga konsekuensi yang kami banggakan. Pertama, privasi — berkas yang tidak pernah dikirim tidak akan pernah bisa bocor, dicatat, atau disimpan. Kedua, kecepatan — tidak ada waktu unggah atau unduh, sehingga berkas besar pun diproses secara instan. Ketiga, kejujuran — karena pemrosesan tidak mengeluarkan biaya bagi kami, kami dapat menawarkan penggunaan yang benar-benar tanpa batas tanpa batas ukuran berkas, kuota harian, atau tanda air.",
         "Platform ini tersedia dalam banyak bahasa, dan setiap penjelasan ditulis secara asli, bukan hasil terjemahan mesin. Beberapa alat eksklusif kami — seperti penghapusan tashkeel, konversi tanggal Hijriah, dan tafqit — dibuat khusus untuk pengguna Arab, tidak diadaptasi dari alat berbahasa Inggris.",
-        "ChooseTools dibangun dan dikelola oleh hoursmedia. Alat baru rilis setiap minggu; jika ada yang Anda rasa kurang, kami akan senang mendengar kabar dari Anda."
+        "ChooseTools dibangun dan dikelola oleh hoursmedia. Alat baru rilis setiap minggu; jika ada yang Anda rasa kurang, kami akan senang mendengar kabar dari Anda.",
+        "Dan karena semuanya berjalan di perangkat Anda, ChooseTools juga ramah bagi planet. Kami tidak menghosting server yang berat dan tidak menyimpan apa pun, jadi setiap kunjungan memakai sebagian kecil energi yang akan digunakan situs alat berbasis server — dan setiap alat yang Anda gunakan secara lokal membantu menjaga emisi tetap rendah. Kami percaya perangkat lunak harus mencapai lebih banyak dengan konsumsi lebih sedikit, dan kami mengundang Anda memberi kembali bersama kami: tanam pohon, gali sumur, dan rawat anak yatim di seluruh dunia melalui sebab-sebab di halaman donasi kami."
       ]
     },
     "contact": {
@@ -1118,6 +1119,35 @@
         "Kekayaan intelektual. Desain situs, teks, dan kode adalah milik hoursmedia. Berkas yang Anda proses sepenuhnya tetap milik Anda; kami tidak mengklaim hak apa pun atas berkas tersebut.",
         "Perubahan. Kami dapat mengubah ketentuan ini atau menghentikan alat kapan saja. Penggunaan yang berlanjut setelah perubahan merupakan penerimaan."
       ]
+    },
+    "donate": {
+      "title": "Donasi",
+      "intro": [
+        "ChooseTools gratis dan akan selalu begitu. Tapi Anda bisa bergabung memberi kembali: menanam pohon, membawa air bersih ke komunitas, dan merawat anak yatim di seluruh dunia.",
+        "Setiap sebab di bawah adalah organisasi global terpercaya. Donasi Anda langsung sampai ke mereka — ChooseTools tidak pernah menyentuh uang Anda dan tidak mengambil apa pun darinya."
+      ],
+      "trustNote": "ChooseTools bukan perantara dan tidak memungut biaya. Donasi 100% langsung ke organisasi yang tercantum di sini.",
+      "causes": {
+        "trees": {
+          "title": "Menanam pohon",
+          "desc": "Satu dolar menanam satu pohon. Mendukung reboisasi memulihkan habitat, mendinginkan iklim, dan melindungi keanekaragaman hayati."
+        },
+        "water": {
+          "title": "Air bersih dan sumur",
+          "desc": "Menggali sumur dan membawa air minum bersih yang aman ke komunitas yang kekurangan — transformasi untuk kesehatan dan kehidupan sehari-hari."
+        },
+        "orphans": {
+          "title": "Merawat anak yatim",
+          "desc": "Memberi anak tanpa pengasuhan orang tua rumah yang penuh kasih, pendidikan, dan masa depan lewat organisasi perawatan anak global."
+        }
+      },
+      "donateBtn": "Donasi",
+      "support": {
+        "title": "Dukung ChooseTools",
+        "desc": "Menjaga platform ini gratis membutuhkan sumber daya nyata dan setiap alat dibangun dengan cermat. Jika ChooseTools menghemat waktu Anda, Anda dapat mendukung pengembangannya dengan jumlah berapa pun.",
+        "btn": "Dukung ChooseTools",
+        "via": "Pembayaran diproses dengan aman oleh penyedia pembayaran kami."
+      }
     }
   },
   "sub": {

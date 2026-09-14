@@ -1082,7 +1082,8 @@
         "A ChooseTools é uma coleção de ferramentas de ficheiros gratuitas que funcionam inteiramente dentro do seu navegador. Ao contrário dos sites de ferramentas tradicionais, nunca recebemos os seus ficheiros: fundir um PDF, comprimir uma fotografia ou gerar um código QR acontece tudo localmente no seu próprio dispositivo.",
         "Esta arquitetura tem três consequências de que nos orgulhamos. Primeiro, privacidade — um ficheiro que nunca é transmitido nunca pode ser vazado, registado ou retido. Segundo, velocidade — não há tempo de envio nem de descarga, por isso até ficheiros grandes são processados instantaneamente. Terceiro, honestidade — como o processamento não nos custa nada, podemos oferecer utilização verdadeiramente ilimitada, sem limites de tamanho de ficheiro, quotas diárias ou marcas de água.",
         "A plataforma está disponível em muitas línguas, com cada explicação escrita de forma nativa e não por tradução automática. As nossas ferramentas exclusivas em árabe — como a remoção de tashkeel, a conversão de datas hijri e o tafqit — são construídas especificamente para utilizadores árabes, não adaptadas de ferramentas em inglês.",
-        "A ChooseTools é construída e mantida pela hoursmedia. Novas ferramentas são lançadas todas as semanas; se sentir falta de alguma, adoraríamos ouvir a sua sugestão."
+        "A ChooseTools é construída e mantida pela hoursmedia. Novas ferramentas são lançadas todas as semanas; se sentir falta de alguma, adoraríamos ouvir a sua sugestão.",
+        "E como tudo roda no seu dispositivo, a ChooseTools também é gentil com o planeta. Não hospedamos servidores pesados nem armazenamos nada, então cada visita consome uma fração da energia que um site de ferramentas baseado em servidores usaria — e cada ferramenta que você usa localmente ajuda a manter as emissões baixas. Acreditamos que o software deve alcançar mais consumindo menos, e convidamos você a retribuir conosco: plante árvores, cave poços e cuide de órfãos no mundo todo através das causas da nossa página de doações."
       ]
     },
     "contact": {
@@ -1118,6 +1119,35 @@
         "Propriedade intelectual. O design, os textos e o código do site são propriedade da hoursmedia. Os ficheiros que processa permanecem inteiramente seus; não reivindicamos quaisquer direitos sobre eles.",
         "Alterações. Podemos modificar estes termos ou descontinuar ferramentas a qualquer momento. A utilização continuada após alterações constitui aceitação."
       ]
+    },
+    "donate": {
+      "title": "Doar",
+      "intro": [
+        "ChooseTools é gratuito e sempre será. Mas você pode se juntar a nós para retribuir: plantar árvores, levar água limpa às comunidades e cuidar de órfãos em todo o mundo.",
+        "Cada causa abaixo é uma organização global confiável. Sua doação vai diretamente para elas — a ChooseTools nunca toca no seu dinheiro e não fica com nada."
+      ],
+      "trustNote": "A ChooseTools não é intermediária e não cobra taxas. As doações vão 100% diretamente para as organizações listadas aqui.",
+      "causes": {
+        "trees": {
+          "title": "Plantar árvores",
+          "desc": "Um dólar planta uma árvore. Apoiar o reflorestamento restaura habitats, esfria o clima e protege a biodiversidade."
+        },
+        "water": {
+          "title": "Água limpa e poços",
+          "desc": "Cavar poços e levar água potável limpa e segura às comunidades que dela precisam — uma transformação na saúde e na vida diária."
+        },
+        "orphans": {
+          "title": "Cuidar de órfãos",
+          "desc": "Dar a crianças sem cuidados parentais um lar amoroso, educação e futuro através de organizações globais de cuidado infantil."
+        }
+      },
+      "donateBtn": "Doar",
+      "support": {
+        "title": "Apoie a ChooseTools",
+        "desc": "Manter esta plataforma gratuita custa recursos reais e cada ferramenta é construída com cuidado. Se a ChooseTools poupou o seu tempo, você pode apoiar o seu desenvolvimento com qualquer valor.",
+        "btn": "Apoie a ChooseTools",
+        "via": "Os pagamentos são processados com segurança pelo nosso provedor de pagamentos."
+      }
     }
   },
   "sub": {
