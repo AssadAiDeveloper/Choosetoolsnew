@@ -1187,5 +1187,9 @@
     "openTool": "Aracı aç",
     "privacyNote": "Ücretsiz · kayıt yok · dosyalarınız cihazınızdan asla çıkmaz",
     "backToBlog": "Tüm yazılara dön"
+  },
+  "common": {
+    "skipToContent": "İçeriğe atla",
+    "changeLanguage": "Dili değiştir"
   }
 }

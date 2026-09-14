@@ -1187,5 +1187,9 @@
     "openTool": "Buka alat",
     "privacyNote": "Gratis · tanpa daftar · file tidak pernah meninggalkan perangkat Anda",
     "backToBlog": "Kembali ke semua artikel"
+  },
+  "common": {
+    "skipToContent": "Lompat ke konten",
+    "changeLanguage": "Ganti bahasa"
   }
 }

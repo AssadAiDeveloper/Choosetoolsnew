@@ -34,7 +34,13 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
       description: t("metaDescription"),
       locale: ogLocale(locale),
     },
-    twitter: { card: "summary_large_image", site: "@choosetools", title: t("metaTitle"), description: t("metaDescription") },
+    twitter: {
+      card: "summary_large_image",
+      site: "@choosetools",
+      title: t("metaTitle"),
+      description: t("metaDescription"),
+      images: [`${SITE_URL}${locale === "en" ? "" : `/${locale}`}/opengraph-image.png`],
+    },
   };
 }
 

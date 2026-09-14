@@ -57,10 +57,11 @@ export async function generateMetadata({
       locale: ogLocale(locale),
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       site: "@choosetools",
       title: t("title"),
       description: t("description"),
+      images: [`${SITE_URL}/opengraph-image.png`],
     },
     other: { "theme-color": "#0e8a6c" },
   };
@@ -76,6 +77,8 @@ export default async function LocaleLayout({
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
+  const common = await getTranslations("common");
+  const skipLabel = common("skipToContent");
 
   const dir = locale === "ar" ? "rtl" : "ltr";
 
@@ -100,8 +103,11 @@ export default async function LocaleLayout({
       </head>
       <body className="min-h-screen flex flex-col antialiased" suppressHydrationWarning>
         <NextIntlClientProvider>
+          <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:rounded-lg focus:bg-brand-600 focus:px-4 focus:py-2 focus:font-semibold focus:text-white focus:shadow-lg">
+            {skipLabel}
+          </a>
           <Header />
-          <main className="flex-1">{children}</main>
+          <main id="main-content" className="flex-1">{children}</main>
           <Footer />
         </NextIntlClientProvider>
       </body>

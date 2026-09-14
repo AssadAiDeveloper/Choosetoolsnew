@@ -38,7 +38,13 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
       description: t("desc"),
       locale: ogLocale(locale),
     },
-    twitter: { card: "summary", site: "@choosetools", title: t("name"), description: t("desc") },
+    twitter: {
+      card: "summary_large_image",
+      site: "@choosetools",
+      title: t("name"),
+      description: t("desc"),
+      images: [`${SITE_URL}${locale === "en" ? "" : `/${locale}`}/opengraph-image.png`],
+    },
     alternates: {
       canonical: pathFor(locale, category),
       languages: { ...langs, "x-default": pathFor("en", category) },

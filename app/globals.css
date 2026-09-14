@@ -79,6 +79,10 @@ body {
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+  .privacy-dot, .floater, .hero-icon, .hero-shot, .hero-shimmer,
+  .animate-fadeIn, .animate-dropIn {
+    animation: none !important;
+  }
 }
 
 /* Dropzone vault border */

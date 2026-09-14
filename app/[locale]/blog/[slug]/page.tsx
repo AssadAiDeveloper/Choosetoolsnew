@@ -57,7 +57,13 @@ export async function generateMetadata({
       publishedTime: lastModified(),
       modifiedTime: lastModified(),
     },
-    twitter: { card: "summary_large_image", site: "@choosetools", title: programTitle, description: article.description },
+    twitter: {
+      card: "summary_large_image",
+      site: "@choosetools",
+      title: programTitle,
+      description: article.description,
+      images: [`${SITE_URL}${locale === "en" ? "" : `/${locale}`}/opengraph-image.png`],
+    },
     keywords: article.keywords,
   };
 }

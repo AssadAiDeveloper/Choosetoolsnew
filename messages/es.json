@@ -1187,5 +1187,9 @@
     "openTool": "Abrir herramienta",
     "privacyNote": "Gratis · sin registro · los archivos nunca salen de tu dispositivo",
     "backToBlog": "Volver a todos los artículos"
+  },
+  "common": {
+    "skipToContent": "Saltar al contenido",
+    "changeLanguage": "Cambiar idioma"
   }
 }

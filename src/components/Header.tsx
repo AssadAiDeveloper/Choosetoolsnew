@@ -45,6 +45,7 @@ function ChevronIcon({ open }: { open: boolean }) {
 export function Header() {
   const t = useTranslations("nav");
   const tc = useTranslations("categories");
+  const tcommon = useTranslations("common");
   const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
@@ -122,6 +123,7 @@ export function Header() {
               onClick={() => setLangOpen(!langOpen)}
               aria-haspopup="menu"
               aria-expanded={langOpen}
+              aria-label={tcommon("changeLanguage")}
               className="header-lang-button"
             >
               <GlobeIcon />

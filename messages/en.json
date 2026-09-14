@@ -1187,5 +1187,9 @@
     "openTool": "Open tool",
     "privacyNote": "Free · no sign-up · files never leave your device",
     "backToBlog": "Back to all articles"
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "changeLanguage": "Change language"
   }
 }
