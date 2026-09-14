@@ -1081,8 +1081,8 @@
       "body": [
         "ChooseTools is een verzameling gratis bestandstools die volledig in je browser draaien. In tegenstelling tot traditionele toolwebsites ontvangen we je bestanden nooit: een PDF samenvoegen, een foto comprimeren of een QR-code genereren gebeurt allemaal lokaal op je eigen apparaat.",
         "Deze architectuur heeft drie gevolgen waar we trots op zijn. Ten eerste privacy — een bestand dat nooit wordt verzonden kan nooit uitlekken, worden gelogd of worden bewaard. Ten tweede snelheid — er is geen upload- of downloadtijd, dus zelfs grote bestanden worden direct verwerkt. Ten derde eerlijkheid — omdat verwerking ons niets kost, kunnen we echt onbeperkt gebruik aanbieden zonder groottebeperkingen, dagelijkse limieten of watermerken.",
-        "Het platform is beschikbaar in veel talen, waarbij elke uitleg in de oorspronkelijke taal is geschreven in plaats van machinaal vertaald. Onze exclusief Arabische tools — zoals het verwijderen van tashkeel, de Hijri-datumconversie en tafqit — zijn speciaal gebouwd voor Arabische gebruikers, niet aangepast van Engelse tools.",
-        "ChooseTools wordt gebouwd en onderhouden door hoursmedia. Elke week komen er nieuwe tools uit; als je er één mist, horen we dat graag.",
+        "Het platform is beschikbaar in 11 talen, waarbij elke uitleg in de oorspronkelijke taal is geschreven in plaats van machinaal vertaald. Onze exclusief Arabische tools — zoals het verwijderen van tashkeel, de Hijri-datumconversie en tafqit — zijn speciaal gebouwd voor Arabische gebruikers, niet aangepast van Engelse tools.",
+        "ChooseTools wordt gebouwd en onderhouden door hoursmedia. Er komen regelmatig nieuwe tools bij; als je er één mist, horen we dat graag.",
         "En omdat alles op je apparaat draait, is ChooseTools ook vriendelijk voor de planeet. We hosten geen zware servers en bewaren niets, dus elk bezoek verbruikt een fractie van de energie die een servergebaseerde toolsite zou gebruiken — en elke tool die je lokaal gebruikt helpt emissies laag te houden. Wij geloven dat software meer moet bereiken met minder verbruik, en nodigen je uit om met ons terug te geven: plant bomen, graaf putten en zorg voor wezen wereldwijd via de doelen op onze donatiepagina."
       ]
     },
@@ -1139,6 +1139,32 @@
         "orphans": {
           "title": "Zorg voor wezen",
           "desc": "Kinderen zonder ouderlijke zorg een liefdevol thuis, onderwijs en een toekomst geven via wereldwijde kinderzorgorganisaties."
+        }
+      },
+      "orgs": {
+        "oneTreePlanted": {
+          "name": "One Tree Planted",
+          "desc": "Een bosbouwstichting die bomen plant met partners in meer dan 80 landen."
+        },
+        "eden": {
+          "name": "Eden Reforestation Projects",
+          "desc": "Werkgelegenheid voor dorpsbewoners om aangetaste landschappen te herstellen en miljoenen bomen te planten."
+        },
+        "charityWater": {
+          "name": "charity: water",
+          "desc": "Brengt schoon en veilig drinkwater naar gemeenschappen in ontwikkelingslanden."
+        },
+        "waterProject": {
+          "name": "The Water Project",
+          "desc": "Graaft putten en bouwt waterzuiveringssystemen voor gemeenschappen in Afrika ten zuiden van de Sahara."
+        },
+        "sos": {
+          "name": "SOS Kinderdorpen",
+          "desc": "Biedt liefdevolle huizen en zorg aan kinderen zonder ouderlijke zorg."
+        },
+        "unicef": {
+          "name": "UNICEF",
+          "desc": "Het VN-agentschap dat wereldwijd gezondheidszorg, schoon water en onderwijs biedt aan kinderen."
         }
       },
       "donateBtn": "Doneer",

@@ -1081,8 +1081,8 @@
       "body": [
         "ChooseTools, tamamen tarayıcınızın içinde çalışan ücretsiz dosya araçları koleksiyonudur. Geleneksel araç web sitelerinin aksine, dosyalarınızı hiçbir zaman almıyoruz: bir PDF'i birleştirmek, bir fotoğrafı sıkıştırmak veya bir QR kodu oluşturmak hepsi kendi cihazınızda yerel olarak gerçekleşir.",
         "Bu mimarinin gurur duyduğumuz üç sonucu vardır. Birincisi, gizlilik — hiç iletilmemiş bir dosya asla sızamaz, günlüğe kaydedilemez veya saklanamaz. İkincisi, hız — yükleme veya indirme süresi yoktur, bu yüzden büyük dosyalar bile anında işlenir. Üçüncüsü, dürüstlük — işleme bize hiçbir şeye mal olmadığından, dosya boyutu sınırları, günlük kotalar veya filigran olmadan gerçekten sınırsız kullanım sunabiliriz.",
-        "Platform, her açıklamanın makine çevirisi değil, ana dilinde yazılmasıyla İngilizce, Arapça ve İspanyolca olarak tamamen kullanıma açıktır. Arapça özel araçlarımız — tashkeel kaldırma, Hijri tarih dönüşümü ve tafqit gibi — İngilizce araçlardan uyarlanmış değil, Arapça kullanıcılar için özel olarak oluşturulmuştur. Arapça araçlarımıza ek olarak platformumuz, her geçen gün daha fazla dil ve araçla büyümeye devam etmektedir.",
-        "ChooseTools hoursmedia tarafından geliştirilmiştir ve sürdürülmektedir. Her hafta yeni araçlar eklenir; eksik bir araç varsa, duymayı çok isteriz.",
+        "Platform 11 dilde sunulur ve her açıklama makine çevirisi değil, ana dilinde yazılmıştır. Arapça özel araçlarımız — tashkeel kaldırma, Hijri tarih dönüşümü ve tafqit gibi — İngilizce araçlardan uyarlanmış değil, Arapça kullanıcılar için özel olarak oluşturulmuştur. Arapça araçlarımıza ek olarak platformumuz, her geçen gün daha fazla dil ve araçla büyümeye devam etmektedir.",
+        "ChooseTools hoursmedia tarafından geliştirilmiştir ve sürdürülmektedir. Yeni araçlar düzenli olarak eklenir; eksik bir araç varsa, duymayı çok isteriz.",
         "Ve her şey cihazınızda çalıştığı için ChooseTools gezegene de dosttur. Ağır sunucular barındırmıyor ve hiçbir şey saklamıyoruz; bu yüzden her ziyaret, sunucu tabanlı bir araç sitesinin harcayacağı enerjinin çok küçük bir kısmını kullanır — ve yerel olarak kullandığınız her araç, emisyonları düşük tutmaya yardımcı olur. Yazılımın daha az tüketerek daha fazlasını başarması gerektiğine inanıyor ve birlikte karşılık vermenizi davet ediyoruz: ağaç dikin, kuyu kazın ve bağış sayfamızdaki nedenler aracılığıyla dünya çapında yetimlere bakın."
       ]
     },
@@ -1139,6 +1139,32 @@
         "orphans": {
           "title": "Yetimlerin bakımı",
           "desc": "Ebeveyn bakımı olmayan çocuklara küresel çocuk bakım kuruluşları aracılığıyla sevgi dolu bir yuva, eğitim ve gelecek vermek."
+        }
+      },
+      "orgs": {
+        "oneTreePlanted": {
+          "name": "One Tree Planted",
+          "desc": "80'in üzerinde ülkede ortaklarıyla ağaç diken kar amacı gütmeyen bir ağaçlandırma kuruluşu."
+        },
+        "eden": {
+          "name": "Eden Reforestation Projects",
+          "desc": "Yerel köylüleri istihdam ederek bozulmuş alanları restore eder ve milyonlarca ağaç diker."
+        },
+        "charityWater": {
+          "name": "charity: water",
+          "desc": "Gelişmekte olan ülkelerdeki topluluklara temiz ve güvenli içme suyu ulaştırır."
+        },
+        "waterProject": {
+          "name": "The Water Project",
+          "desc": "Sahra Altı Afrika'daki topluluklar için kuyular ve temiz su sistemleri kurar."
+        },
+        "sos": {
+          "name": "SOS Çocuk Köyleri",
+          "desc": "Ebeveyn bakımı olmayan çocuklara sıcak yuvalar ve bakım sağlar."
+        },
+        "unicef": {
+          "name": "UNICEF",
+          "desc": "Dünya genelinde çocuklara sağlık, temiz su ve eğitim ulaştıran Birleşmiş Milletler kuruluşu."
         }
       },
       "donateBtn": "Bağış Yap",

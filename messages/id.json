@@ -1081,8 +1081,8 @@
       "body": [
         "ChooseTools adalah kumpulan alat berkas gratis yang berjalan sepenuhnya di dalam peramban Anda. Tidak seperti situs alat tradisional, kami tidak pernah menerima berkas Anda: menggabungkan PDF, mengompres foto, atau membuat kode QR semuanya terjadi secara lokal di perangkat Anda sendiri.",
         "Arsitektur ini memiliki tiga konsekuensi yang kami banggakan. Pertama, privasi — berkas yang tidak pernah dikirim tidak akan pernah bisa bocor, dicatat, atau disimpan. Kedua, kecepatan — tidak ada waktu unggah atau unduh, sehingga berkas besar pun diproses secara instan. Ketiga, kejujuran — karena pemrosesan tidak mengeluarkan biaya bagi kami, kami dapat menawarkan penggunaan yang benar-benar tanpa batas tanpa batas ukuran berkas, kuota harian, atau tanda air.",
-        "Platform ini tersedia dalam banyak bahasa, dan setiap penjelasan ditulis secara asli, bukan hasil terjemahan mesin. Beberapa alat eksklusif kami — seperti penghapusan tashkeel, konversi tanggal Hijriah, dan tafqit — dibuat khusus untuk pengguna Arab, tidak diadaptasi dari alat berbahasa Inggris.",
-        "ChooseTools dibangun dan dikelola oleh hoursmedia. Alat baru rilis setiap minggu; jika ada yang Anda rasa kurang, kami akan senang mendengar kabar dari Anda.",
+        "Platform ini tersedia dalam 11 bahasa, dan setiap penjelasan ditulis secara asli, bukan hasil terjemahan mesin. Beberapa alat eksklusif kami — seperti penghapusan tashkeel, konversi tanggal Hijriah, dan tafqit — dibuat khusus untuk pengguna Arab, tidak diadaptasi dari alat berbahasa Inggris.",
+        "ChooseTools dibangun dan dikelola oleh hoursmedia. Alat baru ditambahkan secara rutin; jika ada yang Anda rasa kurang, kami akan senang mendengar kabar dari Anda.",
         "Dan karena semuanya berjalan di perangkat Anda, ChooseTools juga ramah bagi planet. Kami tidak menghosting server yang berat dan tidak menyimpan apa pun, jadi setiap kunjungan memakai sebagian kecil energi yang akan digunakan situs alat berbasis server — dan setiap alat yang Anda gunakan secara lokal membantu menjaga emisi tetap rendah. Kami percaya perangkat lunak harus mencapai lebih banyak dengan konsumsi lebih sedikit, dan kami mengundang Anda memberi kembali bersama kami: tanam pohon, gali sumur, dan rawat anak yatim di seluruh dunia melalui sebab-sebab di halaman donasi kami."
       ]
     },
@@ -1139,6 +1139,32 @@
         "orphans": {
           "title": "Merawat anak yatim",
           "desc": "Memberi anak tanpa pengasuhan orang tua rumah yang penuh kasih, pendidikan, dan masa depan lewat organisasi perawatan anak global."
+        }
+      },
+      "orgs": {
+        "oneTreePlanted": {
+          "name": "One Tree Planted",
+          "desc": "Organisasi nirlaba penghijauan yang menanam pohon bersama mitra di lebih dari 80 negara."
+        },
+        "eden": {
+          "name": "Eden Reforestation Projects",
+          "desc": "Mempekerjakan warga desa untuk memulihkan lahan yang rusak dan menanam jutaan pohon."
+        },
+        "charityWater": {
+          "name": "charity: water",
+          "desc": "Membawa air minum yang bersih dan aman bagi masyarakat di negara berkembang."
+        },
+        "waterProject": {
+          "name": "The Water Project",
+          "desc": "Membangun sumur dan sistem air bersih bagi masyarakat di Afrika sub-Sahara."
+        },
+        "sos": {
+          "name": "SOS Children's Villages",
+          "desc": "Menyediakan rumah dan pengasuhan yang penuh kasih bagi anak tanpa pengasuhan orang tua."
+        },
+        "unicef": {
+          "name": "UNICEF",
+          "desc": "Badan PBB yang menghadirkan layanan kesehatan, air bersih, dan pendidikan bagi anak-anak dunia."
         }
       },
       "donateBtn": "Donasi",

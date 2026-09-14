@@ -1081,8 +1081,8 @@
       "body": [
         "A ChooseTools é uma coleção de ferramentas de ficheiros gratuitas que funcionam inteiramente dentro do seu navegador. Ao contrário dos sites de ferramentas tradicionais, nunca recebemos os seus ficheiros: fundir um PDF, comprimir uma fotografia ou gerar um código QR acontece tudo localmente no seu próprio dispositivo.",
         "Esta arquitetura tem três consequências de que nos orgulhamos. Primeiro, privacidade — um ficheiro que nunca é transmitido nunca pode ser vazado, registado ou retido. Segundo, velocidade — não há tempo de envio nem de descarga, por isso até ficheiros grandes são processados instantaneamente. Terceiro, honestidade — como o processamento não nos custa nada, podemos oferecer utilização verdadeiramente ilimitada, sem limites de tamanho de ficheiro, quotas diárias ou marcas de água.",
-        "A plataforma está disponível em muitas línguas, com cada explicação escrita de forma nativa e não por tradução automática. As nossas ferramentas exclusivas em árabe — como a remoção de tashkeel, a conversão de datas hijri e o tafqit — são construídas especificamente para utilizadores árabes, não adaptadas de ferramentas em inglês.",
-        "A ChooseTools é construída e mantida pela hoursmedia. Novas ferramentas são lançadas todas as semanas; se sentir falta de alguma, adoraríamos ouvir a sua sugestão.",
+        "A plataforma está disponível em 11 línguas, com cada explicação escrita de forma nativa e não por tradução automática. As nossas ferramentas exclusivas em árabe — como a remoção de tashkeel, a conversão de datas hijri e o tafqit — são construídas especificamente para utilizadores árabes, não adaptadas de ferramentas em inglês.",
+        "A ChooseTools é construída e mantida pela hoursmedia. Novas ferramentas são adicionadas regularmente; se sentir falta de alguma, adoraríamos ouvir a sua sugestão.",
         "E como tudo roda no seu dispositivo, a ChooseTools também é gentil com o planeta. Não hospedamos servidores pesados nem armazenamos nada, então cada visita consome uma fração da energia que um site de ferramentas baseado em servidores usaria — e cada ferramenta que você usa localmente ajuda a manter as emissões baixas. Acreditamos que o software deve alcançar mais consumindo menos, e convidamos você a retribuir conosco: plante árvores, cave poços e cuide de órfãos no mundo todo através das causas da nossa página de doações."
       ]
     },
@@ -1139,6 +1139,32 @@
         "orphans": {
           "title": "Cuidar de órfãos",
           "desc": "Dar a crianças sem cuidados parentais um lar amoroso, educação e futuro através de organizações globais de cuidado infantil."
+        }
+      },
+      "orgs": {
+        "oneTreePlanted": {
+          "name": "One Tree Planted",
+          "desc": "Uma organização sem fins lucrativos de reflorestamento que planta árvores com parceiros em mais de 80 países."
+        },
+        "eden": {
+          "name": "Eden Reforestation Projects",
+          "desc": "Contrata moradores locais para restaurar paisagens degradadas e plantar milhões de árvores."
+        },
+        "charityWater": {
+          "name": "charity: water",
+          "desc": "Leva água potável limpa e segura a comunidades de países em desenvolvimento."
+        },
+        "waterProject": {
+          "name": "The Water Project",
+          "desc": "Constrói poços e sistemas de água limpa para comunidades na África subsaariana."
+        },
+        "sos": {
+          "name": "Aldeias de Crianças SOS",
+          "desc": "Oferece lares acolhedores e cuidados a crianças sem cuidados parentais."
+        },
+        "unicef": {
+          "name": "UNICEF",
+          "desc": "A agência da ONU que leva saúde, água limpa e educação às crianças de todo o mundo."
         }
       },
       "donateBtn": "Doar",

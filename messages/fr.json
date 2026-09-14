@@ -1081,8 +1081,8 @@
       "body": [
         "ChooseTools est une collection d'outils de fichiers gratuits qui fonctionnent entièrement dans votre navigateur. Contrairement aux sites d'outils classiques, nous ne recevons jamais vos fichiers : fusionner un PDF, compresser une photo ou générer un QR code, tout se passe localement sur votre propre appareil.",
         "Cette architecture a trois conséquences dont nous sommes fiers. D'abord, la confidentialité — un fichier qui n'est jamais transmis ne peut jamais être divulgué, journalisé ou conservé. Ensuite, la rapidité — pas de temps d'envoi ni de téléchargement, même les gros fichiers sont donc traités instantanément. Enfin, l'honnêteté — comme le traitement ne nous coûte rien, nous pouvons offrir une utilisation réellement illimitée, sans limite de taille, quota journalier ni filigrane.",
-        "La plateforme est disponible dans de nombreuses langues, avec chaque explication rédigée nativement plutôt que traduite automatiquement. Nos outils exclusifs à l'arabe — comme la suppression des tachkil, la conversion des dates hégiriennes et le tafqit — sont conçus spécifiquement pour les utilisateurs arabophones, et non adaptés d'outils anglophones.",
-        "ChooseTools est construit et maintenu par hoursmedia. De nouveaux outils sont publiés chaque semaine ; s'il vous en manque un, nous serions ravis d'en entendre parler.",
+        "La plateforme est disponible en 11 langues, avec chaque explication rédigée nativement plutôt que traduite automatiquement. Nos outils exclusifs à l'arabe — comme la suppression des tachkil, la conversion des dates hégiriennes et le tafqit — sont conçus spécifiquement pour les utilisateurs arabophones, et non adaptés d'outils anglophones.",
+        "ChooseTools est construit et maintenu par hoursmedia. De nouveaux outils sont ajoutés régulièrement ; s'il vous en manque un, nous serions ravis d'en entendre parler.",
         "Et parce que tout fonctionne sur votre appareil, ChooseTools est aussi doux avec la planète. Nous n'hébergeons aucun serveur lourd et ne stockons rien : chaque visite consomme une fraction de l'énergie qu'utiliserait un site d'outils côté serveur, et chaque outil que vous utilisez localement aide à réduire les émissions. Nous croyons qu'un logiciel doit faire plus en consommant moins, et nous vous invitons à donner en retour avec nous : plantez des arbres, creusez des puits et prenez soin des orphelins du monde grâce aux causes de notre page de dons."
       ]
     },
@@ -1139,6 +1139,32 @@
         "orphans": {
           "title": "Prendre soin des orphelins",
           "desc": "Donner aux enfants privés de soins parentaux un foyer aimant, une éducation et un avenir grâce à des organisations mondiales de protection de l'enfance."
+        }
+      },
+      "orgs": {
+        "oneTreePlanted": {
+          "name": "One Tree Planted",
+          "desc": "Une ONG de reforestation qui plante des arbres avec des partenaires dans plus de 80 pays."
+        },
+        "eden": {
+          "name": "Eden Reforestation Projects",
+          "desc": "Emploie des villageois pour restaurer les paysages dégradés et planter des millions d'arbres."
+        },
+        "charityWater": {
+          "name": "charity: water",
+          "desc": "Apporte une eau potable propre et sûre aux communautés des pays en développement."
+        },
+        "waterProject": {
+          "name": "The Water Project",
+          "desc": "Construit des puits et des systèmes d'eau potable pour les communautés d'Afrique subsaharienne."
+        },
+        "sos": {
+          "name": "Villages d'Enfants SOS",
+          "desc": "Offre des foyers aimants et une prise en charge aux enfants privés de soins parentaux."
+        },
+        "unicef": {
+          "name": "UNICEF",
+          "desc": "L'agence des Nations unies qui apporte santé, eau potable et éducation aux enfants du monde entier."
         }
       },
       "donateBtn": "Faire un don",

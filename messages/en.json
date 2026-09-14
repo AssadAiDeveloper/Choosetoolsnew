@@ -1081,8 +1081,8 @@
       "body": [
         "ChooseTools is a collection of free file tools that run entirely inside your browser. Unlike traditional tool websites, we never receive your files: merging a PDF, compressing a photo or generating a QR code all happen locally on your own device.",
         "This architecture has three consequences we are proud of. First, privacy â€” a file that is never transmitted can never be leaked, logged or retained. Second, speed â€” there is no upload or download time, so even large files process instantly. Third, honesty â€” because processing costs us nothing, we can offer genuinely unlimited use with no file-size caps, daily quotas or watermarks.",
-        "The platform is fully available in English, Arabic and Spanish, with every explanation written natively rather than machine-translated. Our Arabic-exclusive tools â€” like tashkeel removal, Hijri date conversion and tafqit â€” are built specifically for Arabic users, not adapted from English tools.",
-        "ChooseTools is built and maintained by hoursmedia. New tools ship every week; if you are missing one, we would love to hear about it.",
+        "The platform is available in 11 languages, with every explanation written natively rather than machine-translated. Our Arabic-exclusive tools â€” like tashkeel removal, Hijri date conversion and tafqit â€” are built specifically for Arabic users, not adapted from English tools.",
+        "ChooseTools is built and maintained by hoursmedia. New tools are added regularly; if you are missing one, we would love to hear about it.",
         "Because everything runs on your device, ChooseTools is also kind to the planet. We host no heavy backends and store nothing, so every visit uses a fraction of the energy a server-side tool site would — and each tool you use locally helps keep emissions low. We believe software should achieve more while consuming less, and we invite you to give back with us: plant trees, dig wells and care for orphans worldwide through the causes on our Donate page."
       ]
     },
@@ -1139,6 +1139,32 @@
         "orphans": {
           "title": "Care for orphans",
           "desc": "Give children without parental care a loving home, education and a future through global child-care organizations."
+        }
+      },
+      "orgs": {
+        "oneTreePlanted": {
+          "name": "One Tree Planted",
+          "desc": "A reforestation nonprofit that plants trees with partners in more than 80 countries."
+        },
+        "eden": {
+          "name": "Eden Reforestation Projects",
+          "desc": "Employs local villagers to restore degraded landscapes and plant millions of trees."
+        },
+        "charityWater": {
+          "name": "charity: water",
+          "desc": "Brings clean, safe drinking water to communities in developing countries."
+        },
+        "waterProject": {
+          "name": "The Water Project",
+          "desc": "Builds wells and clean water systems for communities in sub-Saharan Africa."
+        },
+        "sos": {
+          "name": "SOS Children's Villages",
+          "desc": "Provides loving homes and care for children without parental care."
+        },
+        "unicef": {
+          "name": "UNICEF",
+          "desc": "The United Nations agency delivering healthcare, clean water and education to children worldwide."
         }
       },
       "donateBtn": "Donate",

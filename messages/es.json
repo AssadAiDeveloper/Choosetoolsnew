@@ -1081,8 +1081,8 @@
       "body": [
         "ChooseTools es una colección de herramientas de archivos gratuitas que funcionan íntegramente dentro de tu navegador. A diferencia de los sitios de herramientas tradicionales, nunca recibimos tus archivos: unir un PDF, comprimir una foto o generar un código QR ocurre localmente en tu propio dispositivo.",
         "Esta arquitectura tiene tres consecuencias de las que estamos orgullosos. Primero, la privacidad: un archivo que nunca se transmite jamás puede filtrarse, registrarse o retenerse. Segundo, la velocidad: no hay subida ni descarga, así que incluso los archivos grandes se procesan al instante. Tercero, la honestidad: como procesar no nos cuesta nada, podemos ofrecer un uso realmente ilimitado, sin límites de tamaño, cuotas diarias ni marcas de agua.",
-        "La plataforma está disponible en español, inglés y árabe, con cada explicación escrita en su idioma nativo, no traducida automáticamente.",
-        "ChooseTools está creado y mantenido por hoursmedia. Cada semana salen herramientas nuevas: si echas alguna en falta, nos encantará saberlo.",
+        "La plataforma está disponible en 11 idiomas, con cada explicación escrita en su idioma nativo, no traducida automáticamente.",
+        "ChooseTools está creado y mantenido por hoursmedia. Añadimos herramientas nuevas con regularidad: si echas alguna en falta, nos encantará saberlo.",
         "Y porque todo funciona en tu dispositivo, ChooseTools también es amable con el planeta. No alojamos servidores pesados ni guardamos nada, así que cada visita consume una fracción de la energía que usaría un sitio de herramientas con servidores — y cada herramienta que usas localmente ayuda a reducir las emisiones. Creemos que el software debe lograr más consumiendo menos, y te invitamos a dar algo a cambio con nosotros: planta árboles, cava pozos y cuida de los huérfanos del mundo a través de las causas de nuestra página de donaciones."
       ]
     },
@@ -1139,6 +1139,32 @@
         "orphans": {
           "title": "Cuidado de los huérfanos",
           "desc": "Dar a los niños sin cuidado parental un hogar amoroso, educación y un futuro a través de organizaciones mundiales de cuidado infantil."
+        }
+      },
+      "orgs": {
+        "oneTreePlanted": {
+          "name": "One Tree Planted",
+          "desc": "Organización sin fines de lucro que planta árboles con aliados en más de 80 países."
+        },
+        "eden": {
+          "name": "Eden Reforestation Projects",
+          "desc": "Emplea a lugareños para restaurar paisajes degradados y plantar millones de árboles."
+        },
+        "charityWater": {
+          "name": "charity: water",
+          "desc": "Lleva agua potable limpia y segura a comunidades de países en desarrollo."
+        },
+        "waterProject": {
+          "name": "The Water Project",
+          "desc": "Construye pozos y sistemas de agua limpia para comunidades del África subsahariana."
+        },
+        "sos": {
+          "name": "Aldeas Infantiles SOS",
+          "desc": "Proporciona hogares y cuidados amorosos a niños sin cuidado parental."
+        },
+        "unicef": {
+          "name": "UNICEF",
+          "desc": "La agencia de las Naciones Unidas que lleva salud, agua limpia y educación a los niños del mundo."
         }
       },
       "donateBtn": "Donar",

@@ -1081,8 +1081,8 @@
       "body": [
         "ChooseTools ist eine Sammlung kostenloser Datei-Tools, die vollständig in Ihrem Browser laufen. Anders als traditionelle Tool-Websites empfangen wir Ihre Dateien niemals: das Zusammenführen einer PDF, das Komprimieren eines Fotos oder das Erzeugen eines QR-Codes geschieht lokal auf Ihrem eigenen Gerät.",
         "Diese Architektur hat drei Konsequenzen, auf die wir stolz sind. Erstens Datenschutz — eine Datei, die niemals übertragen wird, kann nie durchsickern, protokolliert oder aufbewahrt werden. Zweitens Geschwindigkeit — es gibt keine Upload- oder Downloadzeit, sodass selbst große Dateien sofort verarbeitet werden. Drittens Ehrlichkeit — weil die Verarbeitung uns nichts kostet, können wir echte unbegrenzte Nutzung ohne Dateigrößenbegrenzungen, Tageskontingente oder Wasserzeichen anbieten.",
-        "Die Plattform ist in vielen Sprachen verfügbar, wobei jede Erklärung nativ verfasst und nicht maschinell übersetzt ist. Unsere exklusiv arabischen Tools — wie das Entfernen von Tashkeel, die Hidschra-Datumsumrechnung und Tafqit — sind speziell für arabischsprachige Nutzer entwickelt, nicht aus englischen Tools abgeleitet.",
-        "ChooseTools wird von hoursmedia entwickelt und gepflegt. Jede Woche kommen neue Tools hinzu; wenn Ihnen ein Tool fehlt, würden wir uns freuen, davon zu hören.",
+        "Die Plattform ist in 11 Sprachen verfügbar, wobei jede Erklärung nativ verfasst und nicht maschinell übersetzt ist. Unsere exklusiv arabischen Tools — wie das Entfernen von Tashkeel, die Hidschra-Datumsumrechnung und Tafqit — sind speziell für arabischsprachige Nutzer entwickelt, nicht aus englischen Tools abgeleitet.",
+        "ChooseTools wird von hoursmedia entwickelt und gepflegt. Regelmäßig kommen neue Tools hinzu; wenn Ihnen ein Tool fehlt, würden wir uns freuen, davon zu hören.",
         "Und weil alles auf Ihrem Gerät läuft, ist ChooseTools auch freundlich zum Planeten. Wir betreiben keine schweren Server und speichern nichts, also verbraucht jeder Besuch einen Bruchteil der Energie, die eine serverbasierte Tool-Site verbrauchen würde — und jedes lokal genutzte Tool hilft, Emissionen gering zu halten. Wir glauben, dass Software mehr erreichen und dabei weniger verbrauchen sollte, und laden Sie ein, mit uns etwas zurückzugeben: Pflanzen Sie Bäume, graben Sie Brunnen und kümmern Sie sich um Waisen auf der Welt — über die Anliegen auf unserer Spendenseite."
       ]
     },
@@ -1139,6 +1139,32 @@
         "orphans": {
           "title": "Fürsorge für Waisen",
           "desc": "Kindern ohne elterliche Fürsorge ein liebevolles Zuhause, Bildung und eine Zukunft geben — durch weltweite Kinderhilfsorganisationen."
+        }
+      },
+      "orgs": {
+        "oneTreePlanted": {
+          "name": "One Tree Planted",
+          "desc": "Eine gemeinnützige Aufforstungsorganisation, die gemeinsam mit Partnern in über 80 Ländern Bäume pflanzt."
+        },
+        "eden": {
+          "name": "Eden Reforestation Projects",
+          "desc": "Beschäftigt Dorfbewohner, um geschädigte Landschaften wiederherzustellen und Millionen von Bäumen zu pflanzen."
+        },
+        "charityWater": {
+          "name": "charity: water",
+          "desc": "Bringt sauberes Trinkwasser in Gemeinden in Entwicklungsländern."
+        },
+        "waterProject": {
+          "name": "The Water Project",
+          "desc": "Baut Brunnen und Trinkwassersysteme für Gemeinden in Subsahara-Afrika."
+        },
+        "sos": {
+          "name": "SOS-Kinderdörfer",
+          "desc": "Bietet liebevolle Zuhause und Fürsorge für Kinder ohne elterliche Betreuung."
+        },
+        "unicef": {
+          "name": "UNICEF",
+          "desc": "Die Kinderhilfsorganisation der Vereinten Nationen bringt Gesundheit, sauberes Wasser und Bildung in die Welt."
         }
       },
       "donateBtn": "Spenden",
