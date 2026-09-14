@@ -23,7 +23,7 @@ function ToolShot() {
         <span className="h-2.5 w-2.5 rounded-full bg-red-400" />
         <span className="h-2.5 w-2.5 rounded-full bg-amber-400" />
         <span className="h-2.5 w-2.5 rounded-full bg-emerald-400" />
-        <span className="ms-2 flex-1 truncate rounded-md bg-slate-100 px-2 py-0.5 text-center font-mono text-[10px] text-ink-soft">choosetools.com</span>
+        <span className="ms-2 flex-1 truncate rounded-md bg-slate-100 px-2 py-0.5 text-center font-mono text-[10px] text-ink-soft">choosetoolsnew.vercel.app</span>
       </div>
       {/* app body: dropzone with the site's file-type chips */}
       <div className="rounded-xl border-2 border-dashed border-line bg-surface/70 px-5 py-6 text-center">

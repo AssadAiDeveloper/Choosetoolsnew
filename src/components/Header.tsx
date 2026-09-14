@@ -75,7 +75,6 @@ export function Header() {
 
   const mobileLinks = [
     ...mainLinks,
-    { href: "/text", label: t("arabic") },
     { href: "/blog", label: t("blog") },
     ...featureLinks,
   ];

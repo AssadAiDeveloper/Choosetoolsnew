@@ -697,44 +697,47 @@ const toIdx = clean.findIndex((l) => /^(bill\s*to|billed\s*to|to\b\s*[:—-]?|إ
   const statusBadge = (st: Status) =>
     `<span class="inv-status-badge s-${st}">${Lx[st]}</span>`;
 
+  const esc = (str: string | number) =>
+    String(str ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  const adr = (str: string) => esc(str).replace(/\n/g, "<br>");
+
   const previewHtml = (() => {
-    const fromDetails = [s.fromAddr, s.fromEmail ? `✉ ${s.fromEmail}` : "", s.fromPhone ? `✆ ${s.fromPhone}` : "", s.fromTax ? `${s.taxLabel}: ${s.fromTax}` : "", s.fromKvk ? `KvK: ${s.fromKvk}` : "", s.fromWeb ? `🌐 ${s.fromWeb}` : ""].filter(Boolean).join("\n");
-    const toDetails = [s.toContact, s.toAddr, s.toEmail ? `✉ ${s.toEmail}` : "", s.toPhone ? `✆ ${s.toPhone}` : "", s.toTax ? `${s.taxLabel}: ${s.toTax}` : "", s.toCode ? `Code: ${s.toCode}` : ""].filter(Boolean).join("\n");
-    const ac = s.accent;
+    const fromDetails = [adr(s.fromAddr), s.fromEmail ? `✉ ${esc(s.fromEmail)}` : "", s.fromPhone ? `✆ ${esc(s.fromPhone)}` : "", s.fromTax ? `${esc(s.taxLabel)}: ${esc(s.fromTax)}` : "", s.fromKvk ? `KvK: ${esc(s.fromKvk)}` : "", s.fromWeb ? `🌐 ${esc(s.fromWeb)}` : ""].filter(Boolean).join("<br>");
+    const toDetails = [adr(s.toContact), adr(s.toAddr), s.toEmail ? `✉ ${esc(s.toEmail)}` : "", s.toPhone ? `✆ ${esc(s.toPhone)}` : "", s.toTax ? `${esc(s.taxLabel)}: ${esc(s.toTax)}` : "", s.toCode ? `Code: ${esc(s.toCode)}` : ""].filter(Boolean).join("<br>");
     return `
   <div dir="${dir}" style="font-family:${serifFamily}, Georgia, serif;position:relative;">
     ${s.logo && s.wmEnabled ? `
     <div id="inv-watermark" class="inv-watermark">
-      <img src="${s.logo}" alt="" style="width:auto;max-width:42%;max-height:160px;opacity:0.05;object-fit:contain;filter:grayscale(100%);-webkit-print-color-adjust:exact;print-color-adjust:exact;">
+      <img src="${esc(s.logo)}" alt="" style="width:auto;max-width:42%;max-height:160px;opacity:0.05;object-fit:contain;filter:grayscale(100%);-webkit-print-color-adjust:exact;print-color-adjust:exact;">
     </div>` : ""}
     <div data-content style="position:relative;z-index:1;">
     <div class="inv-top">
       <div>
-        ${s.logo ? `<img src="${s.logo}" alt="logo" style="max-height:70px;max-width:200px;object-fit:contain;display:block;margin-bottom:10px">` : ""}
-        <div class="inv-brand-name">${s.fromName || "Your Company"}</div>
-        ${s.fromTagline ? `<div class="inv-tagline">${s.fromTagline}</div>` : ""}
+        ${s.logo ? `<img src="${esc(s.logo)}" alt="logo" style="max-height:70px;max-width:200px;object-fit:contain;display:block;margin-bottom:10px">` : ""}
+        <div class="inv-brand-name">${esc(s.fromName || "Your Company")}</div>
+        ${s.fromTagline ? `<div class="inv-tagline">${esc(s.fromTagline)}</div>` : ""}
       </div>
       <div class="inv-title-area">
-        <div class="inv-word" style="color:${ac}">${Lx.invoice}</div>
+        <div class="inv-word" style="color:${esc(s.accent)}">${Lx.invoice}</div>
         <div class="inv-meta">
-          <strong>${Lx.num}</strong> ${s.invoiceNum}<br>
-          ${s.poNum ? `<strong>${Lx.ref}:</strong> ${s.poNum}<br>` : ""}
+          <strong>${Lx.num}</strong> ${esc(s.invoiceNum)}<br>
+          ${s.poNum ? `<strong>${Lx.ref}:</strong> ${esc(s.poNum)}<br>` : ""}
           ${statusBadge(s.status)}<br>
-          ${s.invDate ? `<strong>${Lx.date}:</strong> ${s.invDate}<br>` : ""}
-          ${s.dueDate ? `<strong>${Lx.due}:</strong> ${s.dueDate}` : ""}
+          ${s.invDate ? `<strong>${Lx.date}:</strong> ${esc(s.invDate)}<br>` : ""}
+          ${s.dueDate ? `<strong>${Lx.due}:</strong> ${esc(s.dueDate)}` : ""}
         </div>
       </div>
     </div>
-    <div class="inv-divider" style="background:linear-gradient(90deg, ${ac} 0%, ${ac}88 40%, transparent 100%)"></div>
+    <div class="inv-divider" style="background:linear-gradient(90deg, ${esc(s.accent)} 0%, ${esc(s.accent)}88 40%, transparent 100%)"></div>
     <div class="inv-parties">
       <div>
         <div class="inv-party-lbl">${Lx.from}</div>
-        <div class="inv-party-name">${s.fromName || "Your Company"}</div>
+        <div class="inv-party-name">${esc(s.fromName || "Your Company")}</div>
         <div class="inv-party-detail">${fromDetails}</div>
       </div>
       <div>
         <div class="inv-party-lbl">${Lx.to}</div>
-        <div class="inv-party-name">${s.toName || "Client"}</div>
+        <div class="inv-party-name">${esc(s.toName || "Client")}</div>
         <div class="inv-party-detail">${toDetails}</div>
       </div>
     </div>
@@ -744,17 +747,17 @@ const toIdx = clean.findIndex((l) => /^(bill\s*to|billed\s*to|to\b\s*[:—-]?|إ
           <th style="width:42%">${Lx.desc}</th>
           <th class="r" style="width:10%">${Lx.qty}</th>
           <th class="r" style="width:18%">${Lx.rate}</th>
-          ${showTax ? `<th class="r" style="width:12%">${s.taxLabel}%</th>` : ""}
+          ${showTax ? `<th class="r" style="width:12%">${esc(s.taxLabel)}%</th>` : ""}
           <th class="r" style="width:${showTax ? "18%" : "30%"}">${Lx.amount}</th>
         </tr>
       </thead>
       <tbody>
         ${items.map((it) => `
           <tr>
-            <td>${it.desc || "—"}</td>
-            <td class="r" style="color:#888">${it.qty}</td>
+            <td>${esc(it.desc || "—")}</td>
+            <td class="r" style="color:#888">${esc(it.qty)}</td>
             <td class="r" style="color:#888">${fmt(it.rate)}</td>
-            ${showTax ? `<td class="r" style="color:#888">${it.tax}%</td>` : ""}
+            ${showTax ? `<td class="r" style="color:#888">${esc(it.tax)}%</td>` : ""}
             <td class="r">${fmt(it.qty * it.rate * (1 + (showTax ? it.tax : 0) / 100))}</td>
           </tr>
         `).join("")}
@@ -763,18 +766,18 @@ const toIdx = clean.findIndex((l) => /^(bill\s*to|billed\s*to|to\b\s*[:—-]?|إ
     <div class="inv-totals-row">
       <div class="inv-totals-box">
         <div class="inv-trow sep"><span style="color:#aaa">${Lx.subtotal}</span><span>${fmt(subtotal)}</span></div>
-        ${s.discount > 0 ? `<div class="inv-trow"><span style="color:#aaa">${Lx.discount} (${s.discount}%)</span><span style="color:#e05555">−${fmt(discAmt)}</span></div>` : ""}
-        ${showTax ? `<div class="inv-trow"><span style="color:#aaa">${s.taxLabel}</span><span>${fmt(totalTax)}</span></div>` : ""}
+        ${s.discount > 0 ? `<div class="inv-trow"><span style="color:#aaa">${Lx.discount} (${esc(s.discount)}%)</span><span style="color:#e05555">−${fmt(discAmt)}</span></div>` : ""}
+        ${showTax ? `<div class="inv-trow"><span style="color:#aaa">${esc(s.taxLabel)}</span><span>${fmt(totalTax)}</span></div>` : ""}
         ${s.shipping > 0 ? `<div class="inv-trow"><span style="color:#aaa">${Lx.shipping}</span><span>${fmt(s.shipping)}</span></div>` : ""}
-        <div class="inv-trow big"><span>${Lx.total}</span><span style="color:${ac}">${fmt(grand)}</span></div>
+        <div class="inv-trow big"><span>${Lx.total}</span><span style="color:${esc(s.accent)}">${fmt(grand)}</span></div>
       </div>
     </div>
     ${s.notes || s.bankDetails ? `
     <div class="inv-footer-grid">
-      ${s.notes ? `<div><span class="inv-footer-lbl">${Lx.notes}</span><p class="inv-footer-val">${s.notes}</p></div>` : ""}
-      ${s.bankDetails ? `<div><span class="inv-footer-lbl">${Lx.bank}</span><p class="inv-footer-val">${s.bankDetails}</p></div>` : ""}
+      ${s.notes ? `<div><span class="inv-footer-lbl">${Lx.notes}</span><p class="inv-footer-val">${esc(s.notes).replace(/\n/g, "<br>")}</p></div>` : ""}
+      ${s.bankDetails ? `<div><span class="inv-footer-lbl">${Lx.bank}</span><p class="inv-footer-val">${esc(s.bankDetails).replace(/\n/g, "<br>")}</p></div>` : ""}
     </div>` : ""}
-    ${s.footer ? `<div class="inv-legal">${s.footer}</div>` : ""}
+    ${s.footer ? `<div class="inv-legal">${esc(s.footer)}</div>` : ""}
     </div>
   </div>`;
   })();

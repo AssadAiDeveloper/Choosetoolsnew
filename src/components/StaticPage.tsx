@@ -16,8 +16,9 @@ export async function staticPageMetadata(
   const t = await getTranslations({ locale, namespace: "pages" });
   const prefix = locale === routing.defaultLocale ? "" : `/${locale}`;
   const body = t.raw(`${page}.body`) as string[];
+  const pageTitle = t(`${page}.title`);
   return {
-    title: `${t(`${page}.title`)} · ${SITE_NAME}`,
+    title: pageTitle.includes(SITE_NAME) ? pageTitle : `${pageTitle} · ${SITE_NAME}`,
     description: body[0]?.slice(0, 160),
     metadataBase: new URL(SITE_URL),
     alternates: {

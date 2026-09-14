@@ -55,9 +55,10 @@ export default function PdfEditor() {
     (async () => {
       try {
         const pdfjsLib: any = await import("pdfjs-dist");
-        const version = pdfjsLib.version || "4.0.395";
-        pdfjsLib.GlobalWorkerOptions.workerSrc =
-          `https://cdn.jsdelivr.net/npm/pdfjs-dist@${version}/build/pdf.worker.min.mjs`;
+        pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(
+          "pdfjs-dist/build/pdf.worker.min.mjs",
+          import.meta.url
+        ).toString();
         const data = await file.arrayBuffer();
         const pdf = await pdfjsLib.getDocument({ data }).promise;
         pageCountRef.current = pdf.numPages || 1;

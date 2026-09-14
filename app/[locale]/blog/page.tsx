@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const t = await getTranslations("blog");
   const langs = Object.fromEntries(routing.locales.map((l) => [l, blogIndexPathFor(l)]));
   return {
-    title: `${t("metaTitle")} — ${SITE_NAME}`,
+    title: t("metaTitle"),
     description: t("metaDescription"),
     metadataBase: new URL(SITE_URL),
     alternates: {
