@@ -1010,9 +1010,32 @@
       "desc": "Hazır cümlelerle resmi mektuplar yazın.",
       "long": "Bir mektup türü seçin — istifa, izin, şikayet, itiraz, nakil veya iş başvurusu — adınızı ve bilgilerinizi doldurun ve anında kopyalayabileceğiniz veya indirebileceğiniz doğru cümleli resmi metin alın.",
       "faq1q": "Hangi diller mevcut?",
-      "faq1a": "Mektup şablonları site dilinize uyarlanır ve Arapça, İngilizce ve İspanyolca olarak mevcuttur.",
+      "faq1a": "Mektup şablonları sitenizin diline uyum sağlar ve desteklenen tüm dillerde (11 dil) mevcuttur.",
       "faq2q": "Cümleleri düzenleyebilir miyim?",
-      "faq2a": "Evet. Oluşturulan mektup, kopyalamadan veya indirmeden önce serbestçe düzenleyebileceğiniz düzenlenebilir bir metin kutusunda görünür."
+      "faq2a": "Evet. Oluşturulan mektup, kopyalamadan veya indirmeden önce serbestçe düzenleyebileceğiniz düzenlenebilir bir metin kutusunda görünür.",
+      "ui": {
+        "name": "Ad soyad",
+        "company": "Şirket / kuruluş",
+        "position": "Pozisyon / görev",
+        "date": "Tarih",
+        "copy": "Kopyala",
+        "copied": "Kopyalandı",
+        "download": "İndir",
+        "typeResignation": "İstifa",
+        "typeLeave": "İzin",
+        "typeComplaint": "Şikâyet",
+        "typeAppeal": "İtiraz",
+        "typeTransfer": "Nakil",
+        "typeJob": "İş başvurusu"
+      },
+      "body": {
+        "resignation": "{company} Yönetimine,\n\nKonu: İstifa\n\nSayın Yetkili,\n\nBu dilekçeyle {company} bünyesindeki {position} görevimden istifa ettiğimi bildiririm. Son iş günüm {date} tarihidir.\n\nBana tanınan imkân için teşekkür eder, başarılarınızın devamını dilerim.\n\nSaygılarımla,\n{name}",
+        "leave": "{company} Yönetimine,\n\nKonu: İzin Talebi\n\nSayın Yetkili,\n\n{position} görevimle ilgili olarak {date} tarihinden itibaren izin talebinde bulunuyorum. Talebimin onaylanmasını arz ederim.\n\nAnlayışınız için teşekkür ederim.\n\nSaygılarımla,\n{name}",
+        "complaint": "{company} Yönetimine,\n\nKonu: Şikâyet\n\nSayın Yetkili,\n\n{position} görevimde karşılaştığım bazı zorlukları bilgilerinize sunarım. Konunun incelenerek uygun bir çözüm bulunmasını dilerim.\n\nİş birliğiniz için teşekkür ederim.\n\nSaygılarımla,\n{name}",
+        "appeal": "{company} Yönetimine,\n\nKonu: İtiraz\n\nSayın Yetkili,\n\nBu dilekçeyle hakkımda verilen karara itiraz ettiğimi bildiririm. Konunun yeniden değerlendirilmesini saygılarımla arz ederim.\n\nAdalet duygunuza güveniyorum.\n\nSaygılarımla,\n{name}",
+        "transfer": "{company} Yönetimine,\n\nKonu: Nakil Talebi\n\nSayın Yetkili,\n\nKişisel nedenlerle başka bir şubeye / departmana nakledilmemi, {position} görevime devam edebilmek amacıyla ayrıca arz ederim.\n\nİlginiz için teşekkür ederim.\n\nSaygılarımla,\n{name}",
+        "job": "{company} Yönetimine,\n\nKonu: İş Başvurusu\n\nSayın Yetkili,\n\n{position} pozisyonu için başvuruda bulunuyorum. Öz geçmişimi değerlendirmeniz için ekliyorum; ekibinize katılmak benim için onur olacaktır.\n\nZamanınız için teşekkür ederim.\n\nSaygılarımla,\n{name}"
+      }
     },
     "id-card-generator": {
       "name": "Çalışan Kimlik Kartı Oluştur",

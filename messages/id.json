@@ -1010,9 +1010,32 @@
       "desc": "Tulis surat formal dengan kata-kata yang siap pakai.",
       "long": "Pilih jenis surat — pengunduran diri, cuti, keluhan, banding, mutasi, atau lamaran kerja — isi nama dan detail Anda, dan segera dapatkan teks formal yang disusun dengan benar yang dapat Anda salin atau unduh.",
       "faq1q": "Bahasa apa saja yang tersedia?",
-      "faq1a": "Templat surat menyesuaikan dengan bahasa situs Anda dan tersedia dalam bahasa Arab, Inggris, dan Spanyol.",
+      "faq1a": "Templat surat menyesuaikan dengan bahasa situs Anda dan tersedia dalam semua bahasa yang didukung (11 bahasa).",
       "faq2q": "Bisakah saya mengedit kata-katanya?",
-      "faq2a": "Ya. Surat yang dihasilkan muncul di kotak teks yang dapat disunting yang dapat Anda ubah dengan bebas sebelum menyalin atau mengunduh."
+      "faq2a": "Ya. Surat yang dihasilkan muncul di kotak teks yang dapat disunting yang dapat Anda ubah dengan bebas sebelum menyalin atau mengunduh.",
+      "ui": {
+        "name": "Nama lengkap",
+        "company": "Perusahaan / organisasi",
+        "position": "Jabatan / peran",
+        "date": "Tanggal",
+        "copy": "Salin",
+        "copied": "Tersalin",
+        "download": "Unduh",
+        "typeResignation": "Pengunduran diri",
+        "typeLeave": "Cuti",
+        "typeComplaint": "Keluhan",
+        "typeAppeal": "Banding",
+        "typeTransfer": "Mutasi",
+        "typeJob": "Lamaran kerja"
+      },
+      "body": {
+        "resignation": "Kepada Manajer {company},\n\nPerihal: Pengunduran Diri\n\nYth. Bapak/Ibu,\n\nDengan ini saya secara resmi mengajukan pengunduran diri dari jabatan {position} di {company}. Hari kerja terakhir saya adalah {date}.\n\nTerima kasih atas kesempatan yang diberikan, dan semoga Anda terus sukses.\n\nHormat saya,\n{name}",
+        "leave": "Kepada Manajer {company},\n\nPerihal: Permohonan Cuti\n\nYth. Bapak/Ibu,\n\nDengan ini saya mengajukan permohonan cuti mulai {date} untuk jabatan {position}. Mohon kiranya permohonan ini dapat disetujui.\n\nTerima kasih atas pengertian Anda.\n\nHormat saya,\n{name}",
+        "complaint": "Kepada Manajer {company},\n\nPerihal: Keluhan\n\nYth. Bapak/Ibu,\n\nSaya ingin menyampaikan beberapa kesulitan yang saya alami dalam menjalankan jabatan {position}. Saya berharap hal ini dapat ditindaklanjuti dan dicari solusinya.\n\nTerima kasih atas kerja sama Anda.\n\nHormat saya,\n{name}",
+        "appeal": "Kepada Manajer {company},\n\nPerihal: Banding\n\nYth. Bapak/Ibu,\n\nDengan ini saya mengajukan banding atas keputusan yang dijatuhkan kepada saya. Mohon kiranya perkara ini dapat ditinjau kembali.\n\nSaya percaya pada keadilan Anda.\n\nHormat saya,\n{name}",
+        "transfer": "Kepada Manajer {company},\n\nPerihal: Permohonan Mutasi\n\nYth. Bapak/Ibu,\n\nDengan alasan pribadi, saya memohon untuk dimutasi ke cabang / departemen lain, agar dapat terus bekerja pada jabatan {position}.\n\nTerima kasih atas perhatian Anda.\n\nHormat saya,\n{name}",
+        "job": "Kepada Manajer {company},\n\nPerihal: Lamaran Kerja\n\nYth. Bapak/Ibu,\n\nDengan ini saya mengajukan lamaran untuk jabatan {position}. Saya lampirkan curriculum vitae untuk ditinjau; merupakan kehormatan bagi saya untuk bergabung dengan tim Anda.\n\nTerima kasih atas waktu Anda.\n\nHormat saya,\n{name}"
+      }
     },
     "id-card-generator": {
       "name": "Generator Kartu ID Karyawan",

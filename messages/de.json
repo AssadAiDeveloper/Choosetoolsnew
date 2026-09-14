@@ -1010,9 +1010,32 @@
       "desc": "Formelle Briefe mit vorgefertigten Formulierungen verfassen.",
       "long": "Wählen Sie einen Brieftyp — Kündigung, Urlaub, Beschwerde, Einspruch, Versetzung oder Bewerbung — geben Sie Ihren Namen und Ihre Daten ein und erhalten Sie sofort korrekt formulierte formelle Texte, die Sie kopieren oder herunterladen können.",
       "faq1q": "Welche Sprachen sind verfügbar?",
-      "faq1a": "Die Briefformulare passen sich an Ihre Websitensprache an und sind auf Arabisch, Englisch und Spanisch verfügbar.",
+      "faq1a": "Die Briefvorlagen passen sich der Sprache der Website an und sind in allen unterstützten Sprachen (11 Sprachen) verfügbar.",
       "faq2q": "Kann ich die Formulierung bearbeiten?",
-      "faq2a": "Ja. Der erzeugte Brief erscheint in einem bearbeitbaren Textfeld, das Sie vor dem Kopieren oder Herunterladen frei anpassen können."
+      "faq2a": "Ja. Der erzeugte Brief erscheint in einem bearbeitbaren Textfeld, das Sie vor dem Kopieren oder Herunterladen frei anpassen können.",
+      "ui": {
+        "name": "Vollständiger Name",
+        "company": "Firma / Organisation",
+        "position": "Position / Tätigkeit",
+        "date": "Datum",
+        "copy": "Kopieren",
+        "copied": "Kopiert",
+        "download": "Herunterladen",
+        "typeResignation": "Kündigung",
+        "typeLeave": "Urlaubsantrag",
+        "typeComplaint": "Beschwerde",
+        "typeAppeal": "Widerspruch",
+        "typeTransfer": "Versetzung",
+        "typeJob": "Bewerbung"
+      },
+      "body": {
+        "resignation": "An die Geschäftsleitung der {company},\n\nBetreff: Kündigung\n\nSehr geehrte Damen und Herren,\n\nhiermit möchte ich meine Kündigung zum {date} für meine Position als {position} einreichen. Mein letzter Arbeitstag wird der {date} sein.\n\nIch bedanke mich für die Zusammenarbeit und wünsche Ihnen weiterhin viel Erfolg.\n\nMit freundlichen Grüßen,\n{name}",
+        "leave": "An die Geschäftsleitung der {company},\n\nBetreff: Urlaubsantrag\n\nSehr geehrte Damen und Herren,\n\nich beantrage hiermit Erholungsurlaub ab dem {date} für meine Position als {position}. Ich bitte um Ihre Zustimmung.\n\nVielen Dank für Ihre Unterstützung.\n\nMit freundlichen Grüßen,\n{name}",
+        "complaint": "An die Geschäftsleitung der {company},\n\nBetreff: Beschwerde\n\nSehr geehrte Damen und Herren,\n\nich möchte auf einige Schwierigkeiten hinweisen, die ich in meiner Position als {position} erlebe. Ich bitte Sie, die Angelegenheit zu prüfen und eine Lösung zu finden.\n\nVielen Dank für Ihre Mithilfe.\n\nMit freundlichen Grüßen,\n{name}",
+        "appeal": "An die Geschäftsleitung der {company},\n\nBetreff: Widerspruch\n\nSehr geehrte Damen und Herren,\n\nhiermit lege ich Widerspruch gegen eine Entscheidung ein, die gegen mich getroffen wurde. Ich bitte höflich um eine erneute Prüfung der Angelegenheit.\n\nIch vertraue auf Ihre Fairness.\n\nMit freundlichen Grüßen,\n{name}",
+        "transfer": "An die Geschäftsleitung der {company},\n\nBetreff: Versetzungsantrag\n\nSehr geehrte Damen und Herren,\n\nich bitte aus persönlichen Gründen um meine Versetzung in eine andere Filiale / Abteilung, um weiterhin in der Position als {position} tätig zu sein.\n\nVielen Dank für Ihre Berücksichtigung.\n\nMit freundlichen Grüßen,\n{name}",
+        "job": "An die Geschäftsleitung der {company},\n\nBetreff: Bewerbung\n\nSehr geehrte Damen und Herren,\n\nhiermit bewerbe ich mich für die Stelle als {position}. Meinen Lebenslauf habe ich zur Prüfung beigefügt; ich würde mich freuen, Teil Ihres Teams zu werden.\n\nVielen Dank für Ihre Zeit.\n\nMit freundlichen Grüßen,\n{name}"
+      }
     },
     "id-card-generator": {
       "name": "Mitarbeiter-Ausweis erstellen",

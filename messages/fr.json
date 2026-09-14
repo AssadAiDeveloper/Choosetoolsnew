@@ -1010,9 +1010,32 @@
       "desc": "Rédigez des lettres formelles avec un libellé prêt à l'emploi.",
       "long": "Choisissez un type de lettre — démission, congé, réclamation, recours, mutation ou candidature — renseignez votre nom et vos informations, et obtenez instantanément un texte formel correctement formulé que vous pouvez copier ou télécharger.",
       "faq1q": "Quelles langues sont disponibles ?",
-      "faq1a": "Les modèles de lettres s'adaptent à la langue de votre site et sont disponibles en arabe, en anglais et en espagnol.",
+      "faq1a": "Les modèles de lettres s'adaptent à la langue de votre site et sont disponibles dans toutes les langues prises en charge (11 langues).",
       "faq2q": "Puis-je modifier le libellé ?",
-      "faq2a": "Oui. La lettre générée apparaît dans une zone de texte modifiable que vous pouvez librement modifier avant de copier ou télécharger."
+      "faq2a": "Oui. La lettre générée apparaît dans une zone de texte modifiable que vous pouvez librement modifier avant de copier ou télécharger.",
+      "ui": {
+        "name": "Nom complet",
+        "company": "Entreprise / organisation",
+        "position": "Poste / fonction",
+        "date": "Date",
+        "copy": "Copier",
+        "copied": "Copié",
+        "download": "Télécharger",
+        "typeResignation": "Démission",
+        "typeLeave": "Congé",
+        "typeComplaint": "Réclamation",
+        "typeAppeal": "Recours",
+        "typeTransfer": "Mutation",
+        "typeJob": "Candidature"
+      },
+      "body": {
+        "resignation": "À la direction de {company},\n\nObjet : Démission\n\nMadame, Monsieur,\n\nJe vous informe par la présente de ma démission de mon poste de {position} au sein de {company}. Mon dernier jour de travail sera le {date}.\n\nJe vous remercie pour la confiance que vous m'avez accordée et vous souhaite une pleine réussite.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n{name}",
+        "leave": "À la direction de {company},\n\nObjet : Demande de congé\n\nMadame, Monsieur,\n\nJe sollicite par la présente un congé à partir du {date} pour mon poste de {position}. Je vous remercie de bien vouloir accéder à ma demande.\n\nAvec mes remerciements.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n{name}",
+        "complaint": "À la direction de {company},\n\nObjet : Réclamation\n\nMadame, Monsieur,\n\nJe souhaite vous faire part de certaines difficultés rencontrées dans l'exercice de mon poste de {position}. Je vous serais reconnaissant(e) d'examiner la question.\n\nAvec mes remerciements pour votre compréhension.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n{name}",
+        "appeal": "À la direction de {company},\n\nObjet : Recours\n\nMadame, Monsieur,\n\nJe forme par la présente un recours contre une décision me concernant. Je vous demande respectueusement de bien vouloir réexaminer la situation.\n\nJe compte sur votre sens de l'équité.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n{name}",
+        "transfer": "À la direction de {company},\n\nObjet : Demande de mutation\n\nMadame, Monsieur,\n\nJe sollicite, pour raisons personnelles, ma mutation vers une autre agence / direction, afin de poursuivre mes fonctions de {position}.\n\nAvec mes remerciements pour votre attention.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n{name}",
+        "job": "À la direction de {company},\n\nObjet : Candidature\n\nMadame, Monsieur,\n\nJe vous soumets ma candidature au poste de {position}. Mon curriculum vitae est joint à la présente ; je serais honoré(e) de rejoindre votre équipe.\n\nJe vous remercie de votre attention.\n\nVeuillez agréer, Madame, Monsieur, mes salutations distinguées.\n{name}"
+      }
     },
     "id-card-generator": {
       "name": "Générateur de carte d'employé",

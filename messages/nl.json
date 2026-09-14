@@ -1010,9 +1010,32 @@
       "desc": "Schrijf formele brieven met kant-en-klare formuleringen.",
       "long": "Kies een briefsoort — ontslag, verlof, klacht, bezwaar, overplaatsing of sollicitatie — vul je naam en gegevens in en ontvang direct correct geformuleerde formele tekst die je kunt kopiëren of downloaden.",
       "faq1q": "Welke talen zijn beschikbaar?",
-      "faq1a": "De briefsjablonen passen zich aan de taal van de site aan en zijn beschikbaar in het Arabisch, Engels en Spaans.",
+      "faq1a": "De briefsjablonen passen zich aan de taal van de site aan en zijn beschikbaar in alle ondersteunde talen (11 talen).",
       "faq2q": "Kan ik de formulering bewerken?",
-      "faq2a": "Ja. De gegenereerde brief verschijnt in een bewerkbaar tekstvak dat je vrij kunt aanpassen voordat je kopieert of downloadt."
+      "faq2a": "Ja. De gegenereerde brief verschijnt in een bewerkbaar tekstvak dat je vrij kunt aanpassen voordat je kopieert of downloadt.",
+      "ui": {
+        "name": "Volledige naam",
+        "company": "Bedrijf / organisatie",
+        "position": "Functie / rol",
+        "date": "Datum",
+        "copy": "Kopiëren",
+        "copied": "Gekopieerd",
+        "download": "Downloaden",
+        "typeResignation": "Ontslag",
+        "typeLeave": "Vrijaf",
+        "typeComplaint": "Klacht",
+        "typeAppeal": "Bezwaar",
+        "typeTransfer": "Overplaatsing",
+        "typeJob": "Sollicitatie"
+      },
+      "body": {
+        "resignation": "Aan de directie van {company},\n\nBetreft: Ontslag\n\nGeachte heer/mevrouw,\n\nHierbij dien ik mijn ontslag in voor de functie van {position} bij {company}. Mijn laatste werkdag zal {date} zijn.\n\nIk dank u voor de geboden kans en wens u veel succes.\n\nMet vriendelijke groet,\n{name}",
+        "leave": "Aan de directie van {company},\n\nBetreft: Verlofaanvraag\n\nGeachte heer/mevrouw,\n\nHierbij vraag ik verlof aan vanaf {date} voor mijn functie van {position}. Ik hoop dat u dit verzoek goedkeurt.\n\nDank u voor uw begrip.\n\nMet vriendelijke groet,\n{name}",
+        "complaint": "Aan de directie van {company},\n\nBetreft: Klacht\n\nGeachte heer/mevrouw,\n\nIk wil enkele moeilijkheden onder de aandacht brengen die ik ervaar in mijn functie van {position}. Ik verzoek u de zaak te onderzoeken en een passende oplossing te vinden.\n\nDank u voor uw medewerking.\n\nMet vriendelijke groet,\n{name}",
+        "appeal": "Aan de directie van {company},\n\nBetreft: Bezwaar\n\nGeachte heer/mevrouw,\n\nHierbij dien ik bezwaar in tegen een beslissing die tegen mij is genomen. Ik verzoek u vriendelijk de zaak opnieuw te bekijken.\n\nIk reken op uw rechtvaardigheid.\n\nMet vriendelijke groet,\n{name}",
+        "transfer": "Aan de directie van {company},\n\nBetreft: Overplaatsingsaanvraag\n\nGeachte heer/mevrouw,\n\nIk verzoek u, om persoonlijke redenen, mijn overplaatsing naar een andere vestiging / afdeling, om verder te kunnen werken in de functie van {position}.\n\nDank u voor uw aandacht.\n\nMet vriendelijke groet,\n{name}",
+        "job": "Aan de directie van {company},\n\nBetreft: Sollicitatie\n\nGeachte heer/mevrouw,\n\nHierbij solliciteer ik naar de functie van {position}. Ik heb mijn cv bijgevoegd voor uw beoordeling en het zou mij eren om deel uit te maken van uw team.\n\nDank u voor uw tijd.\n\nMet vriendelijke groet,\n{name}"
+      }
     },
     "id-card-generator": {
       "name": "Werknemers-ID-kaart Generator",

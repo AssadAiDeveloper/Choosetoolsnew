@@ -1010,9 +1010,32 @@
       "desc": "Escreva cartas formais com redação pronta.",
       "long": "Escolha um tipo de carta — demissão, licença, reclamação, recurso, transferência ou candidatura de emprego — preencha o seu nome e dados, e obtenha instantaneamente texto formal bem redigido que pode copiar ou descarregar.",
       "faq1q": "Que idiomas estão disponíveis?",
-      "faq1a": "Os modelos de carta adaptam-se ao idioma do site e estão disponíveis em árabe, inglês e espanhol.",
+      "faq1a": "Os modelos de carta adaptam-se ao idioma do site e estão disponíveis em todos os idiomas suportados (11 idiomas).",
       "faq2q": "Posso editar a redação?",
-      "faq2a": "Sim. A carta gerada aparece numa caixa de texto editável que pode modificar livremente antes de copiar ou descarregar."
+      "faq2a": "Sim. A carta gerada aparece numa caixa de texto editável que pode modificar livremente antes de copiar ou descarregar.",
+      "ui": {
+        "name": "Nome completo",
+        "company": "Empresa / organização",
+        "position": "Cargo / função",
+        "date": "Data",
+        "copy": "Copiar",
+        "copied": "Copiado",
+        "download": "Transferir",
+        "typeResignation": "Demissão",
+        "typeLeave": "Licença",
+        "typeComplaint": "Reclamação",
+        "typeAppeal": "Recurso",
+        "typeTransfer": "Transferência",
+        "typeJob": "Candidatura"
+      },
+      "body": {
+        "resignation": "À direção de {company},\n\nAssunto: Demissão\n\nPrezados senhores,\n\nPela presente apresento formalmente a minha demissão do cargo de {position} em {company}. O meu último dia de trabalho será {date}.\n\nAgradeço a oportunidade que me foi dada e desejo-lhe muito sucesso.\n\nAtenciosamente,\n{name}",
+        "leave": "À direção de {company},\n\nAssunto: Pedido de licença\n\nPrezados senhores,\n\nPela presente solicito uma licença a partir de {date}, relativa ao cargo de {position}. Agradeceria a vossa aprovação.\n\nObrigado pela compreensão.\n\nAtenciosamente,\n{name}",
+        "complaint": "À direção de {company},\n\nAssunto: Reclamação\n\nPrezados senhores,\n\nVenho por este meio informar sobre algumas dificuldades que enfrento no cargo de {position}. Peço que analisem o assunto e encontrem uma solução adequada.\n\nObrigado pela colaboração.\n\nAtenciosamente,\n{name}",
+        "appeal": "À direção de {company},\n\nAssunto: Recurso\n\nPrezados senhores,\n\nPela presente apresento recurso contra uma decisão que foi tomada em relação a mim. Peço respeitosamente que o assunto seja revisto.\n\nConfio no vosso sentido de justiça.\n\nAtenciosamente,\n{name}",
+        "transfer": "À direção de {company},\n\nAssunto: Pedido de transferência\n\nPrezados senhores,\n\nSolicito, por motivos pessoais, a minha transferência para outra filial / departamento, a fim de continuar a desempenhar o cargo de {position}.\n\nObrigado pela atenção.\n\nAtenciosamente,\n{name}",
+        "job": "À direção de {company},\n\nAssunto: Candidatura\n\nPrezados senhores,\n\nVenho candidatar-me ao cargo de {position}. O meu currículo segue em anexo para apreciação; seria uma honra integrar a vossa equipa.\n\nObrigado pelo vosso tempo.\n\nAtenciosamente,\n{name}"
+      }
     },
     "id-card-generator": {
       "name": "Gerador de Cartão de Identificação de Funcionário",

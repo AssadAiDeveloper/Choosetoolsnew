@@ -1010,9 +1010,32 @@
       "desc": "Escribe cartas formales con redacción ya preparada.",
       "long": "Elige el tipo de carta — renuncia, permiso, reclamación, recurso, traslado o solicitud de empleo — rellena tu nombre y detalles y obtén al instante un texto formal correctamente redactado para copiar o descargar.",
       "faq1q": "¿Qué idiomas están disponibles?",
-      "faq1a": "Las plantillas de cartas se adaptan al idioma de tu sitio y están disponibles en árabe, inglés y español.",
+      "faq1a": "Las plantillas de cartas se adaptan al idioma de tu sitio y están disponibles en todos los idiomas admitidos (11 idiomas).",
       "faq2q": "¿Puedo editar la redacción?",
-      "faq2a": "Sí. La carta generada aparece en un cuadro de texto editable que puedes modificar libremente antes de copiar o descargar."
+      "faq2a": "Sí. La carta generada aparece en un cuadro de texto editable que puedes modificar libremente antes de copiar o descargar.",
+      "ui": {
+        "name": "Nombre completo",
+        "company": "Empresa / organización",
+        "position": "Cargo / puesto",
+        "date": "Fecha",
+        "copy": "Copiar",
+        "copied": "Copiado",
+        "download": "Descargar",
+        "typeResignation": "Renuncia",
+        "typeLeave": "Permiso",
+        "typeComplaint": "Reclamación",
+        "typeAppeal": "Recurso",
+        "typeTransfer": "Traslado",
+        "typeJob": "Solicitud de empleo"
+      },
+      "body": {
+        "resignation": "A la dirección de {company},\n\nAsunto: Renuncia\n\nEstimados señores,\n\nPor medio de la presente presento formalmente mi renuncia al cargo de {position} en {company}. Mi último día de trabajo será el {date}.\n\nAgradezco la oportunidad que me fue brindada y les deseo muchos éxitos.\n\nAtentamente,\n{name}",
+        "leave": "A la dirección de {company},\n\nAsunto: Solicitud de permiso\n\nEstimados señores,\n\nSolicito por medio de la presente un permiso a partir del {date} por mi cargo de {position}. Les agradecería su aprobación.\n\nGracias por su comprensión.\n\nAtentamente,\n{name}",
+        "complaint": "A la dirección de {company},\n\nAsunto: Reclamación\n\nEstimados señores,\n\nLes comunico algunas dificultades que he tenido en el ejercicio de mi cargo de {position}. Solicitando que evalúen el asunto y busquen una solución adecuada.\n\nGracias por su colaboración.\n\nAtentamente,\n{name}",
+        "appeal": "A la dirección de {company},\n\nAsunto: Recurso\n\nEstimados señores,\n\nPresento por medio de esta carta un recurso contra una decisión tomada sobre mí. Solicito respetuosamente que el asunto sea revisado.\n\nConfío en su sentido de la justicia.\n\nAtentamente,\n{name}",
+        "transfer": "A la dirección de {company},\n\nAsunto: Solicitud de traslado\n\nEstimados señores,\n\nSolicito, por motivos personales, mi traslado a otra sucursal / departamento, para continuar desempeñando el cargo de {position}.\n\nGracias por su atención.\n\nAtentamente,\n{name}",
+        "job": "A la dirección de {company},\n\nAsunto: Solicitud de empleo\n\nEstimados señores,\n\nMe presento para postularme al cargo de {position}. Adjunto mi currículum vitae para su evaluación y me honraría unirme a su equipo.\n\nGracias por su tiempo.\n\nAtentamente,\n{name}"
+      }
     },
     "id-card-generator": {
       "name": "Generador de carné de empleado",

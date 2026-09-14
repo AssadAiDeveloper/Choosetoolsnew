@@ -1010,9 +1010,32 @@
       "desc": "Write formal letters with ready-made wording.",
       "long": "Pick a letter type â€“ resignation, leave, complaint, appeal, transfer or job application â€“ fill in your name and details, and instantly get correctly worded formal text you can copy or download.",
       "faq1q": "Which languages are available?",
-      "faq1a": "The letter templates adapt to your site language and are available in Arabic, English and Spanish.",
+      "faq1a": "The letter templates adapt to your site language and are available in all supported languages (11 languages).",
       "faq2q": "Can I edit the wording?",
-      "faq2a": "Yes. The generated letter appears in an editable text box you can freely modify before copying or downloading."
+      "faq2a": "Yes. The generated letter appears in an editable text box you can freely modify before copying or downloading.",
+      "ui": {
+        "name": "Full name",
+        "company": "Company / organization",
+        "position": "Position / role",
+        "date": "Date",
+        "copy": "Copy",
+        "copied": "Copied",
+        "download": "Download",
+        "typeResignation": "Resignation",
+        "typeLeave": "Leave",
+        "typeComplaint": "Complaint",
+        "typeAppeal": "Appeal",
+        "typeTransfer": "Transfer",
+        "typeJob": "Job Application"
+      },
+      "body": {
+        "resignation": "To the Manager of {company},\n\nSubject: Resignation\n\nDear Sir/Madam,\n\nI am writing to formally request that my resignation from the position of {position} at {company} be accepted. My last working day will be {date}.\n\nI am grateful for the opportunity to work with the company and wish you continued success.\n\nSincerely,\n{name}",
+        "leave": "To the Manager of {company},\n\nSubject: Leave Request\n\nDear Sir/Madam,\n\nI hereby request an annual leave starting from {date} for the position of {position}. I would appreciate your approval of this request.\n\nThank you for your understanding.\n\nSincerely,\n{name}",
+        "complaint": "To the Manager of {company},\n\nSubject: Complaint\n\nDear Sir/Madam,\n\nI would like to bring to your attention some difficulties I have been facing in my position of {position}. I hope you will look into the matter and find a suitable solution.\n\nThank you for your cooperation.\n\nSincerely,\n{name}",
+        "appeal": "To the Manager of {company},\n\nSubject: Appeal\n\nDear Sir/Madam,\n\nI am writing this appeal regarding a decision taken against me. I respectfully request that the matter be reviewed and reconsidered.\n\nI trust in your sense of fairness.\n\nSincerely,\n{name}",
+        "transfer": "To the Manager of {company},\n\nSubject: Transfer Request\n\nDear Sir/Madam,\n\nI respectfully request to be transferred to another branch / department for personal reasons, in order to continue working in the position of {position}.\n\nThank you for your consideration.\n\nSincerely,\n{name}",
+        "job": "To the Manager of {company},\n\nSubject: Job Application\n\nDear Sir/Madam,\n\nI am writing to apply for the position of {position}. I have attached my curriculum vitae for your review and would be honored to join your team.\n\nThank you for your time.\n\nSincerely,\n{name}"
+      }
     },
     "id-card-generator": {
       "name": "Employee ID Card Generator",
