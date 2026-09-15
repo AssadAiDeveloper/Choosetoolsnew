@@ -182,7 +182,7 @@
       "desc": "Convert each PDF page into a high-quality JPG image.",
       "long": "Every page is rendered on your device and downloaded as an image — one JPG per page, or all pages in a ZIP.",
       "faq1q": "What resolution are the images?",
-      "faq1a": "Pages are rendered at 2Ã— scale, which is sharp enough for screens and most printing.",
+      "faq1a": "Pages are rendered at 2× scale, which is sharp enough for screens and most printing.",
       "faq2q": "My PDF has many pages. Is that a problem?",
       "faq2a": "No — pages are converted one by one, so even long documents work. You can download everything as a single ZIP."
     },
@@ -407,7 +407,7 @@
       "desc": "Generate a complete favicon set from one image.",
       "long": "Upload a square logo and download a ZIP with all standard sizes (16–512px), the Apple touch icon, and a ready-to-paste HTML snippet.",
       "faq1q": "What image should I start from?",
-      "faq1a": "A square PNG or SVG of at least 512Ã—512 pixels gives the sharpest results at every size.",
+      "faq1a": "A square PNG or SVG of at least 512×512 pixels gives the sharpest results at every size.",
       "faq2q": "Which sizes are included?",
       "faq2a": "16, 32, 48, 192 and 512 pixels plus the 180px apple-touch-icon — everything modern browsers and phones request."
     },
@@ -425,7 +425,7 @@
       "desc": "Convert vector SVG files to PNG at 1×–8× scale.",
       "long": "Renders your SVG on your device and exports a crisp PNG — choose a higher scale for print or retina displays.",
       "faq1q": "What does the scale setting do?",
-      "faq1a": "It multiplies the SVG's natural size: an icon of 100Ã—100 exported at 4Ã— becomes a 400Ã—400 PNG.",
+      "faq1a": "It multiplies the SVG's natural size: an icon of 100×100 exported at 4× becomes a 400×400 PNG.",
       "faq2q": "Is transparency preserved?",
       "faq2a": "Yes — transparent areas of the SVG stay transparent in the PNG."
     },
@@ -1082,7 +1082,7 @@
         "createInvoice": "Create Invoice"
       },
       "faq1q": "What size is the card?",
-      "faq1a": "The card matches the ISO ID-1 standard (85.6 Ã— 54 mm, the size of a credit card or national ID), exported at 300 DPI.",
+      "faq1a": "The card matches the ISO ID-1 standard (85.6 × 54 mm, the size of a credit card or national ID), exported at 300 DPI.",
       "faq2q": "Does the barcode encode my employee number?",
       "faq2a": "Yes – the CODE128 barcode and the QR code both store the employee ID you enter, so the badge can be scanned by standard readers."
     }

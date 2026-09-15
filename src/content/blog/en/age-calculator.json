@@ -40,7 +40,7 @@
     {
       "heading": "How Age and Duration Are Computed Correctly",
       "paragraphs": [
-        "A reliable age calculator compares dates component by component rather than blindly subtracting calender year numbers.",
+        "A reliable age calculator compares dates component by component rather than blindly subtracting calendar year numbers.",
         "If a child was born on February 29 in a leap year, the tool correctly handles anniversaries in non-leap years, resolving to February 28 or March 1 depending on convention.",
         "Months of differing lengths are accounted for, so the reported age reflects real time rather than rounded approximations.",
         "The result is an exact, defensible number you can rely on for records and decisions."
