@@ -4,12 +4,14 @@ import { useTranslations } from "next-intl";
 
 // Decorative file-type chips — placed in the empty corners of the hero card,
 // away from the text, built from the site's own brand tokens.
+// Positioned with fixed rem offsets so they stay in the padding area on all
+// screen sizes and never collide with the hero text.
 const FLOATERS = [
-  { label: "PDF", top: "4%", left: "3.5%", delay: "0s", tint: "var(--color-cat-pdf)" },
-  { label: "XLSX", top: "5%", right: "3.5%", delay: "0.5s", tint: "#0e8a6c" },
-  { label: "JPG", bottom: "4%", left: "4.5%", delay: "1.1s", tint: "var(--color-cat-image)" },
-  { label: "CSV", bottom: "5%", right: "4.5%", delay: "1.7s", tint: "var(--color-cat-text)" },
-  { label: "PNG", top: "38%", left: "-2.5rem", delay: "2.2s", tint: "var(--color-cat-image)" },
+  { label: "PDF", top: "1rem", left: "1rem", delay: "0s", tint: "var(--color-cat-pdf)" },
+  { label: "XLSX", top: "1rem", right: "1rem", delay: "0.5s", tint: "#0e8a6c" },
+  { label: "JPG", bottom: "1rem", left: "1rem", delay: "1.1s", tint: "var(--color-cat-image)" },
+  { label: "CSV", bottom: "1rem", right: "1rem", delay: "1.7s", tint: "var(--color-cat-text)" },
+  { label: "PNG", top: "45%", left: "-1.5rem", delay: "2.2s", tint: "var(--color-cat-image)" },
 ];
 
 // Decorative chips inside the mock screenshot window.
@@ -72,7 +74,7 @@ export function Hero() {
         <span
           key={f.label}
           aria-hidden
-          className="floater pointer-events-none absolute hidden select-none rounded-lg border px-3 py-1.5 font-mono text-xs font-semibold backdrop-blur-sm lg:block"
+          className="floater pointer-events-none absolute hidden select-none rounded-lg border px-3 py-1.5 font-mono text-xs font-semibold backdrop-blur-sm sm:block"
           style={{
             top: f.top,
             bottom: f.bottom,
