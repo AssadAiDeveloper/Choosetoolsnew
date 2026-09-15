@@ -828,7 +828,7 @@
     "txt-to-mt940": {
       "name": "TXT ke MT940",
       "desc": "Ubah file teks atau CSV transaksi menjadi laporan MT940.",
-      "long": "Unggah file teks biasa atau CSV dengan kolom Tanggal, Deskripsi, Debit, Kredit, Mata uang dan Referensi (pemisah apa pun â€” koma, titik koma, tab atau pipa â€” terdeteksi otomatis), dan alat ini menyusun kembali laporan SWIFT MT940 lengkap (.940/.sta) dengan header, saldo awal dan akhir serta setiap transaksi, sepenuhnya di perangkat Anda.",
+      "long": "Unggah file teks biasa atau CSV dengan kolom Tanggal, Deskripsi, Debit, Kredit, Mata uang dan Referensi (pemisah apa pun — koma, titik koma, tab atau pipa — terdeteksi otomatis), dan alat ini menyusun kembali laporan SWIFT MT940 lengkap (.940/.sta) dengan header, saldo awal dan akhir serta setiap transaksi, sepenuhnya di perangkat Anda.",
       "faq1q": "Pemisah apa yang didukung?",
       "faq1a": "Koma, titik koma, tab dan pipa semuanya terdeteksi otomatis, dan bidang berpetik ditangani. Baris header dengan nama kolom dilewati.",
       "faq2q": "Format apa yang harus dimiliki kolom jumlah?",
@@ -837,11 +837,11 @@
     "excel-to-mt940": {
       "name": "Excel ke MT940",
       "desc": "Ubah lembar transaksi Excel menjadi laporan bank MT940.",
-      "long": "Kebalikan dari MT940 ke Excel: unggah lembar kerja dengan kolom Tanggal, Deskripsi, Debit, Kredit, Mata uang dan Referensi, dan alat ini menyusun kembali laporan SWIFT MT940 lengkap (.940/.sta) dengan header, saldo awal dan akhir serta setiap transaksi â€” dihasilkan sepenuhnya di perangkat Anda, sehingga data perbankan Anda tidak pernah meninggalkan komputer Anda.",
+      "long": "Kebalikan dari MT940 ke Excel: unggah lembar kerja dengan kolom Tanggal, Deskripsi, Debit, Kredit, Mata uang dan Referensi, dan alat ini menyusun kembali laporan SWIFT MT940 lengkap (.940/.sta) dengan header, saldo awal dan akhir serta setiap transaksi — dihasilkan sepenuhnya di perangkat Anda, sehingga data perbankan Anda tidak pernah meninggalkan komputer Anda.",
       "faq1q": "Apakah data bank saya aman?",
-      "faq1a": "Sepenuhnya â€” semuanya dihasilkan di browser Anda dan tidak ada yang dikirim ke mana pun. Putuskan koneksi internet dan alat ini tetap berfungsi.",
+      "faq1a": "Sepenuhnya — semuanya dihasilkan di browser Anda dan tidak ada yang dikirim ke mana pun. Putuskan koneksi internet dan alat ini tetap berfungsi.",
       "faq2q": "Kolom apa yang harus dimiliki lembar Excel?",
-      "faq2a": "Enam kolom secara berurutan: Tanggal (YYYY-MM-DD), Deskripsi, Debit, Kredit, Mata uang dan Referensi â€” tata letak yang sama dengan alat MT940 ke Excel di situs ini."
+      "faq2a": "Enam kolom secara berurutan: Tanggal (YYYY-MM-DD), Deskripsi, Debit, Kredit, Mata uang dan Referensi — tata letak yang sama dengan alat MT940 ke Excel di situs ini."
     },
     "invoice-generator": {
       "name": "Buat Invoice",

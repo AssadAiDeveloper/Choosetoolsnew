@@ -827,21 +827,21 @@
     },
     "txt-to-mt940": {
       "name": "TXT'ten MT940'a",
-      "desc": "Ä°ÅŸlemlerin metin veya CSV dosyasÄ±nÄ± MT940 hesap Ã¶zetine dÃ¶nÃ¼ÅŸtÃ¼rÃ¼n.",
-      "long": "Tarih, AÃ§Ä±klama, BorÃ§, Alacak, Para birimi ve Referans sÃ¼tunlarÄ±nÄ± iÃ§eren dÃ¼z metin veya CSV dosyasÄ± yÃ¼kleyin (herhangi bir ayraÃ§ â€” virgÃ¼l, noktalÄ± virgÃ¼l, sekme veya dikey Ã§ubuk â€” otomatik olarak algÄ±lanÄ±r) ve bu araÃ§ baÅŸlÄ±k, aÃ§Ä±lÄ±ÅŸ ve kapanÄ±ÅŸ bakiyeleri ve her iÅŸlemle birlikte tam bir SWIFT MT940 hesap Ã¶zeti (.940/.sta) oluÅŸturur, tamamen cihazÄ±nÄ±zda.",
-      "faq1q": "Hangi ayraÃ§lar destekleniyor?",
-      "faq1a": "VirgÃ¼l, noktalÄ± virgÃ¼l, sekme ve dikey Ã§ubuk otomatik olarak algÄ±lanÄ±r ve tÄ±rnaklÄ± alanlar iÅŸlenir. SÃ¼tun adlarÄ±nÄ± iÃ§eren baÅŸlÄ±k satÄ±rÄ± atlanÄ±r.",
-      "faq2q": "Tutar sÃ¼tunlarÄ± hangi formatta olmalÄ±?",
-      "faq2a": "1234.56 gibi basit sayÄ±lar. BorÃ§ tutarÄ±nÄ± BorÃ§ sÃ¼tununa, alacak tutarÄ±nÄ± Alacak sÃ¼tununa koyun; bir satÄ±rda bunlardan en az biri olmalÄ±dÄ±r."
+      "desc": "İşlemlerin metin veya CSV dosyasını MT940 hesap özetine dönüştürün.",
+      "long": "Tarih, Açıklama, Borç, Alacak, Para birimi ve Referans sütunlarını içeren düz metin veya CSV dosyası yükleyin (herhangi bir ayraç — virgül, noktalı virgül, sekme veya dikey çubuk — otomatik olarak algılanır) ve bu araç başlık, açılış ve kapanış bakiyeleri ve her işlemle birlikte tam bir SWIFT MT940 hesap özeti (.940/.sta) oluşturur, tamamen cihazınızda.",
+      "faq1q": "Hangi ayraçlar destekleniyor?",
+      "faq1a": "Virgül, noktalı virgül, sekme ve dikey çubuk otomatik olarak algılanır ve tırnaklı alanlar işlenir. Sütun adlarını içeren başlık satırı atlanır.",
+      "faq2q": "Tutar sütunları hangi formatta olmalı?",
+      "faq2a": "1234.56 gibi basit sayılar. Borç tutarını Borç sütununa, alacak tutarını Alacak sütununa koyun; bir satırda bunlardan en az biri olmalıdır."
     },
     "excel-to-mt940": {
       "name": "Excel'den MT940'a",
-      "desc": "Bir Excel iÅŸlem sayfasÄ±nÄ± MT940 banka hesap Ã¶zetine dÃ¶nÃ¼ÅŸtÃ¼rÃ¼n.",
-      "long": "MT940'dan Excel'e aracÄ±nÄ±n tersi: Tarih, AÃ§Ä±klama, BorÃ§, Alacak, Para birimi ve Referans sÃ¼tunlarÄ±nÄ± iÃ§eren bir elektronik tablo yÃ¼kleyin; bu araÃ§ baÅŸlÄ±k, aÃ§Ä±lÄ±ÅŸ ve kapanÄ±ÅŸ bakiyeleri ve her iÅŸlemle birlikte tam bir SWIFT MT940 hesap Ã¶zeti (.940/.sta) oluÅŸturur â€” tamamen cihazÄ±nÄ±zda Ã¼retilir, bÃ¶ylece bankacÄ±lÄ±k verileriniz bilgisayarÄ±nÄ±zdan asla Ã§Ä±kmaz.",
-      "faq1q": "Banka verilerim gÃ¼vende mi?",
-      "faq1a": "Tamamen â€” her ÅŸey tarayÄ±cÄ±nÄ±zda Ã¼retilir ve hiÃ§bir yere hiÃ§bir ÅŸey gÃ¶nderilmez. Ä°nternet baÄŸlantÄ±nÄ±zÄ± kesin ve araÃ§ yine de Ã§alÄ±ÅŸÄ±r.",
-      "faq2q": "Excel sayfasÄ±nda hangi sÃ¼tunlar olmalÄ±?",
-      "faq2a": "SÄ±rasÄ±yla altÄ± sÃ¼tun: Tarih (YYYY-AA-GG), AÃ§Ä±klama, BorÃ§, Alacak, Para birimi ve Referans â€” bu sitenin MT940'dan Excel'e aracÄ±nÄ±n Ã¼rettiÄŸiyle aynÄ± dÃ¼zen."
+      "desc": "Bir Excel işlem sayfasını MT940 banka hesap özetine dönüştürün.",
+      "long": "MT940'dan Excel'e aracının tersi: Tarih, Açıklama, Borç, Alacak, Para birimi ve Referans sütunlarını içeren bir elektronik tablo yükleyin; bu araç başlık, açılış ve kapanış bakiyeleri ve her işlemle birlikte tam bir SWIFT MT940 hesap özeti (.940/.sta) oluşturur — tamamen cihazınızda üretilir, böylece bankacılık verileriniz bilgisayarınızdan asla çıkmaz.",
+      "faq1q": "Banka verilerim güvende mi?",
+      "faq1a": "Tamamen — her şey tarayıcınızda üretilir ve hiçbir yere hiçbir şey gönderilmez. İnternet bağlantınızı kesin ve araç yine de çalışır.",
+      "faq2q": "Excel sayfasında hangi sütunlar olmalı?",
+      "faq2a": "Sırasıyla altı sütun: Tarih (YYYY-AA-GG), Açıklama, Borç, Alacak, Para birimi ve Referans — bu sitenin MT940'dan Excel'e aracının ürettiğiyle aynı düzen."
     },
     "invoice-generator": {
       "name": "Fatura Oluştur",

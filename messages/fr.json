@@ -827,21 +827,21 @@
     },
     "txt-to-mt940": {
       "name": "TXT vers MT940",
-      "desc": "Convertissez un fichier texte ou CSV de transactions en relevÃ© MT940.",
-      "long": "Importez un fichier texte brut ou CSV avec les colonnes Date, Description, DÃ©bit, CrÃ©dit, Devise et RÃ©fÃ©rence (tout sÃ©parateur â€” virgule, point-virgule, tabulation ou barre verticale â€” est dÃ©tectÃ© automatiquement), et cet outil reconstruit un relevÃ© SWIFT MT940 complet (.940/.sta) avec en-tÃªte, soldes d'ouverture et de clÃ´ture ainsi que chaque transaction, entiÃ¨rement sur votre appareil.",
-      "faq1q": "Quels sÃ©parateurs sont pris en charge ?",
-      "faq1a": "La virgule, le point-virgule, la tabulation et la barre verticale sont tous dÃ©tectÃ©s automatiquement, et les champs entre guillemets sont gÃ©rÃ©s. Une ligne d'en-tÃªte avec des noms de colonnes est ignorÃ©e.",
+      "desc": "Convertissez un fichier texte ou CSV de transactions en relevé MT940.",
+      "long": "Importez un fichier texte brut ou CSV avec les colonnes Date, Description, Débit, Crédit, Devise et Référence (tout séparateur — virgule, point-virgule, tabulation ou barre verticale — est détecté automatiquement), et cet outil reconstruit un relevé SWIFT MT940 complet (.940/.sta) avec en-tête, soldes d'ouverture et de clôture ainsi que chaque transaction, entièrement sur votre appareil.",
+      "faq1q": "Quels séparateurs sont pris en charge ?",
+      "faq1a": "La virgule, le point-virgule, la tabulation et la barre verticale sont tous détectés automatiquement, et les champs entre guillemets sont gérés. Une ligne d'en-tête avec des noms de colonnes est ignorée.",
       "faq2q": "Quel format les colonnes de montant doivent-elles avoir ?",
-      "faq2a": "Des nombres simples comme 1234.56. Placez un montant de dÃ©bit dans la colonne DÃ©bit et un montant de crÃ©dit dans la colonne CrÃ©dit ; une ligne doit contenir au moins l'un d'eux."
+      "faq2a": "Des nombres simples comme 1234.56. Placez un montant de débit dans la colonne Débit et un montant de crédit dans la colonne Crédit ; une ligne doit contenir au moins l'un d'eux."
     },
     "excel-to-mt940": {
       "name": "Excel vers MT940",
-      "desc": "Transformez une feuille de transactions Excel en relevÃ© bancaire MT940.",
-      "long": "L'inverse de MT940 vers Excel : importez une feuille avec les colonnes Date, Description, DÃ©bit, CrÃ©dit, Devise et RÃ©fÃ©rence, et cet outil reconstruit un relevÃ© SWIFT MT940 complet (.940/.sta) avec en-tÃªte, soldes d'ouverture et de clÃ´ture ainsi que chaque transaction â€” gÃ©nÃ©rÃ© entiÃ¨rement sur votre appareil, vos donnÃ©es bancaires ne quittant jamais votre ordinateur.",
-      "faq1q": "Mes donnÃ©es bancaires sont-elles sÃ»res ?",
-      "faq1a": "ComplÃ¨tement â€” tout est gÃ©nÃ©rÃ© dans votre navigateur et rien n'est transmis. DÃ©connectez-vous d'Internet et l'outil fonctionne quand mÃªme.",
+      "desc": "Transformez une feuille de transactions Excel en relevé bancaire MT940.",
+      "long": "L'inverse de MT940 vers Excel : importez une feuille avec les colonnes Date, Description, Débit, Crédit, Devise et Référence, et cet outil reconstruit un relevé SWIFT MT940 complet (.940/.sta) avec en-tête, soldes d'ouverture et de clôture ainsi que chaque transaction — généré entièrement sur votre appareil, vos données bancaires ne quittant jamais votre ordinateur.",
+      "faq1q": "Mes données bancaires sont-elles sûres ?",
+      "faq1a": "Complètement — tout est généré dans votre navigateur et rien n'est transmis. Déconnectez-vous d'Internet et l'outil fonctionne quand même.",
       "faq2q": "Quelles colonnes la feuille Excel doit-elle contenir ?",
-      "faq2a": "Six colonnes dans l'ordre : Date (AAAA-MM-JJ), Description, DÃ©bit, CrÃ©dit, Devise et RÃ©fÃ©rence â€” la mÃªme disposition que l'outil MT940 vers Excel de ce site."
+      "faq2a": "Six colonnes dans l'ordre : Date (AAAA-MM-JJ), Description, Débit, Crédit, Devise et Référence — la même disposition que l'outil MT940 vers Excel de ce site."
     },
     "invoice-generator": {
       "name": "Créer une facture",

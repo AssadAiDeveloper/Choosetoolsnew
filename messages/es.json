@@ -828,20 +828,20 @@
     "txt-to-mt940": {
       "name": "TXT a MT940",
       "desc": "Convierte un archivo de texto o CSV de transacciones en un extracto MT940.",
-      "long": "Sube un archivo de texto plano o CSV con las columnas Fecha, DescripciÃ³n, DÃ©bito, CrÃ©dito, Moneda y Referencia (se detecta automÃ¡ticamente cualquier delimitador â€” coma, punto y coma, tabulaciÃ³n o pleca), y esta herramienta reconstruye un extracto SWIFT MT940 completo (.940/.sta) con cabecera, saldos de apertura y cierre y cada transacciÃ³n, Ã­ntegramente en tu dispositivo.",
-      "faq1q": "Â¿QuÃ© delimitadores se admiten?",
-      "faq1a": "La coma, el punto y coma, la tabulaciÃ³n y la pleca se detectan automÃ¡ticamente, y se gestionan los campos entre comillas. Una fila de cabecera con nombres de columnas se omite.",
-      "faq2q": "Â¿QuÃ© formato deben tener las columnas de importe?",
-      "faq2a": "NÃºmeros simples como 1234.56. Pon un importe de dÃ©bito en la columna DÃ©bito y uno de crÃ©dito en la columna CrÃ©dito; una fila debe tener al menos uno de ellos."
+      "long": "Sube un archivo de texto plano o CSV con las columnas Fecha, Descripción, Débito, Crédito, Moneda y Referencia (se detecta automáticamente cualquier delimitador — coma, punto y coma, tabulación o pleca), y esta herramienta reconstruye un extracto SWIFT MT940 completo (.940/.sta) con cabecera, saldos de apertura y cierre y cada transacción, íntegramente en tu dispositivo.",
+      "faq1q": "¿Qué delimitadores se admiten?",
+      "faq1a": "La coma, el punto y coma, la tabulación y la pleca se detectan automáticamente, y se gestionan los campos entre comillas. Una fila de cabecera con nombres de columnas se omite.",
+      "faq2q": "¿Qué formato deben tener las columnas de importe?",
+      "faq2a": "Números simples como 1234.56. Pon un importe de débito en la columna Débito y uno de crédito en la columna Crédito; una fila debe tener al menos uno de ellos."
     },
     "excel-to-mt940": {
       "name": "Excel a MT940",
       "desc": "Convierte una hoja de transacciones de Excel en un extracto bancario MT940.",
-      "long": "Lo inverso a MT940 a Excel: sube una hoja de cÃ¡lculo con las columnas Fecha, DescripciÃ³n, DÃ©bito, CrÃ©dito, Moneda y Referencia, y esta herramienta reconstruye un extracto SWIFT MT940 completo (.940/.sta) con cabecera, saldos de apertura y cierre y cada transacciÃ³n â€” generado Ã­ntegramente en tu dispositivo, de modo que tus datos bancarios nunca salen de tu ordenador.",
-      "faq1q": "Â¿EstÃ¡n seguros mis datos bancarios?",
-      "faq1a": "Por completo â€” todo se genera en tu navegador y nada se transmite a ninguna parte. Desconecta de internet y la herramienta seguirÃ¡ funcionando.",
-      "faq2q": "Â¿QuÃ© columnas debe tener la hoja de Excel?",
-      "faq2a": "Seis columnas en orden: Fecha (AAAA-MM-DD), DescripciÃ³n, DÃ©bito, CrÃ©dito, Moneda y Referencia â€” el mismo formato que produce la herramienta MT940 a Excel de este sitio."
+      "long": "Lo inverso a MT940 a Excel: sube una hoja de cálculo con las columnas Fecha, Descripción, Débito, Crédito, Moneda y Referencia, y esta herramienta reconstruye un extracto SWIFT MT940 completo (.940/.sta) con cabecera, saldos de apertura y cierre y cada transacción — generado íntegramente en tu dispositivo, de modo que tus datos bancarios nunca salen de tu ordenador.",
+      "faq1q": "¿Están seguros mis datos bancarios?",
+      "faq1a": "Por completo — todo se genera en tu navegador y nada se transmite a ninguna parte. Desconecta de internet y la herramienta seguirá funcionando.",
+      "faq2q": "¿Qué columnas debe tener la hoja de Excel?",
+      "faq2a": "Seis columnas en orden: Fecha (AAAA-MM-DD), Descripción, Débito, Crédito, Moneda y Referencia — el mismo formato que produce la herramienta MT940 a Excel de este sitio."
     },
     "invoice-generator": {
       "name": "Generador de facturas",

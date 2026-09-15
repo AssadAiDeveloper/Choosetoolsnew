@@ -827,21 +827,21 @@
     },
     "txt-to-mt940": {
       "name": "TXT para MT940",
-      "desc": "Transforme um arquivo de texto ou CSV de transaÃ§Ãµes em um extrato MT940.",
-      "long": "Carregue um arquivo de texto simples ou CSV com as colunas Data, DescriÃ§Ã£o, DÃ©bito, CrÃ©dito, Moeda e ReferÃªncia (qualquer delimitador â€” vÃ­rgula, ponto e vÃ­rgula, tabulaÃ§Ã£o ou barra vertical â€” Ã© detetado automaticamente), e esta ferramenta reconstrÃ³i um extrato SWIFT MT940 completo (.940/.sta) com cabeÃ§alho, saldos de abertura e de fechamento e cada transaÃ§Ã£o, inteiramente no seu dispositivo.",
-      "faq1q": "Quais delimitadores sÃ£o suportados?",
-      "faq1a": "VÃ­rgula, ponto e vÃ­rgula, tabulaÃ§Ã£o e barra vertical sÃ£o todos detetados automaticamente, e os campos entre aspas sÃ£o tratados. Uma linha de cabeÃ§alho com nomes de colunas Ã© ignorada.",
+      "desc": "Transforme um arquivo de texto ou CSV de transações em um extrato MT940.",
+      "long": "Carregue um arquivo de texto simples ou CSV com as colunas Data, Descrição, Débito, Crédito, Moeda e Referência (qualquer delimitador — vírgula, ponto e vírgula, tabulação ou barra vertical — é detetado automaticamente), e esta ferramenta reconstrói um extrato SWIFT MT940 completo (.940/.sta) com cabeçalho, saldos de abertura e de fechamento e cada transação, inteiramente no seu dispositivo.",
+      "faq1q": "Quais delimitadores são suportados?",
+      "faq1a": "Vírgula, ponto e vírgula, tabulação e barra vertical são todos detetados automaticamente, e os campos entre aspas são tratados. Uma linha de cabeçalho com nomes de colunas é ignorada.",
       "faq2q": "Que formato devem ter as colunas de valor?",
-      "faq2a": "NÃºmeros simples como 1234.56. Coloque um valor de dÃ©bito na coluna DÃ©bito e um valor de crÃ©dito na coluna CrÃ©dito; uma linha deve ter pelo menos um deles."
+      "faq2a": "Números simples como 1234.56. Coloque um valor de débito na coluna Débito e um valor de crédito na coluna Crédito; uma linha deve ter pelo menos um deles."
     },
     "excel-to-mt940": {
       "name": "Excel para MT940",
-      "desc": "Transforme uma folha de transaÃ§Ãµes do Excel em um extrato bancÃ¡rio MT940.",
-      "long": "O oposto de MT940 para Excel: carregue uma planilha com as colunas Data, DescriÃ§Ã£o, DÃ©bito, CrÃ©dito, Moeda e ReferÃªncia, e esta ferramenta reconstrÃ³i um extrato SWIFT MT940 completo (.940/.sta) com cabeÃ§alho, saldos de abertura e de fechamento e cada transaÃ§Ã£o â€” gerado inteiramente no seu dispositivo, para que os seus dados bancÃ¡rios nunca saiam do seu computador.",
-      "faq1q": "Os meus dados bancÃ¡rios estÃ£o seguros?",
-      "faq1a": "Completamente â€” tudo Ã© gerado no seu navegador e nada Ã© transmitido a qualquer lugar. Desligue da internet e a ferramenta continua a funcionar.",
+      "desc": "Transforme uma folha de transações do Excel em um extrato bancário MT940.",
+      "long": "O oposto de MT940 para Excel: carregue uma planilha com as colunas Data, Descrição, Débito, Crédito, Moeda e Referência, e esta ferramenta reconstrói um extrato SWIFT MT940 completo (.940/.sta) com cabeçalho, saldos de abertura e de fechamento e cada transação — gerado inteiramente no seu dispositivo, para que os seus dados bancários nunca saiam do seu computador.",
+      "faq1q": "Os meus dados bancários estão seguros?",
+      "faq1a": "Completamente — tudo é gerado no seu navegador e nada é transmitido a qualquer lugar. Desligue da internet e a ferramenta continua a funcionar.",
       "faq2q": "Que colunas a folha do Excel deve ter?",
-      "faq2a": "Seis colunas por ordem: Data (AAAA-MM-DD), DescriÃ§Ã£o, DÃ©bito, CrÃ©dito, Moeda e ReferÃªncia â€” o mesmo formato que a ferramenta MT940 para Excel deste site produz."
+      "faq2a": "Seis colunas por ordem: Data (AAAA-MM-DD), Descrição, Débito, Crédito, Moeda e Referência — o mesmo formato que a ferramenta MT940 para Excel deste site produz."
     },
     "invoice-generator": {
       "name": "Criar Fatura",

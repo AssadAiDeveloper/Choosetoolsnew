@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "ChooseTools â€” Free file tools that never upload your files",
+    "title": "ChooseTools — Free file tools that never upload your files",
     "description": "Merge, compress and convert PDF and images directly in your browser. No uploads, no limits, no waiting. Your files never leave your device."
   },
   "nav": {
@@ -19,14 +19,14 @@
   },
   "home": {
     "heroTitle": "Every file tool. Zero uploads.",
-    "heroSub": "Everything runs inside your browser. Your files never leave your device â€” so there are no size caps, no daily limits and no waiting for uploads.",
-    "search": "Search toolsâ€¦ (e.g. merge PDF)",
+    "heroSub": "Everything runs inside your browser. Your files never leave your device — so there are no size caps, no daily limits and no waiting for uploads.",
+    "search": "Search tools… (e.g. merge PDF)",
     "noResults": "No tool matches your search.",
     "whyTitle": "Why ChooseTools?",
     "why1t": "Your files stay with you",
-    "why1d": "Other tool sites upload every file to their servers, then promise to delete it. We never receive it in the first place â€” processing happens on your own device.",
+    "why1d": "Other tool sites upload every file to their servers, then promise to delete it. We never receive it in the first place — processing happens on your own device.",
     "why2t": "Genuinely unlimited",
-    "why2d": "No 15 MB caps, no â€œ2 tasks per dayâ€, no watermarks. Because nothing runs on our servers, unlimited use costs us nothing â€” so it costs you nothing.",
+    "why2d": "No 15 MB caps, no “2 tasks per day”, no watermarks. Because nothing runs on our servers, unlimited use costs us nothing — so it costs you nothing.",
     "why3t": "Instant by design",
     "why3d": "No upload time, no queue, no download wait. A 100 MB file starts processing the moment you drop it."
   },
@@ -37,7 +37,7 @@
   "categories": {
     "pdf": {
       "name": "PDF tools",
-      "desc": "Merge, split, rotate, compress and convert PDF files â€” privately, in your browser."
+      "desc": "Merge, split, rotate, compress and convert PDF files — privately, in your browser."
     },
     "image": {
       "name": "Image tools",
@@ -49,13 +49,13 @@
     },
     "arabic": {
       "name": "Arabic Text Tools",
-      "desc": "Tools built specifically for Arabic text and dates â€” not translations of English tools."
+      "desc": "Tools built specifically for Arabic text and dates — not translations of English tools."
     }
   },
   "tool": {
     "dropTitle": "Drop files here or click to choose",
     "dropSingle": "Drop a file here or click to choose",
-    "processing": "Processing on your deviceâ€¦",
+    "processing": "Processing on your device…",
     "download": "Download",
     "downloadAll": "Download all (ZIP)",
     "reset": "Start over",
@@ -110,7 +110,7 @@
     "langName": "Language",
     "level": "Level",
     "remove": "Remove",
-    "generate": "Generate rÃ©sumÃ© (PDF)",
+    "generate": "Generate résumé (PDF)",
     "previewLive": "Live preview",
     "previewFast": "Updates instantly as you type at true A4 size",
     "print": "Print A4",
@@ -137,25 +137,25 @@
       "desc": "Combine several PDF files into one, in the order you choose.",
       "long": "Drop two or more PDF files, drag them into the order you want, and download a single merged document. The merge happens on your device, so even confidential contracts never leave your computer.",
       "faq1q": "Is there a limit on file size or number of files?",
-      "faq1a": "No. Because merging runs in your browser, the only limit is your device's memory â€” files of hundreds of megabytes work fine on a normal laptop.",
+      "faq1a": "No. Because merging runs in your browser, the only limit is your device's memory — files of hundreds of megabytes work fine on a normal laptop.",
       "faq2q": "Are my PDFs uploaded to a server?",
       "faq2a": "Never. The files are read and combined locally by your browser. You can disconnect from the internet after the page loads and the tool keeps working."
     },
     "split-pdf": {
       "name": "Split PDF",
       "desc": "Extract a page range from a PDF into a new file.",
-      "long": "Choose the pages you need â€” for example pages 3 to 7 â€” and get a new PDF containing only that range. Nothing is uploaded.",
+      "long": "Choose the pages you need — for example pages 3 to 7 — and get a new PDF containing only that range. Nothing is uploaded.",
       "faq1q": "Can I extract a single page?",
-      "faq1a": "Yes â€” set the same number as both the start and end page.",
+      "faq1a": "Yes — set the same number as both the start and end page.",
       "faq2q": "Does splitting reduce quality?",
       "faq2a": "No. Pages are copied exactly as they are, with no re-compression."
     },
     "rotate-pdf": {
       "name": "Rotate PDF",
-      "desc": "Rotate all pages of a PDF by 90Â°, 180Â° or 270Â°.",
+      "desc": "Rotate all pages of a PDF by 90°, 180° or 270°.",
       "long": "Fix scanned documents that came out sideways or upside down. Rotation is lossless and instant.",
       "faq1q": "Is the rotation permanent?",
-      "faq1a": "Yes â€” the downloaded file is saved with the new orientation and opens correctly in any PDF reader.",
+      "faq1a": "Yes — the downloaded file is saved with the new orientation and opens correctly in any PDF reader.",
       "faq2q": "Does rotating affect quality?",
       "faq2a": "No. Only the page orientation flag changes; the content is untouched."
     },
@@ -164,9 +164,9 @@
       "desc": "Remove specific pages from a PDF file.",
       "long": "Type the page numbers you want to remove (e.g. 2, 5-7) and download the cleaned-up PDF.",
       "faq1q": "How do I write the page numbers?",
-      "faq1a": "Use commas for single pages and a dash for ranges: â€œ2, 5-7, 10â€ removes page 2, pages 5 through 7, and page 10.",
+      "faq1a": "Use commas for single pages and a dash for ranges: “2, 5-7, 10” removes page 2, pages 5 through 7, and page 10.",
       "faq2q": "Can I undo a deletion?",
-      "faq2a": "Your original file is never modified â€” it stays untouched on your device, so you can simply run the tool again."
+      "faq2a": "Your original file is never modified — it stays untouched on your device, so you can simply run the tool again."
     },
     "jpg-to-pdf": {
       "name": "JPG to PDF",
@@ -175,57 +175,57 @@
       "faq1q": "Can I combine JPG and PNG in one PDF?",
       "faq1a": "Yes, both formats can be mixed freely in the same document.",
       "faq2q": "Are the images compressed?",
-      "faq2a": "No â€” images are embedded at their original quality."
+      "faq2a": "No — images are embedded at their original quality."
     },
     "pdf-to-jpg": {
       "name": "PDF to JPG",
       "desc": "Convert each PDF page into a high-quality JPG image.",
-      "long": "Every page is rendered on your device and downloaded as an image â€” one JPG per page, or all pages in a ZIP.",
+      "long": "Every page is rendered on your device and downloaded as an image — one JPG per page, or all pages in a ZIP.",
       "faq1q": "What resolution are the images?",
       "faq1a": "Pages are rendered at 2Ã— scale, which is sharp enough for screens and most printing.",
       "faq2q": "My PDF has many pages. Is that a problem?",
-      "faq2a": "No â€” pages are converted one by one, so even long documents work. You can download everything as a single ZIP."
+      "faq2a": "No — pages are converted one by one, so even long documents work. You can download everything as a single ZIP."
     },
     "compress-pdf": {
       "name": "Compress PDF",
       "desc": "Reduce PDF file size with lossless optimization.",
-      "long": "The file is rewritten with optimized internal structure and object streams. Text and images are not degraded â€” this is lossless optimization, not destructive compression.",
+      "long": "The file is rewritten with optimized internal structure and object streams. Text and images are not degraded — this is lossless optimization, not destructive compression.",
       "faq1q": "How much smaller will my file get?",
       "faq1a": "It depends on how the PDF was created. Poorly generated files can shrink a lot; already-optimized files less. The exact saving is shown before you download.",
       "faq2q": "Will quality be reduced?",
-      "faq2a": "No. This optimization is fully lossless â€” every page looks exactly the same."
+      "faq2a": "No. This optimization is fully lossless — every page looks exactly the same."
     },
     "compress-image": {
       "name": "Compress Image",
       "desc": "Shrink JPG, PNG and WebP file sizes right in your browser.",
       "long": "Smart compression reduces file size dramatically while keeping images looking sharp. Perfect for websites, email attachments and forms with upload limits.",
       "faq1q": "How much can I expect to save?",
-      "faq1a": "Typically 60â€“90% for photos, depending on the quality level you pick. The result and savings are shown before downloading.",
+      "faq1a": "Typically 60–90% for photos, depending on the quality level you pick. The result and savings are shown before downloading.",
       "faq2q": "Is there a file size limit?",
-      "faq2a": "No fixed limit â€” compression runs on your device, so even very large photos work."
+      "faq2a": "No fixed limit — compression runs on your device, so even very large photos work."
     },
     "resize-image": {
       "name": "Resize Image",
       "desc": "Change image dimensions to exact pixel sizes.",
-      "long": "Enter a new width or height â€” the aspect ratio is kept automatically unless you turn it off. Runs instantly on your device.",
+      "long": "Enter a new width or height — the aspect ratio is kept automatically unless you turn it off. Runs instantly on your device.",
       "faq1q": "Will resizing blur my image?",
-      "faq1a": "Downscaling keeps images sharp. Upscaling beyond the original size can look soft â€” that's a limit of the source image, not the tool.",
+      "faq1a": "Downscaling keeps images sharp. Upscaling beyond the original size can look soft — that's a limit of the source image, not the tool.",
       "faq2q": "Which formats are supported?",
       "faq2a": "JPG, PNG and WebP. The output keeps the same format as the input."
     },
     "convert-image": {
       "name": "Convert Image",
       "desc": "Convert between JPG, PNG and WebP formats.",
-      "long": "Pick the output format and convert instantly. WebP output typically makes files 25â€“35% smaller than JPG at the same quality.",
+      "long": "Pick the output format and convert instantly. WebP output typically makes files 25–35% smaller than JPG at the same quality.",
       "faq1q": "When should I use WebP?",
-      "faq1a": "For websites â€” it is smaller than JPG and PNG at similar quality and supported by all modern browsers.",
+      "faq1a": "For websites — it is smaller than JPG and PNG at similar quality and supported by all modern browsers.",
       "faq2q": "Does converting PNG to JPG lose transparency?",
-      "faq2a": "Yes â€” JPG has no transparency, so transparent areas become white. Use PNG or WebP to keep transparency."
+      "faq2a": "Yes — JPG has no transparency, so transparent areas become white. Use PNG or WebP to keep transparency."
     },
     "heic-to-jpg": {
       "name": "HEIC to JPG",
       "desc": "Convert iPhone HEIC photos to universally supported JPG.",
-      "long": "iPhones save photos as HEIC, which many apps and websites reject. Convert them to JPG on your own device â€” your personal photos are never uploaded anywhere.",
+      "long": "iPhones save photos as HEIC, which many apps and websites reject. Convert them to JPG on your own device — your personal photos are never uploaded anywhere.",
       "faq1q": "Why won't my HEIC photos open on Windows?",
       "faq1a": "Windows needs a paid codec to open HEIC. Converting to JPG makes photos open everywhere without extra software.",
       "faq2q": "Is the quality preserved?",
@@ -233,17 +233,17 @@
     },
     "rotate-image": {
       "name": "Rotate & Flip Image",
-      "desc": "Rotate images by 90Â° steps or mirror them horizontally/vertically.",
+      "desc": "Rotate images by 90° steps or mirror them horizontally/vertically.",
       "long": "Fix photos taken sideways or create mirrored versions. All edits happen locally and download instantly.",
       "faq1q": "Does rotating reduce image quality?",
       "faq1a": "PNG output is lossless. JPG output is re-encoded at high quality (95%), which is visually indistinguishable.",
       "faq2q": "Can I rotate by a custom angle?",
-      "faq2a": "This tool covers 90Â° steps and mirroring, which fixes orientation issues. Free-angle rotation is on our roadmap."
+      "faq2a": "This tool covers 90° steps and mirroring, which fixes orientation issues. Free-angle rotation is on our roadmap."
     },
     "remove-exif": {
       "name": "Remove EXIF Data",
       "desc": "Strip GPS location and camera metadata from photos before sharing.",
-      "long": "Photos secretly carry metadata: GPS coordinates of where they were taken, device model, date and time. This tool produces a clean copy with all of it removed â€” and because it runs locally, the photo you're cleaning is never itself exposed.",
+      "long": "Photos secretly carry metadata: GPS coordinates of where they were taken, device model, date and time. This tool produces a clean copy with all of it removed — and because it runs locally, the photo you're cleaning is never itself exposed.",
       "faq1q": "What exactly is removed?",
       "faq1a": "All EXIF metadata: GPS location, camera and phone model, timestamps, software tags and thumbnail previews. Only the visible image remains.",
       "faq2q": "How can I verify it worked?",
@@ -252,9 +252,9 @@
     "word-counter": {
       "name": "Word & Character Counter",
       "desc": "Count words, characters, sentences and estimated reading time.",
-      "long": "Paste or type text and see live counts â€” including character counts with and without spaces, and reading time at average speed.",
+      "long": "Paste or type text and see live counts — including character counts with and without spaces, and reading time at average speed.",
       "faq1q": "Does it work for Arabic text?",
-      "faq1a": "Yes â€” word boundaries are detected correctly for Arabic, English, Spanish and mixed text.",
+      "faq1a": "Yes — word boundaries are detected correctly for Arabic, English, Spanish and mixed text.",
       "faq2q": "Is my text sent anywhere?",
       "faq2a": "No. Counting happens as you type, entirely in your browser."
     },
@@ -263,95 +263,95 @@
       "desc": "Convert text to UPPERCASE, lowercase, Title Case or Sentence case.",
       "long": "Paste text, click a style, copy the result. Useful for fixing text typed with Caps Lock on.",
       "faq1q": "What is Title Case?",
-      "faq1a": "The First Letter Of Each Word Is Capitalized â€” commonly used for headlines.",
+      "faq1a": "The First Letter Of Each Word Is Capitalized — commonly used for headlines.",
       "faq2q": "Does it change Arabic text?",
-      "faq2a": "Arabic has no letter case, so Arabic characters pass through unchanged â€” only Latin letters are converted."
+      "faq2a": "Arabic has no letter case, so Arabic characters pass through unchanged — only Latin letters are converted."
     },
     "password-generator": {
       "name": "Password Generator",
       "desc": "Generate strong random passwords with custom rules.",
-      "long": "Passwords are generated with your browser's cryptographic random generator and never leave your device â€” nothing is ever transmitted or stored.",
+      "long": "Passwords are generated with your browser's cryptographic random generator and never leave your device — nothing is ever transmitted or stored.",
       "faq1q": "How long should my password be?",
-      "faq1a": "At least 16 characters for important accounts. Length matters more than complexity â€” every extra character multiplies cracking time.",
+      "faq1a": "At least 16 characters for important accounts. Length matters more than complexity — every extra character multiplies cracking time.",
       "faq2q": "Is it safe to generate passwords online?",
       "faq2a": "On this page, yes: generation uses crypto.getRandomValues() locally in your browser. You can load the page, disconnect from the internet, and generate offline."
     },
     "qr-generator": {
       "name": "QR Code Generator",
-      "desc": "Create QR codes for links, text or Wi-Fi â€” free and without watermarks.",
+      "desc": "Create QR codes for links, text or Wi-Fi — free and without watermarks.",
       "long": "Type any text or URL and download a high-resolution PNG QR code. No sign-up, no expiring codes, no watermark.",
       "faq1q": "Do these QR codes expire?",
-      "faq1a": "Never. The code is generated directly from your text â€” there is no shortening service or server that could shut down.",
+      "faq1a": "Never. The code is generated directly from your text — there is no shortening service or server that could shut down.",
       "faq2q": "What resolution is the download?",
-      "faq2a": "1024Ã—1024 pixels PNG â€” sharp enough for print, business cards and posters."
+      "faq2a": "1024×1024 pixels PNG — sharp enough for print, business cards and posters."
     },
     "json-formatter": {
       "name": "JSON Formatter",
       "desc": "Format, validate and minify JSON data.",
       "long": "Paste JSON to pretty-print it with proper indentation, or minify it for production. Errors are pinpointed with a clear message.",
       "faq1q": "Is it safe to paste API responses with sensitive data?",
-      "faq1a": "Yes â€” formatting happens locally in your browser. Nothing you paste is transmitted anywhere.",
-      "faq2q": "What does â€œinvalid JSONâ€ mean?",
-      "faq2a": "The text breaks JSON syntax rules â€” commonly a trailing comma, single quotes instead of double, or an unquoted key. The error message shows where."
+      "faq1a": "Yes — formatting happens locally in your browser. Nothing you paste is transmitted anywhere.",
+      "faq2q": "What does “invalid JSON” mean?",
+      "faq2a": "The text breaks JSON syntax rules — commonly a trailing comma, single quotes instead of double, or an unquoted key. The error message shows where."
     },
     "base64": {
       "name": "Base64 & Hex Encode",
       "desc": "Convert text to Base64 and back, with full Unicode support.",
-      "long": "Encode any text â€” including Arabic and emoji â€” to Base64, or decode Base64 back to readable text.",
+      "long": "Encode any text — including Arabic and emoji — to Base64, or decode Base64 back to readable text.",
       "faq1q": "What is Base64 used for?",
-      "faq1a": "It represents binary or special-character data using only safe ASCII characters â€” common in APIs, email attachments and data URLs.",
+      "faq1a": "It represents binary or special-character data using only safe ASCII characters — common in APIs, email attachments and data URLs.",
       "faq2q": "Is Base64 encryption?",
-      "faq2a": "No. Base64 is encoding, not encryption â€” anyone can decode it. Never use it to protect secrets."
+      "faq2a": "No. Base64 is encoding, not encryption — anyone can decode it. Never use it to protect secrets."
     },
     "remove-tashkeel": {
       "name": "Remove Tashkeel",
       "desc": "Strip Arabic diacritics (harakat) from text in one click.",
-      "long": "Removes fatha, damma, kasra, sukun, shadda, tanween and tatweel from Arabic text â€” useful for search indexing, databases and clean typography.",
+      "long": "Removes fatha, damma, kasra, sukun, shadda, tanween and tatweel from Arabic text — useful for search indexing, databases and clean typography.",
       "faq1q": "Does it change the letters themselves?",
-      "faq1a": "No â€” only diacritical marks are removed. The letters, spaces and punctuation stay exactly as they are.",
+      "faq1a": "No — only diacritical marks are removed. The letters, spaces and punctuation stay exactly as they are.",
       "faq2q": "Can I keep the shadda?",
-      "faq2a": "Yes â€” toggle â€œkeep shaddaâ€ to remove all marks except shadda, which often carries meaning."
+      "faq2a": "Yes — toggle “keep shadda” to remove all marks except shadda, which often carries meaning."
     },
     "arabic-numerals": {
       "name": "Arabic & Western Numerals",
-      "desc": "Convert between Eastern Arabic (Ù Ù¡Ù¢Ù£) and Western (0123) digits.",
+      "desc": "Convert between Eastern Arabic (٠١٢٣) and Western (0123) digits.",
       "long": "Converts every digit in your text in either direction while leaving all other characters untouched. Handles Persian digit variants too.",
-      "faq1q": "Which digits are â€œArabic numeralsâ€?",
-      "faq1a": "Confusingly, both! Ù Ù¡Ù¢Ù£Ù¤ are Eastern Arabic (Arabic-Indic) digits used in most Arabic countries; 01234 are Western Arabic digits. This tool converts between them.",
+      "faq1q": "Which digits are “Arabic numerals”?",
+      "faq1a": "Confusingly, both! ٠١٢٣٤ are Eastern Arabic (Arabic-Indic) digits used in most Arabic countries; 01234 are Western Arabic digits. This tool converts between them.",
       "faq2q": "Will it change dates and phone numbers correctly?",
-      "faq2a": "Yes â€” digits are converted one-to-one wherever they appear, so formats like dates and phone numbers keep their structure."
+      "faq2a": "Yes — digits are converted one-to-one wherever they appear, so formats like dates and phone numbers keep their structure."
     },
     "hijri-gregorian": {
       "name": "Hijri-Gregorian Converter",
       "desc": "Convert dates between the Islamic (Umm al-Qura) and Gregorian calendars.",
-      "long": "Accurate two-way conversion using the Umm al-Qura calendar â€” the official calendar of Saudi Arabia â€” with the weekday shown for every result.",
+      "long": "Accurate two-way conversion using the Umm al-Qura calendar — the official calendar of Saudi Arabia — with the weekday shown for every result.",
       "faq1q": "Which Hijri calendar is used?",
-      "faq1a": "Umm al-Qura, the calculated calendar officially used in Saudi Arabia. Actual moon sighting can differ by Â±1 day for religious observances.",
+      "faq1a": "Umm al-Qura, the calculated calendar officially used in Saudi Arabia. Actual moon sighting can differ by ±1 day for religious observances.",
       "faq2q": "What date range is supported?",
-      "faq2a": "Any date from the Hijri epoch (622 CE) far into the future â€” enough for birthdays, contracts and historical dates."
+      "faq2a": "Any date from the Hijri epoch (622 CE) far into the future — enough for birthdays, contracts and historical dates."
     },
     "reorder-pdf": {
       "name": "Reorder PDF Pages",
       "desc": "Rearrange the pages of a PDF with visual thumbnails.",
-      "long": "Every page is rendered as a thumbnail on your device. Move pages into the order you want and download the rearranged file â€” nothing is uploaded.",
+      "long": "Every page is rendered as a thumbnail on your device. Move pages into the order you want and download the rearranged file — nothing is uploaded.",
       "faq1q": "Can I move a page from the end to the beginning?",
-      "faq1a": "Yes â€” use the arrows under each thumbnail to move pages step by step into any position.",
+      "faq1a": "Yes — use the arrows under each thumbnail to move pages step by step into any position.",
       "faq2q": "Does reordering change quality?",
       "faq2a": "No. Pages are copied exactly as they are; only their order changes."
     },
     "watermark-pdf": {
       "name": "Add Watermark to PDF",
       "desc": "Stamp a diagonal text watermark across every page.",
-      "long": "Type your watermark text (e.g. CONFIDENTIAL or DRAFT), pick the opacity, and every page gets a clean diagonal stamp â€” processed locally.",
+      "long": "Type your watermark text (e.g. CONFIDENTIAL or DRAFT), pick the opacity, and every page gets a clean diagonal stamp — processed locally.",
       "faq1q": "Can I use Arabic text in the watermark?",
-      "faq1a": "Not yet â€” the built-in PDF fonts cover Latin letters and numbers. Arabic watermark support with embedded fonts is on our roadmap.",
+      "faq1a": "Not yet — the built-in PDF fonts cover Latin letters and numbers. Arabic watermark support with embedded fonts is on our roadmap.",
       "faq2q": "Can the watermark be removed later?",
-      "faq2a": "The watermark becomes part of the page content. Keep your original file â€” it is never modified."
+      "faq2a": "The watermark becomes part of the page content. Keep your original file — it is never modified."
     },
     "page-numbers-pdf": {
       "name": "Add Page Numbers to PDF",
       "desc": "Insert page numbers at the bottom of every page.",
-      "long": "Choose a simple style (1, 2, 3) or the â€œ1 / 12â€ format, and download a numbered copy of your document.",
+      "long": "Choose a simple style (1, 2, 3) or the “1 / 12” format, and download a numbered copy of your document.",
       "faq1q": "Where are the numbers placed?",
       "faq1a": "Centered at the bottom of each page, in a size that stays readable without clashing with your content.",
       "faq2q": "Can I start numbering from a page other than 1?",
@@ -360,16 +360,16 @@
     "crop-image": {
       "name": "Crop Image",
       "desc": "Crop images to standard aspect ratios like 1:1 or 16:9.",
-      "long": "Pick a target ratio and the image is center-cropped to the largest possible area â€” perfect for profile pictures, covers and thumbnails.",
+      "long": "Pick a target ratio and the image is center-cropped to the largest possible area — perfect for profile pictures, covers and thumbnails.",
       "faq1q": "Which ratios are available?",
       "faq1a": "Square 1:1, classic 4:3 and 3:4, and widescreen 16:9 and 9:16 for stories and covers.",
       "faq2q": "Is the crop centered?",
-      "faq2a": "Yes â€” the tool keeps the largest centered region that fits your chosen ratio."
+      "faq2a": "Yes — the tool keeps the largest centered region that fits your chosen ratio."
     },
     "circle-crop": {
       "name": "Circle Crop Image",
       "desc": "Cut a perfect circle from any photo, with transparency.",
-      "long": "The largest centered circle is cut from your image and saved as a transparent PNG â€” ready for avatars and logos.",
+      "long": "The largest centered circle is cut from your image and saved as a transparent PNG — ready for avatars and logos.",
       "faq1q": "Why is the output a PNG?",
       "faq1a": "Only PNG (and WebP) support transparency. The corners outside the circle are fully transparent.",
       "faq2q": "Can I choose where the circle is placed?",
@@ -378,7 +378,7 @@
     "blur-image": {
       "name": "Blur Image",
       "desc": "Apply an adjustable gaussian blur to a photo.",
-      "long": "Choose the blur strength with a slider â€” useful for backgrounds, redacting details or creating soft cover images.",
+      "long": "Choose the blur strength with a slider — useful for backgrounds, redacting details or creating soft cover images.",
       "faq1q": "Can I blur only part of the image?",
       "faq1a": "This tool blurs the whole image. Region-based blur is on our roadmap.",
       "faq2q": "Does blurring hide information reliably?",
@@ -389,59 +389,59 @@
       "desc": "Apply grayscale, sepia, invert, brightness or contrast.",
       "long": "One-click classic filters, processed instantly on your device at full resolution.",
       "faq1q": "Do filters reduce resolution?",
-      "faq1a": "No â€” the image keeps its exact original dimensions.",
+      "faq1a": "No — the image keeps its exact original dimensions.",
       "faq2q": "Can I stack multiple filters?",
       "faq2a": "Apply one filter, download, then run the result through the tool again to combine effects."
     },
     "image-to-base64": {
       "name": "Image to Base64",
       "desc": "Convert an image into a Base64 data URL for embedding.",
-      "long": "Get a copy-ready data URL for use in HTML, CSS or JSON â€” generated locally, so even private images are safe.",
+      "long": "Get a copy-ready data URL for use in HTML, CSS or JSON — generated locally, so even private images are safe.",
       "faq1q": "When should I embed images as Base64?",
       "faq1a": "For small images (icons, tiny logos) where saving an HTTP request matters. Large images are better served as normal files.",
       "faq2q": "Why is the Base64 string larger than my file?",
-      "faq2a": "Base64 encoding adds roughly 33% overhead â€” that is normal and expected."
+      "faq2a": "Base64 encoding adds roughly 33% overhead — that is normal and expected."
     },
     "favicon-generator": {
       "name": "Favicon Generator",
       "desc": "Generate a complete favicon set from one image.",
-      "long": "Upload a square logo and download a ZIP with all standard sizes (16â€“512px), the Apple touch icon, and a ready-to-paste HTML snippet.",
+      "long": "Upload a square logo and download a ZIP with all standard sizes (16–512px), the Apple touch icon, and a ready-to-paste HTML snippet.",
       "faq1q": "What image should I start from?",
       "faq1a": "A square PNG or SVG of at least 512Ã—512 pixels gives the sharpest results at every size.",
       "faq2q": "Which sizes are included?",
-      "faq2a": "16, 32, 48, 192 and 512 pixels plus the 180px apple-touch-icon â€” everything modern browsers and phones request."
+      "faq2a": "16, 32, 48, 192 and 512 pixels plus the 180px apple-touch-icon — everything modern browsers and phones request."
     },
     "color-picker": {
       "name": "Color Picker from Image",
       "desc": "Click anywhere on an image to get exact HEX and RGB values.",
-      "long": "Upload a photo or screenshot and click any pixel â€” the tool builds a palette of your picked colors with one-click copy.",
+      "long": "Upload a photo or screenshot and click any pixel — the tool builds a palette of your picked colors with one-click copy.",
       "faq1q": "How accurate is the picked color?",
-      "faq1a": "Exact â€” the value is read directly from the image pixel you click.",
+      "faq1a": "Exact — the value is read directly from the image pixel you click.",
       "faq2q": "Can I pick multiple colors?",
       "faq2a": "Yes, every click adds to your palette (up to the last 12 picks)."
     },
     "svg-to-png": {
       "name": "SVG to PNG",
-      "desc": "Convert vector SVG files to PNG at 1Ã—â€“8Ã— scale.",
-      "long": "Renders your SVG on your device and exports a crisp PNG â€” choose a higher scale for print or retina displays.",
+      "desc": "Convert vector SVG files to PNG at 1×–8× scale.",
+      "long": "Renders your SVG on your device and exports a crisp PNG — choose a higher scale for print or retina displays.",
       "faq1q": "What does the scale setting do?",
       "faq1a": "It multiplies the SVG's natural size: an icon of 100Ã—100 exported at 4Ã— becomes a 400Ã—400 PNG.",
       "faq2q": "Is transparency preserved?",
-      "faq2a": "Yes â€” transparent areas of the SVG stay transparent in the PNG."
+      "faq2a": "Yes — transparent areas of the SVG stay transparent in the PNG."
     },
     "id-photo": {
       "name": "Passport & ID Photo",
       "desc": "Resize photos to official passport sizes: Saudi, UAE, Egypt, EU, US.",
-      "long": "Pick your country preset and get a correctly sized photo at print quality (300 DPI). The crop is biased toward the top of the frame where the face usually sits â€” and because it runs locally, your personal photo never leaves your device.",
+      "long": "Pick your country preset and get a correctly sized photo at print quality (300 DPI). The crop is biased toward the top of the frame where the face usually sits — and because it runs locally, your personal photo never leaves your device.",
       "faq1q": "Which sizes are supported?",
-      "faq1a": "EU/Schengen 35Ã—45mm, Saudi Arabia and Egypt 40Ã—60mm, UAE 43Ã—55mm, and US 51Ã—51mm â€” all exported at 300 DPI.",
+      "faq1a": "EU/Schengen 35×45mm, Saudi Arabia and Egypt 40×60mm, UAE 43×55mm, and US 51×51mm — all exported at 300 DPI.",
       "faq2q": "Does the tool verify photo requirements?",
-      "faq2a": "It produces the correct dimensions and resolution. Requirements like background color and facial expression remain your responsibility â€” check your authority's guidelines."
+      "faq2a": "It produces the correct dimensions and resolution. Requirements like background color and facial expression remain your responsibility — check your authority's guidelines."
     },
     "url-encode": {
       "name": "URL Encode / Decode",
       "desc": "Encode text for safe use in URLs, or decode it back.",
-      "long": "Percent-encoding made instant â€” full Unicode support including Arabic characters in URLs.",
+      "long": "Percent-encoding made instant — full Unicode support including Arabic characters in URLs.",
       "faq1q": "When do I need URL encoding?",
       "faq1a": "Whenever text goes into a URL: query parameters, search terms, or any characters like spaces, ?, & and non-Latin letters.",
       "faq2q": "What is the difference with Base64?",
@@ -450,52 +450,52 @@
     "uuid-generator": {
       "name": "UUID Generator",
       "desc": "Generate random version-4 UUIDs in bulk.",
-      "long": "Uses your browser's native crypto.randomUUID() â€” cryptographically strong identifiers, generated offline.",
+      "long": "Uses your browser's native crypto.randomUUID() — cryptographically strong identifiers, generated offline.",
       "faq1q": "What is a UUID used for?",
       "faq1a": "As a practically collision-free identifier for database records, API objects, filenames and distributed systems.",
       "faq2q": "Can two generated UUIDs collide?",
-      "faq2a": "The probability is so small it is negligible in practice â€” you would need to generate billions per second for centuries."
+      "faq2a": "The probability is so small it is negligible in practice — you would need to generate billions per second for centuries."
     },
     "hash-generator": {
       "name": "Hash Generator",
       "desc": "Compute SHA-1, SHA-256, SHA-384 and SHA-512 hashes of text.",
-      "long": "Hashes update live as you type, computed with the browser's native Web Crypto API â€” your text never leaves the page.",
+      "long": "Hashes update live as you type, computed with the browser's native Web Crypto API — your text never leaves the page.",
       "faq1q": "Why is MD5 not offered?",
       "faq1a": "MD5 is cryptographically broken and browsers do not implement it natively. SHA-256 is the modern standard.",
       "faq2q": "Are hashes reversible?",
-      "faq2a": "No â€” a hash is a one-way fingerprint. The same input always gives the same hash, but the input cannot be recovered from it."
+      "faq2a": "No — a hash is a one-way fingerprint. The same input always gives the same hash, but the input cannot be recovered from it."
     },
     "remove-duplicate-lines": {
       "name": "Remove Duplicate Lines",
       "desc": "Delete repeated lines from a list while keeping the original order.",
-      "long": "Paste any list â€” emails, keywords, URLs â€” and get each unique line exactly once, with a count of what was removed.",
+      "long": "Paste any list — emails, keywords, URLs — and get each unique line exactly once, with a count of what was removed.",
       "faq1q": "Is the comparison case-sensitive?",
-      "faq1a": "Yes â€” â€œAppleâ€ and â€œappleâ€ are treated as different lines. Use the Case Converter first to normalize if needed.",
+      "faq1a": "Yes — “Apple” and “apple” are treated as different lines. Use the Case Converter first to normalize if needed.",
       "faq2q": "Is the original order preserved?",
       "faq2a": "Yes, the first occurrence of each line stays in place; later repeats are removed."
     },
     "text-diff": {
       "name": "Text Diff",
       "desc": "Compare two texts and highlight added and removed lines.",
-      "long": "Paste two versions side by side and see exactly which lines changed â€” additions in green, deletions in red.",
+      "long": "Paste two versions side by side and see exactly which lines changed — additions in green, deletions in red.",
       "faq1q": "How does the comparison work?",
       "faq1a": "Line by line, using the same longest-common-subsequence approach as programming diff tools.",
       "faq2q": "Can I compare code?",
-      "faq2a": "Yes â€” the tool is content-agnostic and works for code, contracts, articles or any text."
+      "faq2a": "Yes — the tool is content-agnostic and works for code, contracts, articles or any text."
     },
     "lorem-ipsum": {
       "name": "Lorem Ipsum Generator",
       "desc": "Generate placeholder paragraphs for designs and mockups.",
-      "long": "Classic lorem ipsum filler text, 1â€“10 paragraphs, generated instantly with one-click copy.",
+      "long": "Classic lorem ipsum filler text, 1–10 paragraphs, generated instantly with one-click copy.",
       "faq1q": "Why use lorem ipsum instead of real text?",
       "faq1a": "Its natural letter distribution lets viewers judge a layout without being distracted by readable content.",
       "faq2q": "Is the text random?",
-      "faq2a": "Yes â€” sentence lengths and word order vary on every generation, like natural writing."
+      "faq2a": "Yes — sentence lengths and word order vary on every generation, like natural writing."
     },
     "markdown-to-html": {
       "name": "Markdown to HTML",
       "desc": "Convert Markdown syntax to clean HTML markup.",
-      "long": "Powered by the modern marked parser, running entirely in your browser â€” paste Markdown, copy production-ready HTML.",
+      "long": "Powered by the modern marked parser, running entirely in your browser — paste Markdown, copy production-ready HTML.",
       "faq1q": "Which Markdown features are supported?",
       "faq1a": "The full CommonMark standard: headings, emphasis, lists, links, images, code blocks, blockquotes and tables (GFM).",
       "faq2q": "Is the HTML output sanitized?",
@@ -504,34 +504,34 @@
     "csv-json": {
       "name": "CSV & JSON Converter",
       "desc": "Convert between CSV data and JSON arrays in both directions.",
-      "long": "Powered by the industry-standard Papa Parse engine â€” handles quoted fields, commas inside values, and headers correctly.",
+      "long": "Powered by the industry-standard Papa Parse engine — handles quoted fields, commas inside values, and headers correctly.",
       "faq1q": "Does CSVâ†’JSON use the first row as keys?",
-      "faq1a": "Yes â€” the header row becomes the JSON property names for every object.",
-      "faq2q": "My CSV uses semicolons â€” will it work?",
+      "faq1a": "Yes — the header row becomes the JSON property names for every object.",
+      "faq2q": "My CSV uses semicolons — will it work?",
       "faq2a": "Yes, the parser auto-detects common delimiters including semicolons and tabs."
     },
     "tafqit": {
       "name": "Tafqit - Numbers to Arabic Words",
       "desc": "Convert numbers into written Arabic words for invoices and cheques.",
-      "long": "Type any amount up to billions and get the grammatically correct Arabic wording, with optional currency (SAR, AED, EGP, USD, EUR) in the legal â€œonly and nothing moreâ€ format used on invoices.",
+      "long": "Type any amount up to billions and get the grammatically correct Arabic wording, with optional currency (SAR, AED, EGP, USD, EUR) in the legal “only and nothing more” format used on invoices.",
       "faq1q": "What is tafqit used for?",
-      "faq1a": "Arabic invoices, cheques and contracts legally require amounts written in words â€” tafqit converts 15,750 into its full Arabic wording instantly.",
+      "faq1a": "Arabic invoices, cheques and contracts legally require amounts written in words — tafqit converts 15,750 into its full Arabic wording instantly.",
       "faq2q": "Is the Arabic grammar correct?",
-      "faq2a": "Yes â€” the tool applies the correct forms for duals, 3â€“10 plurals, and the accusative used after 11+ (e.g. Ø£Ù„ÙØ§Ù‹ / Ù…Ù„ÙŠÙˆÙ†Ø§Ù‹)."
+      "faq2a": "Yes — the tool applies the correct forms for duals, 3–10 plurals, and the accusative used after 11+ (e.g. ألفاً / مليوناً)."
     },
     "extract-pdf-pages": {
       "name": "Extract PDF Pages",
       "desc": "Pull specific pages or ranges out of a PDF into a new file.",
-      "long": "Type page ranges like â€œ1-3, 5, 8-10â€ and get a new PDF containing exactly those pages, in that order â€” processed on your device.",
+      "long": "Type page ranges like “1-3, 5, 8-10” and get a new PDF containing exactly those pages, in that order — processed on your device.",
       "faq1q": "What range formats are accepted?",
       "faq1a": "Single pages (5), ranges (2-7), or any comma-separated mix like 1-3, 6, 9-12.",
       "faq2q": "Does the original file change?",
-      "faq2a": "Never â€” a brand-new PDF is created and your original stays untouched on your device."
+      "faq2a": "Never — a brand-new PDF is created and your original stays untouched on your device."
     },
     "pdf-to-text": {
       "name": "PDF to Text",
       "desc": "Extract all text content from a PDF into plain text.",
-      "long": "Reads the text layer of every page and gives you clean, copyable text â€” with a one-click .txt download. Works with Arabic, Latin and Spanish documents.",
+      "long": "Reads the text layer of every page and gives you clean, copyable text — with a one-click .txt download. Works with Arabic, Latin and Spanish documents.",
       "faq1q": "Why did my scanned PDF return no text?",
       "faq1a": "Scanned PDFs are images without a text layer. Text extraction needs a digitally created PDF; OCR for scans is on our roadmap.",
       "faq2q": "Is the layout preserved?",
@@ -540,124 +540,124 @@
     "png-to-pdf": {
       "name": "PNG to PDF",
       "desc": "Combine one or more PNG images into a single PDF.",
-      "long": "Each image becomes a page at its original resolution â€” transparency is preserved on the PDF page. Perfect for screenshots and scans.",
+      "long": "Each image becomes a page at its original resolution — transparency is preserved on the PDF page. Perfect for screenshots and scans.",
       "faq1q": "Can I control the page order?",
-      "faq1a": "Pages follow the order you add files in â€” remove and re-add to rearrange, or use the Reorder PDF tool afterwards.",
+      "faq1a": "Pages follow the order you add files in — remove and re-add to rearrange, or use the Reorder PDF tool afterwards.",
       "faq2q": "Is image quality reduced?",
-      "faq2a": "No â€” PNGs are embedded losslessly at their full original resolution."
+      "faq2a": "No — PNGs are embedded losslessly at their full original resolution."
     },
     "pdf-metadata": {
       "name": "Edit PDF Metadata",
       "desc": "View and edit a PDF's title, author, subject and keywords.",
-      "long": "Metadata determines how a document appears in search results and file managers. Edit the fields and download an updated copy â€” the content itself is untouched.",
+      "long": "Metadata determines how a document appears in search results and file managers. Edit the fields and download an updated copy — the content itself is untouched.",
       "faq1q": "Why does metadata matter?",
       "faq1a": "Search engines and document systems index title and author fields; correct metadata makes your PDFs findable and professional.",
       "faq2q": "Does editing metadata change the document content?",
-      "faq2a": "No â€” only the invisible information fields change. Every page stays byte-identical."
+      "faq2a": "No — only the invisible information fields change. Every page stays byte-identical."
     },
     "grayscale-pdf": {
       "name": "Grayscale PDF",
       "desc": "Convert a color PDF to black & white.",
-      "long": "Every page is re-rendered in grayscale on your device â€” ideal for print-friendly versions and reducing toner use.",
+      "long": "Every page is re-rendered in grayscale on your device — ideal for print-friendly versions and reducing toner use.",
       "faq1q": "Does the text stay selectable?",
-      "faq1a": "No â€” pages are converted to high-resolution grayscale images, so text selection is lost. Keep your color original for editing.",
+      "faq1a": "No — pages are converted to high-resolution grayscale images, so text selection is lost. Keep your color original for editing.",
       "faq2q": "Why did my file get bigger or smaller?",
       "faq2a": "Pages become compressed images; text-heavy files may grow slightly while photo-heavy files often shrink."
     },
     "flip-image": {
       "name": "Flip Image",
       "desc": "Mirror an image horizontally or vertically.",
-      "long": "One click flips your photo along either axis at full quality â€” useful for selfies, scans and design assets.",
+      "long": "One click flips your photo along either axis at full quality — useful for selfies, scans and design assets.",
       "faq1q": "What is the difference between flip and rotate?",
       "faq1a": "Flipping mirrors the image (left becomes right); rotating turns it around its center. We have a separate Rotate tool.",
       "faq2q": "Does flipping lose quality?",
-      "faq2a": "No â€” pixels are rearranged, not recompressed, when the source is PNG; JPGs are re-encoded at high quality."
+      "faq2a": "No — pixels are rearranged, not recompressed, when the source is PNG; JPGs are re-encoded at high quality."
     },
     "png-to-jpg": {
       "name": "PNG to JPG",
       "desc": "Convert PNG images to JPG with white background fill.",
-      "long": "Transparent areas are flattened onto white and the image is saved as a high-quality JPG â€” usually far smaller than the PNG.",
+      "long": "Transparent areas are flattened onto white and the image is saved as a high-quality JPG — usually far smaller than the PNG.",
       "faq1q": "What happens to transparency?",
       "faq1a": "JPG does not support transparency, so transparent areas are filled with white.",
       "faq2q": "How much smaller will the file be?",
-      "faq2a": "Photos typically shrink 60â€“80%. Graphics with few colors may not shrink much â€” those are better kept as PNG."
+      "faq2a": "Photos typically shrink 60–80%. Graphics with few colors may not shrink much — those are better kept as PNG."
     },
     "webp-to-jpg": {
       "name": "WebP to JPG",
       "desc": "Convert WebP images to universally compatible JPG.",
-      "long": "WebP files sometimes fail to open in older software â€” convert them to JPG in one click, right in your browser.",
+      "long": "WebP files sometimes fail to open in older software — convert them to JPG in one click, right in your browser.",
       "faq1q": "Why convert away from WebP?",
       "faq1a": "Although WebP is efficient, some editors, printers and older systems still reject it. JPG opens everywhere.",
       "faq2q": "Is there quality loss?",
-      "faq2a": "The conversion re-encodes at 92% quality â€” visually identical for photos in practice."
+      "faq2a": "The conversion re-encodes at 92% quality — visually identical for photos in practice."
     },
     "jpg-to-webp": {
       "name": "JPG to WebP",
       "desc": "Convert JPG/PNG images to modern, smaller WebP.",
-      "long": "WebP files are typically 25â€“35% smaller than JPG at the same visual quality â€” ideal for faster websites.",
+      "long": "WebP files are typically 25–35% smaller than JPG at the same visual quality — ideal for faster websites.",
       "faq1q": "Where is WebP supported?",
-      "faq1a": "All modern browsers (Chrome, Safari, Firefox, Edge) support WebP natively â€” over 97% of web users.",
+      "faq1a": "All modern browsers (Chrome, Safari, Firefox, Edge) support WebP natively — over 97% of web users.",
       "faq2q": "When should I not use WebP?",
       "faq2a": "For print workflows or software that requires JPG/PNG input. For the web, WebP is almost always the better choice."
     },
     "add-text-to-image": {
       "name": "Add Text to Image",
-      "desc": "Write text onto a photo â€” Arabic fully supported.",
+      "desc": "Write text onto a photo — Arabic fully supported.",
       "long": "Choose position, color and size; the text is drawn with a clean outline so it stays readable on any background. Arabic script shapes correctly.",
       "faq1q": "Does Arabic text render properly?",
-      "faq1a": "Yes â€” the browser's native text engine handles Arabic letter shaping and right-to-left direction correctly.",
+      "faq1a": "Yes — the browser's native text engine handles Arabic letter shaping and right-to-left direction correctly.",
       "faq2q": "Can I add multiple lines?",
-      "faq2a": "The current version adds a single line per pass â€” run the result through the tool again for additional lines."
+      "faq2a": "The current version adds a single line per pass — run the result through the tool again for additional lines."
     },
     "pixelate-image": {
       "name": "Pixelate Image",
       "desc": "Apply a retro pixel-block effect or censor details.",
-      "long": "Choose the pixel size with a slider â€” from a subtle mosaic to heavy censoring blocks, processed instantly on your device.",
+      "long": "Choose the pixel size with a slider — from a subtle mosaic to heavy censoring blocks, processed instantly on your device.",
       "faq1q": "Is pixelation safe for hiding sensitive data?",
       "faq1a": "Heavy pixelation (20+) is hard to reverse, but for truly sensitive information cropping it out entirely is safer.",
       "faq2q": "What is the difference with blur?",
-      "faq2a": "Blur softens smoothly; pixelation creates hard square blocks â€” the classic censoring and retro-game look."
+      "faq2a": "Blur softens smoothly; pixelation creates hard square blocks — the classic censoring and retro-game look."
     },
     "round-corners": {
       "name": "Round Image Corners",
       "desc": "Add rounded corners to any image, with transparency.",
-      "long": "Pick the corner radius with a slider and download a PNG with smooth transparent corners â€” perfect for app icons and UI assets.",
+      "long": "Pick the corner radius with a slider and download a PNG with smooth transparent corners — perfect for app icons and UI assets.",
       "faq1q": "Why is the output PNG?",
       "faq1a": "Rounded corners need transparency, which JPG cannot store. PNG keeps the corners crisp on any background.",
       "faq2q": "Can I make a full circle?",
-      "faq2a": "At 50% radius on a square image you get a perfect circle â€” or use our dedicated Circle Crop tool."
+      "faq2a": "At 50% radius on a square image you get a perfect circle — or use our dedicated Circle Crop tool."
     },
     "reverse-text": {
       "name": "Reverse Text",
       "desc": "Reverse characters, word order, or line order.",
-      "long": "Three one-click modes: flip every character, reverse the word sequence, or invert line order â€” handy for puzzles, data fixes and fun.",
+      "long": "Three one-click modes: flip every character, reverse the word sequence, or invert line order — handy for puzzles, data fixes and fun.",
       "faq1q": "Does it work with Arabic?",
-      "faq1a": "Yes â€” reversal operates on Unicode characters, though connected Arabic script may look unusual reversed, as expected.",
+      "faq1a": "Yes — reversal operates on Unicode characters, though connected Arabic script may look unusual reversed, as expected.",
       "faq2q": "What is line reversal useful for?",
       "faq2a": "Flipping chronological lists, log files, or rankings without a spreadsheet."
     },
     "text-to-slug": {
       "name": "Text to URL Slug",
       "desc": "Turn any title into a clean, URL-safe slug.",
-      "long": "Lowercases, strips accents, and replaces spaces and symbols with hyphens as you type. Arabic letters are kept â€” modern browsers and search engines fully support Arabic URLs.",
+      "long": "Lowercases, strips accents, and replaces spaces and symbols with hyphens as you type. Arabic letters are kept — modern browsers and search engines fully support Arabic URLs.",
       "faq1q": "Are Arabic slugs good for SEO?",
-      "faq1a": "Yes â€” Google indexes and displays Arabic URLs correctly, and readable Arabic slugs improve click-through for Arabic audiences.",
+      "faq1a": "Yes — Google indexes and displays Arabic URLs correctly, and readable Arabic slugs improve click-through for Arabic audiences.",
       "faq2q": "What characters are removed?",
-      "faq2a": "Everything except letters and digits becomes a hyphen; accented Latin letters are converted to their plain form (Ã© â†’ e)."
+      "faq2a": "Everything except letters and digits becomes a hyphen; accented Latin letters are converted to their plain form (é → e)."
     },
     "binary-text": {
       "name": "Binary & Text",
       "desc": "Convert text to binary code and back.",
-      "long": "Encodes text as UTF-8 bytes shown in 8-bit binary groups â€” and decodes them back. Works with any language including Arabic.",
+      "long": "Encodes text as UTF-8 bytes shown in 8-bit binary groups — and decodes them back. Works with any language including Arabic.",
       "faq1q": "Why does one Arabic letter become two bytes?",
-      "faq1a": "UTF-8 encodes non-Latin characters using multiple bytes â€” that is the standard encoding of the modern web.",
+      "faq1a": "UTF-8 encodes non-Latin characters using multiple bytes — that is the standard encoding of the modern web.",
       "faq2q": "What format does the decoder expect?",
       "faq2a": "Groups of up to 8 binary digits separated by spaces, e.g. 01001000 01101001."
     },
     "morse-code": {
       "name": "Morse Code Translator",
       "desc": "Translate text to Morse code and back.",
-      "long": "International Morse for letters, numbers and common punctuation â€” words separated by â€œ/â€, letters by spaces.",
+      "long": "International Morse for letters, numbers and common punctuation — words separated by “/”, letters by spaces.",
       "faq1q": "How are words separated?",
       "faq1a": "Letters are separated by single spaces and words by a forward slash (/), the common text convention.",
       "faq2q": "Are Arabic letters supported?",
@@ -666,29 +666,29 @@
     "number-base": {
       "name": "Number Base Converter",
       "desc": "Convert between binary, octal, decimal and hexadecimal.",
-      "long": "Type a number, pick its base, and read it instantly in all four bases â€” with one-click copy for each.",
+      "long": "Type a number, pick its base, and read it instantly in all four bases — with one-click copy for each.",
       "faq1q": "Can I paste values with prefixes like 0x?",
-      "faq1a": "Yes â€” 0x, 0b and 0o prefixes are stripped automatically before conversion.",
+      "faq1a": "Yes — 0x, 0b and 0o prefixes are stripped automatically before conversion.",
       "faq2q": "What is the maximum value?",
-      "faq2a": "Anything within JavaScript's safe integer range â€” over 9 quadrillion, far beyond everyday use."
+      "faq2a": "Anything within JavaScript's safe integer range — over 9 quadrillion, far beyond everyday use."
     },
     "roman-numerals": {
       "name": "Roman Numerals Converter",
       "desc": "Convert numbers to Roman numerals and back.",
-      "long": "Type 2026 to get MMXXVI â€” or paste a Roman numeral to decode it. Validation rejects malformed numerals like IIII.",
+      "long": "Type 2026 to get MMXXVI — or paste a Roman numeral to decode it. Validation rejects malformed numerals like IIII.",
       "faq1q": "What is the valid range?",
-      "faq1a": "Standard Roman numerals cover 1 to 3999 â€” there is no standard zero or larger notation.",
+      "faq1a": "Standard Roman numerals cover 1 to 3999 — there is no standard zero or larger notation.",
       "faq2q": "Does it validate strict form?",
-      "faq2a": "Yes â€” only canonical numerals are decoded; nonstandard forms like IM or VV are rejected."
+      "faq2a": "Yes — only canonical numerals are decoded; nonstandard forms like IM or VV are rejected."
     },
     "random-number": {
       "name": "Random Number Generator",
       "desc": "Generate true random numbers in any range.",
-      "long": "Uses your browser's cryptographic randomness (not weak pseudo-random) with unbiased sampling â€” suitable for draws and giveaways.",
+      "long": "Uses your browser's cryptographic randomness (not weak pseudo-random) with unbiased sampling — suitable for draws and giveaways.",
       "faq1q": "Is this fair for a giveaway draw?",
-      "faq1a": "Yes â€” values come from crypto.getRandomValues with rejection sampling, so every number in the range is exactly equally likely.",
+      "faq1a": "Yes — values come from crypto.getRandomValues with rejection sampling, so every number in the range is exactly equally likely.",
       "faq2q": "Can the same number appear twice?",
-      "faq2a": "Yes, draws are independent â€” like rolling dice. For unique picks, generate one at a time and remove winners from your list."
+      "faq2a": "Yes, draws are independent — like rolling dice. For unique picks, generate one at a time and remove winners from your list."
     },
     "color-converter": {
       "name": "Color Converter",
@@ -697,25 +697,25 @@
       "faq1q": "Which format should I use in CSS?",
       "faq1a": "All three work everywhere. HEX is compact, RGB is intuitive, and HSL is easiest for creating lighter/darker variations.",
       "faq2q": "Are 3-digit HEX codes supported?",
-      "faq2a": "Yes â€” shorthand like #fa0 is expanded to #ffaa00 automatically."
+      "faq2a": "Yes — shorthand like #fa0 is expanded to #ffaa00 automatically."
     },
     "css-minifier": {
       "name": "CSS Minifier",
       "desc": "Compress CSS by removing comments and whitespace.",
-      "long": "Strips everything the browser doesn't need and shows exactly how many percent you saved â€” typically 20â€“40%.",
+      "long": "Strips everything the browser doesn't need and shows exactly how many percent you saved — typically 20–40%.",
       "faq1q": "Is minified CSS safe to deploy?",
-      "faq1a": "Yes â€” only comments and insignificant whitespace are removed; selectors and values are untouched.",
+      "faq1a": "Yes — only comments and insignificant whitespace are removed; selectors and values are untouched.",
       "faq2q": "Should I keep the original file?",
-      "faq2a": "Always â€” edit the readable version and minify as a final build step."
+      "faq2a": "Always — edit the readable version and minify as a final build step."
     },
     "html-encode": {
       "name": "HTML Encode / Decode",
       "desc": "Escape HTML special characters or decode entities back.",
-      "long": "Converts <, >, &, quotes into safe entities for embedding code in web pages â€” and decodes any entity back to text.",
+      "long": "Converts <, >, &, quotes into safe entities for embedding code in web pages — and decodes any entity back to text.",
       "faq1q": "When do I need HTML encoding?",
-      "faq1a": "Whenever you display user text or code samples inside HTML â€” unescaped < and & break the page or enable injection.",
+      "faq1a": "Whenever you display user text or code samples inside HTML — unescaped < and & break the page or enable injection.",
       "faq2q": "Does decoding handle named entities?",
-      "faq2a": "Yes â€” &amp;, &copy;, &nbsp; and every standard named or numeric entity are decoded."
+      "faq2a": "Yes — &amp;, &copy;, &nbsp; and every standard named or numeric entity are decoded."
     },
     "timestamp-converter": {
       "name": "Unix Timestamp Converter",
@@ -729,79 +729,79 @@
     "sort-lines": {
       "name": "Sort Lines",
       "desc": "Sort text lines Aâ†’Z, Zâ†’A, by length, or shuffle randomly.",
-      "long": "Language-aware sorting that handles Arabic, Spanish and English alphabets correctly â€” plus a random shuffle for draws.",
+      "long": "Language-aware sorting that handles Arabic, Spanish and English alphabets correctly — plus a random shuffle for draws.",
       "faq1q": "Is Arabic sorted correctly?",
-      "faq1a": "Yes â€” sorting uses locale-aware collation, so Arabic letters follow proper Arabic alphabetical order.",
+      "faq1a": "Yes — sorting uses locale-aware collation, so Arabic letters follow proper Arabic alphabetical order.",
       "faq2q": "What happens to empty lines?",
       "faq2a": "Empty lines are removed during sorting, leaving a clean list."
     },
     "find-replace": {
       "name": "Find & Replace",
       "desc": "Replace text in bulk, with optional regex support.",
-      "long": "Simple find-and-replace with match counting â€” switch on Regex mode for patterns, capture-free replacements and case control.",
+      "long": "Simple find-and-replace with match counting — switch on Regex mode for patterns, capture-free replacements and case control.",
       "faq1q": "What regex flavor is supported?",
-      "faq1a": "JavaScript regular expressions â€” character classes, quantifiers, anchors, alternation and more.",
+      "faq1a": "JavaScript regular expressions — character classes, quantifiers, anchors, alternation and more.",
       "faq2q": "Is it case-sensitive?",
-      "faq2a": "By default no â€” enable â€œMatch caseâ€ for exact-case replacement."
+      "faq2a": "By default no — enable “Match case” for exact-case replacement."
     },
     "arabic-keyboard": {
       "name": "Arabic Keyboard",
-      "desc": "Type Arabic with an on-screen keyboard â€” no Arabic layout needed.",
+      "desc": "Type Arabic with an on-screen keyboard — no Arabic layout needed.",
       "long": "Click letters to compose Arabic text on any device or computer without Arabic keyboard support, then copy with one click. Includes hamza forms and Arabic punctuation.",
       "faq1q": "Who is this for?",
-      "faq1a": "Anyone on a device without an Arabic layout â€” travelers, students, and Arabic speakers using borrowed or foreign computers.",
+      "faq1a": "Anyone on a device without an Arabic layout — travelers, students, and Arabic speakers using borrowed or foreign computers.",
       "faq2q": "Can I mix typing and clicking?",
-      "faq2a": "Yes â€” the text area accepts normal typing too, so you can combine both."
+      "faq2a": "Yes — the text area accepts normal typing too, so you can combine both."
     },
     "arabic-transliteration": {
       "name": "Arabic Transliteration",
       "desc": "Convert Arabic script to readable Latin letters.",
-      "long": "Transliterates Arabic text letter-by-letter into a readable romanization â€” useful for names, addresses and language learning.",
+      "long": "Transliterates Arabic text letter-by-letter into a readable romanization — useful for names, addresses and language learning.",
       "faq1q": "Is this a translation?",
-      "faq1a": "No â€” transliteration converts the sounds/letters, not the meaning. Ù…Ø±Ø­Ø¨Ø§ becomes marhba, not â€œhelloâ€.",
+      "faq1a": "No — transliteration converts the sounds/letters, not the meaning. مرحبا becomes marhba, not “hello”.",
       "faq2q": "Which romanization system is used?",
-      "faq2a": "A simplified readable scheme (kh, sh, gh, dh for Ø® Ø´ Øº Ø°) rather than strict academic notation â€” optimized for everyday readability."
+      "faq2a": "A simplified readable scheme (kh, sh, gh, dh for خ ش غ ذ) rather than strict academic notation — optimized for everyday readability."
     },
     "zakat-calculator": {
       "name": "Zakat Calculator",
       "desc": "Calculate the 2.5% zakat due on your wealth.",
-      "long": "Enter your cash, gold/investments and outstanding debts â€” the tool computes your zakat base and the amount due, entirely on your device so your finances stay private.",
+      "long": "Enter your cash, gold/investments and outstanding debts — the tool computes your zakat base and the amount due, entirely on your device so your finances stay private.",
       "faq1q": "How is zakat calculated?",
       "faq1a": "Zakatable wealth (cash + gold/silver/investments âˆ’ debts due) held for a lunar year is due at 2.5% if it exceeds the nisab (value of 85g of gold).",
       "faq2q": "Is my financial data safe?",
-      "faq2a": "Completely â€” nothing you type is transmitted anywhere. The calculation runs in your browser and vanishes when you close the page."
+      "faq2a": "Completely — nothing you type is transmitted anywhere. The calculation runs in your browser and vanishes when you close the page."
     },
     "age-calculator": {
       "name": "Age Calculator",
-      "desc": "Calculate your exact age â€” with the Hijri date of birth.",
+      "desc": "Calculate your exact age — with the Hijri date of birth.",
       "long": "Enter your birth date and see your precise age in years, months and days, total days lived, your Hijri (Umm al-Qura) birth date, and the countdown to your next birthday.",
       "faq1q": "How accurate is the Hijri conversion?",
-      "faq1a": "It uses the official Umm al-Qura calendar built into your browser â€” the same calendar used in Saudi Arabia.",
+      "faq1a": "It uses the official Umm al-Qura calendar built into your browser — the same calendar used in Saudi Arabia.",
       "faq2q": "Does it account for leap years?",
-      "faq2a": "Yes â€” the year/month/day arithmetic handles leap years and varying month lengths exactly."
+      "faq2a": "Yes — the year/month/day arithmetic handles leap years and varying month lengths exactly."
     },
     "excel-to-csv": {
       "name": "Excel to CSV",
       "desc": "Convert Excel spreadsheets (.xlsx) to CSV files.",
-      "long": "Reads the first worksheet â€” including formula results, dates and rich text â€” and produces a clean CSV with UTF-8 encoding, so Arabic and accented text open correctly in any program.",
+      "long": "Reads the first worksheet — including formula results, dates and rich text — and produces a clean CSV with UTF-8 encoding, so Arabic and accented text open correctly in any program.",
       "faq1q": "Are formulas converted?",
-      "faq1a": "Yes â€” the calculated result of each formula is exported, not the formula itself.",
+      "faq1a": "Yes — the calculated result of each formula is exported, not the formula itself.",
       "faq2q": "Why does my CSV open with broken Arabic characters?",
       "faq2a": "Our CSV includes a UTF-8 byte-order mark specifically so Excel opens Arabic and accented text correctly."
     },
     "csv-to-excel": {
       "name": "CSV to Excel",
       "desc": "Convert CSV files into formatted Excel spreadsheets.",
-      "long": "Handles quoted fields, commas inside values and auto-detected delimiters (semicolons, tabs) â€” the output has a bold header row and auto-sized columns.",
-      "faq1q": "My CSV uses semicolons â€” supported?",
+      "long": "Handles quoted fields, commas inside values and auto-detected delimiters (semicolons, tabs) — the output has a bold header row and auto-sized columns.",
+      "faq1q": "My CSV uses semicolons — supported?",
       "faq1a": "Yes, the parser auto-detects commas, semicolons and tabs.",
       "faq2q": "Is there a row limit?",
-      "faq2a": "No fixed limit â€” files with tens of thousands of rows convert fine; very large files just take a few seconds."
+      "faq2a": "No fixed limit — files with tens of thousands of rows convert fine; very large files just take a few seconds."
     },
     "excel-to-json": {
       "name": "Excel to JSON",
       "desc": "Convert Excel spreadsheets to a JSON array of objects.",
-      "long": "The first row becomes the property names and each following row becomes an object â€” copy the result or download it as a .json file.",
+      "long": "The first row becomes the property names and each following row becomes an object — copy the result or download it as a .json file.",
       "faq1q": "How are empty cells handled?",
       "faq1a": "Empty cells become null values, keeping every object's structure consistent.",
       "faq2q": "What about dates?",
@@ -810,25 +810,25 @@
     "json-to-excel": {
       "name": "JSON to Excel",
       "desc": "Convert a JSON array into a formatted Excel file.",
-      "long": "Paste an array of objects â€” keys become column headers (merged across all objects), nested objects are stringified, and the sheet gets a bold header with auto-sized columns.",
+      "long": "Paste an array of objects — keys become column headers (merged across all objects), nested objects are stringified, and the sheet gets a bold header with auto-sized columns.",
       "faq1q": "What if objects have different keys?",
       "faq1a": "The union of all keys becomes the column set; missing values are left as empty cells.",
       "faq2q": "Can I convert a single object?",
-      "faq2a": "Yes â€” a single object becomes a one-row spreadsheet."
+      "faq2a": "Yes — a single object becomes a one-row spreadsheet."
     },
     "mt940-to-excel": {
       "name": "MT940 to Excel",
       "desc": "Convert MT940 bank statements (SWIFT) into Excel.",
-      "long": "Banks like ING, Rabobank and ABN AMRO export statements in the MT940 format (.940/.sta). This tool parses every transaction â€” date, description, debit, credit, reference â€” into a clean Excel sheet, entirely on your device, so your banking data never leaves your computer.",
+      "long": "Banks like ING, Rabobank and ABN AMRO export statements in the MT940 format (.940/.sta). This tool parses every transaction — date, description, debit, credit, reference — into a clean Excel sheet, entirely on your device, so your banking data never leaves your computer.",
       "faq1q": "Is my bank data safe?",
-      "faq1a": "Completely â€” the statement is parsed in your browser and nothing is transmitted anywhere. Disconnect from the internet and the tool still works.",
+      "faq1a": "Completely — the statement is parsed in your browser and nothing is transmitted anywhere. Disconnect from the internet and the tool still works.",
       "faq2q": "Which banks are supported?",
-      "faq2a": "Any bank exporting standard SWIFT MT940 â€” including ING, Rabobank, ABN AMRO, Deutsche Bank and most European banks. Reversal transactions (RC/RD) are handled correctly."
+      "faq2a": "Any bank exporting standard SWIFT MT940 — including ING, Rabobank, ABN AMRO, Deutsche Bank and most European banks. Reversal transactions (RC/RD) are handled correctly."
     },
     "txt-to-mt940": {
       "name": "TXT to MT940",
       "desc": "Convert a text or CSV file of transactions into an MT940 statement.",
-      "long": "Upload a plain-text or CSV file with Date, Description, Debit, Credit, Currency and Reference columns (any delimiter Ã¢â‚¬â€ comma, semicolon, tab or pipe Ã¢â‚¬â€ is detected automatically) and this tool rebuilds a full SWIFT MT940 statement (.940/.sta) with header, opening and closing balances and each transaction, entirely on your device.",
+      "long": "Upload a plain-text or CSV file with Date, Description, Debit, Credit, Currency and Reference columns (any delimiter — comma, semicolon, tab or pipe — is detected automatically) and this tool rebuilds a full SWIFT MT940 statement (.940/.sta) with header, opening and closing balances and each transaction, entirely on your device.",
       "faq1q": "Which delimiters are supported?",
       "faq1a": "Comma, semicolon, tab and pipe are all detected automatically, and quoted fields are handled. A header row with column names is skipped.",
       "faq2q": "What format must the amount columns use?",
@@ -837,29 +837,29 @@
     "excel-to-mt940": {
       "name": "Excel to MT940",
       "desc": "Turn an Excel transactions sheet into an MT940 bank statement.",
-      "long": "The reverse of MT940 to Excel: upload a spreadsheet with Date, Description, Debit, Credit, Currency and Reference columns and this tool rebuilds a full SWIFT MT940 statement (.940/.sta) with header, opening and closing balances and every transaction Ã¢â‚¬â€ generated entirely on your device, so your banking data never leaves your computer.",
+      "long": "The reverse of MT940 to Excel: upload a spreadsheet with Date, Description, Debit, Credit, Currency and Reference columns and this tool rebuilds a full SWIFT MT940 statement (.940/.sta) with header, opening and closing balances and every transaction — generated entirely on your device, so your banking data never leaves your computer.",
       "faq1q": "Is my bank data safe?",
-      "faq1a": "Completely Ã¢â‚¬â€ everything is generated in your browser and nothing is transmitted anywhere. Disconnect from the internet and the tool still works.",
+      "faq1a": "Completely — everything is generated in your browser and nothing is transmitted anywhere. Disconnect from the internet and the tool still works.",
       "faq2q": "What columns must the Excel sheet have?",
-      "faq2a": "Six columns in order: Date (YYYY-MM-DD), Description, Debit, Credit, Currency and Reference Ã¢â‚¬â€ the same layout this site's MT940 to Excel tool produces."
+      "faq2a": "Six columns in order: Date (YYYY-MM-DD), Description, Debit, Credit, Currency and Reference — the same layout this site's MT940 to Excel tool produces."
     },
     "invoice-generator": {
       "name": "Invoice Generator",
       "desc": "Create a professional invoice with your logo, tax and any currency.",
-      "long": "Fill in your company and client details, add line items, and download a polished PDF invoice â€” generated entirely on your device. Because Arabic text needs proper letter shaping that PDF fonts can't do directly, the invoice is rendered pixel-perfect in your browser first, then saved as a PDF page.",
+      "long": "Fill in your company and client details, add line items, and download a polished PDF invoice — generated entirely on your device. Because Arabic text needs proper letter shaping that PDF fonts can't do directly, the invoice is rendered pixel-perfect in your browser first, then saved as a PDF page.",
       "faq1q": "Is the invoice text selectable in the PDF?",
-      "faq1a": "No â€” to render Arabic, English and Spanish text correctly and consistently, the invoice is drawn as a crisp image and embedded in the PDF page. It prints and displays perfectly, but the text itself isn't selectable.",
+      "faq1a": "No — to render Arabic, English and Spanish text correctly and consistently, the invoice is drawn as a crisp image and embedded in the PDF page. It prints and displays perfectly, but the text itself isn't selectable.",
       "faq2q": "Can I use my own logo and currency?",
-      "faq2a": "Yes â€” upload a PNG or JPG logo and pick from common currencies (USD, EUR, SAR, AED, EGP, GBP). Tax percentage and totals are calculated automatically."
+      "faq2a": "Yes — upload a PNG or JPG logo and pick from common currencies (USD, EUR, SAR, AED, EGP, GBP). Tax percentage and totals are calculated automatically."
     },
     "cv-builder": {
       "name": "CV / Resume Builder",
-      "desc": "Build a clean, single-column rÃ©sumÃ© that applicant tracking systems can read.",
-      "long": "Fill in your experience, education and skills â€” the layout is deliberately simple (one column, plain headings, no tables or graphics) because that is exactly what ATS software parses reliably. Long rÃ©sumÃ©s automatically flow onto extra pages.",
+      "desc": "Build a clean, single-column résumé that applicant tracking systems can read.",
+      "long": "Fill in your experience, education and skills — the layout is deliberately simple (one column, plain headings, no tables or graphics) because that is exactly what ATS software parses reliably. Long résumés automatically flow onto extra pages.",
       "faq1q": "Why does the design look so plain?",
-      "faq1a": "Applicant tracking systems used by most employers struggle with multi-column layouts, icons and text boxes. A single-column rÃ©sumÃ© with clear headings is more likely to be parsed correctly and reach a human reviewer.",
-      "faq2q": "Can my rÃ©sumÃ© have more than one page?",
-      "faq2a": "Yes â€” content that doesn't fit the first page automatically continues onto additional pages."
+      "faq1a": "Applicant tracking systems used by most employers struggle with multi-column layouts, icons and text boxes. A single-column résumé with clear headings is more likely to be parsed correctly and reach a human reviewer.",
+      "faq2q": "Can my résumé have more than one page?",
+      "faq2a": "Yes — content that doesn't fit the first page automatically continues onto additional pages."
     },
     "flatten-pdf": {
       "name": "Flatten PDF",
@@ -868,66 +868,66 @@
       "faq1q": "What happens to filled form fields?",
       "faq1a": "Their current values become permanent printed text; the form itself is no longer interactive.",
       "faq2q": "Does this work on PDFs without a form?",
-      "faq2a": "Yes â€” if there's nothing to flatten, the file is simply re-saved unchanged."
+      "faq2a": "Yes — if there's nothing to flatten, the file is simply re-saved unchanged."
     },
     "crop-pdf": {
       "name": "Crop PDF",
       "desc": "Trim white margins or change the visible page area of a PDF.",
-      "long": "Choose a margin percentage and every page's visible area shrinks inward â€” handy for removing excess white space before printing or embedding pages elsewhere.",
+      "long": "Choose a margin percentage and every page's visible area shrinks inward — handy for removing excess white space before printing or embedding pages elsewhere.",
       "faq1q": "Does cropping delete content?",
-      "faq1a": "No â€” it only changes the visible page boundary (crop box); the original page content underneath is preserved.",
+      "faq1a": "No — it only changes the visible page boundary (crop box); the original page content underneath is preserved.",
       "faq2q": "Can I crop unevenly on each side?",
       "faq2a": "The current version applies the same percentage on all sides. Custom per-side cropping is on our roadmap."
     },
     "code-snippet": {
       "name": "Code Snippet to Image",
       "desc": "Turn source code into a shareable, syntax-highlighted image.",
-      "long": "Paste any code, pick light or dark theme, and download a clean PNG with a macOS-style title bar â€” perfect for tweets, slides and documentation.",
+      "long": "Paste any code, pick light or dark theme, and download a clean PNG with a macOS-style title bar — perfect for tweets, slides and documentation.",
       "faq1q": "Which languages are highlighted?",
       "faq1a": "A lightweight highlighter recognizes common keywords, strings, comments and numbers across most C-like and scripting languages.",
       "faq2q": "Can I change the filename shown in the title bar?",
-      "faq2a": "Yes â€” edit the filename field above the code area before downloading."
+      "faq2a": "Yes — edit the filename field above the code area before downloading."
     },
     "handwriting": {
       "name": "Text to Handwriting",
       "desc": "Turn typed text into a natural handwritten-style image.",
-      "long": "Choose lined, plain or grid paper and an ink color, and your text is rendered in a flowing handwriting-style font â€” Arabic script joins and shapes correctly.",
+      "long": "Choose lined, plain or grid paper and an ink color, and your text is rendered in a flowing handwriting-style font — Arabic script joins and shapes correctly.",
       "faq1q": "Is this real handwriting or a font?",
-      "faq1a": "It uses an open handwriting-style typeface rendered by your browser, not a scan of real handwriting â€” but it looks natural and reads well.",
+      "faq1a": "It uses an open handwriting-style typeface rendered by your browser, not a scan of real handwriting — but it looks natural and reads well.",
       "faq2q": "Does it support Arabic?",
-      "faq2a": "Yes â€” a dedicated Arabic display typeface is used so letters connect and shape properly, unlike plain text fonts forced into a 'handwriting' style."
+      "faq2a": "Yes — a dedicated Arabic display typeface is used so letters connect and shape properly, unlike plain text fonts forced into a 'handwriting' style."
     },
     "ghost-text": {
       "name": "Ghost Text",
       "desc": "Hide a secret message invisibly inside ordinary-looking text.",
-      "long": "Your message is encoded using invisible zero-width characters woven into visible text â€” copy the result anywhere and only someone with this tool can reveal it.",
+      "long": "Your message is encoded using invisible zero-width characters woven into visible text — copy the result anywhere and only someone with this tool can reveal it.",
       "faq1q": "Will the hidden text be visible if I paste it somewhere?",
-      "faq1a": "No â€” the invisible characters have zero width and don't show in most apps, though some platforms may strip them when you paste.",
+      "faq1a": "No — the invisible characters have zero width and don't show in most apps, though some platforms may strip them when you paste.",
       "faq2q": "Is this secure encryption?",
-      "faq2a": "No â€” treat it as a fun way to hide a note in plain sight, not as protection for sensitive secrets."
+      "faq2a": "No — treat it as a fun way to hide a note in plain sight, not as protection for sensitive secrets."
     },
     "steganography": {
       "name": "Hide a Message in an Image",
       "desc": "Conceal a text message inside an ordinary PNG photo.",
-      "long": "Your message is encoded into the least significant bits of the image's pixels â€” invisible to the eye, but recoverable with this same tool.",
+      "long": "Your message is encoded into the least significant bits of the image's pixels — invisible to the eye, but recoverable with this same tool.",
       "faq1q": "Does hiding a message change how the image looks?",
-      "faq1a": "No visible difference â€” only the very last bit of each pixel's color changes, far below what the human eye can perceive.",
+      "faq1a": "No visible difference — only the very last bit of each pixel's color changes, far below what the human eye can perceive.",
       "faq2q": "Why must the image be PNG?",
       "faq2a": "JPEG's compression discards exactly the kind of fine pixel detail the hidden message relies on. PNG preserves every bit exactly."
     },
     "file-xray": {
       "name": "File X-Ray",
       "desc": "Inspect any file's true type, size and raw bytes.",
-      "long": "Upload any file to see its declared type, its real type detected from binary signatures, dimensions if it's an image, and a hex dump of its first bytes â€” useful for verifying a file is what it claims to be.",
+      "long": "Upload any file to see its declared type, its real type detected from binary signatures, dimensions if it's an image, and a hex dump of its first bytes — useful for verifying a file is what it claims to be.",
       "faq1q": "Why would a file's declared type differ from its real type?",
       "faq1a": "A renamed file (e.g. a .txt actually containing a JPEG) keeps its old extension but its binary signature reveals the truth.",
       "faq2q": "Is my file uploaded anywhere?",
-      "faq2a": "No â€” only the first 64 bytes are read locally in your browser to detect the signature; the file itself never leaves your device."
+      "faq2a": "No — only the first 64 bytes are read locally in your browser to detect the signature; the file itself never leaves your device."
     },
     "organize-pdf": {
       "name": "Organize PDF",
       "desc": "Reorder, rotate, delete and extract pages in one place.",
-      "long": "Load a PDF and arrange every page exactly how you need it. Drag pages into a new order, rotate individual pages, delete the ones you do not want and export a clean organized document â€” all in your browser.",
+      "long": "Load a PDF and arrange every page exactly how you need it. Drag pages into a new order, rotate individual pages, delete the ones you do not want and export a clean organized document — all in your browser.",
       "faq1q": "Can I remove or rotate only some pages?",
       "faq1a": "Yes. Click a page thumbnail to select or deselect it, use the rotate button on any page, and reorder freely before exporting.",
       "faq2q": "Is my PDF uploaded anywhere?",
@@ -981,7 +981,7 @@
     "document-scanner": {
       "name": "Document Scanner",
       "desc": "Turn a photo of a document into a clean scan.",
-      "long": "Upload a photo taken with your phone or camera and sharpen it into a clean scanned look â€” adjust brightness, contrast and convert to black and white, then download as PNG or PDF.",
+      "long": "Upload a photo taken with your phone or camera and sharpen it into a clean scanned look — adjust brightness, contrast and convert to black and white, then download as PNG or PDF.",
       "faq1q": "Is an internet connection needed?",
       "faq1a": "No. All image processing is done locally on your device using the HTML canvas.",
       "faq2q": "Can I use it with my camera?",
@@ -1008,7 +1008,7 @@
     "letter-generator": {
       "name": "Official Letter Generator",
       "desc": "Write formal letters with ready-made wording.",
-      "long": "Pick a letter type â€“ resignation, leave, complaint, appeal, transfer or job application â€“ fill in your name and details, and instantly get correctly worded formal text you can copy or download.",
+      "long": "Pick a letter type – resignation, leave, complaint, appeal, transfer or job application – fill in your name and details, and instantly get correctly worded formal text you can copy or download.",
       "faq1q": "Which languages are available?",
       "faq1a": "The letter templates adapt to your site language and are available in all supported languages (11 languages).",
       "faq2q": "Can I edit the wording?",
@@ -1040,7 +1040,7 @@
     "id-card-generator": {
       "name": "Employee ID Card Generator",
       "desc": "Create a professional employee badge with photo, barcode and QR.",
-      "long": "Fill in the name, job title, hire date and employee number, add a photo, and download a clean ISO ID-1 sized card (85.6 Ã— 54 mm) as a PDF. A CODE128 barcode and a QR code are generated automatically from the employee number â€“ everything is processed on your device.",
+      "long": "Fill in the name, job title, hire date and employee number, add a photo, and download a clean ISO ID-1 sized card (85.6 × 54 mm) as a PDF. A CODE128 barcode and a QR code are generated automatically from the employee number – everything is processed on your device.",
       "ui": {
         "name": "Full name",
         "title": "Job title",
@@ -1063,7 +1063,7 @@
         "save": "Preview card",
         "print": "Download card PDF",
         "reset": "Reset",
-        "hint": "Fill in the fields, then click â€œPreview cardâ€ to see the design",
+        "hint": "Fill in the fields, then click “Preview card” to see the design",
         "emptyName": "Enter a name to create the card",
         "scanHint": "When scanned, the QR code reveals the full employee details. Tap the QR on the card to enlarge it and scan it from your screen (the barcode carries only the employee ID).",
         "qrName": "Name",
@@ -1084,7 +1084,7 @@
       "faq1q": "What size is the card?",
       "faq1a": "The card matches the ISO ID-1 standard (85.6 Ã— 54 mm, the size of a credit card or national ID), exported at 300 DPI.",
       "faq2q": "Does the barcode encode my employee number?",
-      "faq2a": "Yes â€“ the CODE128 barcode and the QR code both store the employee ID you enter, so the badge can be scanned by standard readers."
+      "faq2a": "Yes – the CODE128 barcode and the QR code both store the employee ID you enter, so the badge can be scanned by standard readers."
     }
   },
   "footer": {
@@ -1103,8 +1103,8 @@
       "title": "About ChooseTools",
       "body": [
         "ChooseTools is a collection of free file tools that run entirely inside your browser. Unlike traditional tool websites, we never receive your files: merging a PDF, compressing a photo or generating a QR code all happen locally on your own device.",
-        "This architecture has three consequences we are proud of. First, privacy â€” a file that is never transmitted can never be leaked, logged or retained. Second, speed â€” there is no upload or download time, so even large files process instantly. Third, honesty â€” because processing costs us nothing, we can offer genuinely unlimited use with no file-size caps, daily quotas or watermarks.",
-        "The platform is available in 11 languages, with every explanation written natively rather than machine-translated. Our Arabic-exclusive tools â€” like tashkeel removal, Hijri date conversion and tafqit â€” are built specifically for Arabic users, not adapted from English tools.",
+        "This architecture has three consequences we are proud of. First, privacy — a file that is never transmitted can never be leaked, logged or retained. Second, speed — there is no upload or download time, so even large files process instantly. Third, honesty — because processing costs us nothing, we can offer genuinely unlimited use with no file-size caps, daily quotas or watermarks.",
+        "The platform is available in 11 languages, with every explanation written natively rather than machine-translated. Our Arabic-exclusive tools — like tashkeel removal, Hijri date conversion and tafqit — are built specifically for Arabic users, not adapted from English tools.",
         "ChooseTools is built and maintained by hoursmedia. New tools are added regularly; if you are missing one, we would love to hear about it.",
         "Because everything runs on your device, ChooseTools is also kind to the planet. We host no heavy backends and store nothing, so every visit uses a fraction of the energy a server-side tool site would — and each tool you use locally helps keep emissions low. We believe software should achieve more while consuming less, and we invite you to give back with us: plant trees, dig wells and care for orphans worldwide through the causes on our Donate page."
       ]
@@ -1114,7 +1114,7 @@
       "body": [
         "Have a question, found a bug, or want to suggest a new tool? We read every message.",
         "Email us at: contact@choosetools.com.",
-        "Because all processing happens in your browser, we cannot see or recover any file you worked on â€” for file-specific issues, please describe the file type and the steps that led to the problem.",
+        "Because all processing happens in your browser, we cannot see or recover any file you worked on — for file-specific issues, please describe the file type and the steps that led to the problem.",
         "ChooseTools is operated by hoursmedia, Netherlands."
       ]
     },
@@ -1122,7 +1122,7 @@
       "title": "Privacy Policy",
       "body": [
         "Last updated: July 2026. This policy explains what data ChooseTools (operated by hoursmedia) does and does not process when you use this website.",
-        "Your files. All tools on this site process files locally in your browser using JavaScript and WebAssembly. Your files are never uploaded to, stored on, or seen by our servers. You can verify this by disconnecting from the internet after a tool page loads â€” the tool keeps working.",
+        "Your files. All tools on this site process files locally in your browser using JavaScript and WebAssembly. Your files are never uploaded to, stored on, or seen by our servers. You can verify this by disconnecting from the internet after a tool page loads — the tool keeps working.",
         "Analytics. We use privacy-respecting aggregate analytics to understand which tools are used and improve the site. This may include pages visited, browser type, country-level location and referral source. It never includes the content of your files or texts.",
         "Advertising. This site may display advertisements served by Google AdSense. Google and its partners may use cookies to serve ads based on your prior visits to this or other websites. You can opt out of personalized advertising by visiting Google Ads Settings (adssettings.google.com). EU/EEA/UK visitors are shown a consent banner in accordance with the GDPR and are served non-personalized ads unless consent is given.",
         "Cookies. Apart from the advertising and consent cookies described above, this site sets no tracking cookies. Your language preference may be stored locally in your browser.",
@@ -1137,7 +1137,7 @@
         "Last updated: July 2026. By using ChooseTools you agree to these terms.",
         "The service. ChooseTools provides free, browser-based file utilities. All processing happens on your device; we never receive your files and therefore have no ability to access, restore or back them up.",
         "Acceptable use. You may use the tools for any lawful purpose, personal or commercial. You may not attempt to disrupt the service, scrape it at abusive volume, or use it to process material you have no right to process.",
-        "No warranty. The tools are provided â€œas isâ€, without warranty of any kind. While we test every tool carefully, you are responsible for verifying results before relying on them â€” always keep your original files.",
+        "No warranty. The tools are provided “as is”, without warranty of any kind. While we test every tool carefully, you are responsible for verifying results before relying on them — always keep your original files.",
         "Limitation of liability. To the maximum extent permitted by law, hoursmedia is not liable for any damages arising from the use of this site, including data loss. Since your original files never leave your device and are never modified by us, your originals always remain in your possession.",
         "Intellectual property. The site design, texts and code are the property of hoursmedia. The files you process remain entirely yours; we claim no rights over them.",
         "Changes. We may modify these terms or discontinue tools at any time. Continued use after changes constitutes acceptance."

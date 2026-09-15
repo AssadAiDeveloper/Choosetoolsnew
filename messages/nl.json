@@ -828,7 +828,7 @@
     "txt-to-mt940": {
       "name": "TXT naar MT940",
       "desc": "Zet een tekst- of CSV-bestand met transacties om in een MT940-afschrift.",
-      "long": "Upload een plat-tekst- of CSV-bestand met de kolommen Datum, Omschrijving, Debet, Credit, Valuta en Referentie (elk scheidingsteken â€” komma, puntkomma, tab of pipe â€” wordt automatisch herkend), en deze tool bouwt een volledig SWIFT MT940-afschrift (.940/.sta) op met kop, openings- en sluitingssaldo en elke transactie, volledig op uw apparaat.",
+      "long": "Upload een plat-tekst- of CSV-bestand met de kolommen Datum, Omschrijving, Debet, Credit, Valuta en Referentie (elk scheidingsteken — komma, puntkomma, tab of pipe — wordt automatisch herkend), en deze tool bouwt een volledig SWIFT MT940-afschrift (.940/.sta) op met kop, openings- en sluitingssaldo en elke transactie, volledig op uw apparaat.",
       "faq1q": "Welke scheidingstekens worden ondersteund?",
       "faq1a": "Komma, puntkomma, tab en pipe worden allemaal automatisch herkend en tussen aanhalingstekens geplaatste velden worden verwerkt. Een kopregel met kolomnamen wordt overgeslagen.",
       "faq2q": "Welk formaat moeten de bedragkolommen hebben?",
@@ -837,11 +837,11 @@
     "excel-to-mt940": {
       "name": "Excel naar MT940",
       "desc": "Zet een Excel-transactieblad om in een MT940-bankafschrift.",
-      "long": "Het omgekeerde van MT940 naar Excel: upload een werkblad met de kolommen Datum, Omschrijving, Debet, Credit, Valuta en Referentie, en deze tool bouwt een volledig SWIFT MT940-afschrift (.940/.sta) op met kop, openings- en sluitingssaldo en elke transactie â€” volledig op uw apparaat gegenereerd, zodat uw bankgegevens uw computer nooit verlaten.",
+      "long": "Het omgekeerde van MT940 naar Excel: upload een werkblad met de kolommen Datum, Omschrijving, Debet, Credit, Valuta en Referentie, en deze tool bouwt een volledig SWIFT MT940-afschrift (.940/.sta) op met kop, openings- en sluitingssaldo en elke transactie — volledig op uw apparaat gegenereerd, zodat uw bankgegevens uw computer nooit verlaten.",
       "faq1q": "Zijn mijn bankgegevens veilig?",
-      "faq1a": "Volledig â€” alles wordt in uw browser gegenereerd en er wordt niets verzonden. Koppel los van internet en de tool blijft werken.",
+      "faq1a": "Volledig — alles wordt in uw browser gegenereerd en er wordt niets verzonden. Koppel los van internet en de tool blijft werken.",
       "faq2q": "Welke kolommen moet het Excel-blad bevatten?",
-      "faq2a": "Zes kolommen in volgorde: Datum (JJJJ-MM-DD), Omschrijving, Debet, Credit, Valuta en Referentie â€” dezelfde indeling die de MT940-naar-Excel-tool van deze site produceert."
+      "faq2a": "Zes kolommen in volgorde: Datum (JJJJ-MM-DD), Omschrijving, Debet, Credit, Valuta en Referentie — dezelfde indeling die de MT940-naar-Excel-tool van deze site produceert."
     },
     "invoice-generator": {
       "name": "Factuur maken",

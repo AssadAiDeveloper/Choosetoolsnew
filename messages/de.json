@@ -828,20 +828,20 @@
     "txt-to-mt940": {
       "name": "TXT in MT940",
       "desc": "Konvertieren Sie eine Text- oder CSV-Datei mit Transaktionen in einen MT940-Auszug.",
-      "long": "Laden Sie eine reine Text- oder CSV-Datei mit den Spalten Datum, Beschreibung, Soll, Haben, WÃ¤hrung und Verwendungszweck hoch (jedes Trennzeichen â€” Komma, Semikolon, Tabulator oder Pipe â€” wird automatisch erkannt), und dieses Tool erstellt einen vollstÃ¤ndigen SWIFT-MT940-Auszug (.940/.sta) mit Kopf, Anfangs- und Endsaldo sowie jeder Transaktion, vollstÃ¤ndig auf Ihrem GerÃ¤t.",
-      "faq1q": "Welche Trennzeichen werden unterstÃ¼tzt?",
-      "faq1a": "Komma, Semikolon, Tabulator und Pipe werden alle automatisch erkannt, und in AnfÃ¼hrungszeichen gesetzte Felder werden behandelt. Eine Kopfzeile mit Spaltennamen wird Ã¼bersprungen.",
-      "faq2q": "Welches Format mÃ¼ssen die Betragsspalten haben?",
+      "long": "Laden Sie eine reine Text- oder CSV-Datei mit den Spalten Datum, Beschreibung, Soll, Haben, Währung und Verwendungszweck hoch (jedes Trennzeichen — Komma, Semikolon, Tabulator oder Pipe — wird automatisch erkannt), und dieses Tool erstellt einen vollständigen SWIFT-MT940-Auszug (.940/.sta) mit Kopf, Anfangs- und Endsaldo sowie jeder Transaktion, vollständig auf Ihrem Gerät.",
+      "faq1q": "Welche Trennzeichen werden unterstützt?",
+      "faq1a": "Komma, Semikolon, Tabulator und Pipe werden alle automatisch erkannt, und in Anführungszeichen gesetzte Felder werden behandelt. Eine Kopfzeile mit Spaltennamen wird übersprungen.",
+      "faq2q": "Welches Format müssen die Betragsspalten haben?",
       "faq2a": "Einfache Zahlen wie 1234.56. Tragen Sie einen Soll-Betrag in die Soll-Spalte und einen Haben-Betrag in die Haben-Spalte ein; eine Zeile muss mindestens eine der beiden enthalten."
     },
     "excel-to-mt940": {
       "name": "Excel in MT940",
       "desc": "Excel-Transaktionstabelle in einen MT940-Kontoauszug umwandeln.",
-      "long": "Das GegenstÃ¼ck zu MT940 in Excel: Laden Sie eine Tabelle mit den Spalten Datum, Beschreibung, Soll, Haben, WÃ¤hrung und Verwendungszweck hoch, und dieses Tool erstellt wieder einen vollstÃ¤ndigen SWIFT-MT940-Auszug (.940/.sta) mit Kopf, Anfangs- und Endsaldo sowie jeder Transaktion â€” vollstÃ¤ndig auf Ihrem GerÃ¤t, sodass Ihre Bankdaten Ihren Computer nie verlassen.",
+      "long": "Das Gegenstück zu MT940 in Excel: Laden Sie eine Tabelle mit den Spalten Datum, Beschreibung, Soll, Haben, Währung und Verwendungszweck hoch, und dieses Tool erstellt wieder einen vollständigen SWIFT-MT940-Auszug (.940/.sta) mit Kopf, Anfangs- und Endsaldo sowie jeder Transaktion — vollständig auf Ihrem Gerät, sodass Ihre Bankdaten Ihren Computer nie verlassen.",
       "faq1q": "Sind meine Bankdaten sicher?",
-      "faq1a": "VollstÃ¤ndig â€” alles wird in Ihrem Browser erzeugt und nichts wird Ã¼bertragen. Trennen Sie die Internetverbindung, und das Tool funktioniert trotzdem.",
+      "faq1a": "Vollständig — alles wird in Ihrem Browser erzeugt und nichts wird übertragen. Trennen Sie die Internetverbindung, und das Tool funktioniert trotzdem.",
       "faq2q": "Welche Spalten muss die Excel-Arbeitsmappe haben?",
-      "faq2a": "Sechs Spalten in dieser Reihenfolge: Datum (JJJJ-MM-TT), Beschreibung, Soll, Haben, WÃ¤hrung und Verwendungszweck â€” dasselbe Layout, das die MT940-in-Excel-Funktion dieser Website erzeugt."
+      "faq2a": "Sechs Spalten in dieser Reihenfolge: Datum (JJJJ-MM-TT), Beschreibung, Soll, Haben, Währung und Verwendungszweck — dasselbe Layout, das die MT940-in-Excel-Funktion dieser Website erzeugt."
     },
     "invoice-generator": {
       "name": "Rechnung erstellen",
