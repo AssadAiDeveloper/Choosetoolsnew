@@ -87,9 +87,11 @@ export function Hero() {
           <h1 className="mx-auto mt-6 max-w-3xl text-4xl font-bold leading-tight tracking-tight text-ink sm:mb-6 sm:text-5xl lg:mx-0">
             {t("heroTitle")}
           </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-lg leading-relaxed text-ink-soft lg:mx-0">
-            {t("heroSub")}
-          </p>
+          <div className="mx-auto mt-4 max-w-2xl space-y-1 text-lg leading-relaxed text-ink-soft lg:mx-0">
+            {(t.raw("heroSub") as string[]).map((line) => (
+              <p key={line}>{line}</p>
+            ))}
+          </div>
         </div>
 
         <ToolShot />

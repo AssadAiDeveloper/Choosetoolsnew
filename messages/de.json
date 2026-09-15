@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "ChooseTools — Kostenlose Online-Datei-Tools, die Ihre Dateien niemals hochladen",
+    "title": "ChooseTools — Online-Datei-Tools, die Ihre Dateien niemals hochladen",
     "description": "PDFs zusammenführen, komprimieren und konvertieren, Bilder bearbeiten – direkt im Browser. Kein Upload, keine Grenzen, kein Warten. Ihre Dateien verlassen Ihr Gerät nie."
   },
   "nav": {
@@ -19,7 +19,11 @@
   },
   "home": {
     "heroTitle": "Jedes Datei-Tool. Null Uploads.",
-    "heroSub": "Alles läuft in Ihrem Browser. Ihre Dateien verlassen niemals Ihr Gerät — daher gibt es keine Größenbegrenzungen, keine Tageslimits und kein Warten auf Uploads.",
+    "heroSub": [
+      "Unser Ziel ist eine vollständige, offene Toolbox für Ihre alltäglichen Dateien.",
+      "Unsere Vision ist ein Web, in dem Ihre Dateien Ihr Gerät nie verlassen müssen.",
+      "Datenschutz und Geschwindigkeit standardmäßig."
+    ],
     "search": "Tools suchen… (z. B. PDF zusammenführen)",
     "noResults": "Kein Tool passt zu Ihrer Suche.",
     "whyTitle": "Warum ChooseTools?",
@@ -134,7 +138,7 @@
   "tools": {
     "merge-pdf": {
       "name": "PDFs zusammenführen",
-      "desc": "Führen Sie mehrere PDF-Dateien in einem Dokument zusammen – online und kostenlos.",
+      "desc": "Führen Sie mehrere PDF-Dateien in einem Dokument zusammen – online.",
       "long": "Legen Sie zwei oder mehr PDF-Dateien ab, ziehen Sie sie in die gewünschte Reihenfolge und laden Sie ein einziges zusammengeführtes Dokument herunter. Die Zusammenführung erfolgt auf Ihrem Gerät, sodass auch vertrauliche Verträge Ihren Computer niemals verlassen.",
       "faq1q": "Gibt es eine Begrenzung bei Dateigröße oder Anzahl der Dateien?",
       "faq1a": "Nein. Da die Zusammenführung in Ihrem Browser läuft, ist der Speicher Ihres Geräts die einzige Grenze — Dateien mit Hunderten von Megabytes funktionieren auf einem normalen Laptop problemlos.",
@@ -278,7 +282,7 @@
     },
     "qr-generator": {
       "name": "QR-Code erstellen",
-      "desc": "Erstellen Sie kostenlose QR-Codes für Links, Text und WLAN.",
+      "desc": "Erstellen Sie QR-Codes für Links, Text und WLAN.",
       "long": "Beliebigen Text oder eine URL eingeben und einen hochauflösenden PNG-QR-Code herunterladen. Keine Registrierung, keine ablaufenden Codes, kein Wasserzeichen.",
       "faq1q": "Laufen diese QR-Codes ab?",
       "faq1a": "Niemals. Der Code wird direkt aus Ihrem Text erzeugt — es gibt keinen Verkürzungsdienst oder Server, der abgeschaltet werden könnte.",
@@ -1088,7 +1092,7 @@
     }
   },
   "footer": {
-    "rights": "Kostenlose browserbasierte Datei-Tools. Ihre Dateien verlassen niemals Ihr Gerät.",
+    "rights": "Eine private Toolbox, die im Browser läuft. Ihre Dateien verlassen Ihr Gerät nie.",
     "madeBy": "Erstellt von hoursmedia",
     "toolsCol": "Tools",
     "popularCol": "Beliebte Tools",
@@ -1102,21 +1106,33 @@
     "about": {
       "title": "Über ChooseTools",
       "body": [
-        "ChooseTools ist eine Sammlung kostenloser Datei-Tools, die vollständig in Ihrem Browser laufen. Anders als traditionelle Tool-Websites empfangen wir Ihre Dateien niemals: das Zusammenführen einer PDF, das Komprimieren eines Fotos oder das Erzeugen eines QR-Codes geschieht lokal auf Ihrem eigenen Gerät.",
-        "Diese Architektur hat drei Konsequenzen, auf die wir stolz sind. Erstens Datenschutz — eine Datei, die niemals übertragen wird, kann nie durchsickern, protokolliert oder aufbewahrt werden. Zweitens Geschwindigkeit — es gibt keine Upload- oder Downloadzeit, sodass selbst große Dateien sofort verarbeitet werden. Drittens Ehrlichkeit — weil die Verarbeitung uns nichts kostet, können wir echte unbegrenzte Nutzung ohne Dateigrößenbegrenzungen, Tageskontingente oder Wasserzeichen anbieten.",
-        "Die Plattform ist in 11 Sprachen verfügbar, wobei jede Erklärung nativ verfasst und nicht maschinell übersetzt ist. Unsere exklusiv arabischen Tools — wie das Entfernen von Tashkeel, die Hidschra-Datumsumrechnung und Tafqit — sind speziell für arabischsprachige Nutzer entwickelt, nicht aus englischen Tools abgeleitet.",
-        "ChooseTools wird von hoursmedia entwickelt und gepflegt. Regelmäßig kommen neue Tools hinzu; wenn Ihnen ein Tool fehlt, würden wir uns freuen, davon zu hören.",
-        "Und weil alles auf Ihrem Gerät läuft, ist ChooseTools auch freundlich zum Planeten. Wir betreiben keine schweren Server und speichern nichts, also verbraucht jeder Besuch einen Bruchteil der Energie, die eine serverbasierte Tool-Site verbrauchen würde — und jedes lokal genutzte Tool hilft, Emissionen gering zu halten. Wir glauben, dass Software mehr erreichen und dabei weniger verbrauchen sollte, und laden Sie ein, mit uns etwas zurückzugeben: Pflanzen Sie Bäume, graben Sie Brunnen und kümmern Sie sich um Waisen auf der Welt — über die Anliegen auf unserer Spendenseite."
+        "ChooseTools ist eine Sammlung von Datei-Tools, die vollständig in Ihrem Browser laufen. Das Zusammenführen einer PDF, das Komprimieren eines Fotos oder das Erzeugen eines QR-Codes geschieht auf Ihrem Gerät — Ihre Dateien werden nie irgendwohin hochgeladen.",
+        "## Was das für Sie bedeutet",
+        "- Privatsphäre. Eine Datei, die niemals übertragen wird, kann nie durchsickern, protokolliert oder aufbewahrt werden.",
+        "- Geschwindigkeit. Keine Upload- oder Downloadzeit — selbst große Dateien werden sofort verarbeitet.",
+        "- Keine versteckten Grenzen. Keine Größenlimits, keine Tageskontingente, keine Wasserzeichen, die zu einem kostenpflichtigen Plan drängen.",
+        "## Sprachen",
+        "Die Plattform ist in 11 Sprachen verfügbar. Alle Erklärungen sind von Menschen geschrieben, nicht maschinell übersetzt. Exklusive arabische Tools — wie das Entfernen von Tashkeel, die Hidschra-Datumsumrechnung und Tafqit — sind für arabische Nutzer entwickelt und nicht aus englischen Tools abgeleitet.",
+        "## Wer dahinter steckt",
+        "ChooseTools wird von hoursmedia entwickelt und gepflegt. Regelmäßig erscheinen neue Tools; wenn Ihnen eines fehlt, hören wir es gerne.",
+        "## Etwas zurückgeben",
+        "Dieses Projekt zu betreiben erfordert Zeit und Ressourcen. Wenn es Ihnen geholfen hat, unterstützen Sie gerne die Anliegen auf unserer Spendenseite: Bäume pflanzen, sauberes Wasser zu Gemeinschaften bringen und sich weltweit um Waisen kümmern."
       ]
     },
     "contact": {
       "title": "Kontakt",
-      "body": [
-        "Haben Sie eine Frage, einen Fehler gefunden oder möchten Sie ein neues Tool vorschlagen? Wir lesen jede Nachricht.",
-        "Schreiben Sie uns an: contact@choosetools.com.",
-        "Da die gesamte Verarbeitung in Ihrem Browser erfolgt, können wir keine Datei sehen oder wiederherstellen, an der Sie gearbeitet haben — bei dateispezifischen Problemen beschreiben Sie bitte den Dateityp und die Schritte, die zum Problem geführt haben.",
-        "ChooseTools wird von hoursmedia betrieben, Niederlande."
-      ]
+      "intro": "Haben Sie eine Frage, einen Fehler gefunden oder möchten ein neues Tool vorschlagen? Wir lesen jede Nachricht.",
+      "metaDescription": "Kontaktieren Sie das ChooseTools-Team für Fragen, Fehlermeldungen und Tool-Vorschläge.",
+      "emailTitle": "Schreiben Sie uns eine E-Mail",
+      "emailDesc": "Schreiben Sie uns jederzeit. Wir antworten auf jede Nachricht, meist innerhalb von ein bis zwei Werktagen.",
+      "emailAddress": "contact@choosetools.com",
+      "emailBtn": "Mail-App öffnen",
+      "responseTitle": "Antwortzeit",
+      "responseDesc": "Meist ein bis zwei Werktage.",
+      "operatorTitle": "Betrieben von",
+      "operatorDesc": "ChooseTools wird von hoursmedia, Niederlande, betrieben.",
+      "filesTitle": "Über Ihre Dateien",
+      "filesDesc": "Da die gesamte Verarbeitung in Ihrem Browser stattfindet, können wir keine Datei sehen oder wiederherstellen, an der Sie gearbeitet haben. Beschreiben Sie bei dateispezifischen Problemen den Dateityp und die Schritte, die zum Problem geführt haben."
     },
     "privacy": {
       "title": "Datenschutzerklärung",
@@ -1135,7 +1151,7 @@
       "title": "Nutzungsbedingungen",
       "body": [
         "Zuletzt aktualisiert: Juli 2026. Mit der Nutzung von ChooseTools stimmen Sie diesen Bedingungen zu.",
-        "Der Dienst. ChooseTools bietet kostenlose, browserbasierte Datei-Werkzeuge. Die gesamte Verarbeitung erfolgt auf Ihrem Gerät; wir empfangen Ihre Dateien niemals und haben daher keine Möglichkeit, auf sie zuzugreifen, sie wiederherzustellen oder zu sichern.",
+        "Der Dienst. ChooseTools bietet browserbasierte Datei-Werkzeuge. Die gesamte Verarbeitung erfolgt auf Ihrem Gerät; wir empfangen Ihre Dateien niemals und haben daher keine Möglichkeit, auf sie zuzugreifen, sie wiederherzustellen oder zu sichern.",
         "Zulässige Nutzung. Sie dürfen die Tools für jeden rechtmäßigen Zweck verwenden, privat oder geschäftlich. Sie dürfen den Dienst nicht zu stören versuchen, ihn in missbräuchlichem Umfang abrufen oder ihn zur Verarbeitung von Material nutzen, das Sie zu verarbeiten nicht berechtigt sind.",
         "Keine Gewährleistung. Die Tools werden „wie besehen“ und ohne jegliche Gewährleistung bereitgestellt. Obwohl wir jedes Tool sorgfältig testen, sind Sie dafür verantwortlich, Ergebnisse zu überprüfen, bevor Sie sich auf sie verlassen — bewahren Sie stets Ihre Originaldateien auf.",
         "Haftungsbeschränkung. Im gesetzlich maximal zulässigen Umfang haftet hoursmedia nicht für Schäden, die aus der Nutzung dieser Website entstehen, einschließlich Datenverlust. Da Ihre Originaldateien Ihr Gerät niemals verlassen und von uns niemals verändert werden, bleiben Ihre Originale stets in Ihrem Besitz.",
@@ -1146,7 +1162,7 @@
     "donate": {
       "title": "Spenden",
       "intro": [
-        "ChooseTools ist kostenlos und bleibt es auch immer. Aber Sie können mit uns etwas zurückgeben: Bäume pflanzen, sauberes Wasser zu Gemeinschaften bringen und sich um Waisen auf der ganzen Welt kümmern.",
+        "ChooseTools ist für alle da und bleibt es auch immer. Aber Sie können mit uns etwas zurückgeben: Bäume pflanzen, sauberes Wasser zu Gemeinschaften bringen und sich um Waisen auf der ganzen Welt kümmern.",
         "Jede Sache unten ist eine vertrauenswürdige globale Organisation. Ihre Spende geht direkt dorthin: ChooseTools berührt Ihr Geld nie und behält nichts davon."
       ],
       "trustNote": "ChooseTools ist kein Vermittler und erhebt keine Gebühr. Spenden gehen zu 100% direkt an die hier aufgeführten Organisationen.",
@@ -1193,7 +1209,7 @@
       "donateBtn": "Spenden",
       "support": {
         "title": "ChooseTools unterstützen",
-        "desc": "Diese Plattform kostenlos zu halten kostet echte Ressourcen und jedes Tool wird mit Sorgfalt gebaut. Wenn ChooseTools Ihnen Zeit gespart hat, können Sie die Entwicklung mit jedem Betrag unterstützen.",
+        "desc": "Diese Plattform am Laufen zu halten kostet echte Ressourcen und jedes Tool wird mit Sorgfalt gebaut. Wenn ChooseTools Ihnen Zeit gespart hat, können Sie die Entwicklung mit jedem Betrag unterstützen.",
         "btn": "ChooseTools unterstützen",
         "via": "Zahlungen werden sicher von unserem Zahlungsanbieter abgewickelt."
       }
@@ -1221,20 +1237,20 @@
     }
   },
   "blog": {
-    "metaTitle": "Tools-Blog – Ratgeber, Tutorials und Anleitungen für kostenlose Datei-Tools",
-    "metaDescription": "Stöbern Sie im ChooseTools-Blog für ausführliche Ratgeber, Tutorials und Anleitungen zu jedem kostenlosen Online-Datei-Tool: PDF-, Bild- und Text-Tools, die direkt im Browser laufen.",
+    "metaTitle": "Tools-Blog – Ratgeber, Tutorials und Anleitungen für Datei-Tools",
+    "metaDescription": "Stöbern Sie im ChooseTools-Blog für ausführliche Ratgeber, Tutorials und Anleitungen zu jedem Online-Datei-Tool: PDF-, Bild- und Text-Tools, die direkt im Browser laufen.",
     "indexTitle": "Tools-Blog",
-    "indexIntro": "Experten-Ratgeber, praktische Tutorials und Schnell-Anleitungen für jede ChooseTools-App. Jeder Artikel erklärt das Tool Schritt für Schritt und verlinkt direkt auf das kostenlose Tool.",
+    "indexIntro": "Experten-Ratgeber, praktische Tutorials und Schnell-Anleitungen für jede ChooseTools-App. Jeder Artikel erklärt das Tool Schritt für Schritt und verlinkt direkt auf das Tool.",
     "countArticles": "Artikel und es werden mehr",
     "readingTime": "{minutes} Min. Lesezeit",
     "lastUpdated": "Aktualisiert Sep. 2026",
     "tocTitle": "In diesem Artikel",
     "faqTitle": "Häufig gestellte Fragen",
     "relatedTitle": "Passende Tools",
-    "relatedHint": "Kostenloses Online-Tool",
+    "relatedHint": "Online-Tool",
     "ctaTitle": "Bereit, {name} zu nutzen?",
     "openTool": "Tool öffnen",
-    "privacyNote": "Kostenlos · ohne Anmeldung · Dateien verlassen nie dein Gerät",
+    "privacyNote": "Ohne Anmeldung · Dateien verlassen nie dein Gerät",
     "backToBlog": "Zurück zu allen Artikeln"
   },
   "common": {

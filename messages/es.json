@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "ChooseTools — Herramientas de archivos gratis que nunca suben tus archivos",
+    "title": "ChooseTools — Herramientas de archivos que nunca suben tus archivos",
     "description": "Une, comprime y convierte PDF e imágenes directamente en tu navegador. Sin subidas, sin límites, sin esperas. Tus archivos nunca salen de tu dispositivo."
   },
   "nav": {
@@ -19,7 +19,11 @@
   },
   "home": {
     "heroTitle": "Todas las herramientas. Cero subidas.",
-    "heroSub": "Todo funciona dentro de tu navegador. Tus archivos nunca salen de tu dispositivo: sin límites de tamaño, sin tareas diarias limitadas y sin esperar subidas.",
+    "heroSub": [
+      "Nuestra meta es una caja de herramientas completa y abierta para tus archivos cotidianos.",
+      "Nuestra visión es una web donde tus archivos nunca tengan que salir de tu dispositivo.",
+      "Privacidad y velocidad por defecto."
+    ],
     "search": "Buscar herramientas… (ej. unir PDF)",
     "noResults": "Ninguna herramienta coincide con tu búsqueda.",
     "whyTitle": "Por que elegir ChooseTools",
@@ -278,7 +282,7 @@
     },
     "qr-generator": {
       "name": "Generador de códigos QR",
-      "desc": "Crea códigos QR para enlaces o texto: gratis y sin marca de agua.",
+      "desc": "Crea códigos QR para enlaces o texto, sin marca de agua.",
       "long": "Escribe cualquier texto o URL y descarga un código QR PNG de alta resolución. Sin registro, sin códigos que caducan, sin marca de agua.",
       "faq1q": "¿Caducan estos códigos QR?",
       "faq1a": "Nunca. El código se genera directamente desde tu texto: no hay acortador ni servidor intermedio que pueda cerrar.",
@@ -1088,7 +1092,7 @@
     }
   },
   "footer": {
-    "rights": "Herramientas de archivos gratuitas en el navegador. Tus archivos nunca salen de tu dispositivo.",
+    "rights": "Una caja de herramientas privada que funciona en el navegador. Tus archivos nunca salen de tu dispositivo.",
     "madeBy": "Creado por hoursmedia",
     "toolsCol": "Herramientas",
     "popularCol": "Más usadas",
@@ -1102,21 +1106,33 @@
     "about": {
       "title": "Sobre ChooseTools",
       "body": [
-        "ChooseTools es una colección de herramientas de archivos gratuitas que funcionan íntegramente dentro de tu navegador. A diferencia de los sitios de herramientas tradicionales, nunca recibimos tus archivos: unir un PDF, comprimir una foto o generar un código QR ocurre localmente en tu propio dispositivo.",
-        "Esta arquitectura tiene tres consecuencias de las que estamos orgullosos. Primero, la privacidad: un archivo que nunca se transmite jamás puede filtrarse, registrarse o retenerse. Segundo, la velocidad: no hay subida ni descarga, así que incluso los archivos grandes se procesan al instante. Tercero, la honestidad: como procesar no nos cuesta nada, podemos ofrecer un uso realmente ilimitado, sin límites de tamaño, cuotas diarias ni marcas de agua.",
-        "La plataforma está disponible en 11 idiomas, con cada explicación escrita en su idioma nativo, no traducida automáticamente.",
-        "ChooseTools está creado y mantenido por hoursmedia. Añadimos herramientas nuevas con regularidad: si echas alguna en falta, nos encantará saberlo.",
-        "Y porque todo funciona en tu dispositivo, ChooseTools también es amable con el planeta. No alojamos servidores pesados ni guardamos nada, así que cada visita consume una fracción de la energía que usaría un sitio de herramientas con servidores — y cada herramienta que usas localmente ayuda a reducir las emisiones. Creemos que el software debe lograr más consumiendo menos, y te invitamos a dar algo a cambio con nosotros: planta árboles, cava pozos y cuida de los huérfanos del mundo a través de las causas de nuestra página de donaciones."
+        "ChooseTools es un conjunto de herramientas de archivos que funcionan íntegramente dentro de tu navegador. Unir un PDF, comprimir una foto o generar un código QR ocurre en tu dispositivo — tus archivos no se suben a ningún sitio.",
+        "## Qué significa esto para ti",
+        "- Privacidad. Un archivo que nunca se transmite jamás puede filtrarse, registrarse ni retenerse.",
+        "- Velocidad. Sin subida ni descarga — incluso los archivos grandes se procesan al instante.",
+        "- Sin límites ocultos. Sin límites de tamaño, sin cuotas diarias, sin marcas de agua que empujen hacia un plan de pago.",
+        "## Idiomas",
+        "La plataforma está disponible en 11 idiomas, con cada explicación escrita por personas, no traducida automáticamente. Las herramientas exclusivas del árabe — como quitar el tashkeel, convertir fechas hijri y el tafqit — están hechas para usuarios de árabe, no adaptadas del inglés.",
+        "## Quién está detrás",
+        "ChooseTools está creado y mantenido por hoursmedia. Añadimos herramientas nuevas con regularidad; si echas alguna en falta, nos encantará saberlo.",
+        "## Da algo a cambio",
+        "Mantener este proyecto requiere tiempo y recursos reales. Si te ha ayudado, considera apoyar las causas de nuestra página de donaciones: planta árboles, lleva agua limpia a las comunidades y cuida de los huérfanos de todo el mundo."
       ]
     },
     "contact": {
       "title": "Contacto",
-      "body": [
-        "¿Tienes una pregunta, encontraste un error o quieres sugerir una herramienta nueva? Leemos todos los mensajes.",
-        "Escríbenos a: contact@choosetools.com.",
-        "Como todo el procesamiento ocurre en tu navegador, no podemos ver ni recuperar ningún archivo con el que hayas trabajado; para incidencias con archivos, descríbenos el tipo de archivo y los pasos que llevaron al problema.",
-        "ChooseTools es operado por hoursmedia, Países Bajos."
-      ]
+      "intro": "¿Tienes una pregunta, encontraste un error o quieres sugerir una herramienta nueva? Leemos cada mensaje.",
+      "metaDescription": "Contacta con el equipo de ChooseTools para preguntas, informes de errores y sugerencias de herramientas.",
+      "emailTitle": "Escríbenos un correo",
+      "emailDesc": "Escríbenos cuando quieras. Respondemos a cada mensaje, normalmente en uno o dos días hábiles.",
+      "emailAddress": "contact@choosetools.com",
+      "emailBtn": "Abrir el correo",
+      "responseTitle": "Tiempo de respuesta",
+      "responseDesc": "Normalmente uno o dos días hábiles.",
+      "operatorTitle": "Operado por",
+      "operatorDesc": "ChooseTools es operado por hoursmedia, Países Bajos.",
+      "filesTitle": "Acerca de tus archivos",
+      "filesDesc": "Como todo el procesamiento ocurre en tu navegador, no podemos ver ni recuperar ningún archivo con el que trabajaste. Para problemas con archivos concretos, describe el tipo de archivo y los pasos que causaron el problema."
     },
     "privacy": {
       "title": "Política de privacidad",
@@ -1135,7 +1151,7 @@
       "title": "Términos de servicio",
       "body": [
         "Última actualización: julio de 2026. Al usar ChooseTools aceptas estos términos.",
-        "El servicio. ChooseTools ofrece utilidades de archivos gratuitas basadas en el navegador. Todo el procesamiento ocurre en tu dispositivo; nunca recibimos tus archivos y por tanto no podemos acceder a ellos, restaurarlos ni hacer copias.",
+        "El servicio. ChooseTools ofrece utilidades de archivos basadas en el navegador. Todo el procesamiento ocurre en tu dispositivo; nunca recibimos tus archivos y por tanto no podemos acceder a ellos, restaurarlos ni hacer copias.",
         "Uso aceptable. Puedes usar las herramientas para cualquier fin lícito, personal o comercial. No puedes intentar interrumpir el servicio, automatizarlo a volúmenes abusivos ni procesar material sobre el que no tengas derechos.",
         "Sin garantía. Las herramientas se ofrecen «tal cual», sin garantía de ningún tipo. Aunque probamos cada herramienta con cuidado, eres responsable de verificar los resultados antes de confiar en ellos; conserva siempre tus archivos originales.",
         "Limitación de responsabilidad. En la máxima medida permitida por la ley, hoursmedia no es responsable de daños derivados del uso de este sitio, incluida la pérdida de datos. Como tus archivos originales nunca salen de tu dispositivo ni son modificados por nosotros, tus originales permanecen siempre en tu poder.",
@@ -1146,7 +1162,7 @@
     "donate": {
       "title": "Donar",
       "intro": [
-        "ChooseTools es gratuito y lo seguirá siendo siempre. Pero puedes unirte a nosotros para dar algo a cambio: plantar árboles, llevar agua limpia a las comunidades y cuidar de los huérfanos de todo el mundo.",
+        "ChooseTools está aquí para todos y lo estará siempre. Pero puedes unirte a nosotros para dar algo a cambio: plantar árboles, llevar agua limpia a las comunidades y cuidar de los huérfanos de todo el mundo.",
         "Cada causa de abajo es una organización mundial de confianza. Tu donación va directamente a ellas: ChooseTools nunca toca tu dinero ni se queda con nada."
       ],
       "trustNote": "ChooseTools no es un intermediario y no cobra ninguna comisión. Las donaciones van 100% directamente a las organizaciones indicadas aquí.",
@@ -1193,7 +1209,7 @@
       "donateBtn": "Donar",
       "support": {
         "title": "Apoya ChooseTools",
-        "desc": "Mantener esta plataforma gratuita cuesta recursos reales y cada herramienta se crea con esmero. Si ChooseTools te ha ahorrado tiempo, puedes apoyar su desarrollo con cualquier cantidad.",
+        "desc": "Mantener esta plataforma en marcha cuesta recursos reales y cada herramienta se crea con esmero. Si ChooseTools te ha ahorrado tiempo, puedes apoyar su desarrollo con cualquier cantidad.",
         "btn": "Apoya ChooseTools",
         "via": "Los pagos se gestionan de forma segura por nuestro proveedor de pagos."
       }
@@ -1221,20 +1237,20 @@
     }
   },
   "blog": {
-    "metaTitle": "Blog de Herramientas - Guías, Tutoriales y Artículos Cómo Hacer para Herramientas de Archivos Gratuitas",
-    "metaDescription": "Explora el blog de ChooseTools para guías, tutoriales y artículos prácticos sobre cada herramienta de archivos gratuita: herramientas PDF, de imagen y texto que funcionan en tu navegador.",
+    "metaTitle": "Blog de Herramientas - Guías, Tutoriales y Artículos Cómo Hacer para Herramientas de Archivos",
+    "metaDescription": "Explora el blog de ChooseTools para guías, tutoriales y artículos prácticos sobre cada herramienta de archivos: herramientas PDF, de imagen y texto que funcionan en tu navegador.",
     "indexTitle": "Blog de herramientas",
-    "indexIntro": "Guías expertas, tutoriales prácticos y guías rápidas para cada aplicación de ChooseTools. Cada artículo explica la herramienta paso a paso y enlaza directamente a la herramienta gratuita.",
+    "indexIntro": "Guías expertas, tutoriales prácticos y guías rápidas para cada aplicación de ChooseTools. Cada artículo explica la herramienta paso a paso y enlaza directamente a la herramienta.",
     "countArticles": "artículos y creciendo",
     "readingTime": "Lectura de {minutes} min",
     "lastUpdated": "Actualizado sep. 2026",
     "tocTitle": "En este artículo",
     "faqTitle": "Preguntas frecuentes",
     "relatedTitle": "Herramientas relacionadas",
-    "relatedHint": "Herramienta en línea gratuita",
+    "relatedHint": "Herramienta en línea",
     "ctaTitle": "¿Listo para usar {name}?",
     "openTool": "Abrir herramienta",
-    "privacyNote": "Gratis · sin registro · los archivos nunca salen de tu dispositivo",
+    "privacyNote": "Sin registro · los archivos nunca salen de tu dispositivo",
     "backToBlog": "Volver a todos los artículos"
   },
   "common": {

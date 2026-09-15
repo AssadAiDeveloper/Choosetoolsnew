@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "ChooseTools — Free file tools that never upload your files",
+    "title": "ChooseTools — File tools that never upload your files",
     "description": "Merge, compress and convert PDF and images directly in your browser. No uploads, no limits, no waiting. Your files never leave your device."
   },
   "nav": {
@@ -19,7 +19,11 @@
   },
   "home": {
     "heroTitle": "Every file tool. Zero uploads.",
-    "heroSub": "Everything runs inside your browser. Your files never leave your device — so there are no size caps, no daily limits and no waiting for uploads.",
+    "heroSub": [
+      "Our goal is a complete, open toolbox for your everyday files.",
+      "Our vision is a web where your files never have to leave your device.",
+      "Private and instant by default."
+    ],
     "search": "Search tools… (e.g. merge PDF)",
     "noResults": "No tool matches your search.",
     "whyTitle": "Why ChooseTools?",
@@ -278,7 +282,7 @@
     },
     "qr-generator": {
       "name": "QR Code Generator",
-      "desc": "Create QR codes for links, text or Wi-Fi — free and without watermarks.",
+      "desc": "Create QR codes for links, text or Wi-Fi — without watermarks.",
       "long": "Type any text or URL and download a high-resolution PNG QR code. No sign-up, no expiring codes, no watermark.",
       "faq1q": "Do these QR codes expire?",
       "faq1a": "Never. The code is generated directly from your text — there is no shortening service or server that could shut down.",
@@ -1088,7 +1092,7 @@
     }
   },
   "footer": {
-    "rights": "Free browser-based file tools. Your files never leave your device.",
+    "rights": "A private, browser-based toolbox. Your files never leave your device.",
     "madeBy": "Built by hoursmedia",
     "toolsCol": "Tools",
     "popularCol": "Popular tools",
@@ -1102,21 +1106,33 @@
     "about": {
       "title": "About ChooseTools",
       "body": [
-        "ChooseTools is a collection of free file tools that run entirely inside your browser. Unlike traditional tool websites, we never receive your files: merging a PDF, compressing a photo or generating a QR code all happen locally on your own device.",
-        "This architecture has three consequences we are proud of. First, privacy — a file that is never transmitted can never be leaked, logged or retained. Second, speed — there is no upload or download time, so even large files process instantly. Third, honesty — because processing costs us nothing, we can offer genuinely unlimited use with no file-size caps, daily quotas or watermarks.",
-        "The platform is available in 11 languages, with every explanation written natively rather than machine-translated. Our Arabic-exclusive tools — like tashkeel removal, Hijri date conversion and tafqit — are built specifically for Arabic users, not adapted from English tools.",
-        "ChooseTools is built and maintained by hoursmedia. New tools are added regularly; if you are missing one, we would love to hear about it.",
-        "Because everything runs on your device, ChooseTools is also kind to the planet. We host no heavy backends and store nothing, so every visit uses a fraction of the energy a server-side tool site would — and each tool you use locally helps keep emissions low. We believe software should achieve more while consuming less, and we invite you to give back with us: plant trees, dig wells and care for orphans worldwide through the causes on our Donate page."
+        "ChooseTools is a set of file tools that run entirely inside your browser. Merging a PDF, compressing a photo or generating a QR code all happen on your device — your files are never uploaded anywhere.",
+        "## What that means for you",
+        "- Privacy. A file that is never transmitted cannot be leaked, logged or retained by anyone.",
+        "- Speed. No upload or download time — even large files process instantly.",
+        "- No hidden limits. No size caps, no daily quotas, no watermarks pushing you toward a paid plan.",
+        "## Languages",
+        "The platform is available in 11 languages. All explanations are written by people, not machine-translated. Arabic-specific tools — like tashkeel removal, Hijri date conversion and tafqit — are built for Arabic users, not adapted from English.",
+        "## Who is behind it",
+        "ChooseTools is built and maintained by hoursmedia. New tools ship regularly; if one is missing, we would like to hear about it.",
+        "## Give back",
+        "Running this project takes real time and resources. If it has helped you, consider supporting the causes on our Donate page: plant trees, bring clean water to communities and care for orphans worldwide."
       ]
     },
     "contact": {
       "title": "Contact",
-      "body": [
-        "Have a question, found a bug, or want to suggest a new tool? We read every message.",
-        "Email us at: contact@choosetools.com.",
-        "Because all processing happens in your browser, we cannot see or recover any file you worked on — for file-specific issues, please describe the file type and the steps that led to the problem.",
-        "ChooseTools is operated by hoursmedia, Netherlands."
-      ]
+      "intro": "Have a question, found a bug, or want to suggest a new tool? We read every message.",
+      "metaDescription": "Contact the ChooseTools team with questions, bug reports and tool suggestions.",
+      "emailTitle": "Send us an email",
+      "emailDesc": "Write to us any time. We reply to every message — usually within one or two business days.",
+      "emailAddress": "contact@choosetools.com",
+      "emailBtn": "Open mail app",
+      "responseTitle": "Response time",
+      "responseDesc": "Usually one or two business days.",
+      "operatorTitle": "Operated by",
+      "operatorDesc": "ChooseTools is operated by hoursmedia, Netherlands.",
+      "filesTitle": "About your files",
+      "filesDesc": "Because all processing happens in your browser, we cannot see or recover any file you worked on. For file-specific issues, please describe the file type and the steps that led to the problem."
     },
     "privacy": {
       "title": "Privacy Policy",
@@ -1135,7 +1151,7 @@
       "title": "Terms of Service",
       "body": [
         "Last updated: July 2026. By using ChooseTools you agree to these terms.",
-        "The service. ChooseTools provides free, browser-based file utilities. All processing happens on your device; we never receive your files and therefore have no ability to access, restore or back them up.",
+        "The service. ChooseTools provides browser-based file utilities. All processing happens on your device; we never receive your files and therefore have no ability to access, restore or back them up.",
         "Acceptable use. You may use the tools for any lawful purpose, personal or commercial. You may not attempt to disrupt the service, scrape it at abusive volume, or use it to process material you have no right to process.",
         "No warranty. The tools are provided “as is”, without warranty of any kind. While we test every tool carefully, you are responsible for verifying results before relying on them — always keep your original files.",
         "Limitation of liability. To the maximum extent permitted by law, hoursmedia is not liable for any damages arising from the use of this site, including data loss. Since your original files never leave your device and are never modified by us, your originals always remain in your possession.",
@@ -1146,7 +1162,7 @@
     "donate": {
       "title": "Donate",
       "intro": [
-        "ChooseTools is free, and it always will be. But you can join us in giving back: plant trees, bring clean water to communities, and care for orphans around the world.",
+        "ChooseTools is for everyone, and it always will be. Join us in giving back: plant trees, bring clean water to communities, and care for orphans around the world.",
         "Every cause below is a trusted global organization. Your donation goes directly to them — ChooseTools never touches your money and takes nothing from it."
       ],
       "trustNote": "ChooseTools is not an intermediary and takes no fee. Donations go 100% directly to the organizations listed here.",
@@ -1193,7 +1209,7 @@
       "donateBtn": "Donate",
       "support": {
         "title": "Support ChooseTools",
-        "desc": "Keeping this platform free costs real resources and every tool is built with care. If ChooseTools has saved you time, you can support its development with any amount.",
+        "desc": "Keeping this platform running takes real resources and every tool is built with care. If ChooseTools has saved you time, you can support its development with any amount.",
         "btn": "Support ChooseTools",
         "via": "Payments are handled securely by our payment provider."
       }
@@ -1221,20 +1237,20 @@
     }
   },
   "blog": {
-    "metaTitle": "ChooseTools Blog - Guides, Tutorials and How-To Articles for Free File Tools",
-    "metaDescription": "Browse the ChooseTools blog for in-depth guides, tutorials and how-to articles about every free online file tool: PDF, image and text tools that run entirely in your browser.",
+    "metaTitle": "ChooseTools Blog - Guides, Tutorials and How-To Articles for File Tools",
+    "metaDescription": "Browse the ChooseTools blog for in-depth guides, tutorials and how-to articles about every online file tool: PDF, image and text tools that run entirely in your browser.",
     "indexTitle": "Tools Blog",
-    "indexIntro": "Expert guides, practical tutorials and quick how-tos for every ChooseTools app. Each article explains a tool step by step and links straight back to the free tool.",
+    "indexIntro": "Expert guides, practical tutorials and quick how-tos for every ChooseTools app. Each article explains a tool step by step and links straight back to the tool.",
     "countArticles": "articles and growing",
     "readingTime": "{minutes} min read",
     "lastUpdated": "Updated Sep 2026",
     "tocTitle": "In this article",
     "faqTitle": "Frequently asked questions",
     "relatedTitle": "Related tools",
-    "relatedHint": "Free online tool",
+    "relatedHint": "Online tool",
     "ctaTitle": "Ready to use {name}?",
     "openTool": "Open tool",
-    "privacyNote": "Free · no sign-up · files never leave your device",
+    "privacyNote": "No sign-up · files never leave your device",
     "backToBlog": "Back to all articles"
   },
   "common": {

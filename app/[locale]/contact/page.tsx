@@ -1,13 +1,21 @@
-import { StaticPage, staticPageMetadata, staticPageParams } from "@/components/StaticPage";
+import type { Metadata } from "next";
+import { ContactPage, contactPageMetadata } from "@/components/ContactPage";
+import { routing } from "@/i18n/routing";
 
-export const generateStaticParams = staticPageParams;
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
   const { locale } = await params;
-  return staticPageMetadata(locale, "contact");
+  return contactPageMetadata(locale);
 }
 
 export default async function Page({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  return <StaticPage locale={locale} page="contact" />;
+  return <ContactPage locale={locale} />;
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "ChooseTools — Dosyalarınızı asla yüklemeyen ücretsiz çevrimiçi dosya araçları",
+    "title": "ChooseTools — Dosyalarınızı asla yüklemeyen çevrimiçi dosya araçları",
     "description": "PDF birleştir, sıkıştır ve dönüştür, resim düzenle — doğrudan tarayıcınızda. Yükleme yok, sınır yok, bekleme yok. Dosyalarınız cihazınızdan asla çıkmaz."
   },
   "nav": {
@@ -19,7 +19,11 @@
   },
   "home": {
     "heroTitle": "Her dosya aracı. Sıfır yükleme.",
-    "heroSub": "Her şey tarayıcınızın içinde çalışır. Dosyalarınız asla cihazınızdan çıkmaz — bu yüzden boyut sınırı yok, günlük kota yok ve yükleme beklemenize gerek yok.",
+    "heroSub": [
+      "Amacımız, günlük dosyalarınız için eksiksiz ve açık bir araç kutusudur.",
+      "Vizyonumuz, dosyalarınızın cihazınızdan asla çıkmak zorunda olmadığı bir web.",
+      "Varsayılan olarak gizlilik ve hız."
+    ],
     "search": "Araç arayın… (ör. PDF birleştir)",
     "noResults": "Aramanızla eşleşen bir araç bulunamadı.",
     "whyTitle": "Neden ChooseTools?",
@@ -134,7 +138,7 @@
   "tools": {
     "merge-pdf": {
       "name": "PDF Birleştir",
-      "desc": "Birden fazla PDF dosyasını tek bir belgede birleştirin, tamamen çevrimiçi ve ücretsiz.",
+      "desc": "Birden fazla PDF dosyasını tek bir belgede birleştirin, tamamen çevrimiçi.",
       "long": "İki veya daha fazla PDF dosyasını sürükleyin, istediğiniz sıraya yerleştirin ve tek bir birleşik belge olarak indirin. Birleştirme cihazınızda gerçekleşir, bu yüzden gizli sözleşmeler bile bilgisayarınızdan çıkmaz.",
       "faq1q": "Dosya boyutu veya dosya sayısı konusunda bir sınır var mı?",
       "faq1a": "Hayır. Birleştirme tarayıcınızda çalıştığı için tek sınır cihazınızın belleğidir — yüzlerce megabaytlık dosyalar normal bir dizüstü bilgisayarda sorunsuz çalışır.",
@@ -278,7 +282,7 @@
     },
     "qr-generator": {
       "name": "QR Kod Oluştur",
-      "desc": "Bağlantı, metin ve Wi-Fi için ücretsiz QR kod oluşturun.",
+      "desc": "Bağlantı, metin ve Wi-Fi için QR kod oluşturun.",
       "long": "Herhangi bir metin veya URL yazın ve yüksek çözünürlüklü bir PNG QR kodu indirin. Kayıt yok, süresi dolan kodlar yok, filigran yok.",
       "faq1q": "Bu QR kodlarının süresi doluyor mu?",
       "faq1a": "Asla. Kod doğrudan metninizden oluşturulur — kapatılabilecek bir kısaltma servisi veya sunucu yoktur.",
@@ -845,7 +849,7 @@
     },
     "invoice-generator": {
       "name": "Fatura Oluştur",
-      "desc": "Ücretsiz, profesyonel ve yazdırılmaya hazır fatura oluşturun.",
+      "desc": "Profesyonel ve yazdırılmaya hazır fatura oluşturun.",
       "long": "Şirket ve müşteri bilgilerinizi doldurun, satır kalemleri ekleyin ve cilalı bir PDF fatura indirin — tamamen cihazınızda oluşturulur. Arapça metin PDF fontlarının doğrudan yapamayacağı doğru harf şekillendirmesi gerektirdiğinden, fatura tarayıcınızda piksel-perfekt olarak oluşturulur ve sonra PDF sayfası olarak kaydedilir.",
       "faq1q": "Fatura metni PDF'te seçilebilir mi?",
       "faq1a": "Hayır — Arapça, İngilizce ve İspanyolca metni doğru ve tutarlı şekilde oluşturmak için fatura temiz bir görsel olarak çizilir ve PDF sayfasına gömülür. Mükemmel yazdırır ve görüntülenir, ancak metnin kendisi seçilebilir değildir.",
@@ -1088,7 +1092,7 @@
     }
   },
   "footer": {
-    "rights": "Ücretsiz tarayıcı tabanlı dosya araçları. Dosyalarınız asla cihazınızdan çıkmaz.",
+    "rights": "Tarayıcıda çalışan özel bir araç kutusu. Dosyalarınız asla cihazınızı terk etmez.",
     "madeBy": "hoursmedia tarafından yapılmıştır",
     "toolsCol": "Araçlar",
     "popularCol": "Popüler araçlar",
@@ -1102,21 +1106,33 @@
     "about": {
       "title": "ChooseTools Hakkında",
       "body": [
-        "ChooseTools, tamamen tarayıcınızın içinde çalışan ücretsiz dosya araçları koleksiyonudur. Geleneksel araç web sitelerinin aksine, dosyalarınızı hiçbir zaman almıyoruz: bir PDF'i birleştirmek, bir fotoğrafı sıkıştırmak veya bir QR kodu oluşturmak hepsi kendi cihazınızda yerel olarak gerçekleşir.",
-        "Bu mimarinin gurur duyduğumuz üç sonucu vardır. Birincisi, gizlilik — hiç iletilmemiş bir dosya asla sızamaz, günlüğe kaydedilemez veya saklanamaz. İkincisi, hız — yükleme veya indirme süresi yoktur, bu yüzden büyük dosyalar bile anında işlenir. Üçüncüsü, dürüstlük — işleme bize hiçbir şeye mal olmadığından, dosya boyutu sınırları, günlük kotalar veya filigran olmadan gerçekten sınırsız kullanım sunabiliriz.",
-        "Platform 11 dilde sunulur ve her açıklama makine çevirisi değil, ana dilinde yazılmıştır. Arapça özel araçlarımız — tashkeel kaldırma, Hijri tarih dönüşümü ve tafqit gibi — İngilizce araçlardan uyarlanmış değil, Arapça kullanıcılar için özel olarak oluşturulmuştur. Arapça araçlarımıza ek olarak platformumuz, her geçen gün daha fazla dil ve araçla büyümeye devam etmektedir.",
-        "ChooseTools hoursmedia tarafından geliştirilmiştir ve sürdürülmektedir. Yeni araçlar düzenli olarak eklenir; eksik bir araç varsa, duymayı çok isteriz.",
-        "Ve her şey cihazınızda çalıştığı için ChooseTools gezegene de dosttur. Ağır sunucular barındırmıyor ve hiçbir şey saklamıyoruz; bu yüzden her ziyaret, sunucu tabanlı bir araç sitesinin harcayacağı enerjinin çok küçük bir kısmını kullanır — ve yerel olarak kullandığınız her araç, emisyonları düşük tutmaya yardımcı olur. Yazılımın daha az tüketerek daha fazlasını başarması gerektiğine inanıyor ve birlikte karşılık vermenizi davet ediyoruz: ağaç dikin, kuyu kazın ve bağış sayfamızdaki nedenler aracılığıyla dünya çapında yetimlere bakın."
+        "ChooseTools, tamamen tarayıcınızın içinde çalışan dosya araçları koleksiyonudur. Bir PDF'i birleştirmek, bir fotoğrafı sıkıştırmak veya bir QR kodu oluşturmak hepsi cihazınızda gerçekleşir — dosyalarınız hiçbir yere yüklenmez.",
+        "## Sizin için anlamı",
+        "- Gizlilik. Hiç iletilmemiş bir dosya asla sızdırılamaz, günlüğe kaydedilemez veya saklanamaz.",
+        "- Hız. Yükleme veya indirme süresi yoktur — büyük dosyalar bile anında işlenir.",
+        "- Gizli sınır yok. Boyut sınırı yok, günlük kota yok, sizi ücretli bir plana iten filigran yok.",
+        "## Diller",
+        "Platform 11 dilde sunulur ve tüm açıklamalar makine çevirisi değil, insanlar tarafından yazılmıştır. Arapçaya özel araçlar — tashkeel kaldırma, Hicri tarih dönüşümü ve tafqit gibi — İngilizceden uyarlanmış değil, Arapça kullanıcılar için özel olarak oluşturulmuştur.",
+        "## Arkasında kim var",
+        "ChooseTools, hoursmedia tarafından geliştirilir ve sürdürülür. Düzenli olarak yeni araçlar eklenir; eksik olan bir araç varsa, duymayı çok isteriz.",
+        "## Karşılık verme",
+        "Bu projeyi ayakta tutmak gerçek zaman ve kaynak gerektirir. Size yardımcı olduysa, bağış sayfamızdaki nedenleri desteklemeyi düşünün: ağaç dikin, topluluklara temiz su ulaştırın ve dünya çapında yetimlere bakın."
       ]
     },
     "contact": {
       "title": "İletişim",
-      "body": [
-        "Bir sorunuz mu var, bir hata mı buldunuz veya yeni bir araç önermek mi istiyorsunuz? Her mesajı okuyoruz.",
-        "Bize e-posta gönderin: contact@choosetools.com.",
-        "Tüm işleme tarayıcınızda gerçekleştiğinden, çalıştığınız herhangi bir dosyayı göremiyor veya kurtaramıyoruz — dosya özel sorunlar için lütfen dosya türünü ve soruna yol adımlarını açıklayın.",
-        "ChooseTools Hollanda'da hoursmedia tarafından işletilmektedir."
-      ]
+      "intro": "Bir sorunuz mu var, bir hata mı buldunuz ya da yeni bir araç önermek mi istiyorsunuz? Her mesajı okuyoruz.",
+      "metaDescription": "Sorular, hata bildirimleri ve araç önerileri için ChooseTools ekibiyle iletişime geçin.",
+      "emailTitle": "Bize e-posta gönderin",
+      "emailDesc": "İstediğiniz zaman yazın. Her mesaja yanıt veriyoruz, genellikle bir-iki iş günü içinde.",
+      "emailAddress": "contact@choosetools.com",
+      "emailBtn": "Posta uygulamasını aç",
+      "responseTitle": "Yanıt süresi",
+      "responseDesc": "Genellikle bir-iki iş günü.",
+      "operatorTitle": "İşleten",
+      "operatorDesc": "ChooseTools'u hoursmedia (Hollanda) işletmektedir.",
+      "filesTitle": "Dosyalarınız hakkında",
+      "filesDesc": "Tüm işlem tarayıcınızda gerçekleştiği için, üzerinde çalıştığınız herhangi bir dosyayı göremiyor veya kurtaramıyoruz. Dosyaya özel sorunlar için lütfen dosya türünü ve soruna yol açan adımları açıklayın."
     },
     "privacy": {
       "title": "Gizlilik Politikası",
@@ -1135,7 +1151,7 @@
       "title": "Hizmet Şartları",
       "body": [
         "Son güncelleme: Temmuz 2026. ChooseTools'u kullanarak bu şartları kabul etmiş olursunuz.",
-        "Hizmet. ChooseTools ücretsiz, tarayıcı tabanlı dosya yardımcı programları sunar. Tüm işleme cihazınızda gerçekleşir; dosyalarınızı asla almıyoruz ve bu nedenle onlara erişme, geri yükleme veya yedekleme yeteneğimiz yoktur.",
+        "Hizmet. ChooseTools tarayıcı tabanlı dosya yardımcı programları sunar. Tüm işleme cihazınızda gerçekleşir; dosyalarınızı asla almıyoruz ve bu nedenle onlara erişme, geri yükleme veya yedekleme yeteneğimiz yoktur.",
         "Kabul edilebilir kullanım. Araçları herhangi bir yasal amaçla, kişisel veya ticari kullanabilirsiniz. Hizmeti bozmaya çalışamaz, suiistimal düzeyinde kazıyamaz veya işleme hakkınız olmayan materyalleri işlemek için kullanamazsınız.",
         "Garanti yok. Araçlar \"olduğu gibi\" hiçbir garanti olmaksızın sunulur. Her aracı dikkatle test etsek de, sonuçlara güvenmeden önce doğrulamak sizin sorumluluğunuzdadır — her zaman orijinal dosyalarınızı saklayın.",
         "Sorumluluk sınırlaması. Yasaların izin verdiği en üst düzede hoursmedia, bu sitenin kullanımından kaynaklanan herhangi bir hasardan, veri kaybı dahil, sorumlu değildir. Orijinal dosyalarınız asla cihazınızdan çıkmadığı ve biz tarafından asla değiştirilmediğinden, orijinalleriniz her zaman sizin kontrolünüzde kalır.",
@@ -1146,7 +1162,7 @@
     "donate": {
       "title": "Bağış Yap",
       "intro": [
-        "ChooseTools ücretsizdir ve her zaman öyle kalacaktır. Ama bize katılıp karşılığını verebilirsiniz: ağaç dikmek, topluluklara temiz su ulaştırmak ve dünya çapında yetimlere bakmak.",
+        "ChooseTools herkes içindir ve her zaman öyle kalacaktır. Ama bize katılıp karşılığını verebilirsiniz: ağaç dikmek, topluluklara temiz su ulaştırmak ve dünya çapında yetimlere bakmak.",
         "Aşağıdaki her neden güvenilir bir küresel kuruluştur. Bağışınız doğrudan onlara ulaşır — ChooseTools paranıza asla dokunmaz ve ondan hiçbir şey almaz."
       ],
       "trustNote": "ChooseTools bir aracı değildir ve hiçbir ücret almaz. Bağışlar %100 doğrudan burada listelenen kuruluşlara gider.",
@@ -1193,7 +1209,7 @@
       "donateBtn": "Bağış Yap",
       "support": {
         "title": "ChooseTools'u Destekle",
-        "desc": "Bu platformu ücretsiz tutmak gerçek kaynaklar gerektirir ve her araç özenle yapılır. ChooseTools size zaman kazandırdıysa, geliştirilmesine herhangi bir tutarla destek olabilirsiniz.",
+        "desc": "Bu platformu ayakta tutmak gerçek kaynaklar gerektirir ve her araç özenle yapılır. ChooseTools size zaman kazandırdıysa, geliştirilmesine herhangi bir tutarla destek olabilirsiniz.",
         "btn": "ChooseTools'u Destekle",
         "via": "Ödemeler, ödeme sağlayıcımız tarafından güvenli şekilde işlenir."
       }
@@ -1221,20 +1237,20 @@
     }
   },
   "blog": {
-    "metaTitle": "Araçlar Blogu - Ücretsiz Dosya Araçları için Rehberler, Eğitimler ve Nasıl Yapılır Yazıları",
-    "metaDescription": "Her ücretsiz çevrimiçi dosya aracı hakkında derinlemesine rehberler, eğitimler ve pratik yazılar için ChooseTools bloguna göz atın: tarayıcınızda çalışan PDF, görsel ve metin araçları.",
+    "metaTitle": "Araçlar Blogu - Dosya Araçları için Rehberler, Eğitimler ve Nasıl Yapılır Yazıları",
+    "metaDescription": "Her çevrimiçi dosya aracı hakkında derinlemesine rehberler, eğitimler ve pratik yazılar için ChooseTools bloguna göz atın: tarayıcınızda çalışan PDF, görsel ve metin araçları.",
     "indexTitle": "Araçlar Blogu",
-    "indexIntro": "Her ChooseTools uygulaması için uzman rehberler, pratik eğitimler ve hızlı nasıl yapılır kılavuzları. Her makale aracı adım adım açıklar ve doğrudan ücretsiz araca bağlantı verir.",
+    "indexIntro": "Her ChooseTools uygulaması için uzman rehberler, pratik eğitimler ve hızlı nasıl yapılır kılavuzları. Her makale aracı adım adım açıklar ve doğrudan araca bağlantı verir.",
     "countArticles": "makale ve büyümeye devam",
     "readingTime": "{minutes} dk okuma",
     "lastUpdated": "Eylül 2026'da güncellendi",
     "tocTitle": "Bu yazıda",
     "faqTitle": "Sık sorulan sorular",
     "relatedTitle": "İlgili araçlar",
-    "relatedHint": "Ücretsiz çevrimiçi araç",
+    "relatedHint": "Çevrimiçi araç",
     "ctaTitle": "{name} kullanmaya hazır mısınız?",
     "openTool": "Aracı aç",
-    "privacyNote": "Ücretsiz · kayıt yok · dosyalarınız cihazınızdan asla çıkmaz",
+    "privacyNote": "Kayıt yok · dosyalarınız cihazınızdan asla çıkmaz",
     "backToBlog": "Tüm yazılara dön"
   },
   "common": {

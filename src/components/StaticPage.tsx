@@ -42,9 +42,25 @@ export async function StaticPage({ locale, page }: { locale: string; page: PageS
     <article className="mx-auto max-w-3xl px-4 py-12">
       <h1 className="text-3xl font-bold tracking-tight text-ink">{t(`${page}.title`)}</h1>
       <div className="mt-6 space-y-4">
-        {body.map((paragraph, i) => (
-          <p key={i} className="leading-relaxed text-ink-soft">{paragraph}</p>
-        ))}
+        {body.map((paragraph, i) => {
+          if (paragraph.startsWith("## ")) {
+            return (
+              <h2 key={i} className="mt-8 text-xl font-semibold text-ink">
+                {paragraph.replace(/^## /, "")}
+              </h2>
+            );
+          }
+          if (paragraph.startsWith("- ")) {
+            return (
+              <ul key={i} className="ml-6 list-disc space-y-1 text-ink-soft">
+                <li>{paragraph.replace(/^- /, "")}</li>
+              </ul>
+            );
+          }
+          return (
+            <p key={i} className="leading-relaxed text-ink-soft">{paragraph}</p>
+          );
+        })}
       </div>
     </article>
   );

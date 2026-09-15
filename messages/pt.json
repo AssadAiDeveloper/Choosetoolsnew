@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "ChooseTools — Ferramentas de ficheiros online gratuitas que nunca enviam os seus ficheiros",
+    "title": "ChooseTools — Ferramentas de ficheiros online que nunca enviam os seus ficheiros",
     "description": "Junte, comprima e converta PDF e imagens diretamente no seu browser. Sem uploads, sem limites, sem esperas. Os seus ficheiros nunca saem do seu dispositivo."
   },
   "nav": {
@@ -19,7 +19,11 @@
   },
   "home": {
     "heroTitle": "Todas as ferramentas de ficheiros. Zero envios.",
-    "heroSub": "Tudo corre dentro do seu navegador. Os seus ficheiros nunca saem do seu dispositivo — por isso não há limites de tamanho, nem limites diários, nem esperas por envios.",
+    "heroSub": [
+      "O nosso objetivo é uma caixa de ferramentas completa e aberta para os seus ficheiros do dia a dia.",
+      "A nossa visão é uma web onde os seus ficheiros nunca precisam de sair do seu dispositivo.",
+      "Privacidade e velocidade por defeito."
+    ],
     "search": "Procurar ferramentas… (ex.: fundir PDF)",
     "noResults": "Nenhuma ferramenta corresponde à sua pesquisa.",
     "whyTitle": "Porque escolher a ChooseTools",
@@ -134,7 +138,7 @@
   "tools": {
     "merge-pdf": {
       "name": "Juntar PDF",
-      "desc": "Junte vários ficheiros PDF num único documento, online e gratuito.",
+      "desc": "Junte vários ficheiros PDF num único documento, online.",
       "long": "Largue dois ou mais ficheiros PDF, arraste-os para a ordem que quiser e descarregue um único documento fundido. A fusão acontece no seu dispositivo, pelo que mesmo contratos confidenciais nunca saem do seu computador.",
       "faq1q": "Existe algum limite de tamanho ou de número de ficheiros?",
       "faq1a": "Não. Como a fusão corre no seu navegador, o único limite é a memória do seu dispositivo — ficheiros de centenas de megabytes funcionam bem num portátil normal.",
@@ -278,7 +282,7 @@
     },
     "qr-generator": {
       "name": "Gerar Código QR",
-      "desc": "Gere códigos QR gratuitos para links, texto e Wi-Fi.",
+      "desc": "Gere códigos QR para links, texto e Wi-Fi.",
       "long": "Escreva qualquer texto ou URL e descarregue um código QR PNG de alta resolução. Sem registo, sem códigos que expiram, sem marca de água.",
       "faq1q": "Estes códigos QR expiram?",
       "faq1a": "Nunca. O código é gerado diretamente a partir do seu texto — não há serviço de encurtamento nem servidor que possa deixar de funcionar.",
@@ -845,7 +849,7 @@
     },
     "invoice-generator": {
       "name": "Criar Fatura",
-      "desc": "Crie faturas gratuitas, profissionais e prontas a imprimir.",
+      "desc": "Crie faturas profissionais, elegantes e prontas a imprimir.",
       "long": "Preencha os dados da sua empresa e do cliente, adicione as linhas de itens e descarregue uma fatura PDF polida — gerada inteiramente no seu dispositivo. Como o texto em árabe precisa de uma formação correta de letras que os tipos de letra de PDF não conseguem fazer diretamente, a fatura é primeiro processada pixel a pixel no seu navegador e depois gravada como página PDF.",
       "faq1q": "O texto da fatura é selecionável no PDF?",
       "faq1a": "Não — para processar texto em árabe, inglês e espanhol corretamente e de forma consistente, a fatura é desenhada como uma imagem nítida e incorporada na página PDF. Imprime e apresenta-se perfeitamente, mas o texto em si não é selecionável.",
@@ -1088,7 +1092,7 @@
     }
   },
   "footer": {
-    "rights": "Ferramentas de ficheiros gratuitas no navegador. Os seus ficheiros nunca saem do seu dispositivo.",
+    "rights": "Uma caixa de ferramentas privada que funciona no navegador. Os seus ficheiros nunca saem do seu dispositivo.",
     "madeBy": "Criado pela hoursmedia",
     "toolsCol": "Ferramentas",
     "popularCol": "Ferramentas populares",
@@ -1102,21 +1106,33 @@
     "about": {
       "title": "Sobre a ChooseTools",
       "body": [
-        "A ChooseTools é uma coleção de ferramentas de ficheiros gratuitas que funcionam inteiramente dentro do seu navegador. Ao contrário dos sites de ferramentas tradicionais, nunca recebemos os seus ficheiros: fundir um PDF, comprimir uma fotografia ou gerar um código QR acontece tudo localmente no seu próprio dispositivo.",
-        "Esta arquitetura tem três consequências de que nos orgulhamos. Primeiro, privacidade — um ficheiro que nunca é transmitido nunca pode ser vazado, registado ou retido. Segundo, velocidade — não há tempo de envio nem de descarga, por isso até ficheiros grandes são processados instantaneamente. Terceiro, honestidade — como o processamento não nos custa nada, podemos oferecer utilização verdadeiramente ilimitada, sem limites de tamanho de ficheiro, quotas diárias ou marcas de água.",
-        "A plataforma está disponível em 11 línguas, com cada explicação escrita de forma nativa e não por tradução automática. As nossas ferramentas exclusivas em árabe — como a remoção de tashkeel, a conversão de datas hijri e o tafqit — são construídas especificamente para utilizadores árabes, não adaptadas de ferramentas em inglês.",
-        "A ChooseTools é construída e mantida pela hoursmedia. Novas ferramentas são adicionadas regularmente; se sentir falta de alguma, adoraríamos ouvir a sua sugestão.",
-        "E como tudo roda no seu dispositivo, a ChooseTools também é gentil com o planeta. Não hospedamos servidores pesados nem armazenamos nada, então cada visita consome uma fração da energia que um site de ferramentas baseado em servidores usaria — e cada ferramenta que você usa localmente ajuda a manter as emissões baixas. Acreditamos que o software deve alcançar mais consumindo menos, e convidamos você a retribuir conosco: plante árvores, cave poços e cuide de órfãos no mundo todo através das causas da nossa página de doações."
+        "A ChooseTools é um conjunto de ferramentas de ficheiros que funcionam inteiramente dentro do seu navegador. Fundir um PDF, comprimir uma fotografia ou gerar um código QR acontece no seu dispositivo — os seus ficheiros nunca são enviados para lado nenhum.",
+        "## O que isso significa para si",
+        "- Privacidade. Um ficheiro que nunca é transmitido nunca pode ser vazado, registado ou retido.",
+        "- Velocidade. Sem tempo de envio nem de descarga — até ficheiros grandes são processados instantaneamente.",
+        "- Sem limites escondidos. Sem limites de tamanho, sem quotas diárias, sem marcas de água que o empurrem para um plano pago.",
+        "## Idiomas",
+        "A plataforma está disponível em 11 línguas, e todas as explicações são escritas por pessoas, não por tradução automática. As ferramentas exclusivas do árabe — como a remoção de tashkeel, a conversão de datas hijri e o tafqit — são construídas para utilizadores árabes, não adaptadas do inglês.",
+        "## Quem está por trás",
+        "A ChooseTools é construída e mantida pela hoursmedia. Novas ferramentas são lançadas regularmente; se sentir falta de alguma, adoraríamos ouvir a sua sugestão.",
+        "## Retribuir",
+        "Manter este projeto exige tempo e recursos reais. Se ele o ajudou, considere apoiar as causas da nossa página de doações: plante árvores, leve água limpa às comunidades e cuide de órfãos em todo o mundo."
       ]
     },
     "contact": {
       "title": "Contacto",
-      "body": [
-        "Tem uma pergunta, encontrou um erro ou quer sugerir uma nova ferramenta? Lemos todas as mensagens.",
-        "Envie-nos um e-mail para: contact@choosetools.com.",
-        "Como todo o processamento acontece no seu navegador, não conseguimos ver nem recuperar qualquer ficheiro em que tenha trabalhado — para problemas específicos de ficheiros, descreva por favor o tipo de ficheiro e os passos que levaram ao problema.",
-        "A ChooseTools é operada pela hoursmedia, nos Países Baixos."
-      ]
+      "intro": "Tem uma pergunta, encontrou um erro ou quer sugerir uma nova ferramenta? Lemos todas as mensagens.",
+      "metaDescription": "Contacte a equipa ChooseTools para perguntas, relatos de erros e sugestões de ferramentas.",
+      "emailTitle": "Envie-nos um e-mail",
+      "emailDesc": "Escreva-nos quando quiser. Respondemos a todas as mensagens, normalmente em um ou dois dias úteis.",
+      "emailAddress": "contact@choosetools.com",
+      "emailBtn": "Abrir o aplicativo de e-mail",
+      "responseTitle": "Tempo de resposta",
+      "responseDesc": "Normalmente um ou dois dias úteis.",
+      "operatorTitle": "Operado por",
+      "operatorDesc": "ChooseTools é operado pela hoursmedia, nos Países Baixos.",
+      "filesTitle": "Sobre os seus ficheiros",
+      "filesDesc": "Como todo o processamento acontece no seu navegador, não podemos ver nem recuperar qualquer ficheiro em que trabalhou. Para problemas específicos de ficheiros, descreva o tipo de ficheiro e os passos que levaram ao problema."
     },
     "privacy": {
       "title": "Política de Privacidade",
@@ -1135,7 +1151,7 @@
       "title": "Termos de Serviço",
       "body": [
         "Última atualização: julho de 2026. Ao utilizar a ChooseTools, aceita estes termos.",
-        "O serviço. A ChooseTools fornece utilitários de ficheiros gratuitos baseados no navegador. Todo o processamento acontece no seu dispositivo; nunca recebemos os seus ficheiros e, por isso, não temos capacidade de os aceder, restaurar ou criar cópias de segurança.",
+        "O serviço. A ChooseTools fornece utilitários de ficheiros baseados no navegador. Todo o processamento acontece no seu dispositivo; nunca recebemos os seus ficheiros e, por isso, não temos capacidade de os aceder, restaurar ou criar cópias de segurança.",
         "Utilização aceite. Pode utilizar as ferramentas para qualquer finalidade lícita, pessoal ou comercial. Não pode tentar perturbar o serviço, fazer scraping em volume abusivo ou usá-lo para processar material sobre o qual não tenha direito de processar.",
         "Sem garantia. As ferramentas são fornecidas “como estão”, sem qualquer tipo de garantia. Embora testemos cuidadosamente cada ferramenta, é da sua responsabilidade verificar os resultados antes de confiar neles — guarde sempre os seus ficheiros originais.",
         "Limitação de responsabilidade. Na máxima extensão permitida por lei, a hoursmedia não é responsável por quaisquer danos decorrentes da utilização deste site, incluindo perda de dados. Como os seus ficheiros originais nunca saem do seu dispositivo e nunca são modificados por nós, os seus originais permanecem sempre na sua posse.",
@@ -1146,7 +1162,7 @@
     "donate": {
       "title": "Doar",
       "intro": [
-        "ChooseTools é gratuito e sempre será. Mas você pode se juntar a nós para retribuir: plantar árvores, levar água limpa às comunidades e cuidar de órfãos em todo o mundo.",
+        "ChooseTools é para todos e sempre será. Mas você pode se juntar a nós para retribuir: plantar árvores, levar água limpa às comunidades e cuidar de órfãos em todo o mundo.",
         "Cada causa abaixo é uma organização global confiável. Sua doação vai diretamente para elas — a ChooseTools nunca toca no seu dinheiro e não fica com nada."
       ],
       "trustNote": "A ChooseTools não é intermediária e não cobra taxas. As doações vão 100% diretamente para as organizações listadas aqui.",
@@ -1193,7 +1209,7 @@
       "donateBtn": "Doar",
       "support": {
         "title": "Apoie a ChooseTools",
-        "desc": "Manter esta plataforma gratuita custa recursos reais e cada ferramenta é construída com cuidado. Se a ChooseTools poupou o seu tempo, você pode apoiar o seu desenvolvimento com qualquer valor.",
+        "desc": "Manter esta plataforma a funcionar custa recursos reais e cada ferramenta é construída com cuidado. Se a ChooseTools poupou o seu tempo, você pode apoiar o seu desenvolvimento com qualquer valor.",
         "btn": "Apoie a ChooseTools",
         "via": "Os pagamentos são processados com segurança pelo nosso provedor de pagamentos."
       }
@@ -1221,20 +1237,20 @@
     }
   },
   "blog": {
-    "metaTitle": "Blog de Ferramentas - Guias, Tutoriais e Artigos de Como Fazer para Ferramentas de Arquivos Gratuitas",
-    "metaDescription": "Explore o blog da ChooseTools para guias, tutoriais e artigos práticos sobre cada ferramenta de arquivos gratuita: ferramentas de PDF, de imagem e de texto que funcionam no seu navegador.",
+    "metaTitle": "Blog de Ferramentas - Guias, Tutoriais e Artigos de Como Fazer para Ferramentas de Arquivos",
+    "metaDescription": "Explore o blog da ChooseTools para guias, tutoriais e artigos práticos sobre cada ferramenta de arquivos: ferramentas de PDF, de imagem e de texto que funcionam no seu navegador.",
     "indexTitle": "Blog de ferramentas",
-    "indexIntro": "Guias de especialistas, tutoriais práticos e guias rápidos para cada aplicativo da ChooseTools. Cada artigo explica a ferramenta passo a passo e fornece um link direto para a ferramenta gratuita.",
+    "indexIntro": "Guias de especialistas, tutoriais práticos e guias rápidos para cada aplicativo da ChooseTools. Cada artigo explica a ferramenta passo a passo e fornece um link direto para a ferramenta.",
     "countArticles": "artigos e crescendo",
     "readingTime": "Leitura de {minutes} min",
     "lastUpdated": "Atualizado em set. 2026",
     "tocTitle": "Neste artigo",
     "faqTitle": "Perguntas frequentes",
     "relatedTitle": "Ferramentas relacionadas",
-    "relatedHint": "Ferramenta on-line gratuita",
+    "relatedHint": "Ferramenta on-line",
     "ctaTitle": "Pronto para usar {name}?",
     "openTool": "Abrir ferramenta",
-    "privacyNote": "Grátis · sem cadastro · os arquivos nunca saem do seu dispositivo",
+    "privacyNote": "Sem cadastro · os arquivos nunca saem do seu dispositivo",
     "backToBlog": "Voltar para todos os artigos"
   },
   "common": {

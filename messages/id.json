@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "ChooseTools — Alat file online gratis yang tidak pernah mengunggah file Anda",
+    "title": "ChooseTools — Alat file online yang tidak pernah mengunggah file Anda",
     "description": "Gabungkan, kompres, dan ubah PDF serta gambar langsung di browser. Tanpa unggah, tanpa batas, tanpa menunggu. File Anda tidak pernah meninggalkan perangkat Anda."
   },
   "nav": {
@@ -19,7 +19,11 @@
   },
   "home": {
     "heroTitle": "Semua alat file online. Nol unggahan.",
-    "heroSub": "Semuanya berjalan di dalam browser Anda. File Anda tidak pernah meninggalkan perangkat — tanpa batas ukuran, tanpa batas harian, dan tanpa menunggu unggahan.",
+    "heroSub": [
+      "Tujuan kami adalah kotak peralatan yang lengkap dan terbuka untuk file harian Anda.",
+      "Visi kami adalah web tempat file Anda tidak pernah harus meninggalkan perangkat Anda.",
+      "Privasi dan kecepatan secara bawaan."
+    ],
     "search": "Cari alat… (mis. gabungkan PDF)",
     "noResults": "Tidak ada alat yang cocok dengan pencarian Anda.",
     "whyTitle": "Mengapa ChooseTools?",
@@ -278,7 +282,7 @@
     },
     "qr-generator": {
       "name": "Buat QR Code",
-      "desc": "Buat kode QR gratis untuk link, teks, dan Wi-Fi secara online.",
+      "desc": "Buat kode QR untuk link, teks, dan Wi-Fi secara online.",
       "long": "Ketik teks atau URL apa pun dan unduh kode QR PNG resolusi tinggi. Tanpa pendaftaran, tanpa kode yang kedaluwarsa, tanpa tanda air.",
       "faq1q": "Apakah kode QR ini kedaluwarsa?",
       "faq1a": "Tidak. Kode dihasilkan langsung dari teks Anda — tidak ada layanan perpendek atau server yang bisa mati.",
@@ -845,7 +849,7 @@
     },
     "invoice-generator": {
       "name": "Buat Invoice",
-      "desc": "Buat invoice gratis, profesional, dan siap cetak secara online.",
+      "desc": "Buat invoice profesional, rapi, dan siap cetak secara online.",
       "long": "Isi detail perusahaan dan klien Anda, tambahkan item baris, dan unduh faktur PDF yang apik — dihasilkan sepenuhnya di perangkat Anda. Karena teks Arab memerlukan pembentukan huruf yang tepat yang tidak dapat dilakukan font PDF secara langsung, faktur dirender piksel-sempurna di peramban Anda terlebih dahulu, lalu disimpan sebagai halaman PDF.",
       "faq1q": "Apakah teks faktur dapat dipilih di PDF?",
       "faq1a": "Tidak — untuk merender teks Arab, Inggris, dan Spanyol dengan benar dan konsisten, faktur digambar sebagai gambar yang tajam dan disematkan di halaman PDF. Ini mencetak dan menampilkan dengan sempurna, tetapi teksnya sendiri tidak dapat dipilih.",
@@ -1088,7 +1092,7 @@
     }
   },
   "footer": {
-    "rights": "Alat berkas gratis berbasis peramban. Berkas Anda tidak pernah meninggalkan perangkat Anda.",
+    "rights": "Kotak peralatan privat yang berjalan di peramban. File Anda tidak pernah meninggalkan perangkat Anda.",
     "madeBy": "Dibuat oleh hoursmedia",
     "toolsCol": "Alat",
     "popularCol": "Alat populer",
@@ -1102,21 +1106,33 @@
     "about": {
       "title": "Tentang ChooseTools",
       "body": [
-        "ChooseTools adalah kumpulan alat berkas gratis yang berjalan sepenuhnya di dalam peramban Anda. Tidak seperti situs alat tradisional, kami tidak pernah menerima berkas Anda: menggabungkan PDF, mengompres foto, atau membuat kode QR semuanya terjadi secara lokal di perangkat Anda sendiri.",
-        "Arsitektur ini memiliki tiga konsekuensi yang kami banggakan. Pertama, privasi — berkas yang tidak pernah dikirim tidak akan pernah bisa bocor, dicatat, atau disimpan. Kedua, kecepatan — tidak ada waktu unggah atau unduh, sehingga berkas besar pun diproses secara instan. Ketiga, kejujuran — karena pemrosesan tidak mengeluarkan biaya bagi kami, kami dapat menawarkan penggunaan yang benar-benar tanpa batas tanpa batas ukuran berkas, kuota harian, atau tanda air.",
-        "Platform ini tersedia dalam 11 bahasa, dan setiap penjelasan ditulis secara asli, bukan hasil terjemahan mesin. Beberapa alat eksklusif kami — seperti penghapusan tashkeel, konversi tanggal Hijriah, dan tafqit — dibuat khusus untuk pengguna Arab, tidak diadaptasi dari alat berbahasa Inggris.",
-        "ChooseTools dibangun dan dikelola oleh hoursmedia. Alat baru ditambahkan secara rutin; jika ada yang Anda rasa kurang, kami akan senang mendengar kabar dari Anda.",
-        "Dan karena semuanya berjalan di perangkat Anda, ChooseTools juga ramah bagi planet. Kami tidak menghosting server yang berat dan tidak menyimpan apa pun, jadi setiap kunjungan memakai sebagian kecil energi yang akan digunakan situs alat berbasis server — dan setiap alat yang Anda gunakan secara lokal membantu menjaga emisi tetap rendah. Kami percaya perangkat lunak harus mencapai lebih banyak dengan konsumsi lebih sedikit, dan kami mengundang Anda memberi kembali bersama kami: tanam pohon, gali sumur, dan rawat anak yatim di seluruh dunia melalui sebab-sebab di halaman donasi kami."
+        "ChooseTools adalah kumpulan alat berkas yang berjalan sepenuhnya di dalam peramban Anda. Menggabungkan PDF, mengompres foto, atau membuat kode QR semuanya terjadi di perangkat Anda — berkas Anda tidak pernah diunggah ke mana pun.",
+        "## Artinya bagi Anda",
+        "- Privasi. Berkas yang tidak pernah dikirim tidak akan pernah bisa bocor, dicatat, atau disimpan.",
+        "- Kecepatan. Tidak ada waktu unggah atau unduh — bahkan berkas besar pun diproses secara instan.",
+        "- Tanpa batasan tersembunyi. Tanpa batas ukuran, tanpa kuota harian, tanpa tanda air yang mendorong Anda ke paket berbayar.",
+        "## Bahasa",
+        "Platform ini tersedia dalam 11 bahasa, dan setiap penjelasan ditulis oleh manusia, bukan terjemahan mesin. Alat khusus bahasa Arab — seperti penghapusan tashkeel, konversi tanggal Hijriah, dan tafqit — dibuat untuk pengguna Arab, bukan diadaptasi dari bahasa Inggris.",
+        "## Siapa di baliknya",
+        "ChooseTools dibangun dan dikelola oleh hoursmedia. Alat baru dirilis secara rutin; jika ada yang Anda rasa kurang, kami akan senang mendengarnya.",
+        "## Beri kembali",
+        "Menjalankan proyek ini membutuhkan waktu dan sumber daya nyata. Jika ini membantu Anda, pertimbangkan untuk mendukung sebab-sebab di halaman donasi kami: tanam pohon, bawa air bersih ke komunitas, dan rawat anak yatim di seluruh dunia."
       ]
     },
     "contact": {
-      "title": "Kontak",
-      "body": [
-        "Punya pertanyaan, menemukan bug, atau ingin menyarankan alat baru? Kami membaca setiap pesan.",
-        "Email kami di: contact@choosetools.com.",
-        "Karena semua pemrosesan terjadi di peramban Anda, kami tidak dapat melihat atau memulihkan berkas apa pun yang Anda kerjakan — untuk masalah khusus berkas, mohon jelaskan jenis berkas dan langkah-langkah yang mengarah ke masalah tersebut.",
-        "ChooseTools dioperasikan oleh hoursmedia, Belanda."
-      ]
+      "title": "Hubungi Kami",
+      "intro": "Punya pertanyaan, menemukan bug, atau ingin menyarankan alat baru? Kami membaca setiap pesan.",
+      "metaDescription": "Hubungi tim ChooseTools untuk pertanyaan, laporan bug, dan saran alat.",
+      "emailTitle": "Kirim email kepada kami",
+      "emailDesc": "Tulis kepada kami kapan saja. Kami membalas setiap pesan, biasanya dalam satu atau dua hari kerja.",
+      "emailAddress": "contact@choosetools.com",
+      "emailBtn": "Buka aplikasi email",
+      "responseTitle": "Waktu respons",
+      "responseDesc": "Biasanya satu atau dua hari kerja.",
+      "operatorTitle": "Dikelola oleh",
+      "operatorDesc": "ChooseTools dikelola oleh hoursmedia, Belanda.",
+      "filesTitle": "Tentang file Anda",
+      "filesDesc": "Karena semua pemrosesan terjadi di peramban Anda, kami tidak dapat melihat atau memulihkan file apa pun yang Anda kerjakan. Untuk masalah khusus file, jelaskan jenis file dan langkah-langkah yang menyebabkan masalah tersebut."
     },
     "privacy": {
       "title": "Kebijakan Privasi",
@@ -1135,7 +1151,7 @@
       "title": "Ketentuan Layanan",
       "body": [
         "Terakhir diperbarui: Juli 2026. Dengan menggunakan ChooseTools, Anda menyetujui ketentuan ini.",
-        "Layanan. ChooseTools menyediakan utilitas berkas gratis berbasis peramban. Semua pemrosesan terjadi di perangkat Anda; kami tidak pernah menerima berkas Anda dan karena itu tidak memiliki kemampuan untuk mengakses, memulihkan, atau mencadangkannya.",
+        "Layanan. ChooseTools menyediakan utilitas berkas berbasis peramban. Semua pemrosesan terjadi di perangkat Anda; kami tidak pernah menerima berkas Anda dan karena itu tidak memiliki kemampuan untuk mengakses, memulihkan, atau mencadangkannya.",
         "Penggunaan yang dapat diterima. Anda dapat menggunakan alat ini untuk tujuan apa pun yang sah, pribadi atau komersial. Anda tidak boleh mencoba mengganggu layanan, mengeruknya dengan volume yang berlebihan, atau menggunakannya untuk memproses materi yang tidak berhak Anda proses.",
         "Tanpa jaminan. Alat-alat ini disediakan 'sebagaimana adanya', tanpa jaminan dalam bentuk apa pun. Meskipun kami menguji setiap alat secara cermat, Anda bertanggung jawab untuk memverifikasi hasil sebelum mengandalkannya — selalu simpan berkas asli Anda.",
         "Batasan tanggung jawab. Sejauh yang diizinkan oleh hukum, hoursmedia tidak bertanggung jawab atas kerusakan apa pun yang timbul dari penggunaan situs ini, termasuk kehilangan data. Karena berkas asli Anda tidak pernah meninggalkan perangkat Anda dan tidak pernah dimodifikasi oleh kami, berkas asli Anda selalu tetap berada dalam kepemilikan Anda.",
@@ -1146,7 +1162,7 @@
     "donate": {
       "title": "Donasi",
       "intro": [
-        "ChooseTools gratis dan akan selalu begitu. Tapi Anda bisa bergabung memberi kembali: menanam pohon, membawa air bersih ke komunitas, dan merawat anak yatim di seluruh dunia.",
+        "ChooseTools untuk semua orang dan akan selalu begitu. Tapi Anda bisa bergabung memberi kembali: menanam pohon, membawa air bersih ke komunitas, dan merawat anak yatim di seluruh dunia.",
         "Setiap sebab di bawah adalah organisasi global terpercaya. Donasi Anda langsung sampai ke mereka — ChooseTools tidak pernah menyentuh uang Anda dan tidak mengambil apa pun darinya."
       ],
       "trustNote": "ChooseTools bukan perantara dan tidak memungut biaya. Donasi 100% langsung ke organisasi yang tercantum di sini.",
@@ -1193,7 +1209,7 @@
       "donateBtn": "Donasi",
       "support": {
         "title": "Dukung ChooseTools",
-        "desc": "Menjaga platform ini gratis membutuhkan sumber daya nyata dan setiap alat dibangun dengan cermat. Jika ChooseTools menghemat waktu Anda, Anda dapat mendukung pengembangannya dengan jumlah berapa pun.",
+        "desc": "Menjaga platform ini tetap berjalan membutuhkan sumber daya nyata dan setiap alat dibangun dengan cermat. Jika ChooseTools menghemat waktu Anda, Anda dapat mendukung pengembangannya dengan jumlah berapa pun.",
         "btn": "Dukung ChooseTools",
         "via": "Pembayaran diproses dengan aman oleh penyedia pembayaran kami."
       }
@@ -1221,20 +1237,20 @@
     }
   },
   "blog": {
-    "metaTitle": "Blog Tools - Panduan, Tutorial, dan Artikel Cara Kerja untuk Alat File Gratis",
-    "metaDescription": "Jelajahi blog ChooseTools untuk panduan mendalam, tutorial, dan artikel praktis tentang setiap alat file gratis: alat PDF, gambar, dan teks yang berjalan di browser Anda.",
+    "metaTitle": "Blog Tools - Panduan, Tutorial, dan Artikel Cara Kerja untuk Alat File",
+    "metaDescription": "Jelajahi blog ChooseTools untuk panduan mendalam, tutorial, dan artikel praktis tentang setiap alat file: alat PDF, gambar, dan teks yang berjalan di browser Anda.",
     "indexTitle": "Blog Tools",
-    "indexIntro": "Panduan ahli, tutorial praktis, dan cara cepat untuk setiap aplikasi ChooseTools. Setiap artikel menjelaskan alat langkah demi langkah dan menautkan langsung ke alat gratisnya.",
+    "indexIntro": "Panduan ahli, tutorial praktis, dan cara cepat untuk setiap aplikasi ChooseTools. Setiap artikel menjelaskan alat langkah demi langkah dan menautkan langsung ke alatnya.",
     "countArticles": "artikel dan terus bertambah",
     "readingTime": "{minutes} menit baca",
     "lastUpdated": "Diperbarui Sep 2026",
     "tocTitle": "Dalam artikel ini",
     "faqTitle": "Pertanyaan yang sering diajukan",
     "relatedTitle": "Alat terkait",
-    "relatedHint": "Alat online gratis",
+    "relatedHint": "Alat online",
     "ctaTitle": "Siap menggunakan {name}?",
     "openTool": "Buka alat",
-    "privacyNote": "Gratis · tanpa daftar · file tidak pernah meninggalkan perangkat Anda",
+    "privacyNote": "Tanpa daftar · file tidak pernah meninggalkan perangkat Anda",
     "backToBlog": "Kembali ke semua artikel"
   },
   "common": {
