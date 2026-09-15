@@ -44,22 +44,22 @@ function HomeContent() {
     <div className="mx-auto max-w-6xl px-4 py-8">
       <Hero />
 
-      <section className="mt-20" aria-label={t("impactTitle")}>
-        <h2 className="text-center text-2xl font-bold tracking-tight text-ink">{t("impactTitle")}</h2>
-        <div className="mt-6 grid gap-6 sm:grid-cols-3">
+      <section className="mt-16" aria-label={t("impactTitle")}>
+        <h2 className="text-center text-xl font-bold tracking-tight text-ink">{t("impactTitle")}</h2>
+        <div className="mt-4 grid gap-4 sm:grid-cols-3">
           {(["1", "2", "3"] as const).map((n) => (
-            <div key={n} className="rounded-card border border-line bg-surface p-6 text-center">
-              <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-100 text-brand-700">
+            <div key={n} className="rounded-card border border-line bg-surface p-3 text-center">
+              <span className="inline-flex h-7 w-7 items-center justify-center rounded-lg bg-brand-100 text-brand-700">
                 {n === "1" && <TreeIcon />}
                 {n === "2" && <DropletIcon />}
                 {n === "3" && <HandHeartIcon />}
               </span>
-              <p className="mt-4 font-mono text-4xl font-bold leading-none tracking-tight text-brand-600">
+              <p className="mt-2 font-mono text-lg font-bold leading-none tracking-tight text-brand-600">
                 {t(`impact${n}n`)}
-                <span className="ms-2 block font-sans text-sm font-semibold text-ink">{t(`impact${n}u`)}</span>
+                <span className="ms-1 block text-[11px] font-semibold text-ink">{t(`impact${n}u`)}</span>
               </p>
-              <h3 className="mt-4 font-semibold text-ink">{t(`impact${n}t`)}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-ink-soft">{t(`impact${n}d`)}</p>
+              <h3 className="mt-1.5 text-[13px] font-semibold text-ink">{t(`impact${n}t`)}</h3>
+              <p className="mt-1 text-xs leading-snug text-ink-soft">{t(`impact${n}d`)}</p>
             </div>
           ))}
         </div>
@@ -90,15 +90,15 @@ function HomeContent() {
 }
 
 function TreeIcon() {
-  return <TreePine className="h-6 w-6" />;
+  return <TreePine className="h-4 w-4" />;
 }
 
 function DropletIcon() {
-  return <Droplets className="h-6 w-6" />;
+  return <Droplets className="h-4 w-4" />;
 }
 
 function HandHeartIcon() {
-  return <HandHeart className="h-6 w-6" />;
+  return <HandHeart className="h-4 w-4" />;
 }
 
 function ShieldIcon() {
