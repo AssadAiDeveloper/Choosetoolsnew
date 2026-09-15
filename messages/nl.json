@@ -18,11 +18,11 @@
     "blog": "Blog"
   },
   "home": {
-    "heroTitle": "Elke bestandstool. Nul uploads.",
+    "heroTitle": "Privé bestandstools die teruggeven.",
     "heroSub": [
-      "Ons doel is een complete, open toolbox voor je alledaagse bestanden.",
-      "Onze visie is een web waarin je bestanden je apparaat nooit hoeven te verlaten.",
-      "Privacy en snelheid standaard."
+      "Ons doel: elke alledaagse bestandstaak in seconden klaar — volledig in je browser.",
+      "Onze visie: een web waarin je bestanden je apparaat nooit hoeven te verlaten.",
+      "Standaard privé, direct door ontwerp, en elk gebruik plant een boom, graaft een put of zorgt voor een wees."
     ],
     "search": "Zoek tools… (bijv. PDF samenvoegen)",
     "noResults": "Geen tool komt overeen met je zoekopdracht.",
@@ -32,7 +32,20 @@
     "why2t": "Echt onbeperkt",
     "why2d": "Geen limieten van 15 MB, geen “2 taken per dag”, geen watermerken. Omdat er niets op onze servers draait, kost onbeperkt gebruik ons niets — en dus ook jou niets.",
     "why3t": "Onmiddellijk door ontwerp",
-    "why3d": "Geen uploadtijd, geen wachtrij, geen downloadwachttijd. Een bestand van 100 MB begint met verwerken op het moment dat je het neerzet."
+    "why3d": "Geen uploadtijd, geen wachtrij, geen downloadwachttijd. Een bestand van 100 MB begint met verwerken op het moment dat je het neerzet.",
+    "impactTitle": "Tools die teruggeven",
+    "impact1t": "Plant een boom",
+    "impact1n": "1$",
+    "impact1u": "per dollar",
+    "impact1d": "Elke dollar plant een echte boom via onze partners.",
+    "impact2t": "Graaf een put",
+    "impact2n": "1",
+    "impact2u": "put = dorp",
+    "impact2d": "Eén put brengt schoon water naar een hele gemeenschap.",
+    "impact3t": "Steun een wees",
+    "impact3n": "1",
+    "impact3u": "sponsoring = toekomst",
+    "impact3d": "Eén sponsoring geeft een kind een thuis, onderwijs en een toekomst."
   },
   "privacy": {
     "badge": "Geüpload naar onze servers: 0 bytes",

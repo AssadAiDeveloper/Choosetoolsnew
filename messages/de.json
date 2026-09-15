@@ -18,11 +18,11 @@
     "blog": "Blog"
   },
   "home": {
-    "heroTitle": "Jedes Datei-Tool. Null Uploads.",
+    "heroTitle": "Private Datei-Tools, die etwas zurückgeben.",
     "heroSub": [
-      "Unser Ziel ist eine vollständige, offene Toolbox für Ihre alltäglichen Dateien.",
-      "Unsere Vision ist ein Web, in dem Ihre Dateien Ihr Gerät nie verlassen müssen.",
-      "Datenschutz und Geschwindigkeit standardmäßig."
+      "Unser Ziel: jede alltägliche Dateiaufgabe in Sekunden erledigt — komplett in Ihrem Browser.",
+      "Unsere Vision: ein Web, in dem Ihre Dateien Ihr Gerät nie verlassen müssen.",
+      "Standardmäßig privat, sofort durch Design, und jede Nutzung pflanzt einen Baum, gräbt einen Brunnen oder kümmert sich um ein Waisenkind."
     ],
     "search": "Tools suchen… (z. B. PDF zusammenführen)",
     "noResults": "Kein Tool passt zu Ihrer Suche.",
@@ -32,7 +32,20 @@
     "why2t": "Wirklich unbegrenzt",
     "why2d": "Keine 15-MB-Grenze, keine „2 Aufgaben pro Tag“, keine Wasserzeichen. Weil nichts auf unseren Servern läuft, kostet unbegrenzte Nutzung uns nichts — und Sie nichts.",
     "why3t": "Sofort von Natur aus",
-    "why3d": "Keine Upload-Zeit, keine Warteschlange, keine Download-Wartezeit. Eine 100-MB-Datei wird ab dem Moment verarbeitet, in dem Sie sie ablegen."
+    "why3d": "Keine Upload-Zeit, keine Warteschlange, keine Download-Wartezeit. Eine 100-MB-Datei wird ab dem Moment verarbeitet, in dem Sie sie ablegen.",
+    "impactTitle": "Tools, die etwas zurückgeben",
+    "impact1t": "Einen Baum pflanzen",
+    "impact1n": "1$",
+    "impact1u": "pro Dollar",
+    "impact1d": "Jeder Dollar pflanzt einen echten Baum über unsere Partner.",
+    "impact2t": "Einen Brunnen graben",
+    "impact2n": "1",
+    "impact2u": "Brunnen = Dorf",
+    "impact2d": "Ein Brunnen bringt sauberes Wasser in eine ganze Gemeinde.",
+    "impact3t": "Ein Waisenkind unterstützen",
+    "impact3n": "1",
+    "impact3u": "Sponsoring = Zukunft",
+    "impact3d": "Ein Sponsoring gibt einem Kind ein Zuhause, Bildung und eine Zukunft."
   },
   "privacy": {
     "badge": "Auf unsere Server hochgeladen: 0 Bytes",

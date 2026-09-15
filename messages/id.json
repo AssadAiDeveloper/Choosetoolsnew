@@ -18,11 +18,11 @@
     "blog": "Blog"
   },
   "home": {
-    "heroTitle": "Semua alat file online. Nol unggahan.",
+    "heroTitle": "Alat file privat yang memberi kembali.",
     "heroSub": [
-      "Tujuan kami adalah kotak peralatan yang lengkap dan terbuka untuk file harian Anda.",
-      "Visi kami adalah web tempat file Anda tidak pernah harus meninggalkan perangkat Anda.",
-      "Privasi dan kecepatan secara bawaan."
+      "Tujuan kami: setiap tugas file sehari-hari selesai dalam hitungan detik — sepenuhnya di peramban Anda.",
+      "Visi kami: web tempat file Anda tidak pernah harus meninggalkan perangkat Anda.",
+      "Privat secara bawaan, instan secara desain, dan setiap pemakaian menanam pohon, menggali sumur, atau merawat anak yatim."
     ],
     "search": "Cari alat… (mis. gabungkan PDF)",
     "noResults": "Tidak ada alat yang cocok dengan pencarian Anda.",
@@ -32,7 +32,20 @@
     "why2t": "Benar-benar tanpa batas",
     "why2d": "Tanpa batas 15 MB, tanpa '2 tugas per hari', tanpa tanda air. Karena tidak ada yang berjalan di server kami, penggunaan tanpa batas tidak mengeluarkan biaya bagi kami — jadi tidak mengeluarkan biaya bagi Anda.",
     "why3t": "Instan sejak dirancang",
-    "why3d": "Tanpa waktu unggah, tanpa antrean, tanpa menunggu unduhan. Berkas 100 MB mulai diproses begitu Anda menaruhnya."
+    "why3d": "Tanpa waktu unggah, tanpa antrean, tanpa menunggu unduhan. Berkas 100 MB mulai diproses begitu Anda menaruhnya.",
+    "impactTitle": "Alat yang memberi kembali",
+    "impact1t": "Tanam pohon",
+    "impact1n": "1$",
+    "impact1u": "per dolar",
+    "impact1d": "Setiap dolar menanam satu pohon nyata melalui mitra kami.",
+    "impact2t": "Gali sumur",
+    "impact2n": "1",
+    "impact2u": "sumur = desa",
+    "impact2d": "Satu sumur membawa air bersih ke seluruh komunitas.",
+    "impact3t": "Bantu anak yatim",
+    "impact3n": "1",
+    "impact3u": "sponsor = masa depan",
+    "impact3d": "Satu sponsor memberi anak rumah, pendidikan, dan masa depan."
   },
   "privacy": {
     "badge": "Diunggah ke server kami: 0 byte",

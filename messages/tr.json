@@ -18,11 +18,11 @@
     "blog": "Blog"
   },
   "home": {
-    "heroTitle": "Her dosya aracı. Sıfır yükleme.",
+    "heroTitle": "Karşılığını veren özel dosya araçları.",
     "heroSub": [
-      "Amacımız, günlük dosyalarınız için eksiksiz ve açık bir araç kutusudur.",
-      "Vizyonumuz, dosyalarınızın cihazınızdan asla çıkmak zorunda olmadığı bir web.",
-      "Varsayılan olarak gizlilik ve hız."
+      "Hedefimiz: günlük her dosya işi saniyeler içinde — tamamen tarayıcınızda.",
+      "Vizyonumuz: dosyalarınızın cihazınızdan asla çıkmak zorunda olmadığı bir web.",
+      "Varsayılan olarak gizli, tasarım gereği anında ve her kullanım bir ağaç diker, bir kuyu açar veya bir yetime bakar."
     ],
     "search": "Araç arayın… (ör. PDF birleştir)",
     "noResults": "Aramanızla eşleşen bir araç bulunamadı.",
@@ -32,7 +32,20 @@
     "why2t": "Gerçekten sınırsız",
     "why2d": "15 MB sınırı yok, \"günde 2 görev\" yok, filigran yok. Sunucularımızda hiçbir şey çalışmadığından, sınırsız kullanım bize hiçbir şeyinize mal olmaz — dolayısıyla size de hiçbir şeyinize mal olmaz.",
     "why3t": "Tasarım olarak anlık",
-    "why3d": "Yükleme süresi yok, kuyruk yok, indirme beklentisi yok. 100 MB'lık bir dosya, bıraktığınız anda işlemeye başlar."
+    "why3d": "Yükleme süresi yok, kuyruk yok, indirme beklentisi yok. 100 MB'lık bir dosya, bıraktığınız anda işlemeye başlar.",
+    "impactTitle": "Karşılığını veren araçlar",
+    "impact1t": "Bir ağaç dikin",
+    "impact1n": "1$",
+    "impact1u": "dolar başına",
+    "impact1d": "Her dolar, ortaklarımız aracılığıyla gerçek bir ağaç diker.",
+    "impact2t": "Bir kuyu açın",
+    "impact2n": "1",
+    "impact2u": "kuyu = köy",
+    "impact2d": "Bir kuyu, tüm bir topluluğa temiz su getirir.",
+    "impact3t": "Bir yetimi destekleyin",
+    "impact3n": "1",
+    "impact3u": "sponsorluk = gelecek",
+    "impact3d": "Bir sponsorluk bir çocuğa yuva, eğitim ve gelecek verir."
   },
   "privacy": {
     "badge": "Sunucularımıza yüklenen: 0 bayt",

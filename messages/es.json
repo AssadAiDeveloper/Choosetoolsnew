@@ -18,11 +18,11 @@
     "blog": "Blog"
   },
   "home": {
-    "heroTitle": "Todas las herramientas. Cero subidas.",
+    "heroTitle": "Herramientas de archivos privadas que devuelven el bien.",
     "heroSub": [
-      "Nuestra meta es una caja de herramientas completa y abierta para tus archivos cotidianos.",
-      "Nuestra visión es una web donde tus archivos nunca tengan que salir de tu dispositivo.",
-      "Privacidad y velocidad por defecto."
+      "Nuestra meta: cada tarea cotidiana con archivos, resuelta en segundos — por completo en tu navegador.",
+      "Nuestra visión: una web donde tus archivos nunca tengan que salir de tu dispositivo.",
+      "Privado por defecto, instantáneo por diseño, y cada uso siembra un árbol, cava un pozo o cuida de un huérfano."
     ],
     "search": "Buscar herramientas… (ej. unir PDF)",
     "noResults": "Ninguna herramienta coincide con tu búsqueda.",
@@ -32,7 +32,20 @@
     "why2t": "Ilimitado de verdad",
     "why2d": "Sin límites de 15 MB, sin «2 tareas al día», sin marcas de agua. Como nada corre en nuestros servidores, el uso ilimitado no nos cuesta nada, así que a ti tampoco.",
     "why3t": "Instantáneo por diseño",
-    "why3d": "Sin tiempo de subida, sin colas, sin esperas de descarga. Un archivo de 100 MB empieza a procesarse en el momento en que lo sueltas."
+    "why3d": "Sin tiempo de subida, sin colas, sin esperas de descarga. Un archivo de 100 MB empieza a procesarse en el momento en que lo sueltas.",
+    "impactTitle": "Herramientas que devuelven el bien",
+    "impact1t": "Planta un árbol",
+    "impact1n": "1$",
+    "impact1u": "por dólar",
+    "impact1d": "Cada dólar planta un árbol real a través de nuestros socios.",
+    "impact2t": "Cava un pozo",
+    "impact2n": "1",
+    "impact2u": "pozo = aldea",
+    "impact2d": "Un pozo lleva agua limpia a una comunidad entera.",
+    "impact3t": "Apoya a un huérfano",
+    "impact3n": "1",
+    "impact3u": "apadrinamiento = futuro",
+    "impact3d": "Un apadrinamiento da a un niño un hogar, educación y un futuro."
   },
   "privacy": {
     "badge": "Subido a nuestros servidores: 0 bytes",

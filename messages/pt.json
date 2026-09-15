@@ -18,11 +18,11 @@
     "blog": "Blog"
   },
   "home": {
-    "heroTitle": "Todas as ferramentas de ficheiros. Zero envios.",
+    "heroTitle": "Ferramentas de ficheiros privadas que retribuem.",
     "heroSub": [
-      "O nosso objetivo é uma caixa de ferramentas completa e aberta para os seus ficheiros do dia a dia.",
-      "A nossa visão é uma web onde os seus ficheiros nunca precisam de sair do seu dispositivo.",
-      "Privacidade e velocidade por defeito."
+      "O nosso objetivo: cada tarefa diária com ficheiros, resolvida em segundos — totalmente no seu navegador.",
+      "A nossa visão: uma web onde os seus ficheiros nunca precisam de sair do seu dispositivo.",
+      "Privado por defeito, instantâneo por design, e cada utilização planta uma árvore, cava um poço ou cuida de um órfão."
     ],
     "search": "Procurar ferramentas… (ex.: fundir PDF)",
     "noResults": "Nenhuma ferramenta corresponde à sua pesquisa.",
@@ -32,7 +32,20 @@
     "why2t": "Verdadeiramente ilimitado",
     "why2d": "Sem limites de 15 MB, sem “2 tarefas por dia”, sem marcas de água. Como nada corre nos nossos servidores, a utilização ilimitada não nos custa nada — por isso também não lhe custa nada.",
     "why3t": "Instantâneo por conceção",
-    "why3d": "Sem tempo de envio, sem fila de espera, sem esperas de descarga. Um ficheiro de 100 MB começa a ser processado no momento em que o larga."
+    "why3d": "Sem tempo de envio, sem fila de espera, sem esperas de descarga. Um ficheiro de 100 MB começa a ser processado no momento em que o larga.",
+    "impactTitle": "Ferramentas que retribuem",
+    "impact1t": "Plantar uma árvore",
+    "impact1n": "1$",
+    "impact1u": "por dólar",
+    "impact1d": "Cada dólar planta uma árvore real através dos nossos parceiros.",
+    "impact2t": "Cavar um poço",
+    "impact2n": "1",
+    "impact2u": "poço = aldeia",
+    "impact2d": "Um poço traz água limpa a uma comunidade inteira.",
+    "impact3t": "Apoiar um órfão",
+    "impact3n": "1",
+    "impact3u": "apadrinhamento = futuro",
+    "impact3d": "Um apadrinhamento dá a uma criança um lar, educação e um futuro."
   },
   "privacy": {
     "badge": "Enviado para os nossos servidores: 0 bytes",

@@ -18,11 +18,11 @@
     "blog": "Blog"
   },
   "home": {
-    "heroTitle": "Every file tool. Zero uploads.",
+    "heroTitle": "Private file tools that give back.",
     "heroSub": [
-      "Our goal is a complete, open toolbox for your everyday files.",
-      "Our vision is a web where your files never have to leave your device.",
-      "Private and instant by default."
+      "Our goal: every everyday file task, done in seconds — entirely in your browser.",
+      "Our vision: a web where your files never have to leave your device.",
+      "Private by default, instant by design, and each use plants a tree, digs a well or cares for an orphan."
     ],
     "search": "Search tools… (e.g. merge PDF)",
     "noResults": "No tool matches your search.",
@@ -32,7 +32,20 @@
     "why2t": "Genuinely unlimited",
     "why2d": "No 15 MB caps, no “2 tasks per day”, no watermarks. Because nothing runs on our servers, unlimited use costs us nothing — so it costs you nothing.",
     "why3t": "Instant by design",
-    "why3d": "No upload time, no queue, no download wait. A 100 MB file starts processing the moment you drop it."
+    "why3d": "No upload time, no queue, no download wait. A 100 MB file starts processing the moment you drop it.",
+    "impactTitle": "Tools that give back",
+    "impact1t": "Plant a tree",
+    "impact1n": "1$",
+    "impact1u": "per dollar",
+    "impact1d": "Every dollar plants one real tree through our partners.",
+    "impact2t": "Dig a well",
+    "impact2n": "1",
+    "impact2u": "well = village",
+    "impact2d": "One well brings clean water to an entire community.",
+    "impact3t": "Sponsor an orphan",
+    "impact3n": "1",
+    "impact3u": "sponsorship = future",
+    "impact3d": "One sponsorship gives a child a home, education and a future."
   },
   "privacy": {
     "badge": "Uploaded to our servers: 0 bytes",

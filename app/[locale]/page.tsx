@@ -1,6 +1,7 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
+import { TreePine, Droplets, HandHeart } from "lucide-react";
 import { Hero } from "@/components/Hero";
 import { HomeToolGrid } from "@/components/HomeToolGrid";
 import { routing } from "@/i18n/routing";
@@ -43,6 +44,27 @@ function HomeContent() {
     <div className="mx-auto max-w-6xl px-4 py-8">
       <Hero />
 
+      <section className="mt-20" aria-label={t("impactTitle")}>
+        <h2 className="text-center text-2xl font-bold tracking-tight text-ink">{t("impactTitle")}</h2>
+        <div className="mt-6 grid gap-6 sm:grid-cols-3">
+          {(["1", "2", "3"] as const).map((n) => (
+            <div key={n} className="rounded-card border border-line bg-surface p-6 text-center">
+              <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-100 text-brand-700">
+                {n === "1" && <TreeIcon />}
+                {n === "2" && <DropletIcon />}
+                {n === "3" && <HandHeartIcon />}
+              </span>
+              <p className="mt-4 font-mono text-4xl font-bold leading-none tracking-tight text-brand-600">
+                {t(`impact${n}n`)}
+                <span className="ms-2 block font-sans text-sm font-semibold text-ink">{t(`impact${n}u`)}</span>
+              </p>
+              <h3 className="mt-4 font-semibold text-ink">{t(`impact${n}t`)}</h3>
+              <p className="mt-2 text-sm leading-relaxed text-ink-soft">{t(`impact${n}d`)}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <div className="mt-12">
         <HomeToolGrid />
       </div>
@@ -65,6 +87,18 @@ function HomeContent() {
       </section>
     </div>
   );
+}
+
+function TreeIcon() {
+  return <TreePine className="h-6 w-6" />;
+}
+
+function DropletIcon() {
+  return <Droplets className="h-6 w-6" />;
+}
+
+function HandHeartIcon() {
+  return <HandHeart className="h-6 w-6" />;
 }
 
 function ShieldIcon() {

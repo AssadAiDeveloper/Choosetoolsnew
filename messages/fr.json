@@ -18,11 +18,11 @@
     "blog": "Blog"
   },
   "home": {
-    "heroTitle": "Tous les outils de fichiers. Zéro envoi.",
+    "heroTitle": "Des outils de fichiers privés qui rendent la pareille.",
     "heroSub": [
-      "Notre objectif est une boîte à outils complète et ouverte pour vos fichiers du quotidien.",
-      "Notre vision est un web où vos fichiers ne doivent jamais quitter votre appareil.",
-      "Confidentialité et vitesse par défaut."
+      "Notre objectif : chaque tâche de fichiers du quotidien, réglée en quelques secondes — entièrement dans votre navigateur.",
+      "Notre vision : un web où vos fichiers ne doivent jamais quitter votre appareil.",
+      "Privé par défaut, instantané par conception, et chaque utilisation plante un arbre, creuse un puits ou s'occupe d'un orphelin."
     ],
     "search": "Rechercher un outil… (ex. fusionner PDF)",
     "noResults": "Aucun outil ne correspond à votre recherche.",
@@ -32,7 +32,20 @@
     "why2t": "Vraiment illimité",
     "why2d": "Pas de limite de 15 Mo, pas de « 2 tâches par jour », pas de filigrane. Comme rien ne tourne sur nos serveurs, une utilisation illimitée ne nous coûte rien — donc ne vous coûte rien.",
     "why3t": "Instantané par conception",
-    "why3d": "Pas de temps d'envoi, pas de file d'attente, pas d'attente de téléchargement. Un fichier de 100 Mo commence à être traité dès que vous le déposez."
+    "why3d": "Pas de temps d'envoi, pas de file d'attente, pas d'attente de téléchargement. Un fichier de 100 Mo commence à être traité dès que vous le déposez.",
+    "impactTitle": "Des outils qui rendent la pareille",
+    "impact1t": "Planter un arbre",
+    "impact1n": "1$",
+    "impact1u": "par dollar",
+    "impact1d": "Chaque dollar plante un arbre réel via nos partenaires.",
+    "impact2t": "Creuser un puits",
+    "impact2n": "1",
+    "impact2u": "puits = village",
+    "impact2d": "Un puits apporte de l'eau propre à toute une communauté.",
+    "impact3t": "Parrainer un orphelin",
+    "impact3n": "1",
+    "impact3u": "parrainage = avenir",
+    "impact3d": "Un parrainage donne à un enfant un foyer, une éducation et un avenir."
   },
   "privacy": {
     "badge": "Envoyé sur nos serveurs : 0 octet",
