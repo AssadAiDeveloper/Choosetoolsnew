@@ -18,11 +18,9 @@
     "blog": "Blog"
   },
   "home": {
-    "heroTitle": "Vos fichiers restent vôtres — et chaque usage rend en retour.",
+    "heroTitle": "Accomplissez vos tâches en toute confidentialité.. et laissez une trace dans le monde.",
     "heroSub": [
-      "Notre objectif : chaque tâche de fichiers du quotidien, réglée en quelques secondes — entièrement dans votre navigateur.",
-      "Notre vision : un web où vos fichiers ne doivent jamais quitter votre appareil.",
-      "Privé par défaut, instantané par conception, et chaque utilisation plante un arbre, creuse un puits ou s'occupe d'un orphelin."
+      "Une plateforme gratuite et entièrement sécurisée pour traiter vos fichiers directement dans le navigateur. Votre utilisation des outils contribue directement à planter des arbres, creuser des puits et soutenir des orphelins."
     ],
     "search": "Rechercher un outil… (ex. fusionner PDF)",
     "noResults": "Aucun outil ne correspond à votre recherche.",
@@ -1105,7 +1103,7 @@
     }
   },
   "footer": {
-    "rights": "Une boîte à outils privée qui tourne dans le navigateur. Vos fichiers ne quittent jamais votre appareil.",
+    "rights": "Des outils rapides et sécurisés dans votre navigateur, qui protègent vos données et laissent une trace dans le monde.",
     "madeBy": "Créé par hoursmedia",
     "toolsCol": "Outils",
     "popularCol": "Outils populaires",

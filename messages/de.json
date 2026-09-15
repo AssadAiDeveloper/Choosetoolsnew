@@ -18,11 +18,9 @@
     "blog": "Blog"
   },
   "home": {
-    "heroTitle": "Ihre Dateien bleiben bei Ihnen — und jede Nutzung gibt zurück.",
+    "heroTitle": "Erledigen Sie Ihre Aufgaben privat.. und hinterlassen Sie Spuren in der Welt.",
     "heroSub": [
-      "Unser Ziel: jede alltägliche Dateiaufgabe in Sekunden erledigt — komplett in Ihrem Browser.",
-      "Unsere Vision: ein Web, in dem Ihre Dateien Ihr Gerät nie verlassen müssen.",
-      "Standardmäßig privat, sofort durch Design, und jede Nutzung pflanzt einen Baum, gräbt einen Brunnen oder kümmert sich um ein Waisenkind."
+      "Eine völlig sichere, kostenlose Plattform zur Verarbeitung Ihrer Dateien direkt im Browser. Ihre Nutzung der Tools trägt direkt dazu bei, Bäume zu pflanzen, Brunnen zu graben und Waisen zu unterstützen."
     ],
     "search": "Tools suchen… (z. B. PDF zusammenführen)",
     "noResults": "Kein Tool passt zu Ihrer Suche.",
@@ -1105,7 +1103,7 @@
     }
   },
   "footer": {
-    "rights": "Eine private Toolbox, die im Browser läuft. Ihre Dateien verlassen Ihr Gerät nie.",
+    "rights": "Schnelle, sichere Tools in Ihrem Browser, die Ihre Daten schützen und Spuren in der Welt hinterlassen.",
     "madeBy": "Erstellt von hoursmedia",
     "toolsCol": "Tools",
     "popularCol": "Beliebte Tools",

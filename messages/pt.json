@@ -18,11 +18,9 @@
     "blog": "Blog"
   },
   "home": {
-    "heroTitle": "Os seus ficheiros são seus — e cada utilização retribui.",
+    "heroTitle": "Conclua as suas tarefas com privacidade.. e deixe uma marca no mundo.",
     "heroSub": [
-      "O nosso objetivo: cada tarefa diária com ficheiros, resolvida em segundos — totalmente no seu navegador.",
-      "A nossa visão: uma web onde os seus ficheiros nunca precisam de sair do seu dispositivo.",
-      "Privado por defeito, instantâneo por design, e cada utilização planta uma árvore, cava um poço ou cuida de um órfão."
+      "Uma plataforma gratuita e totalmente segura para processar os seus ficheiros diretamente no navegador. A sua utilização das ferramentas contribui diretamente para plantar árvores, cavar poços e apoiar órfãos."
     ],
     "search": "Procurar ferramentas… (ex.: fundir PDF)",
     "noResults": "Nenhuma ferramenta corresponde à sua pesquisa.",
@@ -1105,7 +1103,7 @@
     }
   },
   "footer": {
-    "rights": "Uma caixa de ferramentas privada que funciona no navegador. Os seus ficheiros nunca saem do seu dispositivo.",
+    "rights": "Ferramentas rápidas e seguras no seu navegador, que protegem os seus dados e deixam uma marca no mundo.",
     "madeBy": "Criado pela hoursmedia",
     "toolsCol": "Ferramentas",
     "popularCol": "Ferramentas populares",

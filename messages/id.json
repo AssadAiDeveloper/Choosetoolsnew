@@ -18,11 +18,9 @@
     "blog": "Blog"
   },
   "home": {
-    "heroTitle": "File Anda tetap milik Anda — dan setiap pemakaian memberi kembali.",
+    "heroTitle": "Selesaikan tugas Anda dengan privasi.. dan buat jejak di dunia.",
     "heroSub": [
-      "Tujuan kami: setiap tugas file sehari-hari selesai dalam hitungan detik — sepenuhnya di peramban Anda.",
-      "Visi kami: web tempat file Anda tidak pernah harus meninggalkan perangkat Anda.",
-      "Privat secara bawaan, instan secara desain, dan setiap pemakaian menanam pohon, menggali sumur, atau merawat anak yatim."
+      "Platform gratis yang sepenuhnya aman untuk memproses file Anda langsung di peramban. Penggunaan alat Anda berkontribusi langsung untuk menanam pohon, menggali sumur, dan merawat anak yatim."
     ],
     "search": "Cari alat… (mis. gabungkan PDF)",
     "noResults": "Tidak ada alat yang cocok dengan pencarian Anda.",
@@ -1105,7 +1103,7 @@
     }
   },
   "footer": {
-    "rights": "Kotak peralatan privat yang berjalan di peramban. File Anda tidak pernah meninggalkan perangkat Anda.",
+    "rights": "Alat cepat dan aman di peramban Anda yang melindungi data Anda dan membuat jejak di dunia.",
     "madeBy": "Dibuat oleh hoursmedia",
     "toolsCol": "Alat",
     "popularCol": "Alat populer",

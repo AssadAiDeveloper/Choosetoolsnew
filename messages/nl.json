@@ -18,11 +18,9 @@
     "blog": "Blog"
   },
   "home": {
-    "heroTitle": "Jouw bestanden blijven van jou — en elk gebruik geeft terug.",
+    "heroTitle": "Doe je taken met privacy.. en laat een indruk in de wereld achter.",
     "heroSub": [
-      "Ons doel: elke alledaagse bestandstaak in seconden klaar — volledig in je browser.",
-      "Onze visie: een web waarin je bestanden je apparaat nooit hoeven te verlaten.",
-      "Standaard privé, direct door ontwerp, en elk gebruik plant een boom, graaft een put of zorgt voor een wees."
+      "Een volledig veilig, gratis platform om je bestanden in je browser te verwerken. Jouw gebruik van de tools draagt direct bij aan het planten van bomen, het graven van putten en de zorg voor wezen."
     ],
     "search": "Zoek tools… (bijv. PDF samenvoegen)",
     "noResults": "Geen tool komt overeen met je zoekopdracht.",
@@ -1105,7 +1103,7 @@
     }
   },
   "footer": {
-    "rights": "Een privé toolbox die in de browser draait. Je bestanden verlaten je apparaat nooit.",
+    "rights": "Snelle, veilige tools in je browser die je gegevens beschermen en een indruk in de wereld achterlaten.",
     "madeBy": "Gemaakt door hoursmedia",
     "toolsCol": "Tools",
     "popularCol": "Populaire tools",

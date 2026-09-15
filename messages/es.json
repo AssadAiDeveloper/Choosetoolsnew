@@ -18,11 +18,9 @@
     "blog": "Blog"
   },
   "home": {
-    "heroTitle": "Tus archivos son tuyos — y cada uso devuelve.",
+    "heroTitle": "Haz tus tareas con privacidad.. y deja huella en el mundo.",
     "heroSub": [
-      "Nuestra meta: cada tarea cotidiana con archivos, resuelta en segundos — por completo en tu navegador.",
-      "Nuestra visión: una web donde tus archivos nunca tengan que salir de tu dispositivo.",
-      "Privado por defecto, instantáneo por diseño, y cada uso siembra un árbol, cava un pozo o cuida de un huérfano."
+      "Una plataforma gratuita y totalmente segura para procesar tus archivos directamente en el navegador. Tu uso de las herramientas contribuye directamente a plantar árboles, cavar pozos y apoyar a huérfanos."
     ],
     "search": "Buscar herramientas… (ej. unir PDF)",
     "noResults": "Ninguna herramienta coincide con tu búsqueda.",
@@ -1105,7 +1103,7 @@
     }
   },
   "footer": {
-    "rights": "Una caja de herramientas privada que funciona en el navegador. Tus archivos nunca salen de tu dispositivo.",
+    "rights": "Herramientas rápidas y seguras en tu navegador que protegen tus datos y dejan huella en el mundo.",
     "madeBy": "Creado por hoursmedia",
     "toolsCol": "Herramientas",
     "popularCol": "Más usadas",

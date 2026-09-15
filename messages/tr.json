@@ -18,11 +18,9 @@
     "blog": "Blog"
   },
   "home": {
-    "heroTitle": "Dosyalarınız sizindir — ve her kullanım karşılığını verir.",
+    "heroTitle": "İşlerinizi gizlilikle halledin.. ve dünyada iz bırakın.",
     "heroSub": [
-      "Hedefimiz: günlük her dosya işi saniyeler içinde — tamamen tarayıcınızda.",
-      "Vizyonumuz: dosyalarınızın cihazınızdan asla çıkmak zorunda olmadığı bir web.",
-      "Varsayılan olarak gizli, tasarım gereği anında ve her kullanım bir ağaç diker, bir kuyu açar veya bir yetime bakar."
+      "Dosyalarınızı doğrudan tarayıcınızda işlemek için tamamen güvenli, ücretsiz bir platform. Araçları kullanmanız, ağaç dikmeye, kuyu açmaya ve yetimlere bakmaya doğrudan katkı sağlar."
     ],
     "search": "Araç arayın… (ör. PDF birleştir)",
     "noResults": "Aramanızla eşleşen bir araç bulunamadı.",
@@ -1105,7 +1103,7 @@
     }
   },
   "footer": {
-    "rights": "Tarayıcıda çalışan özel bir araç kutusu. Dosyalarınız asla cihazınızı terk etmez.",
+    "rights": "Tarayıcınızda verilerinizi koruyan ve dünyada iz bırakan hızlı ve güvenli araçlar.",
     "madeBy": "hoursmedia tarafından yapılmıştır",
     "toolsCol": "Araçlar",
     "popularCol": "Popüler araçlar",

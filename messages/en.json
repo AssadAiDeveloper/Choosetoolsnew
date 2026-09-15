@@ -18,11 +18,9 @@
     "blog": "Blog"
   },
   "home": {
-    "heroTitle": "Your files stay yours — and every use gives back.",
+    "heroTitle": "Get your tasks done privately — and make an impact in the world.",
     "heroSub": [
-      "Our goal: every everyday file task, done in seconds — entirely in your browser.",
-      "Our vision: a web where your files never have to leave your device.",
-      "Private by default, instant by design, and each use plants a tree, digs a well or cares for an orphan."
+      "A completely safe, free platform to process your files right in your browser. Your use of the tools directly contributes to planting trees, digging wells, and caring for orphans."
     ],
     "search": "Search tools… (e.g. merge PDF)",
     "noResults": "No tool matches your search.",
@@ -1105,7 +1103,7 @@
     }
   },
   "footer": {
-    "rights": "A private, browser-based toolbox. Your files never leave your device.",
+    "rights": "Fast, safe tools in your browser that protect your data and make an impact in the world.",
     "madeBy": "Built by hoursmedia",
     "toolsCol": "Tools",
     "popularCol": "Popular tools",
