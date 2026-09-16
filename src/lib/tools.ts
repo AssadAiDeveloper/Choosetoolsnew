@@ -1,5 +1,5 @@
 export const SITE_NAME = "ChooseTools";
-export const SITE_URL = "https://choosetoolsnew.vercel.app";
+export const SITE_URL = "https://choosetools.com";
 
 export type Category = "pdf" | "image" | "text";
 export type SubCategory =
