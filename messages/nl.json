@@ -94,7 +94,9 @@
     "generate": "Genereren",
     "length": "Lengte",
     "result": "Resultaat",
-    "savings": "kleiner"
+    "savings": "kleiner",
+    "preview": "Voorbeeld",
+    "morePages": "meer pagina's"
   },
   "cv": {
     "personal": "Persoonsgegevens",

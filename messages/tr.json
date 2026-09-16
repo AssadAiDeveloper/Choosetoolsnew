@@ -94,7 +94,9 @@
     "generate": "Oluştur",
     "length": "Uzunluk",
     "result": "Sonuç",
-    "savings": "daha küçük"
+    "savings": "daha küçük",
+    "preview": "Önizleme",
+    "morePages": "daha fazla sayfa"
   },
   "cv": {
     "personal": "Kişisel bilgiler",

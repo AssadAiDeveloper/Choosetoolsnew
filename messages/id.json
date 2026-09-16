@@ -94,7 +94,9 @@
     "generate": "Buat",
     "length": "Panjang",
     "result": "Hasil",
-    "savings": "lebih kecil"
+    "savings": "lebih kecil",
+    "preview": "Pratinjau",
+    "morePages": "halaman lainnya"
   },
   "cv": {
     "personal": "Data pribadi",

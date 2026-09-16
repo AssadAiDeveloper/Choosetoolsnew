@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Processing, ErrorBox, PrimaryButton, ResultCard } from "../ToolShell";
 import { FileDropzone } from "../FileDropzone";
 import { downloadBlob, formatBytes } from "@/lib/download";
+import { PdfPreview } from "./PdfPreview";
 
 export default function ProtectPdf() {
   const [file, setFile] = useState<File | null>(null);
@@ -32,6 +33,7 @@ export default function ProtectPdf() {
   if (stage === "done" && out)
     return (
       <ResultCard onReset={reset}>
+        <PdfPreview blob={out} />
         <p className="font-mono text-sm text-ink-soft">{formatBytes(out.size)}</p>
         <PrimaryButton className="mt-3" onClick={() => downloadBlob(out, "unlocked.pdf")}>Download</PrimaryButton>
       </ResultCard>

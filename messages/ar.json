@@ -94,7 +94,9 @@
     "generate": "توليد",
     "length": "الطول",
     "result": "النتيجة",
-    "savings": "توفير"
+    "savings": "توفير",
+    "preview": "معاينة",
+    "morePages": "صفحات إضافية"
   },
   "cv": {
     "personal": "البيانات الشخصية",

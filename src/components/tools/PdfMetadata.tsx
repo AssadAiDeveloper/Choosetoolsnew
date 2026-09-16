@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { FileDropzone } from "../FileDropzone";
 import { Processing, ErrorBox, PrimaryButton } from "../ToolShell";
 import { downloadBlob } from "@/lib/download";
+import { PdfPreview } from "./PdfPreview";
 
 const FIELDS = ["title", "author", "subject", "keywords"] as const;
 type Field = (typeof FIELDS)[number];
@@ -67,6 +68,7 @@ export default function PdfMetadata() {
     return (
       <div className="space-y-4">
         <p className="font-mono text-xs text-ink-soft">{file?.name} · {pageCount} pages</p>
+        {file && <PdfPreview blob={file} />}
         <div className="space-y-3 rounded-card border border-line bg-surface p-5">
           {FIELDS.map((field) => (
             <label key={field} className="block">

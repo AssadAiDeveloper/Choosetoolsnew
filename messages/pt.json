@@ -94,7 +94,9 @@
     "generate": "Gerar",
     "length": "Comprimento",
     "result": "Resultado",
-    "savings": "mais pequeno"
+    "savings": "mais pequeno",
+    "preview": "Pré-visualização",
+    "morePages": "mais páginas"
   },
   "cv": {
     "personal": "Dados pessoais",

@@ -94,7 +94,9 @@
     "generate": "जनरेट करें",
     "length": "लंबाई",
     "result": "परिणाम",
-    "savings": "छोटा"
+    "savings": "छोटा",
+    "preview": "पूर्वावलोकन",
+    "morePages": "और पेज"
   },
   "cv": {
     "personal": "व्यक्तिगत विवरण",

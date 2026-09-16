@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { FileDropzone } from "../FileDropzone";
 import { Processing, ErrorBox, PrimaryButton, ResultCard } from "../ToolShell";
 import { downloadBlob, formatBytes } from "@/lib/download";
+import { PdfPreview } from "./PdfPreview";
 
 interface Rect { x: number; y: number; w: number; h: number }
 
@@ -81,6 +82,7 @@ export default function PdfRedaction() {
   if (stage === "done" && out)
     return (
       <ResultCard onReset={reset}>
+        <PdfPreview blob={out} />
         <p className="font-mono text-sm text-ink-soft">{count} term(s) redacted · {formatBytes(out.size)}</p>
         <PrimaryButton className="mt-3" onClick={() => downloadBlob(out, "redacted.pdf")}>{t("download")}</PrimaryButton>
       </ResultCard>

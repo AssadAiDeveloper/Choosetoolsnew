@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { FileDropzone } from "../FileDropzone";
 import { Processing, ErrorBox, PrimaryButton, ResultCard } from "../ToolShell";
 import { downloadBlob, formatBytes } from "@/lib/download";
+import { PdfPreview } from "./PdfPreview";
 
 export type PdfProcessor = (file: File) => Promise<Blob>;
 
@@ -47,6 +48,7 @@ export function SinglePdfShell({
   if (stage === "done" && out && file)
     return (
       <ResultCard onReset={reset}>
+        <PdfPreview blob={out} />
         {resultExtra?.(file, out)}
         <p className="font-mono text-sm text-ink-soft">{formatBytes(out.size)}</p>
         <PrimaryButton className="mt-3" onClick={() => downloadBlob(out, outName)}>

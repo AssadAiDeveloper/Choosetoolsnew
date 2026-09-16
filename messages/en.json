@@ -94,7 +94,9 @@
     "generate": "Generate",
     "length": "Length",
     "result": "Result",
-    "savings": "smaller"
+    "savings": "smaller",
+    "preview": "Preview",
+    "morePages": "more pages"
   },
   "cv": {
     "personal": "Personal details",

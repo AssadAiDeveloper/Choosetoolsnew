@@ -6,6 +6,7 @@ import { FileDropzone } from "../FileDropzone";
 import { Processing, ErrorBox, PrimaryButton, ResultCard } from "../ToolShell";
 import { downloadBlob, formatBytes } from "@/lib/download";
 import { loadImage } from "@/lib/canvas";
+import { PdfPreview } from "./PdfPreview";
 
 export default function ImagesToPdf() {
   const t = useTranslations("tool");
@@ -81,6 +82,7 @@ export default function ImagesToPdf() {
   if (stage === "done" && out)
     return (
       <ResultCard onReset={reset}>
+        <PdfPreview blob={out} />
         <p className="font-mono text-sm text-ink-soft">{files.length} · {formatBytes(out.size)}</p>
         <PrimaryButton className="mt-3" onClick={() => downloadBlob(out, "images.pdf")}>{t("download")}</PrimaryButton>
       </ResultCard>

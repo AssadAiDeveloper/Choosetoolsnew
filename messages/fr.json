@@ -94,7 +94,9 @@
     "generate": "Générer",
     "length": "Longueur",
     "result": "Résultat",
-    "savings": "plus petit"
+    "savings": "plus petit",
+    "preview": "Aperçu",
+    "morePages": "pages supplémentaires"
   },
   "cv": {
     "personal": "Informations personnelles",
