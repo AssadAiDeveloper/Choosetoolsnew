@@ -11,7 +11,7 @@ const FLOATERS = [
   { label: "XLSX", top: "1rem", right: "1rem", delay: "0.5s", tint: "#0e8a6c" },
   { label: "JPG", bottom: "1rem", left: "1rem", delay: "1.1s", tint: "var(--color-cat-image)" },
   { label: "CSV", bottom: "1rem", right: "1rem", delay: "1.7s", tint: "var(--color-cat-text)" },
-  { label: "PNG", top: "45%", left: "1rem", delay: "2.2s", tint: "var(--color-cat-image)" },
+  { label: "PNG", bottom: "1rem", left: "50%", marginLeft: "-2rem", delay: "2.2s", tint: "var(--color-cat-image)" },
 ];
 
 // Decorative chips inside the mock screenshot window.
@@ -80,6 +80,7 @@ export function Hero() {
             bottom: f.bottom,
             left: f.left,
             right: f.right,
+            marginLeft: f.marginLeft,
             animationDelay: f.delay,
             color: f.tint,
             borderColor: `color-mix(in srgb, ${f.tint} 30%, transparent)`,
