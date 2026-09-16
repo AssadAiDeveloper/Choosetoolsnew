@@ -19,7 +19,7 @@ export default function WatermarkPdf() {
     pos0: "أعلى يسار", pos1: "أعلى وسط", pos2: "أعلى يمين",
     pos3: "وسط يسار", pos4: "المنتصف", pos5: "وسط يمين",
     pos6: "أسفل يسار", pos7: "أسفل وسط", pos8: "أسفل يمين",
-    sizeHint: "نسبة من عرض الصفحة",
+    sizeHint: "نسبة من عرض الصفحة", preview: "معاينة حية",
   } : {
     text: "Text watermark", image: "Image / logo watermark",
     textLabel: "Text", textPlaceholder: "e.g. CONFIDENTIAL",
@@ -29,7 +29,7 @@ export default function WatermarkPdf() {
     pos0: "Top left", pos1: "Top center", pos2: "Top right",
     pos3: "Middle left", pos4: "Center", pos5: "Middle right",
     pos6: "Bottom left", pos7: "Bottom center", pos8: "Bottom right",
-    sizeHint: "% of page width",
+    sizeHint: "% of page width", preview: "Live preview",
   }), [locale]);
 
   const [mode, setMode] = useState<Mode>("text");
@@ -55,6 +55,13 @@ export default function WatermarkPdf() {
     reader.readAsDataURL(f);
   };
 
+  const col = position % 3;
+  const row = Math.floor(position / 3);
+  const posX = col === 0 ? 5 : col === 1 ? 50 : 95;
+  const posY = row === 0 ? 5 : row === 1 ? 50 : 95;
+  const tx = col === 1 ? "-50%" : col === 2 ? "-100%" : "0";
+  const ty = row === 1 ? "-50%" : row === 2 ? "-100%" : "0";
+
   const slider = (label: string, val: number, min: number, max: number, suffix: string, set: (n: number) => void) => (
     <label className="flex flex-col gap-1 text-sm font-medium text-slate-700">
       <span className="flex items-center justify-between">
@@ -71,6 +78,50 @@ export default function WatermarkPdf() {
       outName="watermarked.pdf"
       options={
         <div className="space-y-4 rounded-card border border-slate-300 bg-surface p-4">
+          {/* Live preview */}
+          <div>
+            <span className="mb-1 block text-sm font-medium text-slate-700">{L.preview}</span>
+            <div className="relative mx-auto aspect-[210/297] w-52 select-none overflow-hidden rounded-lg border border-slate-300 bg-white shadow-inner">
+              {mode === "text" ? (
+                <span
+                  aria-hidden
+                  className="absolute max-w-[90%] overflow-hidden whitespace-nowrap font-bold"
+                  style={{
+                    top: `${posY}%`,
+                    left: `${posX}%`,
+                    transform: `translate(${tx}, ${ty}) rotate(${rotation}deg)`,
+                    transformOrigin: "center",
+                    color,
+                    opacity: opacity / 100,
+                    fontSize: `${Math.max(5, (size / 100) * 37)}px`,
+                  }}
+                >
+                  {text || " "}
+                </span>
+              ) : logo ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  aria-hidden
+                  src={logo}
+                  alt=""
+                  className="absolute object-contain"
+                  style={{
+                    top: `${posY}%`,
+                    left: `${posX}%`,
+                    transform: `translate(${tx}, ${ty}) rotate(${rotation}deg)`,
+                    transformOrigin: "center",
+                    opacity: opacity / 100,
+                    width: `${size}%`,
+                  }}
+                />
+              ) : (
+                <span className="absolute inset-0 flex items-center justify-center px-4 text-center text-xs text-slate-300">
+                  {L.imagePlaceholder}
+                </span>
+              )}
+            </div>
+          </div>
+
           {/* Text / Image toggle */}
           <div className="flex gap-2">
             {(["text", "image"] as const).map((m) => (
