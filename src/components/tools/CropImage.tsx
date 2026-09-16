@@ -19,6 +19,7 @@ export default function CropImage() {
     <SingleImageShell
       accept="image/jpeg,image/png,image/webp"
       outName={(f) => "cropped-" + f.name}
+      watch={[ratio.id]}
       options={
         <div className="flex flex-wrap gap-3 rounded-card border border-line bg-surface p-4">
           {RATIOS.map((r) => (

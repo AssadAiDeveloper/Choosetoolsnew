@@ -12,6 +12,7 @@ export default function SplitPdf() {
   return (
     <SinglePdfShell
       outName="split.pdf"
+      watch={[from, to]}
       options={
         <div className="flex flex-wrap items-end gap-4 rounded-card border border-line bg-surface p-4">
           <label className="text-sm font-medium">

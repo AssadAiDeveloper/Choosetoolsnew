@@ -11,6 +11,7 @@ export default function FlipImage() {
     <SingleImageShell
       accept="image/jpeg,image/png,image/webp"
       outName={(f) => "flipped-" + f.name}
+      watch={[axis]}
       options={
         <div className="flex gap-3 rounded-card border border-line bg-surface p-4">
           {([["h", "⇋"], ["v", "⥯"]] as const).map(([id, glyph]) => (

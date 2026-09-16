@@ -19,6 +19,7 @@ export default function ImageFilters() {
     <SingleImageShell
       accept="image/jpeg,image/png,image/webp"
       outName={(f) => filter.id + "-" + f.name}
+      watch={[filter.id]}
       options={
         <div className="flex flex-wrap gap-3 rounded-card border border-line bg-surface p-4">
           {FILTERS.map((f) => (

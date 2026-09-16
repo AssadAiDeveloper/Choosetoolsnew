@@ -76,6 +76,7 @@ export default function WatermarkPdf() {
   return (
     <SinglePdfShell
       outName="watermarked.pdf"
+      watch={[mode, text, color, position, size, rotation, opacity, logo]}
       options={
         <div className="space-y-4 rounded-card border border-slate-300 bg-surface p-4">
           {/* Live preview */}

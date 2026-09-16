@@ -24,6 +24,7 @@ export default function IdPhoto() {
     <SingleImageShell
       accept="image/jpeg,image/png"
       outName={() => `id-photo-${preset.id}.jpg`}
+      watch={[preset.id]}
       options={
         <div className="flex flex-wrap gap-2.5 rounded-card border border-line bg-surface p-4">
           {PRESETS.map((p) => (

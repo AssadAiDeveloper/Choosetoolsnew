@@ -6,6 +6,7 @@ export default function FlattenPdf() {
   return (
     <SinglePdfShell
       outName="flattened.pdf"
+      autoRun
       process={async (file) => {
         const { PDFDocument } = await import("pdf-lib");
         const doc = await PDFDocument.load(await file.arrayBuffer(), { ignoreEncryption: true });

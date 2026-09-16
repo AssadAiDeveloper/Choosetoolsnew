@@ -7,6 +7,7 @@ export default function GrayscalePdf() {
   return (
     <SinglePdfShell
       outName="grayscale.pdf"
+      autoRun
       process={async (file) => {
         const pdfjs = await import("pdfjs-dist");
         pdfjs.GlobalWorkerOptions.workerSrc = new URL(

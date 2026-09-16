@@ -25,6 +25,7 @@ export default function ResizeImage() {
     <SingleImageShell
       accept="image/jpeg,image/png,image/webp"
       outName={(f) => "resized-" + f.name}
+      watch={[w, h, lock]}
       options={
         <div className="flex flex-wrap items-end gap-4 rounded-card border border-line bg-surface p-4">
           <label className="text-sm font-medium">

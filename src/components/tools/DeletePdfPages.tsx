@@ -10,6 +10,7 @@ export default function DeletePdfPages() {
   return (
     <SinglePdfShell
       outName="pages-removed.pdf"
+      watch={[list]}
       options={
         <div className="rounded-card border border-line bg-surface p-4">
           <input

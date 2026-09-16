@@ -20,6 +20,7 @@ export default function ConvertImage() {
     <SingleImageShell
       accept="image/jpeg,image/png,image/webp"
       outName={(f) => replaceExt(f.name, fmt.ext)}
+      watch={[fmt.ext]}
       options={
         <div className="flex items-center gap-3 rounded-card border border-line bg-surface p-4">
           <span className="text-sm font-medium">{t("format")}:</span>

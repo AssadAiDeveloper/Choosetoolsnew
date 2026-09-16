@@ -12,6 +12,7 @@ export default function RoundCorners() {
     <SingleImageShell
       accept="image/jpeg,image/png,image/webp"
       outName={(f) => replaceExt("rounded-" + f.name, "png")}
+      watch={[radius]}
       options={
         <div className="rounded-card border border-line bg-surface p-4">
           <label className="flex items-center gap-4 text-sm font-medium">

@@ -23,6 +23,7 @@ export default function ExtractPdfPages() {
   return (
     <SinglePdfShell
       outName="extracted.pdf"
+      watch={[ranges]}
       options={
         <div className="rounded-card border border-line bg-surface p-4">
           <input

@@ -20,6 +20,7 @@ export default function RotateImage() {
     <SingleImageShell
       accept="image/jpeg,image/png,image/webp"
       outName={(f) => "rotated-" + f.name}
+      watch={[op]}
       options={
         <div className="flex flex-wrap gap-3 rounded-card border border-line bg-surface p-4">
           {OPS.map((o) => (

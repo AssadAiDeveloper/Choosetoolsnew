@@ -9,6 +9,7 @@ export default function PageNumbersPdf() {
   return (
     <SinglePdfShell
       outName="numbered.pdf"
+      watch={[style]}
       options={
         <div className="flex gap-3 rounded-card border border-line bg-surface p-4">
           {([["n", "1, 2, 3"], ["nOfTotal", "1 / 12"]] as const).map(([id, label]) => (

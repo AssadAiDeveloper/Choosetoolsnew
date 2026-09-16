@@ -11,6 +11,7 @@ export default function RotatePdf() {
   return (
     <SinglePdfShell
       outName="rotated.pdf"
+      watch={[angle]}
       options={
         <div className="flex gap-3 rounded-card border border-line bg-surface p-4">
           {ANGLES.map((a) => (

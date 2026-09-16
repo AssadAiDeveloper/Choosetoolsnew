@@ -9,6 +9,7 @@ export default function CropPdf() {
   return (
     <SinglePdfShell
       outName="cropped.pdf"
+      watch={[margin]}
       options={
         <div className="rounded-card border border-line bg-surface p-4">
           <label className="flex items-center gap-4 text-sm font-medium">

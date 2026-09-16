@@ -26,6 +26,7 @@ export default function AddTextToImage() {
     <SingleImageShell
       accept="image/jpeg,image/png,image/webp"
       outName={(f) => "text-" + f.name}
+      watch={[text, position, color, size]}
       options={
         <div className="space-y-3 rounded-card border border-line bg-surface p-4">
           <input

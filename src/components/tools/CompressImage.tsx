@@ -13,6 +13,7 @@ export default function CompressImage() {
     <SingleImageShell
       accept="image/jpeg,image/png,image/webp"
       outName={(f) => "compressed-" + f.name}
+      watch={[quality]}
       options={
         <div className="rounded-card border border-line bg-surface p-4">
           <label className="flex items-center gap-4 text-sm font-medium">

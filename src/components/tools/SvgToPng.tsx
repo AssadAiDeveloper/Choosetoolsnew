@@ -12,6 +12,7 @@ export default function SvgToPng() {
     <SingleImageShell
       accept=".svg,image/svg+xml"
       outName={(f) => replaceExt(f.name, "png")}
+      watch={[scale]}
       options={
         <div className="flex gap-3 rounded-card border border-line bg-surface p-4">
           {[1, 2, 4, 8].map((s) => (

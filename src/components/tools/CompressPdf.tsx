@@ -9,6 +9,7 @@ export default function CompressPdf() {
   return (
     <SinglePdfShell
       outName="compressed.pdf"
+      autoRun
       resultExtra={(original, out) => {
         const pct = Math.max(0, Math.round((1 - out.size / original.size) * 100));
         return (
