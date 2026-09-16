@@ -27,14 +27,15 @@ export default function QrWithLogo() {
       const matrix = QRCode.create(text, { errorCorrectionLevel: "H" }).modules;
       const size = matrix.size;
       const scale = 14;
+      const quiet = 2;
+      const dim = (size + quiet * 2) * scale;
       const canvas = document.createElement("canvas");
-      canvas.width = size * scale;
-      canvas.height = size * scale;
+      canvas.width = dim;
+      canvas.height = dim;
       const ctx = canvas.getContext("2d")!;
       ctx.fillStyle = "#fff";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
       ctx.fillStyle = fg;
-      const quiet = 2;
       for (let r = 0; r < size; r++) {
         for (let c = 0; c < size; c++) {
           if (matrix.get(r, c)) ctx.fillRect((c + quiet) * scale, (r + quiet) * scale, scale, scale);
