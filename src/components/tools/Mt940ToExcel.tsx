@@ -86,6 +86,7 @@ export default function Mt940ToExcel() {
   const [out, setOut] = useState<Blob | null>(null);
   const [name, setName] = useState("statement.xlsx");
   const [summary, setSummary] = useState({ count: 0, account: "" });
+  const [rows, setRows] = useState<(string | number | null)[][]>([]);
 
   const HEADERS = locale === "ar"
     ? ["التاريخ", "الوصف", "مدين", "دائن", "العملة", "المرجع"]
@@ -112,6 +113,7 @@ export default function Mt940ToExcel() {
       setOut(await buildXlsx(rows));
       setName(replaceExt(file.name, "xlsx"));
       setSummary({ count: transactions.length, account });
+      setRows(rows);
       setStage("done");
     } catch {
       setStage("error");
@@ -123,6 +125,19 @@ export default function Mt940ToExcel() {
   if (stage === "done" && out)
     return (
       <ResultCard onReset={() => { setOut(null); setStage("pick"); }}>
+        <div className="mb-4 max-h-64 overflow-auto rounded-xl border border-line bg-surface/60">
+          <table dir="ltr" className="w-full text-left text-xs">
+            <tbody>
+              {rows.slice(0, 20).map((row, i) => (
+                <tr key={i} className={i === 0 ? "bg-brand-50/60 font-semibold" : i % 2 ? "bg-surface/40" : ""}>
+                  {row.map((cell, j) => (
+                    <td key={j} className="whitespace-nowrap border-b border-line px-3 py-1.5 font-mono">{cell ?? ""}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
         <p dir="ltr" className="font-mono text-sm text-ink-soft">
           {summary.account && <span>{summary.account} · </span>}
           {summary.count} tx · {formatBytes(out.size)}

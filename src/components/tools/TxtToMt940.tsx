@@ -71,6 +71,7 @@ export default function TxtToMt940() {
   const [out, setOut] = useState<Blob | null>(null);
   const [name, setName] = useState("statement.940");
   const [summary, setSummary] = useState({ count: 0, account: "" });
+  const [preview, setPreview] = useState("");
   const [account, setAccount] = useState("");
   const [reference, setReference] = useState("");
   const [statementNo, setStatementNo] = useState("1/1");
@@ -107,6 +108,7 @@ export default function TxtToMt940() {
       setOut(new Blob([mt940], { type: "text/plain;charset=utf-8" }));
       setName(replaceExt(file.name, "940"));
       setSummary({ count: transactions.length, account });
+      setPreview(mt940);
       setStage("done");
     } catch {
       setStage("error");
@@ -118,6 +120,9 @@ export default function TxtToMt940() {
   if (stage === "done" && out)
     return (
       <ResultCard onReset={() => { setOut(null); setStage("pick"); }}>
+        <div className="mb-4 max-h-48 overflow-auto rounded-xl border border-line bg-surface/60 p-3">
+          <pre dir="ltr" className="whitespace-pre-wrap text-left font-mono text-[11px] leading-relaxed">{preview}</pre>
+        </div>
         <p dir="ltr" className="font-mono text-sm text-ink-soft">{summary.count} tx · {formatBytes(out.size)}</p>
         <PrimaryButton className="mt-3" onClick={() => downloadBlob(out, name)}>{t("download")} .940</PrimaryButton>
       </ResultCard>

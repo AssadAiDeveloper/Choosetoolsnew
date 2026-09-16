@@ -39,6 +39,7 @@ export default function Steganography() {
   const [message, setMessage] = useState("");
   const [stage, setStage] = useState<"pick" | "busy" | "done" | "error">("pick");
   const [out, setOut] = useState<Blob | null>(null);
+  const [url, setUrl] = useState("");
   const [revealed, setRevealed] = useState<string | null>(null);
 
   const L = locale === "ar"
@@ -62,6 +63,7 @@ export default function Steganography() {
         ctx.putImageData(imageData, 0, 0);
         const blob: Blob = await new Promise((res) => canvas.toBlob((b) => res(b!), "image/png"));
         setOut(blob);
+        setUrl(URL.createObjectURL(blob));
       } else {
         const text = decodeLSB(imageData.data);
         setRevealed(text || null);
@@ -72,13 +74,17 @@ export default function Steganography() {
     }
   };
 
-  const reset = () => { setOut(null); setRevealed(null); setStage("pick"); };
+  const reset = () => { if (url) URL.revokeObjectURL(url); setUrl(""); setOut(null); setRevealed(null); setStage("pick"); };
 
   if (stage === "busy") return <Processing />;
   if (stage === "error") return <ErrorBox onReset={reset} />;
   if (stage === "done" && mode === "encode" && out)
     return (
       <ResultCard onReset={reset}>
+        {url && (
+          /* eslint-disable-next-line @next/next/no-img-element */
+          <img src={url} alt="result" className="mx-auto mb-4 max-h-64 rounded-lg border border-line bg-surface object-contain" />
+        )}
         <PrimaryButton onClick={() => downloadBlob(out, "hidden-message.png")}>{L.download}</PrimaryButton>
       </ResultCard>
     );
