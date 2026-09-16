@@ -15,7 +15,8 @@
     "cv": "Creador de CV",
     "tools": "Herramientas",
     "more": "Más",
-    "blog": "Blog"
+    "blog": "Blog",
+    "donate": "Donar"
   },
   "home": {
     "heroTitle": "Haz tus tareas con privacidad.. y deja huella en el mundo.",
@@ -43,7 +44,8 @@
     "impact3t": "Apoya a un huérfano",
     "impact3n": "1",
     "impact3u": "apadrinamiento = futuro",
-    "impact3d": "Un apadrinamiento da a un niño un hogar, educación y un futuro."
+    "impact3d": "Un apadrinamiento da a un niño un hogar, educación y un futuro.",
+    "impactCta": "Donar ahora"
   },
   "privacy": {
     "badge": "Subido a nuestros servidores: 0 bytes",

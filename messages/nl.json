@@ -15,7 +15,8 @@
     "cv": "CV-maker",
     "tools": "Tools",
     "more": "Meer",
-    "blog": "Blog"
+    "blog": "Blog",
+    "donate": "Doneren"
   },
   "home": {
     "heroTitle": "Doe je taken met privacy.. en laat een indruk in de wereld achter.",
@@ -43,7 +44,8 @@
     "impact3t": "Steun een wees",
     "impact3n": "1",
     "impact3u": "sponsoring = toekomst",
-    "impact3d": "Eén sponsoring geeft een kind een thuis, onderwijs en een toekomst."
+    "impact3d": "Eén sponsoring geeft een kind een thuis, onderwijs en een toekomst.",
+    "impactCta": "Doneer nu"
   },
   "privacy": {
     "badge": "Geüpload naar onze servers: 0 bytes",

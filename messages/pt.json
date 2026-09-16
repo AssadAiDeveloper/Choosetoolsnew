@@ -15,7 +15,8 @@
     "cv": "Criador de CV",
     "tools": "Ferramentas",
     "more": "Mais",
-    "blog": "Blog"
+    "blog": "Blog",
+    "donate": "Doar"
   },
   "home": {
     "heroTitle": "Conclua as suas tarefas com privacidade.. e deixe uma marca no mundo.",
@@ -43,7 +44,8 @@
     "impact3t": "Apoiar um órfão",
     "impact3n": "1",
     "impact3u": "apadrinhamento = futuro",
-    "impact3d": "Um apadrinhamento dá a uma criança um lar, educação e um futuro."
+    "impact3d": "Um apadrinhamento dá a uma criança um lar, educação e um futuro.",
+    "impactCta": "Doar agora"
   },
   "privacy": {
     "badge": "Enviado para os nossos servidores: 0 bytes",

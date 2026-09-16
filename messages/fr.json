@@ -15,7 +15,8 @@
     "cv": "Créateur de CV",
     "tools": "Outils",
     "more": "Plus",
-    "blog": "Blog"
+    "blog": "Blog",
+    "donate": "Faire un don"
   },
   "home": {
     "heroTitle": "Accomplissez vos tâches en toute confidentialité.. et laissez une trace dans le monde.",
@@ -43,7 +44,8 @@
     "impact3t": "Parrainer un orphelin",
     "impact3n": "1",
     "impact3u": "parrainage = avenir",
-    "impact3d": "Un parrainage donne à un enfant un foyer, une éducation et un avenir."
+    "impact3d": "Un parrainage donne à un enfant un foyer, une éducation et un avenir.",
+    "impactCta": "Faire un don"
   },
   "privacy": {
     "badge": "Envoyé sur nos serveurs : 0 octet",

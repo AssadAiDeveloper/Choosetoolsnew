@@ -15,7 +15,8 @@
     "cv": "CV Oluşturucu",
     "tools": "Araçlar",
     "more": "Daha fazla",
-    "blog": "Blog"
+    "blog": "Blog",
+    "donate": "Bağış Yap"
   },
   "home": {
     "heroTitle": "İşlerinizi gizlilikle halledin.. ve dünyada iz bırakın.",
@@ -43,7 +44,8 @@
     "impact3t": "Bir yetimi destekleyin",
     "impact3n": "1",
     "impact3u": "sponsorluk = gelecek",
-    "impact3d": "Bir sponsorluk bir çocuğa yuva, eğitim ve gelecek verir."
+    "impact3d": "Bir sponsorluk bir çocuğa yuva, eğitim ve gelecek verir.",
+    "impactCta": "Şimdi bağış yap"
   },
   "privacy": {
     "badge": "Sunucularımıza yüklenen: 0 bayt",

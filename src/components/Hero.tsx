@@ -11,7 +11,7 @@ const FLOATERS = [
   { label: "XLSX", top: "1rem", right: "1rem", delay: "0.5s", tint: "#0e8a6c" },
   { label: "JPG", bottom: "1rem", left: "1rem", delay: "1.1s", tint: "var(--color-cat-image)" },
   { label: "CSV", bottom: "1rem", right: "1rem", delay: "1.7s", tint: "var(--color-cat-text)" },
-  { label: "PNG", top: "45%", left: "-1.5rem", delay: "2.2s", tint: "var(--color-cat-image)" },
+  { label: "PNG", top: "45%", left: "1rem", delay: "2.2s", tint: "var(--color-cat-image)" },
 ];
 
 // Decorative chips inside the mock screenshot window.

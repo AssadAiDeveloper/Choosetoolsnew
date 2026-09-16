@@ -2,6 +2,7 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { TreePine, Droplets, HandHeart } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 import { Hero } from "@/components/Hero";
 import { HomeToolGrid } from "@/components/HomeToolGrid";
 import { routing } from "@/i18n/routing";
@@ -60,6 +61,12 @@ function HomeContent() {
               </p>
               <h3 className="mt-1.5 text-[13px] font-semibold text-ink">{t(`impact${n}t`)}</h3>
               <p className="mt-1 text-xs leading-snug text-ink-soft">{t(`impact${n}d`)}</p>
+              <Link
+                href="/donate"
+                className="mt-3 inline-flex items-center gap-1.5 rounded-lg bg-brand-600 px-3.5 py-1.5 text-xs font-semibold text-white transition hover:bg-brand-700"
+              >
+                {t("impactCta")}
+              </Link>
             </div>
           ))}
         </div>

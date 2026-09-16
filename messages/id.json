@@ -15,7 +15,8 @@
     "cv": "Pembuat CV",
     "tools": "Alat",
     "more": "Lainnya",
-    "blog": "Blog"
+    "blog": "Blog",
+    "donate": "Donasi"
   },
   "home": {
     "heroTitle": "Selesaikan tugas Anda dengan privasi.. dan buat jejak di dunia.",
@@ -43,7 +44,8 @@
     "impact3t": "Bantu anak yatim",
     "impact3n": "1",
     "impact3u": "sponsor = masa depan",
-    "impact3d": "Satu sponsor memberi anak rumah, pendidikan, dan masa depan."
+    "impact3d": "Satu sponsor memberi anak rumah, pendidikan, dan masa depan.",
+    "impactCta": "Donasi sekarang"
   },
   "privacy": {
     "badge": "Diunggah ke server kami: 0 byte",

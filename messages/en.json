@@ -15,7 +15,8 @@
     "cv": "CV Builder",
     "tools": "Tools",
     "more": "More",
-    "blog": "Blog"
+    "blog": "Blog",
+    "donate": "Donate"
   },
   "home": {
     "heroTitle": "Get your tasks done privately — and make an impact in the world.",
@@ -43,7 +44,8 @@
     "impact3t": "Sponsor an orphan",
     "impact3n": "1",
     "impact3u": "sponsorship = future",
-    "impact3d": "One sponsorship gives a child a home, education and a future."
+    "impact3d": "One sponsorship gives a child a home, education and a future.",
+    "impactCta": "Donate now"
   },
   "privacy": {
     "badge": "Uploaded to our servers: 0 bytes",

@@ -30,6 +30,14 @@ function GlobeIcon() {
   );
 }
 
+function HeartIcon() {
+  return (
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+      <path d="M19 14c1.5-1.5 3-3.2 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.8 0-3 .5-4.5 2-1.5-1.5-2.7-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4 3 5.5l7 7z" />
+    </svg>
+  );
+}
+
 function ChevronIcon({ open }: { open: boolean }) {
   return (
     <svg
@@ -78,6 +86,7 @@ export function Header() {
     ...mainLinks,
     { href: "/blog", label: t("blog") },
     ...featureLinks,
+    { href: "/donate", label: t("donate") },
   ];
 
   useEffect(() => {
@@ -115,8 +124,15 @@ export function Header() {
           ))}
         </nav>
 
-        {/* Right corner — language + dark mode + (mobile) hamburger */}
+        {/* Right corner — donate + language + dark mode + (mobile) hamburger */}
         <div className="header-right">
+          <Link
+            href="/donate"
+            className="hidden h-9 items-center gap-1.5 rounded-lg bg-brand-600 px-3.5 text-sm font-semibold text-white transition hover:bg-brand-700 sm:inline-flex"
+          >
+            <HeartIcon />
+            {t("donate")}
+          </Link>
           <ThemeToggle />
           <div ref={langRef} className="relative">
             <button

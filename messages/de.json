@@ -15,7 +15,8 @@
     "cv": "Lebenslauf-Ersteller",
     "tools": "Tools",
     "more": "Mehr",
-    "blog": "Blog"
+    "blog": "Blog",
+    "donate": "Spenden"
   },
   "home": {
     "heroTitle": "Erledigen Sie Ihre Aufgaben privat.. und hinterlassen Sie Spuren in der Welt.",
@@ -43,7 +44,8 @@
     "impact3t": "Ein Waisenkind unterstützen",
     "impact3n": "1",
     "impact3u": "Sponsoring = Zukunft",
-    "impact3d": "Ein Sponsoring gibt einem Kind ein Zuhause, Bildung und eine Zukunft."
+    "impact3d": "Ein Sponsoring gibt einem Kind ein Zuhause, Bildung und eine Zukunft.",
+    "impactCta": "Jetzt spenden"
   },
   "privacy": {
     "badge": "Auf unsere Server hochgeladen: 0 Bytes",
