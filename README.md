@@ -3,7 +3,7 @@
 Free, private, browser-based file tools — **99 tools** in **11 languages**.
 Every tool runs 100% client-side: files never leave the user's device.
 
-Live: https://choosetools.com
+Live: https://www.choosetools.com
 
 ## Stack
 
