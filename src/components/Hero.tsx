@@ -27,7 +27,7 @@ const SHOT_CHIPS = [
 // brand tokens, floating on the side of the hero (aria-hidden decoration).
 function ToolShot() {
   return (
-    <div className="hero-shot pointer-events-none hidden w-72 shrink-0 select-none rounded-2xl border border-line bg-white p-3 shadow-2xl shadow-brand-500/10 lg:block">
+    <div aria-hidden className="hero-shot pointer-events-none hidden w-72 shrink-0 select-none rounded-2xl border border-line bg-white p-3 shadow-2xl shadow-brand-500/10 lg:block">
       {/* window chrome */}
       <div className="flex items-center gap-1.5 px-1 pb-2">
         <span className="h-2.5 w-2.5 rounded-full bg-red-400" />

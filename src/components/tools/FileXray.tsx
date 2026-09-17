@@ -43,10 +43,11 @@ export default function FileXray() {
     let dims: string | null = null;
     if (file.type.startsWith("image/")) {
       dims = await new Promise<string>((resolve) => {
+        const url = URL.createObjectURL(file);
         const img = new Image();
-        img.onload = () => resolve(`${img.naturalWidth} × ${img.naturalHeight}px`);
-        img.onerror = () => resolve("—");
-        img.src = URL.createObjectURL(file);
+        img.onload = () => { URL.revokeObjectURL(url); resolve(`${img.naturalWidth} × ${img.naturalHeight}px`); };
+        img.onerror = () => { URL.revokeObjectURL(url); resolve("—"); };
+        img.src = url;
       });
     }
 

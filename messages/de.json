@@ -1228,6 +1228,16 @@
         "btn": "ChooseTools unterstützen",
         "via": "Zahlungen werden sicher von unserem Zahlungsanbieter abgewickelt."
       }
+    },
+    "notFound": {
+      "title": "Seite nicht gefunden",
+      "desc": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+      "cta": "Zur Startseite"
+    },
+    "error": {
+      "title": "Etwas ist schiefgegangen",
+      "desc": "Es ist ein unerwarteter Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+      "retry": "Erneut versuchen"
     }
   },
   "sub": {

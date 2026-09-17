@@ -356,7 +356,7 @@ export async function importCvFile(
   lang?: string,
   onProgress?: (progress: number, status: string) => void,
 ): Promise<ParsedCvData> {
-  const languages = lang || (file.name.match(/[\u0600-\u06FF]/) || true ? "eng+ara" : "eng");
+  const languages = lang || (file.name.match(/[\u0600-\u06FF]/) ? "eng+ara" : "eng");
   if (onProgress) onProgress(0, "loading");
   const canvas = await extractImageFromFile(file);
   if (onProgress) onProgress(5, "ocr");

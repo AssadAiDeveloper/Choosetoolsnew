@@ -1228,6 +1228,16 @@
         "btn": "Steun ChooseTools",
         "via": "Betalingen worden veilig afgehandeld door onze betaalaanbieder."
       }
+    },
+    "notFound": {
+      "title": "Pagina niet gevonden",
+      "desc": "De pagina die u zoekt bestaat niet of is verplaatst.",
+      "cta": "Terug naar home"
+    },
+    "error": {
+      "title": "Er is iets misgegaan",
+      "desc": "Er is een onverwachte fout opgetreden. Probeer het opnieuw.",
+      "retry": "Opnieuw proberen"
     }
   },
   "sub": {

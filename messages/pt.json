@@ -1228,6 +1228,16 @@
         "btn": "Apoie a ChooseTools",
         "via": "Os pagamentos são processados com segurança pelo nosso provedor de pagamentos."
       }
+    },
+    "notFound": {
+      "title": "Página não encontrada",
+      "desc": "A página que você procura não existe ou foi movida.",
+      "cta": "Voltar ao início"
+    },
+    "error": {
+      "title": "Algo deu errado",
+      "desc": "Ocorreu um erro inesperado. Por favor, tente novamente.",
+      "retry": "Tentar novamente"
     }
   },
   "sub": {

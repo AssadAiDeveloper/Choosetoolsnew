@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { canvasToBlob } from "@/lib/canvas";
 
@@ -13,9 +13,16 @@ export function PdfPreview({ blob }: { blob: Blob }) {
   const [urls, setUrls] = useState<string[]>([]);
   const [total, setTotal] = useState(0);
   const [failed, setFailed] = useState(false);
+  const urlsRef = useRef<string[]>([]);
 
   useEffect(() => {
     let cancelled = false;
+
+    urlsRef.current.forEach((u) => URL.revokeObjectURL(u));
+    urlsRef.current = [];
+    setUrls([]);
+    setTotal(0);
+    setFailed(false);
 
     (async () => {
       try {
@@ -40,7 +47,12 @@ export function PdfPreview({ blob }: { blob: Blob }) {
           const b = await canvasToBlob(canvas, "image/jpeg", 0.7);
           list.push(URL.createObjectURL(b));
         }
-        if (!cancelled) setUrls(list);
+        if (cancelled) {
+          list.forEach((u) => URL.revokeObjectURL(u));
+          return;
+        }
+        urlsRef.current = list;
+        setUrls(list);
       } catch {
         if (!cancelled) setFailed(true);
       }
@@ -48,6 +60,8 @@ export function PdfPreview({ blob }: { blob: Blob }) {
 
     return () => {
       cancelled = true;
+      urlsRef.current.forEach((u) => URL.revokeObjectURL(u));
+      urlsRef.current = [];
     };
   }, [blob]);
 

@@ -73,6 +73,7 @@ export function HomeToolGrid() {
           value={q}
           onChange={(e) => setQ(e.target.value)}
           placeholder={t("home.search")}
+          aria-label={t("home.search")}
           className="w-full rounded-xl border border-line bg-surface px-5 py-3.5 text-base text-start text-ink shadow-sm outline-none placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-white/10 dark:placeholder:text-slate-300"
         />
       </div>
@@ -116,7 +117,7 @@ export function HomeToolGrid() {
         <p className="mt-10 text-center text-ink-soft">{t("home.noResults")}</p>
       )}
 
-      <div key={main + sub + q} className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 animate-fadeIn">
+      <div key={main + sub} className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 animate-fadeIn">
         {filtered.map((tool) => (
           <Link
               key={tool.slug}

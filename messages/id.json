@@ -1228,6 +1228,16 @@
         "btn": "Dukung ChooseTools",
         "via": "Pembayaran diproses dengan aman oleh penyedia pembayaran kami."
       }
+    },
+    "notFound": {
+      "title": "Halaman tidak ditemukan",
+      "desc": "Halaman yang Anda cari tidak ada atau telah dipindahkan.",
+      "cta": "Kembali ke beranda"
+    },
+    "error": {
+      "title": "Terjadi kesalahan",
+      "desc": "Terjadi kesalahan yang tidak terduga. Silakan coba lagi.",
+      "retry": "Coba lagi"
     }
   },
   "sub": {

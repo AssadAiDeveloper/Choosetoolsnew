@@ -18,9 +18,25 @@ export function FileDropzone({ accept, multiple = false, onFiles }: Props) {
   const handle = useCallback(
     (list: FileList | null) => {
       if (!list || list.length === 0) return;
-      onFiles(Array.from(list));
+      const files = Array.from(list);
+      const accepted = accept
+        .split(",")
+        .map((s) => s.trim().toLowerCase())
+        .filter(Boolean);
+      const ok = accepted.length === 0
+        ? files
+        : files.filter((f) => {
+            const type = (f.type || "").toLowerCase();
+            if (accept.includes("*")) return true;
+            return accepted.some((a) => {
+              if (a.startsWith(".")) return f.name.toLowerCase().endsWith(a);
+              if (a.endsWith("/*")) return type.startsWith(a.slice(0, -1));
+              return type === a;
+            });
+          });
+      if (ok.length > 0) onFiles(ok);
     },
-    [onFiles]
+    [accept, onFiles]
   );
 
   return (

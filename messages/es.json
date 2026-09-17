@@ -1228,6 +1228,16 @@
         "btn": "Apoya ChooseTools",
         "via": "Los pagos se gestionan de forma segura por nuestro proveedor de pagos."
       }
+    },
+    "notFound": {
+      "title": "Página no encontrada",
+      "desc": "La página que buscas no existe o se ha movido.",
+      "cta": "Volver al inicio"
+    },
+    "error": {
+      "title": "Algo salió mal",
+      "desc": "Ocurrió un error inesperado. Inténtalo de nuevo.",
+      "retry": "Reintentar"
     }
   },
   "sub": {

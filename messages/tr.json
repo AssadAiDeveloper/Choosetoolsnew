@@ -1228,6 +1228,16 @@
         "btn": "ChooseTools'u Destekle",
         "via": "Ödemeler, ödeme sağlayıcımız tarafından güvenli şekilde işlenir."
       }
+    },
+    "notFound": {
+      "title": "Sayfa bulunamadı",
+      "desc": "Aradığınız sayfa mevcut değil veya taşınmış.",
+      "cta": "Ana sayfaya dön"
+    },
+    "error": {
+      "title": "Bir şeyler ters gitti",
+      "desc": "Beklenmeyen bir hata oluştu. Lütfen tekrar deneyin.",
+      "retry": "Tekrar dene"
     }
   },
   "sub": {
