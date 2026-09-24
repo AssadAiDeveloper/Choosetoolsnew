@@ -74,7 +74,7 @@ export function Hero() {
         <span
           key={f.label}
           aria-hidden
-          className="floater pointer-events-none absolute hidden select-none rounded-lg border px-3 py-1.5 font-mono text-xs font-semibold backdrop-blur-sm sm:block"
+          className="floater pointer-events-none absolute hidden select-none rounded-lg border px-3 py-1.5 font-mono text-xs font-semibold backdrop-blur-sm sm:block lg:hidden"
           style={{
             top: f.top,
             bottom: f.bottom,

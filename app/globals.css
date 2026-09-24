@@ -9,7 +9,7 @@
   --color-brand-100: #d3f8e9;
   --color-brand-200: #a7efdc;
   --color-brand-500: #10a37f;
-  --color-brand-600: #0e8a6c;
+  --color-brand-600: #0b7a5e;
   --color-brand-700: #0b6e57;
   --color-brand-900: #073f33;
 
@@ -197,18 +197,15 @@ body {
 }
 
 .header-center {
-  position: absolute;
-  left: 50%;
-  top: 0;
-  height: 100%;
-  transform: translateX(-50%);
   display: flex;
   flex-direction: row;
+  flex: 1;
   gap: 24px;
   justify-content: center;
   align-items: center;
   min-width: 0;
   overflow: hidden;
+  white-space: nowrap;
 }
 
 .header-link {
@@ -294,11 +291,17 @@ body {
   color: #f1f5f9;
 }
 
-/* Hide the inline center nav & show the hamburger below 1200px */
-@media (max-width: 1199px) {
+/* Slightly tighter spacing for wide-looped nav between 1280-1439px */
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .header-center { gap: 14px; }
+  .header-center .header-link { padding: 8px 12px; font-size: 14px; }
+}
+
+/* Hide the inline center nav & show the hamburger below 1280px */
+@media (max-width: 1279px) {
   .header-center { display: none !important; }
   .header-hamburger { display: flex !important; }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .header-hamburger { display: none !important; }
 }

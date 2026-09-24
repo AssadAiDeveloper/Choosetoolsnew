@@ -12,6 +12,9 @@ export interface ParsedCvData {
   languages: string[];
 }
 
+// Served from /public/pdfjs so the PDF worker never depends on a remote CDN.
+const PDF_WORKER_URL = "/pdfjs/pdf.worker.min.js";
+
 const empty: ParsedCvData = {
   fullName: "", jobTitle: "", email: "", phone: "", cvLocation: "", linkedin: "",
   summary: "", skills: "", experiences: [], education: [], languages: [],
@@ -281,9 +284,7 @@ export async function extractImageFromFile(file: File): Promise<HTMLCanvasElemen
   if (file.type === "application/pdf") {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const pdfjsLib: any = await import("pdfjs-dist");
-    const version = pdfjsLib.version || "4.0.395";
-    pdfjsLib.GlobalWorkerOptions.workerSrc =
-      `https://cdn.jsdelivr.net/npm/pdfjs-dist@${version}/build/pdf.worker.min.mjs`;
+    pdfjsLib.GlobalWorkerOptions.workerSrc = PDF_WORKER_URL;
     const data = await file.arrayBuffer();
     const pdf = await pdfjsLib.getDocument({ data }).promise;
     const page = await pdf.getPage(1);
@@ -332,6 +333,9 @@ export async function ocrCanvas(
   onProgress?: (progress: number, status: string) => void,
 ): Promise<string> {
   const opts = {
+    workerPath: "/tesseract-js/worker.min.js",
+    corePath: "/tesseract-core",
+    langPath: "/tessdata",
     logger: (m: { status: string; progress?: number }) => {
       if (m.status === "recognizing text" && onProgress) {
         onProgress(Math.round((m.progress || 0) * 100), "OCR");
