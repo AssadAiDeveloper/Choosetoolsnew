@@ -620,12 +620,14 @@ export default function CvBuilder() {
     if (langList.length) {
       sidebarSect(cv("languages"));
       for (const lang of langList) {
-        if (y + 40 > MAX_Y) { await newPage(); y = MARGIN + 20; }
-        ctx.textAlign = startAlign;
-        ctx.fillStyle = "#ffffff";
-        ctx.font = "30px system-ui, sans-serif";
-        ctx.fillText("•  " + lang, isRtl ? sidebar - 70 : sidebar + 70, y);
-        y += 40;
+        for (const line of wrapText("•  " + lang, SIDE - 150, "30px system-ui, sans-serif")) {
+          if (y + 40 > MAX_Y) { await newPage(); y = MARGIN + 20; }
+          ctx.textAlign = startAlign;
+          ctx.fillStyle = "#ffffff";
+          ctx.font = "30px system-ui, sans-serif";
+          ctx.fillText(line, isRtl ? sidebar - 70 : sidebar + 70, y);
+          y += 40;
+        }
       }
     }
 
