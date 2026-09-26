@@ -243,6 +243,7 @@ img.avatar { display: block; }
   overflow-wrap: break-word;
   max-width: 100%;
 }
+p { white-space: pre-line; }
 /* ===== RTL ===== */
 html[dir="rtl"] .classic-name-area,
 html[dir="rtl"] .mo,

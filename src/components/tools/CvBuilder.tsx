@@ -358,10 +358,14 @@ export default function CvBuilder() {
     if (summary.trim()) {
       await sectionHeading(cv("summary"));
       ctx.fillStyle = "#374151";
-      for (const line of wrapText(summary.trim(), contentW, "26px system-ui, sans-serif")) {
-        await ensureSpace(38);
-        ctx.fillText(line, x0, y);
-        y += 38;
+      const paras = summary.trim().split(/\n\s*\n/);
+      for (let pi = 0; pi < paras.length; pi++) {
+        for (const line of wrapText(paras[pi].trim(), contentW, "26px system-ui, sans-serif")) {
+          await ensureSpace(38);
+          ctx.fillText(line, x0, y);
+          y += 38;
+        }
+        if (pi < paras.length - 1) y += 14;
       }
       y += 20;
     }
@@ -682,10 +686,14 @@ export default function CvBuilder() {
     if (summary.trim()) {
       await bodySect(cv("summary"));
       ctx.fillStyle = "#374151";
-      for (const line of wrapText(summary.trim(), bodyW, "26px system-ui, sans-serif")) {
-        await ensureSpace(38);
-        ctx.fillText(line, bodyX0, y);
-        y += 38;
+      const paras = summary.trim().split(/\n\s*\n/);
+      for (let pi = 0; pi < paras.length; pi++) {
+        for (const line of wrapText(paras[pi].trim(), bodyW, "26px system-ui, sans-serif")) {
+          await ensureSpace(38);
+          ctx.fillText(line, bodyX0, y);
+          y += 38;
+        }
+        if (pi < paras.length - 1) y += 14;
       }
       y += 20;
     }
