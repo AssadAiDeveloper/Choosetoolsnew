@@ -237,7 +237,7 @@ img.avatar { display: block; }
 .mi-text { font-size: 10pt; color: #374151; line-height: 1.45; }
 .inline-join { word-break: break-word; }
 /* Force long/connected words onto new lines and keep text inside the frame */
-.work-experience-description, p {
+.work-experience-description, p, li, .ac-item, .ac-contact-line, .mi-contact {
   word-break: break-all;
   word-wrap: break-word;
   overflow-wrap: break-word;
