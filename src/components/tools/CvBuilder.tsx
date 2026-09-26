@@ -275,16 +275,22 @@ export default function CvBuilder() {
       ctx.textAlign = "center";
       ctx.fillStyle = "#111827";
       ctx.font = "bold 60px system-ui, sans-serif";
-      ctx.fillText(fullName || "—", W / 2, y);
-      y += 48;
+      for (const line of wrapText(fullName || "—", contentW * 0.9, "bold 60px system-ui, sans-serif")) {
+        ctx.fillText(line, W / 2, y);
+        y += 48;
+      }
       ctx.font = "34px system-ui, sans-serif";
       ctx.fillStyle = accent;
-      ctx.fillText(jobTitle, W / 2, y);
-      y += 40;
+      for (const line of wrapText(jobTitle, contentW - 40, "34px system-ui, sans-serif")) {
+        ctx.fillText(line, W / 2, y);
+        y += 40;
+      }
       ctx.font = "24px system-ui, sans-serif";
       ctx.fillStyle = "#6b7280";
-      ctx.fillText(contactParts.join("   •   "), W / 2, y);
-      y += 26;
+      for (const line of wrapText(contactParts.join("   •   "), contentW - 40, "24px system-ui, sans-serif")) {
+        ctx.fillText(line, W / 2, y);
+        y += 26;
+      }
       ctx.strokeStyle = accent;
       ctx.lineWidth = 2;
       ctx.beginPath();
@@ -322,12 +328,16 @@ export default function CvBuilder() {
       }
       ctx.font = "32px system-ui, sans-serif";
       ctx.fillStyle = accent;
-      ctx.fillText(jobTitle, centerX, y);
-      y += 46;
+      for (const line of wrapText(jobTitle, contentW - 40, "32px system-ui, sans-serif")) {
+        ctx.fillText(line, centerX, y);
+        y += 46;
+      }
       ctx.font = "24px system-ui, sans-serif";
       ctx.fillStyle = "#6b7280";
-      ctx.fillText(contactParts.join("   •   "), centerX, y);
-      y += 40;
+      for (const line of wrapText(contactParts.join("   •   "), contentW - 40, "24px system-ui, sans-serif")) {
+        ctx.fillText(line, centerX, y);
+        y += 40;
+      }
       const headerBottom = y + 10;
       ctx.strokeStyle = accent;
       ctx.lineWidth = 4;
@@ -386,8 +396,11 @@ export default function CvBuilder() {
         ctx.textAlign = startAlign;
         ctx.font = "italic 26px system-ui, sans-serif";
         ctx.fillStyle = accent;
-        ctx.fillText([exp.company, exp.location].filter(Boolean).join(", "), x0, y);
-        y += 38;
+        for (const line of wrapText([exp.company, exp.location].filter(Boolean).join(", "), contentW, "italic 26px system-ui, sans-serif")) {
+          await ensureSpace(38);
+          ctx.fillText(line, x0, y);
+          y += 38;
+        }
         ctx.font = "25px system-ui, sans-serif";
         ctx.fillStyle = "#374151";
         for (const bullet of exp.bullets.split("\n").filter(Boolean)) {
@@ -412,8 +425,12 @@ export default function CvBuilder() {
         ctx.textAlign = startAlign;
         ctx.font = "26px system-ui, sans-serif";
         ctx.fillStyle = accent;
-        ctx.fillText(edu.school, x0, y);
-        y += 50;
+        for (const line of wrapText(edu.school, contentW, "26px system-ui, sans-serif")) {
+          await ensureSpace(38);
+          ctx.fillText(line, x0, y);
+          y += 38;
+        }
+        y += 12;
       }
     }
 
@@ -567,8 +584,10 @@ export default function CvBuilder() {
     }
     ctx.font = "34px system-ui, sans-serif";
     ctx.fillStyle = "rgba(255,255,255,0.92)";
-    ctx.fillText(jobTitle, avCx, y);
-    y += 46;
+    for (const line of wrapText(jobTitle, SIDE - 120, "34px system-ui, sans-serif")) {
+      y += 44;
+      ctx.fillText(line, avCx, y);
+    }
 
     // contact lines in sidebar
       for (const part of contactParts) {
@@ -668,8 +687,11 @@ export default function CvBuilder() {
         ctx.textAlign = startAlign;
         ctx.fillStyle = accent;
         ctx.font = "italic 26px system-ui, sans-serif";
-        ctx.fillText([exp.company, exp.location].filter(Boolean).join(", "), bodyX0, y);
-        y += 38;
+        for (const line of wrapText([exp.company, exp.location].filter(Boolean).join(", "), bodyW, "italic 26px system-ui, sans-serif")) {
+          await ensureSpace(38);
+          ctx.fillText(line, bodyX0, y);
+          y += 38;
+        }
         ctx.fillStyle = "#374151";
         ctx.font = "25px system-ui, sans-serif";
         for (const bullet of exp.bullets.split("\n").filter(Boolean)) {
@@ -691,8 +713,12 @@ export default function CvBuilder() {
         ctx.textAlign = startAlign;
         ctx.fillStyle = accent;
         ctx.font = "26px system-ui, sans-serif";
-        ctx.fillText(edu.school, bodyX0, y);
-        y += 50;
+        for (const line of wrapText(edu.school, bodyW, "26px system-ui, sans-serif")) {
+          await ensureSpace(38);
+          ctx.fillText(line, bodyX0, y);
+          y += 38;
+        }
+        y += 12;
       }
     }
 
