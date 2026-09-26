@@ -178,6 +178,9 @@ export default function CvBuilder() {
     ctx.direction = isRtl ? "rtl" : "ltr";
     ctx.fillStyle = "#ffffff";
     ctx.fillRect(0, 0, W, H);
+    ctx.beginPath();
+    ctx.rect(MARGIN, MARGIN, W - MARGIN * 2, H - MARGIN * 2);
+    ctx.clip();
     let y = MARGIN;
 
     const newPage = async () => {
@@ -188,6 +191,9 @@ export default function CvBuilder() {
       ctx.direction = isRtl ? "rtl" : "ltr";
       ctx.fillStyle = "#ffffff";
       ctx.fillRect(0, 0, W, H);
+      ctx.beginPath();
+      ctx.rect(MARGIN, MARGIN, W - MARGIN * 2, H - MARGIN * 2);
+      ctx.clip();
       y = MARGIN;
     };
 
@@ -480,6 +486,9 @@ export default function CvBuilder() {
       ctx.fillRect(isRtl ? sidebar : 0, 0, SIDE, H);
       ctx.fillStyle = "#ffffff";
       ctx.fillRect(isRtl ? sidebar : 0, 0, SIDE, 16);
+      ctx.beginPath();
+      ctx.rect(MARGIN, MARGIN, W - MARGIN * 2, H - MARGIN * 2);
+      ctx.clip();
     };
     ctx.direction = isRtl ? "rtl" : "ltr";
     blank();
