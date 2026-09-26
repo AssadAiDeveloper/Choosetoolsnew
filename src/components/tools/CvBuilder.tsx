@@ -277,7 +277,7 @@ export default function CvBuilder() {
         ctx.lineWidth = 6;
         ctx.stroke();
       }
-      y = MARGIN + (img ? avR * 2 + 56 : 100);
+      y = MARGIN + (img ? avR * 2 + 56 : 24);
       ctx.textAlign = "center";
       ctx.fillStyle = "#111827";
       ctx.font = "bold 60px system-ui, sans-serif";
@@ -324,7 +324,7 @@ export default function CvBuilder() {
         ctx.lineWidth = 8;
         ctx.stroke();
       }
-      y = topY + (img ? avR * 2 + 40 : 100);
+      y = topY + (img ? avR * 2 + 40 : 24);
       ctx.textAlign = "center";
       ctx.fillStyle = "#111827";
       ctx.font = "bold 58px system-ui, sans-serif";
@@ -563,7 +563,7 @@ export default function CvBuilder() {
     const img = await loadAvatar();
     const avR = 125;
     const avCx = isRtl ? sidebar - SIDE / 2 : sidebar + SIDE / 2;
-    const avCy = MARGIN + avR;
+    const avCy = img ? MARGIN + avR : MARGIN;
     if (img) {
       ctx.save();
       ctx.beginPath();
@@ -581,7 +581,7 @@ export default function CvBuilder() {
       ctx.lineWidth = 10;
       ctx.stroke();
     }
-    y = avCy + avR + 60;
+    y = avCy + (img ? avR + 60 : 8);
 
     // name & title in sidebar
     ctx.textAlign = "center";
