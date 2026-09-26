@@ -236,6 +236,13 @@ img.avatar { display: block; }
 .mi-bullets li { font-size: 9pt; color: #374151; line-height: 1.4; margin-bottom: 1mm; }
 .mi-text { font-size: 10pt; color: #374151; line-height: 1.45; }
 .inline-join { word-break: break-word; }
+/* Force long/connected words onto new lines and keep text inside the frame */
+.work-experience-description, p {
+  word-break: break-all;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
 /* ===== RTL ===== */
 html[dir="rtl"] .classic-name-area,
 html[dir="rtl"] .mo,
