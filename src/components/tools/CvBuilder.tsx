@@ -214,19 +214,37 @@ export default function CvBuilder() {
     const wrapText = (text: string, maxWidth: number, font: string) => {
       ctx.font = font;
       const lines: string[] = [];
+      const put = (word: string) => {
+        let w = word;
+        while (w.length && ctx.measureText(w).width > maxWidth) {
+          let lo = 1, hi = Array.from(w).length, best = 1;
+          while (lo <= hi) {
+            const mid = (lo + hi) >> 1;
+            const piece = Array.from(w).slice(0, mid).join("");
+            if (ctx.measureText(piece).width <= maxWidth) {
+              best = mid; lo = mid + 1;
+            } else {
+              hi = mid - 1;
+            }
+          }
+          lines.push(Array.from(w).slice(0, best).join(""));
+          w = Array.from(w).slice(best).join("");
+        }
+        if (w) lines.push(w);
+      };
       for (const paragraph of text.split("\n")) {
-        const words = paragraph.split(" ");
+        const words = paragraph.split(/\s+/).filter(Boolean);
         let line = "";
         for (const word of words) {
           const test = line ? line + " " + word : word;
-          if (ctx.measureText(test).width > maxWidth && line) {
-            lines.push(line);
+          if (line && ctx.measureText(test).width > maxWidth) {
+            put(line);
             line = word;
           } else {
             line = test;
           }
         }
-        lines.push(line);
+        if (line) put(line);
       }
       return lines;
     };
@@ -465,19 +483,37 @@ export default function CvBuilder() {
     const wrapText = (text: string, maxWidth: number, font: string) => {
       ctx.font = font;
       const lines: string[] = [];
+      const put = (word: string) => {
+        let w = word;
+        while (w.length && ctx.measureText(w).width > maxWidth) {
+          let lo = 1, hi = Array.from(w).length, best = 1;
+          while (lo <= hi) {
+            const mid = (lo + hi) >> 1;
+            const piece = Array.from(w).slice(0, mid).join("");
+            if (ctx.measureText(piece).width <= maxWidth) {
+              best = mid; lo = mid + 1;
+            } else {
+              hi = mid - 1;
+            }
+          }
+          lines.push(Array.from(w).slice(0, best).join(""));
+          w = Array.from(w).slice(best).join("");
+        }
+        if (w) lines.push(w);
+      };
       for (const paragraph of text.split("\n")) {
-        const words = paragraph.split(" ");
+        const words = paragraph.split(/\s+/).filter(Boolean);
         let line = "";
         for (const word of words) {
           const test = line ? line + " " + word : word;
-          if (ctx.measureText(test).width > maxWidth && line) {
-            lines.push(line);
+          if (line && ctx.measureText(test).width > maxWidth) {
+            put(line);
             line = word;
           } else {
             line = test;
           }
         }
-        lines.push(line);
+        if (line) put(line);
       }
       return lines;
     };
