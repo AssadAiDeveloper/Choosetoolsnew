@@ -369,12 +369,17 @@ export async function ocrCanvas(
   };
   const opts = {
     workerPath: "/tesseract-js/worker.min.js",
-    corePath: "/tesseract-core",
+    // Point directly at a specific core file so the worker never runs
+    // wasm-feature-detect (whose early WebAssembly.compile can throw silently
+    // in constrained browsers, leaving createWorker stuck at "initializing tesseract").
+    corePath: "/tesseract-core/tesseract-core-lstm.wasm.js",
     langPath: "/tessdata",
     // A Blob worker reports location.href as blob:... which breaks the core's
     // relative .wasm fetch (silent hang during "initializing tesseract").
     workerBlobURL: false,
     logger: (m: { status: string; progress?: number }) => report(m.status, m.progress),
+    // Surface any worker error instead of leaving the promise pending forever.
+    errorHandler: (e: unknown) => report("worker error: " + String((e as { message?: string })?.message || e)),
   };
   if (!workerInstance) {
     const { createWorker } = await import("tesseract.js");
