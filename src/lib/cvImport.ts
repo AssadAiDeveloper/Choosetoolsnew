@@ -326,32 +326,69 @@ export async function extractImageFromFile(file: File): Promise<HTMLCanvasElemen
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 let workerInstance: any = null;
+let lastOcrStatus = "";
+
+// Map the raw tesseract phases to a visible 0-100 value so the UI never
+// appears frozen during multi-second core/language downloads.
+const OCR_PHASE_RANGE: Record<string, [number, number]> = {
+  "loading tesseract core": [2, 40],
+  "loading language traineddata": [40, 70],
+  "initializing tesseract": [70, 88],
+  "recognizing text": [88, 100],
+};
+
+function ocrProgress(status: string, progress?: number): number {
+  const range = OCR_PHASE_RANGE[status];
+  if (!range) return 0;
+  const [lo, hi] = range;
+  const p = Math.min(1, Math.max(0, progress || 0));
+  return Math.round(lo + (hi - lo) * p);
+}
+
+function withTimeout<T>(promise: Promise<T>, ms: number, what: string, onTimeout?: (status: string) => void): Promise<T> {
+  return new Promise<T>((resolve, reject) => {
+    const timer = setTimeout(() => {
+      if (onTimeout) onTimeout(lastOcrStatus);
+      reject(new Error(`OCR timed out while ${what} (last phase: "${lastOcrStatus || "n/a"}").`));
+    }, ms);
+    promise.then(
+      (v) => { clearTimeout(timer); resolve(v); },
+      (e) => { clearTimeout(timer); reject(e); },
+    );
+  });
+}
 
 export async function ocrCanvas(
   canvas: HTMLCanvasElement,
   lang = "eng+ara",
   onProgress?: (progress: number, status: string) => void,
 ): Promise<string> {
+  const report = (s: string, p?: number) => {
+    lastOcrStatus = s;
+    if (onProgress) onProgress(ocrProgress(s, p), s);
+  };
   const opts = {
     workerPath: "/tesseract-js/worker.min.js",
     corePath: "/tesseract-core",
     langPath: "/tessdata",
-    logger: (m: { status: string; progress?: number }) => {
-      if (m.status === "recognizing text" && onProgress) {
-        onProgress(Math.round((m.progress || 0) * 100), "OCR");
-      } else if (onProgress) {
-        onProgress(0, m.status || "");
-      }
-    },
+    logger: (m: { status: string; progress?: number }) => report(m.status, m.progress),
   };
   if (!workerInstance) {
     const { createWorker } = await import("tesseract.js");
-    workerInstance = await createWorker(lang, 1, opts);
+    // Loading the core + language can take many seconds; guard against a silent stall.
+    workerInstance = await withTimeout(
+      createWorker(lang, 1, opts),
+      120_000,
+      "loading tesseract core or language",
+      (s) => report(s || "loading tesseract core"),
+    );
   }
   const w = workerInstance!;
-  await w.setParameters({ tessedit_languages: lang });
-  if (onProgress) onProgress(0, "OCR");
-  const { data } = await w.recognize(canvas);
+  report("initializing tesseract");
+  await withTimeout(w.setParameters({ tessedit_languages: lang }), 30_000, "configuring tesseract");
+  report("recognizing text", 0);
+  const { data } = await withTimeout<{ data: { text: string } }>(w.recognize(canvas), 180_000, "recognizing text");
+  report("recognizing text", 1);
   return data.text;
 }
 
