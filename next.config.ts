@@ -5,7 +5,7 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const CSP = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net",
+  "script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' https://cdn.jsdelivr.net",
   "worker-src 'self' blob: https://cdn.jsdelivr.net",
   "connect-src 'self' https://cdn.jsdelivr.net",
   "img-src 'self' data: blob:",
