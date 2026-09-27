@@ -371,6 +371,9 @@ export async function ocrCanvas(
     workerPath: "/tesseract-js/worker.min.js",
     corePath: "/tesseract-core",
     langPath: "/tessdata",
+    // A Blob worker reports location.href as blob:... which breaks the core's
+    // relative .wasm fetch (silent hang during "initializing tesseract").
+    workerBlobURL: false,
     logger: (m: { status: string; progress?: number }) => report(m.status, m.progress),
   };
   if (!workerInstance) {
