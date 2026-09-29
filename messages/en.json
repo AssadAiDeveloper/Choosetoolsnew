@@ -556,6 +556,15 @@
       "faq2q": "Is the layout preserved?",
       "faq2a": "Text is extracted page by page in reading order, but complex layouts (columns, tables) become plain flowing text."
     },
+    "pdf-to-excel": {
+      "name": "PDF to Excel",
+      "desc": "Turn tables inside your PDF into an Excel spreadsheet.",
+      "long": "Reads the text layer of each page, groups words into rows and columns by their positions, and saves the result as a formatted .xlsx file with a bold header row. Everything is processed on your device.",
+      "faq1q": "Why did my scanned PDF produce no table?",
+      "faq1a": "Scanned PDFs are images without a text layer, so there are no words to arrange. Please use a PDF created digitally (exported from a computer).",
+      "faq2q": "Which page becomes the workbook?",
+      "faq2a": "Every page's detected rows are merged into a single worksheet, keeping reading order."
+    },
     "png-to-pdf": {
       "name": "PNG to PDF",
       "desc": "Combine one or more PNG images into a single PDF.",

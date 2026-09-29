@@ -556,6 +556,15 @@
       "faq2q": "O layout é preservado?",
       "faq2a": "O texto é extraído página a página por ordem de leitura, mas layouts complexos (colunas, tabelas) tornam-se texto corrido simples."
     },
+    "pdf-to-excel": {
+      "name": "PDF para Excel",
+      "desc": "Transforme as tabelas do seu PDF numa folha de cálculo Excel.",
+      "long": "Lê a camada de texto de cada página, agrupa as palavras em linhas e colunas pela sua posição e guarda o resultado como um ficheiro .xlsx formatado com cabeçalho a negrito. Tudo é processado no seu dispositivo.",
+      "faq1q": "Porque é que o meu PDF digitalizado não produziu nenhuma tabela?",
+      "faq1a": "Os PDF digitalizados são imagens sem camada de texto, pelo que não há palavras para organizar. Use um PDF criado digitalmente (exportado a partir de um computador).",
+      "faq2q": "Qual página se torna no livro?",
+      "faq2a": "As linhas detetadas de cada página são fundidas numa única folha de cálculo, mantendo a ordem de leitura."
+    },
     "png-to-pdf": {
       "name": "PNG para PDF",
       "desc": "Combine uma ou mais imagens PNG num único PDF.",

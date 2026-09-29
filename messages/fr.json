@@ -556,6 +556,15 @@
       "faq2q": "La mise en page est-elle conservée ?",
       "faq2a": "Le texte est extrait page par page dans l'ordre de lecture, mais les mises en page complexes (colonnes, tableaux) deviennent du texte brut continu."
     },
+    "pdf-to-excel": {
+      "name": "PDF vers Excel",
+      "desc": "Transformez les tableaux de votre PDF en feuille de calcul Excel.",
+      "long": "Lit la couche de texte de chaque page, regroupe les mots en lignes et colonnes selon leur position, puis enregistre le résultat en .xlsx formaté avec une ligne d'en-tête en gras. Tout est traité sur votre appareil.",
+      "faq1q": "Pourquoi mon PDF numérisé n'a produit aucun tableau ?",
+      "faq1a": "Les PDF numérisés sont des images sans couche de texte : il n'y a donc pas de mots à organiser. Utilisez un PDF créé numériquement (exporté depuis un ordinateur).",
+      "faq2q": "Quelle page devient le classeur ?",
+      "faq2a": "Les lignes détectées de chaque page sont fusionnées en une seule feuille de calcul, dans l'ordre de lecture."
+    },
     "png-to-pdf": {
       "name": "PNG en PDF",
       "desc": "Combinez une ou plusieurs images PNG en un seul PDF.",

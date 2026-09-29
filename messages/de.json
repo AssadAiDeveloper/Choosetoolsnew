@@ -556,6 +556,15 @@
       "faq2q": "Wird das Layout beibehalten?",
       "faq2a": "Text wird seitenweise in Lesereihenfolge extrahiert, aber komplexe Layouts (Spalten, Tabellen) werden zu einfachem Fließtext."
     },
+    "pdf-to-excel": {
+      "name": "PDF in Excel umwandeln",
+      "desc": "Tabellen aus Ihrer PDF in ein Excel-Arbeitsblatt umwandeln.",
+      "long": "Liest die Textebene jeder Seite, gruppiert Wörter nach ihrer Position zu Zeilen und Spalten und speichert das Ergebnis als formatierte .xlsx-Datei mit fett formatierter Kopfzeile. Alles wird auf Ihrem Gerät verarbeitet.",
+      "faq1q": "Warum erzeugte meine gescannte PDF keine Tabelle?",
+      "faq1a": "Gescannte PDFs sind Bilder ohne Textebene, daher gibt es keine Wörter zum Anordnen. Verwenden Sie bitte eine digital erstellte PDF (auf dem Computer exportiert).",
+      "faq2q": "Welche Seite wird zur Arbeitsmappe?",
+      "faq2a": "Die erkannten Zeilen jeder Seite werden in einem einzigen Arbeitsblatt zusammengeführt, wobei die Lesereihenfolge erhalten bleibt."
+    },
     "png-to-pdf": {
       "name": "PNG in PDF",
       "desc": "Ein oder mehrere PNG-Bilder zu einer einzigen PDF kombinieren.",

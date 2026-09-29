@@ -556,6 +556,15 @@
       "faq2q": "Wordt de opmaak behouden?",
       "faq2a": "Tekst wordt pagina voor pagina in leesvolgorde geëxtraheerd, maar complexe opmaak (kolommen, tabellen) wordt gewone doorlopende tekst."
     },
+    "pdf-to-excel": {
+      "name": "PDF naar Excel",
+      "desc": "Zet tabellen in uw PDF om naar een Excel-werkblad.",
+      "long": "Leest de tekstlaag van elke pagina, groepeert woorden op positie in rijen en kolommen en slaat het resultaat op als een opgemaakt .xlsx-bestand met een vetgedrukte kopregel. Alles wordt op uw apparaat verwerkt.",
+      "faq1q": "Waarom leverde mijn gescande PDF geen tabel op?",
+      "faq1a": "Gescande PDF's zijn afbeeldingen zonder tekstlaag, dus er zijn geen woorden om te ordenen. Gebruik een digitaal gemaakte PDF (geëxporteerd vanaf een computer).",
+      "faq2q": "Welke pagina wordt de werkmap?",
+      "faq2a": "De gedetecteerde rijen van elke pagina worden samengevoegd tot één werkblad, met behoud van de leesvolgorde."
+    },
     "png-to-pdf": {
       "name": "PNG naar PDF",
       "desc": "Combineer één of meer PNG-afbeeldingen tot één PDF.",

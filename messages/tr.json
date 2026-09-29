@@ -556,6 +556,15 @@
       "faq2q": "Yerleşim korunuyor mu?",
       "faq2a": "Metin okuma sırasıyla sayfa sayfa çıkarılır, ancak karmaşık yerleşimler (sütunlar, tablolar) düz akışkan metin olur."
     },
+    "pdf-to-excel": {
+      "name": "PDF'ten Excel'e Dönüştür",
+      "desc": "PDF'nizdeki tabloları Excel elektronik tablosuna dönüştürün.",
+      "long": "Her sayfanın metin katmanını okur, kelimeleri konumlarına göre satır ve sütunlar halinde gruplar ve sonucu kalın başlık satırıyla biçimlendirilmiş .xlsx dosyası olarak kaydeder. Her şey cihazınızda işlenir.",
+      "faq1q": "Taranmış PDF'im neden tablo üretmedi?",
+      "faq1a": "Taranmış PDF'ler metin katmanı olmayan görsellerdir, bu yüzden düzenlenecek kelime yoktur. Lütfen dijital olarak oluşturulmuş bir PDF kullanın (bilgisayardan dışa aktarılmış).",
+      "faq2q": "Hangi sayfa çalışma kitabı olur?",
+      "faq2a": "Her sayfanın algılanan satırları tek bir çalışma sayfasında birleştirilir ve okuma sırası korunur."
+    },
     "png-to-pdf": {
       "name": "PNG’den PDF’e",
       "desc": "Bir veya birden fazla PNG görselini tek bir PDF'te birleştirin.",

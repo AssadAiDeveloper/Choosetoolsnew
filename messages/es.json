@@ -556,6 +556,15 @@
       "faq2q": "¿Se conserva el diseño?",
       "faq2a": "El texto se extrae página a página en orden de lectura, pero los diseños complejos (columnas, tablas) se convierten en texto corrido."
     },
+    "pdf-to-excel": {
+      "name": "PDF a Excel",
+      "desc": "Convierte las tablas de tu PDF en una hoja de cálculo de Excel.",
+      "long": "Lee la capa de texto de cada página, agrupa las palabras en filas y columnas según su posición y guarda el resultado como archivo .xlsx con encabezado en negrita. Todo se procesa en tu dispositivo.",
+      "faq1q": "¿Por qué mi PDF escaneado no generó ninguna tabla?",
+      "faq1a": "Los PDF escaneados son imágenes sin capa de texto, así que no hay palabras que organizar. Usa un PDF creado digitalmente (exportado desde un ordenador).",
+      "faq2q": "¿Qué página se convierte en el libro?",
+      "faq2a": "Las filas detectadas de cada página se combinan en una sola hoja, conservando el orden de lectura."
+    },
     "png-to-pdf": {
       "name": "PNG a PDF",
       "desc": "Combina una o varias imágenes PNG en un solo PDF.",

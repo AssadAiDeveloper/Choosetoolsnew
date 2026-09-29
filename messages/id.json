@@ -556,6 +556,15 @@
       "faq2q": "Apakah tata letaknya dipertahankan?",
       "faq2a": "Teks diekstrak halaman demi halaman dalam urutan bacaan, tetapi tata letak yang kompleks (kolom, tabel) menjadi teks mengalir biasa."
     },
+    "pdf-to-excel": {
+      "name": "PDF ke Excel",
+      "desc": "Ubah tabel di dalam PDF menjadi lembar kerja Excel.",
+      "long": "Membaca lapisan teks setiap halaman, mengelompokkan kata menjadi baris dan kolom berdasarkan posisinya, lalu menyimpan hasilnya sebagai file .xlsx dengan baris judul tebal. Semuanya diproses di perangkat Anda.",
+      "faq1q": "Mengapa PDF pindaian saya tidak menghasilkan tabel apa pun?",
+      "faq1a": "PDF pindaian adalah gambar tanpa lapisan teks, jadi tidak ada kata yang bisa disusun. Gunakan PDF yang dibuat secara digital (diekspor dari komputer).",
+      "faq2q": "Halaman mana yang menjadi buku kerja?",
+      "faq2a": "Baris yang terdeteksi dari setiap halaman digabungkan menjadi satu lembar kerja, dengan tetap menjaga urutan bacaan."
+    },
     "png-to-pdf": {
       "name": "PNG ke PDF",
       "desc": "Gabungkan satu atau lebih gambar PNG menjadi satu PDF.",

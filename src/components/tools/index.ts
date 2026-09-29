@@ -48,6 +48,7 @@ export const TOOL_COMPONENTS: Record<string, ComponentType> = {
   Tafqit: dynamic(() => import("./Tafqit")),
   ExtractPdfPages: dynamic(() => import("./ExtractPdfPages")),
   PdfToText: dynamic(() => import("./PdfToText")),
+  PdfToExcel: dynamic(() => import("./PdfToExcel")),
   PngToPdf: dynamic(() => import("./PngToPdf")),
   PdfMetadata: dynamic(() => import("./PdfMetadata")),
   GrayscalePdf: dynamic(() => import("./GrayscalePdf")),
