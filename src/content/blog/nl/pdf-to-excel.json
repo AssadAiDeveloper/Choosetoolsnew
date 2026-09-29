@@ -1,0 +1,90 @@
+{
+  "slug": "pdf-to-excel",
+  "title": "PDF Online Naar Excel Gratis: Tabellen Extraheren naar Spreadsheets",
+  "description": "Zet PDF-tabellen gratis om naar Excel met ChooseTools. Detecteer rijen en kolommen in je PDF en download een opgemaakt .xlsx-bestand direct in je browser, met volledige privacy.",
+  "keywords": ["pdf naar excel", "pdf tabel naar excel", "pdf naar excel gratis", "tabel uit pdf extraheren", "pdf xlsx converter", "pdf online naar excel", "tabellen in pdf"],
+  "readingTime": 7,
+  "sections": [
+    {
+      "heading": "Tabellen die vastzitten in PDF's, eindelijk bruikbaar",
+      "paragraphs": [
+        "PDF's behouden de opmaak ten koste van bewerkbaarheid — een mooi opgemaakte tabel wordt een bevroren momentopname die je in geen spreadsheetprogramma kunt openen. [pdf-to-excel:PDF naar Excel] haalt die rijen en kolommen vrij.",
+        "Tabelgegevens overtypen is traag en foutgevoelig. Automatische conversie behoudt cijfers, koppen en structuur intact en bespaart je overtypfouten.",
+        "ChooseTools leest de tekstlaag van je PDF in de browser, groepeert woorden op positie in rijen en kolommen en bouwt een echte .xlsx-werkmap.",
+        "Geen upload, geen accounts en geen watermerken: het bestand verlaat je apparaat nooit en de spreadsheet is meteen bewerkbaar."
+      ]
+    },
+    {
+      "heading": "Hoe je PDF-tabellen in drie stappen naar Excel omzet",
+      "paragraphs": [
+        "De conversie is een stroom met één bestand die voor typische documenten in seconden klaar is.",
+        "Sleep je PDF naar het uploadvlak. De tool leest elke pagina, groepeert woorden in tabelcellen op basis van hun posities en produceert een opgemaakte .xlsx-werkmap die je kunt downloaden.",
+        "De uitvoer behoudt de leesvolgorde over pagina's heen, zodat tabellen over meerdere pagina's in één doorlopend werkblad belanden.",
+        "Digitale PDF's worden direct geconverteerd; de gratis tool vraagt geen configuratie voor standaardtabelindelingen."
+      ]
+    },
+    {
+      "heading": "Spreadsheet-uitvoer in plaats van plakfragmenten",
+      "paragraphs": [
+        "Een tabel kopiëren uit een PDF-lezer levert meestal door elkaar gegooide cellen en verloren uitlijning. Positiebewuste extractie bewaart welk woord bij welke rij en kolom hoort.",
+        "De gegenereerde werkmap gebruikt echte cellen, een vetgedrukte kopregel en automatisch bepaalde kolombreedtes — en opent daardoor netjes in Excel, Google Sheets, LibreOffice en online-editors.",
+        "Cijfers blijven cijfers waar dat mogelijk is, waardoor de spreadsheet bruikbaar blijft voor sommen, filters en draaitabellen.",
+        "Precies die structuur willen analisten voor de volgende stappen: gegevens opschonen, bladen samenvoegen of een rapportagepijplijn voeden."
+      ]
+    },
+    {
+      "heading": "Rapportages, facturen en afschriften archiveren",
+      "paragraphs": [
+        "Financiële rapportages, facturen, voorraden en verkooprapportages worden routinematig als PDF verspreid — precies waar je de onderliggende gegevens nodig hebt.",
+        "Met lokale conversie haal je cijfers uit vertrouwelijke financiën, salarisgegevens en leveranciersdata zonder iets op een server van derden te parkeren.",
+        "De resultaten werken samen met de rest van de suite: [excel-to-csv:exporteren naar CSV], [excel-to-json:blad omzetten naar JSON] of [csv-to-excel:herformatteren als Excel] achteraf.",
+        "Boekhouders, beheerders en analisten zetten vergrendelde kwartaalrapportages in seconden om in sorteerbare spreadsheets."
+      ]
+    },
+    {
+      "heading": "Gescande documenten hebben een extra stap nodig",
+      "paragraphs": [
+        "Niet elke PDF heeft een tekstlaag. Gescande tabellen zijn afbeeldingen in een PDF-wrapper, dus er zijn geen woorden om in cellen te ordenen.",
+        "Voor die bestanden voer je de pagina's eerst door de OCR-geschikte afbeeldingsflow om de woorden uit de scan te halen, en zet je daarna de digitale versie hier om.",
+        "Digitale PDF's worden direct en zonder configuratie geconverteerd, wat de flow eenvoudig houdt voor het veelvoorkomende geval.",
+        "Digitaal of gescand, het doel is hetzelfde: je tabelgegevens in een spreadsheet waar ze thuishoren."
+      ]
+    },
+    {
+      "heading": "Waarom lokale tabelextractie wint",
+      "paragraphs": [
+        "Cloud-converter dwingen je documenten te uploaden die gevoelige cijfers, klantnamen en personeelsdossiers kunnen bevatten.",
+        "Lokale extractie betekent dat niets daarvan je machine verlaat. De gedownloade .xlsx is alleen van jou — geen watermerk, geen serverlog, geen account.",
+        "Het draait hetzelfde op Windows, macOS, Linux en mobiel, dus veilige conversie is overal beschikbaar.",
+        "Voor juridische, financiële en HR-documenten verandert die on-device-garantie wat je bereid bent te automatiseren."
+      ]
+    },
+    {
+      "heading": "Van PDF-tabel naar spreadsheet in één lokale lus",
+      "paragraphs": [
+        "Zodra je tabel een echte spreadsheet is, maakt de documentsuite de omliggende werkzaamheid tot één lokale lus: [csv-json:formaten converteren], [json-to-excel:bladen opnieuw opbouwen] en [convert-image:afbeeldingsexports opschonen].",
+        "Gratis conversie geeft je een volledig lokale kantoor-pipeline voor de datarijke documenten die je elke week verwerkt.",
+        "Kortom: PDF-tabellen zijn geen kooien meer voor je data — elke rij wordt herbruikbaar, sorteerbaar en van jou.",
+        "Elke stap blijft op je machine, waardoor de hele lus van geblokkeerd PDF naar bewerkbare spreadsheet privé, snel en volledig gratis blijft."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Kan ik een PDF naar Excel omzetten zonder het te uploaden?",
+      "a": "Ja. De conversie draait volledig in je browser; het PDF wordt lokaal gelezen en levert een .xlsx-werkmap op zonder enige upload naar een server."
+    },
+    {
+      "q": "Worden tabellen automatisch gedetecteerd?",
+      "a": "Ja. Woorden worden gegroepeerd in rijen en kolommen op basis van hun positie op de pagina, en het resultaat behoudt de leesvolgorde over alle pagina's."
+    },
+    {
+      "q": "Mijn PDF is een scan zonder tekstlaag — wat nu?",
+      "a": "Voer de pagina's eerst door de OCR-geschikte afbeeldingsflow om de scan naar digitale tekst om te zetten, en zet daarna het resulterende PDF hier om."
+    },
+    {
+      "q": "Wat kan ik na de conversie doen?",
+      "a": "Alles wat een spreadsheet toestaat: filteren, sommen, draaitabellen — plus de rest van de suite voor CSV, JSON en meer formaatconversies."
+    }
+  ]
+}
