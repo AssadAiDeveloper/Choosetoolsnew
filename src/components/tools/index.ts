@@ -49,6 +49,7 @@ export const TOOL_COMPONENTS: Record<string, ComponentType> = {
   ExtractPdfPages: dynamic(() => import("./ExtractPdfPages")),
   PdfToText: dynamic(() => import("./PdfToText")),
   PdfToExcel: dynamic(() => import("./PdfToExcel")),
+  PdfToWord: dynamic(() => import("./PdfToWord")),
   PngToPdf: dynamic(() => import("./PngToPdf")),
   PdfMetadata: dynamic(() => import("./PdfMetadata")),
   GrayscalePdf: dynamic(() => import("./GrayscalePdf")),

@@ -84,6 +84,18 @@
     "noTableTitle": "Texte trouvé, mais aucun tableau détecté",
     "noTableBody": "Nous avons pu lire le texte mais sans trouver de colonnes cohérentes : le résultat serait une seule colonne. Si ce document contient un tableau, l'export depuis l'application d'origine fonctionne généralement mieux."
   },
+  "pdfToWord": {
+    "page": "Page",
+    "building": "Création du document…",
+    "pagesLabel": "pages",
+    "tablesLabel": "tableaux",
+    "ocrBadge": "lu avec OCR",
+    "ocrStatus": "OCR : {status}",
+    "ocrHint": "Certaines pages n'avaient pas de couche de texte et ont été lues par OCR. Vérifiez les chiffres dans l'aperçu : l'OCR peut mal lire les chiffres.",
+    "ocrPage": "La page {page} n'a pas de texte : lancement de l'OCR…",
+    "noTextTitle": "Aucun texte lisible trouvé",
+    "noTextBody": "Ce PDF n'a pas de couche de texte et ses pages n'ont pas pu être lues. S'il s'agit d'un scan, essayez un fichier de meilleure qualité, ou exportez-le depuis l'application d'origine en PDF numérique."
+  },
   "tool": {
     "dropTitle": "Déposez vos fichiers ici ou cliquez pour choisir",
     "dropSingle": "Déposez un fichier ici ou cliquez pour choisir",
@@ -579,6 +591,15 @@
       "faq1a": "Les PDF numérisés sont des images sans couche de texte : il n'y a donc pas de mots à organiser. Utilisez un PDF créé numériquement (exporté depuis un ordinateur).",
       "faq2q": "Quelle page devient le classeur ?",
       "faq2a": "Les lignes détectées de chaque page sont fusionnées en une seule feuille de calcul, dans l'ordre de lecture."
+    },
+    "pdf-to-word": {
+      "name": "PDF vers Word",
+      "desc": "Convertissez votre PDF en document Word modifiable.",
+      "long": "Reconstruit chaque page comme du vrai contenu Word : les titres et paragraphes restent des paragraphes, et chaque tableau devient un vrai tableau Word que vous pouvez modifier, trier et redimensionner. Le texte est extrait de la couche de texte du PDF, et les pages qui n'en ont pas sont lues par OCR automatiquement. Tout est traité sur votre appareil.",
+      "faq1q": "Lit-il les PDF numérisés ?",
+      "faq1a": "Oui. Si une page n'a pas de couche de texte, elle est rendue et lue par OCR automatiquement. L'OCR n'est pas parfait, vérifiez donc toujours l'aperçu.",
+      "faq2q": "Les tableaux sont-ils modifiables dans Word ?",
+      "faq2a": "Oui. Les tableaux sont écrits comme de vrais tableaux Word, pas comme des images ni du texte séparé par des tabulations : vous pouvez modifier les cellules, ajouter des lignes et les trier comme n'importe quel tableau."
     },
     "png-to-pdf": {
       "name": "PNG en PDF",

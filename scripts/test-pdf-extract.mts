@@ -13,6 +13,7 @@ if (!(Promise as any).withResolvers) {
 
 import { PDFDocument, StandardFonts, rgb } from "pdf-lib";
 import { glyphsToGrid, coerce, type Glyph } from "../src/lib/pdfTableExtract";
+import { pageBlocks } from "../src/lib/pdfBlocks";
 
 const OUT = "C:/Users/sAssa/AppData/Local/Temp/opencode/pdftest";
 mkdirSync(OUT, { recursive: true });
@@ -87,6 +88,15 @@ check("clean: coerce 1,250.00", coerce("1,250.00"), 1250);
 check("clean: coerce 2,50 (eu)", coerce("2,50"), 2.5);
 check("clean: coerce id stays text", coerce("2024-001"), "2024-001");
 
+// -- 1b. the Word target: the same page must yield one table, not prose --
+const b1 = pageBlocks(g1);
+check("clean: 1 table block", b1.filter((b) => b.kind === "table").length, 1);
+check("clean: no paragraphs", b1.filter((b) => b.kind === "paragraph").length, 0);
+const t1 = b1.find((b) => b.kind === "table");
+check("clean: table row0", t1 && t1.rows[0], ["Item", "Qty", "Price", "Total"]);
+check("clean: table is 4x4", t1 && t1.rows.length, 4);
+check("clean: table row1", t1 && t1.rows[1], ["Apple", "10", "1,250.00", "12500.00"]);
+
 // ── 2. table where a cell is empty (gap must not create a column) ─────────
 const gap: Row[] = [];
 y = 780;
@@ -150,7 +160,7 @@ for (const [inp, exp] of [
   // currency written after the number, as Arabic and RTL layouts write it
   ["1500.00 ر.س", 1500], ["١٢٥٠ د.إ", 1250], ["250 €", 250], ["-99.50 ر.س", -99.5],
   // bidi control marks must not defeat a parse
-  ["‏١٢٣٤‬", 1234], ["‍18000", 18000],
+  ["\u200F١٢٣٤\u200C", 1234], ["\u200D18000", 18000],
   // an Arabic word next to digits stays text
   ["الإجمالي 1200", "الإجمالي 1200"], ["12 قطعة", "12 قطعة"],
 ] as [string, unknown][]) {

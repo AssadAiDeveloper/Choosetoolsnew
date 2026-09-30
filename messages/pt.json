@@ -84,6 +84,18 @@
     "noTableTitle": "Texto encontrado, mas nenhuma tabela detetada",
     "noTableBody": "Conseguimos ler o texto mas não encontrámos colunas consistentes, por isso o resultado seria uma única coluna. Se este documento tiver uma tabela, exportar da aplicação original costuma funcionar melhor."
   },
+  "pdfToWord": {
+    "page": "Página",
+    "building": "A criar o documento…",
+    "pagesLabel": "páginas",
+    "tablesLabel": "tabelas",
+    "ocrBadge": "lido com OCR",
+    "ocrStatus": "OCR: {status}",
+    "ocrHint": "Algumas páginas não tinham camada de texto, por isso foram lidas com OCR. Verifique os números na pré-visualização — o OCR pode ler mal os dígitos.",
+    "ocrPage": "A página {page} não tem texto — a executar OCR…",
+    "noTextTitle": "Não foi encontrado texto legível",
+    "noTextBody": "Este PDF não tem camada de texto e as suas páginas não puderam ser lidas. Se for uma digitalização, tente um ficheiro de maior qualidade, ou exporte-o da aplicação original como PDF digital."
+  },
   "tool": {
     "dropTitle": "Largue aqui os ficheiros ou clique para escolher",
     "dropSingle": "Largue aqui um ficheiro ou clique para escolher",
@@ -579,6 +591,15 @@
       "faq1a": "Os PDF digitalizados são imagens sem camada de texto, pelo que não há palavras para organizar. Use um PDF criado digitalmente (exportado a partir de um computador).",
       "faq2q": "Qual página se torna no livro?",
       "faq2a": "As linhas detetadas de cada página são fundidas numa única folha de cálculo, mantendo a ordem de leitura."
+    },
+    "pdf-to-word": {
+      "name": "PDF para Word",
+      "desc": "Converta o seu PDF num documento Word editável.",
+      "long": "Reconstrói cada página como conteúdo real do Word: títulos e parágrafos permanecem parágrafos, e cada tabela torna-se uma tabela do Word verdadeira que pode editar, ordenar e redimensionar. O texto é extraído da camada de texto do PDF, e as páginas sem essa camada são lidas automaticamente por OCR. Tudo é processado no seu dispositivo.",
+      "faq1q": "Lê PDFs digitalizados?",
+      "faq1a": "Sim. Se uma página não tiver camada de texto, é convertida em imagem e lida automaticamente por OCR. O OCR não é perfeito, por isso verifique sempre a pré-visualização.",
+      "faq2q": "As tabelas são editáveis no Word?",
+      "faq2a": "Sim. As tabelas são escritas como tabelas nativas do Word, não como imagens nem texto separado por tabulações, por isso pode editar células, adicionar linhas e ordená-las como qualquer outra tabela."
     },
     "png-to-pdf": {
       "name": "PNG para PDF",

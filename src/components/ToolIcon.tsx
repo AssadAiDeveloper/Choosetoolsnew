@@ -151,6 +151,7 @@ const ICONS: Record<string, ComponentType<LucideProps>> = {
   binary: Binary,
   minimize: MinusSquare,
   "file-code": FileCode2,
+  "file-doc": FileText,
   terminal: TerminalSquare,
   url: Globe,
   table: Table,

@@ -62,6 +62,7 @@ export const TOOLS: Tool[] = [
   { slug: "images-to-pdf",      category: "pdf", subCategory: "convert",   icon: "img2pdf",   component: "ImagesToPdf" },
   { slug: "pdf-to-text",        category: "pdf", subCategory: "convert",   icon: "file-code",   component: "PdfToText" },
   { slug: "pdf-to-excel",       category: "pdf", subCategory: "convert",   icon: "table",       component: "PdfToExcel" },
+  { slug: "pdf-to-word",        category: "pdf", subCategory: "convert",   icon: "file-doc",    component: "PdfToWord" },
   { slug: "pdf-to-audio",       category: "pdf", subCategory: "convert",   icon: "audio",     component: "PdfToAudio" },
 
   { slug: "compress-pdf",       category: "pdf", subCategory: "optimize",  icon: "compress",  component: "CompressPdf" },

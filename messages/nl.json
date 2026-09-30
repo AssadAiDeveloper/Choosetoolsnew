@@ -84,6 +84,18 @@
     "noTableTitle": "Tekst gevonden, maar geen tabel gedetecteerd",
     "noTableBody": "We konden de tekst lezen maar vonden geen consistente kolommen, dus het resultaat zou één kolom zijn. Als dit document een tabel bevat, werkt exporteren uit de oorspronkelijke toepassing doorgaans beter."
   },
+  "pdfToWord": {
+    "page": "Pagina",
+    "building": "Document wordt gemaakt…",
+    "pagesLabel": "pagina's",
+    "tablesLabel": "tabellen",
+    "ocrBadge": "gelezen met OCR",
+    "ocrStatus": "OCR: {status}",
+    "ocrHint": "Sommige pagina's hadden geen tekstlaag en zijn met OCR gelezen. Controleer de cijfers in het voorbeeld — OCR kan cijfers verkeerd lezen.",
+    "ocrPage": "Pagina {page} heeft geen tekst — OCR wordt uitgevoerd…",
+    "noTextTitle": "Geen leesbare tekst gevonden",
+    "noTextBody": "Deze PDF heeft geen tekstlaag en de pagina's konden niet worden gelezen. Als het een scan is, gebruik dan een bestand van hogere kwaliteit, of exporteer het uit de oorspronkelijke toepassing als digitale PDF."
+  },
   "tool": {
     "dropTitle": "Zet bestanden hier neer of klik om te kiezen",
     "dropSingle": "Zet hier een bestand neer of klik om te kiezen",
@@ -579,6 +591,15 @@
       "faq1a": "Gescande PDF's zijn afbeeldingen zonder tekstlaag, dus er zijn geen woorden om te ordenen. Gebruik een digitaal gemaakte PDF (geëxporteerd vanaf een computer).",
       "faq2q": "Welke pagina wordt de werkmap?",
       "faq2a": "De gedetecteerde rijen van elke pagina worden samengevoegd tot één werkblad, met behoud van de leesvolgorde."
+    },
+    "pdf-to-word": {
+      "name": "PDF naar Word",
+      "desc": "Zet uw PDF om in een bewerkbaar Word-document.",
+      "long": "Bouw elke pagina op als echte Word-inhoud: koppen en alinea's blijven alinea's, en elke tabel wordt een echte Word-tabel die u kunt bewerken, sorteren en van grootte kunt veranderen. De tekst wordt uit de tekstlaag van de PDF gehaald, en pagina's zonder tekstlaag worden automatisch met OCR gelezen. Alles wordt op uw eigen apparaat verwerkt.",
+      "faq1q": "Leest hij gescande pdf's?",
+      "faq1a": "Ja. Als een pagina geen tekstlaag heeft, wordt deze weergegeven en automatisch met OCR gelezen. OCR is niet foutloos, controleer dus altijd het voorbeeld.",
+      "faq2q": "Zijn de tabellen bewerkbaar in Word?",
+      "faq2a": "Ja. Tabellen worden als echte Word-tabellen geschreven, niet als afbeeldingen of tab-gescheiden tekst, dus u kunt cellen bewerken, rijen toevoegen en sorteren als elke andere tabel."
     },
     "png-to-pdf": {
       "name": "PNG naar PDF",

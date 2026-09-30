@@ -84,6 +84,18 @@
     "noTableTitle": "Text gefunden, aber keine Tabelle erkannt",
     "noTableBody": "Wir konnten den Text lesen, aber keine konsistenten Spalten finden, sodass das Ergebnis eine einzelne Spalte wäre. Wenn dieses Dokument eine Tabelle enthält, funktioniert der Export aus der Originalanwendung meist besser."
   },
+  "pdfToWord": {
+    "page": "Seite",
+    "building": "Dokument wird erstellt…",
+    "pagesLabel": "Seiten",
+    "tablesLabel": "Tabellen",
+    "ocrBadge": "mit OCR gelesen",
+    "ocrStatus": "OCR: {status}",
+    "ocrHint": "Einige Seiten hatten keine Textebene und wurden mit OCR gelesen. Prüfen Sie die Zahlen in der Vorschau – OCR kann Ziffern falsch erkennen.",
+    "ocrPage": "Seite {page} hat keinen Text – OCR wird ausgeführt…",
+    "noTextTitle": "Kein lesbarer Text gefunden",
+    "noTextBody": "Dieses PDF hat keine Textebene und seine Seiten konnten nicht gelesen werden. Falls es ein Scan ist, verwenden Sie eine Datei höherer Qualität oder exportieren Sie sie aus der Originalanwendung als digitales PDF."
+  },
   "tool": {
     "dropTitle": "Dateien hier ablegen oder zum Auswählen klicken",
     "dropSingle": "Eine Datei hier ablegen oder zum Auswählen klicken",
@@ -579,6 +591,15 @@
       "faq1a": "Gescannte PDFs sind Bilder ohne Textebene, daher gibt es keine Wörter zum Anordnen. Verwenden Sie bitte eine digital erstellte PDF (auf dem Computer exportiert).",
       "faq2q": "Welche Seite wird zur Arbeitsmappe?",
       "faq2a": "Die erkannten Zeilen jeder Seite werden in einem einzigen Arbeitsblatt zusammengeführt, wobei die Lesereihenfolge erhalten bleibt."
+    },
+    "pdf-to-word": {
+      "name": "PDF in Word umwandeln",
+      "desc": "Verwandeln Sie Ihr PDF in ein bearbeitbares Word-Dokument.",
+      "long": "Baut jede Seite als echten Word-Inhalt neu auf: Überschriften und Absätze bleiben Absätze, und jede Tabelle wird zu einer echten Word-Tabelle, die Sie bearbeiten, sortieren und in der Größe ändern können. Der Text wird aus der Textebene des PDFs gelesen, Seiten ohne Ebene automatisch per OCR. Die Verarbeitung erfolgt vollständig auf Ihrem Gerät.",
+      "faq1q": "Kann es gescannte PDFs lesen?",
+      "faq1a": "Ja. Fehlt einer Seite die Textebene, wird sie gerendert und automatisch per OCR gelesen. OCR ist nicht fehlerfrei, prüfen Sie daher immer die Vorschau.",
+      "faq2q": "Sind die Tabellen in Word bearbeitbar?",
+      "faq2a": "Ja. Tabellen werden als echte Word-Tabellen geschrieben, nicht als Bilder oder tabulatorgetrennter Text. Sie können Zellen bearbeiten, Zeilen hinzufügen und wie jede andere Tabelle sortieren."
     },
     "png-to-pdf": {
       "name": "PNG in PDF",

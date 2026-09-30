@@ -84,6 +84,18 @@
     "noTableTitle": "Se encontró texto, pero no se detectó ninguna tabla",
     "noTableBody": "Pudimos leer el texto pero no encontramos columnas consistentes, por lo que el resultado sería una sola columna. Si este documento tiene una tabla, exportarlo desde la aplicación original suele funcionar mejor."
   },
+  "pdfToWord": {
+    "page": "Página",
+    "building": "Creando el documento…",
+    "pagesLabel": "páginas",
+    "tablesLabel": "tablas",
+    "ocrBadge": "leído con OCR",
+    "ocrStatus": "OCR: {status}",
+    "ocrHint": "Algunas páginas no tenían capa de texto, por lo que se leyeron con OCR. Revise los números en la vista previa: el OCR puede confundir los dígitos.",
+    "ocrPage": "La página {page} no tiene texto: ejecutando OCR…",
+    "noTextTitle": "No se encontró texto legible",
+    "noTextBody": "Este PDF no tiene capa de texto y no se pudieron leer sus páginas. Si es un escaneo, pruebe con un archivo de mayor calidad o expórtelo desde la aplicación original como PDF digital."
+  },
   "tool": {
     "dropTitle": "Suelta archivos aquí o haz clic para elegir",
     "dropSingle": "Suelta un archivo aquí o haz clic para elegir",
@@ -579,6 +591,15 @@
       "faq1a": "Los PDF escaneados son imágenes sin capa de texto, así que no hay palabras que organizar. Usa un PDF creado digitalmente (exportado desde un ordenador).",
       "faq2q": "¿Qué página se convierte en el libro?",
       "faq2a": "Las filas detectadas de cada página se combinan en una sola hoja, conservando el orden de lectura."
+    },
+    "pdf-to-word": {
+      "name": "PDF a Word",
+      "desc": "Convierta su PDF en un documento de Word editable.",
+      "long": "Reconstruye cada página como contenido real de Word: los títulos y párrafos se mantienen como párrafos y cada tabla se convierte en una tabla de Word real que puede editar, ordenar y redimensionar. El texto se extrae de la capa de texto del PDF, y las páginas sin ella se leen con OCR automáticamente. Todo se procesa en su dispositivo.",
+      "faq1q": "¿Lee PDF escaneados?",
+      "faq1a": "Sí. Si una página no tiene capa de texto, se renderiza y se lee con OCR automáticamente. El OCR no es perfecto, así que revise siempre la vista previa.",
+      "faq2q": "¿Las tablas son editables en Word?",
+      "faq2a": "Sí. Las tablas se escriben como tablas nativas de Word, no como imágenes ni texto separado por tabulaciones, así que puede editar celdas, añadir filas y ordenarlas como cualquier otra tabla."
     },
     "png-to-pdf": {
       "name": "PNG a PDF",

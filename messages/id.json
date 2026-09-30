@@ -84,6 +84,18 @@
     "noTableTitle": "Teks ditemukan, tetapi tidak ada tabel yang terdeteksi",
     "noTableBody": "Kami dapat membaca teksnya tetapi tidak menemukan kolom yang konsisten, sehingga hasilnya hanya satu kolom. Jika dokumen ini memiliki tabel, mengekspor dari aplikasi asal biasanya lebih baik."
   },
+  "pdfToWord": {
+    "page": "Halaman",
+    "building": "Membuat dokumen…",
+    "pagesLabel": "halaman",
+    "tablesLabel": "tabel",
+    "ocrBadge": "dibaca dengan OCR",
+    "ocrStatus": "OCR: {status}",
+    "ocrHint": "Beberapa halaman tidak memiliki lapisan teks, sehingga dibaca dengan OCR. Periksa angkanya di pratinjau — OCR dapat salah membaca digit.",
+    "ocrPage": "Halaman {page} tidak memiliki teks — menjalankan OCR…",
+    "noTextTitle": "Tidak ditemukan teks yang dapat dibaca",
+    "noTextBody": "PDF ini tidak memiliki lapisan teks dan halamannya tidak dapat dibaca. Jika ini hasil pindai, gunakan berkas berkualitas lebih tinggi, atau ekspor dari aplikasi asal sebagai PDF digital."
+  },
   "tool": {
     "dropTitle": "Seret berkas ke sini atau klik untuk memilih",
     "dropSingle": "Seret sebuah berkas ke sini atau klik untuk memilih",
@@ -579,6 +591,15 @@
       "faq1a": "PDF pindaian adalah gambar tanpa lapisan teks, jadi tidak ada kata yang bisa disusun. Gunakan PDF yang dibuat secara digital (diekspor dari komputer).",
       "faq2q": "Halaman mana yang menjadi buku kerja?",
       "faq2a": "Baris yang terdeteksi dari setiap halaman digabungkan menjadi satu lembar kerja, dengan tetap menjaga urutan bacaan."
+    },
+    "pdf-to-word": {
+      "name": "PDF ke Word",
+      "desc": "Ubah PDF Anda menjadi dokumen Word yang dapat diedit.",
+      "long": "Membangun ulang setiap halaman sebagai konten Word asli: judul dan paragraf tetap paragraf, dan setiap tabel menjadi tabel Word asli yang dapat diedit, diurutkan, dan diubah ukurannya. Teks diambil dari lapisan teks PDF, dan halaman yang tidak memilikinya dibaca dengan OCR secara otomatis. Semuanya diproses di perangkat Anda.",
+      "faq1q": "Apakah membaca PDF hasil pindai?",
+      "faq1a": "Ya. Jika halaman tidak memiliki lapisan teks, halaman dirender dan dibaca dengan OCR secara otomatis. OCR tidak sempurna, jadi selalu periksa pratinjau sebelum mengandalkannya.",
+      "faq2q": "Apakah tabel dapat diedit di Word?",
+      "faq2a": "Ya. Tabel ditulis sebagai tabel Word asli, bukan gambar atau teks yang dipisahkan tab, sehingga Anda dapat mengedit sel, menambah baris, dan mengurutkannya seperti tabel lainnya."
     },
     "png-to-pdf": {
       "name": "PNG ke PDF",

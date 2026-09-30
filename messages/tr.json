@@ -84,6 +84,18 @@
     "noTableTitle": "Metin bulundu ancak tablo algılanmadı",
     "noTableBody": "Metni okuyabildik ancak tutarlı sütunlar bulamadık, bu nedenle sonuç tek sütun olur. Bu belgede tablo varsa, özgün uygulamadan dışa aktarmak genellikle daha iyi sonuç verir."
   },
+  "pdfToWord": {
+    "page": "Sayfa",
+    "building": "Belge oluşturuluyor…",
+    "pagesLabel": "sayfa",
+    "tablesLabel": "tablo",
+    "ocrBadge": "OCR ile okundu",
+    "ocrStatus": "OCR: {status}",
+    "ocrHint": "Bazı sayfalarda metin katmanı yoktu, bu yüzden OCR ile okundu. Önizlemedeki sayıları kontrol edin — OCR rakamları yanlış okuyabilir.",
+    "ocrPage": "{page}. sayfada metin yok — OCR çalıştırılıyor…",
+    "noTextTitle": "Okunabilir metin bulunamadı",
+    "noTextBody": "Bu PDF'de metin katmanı yok ve sayfaları okunamadı. Bu bir tarama ise daha yüksek kaliteli bir dosya deneyin veya uygulamadan dijital PDF olarak dışa aktarın."
+  },
   "tool": {
     "dropTitle": "Dosyaları buraya sürükleyin veya seçmek için tıklayın",
     "dropSingle": "Bir dosyayı buraya sürükleyin veya seçmek için tıklayın",
@@ -579,6 +591,15 @@
       "faq1a": "Taranmış PDF'ler metin katmanı olmayan görsellerdir, bu yüzden düzenlenecek kelime yoktur. Lütfen dijital olarak oluşturulmuş bir PDF kullanın (bilgisayardan dışa aktarılmış).",
       "faq2q": "Hangi sayfa çalışma kitabı olur?",
       "faq2a": "Her sayfanın algılanan satırları tek bir çalışma sayfasında birleştirilir ve okuma sırası korunur."
+    },
+    "pdf-to-word": {
+      "name": "PDF'ten Word'e",
+      "desc": "PDF'inizi düzenlenebilir bir Word belgesine dönüştürün.",
+      "long": "Her sayfayı gerçek Word içeriği olarak yeniden oluşturur: başlıklar ve paragraflar paragraf olarak kalır, her tablo da düzenleyebileceğiniz, sıralayabileceğiniz ve boyutlandırabileceğiniz gerçek bir Word tablosuna dönüşür. Metin PDF'in kendi metin katmanından alınır ve metin katmanı olmayan sayfalar otomatik olarak OCR ile okunur. Her şey cihazınızda işlenir.",
+      "faq1q": "Taranmış PDF'leri okur mu?",
+      "faq1a": "Evet. Bir sayfanın metin katmanı yoksa, sayfa görüntülenir ve otomatik olarak OCR ile okunur. OCR kusursuz değildir, bu yüzden kullanmadan önce önizlemeyi mutlaka kontrol edin.",
+      "faq2q": "Tablolar Word'de düzenlenebilir mi?",
+      "faq2a": "Evet. Tablolar resim veya sekmeyle ayrılmış metin olarak değil, yerel Word tabloları olarak yazılır; böylece hücreleri düzenleyebilir, satır ekleyebilir ve herhangi bir tablo gibi sıralayabilirsiniz."
     },
     "png-to-pdf": {
       "name": "PNG’den PDF’e",

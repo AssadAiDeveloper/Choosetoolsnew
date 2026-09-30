@@ -84,6 +84,18 @@
     "noTableTitle": "Text found, but no table detected",
     "noTableBody": "We could read the text but could not find consistent columns, so the result would be a single column. If this document has a table, exporting it from the original app usually works better."
   },
+  "pdfToWord": {
+    "page": "Page",
+    "building": "Building the document…",
+    "pagesLabel": "pages",
+    "tablesLabel": "tables",
+    "ocrBadge": "read with OCR",
+    "ocrStatus": "OCR: {status}",
+    "ocrHint": "Some pages had no text layer, so they were read with OCR. Check the numbers in the preview — OCR can misread digits.",
+    "ocrPage": "Page {page} has no text — running OCR…",
+    "noTextTitle": "No readable text found",
+    "noTextBody": "This PDF has no text layer and its pages could not be read. If it is a scan, try a higher-quality file, or export it from the original application as a digital PDF."
+  },
   "tool": {
     "dropTitle": "Drop files here or click to choose",
     "dropSingle": "Drop a file here or click to choose",
@@ -579,6 +591,15 @@
       "faq1a": "Yes. If a page has no text layer, it is rendered and read with OCR automatically. OCR is not perfect, so always check the numbers in the preview before relying on them.",
       "faq2q": "Are the numbers real numbers in Excel?",
       "faq2a": "Yes. Values like 1,234.56, 12.5, currency and percentages are converted to true numbers, so sorting, filtering and SUM work. Identifiers such as 2024-001 stay as text on purpose."
+    },
+    "pdf-to-word": {
+      "name": "PDF to Word",
+      "desc": "Turn your PDF into an editable Word document.",
+      "long": "Rebuilds each page as real Word content: headings and paragraphs stay as paragraphs, and every table becomes an actual Word table you can edit, sort and resize. Your text is extracted from the PDF's own text layer, and pages without one are read with OCR automatically. Everything is processed on your device.",
+      "faq1q": "Will it read a scanned PDF?",
+      "faq1a": "Yes. If a page has no text layer, it is rendered and read with OCR automatically. OCR is not perfect, so always check the preview before relying on it.",
+      "faq2q": "Are the tables editable in Word?",
+      "faq2a": "Yes. Tables are written as native Word tables, not images or tab-separated text, so you can edit cells, add rows and sort them like any other table."
     },
     "png-to-pdf": {
       "name": "PNG to PDF",
