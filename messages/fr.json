@@ -69,6 +69,21 @@
       "desc": "Des outils conçus spécifiquement pour le texte et les dates arabes — pas des traductions d'outils anglais."
     }
   },
+  "pdfToExcel": {
+    "page": "Page",
+    "building": "Création du classeur…",
+    "rowsLabel": "lignes",
+    "colsLabel": "colonnes",
+    "pagesLabel": "pages",
+    "ocrBadge": "lu avec OCR",
+    "ocrHint": "Certaines pages n'avaient pas de couche de texte et ont été lues par OCR. Vérifiez les chiffres dans l'aperçu : l'OCR peut mal lire les chiffres.",
+    "ocrPage": "La page {page} n'a pas de texte : lancement de l'OCR…",
+    "ocrStatus": "OCR : {status}",
+    "noTextTitle": "Aucun texte lisible trouvé",
+    "noTextBody": "Ce PDF n'a pas de couche de texte et ses pages n'ont pas pu être lues. S'il s'agit d'un scan, essayez un fichier de meilleure qualité, ou exportez-le depuis l'application d'origine en PDF numérique.",
+    "noTableTitle": "Texte trouvé, mais aucun tableau détecté",
+    "noTableBody": "Nous avons pu lire le texte mais sans trouver de colonnes cohérentes : le résultat serait une seule colonne. Si ce document contient un tableau, l'export depuis l'application d'origine fonctionne généralement mieux."
+  },
   "tool": {
     "dropTitle": "Déposez vos fichiers ici ou cliquez pour choisir",
     "dropSingle": "Déposez un fichier ici ou cliquez pour choisir",

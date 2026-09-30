@@ -69,6 +69,21 @@
       "desc": "Herramientas creadas específicamente para texto y fechas en árabe."
     }
   },
+  "pdfToExcel": {
+    "page": "Página",
+    "building": "Creando el libro…",
+    "rowsLabel": "filas",
+    "colsLabel": "columnas",
+    "pagesLabel": "páginas",
+    "ocrBadge": "leído con OCR",
+    "ocrHint": "Algunas páginas no tenían capa de texto, por lo que se leyeron con OCR. Revise los números en la vista previa: el OCR puede confundir los dígitos.",
+    "ocrPage": "La página {page} no tiene texto: ejecutando OCR…",
+    "ocrStatus": "OCR: {status}",
+    "noTextTitle": "No se encontró texto legible",
+    "noTextBody": "Este PDF no tiene capa de texto y no se pudieron leer sus páginas. Si es un escaneo, pruebe con un archivo de mayor calidad o expórtelo desde la aplicación original como PDF digital.",
+    "noTableTitle": "Se encontró texto, pero no se detectó ninguna tabla",
+    "noTableBody": "Pudimos leer el texto pero no encontramos columnas consistentes, por lo que el resultado sería una sola columna. Si este documento tiene una tabla, exportarlo desde la aplicación original suele funcionar mejor."
+  },
   "tool": {
     "dropTitle": "Suelta archivos aquí o haz clic para elegir",
     "dropSingle": "Suelta un archivo aquí o haz clic para elegir",

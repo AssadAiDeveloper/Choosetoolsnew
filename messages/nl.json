@@ -69,6 +69,21 @@
       "desc": "Tools die speciaal zijn gebouwd voor Arabische tekst en datums — geen vertalingen van Engelse tools."
     }
   },
+  "pdfToExcel": {
+    "page": "Pagina",
+    "building": "Werkmap wordt gemaakt…",
+    "rowsLabel": "rijen",
+    "colsLabel": "kolommen",
+    "pagesLabel": "pagina's",
+    "ocrBadge": "gelezen met OCR",
+    "ocrHint": "Sommige pagina's hadden geen tekstlaag en zijn met OCR gelezen. Controleer de cijfers in het voorbeeld — OCR kan cijfers verkeerd lezen.",
+    "ocrPage": "Pagina {page} heeft geen tekst — OCR wordt uitgevoerd…",
+    "ocrStatus": "OCR: {status}",
+    "noTextTitle": "Geen leesbare tekst gevonden",
+    "noTextBody": "Deze PDF heeft geen tekstlaag en de pagina's konden niet worden gelezen. Als het een scan is, gebruik dan een bestand van hogere kwaliteit, of exporteer het uit de oorspronkelijke toepassing als digitale PDF.",
+    "noTableTitle": "Tekst gevonden, maar geen tabel gedetecteerd",
+    "noTableBody": "We konden de tekst lezen maar vonden geen consistente kolommen, dus het resultaat zou één kolom zijn. Als dit document een tabel bevat, werkt exporteren uit de oorspronkelijke toepassing doorgaans beter."
+  },
   "tool": {
     "dropTitle": "Zet bestanden hier neer of klik om te kiezen",
     "dropSingle": "Zet hier een bestand neer of klik om te kiezen",

@@ -69,6 +69,21 @@
       "desc": "Ferramentas criadas especificamente para texto e datas em árabe — não traduções de ferramentas inglesas."
     }
   },
+  "pdfToExcel": {
+    "page": "Página",
+    "building": "A criar o livro…",
+    "rowsLabel": "linhas",
+    "colsLabel": "colunas",
+    "pagesLabel": "páginas",
+    "ocrBadge": "lido com OCR",
+    "ocrHint": "Algumas páginas não tinham camada de texto, por isso foram lidas com OCR. Verifique os números na pré-visualização — o OCR pode ler mal os dígitos.",
+    "ocrPage": "A página {page} não tem texto — a executar OCR…",
+    "ocrStatus": "OCR: {status}",
+    "noTextTitle": "Não foi encontrado texto legível",
+    "noTextBody": "Este PDF não tem camada de texto e as suas páginas não puderam ser lidas. Se for uma digitalização, tente um ficheiro de maior qualidade, ou exporte-o da aplicação original como PDF digital.",
+    "noTableTitle": "Texto encontrado, mas nenhuma tabela detetada",
+    "noTableBody": "Conseguimos ler o texto mas não encontrámos colunas consistentes, por isso o resultado seria uma única coluna. Se este documento tiver uma tabela, exportar da aplicação original costuma funcionar melhor."
+  },
   "tool": {
     "dropTitle": "Largue aqui os ficheiros ou clique para escolher",
     "dropSingle": "Largue aqui um ficheiro ou clique para escolher",

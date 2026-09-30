@@ -69,6 +69,21 @@
       "desc": "Özellikle Arapça metin ve tarihler için oluşturulmuş araçlar — İngilizce araçların çevirisi değildir."
     }
   },
+  "pdfToExcel": {
+    "page": "Sayfa",
+    "building": "Çalışma kitabı oluşturuluyor…",
+    "rowsLabel": "satır",
+    "colsLabel": "sütun",
+    "pagesLabel": "sayfa",
+    "ocrBadge": "OCR ile okundu",
+    "ocrHint": "Bazı sayfalarda metin katmanı yoktu, bu yüzden OCR ile okundu. Önizlemedeki sayıları kontrol edin — OCR rakamları yanlış okuyabilir.",
+    "ocrPage": "{page}. sayfada metin yok — OCR çalıştırılıyor…",
+    "ocrStatus": "OCR: {status}",
+    "noTextTitle": "Okunabilir metin bulunamadı",
+    "noTextBody": "Bu PDF'de metin katmanı yok ve sayfaları okunamadı. Bu bir tarama ise daha yüksek kaliteli bir dosya deneyin veya uygulamadan dijital PDF olarak dışa aktarın.",
+    "noTableTitle": "Metin bulundu ancak tablo algılanmadı",
+    "noTableBody": "Metni okuyabildik ancak tutarlı sütunlar bulamadık, bu nedenle sonuç tek sütun olur. Bu belgede tablo varsa, özgün uygulamadan dışa aktarmak genellikle daha iyi sonuç verir."
+  },
   "tool": {
     "dropTitle": "Dosyaları buraya sürükleyin veya seçmek için tıklayın",
     "dropSingle": "Bir dosyayı buraya sürükleyin veya seçmek için tıklayın",

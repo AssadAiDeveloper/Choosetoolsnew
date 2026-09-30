@@ -69,6 +69,21 @@
       "desc": "Tools built specifically for Arabic text and dates — not translations of English tools."
     }
   },
+  "pdfToExcel": {
+    "page": "Page",
+    "building": "Building workbook…",
+    "rowsLabel": "rows",
+    "colsLabel": "columns",
+    "pagesLabel": "pages",
+    "ocrBadge": "read with OCR",
+    "ocrHint": "Some pages had no text layer, so they were read with OCR. Check the numbers in the preview — OCR can misread digits.",
+    "ocrPage": "Page {page} has no text — running OCR…",
+    "ocrStatus": "OCR: {status}",
+    "noTextTitle": "No readable text found",
+    "noTextBody": "This PDF has no text layer and its pages could not be read. If it is a scan, try a higher-quality file, or export it from the original application as a digital PDF.",
+    "noTableTitle": "Text found, but no table detected",
+    "noTableBody": "We could read the text but could not find consistent columns, so the result would be a single column. If this document has a table, exporting it from the original app usually works better."
+  },
   "tool": {
     "dropTitle": "Drop files here or click to choose",
     "dropSingle": "Drop a file here or click to choose",
@@ -559,11 +574,11 @@
     "pdf-to-excel": {
       "name": "PDF to Excel",
       "desc": "Turn tables inside your PDF into an Excel spreadsheet.",
-      "long": "Reads the text layer of each page, groups words into rows and columns by their positions, and saves the result as a formatted .xlsx file with a bold header row. Everything is processed on your device.",
-      "faq1q": "Why did my scanned PDF produce no table?",
-      "faq1a": "Scanned PDFs are images without a text layer, so there are no words to arrange. Please use a PDF created digitally (exported from a computer).",
-      "faq2q": "Which page becomes the workbook?",
-      "faq2a": "Every page's detected rows are merged into a single worksheet, keeping reading order."
+      "long": "Reads the text layer of each page, rebuilds the table grid from the real column positions, and saves the result as a formatted .xlsx file with real numbers, auto-sized columns and a bold header row. Pages without a text layer are read with OCR automatically. Everything is processed on your device.",
+      "faq1q": "Will it read a scanned PDF?",
+      "faq1a": "Yes. If a page has no text layer, it is rendered and read with OCR automatically. OCR is not perfect, so always check the numbers in the preview before relying on them.",
+      "faq2q": "Are the numbers real numbers in Excel?",
+      "faq2a": "Yes. Values like 1,234.56, 12.5, currency and percentages are converted to true numbers, so sorting, filtering and SUM work. Identifiers such as 2024-001 stay as text on purpose."
     },
     "png-to-pdf": {
       "name": "PNG to PDF",

@@ -69,6 +69,21 @@
       "desc": "Alat yang dibuat khusus untuk teks dan tanggal Arab — bukan terjemahan dari alat bahasa Inggris."
     }
   },
+  "pdfToExcel": {
+    "page": "Halaman",
+    "building": "Membuat buku kerja…",
+    "rowsLabel": "baris",
+    "colsLabel": "kolom",
+    "pagesLabel": "halaman",
+    "ocrBadge": "dibaca dengan OCR",
+    "ocrHint": "Beberapa halaman tidak memiliki lapisan teks, sehingga dibaca dengan OCR. Periksa angkanya di pratinjau — OCR dapat salah membaca digit.",
+    "ocrPage": "Halaman {page} tidak memiliki teks — menjalankan OCR…",
+    "ocrStatus": "OCR: {status}",
+    "noTextTitle": "Tidak ditemukan teks yang dapat dibaca",
+    "noTextBody": "PDF ini tidak memiliki lapisan teks dan halamannya tidak dapat dibaca. Jika ini hasil pindai, gunakan berkas berkualitas lebih tinggi, atau ekspor dari aplikasi asal sebagai PDF digital.",
+    "noTableTitle": "Teks ditemukan, tetapi tidak ada tabel yang terdeteksi",
+    "noTableBody": "Kami dapat membaca teksnya tetapi tidak menemukan kolom yang konsisten, sehingga hasilnya hanya satu kolom. Jika dokumen ini memiliki tabel, mengekspor dari aplikasi asal biasanya lebih baik."
+  },
   "tool": {
     "dropTitle": "Seret berkas ke sini atau klik untuk memilih",
     "dropSingle": "Seret sebuah berkas ke sini atau klik untuk memilih",

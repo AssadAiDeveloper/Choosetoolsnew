@@ -69,6 +69,21 @@
       "desc": "Tools, die speziell für arabische Texte und Daten entwickelt wurden — keine Übersetzungen englischer Tools."
     }
   },
+  "pdfToExcel": {
+    "page": "Seite",
+    "building": "Arbeitsmappe wird erstellt…",
+    "rowsLabel": "Zeilen",
+    "colsLabel": "Spalten",
+    "pagesLabel": "Seiten",
+    "ocrBadge": "mit OCR gelesen",
+    "ocrHint": "Einige Seiten hatten keine Textebene und wurden mit OCR gelesen. Prüfen Sie die Zahlen in der Vorschau – OCR kann Ziffern falsch erkennen.",
+    "ocrPage": "Seite {page} hat keinen Text – OCR wird ausgeführt…",
+    "ocrStatus": "OCR: {status}",
+    "noTextTitle": "Kein lesbarer Text gefunden",
+    "noTextBody": "Dieses PDF hat keine Textebene und seine Seiten konnten nicht gelesen werden. Falls es ein Scan ist, verwenden Sie eine Datei höherer Qualität oder exportieren Sie sie aus der Originalanwendung als digitales PDF.",
+    "noTableTitle": "Text gefunden, aber keine Tabelle erkannt",
+    "noTableBody": "Wir konnten den Text lesen, aber keine konsistenten Spalten finden, sodass das Ergebnis eine einzelne Spalte wäre. Wenn dieses Dokument eine Tabelle enthält, funktioniert der Export aus der Originalanwendung meist besser."
+  },
   "tool": {
     "dropTitle": "Dateien hier ablegen oder zum Auswählen klicken",
     "dropSingle": "Eine Datei hier ablegen oder zum Auswählen klicken",
