@@ -23,12 +23,18 @@ export async function staticPageMetadata(
     metadataBase: new URL(SITE_URL),
     alternates: {
       canonical: `${SITE_URL}${prefix}/${page}`,
-      languages: Object.fromEntries(
-        routing.locales.map((l) => [
-          l,
-          `${SITE_URL}${l === routing.defaultLocale ? "" : `/${l}`}/${page}`,
-        ])
-      ),
+      languages: {
+        ...Object.fromEntries(
+          routing.locales.map((l) => [
+            l,
+            `${SITE_URL}${l === routing.defaultLocale ? "" : `/${l}`}/${page}`,
+          ])
+        ),
+        // Pages that declare `alternates` replace the layout's copy outright,
+        // so without this the four static pages shipped hreflang with no
+        // x-default while every other page had one.
+        "x-default": `${SITE_URL}/${page}`,
+      },
     },
   };
 }

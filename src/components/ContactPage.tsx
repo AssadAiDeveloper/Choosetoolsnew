@@ -13,12 +13,17 @@ export async function contactPageMetadata(locale: string): Promise<Metadata> {
     metadataBase: new URL(SITE_URL),
     alternates: {
       canonical: `${SITE_URL}${prefix}/contact`,
-      languages: Object.fromEntries(
-        routing.locales.map((l) => [
-          l,
-          `${SITE_URL}${l === routing.defaultLocale ? "" : `/${l}`}/contact`,
-        ])
-      ),
+      languages: {
+        ...Object.fromEntries(
+          routing.locales.map((l) => [
+            l,
+            `${SITE_URL}${l === routing.defaultLocale ? "" : `/${l}`}/contact`,
+          ])
+        ),
+        // Declaring `alternates` replaces the layout's copy, so x-default has
+        // to be repeated here or this page ships hreflang without one.
+        "x-default": `${SITE_URL}/contact`,
+      },
     },
   };
 }

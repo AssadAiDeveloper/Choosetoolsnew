@@ -24,12 +24,17 @@ export async function generateMetadata({
     metadataBase: new URL(SITE_URL),
     alternates: {
       canonical: `${SITE_URL}${prefix}/donate`,
-      languages: Object.fromEntries(
-        routing.locales.map((l) => [
-          l,
-          `${SITE_URL}${l === routing.defaultLocale ? "" : `/${l}`}/donate`,
-        ])
-      ),
+      languages: {
+        ...Object.fromEntries(
+          routing.locales.map((l) => [
+            l,
+            `${SITE_URL}${l === routing.defaultLocale ? "" : `/${l}`}/donate`,
+          ])
+        ),
+        // Declaring `alternates` replaces the layout's copy, so x-default has
+        // to be repeated here or this page ships hreflang without one.
+        "x-default": `${SITE_URL}/donate`,
+      },
     },
   };
 }
