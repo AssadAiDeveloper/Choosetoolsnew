@@ -1,581 +1,823 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useCallback, useEffect, useMemo, useReducer, useRef, useState } from "react";
+import { useLocale, useTranslations } from "next-intl";
+import { StandardFonts } from "pdf-lib";
 import { FileDropzone } from "../FileDropzone";
 import { Processing, ErrorBox, PrimaryButton } from "../ToolShell";
-import { downloadBlob } from "@/lib/download";
-import { useLocale } from "next-intl";
+import { downloadBlob, formatBytes, replaceExt } from "@/lib/download";
+import { pdfjsWorkerSrc } from "@/lib/pdfOcr";
+import { scanDocument, totalRuns, type ScannedPage, type TextRun } from "@/lib/pdfTextScan";
+import {
+  STANDARD_FONTS,
+  readCustomFont,
+  registerPreviewFont,
+  standardFontCanEncode,
+  type CustomFont,
+} from "@/lib/pdfFonts";
+import { applyEdits, FontCannotRenderError, type Align, type FontSpec, type TextEdit } from "@/lib/pdfEditWrite";
 
-interface Tx { id: string; text: string; size: number; color: string; x: number; y: number; }
+type Stage = "pick" | "scanning" | "edit" | "saving" | "error";
 
-let nextId = 1;
-function makeId() { return String(nextId++); }
+/** The mutable state of one edited run. The original run is kept so the text
+ *  can always be restored and the cover rectangle stays the right size. */
+interface RunState {
+  text: string;
+  font: FontSpec;
+  size: number;
+  color: string;
+  bold: boolean;
+  italic: boolean;
+  coverColor: string;
+  align: Align;
+}
 
-const DEBOUNCE_MS = 350;
+const DEFAULT_STANDARD = STANDARD_FONTS[0];
+
+/** Build the state a freshly selected run starts from.
+ *
+ *  A run whose text a standard font cannot encode (any Arabic, and most
+ *  non-Latin scripts) would otherwise default to Helvetica and then fail the
+ *  export with a font error. If the user has already uploaded a font, start
+ *  that run on it instead. */
+function initialState(run: TextRun, customFonts: CustomFont[] = []): RunState {
+  const needsCustom = !standardFontCanEncode(run.text);
+  return {
+    text: run.text,
+    font:
+      needsCustom && customFonts.length > 0
+        ? { kind: "custom", custom: customFonts[0] }
+        : { kind: "standard", standard: DEFAULT_STANDARD.standard },
+    size: Math.round(run.height * 10) / 10,
+    color: "#111111",
+    bold: false,
+    italic: false,
+    coverColor: "#ffffff",
+    align: "start",
+  };
+}
+
+const RTL_RE = /[\u0590-\u05FF\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB1D-\uFDFF\uFE70-\uFEFF]/;
+
+interface DocState {
+  /** runId -> state. Only edited runs are present, so an untouched document
+   *  never triggers a rewrite. */
+  edits: Record<string, RunState>;
+  /** Snapshots of `edits` before each change. */
+  history: Record<string, RunState>[];
+  /** Snapshots undone from history, replayed by redo. */
+  future: Record<string, RunState>[];
+}
+
+const INITIAL_DOC: DocState = { edits: {}, history: [], future: [] };
+
+type DocAction =
+  | { type: "reset" }
+  | { type: "set"; runId: string; run: TextRun; state: RunState }
+  | { type: "revert"; runId: string; run: TextRun }
+  | { type: "undo" }
+  | { type: "redo" };
+
+function docReducer(s: DocState, a: DocAction): DocState {
+  switch (a.type) {
+    case "reset":
+      return INITIAL_DOC;
+    case "set": {
+      const current = s.edits[a.runId];
+      // First touch of a run: there is no earlier state to return to.
+      if (!current) {
+        return { edits: { ...s.edits, [a.runId]: a.state }, history: s.history, future: [] };
+      }
+      return {
+        edits: { ...s.edits, [a.runId]: a.state },
+        history: [...s.history, s.edits],
+        future: [],
+      };
+    }
+    case "revert": {
+      if (!s.edits[a.runId]) return s;
+      const edits = { ...s.edits };
+      delete edits[a.runId];
+      // A removed key is only representable because the whole map is snapshotted.
+      return { edits, history: [...s.history, s.edits], future: [] };
+    }
+    case "undo": {
+      if (!s.history.length) return s;
+      return {
+        edits: s.history[s.history.length - 1],
+        history: s.history.slice(0, -1),
+        future: [s.edits, ...s.future],
+      };
+    }
+    case "redo": {
+      if (!s.future.length) return s;
+      return {
+        edits: s.future[0],
+        history: [...s.history, s.edits],
+        future: s.future.slice(1),
+      };
+    }
+  }
+}
 
 export default function PdfEditor() {
   const t = useTranslations("tool");
+  const tp = useTranslations("pdfEditor");
   const locale = useLocale();
+  const isRtlUi = locale.startsWith("ar");
+
   const [file, setFile] = useState<File | null>(null);
+  const [stage, setStage] = useState<Stage>("pick");
+  const [pages, setPages] = useState<ScannedPage[]>([]);
   const [pageNum, setPageNum] = useState(1);
-  const [pageTexts, setPageTexts] = useState<Record<number, Tx[]>>({});
-  const [editingId, setEditingId] = useState<string | null>(null);
-  const [selectedId, setSelectedId] = useState<string | null>(null);
-  const [stage, setStage] = useState<"pick" | "busy" | "done" | "error">("pick");
+  const [scanProgress, setScanProgress] = useState(0);
+  const [customFonts, setCustomFonts] = useState<CustomFont[]>([]);
+  const [fontError, setFontError] = useState<string | null>(null);
+
+  // runId -> state, plus the undo/redo stacks, live in ONE reducer.
+  //
+  // They were three separate useState calls before, and the setters were nested
+  // inside each other (setHistory called from inside a setEdits updater). React
+  // updaters must be pure, so undo silently did nothing. Keeping all three in a
+  // single atomic state also lets a snapshot express a *removed* run, which a
+  // shallow merge of two snapshots can never do.
+  const [doc, dispatch] = useReducer(docReducer, INITIAL_DOC);
+  const { edits, history, future } = doc;
+  const [selected, setSelected] = useState<string | null>(null);
+  const [query, setQuery] = useState("");
   const [out, setOut] = useState<Blob | null>(null);
-  const [applying, setApplying] = useState(false);
-  const [zoom, setZoom] = useState(100);
+  const [notice, setNotice] = useState<string | null>(null);
 
-  const containerRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const pageBaseRef = useRef<HTMLCanvasElement | null>(null);
-  const pdfRef = useRef<any>(null);
-  const pageCountRef = useRef(1);
-  const [pageReady, setPageReady] = useState(false);
-  const pdfDimsRef = useRef({ pw: 0, ph: 0 });
+  const baseRef = useRef<HTMLCanvasElement | null>(null);
+  const pdfRef = useRef<{ getPage(n: number): Promise<unknown>; numPages: number; destroy(): void } | null>(null);
+  const bytesRef = useRef<ArrayBuffer | null>(null);
+  const fontInputRef = useRef<HTMLInputElement>(null);
 
-  const originalBytesRef = useRef<ArrayBuffer | null>(null);
-  const debounceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const inputRef = useRef<HTMLTextAreaElement>(null);
-  const dragRef = useRef<{ id: string; startX: number; startY: number; startPx: number; startPy: number } | null>(null);
+  const page = pages[pageNum - 1] ?? null;
+  const allRuns = useMemo(() => pages.flatMap((p) => p.runs), [pages]);
 
-  const currentTexts = pageTexts[pageNum] || [];
+  const matches = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return allRuns;
+    return allRuns.filter((r) => r.text.toLowerCase().includes(q));
+  }, [allRuns, query]);
 
-  useEffect(() => {
-    if (!file) { originalBytesRef.current = null; return; }
-    let cancelled = false;
-    file.arrayBuffer().then((buf) => { if (!cancelled) originalBytesRef.current = buf; });
-    return () => { cancelled = true; };
-  }, [file]);
+  const editedCount = Object.keys(edits).length;
+  const canUndo = history.length > 0;
+  const canRedo = future.length > 0;
 
-  useEffect(() => {
-    let cancelled = false;
-    if (!file) return;
-    (async () => {
-      try {
-        const pdfjsLib: any = await import("pdfjs-dist");
-        pdfjsLib.GlobalWorkerOptions.workerSrc = new URL(
-          "pdfjs-dist/build/pdf.worker.min.mjs",
-          import.meta.url
-        ).toString();
-        const data = await file.arrayBuffer();
-        const pdf = await pdfjsLib.getDocument({ data }).promise;
-        pageCountRef.current = pdf.numPages || 1;
-        pdfRef.current = pdf;
-        if (cancelled) return;
-        setPageNum(1);
-        await loadPage(pdf, 1);
-      } catch {
-        setPageReady(false);
-      }
-    })();
-    return () => { cancelled = true; };
-  }, [file]);
+  // ---------------------------------------------------------------- loading
 
-  useEffect(() => {
-    if (!pdfRef.current) return;
-    let cancelled = false;
-    (async () => {
-      await loadPage(pdfRef.current, pageNum);
-      if (!cancelled) setEditingId(null);
-    })();
-    return () => { cancelled = true; };
-  }, [pageNum]);
+  const load = useCallback(async (f: File) => {
+    setFile(f);
+    setStage("scanning");
+    setScanProgress(0);
+    dispatch({ type: "reset" });
+    setSelected(null);
+    setOut(null);
+    setNotice(null);
+    setQuery("");
 
-  useEffect(() => {
-    const handler = (e: KeyboardEvent) => {
-      if (editingId) return;
-      if ((e.key === "Delete" || e.key === "Backspace") && selectedId) {
-        e.preventDefault();
-        removeText(selectedId);
-      }
-      if (e.key === "Escape") {
-        setSelectedId(null);
-        setEditingId(null);
-      }
-    };
-    window.addEventListener("keydown", handler);
-    return () => window.removeEventListener("keydown", handler);
-  }, [selectedId, editingId]);
-
-  async function loadPage(pdf: any, num: number) {
     try {
-      const page = await pdf.getPage(Math.min(Math.max(num, 1), pdf.numPages));
-      const vp1 = page.getViewport({ scale: 1 });
-      pdfDimsRef.current = { pw: vp1.width, ph: vp1.height };
-      const maxW = Math.min(900, window.innerWidth - 64);
-      const viewport = page.getViewport({ scale: maxW / vp1.width });
-      const c = document.createElement("canvas");
-      c.width = viewport.width;
-      c.height = viewport.height;
-      await page.render({ canvasContext: c.getContext("2d")!, viewport } as never).promise;
-      pageBaseRef.current = c;
-      setPageReady(true);
-    } catch {
-      setPageReady(false);
-    }
-  }
-
-  const drawCanvas = useCallback(() => {
-    const canvas = canvasRef.current;
-    const base = pageBaseRef.current;
-    if (!canvas || !base) return;
-    canvas.width = base.width;
-    canvas.height = base.height;
-    const ctx = canvas.getContext("2d");
-    if (!ctx) return;
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.drawImage(base, 0, 0);
-
-    const { pw, ph } = pdfDimsRef.current;
-    if (pw === 0 || ph === 0) return;
-    const scaleX = base.width / pw;
-    const scaleY = base.height / ph;
-
-    for (const tx of currentTexts) {
-      if (!tx.text.trim() && tx.id !== editingId) continue;
-      const displayX = tx.x * scaleX;
-      const displayY = (ph - tx.y) * scaleY;
-      const fontSize = tx.size * scaleX;
-
-      ctx.font = `600 ${fontSize}px Helvetica, Arial, sans-serif`;
-      ctx.fillStyle = tx.color;
-      ctx.textBaseline = "alphabetic";
-
-      if (editingId === tx.id && !tx.text.trim()) {
-        ctx.globalAlpha = 0.35;
-        ctx.fillText("Type here...", displayX, displayY);
-        ctx.globalAlpha = 1;
-      } else {
-        ctx.fillText(tx.text, displayX, displayY);
+      const pdfjs = await import("pdfjs-dist");
+      pdfjs.GlobalWorkerOptions.workerSrc = pdfjsWorkerSrc(pdfjs);
+      const data = await f.arrayBuffer();
+      bytesRef.current = data;
+      // pdf.js may transfer the buffer to its worker, so hand it a copy and
+      // keep the original intact for the export step.
+      const doc = await pdfjs.getDocument({ data: data.slice(0) }).promise;
+      pdfRef.current = doc as never;
+      const scanned = await scanDocument(doc, (done, total) => setScanProgress(Math.round((done / total) * 100)));
+      setPages(scanned);
+      setPageNum(1);
+      if (!totalRuns(scanned)) {
+        // A scanned page has no text layer at all. Say so plainly instead of
+        // presenting an empty editor.
+        setNotice("noText");
+        setStage("error");
+        return;
       }
-
-      if (selectedId === tx.id && editingId !== tx.id) {
-        const metrics = ctx.measureText(tx.text || "…");
-        const textW = metrics.width;
-        const textH = fontSize;
-        const pad = 6;
-        ctx.strokeStyle = "#10a37f";
-        ctx.lineWidth = 2;
-        ctx.setLineDash([6, 4]);
-        ctx.strokeRect(displayX - pad, displayY - textH - pad, textW + pad * 2, textH + pad * 2);
-        ctx.setLineDash([]);
-        ctx.fillStyle = "#10a37f";
-        ctx.beginPath();
-        ctx.arc(displayX - pad, displayY - textH - pad, 4, 0, Math.PI * 2);
-        ctx.fill();
-      }
-    }
-  }, [currentTexts, selectedId, editingId]);
-
-  useEffect(() => { drawCanvas(); }, [drawCanvas, pageReady, pageNum]);
-
-  const applyToPdf = useCallback(async (allTexts: Record<number, Tx[]>) => {
-    if (!originalBytesRef.current) return;
-    setApplying(true);
-    try {
-      const { PDFDocument, StandardFonts, rgb } = await import("pdf-lib");
-      const doc = await PDFDocument.load(originalBytesRef.current.slice(0), {
-        ignoreEncryption: true, throwOnInvalidObject: false,
-      });
-      const total = doc.getPageCount();
-      if (total < 1) throw new Error("PDF has no pages");
-      const font = await doc.embedFont(StandardFonts.Helvetica);
-      for (const [pageStr, txs] of Object.entries(allTexts)) {
-        const pgNum = Number(pageStr);
-        if (pgNum < 1 || pgNum > total) continue;
-        const page = doc.getPage(pgNum - 1);
-        for (const tx of txs) {
-          if (!tx.text.trim()) continue;
-          const color = rgb(
-            parseInt(tx.color.slice(1, 3), 16) / 255,
-            parseInt(tx.color.slice(3, 5), 16) / 255,
-            parseInt(tx.color.slice(5, 7), 16) / 255
-          );
-          page.drawText(tx.text, { x: tx.x, y: tx.y, size: tx.size, font, color });
-        }
-      }
-      const bytes = await doc.save();
-      setOut(new Blob([bytes as unknown as ArrayBuffer], { type: "application/pdf" }));
+      setStage("edit");
     } catch (err) {
-      console.error("[PdfEditor] applyToPdf:", err);
-    } finally {
-      setApplying(false);
+      // A silent catch here previously hid a missing pdf.js worker: the editor
+      // just showed "could not be processed" with nothing in the console.
+      if (process.env.NODE_ENV !== "production") {
+        console.error("PDF Editor failed to open the file:", err);
+      }
+      setStage("error");
     }
   }, []);
 
+  const reset = useCallback(() => {
+    pdfRef.current?.destroy();
+    pdfRef.current = null;
+    bytesRef.current = null;
+    baseRef.current = null;
+    setFile(null);
+    setPages([]);
+    setPageNum(1);
+    dispatch({ type: "reset" });
+    setSelected(null);
+    setOut(null);
+    setNotice(null);
+    setQuery("");
+    setCustomFonts([]);
+    setStage("pick");
+  }, []);
+
+  // ------------------------------------------------------------ page render
+
   useEffect(() => {
-    const hasTexts = Object.values(pageTexts).some((arr) => arr.length > 0);
-    if (!hasTexts) { setOut(null); return; }
-    if (debounceTimer.current) clearTimeout(debounceTimer.current);
-    debounceTimer.current = setTimeout(() => applyToPdf(pageTexts), DEBOUNCE_MS);
-    return () => { if (debounceTimer.current) clearTimeout(debounceTimer.current); };
-  }, [pageTexts, applyToPdf]);
+    if (stage !== "edit" || !page || !pdfRef.current) return;
+    let cancelled = false;
 
-  function displayToPdf(clientX: number, clientY: number) {
-    const canvas = canvasRef.current;
-    const base = pageBaseRef.current;
-    if (!canvas || !base) return { x: 0, y: 0 };
-    const rect = canvas.getBoundingClientRect();
-    const { pw, ph } = pdfDimsRef.current;
-    if (pw === 0 || ph === 0) return { x: 0, y: 0 };
-    const cx = ((clientX - rect.left) / rect.width) * base.width;
-    const cy = ((clientY - rect.top) / rect.height) * base.height;
-    return {
-      x: Math.round((cx / base.width) * pw * 10) / 10,
-      y: Math.round(((base.height - cy) / base.height) * ph * 10) / 10,
+    (async () => {
+      const doc = pdfRef.current;
+      if (!doc) return;
+      const pdfPage = (await doc.getPage(pageNum)) as {
+        getViewport(o: { scale: number }): { width: number; height: number };
+        render(o: unknown): { promise: Promise<void> };
+      };
+      const vp1 = pdfPage.getViewport({ scale: 1 });
+      const width = Math.min(1000, Math.max(320, window.innerWidth - 420));
+      const scale = width / vp1.width;
+      const viewport = pdfPage.getViewport({ scale });
+
+      const c = document.createElement("canvas");
+      const dpr = Math.min(2, window.devicePixelRatio || 1);
+      c.width = Math.floor(viewport.width * dpr);
+      c.height = Math.floor(viewport.height * dpr);
+      const ctx = c.getContext("2d");
+      if (!ctx) return;
+      ctx.scale(dpr, dpr);
+      await pdfPage.render({ canvasContext: ctx, viewport }).promise;
+      if (cancelled) return;
+      baseRef.current = c;
+      draw();
+    })();
+
+    return () => {
+      cancelled = true;
     };
-  }
+    // draw is stable enough via refs; re-render on page or edits only.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pageNum, stage, pages]);
 
-  function hitTest(clientX: number, clientY: number): string | null {
+  // --------------------------------------------------------------- drawing
+
+  const draw = useCallback(() => {
     const canvas = canvasRef.current;
-    const base = pageBaseRef.current;
-    if (!canvas || !base) return null;
-    const rect = canvas.getBoundingClientRect();
-    const { pw, ph } = pdfDimsRef.current;
-    if (pw === 0 || ph === 0) return null;
-    const cx = ((clientX - rect.left) / rect.width) * base.width;
-    const cy = ((clientY - rect.top) / rect.height) * base.height;
-    const scaleX = base.width / pw;
-    const ctx = canvas.getContext("2d");
-    if (!ctx) return null;
+    const base = baseRef.current;
+    const pg = pages[pageNum - 1];
+    if (!canvas || !base || !pg) return;
 
-    for (let i = currentTexts.length - 1; i >= 0; i--) {
-      const tx = currentTexts[i];
-      if (!tx.text.trim()) continue;
-      const fontSize = tx.size * scaleX;
-      ctx.font = `600 ${fontSize}px Helvetica, Arial, sans-serif`;
-      const tw = ctx.measureText(tx.text).width;
-      const displayX = tx.x * scaleX;
-      const displayY = (ph - tx.y) * (base.height / ph);
-      if (cx >= displayX - 8 && cx <= displayX + tw + 8 && cy >= displayY - fontSize - 8 && cy <= displayY + 8) {
-        return tx.id;
+    const dpr = Math.min(2, window.devicePixelRatio || 1);
+    canvas.width = base.width;
+    canvas.height = base.height;
+    canvas.style.width = `${base.width / dpr}px`;
+    canvas.style.height = `${base.height / dpr}px`;
+
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(base, 0, 0);
+
+    // Viewport at scale 1 is the page box with the origin top-left; PDF user
+    // space has it bottom-left, so y is flipped on the way to the canvas.
+    const sx = canvas.width / pg.width;
+    const sy = canvas.height / pg.height;
+
+    for (const run of pg.runs) {
+      const st = edits[run.id];
+      const bx = run.box.x * sx;
+      const by = (pg.height - run.box.y - run.box.h) * sy;
+      const bw = run.box.w * sx;
+      const bh = run.box.h * sy;
+
+      if (st) {
+        // Preview the cover and the replacement so what the user sees matches
+        // what will be written.
+        ctx.fillStyle = st.coverColor;
+        ctx.fillRect(bx, by, bw, bh);
+        const css = fontCss(st.font, customFonts);
+        const size = (st.size > 0 ? st.size : run.height) * sx;
+        ctx.font = `${st.bold && st.font.kind === "custom" ? 700 : 400} ${size}px ${css}`;
+        ctx.fillStyle = st.color;
+        ctx.textBaseline = "alphabetic";
+        const tx = run.x * sx;
+        const ty = (pg.height - run.y) * sy;
+        let tw = ctx.measureText(st.text).width;
+        const centre = (run.width * sx - tw) / 2;
+        const off = st.align === "center" ? centre : (st.align === "end") !== run.rtl ? run.width * sx - tw : 0;
+        if (tw > run.width * sx * 1.12) {
+          // Too long for the original slot; mark it rather than let it
+          // silently run over the neighbouring content.
+          ctx.strokeStyle = "#e11d48";
+          ctx.setLineDash([3, 2]);
+          ctx.lineWidth = 1;
+          ctx.strokeRect(bx - 1, by - 1, bw + 2, bh + 2);
+          ctx.setLineDash([]);
+        }
+        ctx.fillText(st.text, tx + off, ty);
+        void tw;
       }
+
+      if (run.id === selected) {
+        ctx.strokeStyle = "#2563eb";
+        ctx.lineWidth = Math.max(1.5, dpr);
+        ctx.strokeRect(bx - 2, by - 2, bw + 4, bh + 4);
+      } else if (!st) {
+        // Faint hit targets so the page looks untouched but is clickable.
+        ctx.strokeStyle = "rgba(37,99,235,0.16)";
+        ctx.lineWidth = 1;
+        ctx.strokeRect(bx, by, bw, bh);
+      }
+    }
+  }, [pages, pageNum, edits, selected, customFonts]);
+
+  useEffect(() => {
+    draw();
+  }, [draw]);
+
+  // ------------------------------------------------------------- hit test
+
+  /** Which run is under a point given in CSS pixels relative to the canvas. */
+  const hitRun = useCallback(
+    (cssX: number, cssY: number): TextRun | null => {
+      const canvas = canvasRef.current;
+      const pg = pages[pageNum - 1];
+      if (!canvas || !pg) return null;
+      const dpr = Math.min(2, window.devicePixelRatio || 1);
+      const cx = cssX * dpr;
+      const cy = cssY * dpr;
+      const sx = canvas.width / pg.width;
+      const sy = canvas.height / pg.height;
+      // Topmost first: later runs paint over earlier ones.
+      for (let i = pg.runs.length - 1; i >= 0; i--) {
+        const run = pg.runs[i];
+        const bx = run.box.x * sx;
+        const by = (pg.height - run.box.y - run.box.h) * sy;
+        if (cx >= bx && cx <= bx + run.box.w * sx && cy >= by && cy <= by + run.box.h * sy) return run;
+      }
+      return null;
+    },
+    [pages, pageNum],
+  );
+
+  const pick = useCallback(
+    (ev: React.MouseEvent<HTMLCanvasElement>) => {
+      const rect = ev.currentTarget.getBoundingClientRect();
+      const run = hitRun(ev.clientX - rect.left, ev.clientY - rect.top);
+      setSelected(run ? run.id : null);
+    },
+    [hitRun],
+  );
+
+  // ------------------------------------------------------------ edit model
+
+  const commit = useCallback(
+    (runId: string, state: RunState) => {
+      const run = allRuns.find((r) => r.id === runId);
+      if (!run) return;
+      dispatch({ type: "set", runId, run, state });
+      setOut(null);
+    },
+    [allRuns],
+  );
+
+  const startEditing = useCallback((runId: string) => setSelected(runId), []);
+
+  const undo = useCallback(() => {
+    dispatch({ type: "undo" });
+    setOut(null);
+  }, []);
+
+  const redo = useCallback(() => {
+    dispatch({ type: "redo" });
+    setOut(null);
+  }, []);
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const mod = e.ctrlKey || e.metaKey;
+      if (!mod) return;
+      const k = e.key.toLowerCase();
+      if (k === "z" && !e.shiftKey) {
+        e.preventDefault();
+        undo();
+      } else if (k === "y" || (k === "z" && e.shiftKey)) {
+        e.preventDefault();
+        redo();
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [undo, redo]);
+
+  const activeRun = selected ? (allRuns.find((r) => r.id === selected) ?? null) : null;
+  // Show the original values for a run that is selected but not yet changed, so
+  // the panel is usable the moment a run is clicked.
+  const active = selected && activeRun ? (edits[selected] ?? initialState(activeRun, customFonts)) : null;
+  const activeCustom = active?.font.kind === "custom" ? active.font.custom : null;
+
+  const update = (patch: Partial<RunState>) => {
+    if (!selected || !activeRun) return;
+    // `active` is always a complete RunState, so spreading it fills the
+    // required fields that `patch` leaves out.
+    commit(selected, { ...active, ...patch } as RunState);
+  };
+
+  // ----------------------------------------------------------------- fonts
+
+  const onFontFile = useCallback(async (f: File | undefined) => {
+    if (!f) return;
+    setFontError(null);
+    try {
+      const custom = await readCustomFont(f);
+      await registerPreviewFont(custom);
+      setCustomFonts((prev) => [...prev, custom]);
+      if (selected && active) {
+        commit(selected, { ...active, font: { kind: "custom", custom }, italic: false });
+      }
+    } catch (err) {
+      setFontError(err instanceof Error && err.message.startsWith("font") ? err.message : "fontType");
+    }
+  }, [selected, active, commit]);
+
+  const fontWarning = useMemo(() => {
+    if (!active || !active.text) return null;
+    if (active.font.kind === "standard" && !standardFontCanEncode(active.text)) {
+      return isRtlUi ? "arabicNeedsFont" : "latinNeedsFont";
     }
     return null;
+  }, [active, isRtlUi]);
+
+  // ----------------------------------------------------------------- save
+
+  const save = useCallback(async () => {
+    if (!bytesRef.current) return;
+    setStage("saving");
+    setNotice(null);
+    try {
+      const list: TextEdit[] = [];
+      for (const [runId, st] of Object.entries(edits)) {
+        const run = allRuns.find((r) => r.id === runId);
+        if (!run) continue;
+        list.push({ runId, run, ...st });
+      }
+      const bytes = await applyEdits(bytesRef.current, list);
+      setOut(new Blob([bytes as unknown as BlobPart], { type: "application/pdf" }));
+      setStage("edit");
+    } catch (err) {
+      setNotice(err instanceof FontCannotRenderError ? "fontCannotRender" : "saveFailed");
+      setStage("edit");
+    }
+  }, [allRuns, edits]);
+
+  // ----------------------------------------------------------------- views
+
+  if (stage === "scanning") {
+    return (
+      <div className="space-y-4">
+        <Processing />
+        <p className="text-center text-sm text-ink-soft">
+          {tp("scanning", { percent: scanProgress })}
+        </p>
+      </div>
+    );
   }
 
-  const onCanvasPointerDown = (e: React.PointerEvent<HTMLCanvasElement>) => {
-    const hit = hitTest(e.clientX, e.clientY);
-    if (hit) {
-      setSelectedId(hit);
-      const tx = currentTexts.find((t) => t.id === hit);
-      if (tx) {
-        dragRef.current = { id: hit, startX: tx.x, startY: tx.y, startPx: e.clientX, startPy: e.clientY };
-        e.currentTarget.setPointerCapture(e.pointerId);
-      }
-    }
-  };
-
-  const onCanvasPointerMove = (e: React.PointerEvent<HTMLCanvasElement>) => {
-    if (!dragRef.current) return;
-    e.preventDefault();
-    const { id, startX, startY, startPx, startPy } = dragRef.current;
-    const canvas = canvasRef.current;
-    const base = pageBaseRef.current;
-    if (!canvas || !base) return;
-    const rect = canvas.getBoundingClientRect();
-    const { pw, ph } = pdfDimsRef.current;
-    if (pw === 0 || ph === 0) return;
-    const dxPdf = ((e.clientX - startPx) / rect.width) * pw;
-    const dyPdf = ((e.clientY - startPy) / rect.height) * ph;
-    updateText(id, {
-      x: Math.max(0, Math.min(pw, Math.round((startX + dxPdf) * 10) / 10)),
-      y: Math.max(0, Math.min(ph, Math.round((startY - dyPdf) * 10) / 10)),
-    });
-  };
-
-  const onCanvasPointerUp = (e: React.PointerEvent<HTMLCanvasElement>) => {
-    const drag = dragRef.current;
-    dragRef.current = null;
-    (e.currentTarget as HTMLCanvasElement).releasePointerCapture?.(e.pointerId);
-    if (drag) return;
-
-    const hit = hitTest(e.clientX, e.clientY);
-    if (hit) { setSelectedId(hit); return; }
-
-    const pos = displayToPdf(e.clientX, e.clientY);
-    const id = makeId();
-    setPageTexts((prev) => ({
-      ...prev,
-      [pageNum]: [...(prev[pageNum] || []), { id, text: "", size: 24, color: "#e05555", x: pos.x, y: pos.y }],
-    }));
-    setSelectedId(id);
-    setEditingId(id);
-    setTimeout(() => inputRef.current?.focus(), 0);
-  };
-
-  const onCanvasDblClick = (e: React.MouseEvent<HTMLCanvasElement>) => {
-    const hit = hitTest(e.clientX, e.clientY);
-    if (hit) {
-      setSelectedId(hit);
-      setEditingId(hit);
-      setTimeout(() => inputRef.current?.focus(), 0);
-    }
-  };
-
-  const updateText = (id: string, patch: Partial<Tx>) => {
-    setPageTexts((prev) => ({
-      ...prev,
-      [pageNum]: (prev[pageNum] || []).map((tx) => tx.id === id ? { ...tx, ...patch } : tx),
-    }));
-  };
-
-  const removeText = (id: string) => {
-    setPageTexts((prev) => ({
-      ...prev,
-      [pageNum]: (prev[pageNum] || []).filter((tx) => tx.id !== id),
-    }));
-    if (editingId === id) setEditingId(null);
-    if (selectedId === id) setSelectedId(null);
-  };
-
-  function pdfToDisplayPos(tx: Tx): { left: number; top: number } {
-    const canvas = canvasRef.current;
-    const base = pageBaseRef.current;
-    if (!canvas || !base) return { left: 0, top: 0 };
-    const { pw, ph } = pdfDimsRef.current;
-    if (pw === 0 || ph === 0) return { left: 0, top: 0 };
-    const scaleX = base.width / pw;
-    const scaleY = base.height / ph;
-    return {
-      left: tx.x * scaleX,
-      top: (ph - tx.y) * scaleY - tx.size * scaleX,
-    };
+  if (stage === "error" && notice === "noText") {
+    return (
+      <div className="space-y-4">
+        <ErrorBox onReset={reset} />
+        <p className="text-center text-sm text-ink-soft">{tp("noTextBody")}</p>
+      </div>
+    );
   }
 
-  const L = locale === "ar"
-    ? {
-        saving: "جاري الحفظ...",
-        saved: "تم الحفظ",
-        hint: "انقر على الصفحة لإضافة نص جديد",
-        delete: "حذف",
-        size: "الحجم",
-        color: "اللون",
-        dragHint: "اسحب للتحريك · اضغط مرتين للتعديل · Del للحذف",
-        page: "صفحة",
-        of: "من",
-        zoom: "تكبير",
-        fit: "ملائم",
-        filename: "الملف",
-        close: "إغلاق",
-      }
-    : {
-        saving: "Saving...",
-        saved: "Saved",
-        hint: "Click on the page to add text",
-        delete: "Delete",
-        size: "Size",
-        color: "Color",
-        dragHint: "Drag to move · Double-click to edit · Del to remove",
-        page: "Page",
-        of: "of",
-        zoom: "Zoom",
-        fit: "Fit",
-        filename: "File",
-        close: "Close",
-      };
-
-  const reset = () => {
-    setFile(null); setOut(null); setStage("pick"); setPageTexts({}); setSelectedId(null); setEditingId(null);
-    pageBaseRef.current = null; pdfRef.current = null; setPageReady(false); setApplying(false); setZoom(100);
-  };
-
-  const onFiles = (files: File[]) => {
-    const f = files[0];
-    if (!f) return;
-    setFile(f); setPageTexts({}); setSelectedId(null); setEditingId(null);
-  };
-
-  if (stage === "busy") return <Processing />;
   if (stage === "error") return <ErrorBox onReset={reset} />;
 
-  const selectedTx = currentTexts.find((tx) => tx.id === selectedId);
-  const editingTx = currentTexts.find((tx) => tx.id === editingId);
+  if (stage === "pick" || !page) {
+    return (
+      <FileDropzone
+        accept="application/pdf"
+        onFiles={(f) => load(f[0])}
+      />
+    );
+  }
 
   return (
     <div className="space-y-4">
-      {!file && <FileDropzone accept="application/pdf,.pdf" onFiles={onFiles} />}
-
-      {file && (
-        <div className="space-y-3 animate-fadeIn">
-
-          {/* Top toolbar */}
-          <div className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-3 py-2 shadow-sm">
-
-            {/* Close / File info */}
-            <button onClick={reset} title={L.close}
-              className="flex h-8 w-8 items-center justify-center rounded-lg text-slate-400 transition hover:bg-red-50 hover:text-red-500">
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-                <path d="M4 4l8 8M12 4l-8 8" />
-              </svg>
-            </button>
-
-            <div className="h-5 w-px bg-slate-200" />
-
-            <div className="flex flex-col min-w-0">
-              <span className="text-[10px] font-medium text-slate-400 uppercase tracking-wider leading-none">{L.filename}</span>
-              <span className="text-xs font-semibold text-slate-700 truncate max-w-[180px]">{file.name}</span>
-            </div>
-
-            <div className="h-5 w-px bg-slate-200" />
-
-            {/* Page navigation */}
-            <div className="flex items-center gap-1">
-              <button onClick={() => { setPageNum((p) => Math.max(1, p - 1)); setSelectedId(null); setEditingId(null); }}
-                disabled={pageNum <= 1}
-                className="flex h-7 w-7 items-center justify-center rounded-md border border-slate-200 text-slate-500 transition hover:bg-slate-50 hover:border-slate-300 disabled:opacity-30 disabled:hover:bg-transparent">
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M8 2L4 6l4 4" />
-                </svg>
-              </button>
-              <span className="text-xs font-semibold text-slate-600 tabular-nums min-w-[48px] text-center">
-                {pageNum} <span className="text-slate-400 font-normal">{L.of}</span> {pageCountRef.current}
-              </span>
-              <button onClick={() => { setPageNum((p) => Math.min(pageCountRef.current, p + 1)); setSelectedId(null); setEditingId(null); }}
-                disabled={pageNum >= pageCountRef.current}
-                className="flex h-7 w-7 items-center justify-center rounded-md border border-slate-200 text-slate-500 transition hover:bg-slate-50 hover:border-slate-300 disabled:opacity-30 disabled:hover:bg-transparent">
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M4 2l4 4-4 4" />
-                </svg>
-              </button>
-            </div>
-
-            {/* Text tools (when text selected) */}
-            {selectedTx && (
-              <>
-                <div className="h-5 w-px bg-slate-200" />
-                <div className="flex items-center gap-2 animate-dropIn">
-
-                  {/* Font size */}
-                  <div className="flex items-center gap-1 rounded-lg border border-slate-200 bg-slate-50 px-2 py-1">
-                    <svg width="12" height="12" viewBox="0 0 12 12" className="text-slate-400" fill="none" stroke="currentColor" strokeWidth="1.5">
-                      <text x="1" y="10" fontSize="9" fontWeight="bold" fill="currentColor" stroke="none">T</text>
-                    </svg>
-                    <input type="number" min={8} max={300} value={selectedTx.size}
-                      onChange={(e) => updateText(selectedTx.id, { size: Number(e.target.value) || 24 })}
-                      className="w-10 bg-transparent text-center text-xs font-semibold text-slate-700 outline-none [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none" />
-                  </div>
-
-                  {/* Color */}
-                  <div className="relative">
-                    <input type="color" value={selectedTx.color}
-                      onChange={(e) => updateText(selectedTx.id, { color: e.target.value })}
-                      className="absolute inset-0 h-full w-full cursor-pointer opacity-0" />
-                    <div className="flex h-7 w-7 items-center justify-center rounded-lg border border-slate-200 bg-slate-50 transition hover:border-slate-300">
-                      <div className="h-3.5 w-3.5 rounded-full border border-white shadow-sm" style={{ backgroundColor: selectedTx.color }} />
-                    </div>
-                  </div>
-
-                  {/* Delete */}
-                  <button onClick={() => removeText(selectedTx.id)}
-                    className="flex h-7 w-7 items-center justify-center rounded-lg border border-slate-200 bg-slate-50 text-slate-400 transition hover:border-red-200 hover:bg-red-50 hover:text-red-500"
-                    title={L.delete}>
-                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
-                      <path d="M2 3h8M4.5 3V2a1 1 0 011-1h1a1 1 0 011 1v1M3 3l.5 7a1 1 0 001 1h3a1 1 0 001-1L9 3" />
-                    </svg>
-                  </button>
-                </div>
-              </>
-            )}
-
-            {/* Spacer */}
-            <div className="flex-1" />
-
-            {/* Status + Download */}
-            <div className="flex items-center gap-2">
-              {applying && (
-                <span className="flex items-center gap-1.5 text-[11px] font-medium text-amber-600">
-                  <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-amber-500" />
-                  {L.saving}
-                </span>
-              )}
-              {!applying && out && (
-                <span className="flex items-center gap-1.5 text-[11px] font-medium text-emerald-600">
-                  <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
-                  {L.saved}
-                </span>
-              )}
-              {out && (
-                <button onClick={() => downloadBlob(out, "edited.pdf")}
-                  className="flex items-center gap-1.5 rounded-lg bg-emerald-600 px-3 py-1.5 text-xs font-semibold text-white shadow-sm transition hover:bg-emerald-700 active:scale-95">
-                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M6 1v8M3 6l3 3 3-3M2 10h8" />
-                  </svg>
-                  {t("download")}
-                </button>
-              )}
-            </div>
-          </div>
-
-          {/* Canvas */}
-          <div className="flex justify-center">
-            <div ref={containerRef} className="relative inline-block rounded-xl shadow-lg ring-1 ring-slate-200 overflow-hidden bg-white"
-              style={{ maxWidth: "100%", transform: `scale(${zoom / 100})`, transformOrigin: "top center" }}>
-              <canvas
-                ref={canvasRef}
-                onPointerDown={onCanvasPointerDown}
-                onPointerMove={onCanvasPointerMove}
-                onPointerUp={onCanvasPointerUp}
-                onDoubleClick={onCanvasDblClick}
-                className="block h-auto w-full cursor-crosshair touch-none"
-              />
-
-              {editingTx && (() => {
-                const pos = pdfToDisplayPos(editingTx);
-                const base = pageBaseRef.current;
-                const { pw } = pdfDimsRef.current;
-                if (!base || pw === 0) return null;
-                const scaleX = base.width / pw;
-                const fontSize = editingTx.size * scaleX;
-                return (
-                  <textarea
-                    ref={inputRef}
-                    dir="auto"
-                    value={editingTx.text}
-                    onChange={(e) => updateText(editingTx.id, { text: e.target.value })}
-                    onBlur={() => { if (!editingTx.text.trim()) removeText(editingTx.id); else setEditingId(null); }}
-                    onKeyDown={(e) => {
-                      if (e.key === "Escape") { setEditingId(null); e.currentTarget.blur(); }
-                      if (e.key === "Delete" && e.shiftKey) { removeText(editingTx.id); }
-                    }}
-                    className="absolute z-30 border-2 border-emerald-500 rounded-md bg-white/95 shadow-lg shadow-emerald-500/10 px-1.5 py-0.5 outline-none resize-none backdrop-blur-sm"
-                    style={{
-                      left: pos.left,
-                      top: pos.top,
-                      color: editingTx.color,
-                      fontSize: `${fontSize}px`,
-                      fontWeight: 600,
-                      lineHeight: 1.2,
-                      fontFamily: "Helvetica, Arial, sans-serif",
-                      minWidth: "80px",
-                    }}
-                    rows={1}
-                    autoFocus
-                  />
-                );
-              })()}
-            </div>
-          </div>
-
-          {/* Bottom hints */}
-          {currentTexts.length === 0 && (
-            <div className="flex justify-center gap-3 text-xs text-slate-400">
-              <span className="flex items-center gap-1">
-                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
-                  <circle cx="5" cy="5" r="4" />
-                  <path d="M5 3v4M3 5h4" />
-                </svg>
-                {L.hint}
-              </span>
-            </div>
-          )}
-          {currentTexts.length > 0 && (
-            <div className="flex justify-center text-[11px] text-slate-400">{L.dragHint}</div>
-          )}
+      <header className="flex flex-wrap items-center justify-between gap-3">
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => setPageNum((n) => Math.max(1, n - 1))}
+            disabled={pageNum === 1}
+            className="rounded-lg border border-line px-3 py-1.5 text-sm disabled:opacity-40"
+          >
+            {tp("prev")}
+          </button>
+          <span className="text-sm text-ink-soft">
+            {tp("pageOf", { page: pageNum, total: pages.length })}
+          </span>
+          <button
+            type="button"
+            onClick={() => setPageNum((n) => Math.min(pages.length, n + 1))}
+            disabled={pageNum === pages.length}
+            className="rounded-lg border border-line px-3 py-1.5 text-sm disabled:opacity-40"
+          >
+            {tp("next")}
+          </button>
         </div>
-      )}
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={undo}
+            disabled={!canUndo}
+            className="rounded-lg border border-line px-3 py-1.5 text-sm disabled:opacity-40"
+          >
+            {tp("undo")}
+          </button>
+          <button
+            type="button"
+            onClick={redo}
+            disabled={!canRedo}
+            className="rounded-lg border border-line px-3 py-1.5 text-sm disabled:opacity-40"
+          >
+            {tp("redo")}
+          </button>
+        </div>
+      </header>
+
+      <div className="grid gap-4 lg:grid-cols-[1fr_320px]">
+        <div className="overflow-auto rounded-card border border-line bg-slate-50 p-3">
+          <canvas
+            ref={canvasRef}
+            onMouseDown={pick}
+            onDoubleClick={(e) => {
+              pick(e);
+              const rect = e.currentTarget.getBoundingClientRect();
+              const run = hitRun(e.clientX - rect.left, e.clientY - rect.top);
+              if (run) startEditing(run.id);
+            }}
+            className="mx-auto cursor-text shadow-sm"
+          />
+          <p className="mt-3 text-center text-xs text-ink-soft">{tp("clickHint")}</p>
+        </div>
+
+        <aside className="space-y-4">
+          <div>
+            <label className="mb-1 block text-sm font-medium" htmlFor="pdfeditor-search">
+              {tp("findText")}
+            </label>
+            <input
+              id="pdfeditor-search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder={tp("findPlaceholder")}
+              className="w-full rounded-lg border border-line px-3 py-2 text-sm"
+            />
+            <p className="mt-1 text-xs text-ink-soft">
+              {tp("matches", { count: matches.length, total: allRuns.length })}
+            </p>
+            <ul className="mt-2 max-h-48 space-y-1 overflow-auto">
+              {matches.slice(0, 200).map((r) => (
+                <li key={r.id}>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      if (r.page !== pageNum) setPageNum(r.page);
+                      setSelected(r.id);
+                    }}
+                    className={`w-full truncate rounded px-2 py-1 text-left text-xs hover:bg-brand-50 ${
+                      r.id === selected ? "bg-brand-100 font-semibold" : ""
+                    } ${r.id in edits ? "text-brand-700" : ""}`}
+                    dir={RTL_RE.test(r.text) ? "rtl" : "ltr"}
+                  >
+                    {r.text}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="rounded-card border border-line p-3">
+            <h3 className="mb-2 text-sm font-semibold">{tp("properties")}</h3>
+            {!activeRun || !active ? (
+              <p className="text-xs text-ink-soft">{tp("noSelection")}</p>
+            ) : (
+              <div className="space-y-3">
+                <div>
+                  <label className="mb-1 block text-xs font-medium" htmlFor="pdfeditor-text">
+                    {tp("text")}
+                  </label>
+                  <textarea
+                    id="pdfeditor-text"
+                    value={active.text}
+                    onChange={(e) => update({ text: e.target.value })}
+                    rows={3}
+                    dir={RTL_RE.test(active.text) ? "rtl" : "ltr"}
+                    className="w-full rounded-lg border border-line px-2 py-1.5 text-sm"
+                  />
+                </div>
+
+                <div>
+                  <label className="mb-1 block text-xs font-medium" htmlFor="pdfeditor-font">
+                    {tp("font")}
+                  </label>
+                  <select
+                    id="pdfeditor-font"
+                    value={active.font.kind === "standard" ? `std:${active.font.standard}` : `cus:${active.font.custom.id}`}
+                    onChange={(e) => {
+                      const v = e.target.value;
+                      if (v.startsWith("std:")) {
+                        update({ font: { kind: "standard", standard: v.slice(4) as StandardFonts } });
+                      } else {
+                        const custom = customFonts.find((c) => `cus:${c.id}` === v);
+                        if (custom) update({ font: { kind: "custom", custom }, italic: false });
+                      }
+                    }}
+                    className="w-full rounded-lg border border-line px-2 py-1.5 text-sm"
+                  >
+                    <optgroup label={tp("standardFonts")}>
+                      {STANDARD_FONTS.map((f) => (
+                        <option key={f.standard} value={`std:${f.standard}`}>
+                          {f.label}
+                        </option>
+                      ))}
+                    </optgroup>
+                    {customFonts.length > 0 && (
+                      <optgroup label={tp("yourFonts")}>
+                        {customFonts.map((c) => (
+                          <option key={c.id} value={`cus:${c.id}`}>
+                            {c.label}
+                          </option>
+                        ))}
+                      </optgroup>
+                    )}
+                  </select>
+                  <input
+                    ref={fontInputRef}
+                    type="file"
+                    accept=".ttf,.otf,.ttc,.woff,.woff2,font/ttf,font/otf"
+                    hidden
+                    onChange={(e) => {
+                      void onFontFile(e.target.files?.[0]);
+                      e.target.value = "";
+                    }}
+                  />
+                  <button
+                    type="button"
+                    onClick={() => fontInputRef.current?.click()}
+                    className="mt-1 w-full rounded-lg border border-dashed border-line px-2 py-1.5 text-xs text-ink-soft hover:border-brand-500 hover:text-brand-700"
+                  >
+                    {tp("uploadFont")}
+                  </button>
+                  {fontError && <p className="mt-1 text-xs text-red-600">{tp(fontError)}</p>}
+                </div>
+
+                <div className="flex items-end gap-2">
+                  <div className="flex-1">
+                    <label className="mb-1 block text-xs font-medium" htmlFor="pdfeditor-size">
+                      {tp("size")}
+                    </label>
+                    <input
+                      id="pdfeditor-size"
+                      type="number"
+                      min={1}
+                      max={400}
+                      step={0.5}
+                      value={active.size}
+                      onChange={(e) => update({ size: Number(e.target.value) || 1 })}
+                      className="w-full rounded-lg border border-line px-2 py-1.5 text-sm"
+                    />
+                  </div>
+                  <div>
+                    <label className="mb-1 block text-xs font-medium" htmlFor="pdfeditor-color">
+                      {tp("color")}
+                    </label>
+                    <input
+                      id="pdfeditor-color"
+                      type="color"
+                      value={active.color}
+                      onChange={(e) => update({ color: e.target.value })}
+                      className="h-9 w-14 rounded border border-line bg-surface"
+                    />
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap items-center gap-2">
+                  <button
+                    type="button"
+                    onClick={() => update({ bold: !active.bold })}
+                    className={`rounded-lg border px-2.5 py-1 text-xs font-semibold ${
+                      active.bold ? "border-brand-600 bg-brand-50 text-brand-700" : "border-line"
+                    }`}
+                  >
+                    B
+                  </button>
+                  <button
+                    type="button"
+                    disabled={activeCustom !== null}
+                    title={activeCustom ? tp("italicUnavailable") : undefined}
+                    onClick={() => update({ italic: !active.italic })}
+                    className={`rounded-lg border px-2.5 py-1 text-xs italic ${
+                      active.italic ? "border-brand-600 bg-brand-50 text-brand-700" : "border-line"
+                    } disabled:opacity-40`}
+                  >
+                    I
+                  </button>
+                  <div className="ms-auto flex gap-1">
+                    {(["start", "center", "end"] as Align[]).map((a) => (
+                      <button
+                        key={a}
+                        type="button"
+                        onClick={() => update({ align: a })}
+                        className={`rounded border px-2 py-1 text-[10px] ${
+                          active.align === a ? "border-brand-600 bg-brand-50 text-brand-700" : "border-line"
+                        }`}
+                      >
+                        {a === "start" ? "â—€" : a === "center" ? "â–¬" : "â–¶"}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <label className="mb-1 block text-xs font-medium" htmlFor="pdfeditor-cover">
+                    {tp("coverColor")}
+                  </label>
+                  <input
+                    id="pdfeditor-cover"
+                    type="color"
+                    value={active.coverColor}
+                    onChange={(e) => update({ coverColor: e.target.value })}
+                    className="h-9 w-14 rounded border border-line bg-surface"
+                  />
+                </div>
+
+                {fontWarning && <p className="rounded bg-amber-50 px-2 py-1 text-xs text-amber-800">{tp(fontWarning)}</p>}
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    if (!selected) return;
+                    const run = allRuns.find((r) => r.id === selected);
+                    if (run) dispatch({ type: "revert", runId: selected, run });
+                    setOut(null);
+                  }}
+                  className="w-full rounded-lg border border-red-200 px-2 py-1.5 text-xs text-red-700 hover:bg-red-50"
+                >
+                  {tp("revertRun")}
+                </button>
+              </div>
+            )}
+          </div>
+
+          {notice && (
+            <p className="rounded-lg bg-red-50 px-3 py-2 text-xs text-red-700">{tp(notice)}</p>
+          )}
+
+          <div className="rounded-card border border-line p-3">
+            <p className="text-sm text-ink-soft">
+              {tp("editedSummary", { count: editedCount })}
+            </p>
+            {out && (
+              <p className="mt-1 font-mono text-xs text-ink-soft">
+                {tp("savedSize", { size: formatBytes(out.size) })}
+              </p>
+            )}
+            <PrimaryButton
+              className="mt-3 w-full"
+              onClick={() => void save()}
+              disabled={stage === "saving" || editedCount === 0}
+            >
+              {stage === "saving" ? tp("saving") : t("download")}
+            </PrimaryButton>
+            {out && file && (
+              <button
+                type="button"
+                onClick={() => downloadBlob(out, replaceExt(file.name, "pdf"))}
+                className="mt-2 w-full rounded-xl border border-brand-600 px-4 py-2 text-sm font-semibold text-brand-700 hover:bg-brand-50"
+              >
+                {tp("downloadFile")}
+              </button>
+            )}
+          </div>
+        </aside>
+      </div>
     </div>
   );
+}
+
+function fontCss(spec: FontSpec, customs: CustomFont[]): string {
+  if (spec.kind === "custom") {
+    const known = customs.find((c) => c.id === spec.custom.id);
+    return known ? `"${known.family}", sans-serif` : "sans-serif";
+  }
+  return STANDARD_FONTS.find((f) => f.standard === spec.standard)?.css ?? "sans-serif";
 }

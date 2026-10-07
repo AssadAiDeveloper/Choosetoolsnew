@@ -10,7 +10,10 @@ const CSP = [
   "connect-src 'self' https://cdn.jsdelivr.net",
   "img-src 'self' data: blob:",
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-  "font-src 'self' data: https://fonts.gstatic.com",
+  // blob: is required by the PDF editor: a font the user uploads is turned into
+  // a FontFace from an ArrayBuffer so the canvas preview can draw the same
+  // typeface that gets embedded into the exported PDF.
+  "font-src 'self' data: blob: https://fonts.gstatic.com",
   "object-src 'none'",
   "base-uri 'self'",
   "form-action 'self'",
