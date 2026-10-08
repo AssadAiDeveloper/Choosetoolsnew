@@ -95,6 +95,7 @@ export default async function ToolPage({ params }: { params: Promise<Params> }) 
       name: t("name"),
       description: t("desc"),
       url: SITE_URL + pathFor(locale, category, slug),
+      inLanguage: locale,
       applicationCategory: "UtilitiesApplication",
       operatingSystem: "Any",
       browserRequirements: "Requires JavaScript",

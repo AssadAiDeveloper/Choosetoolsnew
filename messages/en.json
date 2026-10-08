@@ -215,7 +215,7 @@
   "tools": {
     "merge-pdf": {
       "name": "Merge PDF",
-      "desc": "Combine several PDF files into one, in the order you choose.",
+      "desc": "Combine several PDF files into one, in the order you choose, quickly and privately. Runs in your browser - no uploads, no limits.",
       "long": "Drop two or more PDF files, drag them into the order you want, and download a single merged document. The merge happens on your device, so even confidential contracts never leave your computer.",
       "faq1q": "Is there a limit on file size or number of files?",
       "faq1a": "No. Because merging runs in your browser, the only limit is your device's memory — files of hundreds of megabytes work fine on a normal laptop.",
@@ -224,7 +224,7 @@
     },
     "split-pdf": {
       "name": "Split PDF",
-      "desc": "Extract a page range from a PDF into a new file.",
+      "desc": "Split a PDF into pages or page ranges and keep only what you need, right in your browser. No uploads, no watermarks.",
       "long": "Choose the pages you need — for example pages 3 to 7 — and get a new PDF containing only that range. Nothing is uploaded.",
       "faq1q": "Can I extract a single page?",
       "faq1a": "Yes — set the same number as both the start and end page.",
@@ -260,7 +260,7 @@
     },
     "pdf-to-jpg": {
       "name": "PDF to JPG",
-      "desc": "Convert each PDF page into a high-quality JPG image.",
+      "desc": "Convert each page of a PDF into a high-quality JPG image in one click, right in your browser. No uploads, no accounts, no watermarks.",
       "long": "Every page is rendered on your device and downloaded as an image — one JPG per page, or all pages in a ZIP.",
       "faq1q": "What resolution are the images?",
       "faq1a": "Pages are rendered at 2× scale, which is sharp enough for screens and most printing.",
@@ -269,7 +269,7 @@
     },
     "compress-pdf": {
       "name": "Compress PDF",
-      "desc": "Reduce PDF file size with lossless optimization.",
+      "desc": "Reduce PDF file size with effective compression that keeps pages readable - all in your browser. No uploads, no watermarks.",
       "long": "The file is rewritten with optimized internal structure and object streams. Text and images are not degraded — this is lossless optimization, not destructive compression.",
       "faq1q": "How much smaller will my file get?",
       "faq1a": "It depends on how the PDF was created. Poorly generated files can shrink a lot; already-optimized files less. The exact saving is shown before you download.",
@@ -278,7 +278,7 @@
     },
     "compress-image": {
       "name": "Compress Image",
-      "desc": "Shrink JPG, PNG and WebP file sizes right in your browser.",
+      "desc": "Shrink JPG, PNG and WebP file sizes right in your browser, with adjustable quality. No uploads, no limits.",
       "long": "Smart compression reduces file size dramatically while keeping images looking sharp. Perfect for websites, email attachments and forms with upload limits.",
       "faq1q": "How much can I expect to save?",
       "faq1a": "Typically 60–90% for photos, depending on the quality level you pick. The result and savings are shown before downloading.",
@@ -287,7 +287,7 @@
     },
     "resize-image": {
       "name": "Resize Image",
-      "desc": "Change image dimensions to exact pixel sizes.",
+      "desc": "Resize an image to exact pixel sizes or by percentage and keep quality, right in your browser. No uploads, no limits.",
       "long": "Enter a new width or height — the aspect ratio is kept automatically unless you turn it off. Runs instantly on your device.",
       "faq1q": "Will resizing blur my image?",
       "faq1a": "Downscaling keeps images sharp. Upscaling beyond the original size can look soft — that's a limit of the source image, not the tool.",
@@ -332,7 +332,7 @@
     },
     "word-counter": {
       "name": "Word & Character Counter",
-      "desc": "Count words, characters, sentences and estimated reading time.",
+      "desc": "Count words, characters, sentences and estimated reading time in any text instantly. Works offline in your browser.",
       "long": "Paste or type text and see live counts — including character counts with and without spaces, and reading time at average speed.",
       "faq1q": "Does it work for Arabic text?",
       "faq1a": "Yes — word boundaries are detected correctly for Arabic, English, Spanish and mixed text.",
@@ -512,7 +512,7 @@
     },
     "id-photo": {
       "name": "Passport & ID Photo",
-      "desc": "Resize photos to official passport sizes: Saudi, UAE, Egypt, EU, US.",
+      "desc": "Create passport and ID photos in official sizes - Saudi, UAE, Egypt, EU, US - instantly in your browser. No uploads.",
       "long": "Pick your country preset and get a correctly sized photo at print quality (300 DPI). The crop is biased toward the top of the frame where the face usually sits — and because it runs locally, your personal photo never leaves your device.",
       "faq1q": "Which sizes are supported?",
       "faq1a": "EU/Schengen 35×45mm, Saudi Arabia and Egypt 40×60mm, UAE 43×55mm, and US 51×51mm — all exported at 300 DPI.",
@@ -620,7 +620,7 @@
     },
     "pdf-to-excel": {
       "name": "PDF to Excel",
-      "desc": "Turn tables inside your PDF into an Excel spreadsheet.",
+      "desc": "Turn tables inside your PDF into an editable Excel spreadsheet, including scanned pages, right in your browser. No uploads, no limits.",
       "long": "Reads the text layer of each page, rebuilds the table grid from the real column positions, and saves the result as a formatted .xlsx file with real numbers, auto-sized columns and a bold header row. Pages without a text layer are read with OCR automatically. Everything is processed on your device.",
       "faq1q": "Will it read a scanned PDF?",
       "faq1a": "Yes. If a page has no text layer, it is rendered and read with OCR automatically. OCR is not perfect, so always check the numbers in the preview before relying on them.",
@@ -629,7 +629,7 @@
     },
     "pdf-to-word": {
       "name": "PDF to Word",
-      "desc": "Turn your PDF into an editable Word document.",
+      "desc": "Turn your PDF into an editable Word document with native tables. Works on scanned pages too - everything stays on your device. No uploads, no watermarks.",
       "long": "Rebuilds each page as real Word content: headings and paragraphs stay as paragraphs, and every table becomes an actual Word table you can edit, sort and resize. Your text is extracted from the PDF's own text layer, and pages without one are read with OCR automatically. Everything is processed on your device.",
       "faq1q": "Will it read a scanned PDF?",
       "faq1a": "Yes. If a page has no text layer, it is rendered and read with OCR automatically. OCR is not perfect, so always check the preview before relying on it.",
@@ -1061,7 +1061,7 @@
     },
     "pdf-editor": {
       "name": "PDF Editor",
-      "desc": "Change text that is already in your PDF and restyle it with a font of your choice.",
+      "desc": "Change text that is already in your PDF, restyle it with any font you choose and keep the layout - all on your device. No uploads.",
       "long": "The editor reads every page of your PDF and lists each block of text it finds. Click a block, rewrite it, and choose its font, size, colour, weight and alignment. The original text is covered and the replacement is drawn in its place, so the rest of the page is left as it was. You can also upload your own .ttf or .otf file, which is the only way to write Arabic because the fonts built into the PDF format cover Latin characters only.",
       "faq1q": "Can I edit text that is already in the PDF?",
       "faq1a": "Yes. Every page is scanned on your device and the text is listed as clickable blocks. Click one, type the new wording, and the change is written into the file you download.",

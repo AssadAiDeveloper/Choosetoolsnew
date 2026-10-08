@@ -110,6 +110,8 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
       author: { "@type": "Organization", name: "hoursmedia" },
       publisher: { "@type": "Organization", name: SITE_NAME },
       mainEntityOfPage: blogUrl,
+      inLanguage: locale,
+      about: { "@type": "WebApplication", name: tt("name") },
       keywords: article.keywords.slice(0, 5),
     },
     {

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { TOOLS, CATEGORIES, SITE_URL } from "@/lib/tools";
 import { routing } from "@/i18n/routing";
-import { blogSlugs } from "@/lib/blog";
+import { blogSlugs, lastModified } from "@/lib/blog";
 
 function url(locale: string, path: string) {
   const prefix = locale === "en" ? "" : `/${locale}`;
@@ -10,6 +10,7 @@ function url(locale: string, path: string) {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
+  const modified = lastModified();
   const blogPaths = [
     "/blog",
     ...blogSlugs("en").map((s) => `/blog/${s}`),
@@ -29,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const locale of routing.locales) {
       entries.push({
         url: url(locale, path),
+        lastModified: modified,
         changeFrequency: "monthly",
         priority: path === "" ? 1 : path.split("/").length === 2 ? 0.7 : 0.8,
         alternates: {
