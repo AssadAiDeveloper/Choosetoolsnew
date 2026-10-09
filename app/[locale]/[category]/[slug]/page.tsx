@@ -5,7 +5,7 @@ import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { ogLocale } from "@/i18n/og";
 import { TOOLS, findTool, toolsByCategory, iconTintClass, SITE_URL, SITE_NAME } from "@/lib/tools";
-import { TOOL_COMPONENTS } from "@/components/tools";
+import { ToolHost } from "@/components/ToolHost";
 import { ToolIcon } from "@/components/ToolIcon";
 
 interface Params {
@@ -73,7 +73,6 @@ export default async function ToolPage({ params }: { params: Promise<Params> }) 
   const tt = await getTranslations("tool");
   const tb = await getTranslations("breadcrumb");
   const tc = await getTranslations("categories");
-  const Component = TOOL_COMPONENTS[tool.component];
 
   const related = toolsByCategory(tool.category).filter((x) => x.slug !== slug).slice(0, 4);
   const relatedNames = await Promise.all(
@@ -146,7 +145,7 @@ export default async function ToolPage({ params }: { params: Promise<Params> }) 
         <p className="mx-auto mt-2 max-w-xl text-slate-600">{t("desc")}</p>
       </header>
 
-      <Component />
+      <ToolHost component={tool.component} />
 
       <section className="mt-14">
         <p className="leading-relaxed text-ink-soft">{t("long")}</p>
