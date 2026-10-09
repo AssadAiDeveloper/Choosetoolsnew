@@ -23,6 +23,12 @@ const CSP = [
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   outputFileTracingRoot: __dirname,
+  experimental: {
+    // The site is fully static (no runtime CSS injection), so inlining the
+    // render-blocking stylesheet into <head> removes ~450 ms of critical-path
+    // latency per PSI: nav -> inlined CSS -> fonts, with no blocking request.
+    inlineCss: true,
+  },
   async headers() {
     return [
       {
