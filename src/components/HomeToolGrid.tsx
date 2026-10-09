@@ -74,7 +74,7 @@ export function HomeToolGrid() {
           onChange={(e) => setQ(e.target.value)}
           placeholder={t("home.search")}
           aria-label={t("home.search")}
-          className="w-full rounded-xl border border-line bg-surface px-5 py-3.5 text-base text-start text-ink shadow-sm outline-none placeholder:text-slate-400 focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-white/10 dark:placeholder:text-slate-300"
+          className="w-full rounded-xl border border-line bg-surface px-5 py-3.5 text-base text-start text-ink shadow-sm outline-none placeholder:text-slate-500 focus:border-brand-500 focus:ring-2 focus:ring-brand-100 dark:border-white/10 dark:placeholder:text-slate-400"
         />
       </div>
 
@@ -172,7 +172,7 @@ function TabPill({
       <span
         className={`rounded-full px-1.5 py-0.5 font-mono ${
           small ? "text-[10px]" : "text-xs"
-        } ${active ? "bg-white/20" : "bg-gray-200/60 text-ink-soft dark:bg-slate-700/60"}`}
+        } ${active ? "bg-white text-brand-700" : "bg-gray-200/60 text-ink-soft dark:bg-slate-700/60"}`}
       >
         {count}
       </span>

@@ -69,7 +69,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-line">
-        <p className="mx-auto max-w-6xl px-4 py-5 text-center font-mono text-[11px] tracking-wide text-gray-400 dark:text-gray-500">
+        <p className="mx-auto max-w-6xl px-4 py-5 text-center font-mono text-[11px] tracking-wide text-slate-600 dark:text-slate-400">
           {t("madeBy")} · © {new Date().getFullYear()} ChooseTools
         </p>
       </div>
