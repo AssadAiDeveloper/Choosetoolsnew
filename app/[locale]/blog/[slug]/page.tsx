@@ -11,6 +11,8 @@ import {
   blogIndexPathFor,
   toolPathFor,
   relatedTools,
+  relatedPosts,
+  postNeighbors,
   lastModified,
   blogSlugs,
   findToolForSlug,
@@ -91,6 +93,9 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
       toolName: (await getTranslations(`tools.${r.slug}`))("name"),
     }))
   );
+
+  const otherGuides = relatedPosts(locale, slug, 3);
+  const neighbors = postNeighbors(locale, slug);
 
   const toolUrl = SITE_URL + toolPathFor(locale, tool.category, tool.slug);
   const blogUrl = SITE_URL + blogPathFor(locale, slug);
@@ -248,6 +253,52 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
               </li>
             ))}
           </ul>
+        </nav>
+      )}
+
+      {/* Related guides — sibling articles in the same category */}
+      {otherGuides.length > 0 && (
+        <nav aria-label="related guides" className="mt-10">
+          <h2 className="text-xl font-bold text-ink">{t("relatedPostsTitle")}</h2>
+          <ul className="mt-4 grid gap-3 sm:grid-cols-3">
+            {otherGuides.map((p) => (
+              <li key={p.slug}>
+                <Link
+                  href={`/blog/${p.slug}`}
+                  className="group flex h-full flex-col rounded-card border border-line bg-surface p-4 transition hover:border-brand-400 hover:shadow-sm"
+                >
+                  <span className="text-xs font-medium uppercase tracking-wide text-brand-700">{t("relatedPostsHint")}</span>
+                  <span className="mt-2 text-sm font-semibold leading-snug text-ink group-hover:text-brand-700">{p.title}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
+
+      {/* Prev / next guide — sequential linking across the whole cluster */}
+      {(neighbors.prev || neighbors.next) && (
+        <nav aria-label="guide navigation" className="mt-10 grid gap-3 sm:grid-cols-2">
+          {neighbors.prev ? (
+            <Link
+              href={`/blog/${neighbors.prev.slug}`}
+              className="group rounded-card border border-line bg-surface p-4 transition hover:border-brand-400 hover:shadow-sm"
+            >
+              <span className="text-xs font-medium uppercase tracking-wide text-ink-soft">← {t("prevPost")}</span>
+              <span className="mt-1 block text-sm font-semibold leading-snug text-ink group-hover:text-brand-700">{neighbors.prev.title}</span>
+            </Link>
+          ) : (
+            <span />
+          )}
+          {neighbors.next && (
+            <Link
+              href={`/blog/${neighbors.next.slug}`}
+              className="group rounded-card border border-line bg-surface p-4 text-end transition hover:border-brand-400 hover:shadow-sm sm:text-right"
+            >
+              <span className="text-xs font-medium uppercase tracking-wide text-ink-soft">{t("nextPost")} →</span>
+              <span className="mt-1 block text-sm font-semibold leading-snug text-ink group-hover:text-brand-700">{neighbors.next.title}</span>
+            </Link>
+          )}
         </nav>
       )}
 

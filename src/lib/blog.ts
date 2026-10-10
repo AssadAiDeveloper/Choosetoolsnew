@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { TOOLS, findTool } from "./tools";
+import { TOOLS, findTool, type Category } from "./tools";
 
 export interface BlogSection {
   heading: string;
@@ -29,28 +29,43 @@ function articlePath(locale: string, slug: string): string {
 }
 
 /** Load one article. Falls back to English when the requested locale is not translated yet. */
+const CACHE = process.env.NODE_ENV === "production";
+const articleCache = new Map<string, BlogArticle | null>();
 export function getArticle(locale: string, slug: string): BlogArticle | null {
-  const candidates =
-    locale === "en" ? [locale] : [locale, "en"];
+  const key = `${locale}:${slug}`;
+  if (CACHE) {
+    const cached = articleCache.get(key);
+    if (cached !== undefined) return cached;
+  }
+
+  const candidates = locale === "en" ? [locale] : [locale, "en"];
+  let result: BlogArticle | null = null;
   for (const l of candidates) {
     try {
       const raw = fs.readFileSync(articlePath(l, slug), "utf8");
       const article = JSON.parse(raw) as BlogArticle;
-      if (article && article.slug) return article;
+      if (article && article.slug) { result = article; break; }
     } catch {
       // missing or not yet translated — try next candidate
     }
   }
-  return null;
+  if (CACHE) articleCache.set(key, result);
+  return result;
 }
 
 /** List every article that exists for a locale (falling back to English). */
+const listCache = new Map<string, BlogArticle[]>();
 export function listArticles(locale: string): BlogArticle[] {
+  if (CACHE) {
+    const cached = listCache.get(locale);
+    if (cached) return cached;
+  }
   const articles: BlogArticle[] = [];
   for (const tool of TOOLS) {
     const article = getArticle(locale, tool.slug);
     if (article) articles.push(article);
   }
+  if (CACHE) listCache.set(locale, articles);
   return articles;
 }
 
@@ -78,6 +93,63 @@ export function relatedTools(slug: string, count = 3) {
   const tool = TOOLS.find((t) => t.slug === slug);
   if (!tool) return [];
   return TOOLS.filter((t) => t.category === tool.category && t.slug !== slug).slice(0, count);
+}
+
+export interface PostRef {
+  slug: string;
+  title: string;
+  description: string;
+  category: Category;
+}
+
+function toPostRef(article: BlogArticle): PostRef | null {
+  const tool = findToolForSlug(article.slug);
+  if (!tool) return null;
+  return {
+    slug: article.slug,
+    title: article.title,
+    description: article.description,
+    category: tool.category,
+  };
+}
+
+/**
+ * Sibling guides in the same category that actually have an article — the
+ * reciprocal half of the tool<->guide cluster so every post gains inbound
+ * links beyond the blog index.
+ */
+export function relatedPosts(locale: string, slug: string, count = 3): PostRef[] {
+  const tool = findToolForSlug(slug);
+  if (!tool) return [];
+  const out: PostRef[] = [];
+  for (const t of TOOLS) {
+    if (t.slug === slug || t.category !== tool.category) continue;
+    const article = getArticle(locale, t.slug);
+    if (!article) continue;
+    const ref = toPostRef(article);
+    if (ref) out.push(ref);
+    if (out.length >= count) break;
+  }
+  return out;
+}
+
+/** Previous / next guide in publication order (TOOLS order) for sequential linking. */
+export function postNeighbors(
+  locale: string,
+  slug: string,
+): { prev: PostRef | null; next: PostRef | null } {
+  const posts = listArticles(locale);
+  const idx = posts.findIndex((a) => a.slug === slug);
+  if (idx < 0) return { prev: null, next: null };
+  return {
+    prev: idx > 0 ? toPostRef(posts[idx - 1]) : null,
+    next: idx < posts.length - 1 ? toPostRef(posts[idx + 1]) : null,
+  };
+}
+
+/** True when a guide exists for this tool slug in the given locale (or English fallback). */
+export function hasArticle(locale: string, slug: string): boolean {
+  return getArticle(locale, slug) !== null;
 }
 
 export function lastModified(): string {

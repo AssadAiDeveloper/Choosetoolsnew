@@ -60,6 +60,7 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
   const cat = category as Category;
   const t = await getTranslations(`categories.${cat}`);
   const tp = await getTranslations("privacy");
+  const tnav = await getTranslations("nav");
   const tools = toolsByCategory(cat);
   const color = CATEGORY_COLOR[cat];
 
@@ -96,6 +97,12 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
             </span>
           </Link>
         ))}
+      </div>
+
+      <div className="mt-8 text-center">
+        <Link href="/blog" className="text-sm font-medium text-brand-700 transition hover:underline">
+          {tnav("blog")} →
+        </Link>
       </div>
     </div>
   );

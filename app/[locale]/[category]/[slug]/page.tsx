@@ -5,6 +5,7 @@ import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { ogLocale } from "@/i18n/og";
 import { TOOLS, findTool, toolsByCategory, iconTintClass, SITE_URL, SITE_NAME } from "@/lib/tools";
+import { hasArticle } from "@/lib/blog";
 import { ToolHost } from "@/components/ToolHost";
 import { ToolIcon } from "@/components/ToolIcon";
 
@@ -81,6 +82,8 @@ export default async function ToolPage({ params }: { params: Promise<Params> }) 
       name: (await getTranslations(`tools.${r.slug}`))("name"),
     }))
   );
+
+  const hasGuide = hasArticle(locale, slug);
 
   const faqs = [
     { q: t("faq1q"), a: t("faq1a") },
@@ -166,6 +169,18 @@ export default async function ToolPage({ params }: { params: Promise<Params> }) 
           ))}
         </div>
       </section>
+
+      {hasGuide && (
+        <section className="mt-10">
+          <Link
+            href={`/blog/${slug}`}
+            className="flex items-center justify-between gap-4 rounded-2xl border border-brand-200 bg-brand-50 px-5 py-4 transition hover:border-brand-400"
+          >
+            <span className="text-sm font-semibold text-brand-800">{tt("readGuide")}</span>
+            <span aria-hidden className="text-brand-700">→</span>
+          </Link>
+        </section>
+      )}
 
       {relatedNames.length > 0 && (
         <section className="mt-10">

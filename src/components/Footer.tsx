@@ -2,6 +2,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { CATEGORIES, POPULAR_SLUGS, TOOLS } from "@/lib/tools";
 import { Logo } from "./Logo";
+import { LanguageLinks } from "./LanguageLinks";
 
 const COMPANY_LINKS = ["about", "donate", "contact", "privacy", "terms"] as const;
 
@@ -69,6 +70,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-line">
+        <LanguageLinks />
         <p className="mx-auto max-w-6xl px-4 py-5 text-center font-mono text-[11px] tracking-wide text-slate-600 dark:text-slate-400">
           {t("madeBy")} · © {new Date().getFullYear()} ChooseTools
         </p>

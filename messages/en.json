@@ -145,6 +145,7 @@
     "error": "That file could not be processed. Check the format and try again.",
     "faqTitle": "Frequently asked questions",
     "relatedTitle": "Related tools",
+    "readGuide": "Read the full guide",
     "pages": "pages",
     "fromPage": "From page",
     "toPage": "To page",
@@ -1356,7 +1357,11 @@
     "ctaTitle": "Ready to use {name}?",
     "openTool": "Open tool",
     "privacyNote": "No sign-up · files never leave your device",
-    "backToBlog": "Back to all articles"
+    "backToBlog": "Back to all articles",
+    "relatedPostsTitle": "Related guides",
+    "relatedPostsHint": "Read the guide",
+    "prevPost": "Previous guide",
+    "nextPost": "Next guide"
   },
   "common": {
     "skipToContent": "Skip to content",
