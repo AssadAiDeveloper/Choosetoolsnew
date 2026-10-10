@@ -106,7 +106,7 @@ export function Header() {
         {/* Left corner — Logo */}
         <div className="header-left">
           <Link href="/" className="shrink-0" aria-label="ChooseTools home">
-            <Logo />
+            <Logo hideWordmarkOnMobile />
           </Link>
         </div>
 

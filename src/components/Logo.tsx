@@ -20,12 +20,12 @@ export function LogoMark({ size = 34 }: { size?: number }) {
   );
 }
 
-export function Logo({ compact = false }: { compact?: boolean }) {
+export function Logo({ compact = false, hideWordmarkOnMobile = false }: { compact?: boolean; hideWordmarkOnMobile?: boolean }) {
   return (
     <span className="flex items-center gap-2.5">
       <LogoMark />
       {!compact && (
-        <span className="text-xl font-bold tracking-tight text-ink">
+        <span className={`text-xl font-bold tracking-tight text-ink ${hideWordmarkOnMobile ? "hidden min-[400px]:inline" : ""}`}>
           Choose<span className="text-brand-600">Tools</span>
         </span>
       )}
