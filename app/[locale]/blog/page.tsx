@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
-import { ogLocale } from "@/i18n/og";
+import { ogImage, ogImageUrl, ogLocale } from "@/i18n/og";
 import { SITE_URL, SITE_NAME, TOOLS, iconTintClass } from "@/lib/tools";
 import { listArticles, blogIndexPathFor, blogPathFor, findToolForSlug } from "@/lib/blog";
 import { ToolIcon } from "@/components/ToolIcon";
@@ -33,13 +33,15 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
       title: t("metaTitle"),
       description: t("metaDescription"),
       locale: ogLocale(locale),
+      url: blogIndexPathFor(locale),
+      images: [ogImage(locale, t("metaTitle"))],
     },
     twitter: {
       card: "summary_large_image",
       site: "@choosetools",
       title: t("metaTitle"),
       description: t("metaDescription"),
-      images: [`${SITE_URL}${locale === "en" ? "" : `/${locale}`}/opengraph-image.png`],
+      images: [ogImageUrl(locale)],
     },
   };
 }

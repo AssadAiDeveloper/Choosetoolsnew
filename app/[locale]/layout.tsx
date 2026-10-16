@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
-import { ogLocale } from "@/i18n/og";
+import { ogImage, ogImageUrl, ogLocale } from "@/i18n/og";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { SITE_URL } from "@/lib/tools";
@@ -55,13 +55,15 @@ export async function generateMetadata({
       title: t("title"),
       description: t("description"),
       locale: ogLocale(locale),
+      url: locale === "en" ? "/" : `/${locale}`,
+      images: [ogImage(locale, t("title"))],
     },
     twitter: {
       card: "summary_large_image",
       site: "@choosetools",
       title: t("title"),
       description: t("description"),
-      images: [`${SITE_URL}/opengraph-image.png`],
+      images: [ogImageUrl(locale)],
     },
     other: { "theme-color": "#0e8a6c" },
   };

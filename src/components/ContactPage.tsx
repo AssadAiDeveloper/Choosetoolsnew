@@ -2,15 +2,26 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Mail, Clock, Building2, ShieldAlert } from "lucide-react";
 import { routing } from "@/i18n/routing";
+import { ogImage, ogLocale } from "@/i18n/og";
 import { SITE_NAME, SITE_URL } from "@/lib/tools";
 
 export async function contactPageMetadata(locale: string): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: "pages.contact" });
   const prefix = locale === routing.defaultLocale ? "" : `/${locale}`;
+  const title = `${t("title")} · ${SITE_NAME}`;
   return {
-    title: `${t("title")} · ${SITE_NAME}`,
+    title,
     description: t("metaDescription"),
     metadataBase: new URL(SITE_URL),
+    openGraph: {
+      type: "website",
+      siteName: SITE_NAME,
+      title,
+      description: t("metaDescription"),
+      locale: ogLocale(locale),
+      url: `${prefix}/contact`,
+      images: [ogImage(locale, title)],
+    },
     alternates: {
       canonical: `${SITE_URL}${prefix}/contact`,
       languages: {

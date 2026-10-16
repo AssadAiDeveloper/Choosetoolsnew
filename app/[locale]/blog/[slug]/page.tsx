@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
-import { ogLocale } from "@/i18n/og";
+import { ogImage, ogImageUrl, ogLocale } from "@/i18n/og";
 import { SITE_URL, SITE_NAME, iconTintClass } from "@/lib/tools";
 import {
   getArticle,
@@ -56,15 +56,17 @@ export async function generateMetadata({
       title: programTitle,
       description: article.description,
       locale: ogLocale(locale),
+      url: blogPathFor(locale, slug),
       publishedTime: lastModified(),
       modifiedTime: lastModified(),
+      images: [ogImage(locale, programTitle)],
     },
     twitter: {
       card: "summary_large_image",
       site: "@choosetools",
       title: programTitle,
       description: article.description,
-      images: [`${SITE_URL}${locale === "en" ? "" : `/${locale}`}/opengraph-image.png`],
+      images: [ogImageUrl(locale)],
     },
     keywords: article.keywords,
   };

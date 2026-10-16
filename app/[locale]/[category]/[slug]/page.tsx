@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
-import { ogLocale } from "@/i18n/og";
+import { ogImage, ogImageUrl, ogLocale } from "@/i18n/og";
 import { TOOLS, findTool, toolsByCategory, iconTintClass, SITE_URL, SITE_NAME } from "@/lib/tools";
 import { hasArticle } from "@/lib/blog";
 import { ToolHost } from "@/components/ToolHost";
@@ -48,13 +48,15 @@ export async function generateMetadata({
       title: t("name"),
       description: t("desc"),
       locale: ogLocale(locale),
+      url: pathFor(locale, category, slug),
+      images: [ogImage(locale, t("name"))],
     },
     twitter: {
       card: "summary_large_image",
       site: "@choosetools",
       title: t("name"),
       description: t("desc"),
-      images: [`${SITE_URL}${locale === "en" ? "" : `/${locale}`}/opengraph-image.png`],
+      images: [ogImageUrl(locale)],
     },
     alternates: {
       canonical: pathFor(locale, category, slug),

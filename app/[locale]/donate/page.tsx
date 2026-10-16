@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { ogImage, ogLocale } from "@/i18n/og";
 import { SITE_NAME, SITE_URL } from "@/lib/tools";
 import { DONATE_ORGS, SUPPORT_URL } from "@/lib/donate";
 
@@ -22,6 +23,15 @@ export async function generateMetadata({
     title: t("title"),
     description: t("intro.0"),
     metadataBase: new URL(SITE_URL),
+    openGraph: {
+      type: "website",
+      siteName: SITE_NAME,
+      title: t("title"),
+      description: t("intro.0"),
+      locale: ogLocale(locale),
+      url: `${prefix}/donate`,
+      images: [ogImage(locale, t("title"))],
+    },
     alternates: {
       canonical: `${SITE_URL}${prefix}/donate`,
       languages: {

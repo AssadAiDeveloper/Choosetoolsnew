@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { ogImage, ogLocale } from "@/i18n/og";
 import { SITE_NAME, SITE_URL } from "@/lib/tools";
 
 type PageSlug = "about" | "contact" | "privacy" | "terms";
@@ -17,10 +18,21 @@ export async function staticPageMetadata(
   const prefix = locale === routing.defaultLocale ? "" : `/${locale}`;
   const body = t.raw(`${page}.body`) as string[];
   const pageTitle = t(`${page}.title`);
+  const title = pageTitle.includes(SITE_NAME) ? pageTitle : `${pageTitle} · ${SITE_NAME}`;
+  const description = body[0]?.slice(0, 160);
   return {
-    title: pageTitle.includes(SITE_NAME) ? pageTitle : `${pageTitle} · ${SITE_NAME}`,
-    description: body[0]?.slice(0, 160),
+    title,
+    description,
     metadataBase: new URL(SITE_URL),
+    openGraph: {
+      type: "website",
+      siteName: SITE_NAME,
+      title,
+      description,
+      locale: ogLocale(locale),
+      url: `${prefix}/${page}`,
+      images: [ogImage(locale, title)],
+    },
     alternates: {
       canonical: `${SITE_URL}${prefix}/${page}`,
       languages: {
