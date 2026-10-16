@@ -35,9 +35,6 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
-  const pageLangs = Object.fromEntries(
-    routing.locales.map((l) => [l, l === "en" ? "/" : `/${l}`])
-  );
   return {
     title: {
       default: t("title"),
@@ -45,10 +42,6 @@ export async function generateMetadata({
     },
     description: t("description"),
     metadataBase: new URL(SITE_URL),
-    alternates: {
-      canonical: locale === "en" ? "/" : `/${locale}`,
-      languages: { ...pageLangs, "x-default": "/" },
-    },
     openGraph: {
       type: "website",
       siteName: "ChooseTools",
@@ -90,7 +83,17 @@ export default async function LocaleLayout({
     name: "ChooseTools",
     url: SITE_URL,
     inLanguage: locale,
-    publisher: { "@type": "Organization", name: "hoursmedia" },
+    publisher: {
+      "@type": "Organization",
+      name: "ChooseTools",
+      url: SITE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/icon-512.png`,
+        width: 512,
+        height: 512,
+      },
+    },
   };
 
   return (
