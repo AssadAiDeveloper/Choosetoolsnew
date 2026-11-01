@@ -132,6 +132,7 @@
     "saveFailed": "De PDF kon niet worden herschreven. Probeer een ander bestand of maak wijzigingen ongedaan."
   },
   "tool": {
+    "pdfUnlockRasterNote": "De ontgrendelde kopie bestaat uit pagina-afbeeldingen, dus tekst kan niet worden geselecteerd of doorzocht.",
     "pageSize": "Paginaformaat",
     "fitToImage": "Aan afbeelding aanpassen",
     "orientation": "Oriëntatie",

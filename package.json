@@ -11,6 +11,7 @@
     "test": "node scripts/test.mjs",
     "check:mojibake": "node scripts/check-mojibake.mjs",
     "check:translations": "node scripts/check-translations.mjs",
+    "check:sitemap": "node scripts/check-sitemap.mjs",
     "seo:report": "node scripts/seo-report.mjs"
   },
   "keywords": [],

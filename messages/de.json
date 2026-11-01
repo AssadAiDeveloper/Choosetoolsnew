@@ -132,6 +132,7 @@
     "saveFailed": "Das PDF konnte nicht neu geschrieben werden. Versuche eine andere Datei oder mache Änderungen rückgängig."
   },
   "tool": {
+    "pdfUnlockRasterNote": "Die entsperrte Kopie besteht aus Seitenbildern, daher kann der Text nicht markiert oder durchsucht werden.",
     "pageSize": "Seitengröße",
     "fitToImage": "An Bild anpassen",
     "orientation": "Ausrichtung",

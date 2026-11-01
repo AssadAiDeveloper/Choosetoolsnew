@@ -132,6 +132,7 @@
     "saveFailed": "The PDF could not be rewritten. Try a different file, or undo some changes."
   },
   "tool": {
+    "pdfUnlockRasterNote": "The unlocked copy is made of page images, so text can't be selected or searched.",
     "pageSize": "Page size",
     "fitToImage": "Fit to image",
     "orientation": "Orientation",
@@ -1054,12 +1055,12 @@
     },
     "protect-pdf": {
       "name": "Remove PDF Password",
-      "desc": "Upload a password-protected PDF you have permission to use and this tool re-saves it without the password, entirely in your browser.",
-      "long": "Upload a password-protected PDF you have permission to use and this tool re-saves it without the password, entirely in your browser. The file never leaves your device.",
+      "desc": "Upload a password-protected PDF you have permission to use and this tool re-saves it without the password, entirely in your browser. The unlocked copy is made of page images.",
+      "long": "Upload a password-protected PDF you have permission to use and this tool re-saves it without the password, entirely in your browser. The file never leaves your device. The unlocked copy is made of page images, so text can't be selected or searched.",
       "faq1q": "Which encrypted PDFs are supported?",
-      "faq1a": "PDFs that use common password encryption can usually be opened and re-saved without the password. Some rare or strongly protected documents may not be supported.",
+      "faq1a": "PDFs that use common password encryption can usually be opened and re-saved without the password. Some rare or strongly protected documents may not be supported. The result is an image-based copy, so text is not selectable.",
       "faq2q": "Is it really processed locally?",
-      "faq2a": "Yes. The entire process runs on your device and nothing is uploaded to any server."
+      "faq2a": "Yes. The entire process runs on your device and nothing is uploaded to any server. The unlocked copy is made of page images, so text can't be selected or searched."
     },
     "pdf-redaction": {
       "name": "PDF Redaction",

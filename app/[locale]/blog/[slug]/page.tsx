@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
-import { INDEXABLE_LOCALES } from "@/lib/indexing";
+import { INDEXABLE_LOCALES, isIndexableBlogSlug, isIndexableLocale } from "@/lib/indexing";
 import { ogImage, ogImageUrl, ogLocale } from "@/i18n/og";
 import { SITE_URL, SITE_NAME, iconTintClass } from "@/lib/tools";
 import {
@@ -41,17 +41,18 @@ export async function generateMetadata({
   const article = getArticle(locale, slug);
   if (!article) return {};
   const programTitle = article.title.replace(/`/g, "");
-  const langs = Object.fromEntries(
-    INDEXABLE_LOCALES.map((l) => [l, blogPathFor(l, slug)])
-  );
+  const indexable = isIndexableLocale(locale) && isIndexableBlogSlug(locale, slug);
+  const langs = indexable
+    ? Object.fromEntries(INDEXABLE_LOCALES.map((l) => [l, blogPathFor(l, slug)]))
+    : {};
   return {
     title: `${programTitle} — ${SITE_NAME}`,
     description: article.description,
     metadataBase: new URL(SITE_URL),
-    alternates: {
-      canonical: blogPathFor(locale, slug),
-      languages: { ...langs, "x-default": blogPathFor("en", slug) },
-    },
+    robots: indexable ? { index: true, follow: true } : { index: false, follow: true },
+    alternates: indexable
+      ? { canonical: blogPathFor(locale, slug), languages: { ...langs, "x-default": blogPathFor("en", slug) } }
+      : { canonical: blogPathFor(locale, slug) },
     openGraph: {
       type: "article",
       siteName: SITE_NAME,

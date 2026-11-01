@@ -16,6 +16,8 @@ const CHECKS = [
   "test-canvas-text.mjs",
   "test-invoice.mjs",
   "test-image-pdf.mjs",
+  "test-blog-indexing.mjs",
+  "check-sitemap.mjs",
   "check-links.mjs",
 ];
 

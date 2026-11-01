@@ -132,6 +132,7 @@
     "saveFailed": "PDF tidak bisa ditulis ulang. Coba file lain, atau batalkan sebagian perubahan."
   },
   "tool": {
+    "pdfUnlockRasterNote": "Salinan yang dibuka terdiri dari gambar halaman, sehingga teks tidak dapat dipilih atau dicari.",
     "pageSize": "Ukuran halaman",
     "fitToImage": "Sesuaikan dengan gambar",
     "orientation": "Orientasi",

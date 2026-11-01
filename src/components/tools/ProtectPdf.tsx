@@ -105,6 +105,7 @@ export default function ProtectPdf() {
       <ResultCard onReset={reset}>
         <PdfPreview blob={out} />
         <p className="font-mono text-sm text-ink-soft">{formatBytes(out.size)}</p>
+        <p className="mt-2 text-sm text-ink-soft">{t("pdfUnlockRasterNote")}</p>
         <PrimaryButton className="mt-3" onClick={() => downloadBlob(out, "unlocked.pdf")}>
           {t("download")}
         </PrimaryButton>

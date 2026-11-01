@@ -132,6 +132,7 @@
     "saveFailed": "Não foi possível reescrever o PDF. Tente outro ficheiro ou anule algumas alterações."
   },
   "tool": {
+    "pdfUnlockRasterNote": "A cópia desbloqueada é composta por imagens de página, pelo que o texto não pode ser selecionado nem pesquisado.",
     "pageSize": "Tamanho da página",
     "fitToImage": "Ajustar à imagem",
     "orientation": "Orientação",

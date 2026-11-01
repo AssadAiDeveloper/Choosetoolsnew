@@ -132,6 +132,7 @@
     "saveFailed": "PDF yeniden yazılamadı. Başka bir dosya deneyin veya bazı değişiklikleri geri alın."
   },
   "tool": {
+    "pdfUnlockRasterNote": "Kilidi açılmış kopya sayfa görsellerinden oluşur; bu nedenle metin seçilemez veya aranamaz.",
     "pageSize": "Sayfa boyutu",
     "fitToImage": "Görsele sığdır",
     "orientation": "Yön",
