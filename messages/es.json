@@ -956,11 +956,11 @@
       "faq2a": "Sí — sube un logo PNG o JPG y elige entre monedas comunes (USD, EUR, SAR, AED, EGP, GBP). El porcentaje de impuesto y los totales se calculan automáticamente."
     },
     "cv-builder": {
-      "name": "Creador de currículum (compatible con ATS)",
-      "desc": "Crea un currículum limpio a una columna que los sistemas de selección automática puedan leer.",
-      "long": "Completa tu experiencia, formación y habilidades — el diseño es deliberadamente simple (una columna, títulos claros, sin tablas ni gráficos) porque es justo lo que los sistemas ATS analizan de forma fiable. Los currículums largos pasan automáticamente a páginas adicionales.",
-      "faq1q": "¿Por qué el diseño es tan simple?",
-      "faq1a": "Los sistemas de seguimiento de candidatos que usan la mayoría de empresas tienen dificultades con diseños de varias columnas, iconos y cuadros de texto. Un currículum a una columna con títulos claros tiene más probabilidades de analizarse correctamente y llegar a un revisor humano.",
+      "name": "Creador de currículum",
+      "desc": "Crea un currículum limpio a una columna con títulos claros, listo para imprimir o guardar como PDF.",
+      "long": "Completa tu experiencia, formación y habilidades. El diseño es deliberadamente simple —una columna, títulos claros, sin tablas ni gráficos— para que siga siendo fácil de leer en pantalla y en papel, y los currículums largos pasan automáticamente a páginas adicionales. El PDF se genera como una imagen de alta resolución, por lo que su texto no se puede seleccionar.",
+      "faq1q": "¿Pueden los sistemas de seguimiento de candidatos (ATS) leer el PDF?",
+      "faq1a": "No. El PDF se dibuja como una imagen de alta resolución para que el árabe y otros alfabetos se rendericen correctamente, lo que significa que su texto no se puede seleccionar y el software ATS no puede analizarlo. Copia el texto del editor si necesitas pegarlo en un formulario de solicitud.",
       "faq2q": "¿Puede mi currículum tener más de una página?",
       "faq2a": "Sí — el contenido que no cabe en la primera página continúa automáticamente en páginas adicionales."
     },

@@ -958,10 +958,10 @@
     },
     "cv-builder": {
       "name": "CV / Resume Builder",
-      "desc": "Build a clean, single-column résumé that applicant tracking systems can read.",
-      "long": "Fill in your experience, education and skills — the layout is deliberately simple (one column, plain headings, no tables or graphics) because that is exactly what ATS software parses reliably. Long résumés automatically flow onto extra pages.",
-      "faq1q": "Why does the design look so plain?",
-      "faq1a": "Applicant tracking systems used by most employers struggle with multi-column layouts, icons and text boxes. A single-column résumé with clear headings is more likely to be parsed correctly and reach a human reviewer.",
+      "desc": "Build a clean, single-column résumé with clear headings, ready to print or save as PDF.",
+      "long": "Fill in your experience, education and skills. The layout is deliberately simple — one column, plain headings, no tables or graphics — so it stays easy to read on screen and on paper, and long résumés automatically flow onto extra pages. The PDF is generated as a high-resolution image, so its text is not selectable.",
+      "faq1q": "Can applicant tracking systems (ATS) read the PDF?",
+      "faq1a": "No. The PDF is drawn as a high-resolution image so that Arabic and other scripts render correctly, which means its text is not selectable and ATS software cannot parse it. Copy the text from the editor if you need to paste it into an application form.",
       "faq2q": "Can my résumé have more than one page?",
       "faq2a": "Yes — content that doesn't fit the first page automatically continues onto additional pages."
     },

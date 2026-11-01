@@ -956,11 +956,11 @@
       "faq2a": "Ya — unggah logo PNG atau JPG dan pilih dari mata uang umum (USD, EUR, SAR, AED, EGP, GBP). Persentase pajak dan total dihitung secara otomatis."
     },
     "cv-builder": {
-      "name": "Pembuat CV ATS",
-      "desc": "Buat résumé satu kolom yang bersih yang dapat dibaca sistem pelacak pelamar.",
-      "long": "Isi pengalaman, pendidikan, dan keterampilan Anda — tata letaknya sengaja dibuat sederhana (satu kolom, judul polos, tanpa tabel atau grafis) karena itulah yang dapat diurai dengan andal oleh perangkat lunak ATS. Résumé panjang otomatis mengalir ke halaman tambahan.",
-      "faq1q": "Mengapa desainnya terlihat begitu polos?",
-      "faq1a": "Sistem pelacak pelamar yang digunakan sebagian besar pemberi kerja kesulitan dengan tata letak multi-kolom, ikon, dan kotak teks. Résumé satu kolom dengan judul yang jelas lebih mungkin diurai dengan benar dan sampai ke peninjau manusia.",
+      "name": "Pembuat CV",
+      "desc": "Buat résumé satu kolom yang bersih dengan judul jelas, siap dicetak atau disimpan sebagai PDF.",
+      "long": "Isi pengalaman, pendidikan, dan keterampilan Anda. Tata letaknya sengaja dibuat sederhana — satu kolom, judul polos, tanpa tabel atau grafis — agar tetap mudah dibaca di layar dan di kertas, dan résumé panjang otomatis mengalir ke halaman tambahan. PDF dibuat sebagai gambar beresolusi tinggi, sehingga teksnya tidak dapat dipilih.",
+      "faq1q": "Bisakah sistem pelacak pelamar (ATS) membaca PDF?",
+      "faq1a": "Tidak. PDF digambar sebagai gambar beresolusi tinggi agar bahasa Arab dan aksara lain tampil dengan benar, yang berarti teksnya tidak dapat dipilih dan perangkat lunak ATS tidak dapat mengurainya. Salin teks dari editor jika Anda perlu menempelkannya ke formulir lamaran.",
       "faq2q": "Bisakah résumé saya memiliki lebih dari satu halaman?",
       "faq2a": "Ya — konten yang tidak muat di halaman pertama otomatis berlanjut ke halaman tambahan."
     },

@@ -957,10 +957,10 @@
     },
     "cv-builder": {
       "name": "Lebenslauf-Ersteller",
-      "desc": "Einen sauberen, einspaltigen Lebenslauf erstellen, den Bewerbertracking-Systeme lesen können.",
-      "long": "Füllen Sie Ihre Berufserfahrung, Ausbildung und Fähigkeiten aus — das Layout ist bewusst schlicht (eine Spalte, klare Überschriften, keine Tabellen oder Grafiken), weil genau das ATS-Software zuverlässig parsen kann. Lange Lebensläufe laufen automatisch auf zusätzliche Seiten über.",
-      "faq1q": "Warum sieht das Design so schlicht aus?",
-      "faq1a": "Die Bewerbertracking-Systeme der meisten Arbeitgeber tun sich mit mehrspaltigen Layouts, Symbolen und Textfeldern schwer. Ein einspaltiger Lebenslauf mit klaren Überschriften wird mit größerer Wahrscheinlichkeit korrekt geparst und erreicht einen menschlichen Prüfer.",
+      "desc": "Einen sauberen, einspaltigen Lebenslauf mit klaren Überschriften erstellen, bereit zum Drucken oder Speichern als PDF.",
+      "long": "Füllen Sie Ihre Berufserfahrung, Ausbildung und Fähigkeiten aus. Das Layout ist bewusst schlicht — eine Spalte, klare Überschriften, keine Tabellen oder Grafiken —, damit er auf dem Bildschirm und auf Papier gut lesbar bleibt; lange Lebensläufe laufen automatisch auf zusätzliche Seiten über. Das PDF wird als hochauflösendes Bild erzeugt, daher ist sein Text nicht auswählbar.",
+      "faq1q": "Können Bewerbertracking-Systeme (ATS) das PDF lesen?",
+      "faq1a": "Nein. Das PDF wird als hochauflösendes Bild gezeichnet, damit Arabisch und andere Schriften korrekt dargestellt werden. Dadurch ist sein Text nicht auswählbar und ATS-Software kann ihn nicht auswerten. Kopieren Sie den Text aus dem Editor, wenn Sie ihn in ein Bewerbungsformular einfügen möchten.",
       "faq2q": "Darf mein Lebenslauf mehr als eine Seite haben?",
       "faq2a": "Ja — Inhalt, der nicht auf die erste Seite passt, wird automatisch auf zusätzlichen Seiten fortgesetzt."
     },

@@ -957,10 +957,10 @@
     },
     "cv-builder": {
       "name": "Construtor de CV",
-      "desc": "Construa um currículo limpo de uma coluna que os sistemas de gestão de candidaturas conseguem ler.",
-      "long": "Preencha a sua experiência, educação e competências — o layout é deliberadamente simples (uma coluna, títulos simples, sem tabelas nem gráficos) porque é exatamente isso que o software ATS analisa de forma fiável. Currículos longos fluem automaticamente para páginas adicionais.",
-      "faq1q": "Porque é que o design parece tão simples?",
-      "faq1a": "Os sistemas de gestão de candidaturas usados pela maioria dos empregadores têm dificuldades com layouts de várias colunas, ícones e caixas de texto. Um currículo de uma coluna com títulos claros tem mais hipóteses de ser analisado corretamente e chegar a um avaliador humano.",
+      "desc": "Crie um currículo limpo de uma coluna com títulos claros, pronto para imprimir ou guardar como PDF.",
+      "long": "Preencha a sua experiência, educação e competências. O layout é deliberadamente simples — uma coluna, títulos simples, sem tabelas nem gráficos — para continuar fácil de ler no ecrã e no papel, e os currículos longos passam automaticamente para páginas adicionais. O PDF é gerado como uma imagem de alta resolução, pelo que o seu texto não é selecionável.",
+      "faq1q": "Os sistemas de gestão de candidaturas (ATS) conseguem ler o PDF?",
+      "faq1a": "Não. O PDF é desenhado como uma imagem de alta resolução para que o árabe e outros alfabetos sejam apresentados corretamente, o que significa que o seu texto não é selecionável e o software ATS não o consegue analisar. Copie o texto do editor se precisar de o colar num formulário de candidatura.",
       "faq2q": "O meu currículo pode ter mais do que uma página?",
       "faq2a": "Sim — o conteúdo que não cabe na primeira página continua automaticamente para páginas adicionais."
     },

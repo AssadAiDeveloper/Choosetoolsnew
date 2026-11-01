@@ -957,10 +957,10 @@
     },
     "cv-builder": {
       "name": "CV Oluşturucu",
-      "desc": "Başvuru takip sistemlerinin okuyabileceği temiz, tek sütunlu bir özgeçmiş oluşturun.",
-      "long": "Deneyiminizi, eğitim ve becerilerinizi doldurun — yerleşim kasıtlı olarak basittir (tek sütun, düz başlıklar, tablo veya grafik yok) çünkü ATS yazılımının güvenilir şekilde ayrıştırdığı şey tam olarak budur. Uzun özgeçmişler otomatik olarak ek sayfalara akar.",
-      "faq1q": "Tasarım neden bu kadar sade görünüyor?",
-      "faq1a": "Çoğu işverenin kullandığı başvuru takip sistemleri çok sütunlu yerleşimler, simgeler ve metin kutularıyla zorlanır. Açık başlıklara sahip tek sütunlu bir özgeçmiş daha doğru ayrıştırılır ve insan inceleyiciye ulaşır.",
+      "desc": "Net başlıklara sahip temiz, tek sütunlu bir özgeçmiş oluşturun; yazdırmaya veya PDF olarak kaydetmeye hazır.",
+      "long": "Deneyiminizi, eğitiminizi ve becerilerinizi doldurun. Yerleşim kasıtlı olarak basittir — tek sütun, düz başlıklar, tablo veya grafik yok — böylece ekranda ve kâğıtta okunması kolay kalır; uzun özgeçmişler otomatik olarak ek sayfalara akar. PDF yüksek çözünürlüklü bir görüntü olarak oluşturulur, bu nedenle metni seçilemez.",
+      "faq1q": "Başvuru takip sistemleri (ATS) PDF'i okuyabilir mi?",
+      "faq1a": "Hayır. PDF, Arapça ve diğer yazıların doğru görünmesi için yüksek çözünürlüklü bir görüntü olarak çizilir; bu da metninin seçilemez olduğu ve ATS yazılımının onu ayrıştıramayacağı anlamına gelir. Başvuru formuna yapıştırmanız gerekirse metni düzenleyiciden kopyalayın.",
       "faq2q": "Özgeçmişim birden fazla sayfa olabilir mi?",
       "faq2a": "Evet — ilk sayfaya sığmayan içerik otomatik olarak ek sayfalara devam eder."
     },

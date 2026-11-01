@@ -957,10 +957,10 @@
     },
     "cv-builder": {
       "name": "Créateur de CV",
-      "desc": "Créez un CV propre à une seule colonne que les systèmes de suivi des candidatures peuvent lire.",
-      "long": "Renseignez votre expérience, votre formation et vos compétences — la mise en page est volontairement simple (une colonne, titres sobres, pas de tableaux ni graphiques) car c'est exactement ce que les logiciels ATS analysent de façon fiable. Les CV longs passent automatiquement sur des pages supplémentaires.",
-      "faq1q": "Pourquoi le design semble-t-il aussi simple ?",
-      "faq1a": "Les systèmes de suivi des candidatures utilisés par la plupart des employeurs ont du mal avec les mises en page multi-colonnes, les icônes et les zones de texte. Un CV à une colonne avec des titres clairs a plus de chances d'être analysé correctement et d'atteindre un relecteur humain.",
+      "desc": "Créez un CV propre à une seule colonne avec des titres clairs, prêt à imprimer ou à enregistrer en PDF.",
+      "long": "Renseignez votre expérience, votre formation et vos compétences. La mise en page est volontairement simple — une colonne, des titres sobres, pas de tableaux ni de graphiques — pour rester facile à lire à l'écran comme sur papier ; les CV longs passent automatiquement sur des pages supplémentaires. Le PDF est généré sous forme d'image haute résolution, son texte n'est donc pas sélectionnable.",
+      "faq1q": "Les systèmes de suivi des candidatures (ATS) peuvent-ils lire le PDF ?",
+      "faq1a": "Non. Le PDF est dessiné sous forme d'image haute résolution pour que l'arabe et les autres écritures s'affichent correctement ; son texte n'est donc pas sélectionnable et les logiciels ATS ne peuvent pas l'analyser. Copiez le texte depuis l'éditeur si vous devez le coller dans un formulaire de candidature.",
       "faq2q": "Mon CV peut-il faire plus d'une page ?",
       "faq2a": "Oui — le contenu qui ne tient pas sur la première page continue automatiquement sur des pages supplémentaires."
     },

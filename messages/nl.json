@@ -957,10 +957,10 @@
     },
     "cv-builder": {
       "name": "CV-maker",
-      "desc": "Maak een net, éénkolomscv dat applicant tracking systems kunnen lezen.",
-      "long": "Vul je ervaring, opleiding en vaardigheden in — de opmaak is bewust eenvoudig (één kolom, gewone koppen, geen tabellen of afbeeldingen), want dat is precies wat ATS-software betrouwbaar verwerkt. Lange cv's lopen automatisch door naar extra pagina's.",
-      "faq1q": "Waarom ziet het ontwerp er zo eenvoudig uit?",
-      "faq1a": "Applicant tracking systems die de meeste werkgevers gebruiken, hebben moeite met meerkolomsopmaak, pictogrammen en tekstvakken. Een éénkolomscv met duidelijke koppen wordt waarschijnlijk correct verwerkt en bereikt eerder een menselijke beoordelaar.",
+      "desc": "Maak een net, éénkolomscv met duidelijke koppen, klaar om te printen of op te slaan als PDF.",
+      "long": "Vul je ervaring, opleiding en vaardigheden in. De opmaak is bewust eenvoudig — één kolom, gewone koppen, geen tabellen of afbeeldingen — zodat het prettig leesbaar blijft op scherm en papier; lange cv's lopen automatisch door naar extra pagina's. De PDF wordt gemaakt als een afbeelding met hoge resolutie, waardoor de tekst niet selecteerbaar is.",
+      "faq1q": "Kunnen applicant tracking systems (ATS) de PDF lezen?",
+      "faq1a": "Nee. De PDF wordt als een afbeelding met hoge resolutie getekend zodat Arabisch en andere schriften correct worden weergegeven. Daardoor is de tekst niet selecteerbaar en kan ATS-software hem niet verwerken. Kopieer de tekst uit de editor als je die in een sollicitatieformulier wilt plakken.",
       "faq2q": "Mag mijn cv meer dan één pagina hebben?",
       "faq2a": "Ja — inhoud die niet op de eerste pagina past, loopt automatisch door naar extra pagina's."
     },
