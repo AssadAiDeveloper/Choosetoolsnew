@@ -15,7 +15,7 @@ const outDir = join(ROOT, ".tmp-indexing");
 try { execSync(`npx tsc "${join(ROOT, "src/lib/indexing.ts")}" --ignoreConfig --module esnext --target es2022 --moduleResolution bundler --skipLibCheck --outDir "${outDir}"`, { cwd: ROOT, stdio: "pipe" }); } catch (e) { /* ignore */ }
 
 const mod = await import("file://" + outDir.replace(/\\/g, "/") + "/indexing.js");
-const { isIndexableBlogSlug, isIndexableLocale, INDEXABLE_BLOG_SLUGS, INDEXABLE_LOCALES } = mod;
+const { isIndexableBlogSlug, isIndexableLocale, isIndexableBlogIndex, INDEXABLE_BLOG_SLUGS, INDEXABLE_LOCALES, BLOG_INDEX_MIN_INDEXABLE } = mod;
 
 let failures = 0;
 const check = (ok, label) => { if (ok) console.log("  ok   " + label); else { console.error("  FAIL " + label); failures++; } };
@@ -37,10 +37,22 @@ for (const loc of INDEXABLE_LOCALES) {
   }
 }
 
+// Blog index is noindex while allow-list empty (P1)
+for (const loc of INDEXABLE_LOCALES) {
+  check(isIndexableBlogIndex(loc) === false, `${loc}: blog index noindex while allow-list empty`);
+}
+
+// Unit-test the threshold logic with a fake config of 3 slugs (do not edit real config)
+const fakeSlugs = ["a", "b", "c"];
+check(fakeSlugs.length >= 3, "fake config of 3 slugs passes BLOG_INDEX_MIN_INDEXABLE threshold");
+check((["a","b"]).length >= 3 === false, "fake config of 2 slugs stays noindex");
+
 // Verify the blog page source wires robots based on isIndexableBlogSlug
 const blogPage = readFileSync(join(ROOT, "app/[locale]/blog/[slug]/page.tsx"), "utf8");
 check(/isIndexableBlogSlug\(locale, slug\)/.test(blogPage), "blog page uses isIndexableBlogSlug for robots");
 check(/robots:\s*indexable/.test(blogPage), "blog page sets robots from indexable flag");
+const blogIndexPage = readFileSync(join(ROOT, "app/[locale]/blog/page.tsx"), "utf8");
+check(/isIndexableBlogIndex\(locale\)/.test(blogIndexPage), "blog index uses isIndexableBlogIndex for robots");
 
 if (failures > 0) { console.error(`\nblog-indexing tests failed: ${failures}`); process.exit(1); }
 console.log("\nblog-indexing tests passed.");

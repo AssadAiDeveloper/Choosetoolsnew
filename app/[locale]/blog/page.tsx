@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
-import { INDEXABLE_LOCALES, isIndexableLocale } from "@/lib/indexing";
+import { INDEXABLE_LOCALES, isIndexableLocale, isIndexableBlogIndex } from "@/lib/indexing";
 import { ogImage, ogImageUrl, ogLocale } from "@/i18n/og";
 import { SITE_URL, SITE_NAME, TOOLS, iconTintClass } from "@/lib/tools";
 import { listArticles, blogIndexPathFor, blogPathFor, findToolForSlug } from "@/lib/blog";
@@ -20,14 +20,15 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   const { locale } = await params;
   const t = await getTranslations("blog");
   const langs = Object.fromEntries(INDEXABLE_LOCALES.map((l) => [l, blogIndexPathFor(l)]));
+  const indexable = isIndexableLocale(locale) && isIndexableBlogIndex(locale);
   return {
     title: t("metaTitle"),
     description: t("metaDescription"),
     metadataBase: new URL(SITE_URL),
-    robots: isIndexableLocale(locale) ? { index: true, follow: true } : { index: false, follow: true },
+    robots: indexable ? { index: true, follow: true } : { index: false, follow: true },
     alternates: {
       canonical: blogIndexPathFor(locale),
-      languages: isIndexableLocale(locale) ? { ...langs, "x-default": blogIndexPathFor("en") } : undefined,
+      languages: indexable ? { ...langs, "x-default": blogIndexPathFor("en") } : undefined,
     },
     openGraph: {
       type: "website",
