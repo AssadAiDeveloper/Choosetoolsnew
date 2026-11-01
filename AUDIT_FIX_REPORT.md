@@ -98,6 +98,15 @@ Sections appended: T2 (4 keys × 11), T5 (47 rows + blog follow-up), T6 (4 keys 
 - T7 scope limited to the 5 keys that existed only in `en.json` plus de/nl nav/footer values; broader hardcoded UI strings deferred as residual risk.
 - T9 title length left as `${name} — ChooseTools` (all under 60 chars); report flags blog titles > 60 as informational.
 
+## Final verification (post-change)
+
+- `npx tsc --noEmit`: exit 0.
+- `npm test`: exit 0, all 7 checks passed (mojibake, translations, protect-pdf, canvas-text, invoice, image-pdf, links).
+- `npm run build`: exit 0, `✓ Compiled successfully in 37.5s`, 2330 static pages generated.
+- `npm run seo:report`: wrote `SEO_REPORT.md`.
+- `npm run check:mojibake`: passed (1111 JSON files).
+- `npm run check:translations`: passed (10 locales).
+
 ## Next role: QA needs
 
 - Files changed: see commits above; full diff on branch `audit/p0-fixes`.
