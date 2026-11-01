@@ -154,3 +154,11 @@ Sections appended: T2 (4 keys × 11), T5 (47 rows + blog follow-up), T6 (4 keys 
 ### Language policy
 - INDEXABLE_LOCALES used by sitemap, robots meta, hreflang and the language-suggestion banner.
 - Non-indexed locales: `noindex, follow` via layout robots metadata.
+
+## Final verification (post Phase B/C/D)
+- `npx tsc --noEmit`: exit 0.
+- `npm test`: exit 0, all 7 checks passed.
+- `npm run build`: exit 0, compiled successfully, 2330/2330 static pages generated.
+- `npm run check:mojibake`: passed (1111 JSON files).
+- `npm run check:translations`: passed (10 locales).
+- `npm run seo:report`: wrote SEO_REPORT.md.
