@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import { useLocale } from "next-intl";
 import { PrimaryButton } from "../ToolShell";
 import { downloadBlob } from "@/lib/download";
+import { drawFittedText } from "@/lib/canvasText.mjs";
+import { certificateLayout } from "@/lib/certificateLayout.mjs";
 
 type LangId = "en" | "ar" | "es" | "nl" | "fr" | "de" | "ru" | "hi" | "id" | "tr" | "pt";
 
@@ -93,13 +95,31 @@ export default function CertificateGenerator() {
     const F = FONTS[font];
     const hasLogo = !!logoUrl;
     const hasDesc = desc.trim().length > 0;
-    // certificate number (top right)
+    const today = new Date().toLocaleDateString(cls === "ar" ? "ar" : cls === "es" ? "es" : cls === "fr" ? "fr" : cls === "de" ? "de" : cls === "ru" ? "ru" : cls === "hi" ? "hi" : cls === "id" ? "id" : cls === "nl" ? "nl" : cls === "tr" ? "tr" : cls === "pt" ? "pt" : "en", { year: "numeric", month: "long", day: "numeric" });
+
+    const layout = certificateLayout({
+      W, H, isRtl, font: F, accent, hasLogo, hasDesc,
+      labels: {
+        cert: L.cert,
+        presentedTo: L.presentedTo,
+        for_: L.for_,
+        certNumber: L.certNumber,
+        date: L.date,
+        signature: L.signature,
+      },
+      data: {
+        name: displayedName,
+        title: displayedTitle,
+        desc: desc.trim(),
+        certNo: certNo.trim(),
+        presenter: presenter.trim(),
+        today,
+      },
+    });
+
+    // certificate number (top right) — right-aligned in every direction
     if (certNo.trim()) {
-      ctx.textAlign = isRtl ? "left" : "right";
-      ctx.textBaseline = "alphabetic";
-      ctx.fillStyle = accent;
-      ctx.font = "400 28px " + F;
-      ctx.fillText((L.certNumber + ": " + certNo.trim()).toUpperCase(), W - 130, 128);
+      drawFittedText(ctx, layout.certNumber.text, layout.certNumber);
     }
     // logo (top center)
     if (hasLogo) {
@@ -114,64 +134,36 @@ export default function CertificateGenerator() {
       };
       img.src = logoUrl;
     }
-    ctx.textAlign = "center";
-    ctx.textBaseline = "middle";
-    // rows evenly distributed between topY and bottomY so nothing overflows, even with logo + description
-    const topY = hasLogo ? 408 : 300;
-    const bottomY = 845;
-    const rows: { text: string; color: string; weight: string; size: number; maxW: number }[] = [
-      { text: L.cert.toUpperCase(), color: accent, weight: "600", size: 76, maxW: 1500 },
-      { text: L.presentedTo, color: "#ffffff", weight: "400", size: 36, maxW: 1400 },
-      { text: displayedName, color: accent, weight: "700", size: 84, maxW: 1250 },
-    ];
-    if (hasDesc) rows.push({ text: desc.trim(), color: "#d5dbe0", weight: "400", size: 30, maxW: 1450 });
-    rows.push({ text: L.for_, color: "#e3e8ec", weight: "400", size: 33, maxW: 1400 });
-    rows.push({ text: displayedTitle, color: "#ffffff", weight: "600", size: 58, maxW: 1300 });
-    const step = (bottomY - topY) / rows.length;
-    rows.forEach((r, i) => {
-      const yCenter = topY + step * i + step / 2;
-      drawFit(ctx, r.text, yCenter, r.maxW, r.color, r.weight, r.size);
+
+    // rows evenly distributed between topY and bottomY so nothing overflows,
+    // even with logo + description; each row is measured and shrunk to fit.
+    layout.rows.forEach((row) => {
+      drawFittedText(ctx, row.text, row);
     });
+
     // divider
-    const divY = 890;
     ctx.strokeStyle = accent;
     ctx.beginPath();
-    ctx.moveTo(W / 2 - 280, divY);
-    ctx.lineTo(W / 2 + 280, divY);
+    ctx.moveTo(layout.divider.x1, layout.divider.y);
+    ctx.lineTo(layout.divider.x2, layout.divider.y);
     ctx.stroke();
+
     // footer
-    const footY = 924;
-    ctx.fillStyle = "#c9d2da";
-    ctx.font = "400 32px " + F;
-    const today = new Date().toLocaleDateString(cls === "ar" ? "ar" : cls === "es" ? "es" : cls === "fr" ? "fr" : cls === "de" ? "de" : cls === "ru" ? "ru" : cls === "hi" ? "hi" : cls === "id" ? "id" : cls === "nl" ? "nl" : cls === "tr" ? "tr" : cls === "pt" ? "pt" : "en", { year: "numeric", month: "long", day: "numeric" });
-    ctx.fillText(today, W / 2 - 330, footY);
-    ctx.fillText(L.date, W / 2 - 330, footY + 42);
-    ctx.fillText(L.signature, W / 2 + 330, footY + 42);
+    drawFittedText(ctx, layout.footer.date.text, layout.footer.date);
+    drawFittedText(ctx, layout.footer.dateLabel.text, layout.footer.dateLabel);
+    drawFittedText(ctx, layout.footer.signatureLabel.text, layout.footer.signatureLabel);
+
     // signature line
     ctx.strokeStyle = "#ffffff";
     ctx.beginPath();
-    ctx.moveTo(W / 2 + 200, footY);
-    ctx.lineTo(W / 2 + 460, footY);
+    ctx.moveTo(layout.footer.signatureLine.x1, layout.footer.signatureLine.y);
+    ctx.lineTo(layout.footer.signatureLine.x2, layout.footer.signatureLine.y);
     ctx.stroke();
+
     // presenter under signature
     if (presenter.trim()) {
-      ctx.fillStyle = "#ffffff";
-      ctx.font = "600 34px " + F;
-      drawFit(ctx, presenter.trim(), footY + 96, 420, "#ffffff", "600", 34);
+      drawFittedText(ctx, layout.footer.presenter.text, layout.footer.presenter);
     }
-    ctx.textBaseline = "alphabetic";
-  };
-
-  const drawFit = (ctx: CanvasRenderingContext2D, text: string, yCenter: number, maxW: number, color: string, weight: string, baseSize: number) => {
-    let size = baseSize;
-    const F = FONTS[font];
-    ctx.font = `${weight} ${size}px ${F}`;
-    while (size > 20 && ctx.measureText(text).width > maxW) {
-      size -= 4;
-      ctx.font = `${weight} ${size}px ${F}`;
-    }
-    ctx.fillStyle = color;
-    ctx.fillText(text, W / 2, yCenter);
   };
 
   const renderToCanvas = (): HTMLCanvasElement => {
