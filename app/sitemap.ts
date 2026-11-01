@@ -34,9 +34,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly",
         priority: path === "" ? 1 : path.split("/").length === 2 ? 0.7 : 0.8,
         alternates: {
-          languages: Object.fromEntries(
-            routing.locales.map((l) => [l, url(l, path)])
-          ),
+          languages: Object.fromEntries([
+            ...routing.locales.map((l) => [l, url(l, path)]),
+            ["x-default", url("en", path)],
+          ]),
         },
       });
     }
