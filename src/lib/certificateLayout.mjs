@@ -133,6 +133,7 @@ export function certificateLayout(g) {
         color: "#ffffff",
       },
       signatureLine: { y: footY, x1: g.W / 2 + 200, x2: g.W / 2 + 460 },
+      dateLine: { y: footY, x1: g.W / 2 - 460, x2: g.W / 2 - 200 },
     },
   };
 }

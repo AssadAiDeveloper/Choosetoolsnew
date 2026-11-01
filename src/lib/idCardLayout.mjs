@@ -53,8 +53,8 @@ export function idCardTextItems(g) {
   return {
     box,
     divider: g.isRtl
-      ? { x1: box.textX - box.textAreaW, x2: box.textX, y: g.photoY + g.H * 0.28 }
-      : { x1: box.textX, x2: box.textX + box.textAreaW, y: g.photoY + g.H * 0.28 },
+      ? { x1: box.textX - box.textAreaW, x2: box.textX, y: g.photoY + g.H * 0.25 }
+      : { x1: box.textX, x2: box.textX + box.textAreaW, y: g.photoY + g.H * 0.25 },
     company: {
       text: g.company,
       x: g.W / 2,
@@ -98,7 +98,7 @@ export function idCardTextItems(g) {
       ...base,
       text: g.labels.employeeId,
       x: box.textX,
-      y: g.photoY + g.H * 0.31,
+      y: g.photoY + g.H * 0.33,
       size: labelSize,
       minSize: Math.round(g.H * 0.018),
       maxLines: 1,
@@ -110,7 +110,7 @@ export function idCardTextItems(g) {
       ...base,
       text: g.idNumber || "\u2014",
       x: box.textX,
-      y: g.photoY + g.H * 0.365,
+      y: g.photoY + g.H * 0.385,
       size: valueSize,
       minSize: Math.round(g.H * 0.02),
       maxLines: 1,
@@ -122,7 +122,7 @@ export function idCardTextItems(g) {
       ...base,
       text: g.labels.hire,
       x: box.textX,
-      y: g.photoY + g.H * 0.425,
+      y: g.photoY + g.H * 0.45,
       size: labelSize,
       minSize: Math.round(g.H * 0.018),
       maxLines: 1,
@@ -134,7 +134,7 @@ export function idCardTextItems(g) {
       ...base,
       text: g.hireDate || "\u2014",
       x: box.textX,
-      y: g.photoY + g.H * 0.48,
+      y: g.photoY + g.H * 0.505,
       size: valueSize,
       minSize: Math.round(g.H * 0.02),
       maxLines: 1,

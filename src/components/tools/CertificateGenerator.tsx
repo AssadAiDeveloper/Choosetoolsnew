@@ -160,6 +160,12 @@ export default function CertificateGenerator() {
     ctx.lineTo(layout.footer.signatureLine.x2, layout.footer.signatureLine.y);
     ctx.stroke();
 
+    // date line (mirrored) at the same y
+    ctx.beginPath();
+    ctx.moveTo(layout.footer.dateLine.x1, layout.footer.dateLine.y);
+    ctx.lineTo(layout.footer.dateLine.x2, layout.footer.dateLine.y);
+    ctx.stroke();
+
     // presenter under signature
     if (presenter.trim()) {
       drawFittedText(ctx, layout.footer.presenter.text, layout.footer.presenter);
