@@ -169,6 +169,7 @@ export function drawFittedText(ctx, text, opts) {
 
   ctx.save();
   ctx.direction = opts.direction ?? "ltr";
+  ctx.font = `${opts.weight ?? "400"} ${fitted.fontSize}px ${opts.family ?? "Arial, sans-serif"}`;
   ctx.textAlign = opts.align ?? "left";
   ctx.textBaseline = baseline === "top" ? "top" : baseline === "middle" ? "middle" : "alphabetic";
   ctx.fillStyle = opts.color ?? "#000000";
