@@ -47,8 +47,8 @@ export function idCardTextItems(g) {
     maxWidth: box.textAreaW,
     family: "Arial, sans-serif",
   };
-  const labelSize = Math.round(g.H * 0.04);
-  const valueSize = Math.round(g.H * 0.05);
+  const labelSize = Math.round(g.H * 0.045);
+  const valueSize = Math.round(g.H * 0.055);
 
   return {
     box,
@@ -59,8 +59,8 @@ export function idCardTextItems(g) {
       text: g.company,
       x: g.W / 2,
       y: g.headerH * 0.52,
-      size: Math.round(g.H * 0.09),
-      minSize: Math.round(g.H * 0.045),
+      size: Math.round(g.H * 0.1),
+      minSize: Math.round(g.H * 0.078),
       maxWidth: g.W - g.padX * 2,
       maxLines: 1,
       weight: "800",
@@ -75,8 +75,8 @@ export function idCardTextItems(g) {
       text: g.name || g.labels.name,
       x: box.textX,
       y: g.photoY + g.H * 0.15,
-      size: Math.round(g.H * 0.085),
-      minSize: Math.round(g.H * 0.05),
+      size: Math.round(g.H * 0.09),
+      minSize: Math.round(g.H * 0.078),
       maxLines: 2,
       weight: "800",
       baseline: /** @type {const} */ ("last"),
@@ -87,8 +87,8 @@ export function idCardTextItems(g) {
       text: g.title || g.labels.title,
       x: box.textX,
       y: g.photoY + g.H * 0.235,
-      size: Math.round(g.H * 0.063),
-      minSize: Math.round(g.H * 0.036),
+      size: Math.round(g.H * 0.07),
+      minSize: Math.round(g.H * 0.06),
       maxLines: 1,
       weight: "700",
       baseline: /** @type {const} */ ("alphabetic"),
