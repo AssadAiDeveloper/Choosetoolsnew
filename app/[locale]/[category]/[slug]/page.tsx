@@ -15,6 +15,14 @@ interface Params {
   slug: string;
 }
 
+/**
+ * Tool slugs whose guide article covers a different job than the tool itself.
+ * `protect-pdf` is "Remove PDF Password", but its only article explains how to
+ * *add* a password — linking it from the tool is misleading (audit T2d). Drop
+ * the entry once a dedicated "remove a PDF password" guide exists.
+ */
+const GUIDE_LINK_EXCLUDED = new Set(["protect-pdf"]);
+
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
     TOOLS.map((t) => ({ locale, category: t.category, slug: t.slug }))
@@ -85,7 +93,7 @@ export default async function ToolPage({ params }: { params: Promise<Params> }) 
     }))
   );
 
-  const hasGuide = hasArticle(locale, slug);
+  const hasGuide = hasArticle(locale, slug) && !GUIDE_LINK_EXCLUDED.has(slug);
 
   const faqs = [
     { q: t("faq1q"), a: t("faq1a") },

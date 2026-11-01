@@ -11,6 +11,7 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 
 const CHECKS = [
   "check-mojibake.mjs",
+  "test-protect-pdf.mjs",
   "check-links.mjs",
 ];
 
