@@ -15,6 +15,7 @@ import {
   relatedPosts,
   postNeighbors,
   lastModified,
+  ARTICLE_AUTHOR,
   blogSlugs,
   findToolForSlug,
 } from "@/lib/blog";
@@ -114,7 +115,7 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
       image: [`${SITE_URL}/${locale}/opengraph-image.png`, `${SITE_URL}/icon-512.png`],
       datePublished: lastModified(),
       dateModified: lastModified(),
-      author: { "@type": "Organization", name: "hoursmedia" },
+      author: { "@type": "Person", name: ARTICLE_AUTHOR },
       publisher: {
         "@type": "Organization",
         name: SITE_NAME,
@@ -134,7 +135,9 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      mainEntity: article.faqs.map((f) => ({
+      mainEntity: article.faqs
+        .filter((f) => (f.a || "").trim().length > 0)
+        .map((f) => ({
         "@type": "Question",
         name: f.q,
         acceptedAnswer: { "@type": "Answer", text: f.a },
@@ -228,7 +231,7 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
       <section className="mt-10">
         <h2 className="text-xl font-bold text-ink">{t("faqTitle")}</h2>
         <div className="mt-4 space-y-3">
-          {article.faqs.map((f, i) => (
+          {article.faqs.filter((f) => (f.a || "").trim().length > 0).map((f, i) => (
             <details
               key={i}
               className="group rounded-card border border-line bg-surface p-5 transition-colors duration-200 open:border-brand-400"

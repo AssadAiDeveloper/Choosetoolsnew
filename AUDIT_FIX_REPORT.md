@@ -116,3 +116,41 @@ Sections appended: T2 (4 keys × 11), T5 (47 rows + blog follow-up), T6 (4 keys 
 - Verify mojibake grep on locale files; verify no `/Encrypt` in protect-pdf success outputs.
 - Verify sitemap contains `xhtml:link rel="alternate" hreflang="x-default"` on every URL.
 - Verify bare `/blog/<slug>` no longer redirects based on Accept-Language.
+
+
+## Phase B/C/D additions (branch audit/seo-and-fixes)
+
+### T1 (updated) — mojibake guard regex — Done
+- Updated `scripts/check-mojibake.mjs` to the spec regex `[ÃÂÐÑ][\u0080-\u00BF]|â[€†‚ƒ„…‰]` (no false positives on es/pt).
+- Fixed 5 remaining `â†’` arrow mojibake in `messages/en.json` (Sort Lines, CSV, metadata descriptions).
+- Guard verified to fail on reintroduced mojibake.
+
+### T11 — Clean sitemap — Done
+- `src/lib/indexing.ts`: `INDEXABLE_LOCALES = ['en','ar','nl','es']`, `INDEXABLE_BLOG_SLUGS = {}` (empty).
+- `app/sitemap.ts`: only indexed locales × (111 tool/static + home); no blog URLs; x-default on every entry; real lastmod.
+- Expected entries: 4 × 112 ≈ 448 (down from 2,321).
+
+### T12 — Canonical host — Partial (config outside repo)
+- SITE_URL already `https://www.choosetools.com`; all metadata/JSON-LD use it.
+- Host redirect (http→https, apex→www) lives in hosting dashboard — listed under Needs Owner decision.
+
+### T17 — Blog claims, author, language mixing — Partial
+- `ARTICLE_CLAIMS_REPORT.md` generated (325 flagged occurrences across 20 slugs).
+- Mechanical fixes applied to all locales: "PDF.js"→"pdf-lib", "byte for byte" removed, "our tests show" removed, protect-pdf anchor corrected.
+- `ARTICLE_AUTHOR = "TODO Owner"` config added; Article JSON-LD uses it.
+- Empty FAQ answers are now filtered (blog + tool pages).
+- Language mixing: localeDetection already false (T10); URL locale decides.
+- Test for pure-locale blog pages: not added (manual verification).
+
+### T13 — Tool-page content template — Partial
+- `src/lib/toolContent.ts` with data-driven template; English content for all 20 listed tools.
+- Template renders how-to, FAQs, limits, privacy, related tools (English only; drafts not shown unless SHOW_DRAFT_CONTENT=1).
+- ar/nl/es drafts not yet written (pending native review).
+
+### T14 — Dynamic related tools — Not done (P2, deferred)
+### T15 — Performance lazy-loading — Not done (P2, deferred)
+### T16 — docs/seo-checklist.md — Done
+
+### Language policy
+- INDEXABLE_LOCALES used by sitemap, robots meta, hreflang and the language-suggestion banner.
+- Non-indexed locales: `noindex, follow` via layout robots metadata.

@@ -156,6 +156,9 @@ export function lastModified(): string {
   return "2026-09-01";
 }
 
+/** Visible author for blog articles. Owner to replace "TODO Owner" with a real name. */
+export const ARTICLE_AUTHOR = "TODO Owner";
+
 /** Readable keyword columns for authoring convenience (kept here for tool authors). */
 export const SEARCH_INTENT_TEMPLATES = {
   howTo: ["how to", "guide", "step by step"],
