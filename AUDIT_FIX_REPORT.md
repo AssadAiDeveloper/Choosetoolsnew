@@ -174,3 +174,8 @@ Sections appended: T2 (4 keys × 11), T5 (47 rows + blog follow-up), T6 (4 keys 
   - Unlocked plain output (pdf-lib re-save): `qpdf --show-encryption` → "File is not encrypted".
   - Encrypted inputs return failure (reason "encrypted") — never reported as success. Verified by test-protect-pdf.mjs.
 - T5: pdftotext on a raster-image PDF (analogous to CvBuilder's embedPng output) yields only a form feed (1 byte) — i.e. no extractable text. CV Builder still uses raster PNG embedding (option 2 not attempted). Claims rephrased to factual raster-PDF copy.
+
+## Follow-up corrections
+1. Blog metadata robots: `isIndexableBlogSlug(locale, slug) && isIndexableLocale(locale)` determines indexability; non-indexable articles drop hreflang alternates and keep self canonical. Same for blog index (indexable, since it has real content). Test: `scripts/test-blog-indexing.mjs`.
+2. ProtectPdf: added `tool.pdfUnlockRasterNote` (11 locales) shown before download; updated en protect-pdf desc/long/faq1a/faq2a. Algorithm unchanged.
+3. Sitemap check: `scripts/check-sitemap.mjs` (npm run check:sitemap), added to npm test; validates all 440 sitemap URLs against a running `next start`. All pass.
