@@ -132,6 +132,12 @@
     "saveFailed": "PDF yeniden yazılamadı. Başka bir dosya deneyin veya bazı değişiklikleri geri alın."
   },
   "tool": {
+    "pageSize": "Sayfa boyutu",
+    "fitToImage": "Görsele sığdır",
+    "orientation": "Yön",
+    "portrait": "Dikey",
+    "landscape": "Yatay",
+    "marginPx": "Kenar boşluğu (px)",
     "readGuide": "Tam kılavuzu okuyun",
     "dropTitle": "Dosyaları buraya sürükleyin veya seçmek için tıklayın",
     "dropSingle": "Bir dosyayı buraya sürükleyin veya seçmek için tıklayın",

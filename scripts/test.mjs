@@ -15,6 +15,7 @@ const CHECKS = [
   "test-protect-pdf.mjs",
   "test-canvas-text.mjs",
   "test-invoice.mjs",
+  "test-image-pdf.mjs",
   "check-links.mjs",
 ];
 

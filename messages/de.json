@@ -132,6 +132,12 @@
     "saveFailed": "Das PDF konnte nicht neu geschrieben werden. Versuche eine andere Datei oder mache Änderungen rückgängig."
   },
   "tool": {
+    "pageSize": "Seitengröße",
+    "fitToImage": "An Bild anpassen",
+    "orientation": "Ausrichtung",
+    "portrait": "Hochformat",
+    "landscape": "Querformat",
+    "marginPx": "Rand (px)",
     "readGuide": "Den vollständigen Leitfaden lesen",
     "dropTitle": "Dateien hier ablegen oder zum Auswählen klicken",
     "dropSingle": "Eine Datei hier ablegen oder zum Auswählen klicken",

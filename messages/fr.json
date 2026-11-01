@@ -132,6 +132,12 @@
     "saveFailed": "Le PDF n'a pas pu être réécrit. Essayez un autre fichier ou annulez des modifications."
   },
   "tool": {
+    "pageSize": "Taille de page",
+    "fitToImage": "Ajuster à l'image",
+    "orientation": "Orientation",
+    "portrait": "Portrait",
+    "landscape": "Paysage",
+    "marginPx": "Marge (px)",
     "readGuide": "Lire le guide complet",
     "dropTitle": "Déposez vos fichiers ici ou cliquez pour choisir",
     "dropSingle": "Déposez un fichier ici ou cliquez pour choisir",

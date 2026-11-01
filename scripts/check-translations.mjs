@@ -31,6 +31,11 @@ const SAME_BY_DESIGN = new Set([
   "pdfToWord.pagesLabel",
   "tool.pages",
   "tool.format",
+  // "Orientation", "Portrait" (fr) and "Margin (px)" (id) are the same word in
+  // the target language, not a missing translation.
+  "tool.orientation",
+  "tool.portrait",
+  "tool.marginPx",
   "pdfEditor.text",
   "pdfEditor.font",
   "cv.linkedin",

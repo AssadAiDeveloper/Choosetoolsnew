@@ -132,6 +132,12 @@
     "saveFailed": "De PDF kon niet worden herschreven. Probeer een ander bestand of maak wijzigingen ongedaan."
   },
   "tool": {
+    "pageSize": "Paginaformaat",
+    "fitToImage": "Aan afbeelding aanpassen",
+    "orientation": "Oriëntatie",
+    "portrait": "Staand",
+    "landscape": "Liggend",
+    "marginPx": "Marge (px)",
     "readGuide": "Lees de volledige gids",
     "dropTitle": "Zet bestanden hier neer of klik om te kiezen",
     "dropSingle": "Zet hier een bestand neer of klik om te kiezen",

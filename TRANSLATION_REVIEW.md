@@ -270,3 +270,92 @@ Changed values:
 `scripts/check-translations.mjs` now fails when a locale is missing a key,
 changes a `{placeholder}`, has an empty value, or repeats the English value
 outside a documented allowlist of acronyms, loanwords and proper nouns.
+
+
+## T8 — Image to PDF: page size, orientation and margin
+
+The three image-to-PDF tools (JPG, PNG, and the multi-image converter) now
+share one page-size control: `Fit to image`, `A4` or `Letter`, with
+`Portrait`/`Landscape` for the fixed sizes and a margin in pixels. The six
+labels below are new keys in the `tool` namespace.
+
+Behaviour notes for QA: the default (`Fit to image`, margin 0) reproduces the
+previous output exactly. The old multi-image converter converted its pixel
+margin as if it were millimetres (`margin / 2.835`); it now uses the correct
+96 dpi conversion (`px * 72 / 96`), so the same margin value produces a
+larger, correct margin. The input label is unchanged, so no copy was edited
+for that fix.
+
+| Key | Language | Old | New | Status |
+| --- | --- | --- | --- | --- |
+| `tool.pageSize` | en (source) | — (missing) | Page size | new |
+| `tool.fitToImage` | en (source) | — (missing) | Fit to image | new |
+| `tool.orientation` | en (source) | — (missing) | Orientation | new |
+| `tool.portrait` | en (source) | — (missing) | Portrait | new |
+| `tool.landscape` | en (source) | — (missing) | Landscape | new |
+| `tool.marginPx` | en (source) | — (missing) | Margin (px) | new |
+| `tool.pageSize` | ar | — (missing) | حجم الصفحة | new, machine-drafted |
+| `tool.fitToImage` | ar | — (missing) | ملاءمة الصورة | new, machine-drafted |
+| `tool.orientation` | ar | — (missing) | الاتجاه | new, machine-drafted |
+| `tool.portrait` | ar | — (missing) | عمودي | new, machine-drafted |
+| `tool.landscape` | ar | — (missing) | أفقي | new, machine-drafted |
+| `tool.marginPx` | ar | — (missing) | الهامش (بكسل) | new, machine-drafted |
+| `tool.pageSize` | de | — (missing) | Seitengröße | new, machine-drafted |
+| `tool.fitToImage` | de | — (missing) | An Bild anpassen | new, machine-drafted |
+| `tool.orientation` | de | — (missing) | Ausrichtung | new, machine-drafted |
+| `tool.portrait` | de | — (missing) | Hochformat | new, machine-drafted |
+| `tool.landscape` | de | — (missing) | Querformat | new, machine-drafted |
+| `tool.marginPx` | de | — (missing) | Rand (px) | new, machine-drafted |
+| `tool.pageSize` | es | — (missing) | Tamaño de página | new, machine-drafted |
+| `tool.fitToImage` | es | — (missing) | Ajustar a la imagen | new, machine-drafted |
+| `tool.orientation` | es | — (missing) | Orientación | new, machine-drafted |
+| `tool.portrait` | es | — (missing) | Vertical | new, machine-drafted |
+| `tool.landscape` | es | — (missing) | Horizontal | new, machine-drafted |
+| `tool.marginPx` | es | — (missing) | Margen (px) | new, machine-drafted |
+| `tool.pageSize` | fr | — (missing) | Taille de page | new, machine-drafted |
+| `tool.fitToImage` | fr | — (missing) | Ajuster à l'image | new, machine-drafted |
+| `tool.orientation` | fr | — (missing) | Orientation | new, machine-drafted |
+| `tool.portrait` | fr | — (missing) | Portrait | new, machine-drafted |
+| `tool.landscape` | fr | — (missing) | Paysage | new, machine-drafted |
+| `tool.marginPx` | fr | — (missing) | Marge (px) | new, machine-drafted |
+| `tool.pageSize` | hi | — (missing) | पृष्ठ आकार | new, machine-drafted |
+| `tool.fitToImage` | hi | — (missing) | छवि में फ़िट करें | new, machine-drafted |
+| `tool.orientation` | hi | — (missing) | अभिविन्यास | new, machine-drafted |
+| `tool.portrait` | hi | — (missing) | पोर्ट्रेट | new, machine-drafted |
+| `tool.landscape` | hi | — (missing) | लैंडस्केप | new, machine-drafted |
+| `tool.marginPx` | hi | — (missing) | मार्जिन (px) | new, machine-drafted |
+| `tool.pageSize` | id | — (missing) | Ukuran halaman | new, machine-drafted |
+| `tool.fitToImage` | id | — (missing) | Sesuaikan dengan gambar | new, machine-drafted |
+| `tool.orientation` | id | — (missing) | Orientasi | new, machine-drafted |
+| `tool.portrait` | id | — (missing) | Potret | new, machine-drafted |
+| `tool.landscape` | id | — (missing) | Lanskap | new, machine-drafted |
+| `tool.marginPx` | id | — (missing) | Margin (px) | new, machine-drafted |
+| `tool.pageSize` | nl | — (missing) | Paginaformaat | new, machine-drafted |
+| `tool.fitToImage` | nl | — (missing) | Aan afbeelding aanpassen | new, machine-drafted |
+| `tool.orientation` | nl | — (missing) | Oriëntatie | new, machine-drafted |
+| `tool.portrait` | nl | — (missing) | Staand | new, machine-drafted |
+| `tool.landscape` | nl | — (missing) | Liggend | new, machine-drafted |
+| `tool.marginPx` | nl | — (missing) | Marge (px) | new, machine-drafted |
+| `tool.pageSize` | pt | — (missing) | Tamanho da página | new, machine-drafted |
+| `tool.fitToImage` | pt | — (missing) | Ajustar à imagem | new, machine-drafted |
+| `tool.orientation` | pt | — (missing) | Orientação | new, machine-drafted |
+| `tool.portrait` | pt | — (missing) | Vertical | new, machine-drafted |
+| `tool.landscape` | pt | — (missing) | Horizontal | new, machine-drafted |
+| `tool.marginPx` | pt | — (missing) | Margem (px) | new, machine-drafted |
+| `tool.pageSize` | ru | — (missing) | Размер страницы | new, machine-drafted |
+| `tool.fitToImage` | ru | — (missing) | По размеру изображения | new, machine-drafted |
+| `tool.orientation` | ru | — (missing) | Ориентация | new, machine-drafted |
+| `tool.portrait` | ru | — (missing) | Книжная | new, machine-drafted |
+| `tool.landscape` | ru | — (missing) | Альбомная | new, machine-drafted |
+| `tool.marginPx` | ru | — (missing) | Поля (px) | new, machine-drafted |
+| `tool.pageSize` | tr | — (missing) | Sayfa boyutu | new, machine-drafted |
+| `tool.fitToImage` | tr | — (missing) | Görsele sığdır | new, machine-drafted |
+| `tool.orientation` | tr | — (missing) | Yön | new, machine-drafted |
+| `tool.portrait` | tr | — (missing) | Dikey | new, machine-drafted |
+| `tool.landscape` | tr | — (missing) | Yatay | new, machine-drafted |
+| `tool.marginPx` | tr | — (missing) | Kenar boşluğu (px) | new, machine-drafted |
+
+`tool.orientation`, `tool.portrait` (fr) and `tool.marginPx` (id) are the
+same word in the target language as in English, so they are listed in the
+`SAME_BY_DESIGN` allowlist of `scripts/check-translations.mjs` rather than
+being force-translated.

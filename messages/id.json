@@ -132,6 +132,12 @@
     "saveFailed": "PDF tidak bisa ditulis ulang. Coba file lain, atau batalkan sebagian perubahan."
   },
   "tool": {
+    "pageSize": "Ukuran halaman",
+    "fitToImage": "Sesuaikan dengan gambar",
+    "orientation": "Orientasi",
+    "portrait": "Potret",
+    "landscape": "Lanskap",
+    "marginPx": "Margin (px)",
     "readGuide": "Baca panduan lengkap",
     "dropTitle": "Seret berkas ke sini atau klik untuk memilih",
     "dropSingle": "Seret sebuah berkas ke sini atau klik untuk memilih",

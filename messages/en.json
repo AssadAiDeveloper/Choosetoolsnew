@@ -132,6 +132,12 @@
     "saveFailed": "The PDF could not be rewritten. Try a different file, or undo some changes."
   },
   "tool": {
+    "pageSize": "Page size",
+    "fitToImage": "Fit to image",
+    "orientation": "Orientation",
+    "portrait": "Portrait",
+    "landscape": "Landscape",
+    "marginPx": "Margin (px)",
     "dropTitle": "Drop files here or click to choose",
     "dropSingle": "Drop a file here or click to choose",
     "processing": "Processing on your device…",
