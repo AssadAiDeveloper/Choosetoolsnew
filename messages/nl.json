@@ -8,12 +8,12 @@
     "allTools": "Alle tools",
     "pdf": "PDF",
     "image": "Afbeelding",
-    "text": "Tekst & Dev",
+    "text": "Tekst & Ontwikkeling",
     "arabic": "Arabische Teksttools",
     "menu": "Menu",
     "invoice": "Factuurgenerator",
     "cv": "CV-maker",
-    "tools": "Tools",
+    "tools": "Hulpmiddelen",
     "more": "Meer",
     "blog": "Blog",
     "donate": "Doneren"
@@ -132,6 +132,7 @@
     "saveFailed": "De PDF kon niet worden herschreven. Probeer een ander bestand of maak wijzigingen ongedaan."
   },
   "tool": {
+    "readGuide": "Lees de volledige gids",
     "dropTitle": "Zet bestanden hier neer of klik om te kiezen",
     "dropSingle": "Zet hier een bestand neer of klik om te kiezen",
     "processing": "Wordt verwerkt op je apparaat…",
@@ -1193,7 +1194,7 @@
   "footer": {
     "rights": "Snelle, veilige tools in je browser die je gegevens beschermen en een indruk in de wereld achterlaten.",
     "madeBy": "Gemaakt door hoursmedia",
-    "toolsCol": "Tools",
+    "toolsCol": "Hulpmiddelen",
     "popularCol": "Populaire tools",
     "companyCol": "Bedrijf",
     "blog": "Blog"
@@ -1346,6 +1347,10 @@
     }
   },
   "blog": {
+    "relatedPostsTitle": "Gerelateerde gidsen",
+    "relatedPostsHint": "Lees de gids",
+    "prevPost": "Vorige gids",
+    "nextPost": "Volgende gids",
     "metaTitle": "Tools Blog - Handleidingen, Tutorials en Hoe-te-Doen-Artikelen voor Bestandstools",
     "metaDescription": "Bekijk het ChooseTools-blog voor uitgebreide handleidingen, tutorials en praktische artikelen over elke bestandstool: PDF-, afbeeldings- en teksttools die volledig in je browser draaien.",
     "indexTitle": "Tools blog",

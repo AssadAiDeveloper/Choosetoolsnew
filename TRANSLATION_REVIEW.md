@@ -192,3 +192,81 @@ UI label (the primary button):
 The other eight locales use the English UI labels (see T7), so no translated
 string changed there. The hint inside the generated invoice HTML is English
 in every locale; it is also queued for T7.
+
+
+## T7 — Untranslated UI strings and locale parity
+
+Five keys used by the tool pages and the blog pager existed only in
+`en.json`, so every other locale silently fell back to English. They are now
+translated. A few navigation/footer values were still English in German and
+Dutch and were translated too.
+
+New keys:
+
+| Key | Language | Old | New | Status |
+| --- | --- | --- | --- | --- |
+| `tool.readGuide` | ar | — (missing, fell back to English) | اقرأ الدليل الكامل | new, machine-drafted |
+| `blog.relatedPostsTitle` | ar | — (missing, fell back to English) | أدلة ذات صلة | new, machine-drafted |
+| `blog.relatedPostsHint` | ar | — (missing, fell back to English) | اقرأ الدليل | new, machine-drafted |
+| `blog.prevPost` | ar | — (missing, fell back to English) | الدليل السابق | new, machine-drafted |
+| `blog.nextPost` | ar | — (missing, fell back to English) | الدليل التالي | new, machine-drafted |
+| `tool.readGuide` | de | — (missing, fell back to English) | Den vollständigen Leitfaden lesen | new, machine-drafted |
+| `blog.relatedPostsTitle` | de | — (missing, fell back to English) | Verwandte Leitfäden | new, machine-drafted |
+| `blog.relatedPostsHint` | de | — (missing, fell back to English) | Leitfaden lesen | new, machine-drafted |
+| `blog.prevPost` | de | — (missing, fell back to English) | Vorheriger Leitfaden | new, machine-drafted |
+| `blog.nextPost` | de | — (missing, fell back to English) | Nächster Leitfaden | new, machine-drafted |
+| `tool.readGuide` | es | — (missing, fell back to English) | Leer la guía completa | new, machine-drafted |
+| `blog.relatedPostsTitle` | es | — (missing, fell back to English) | Guías relacionadas | new, machine-drafted |
+| `blog.relatedPostsHint` | es | — (missing, fell back to English) | Leer la guía | new, machine-drafted |
+| `blog.prevPost` | es | — (missing, fell back to English) | Guía anterior | new, machine-drafted |
+| `blog.nextPost` | es | — (missing, fell back to English) | Guía siguiente | new, machine-drafted |
+| `tool.readGuide` | fr | — (missing, fell back to English) | Lire le guide complet | new, machine-drafted |
+| `blog.relatedPostsTitle` | fr | — (missing, fell back to English) | Guides associés | new, machine-drafted |
+| `blog.relatedPostsHint` | fr | — (missing, fell back to English) | Lire le guide | new, machine-drafted |
+| `blog.prevPost` | fr | — (missing, fell back to English) | Guide précédent | new, machine-drafted |
+| `blog.nextPost` | fr | — (missing, fell back to English) | Guide suivant | new, machine-drafted |
+| `tool.readGuide` | hi | — (missing, fell back to English) | पूरी गाइड पढ़ें | new, machine-drafted |
+| `blog.relatedPostsTitle` | hi | — (missing, fell back to English) | संबंधित गाइड | new, machine-drafted |
+| `blog.relatedPostsHint` | hi | — (missing, fell back to English) | गाइड पढ़ें | new, machine-drafted |
+| `blog.prevPost` | hi | — (missing, fell back to English) | पिछली गाइड | new, machine-drafted |
+| `blog.nextPost` | hi | — (missing, fell back to English) | अगली गाइड | new, machine-drafted |
+| `tool.readGuide` | id | — (missing, fell back to English) | Baca panduan lengkap | new, machine-drafted |
+| `blog.relatedPostsTitle` | id | — (missing, fell back to English) | Panduan terkait | new, machine-drafted |
+| `blog.relatedPostsHint` | id | — (missing, fell back to English) | Baca panduan | new, machine-drafted |
+| `blog.prevPost` | id | — (missing, fell back to English) | Panduan sebelumnya | new, machine-drafted |
+| `blog.nextPost` | id | — (missing, fell back to English) | Panduan berikutnya | new, machine-drafted |
+| `tool.readGuide` | nl | — (missing, fell back to English) | Lees de volledige gids | new, machine-drafted |
+| `blog.relatedPostsTitle` | nl | — (missing, fell back to English) | Gerelateerde gidsen | new, machine-drafted |
+| `blog.relatedPostsHint` | nl | — (missing, fell back to English) | Lees de gids | new, machine-drafted |
+| `blog.prevPost` | nl | — (missing, fell back to English) | Vorige gids | new, machine-drafted |
+| `blog.nextPost` | nl | — (missing, fell back to English) | Volgende gids | new, machine-drafted |
+| `tool.readGuide` | pt | — (missing, fell back to English) | Ler o guia completo | new, machine-drafted |
+| `blog.relatedPostsTitle` | pt | — (missing, fell back to English) | Guias relacionados | new, machine-drafted |
+| `blog.relatedPostsHint` | pt | — (missing, fell back to English) | Ler o guia | new, machine-drafted |
+| `blog.prevPost` | pt | — (missing, fell back to English) | Guia anterior | new, machine-drafted |
+| `blog.nextPost` | pt | — (missing, fell back to English) | Guia seguinte | new, machine-drafted |
+| `tool.readGuide` | ru | — (missing, fell back to English) | Читать полное руководство | new, machine-drafted |
+| `blog.relatedPostsTitle` | ru | — (missing, fell back to English) | Похожие руководства | new, machine-drafted |
+| `blog.relatedPostsHint` | ru | — (missing, fell back to English) | Читать руководство | new, machine-drafted |
+| `blog.prevPost` | ru | — (missing, fell back to English) | Предыдущее руководство | new, machine-drafted |
+| `blog.nextPost` | ru | — (missing, fell back to English) | Следующее руководство | new, machine-drafted |
+| `tool.readGuide` | tr | — (missing, fell back to English) | Tam kılavuzu okuyun | new, machine-drafted |
+| `blog.relatedPostsTitle` | tr | — (missing, fell back to English) | İlgili kılavuzlar | new, machine-drafted |
+| `blog.relatedPostsHint` | tr | — (missing, fell back to English) | Kılavuzu okuyun | new, machine-drafted |
+| `blog.prevPost` | tr | — (missing, fell back to English) | Önceki kılavuz | new, machine-drafted |
+| `blog.nextPost` | tr | — (missing, fell back to English) | Sonraki kılavuz | new, machine-drafted |
+
+Changed values:
+
+| Key | Language | Old | New | Status |
+| --- | --- | --- | --- | --- |
+| `nav.text` | de | Text & Dev | Text & Entwicklung | changed, machine-drafted |
+| `nav.tools` | de | Tools | Werkzeuge | changed, machine-drafted |
+| `footer.toolsCol` | de | Tools | Werkzeuge | changed, machine-drafted |
+| `nav.text` | nl | Tekst & Dev | Tekst & Ontwikkeling | changed, machine-drafted |
+| `nav.tools` | nl | Tools | Hulpmiddelen | changed, machine-drafted |
+| `footer.toolsCol` | nl | Tools | Hulpmiddelen | changed, machine-drafted |
+
+`scripts/check-translations.mjs` now fails when a locale is missing a key,
+changes a `{placeholder}`, has an empty value, or repeats the English value
+outside a documented allowlist of acronyms, loanwords and proper nouns.

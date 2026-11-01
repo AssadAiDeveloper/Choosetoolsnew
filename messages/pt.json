@@ -132,6 +132,7 @@
     "saveFailed": "Não foi possível reescrever o PDF. Tente outro ficheiro ou anule algumas alterações."
   },
   "tool": {
+    "readGuide": "Ler o guia completo",
     "dropTitle": "Largue aqui os ficheiros ou clique para escolher",
     "dropSingle": "Largue aqui um ficheiro ou clique para escolher",
     "processing": "A processar no seu dispositivo…",
@@ -1346,6 +1347,10 @@
     }
   },
   "blog": {
+    "relatedPostsTitle": "Guias relacionados",
+    "relatedPostsHint": "Ler o guia",
+    "prevPost": "Guia anterior",
+    "nextPost": "Guia seguinte",
     "metaTitle": "Blog de Ferramentas - Guias, Tutoriais e Artigos de Como Fazer para Ferramentas de Arquivos",
     "metaDescription": "Explore o blog da ChooseTools para guias, tutoriais e artigos práticos sobre cada ferramenta de arquivos: ferramentas de PDF, de imagem e de texto que funcionam no seu navegador.",
     "indexTitle": "Blog de ferramentas",

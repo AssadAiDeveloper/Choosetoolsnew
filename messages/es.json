@@ -132,6 +132,7 @@
     "saveFailed": "No se pudo reescribir el PDF. Prueba con otro archivo o deshaz algunos cambios."
   },
   "tool": {
+    "readGuide": "Leer la guía completa",
     "dropTitle": "Suelta archivos aquí o haz clic para elegir",
     "dropSingle": "Suelta un archivo aquí o haz clic para elegir",
     "processing": "Procesando en tu dispositivo…",
@@ -1346,6 +1347,10 @@
     }
   },
   "blog": {
+    "relatedPostsTitle": "Guías relacionadas",
+    "relatedPostsHint": "Leer la guía",
+    "prevPost": "Guía anterior",
+    "nextPost": "Guía siguiente",
     "metaTitle": "Blog de Herramientas - Guías, Tutoriales y Artículos Cómo Hacer para Herramientas de Archivos",
     "metaDescription": "Explora el blog de ChooseTools para guías, tutoriales y artículos prácticos sobre cada herramienta de archivos: herramientas PDF, de imagen y texto que funcionan en tu navegador.",
     "indexTitle": "Blog de herramientas",

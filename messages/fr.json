@@ -132,6 +132,7 @@
     "saveFailed": "Le PDF n'a pas pu être réécrit. Essayez un autre fichier ou annulez des modifications."
   },
   "tool": {
+    "readGuide": "Lire le guide complet",
     "dropTitle": "Déposez vos fichiers ici ou cliquez pour choisir",
     "dropSingle": "Déposez un fichier ici ou cliquez pour choisir",
     "processing": "Traitement sur votre appareil…",
@@ -1346,6 +1347,10 @@
     }
   },
   "blog": {
+    "relatedPostsTitle": "Guides associés",
+    "relatedPostsHint": "Lire le guide",
+    "prevPost": "Guide précédent",
+    "nextPost": "Guide suivant",
     "metaTitle": "Blog d'Outils - Guides, Tutoriels et Articles Pratiques pour les Outils de Fichiers",
     "metaDescription": "Parcourez le blog de ChooseTools pour des guides approfondis, des tutoriels et des articles pratiques sur chaque outil de fichiers : outils PDF, image et texte qui fonctionnent dans votre navigateur.",
     "indexTitle": "Blog des outils",

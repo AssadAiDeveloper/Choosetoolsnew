@@ -132,6 +132,7 @@
     "saveFailed": "PDF yeniden yazılamadı. Başka bir dosya deneyin veya bazı değişiklikleri geri alın."
   },
   "tool": {
+    "readGuide": "Tam kılavuzu okuyun",
     "dropTitle": "Dosyaları buraya sürükleyin veya seçmek için tıklayın",
     "dropSingle": "Bir dosyayı buraya sürükleyin veya seçmek için tıklayın",
     "processing": "Cihazınızda işleniyor…",
@@ -1346,6 +1347,10 @@
     }
   },
   "blog": {
+    "relatedPostsTitle": "İlgili kılavuzlar",
+    "relatedPostsHint": "Kılavuzu okuyun",
+    "prevPost": "Önceki kılavuz",
+    "nextPost": "Sonraki kılavuz",
     "metaTitle": "Araçlar Blogu - Dosya Araçları için Rehberler, Eğitimler ve Nasıl Yapılır Yazıları",
     "metaDescription": "Her çevrimiçi dosya aracı hakkında derinlemesine rehberler, eğitimler ve pratik yazılar için ChooseTools bloguna göz atın: tarayıcınızda çalışan PDF, görsel ve metin araçları.",
     "indexTitle": "Araçlar Blogu",

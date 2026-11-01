@@ -8,12 +8,12 @@
     "allTools": "Alle Tools",
     "pdf": "PDF",
     "image": "Bild",
-    "text": "Text & Dev",
+    "text": "Text & Entwicklung",
     "arabic": "Arabische Texttools",
     "menu": "Menü",
     "invoice": "Rechnungsgenerator",
     "cv": "Lebenslauf-Ersteller",
-    "tools": "Tools",
+    "tools": "Werkzeuge",
     "more": "Mehr",
     "blog": "Blog",
     "donate": "Spenden"
@@ -132,6 +132,7 @@
     "saveFailed": "Das PDF konnte nicht neu geschrieben werden. Versuche eine andere Datei oder mache Änderungen rückgängig."
   },
   "tool": {
+    "readGuide": "Den vollständigen Leitfaden lesen",
     "dropTitle": "Dateien hier ablegen oder zum Auswählen klicken",
     "dropSingle": "Eine Datei hier ablegen oder zum Auswählen klicken",
     "processing": "Verarbeitung auf Ihrem Gerät…",
@@ -1193,7 +1194,7 @@
   "footer": {
     "rights": "Schnelle, sichere Tools in Ihrem Browser, die Ihre Daten schützen und Spuren in der Welt hinterlassen.",
     "madeBy": "Erstellt von hoursmedia",
-    "toolsCol": "Tools",
+    "toolsCol": "Werkzeuge",
     "popularCol": "Beliebte Tools",
     "companyCol": "Unternehmen",
     "blog": "Blog"
@@ -1346,6 +1347,10 @@
     }
   },
   "blog": {
+    "relatedPostsTitle": "Verwandte Leitfäden",
+    "relatedPostsHint": "Leitfaden lesen",
+    "prevPost": "Vorheriger Leitfaden",
+    "nextPost": "Nächster Leitfaden",
     "metaTitle": "Tools-Blog – Ratgeber, Tutorials und Anleitungen für Datei-Tools",
     "metaDescription": "Stöbern Sie im ChooseTools-Blog für ausführliche Ratgeber, Tutorials und Anleitungen zu jedem Online-Datei-Tool: PDF-, Bild- und Text-Tools, die direkt im Browser laufen.",
     "indexTitle": "Tools-Blog",
