@@ -59,7 +59,7 @@ export default function IdCardGenerator() {
     return `/${locale}/text/invoice-generator${qs ? `?${qs}` : ""}`;
   }, [data, locale]);
   const [primary, setPrimary] = useState("#0e8a6c");
-  const [wmOpacity, setWmOpacity] = useState(0.08);
+  const [wmOpacity, setWmOpacity] = useState(0.03);
   const [wmSize, setWmSize] = useState(76);
   const [printed, setPrinted] = useState(false);
   const [busy, setBusy] = useState(false);
