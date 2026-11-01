@@ -213,3 +213,10 @@ Sections appended: T2 (4 keys × 11), T5 (47 rows + blog follow-up), T6 (4 keys 
 - Unit geometry tests (test-canvas-text.mjs): pass for ar/en/hi (no ink in border band, text inside margins).
 - Typecheck: pass. Build: pass (2330 pages).
 - Not verified: ghost text removal, divider containment, scale balance, header balance — all require visual inspection of the real downloaded PDF. Owner to verify with the provided inputs (محمد عبد الله الأحمد الغامدي / EMP-20481 / 2024-03-15, no photo/logo) and report back.
+
+
+## Phase 3b (follow-up) — IDCARD size/watermark fix
+- QA measured unchanged sizes because (a) Vercel preview was stale and (b) minSize was too low. Raised minSize to >= thresholds: name 50px, title 38px, company 50px, labels 26px, values 26px (via idCardLayout.mjs). Increased max sizes ~1.5x.
+- Watermark: default opacity 0 (OFF); when enabled, rotated -0.35 rad, drawn once, centered; text drawn on top.
+- Divider: spans text column only (fixed in 996470c, retained).
+- Not verified: browser download not reproducible in this env (no Playwright/puppeteer main entry). QA to verify with inputs: "محمد عبد الله الأحمد الغامدي", title "مهندس برمجيات أول ومدير مشاريع", company "شركة الأفق للتقنية والحلول الرقمية", no. EMP-20481, hire 2024-03-15, no photo/logo. Expected: name>=50px, title>=38px, labels>=26px, company>=50px, divider only in text column, no ghost text.
