@@ -74,7 +74,7 @@ export const TOOL_CONTENT: Record<string, ToolContent> = {
     ],
     limits: "Text up to a few thousand characters (QR capacity).",
     privacy: PRIVACY,
-    related: ["qr-with-logo", "barcode-generator", "text-to-slug"],
+    related: ["qr-with-logo", "color-converter", "text-to-slug"],
   },
   "tafqit": {
     howTo: ["Enter an amount.", "Choose language and currency.", "Copy the written form."],
@@ -84,7 +84,7 @@ export const TOOL_CONTENT: Record<string, ToolContent> = {
     ],
     limits: "Numbers within standard integer range.",
     privacy: PRIVACY,
-    related: ["arabic-numerals", "number-to-words", "invoice-generator"],
+    related: ["arabic-numerals", "zakat-calculator", "invoice-generator"],
   },
   "hijri-gregorian": {
     howTo: ["Pick a date.", "Choose conversion direction.", "Read the converted date."],
@@ -93,7 +93,7 @@ export const TOOL_CONTENT: Record<string, ToolContent> = {
     ],
     limits: "Standard date range.",
     privacy: PRIVACY,
-    related: ["age-calculator", "date-converter", "arabic-numerals"],
+    related: ["age-calculator", "timestamp-converter", "arabic-numerals"],
   },
   "zakat-calculator": {
     howTo: ["Enter your assets.", "Enter liabilities.", "Read zakat due."],
@@ -102,7 +102,7 @@ export const TOOL_CONTENT: Record<string, ToolContent> = {
     ],
     limits: "Manual entry; rates are indicative.",
     privacy: PRIVACY,
-    related: ["tafqit", "invoice-generator", "currency-converter"],
+    related: ["tafqit", "invoice-generator", "mt940-to-excel"],
   },
   "remove-tashkeel": {
     howTo: ["Paste Arabic text.", "Click remove.", "Copy the result."],
