@@ -10,7 +10,7 @@
       "paragraphs": [
         "Her karmaşık belge dağınık başlar. Taramalar karışık yönelimlerle gelir, boş sayfalar sızar ve bölümler sıra dışı yerleşir. Kusursuz bir nihai dosyaya ulaşmak genellikle birçok araç ve epeyce yeniden indirme gerektirirdi. Hepsi bir arada bir [organize-pdf:PDF sayfa düzenleyici], tüm işi tek yerde çözer.",
         "Düzenleme, ham bir sayfa yığını ile dağıtmaktan gurur duyacağınız bir eser arasındaki farktır. Sıra, yönelim ve eksiksizlik, bu aracın kontrolünüze verdiği özelliklerin tam olarak kendisidir.",
-        "ChooseTools düzenlemeyi PDF.js ile yerel olarak çalıştırır. Her değişiklik canlı önizlemeye anında yansır ve bitmiş belge, cihazınızdan hiç ayrılmadan indirilir.",
+        "ChooseTools düzenlemeyi pdf-lib ile yerel olarak çalıştırır. Her değişiklik canlı önizlemeye anında yansır ve bitmiş belge, cihazınızdan hiç ayrılmadan indirilir.",
         "Birleştirilen dosya standart bir PDF olarak her yerde açılır; e-posta, yazdırma veya arşivleme için hazırdır."
       ]
     },
@@ -63,7 +63,7 @@
   "faqs": [
     {
       "q": "PDF'imi bir sunucuya yüklemeden sayfaları düzenleyebilir miyim?",
-      "a": "Evet. Düzenleyici her şeyi PDF.js ile tarayıcınızda yerel olarak işler. Belgeniz asla yüklenmez, saklanmaz veya uzaktan incelenmez."
+      "a": "Evet. Düzenleyici her şeyi pdf-lib ile tarayıcınızda yerel olarak işler. Belgeniz asla yüklenmez, saklanmaz veya uzaktan incelenmez."
     },
     {
       "q": "Tek oturumda hangi sayfa işlemleri desteklenir?",

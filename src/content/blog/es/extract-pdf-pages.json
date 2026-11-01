@@ -45,7 +45,7 @@
       "heading": "Privacidad Total a Través del Procesamiento Local",
       "paragraphs": [
         "Un extractor necesita acceso profundo a los internos de tu documento; hacerlo de forma remota significa que tu archivo completo cruza la red aunque solo querías cuatro páginas de vuelta. ChooseTools mantiene toda la operación en tu máquina.",
-        "El renderizador PDF.js analiza el árbol de páginas localmente, copia los objetos de página elegidos y escribe el nuevo documento sin transmitir nunca el archivo fuente. Para NDAs, datos médicos y trabajo con clientes, ese es el único modelo aceptable.",
+        "El renderizador pdf-lib analiza el árbol de páginas localmente, copia los objetos de página elegidos y escribe el nuevo documento sin transmitir nunca el archivo fuente. Para NDAs, datos médicos y trabajo con clientes, ese es el único modelo aceptable.",
         "Combínalo con sin registro y sin marca de agua, y la extracción se convierte en una parte rutinaria y de riesgo cero de tu flujo diario de documentos en Windows, macOS o navegadores móviles.",
         "Dado que el fuente nunca viaja, puedes conservar el original en su lugar e iterar las selecciones las veces que necesites con total confianza."
       ]

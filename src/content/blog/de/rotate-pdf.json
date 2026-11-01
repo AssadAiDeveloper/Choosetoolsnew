@@ -10,7 +10,7 @@
       "paragraphs": [
         "Ein eingescannter Vertrag, der seitlich herauskommt, ein Handyfoto, das mit falscher Ausrichtung als PDF exportiert wurde, eine heruntergeladene Rechnung, die auf dem Kopf steht — jeder Büroangestellte hat schon ein PDF erhalten, das eine [rotate-pdf:PDF-Seiten drehen]-Korrektur benötigt. Der Seiteninhalt ist perfekt; nur die Ausrichtung stimmt nicht.",
         "Proprietäre Editoren machen diese Aufgabe kompliziert, aber die Ausrichtung ist eine der einfachsten Eigenschaften eines PDFs. Sie brauchen nur ein zuverlässiges kostenloses Online-PDF-Dreh-Tool, das die Rotationsmatrix der Seite anpasst, ohne die tatsächlichen Zeichnungen, Texte oder Bilder auf der Seite anzufassen.",
-        "ChooseTools dreht Ihr PDF mit der PDF.js-Verarbeitung im Browser. Legen Sie die Datei ab, klicken Sie auf einen Drehen-Button, und jede Seite aktualisiert sich in der Vorschau, bevor Sie speichern — ohne Upload und ohne Qualitätsverlust."
+        "ChooseTools dreht Ihr PDF mit der pdf-lib-Verarbeitung im Browser. Legen Sie die Datei ab, klicken Sie auf einen Drehen-Button, und jede Seite aktualisiert sich in der Vorschau, bevor Sie speichern — ohne Upload und ohne Qualitätsverlust."
       ]
     },
     {

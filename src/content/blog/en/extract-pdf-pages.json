@@ -27,7 +27,7 @@
       "heading": "Single-Page Extraction for Signatures, Covers and Proofs",
       "paragraphs": [
         "Single-page extraction is the bread and butter of legal and administrative work: isolating a signature page, an attestation, a certificate page or a barcode sheet from a longer document.",
-        "These one-page PDFs are ideal candidates for protected delivery. After extraction you can lock the page with [protect-pdf:PDF encryption], ensuring only intended recipients can read the isolated certificate or form.",
+        "These one-page PDFs are ideal candidates for protected delivery. After extraction you can lock the page with [protect-pdf:Remove PDF Password], ensuring only intended recipients can read the isolated certificate or form.",
         "The extracted page looks exactly as it did in the source — same layout, same fonts — because it is the original page object saved alone, not a screenshot.",
         "The isolated pages also print cleanly on a single sheet, which is why verification and compliance teams request them so often."
       ]
@@ -45,7 +45,7 @@
       "heading": "Full Privacy Through Local Processing",
       "paragraphs": [
         "An extractor needs deep access to your document's internals; doing that remotely means your full file crosses the network even though you only wanted four pages back. ChooseTools keeps the whole operation on your machine.",
-        "The PDF.js renderer parses the page tree locally, copies the chosen page objects, and writes the new document without ever transmitting the source file. For NDAs, medical data and client work, that is the only acceptable model.",
+        "The pdf-lib renderer parses the page tree locally, copies the chosen page objects, and writes the new document without ever transmitting the source file. For NDAs, medical data and client work, that is the only acceptable model.",
         "Combine that with no registration and no watermark, and extraction becomes a routine, zero-risk part of your daily document pipeline across Windows, macOS or mobile browsers.",
         "Because the source never travels, you can keep the original in place and iterate selections as often as needed with total confidence."
       ]

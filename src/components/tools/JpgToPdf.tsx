@@ -5,24 +5,37 @@ import { useTranslations } from "next-intl";
 import { FileDropzone } from "../FileDropzone";
 import { Processing, ErrorBox, PrimaryButton, ResultCard } from "../ToolShell";
 import { downloadBlob, formatBytes } from "@/lib/download";
+import { resolvePage, pxToPt } from "@/lib/imagePdfLayout.mjs";
 import { PdfPreview } from "./PdfPreview";
+import { ImagePdfOptions, type ImagePdfOrientation, type ImagePdfPageSize } from "./ImagePdfOptions";
 
 export default function JpgToPdf() {
   const t = useTranslations("tool");
   const [files, setFiles] = useState<File[]>([]);
   const [stage, setStage] = useState<"pick" | "busy" | "done" | "error">("pick");
   const [out, setOut] = useState<Blob | null>(null);
+  const [pageSize, setPageSize] = useState<ImagePdfPageSize>("fit");
+  const [orientation, setOrientation] = useState<ImagePdfOrientation>("portrait");
+  const [margin, setMargin] = useState(0);
 
   const run = async () => {
     setStage("busy");
     try {
       const { PDFDocument } = await import("pdf-lib");
       const doc = await PDFDocument.create();
+      const marginPt = pxToPt(margin);
       for (const f of files) {
         const bytes = await f.arrayBuffer();
         const img = f.type === "image/png" ? await doc.embedPng(bytes) : await doc.embedJpg(bytes);
-        const page = doc.addPage([img.width, img.height]);
-        page.drawImage(img, { x: 0, y: 0, width: img.width, height: img.height });
+        const { pageW, pageH, image } = resolvePage({
+          size: pageSize,
+          orientation,
+          imgW: img.width,
+          imgH: img.height,
+          marginPt,
+        });
+        const page = doc.addPage([pageW, pageH]);
+        page.drawImage(img, image);
       }
       const pdf = await doc.save();
       setOut(new Blob([pdf as unknown as ArrayBuffer], { type: "application/pdf" }));
@@ -59,6 +72,14 @@ export default function JpgToPdf() {
               </li>
             ))}
           </ul>
+          <ImagePdfOptions
+            pageSize={pageSize}
+            onPageSize={setPageSize}
+            orientation={orientation}
+            onOrientation={setOrientation}
+            margin={margin}
+            onMargin={setMargin}
+          />
           <PrimaryButton onClick={run}>{t("run")} ({files.length})</PrimaryButton>
         </>
       )}

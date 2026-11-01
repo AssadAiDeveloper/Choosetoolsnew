@@ -12,11 +12,11 @@ export function Processing() {
   );
 }
 
-export function ErrorBox({ onReset }: { onReset: () => void }) {
+export function ErrorBox({ onReset, message }: { onReset: () => void; message?: string }) {
   const t = useTranslations("tool");
   return (
     <div className="rounded-card border border-red-200 bg-red-50 p-6 text-center">
-      <p className="text-red-700">{t("error")}</p>
+      <p className="text-red-700">{message ?? t("error")}</p>
       <button onClick={onReset} className="mt-4 rounded-lg border border-red-200 bg-surface px-4 py-2 text-sm font-medium text-red-700 hover:bg-red-100">
         {t("reset")}
       </button>

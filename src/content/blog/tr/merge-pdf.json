@@ -9,7 +9,7 @@
       "heading": "Neden Tarayıcınızda Çalışan Ücretsiz Bir PDF Birleştiriciye İhtiyacınız Var",
       "paragraphs": [
         "PDF dosyalarını birleştirmek, ofislerde, okullarda ve serbest çalışma hayatında en yaygın belge işlerinden biridir. Her gün milyonlarca insanın PDF belgelerini birleştirmesi gerekir: iki faturayı tek dosyada taramak, birkaç sözleşme sayfasını eklemek veya ayrı bölüm PDF'lerinden eksiksiz bir rapor oluşturmak. Güvenilir bir [merge-pdf:PDF birleştirme aracı] çok dosyalı sinir bozucu iş akışını tek bir temiz tıklamaya dönüştürür.",
-        "Çoğu çevrimiçi PDF birleştirici ücretsiz olduğunu iddia eder, ancak özel belgelerinizi sessizce kendi sunucularına yükler, filigran ekler, sayfa sayısını sınırlar veya birleştirme bittiği anda kredi kartı ister. ChooseTools'ın tam olarak çözdüğü sorun budur. Çevrimiçi ücretsiz PDF birleştirme aracımız PDF.js motorunu kullanarak tamamen tarayıcınızın içinde çalışır; böylece belgeleriniz cihazınızdan asla ayrılmaz ve gerçekten hiçbir sınır yoktur.",
+        "Çoğu çevrimiçi PDF birleştirici ücretsiz olduğunu iddia eder, ancak özel belgelerinizi sessizce kendi sunucularına yükler, filigran ekler, sayfa sayısını sınırlar veya birleştirme bittiği anda kredi kartı ister. ChooseTools'ın tam olarak çözdüğü sorun budur. Çevrimiçi ücretsiz PDF birleştirme aracımız pdf-lib motorunu kullanarak tamamen tarayıcınızın içinde çalışır; böylece belgeleriniz cihazınızdan asla ayrılmaz ve gerçekten hiçbir sınır yoktur.",
         "Burada gizlilik bir özellik değil; mimarinin kendisidir. PDF'lerinizi bırakma alanına sürüklediğinizde dosyalar JavaScript tarafından yerel olarak işlenir. Hiçbir şey sunuculara iletilmez, kaydedilmez veya önbelleğe alınmaz. Pahalı masaüstü yazılımlarıyla aynı sonucu alırsınız, ancak kurulum, kayıt veya hassas verilerin sızma riski olmadan."
       ]
     },
@@ -49,7 +49,7 @@
       "heading": "Hız ve Güvenlik: Yerel İşleme Neden Bulut Birleştiricilerden Üstündür",
       "paragraphs": [
         "Bulut tabanlı PDF birleştiriciler dosyalarınızı yükler, bir sunucu çiftliğinde işler ve ardından sonucu indirmenizi sağlar. Her adım bir hata noktasıdır: yükleme takılabilir, sunucu meşgul olabilir ve dosya önbelleğe alma politikası nedeniyle aylarca üçüncü taraf bir sabit diskte bekleyebilir.",
-        "Yerel işleme tüm bunları ortadan kaldırır. Sayfalar, Firefox'un yerleşik PDF görüntüleyicisine güç veren açık kaynaklı PDF.js kullanılarak tarayıcınızın belleğinde birleştirilir. Birleştirme bittiği anda çıktı yalnızca sizin cihazınızda bulunur.",
+        "Yerel işleme tüm bunları ortadan kaldırır. Sayfalar, Firefox'un yerleşik PDF görüntüleyicisine güç veren açık kaynaklı pdf-lib kullanılarak tarayıcınızın belleğinde birleştirilir. Birleştirme bittiği anda çıktı yalnızca sizin cihazınızda bulunur.",
         "Güvenlik ekipleri ve hukuk departmanları, gizlilik anlaşmaları, finansal tablolar ve hasta kayıtları gibi belgelerin üçüncü taraf altyapısına asla temas etmemesini giderek daha fazla şart koşuyor. Sıfır ağ aktarımına sahip çevrimiçi ücretsiz bir PDF birleştirme aracı tek güvenli yanıttır ve pratikte de daha hızlıdır. Testlerimizdeki kıyaslamalar, birleştirmelerin yükleme tabanlı hizmetlerin süresinin çok küçük bir bölümünde tamamlandığını gösteriyor."
       ]
     },
@@ -64,7 +64,7 @@
     {
       "heading": "Ücretsiz PDF Birleştirici Hakkında Sık Sorulan Sorular",
       "paragraphs": [
-        "PDF dosyalarını telefonumda birleştirebilir miyim? Evet — araç, mobilde Safari ve Chrome dahil her modern tarayıcıda çalışır; böylece uygulama kurmadan bir telefon veya tablette PDF'leri birleştirebilirsiniz. Dosyalarım yüklenecek mi? Hayır. Birleştirme tamamen tarayıcınızda yerel olarak gerçekleşir ve hiçbir dosya verisi herhangi bir sunucuya gönderilmez. Dosya boyutu veya dosya sayısıyla ilgili bir sınır var mı? Katı sınırlar yoktur; cihazınızın anlık bellekte tutabileceği kadar dosya ekleyebilirsiniz. Hangi tarayıcılar destekleniyor? Chrome, Edge, Firefox ve Safari. PDF.js ile en iyi performans için en güncel sürümleri öneriyoruz.",
+        "PDF dosyalarını telefonumda birleştirebilir miyim? Evet — araç, mobilde Safari ve Chrome dahil her modern tarayıcıda çalışır; böylece uygulama kurmadan bir telefon veya tablette PDF'leri birleştirebilirsiniz. Dosyalarım yüklenecek mi? Hayır. Birleştirme tamamen tarayıcınızda yerel olarak gerçekleşir ve hiçbir dosya verisi herhangi bir sunucuya gönderilmez. Dosya boyutu veya dosya sayısıyla ilgili bir sınır var mı? Katı sınırlar yoktur; cihazınızın anlık bellekte tutabileceği kadar dosya ekleyebilirsiniz. Hangi tarayıcılar destekleniyor? Chrome, Edge, Firefox ve Safari. pdf-lib ile en iyi performans için en güncel sürümleri öneriyoruz.",
         "Yazılım kurmam veya hesap oluşturmam gerekiyor mu? Kurulum ve hesap gerekmez — araç anında çalışan tek sayfalık bir uygulamadır. Sekmeyi kapattığımda dosyalarıma ne olur? Bellekten silinirler. Hiçbir şey kaydedilmez, yüklenmez veya izlenmez; bu da süitin tamamının gizlilik öncelikli tasarımını güçlendirir."
       ]
     }
@@ -76,7 +76,7 @@
     },
     {
       "q": "Aynı anda çok sayıda PDF sayfasını birleştirebilir miyim?",
-      "a": "Evet. Rastgele bir sayfa veya dosya sınırı yoktur. Pratik sınır, cihazınızın belleğine bağlıdır çünkü birleştirme PDF.js kullanılarak yerel olarak gerçekleşir; bu da çok büyük belgelerin bile paylaşılan bir sunucuda değil, kendi makinenizde işlendiği anlamına gelir."
+      "a": "Evet. Rastgele bir sayfa veya dosya sınırı yoktur. Pratik sınır, cihazınızın belleğine bağlıdır çünkü birleştirme pdf-lib kullanılarak yerel olarak gerçekleşir; bu da çok büyük belgelerin bile paylaşılan bir sunucuda değil, kendi makinenizde işlendiği anlamına gelir."
     },
     {
       "q": "Birleştirilen PDF'ler orijinal kalitelerini ve metinlerini korur mu?",

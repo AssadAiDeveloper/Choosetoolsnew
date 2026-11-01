@@ -10,7 +10,7 @@
       "paragraphs": [
         "Un contrat scanné qui apparaît de travers, une photo de téléphone exportée en PDF avec la mauvaise orientation, une facture téléchargée affichée à l'envers — chaque employé de bureau a reçu un PDF nécessitant une correction de [rotate-pdf:rotation des pages PDF]. Le contenu de la page est parfait ; l'orientation est simplement erronée.",
         "Les éditeurs propriétaires rendent cette tâche complexe, mais l'orientation est l'une des propriétés les plus simples d'un PDF. Vous avez simplement besoin d'un outil fiable de rotation PDF en ligne gratuit qui ajuste la matrice de rotation de la page sans toucher aux dessins, au texte ou aux images de la page.",
-        "ChooseTools fait pivoter votre PDF grâce au traitement PDF.js dans le navigateur. Déposez le fichier, cliquez sur un bouton de rotation, et chaque page se met à jour dans l'aperçu avant que vous n'enregistriez — sans téléchargement et sans perte de qualité."
+        "ChooseTools fait pivoter votre PDF grâce au traitement pdf-lib dans le navigateur. Déposez le fichier, cliquez sur un bouton de rotation, et chaque page se met à jour dans l'aperçu avant que vous n'enregistriez — sans téléchargement et sans perte de qualité."
       ]
     },
     {

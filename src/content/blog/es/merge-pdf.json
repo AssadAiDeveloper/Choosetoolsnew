@@ -9,7 +9,7 @@
       "heading": "Por Qué Necesitas un Fusionador de PDF Gratuito Que Funcione en Tu Navegador",
       "paragraphs": [
         "Fusionar archivos PDF es una de las tareas documentales más comunes en oficinas, escuelas y trabajo freelance. Cada día millones de personas necesitan combinar documentos PDF: escanear dos facturas en un solo archivo, unir varias páginas de contratos o ensamblar un informe completo a partir de capítulos PDF separados. Una herramienta fiable de [merge-pdf:fusionar PDF] convierte un flujo de trabajo frustrante con múltiples archivos en un solo clic limpio.",
-        "La mayoría de los fusionadores de PDF online dicen ser gratuitos, pero suben discretamente tus documentos privados a sus servidores, aplican marcas de agua, limitan el número de páginas o exigen una tarjeta de crédito en el momento en que la fusión termina. Ese es exactamente el problema que ChooseTools resuelve. Nuestra herramienta para fusionar PDF online gratis funciona completamente dentro de tu navegador usando el motor PDF.js, por lo que tus documentos nunca salen de tu dispositivo y no hay límites reales.",
+        "La mayoría de los fusionadores de PDF online dicen ser gratuitos, pero suben discretamente tus documentos privados a sus servidores, aplican marcas de agua, limitan el número de páginas o exigen una tarjeta de crédito en el momento en que la fusión termina. Ese es exactamente el problema que ChooseTools resuelve. Nuestra herramienta para fusionar PDF online gratis funciona completamente dentro de tu navegador usando el motor pdf-lib, por lo que tus documentos nunca salen de tu dispositivo y no hay límites reales.",
         "La privacidad no es aquí una característica; es la arquitectura. Cuando arrastras tus PDFs a la zona de caída, los archivos se procesan localmente mediante JavaScript. No se transmite, registra ni almacena nada en ningún servidor. Obtienes el mismo resultado que un software de escritorio costoso, pero sin instalación, registro ni riesgo de filtrar datos sensibles."
       ]
     },
@@ -49,7 +49,7 @@
       "heading": "Velocidad y Seguridad: Por Qué el Procesamiento Local Supera a los Fusionadores en la Nube",
       "paragraphs": [
         "Los fusionadores de PDF basados en la nube suben tus archivos, los procesan en un conjunto de servidores y luego te hacen descargar el resultado. Cada paso es un punto de fallo: la subida puede atascarse, el servidor puede estar ocupado y el archivo puede permanecer en un disco duro de terceros durante meses según su política de caché.",
-        "El procesamiento local elimina todo eso. Las páginas se combinan en la memoria de tu navegador usando el PDF.js de código abierto, el mismo motor de renderizado que alimenta el visor de PDF integrado de Firefox. En el momento en que la fusión termina, el resultado existe solo en tu dispositivo.",
+        "El procesamiento local elimina todo eso. Las páginas se combinan en la memoria de tu navegador usando el pdf-lib de código abierto, el mismo motor de renderizado que alimenta el visor de PDF integrado de Firefox. En el momento en que la fusión termina, el resultado existe solo en tu dispositivo.",
         "Los equipos de seguridad y los departamentos legales exigen cada vez más que documentos como NDAs, estados financieros y registros de pacientes nunca toquen infraestructura de terceros. Una herramienta para fusionar PDF online gratis con transferencia de red cero es la única respuesta segura, y también es más rápida en la práctica. Las pruebas de rendimiento muestran que las fusiones se completan en una fracción del tiempo de los servicios basados en subida."
       ]
     },
@@ -64,7 +64,7 @@
     {
       "heading": "Preguntas Frecuentes Sobre el Fusionador de PDF Gratuito",
       "paragraphs": [
-        "¿Puedo fusionar archivos PDF en mi teléfono? Sí, la herramienta funciona en cualquier navegador moderno, incluidos Safari y Chrome en móvil, por lo que puedes combinar PDFs en un teléfono o tableta sin instalar una aplicación. ¿Se subirán mis archivos? No. Toda la fusión se realiza localmente en tu navegador y ningún dato de archivo se envía a ningún servidor. ¿Hay un límite de tamaño o número de archivos? No hay límites estrictos; puedes añadir tantos documentos como tu dispositivo pueda contener en memoria a la vez. ¿Qué navegadores son compatibles? Chrome, Edge, Firefox y Safari. Recomendamos las versiones más recientes para el mejor rendimiento con PDF.js.",
+        "¿Puedo fusionar archivos PDF en mi teléfono? Sí, la herramienta funciona en cualquier navegador moderno, incluidos Safari y Chrome en móvil, por lo que puedes combinar PDFs en un teléfono o tableta sin instalar una aplicación. ¿Se subirán mis archivos? No. Toda la fusión se realiza localmente en tu navegador y ningún dato de archivo se envía a ningún servidor. ¿Hay un límite de tamaño o número de archivos? No hay límites estrictos; puedes añadir tantos documentos como tu dispositivo pueda contener en memoria a la vez. ¿Qué navegadores son compatibles? Chrome, Edge, Firefox y Safari. Recomendamos las versiones más recientes para el mejor rendimiento con pdf-lib.",
         "¿Necesito instalar software o crear una cuenta? No se requiere instalación ni cuenta; la herramienta es una aplicación de página única que funciona inmediatamente. ¿Qué pasa con mis archivos cuando cierro la pestaña? Se descartan de la memoria. No se guarda, sube ni rastrea nada, lo que refuerza el diseño de privacidad primero de todo el conjunto."
       ]
     }
@@ -76,7 +76,7 @@
     },
     {
       "q": "¿Puedo fusionar un gran número de páginas PDF a la vez?",
-      "a": "Sí. No hay límite arbitrario de páginas ni de archivos. El límite práctico depende de la memoria de tu dispositivo, porque la fusión se realiza localmente usando PDF.js, lo que significa que incluso documentos muy grandes se procesan en tu máquina en lugar de en un servidor compartido."
+      "a": "Sí. No hay límite arbitrario de páginas ni de archivos. El límite práctico depende de la memoria de tu dispositivo, porque la fusión se realiza localmente usando pdf-lib, lo que significa que incluso documentos muy grandes se procesan en tu máquina en lugar de en un servidor compartido."
     },
     {
       "q": "¿Los PDFs fusionados conservan su calidad y texto originales?",

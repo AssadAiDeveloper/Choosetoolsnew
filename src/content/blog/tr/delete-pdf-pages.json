@@ -40,7 +40,7 @@
     {
       "heading": "Gizlilik, Hız ve Platform Özgürlüğü",
       "paragraphs": [
-        "Sayfa silme, iç sayfa ağacına derin erişim gerektirir; bu da uzak bir sunucuda yapıldığında belgeleri ifşa eden işlem türünün tam olarak kendisidir. Burada PDF.js ile yerel olarak yapılır; böylece gizli dosyalar asla yolculuk yapmaz.",
+        "Sayfa silme, iç sayfa ağacına derin erişim gerektirir; bu da uzak bir sunucuda yapıldığında belgeleri ifşa eden işlem türünün tam olarak kendisidir. Burada pdf-lib ile yerel olarak yapılır; böylece gizli dosyalar asla yolculuk yapmaz.",
         "Çıktı kalitesi hassas biçimde korunur: metin aranabilir ve seçilebilir kalır, görseller keskin kalır ve indirilen dosya standart, her yerde uyumlu bir PDF'dir.",
         "Windows, macOS, Linux, tabletler ve telefonlar dahil her cihazda hiçbir şey kurmadan sayfaları silebilirsiniz; bu da onu birden fazla makinede çalışan profesyoneller için ideal bir yardımcı yapar."
       ]

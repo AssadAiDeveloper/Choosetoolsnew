@@ -8,12 +8,12 @@
     "allTools": "Alle Tools",
     "pdf": "PDF",
     "image": "Bild",
-    "text": "Text & Dev",
+    "text": "Text & Entwicklung",
     "arabic": "Arabische Texttools",
     "menu": "Menü",
     "invoice": "Rechnungsgenerator",
     "cv": "Lebenslauf-Ersteller",
-    "tools": "Tools",
+    "tools": "Werkzeuge",
     "more": "Mehr",
     "blog": "Blog",
     "donate": "Spenden"
@@ -132,6 +132,14 @@
     "saveFailed": "Das PDF konnte nicht neu geschrieben werden. Versuche eine andere Datei oder mache Änderungen rückgängig."
   },
   "tool": {
+    "pdfUnlockRasterNote": "Die entsperrte Kopie besteht aus Seitenbildern, daher kann der Text nicht markiert oder durchsucht werden.",
+    "pageSize": "Seitengröße",
+    "fitToImage": "An Bild anpassen",
+    "orientation": "Ausrichtung",
+    "portrait": "Hochformat",
+    "landscape": "Querformat",
+    "marginPx": "Rand (px)",
+    "readGuide": "Den vollständigen Leitfaden lesen",
     "dropTitle": "Dateien hier ablegen oder zum Auswählen klicken",
     "dropSingle": "Eine Datei hier ablegen oder zum Auswählen klicken",
     "processing": "Verarbeitung auf Ihrem Gerät…",
@@ -143,6 +151,10 @@
     "copy": "Kopieren",
     "copied": "Kopiert!",
     "error": "Diese Datei konnte nicht verarbeitet werden. Prüfen Sie das Format und versuchen Sie es erneut.",
+    "pdfPassword": "PDF-Passwort",
+    "unlock": "PDF entsperren",
+    "wrongPassword": "Das Passwort war nicht korrekt. Versuchen Sie es erneut.",
+    "encryptedPdf": "Diese Datei kann im Browser nicht entsperrt werden. Möglicherweise verwendet sie eine Verschlüsselung, die dieses Tool nicht öffnen kann.",
     "faqTitle": "Häufig gestellte Fragen",
     "relatedTitle": "Verwandte Tools",
     "pages": "Seiten",
@@ -944,19 +956,19 @@
     },
     "invoice-generator": {
       "name": "Rechnung erstellen",
-      "desc": "Eine professionelle Rechnung mit Ihrem Logo, Steuern und jeder Währung erstellen.",
-      "long": "Füllen Sie Ihre Unternehmens- und Kundendaten aus, fügen Sie Positionen hinzu und laden Sie eine hochwertige PDF-Rechnung herunter — vollständig auf Ihrem Gerät erzeugt. Da arabischer Text eine korrekte Buchstabenformung benötigt, die PDF-Schriften nicht direkt leisten können, wird die Rechnung zuerst pixelgenau in Ihrem Browser gerendert und dann als PDF-Seite gespeichert.",
+      "desc": "Eine professionelle Rechnung mit Ihrem Logo, Steuern und 27 gängigen Währungen erstellen.",
+      "long": "Füllen Sie Ihre Unternehmens- und Kundendaten aus, fügen Sie Positionen hinzu und drucken Sie die Rechnung oder speichern Sie sie direkt aus dem Browser als PDF — alles wird auf Ihrem Gerät erzeugt. Das Layout ist druckfertig in A4, und da der Browser echten Text druckt, bleibt die gespeicherte PDF auswählbar und durchsuchbar.",
       "faq1q": "Ist der Rechnungstext in der PDF auswählbar?",
-      "faq1a": "Nein — um arabischen, englischen und spanischen Text korrekt und konsistent darzustellen, wird die Rechnung als gestochen scharfes Bild gezeichnet und in die PDF-Seite eingebettet. Sie lässt sich perfekt drucken und anzeigen, aber der Text selbst ist nicht auswählbar.",
+      "faq1a": "Ja. Die Rechnung ist eine normale Webseite, die Ihr Browser als PDF druckt; der Text bleibt daher auswählbar und durchsuchbar. Arabisch, Englisch und Spanisch werden korrekt dargestellt, auch von rechts nach links verlaufender Text.",
       "faq2q": "Kann ich mein eigenes Logo und meine Währung verwenden?",
-      "faq2a": "Ja — laden Sie ein PNG- oder JPG-Logo hoch und wählen Sie aus gängigen Währungen (USD, EUR, SAR, AED, EGP, GBP). Steuerprozentsatz und Summen werden automatisch berechnet."
+      "faq2a": "Ja — laden Sie ein PNG- oder JPG-Logo hoch und wählen Sie aus 27 Währungen, darunter USD, EUR, GBP, SAR, AED, EGP, INR und JPY. Steuerprozentsatz und Summen werden automatisch berechnet."
     },
     "cv-builder": {
       "name": "Lebenslauf-Ersteller",
-      "desc": "Einen sauberen, einspaltigen Lebenslauf erstellen, den Bewerbertracking-Systeme lesen können.",
-      "long": "Füllen Sie Ihre Berufserfahrung, Ausbildung und Fähigkeiten aus — das Layout ist bewusst schlicht (eine Spalte, klare Überschriften, keine Tabellen oder Grafiken), weil genau das ATS-Software zuverlässig parsen kann. Lange Lebensläufe laufen automatisch auf zusätzliche Seiten über.",
-      "faq1q": "Warum sieht das Design so schlicht aus?",
-      "faq1a": "Die Bewerbertracking-Systeme der meisten Arbeitgeber tun sich mit mehrspaltigen Layouts, Symbolen und Textfeldern schwer. Ein einspaltiger Lebenslauf mit klaren Überschriften wird mit größerer Wahrscheinlichkeit korrekt geparst und erreicht einen menschlichen Prüfer.",
+      "desc": "Einen sauberen, einspaltigen Lebenslauf mit klaren Überschriften erstellen, bereit zum Drucken oder Speichern als PDF.",
+      "long": "Füllen Sie Ihre Berufserfahrung, Ausbildung und Fähigkeiten aus. Das Layout ist bewusst schlicht — eine Spalte, klare Überschriften, keine Tabellen oder Grafiken —, damit er auf dem Bildschirm und auf Papier gut lesbar bleibt; lange Lebensläufe laufen automatisch auf zusätzliche Seiten über. Das PDF wird als hochauflösendes Bild erzeugt, daher ist sein Text nicht auswählbar.",
+      "faq1q": "Können Bewerbertracking-Systeme (ATS) das PDF lesen?",
+      "faq1a": "Nein. Das PDF wird als hochauflösendes Bild gezeichnet, damit Arabisch und andere Schriften korrekt dargestellt werden. Dadurch ist sein Text nicht auswählbar und ATS-Software kann ihn nicht auswerten. Kopieren Sie den Text aus dem Editor, wenn Sie ihn in ein Bewerbungsformular einfügen möchten.",
       "faq2q": "Darf mein Lebenslauf mehr als eine Seite haben?",
       "faq2a": "Ja — Inhalt, der nicht auf die erste Seite passt, wird automatisch auf zusätzlichen Seiten fortgesetzt."
     },
@@ -1189,7 +1201,7 @@
   "footer": {
     "rights": "Schnelle, sichere Tools in Ihrem Browser, die Ihre Daten schützen und Spuren in der Welt hinterlassen.",
     "madeBy": "Erstellt von hoursmedia",
-    "toolsCol": "Tools",
+    "toolsCol": "Werkzeuge",
     "popularCol": "Beliebte Tools",
     "companyCol": "Unternehmen",
     "blog": "Blog"
@@ -1342,6 +1354,10 @@
     }
   },
   "blog": {
+    "relatedPostsTitle": "Verwandte Leitfäden",
+    "relatedPostsHint": "Leitfaden lesen",
+    "prevPost": "Vorheriger Leitfaden",
+    "nextPost": "Nächster Leitfaden",
     "metaTitle": "Tools-Blog – Ratgeber, Tutorials und Anleitungen für Datei-Tools",
     "metaDescription": "Stöbern Sie im ChooseTools-Blog für ausführliche Ratgeber, Tutorials und Anleitungen zu jedem Online-Datei-Tool: PDF-, Bild- und Text-Tools, die direkt im Browser laufen.",
     "indexTitle": "Tools-Blog",

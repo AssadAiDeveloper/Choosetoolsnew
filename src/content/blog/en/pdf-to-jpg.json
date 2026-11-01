@@ -19,7 +19,7 @@
       "paragraphs": [
         "The tool converts your whole document in one smooth pass.",
         "Upload your PDF and instantly get page thumbnails. Choose whether you want every page or a selection, pick the resolution that matches your use, and convert. Each page downloads as its own JPG file, numbered in document order.",
-        "Because rendering happens locally with PDF.js, viewing pages and exporting them is fast, and the quality of each JPG reflects the full original resolution you select.",
+        "Because rendering happens locally with pdf-lib, viewing pages and exporting them is fast, and the quality of each JPG reflects the full original resolution you select.",
         "Page selection is convenient with the thumbnail strip: click the pages you need and skip the rest in a single run."
       ]
     },

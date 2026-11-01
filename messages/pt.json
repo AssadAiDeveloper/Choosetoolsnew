@@ -132,6 +132,14 @@
     "saveFailed": "Não foi possível reescrever o PDF. Tente outro ficheiro ou anule algumas alterações."
   },
   "tool": {
+    "pdfUnlockRasterNote": "A cópia desbloqueada é composta por imagens de página, pelo que o texto não pode ser selecionado nem pesquisado.",
+    "pageSize": "Tamanho da página",
+    "fitToImage": "Ajustar à imagem",
+    "orientation": "Orientação",
+    "portrait": "Vertical",
+    "landscape": "Horizontal",
+    "marginPx": "Margem (px)",
+    "readGuide": "Ler o guia completo",
     "dropTitle": "Largue aqui os ficheiros ou clique para escolher",
     "dropSingle": "Largue aqui um ficheiro ou clique para escolher",
     "processing": "A processar no seu dispositivo…",
@@ -143,6 +151,10 @@
     "copy": "Copiar",
     "copied": "Copiado!",
     "error": "Não foi possível processar esse ficheiro. Verifique o formato e tente novamente.",
+    "pdfPassword": "Palavra-passe do PDF",
+    "unlock": "Desbloquear PDF",
+    "wrongPassword": "Essa palavra-passe não está correta. Tente novamente.",
+    "encryptedPdf": "Não é possível desbloquear este ficheiro no navegador. Pode usar uma encriptação que esta ferramenta não consegue abrir.",
     "faqTitle": "Perguntas frequentes",
     "relatedTitle": "Ferramentas relacionadas",
     "pages": "páginas",
@@ -944,19 +956,19 @@
     },
     "invoice-generator": {
       "name": "Criar Fatura",
-      "desc": "Crie faturas profissionais, elegantes e prontas a imprimir.",
-      "long": "Preencha os dados da sua empresa e do cliente, adicione as linhas de itens e descarregue uma fatura PDF polida — gerada inteiramente no seu dispositivo. Como o texto em árabe precisa de uma formação correta de letras que os tipos de letra de PDF não conseguem fazer diretamente, a fatura é primeiro processada pixel a pixel no seu navegador e depois gravada como página PDF.",
+      "desc": "Crie fatura profissional com o seu logótipo, imposto e 27 moedas comuns.",
+      "long": "Preencha os dados da sua empresa e do cliente, adicione as linhas de itens e imprima a fatura ou guarde-a como PDF diretamente do seu navegador — tudo é gerado no seu dispositivo. O layout está pronto para impressão em A4 e, como o navegador imprime texto real, o PDF guardado continua selecionável e pesquisável.",
       "faq1q": "O texto da fatura é selecionável no PDF?",
-      "faq1a": "Não — para processar texto em árabe, inglês e espanhol corretamente e de forma consistente, a fatura é desenhada como uma imagem nítida e incorporada na página PDF. Imprime e apresenta-se perfeitamente, mas o texto em si não é selecionável.",
+      "faq1a": "Sim. A fatura é uma página web normal que o seu navegador imprime em PDF, por isso o texto continua selecionável e pesquisável. O árabe, o inglês e o espanhol são apresentados corretamente, incluindo texto da direita para a esquerda.",
       "faq2q": "Posso usar o meu próprio logótipo e moeda?",
-      "faq2a": "Sim — carregue um logótipo PNG ou JPG e escolha entre moedas comuns (USD, EUR, SAR, AED, EGP, GBP). A percentagem de imposto e os totais são calculados automaticamente."
+      "faq2a": "Sim — carregue um logótipo PNG ou JPG e escolha entre 27 moedas, incluindo USD, EUR, GBP, SAR, AED, EGP, INR e JPY. A percentagem de imposto e os totais são calculados automaticamente."
     },
     "cv-builder": {
       "name": "Construtor de CV",
-      "desc": "Construa um currículo limpo de uma coluna que os sistemas de gestão de candidaturas conseguem ler.",
-      "long": "Preencha a sua experiência, educação e competências — o layout é deliberadamente simples (uma coluna, títulos simples, sem tabelas nem gráficos) porque é exatamente isso que o software ATS analisa de forma fiável. Currículos longos fluem automaticamente para páginas adicionais.",
-      "faq1q": "Porque é que o design parece tão simples?",
-      "faq1a": "Os sistemas de gestão de candidaturas usados pela maioria dos empregadores têm dificuldades com layouts de várias colunas, ícones e caixas de texto. Um currículo de uma coluna com títulos claros tem mais hipóteses de ser analisado corretamente e chegar a um avaliador humano.",
+      "desc": "Crie um currículo limpo de uma coluna com títulos claros, pronto para imprimir ou guardar como PDF.",
+      "long": "Preencha a sua experiência, educação e competências. O layout é deliberadamente simples — uma coluna, títulos simples, sem tabelas nem gráficos — para continuar fácil de ler no ecrã e no papel, e os currículos longos passam automaticamente para páginas adicionais. O PDF é gerado como uma imagem de alta resolução, pelo que o seu texto não é selecionável.",
+      "faq1q": "Os sistemas de gestão de candidaturas (ATS) conseguem ler o PDF?",
+      "faq1a": "Não. O PDF é desenhado como uma imagem de alta resolução para que o árabe e outros alfabetos sejam apresentados corretamente, o que significa que o seu texto não é selecionável e o software ATS não o consegue analisar. Copie o texto do editor se precisar de o colar num formulário de candidatura.",
       "faq2q": "O meu currículo pode ter mais do que uma página?",
       "faq2a": "Sim — o conteúdo que não cabe na primeira página continua automaticamente para páginas adicionais."
     },
@@ -1342,6 +1354,10 @@
     }
   },
   "blog": {
+    "relatedPostsTitle": "Guias relacionados",
+    "relatedPostsHint": "Ler o guia",
+    "prevPost": "Guia anterior",
+    "nextPost": "Guia seguinte",
     "metaTitle": "Blog de Ferramentas - Guias, Tutoriais e Artigos de Como Fazer para Ferramentas de Arquivos",
     "metaDescription": "Explore o blog da ChooseTools para guias, tutoriais e artigos práticos sobre cada ferramenta de arquivos: ferramentas de PDF, de imagem e de texto que funcionam no seu navegador.",
     "indexTitle": "Blog de ferramentas",

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
+import { INDEXABLE_LOCALES, isIndexableLocale } from "@/lib/indexing";
 import { ogImage, ogImageUrl, ogLocale } from "@/i18n/og";
 import { SITE_URL, SITE_NAME, TOOLS, iconTintClass } from "@/lib/tools";
 import { listArticles, blogIndexPathFor, blogPathFor, findToolForSlug } from "@/lib/blog";
@@ -18,14 +19,15 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations("blog");
-  const langs = Object.fromEntries(routing.locales.map((l) => [l, blogIndexPathFor(l)]));
+  const langs = Object.fromEntries(INDEXABLE_LOCALES.map((l) => [l, blogIndexPathFor(l)]));
   return {
     title: t("metaTitle"),
     description: t("metaDescription"),
     metadataBase: new URL(SITE_URL),
+    robots: isIndexableLocale(locale) ? { index: true, follow: true } : { index: false, follow: true },
     alternates: {
       canonical: blogIndexPathFor(locale),
-      languages: { ...langs, "x-default": blogIndexPathFor("en") },
+      languages: isIndexableLocale(locale) ? { ...langs, "x-default": blogIndexPathFor("en") } : undefined,
     },
     openGraph: {
       type: "website",

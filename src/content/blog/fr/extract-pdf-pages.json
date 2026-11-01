@@ -45,7 +45,7 @@
       "heading": "Confidentialité totale grâce au traitement local",
       "paragraphs": [
         "Un outil d'extraction nécessite un accès profond aux entrailles de votre document ; le faire à distance signifie que votre fichier complet traverse le réseau même si vous ne vouliez que quatre pages. ChooseTools garde l'opération entière sur votre machine.",
-        "Le moteur de rendu PDF.js analyse l'arborescence des pages localement, copie les objets de pages choisis, et écrit le nouveau document sans jamais transmettre le fichier source. Pour les NDA, les données médicales et le travail client, c'est le seul modèle acceptable.",
+        "Le moteur de rendu pdf-lib analyse l'arborescence des pages localement, copie les objets de pages choisis, et écrit le nouveau document sans jamais transmettre le fichier source. Pour les NDA, les données médicales et le travail client, c'est le seul modèle acceptable.",
         "Ajoutez à cela l'absence d'inscription et de filigrane, et l'extraction devient une partie routinière et sans risque de votre flux de travail documentaire quotidien sur Windows, macOS ou les navigateurs mobiles.",
         "Comme la source ne voyage jamais, vous pouvez conserver l'original en place et itérer les selections aussi souvent que nécessaire en toute confiance."
       ]

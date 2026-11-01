@@ -9,7 +9,7 @@
       "heading": "Wanneer een PDF splitsen een dagelijkse noodzaak wordt",
       "paragraphs": [
         "Een enkele PDF blijft zelden voor altijd één PDF. Misschien moet u PDF-pagina's splitsen voor archiefsystemen, één hoofdstuk sturen naar een collega die maar tien pagina's nodig heeft, of een handleiding van 300 pagina's opdelen in installeerbare subdocumenten. Handmatig kopiëren en plakken in desktopeditors is traag en foutgevoelig; een speciale [split-pdf:PDF gratis online splitsen]-tool doet het werk in enkele seconden.",
-        "De meeste PDF-splitsers op het web dwingen uw document hun cloud in en bewaren vervolgens kopieën in hun opslag voor analyses. Dat is een echt probleem voor contracten, medische dossiers en financiële overzichten. ChooseTools bouwt de splitser op PDF.js, zodat uw bestand volledig in uw browser wordt gelezen en opgedeeld. Geen upload, geen wachtrij, geen achtergebleven kopieën op een server waar u geen controle over hebt.",
+        "De meeste PDF-splitsers op het web dwingen uw document hun cloud in en bewaren vervolgens kopieën in hun opslag voor analyses. Dat is een echt probleem voor contracten, medische dossiers en financiële overzichten. ChooseTools bouwt de splitser op pdf-lib, zodat uw bestand volledig in uw browser wordt gelezen en opgedeeld. Geen upload, geen wachtrij, geen achtergebleven kopieën op een server waar u geen controle over hebt.",
         "Omdat de tool gratis is, zonder advertenties en zonder watermerken, kost het splitsen van honderden pagina's niets en onderbreekt het nooit uw workflow. De uitvoerbestanden zijn byteprecieze delen van het origineel, met behoud van tekst, afbeeldingen, links en ingebedde lettertypen."
       ]
     },
@@ -40,7 +40,7 @@
     {
       "heading": "Privacy-first splitsen: bestanden verlaten uw apparaat nooit",
       "paragraphs": [
-        "De belangrijkste garantie van deze PDF-splitser is dat uw document nooit een server van derden bereikt. Elke pagina wordt in het geheugen van uw browser geëxtraheerd met open-source PDF.js-technologie.",
+        "De belangrijkste garantie van deze PDF-splitser is dat uw document nooit een server van derden bereikt. Elke pagina wordt in het geheugen van uw browser geëxtraheerd met open-source pdf-lib-technologie.",
         "Dit is belangrijk voor iedereen die met gereguleerde of vertrouwelijke gegevens werkt: juridische teams die ontdekkingsdocumenten splitsen, HR die loonstroken splitst, accountants die belastingdossiers opdelen. Bij lokale verwerking is de term „datalek“ gewoonweg niet van toepassing, omdat er helemaal geen externe gegevens zijn.",
         "U ontvangt precies wat u splitst: schone, onbewatermerkte PDF's die qua kwaliteit identiek zijn aan de bron. Vergelijk dat met online concurrenten waarvan de gratis laag elke uitvoer van hun merk voorziet, tenzij u zich abonneert."
       ]
@@ -64,7 +64,7 @@
     },
     {
       "q": "Is het veilig om hier vertrouwelijke PDF-documenten te splitsen?",
-      "a": "Absoluut. Alle verwerking vindt lokaal in uw browser plaats met PDF.js. Uw bestanden worden nooit op een server geüpload, opgeslagen of geanalyseerd, waardoor het veilig is voor NDA's, medische en juridische documenten."
+      "a": "Absoluut. Alle verwerking vindt lokaal in uw browser plaats met pdf-lib. Uw bestanden worden nooit op een server geüpload, opgeslagen of geanalyseerd, waardoor het veilig is voor NDA's, medische en juridische documenten."
     }
   ]
 }

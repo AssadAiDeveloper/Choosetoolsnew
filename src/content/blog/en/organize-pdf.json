@@ -10,7 +10,7 @@
       "paragraphs": [
         "Every complex document starts out untidy. Scans feed in at mixed orientations, blank pages sneak in, and sections land out of sequence. Getting to a polished final file typically involved several tools and plenty of re-downloading. An all-in-one [organize-pdf:PDF page organizer] solves the whole job in one place.",
         "Organizing is the difference between a raw pile of pages and an artifact you are proud to distribute. Order, orientation and completeness are exactly the properties this tool places under your control.",
-        "ChooseTools runs organizing locally with PDF.js. Every change reflects instantly in a live preview, and the finished document downloads without ever having left your device.",
+        "ChooseTools runs organizing locally with pdf-lib. Every change reflects instantly in a live preview, and the finished document downloads without ever having left your device.",
         "The assembled file opens everywhere as a standard PDF, ready to email, print or archive."
       ]
     },
@@ -53,7 +53,7 @@
     {
       "heading": "Build the Final Product: From Organized Pages to Delivered File",
       "paragraphs": [
-        "Once pages are in place, you own the final assembly step. Merge additional material with [merge-pdf:Merge PDF], secure the result with [protect-pdf:PDF encryption], and strip embedded private data with [pdf-metadata:clean metadata].",
+        "Once pages are in place, you own the final assembly step. Merge additional material with [merge-pdf:Merge PDF], secure the result with [protect-pdf:Remove PDF Password], and strip embedded private data with [pdf-metadata:clean metadata].",
         "Every stage of that pipeline runs locally too, preserving the privacy guarantee from start to finish.",
         "The takeaway: with free, in-browser page organization, turning an unruly stack of pages into a professional, share-ready PDF is now a minutes-long routine rather than a multi-tool chore.",
         "Whatever the document — tender, thesis, dossier or annual report — the organized result is ready to represent the work behind it."
@@ -63,7 +63,7 @@
   "faqs": [
     {
       "q": "Can I organize pages without uploading my PDF to a server?",
-      "a": "Yes. The organizer processes everything locally in your browser with PDF.js. Your document is never uploaded, stored or inspected remotely."
+      "a": "Yes. The organizer processes everything locally in your browser with pdf-lib. Your document is never uploaded, stored or inspected remotely."
     },
     {
       "q": "Which page operations are supported in one session?",

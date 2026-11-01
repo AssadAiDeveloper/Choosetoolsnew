@@ -19,7 +19,7 @@
       "paragraphs": [
         "De tool converteert uw hele document in één vloeiende doorgang.",
         "Upload uw PDF en krijg direct paginaminiaturen. Kies of u elke pagina of een selectie wilt, kies de resolutie die bij uw gebruik past en converteer. Elke pagina wordt gedownload als een eigen JPG-bestand, genummerd in documentvolgorde.",
-        "Omdat het renderen lokaal met PDF.js gebeurt, zijn het bekijken van pagina's en het exporteren ervan snel, en weerspiegelt de kwaliteit van elke JPG de volledige originele resolutie die u selecteert.",
+        "Omdat het renderen lokaal met pdf-lib gebeurt, zijn het bekijken van pagina's en het exporteren ervan snel, en weerspiegelt de kwaliteit van elke JPG de volledige originele resolutie die u selecteert.",
         "Paginaselectie is handig met de miniatuurstrook: klik de pagina's aan die u nodig hebt en sla de rest in één keer over."
       ]
     },

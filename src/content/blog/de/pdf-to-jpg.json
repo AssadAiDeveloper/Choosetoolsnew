@@ -19,7 +19,7 @@
       "paragraphs": [
         "Das Tool konvertiert Ihr gesamtes Dokument in einem einzigen flüssigen Durchlauf.",
         "Laden Sie Ihr PDF hoch und erhalten Sie sofort Miniaturansichten der Seiten. Wählen Sie, ob Sie jede Seite oder eine Auswahl wünschen, picken Sie die Auflösung, die zu Ihrem Zweck passt, und konvertieren Sie. Jede Seite wird als eigenes JPG heruntergeladen, nummeriert in der Dokumentenreihenfolge.",
-        "Da die Renderung lokal mit PDF.js erfolgt, ist das Betrachten und Exportieren von Seiten schnell, und die Qualität jedes JPG spiegelt die volle ursprüngliche Auflösung wider, die Sie wählen.",
+        "Da die Renderung lokal mit pdf-lib erfolgt, ist das Betrachten und Exportieren von Seiten schnell, und die Qualität jedes JPG spiegelt die volle ursprüngliche Auflösung wider, die Sie wählen.",
         "Die Seitenauswahl ist mit der Miniaturansichtsleiste bequem: Klicken Sie auf die Seiten, die Sie brauchen, und überspringen Sie den Rest in einem einzigen Durchlauf."
       ]
     },

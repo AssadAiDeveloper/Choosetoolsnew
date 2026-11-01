@@ -4,6 +4,8 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { PrimaryButton } from "../ToolShell";
 import { downloadBlob } from "@/lib/download";
+import { drawFittedText } from "@/lib/canvasText.mjs";
+import { idCardTextItems } from "@/lib/idCardLayout.mjs";
 
 interface IdData {
   name: string;
@@ -259,17 +261,29 @@ export default function IdCardGenerator() {
       ctx.fillStyle = "#ffffff";
       ctx.fillRect(0, 0, W, H);
 
-      // ── Header band ────────────────────────────────────────────────
+      // ── Shared text layout (explicit direction, measured fit) ──────
       const headerH = H * 0.24;
+      const photoH = H * 0.53 * 0.94;
+      const photoW = photoH / 1.5;
+      const photoRadius = photoW * 0.12;
+      const photoX = isRtl ? W - padX - photoW : padX;
+      const photoY = headerH + (H * 0.53 - photoH) / 2;
+      const layout = idCardTextItems({
+        W, H, padX, headerH, photoX, photoW, photoY, isRtl, primary,
+        company: companyText,
+        name: data.name,
+        title: data.title,
+        idNumber: data.idNumber,
+        hireDate: data.hireDate,
+        labels: { name: L.name, title: L.title, employeeId: L.employeeId, hire: L.hire },
+      });
+
+      // ── Header band ────────────────────────────────────────────────
       ctx.fillStyle = primary;
       ctx.fillRect(0, 0, W, headerH);
 
       // Company name — larger, bolder, perfectly centered (both axes)
-      ctx.fillStyle = "#ffffff";
-      ctx.font = `800 ${Math.round(H * 0.06)}px Arial, sans-serif`;
-      ctx.textAlign = "center";
-      ctx.textBaseline = "middle";
-      ctx.fillText(companyText, W / 2, headerH * 0.52);
+      drawFittedText(ctx, layout.company.text, layout.company);
 
       // ── Watermark — company logo or name, perfectly centered ──────
       const bodyTop = headerH;
@@ -286,21 +300,25 @@ export default function IdCardGenerator() {
         const lh = logo.height * ls;
         ctx.drawImage(logo, -lw / 2, -lh / 2, lw, lh);
       } else {
-        ctx.fillStyle = primary;
-        ctx.font = `800 ${Math.round(H * 0.16 * wmScale)}px Arial, sans-serif`;
-        ctx.textAlign = "center";
-        ctx.textBaseline = "middle";
-        ctx.fillText(companyText, 0, 0);
+        drawFittedText(ctx, companyText, {
+          x: 0,
+          y: 0,
+          size: Math.round(H * 0.16 * wmScale),
+          minSize: 20,
+          maxWidth: W * 0.8,
+          maxLines: 2,
+          weight: "800",
+          family: "Arial, sans-serif",
+          align: "center",
+          direction: layout.box.direction,
+          baseline: "middle",
+          color: primary,
+        });
       }
       ctx.restore();
       ctx.globalAlpha = 1;
 
       // ── Photo (tall 4×6 portrait, rounded slot, bigger) ────────────
-      const photoH = H * 0.53 * 0.94;
-      const photoW = photoH / 1.5;
-      const photoRadius = photoW * 0.12;
-      const photoX = isRtl ? W - padX - photoW : padX;
-      const photoY = headerH + (H * 0.53 - photoH) / 2;
       const roundRectPath = (px: number, py: number, w: number, h: number, r: number) => {
         ctx.beginPath();
         ctx.moveTo(px + r, py);
@@ -338,44 +356,24 @@ export default function IdCardGenerator() {
       }
 
       // ── Text details ───────────────────────────────────────────────
-      const textX = isRtl ? padX : photoX + photoW + W * 0.07;
-      const textAreaW = W - textX - padX - (isRtl ? photoW + W * 0.05 : 0);
-      ctx.textAlign = isRtl ? "right" : "left";
-      ctx.textBaseline = "alphabetic";
-
-      // Name — larger for balance
-      ctx.fillStyle = "#111827";
-      ctx.font = `800 ${Math.round(H * 0.058)}px Arial, sans-serif`;
-      ctx.fillText(data.name || L.name, textX, photoY + H * 0.15, textAreaW);
-
-      // Job title — larger for balance
-      ctx.fillStyle = primary;
-      ctx.font = `700 ${Math.round(H * 0.042)}px Arial, sans-serif`;
-      ctx.fillText(data.title || L.title, textX, photoY + H * 0.235, textAreaW);
+      // Positions/alignment come from the shared layout so the RTL column is
+      // right-aligned at the photo edge instead of running off the canvas.
+      drawFittedText(ctx, layout.name.text, layout.name);
+      drawFittedText(ctx, layout.title.text, layout.title);
 
       // Divider
       ctx.strokeStyle = "#e5e7eb";
       ctx.lineWidth = 2;
       ctx.beginPath();
-      ctx.moveTo(textX, photoY + H * 0.28);
-      ctx.lineTo(textX + textAreaW, photoY + H * 0.28);
+      ctx.moveTo(layout.divider.x1, layout.divider.y);
+      ctx.lineTo(layout.divider.x2, layout.divider.y);
       ctx.stroke();
 
       // Labels — darker, medium-heavy for legibility
-      const labelY = photoY + H * 0.31;
-      ctx.fillStyle = "#475569";
-      ctx.font = `600 ${Math.round(H * 0.026)}px Arial, sans-serif`;
-      ctx.fillText(L.employeeId, textX, labelY, textAreaW);
-      ctx.fillStyle = "#111827";
-      ctx.font = `700 ${Math.round(H * 0.034)}px Arial, sans-serif`;
-      ctx.fillText(data.idNumber || "—", textX, labelY + H * 0.055, textAreaW);
-
-      ctx.fillStyle = "#475569";
-      ctx.font = `600 ${Math.round(H * 0.026)}px Arial, sans-serif`;
-      ctx.fillText(L.hire, textX, labelY + H * 0.115, textAreaW);
-      ctx.fillStyle = "#111827";
-      ctx.font = `700 ${Math.round(H * 0.034)}px Arial, sans-serif`;
-      ctx.fillText(data.hireDate || "—", textX, labelY + H * 0.17, textAreaW);
+      drawFittedText(ctx, layout.employeeLabel.text, layout.employeeLabel);
+      drawFittedText(ctx, layout.employeeValue.text, layout.employeeValue);
+      drawFittedText(ctx, layout.hireLabel.text, layout.hireLabel);
+      drawFittedText(ctx, layout.hireValue.text, layout.hireValue);
 
       // ── Company logo — full color, centered directly above the QR code ──
       if (data.logoUrl) {
@@ -643,7 +641,8 @@ export default function IdCardGenerator() {
                     <div className="flex h-full flex-col overflow-hidden"
                       style={{ justifyContent: "space-between", minHeight: 0 }}>
                       <div className="flex flex-col">
-<div className="text-[clamp(13px,2.4vw,19px)] font-extrabold leading-tight text-slate-900">{data.name || L.name}</div>
+<div className="text-[clamp(13px,2.4vw,19px)] font-extrabold leading-tight text-slate-900"
+                        style={{ display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}>{data.name || L.name}</div>
                       <div className="mt-[2px] text-[clamp(9px,1.6vw,13px)] font-bold" style={{ color: primary }}>{data.title || L.title}</div>
                       </div>
                       <div className="mb-[8px] flex flex-col">
@@ -706,7 +705,7 @@ export default function IdCardGenerator() {
               {hasName ? L.hint : L.emptyName}
             </div>
           )}
-          <p className="text-xs text-ink-soft">{L.size}: 85.6 × 54 mm · ISO ID-1</p>
+          <p className="text-xs text-ink-soft">{L.size}: <span dir="ltr">85.6 × 54 mm</span> · ISO ID-1</p>
           {showCard && (
             <div className="rounded-lg border border-line bg-slate-50 p-3">
               <div className="mb-1 text-xs font-semibold text-ink-soft">{L.scanDataLabel}</div>

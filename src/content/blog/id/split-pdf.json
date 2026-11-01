@@ -9,7 +9,7 @@
       "heading": "Kapan Memisahkan PDF Menjadi Kebutuhan Sehari-hari",
       "paragraphs": [
         "Satu PDF jarang tetap sebagai satu PDF selamanya. Anda mungkin perlu memisahkan halaman PDF untuk sistem pengarsipan, mengirim satu bab ke kolaborator yang hanya membutuhkan sepuluh halaman, atau membagi manual 300 halaman menjadi sub-dokumen yang dapat diinstal. Menyalin dan menempel secara manual di editor desktop lambat dan rentan kesalahan; alat khusus [split-pdf:pisahkan PDF online gratis] menyelesaikan pekerjaan dalam hitungan detik.",
-        "Sebagian besar alat pisah PDF di web memaksa dokumen Anda ke cloud mereka, lalu menyimpan salinan di penyimpanan mereka untuk analitik. Itu masalah nyata untuk kontrak, rekam medis, dan laporan keuangan. ChooseTools membangun pemisah di PDF.js sehingga file Anda dibaca dan dibagi sepenuhnya di browser Anda. Tanpa unggahan, tanpa antrian, tanpa salinan yang tertinggal di server yang tidak Anda kendalikan.",
+        "Sebagian besar alat pisah PDF di web memaksa dokumen Anda ke cloud mereka, lalu menyimpan salinan di penyimpanan mereka untuk analitik. Itu masalah nyata untuk kontrak, rekam medis, dan laporan keuangan. ChooseTools membangun pemisah di pdf-lib sehingga file Anda dibaca dan dibagi sepenuhnya di browser Anda. Tanpa unggahan, tanpa antrian, tanpa salinan yang tertinggal di server yang tidak Anda kendalikan.",
         "Karena alat ini gratis tanpa iklan dan tanpa watermark, memisahkan ratusan halaman tidak memakan biaya dan tidak pernah mengganggu alur kerja Anda. File output adalah irisan yang presisi dari file asli, mempertahankan teks, gambar, tautan, dan font yang disematkan."
       ]
     },
@@ -40,7 +40,7 @@
     {
       "heading": "Pemisahan Berbasis Privasi: File Tidak Pernah Meninggalkan Perangkat Anda",
       "paragraphs": [
-        "Jaminan terpenting dari pemisah PDF ini adalah dokumen Anda tidak pernah mencapai server pihak ketiga. Setiap halaman diekstrak di memori browser Anda dengan teknologi PDF.js sumber terbuka.",
+        "Jaminan terpenting dari pemisah PDF ini adalah dokumen Anda tidak pernah mencapai server pihak ketiga. Setiap halaman diekstrak di memori browser Anda dengan teknologi pdf-lib sumber terbuka.",
         "Ini penting bagi siapa saja yang menangani data ter regulasi atau rahasia: tim hukum yang memisahkan dokumen penemuan, HR yang memisahkan slip gaji, akuntan yang membagi catatan pajak. Dengan pemrosesan lokal, istilah «pelanggaran data» sama sekali tidak berlaku, karena tidak ada data eksternal sama sekali.",
         "Anda menerima persis apa yang Anda pisahkan: PDF bersih tanpa watermark yang identik kualitasnya dengan sumber. Bandingkan dengan kompetitor online yang tier gratisnya menambahkan merek mereka ke setiap output kecuali Anda berlangganan."
       ]
@@ -64,7 +64,7 @@
     },
     {
       "q": "Apakah aman untuk memisahkan dokumen PDF rahasia di sini?",
-      "a": "Sangat aman. Semua pemrosesan terjadi secara lokal di browser Anda dengan PDF.js. File Anda tidak pernah diunggah, disimpan, atau dianalisis di server mana pun, sehingga aman untuk NDA, dokumen medis dan hukum."
+      "a": "Sangat aman. Semua pemrosesan terjadi secara lokal di browser Anda dengan pdf-lib. File Anda tidak pernah diunggah, disimpan, atau dianalisis di server mana pun, sehingga aman untuk NDA, dokumen medis dan hukum."
     }
   ]
 }

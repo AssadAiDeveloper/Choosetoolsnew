@@ -10,7 +10,7 @@
       "paragraphs": [
         "Kontrak pindahan yang keluar miring, foto ponsel yang diekspor ke PDF dengan orientasi yang salah, faktur yang diunduh yang ditampilkan terbalik — setiap pekerja kantor pernah menerima PDF yang membutuhkan perbaikan [rotate-pdf:putar halaman PDF]. Isi halaman sempurna; orientasinya hanya salah.",
         "Editor proprietary membuat tugas ini terasa rumit, tetapi orientasi adalah salah satu properti PDF paling sederhana. Anda hanya butuh alat putar pdf online gratis yang andal yang menyesuaikan matriks rotasi halaman tanpa menyentuh gambar, teks, atau gambar sebenarnya di halaman.",
-        "ChooseTools memutar PDF Anda dengan pemrosesan PDF.js di browser. Jatuhkan file, klik tombol rotasi, dan setiap halaman diperbarui di pratinjau sebelum Anda menyimpan — tanpa unggahan dan tanpa kehilangan kualitas."
+        "ChooseTools memutar PDF Anda dengan pemrosesan pdf-lib di browser. Jatuhkan file, klik tombol rotasi, dan setiap halaman diperbarui di pratinjau sebelum Anda menyimpan — tanpa unggahan dan tanpa kehilangan kualitas."
       ]
     },
     {

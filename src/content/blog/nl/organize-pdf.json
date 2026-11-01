@@ -10,7 +10,7 @@
       "paragraphs": [
         "Elk complex document begint onopgeruimd. Scans komen binnen met gemengde oriëntaties, lege pagina's sluipen erin, en secties belanden buiten de volgorde. Naar een gepolijst eindbestand gaan kostte doorgaans meerdere tools en veel herhaald downloaden. Een alles-in-één [organize-pdf:PDF-paginaorganizer] lost de hele klus op één plek op.",
         "Organiseren is het verschil tussen een ruwe stapel pagina's en een artefact dat u trots verspreidt. Volgorde, oriëntatie en volledigheid zijn precies de eigenschappen die deze tool onder uw controle plaatst.",
-        "ChooseTools draait het organiseren lokaal met PDF.js. Elke wijziging verschijnt direct in een live preview, en het afgewerkte document wordt gedownload zonder ooit uw apparaat te hebben verlaten.",
+        "ChooseTools draait het organiseren lokaal met pdf-lib. Elke wijziging verschijnt direct in een live preview, en het afgewerkte document wordt gedownload zonder ooit uw apparaat te hebben verlaten.",
         "Het samengestelde bestand opent overal als een standaard PDF, klaar om te e-mailen, af te drukken of te archiveren."
       ]
     },
@@ -63,7 +63,7 @@
   "faqs": [
     {
       "q": "Kan ik pagina's organiseren zonder mijn PDF naar een server te uploaden?",
-      "a": "Ja. De organizer verwerkt alles lokaal in uw browser met PDF.js. Uw document wordt nooit op afstand geüpload, opgeslagen of geïnspecteerd."
+      "a": "Ja. De organizer verwerkt alles lokaal in uw browser met pdf-lib. Uw document wordt nooit op afstand geüpload, opgeslagen of geïnspecteerd."
     },
     {
       "q": "Welke paginabewerkingen worden in één sessie ondersteund?",

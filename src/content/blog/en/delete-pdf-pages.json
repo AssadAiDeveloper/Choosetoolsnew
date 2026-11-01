@@ -40,7 +40,7 @@
     {
       "heading": "Privacy, Speed and Platform Freedom",
       "paragraphs": [
-        "Page deletion involves deep access to the internal page tree, which is exactly the kind of operation that exposes documents when done on a remote server. Here it is done locally with PDF.js, so confidential files never travel.",
+        "Page deletion involves deep access to the internal page tree, which is exactly the kind of operation that exposes documents when done on a remote server. Here it is done locally with pdf-lib, so confidential files never travel.",
         "Output quality is preserved precisely: text stays searchable and selectable, images stay sharp, and the download is a standard, universally compatible PDF.",
         "You can delete pages on any device — Windows, macOS, Linux, tablets and phones — without installing anything, which makes it an ideal companion for professionals who work across several machines."
       ]

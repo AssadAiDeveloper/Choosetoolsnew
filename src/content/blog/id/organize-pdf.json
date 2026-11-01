@@ -10,7 +10,7 @@
       "paragraphs": [
         "Setiap dokumen kompleks dimulai dengan berantakan. Pindahan masuk dengan orientasi campuran, halaman kosong menyelinap masuk, dan bagian-bagian mendarat tidak berurutan. Mendapatkan file akhir yang sempurna biasanya melibatkan beberapa alat dan banyak pengunduhan ulang. Alat serba-organisasi [organize-pdf:pengelola halaman PDF] menyelesaikan seluruh pekerjaan dalam satu tempat.",
         "Mengorganisir adalah perbedaan antara tumpukan halaman mentah dan artefak yang Anda banggakan untuk didistribusikan. Urutan, orientasi, dan kelengkapan adalah properti tepat yang ditempatkan alat ini di bawah kendali Anda.",
-        "ChooseTools menjalankan pengorganisasian secara lokal dengan PDF.js. Setiap perubahan tercermin secara instan dalam pratinjau langsung, dan dokumen yang selesai diunduh tanpa pernah meninggalkan perangkat Anda.",
+        "ChooseTools menjalankan pengorganisasian secara lokal dengan pdf-lib. Setiap perubahan tercermin secara instan dalam pratinjau langsung, dan dokumen yang selesai diunduh tanpa pernah meninggalkan perangkat Anda.",
         "File yang disusun dibuka di mana pun sebagai PDF standar, siap dikirim email, dicetak, atau diarsipkan."
       ]
     },
@@ -63,7 +63,7 @@
   "faqs": [
     {
       "q": "Bisakah saya mengorganisir halaman tanpa mengunggah PDF ke server?",
-      "a": "Ya. Pengelola memproses semuanya secara lokal di browser Anda dengan PDF.js. Dokumen Anda tidak pernah diunggah, disimpan, atau diperiksa dari jarak jauh."
+      "a": "Ya. Pengelola memproses semuanya secara lokal di browser Anda dengan pdf-lib. Dokumen Anda tidak pernah diunggah, disimpan, atau diperiksa dari jarak jauh."
     },
     {
       "q": "Operasi halaman mana yang didukung dalam satu sesi?",

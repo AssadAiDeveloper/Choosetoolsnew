@@ -9,7 +9,7 @@
       "heading": "Pourquoi vous avez besoin d'un outil de fusion PDF gratuit qui fonctionne dans votre navigateur",
       "paragraphs": [
         "Fusionner des fichiers PDF est l'une des tâches documentaires les plus courantes dans les bureaux, les écoles et le travail indépendant. Chaque jour, des millions de personnes doivent combiner des documents PDF : scanner deux factures en un seul fichier, joindre plusieurs pages de contrat, ou assembler un rapport complet à partir de chapitres PDF séparés. Un [merge-pdf:outil de fusion PDF] fiable transforme un flux de travail frustrant avec plusieurs fichiers en un seul clic simple.",
-        "La plupart des outils de fusion PDF en ligne se disent gratuits, mais ils téléversent discrètement vos documents privés sur leurs serveurs, appliquent des filigranes, limitent le nombre de pages ou demandent une carte de crédit dès que la fusion est terminée. C'est exactement le problème que ChooseTools résout. Notre outil de fusion PDF en ligne gratuit fonctionne entièrement dans votre navigateur grâce au moteur PDF.js, de sorte que vos documents ne quittent jamais votre appareil et qu'il n'y a vraiment aucune limite.",
+        "La plupart des outils de fusion PDF en ligne se disent gratuits, mais ils téléversent discrètement vos documents privés sur leurs serveurs, appliquent des filigranes, limitent le nombre de pages ou demandent une carte de crédit dès que la fusion est terminée. C'est exactement le problème que ChooseTools résout. Notre outil de fusion PDF en ligne gratuit fonctionne entièrement dans votre navigateur grâce au moteur pdf-lib, de sorte que vos documents ne quittent jamais votre appareil et qu'il n'y a vraiment aucune limite.",
         "La confidentialité n'est pas une fonctionnalité ici ; c'est l'architecture. Lorsque vous déposez vos PDF dans la zone de dépôt, les fichiers sont traités localement par JavaScript. Rien n'est transmis, enregistré ou mis en cache sur un serveur. Vous obtenez le même résultat que des logiciels de bureau coûteux, mais sans installation, sans inscription et sans risque de fuite de données sensibles."
       ]
     },
@@ -49,7 +49,7 @@
       "heading": "Vitesse et sécurité : pourquoi le traitement local surpassent les outils de fusion cloud",
       "paragraphs": [
         "Les outils de fusion PDF basés sur le cloud téléversent vos fichiers, les traitent sur une ferme de serveurs, puis vous demandent de télécharger le résultat. Chaque étape est un point de défaillance : le téléchargement peut bloquer, le serveur peut être occupé, et le fichier peut rester sur un disque dur tiers pendant des mois selon leur politique de mise en cache.",
-        "Le traitement local élimine tout cela. Les pages sont combinées dans la mémoire de votre navigateur à l'aide de PDF.js, un moteur open source, le même moteur de rendu qui fait fonctionner le lecteur PDF intégré de Firefox. Au moment où la fusion se termine, la sortie n'existe que sur votre appareil.",
+        "Le traitement local élimine tout cela. Les pages sont combinées dans la mémoire de votre navigateur à l'aide de pdf-lib, un moteur open source, le même moteur de rendu qui fait fonctionner le lecteur PDF intégré de Firefox. Au moment où la fusion se termine, la sortie n'existe que sur votre appareil.",
         "Les équipes de sécurité et les services juridiques exigent de plus en plus que des documents tels que des NDA, des états financiers et des dossiers patients ne touchent jamais l'infrastructure tiers. Un outil de fusion PDF en ligne gratuit avec zéro transfert réseau est la seule réponse sûre, et il est aussi plus rapide en pratique. Les benchmarks de nos tests montrent que les fusions se terminent en une fraction du temps des services basés sur le téléchargement."
       ]
     },
@@ -64,7 +64,7 @@
     {
       "heading": "Questions courantes sur l'outil de fusion PDF gratuit",
       "paragraphs": [
-        "Puis-je fusionner des fichiers PDF sur mon téléphone ? Oui — l'outil fonctionne dans tout navigateur moderne, y compris Safari et Chrome sur mobile, vous pouvez donc combiner des PDF sur un téléphone ou une tablette sans installer d'application. Mes fichiers seront-ils téléversés ? Non. Toute la fusion se produit localement dans votre navigateur, et aucune donnée de fichier n'est envoyée à un serveur. Y a-t-il une limite de taille ou de nombre de fichiers ? Il n'y a aucune limite stricte ; vous pouvez ajouter autant de documents que votre appareil peut en mémoire. Quels navigateurs sont supportés ? Chrome, Edge, Firefox et Safari. Nous recommandons les versions les plus récentes pour les meilleures performances avec PDF.js.",
+        "Puis-je fusionner des fichiers PDF sur mon téléphone ? Oui — l'outil fonctionne dans tout navigateur moderne, y compris Safari et Chrome sur mobile, vous pouvez donc combiner des PDF sur un téléphone ou une tablette sans installer d'application. Mes fichiers seront-ils téléversés ? Non. Toute la fusion se produit localement dans votre navigateur, et aucune donnée de fichier n'est envoyée à un serveur. Y a-t-il une limite de taille ou de nombre de fichiers ? Il n'y a aucune limite stricte ; vous pouvez ajouter autant de documents que votre appareil peut en mémoire. Quels navigateurs sont supportés ? Chrome, Edge, Firefox et Safari. Nous recommandons les versions les plus récentes pour les meilleures performances avec pdf-lib.",
         "Dois-je installer un logiciel ou créer un compte ? Aucune installation ni aucun compte ne sont requis — l'outil est une application mono-page qui fonctionne immédiatement. Qu'advient-il de mes fichiers quand je ferme l'onglet ? Ils sont supprimés de la mémoire. Rien n'est enregistré, téléversé ni tracé, ce qui renforce la conception respectueuse de la vie privée de toute la suite."
       ]
     }
@@ -76,7 +76,7 @@
     },
     {
       "q": "Puis-je fusionner un grand nombre de pages PDF à la fois ?",
-      "a": "Oui. Il n'y a pas de limite arbitraire sur le nombre de pages ou de fichiers. La limite pratique dépend de la mémoire de votre appareil, car la fusion se produit localement à l'aide de PDF.js, ce qui signifie que même de très grands documents sont traités sur votre machine plutôt que sur un serveur partagé."
+      "a": "Oui. Il n'y a pas de limite arbitraire sur le nombre de pages ou de fichiers. La limite pratique dépend de la mémoire de votre appareil, car la fusion se produit localement à l'aide de pdf-lib, ce qui signifie que même de très grands documents sont traités sur votre machine plutôt que sur un serveur partagé."
     },
     {
       "q": "Les PDF fusionnés conservent-ils leur qualité et leur texte d'origine ?",

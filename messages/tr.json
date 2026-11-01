@@ -132,6 +132,14 @@
     "saveFailed": "PDF yeniden yazılamadı. Başka bir dosya deneyin veya bazı değişiklikleri geri alın."
   },
   "tool": {
+    "pdfUnlockRasterNote": "Kilidi açılmış kopya sayfa görsellerinden oluşur; bu nedenle metin seçilemez veya aranamaz.",
+    "pageSize": "Sayfa boyutu",
+    "fitToImage": "Görsele sığdır",
+    "orientation": "Yön",
+    "portrait": "Dikey",
+    "landscape": "Yatay",
+    "marginPx": "Kenar boşluğu (px)",
+    "readGuide": "Tam kılavuzu okuyun",
     "dropTitle": "Dosyaları buraya sürükleyin veya seçmek için tıklayın",
     "dropSingle": "Bir dosyayı buraya sürükleyin veya seçmek için tıklayın",
     "processing": "Cihazınızda işleniyor…",
@@ -143,6 +151,10 @@
     "copy": "Kopyala",
     "copied": "Kopyalandı!",
     "error": "Bu dosya işlenemedi. Formatı kontrol edin ve tekrar deneyin.",
+    "pdfPassword": "PDF parolası",
+    "unlock": "PDF kilidini aç",
+    "wrongPassword": "Bu parola işe yaramadı. Tekrar deneyin.",
+    "encryptedPdf": "Bu dosya tarayıcıda açılamıyor. Bu aracın desteklemediği bir şifreleme kullanıyor olabilir.",
     "faqTitle": "Sıkça sorulan sorular",
     "relatedTitle": "İlgili araçlar",
     "pages": "sayfa",
@@ -944,19 +956,19 @@
     },
     "invoice-generator": {
       "name": "Fatura Oluştur",
-      "desc": "Profesyonel ve yazdırılmaya hazır fatura oluşturun.",
-      "long": "Şirket ve müşteri bilgilerinizi doldurun, satır kalemleri ekleyin ve cilalı bir PDF fatura indirin — tamamen cihazınızda oluşturulur. Arapça metin PDF fontlarının doğrudan yapamayacağı doğru harf şekillendirmesi gerektirdiğinden, fatura tarayıcınızda piksel-perfekt olarak oluşturulur ve sonra PDF sayfası olarak kaydedilir.",
+      "desc": "Logonuz, verginiz ve 27 yaygın para birimiyle profesyonel bir fatura oluşturun.",
+      "long": "Şirket ve müşteri bilgilerinizi doldurun, satır kalemleri ekleyin, ardından faturayı yazdırın veya doğrudan tarayıcınızdan PDF olarak kaydedin — her şey cihazınızda oluşturulur. Yerleşim A4 yazdırmaya hazırdır ve tarayıcı gerçek metni yazdırdığı için kaydedilen PDF seçilebilir ve aranabilir kalır.",
       "faq1q": "Fatura metni PDF'te seçilebilir mi?",
-      "faq1a": "Hayır — Arapça, İngilizce ve İspanyolca metni doğru ve tutarlı şekilde oluşturmak için fatura temiz bir görsel olarak çizilir ve PDF sayfasına gömülür. Mükemmel yazdırır ve görüntülenir, ancak metnin kendisi seçilebilir değildir.",
+      "faq1a": "Evet. Fatura, tarayıcınızın PDF'e yazdırdığı normal bir web sayfasıdır; bu nedenle metin seçilebilir ve aranabilir kalır. Arapça, İngilizce ve İspanyolca, sağdan sola metin dahil doğru görüntülenir.",
       "faq2q": "Kendi logomu ve para birimimi kullanabilir miyim?",
-      "faq2a": "Evet — PNG veya JPG logonu yüklleyin ve yaygın para birimlerinden seçin (USD, EUR, SAR, AED, EGP, GBP). Vergi yüzdesi ve toplamlar otomatik olarak hesaplanır."
+      "faq2a": "Evet — PNG veya JPG logo yükleyin ve USD, EUR, GBP, SAR, AED, EGP, INR ve JPY dahil 27 para biriminden seçin. Vergi yüzdesi ve toplamlar otomatik olarak hesaplanır."
     },
     "cv-builder": {
       "name": "CV Oluşturucu",
-      "desc": "Başvuru takip sistemlerinin okuyabileceği temiz, tek sütunlu bir özgeçmiş oluşturun.",
-      "long": "Deneyiminizi, eğitim ve becerilerinizi doldurun — yerleşim kasıtlı olarak basittir (tek sütun, düz başlıklar, tablo veya grafik yok) çünkü ATS yazılımının güvenilir şekilde ayrıştırdığı şey tam olarak budur. Uzun özgeçmişler otomatik olarak ek sayfalara akar.",
-      "faq1q": "Tasarım neden bu kadar sade görünüyor?",
-      "faq1a": "Çoğu işverenin kullandığı başvuru takip sistemleri çok sütunlu yerleşimler, simgeler ve metin kutularıyla zorlanır. Açık başlıklara sahip tek sütunlu bir özgeçmiş daha doğru ayrıştırılır ve insan inceleyiciye ulaşır.",
+      "desc": "Net başlıklara sahip temiz, tek sütunlu bir özgeçmiş oluşturun; yazdırmaya veya PDF olarak kaydetmeye hazır.",
+      "long": "Deneyiminizi, eğitiminizi ve becerilerinizi doldurun. Yerleşim kasıtlı olarak basittir — tek sütun, düz başlıklar, tablo veya grafik yok — böylece ekranda ve kâğıtta okunması kolay kalır; uzun özgeçmişler otomatik olarak ek sayfalara akar. PDF yüksek çözünürlüklü bir görüntü olarak oluşturulur, bu nedenle metni seçilemez.",
+      "faq1q": "Başvuru takip sistemleri (ATS) PDF'i okuyabilir mi?",
+      "faq1a": "Hayır. PDF, Arapça ve diğer yazıların doğru görünmesi için yüksek çözünürlüklü bir görüntü olarak çizilir; bu da metninin seçilemez olduğu ve ATS yazılımının onu ayrıştıramayacağı anlamına gelir. Başvuru formuna yapıştırmanız gerekirse metni düzenleyiciden kopyalayın.",
       "faq2q": "Özgeçmişim birden fazla sayfa olabilir mi?",
       "faq2a": "Evet — ilk sayfaya sığmayan içerik otomatik olarak ek sayfalara devam eder."
     },
@@ -1342,6 +1354,10 @@
     }
   },
   "blog": {
+    "relatedPostsTitle": "İlgili kılavuzlar",
+    "relatedPostsHint": "Kılavuzu okuyun",
+    "prevPost": "Önceki kılavuz",
+    "nextPost": "Sonraki kılavuz",
     "metaTitle": "Araçlar Blogu - Dosya Araçları için Rehberler, Eğitimler ve Nasıl Yapılır Yazıları",
     "metaDescription": "Her çevrimiçi dosya aracı hakkında derinlemesine rehberler, eğitimler ve pratik yazılar için ChooseTools bloguna göz atın: tarayıcınızda çalışan PDF, görsel ve metin araçları.",
     "indexTitle": "Araçlar Blogu",

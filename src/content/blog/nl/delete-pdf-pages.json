@@ -40,7 +40,7 @@
     {
       "heading": "Privacy, snelheid en platformvrijheid",
       "paragraphs": [
-        "Het verwijderen van pagina's vereist diepe toegang tot de interne paginaboom, precies het soort bewerking dat documenten blootstelt wanneer het op een externe server gebeurt. Hier gebeurt het lokaal met PDF.js, zodat vertrouwelijke bestanden nooit reizen.",
+        "Het verwijderen van pagina's vereist diepe toegang tot de interne paginaboom, precies het soort bewerking dat documenten blootstelt wanneer het op een externe server gebeurt. Hier gebeurt het lokaal met pdf-lib, zodat vertrouwelijke bestanden nooit reizen.",
         "De uitvoerkwaliteit blijft precies behouden: tekst blijft doorzoekbaar en selecteerbaar, afbeeldingen blijven scherp, en de download is een standaard, universeel compatibele PDF.",
         "U kunt pagina's op elk apparaat verwijderen — Windows, macOS, Linux, tablets en telefoons — zonder iets te installeren, wat het een ideale metgezel maakt voor professionals die op meerdere machines werken."
       ]

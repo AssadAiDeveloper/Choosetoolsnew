@@ -45,7 +45,7 @@
       "heading": "Volledige privacy door lokale verwerking",
       "paragraphs": [
         "Een extractor heeft diepe toegang tot de interne structuur van uw document nodig; wanneer dat op afstand gebeurt, reist uw volledige bestand over het netwerk, zelfs al wilde u maar vier pagina's terug. ChooseTools houdt de hele bewerking op uw machine.",
-        "De PDF.js-renderer parseert de paginaboom lokaal, kopieert de gekozen paginaobjecten en schrijft het nieuwe document zonder het bronbestand ooit te verzenden. Voor NDA's, medische gegevens en klantwerk is dat het enige aanvaardbare model.",
+        "De pdf-lib-renderer parseert de paginaboom lokaal, kopieert de gekozen paginaobjecten en schrijft het nieuwe document zonder het bronbestand ooit te verzenden. Voor NDA's, medische gegevens en klantwerk is dat het enige aanvaardbare model.",
         "Combineer dat met geen registratie en geen watermerk, en extractie wordt een routinematig, risicoloos onderdeel van uw dagelijkse documentpijplijn op Windows, macOS of mobiele browsers.",
         "Omdat de bron nooit reist, kunt u het origineel op zijn plaats laten en de selecties zo vaak als nodig herhalen, met volledig vertrouwen."
       ]

@@ -132,6 +132,14 @@
     "saveFailed": "PDF tidak bisa ditulis ulang. Coba file lain, atau batalkan sebagian perubahan."
   },
   "tool": {
+    "pdfUnlockRasterNote": "Salinan yang dibuka terdiri dari gambar halaman, sehingga teks tidak dapat dipilih atau dicari.",
+    "pageSize": "Ukuran halaman",
+    "fitToImage": "Sesuaikan dengan gambar",
+    "orientation": "Orientasi",
+    "portrait": "Potret",
+    "landscape": "Lanskap",
+    "marginPx": "Margin (px)",
+    "readGuide": "Baca panduan lengkap",
     "dropTitle": "Seret berkas ke sini atau klik untuk memilih",
     "dropSingle": "Seret sebuah berkas ke sini atau klik untuk memilih",
     "processing": "Memproses di perangkat Anda…",
@@ -143,6 +151,10 @@
     "copy": "Salin",
     "copied": "Tersalin!",
     "error": "Berkas itu tidak dapat diproses. Periksa formatnya dan coba lagi.",
+    "pdfPassword": "Kata sandi PDF",
+    "unlock": "Buka kunci PDF",
+    "wrongPassword": "Kata sandi itu tidak berhasil. Coba lagi.",
+    "encryptedPdf": "Berkas ini tidak dapat dibuka kuncinya di browser. Mungkin berkas ini memakai enkripsi yang tidak didukung alat ini.",
     "faqTitle": "Pertanyaan yang sering diajukan",
     "relatedTitle": "Alat terkait",
     "pages": "halaman",
@@ -944,19 +956,19 @@
     },
     "invoice-generator": {
       "name": "Buat Invoice",
-      "desc": "Buat invoice profesional, rapi, dan siap cetak secara online.",
-      "long": "Isi detail perusahaan dan klien Anda, tambahkan item baris, dan unduh faktur PDF yang apik — dihasilkan sepenuhnya di perangkat Anda. Karena teks Arab memerlukan pembentukan huruf yang tepat yang tidak dapat dilakukan font PDF secara langsung, faktur dirender piksel-sempurna di peramban Anda terlebih dahulu, lalu disimpan sebagai halaman PDF.",
+      "desc": "Buat invoice profesional dengan logo, pajak, dan 27 mata uang umum.",
+      "long": "Isi detail perusahaan dan klien Anda, tambahkan item baris, lalu cetak faktur atau simpan sebagai PDF langsung dari peramban Anda — semuanya dibuat di perangkat Anda. Tata letaknya siap cetak A4, dan karena peramban mencetak teks sungguhan, PDF yang disimpan tetap dapat dipilih dan dicari.",
       "faq1q": "Apakah teks faktur dapat dipilih di PDF?",
-      "faq1a": "Tidak — untuk merender teks Arab, Inggris, dan Spanyol dengan benar dan konsisten, faktur digambar sebagai gambar yang tajam dan disematkan di halaman PDF. Ini mencetak dan menampilkan dengan sempurna, tetapi teksnya sendiri tidak dapat dipilih.",
+      "faq1a": "Ya. Faktur adalah halaman web biasa yang dicetak peramban Anda ke PDF, sehingga teksnya tetap dapat dipilih dan dicari. Bahasa Arab, Inggris, dan Spanyol tampil dengan benar, termasuk teks kanan-ke-kiri.",
       "faq2q": "Bisakah saya menggunakan logo dan mata uang sendiri?",
-      "faq2a": "Ya — unggah logo PNG atau JPG dan pilih dari mata uang umum (USD, EUR, SAR, AED, EGP, GBP). Persentase pajak dan total dihitung secara otomatis."
+      "faq2a": "Ya — unggah logo PNG atau JPG dan pilih dari 27 mata uang, termasuk USD, EUR, GBP, SAR, AED, EGP, INR, dan JPY. Persentase pajak dan total dihitung secara otomatis."
     },
     "cv-builder": {
-      "name": "Pembuat CV ATS",
-      "desc": "Buat résumé satu kolom yang bersih yang dapat dibaca sistem pelacak pelamar.",
-      "long": "Isi pengalaman, pendidikan, dan keterampilan Anda — tata letaknya sengaja dibuat sederhana (satu kolom, judul polos, tanpa tabel atau grafis) karena itulah yang dapat diurai dengan andal oleh perangkat lunak ATS. Résumé panjang otomatis mengalir ke halaman tambahan.",
-      "faq1q": "Mengapa desainnya terlihat begitu polos?",
-      "faq1a": "Sistem pelacak pelamar yang digunakan sebagian besar pemberi kerja kesulitan dengan tata letak multi-kolom, ikon, dan kotak teks. Résumé satu kolom dengan judul yang jelas lebih mungkin diurai dengan benar dan sampai ke peninjau manusia.",
+      "name": "Pembuat CV",
+      "desc": "Buat résumé satu kolom yang bersih dengan judul jelas, siap dicetak atau disimpan sebagai PDF.",
+      "long": "Isi pengalaman, pendidikan, dan keterampilan Anda. Tata letaknya sengaja dibuat sederhana — satu kolom, judul polos, tanpa tabel atau grafis — agar tetap mudah dibaca di layar dan di kertas, dan résumé panjang otomatis mengalir ke halaman tambahan. PDF dibuat sebagai gambar beresolusi tinggi, sehingga teksnya tidak dapat dipilih.",
+      "faq1q": "Bisakah sistem pelacak pelamar (ATS) membaca PDF?",
+      "faq1a": "Tidak. PDF digambar sebagai gambar beresolusi tinggi agar bahasa Arab dan aksara lain tampil dengan benar, yang berarti teksnya tidak dapat dipilih dan perangkat lunak ATS tidak dapat mengurainya. Salin teks dari editor jika Anda perlu menempelkannya ke formulir lamaran.",
       "faq2q": "Bisakah résumé saya memiliki lebih dari satu halaman?",
       "faq2a": "Ya — konten yang tidak muat di halaman pertama otomatis berlanjut ke halaman tambahan."
     },
@@ -1342,6 +1354,10 @@
     }
   },
   "blog": {
+    "relatedPostsTitle": "Panduan terkait",
+    "relatedPostsHint": "Baca panduan",
+    "prevPost": "Panduan sebelumnya",
+    "nextPost": "Panduan berikutnya",
     "metaTitle": "Blog Tools - Panduan, Tutorial, dan Artikel Cara Kerja untuk Alat File",
     "metaDescription": "Jelajahi blog ChooseTools untuk panduan mendalam, tutorial, dan artikel praktis tentang setiap alat file: alat PDF, gambar, dan teks yang berjalan di browser Anda.",
     "indexTitle": "Blog Tools",

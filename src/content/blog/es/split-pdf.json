@@ -9,7 +9,7 @@
       "heading": "Cuando Dividir un PDF se Convierte en una Necesidad Diaria",
       "paragraphs": [
         "Un solo PDF rara vez permanece como un solo PDF para siempre. Puede que necesites dividir páginas de PDF para sistemas de archivos, enviar un capítulo a un colaborador que solo necesita diez páginas o dividir un manual de 300 páginas en subdocumentos instalables. Copiar y pegar manualmente en editores de escritorio es lento y propenso a errores; una herramienta dedicada de [split-pdf:dividir PDF online gratis] hace el trabajo en segundos.",
-        "La mayoría de las herramientas de división de PDF en la web fuerzan a tu documento a su nube, y luego conservan copias en su almacenamiento para análisis. Ese es un problema real para contratos, historiales médicos y estados financieros. ChooseTools construye el divisor sobre PDF.js para que tu archivo se lea y divida completamente en tu navegador. Sin subida, sin cola, sin copias residuales en un servidor que no controlas.",
+        "La mayoría de las herramientas de división de PDF en la web fuerzan a tu documento a su nube, y luego conservan copias en su almacenamiento para análisis. Ese es un problema real para contratos, historiales médicos y estados financieros. ChooseTools construye el divisor sobre pdf-lib para que tu archivo se lea y divida completamente en tu navegador. Sin subida, sin cola, sin copias residuales en un servidor que no controlas.",
         "Dado que la herramienta es gratuita sin anuncios ni marcas de agua, dividir cientos de páginas no cuesta nada y nunca interrumpe tu flujo de trabajo. Los archivos de salida son porciones precisas del original, preservando texto, imágenes, enlaces y fuentes incrustadas."
       ]
     },
@@ -40,7 +40,7 @@
     {
       "heading": "División con Privacidad Primero: Los Archivos Nunca Salen de Tu Dispositivo",
       "paragraphs": [
-        "La garantía más importante de este divisor de PDF es que tu documento nunca llega a un servidor de terceros. Cada página se extrae en la memoria de tu navegador con la tecnología de código abierto PDF.js.",
+        "La garantía más importante de este divisor de PDF es que tu documento nunca llega a un servidor de terceros. Cada página se extrae en la memoria de tu navegador con la tecnología de código abierto pdf-lib.",
         "Esto importa para cualquiera que maneje datos regulados o confidenciales: equipos legales dividiendo documentos de descubrimiento, RR. HH. dividiendo nóminas, contables dividiendo registros fiscales. Con el procesamiento local, el término \"fuga de datos simplemente no aplica, porque no hay datos externos en absoluto.",
         "Recibes exactamente lo que dividiste: PDFs limpios sin marcas de agua, idénticos en calidad al fuente. Compara eso con competidores online cuya capa gratuita añade su marca a cada resultado a menos que te suscribas."
       ]
@@ -64,7 +64,7 @@
     },
     {
       "q": "¿Es seguro dividir documentos PDF confidenciales aquí?",
-      "a": "Absolutamente. Todo el procesamiento ocurre localmente en tu navegador con PDF.js. Tus archivos nunca se suben, almacenan ni analizan en ningún servidor, lo que lo hace seguro para NDAs, documentos médicos y legales."
+      "a": "Absolutamente. Todo el procesamiento ocurre localmente en tu navegador con pdf-lib. Tus archivos nunca se suben, almacenan ni analizan en ningún servidor, lo que lo hace seguro para NDAs, documentos médicos y legales."
     }
   ]
 }

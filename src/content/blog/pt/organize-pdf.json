@@ -10,7 +10,7 @@
       "paragraphs": [
         "Todo o documento complexo começa desarrumado. Digitalizações alimentam-se com orientações mistas, páginas em branco insinuam-se e secções ficam fora de sequência. Chegar a um ficheiro final polido envolvia tipicamente várias ferramentas e muitas transferências repetidas. Uma ferramenta tudo-em-um [organize-pdf:organizador de páginas PDF] resolve todo o trabalho num só lugar.",
         "Organizar é a diferença entre uma pilha crua de páginas e um artefacto de que se orgulha de distribuir. Ordem, orientação e completude são exatamente as propriedades que esta ferramenta coloca sob o seu controlo.",
-        "O ChooseTools executa a organização localmente com PDF.js. Cada alteração reflete-se instantaneamente numa pré-visualização ao vivo, e o documento terminado é transferido sem nunca ter saído do seu dispositivo.",
+        "O ChooseTools executa a organização localmente com pdf-lib. Cada alteração reflete-se instantaneamente numa pré-visualização ao vivo, e o documento terminado é transferido sem nunca ter saído do seu dispositivo.",
         "O ficheiro montado é aberto em todo o lado como PDF padrão, pronto a enviar por correio eletrónico, imprimir ou arquivar."
       ]
     },
@@ -63,7 +63,7 @@
   "faqs": [
     {
       "q": "Posso organizar páginas sem carregar o meu PDF para um servidor?",
-      "a": "Sim. O organizador processa tudo localmente no seu navegador com PDF.js. O seu documento nunca é carregado, armazenado ou inspecionado remotamente."
+      "a": "Sim. O organizador processa tudo localmente no seu navegador com pdf-lib. O seu documento nunca é carregado, armazenado ou inspecionado remotamente."
     },
     {
       "q": "Que operações de páginas são suportadas numa única sessão?",

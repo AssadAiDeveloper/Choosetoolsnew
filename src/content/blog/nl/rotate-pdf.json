@@ -10,7 +10,7 @@
       "paragraphs": [
         "Een gescand contract dat zijwaarts is beland, een mobiele foto die met de verkeerde oriëntatie naar PDF is geëxporteerd, een gedownloade factuur die op zijn kop wordt weergegeven — elke kantoorwerker heeft wel eens een PDF ontvangen die een [rotate-pdf:PDF-pagina's roteren]-correctie nodig had. De paginainhoud is perfect; alleen de oriëntatie klopt niet.",
         "Eigen editors laten deze taak ingewikkeld lijken, maar oriëntatie is een van de eenvoudigste eigenschappen van een PDF. U hebt alleen een betrouwbare tool nodig om gratis online een PDF te roteren, die de rotatiematrix van de pagina aanpast zonder de daadwerkelijke tekeningen, tekst of afbeeldingen op de pagina aan te raken.",
-        "ChooseTools roteert uw PDF met PDF.js-verwerking in de browser. Sleep het bestand erin, klik op een rotatieknop, en elke pagina wordt dan in het voorbeeld bijgewerkt voordat u opslaat — zonder upload en zonder kwaliteitsverlies."
+        "ChooseTools roteert uw PDF met pdf-lib-verwerking in de browser. Sleep het bestand erin, klik op een rotatieknop, en elke pagina wordt dan in het voorbeeld bijgewerkt voordat u opslaat — zonder upload en zonder kwaliteitsverlies."
       ]
     },
     {

@@ -3,9 +3,11 @@ import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { isIndexableLocale } from "@/lib/indexing";
 import { ogImage, ogImageUrl, ogLocale } from "@/i18n/og";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { LanguageSuggestionBanner } from "@/components/LanguageSuggestionBanner";
 import { SITE_URL } from "@/lib/tools";
 import { IBM_Plex_Sans_Arabic, IBM_Plex_Mono } from "next/font/google";
 import "../globals.css";
@@ -42,6 +44,9 @@ export async function generateMetadata({
     },
     description: t("description"),
     metadataBase: new URL(SITE_URL),
+    robots: isIndexableLocale(locale)
+      ? { index: true, follow: true }
+      : { index: false, follow: true },
     openGraph: {
       type: "website",
       siteName: "ChooseTools",
@@ -111,6 +116,7 @@ export default async function LocaleLayout({
           <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 focus:rounded-lg focus:bg-brand-600 focus:px-4 focus:py-2 focus:font-semibold focus:text-white focus:shadow-lg">
             {skipLabel}
           </a>
+          <LanguageSuggestionBanner />
           <Header />
           <main id="main-content" className="flex-1">{children}</main>
           <Footer />

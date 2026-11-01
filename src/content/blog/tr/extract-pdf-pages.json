@@ -45,7 +45,7 @@
       "heading": "Yerel İşlemeyle Tam Gizlilik",
       "paragraphs": [
         "Bir ayıklayıcının belgenizin iç işleyişine derin erişimi gerekir; bunu uzaktan yapmak, yalnızca dört sayfaya ihtiyacınız olsa bile tüm dosyanızın ağda dolaşması anlamına gelir. ChooseTools tüm işlemi makinenizde tutar.",
-        "PDF.js oluşturucu sayfa ağacını yerel olarak ayrıştırır, seçilen sayfa nesnelerini kopyalar ve kaynak dosyayı asla iletmeden yeni belgeyi yazar. Gizlilik anlaşmaları, tıbbi veriler ve müşteri işleri için kabul edilebilir tek model budur.",
+        "pdf-lib oluşturucu sayfa ağacını yerel olarak ayrıştırır, seçilen sayfa nesnelerini kopyalar ve kaynak dosyayı asla iletmeden yeni belgeyi yazar. Gizlilik anlaşmaları, tıbbi veriler ve müşteri işleri için kabul edilebilir tek model budur.",
         "Bunu kayıt olmaması ve filigran olmamasıyla birleştirin; Windows, macOS veya mobil tarayıcılarda ayıklama, günlük belge boru hattınızın rutin, sıfır riskli bir parçası haline gelir.",
         "Kaynak asla yolculuk yapmadığı için orijinali yerinde tutabilir ve seçimleri tam bir güvenle istediğiniz sıklıkta tekrarlayabilirsiniz."
       ]

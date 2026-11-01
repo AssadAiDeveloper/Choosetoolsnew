@@ -132,6 +132,14 @@
     "saveFailed": "No se pudo reescribir el PDF. Prueba con otro archivo o deshaz algunos cambios."
   },
   "tool": {
+    "pdfUnlockRasterNote": "La copia desbloqueada está formada por imágenes de página, por lo que el texto no se puede seleccionar ni buscar.",
+    "pageSize": "Tamaño de página",
+    "fitToImage": "Ajustar a la imagen",
+    "orientation": "Orientación",
+    "portrait": "Vertical",
+    "landscape": "Horizontal",
+    "marginPx": "Margen (px)",
+    "readGuide": "Leer la guía completa",
     "dropTitle": "Suelta archivos aquí o haz clic para elegir",
     "dropSingle": "Suelta un archivo aquí o haz clic para elegir",
     "processing": "Procesando en tu dispositivo…",
@@ -143,6 +151,10 @@
     "copy": "Copiar",
     "copied": "¡Copiado!",
     "error": "No se pudo procesar el archivo. Comprueba el formato e inténtalo de nuevo.",
+    "pdfPassword": "Contraseña del PDF",
+    "unlock": "Desbloquear PDF",
+    "wrongPassword": "Esa contraseña no es correcta. Inténtalo de nuevo.",
+    "encryptedPdf": "Este archivo no se puede desbloquear en el navegador. Puede usar un cifrado que esta herramienta no admite.",
     "faqTitle": "Preguntas frecuentes",
     "relatedTitle": "Herramientas relacionadas",
     "pages": "páginas",
@@ -944,19 +956,19 @@
     },
     "invoice-generator": {
       "name": "Generador de facturas",
-      "desc": "Crea una factura profesional con tu logo, impuesto y cualquier moneda.",
-      "long": "Completa los datos de tu empresa y cliente, añade conceptos, y descarga una factura PDF pulida — generada íntegramente en tu dispositivo. Como el árabe necesita un trazado correcto de letras que las fuentes de PDF no pueden hacer directamente, la factura se dibuja primero con nitidez en tu navegador y luego se guarda como página PDF.",
+      "desc": "Crea una factura profesional con tu logo, impuesto y 27 monedas habituales.",
+      "long": "Completa los datos de tu empresa y cliente, añade conceptos y luego imprime la factura o guárdala como PDF directamente desde tu navegador: todo se genera en tu dispositivo. El diseño está listo para imprimir en A4 y, como el navegador imprime texto real, el PDF guardado sigue siendo seleccionable y buscable.",
       "faq1q": "¿El texto de la factura es seleccionable en el PDF?",
-      "faq1a": "No — para mostrar árabe, inglés y español de forma correcta y consistente, la factura se dibuja como una imagen nítida y se incrusta en la página PDF. Se ve e imprime perfectamente, pero el texto no es seleccionable.",
+      "faq1a": "Sí. La factura es una página web normal que tu navegador imprime a PDF, así que el texto sigue siendo seleccionable y buscable. El árabe, el inglés y el español se muestran correctamente, incluido el texto de derecha a izquierda.",
       "faq2q": "¿Puedo usar mi propio logo y moneda?",
-      "faq2a": "Sí — sube un logo PNG o JPG y elige entre monedas comunes (USD, EUR, SAR, AED, EGP, GBP). El porcentaje de impuesto y los totales se calculan automáticamente."
+      "faq2a": "Sí: sube un logo PNG o JPG y elige entre 27 monedas, como USD, EUR, GBP, SAR, AED, EGP, INR y JPY. El porcentaje de impuesto y los totales se calculan automáticamente."
     },
     "cv-builder": {
-      "name": "Creador de currículum (compatible con ATS)",
-      "desc": "Crea un currículum limpio a una columna que los sistemas de selección automática puedan leer.",
-      "long": "Completa tu experiencia, formación y habilidades — el diseño es deliberadamente simple (una columna, títulos claros, sin tablas ni gráficos) porque es justo lo que los sistemas ATS analizan de forma fiable. Los currículums largos pasan automáticamente a páginas adicionales.",
-      "faq1q": "¿Por qué el diseño es tan simple?",
-      "faq1a": "Los sistemas de seguimiento de candidatos que usan la mayoría de empresas tienen dificultades con diseños de varias columnas, iconos y cuadros de texto. Un currículum a una columna con títulos claros tiene más probabilidades de analizarse correctamente y llegar a un revisor humano.",
+      "name": "Creador de currículum",
+      "desc": "Crea un currículum limpio a una columna con títulos claros, listo para imprimir o guardar como PDF.",
+      "long": "Completa tu experiencia, formación y habilidades. El diseño es deliberadamente simple —una columna, títulos claros, sin tablas ni gráficos— para que siga siendo fácil de leer en pantalla y en papel, y los currículums largos pasan automáticamente a páginas adicionales. El PDF se genera como una imagen de alta resolución, por lo que su texto no se puede seleccionar.",
+      "faq1q": "¿Pueden los sistemas de seguimiento de candidatos (ATS) leer el PDF?",
+      "faq1a": "No. El PDF se dibuja como una imagen de alta resolución para que el árabe y otros alfabetos se rendericen correctamente, lo que significa que su texto no se puede seleccionar y el software ATS no puede analizarlo. Copia el texto del editor si necesitas pegarlo en un formulario de solicitud.",
       "faq2q": "¿Puede mi currículum tener más de una página?",
       "faq2a": "Sí — el contenido que no cabe en la primera página continúa automáticamente en páginas adicionales."
     },
@@ -1342,6 +1354,10 @@
     }
   },
   "blog": {
+    "relatedPostsTitle": "Guías relacionadas",
+    "relatedPostsHint": "Leer la guía",
+    "prevPost": "Guía anterior",
+    "nextPost": "Guía siguiente",
     "metaTitle": "Blog de Herramientas - Guías, Tutoriales y Artículos Cómo Hacer para Herramientas de Archivos",
     "metaDescription": "Explora el blog de ChooseTools para guías, tutoriales y artículos prácticos sobre cada herramienta de archivos: herramientas PDF, de imagen y texto que funcionan en tu navegador.",
     "indexTitle": "Blog de herramientas",

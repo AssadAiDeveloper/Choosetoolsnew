@@ -6,6 +6,7 @@ import { Link } from "@/i18n/navigation";
 import { Hero } from "@/components/Hero";
 import { HomeToolGrid } from "@/components/HomeToolGrid";
 import { routing } from "@/i18n/routing";
+import { INDEXABLE_LOCALES } from "@/lib/indexing";
 import { SITE_URL } from "@/lib/tools";
 
 export async function generateMetadata({
@@ -16,7 +17,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
   const pageLangs = Object.fromEntries(
-    routing.locales.map((l) => [l, l === "en" ? "/" : `/${l}`])
+    INDEXABLE_LOCALES.map((l) => [l, l === "en" ? "/" : `/${l}`])
   );
   return {
     title: t("title"),

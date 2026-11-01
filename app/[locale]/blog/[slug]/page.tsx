@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
+import { INDEXABLE_LOCALES, isIndexableBlogSlug, isIndexableLocale } from "@/lib/indexing";
 import { ogImage, ogImageUrl, ogLocale } from "@/i18n/og";
 import { SITE_URL, SITE_NAME, iconTintClass } from "@/lib/tools";
 import {
@@ -14,6 +15,7 @@ import {
   relatedPosts,
   postNeighbors,
   lastModified,
+  ARTICLE_AUTHOR,
   blogSlugs,
   findToolForSlug,
 } from "@/lib/blog";
@@ -39,17 +41,18 @@ export async function generateMetadata({
   const article = getArticle(locale, slug);
   if (!article) return {};
   const programTitle = article.title.replace(/`/g, "");
-  const langs = Object.fromEntries(
-    routing.locales.map((l) => [l, blogPathFor(l, slug)])
-  );
+  const indexable = isIndexableLocale(locale) && isIndexableBlogSlug(locale, slug);
+  const langs = indexable
+    ? Object.fromEntries(INDEXABLE_LOCALES.map((l) => [l, blogPathFor(l, slug)]))
+    : {};
   return {
     title: `${programTitle} — ${SITE_NAME}`,
     description: article.description,
     metadataBase: new URL(SITE_URL),
-    alternates: {
-      canonical: blogPathFor(locale, slug),
-      languages: { ...langs, "x-default": blogPathFor("en", slug) },
-    },
+    robots: indexable ? { index: true, follow: true } : { index: false, follow: true },
+    alternates: indexable
+      ? { canonical: blogPathFor(locale, slug), languages: { ...langs, "x-default": blogPathFor("en", slug) } }
+      : { canonical: blogPathFor(locale, slug) },
     openGraph: {
       type: "article",
       siteName: SITE_NAME,
@@ -68,7 +71,6 @@ export async function generateMetadata({
       description: article.description,
       images: [ogImageUrl(locale)],
     },
-    keywords: article.keywords,
   };
 }
 
@@ -114,7 +116,7 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
       image: [`${SITE_URL}/${locale}/opengraph-image.png`, `${SITE_URL}/icon-512.png`],
       datePublished: lastModified(),
       dateModified: lastModified(),
-      author: { "@type": "Organization", name: "hoursmedia" },
+      author: { "@type": "Person", name: ARTICLE_AUTHOR },
       publisher: {
         "@type": "Organization",
         name: SITE_NAME,
@@ -134,7 +136,9 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      mainEntity: article.faqs.map((f) => ({
+      mainEntity: article.faqs
+        .filter((f) => (f.a || "").trim().length > 0)
+        .map((f) => ({
         "@type": "Question",
         name: f.q,
         acceptedAnswer: { "@type": "Answer", text: f.a },
@@ -228,7 +232,7 @@ export default async function BlogPostPage({ params }: { params: Promise<Params>
       <section className="mt-10">
         <h2 className="text-xl font-bold text-ink">{t("faqTitle")}</h2>
         <div className="mt-4 space-y-3">
-          {article.faqs.map((f, i) => (
+          {article.faqs.filter((f) => (f.a || "").trim().length > 0).map((f, i) => (
             <details
               key={i}
               className="group rounded-card border border-line bg-surface p-5 transition-colors duration-200 open:border-brand-400"

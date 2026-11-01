@@ -3,8 +3,10 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
+import { INDEXABLE_LOCALES } from "@/lib/indexing";
 import { ogImage, ogImageUrl, ogLocale } from "@/i18n/og";
 import { TOOLS, findTool, toolsByCategory, iconTintClass, SITE_URL, SITE_NAME } from "@/lib/tools";
+import { TOOL_CONTENT } from "@/lib/toolContent";
 import { hasArticle } from "@/lib/blog";
 import { ToolHost } from "@/components/ToolHost";
 import { ToolIcon } from "@/components/ToolIcon";
@@ -14,6 +16,14 @@ interface Params {
   category: string;
   slug: string;
 }
+
+/**
+ * Tool slugs whose guide article covers a different job than the tool itself.
+ * `protect-pdf` is "Remove PDF Password", but its only article explains how to
+ * *add* a password — linking it from the tool is misleading (audit T2d). Drop
+ * the entry once a dedicated "remove a PDF password" guide exists.
+ */
+const GUIDE_LINK_EXCLUDED = new Set(["protect-pdf"]);
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
@@ -36,7 +46,7 @@ export async function generateMetadata({
   if (!tool) return {};
   const t = await getTranslations({ locale, namespace: `tools.${slug}` });
   const langs = Object.fromEntries(
-    routing.locales.map((l) => [l, pathFor(l, category, slug)])
+    INDEXABLE_LOCALES.map((l) => [l, pathFor(l, category, slug)])
   );
   return {
     title: `${t("name")} — ${SITE_NAME}`,
@@ -85,12 +95,12 @@ export default async function ToolPage({ params }: { params: Promise<Params> }) 
     }))
   );
 
-  const hasGuide = hasArticle(locale, slug);
+  const hasGuide = hasArticle(locale, slug) && !GUIDE_LINK_EXCLUDED.has(slug);
 
   const faqs = [
     { q: t("faq1q"), a: t("faq1a") },
     { q: t("faq2q"), a: t("faq2a") },
-  ];
+  ].filter((f) => (f.a || "").trim().length > 0 && (f.q || "").trim().length > 0);
 
   const jsonLd = [
     {
@@ -155,6 +165,55 @@ export default async function ToolPage({ params }: { params: Promise<Params> }) 
       <section className="mt-14">
         <p className="leading-relaxed text-ink-soft">{t("long")}</p>
       </section>
+
+      {(() => {
+        const content = TOOL_CONTENT[slug];
+        const show = locale === "en" || process.env.SHOW_DRAFT_CONTENT === "1";
+        if (!content || !show) return null;
+        return (
+          <section className="mt-10 space-y-8">
+            <div>
+              <h2 className="text-xl font-bold">How to use</h2>
+              <ol className="mt-3 list-decimal space-y-1 ps-5 text-ink-soft">
+                {content.howTo.map((s, i) => (
+                  <li key={i}>{s}</li>
+                ))}
+              </ol>
+            </div>
+            <div>
+              <h2 className="text-xl font-bold">FAQ</h2>
+              <div className="mt-3 space-y-3">
+                {content.faqs.map((f, i) => (
+                  <details key={i} className="group rounded-card border border-slate-300 bg-surface p-4">
+                    <summary className="cursor-pointer font-semibold text-slate-800">{f.q}</summary>
+                    <p className="mt-2 text-slate-600">{f.a}</p>
+                  </details>
+                ))}
+              </div>
+            </div>
+            <div className="text-sm text-ink-soft">
+              <p><strong>Limits:</strong> {content.limits}</p>
+              <p className="mt-1"><strong>Privacy:</strong> {content.privacy}</p>
+            </div>
+            {content.related.length > 0 && (
+              <div>
+                <h2 className="text-xl font-bold">Related tools</h2>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {content.related.map((r) => (
+                    <Link
+                      key={r}
+                      href={`/${tool.category}/${r}`}
+                      className="rounded-full border border-line bg-surface px-4 py-2 text-sm font-medium transition hover:border-brand-500 hover:text-brand-700"
+                    >
+                      {r}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+          </section>
+        );
+      })()}
 
       <section className="mt-10">
         <h2 className="text-xl font-bold">{tt("faqTitle")}</h2>

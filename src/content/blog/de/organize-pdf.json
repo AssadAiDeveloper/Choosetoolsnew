@@ -10,7 +10,7 @@
       "paragraphs": [
         "Jedes komplexe Dokument beginnt unordentlich. Scans kommen in gemischten Ausrichtungen herein, leureste Seiten schleichen sich ein, und Abschnitte landen in falscher Reihenfolge. Das Erreichen einer polierten Enddatei erforderte typischerweise mehrere Tools und viel Herunterladen. Ein All-in-One-[organize-pdf:PDF-Seiten-Organizer] löst die gesamte Aufgabe an einem Ort.",
         "Organisieren macht den Unterschied zwischen einem rohen Stapel von Seiten und einem Artefakt, das Sie stolz verteilen. Reihenfolge, Ausrichtung und Vollständigkeit sind genau die Eigenschaften, die dieses Tool unter Ihre Kontrolle bringt.",
-        "ChooseTools führt die Organisation lokal mit PDF.js aus. Jede Änderung spiegelt sich sofort in einer Live-Vorschau wider, und das fertige Dokument wird heruntergeladen, ohne Ihr Gerät je verlassen zu haben.",
+        "ChooseTools führt die Organisation lokal mit pdf-lib aus. Jede Änderung spiegelt sich sofort in einer Live-Vorschau wider, und das fertige Dokument wird heruntergeladen, ohne Ihr Gerät je verlassen zu haben.",
         "Die zusammengestellte Datei öffnet sich überall als standardkonformes PDF, bereit zum E-Mail-Versand, Drucken oder Archivieren."
       ]
     },
@@ -63,7 +63,7 @@
   "faqs": [
     {
       "q": "Kann ich Seiten organisieren, ohne mein PDF auf einen Server hochzuladen?",
-      "a": "Ja. Der Organizer verarbeitet alles lokal in Ihrem Browser mit PDF.js. Ihr Dokument wird niemals hochgeladen, gespeichert oder远程 geprüft."
+      "a": "Ja. Der Organizer verarbeitet alles lokal in Ihrem Browser mit pdf-lib. Ihr Dokument wird niemals hochgeladen, gespeichert oder远程 geprüft."
     },
     {
       "q": "Welche Seitenoperationen werden in einer Sitzung unterstützt?",

@@ -53,7 +53,7 @@
     {
       "heading": "When to Flatten Inside a Broader PDF Workflow",
       "paragraphs": [
-        "Typical pipelines flatten at the end: fill a form, protect it, then flatten the final version for a locked archive. Combine here with [protect-pdf:PDF encryption] for a file that is both un-editable and access-controlled.",
+        "Typical pipelines flatten at the end: fill a form, protect it, then flatten the final version for a locked archive. Combine here with [protect-pdf:Remove PDF Password] for a file that is both un-editable and access-controlled.",
         "Alternatively, normalize the document first with [rotate-pdf:rotation] and [delete-pdf-pages:page cleanup], flatten last, and compress the finished artifact with [compress-pdf:PDF compression].",
         "The complete suite shares the same no-upload privacy model, letting you chain steps confidently from start to finish.",
         "Each successive tool works on the already-local file, so a long pipeline still moves zero bytes across the network."
