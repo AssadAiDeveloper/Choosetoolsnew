@@ -339,7 +339,7 @@
       "faq1q": "What exactly is removed?",
       "faq1a": "All EXIF metadata: GPS location, camera and phone model, timestamps, software tags and thumbnail previews. Only the visible image remains.",
       "faq2q": "How can I verify it worked?",
-      "faq2a": "Check the file's properties before and after (right-click â†’ Properties â†’ Details on Windows). The cleaned copy shows no location or camera fields."
+      "faq2a": "Check the file's properties before and after (right-click → Properties → Details on Windows). The cleaned copy shows no location or camera fields."
     },
     "word-counter": {
       "name": "Word & Character Counter",
@@ -597,7 +597,7 @@
       "name": "CSV & JSON Converter",
       "desc": "Powered by the industry-standard Papa Parse engine — handles quoted fields, commas inside values, and headers correctly..",
       "long": "Powered by the industry-standard Papa Parse engine — handles quoted fields, commas inside values, and headers correctly.",
-      "faq1q": "Does CSVâ†’JSON use the first row as keys?",
+      "faq1q": "Does CSV→JSON use the first row as keys?",
       "faq1a": "Yes — the header row becomes the JSON property names for every object.",
       "faq2q": "My CSV uses semicolons — will it work?",
       "faq2a": "Yes, the parser auto-detects common delimiters including semicolons and tabs."
@@ -838,7 +838,7 @@
     },
     "sort-lines": {
       "name": "Sort Lines",
-      "desc": "Sort text lines Aâ†’Z, Zâ†’A, by length, or shuffle randomly. Free, offline, runs in your browser — no uploads, no accounts.",
+      "desc": "Sort text lines A→Z, Z→A, by length, or shuffle randomly. Free, offline, runs in your browser — no uploads, no accounts.",
       "long": "Language-aware sorting that handles Arabic, Spanish and English alphabets correctly — plus a random shuffle for draws.",
       "faq1q": "Is Arabic sorted correctly?",
       "faq1a": "Yes — sorting uses locale-aware collation, so Arabic letters follow proper Arabic alphabetical order.",
