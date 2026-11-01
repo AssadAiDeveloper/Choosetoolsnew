@@ -373,3 +373,20 @@ Code changes (no translation impact):
 - Added `BreadcrumbList` JSON-LD to tool category pages (blog pages already had
   `Article` and `BreadcrumbList`).
 - Added `scripts/seo-report.mjs` (`npm run seo:report`) producing `SEO_REPORT.md`.
+
+
+## Follow-up — ProtectPdf raster note (tool.pdfUnlockRasterNote)
+
+| Key | Language | Old | New | Status |
+| --- | --- | --- | --- | --- |
+| `tool.pdfUnlockRasterNote` | en (source) | — | The unlocked copy is made of page images, so text can't be selected or searched. | new |
+| `tool.pdfUnlockRasterNote` | ar | — | النسخة المفتوحة مكوّنة من صور صفحات، لذا لا يمكن تحديد النص أو البحث فيه. | new, machine-drafted |
+| `tool.pdfUnlockRasterNote` | de | — | Die entsperrte Kopie besteht aus Seitenbildern, daher kann der Text nicht markiert oder durchsucht werden. | new, machine-drafted |
+| `tool.pdfUnlockRasterNote` | es | — | La copia desbloqueada está formada por imágenes de página, por lo que el texto no se puede seleccionar ni buscar. | new, machine-drafted |
+| `tool.pdfUnlockRasterNote` | fr | — | La copie déverrouillée est composée d'images de pages : le texte n'est ni sélectionnable ni recherchable. | new, machine-drafted |
+| `tool.pdfUnlockRasterNote` | hi | — | अनलॉक की गई कॉपी पेज छवियों से बनी है, इसलिए टेक्स्ट चुना या खोजा नहीं जा सकता। | new, machine-drafted |
+| `tool.pdfUnlockRasterNote` | id | — | Salinan yang dibuka terdiri dari gambar halaman, sehingga teks tidak dapat dipilih atau dicari. | new, machine-drafted |
+| `tool.pdfUnlockRasterNote` | nl | — | De ontgrendelde kopie bestaat uit pagina-afbeeldingen, dus tekst kan niet worden geselecteerd of doorzocht. | new, machine-drafted |
+| `tool.pdfUnlockRasterNote` | pt | — | A cópia desbloqueada é composta por imagens de página, pelo que o texto não pode ser selecionado nem pesquisado. | new, machine-drafted |
+| `tool.pdfUnlockRasterNote` | ru | — | Разблокированная копия состоит из изображений страниц, поэтому текст нельзя выделить или найти. | new, machine-drafted |
+| `tool.pdfUnlockRasterNote` | tr | — | Kilidi açılmış kopya sayfa görsellerinden oluşur; bu nedenle metin seçilemez veya aranamaz. | new, machine-drafted |
