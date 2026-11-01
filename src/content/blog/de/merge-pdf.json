@@ -9,7 +9,7 @@
       "heading": "Warum Sie einen kostenlosen PDF-Merger brauchen, der in Ihrem Browser läuft",
       "paragraphs": [
         "Das Zusammenführen von PDF-Dateien gehört in Büros, Schulen und im freiberuflichen Bereich zu den häufigsten Dokumentaufgaben. Täglich müssen Millionen Menschen PDF-Dokumente kombinieren: zwei Rechnungen in einer Datei zusammenführen, mehrere Vertragsseiten verbinden oder einen vollständigen Bericht aus separaten Kapitel-PDFs zusammenstellen. Ein zuverlässiges [merge-pdf:PDF-Zusammenführungs-Tool] verwandelt einen frustrierenden Multi-Datei-Workflow in einen einzigen sauberen Klick.",
-        "Die meisten Online-PDF-Merger geben vor, kostenlos zu sein, laden Ihre privaten Dokumente jedoch heimlich auf ihre Server hoch, versehen sie mit Wasserzeichen, begrenzen die Seitenzahl oder verlangen im letzten Moment eine Kreditkarte, sobald Ihre Zusammenführung abgeschlossen ist. Genau dieses Problem löst ChooseTools. Unser kostenloses Online-PDF-Zusammenführungs-Tool läuft vollständig in Ihrem Browser mit der PDF.js-Engine, sodass Ihre Dokumente Ihr Gerät nie verlassen und es wirklich keine Grenzen gibt.",
+        "Die meisten Online-PDF-Merger geben vor, kostenlos zu sein, laden Ihre privaten Dokumente jedoch heimlich auf ihre Server hoch, versehen sie mit Wasserzeichen, begrenzen die Seitenzahl oder verlangen im letzten Moment eine Kreditkarte, sobald Ihre Zusammenführung abgeschlossen ist. Genau dieses Problem löst ChooseTools. Unser kostenloses Online-PDF-Zusammenführungs-Tool läuft vollständig in Ihrem Browser mit der pdf-lib-Engine, sodass Ihre Dokumente Ihr Gerät nie verlassen und es wirklich keine Grenzen gibt.",
         "Datenschutz ist hier keine Funktion, sondern die Architektur. Wenn Sie Ihre PDFs auf die Ablagefläche ziehen, werden die Dateien lokal per JavaScript verarbeitet. Nichts wird übertragen, protokolliert oder auf einem Server zwischengespeichert. Sie erhalten dasselbe Ergebnis wie mit teurer Desktop-Software — jedoch ohne Installation, ohne Registrierung und ohne jedes Risiko, dass sensible Daten durchsickern."
       ]
     },
@@ -49,7 +49,7 @@
       "heading": "Geschwindigkeit und Sicherheit: Warum lokale Verarbeitung Cloud-Merger schlägt",
       "paragraphs": [
         "Cloudbasierte PDF-Merger laden Ihre Dateien hoch, verarbeiten sie auf einem Server-Cluster und lassen Sie dann das Ergebnis herunterladen. Jeder Schritt ist ein Fehlerpunkt: Der Upload kann stocken, der Server kann ausgelastet sein, und die Datei kann im Rahmen der Caching-Richtlinie monatelang auf einer Festplatte Dritter liegen.",
-        "Lokale Verarbeitung eliminiert das alles. Die Seiten werden im Arbeitsspeicher Ihres Browsers mit der Open-Source-Bibliothek PDF.js kombiniert — derselben Rendering-Engine, die auch den integrierten PDF-Viewer von Firefox antreibt. Sobald die Zusammenführung abgeschlossen ist, existiert die Ausgabe nur noch auf Ihrem Gerät.",
+        "Lokale Verarbeitung eliminiert das alles. Die Seiten werden im Arbeitsspeicher Ihres Browsers mit der Open-Source-Bibliothek pdf-lib kombiniert — derselben Rendering-Engine, die auch den integrierten PDF-Viewer von Firefox antreibt. Sobald die Zusammenführung abgeschlossen ist, existiert die Ausgabe nur noch auf Ihrem Gerät.",
         "Sicherheitsabteilungen und Rechtsabteilungen verlangen zunehmend, dass Dokumente wie NDAs, Jahresabschlüsse und Patientenakten niemals die Infrastruktur Dritter berühren. Ein kostenloses Online-PDF-Zusammenführungs-Tool mit null Netzwerkübertragung ist die einzige sichere Antwort — und es ist in der Praxis auch schneller. Benchmarks aus unseren Tests zeigen, dass Zusammenführungen in einem Bruchteil der Zeit uploadbasierter Dienste abgeschlossen werden."
       ]
     },
@@ -64,7 +64,7 @@
     {
       "heading": "Häufige Fragen zum kostenlosen PDF-Merger",
       "paragraphs": [
-        "Kann ich PDF-Dateien auf meinem Handy zusammenführen? Ja — das Tool läuft in jedem modernen Browser, einschließlich Safari und Chrome auf Mobilgeräten, sodass Sie PDFs auf einem Handy oder Tablet kombinieren können, ohne eine App zu installieren. Werden meine Dateien hochgeladen? Nein. Die gesamte Zusammenführung erfolgt lokal in Ihrem Browser, und es werden keine Dateidaten an einen Server gesendet. Gibt es eine Begrenzung für Dateigröße oder Dateianzahl? Es gibt keine festen Grenzen; Sie können so viele Dokumente hinzufügen, wie Ihr Gerät gleichzeitig im Speicher halten kann. Welche Browser werden unterstützt? Chrome, Edge, Firefox und Safari. Wir empfehlen für beste Leistung mit PDF.js die neuesten Versionen.",
+        "Kann ich PDF-Dateien auf meinem Handy zusammenführen? Ja — das Tool läuft in jedem modernen Browser, einschließlich Safari und Chrome auf Mobilgeräten, sodass Sie PDFs auf einem Handy oder Tablet kombinieren können, ohne eine App zu installieren. Werden meine Dateien hochgeladen? Nein. Die gesamte Zusammenführung erfolgt lokal in Ihrem Browser, und es werden keine Dateidaten an einen Server gesendet. Gibt es eine Begrenzung für Dateigröße oder Dateianzahl? Es gibt keine festen Grenzen; Sie können so viele Dokumente hinzufügen, wie Ihr Gerät gleichzeitig im Speicher halten kann. Welche Browser werden unterstützt? Chrome, Edge, Firefox und Safari. Wir empfehlen für beste Leistung mit pdf-lib die neuesten Versionen.",
         "Muss ich Software installieren oder ein Konto erstellen? Weder Installation noch Konto sind erforderlich — das Tool ist eine Single-Page-Anwendung, die sofort funktioniert. Was passiert mit meinen Dateien, wenn ich den Tab schließe? Sie werden aus dem Speicher verworfen. Nichts wird gespeichert, hochgeladen oder nachverfolgt, was das datenschutzorientierte Design der gesamten Suite unterstreicht."
       ]
     }
@@ -76,7 +76,7 @@
     },
     {
       "q": "Kann ich viele PDF-Seiten auf einmal zusammenführen?",
-      "a": "Ja. Es gibt keine willkürliche Seiten- oder Datei-Obergrenze. Die praktische Grenze hängt vom Arbeitsspeicher Ihres Geräts ab, da die Zusammenführung lokal mit PDF.js erfolgt — selbst sehr große Dokumente werden also auf Ihrer Maschine statt auf einem gemeinsamen Server verarbeitet."
+      "a": "Ja. Es gibt keine willkürliche Seiten- oder Datei-Obergrenze. Die praktische Grenze hängt vom Arbeitsspeicher Ihres Geräts ab, da die Zusammenführung lokal mit pdf-lib erfolgt — selbst sehr große Dokumente werden also auf Ihrer Maschine statt auf einem gemeinsamen Server verarbeitet."
     },
     {
       "q": "Behalten zusammengeführte PDFs ihre ursprüngliche Qualität und ihren Text?",

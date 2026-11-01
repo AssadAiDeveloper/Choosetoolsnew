@@ -9,7 +9,7 @@
       "heading": "PDF Bölme Ne Zaman Günlük Bir Gereklilik Haline Gelir",
       "paragraphs": [
         "Tek bir PDF nadiren sonsuza dek tek bir PDF olarak kalır. Dosyalama sistemleri için PDF sayfalarını bölmeniz, yalnızca on sayfaya ihtiyaç duyan bir iş arkadaşına bir bölüm göndermeniz veya 300 sayfalık bir kılavuzu yüklenebilir alt belgelere ayırmanız gerekebilir. Masaüstü düzenleyicilerde elle kopyalama ve yapıştırma yavaş ve hataya açıktır; özel bir [split-pdf:çevrimiçi ücretsiz PDF bölme] aracı bu işi saniyeler içinde yapar.",
-        "Web'deki çoğu PDF bölme aracı belgenizi kendi bulutlarına zorlar ve ardından analiz için kopyalarını saklar. Bu, sözleşmeler, tıbbi kayıtlar ve finansal tablolar için gerçek bir sorundur. ChooseTools bölücüyü PDF.js üzerine kurar; böylece dosyanız tamamen tarayıcınızda okunur ve bölünür. Yükleme yok, kuyruk yok, kontrol etmediğiniz bir sunucuda artık kopyalar yok.",
+        "Web'deki çoğu PDF bölme aracı belgenizi kendi bulutlarına zorlar ve ardından analiz için kopyalarını saklar. Bu, sözleşmeler, tıbbi kayıtlar ve finansal tablolar için gerçek bir sorundur. ChooseTools bölücüyü pdf-lib üzerine kurar; böylece dosyanız tamamen tarayıcınızda okunur ve bölünür. Yükleme yok, kuyruk yok, kontrol etmediğiniz bir sunucuda artık kopyalar yok.",
         "Araç reklamsız ve filigramsız ücretsiz olduğu için yüzlerce sayfayı bölmek hiçbir ücrete mal olmaz ve iş akışınızı asla kesintiye uğratmaz. Çıktı dosyaları, metin, görsel, bağlantı ve gömülü yazı tiplerini koruyan orijinalin bayt düzeyinde hassas dilimleridir."
       ]
     },
@@ -40,7 +40,7 @@
     {
       "heading": "Gizlilik Öncelikli Bölme: Dosyalar Cihazınızdan Asla Ayrılmaz",
       "paragraphs": [
-        "Bu PDF bölücünün en önemli tek garantisi, belgenizin üçüncü taraf bir sunucuya asla ulaşmamasıdır. Her sayfa, açık kaynaklı PDF.js teknolojisiyle tarayıcınızın belleğinde ayıklanır.",
+        "Bu PDF bölücünün en önemli tek garantisi, belgenizin üçüncü taraf bir sunucuya asla ulaşmamasıdır. Her sayfa, açık kaynaklı pdf-lib teknolojisiyle tarayıcınızın belleğinde ayıklanır.",
         "Bu, düzenlemeye tabi veya gizli verilerle ilgilenen herkes için önemlidir: keşif belgelerini bölen hukuk ekipleri, maaş bordrolarını bölen İK, vergi kayıtlarını bölen muhasebeciler. Yerel işlemede »veri ihlali« terimi tam anlamıyla geçerli değildir çünkü dışarıda hiçbir veri yoktur.",
         "Böldüğünüz şeyin aynısını alırsınız: kaynakla aynı kalitede, temiz ve filigramsız PDF'ler. Bunu, ücretsiz katmanı abone olmadığınız sürece her çıktıya kendi markasını ekleyen çevrimiçi rakiplerle karşılaştırın."
       ]
@@ -64,7 +64,7 @@
     },
     {
       "q": "Burada gizli PDF belgelerini bölmek güvenli midir?",
-      "a": "Kesinlikle. Tüm işleme, PDF.js ile tarayıcınızda yerel olarak gerçekleşir. Dosyalarınız hiçbir sunucuya yüklenmez, saklanmaz veya analiz edilmez; bu da gizlilik anlaşmaları, tıbbi ve hukuki belgeler için güvenli kılar."
+      "a": "Kesinlikle. Tüm işleme, pdf-lib ile tarayıcınızda yerel olarak gerçekleşir. Dosyalarınız hiçbir sunucuya yüklenmez, saklanmaz veya analiz edilmez; bu da gizlilik anlaşmaları, tıbbi ve hukuki belgeler için güvenli kılar."
     }
   ]
 }

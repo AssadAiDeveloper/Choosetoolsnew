@@ -40,7 +40,7 @@
     {
       "heading": "Confidentialité, vitesse et liberté de plateforme",
       "paragraphs": [
-        "La suppression de pages implique un accès profond à l'arborescence interne des pages, ce qui est exactement le type d'opération qui expose les documents lorsqu'elle est effectuée sur un serveur distant. Ici, elle est effectuée localement avec PDF.js, les fichiers confidentiels ne voyage donc jamais.",
+        "La suppression de pages implique un accès profond à l'arborescence interne des pages, ce qui est exactement le type d'opération qui expose les documents lorsqu'elle est effectuée sur un serveur distant. Ici, elle est effectuée localement avec pdf-lib, les fichiers confidentiels ne voyage donc jamais.",
         "La qualité de sortie est préservée avec précision : le texte reste recherchable et sélectionnable, les images restent nettes, et le téléchargement est un PDF standard, universellement compatible.",
         "Vous pouvez supprimer des pages sur n'importe quel appareil — Windows, macOS, Linux, tablettes et téléphones — sans rien installer, ce qui en fait un compagnon idéal pour les professionnels qui travaillent sur plusieurs machines."
       ]

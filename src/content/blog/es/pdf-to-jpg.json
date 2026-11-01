@@ -19,7 +19,7 @@
       "paragraphs": [
         "La herramienta convierte todo tu documento en una sola pasada fluida.",
         "Sube tu PDF y obtén al instante miniaturas de páginas. Elige si quieres cada página o una selección, selecciona la resolución que se adapte a tu uso y convierte. Cada página se descarga como su propio archivo JPG, numerado en orden del documento.",
-        "Dado que el renderizado ocurre localmente con PDF.js, ver páginas y exportarlas es rápido, y la calidad de cada JPG refleja la resolución original completa que seleccionas.",
+        "Dado que el renderizado ocurre localmente con pdf-lib, ver páginas y exportarlas es rápido, y la calidad de cada JPG refleja la resolución original completa que seleccionas.",
         "La selección de páginas es cómoda con la banda de miniaturas: haz clic en las páginas que necesitas y omite el resto en una sola pasada."
       ]
     },

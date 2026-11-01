@@ -10,7 +10,7 @@
       "paragraphs": [
         "A scanned contract that came out sideways, a mobile photo exported to PDF with the wrong orientation, a downloaded invoice displayed upside down — every office worker has received a PDF needing a [rotate-pdf:rotate PDF pages] fix. The page content is perfect; the orientation is simply wrong.",
         "Proprietary editors make this task feel complicated, but orientation is one of the simplest properties of a PDF. You only need a reliable rotate PDF online free tool that adjusts the page's rotation matrix without touching the actual drawings, text or images on the page.",
-        "ChooseTools rotates your PDF with PDF.js processing in the browser. Drop the file, click a rotation button, and every page updates in the preview before you save — with no upload and no loss of quality."
+        "ChooseTools rotates your PDF with pdf-lib processing in the browser. Drop the file, click a rotation button, and every page updates in the preview before you save — with no upload and no loss of quality."
       ]
     },
     {

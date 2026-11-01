@@ -19,7 +19,7 @@
       "paragraphs": [
         "Araç, tüm belgenizi tek pürüzsüz geçişte dönüştürür.",
         "PDF'inizi yükleyin ve anında sayfa küçük resimlerinizi alın. Tüm sayfaları mı yoksa bir seçimi mi istediğinizi seçin, kullanımınıza uygun çözünürlüğü seçin ve dönüştürün. Her sayfa, belge sırasına göre numaralandırılmış kendi JPG dosyası olarak indirilir.",
-        "İşleme PDF.js ile yerel olarak gerçekleştiği için sayfaları görüntülemek ve dışa aktarmak hızlıdır ve her JPG'nin kalitesi seçtiğiniz tam orijinal çözünürlüğü yansıtır.",
+        "İşleme pdf-lib ile yerel olarak gerçekleştiği için sayfaları görüntülemek ve dışa aktarmak hızlıdır ve her JPG'nin kalitesi seçtiğiniz tam orijinal çözünürlüğü yansıtır.",
         "Küçük resim şeridiyle sayfa seçimi kolaydır: ihtiyacınız olan sayfalara tıklayın ve tek çalıştırmada geri kalanını atlayın."
       ]
     },

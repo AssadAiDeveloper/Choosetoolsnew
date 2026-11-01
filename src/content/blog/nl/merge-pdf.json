@@ -9,7 +9,7 @@
       "heading": "Waarom u een gratis PDF-samenvoegtool nodig hebt die in uw browser draait",
       "paragraphs": [
         "Het samenvoegen van PDF-bestanden is een van de meest voorkomende documenttaken op kantoor, op school en in freelancewerk. Elke dag moeten miljoenen mensen PDF-documenten combineren: twee facturen naar één bestand scannen, verschillende contractpagina's samenvoegen of een volledig rapport assembleren uit losse hoofdstuk-PDF's. Een betrouwbare [merge-pdf:PDF-samenvoegtool] verandert een frustrerende workflow met meerdere bestanden in één schone klik.",
-        "De meeste online PDF-samenvoegtools beweren gratis te zijn, maar uploaden stilletjes uw privédocumenten naar hun servers, plaatsen watermerken, stellen een maximum aan het aantal pagina's of vragen om een creditcard zodra het samenvoegen klaar is. Dat is precies het probleem dat ChooseTools oplost. Onze gratis online PDF-samenvoegtool draait volledig in uw browser via de PDF.js-engine, zodat uw documenten uw apparaat nooit verlaten en er echt geen limieten zijn.",
+        "De meeste online PDF-samenvoegtools beweren gratis te zijn, maar uploaden stilletjes uw privédocumenten naar hun servers, plaatsen watermerken, stellen een maximum aan het aantal pagina's of vragen om een creditcard zodra het samenvoegen klaar is. Dat is precies het probleem dat ChooseTools oplost. Onze gratis online PDF-samenvoegtool draait volledig in uw browser via de pdf-lib-engine, zodat uw documenten uw apparaat nooit verlaten en er echt geen limieten zijn.",
         "Privacy is hier geen functie; het is de architectuur. Wanneer u uw PDF's naar het dropvak sleept, worden de bestanden lokaal verwerkt door JavaScript. Er wordt niets verzonden, gelogd of gecachet op een server. U krijgt hetzelfde resultaat als dure desktopsoftware, maar zonder installatie, registratie of enig risico op het lekken van gevoelige gegevens."
       ]
     },
@@ -49,7 +49,7 @@
       "heading": "Snelheid en veiligheid: waarom lokale verwerking cloud-samenvoegtools verslaat",
       "paragraphs": [
         "Cloudgebaseerde PDF-samenvoegtools uploaden uw bestanden, verwerken ze op een serverpark en laten u daarna het resultaat downloaden. Elke stap is een faalpunt: de upload kan stagneren, de server kan druk zijn, en het bestand kan volgens hun cachingbeleid maanden op een externe harde schijf blijven liggen.",
-        "Lokale verwerking elimineert dat alles. De pagina's worden gecombineerd in het geheugen van uw browser met behulp van open-source PDF.js, dezelfde rendering-engine die de ingebouwde PDF-viewer van Firefox aanstuurt. Zodra het samenvoegen klaar is, bestaat de uitvoer alleen op uw apparaat.",
+        "Lokale verwerking elimineert dat alles. De pagina's worden gecombineerd in het geheugen van uw browser met behulp van open-source pdf-lib, dezelfde rendering-engine die de ingebouwde PDF-viewer van Firefox aanstuurt. Zodra het samenvoegen klaar is, bestaat de uitvoer alleen op uw apparaat.",
         "Beveiligingsteams en juridische afdelingen eisen steeds vaker dat documenten zoals NDA's, financiële overzichten en patiëntendossiers nooit in aanraking komen met infrastructuren van derden. Een gratis online PDF-samenvoegtool zonder enige netwerkoverdracht is het enige veilige antwoord, en is in de praktijk ook sneller. Uit benchmarks van onze tests blijkt dat samenvoegingen in een fractie van de tijd van op uploads gebaseerde diensten zijn afgerond."
       ]
     },
@@ -64,7 +64,7 @@
     {
       "heading": "Veelgestelde vragen over de gratis PDF-samenvoegtool",
       "paragraphs": [
-        "Kan ik PDF-bestanden op mijn telefoon samenvoegen? Ja — de tool draait in elke moderne browser, waaronder Safari en Chrome op mobiel, dus u kunt PDF's op een telefoon of tablet combineren zonder een app te installeren. Worden mijn bestanden geüpload? Nee. Het hele samenvoegen gebeurt lokaal in uw browser en er worden geen bestandsgegevens naar een server gestuurd. Is er een limiet op bestandsgrootte of aantal bestanden? Er zijn geen harde limieten; u kunt net zo veel documenten toevoegen als uw apparaat tegelijk in het geheugen kan houden. Welke browsers worden ondersteund? Chrome, Edge, Firefox en Safari. Wij raden de nieuwste versies aan voor de beste prestaties met PDF.js.",
+        "Kan ik PDF-bestanden op mijn telefoon samenvoegen? Ja — de tool draait in elke moderne browser, waaronder Safari en Chrome op mobiel, dus u kunt PDF's op een telefoon of tablet combineren zonder een app te installeren. Worden mijn bestanden geüpload? Nee. Het hele samenvoegen gebeurt lokaal in uw browser en er worden geen bestandsgegevens naar een server gestuurd. Is er een limiet op bestandsgrootte of aantal bestanden? Er zijn geen harde limieten; u kunt net zo veel documenten toevoegen als uw apparaat tegelijk in het geheugen kan houden. Welke browsers worden ondersteund? Chrome, Edge, Firefox en Safari. Wij raden de nieuwste versies aan voor de beste prestaties met pdf-lib.",
         "Moet ik software installeren of een account aanmaken? Nee, installatie en account zijn niet nodig — de tool is een single-page-applicatie die direct werkt. Wat gebeurt er met mijn bestanden als ik het tabblad sluit? Ze worden uit het geheugen verwijderd. Er wordt niets opgeslagen, geüpload of geregistreerd, wat het privacy-first ontwerp van de hele suite versterkt."
       ]
     }
@@ -76,7 +76,7 @@
     },
     {
       "q": "Kan ik in één keer een groot aantal PDF-pagina's samenvoegen?",
-      "a": "Ja. Er is geen willekeurige limiet op pagina's of bestanden. De praktische limiet hangt af van het geheugen van uw apparaat, omdat het samenvoegen lokaal met PDF.js gebeurt; zelfs zeer grote documenten worden dus op uw eigen machine verwerkt in plaats van op een gedeelde server."
+      "a": "Ja. Er is geen willekeurige limiet op pagina's of bestanden. De praktische limiet hangt af van het geheugen van uw apparaat, omdat het samenvoegen lokaal met pdf-lib gebeurt; zelfs zeer grote documenten worden dus op uw eigen machine verwerkt in plaats van op een gedeelde server."
     },
     {
       "q": "Blijven de kwaliteit en tekst van samengevoegde PDF's behouden?",

@@ -9,7 +9,7 @@
       "heading": "Wenn das Aufteilen eines PDFs zur täglichen Notwendigkeit wird",
       "paragraphs": [
         "Ein einzelnes PDF bleibt selten für immer ein einzelnes PDF. Sie müssen möglicherweise PDF-Seiten für Ablagesysteme aufteilen, einem Mitarbeiter ein Kapitel schicken, das nur zehn Seiten benötigt, oder ein 300-seitiges Handbuch in installierbare Unterdokumente gliedern. Manuelles Kopieren und Einfügen in Desktop-Editoren ist langsam und fehleranfällig; ein spezielles [split-pdf:Online-PDF-Splitter-Tool] erledigt die Aufgabe in Sekunden.",
-        "Die meisten PDF-Splitter-Tools im Web zwingen Ihr Dokument in ihre Cloud und bewahren dann Kopien für Analysezwecke in ihrem Speicher auf. Das ist ein echtes Problem für Verträge, medizinische Unterlagen und Finanzberichte. ChooseTools baut den Splitter auf PDF.js auf, sodass Ihre Datei vollständig in Ihrem Browser gelesen und aufgeteilt wird. Kein Upload, keine Warteschlange, keine übrig gebliebenen Kopien auf einem Server, den Sie nicht kontrollieren.",
+        "Die meisten PDF-Splitter-Tools im Web zwingen Ihr Dokument in ihre Cloud und bewahren dann Kopien für Analysezwecke in ihrem Speicher auf. Das ist ein echtes Problem für Verträge, medizinische Unterlagen und Finanzberichte. ChooseTools baut den Splitter auf pdf-lib auf, sodass Ihre Datei vollständig in Ihrem Browser gelesen und aufgeteilt wird. Kein Upload, keine Warteschlange, keine übrig gebliebenen Kopien auf einem Server, den Sie nicht kontrollieren.",
         "Da das Tool kostenlos ist und weder Werbung noch Wasserzeichen enthält, kostet das Aufteilen von Hunderten von Seiten nichts und unterbricht Ihren Workflow nie. Die Ausgabedateien sind bytegenaue Ausschnitte des Originals und bewahren Text, Bilder, Links und eingebettete Schriften."
       ]
     },
@@ -40,7 +40,7 @@
     {
       "heading": "Datenschutzorientiertes Aufteilen: Dateien verlassen nie Ihr Gerät",
       "paragraphs": [
-        "Die wichtigste Garantie dieses PDF-Splitters ist, dass Ihr Dokument nie einen Server eines Dritten erreicht. Jede Seite wird mit der Open-Source-Technologie PDF.js im Arbeitsspeicher Ihres Browsers extrahiert.",
+        "Die wichtigste Garantie dieses PDF-Splitters ist, dass Ihr Dokument nie einen Server eines Dritten erreicht. Jede Seite wird mit der Open-Source-Technologie pdf-lib im Arbeitsspeicher Ihres Browsers extrahiert.",
         "Das ist für alle wichtig, die mit regulierten oder vertraulichen Daten arbeiten: Anwaltsteams, die Discovery-Dokumente aufteilen, HR-Abteilungen, die Gehaltsabrechnungen splitten, Buchhalter, die Steuerunterlagen unterteilen. Bei lokaler Verarbeitung findet der Begriff „Datenschutzverletzung“ einfach keine Anwendung, weil es überhaupt keine externen Daten gibt.",
         "Sie erhalten exakt das, was Sie aufteilen: saubere, wasserzeichenfreie PDFs, die in der Qualität identisch mit der Quelle sind. Vergleichen Sie das mit Online-Konkurrenten, deren kostenlose Stufe jedes Ergebnis mit ihrer Marke versieht, sofern Sie nicht abonnieren."
       ]
@@ -64,7 +64,7 @@
     },
     {
       "q": "Ist es sicher, hier vertrauliche PDF-Dokumente aufzuteilen?",
-      "a": "Absolut. Die gesamte Verarbeitung erfolgt lokal in Ihrem Browser mit PDF.js. Ihre Dateien werden auf keinem Server hochgeladen, gespeichert oder analysiert, was das Tool sicher für NDAs sowie medizinische und rechtliche Dokumente macht."
+      "a": "Absolut. Die gesamte Verarbeitung erfolgt lokal in Ihrem Browser mit pdf-lib. Ihre Dateien werden auf keinem Server hochgeladen, gespeichert oder analysiert, was das Tool sicher für NDAs sowie medizinische und rechtliche Dokumente macht."
     }
   ]
 }

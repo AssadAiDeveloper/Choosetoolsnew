@@ -40,7 +40,7 @@
     {
       "heading": "Privacidade, Velocidade e Liberdade de Plataforma",
       "paragraphs": [
-        "A eliminação de páginas envolve acesso profundo à árvore de páginas interna, que é exatamente o tipo de operação que expõe documentos quando executada num servidor remoto. Aqui é executada localmente com PDF.js, pelo que ficheiros confidenciais nunca se deslocam.",
+        "A eliminação de páginas envolve acesso profundo à árvore de páginas interna, que é exatamente o tipo de operação que expõe documentos quando executada num servidor remoto. Aqui é executada localmente com pdf-lib, pelo que ficheiros confidenciais nunca se deslocam.",
         "A qualidade do resultado é preservada com precisão: o texto permanece pesquisável e selecionável, as imagens permanecem nítidas e a transferência é um PDF padrão, universalmente compatível.",
         "Pode eliminar páginas em qualquer dispositivo — Windows, macOS, Linux, tablets e telemóveis — sem instalar nada, o que o torna um companheiro ideal para profissionais que trabalham em várias máquinas."
       ]

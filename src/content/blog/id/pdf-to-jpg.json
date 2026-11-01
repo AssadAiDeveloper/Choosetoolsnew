@@ -19,7 +19,7 @@
       "paragraphs": [
         "Alat mengonversi seluruh dokumen Anda dalam satu langkah yang mulus.",
         "Unggah PDF Anda dan langsung dapatkan thumbnail halaman. Pilih apakah Anda menginginkan setiap halaman atau pilihan, tentukan resolusi yang sesuai dengan kebutuhan Anda, dan konversi. Setiap halaman diunduh sebagai file JPG sendiri, dinomori sesuai urutan dokumen.",
-        "Karena rendering terjadi secara lokal dengan PDF.js, melihat halaman dan mengekspornya cepat, dan kualitas setiap JPG mencerminkan resolusi asli penuh yang Anda pilih.",
+        "Karena rendering terjadi secara lokal dengan pdf-lib, melihat halaman dan mengekspornya cepat, dan kualitas setiap JPG mencerminkan resolusi asli penuh yang Anda pilih.",
         "Pemilihan halaman nyaman dengan jalur thumbnail: klik halaman yang Anda butuhkan dan lewati sisanya dalam satu langkah."
       ]
     },

@@ -45,7 +45,7 @@
       "heading": "Vollständige Privatsphäre durch lokale Verarbeitung",
       "paragraphs": [
         "Ein Extraktor braucht tiefen Zugriff auf die Interna Ihres Dokuments; erfolgt das aus der Ferne, überquert Ihre vollständige Datei das Netzwerk, obwohl Sie nur vier Seiten zurückwollten. ChooseTools hält die gesamte Operation auf Ihrer Maschine.",
-        "Der PDF.js-Renderer parst den Seitenbaum lokal, kopiert die gewählten Seitenobjekte und schreibt das neue Dokument, ohne die Quelldatei je zu übertragen. Für NDAs, medizinische Daten und Kundenarbeiten ist das das einzig akzeptable Modell.",
+        "Der pdf-lib-Renderer parst den Seitenbaum lokal, kopiert die gewählten Seitenobjekte und schreibt das neue Dokument, ohne die Quelldatei je zu übertragen. Für NDAs, medizinische Daten und Kundenarbeiten ist das das einzig akzeptable Modell.",
         "Kombinieren Sie das mit dem Fehlen von Registrierung und Wasserzeichen, und die Extraktion wird zu einem routinemäßigen, risikofreien Bestandteil Ihrer täglichen Dokument-Pipeline unter Windows, macOS oder in mobilen Browsern.",
         "Da die Quelle niemals reist, können Sie das Original an Ort und Stelle behalten und die Auswahl so oft wie nötig mit absoluter Zuversicht wiederholen."
       ]

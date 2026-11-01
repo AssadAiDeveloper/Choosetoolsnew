@@ -9,7 +9,7 @@
       "heading": "Mengapa Anda Butuh Penggabung PDF Gratis yang Berjalan di Browser",
       "paragraphs": [
         "Menggabungkan file PDF adalah salah satu tugas dokumen paling umum di kantor, sekolah, dan pekerjaan freelance. Setiap hari jutaan orang perlu menggabungkan dokumen PDF: memindai dua faktur menjadi satu file, menggabungkan beberapa halaman kontrak, atau menyusun laporan lengkap dari PDF bab-bab terpisah. Alat [merge-pdf:gabungkan PDF] yang andal mengubah alur kerja multi-file yang menjengkelkan menjadi satu klik yang bersih.",
-        "Sebagian besar penggabung PDF online mengklaim gratis, tetapi secara diam-diam mengunggah dokumen pribadi Anda ke server mereka, menerapkan watermark, membatasi jumlah halaman, atau meminta kartu kredit saat penggabungan selesai. Itulah masalah yang diselesaikan oleh ChooseTools. Alat gabungkan PDF online gratis kami berjalan sepenuhnya di browser Anda menggunakan mesin PDF.js, sehingga dokumen Anda tidak pernah meninggalkan perangkat dan benar-benar tanpa batas.",
+        "Sebagian besar penggabung PDF online mengklaim gratis, tetapi secara diam-diam mengunggah dokumen pribadi Anda ke server mereka, menerapkan watermark, membatasi jumlah halaman, atau meminta kartu kredit saat penggabungan selesai. Itulah masalah yang diselesaikan oleh ChooseTools. Alat gabungkan PDF online gratis kami berjalan sepenuhnya di browser Anda menggunakan mesin pdf-lib, sehingga dokumen Anda tidak pernah meninggalkan perangkat dan benar-benar tanpa batas.",
         "Privasi bukan sekadar fitur di sini; ini adalah arsitektur. Saat Anda menyeret PDF ke zona lepas, file diproses secara lokal oleh JavaScript. Tidak ada yang dikirim, dicatat, atau di-cache di server mana pun. Anda mendapatkan hasil yang sama dengan perangkat lunak desktop mahal, tetapi tanpa instalasi, registrasi, atau risiko kebocoran data sensitif."
       ]
     },
@@ -49,7 +49,7 @@
       "heading": "Kecepatan dan Keamanan: Mengapa Pemrosesan Lokal Mengalahkan Penggabung Cloud",
       "paragraphs": [
         "Penggabung PDF berbasis cloud mengunggah file Anda, memprosesnya di server farm, lalu membuat Anda mengunduh hasilnya. Setiap langkah adalah titik kegagalan: unggahan bisa macet, server bisa sibuk, dan file bisa berada di hard drive pihak ketiga selama berbulan-bulan sesuai kebijakan caching mereka.",
-        "Pemrosesan lokal menghilangkan semua itu. Halaman digabungkan di memori browser Anda menggunakan PDF.js sumber terbuka, mesin rendering yang sama yang menjalankan penampil PDF bawaan Firefox. Saat penggabungan selesai, output hanya ada di perangkat Anda.",
+        "Pemrosesan lokal menghilangkan semua itu. Halaman digabungkan di memori browser Anda menggunakan pdf-lib sumber terbuka, mesin rendering yang sama yang menjalankan penampil PDF bawaan Firefox. Saat penggabungan selesai, output hanya ada di perangkat Anda.",
         "Tim keamanan dan departemen hukum semakin mengharuskan dokumen seperti NDA, laporan keuangan, dan rekam medis tidak pernah menyentuh infrastruktur pihak ketiga. Alat gabungkan PDF online gratis dengan nol transfer jaringan adalah satu-satunya jawaban yang aman, dan juga lebih cepat dalam praktik. Benchmarks dari pengujian kami menunjukkan penggabungan selesai dalam sebagian kecil waktu layanan berbasis unggahan."
       ]
     },
@@ -64,7 +64,7 @@
     {
       "heading": "Pertanyaan Umum tentang Penggabung PDF Gratis",
       "paragraphs": [
-        "Bisakah saya menggabungkan file PDF di ponsel saya? Ya — alat berjalan di browser modern apa pun, termasuk Safari dan Chrome di seluler, sehingga Anda dapat menggabungkan PDF di ponsel atau tablet tanpa menginstal aplikasi. Apakah file saya akan diunggah? Tidak. Seluruh penggabungan terjadi secara lokal di browser Anda, dan tidak ada data file yang dikirim ke server mana pun. Apakah ada batas ukuran file atau jumlah file? Tidak ada batas keras; Anda dapat menambahkan dokumen sebanyak yang dapat ditampung perangkat Anda dalam memori sekaligus. Browser mana yang didukung? Chrome, Edge, Firefox, dan Safari. Kami merekomendasikan versi terbaru untuk performa terbaik dengan PDF.js.",
+        "Bisakah saya menggabungkan file PDF di ponsel saya? Ya — alat berjalan di browser modern apa pun, termasuk Safari dan Chrome di seluler, sehingga Anda dapat menggabungkan PDF di ponsel atau tablet tanpa menginstal aplikasi. Apakah file saya akan diunggah? Tidak. Seluruh penggabungan terjadi secara lokal di browser Anda, dan tidak ada data file yang dikirim ke server mana pun. Apakah ada batas ukuran file atau jumlah file? Tidak ada batas keras; Anda dapat menambahkan dokumen sebanyak yang dapat ditampung perangkat Anda dalam memori sekaligus. Browser mana yang didukung? Chrome, Edge, Firefox, dan Safari. Kami merekomendasikan versi terbaru untuk performa terbaik dengan pdf-lib.",
         "Apakah saya perlu menginstal perangkat lunak atau membuat akun? Tidak perlu instalasi dan tidak perlu akun — alat ini adalah aplikasi halaman tunggal yang langsung berfungsi. Apa yang terjadi pada file saya saat saya menutup tab? File-file itu dibuang dari memori. Tidak ada yang disimpan, diunggah, atau dilacak, yang memperkuat desain berbasis privasi dari seluruh suite."
       ]
     }
@@ -76,7 +76,7 @@
     },
     {
       "q": "Bisakah saya menggabungkan sejumlah besar halaman PDF sekaligus?",
-      "a": "Ya. Tidak ada batasan sewenang-wenang untuk halaman atau file. Batas praktis tergantung pada memori perangkat Anda, karena penggabungan terjadi secara lokal menggunakan PDF.js, yang berarti bahkan dokumen yang sangat besar ditangani di mesin Anda alih-alih di server bersama."
+      "a": "Ya. Tidak ada batasan sewenang-wenang untuk halaman atau file. Batas praktis tergantung pada memori perangkat Anda, karena penggabungan terjadi secara lokal menggunakan pdf-lib, yang berarti bahkan dokumen yang sangat besar ditangani di mesin Anda alih-alih di server bersama."
     },
     {
       "q": "Apakah PDF yang digabungkan mempertahankan kualitas dan teks aslinya?",

@@ -40,7 +40,7 @@
     {
       "heading": "Privasi, Kecepatan, dan Kebebasan Platform",
       "paragraphs": [
-        "Penghapusan halaman melibatkan akses mendalam ke pohon halaman internal, yang merupakan jenis operasi yang mengekspos dokumen saat dilakukan di server jarak jauh. Di sini dilakukan secara lokal dengan PDF.js, sehingga file rahasia tidak pernah bepergian.",
+        "Penghapusan halaman melibatkan akses mendalam ke pohon halaman internal, yang merupakan jenis operasi yang mengekspos dokumen saat dilakukan di server jarak jauh. Di sini dilakukan secara lokal dengan pdf-lib, sehingga file rahasia tidak pernah bepergian.",
         "Kualitas output dipertahankan secara presisi: teks tetap dapat dicari dan dipilih, gambar tetap tajam, dan unduhan adalah PDF standar yang universal kompatibel.",
         "Anda dapat menghapus halaman di perangkat apa pun — Windows, macOS, Linux, tablet, dan ponsel — tanpa menginstal apa pun, menjadikannya pendamping ideal bagi profesional yang bekerja di berbagai mesin."
       ]

@@ -9,7 +9,7 @@
       "heading": "Why You Need a Free PDF Merger That Runs in Your Browser",
       "paragraphs": [
         "Merging PDF files is one of the most common document tasks in offices, schools and freelance work. Every day millions of people need to combine PDF documents: scanning two invoices into one file, joining several contract pages, or assembling a complete report from separate chapter PDFs. A reliable [merge-pdf:Merge PDF tool] turns a frustrating multi-file workflow into one clean click.",
-        "Most online PDF mergers claim to be free, but they quietly upload your private documents to their servers, apply watermarks, cap the number of pages, or demand a credit card the moment your merge finishes. That is exactly the problem ChooseTools solves. Our merge PDF online free tool runs entirely inside your browser using the PDF.js engine, so your documents never leave your device and there are genuinely no limits.",
+        "Most online PDF mergers claim to be free, but they quietly upload your private documents to their servers, apply watermarks, cap the number of pages, or demand a credit card the moment your merge finishes. That is exactly the problem ChooseTools solves. Our merge PDF online free tool runs entirely inside your browser using the pdf-lib engine, so your documents never leave your device and there are genuinely no limits.",
         "Privacy is not a feature here; it is the architecture. When you drag your PDFs onto the drop zone, the files are processed locally by JavaScript. Nothing is transmitted, logged or cached on any server. You get the same result as expensive desktop software, but without installation, registration or any risk of leaking sensitive data."
       ]
     },
@@ -40,7 +40,7 @@
     {
       "heading": "Merge PDF Without Watermarks or Registration — for Free",
       "paragraphs": [
-        "Watermarks are the silent tax that many freemium mergers add to your output. Your final document arrives stamped with a promotional logo unless you pay. ChooseTools adds no watermarks of any kind, no promotional pages and no hidden contact sheets. What you merge is exactly what you download, byte for byte.",
+        "Watermarks are the silent tax that many freemium mergers add to your output. Your final document arrives stamped with a promotional logo unless you pay. ChooseTools adds no watermarks of any kind, no promotional pages and no hidden contact sheets. What you merge is exactly what you download.",
         "Registration is another barrier that disappears here. There is no account, no email address and no cookie wall between you and a finished file. This matters for privacy-conscious users who do not want a document-utility provider building a profile of their work from their file names.",
         "If you are evaluating how to merge PDF free of charge for a business, the math is simple: no subscription, no per-seat license, no training needed. The tool is free for everyone, forever, and works identically on Windows, macOS, Linux, Android tablets, and iPads via the browser."
       ]
@@ -49,22 +49,22 @@
       "heading": "Speed and Security: Why Local Processing Beats Cloud Mergers",
       "paragraphs": [
         "Cloud-based PDF mergers upload your files, process them on a farm of servers, then make you download the result. Each step is a point of failure: the upload can stall, the server can be busy, and the file can sit on a third-party hard drive for months in their caching policy.",
-        "Local processing eliminates all of that. The pages are combined in your browser's memory using open-source PDF.js, the same rendering engine that powers Firefox's built-in PDF viewer. The moment the merge finishes, the output exists only on your device.",
-        "Security teams and legal departments increasingly require that documents such as NDAs, financial statements and patient records never touch third-party infrastructure. A merge PDF online free tool with zero network transfer is the only safe answer, and it is also faster in practice. Benchmarks from our tests show merges complete in a fraction of the time of upload-based services."
+        "Local processing eliminates all of that. The pages are combined in your browser's memory using open-source pdf-lib, a PDF library that runs locally in your browser. The moment the merge finishes, the output exists only on your device.",
+        "Security teams and legal departments increasingly require that documents such as NDAs, financial statements and patient records never touch third-party infrastructure. A merge PDF online free tool with zero network transfer is the only safe answer, and it is also faster in practice. Merges run locally, so there is no upload or download wait."
       ]
     },
     {
       "heading": "When to Pair the Merger with Other PDF Tools",
       "paragraphs": [
         "A merge is rarely the last step in a document workflow. Pairs well with the rest of the suite to produce a polished final file.",
-        "Compress the merged output before emailing it if your combined file is large, or if you are attaching it to a client portal that limits size — the [compress-pdf:PDF compression] tool keeps quality high while shrinking size. Protect confidential merges with [protect-pdf:PDF encryption] so that only intended recipients can open them, and remove private metadata with the [pdf-metadata:PDF metadata] editor before distribution.",
+        "Compress the merged output before emailing it if your combined file is large, or if you are attaching it to a client portal that limits size — the [compress-pdf:PDF compression] tool keeps quality high while shrinking size. Protect confidential merges with [protect-pdf:Remove PDF Password] so that only intended recipients can open them, and remove private metadata with the [pdf-metadata:PDF metadata] editor before distribution.",
         "For presentations, merging several slide decks then converting the result with [pdf-to-jpg:PDF to JPG] gives you a rapid way to turn slides into sharable images. The full suite is designed around these combinations, so all tools share the same privacy-first, upload-free architecture."
       ]
     },
     {
       "heading": "Common Questions About the Free PDF Merger",
       "paragraphs": [
-        "Can I merge PDF files on my phone? Yes — the tool runs in any modern browser, including Safari and Chrome on mobile, so you can combine PDFs on a phone or tablet without installing an app. Will my files be uploaded? No. The entire merge happens locally in your browser, and no file data is sent to any server. Is there a limit on file size or number of files? There are no hard limits; you can add as many documents as your device can hold in memory at once. Which browsers are supported? Chrome, Edge, Firefox and Safari. We recommend the latest versions for the best performance with PDF.js.",
+        "Can I merge PDF files on my phone? Yes — the tool runs in any modern browser, including Safari and Chrome on mobile, so you can combine PDFs on a phone or tablet without installing an app. Will my files be uploaded? No. The entire merge happens locally in your browser, and no file data is sent to any server. Is there a limit on file size or number of files? There are no hard limits; you can add as many documents as your device can hold in memory at once. Which browsers are supported? Chrome, Edge, Firefox and Safari. We recommend the latest versions for the best performance with pdf-lib.",
         "Do I need to install software or create an account? No installation and no account are required — the tool is a single-page application that works immediately. What happens to my files when I close the tab? They are discarded from memory. Nothing is saved, uploaded or traced, which reinforces the privacy-first design of the entire suite."
       ]
     }
@@ -76,7 +76,7 @@
     },
     {
       "q": "Can I merge a large number of PDF pages at once?",
-      "a": "Yes. There is no arbitrary page or file cap. The practical limit depends on your device's memory, because the merge happens locally using PDF.js, which means even very large documents are handled on your machine rather than on a shared server."
+      "a": "Yes. There is no arbitrary page or file cap. The practical limit depends on your device's memory, because the merge happens locally using pdf-lib, which means even very large documents are handled on your machine rather than on a shared server."
     },
     {
       "q": "Do merged PDFs keep their original quality and text?",

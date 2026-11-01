@@ -40,7 +40,7 @@
     {
       "heading": "Privatsphäre, Geschwindigkeit und Plattformfreiheit",
       "paragraphs": [
-        "Das Löschen von Seiten erfordert tiefen Zugriff auf den internen Seitenbaum — genau die Art von Operation, die Dokumente offenlegt, wenn sie auf einem Remote-Server ausgeführt wird. Hier geschieht sie lokal mit PDF.js, sodass vertrauliche Dokumente niemals transportiert werden.",
+        "Das Löschen von Seiten erfordert tiefen Zugriff auf den internen Seitenbaum — genau die Art von Operation, die Dokumente offenlegt, wenn sie auf einem Remote-Server ausgeführt wird. Hier geschieht sie lokal mit pdf-lib, sodass vertrauliche Dokumente niemals transportiert werden.",
         "Die Ausgabequalität wird präzise beibehalten: Text bleibt durchsuchbar und auswählbar, Bilder bleiben scharf, und der Download ist ein standardkonformes, universell kompatibles PDF.",
         "Sie können Seiten auf jedem Gerät löschen — Windows, macOS, Linux, Tablets und Smartphones — ohne etwas zu installieren, was es ideal für Fachleute macht, die mit mehreren Geräten arbeiten."
       ]

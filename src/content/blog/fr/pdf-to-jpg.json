@@ -19,7 +19,7 @@
       "paragraphs": [
         "L'outil convertit tout votre document en une seule passe fluide.",
         "Téléversez votre PDF et obtenez instantanément des miniatures de pages. Choisissez si vous voulez toutes les pages ou une sélection, choisissez la résolution adaptée à votre usage, et convertissez. Chaque page se télécharge en tant que fichier JPG séparé, numéroté dans l'ordre du document.",
-        "Comme le rendu se produit localement avec PDF.js, la visualisation et l'exportation des pages sont rapides, et la qualité de chaque JPG reflète la résolution complète d'origine que vous sélectionnez.",
+        "Comme le rendu se produit localement avec pdf-lib, la visualisation et l'exportation des pages sont rapides, et la qualité de chaque JPG reflète la résolution complète d'origine que vous sélectionnez.",
         "La sélection de pages est pratique avec la bande de miniatures : cliquez sur les pages dont vous avez besoin et passez le reste en une seule opération."
       ]
     },

@@ -10,7 +10,7 @@
       "paragraphs": [
         "Yana dönmüş çıkan taranmış bir sözleşme, yanlış yönle PDF'e aktarılmış bir mobil fotoğraf, ters görünen indirilmiş bir fatura — her ofis çalışanı [rotate-pdf:PDF sayfalarını döndürme] düzeltmesi gerektiren bir PDF almıştır. Sayfa içeriği mükemmeldir; yalnızca yönelim yanlıştır.",
         "Tescilli düzenleyiciler bu görevi karmaşık gösterir, ancak yönelim bir PDF'in en basit özelliklerinden biridir. Yalnızca, sayfadaki gerçek çizimlere, metne veya görsellere dokunmadan sayfanın dönüş matrisini ayarlayan güvenilir bir çevrimiçi ücretsiz PDF döndürme aracına ihtiyacınız vardır.",
-        "ChooseTools, PDF'inizi tarayıcıda PDF.js işlemesiyle döndürür. Dosyayı bırakın, bir döndürme düğmesine tıklayın ve her sayfa, kaydetmeden önce önizlemede güncellenir — yükleme olmadan ve kalite kaybı olmadan."
+        "ChooseTools, PDF'inizi tarayıcıda pdf-lib işlemesiyle döndürür. Dosyayı bırakın, bir döndürme düğmesine tıklayın ve her sayfa, kaydetmeden önce önizlemede güncellenir — yükleme olmadan ve kalite kaybı olmadan."
       ]
     },
     {

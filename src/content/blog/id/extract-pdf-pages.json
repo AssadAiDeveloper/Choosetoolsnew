@@ -45,7 +45,7 @@
       "heading": "Privasi Penuh melalui Pemrosesan Lokal",
       "paragraphs": [
         "Ekstraktor membutuhkan akses mendalam ke internal dokumen Anda; melakukan itu dari jarak jauh berarti file lengkap Anda melintasi jaringan meskipun Anda hanya menginginkan empat halaman. ChooseTools menjaga seluruh operasi di mesin Anda.",
-        "Renderer PDF.js mem-parse pohon halaman secara lokal, menyalin objek halaman yang dipilih, dan menulis dokumen baru tanpa pernah mengirim file sumber. Untuk NDA, data medis, dan pekerjaan klien, itu adalah satu-satunya model yang dapat diterima.",
+        "Renderer pdf-lib mem-parse pohon halaman secara lokal, menyalin objek halaman yang dipilih, dan menulis dokumen baru tanpa pernah mengirim file sumber. Untuk NDA, data medis, dan pekerjaan klien, itu adalah satu-satunya model yang dapat diterima.",
         "Kombinasikan dengan tanpa registrasi dan tanpa watermark, dan ekstraksi menjadi bagian rutin dari alur kerja dokumen harian Anda yang tanpa risiko di Windows, macOS, atau browser seluler.",
         "Karena sumber tidak pernah bepergian, Anda dapat mempertahankan yang asli di tempatnya dan mengulang pilihan sesering yang diperlukan dengan percaya diri penuh."
       ]
