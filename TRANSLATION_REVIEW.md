@@ -359,3 +359,17 @@ for that fix.
 same word in the target language as in English, so they are listed in the
 `SAME_BY_DESIGN` allowlist of `scripts/check-translations.mjs` rather than
 being force-translated.
+
+## T9 — SEO metadata
+
+English only. 95 tool/category descriptions in `messages/en.json` were enriched to
+120–155 characters (stating the benefit plus "in your browser, no upload"). No
+non-English string was changed: other locales keep their existing translations
+and are listed as needing native drafts in `SEO_REPORT.md`. No machine-drafted
+translations were added for T9, so there are no rows to review here.
+
+Code changes (no translation impact):
+- Removed the `keywords` meta tag from blog pages.
+- Added `BreadcrumbList` JSON-LD to tool category pages (blog pages already had
+  `Article` and `BreadcrumbList`).
+- Added `scripts/seo-report.mjs` (`npm run seo:report`) producing `SEO_REPORT.md`.

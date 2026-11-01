@@ -9,7 +9,9 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "test": "node scripts/test.mjs",
-    "check:mojibake": "node scripts/check-mojibake.mjs"
+    "check:mojibake": "node scripts/check-mojibake.mjs",
+    "check:translations": "node scripts/check-translations.mjs",
+    "seo:report": "node scripts/seo-report.mjs"
   },
   "keywords": [],
   "author": "",
