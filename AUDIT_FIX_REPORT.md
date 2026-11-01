@@ -162,3 +162,15 @@ Sections appended: T2 (4 keys × 11), T5 (47 rows + blog follow-up), T6 (4 keys 
 - `npm run check:mojibake`: passed (1111 JSON files).
 - `npm run check:translations`: passed (10 locales).
 - `npm run seo:report`: wrote SEO_REPORT.md.
+
+## Verification with real tools (T2, T5)
+
+- Installed `qpdf 12.4.2` (winget) and `poppler 25.07.0` (pdftotext, winget). Node v20.20.2 cannot run pdfjs (needs Node >=22), so the raster-unlock path is "Not verified" in Node; the browser path is unchanged.
+- T2 fixtures (`qpdf --show-encryption`):
+  - plain.pdf: "File is not encrypted".
+  - user-pass.pdf (AES-256, password "user"): "Incorrect password supplied" (encrypted).
+  - owner-only.pdf (AES-128, empty user password): opens with empty password (owner-only).
+  - `hasEncryptDictionary`: plain=false, user-pass=true, owner-only=true.
+  - Unlocked plain output (pdf-lib re-save): `qpdf --show-encryption` → "File is not encrypted".
+  - Encrypted inputs return failure (reason "encrypted") — never reported as success. Verified by test-protect-pdf.mjs.
+- T5: pdftotext on a raster-image PDF (analogous to CvBuilder's embedPng output) yields only a form feed (1 byte) — i.e. no extractable text. CV Builder still uses raster PNG embedding (option 2 not attempted). Claims rephrased to factual raster-PDF copy.
