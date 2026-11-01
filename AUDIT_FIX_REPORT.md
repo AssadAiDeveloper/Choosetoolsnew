@@ -220,3 +220,10 @@ Sections appended: T2 (4 keys × 11), T5 (47 rows + blog follow-up), T6 (4 keys 
 - Watermark: default opacity 0 (OFF); when enabled, rotated -0.35 rad, drawn once, centered; text drawn on top.
 - Divider: spans text column only (fixed in 996470c, retained).
 - Not verified: browser download not reproducible in this env (no Playwright/puppeteer main entry). QA to verify with inputs: "محمد عبد الله الأحمد الغامدي", title "مهندس برمجيات أول ومدير مشاريع", company "شركة الأفق للتقنية والحلول الرقمية", no. EMP-20481, hire 2024-03-15, no photo/logo. Expected: name>=50px, title>=38px, labels>=26px, company>=50px, divider only in text column, no ghost text.
+
+## Phase 3b (follow-up 2) — Root cause: drawFittedText did not apply ctx.font
+- QA found: fitText sets ctx.font but ends with ctx.restore(), resetting to default "10px sans-serif"; drawFittedText saved/restored but never re-applied ctx.font. Every fillText ran at 10px.
+- Fix: in drawFittedText (src/lib/canvasText.mjs), after ctx.save() set ctx.font = `${opts.weight ?? "400"} ${fitted.fontSize}px ${opts.family ?? "Arial, sans-serif"}`.
+- Regression test: scripts/test-canvas-font.mjs — uses a recording mock ctx whose restore() actually restores the saved font. Asserts recorded font at fillText equals fitted size (not "10px sans-serif"). Fails on old code (3 failures), passes after fix. Runs against real idCardTextItems and certificateLayout. Wired into npm test.
+- Size thresholds (minSize) retained: name 50px, title 38px, company 50px, labels 26px, values 26px.
+- Visual verification: Not verified (no browser in env). QA to measure in real download.
