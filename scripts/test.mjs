@@ -13,6 +13,7 @@ const CHECKS = [
   "check-mojibake.mjs",
   "test-protect-pdf.mjs",
   "test-canvas-text.mjs",
+  "test-invoice.mjs",
   "check-links.mjs",
 ];
 

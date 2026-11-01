@@ -948,12 +948,12 @@
     },
     "invoice-generator": {
       "name": "Rechnung erstellen",
-      "desc": "Eine professionelle Rechnung mit Ihrem Logo, Steuern und jeder Währung erstellen.",
-      "long": "Füllen Sie Ihre Unternehmens- und Kundendaten aus, fügen Sie Positionen hinzu und laden Sie eine hochwertige PDF-Rechnung herunter — vollständig auf Ihrem Gerät erzeugt. Da arabischer Text eine korrekte Buchstabenformung benötigt, die PDF-Schriften nicht direkt leisten können, wird die Rechnung zuerst pixelgenau in Ihrem Browser gerendert und dann als PDF-Seite gespeichert.",
+      "desc": "Eine professionelle Rechnung mit Ihrem Logo, Steuern und 27 gängigen Währungen erstellen.",
+      "long": "Füllen Sie Ihre Unternehmens- und Kundendaten aus, fügen Sie Positionen hinzu und drucken Sie die Rechnung oder speichern Sie sie direkt aus dem Browser als PDF — alles wird auf Ihrem Gerät erzeugt. Das Layout ist druckfertig in A4, und da der Browser echten Text druckt, bleibt die gespeicherte PDF auswählbar und durchsuchbar.",
       "faq1q": "Ist der Rechnungstext in der PDF auswählbar?",
-      "faq1a": "Nein — um arabischen, englischen und spanischen Text korrekt und konsistent darzustellen, wird die Rechnung als gestochen scharfes Bild gezeichnet und in die PDF-Seite eingebettet. Sie lässt sich perfekt drucken und anzeigen, aber der Text selbst ist nicht auswählbar.",
+      "faq1a": "Ja. Die Rechnung ist eine normale Webseite, die Ihr Browser als PDF druckt; der Text bleibt daher auswählbar und durchsuchbar. Arabisch, Englisch und Spanisch werden korrekt dargestellt, auch von rechts nach links verlaufender Text.",
       "faq2q": "Kann ich mein eigenes Logo und meine Währung verwenden?",
-      "faq2a": "Ja — laden Sie ein PNG- oder JPG-Logo hoch und wählen Sie aus gängigen Währungen (USD, EUR, SAR, AED, EGP, GBP). Steuerprozentsatz und Summen werden automatisch berechnet."
+      "faq2a": "Ja — laden Sie ein PNG- oder JPG-Logo hoch und wählen Sie aus 27 Währungen, darunter USD, EUR, GBP, SAR, AED, EGP, INR und JPY. Steuerprozentsatz und Summen werden automatisch berechnet."
     },
     "cv-builder": {
       "name": "Lebenslauf-Ersteller",

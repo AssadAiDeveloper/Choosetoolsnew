@@ -948,12 +948,12 @@
     },
     "invoice-generator": {
       "name": "Créer une facture",
-      "desc": "Créez une facture professionnelle avec votre logo, la taxe et n'importe quelle devise.",
-      "long": "Renseignez les coordonnées de votre entreprise et de votre client, ajoutez des lignes d'articles, et téléchargez une facture PDF soignée — générée entièrement sur votre appareil. Comme le texte arabe nécessite une mise en forme correcte des lettres que les polices PDF ne peuvent pas faire directement, la facture est d'abord rendue pixel parfait dans votre navigateur, puis enregistrée en page PDF.",
+      "desc": "Créez une facture professionnelle avec votre logo, la taxe et 27 devises courantes.",
+      "long": "Renseignez les coordonnées de votre entreprise et de votre client, ajoutez des lignes d'articles, puis imprimez la facture ou enregistrez-la en PDF directement depuis votre navigateur — tout est généré sur votre appareil. La mise en page est prête à imprimer en A4 et, comme le navigateur imprime du vrai texte, le PDF enregistré reste sélectionnable et consultable par recherche.",
       "faq1q": "Le texte de la facture est-il sélectionnable dans le PDF ?",
-      "faq1a": "Non — pour rendre le texte arabe, anglais et espagnol correctement et de façon cohérente, la facture est dessinée en image nette et intégrée dans la page PDF. Elle s'imprime et s'affiche parfaitement, mais le texte lui-même n'est pas sélectionnable.",
+      "faq1a": "Oui. La facture est une page web classique que votre navigateur imprime en PDF : le texte reste donc sélectionnable et consultable par recherche. L'arabe, l'anglais et l'espagnol s'affichent correctement, y compris le texte de droite à gauche.",
       "faq2q": "Puis-je utiliser mon propre logo et ma propre devise ?",
-      "faq2a": "Oui — téléversez un logo PNG ou JPG et choisissez parmi les devises courantes (USD, EUR, SAR, AED, EGP, GBP). Le pourcentage de taxe et les totaux sont calculés automatiquement."
+      "faq2a": "Oui — téléversez un logo PNG ou JPG et choisissez parmi 27 devises, dont USD, EUR, GBP, SAR, AED, EGP, INR et JPY. Le pourcentage de taxe et les totaux sont calculés automatiquement."
     },
     "cv-builder": {
       "name": "Créateur de CV",

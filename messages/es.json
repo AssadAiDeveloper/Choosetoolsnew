@@ -948,12 +948,12 @@
     },
     "invoice-generator": {
       "name": "Generador de facturas",
-      "desc": "Crea una factura profesional con tu logo, impuesto y cualquier moneda.",
-      "long": "Completa los datos de tu empresa y cliente, añade conceptos, y descarga una factura PDF pulida — generada íntegramente en tu dispositivo. Como el árabe necesita un trazado correcto de letras que las fuentes de PDF no pueden hacer directamente, la factura se dibuja primero con nitidez en tu navegador y luego se guarda como página PDF.",
+      "desc": "Crea una factura profesional con tu logo, impuesto y 27 monedas habituales.",
+      "long": "Completa los datos de tu empresa y cliente, añade conceptos y luego imprime la factura o guárdala como PDF directamente desde tu navegador: todo se genera en tu dispositivo. El diseño está listo para imprimir en A4 y, como el navegador imprime texto real, el PDF guardado sigue siendo seleccionable y buscable.",
       "faq1q": "¿El texto de la factura es seleccionable en el PDF?",
-      "faq1a": "No — para mostrar árabe, inglés y español de forma correcta y consistente, la factura se dibuja como una imagen nítida y se incrusta en la página PDF. Se ve e imprime perfectamente, pero el texto no es seleccionable.",
+      "faq1a": "Sí. La factura es una página web normal que tu navegador imprime a PDF, así que el texto sigue siendo seleccionable y buscable. El árabe, el inglés y el español se muestran correctamente, incluido el texto de derecha a izquierda.",
       "faq2q": "¿Puedo usar mi propio logo y moneda?",
-      "faq2a": "Sí — sube un logo PNG o JPG y elige entre monedas comunes (USD, EUR, SAR, AED, EGP, GBP). El porcentaje de impuesto y los totales se calculan automáticamente."
+      "faq2a": "Sí: sube un logo PNG o JPG y elige entre 27 monedas, como USD, EUR, GBP, SAR, AED, EGP, INR y JPY. El porcentaje de impuesto y los totales se calculan automáticamente."
     },
     "cv-builder": {
       "name": "Creador de currículum",

@@ -948,12 +948,12 @@
     },
     "invoice-generator": {
       "name": "Factuur maken",
-      "desc": "Maak een professionele factuur met je logo, btw en elke valuta.",
-      "long": "Vul je bedrijfs- en klantgegevens in, voeg regels toe en download een verzorgde PDF-factuur — volledig gegenereerd op je apparaat. Omdat Arabische tekst een correcte lettervormgeving vereist die PDF-lettertypen niet direct kunnen, wordt de factuur eerst pixelperfect in je browser weergegeven en daarna opgeslagen als PDF-pagina.",
+      "desc": "Maak een professionele factuur met je logo, btw en 27 gangbare valuta's.",
+      "long": "Vul je bedrijfs- en klantgegevens in, voeg regels toe en print de factuur of sla hem direct vanuit je browser op als PDF — alles wordt op je apparaat gegenereerd. De opmaak is A4-klaar om te printen en omdat de browser echte tekst print, blijft de opgeslagen PDF selecteerbaar en doorzoekbaar.",
       "faq1q": "Is de factuurtekst selecteerbaar in de PDF?",
-      "faq1a": "Nee — om Arabische, Engelse en Spaanse tekst correct en consistent weer te geven, wordt de factuur als scherpe afbeelding getekend en ingebed in de PDF-pagina. Het print en toont perfect, maar de tekst zelf is niet selecteerbaar.",
+      "faq1a": "Ja. De factuur is een gewone webpagina die je browser naar PDF print, dus de tekst blijft selecteerbaar en doorzoekbaar. Arabisch, Engels en Spaans worden correct weergegeven, ook tekst van rechts naar links.",
       "faq2q": "Kan ik mijn eigen logo en valuta gebruiken?",
-      "faq2a": "Ja — upload een PNG- of JPG-logo en kies uit gangbare valuta's (USD, EUR, SAR, AED, EGP, GBP). Het belastingpercentage en de totalen worden automatisch berekend."
+      "faq2a": "Ja — upload een PNG- of JPG-logo en kies uit 27 valuta's, waaronder USD, EUR, GBP, SAR, AED, EGP, INR en JPY. Het belastingpercentage en de totalen worden automatisch berekend."
     },
     "cv-builder": {
       "name": "CV-maker",

@@ -79,7 +79,7 @@ export default function InvoiceGenerator() {
           clientName: "اسم العميل", contactPerson: "الشخص المسؤول", clientAddress: "عنوان العميل", clientEmail: "بريد العميل", clientPhone: "هاتف العميل", clientVat: "الرقم الضريبي للعميل", clientCode: "رمز العميل",
           description: "الوصف", qty: "الكمية", rate: "سعر الوحدة", taxPct: "الضريبة٪", total: "الإجمالي", addItem: "إضافة بند", discountPercent: "الخصم ٪", shippingExtras: "الشحن / إضافات",
           notesAndTerms: "ملاحظات وشروط الدفع", paymentDetails: "تفاصيل الدفع", legalFooter: "تذييل قانوني", colorAccent: "لون الفاتورة", customColor: "لون مخصص",
-          downloadPdf: "تنزيل PDF", clearForm: "مسح النموذج", livePreview: "معاينة حية", zoom: "تكبير",
+          printSavePdf: "طباعة / حفظ باسم PDF", clearForm: "مسح النموذج", livePreview: "معاينة حية", zoom: "تكبير",
           invalidLogo: "يجب أن يكون حجم الشعار أقل من 2MB", clearConfirm: "هل تريد مسح جميع الحقول وإعادة تعيين الفاتورة؟",
           loadInvoice: "تحميل فاتورة خارجية", reading: "جارٍ قراءة الفاتورة…", importDone: "تم استيراد بيانات الفاتورة", importFail: "تعذّر قراءة الفاتورة",
         }
@@ -92,7 +92,7 @@ export default function InvoiceGenerator() {
           clientName: "Nombre del cliente", contactPerson: "Persona de contacto", clientAddress: "Dirección del cliente", clientEmail: "Correo del cliente", clientPhone: "Teléfono del cliente", clientVat: "IVA del cliente", clientCode: "Código del cliente",
           description: "Descripción", qty: "Cant.", rate: "Precio unit.", taxPct: "Impuesto %", total: "Total", addItem: "Añadir concepto", discountPercent: "Descuento %", shippingExtras: "Envío / Extras",
           notesAndTerms: "Notas y condiciones", paymentDetails: "Detalles de pago", legalFooter: "Texto legal", colorAccent: "Color de la factura", customColor: "Color personalizado",
-          downloadPdf: "Descargar PDF", clearForm: "Limpiar formulario", livePreview: "Vista previa", zoom: "Zoom",
+          printSavePdf: "Imprimir / Guardar como PDF", clearForm: "Limpiar formulario", livePreview: "Vista previa", zoom: "Zoom",
           invalidLogo: "El logo debe pesar menos de 2MB", clearConfirm: "¿Borrar todos los campos y reiniciar la factura?",
           loadInvoice: "Cargar factura externa", reading: "Leyendo factura…", importDone: "Datos de factura importados", importFail: "No se pudo leer la factura",
         }
@@ -104,7 +104,7 @@ export default function InvoiceGenerator() {
           clientName: "Client name", contactPerson: "Contact person", clientAddress: "Client address", clientEmail: "Client email", clientPhone: "Client phone", clientVat: "Client VAT / Tax ID", clientCode: "Client code",
           description: "Description", qty: "Qty", rate: "Rate", taxPct: "Tax %", total: "Total", addItem: "Add line item", discountPercent: "Discount %", shippingExtras: "Shipping / Extras",
           notesAndTerms: "Notes & payment terms", paymentDetails: "Payment details", legalFooter: "Legal footer", colorAccent: "Invoice color", customColor: "Custom color",
-          downloadPdf: "Download PDF", clearForm: "Clear form", livePreview: "Live Preview", zoom: "Zoom",
+          printSavePdf: "Print / Save as PDF", clearForm: "Clear form", livePreview: "Live Preview", zoom: "Zoom",
           invalidLogo: "Logo must be under 2MB", clearConfirm: "Clear all fields and reset the invoice?",
           loadInvoice: "Load external invoice", reading: "Reading invoice…", importDone: "Invoice data imported", importFail: "Could not read the invoice",
         };
@@ -930,8 +930,8 @@ const toIdx = clean.findIndex((l) => /^(bill\s*to|billed\s*to|to\b\s*[:—-]?|إ
     H += "@media print{body{background:#fff;padding:0;margin:0}.hint{display:none!important}.page{box-shadow:none;width:210mm;min-height:297mm;max-width:210mm;border-radius:0;padding:16mm 20mm;margin:0 auto;overflow:visible}@page{size:A4 portrait;margin:0}}";
     H += "</style></head><body>";
     H += "<div class=\"hint\"><div style=\"display:flex;align-items:center\"><div class=\"hint-dot\"></div>";
-    H += "<span>Your invoice is ready &mdash; click to save as PDF</span></div>";
-    H += "<button class=\"hint-btn\" onclick=\"window.print()\">Save as PDF</button></div>";
+    H += "<span>Your invoice is ready &mdash; print it or save it as PDF</span></div>";
+    H += "<button class=\"hint-btn\" onclick=\"window.print()\">Print / Save as PDF</button></div>";
     H += "<div class=\"page\">";
     if (showWatermark) {
       H += "<div id=\"wm-wrap\" style=\"position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);pointer-events:none;z-index:0;display:flex;align-items:center;justify-content:center;overflow:hidden;\">";
@@ -991,10 +991,79 @@ const toIdx = clean.findIndex((l) => /^(bill\s*to|billed\s*to|to\b\s*[:—-]?|إ
     return H;
   };
 
-  const download = () => {
+  // The invoice is printed by the browser (print dialog → "Save as PDF") instead
+  // of being downloaded as a PDF or HTML file. That keeps the text as real text,
+  // so the saved PDF is selectable and searchable, including Arabic.
+  const downloadHtmlFallback = (html: string, name: string) => {
+    downloadBlob(new Blob([html], { type: "text/html;charset=utf-8" }), name + ".html");
+  };
+
+  const printInvoice = () => {
     const html = buildInvoiceHTML();
     const name = (s.invoiceNum || "invoice").replace(/[^a-zA-Z0-9\-_]/g, "_");
-    downloadBlob(new Blob([html], { type: "text/html;charset=utf-8" }), name + ".html");
+
+    // A hidden same-origin iframe lets us print without popup blockers.
+    const iframe = document.createElement("iframe");
+    iframe.setAttribute("aria-hidden", "true");
+    iframe.style.position = "fixed";
+    iframe.style.right = "0";
+    iframe.style.bottom = "0";
+    iframe.style.width = "0";
+    iframe.style.height = "0";
+    iframe.style.border = "0";
+    iframe.style.opacity = "0";
+    iframe.style.pointerEvents = "none";
+    document.body.appendChild(iframe);
+
+    const frameDoc = iframe.contentDocument;
+    const frameWin = iframe.contentWindow;
+    if (!frameDoc || !frameWin) {
+      iframe.remove();
+      downloadHtmlFallback(html, name);
+      return;
+    }
+
+    let started = false;
+    const cleanup = () => window.setTimeout(() => iframe.remove(), 500);
+
+    const runPrint = async () => {
+      if (started) return;
+      started = true;
+      try {
+        // Wait for webfonts and the logo so the first print is not a fallback render.
+        const fonts = (frameDoc as Document & { fonts?: FontFaceSet }).fonts;
+        if (fonts?.ready) await fonts.ready;
+        await Promise.all(
+          Array.from(frameDoc.images).map((img) =>
+            img.complete
+              ? Promise.resolve()
+              : new Promise<void>((resolve) => {
+                  img.addEventListener("load", () => resolve(), { once: true });
+                  img.addEventListener("error", () => resolve(), { once: true });
+                })
+          )
+        );
+      } catch {
+        // Print anyway; worst case the browser substitutes a font.
+      }
+      frameWin.addEventListener("afterprint", cleanup, { once: true });
+      frameWin.focus();
+      frameWin.print();
+      // Fallback for browsers that never fire afterprint.
+      window.setTimeout(() => {
+        if (iframe.isConnected) iframe.remove();
+      }, 60000);
+    };
+
+    frameDoc.open();
+    frameDoc.write(html);
+    frameDoc.close();
+
+    if (frameDoc.readyState === "complete") {
+      void runPrint();
+    } else {
+      iframe.addEventListener("load", () => void runPrint(), { once: true });
+    }
   };
 
   const inputClass =
@@ -1313,7 +1382,7 @@ return (
         </div>
 
         <div className="flex flex-col gap-3 sm:flex-row">
-          <PrimaryButton onClick={download} className="flex-1">{L.downloadPdf}</PrimaryButton>
+          <PrimaryButton onClick={printInvoice} className="flex-1">{L.printSavePdf}</PrimaryButton>
           <GhostButton onClick={clearForm}>{L.clearForm}</GhostButton>
         </div>
       </div>

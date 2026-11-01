@@ -948,12 +948,12 @@
     },
     "invoice-generator": {
       "name": "Criar Fatura",
-      "desc": "Crie faturas profissionais, elegantes e prontas a imprimir.",
-      "long": "Preencha os dados da sua empresa e do cliente, adicione as linhas de itens e descarregue uma fatura PDF polida — gerada inteiramente no seu dispositivo. Como o texto em árabe precisa de uma formação correta de letras que os tipos de letra de PDF não conseguem fazer diretamente, a fatura é primeiro processada pixel a pixel no seu navegador e depois gravada como página PDF.",
+      "desc": "Crie fatura profissional com o seu logótipo, imposto e 27 moedas comuns.",
+      "long": "Preencha os dados da sua empresa e do cliente, adicione as linhas de itens e imprima a fatura ou guarde-a como PDF diretamente do seu navegador — tudo é gerado no seu dispositivo. O layout está pronto para impressão em A4 e, como o navegador imprime texto real, o PDF guardado continua selecionável e pesquisável.",
       "faq1q": "O texto da fatura é selecionável no PDF?",
-      "faq1a": "Não — para processar texto em árabe, inglês e espanhol corretamente e de forma consistente, a fatura é desenhada como uma imagem nítida e incorporada na página PDF. Imprime e apresenta-se perfeitamente, mas o texto em si não é selecionável.",
+      "faq1a": "Sim. A fatura é uma página web normal que o seu navegador imprime em PDF, por isso o texto continua selecionável e pesquisável. O árabe, o inglês e o espanhol são apresentados corretamente, incluindo texto da direita para a esquerda.",
       "faq2q": "Posso usar o meu próprio logótipo e moeda?",
-      "faq2a": "Sim — carregue um logótipo PNG ou JPG e escolha entre moedas comuns (USD, EUR, SAR, AED, EGP, GBP). A percentagem de imposto e os totais são calculados automaticamente."
+      "faq2a": "Sim — carregue um logótipo PNG ou JPG e escolha entre 27 moedas, incluindo USD, EUR, GBP, SAR, AED, EGP, INR e JPY. A percentagem de imposto e os totais são calculados automaticamente."
     },
     "cv-builder": {
       "name": "Construtor de CV",

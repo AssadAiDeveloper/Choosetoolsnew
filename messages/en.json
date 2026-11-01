@@ -949,12 +949,12 @@
     },
     "invoice-generator": {
       "name": "Invoice Generator",
-      "desc": "Create a professional invoice with your logo, tax and any currency.",
-      "long": "Fill in your company and client details, add line items, and download a polished PDF invoice — generated entirely on your device. Because Arabic text needs proper letter shaping that PDF fonts can't do directly, the invoice is rendered pixel-perfect in your browser first, then saved as a PDF page.",
+      "desc": "Create a professional invoice with your logo, tax and 27 common currencies.",
+      "long": "Fill in your company and client details, add line items, then print the invoice or save it as a PDF straight from your browser — everything is generated on your device. The layout is print-ready A4, and because the browser prints real text, the saved PDF stays selectable and searchable.",
       "faq1q": "Is the invoice text selectable in the PDF?",
-      "faq1a": "No — to render Arabic, English and Spanish text correctly and consistently, the invoice is drawn as a crisp image and embedded in the PDF page. It prints and displays perfectly, but the text itself isn't selectable.",
+      "faq1a": "Yes. The invoice is a normal web page that your browser prints to PDF, so the text stays selectable and searchable. Arabic, English and Spanish render correctly, including right-to-left text.",
       "faq2q": "Can I use my own logo and currency?",
-      "faq2a": "Yes — upload a PNG or JPG logo and pick from common currencies (USD, EUR, SAR, AED, EGP, GBP). Tax percentage and totals are calculated automatically."
+      "faq2a": "Yes — upload a PNG or JPG logo and pick from 27 currencies, including USD, EUR, GBP, SAR, AED, EGP, INR and JPY. Tax percentage and totals are calculated automatically."
     },
     "cv-builder": {
       "name": "CV / Resume Builder",
