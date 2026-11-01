@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { TOOLS, CATEGORIES, SITE_URL } from "@/lib/tools";
-import { routing } from "@/i18n/routing";
-import { blogSlugs, lastModified } from "@/lib/blog";
+import { INDEXABLE_LOCALES, INDEXABLE_BLOG_SLUGS } from "@/lib/indexing";
+import { lastModified } from "@/lib/blog";
 
 function url(locale: string, path: string) {
   const prefix = locale === "en" ? "" : `/${locale}`;
@@ -10,24 +10,32 @@ function url(locale: string, path: string) {
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
-  const modified = lastModified();
-  const blogPaths = [
-    "/blog",
-    ...blogSlugs("en").map((s) => `/blog/${s}`),
-  ];
+  const modified = new Date(lastModified());
+
   const paths = [
     "",
     ...CATEGORIES.map((c) => `/${c}`),
     ...TOOLS.map((t) => `/${t.category}/${t.slug}`),
-    ...blogPaths,
     "/about",
     "/donate",
     "/contact",
     "/privacy",
     "/terms",
   ];
-  for (const path of paths) {
-    for (const locale of routing.locales) {
+
+  // Blog URLs are included only for slugs listed in INDEXABLE_BLOG_SLUGS.
+  const blogSlugSet = new Set<string>();
+  for (const locale of INDEXABLE_LOCALES) {
+    for (const slug of INDEXABLE_BLOG_SLUGS[locale] || []) {
+      blogSlugSet.add(slug);
+    }
+  }
+  const blogPaths = [...blogSlugSet].map((s) => `/blog/${s}`);
+
+  const allPaths = [...paths, ...blogPaths];
+
+  for (const path of allPaths) {
+    for (const locale of INDEXABLE_LOCALES) {
       entries.push({
         url: url(locale, path),
         lastModified: modified,
@@ -35,7 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: path === "" ? 1 : path.split("/").length === 2 ? 0.7 : 0.8,
         alternates: {
           languages: Object.fromEntries([
-            ...routing.locales.map((l) => [l, url(l, path)]),
+            ...INDEXABLE_LOCALES.map((l) => [l, url(l, path)]),
             ["x-default", url("en", path)],
           ]),
         },

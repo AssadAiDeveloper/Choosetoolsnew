@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { INDEXABLE_LOCALES } from "@/lib/indexing";
 
 const STORAGE_KEY = "ct-lang-banner-dismissed";
 
@@ -14,7 +15,7 @@ function preferredLocale(): string | null {
     : [navigator.language]
   ).map((l) => l.toLowerCase().split("-")[0]);
   for (const c of candidates) {
-    if ((routing.locales as readonly string[]).includes(c)) return c;
+    if ((INDEXABLE_LOCALES as readonly string[]).includes(c)) return c;
   }
   return null;
 }

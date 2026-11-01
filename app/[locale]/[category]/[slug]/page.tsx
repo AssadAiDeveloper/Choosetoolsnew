@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
+import { INDEXABLE_LOCALES } from "@/lib/indexing";
 import { ogImage, ogImageUrl, ogLocale } from "@/i18n/og";
 import { TOOLS, findTool, toolsByCategory, iconTintClass, SITE_URL, SITE_NAME } from "@/lib/tools";
 import { hasArticle } from "@/lib/blog";
@@ -44,7 +45,7 @@ export async function generateMetadata({
   if (!tool) return {};
   const t = await getTranslations({ locale, namespace: `tools.${slug}` });
   const langs = Object.fromEntries(
-    routing.locales.map((l) => [l, pathFor(l, category, slug)])
+    INDEXABLE_LOCALES.map((l) => [l, pathFor(l, category, slug)])
   );
   return {
     title: `${t("name")} — ${SITE_NAME}`,

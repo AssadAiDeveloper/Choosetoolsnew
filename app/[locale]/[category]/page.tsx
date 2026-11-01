@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Metadata } from "next";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
+import { INDEXABLE_LOCALES } from "@/lib/indexing";
 import { ogImage, ogImageUrl, ogLocale } from "@/i18n/og";
 import { CATEGORIES, toolsByCategory, CATEGORY_COLOR, iconTintClass, SITE_NAME, SITE_URL, type Category } from "@/lib/tools";
 import { ToolIcon } from "@/components/ToolIcon";
@@ -25,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
   if (!CATEGORIES.includes(category as Category)) return {};
   const t = await getTranslations({ locale, namespace: `categories.${category}` });
   const langs = Object.fromEntries(
-    routing.locales.map((l) => [l, pathFor(l, category)])
+    INDEXABLE_LOCALES.map((l) => [l, pathFor(l, category)])
   );
   return {
     title: `${t("name")} — ${SITE_NAME}`,
@@ -62,6 +63,8 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
   const cat = category as Category;
   const t = await getTranslations(`categories.${cat}`);
   const tp = await getTranslations("privacy");
+  const tb = await getTranslations("breadcrumb");
+  const tc = await getTranslations("categories");
   const tnav = await getTranslations("nav");
   const tools = toolsByCategory(cat);
   const color = CATEGORY_COLOR[cat];
@@ -73,8 +76,19 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
     })
   );
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: tb("home"), item: SITE_URL + (locale === "en" ? "/" : `/${locale}`) },
+      { "@type": "ListItem", position: 2, name: t("name"), item: SITE_URL + (locale === "en" ? "" : `/${locale}`) + `/${category}` },
+    ],
+  };
+
   return (
-    <div className="mx-auto max-w-6xl px-4 py-10">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <div className="mx-auto max-w-6xl px-4 py-10">
       <header className="mb-8 max-w-2xl">
         <div className="flex items-center gap-3">
           <span className="h-7 w-1.5 rounded-full" style={{ background: color }} />
@@ -107,5 +121,6 @@ export default async function CategoryPage({ params }: { params: Promise<Params>
         </Link>
       </div>
     </div>
+    </>
   );
 }

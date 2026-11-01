@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { isIndexableLocale } from "@/lib/indexing";
 import { ogImage, ogImageUrl, ogLocale } from "@/i18n/og";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -43,6 +44,9 @@ export async function generateMetadata({
     },
     description: t("description"),
     metadataBase: new URL(SITE_URL),
+    robots: isIndexableLocale(locale)
+      ? { index: true, follow: true }
+      : { index: false, follow: true },
     openGraph: {
       type: "website",
       siteName: "ChooseTools",

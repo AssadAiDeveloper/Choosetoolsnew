@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
+import { INDEXABLE_LOCALES } from "@/lib/indexing";
 import { ogImage, ogImageUrl, ogLocale } from "@/i18n/og";
 import { SITE_URL, SITE_NAME, iconTintClass } from "@/lib/tools";
 import {
@@ -40,7 +41,7 @@ export async function generateMetadata({
   if (!article) return {};
   const programTitle = article.title.replace(/`/g, "");
   const langs = Object.fromEntries(
-    routing.locales.map((l) => [l, blogPathFor(l, slug)])
+    INDEXABLE_LOCALES.map((l) => [l, blogPathFor(l, slug)])
   );
   return {
     title: `${programTitle} — ${SITE_NAME}`,
@@ -68,7 +69,6 @@ export async function generateMetadata({
       description: article.description,
       images: [ogImageUrl(locale)],
     },
-    keywords: article.keywords,
   };
 }
 
