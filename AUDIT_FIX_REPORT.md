@@ -227,3 +227,8 @@ Sections appended: T2 (4 keys × 11), T5 (47 rows + blog follow-up), T6 (4 keys 
 - Regression test: scripts/test-canvas-font.mjs — uses a recording mock ctx whose restore() actually restores the saved font. Asserts recorded font at fillText equals fitted size (not "10px sans-serif"). Fails on old code (3 failures), passes after fix. Runs against real idCardTextItems and certificateLayout. Wired into npm test.
 - Size thresholds (minSize) retained: name 50px, title 38px, company 50px, labels 26px, values 26px.
 - Visual verification: Not verified (no browser in env). QA to measure in real download.
+
+## Phase 3b (follow-up 3) — Cosmetic fixes (IDCARD + CERT)
+1. ID card: increased gap between divider and first label (divider y 0.28H→0.25H, labels shifted down ~0.02H). Consistent across locales (layout-driven).
+2. Certificate: added dateLine (mirrored signature line, same width, same y=footY) under the date block; both lines at same y. CERT text now uses real font sizes (root cause fix).
+- Not verified visually (no browser in env). QA to check real download.
