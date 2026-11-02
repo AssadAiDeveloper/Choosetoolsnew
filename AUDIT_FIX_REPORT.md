@@ -265,3 +265,10 @@ Sections appended: T2 (4 keys × 11), T5 (47 rows + blog follow-up), T6 (4 keys 
 - Bug B root cause: pdf-lib's font.layout() applies OpenType shaping (GSUB) producing visual-order glyphs even with features:[]. encodeText on a full string returned different (lower) glyph IDs than per-char. Fixed: monkey-patch font.encodeText to encode per code point (concatenate per-char glyph IDs in logical order). Also sortRuns preserves insertion order (no x-sort pre-reversal).
 - Test: test-cv-pdf.mjs now decodes ToUnicode CMap and asserts each input string appears in LOGICAL order with no "?" — passes for both en and ar.
 - Not verified: browser download, visual fidelity (PNG hash). QA to verify real download.
+
+## Merge of PR #3
+- Date: 2026-11-02
+- PR: #3 (fix/cv-text-layer)
+- Merge commit: fcf3e1abc65322e234dc38337195e18eccdc5102
+- Checks run before merge: npm run typecheck (exit 0), npm test (exit 0, 11 checks), npm run build (exit 0, 2330 pages).
+- Status: Merged. Waiting for Vercel production deploy.
