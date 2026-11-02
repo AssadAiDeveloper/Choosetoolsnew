@@ -28,6 +28,7 @@ const runs = [
   { text: "mohammed@example.com", x: 100, y: 220, size: 18, align: "right", direction: "rtl" },
   { text: "+966 50 123 4567", x: 100, y: 250, size: 18, align: "right", direction: "rtl" },
   { text: "Skills: JavaScript, TypeScript, React", x: 100, y: 320, size: 18, align: "right", direction: "rtl" },
+  { text: "خبرة", x: 100, y: 360, size: 18, align: "right", direction: "rtl" },
   { text: "2020 - 2024", x: 100, y: 400, size: 16, align: "right", direction: "rtl" },
 ];
 
@@ -84,6 +85,7 @@ for (const [label, isRtl, r] of [["ar", true, runs], ["en", false, enRuns]]) {
     const allChars = r.map((run) => run.text).join("");
     const present = [...allChars].every((ch) => text.includes(ch) || ch === " ");
     check(present, `${label}: all input characters present in extracted text (pdftotext bidi reorders Arabic)`);
+    check(!text.includes("?"), `${label}: no '?' placeholders in extracted text`);
   }
 
   // 3 Tr check via qpdf --qdf

@@ -27,7 +27,8 @@ export function sortRuns(runs, isRtl) {
   }
   lines.sort((a, b) => a.y - b.y);
   for (const line of lines) {
-    line.items.sort((a, b) => (isRtl ? b.x - a.x : a.x - b.x));
+    // Logical order for all locales: ascending x. Do not pre-reverse Arabic.
+    line.items.sort((a, b) => a.x - b.x);
   }
   return lines.flatMap((l) => l.items);
 }
