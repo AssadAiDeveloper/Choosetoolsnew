@@ -390,3 +390,8 @@ Code changes (no translation impact):
 | `tool.pdfUnlockRasterNote` | pt | — | A cópia desbloqueada é composta por imagens de página, pelo que o texto não pode ser selecionado nem pesquisado. | new, machine-drafted |
 | `tool.pdfUnlockRasterNote` | ru | — | Разблокированная копия состоит из изображений страниц, поэтому текст нельзя выделить или найти. | new, machine-drafted |
 | `tool.pdfUnlockRasterNote` | tr | — | Kilidi açılmış kopya sayfa görsellerinden oluşur; bu nedenle metin seçilemez veya aranamaz. | new, machine-drafted |
+
+
+## Phase 4 (CV Builder) — honest copy
+- `tools.cv-builder.desc`, `.long`, `.faq1a` updated in en (source) to reflect the hidden text layer.
+- Other locales: not auto-translated; blog articles (all locales) still contain "ATS-friendly"/"ATS" claims and need native review + rewrite. Marked as follow-up.

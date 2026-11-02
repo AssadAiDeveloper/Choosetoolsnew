@@ -43,3 +43,5 @@ verify-ru.js
 # typescript
 *.tsbuildinfo
 .vercel
+
+test-artifacts/

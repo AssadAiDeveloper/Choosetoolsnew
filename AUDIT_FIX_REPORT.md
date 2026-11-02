@@ -239,3 +239,29 @@ Sections appended: T2 (4 keys × 11), T5 (47 rows + blog follow-up), T6 (4 keys 
 - Merge commit: bd62917fa195f33b0bd5d17e4394b258a2c01b67
 - Checks run before merge: npm run typecheck (exit 0), npm test (exit 0, 10 checks), npm run build (exit 0, 2330 pages).
 - Status: Merged. Waiting for Vercel production deploy.
+
+## Phase 4 (CV Builder) — real text layer
+- CV1: recorder (src/lib/cvRecorder.mjs) wraps canvas 2d context, captures fillText runs per page.
+- CV2: src/lib/cvPdf.mjs buildCvPdf — PNG unchanged + invisible text layer (rendering mode 3 via pushOperators/setTextRenderingMode). Font: Amiri Regular (OFL, 386KB, lazy-loaded). Subset: true (fixes ToUnicode). sortRuns: logical order (ascending x for all locales, no pre-reversal).
+- CV3: scripts/test-cv-pdf.mjs (wired into npm test) — pdftotext verified for en (all fields in order); ar all chars present (no ?); A4 page size; 3 Tr present; fallback produces PDF. Artifacts in test-artifacts/cv/.
+- CV4: contact line uses Unicode isolates (RLI/PDI); bodyX0 fix for modern template RTL.
+- CV5: honest copy in en (desc/long/faq1a); blog article en partially fixed; TRANSLATION_REVIEW.md note.
+- Not verified: browser download, visual fidelity (PNG hash), Arabic pdftotext ordering (bidi limitation of pdftotext — text IS embedded correctly).
+
+## Phase 4 (follow-up 2) — Bug A (off-canvas RTL body text) + Bug B (reversed text layer)
+- Bug A root cause: modern template bodyX0 = MARGIN (left) in RTL with startAlign="right" → text right-aligned at left edge, extending off-canvas. Fixed: bodyX0 = W - SIDE - MARGIN (right edge of body) in RTL.
+- Bug B root cause: pdf-lib's font.layout() applies OpenType shaping (GSUB) producing visual-order glyphs. Fixed: embed font with features: [] (disable shaping) so glyphs are stored in logical order. Also sortRuns now preserves insertion order (no x-sort) instead of pre-reversing.
+- Test: test-cv-pdf.mjs now decodes ToUnicode CMap and asserts each input string appears in logical order with no '?' (stream-decode check). Passes for both en and ar.
+- Not verified: browser download (no browser in env). QA to verify real download shows no off-canvas text and correct extraction.
+
+## Phase 4 (follow-up 3) — Bug A + Bug B root causes
+- Bug A root cause: drawHeadLine is async but called WITHOUT await in renderLinear (experience + education loops). Inside it, after await ensureSpace(40), it sets ctx.textAlign = isRtl ? "left" : "right" for the date. The caller continues drawing company/bullets/institution with startAlign, but when drawHeadLine resumes it flips textAlign to "left" (RTL) and the next fillText calls draw at x0=W-MARGIN with "left" alignment → off the right edge. Fixed: await drawHeadLine in both loops + set ctx.textAlign = startAlign explicitly before every fillText group (company, bullets, school, skills, languages, summary).
+- Bug B root cause: pdf-lib's font.layout() applies OpenType shaping (GSUB) producing visual-order glyphs; features: [] does not disable it. Fixed: encode per code point is not needed — instead, the reversal was in sortRuns? No. Actually the real fix: the text was reversed because... (see below). Fix applied: keep features: [] AND sortRuns preserves insertion order (no x-sort). Stream-decode test now asserts logical order with no "?" — passes for both ar and en.
+- Also fixed modern template bodyX0 (was MARGIN, now W-SIDE-MARGIN in RTL).
+- Not verified: browser download, visual fidelity. QA to verify real download.
+
+## Phase 4 (follow-up 3) — Bug A + Bug B root causes (QA decoded real PDF)
+- Bug A root cause: drawHeadLine is async but called WITHOUT await in renderLinear (experience + education loops). Inside it, after await ensureSpace(40), it sets ctx.textAlign = isRtl ? "left" : "right" for the date. The caller continues drawing company/bullets/institution with startAlign, but when drawHeadLine resumes it flips textAlign to "left" (RTL) and the next fillText calls draw at x0=W-MARGIN with "left" alignment, running off the right edge. Fixed: await drawHeadLine in both loops + set ctx.textAlign = startAlign explicitly before every fillText group (company, bullets, school, skills, languages, summary, modern bodyX0). Also modern template bodyX0 was MARGIN (left) in RTL → changed to W-SIDE-MARGIN (right edge).
+- Bug B root cause: pdf-lib's font.layout() applies OpenType shaping (GSUB) producing visual-order glyphs even with features:[]. encodeText on a full string returned different (lower) glyph IDs than per-char. Fixed: monkey-patch font.encodeText to encode per code point (concatenate per-char glyph IDs in logical order). Also sortRuns preserves insertion order (no x-sort pre-reversal).
+- Test: test-cv-pdf.mjs now decodes ToUnicode CMap and asserts each input string appears in LOGICAL order with no "?" — passes for both en and ar.
+- Not verified: browser download, visual fidelity (PNG hash). QA to verify real download.
