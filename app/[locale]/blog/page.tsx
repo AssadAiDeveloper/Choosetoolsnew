@@ -6,6 +6,7 @@ import { INDEXABLE_LOCALES, isIndexableLocale, isIndexableBlogIndex } from "@/li
 import { ogImage, ogImageUrl, ogLocale } from "@/i18n/og";
 import { SITE_URL, SITE_NAME, TOOLS, iconTintClass } from "@/lib/tools";
 import { listArticles, blogIndexPathFor, blogPathFor, findToolForSlug } from "@/lib/blog";
+import { listGuides } from "@/lib/guides";
 import { ToolIcon } from "@/components/ToolIcon";
 
 interface Params {
@@ -56,6 +57,7 @@ export default async function BlogIndexPage({ params }: { params: Promise<Params
   const t = await getTranslations("blog");
   const tc = await getTranslations("categories");
   const articles = listArticles(locale);
+  const guides = listGuides(locale);
 
   const withCatNames = await Promise.all(
     articles.map(async (a) => {
@@ -83,6 +85,27 @@ export default async function BlogIndexPage({ params }: { params: Promise<Params
           {articles.length} {t("countArticles")}
         </p>
       </header>
+
+      {guides.length > 0 && (
+        <section className="mb-12">
+          <h2 className="mb-4 flex items-center gap-2 text-xl font-bold text-ink">
+            <span className="h-5 w-1 rounded-full bg-brand-600" />
+            Guides
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {guides.map((g) => (
+              <Link
+                key={g.slug}
+                href={`/guides/${g.slug}`}
+                className="group flex flex-col rounded-card border border-line bg-surface p-5 transition hover:border-brand-400 hover:shadow-sm"
+              >
+                <h3 className="text-base font-semibold leading-snug text-ink group-hover:text-brand-700">{g.title}</h3>
+                <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-ink-soft">{g.description}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {[...grouped.entries()].map(([cat, items]) => {
         const catLabel = items[0]?.catName ?? cat;

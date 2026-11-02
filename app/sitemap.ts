@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { TOOLS, CATEGORIES, SITE_URL } from "@/lib/tools";
-import { INDEXABLE_LOCALES, INDEXABLE_BLOG_SLUGS } from "@/lib/indexing";
+import { INDEXABLE_LOCALES, INDEXABLE_BLOG_SLUGS, isIndexableBlogSlug } from "@/lib/indexing";
+import { listGuides } from "@/lib/guides";
 import { lastModified } from "@/lib/blog";
 
 function url(locale: string, path: string) {
@@ -32,7 +33,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
   const blogPaths = [...blogSlugSet].map((s) => `/blog/${s}`);
 
-  const allPaths = [...paths, ...blogPaths];
+  // Guides: only non-draft AND indexable guides.
+  const guidePaths = new Set<string>();
+  for (const locale of INDEXABLE_LOCALES) {
+    for (const g of listGuides(locale)) {
+      if (g.draft) continue;
+      if (!isIndexableBlogSlug(locale, g.slug)) continue;
+      guidePaths.add(`/guides/${g.slug}`);
+    }
+  }
+
+  const allPaths = [...paths, ...blogPaths, ...guidePaths];
 
   for (const path of allPaths) {
     for (const locale of INDEXABLE_LOCALES) {

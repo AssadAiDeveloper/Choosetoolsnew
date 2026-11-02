@@ -1,0 +1,168 @@
+{
+  "slug": "check-file-tool-does-not-upload",
+  "title": "How to check that an online file tool does not upload your files",
+  "description": "Check any online file tool in one minute using your browser's Network tab. See whether your file is uploaded or processed locally, with no trust required.",
+  "keywords": [
+    "online file tool",
+    "privacy",
+    "network tab",
+    "browser-only",
+    "PDF",
+    "does not upload"
+  ],
+  "readingTime": 6,
+  "author": "TODO Owner",
+  "datePublished": "2026-11-02",
+  "dateModified": "2026-11-02",
+  "draft": true,
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Many online PDF and image tools ask you to drop a file into a page. Some of them send that file to a server and promise to delete it later. Others process it inside your browser and send nothing. From the outside both look the same. You can tell them apart in about a minute, without trusting anyone's promise, using a tool that is already in your browser."
+    },
+    {
+      "type": "paragraph",
+      "text": "This guide shows how, and what we saw when we ran the same test on ChooseTools."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Why it matters"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a file is uploaded, a copy leaves your computer. That is fine for a holiday photo. It is a different matter for a contract, a bank statement or an ID scan."
+    },
+    {
+      "type": "paragraph",
+      "text": "Large cloud tools state their retention rules openly. Smallpdf says files are deleted from its servers after one hour of processing (Smallpdf, \"Is Smallpdf safe\", checked 2 Nov 2026). iLovePDF published a post saying files are deleted within two hours of upload (iLovePDF, April 2023; TODO: re-check the current policy before publishing). These are statements about what a company does after your file arrived. The test below checks whether it arrived at all."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "The one-minute test"
+    },
+    {
+      "type": "paragraph",
+      "text": "You need a desktop browser. Use a harmless test file, not a real document."
+    },
+    {
+      "type": "orderedList",
+      "items": [
+        "Open the tool's page, for example [Merge PDF](https://www.choosetools.com/pdf/merge-pdf).",
+        "Open the browser's developer tools. In Chrome, Edge and Firefox press F12 (or Ctrl+Shift+I; Cmd+Option+I on a Mac). In Safari, enable the Develop menu in Settings first, then open the Web Inspector.",
+        "Open the **Network** tab. Turn on \"Preserve log\" if you see it. Click the clear button so the list is empty.",
+        "Drop your test file (or two files) into the tool and run it.",
+        "Look at the list of requests that appeared. You are looking for requests with the method **POST** or **PUT**, or any request whose \"Size\" or \"Request payload\" is about as large as your file."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "What the result means:"
+    },
+    {
+      "type": "unorderedList",
+      "items": [
+        "**A POST or PUT with a payload about the size of your file:** the file was sent to a server.",
+        "**Only GET requests for scripts, styles, fonts and images from the same site:** nothing was sent. The page loaded its own code and your browser did the work locally."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What we saw on ChooseTools"
+    },
+    {
+      "type": "paragraph",
+      "text": "We ran the test on 2 Nov 2026 in Chrome on the Merge PDF page, with two small PDF files made for the test, and read the browser's network log while the merge ran."
+    },
+    {
+      "type": "paragraph",
+      "text": "The log contained only GET requests: a few JavaScript files from the site, the PDF engine's worker file, and two `blob:` entries. A `blob:` address points to data that lives in your own browser's memory, not on a server. There was no POST or PUT request and no request that carried the file."
+    },
+    {
+      "type": "image",
+      "src": "/guides/network-tab-merge-pdf.png",
+      "alt": "Network tab on the Merge PDF page after running the merge, showing only GET requests",
+      "width": 1,
+      "height": 1,
+      "caption": "[SCREENSHOT TODO: Network tab on the Merge PDF page after running the merge, with the file name visible on screen.]"
+    },
+    {
+      "type": "image",
+      "src": "/guides/network-tab-uploading-tool.png",
+      "alt": "Network tab on a tool that uploads, showing a POST with a payload close to the file size",
+      "width": 1,
+      "height": 1,
+      "caption": "[SCREENSHOT TODO: the same test on a tool that uploads, showing a POST with a payload close to the file size. Choose any uploading site, capture only the Network tab, and name no site unless you have its permission or are only describing your own observation neutrally.]"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "What this test does not prove"
+    },
+    {
+      "type": "paragraph",
+      "text": "Be precise about what you can conclude."
+    },
+    {
+      "type": "unorderedList",
+      "items": [
+        "It covers the page you tested, with the file you used, on the day you ran it. A site can change later. Run it again if it matters.",
+        "Many sites send small requests for analytics, fonts or advertising. Those are not your file. Check the size and the method, not just that something was sent.",
+        "Some tools send a file only when you press a specific button (for example, an OCR or cloud-convert option). Test every option you plan to use.",
+        "A tool can read your file locally and still show you misleading wording. The log tells you what left your browser, nothing else."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "A second check: go offline"
+    },
+    {
+      "type": "callout",
+      "variant": "note",
+      "text": "[VERIFY BEFORE PUBLISHING: we have not run this check on ChooseTools yet.] Load the tool, then switch off your internet connection (or tick \"Offline\" in the Network tab's throttling menu). Drop a file and run the tool. If it still works, it cannot depend on a server for the work. Tools that need the internet to process a file will fail or show an error."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Practical rules of thumb"
+    },
+    {
+      "type": "unorderedList",
+      "items": [
+        "Use browser-only tools for anything private: contracts, statements, scans.",
+        "Check any new tool once with the test above before you trust it with a real file.",
+        "If a tool must upload (for example, to sign a document with other people), read its retention statement and decide if you accept it."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Tools mentioned"
+    },
+    {
+      "type": "unorderedList",
+      "items": [
+        "[Merge PDF](https://www.choosetools.com/pdf/merge-pdf)",
+        "[Compress PDF](https://www.choosetools.com/pdf/compress-pdf)",
+        "[Remove PDF Password](https://www.choosetools.com/pdf/protect-pdf) (note: the unlocked copy is made of page images, so text cannot be selected)",
+        "[Privacy page](https://www.choosetools.com/privacy)"
+      ]
+    },
+    {
+      "type": "faq",
+      "faqItems": [
+        {
+          "q": "Does the test work on mobile?",
+          "a": "Mobile browsers have limited developer tools. Use a desktop browser for this check."
+        },
+        {
+          "q": "Is a blob: request an upload?",
+          "a": "No. A blob: address points to data in your browser's memory, not a server."
+        }
+      ]
+    }
+  ]
+}
