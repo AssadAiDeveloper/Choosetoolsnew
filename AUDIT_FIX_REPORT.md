@@ -272,3 +272,10 @@ Sections appended: T2 (4 keys × 11), T5 (47 rows + blog follow-up), T6 (4 keys 
 - Merge commit: fcf3e1abc65322e234dc38337195e18eccdc5102
 - Checks run before merge: npm run typecheck (exit 0), npm test (exit 0, 11 checks), npm run build (exit 0, 2330 pages).
 - Status: Merged. Waiting for Vercel production deploy.
+
+## Phase 5 (guides) — standalone guides + guide 1 draft
+- GUIDE1: new content type `src/content/guides/<locale>/<slug>.json`; schema type in src/lib/guides.ts; page route app/[locale]/guides/[slug]; draft handling (404 in production, render in preview/dev); indexing via isIndexableBlogSlug; blog index "Guides" section; sitemap conditional (non-draft + indexable).
+- GUIDE2: guide 1 "How to check that an online file tool does not upload your files" as draft en only; placeholder PNGs; docs/guide-1-owner-notes.md.
+- Validation: scripts/validate-guides.mjs (schema + content guard, fails on TODO/[SCREENSHOT/VERIFY/lorem/empty alt/missing image in non-draft). Wired into npm test.
+- Not verified: browser render (draft renders in preview; QA to check). Sitemap count unchanged (440).
+- All 12 checks green.
