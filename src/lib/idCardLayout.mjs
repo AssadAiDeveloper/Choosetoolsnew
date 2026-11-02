@@ -53,8 +53,8 @@ export function idCardTextItems(g) {
   return {
     box,
     divider: g.isRtl
-      ? { x1: box.textX - box.textAreaW, x2: box.textX, y: g.photoY + g.H * 0.25 }
-      : { x1: box.textX, x2: box.textX + box.textAreaW, y: g.photoY + g.H * 0.25 },
+      ? { x1: box.textX - box.textAreaW, x2: box.textX, y: g.photoY + g.H * 0.28 }
+      : { x1: box.textX, x2: box.textX + box.textAreaW, y: g.photoY + g.H * 0.28 },
     company: {
       text: g.company,
       x: g.W / 2,

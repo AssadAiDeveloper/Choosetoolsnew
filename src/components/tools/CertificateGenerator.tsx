@@ -141,13 +141,6 @@ export default function CertificateGenerator() {
       drawFittedText(ctx, row.text, row);
     });
 
-    // divider
-    ctx.strokeStyle = accent;
-    ctx.beginPath();
-    ctx.moveTo(layout.divider.x1, layout.divider.y);
-    ctx.lineTo(layout.divider.x2, layout.divider.y);
-    ctx.stroke();
-
     // footer
     drawFittedText(ctx, layout.footer.date.text, layout.footer.date);
     drawFittedText(ctx, layout.footer.dateLabel.text, layout.footer.dateLabel);

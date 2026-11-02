@@ -75,7 +75,7 @@ export function certificateLayout(g) {
       date: {
         text: g.data.today,
         x: g.W / 2 - 330,
-        y: footY,
+        y: footY - 32,
         size: 32,
         minSize: 20,
         maxWidth: 320,
