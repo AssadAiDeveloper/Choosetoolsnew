@@ -141,13 +141,6 @@ export default function CertificateGenerator() {
       drawFittedText(ctx, row.text, row);
     });
 
-    // divider
-    ctx.strokeStyle = accent;
-    ctx.beginPath();
-    ctx.moveTo(layout.divider.x1, layout.divider.y);
-    ctx.lineTo(layout.divider.x2, layout.divider.y);
-    ctx.stroke();
-
     // footer
     drawFittedText(ctx, layout.footer.date.text, layout.footer.date);
     drawFittedText(ctx, layout.footer.dateLabel.text, layout.footer.dateLabel);
@@ -158,6 +151,12 @@ export default function CertificateGenerator() {
     ctx.beginPath();
     ctx.moveTo(layout.footer.signatureLine.x1, layout.footer.signatureLine.y);
     ctx.lineTo(layout.footer.signatureLine.x2, layout.footer.signatureLine.y);
+    ctx.stroke();
+
+    // date line (mirrored) at the same y
+    ctx.beginPath();
+    ctx.moveTo(layout.footer.dateLine.x1, layout.footer.dateLine.y);
+    ctx.lineTo(layout.footer.dateLine.x2, layout.footer.dateLine.y);
     ctx.stroke();
 
     // presenter under signature

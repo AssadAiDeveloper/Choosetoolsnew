@@ -20,6 +20,14 @@ export const INDEXABLE_BLOG_SLUGS: Record<string, string[]> = {
   es: [],
 };
 
+/** Minimum number of indexable blog articles before the blog index itself is indexable. */
+export const BLOG_INDEX_MIN_INDEXABLE = 3;
+
+export function isIndexableBlogIndex(locale: string): boolean {
+  const slugs = INDEXABLE_BLOG_SLUGS[locale] || [];
+  return slugs.length >= BLOG_INDEX_MIN_INDEXABLE;
+}
+
 export function isIndexableLocale(locale: string): locale is IndexableLocale {
   return (INDEXABLE_LOCALES as readonly string[]).includes(locale);
 }

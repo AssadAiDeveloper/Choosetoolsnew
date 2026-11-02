@@ -179,3 +179,56 @@ Sections appended: T2 (4 keys × 11), T5 (47 rows + blog follow-up), T6 (4 keys 
 1. Blog metadata robots: `isIndexableBlogSlug(locale, slug) && isIndexableLocale(locale)` determines indexability; non-indexable articles drop hreflang alternates and keep self canonical. Same for blog index (indexable, since it has real content). Test: `scripts/test-blog-indexing.mjs`.
 2. ProtectPdf: added `tool.pdfUnlockRasterNote` (11 locales) shown before download; updated en protect-pdf desc/long/faq1a/faq2a. Algorithm unchanged.
 3. Sitemap check: `scripts/check-sitemap.mjs` (npm run check:sitemap), added to npm test; validates all 440 sitemap URLs against a running `next start`. All pass.
+
+
+## Phase 3 — /blog noindex + ID card download investigation
+
+### P1 — Blog index noindex — Done
+- `src/lib/indexing.ts`: added `BLOG_INDEX_MIN_INDEXABLE = 3` and `isIndexableBlogIndex(locale)`.
+- `app/[locale]/blog/page.tsx`: robots noindex/follow unless indexable; hreflang dropped when noindex; self canonical kept.
+- Test: `scripts/test-blog-indexing.mjs` (extended) — all priority locales noindex while allow-list empty; threshold logic verified; source wiring verified. Passes.
+
+### P0 — Employee ID card download — Not verified (symptom unspecified)
+- The Owner's symptom line in the spec is "TODO (Owner pastes here...)": no concrete failure description was provided, so the real download path could not be reproduced end-to-end in this session.
+- What was tested: existing `scripts/test-canvas-text.mjs` (ar/en/hi) — all pass; the shared `idCardLayout.mjs` + `canvasText.mjs` geometry is exercised (RTL text column anchored right, no ink in border band, fit/wrap). The export code path (`buildPdf`) uses the shared layout and `drawFittedText` with explicit direction and left/right alignment.
+- The existing test does NOT exercise the real browser download path (PNG/PDF capture, fonts ready, devicePixelRatio). A full browser e2e test (`npm run test:idcard`) was not added because it requires a running server + Playwright/puppeteer and would exceed the ~60 s budget; the browser-test harness (`scripts/browser-test.cjs`) exists but targets pdf-to-excel.
+- Known history (Phase 1): RTL clipping at left edge was fixed via the shared helper. If the Owner's symptom is different (e.g. font not loaded, mirrored layout, barcode/QR overlap, wrong digit shapes), please paste the exact symptom + locale + input + format (PNG/PDF) and I will reproduce and fix.
+- Same helper applied to certificate export (PNG/PDF). No other tools touched.
+
+### Acceptance
+- P1: curl of /blog and /ar/blog shows noindex, follow (verify against next start). Passes via test.
+- P0: Not verified — awaiting Owner's concrete symptom.
+
+
+## Phase 3b — ID card download fixes (IDCARD)
+
+### Root causes identified (from code analysis of buildPdf + idCardLayout.mjs)
+1. Ghost text: the watermark (company name, 2 lines, opacity 0.08) was drawn centered over the whole card, overlapping the RTL text column. Reduced default opacity to 0.03 (user-adjustable via slider) and documented.
+2. Divider line: `divider.x2 = box.textX + box.textAreaW` extended right through the photo. Fixed to span only the text column (RTL: x1=textX-textAreaW, x2=textX; LTR unchanged).
+3. Scale/layout: font sizes increased ~1.5x (name 0.058→0.085, title 0.042→0.063, company 0.06→0.09, labels 0.026→0.04, values 0.034→0.05); gap reduced 0.05→0.04 to widen the text column.
+4. Header: company name size 0.06→0.09 for better vertical balance.
+
+### Verification
+- Browser reproduction: NOT performed — puppeteer-core has no usable main entry in this environment (no Playwright installed). The real-download path was not exercised.
+- Unit geometry tests (test-canvas-text.mjs): pass for ar/en/hi (no ink in border band, text inside margins).
+- Typecheck: pass. Build: pass (2330 pages).
+- Not verified: ghost text removal, divider containment, scale balance, header balance — all require visual inspection of the real downloaded PDF. Owner to verify with the provided inputs (محمد عبد الله الأحمد الغامدي / EMP-20481 / 2024-03-15, no photo/logo) and report back.
+
+
+## Phase 3b (follow-up) — IDCARD size/watermark fix
+- QA measured unchanged sizes because (a) Vercel preview was stale and (b) minSize was too low. Raised minSize to >= thresholds: name 50px, title 38px, company 50px, labels 26px, values 26px (via idCardLayout.mjs). Increased max sizes ~1.5x.
+- Watermark: default opacity 0 (OFF); when enabled, rotated -0.35 rad, drawn once, centered; text drawn on top.
+- Divider: spans text column only (fixed in 996470c, retained).
+- Not verified: browser download not reproducible in this env (no Playwright/puppeteer main entry). QA to verify with inputs: "محمد عبد الله الأحمد الغامدي", title "مهندس برمجيات أول ومدير مشاريع", company "شركة الأفق للتقنية والحلول الرقمية", no. EMP-20481, hire 2024-03-15, no photo/logo. Expected: name>=50px, title>=38px, labels>=26px, company>=50px, divider only in text column, no ghost text.
+
+## Phase 3b (follow-up 2) — Root cause: drawFittedText did not apply ctx.font
+- QA found: fitText sets ctx.font but ends with ctx.restore(), resetting to default "10px sans-serif"; drawFittedText saved/restored but never re-applied ctx.font. Every fillText ran at 10px.
+- Fix: in drawFittedText (src/lib/canvasText.mjs), after ctx.save() set ctx.font = `${opts.weight ?? "400"} ${fitted.fontSize}px ${opts.family ?? "Arial, sans-serif"}`.
+- Regression test: scripts/test-canvas-font.mjs — uses a recording mock ctx whose restore() actually restores the saved font. Asserts recorded font at fillText equals fitted size (not "10px sans-serif"). Fails on old code (3 failures), passes after fix. Runs against real idCardTextItems and certificateLayout. Wired into npm test.
+- Size thresholds (minSize) retained: name 50px, title 38px, company 50px, labels 26px, values 26px.
+- Visual verification: Not verified (no browser in env). QA to measure in real download.
+
+## Phase 3b (follow-up 3) — Cosmetic fixes (IDCARD + CERT)
+1. ID card: increased gap between divider and first label (divider y 0.28H→0.25H, labels shifted down ~0.02H). Consistent across locales (layout-driven).
+2. Certificate: added dateLine (mirrored signature line, same width, same y=footY) under the date block; both lines at same y. CERT text now uses real font sizes (root cause fix).
+- Not verified visually (no browser in env). QA to check real download.

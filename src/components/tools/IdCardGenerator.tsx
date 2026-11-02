@@ -59,7 +59,7 @@ export default function IdCardGenerator() {
     return `/${locale}/text/invoice-generator${qs ? `?${qs}` : ""}`;
   }, [data, locale]);
   const [primary, setPrimary] = useState("#0e8a6c");
-  const [wmOpacity, setWmOpacity] = useState(0.08);
+  const [wmOpacity, setWmOpacity] = useState(0);
   const [wmSize, setWmSize] = useState(76);
   const [printed, setPrinted] = useState(false);
   const [busy, setBusy] = useState(false);
@@ -288,8 +288,10 @@ export default function IdCardGenerator() {
       // ── Watermark — company logo or name, perfectly centered ──────
       const bodyTop = headerH;
       const bodyBottom = H;
+      if (wmOpacity > 0.005) {
       ctx.save();
       ctx.translate(W / 2, (bodyTop + bodyBottom) / 2);
+      ctx.rotate(-0.35);
       ctx.globalAlpha = wmOpacity;
       const wmScale = wmSize / 76;
       if (data.logoUrl) {
@@ -317,6 +319,7 @@ export default function IdCardGenerator() {
       }
       ctx.restore();
       ctx.globalAlpha = 1;
+      }
 
       // ── Photo (tall 4×6 portrait, rounded slot, bigger) ────────────
       const roundRectPath = (px: number, py: number, w: number, h: number, r: number) => {

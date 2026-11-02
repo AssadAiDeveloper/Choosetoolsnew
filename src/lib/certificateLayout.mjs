@@ -75,7 +75,7 @@ export function certificateLayout(g) {
       date: {
         text: g.data.today,
         x: g.W / 2 - 330,
-        y: footY,
+        y: footY - 32,
         size: 32,
         minSize: 20,
         maxWidth: 320,
@@ -133,6 +133,7 @@ export function certificateLayout(g) {
         color: "#ffffff",
       },
       signatureLine: { y: footY, x1: g.W / 2 + 200, x2: g.W / 2 + 460 },
+      dateLine: { y: footY, x1: g.W / 2 - 460, x2: g.W / 2 - 200 },
     },
   };
 }

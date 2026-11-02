@@ -14,6 +14,7 @@ const CHECKS = [
   "check-translations.mjs",
   "test-protect-pdf.mjs",
   "test-canvas-text.mjs",
+  "test-canvas-font.mjs",
   "test-invoice.mjs",
   "test-image-pdf.mjs",
   "test-blog-indexing.mjs",

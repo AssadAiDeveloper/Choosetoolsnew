@@ -12,7 +12,7 @@
  * @param {{W: number, H: number, padX: number, photoX: number, photoW: number, isRtl: boolean}} g
  */
 export function idCardTextBox(g) {
-  const gap = g.W * 0.05;
+  const gap = g.W * 0.04;
   if (g.isRtl) {
     const right = g.photoX - gap;
     return {
@@ -47,18 +47,20 @@ export function idCardTextItems(g) {
     maxWidth: box.textAreaW,
     family: "Arial, sans-serif",
   };
-  const labelSize = Math.round(g.H * 0.026);
-  const valueSize = Math.round(g.H * 0.034);
+  const labelSize = Math.round(g.H * 0.045);
+  const valueSize = Math.round(g.H * 0.055);
 
   return {
     box,
-    divider: { x1: box.textX, x2: box.textX + box.textAreaW, y: g.photoY + g.H * 0.28 },
+    divider: g.isRtl
+      ? { x1: box.textX - box.textAreaW, x2: box.textX, y: g.photoY + g.H * 0.28 }
+      : { x1: box.textX, x2: box.textX + box.textAreaW, y: g.photoY + g.H * 0.28 },
     company: {
       text: g.company,
       x: g.W / 2,
       y: g.headerH * 0.52,
-      size: Math.round(g.H * 0.06),
-      minSize: Math.round(g.H * 0.03),
+      size: Math.round(g.H * 0.1),
+      minSize: Math.round(g.H * 0.078),
       maxWidth: g.W - g.padX * 2,
       maxLines: 1,
       weight: "800",
@@ -73,8 +75,8 @@ export function idCardTextItems(g) {
       text: g.name || g.labels.name,
       x: box.textX,
       y: g.photoY + g.H * 0.15,
-      size: Math.round(g.H * 0.058),
-      minSize: Math.round(g.H * 0.034),
+      size: Math.round(g.H * 0.09),
+      minSize: Math.round(g.H * 0.078),
       maxLines: 2,
       weight: "800",
       baseline: /** @type {const} */ ("last"),
@@ -85,8 +87,8 @@ export function idCardTextItems(g) {
       text: g.title || g.labels.title,
       x: box.textX,
       y: g.photoY + g.H * 0.235,
-      size: Math.round(g.H * 0.042),
-      minSize: Math.round(g.H * 0.024),
+      size: Math.round(g.H * 0.07),
+      minSize: Math.round(g.H * 0.06),
       maxLines: 1,
       weight: "700",
       baseline: /** @type {const} */ ("alphabetic"),
@@ -96,7 +98,7 @@ export function idCardTextItems(g) {
       ...base,
       text: g.labels.employeeId,
       x: box.textX,
-      y: g.photoY + g.H * 0.31,
+      y: g.photoY + g.H * 0.33,
       size: labelSize,
       minSize: Math.round(g.H * 0.018),
       maxLines: 1,
@@ -108,7 +110,7 @@ export function idCardTextItems(g) {
       ...base,
       text: g.idNumber || "\u2014",
       x: box.textX,
-      y: g.photoY + g.H * 0.365,
+      y: g.photoY + g.H * 0.385,
       size: valueSize,
       minSize: Math.round(g.H * 0.02),
       maxLines: 1,
@@ -120,7 +122,7 @@ export function idCardTextItems(g) {
       ...base,
       text: g.labels.hire,
       x: box.textX,
-      y: g.photoY + g.H * 0.425,
+      y: g.photoY + g.H * 0.45,
       size: labelSize,
       minSize: Math.round(g.H * 0.018),
       maxLines: 1,
@@ -132,7 +134,7 @@ export function idCardTextItems(g) {
       ...base,
       text: g.hireDate || "\u2014",
       x: box.textX,
-      y: g.photoY + g.H * 0.48,
+      y: g.photoY + g.H * 0.505,
       size: valueSize,
       minSize: Math.round(g.H * 0.02),
       maxLines: 1,
