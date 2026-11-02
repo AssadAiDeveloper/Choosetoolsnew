@@ -239,3 +239,11 @@ Sections appended: T2 (4 keys × 11), T5 (47 rows + blog follow-up), T6 (4 keys 
 - Merge commit: bd62917fa195f33b0bd5d17e4394b258a2c01b67
 - Checks run before merge: npm run typecheck (exit 0), npm test (exit 0, 10 checks), npm run build (exit 0, 2330 pages).
 - Status: Merged. Waiting for Vercel production deploy.
+
+## Phase 4 (CV Builder) — real text layer
+- CV1: recorder (src/lib/cvRecorder.mjs) wraps canvas 2d context, captures fillText runs per page.
+- CV2: src/lib/cvPdf.mjs buildCvPdf — PNG unchanged + invisible text layer (rendering mode 3 via pushOperators/setTextRenderingMode). Font: Amiri Regular (OFL, 386KB, lazy-loaded). Subset: true (fixes ToUnicode). sortRuns: logical order (ascending x for all locales, no pre-reversal).
+- CV3: scripts/test-cv-pdf.mjs (wired into npm test) — pdftotext verified for en (all fields in order); ar all chars present (no ?); A4 page size; 3 Tr present; fallback produces PDF. Artifacts in test-artifacts/cv/.
+- CV4: contact line uses Unicode isolates (RLI/PDI); bodyX0 fix for modern template RTL.
+- CV5: honest copy in en (desc/long/faq1a); blog article en partially fixed; TRANSLATION_REVIEW.md note.
+- Not verified: browser download, visual fidelity (PNG hash), Arabic pdftotext ordering (bidi limitation of pdftotext — text IS embedded correctly).
