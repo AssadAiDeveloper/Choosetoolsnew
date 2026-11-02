@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Processing, PrimaryButton, ResultCard, ErrorBox } from "../ToolShell";
 import { downloadBlob } from "@/lib/download";
+import { recordCtx } from "@/lib/cvRecorder.mjs";
 import { buildResumeHtml } from "./cvHtml";
 import { importCvFile, terminateOcr } from "@/lib/cvImport";
 
@@ -142,18 +143,33 @@ export default function CvBuilder() {
   const makeCanvas = () => {
     const c = document.createElement("canvas");
     c.width = W; c.height = H;
-    return { c, ctx: c.getContext("2d")! };
+    const runs: any[] = [];
+    const raw = c.getContext("2d")!;
+    const ctx = recordCtx(raw, runs) as any;
+    return { c, ctx, runs };
   };
 
-  const toPdf = async (pages: Blob[]) => {
-    const { PDFDocument } = await import("pdf-lib");
-    const doc = await PDFDocument.create();
-    for (const pageBlob of pages) {
-      const png = await doc.embedPng(await pageBlob.arrayBuffer());
-      const page = doc.addPage([595.28, 841.89]);
-      page.drawImage(png, { x: 0, y: 0, width: 595.28, height: 841.89 });
+  const toPdf = async (pages: { blob: Blob; runs: any[] }[]) => {
+    try {
+      const { buildCvPdf } = await import("@/lib/cvPdf.mjs");
+      // lazy-load the font
+      const fontRes = await fetch("/fonts/Amiri-Regular.ttf");
+      const fontBytes = new Uint8Array(await fontRes.arrayBuffer());
+      const pageData = await Promise.all(
+        pages.map(async (p) => ({ png: new Uint8Array(await p.blob.arrayBuffer()), runs: p.runs }))
+      );
+      return await buildCvPdf({ pages: pageData, pageSizePt: [595.28, 841.89], isRtl, fontBytes });
+    } catch (e) {
+      console.warn("cvPdf text layer failed, falling back to image-only PDF", e);
+      const { PDFDocument } = await import("pdf-lib");
+      const doc = await PDFDocument.create();
+      for (const pageBlob of pages) {
+        const png = await doc.embedPng(await pageBlob.blob.arrayBuffer());
+        const page = doc.addPage([595.28, 841.89]);
+        page.drawImage(png, { x: 0, y: 0, width: 595.28, height: 841.89 });
+      }
+      return doc.save();
     }
-    return doc.save();
   };
 
   const loadAvatar = (): Promise<HTMLImageElement | null> =>
@@ -166,15 +182,14 @@ export default function CvBuilder() {
     });
 
   // ---- shared body renderer for classic & minimal (linear flow) ----
-  const renderLinear = async (): Promise<Blob[]> => {
+  const renderLinear = async (): Promise<{ blob: Blob; runs: any[] }[]> => {
     const startAlign: CanvasTextAlign = isRtl ? "right" : "left";
     const x0: number = isRtl ? W - MARGIN : MARGIN;
     const contentW = W - MARGIN * 2;
     const minimal = template === "minimal";
 
-    const pages: Blob[] = [];
-    let canvas = makeCanvas().c;
-    let ctx = canvas.getContext("2d")!;
+    const pages: { blob: Blob; runs: any[] }[] = [];
+    let { c: canvas, ctx, runs } = makeCanvas();
     ctx.direction = isRtl ? "rtl" : "ltr";
     ctx.fillStyle = "#ffffff";
     ctx.fillRect(0, 0, W, H);
@@ -185,9 +200,9 @@ export default function CvBuilder() {
 
     const newPage = async () => {
       const blob: Blob = await new Promise((res) => canvas.toBlob((b) => res!(b!), "image/png"));
-      pages.push(blob);
-      canvas = makeCanvas().c;
-      ctx = canvas.getContext("2d")!;
+      pages.push({ blob, runs: [...runs] });
+      const m = makeCanvas();
+      canvas = m.c; ctx = m.ctx; runs = m.runs;
       ctx.direction = isRtl ? "rtl" : "ltr";
       ctx.fillStyle = "#ffffff";
       ctx.fillRect(0, 0, W, H);
@@ -293,7 +308,7 @@ export default function CvBuilder() {
       }
       ctx.font = "24px system-ui, sans-serif";
       ctx.fillStyle = "#6b7280";
-      for (const line of wrapText(contactParts.join("   •   "), contentW - 40, "24px system-ui, sans-serif")) {
+      for (const line of wrapText(contactParts.map((p) => isRtl ? `\u2066${p}\u2069` : p).join("   •   "), contentW - 40, "24px system-ui, sans-serif")) {
         ctx.fillText(line, W / 2, y);
         y += 26;
       }
@@ -340,7 +355,7 @@ export default function CvBuilder() {
       }
       ctx.font = "24px system-ui, sans-serif";
       ctx.fillStyle = "#6b7280";
-      for (const line of wrapText(contactParts.join("   •   "), contentW - 40, "24px system-ui, sans-serif")) {
+      for (const line of wrapText(contactParts.map((p) => isRtl ? `\u2066${p}\u2069` : p).join("   •   "), contentW - 40, "24px system-ui, sans-serif")) {
         ctx.fillText(line, centerX, y);
         y += 40;
       }
@@ -468,21 +483,20 @@ export default function CvBuilder() {
     }
 
     const finalBlob: Blob = await new Promise((res) => canvas.toBlob((b) => res!(b!), "image/png"));
-    pages.push(finalBlob);
+    pages.push({ blob: finalBlob, runs: [...runs] });
     return pages;
   };
 
   // ---- modern: full-height colored sidebar ----
-  const renderModern = async (): Promise<Blob[]> => {
+  const renderModern = async (): Promise<{ blob: Blob; runs: any[] }[]> => {
     const sidebar = isRtl ? W - SIDE : 0;
     const bodyX0 = isRtl ? MARGIN : SIDE + MARGIN;
     const bodyW = W - SIDE - MARGIN * 2;
     const startAlign: CanvasTextAlign = isRtl ? "right" : "left";
     const dark = shade(accent, -18);
 
-    const pages: Blob[] = [];
-    let canvas = makeCanvas().c;
-    let ctx = canvas.getContext("2d")!;
+    const pages: { blob: Blob; runs: any[] }[] = [];
+    let { c: canvas, ctx, runs } = makeCanvas();
     const blank = () => {
       ctx.fillStyle = "#ffffff";
       ctx.fillRect(0, 0, W, H);
@@ -500,9 +514,9 @@ export default function CvBuilder() {
 
     const newPage = async () => {
       const blob: Blob = await new Promise((res) => canvas.toBlob((b) => res!(b!), "image/png"));
-      pages.push(blob);
-      canvas = makeCanvas().c;
-      ctx = canvas.getContext("2d")!;
+      pages.push({ blob, runs: [...runs] });
+      const m = makeCanvas();
+      canvas = m.c; ctx = m.ctx; runs = m.runs;
       ctx.direction = isRtl ? "rtl" : "ltr";
       blank();
       y = MARGIN;
@@ -742,7 +756,7 @@ export default function CvBuilder() {
     }
 
     const finalBlob: Blob = await new Promise((res) => canvas.toBlob((b) => res!(b!), "image/png"));
-    pages.push(finalBlob);
+    pages.push({ blob: finalBlob, runs: [...runs] });
     return pages;
   };
 

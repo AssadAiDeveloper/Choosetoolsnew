@@ -33,7 +33,7 @@
       "heading": "Achievement-First Bullets and Clean Hierarchy",
       "paragraphs": [
         "Strong resumes lead with outcomes: \"raised conversion 18%\" beats \"responsible for marketing\" every time because results are concrete and memorable.",
-        "Templates guide achievements into the bullets that fill an ATS-friendly page with consistent formatting and spacing.",
+        "Templates guide achievements into the bullets that fill an text-based page with consistent formatting and spacing.",
         "Recruiters read the result as professional instinct, not formatting effort, because the layout communicates competence before content."
       ]
     },
@@ -48,13 +48,13 @@
     {
       "heading": "Tailoring Your CV for Different Industries",
       "paragraphs": [
-        "Creative fields reward visual personality. A graphic designer or architect benefits from a layout that showcases typography and whitespace, while still keeping text selectable for ATS parsing. The builder's clean templates let design speak through structure rather than decorative clutter.",
+        "Creative fields reward visual personality. A graphic designer or architect benefits from a layout that showcases typography and whitespace, while still keeping text searchable and copyable. The builder's clean templates let design speak through structure rather than decorative clutter.",
         "Corporate and technical roles prioritize substance over style. Accountants, engineers and project managers need dense, scannable sections where certifications, tools and responsibilities appear in predictable order. The builder places these sections prominently so recruiters find them within seconds.",
         "Academic and research CVs diverge from the standard format by expanding the education section and listing publications, grants and conference appearances. While the builder focuses on professional resumes, the reorderable section feature accommodates these extended structures without forcing an unnatural layout."
       ]
     },
     {
-      "heading": "ATS-Friendly Output That Prints Beautifully",
+      "heading": "Text-based Output That Prints Beautifully",
       "paragraphs": [
         "Applicant tracking systems parse simple, consistent formatting; the PDF export keeps text selectable and headings clear so the software reads every section correctly.",
         "The same document prints crisply on standard A4 and letter paper, and reads on screen for human reviewers who prefer digital review.",
@@ -89,7 +89,7 @@
   "faqs": [
     {
       "q": "Is the resume exported as a PDF?",
-      "a": "Yes. The finished CV exports as a clean, print-ready PDF that is also selectable for applicant tracking systems."
+      "a": "Yes. The finished CV exports as a clean, print-ready PDF that is also searchable and copyable."
     },
     {
       "q": "Can I reorder sections for my field?",
