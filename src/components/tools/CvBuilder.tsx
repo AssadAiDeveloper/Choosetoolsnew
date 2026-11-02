@@ -490,7 +490,7 @@ export default function CvBuilder() {
   // ---- modern: full-height colored sidebar ----
   const renderModern = async (): Promise<{ blob: Blob; runs: any[] }[]> => {
     const sidebar = isRtl ? W - SIDE : 0;
-    const bodyX0 = isRtl ? MARGIN : SIDE + MARGIN;
+    const bodyX0 = isRtl ? W - SIDE - MARGIN : SIDE + MARGIN;
     const bodyW = W - SIDE - MARGIN * 2;
     const startAlign: CanvasTextAlign = isRtl ? "right" : "left";
     const dark = shade(accent, -18);
