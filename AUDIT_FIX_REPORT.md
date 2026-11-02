@@ -232,3 +232,10 @@ Sections appended: T2 (4 keys × 11), T5 (47 rows + blog follow-up), T6 (4 keys 
 1. ID card: increased gap between divider and first label (divider y 0.28H→0.25H, labels shifted down ~0.02H). Consistent across locales (layout-driven).
 2. Certificate: added dateLine (mirrored signature line, same width, same y=footY) under the date block; both lines at same y. CERT text now uses real font sizes (root cause fix).
 - Not verified visually (no browser in env). QA to check real download.
+
+## Merge (Phase 3)
+- Date: 2026-11-02
+- PR: #2 (fix/blog-noindex-idcard)
+- Merge commit: bd62917fa195f33b0bd5d17e4394b258a2c01b67
+- Checks run before merge: npm run typecheck (exit 0), npm test (exit 0, 10 checks), npm run build (exit 0, 2330 pages).
+- Status: Merged. Waiting for Vercel production deploy.
