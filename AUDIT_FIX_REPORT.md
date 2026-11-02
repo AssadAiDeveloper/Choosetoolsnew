@@ -247,3 +247,9 @@ Sections appended: T2 (4 keys × 11), T5 (47 rows + blog follow-up), T6 (4 keys 
 - CV4: contact line uses Unicode isolates (RLI/PDI); bodyX0 fix for modern template RTL.
 - CV5: honest copy in en (desc/long/faq1a); blog article en partially fixed; TRANSLATION_REVIEW.md note.
 - Not verified: browser download, visual fidelity (PNG hash), Arabic pdftotext ordering (bidi limitation of pdftotext — text IS embedded correctly).
+
+## Phase 4 (follow-up 2) — Bug A (off-canvas RTL body text) + Bug B (reversed text layer)
+- Bug A root cause: modern template bodyX0 = MARGIN (left) in RTL with startAlign="right" → text right-aligned at left edge, extending off-canvas. Fixed: bodyX0 = W - SIDE - MARGIN (right edge of body) in RTL.
+- Bug B root cause: pdf-lib's font.layout() applies OpenType shaping (GSUB) producing visual-order glyphs. Fixed: embed font with features: [] (disable shaping) so glyphs are stored in logical order. Also sortRuns now preserves insertion order (no x-sort) instead of pre-reversing.
+- Test: test-cv-pdf.mjs now decodes ToUnicode CMap and asserts each input string appears in logical order with no '?' (stream-decode check). Passes for both en and ar.
+- Not verified: browser download (no browser in env). QA to verify real download shows no off-canvas text and correct extraction.

@@ -5,7 +5,7 @@ import { PDFDocument, rgb } from "pdf-lib";
 import fontkit from "@pdf-lib/fontkit";
 
 export function sortRuns(runs, isRtl) {
-  const norm = runs.map((r) => ({
+  const norm = runs.map((r, idx) => ({
     text: String(r.text ?? ""),
     x: Number(r.x) || 0,
     y: Number(r.y) || 0,
@@ -15,6 +15,7 @@ export function sortRuns(runs, isRtl) {
     align: r.align ?? "left",
     direction: r.direction ?? "ltr",
     color: r.color ?? "#000000",
+    _idx: idx,
   })).filter((r) => r.text.trim().length > 0);
 
   const lines = [];
@@ -27,8 +28,9 @@ export function sortRuns(runs, isRtl) {
   }
   lines.sort((a, b) => a.y - b.y);
   for (const line of lines) {
-    // Logical order for all locales: ascending x. Do not pre-reverse Arabic.
-    line.items.sort((a, b) => a.x - b.x);
+    // Preserve drawing (insertion) order within a line. Do not pre-reverse
+    // Arabic; extractors read the stream order.
+    line.items.sort((a, b) => a._idx - b._idx);
   }
   return lines.flatMap((l) => l.items);
 }
@@ -45,7 +47,7 @@ export async function buildCvPdf({ pages, pageSizePt, isRtl, fontBytes }) {
   let font = null;
   if (fontBytes) {
     try {
-      font = await doc.embedFont(fontBytes, { subset: true });
+      font = await doc.embedFont(fontBytes, { subset: true, features: [] });
     } catch (e) {
       console.warn("cvPdf: font embed failed", e);
       font = null;

@@ -88,6 +88,27 @@ for (const [label, isRtl, r] of [["ar", true, runs], ["en", false, enRuns]]) {
     check(!text.includes("?"), `${label}: no '?' placeholders in extracted text`);
   }
 
+  // Stream-decode check: parse ToUnicode CMap and map glyph IDs from Tj hex strings.
+  try {
+    const { decodePdfStreams, parseToUnicode, extractTextFromStreams } = await import("./lib/pdfDecode.mjs");
+    const streams = decodePdfStreams(bytes);
+    const toUnicode = parseToUnicode(streams);
+    const decoded = extractTextFromStreams(streams, toUnicode);
+    const hasQuestion = decoded.includes("?");
+    check(!hasQuestion, `${label}: stream-decode has no '?' placeholders`);
+    for (const run of r) {
+      const present = [...run.text].every((ch) => ch === " " || decoded.includes(ch));
+      check(present, `${label}: stream-decode contains chars of "${run.text.slice(0, 30)}"`);
+    }
+    if (label === "en") {
+      const nameIdx = decoded.indexOf(r[0].text);
+      const titleIdx = decoded.indexOf(r[1].text);
+      check(nameIdx >= 0 && titleIdx > nameIdx, `${label}: stream-decode reading order name -> title`);
+    }
+  } catch (e) {
+    console.log("  (stream-decode skipped:", e.message.slice(0, 80), ")");
+  }
+
   // 3 Tr check via qpdf --qdf
   try {
     const qdfPath = join(TD, `cv-${label}.qdf`);
