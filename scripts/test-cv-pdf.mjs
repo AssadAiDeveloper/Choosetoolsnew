@@ -97,8 +97,7 @@ for (const [label, isRtl, r] of [["ar", true, runs], ["en", false, enRuns]]) {
     const hasQuestion = decoded.includes("?");
     check(!hasQuestion, `${label}: stream-decode has no '?' placeholders`);
     for (const run of r) {
-      const present = [...run.text].every((ch) => ch === " " || decoded.includes(ch));
-      check(present, `${label}: stream-decode contains chars of "${run.text.slice(0, 30)}"`);
+      check(decoded.includes(run.text), `${label}: stream-decode contains "${run.text.slice(0, 30)}" in LOGICAL order`);
     }
     if (label === "en") {
       const nameIdx = decoded.indexOf(r[0].text);

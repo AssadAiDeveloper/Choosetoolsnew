@@ -1,7 +1,7 @@
 /**
  * Pure PDF builder for the CV (resume) export.
  */
-import { PDFDocument, rgb } from "pdf-lib";
+import { PDFDocument, rgb, PDFHexString } from "pdf-lib";
 import fontkit from "@pdf-lib/fontkit";
 
 export function sortRuns(runs, isRtl) {
@@ -48,6 +48,22 @@ export async function buildCvPdf({ pages, pageSizePt, isRtl, fontBytes }) {
   if (fontBytes) {
     try {
       font = await doc.embedFont(fontBytes, { subset: true, features: [] });
+      // pdf-lib's font.layout() applies OpenType shaping which stores Arabic
+      // glyphs in visual order. Encode per code point instead so the text layer
+      // keeps logical order (extractors read stream order).
+      const origEncode = font.encodeText.bind(font);
+      font.encodeText = (text) => {
+        let hex = "";
+        for (const ch of String(text)) {
+          try {
+            const e = origEncode(ch);
+            hex += (typeof e.toString === "function" ? e.toString() : String(e)).replace(/[<>]/g, "");
+          } catch {
+            // skip unencodable char
+          }
+        }
+        return PDFHexString.of(hex);
+      };
     } catch (e) {
       console.warn("cvPdf: font embed failed", e);
       font = null;
@@ -70,17 +86,12 @@ export async function buildCvPdf({ pages, pageSizePt, isRtl, fontBytes }) {
       try {
         const text = String(run.text);
         if (!text.trim()) continue;
-        let safe = "";
-        for (const ch of text) {
-          try { font.encodeText(ch); safe += ch; } catch { /* skip */ }
-        }
-        if (!safe.trim()) continue;
 
         const x = run.x * sx;
         const y = ptH - run.y * sy;
         const size = run.size * sy;
 
-        p.drawText(safe, { x, y, size, font, color: rgb(0, 0, 0) });
+        p.drawText(text, { x, y, size, font, color: rgb(0, 0, 0) });
       } catch (e) {
         // skip this run, never abort
       }

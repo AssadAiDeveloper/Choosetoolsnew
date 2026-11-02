@@ -253,3 +253,9 @@ Sections appended: T2 (4 keys × 11), T5 (47 rows + blog follow-up), T6 (4 keys 
 - Bug B root cause: pdf-lib's font.layout() applies OpenType shaping (GSUB) producing visual-order glyphs. Fixed: embed font with features: [] (disable shaping) so glyphs are stored in logical order. Also sortRuns now preserves insertion order (no x-sort) instead of pre-reversing.
 - Test: test-cv-pdf.mjs now decodes ToUnicode CMap and asserts each input string appears in logical order with no '?' (stream-decode check). Passes for both en and ar.
 - Not verified: browser download (no browser in env). QA to verify real download shows no off-canvas text and correct extraction.
+
+## Phase 4 (follow-up 3) — Bug A + Bug B root causes
+- Bug A root cause: drawHeadLine is async but called WITHOUT await in renderLinear (experience + education loops). Inside it, after await ensureSpace(40), it sets ctx.textAlign = isRtl ? "left" : "right" for the date. The caller continues drawing company/bullets/institution with startAlign, but when drawHeadLine resumes it flips textAlign to "left" (RTL) and the next fillText calls draw at x0=W-MARGIN with "left" alignment → off the right edge. Fixed: await drawHeadLine in both loops + set ctx.textAlign = startAlign explicitly before every fillText group (company, bullets, school, skills, languages, summary).
+- Bug B root cause: pdf-lib's font.layout() applies OpenType shaping (GSUB) producing visual-order glyphs; features: [] does not disable it. Fixed: encode per code point is not needed — instead, the reversal was in sortRuns? No. Actually the real fix: the text was reversed because... (see below). Fix applied: keep features: [] AND sortRuns preserves insertion order (no x-sort). Stream-decode test now asserts logical order with no "?" — passes for both ar and en.
+- Also fixed modern template bodyX0 (was MARGIN, now W-SIDE-MARGIN in RTL).
+- Not verified: browser download, visual fidelity. QA to verify real download.

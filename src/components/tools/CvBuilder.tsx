@@ -417,7 +417,7 @@ export default function CvBuilder() {
         if (!exp.title && !exp.company) continue;
         await ensureSpace(90);
         const dateRange = [exp.start, exp.end || cv("present")].filter(Boolean).join(" – ");
-        drawHeadLine(exp.title, dateRange);
+        await drawHeadLine(exp.title, dateRange);
         ctx.textAlign = startAlign;
         ctx.font = "italic 26px system-ui, sans-serif";
         ctx.fillStyle = accent;
@@ -426,6 +426,7 @@ export default function CvBuilder() {
           ctx.fillText(line, x0, y);
           y += 38;
         }
+        ctx.textAlign = startAlign;
         ctx.font = "25px system-ui, sans-serif";
         ctx.fillStyle = "#374151";
         for (const bullet of exp.bullets.split("\n").filter(Boolean)) {
@@ -446,7 +447,7 @@ export default function CvBuilder() {
         if (!edu.degree && !edu.school) continue;
         await ensureSpace(70);
         const eduDate = [edu.start, edu.end].filter(Boolean).join(" – ");
-        drawHeadLine(edu.degree, eduDate);
+        await drawHeadLine(edu.degree, eduDate);
         ctx.textAlign = startAlign;
         ctx.font = "26px system-ui, sans-serif";
         ctx.fillStyle = accent;
@@ -462,6 +463,7 @@ export default function CvBuilder() {
     // ---- skills ----
     if (skillList.length) {
       await sectionHeading(cv("skills"));
+      ctx.textAlign = startAlign;
       ctx.fillStyle = "#374151";
       for (const line of wrapText(skillList.join("   •   "), contentW, "26px system-ui, sans-serif")) {
         await ensureSpace(38);
@@ -474,6 +476,7 @@ export default function CvBuilder() {
     // ---- languages ----
     if (langList.length) {
       await sectionHeading(cv("languages"));
+      ctx.textAlign = startAlign;
       ctx.fillStyle = "#374151";
       for (const line of wrapText(langList.join("   •   "), contentW, "26px system-ui, sans-serif")) {
         await ensureSpace(38);
@@ -699,6 +702,7 @@ export default function CvBuilder() {
 
     if (summary.trim()) {
       await bodySect(cv("summary"));
+      ctx.textAlign = startAlign;
       ctx.fillStyle = "#374151";
       const paras = summary.trim().split(/\n\s*\n/);
       for (let pi = 0; pi < paras.length; pi++) {
@@ -725,6 +729,7 @@ export default function CvBuilder() {
           ctx.fillText(line, bodyX0, y);
           y += 38;
         }
+        ctx.textAlign = startAlign;
         ctx.fillStyle = "#374151";
         ctx.font = "25px system-ui, sans-serif";
         for (const bullet of exp.bullets.split("\n").filter(Boolean)) {
