@@ -6,6 +6,7 @@ import { routing } from "@/i18n/routing";
 import { ogImage, ogImageUrl, ogLocale } from "@/i18n/og";
 import { SITE_URL, SITE_NAME } from "@/lib/tools";
 import { getGuide, guideAvailable, guideSlugs } from "@/lib/guides";
+import { InlineText } from "@/components/InlineText";
 import { INDEXABLE_LOCALES, isIndexableBlogSlug, isIndexableLocale } from "@/lib/indexing";
 import { blogPathFor } from "@/lib/blog";
 
@@ -140,31 +141,31 @@ export default async function GuidePage({ params }: { params: Promise<Params> })
             return <Tag key={i} className="mt-6 text-xl font-bold tracking-tight text-ink">{block.text}</Tag>;
           }
           if (block.type === "paragraph") {
-            return <p key={i} className="mt-3">{block.text}</p>;
+            return <p key={i} className="mt-3"><InlineText text={block.text || ""} locale={locale} /></p>;
           }
           if (block.type === "orderedList") {
             return (
               <ol key={i} className="mt-3 list-decimal space-y-1 ps-5">
-                {(block.items || []).map((it, j) => <li key={j}>{it}</li>)}
+                {(block.items || []).map((it, j) => <li key={j}><InlineText text={it} locale={locale} /></li>)}
               </ol>
             );
           }
           if (block.type === "unorderedList") {
             return (
               <ul key={i} className="mt-3 list-disc space-y-1 ps-5">
-                {(block.items || []).map((it, j) => <li key={j}>{it}</li>)}
+                {(block.items || []).map((it, j) => <li key={j}><InlineText text={it} locale={locale} /></li>)}
               </ul>
             );
           }
           if (block.type === "callout") {
             const cls = block.variant === "warning" ? "border-amber-300 bg-amber-50 text-amber-900" : "border-brand-200 bg-brand-50 text-brand-900";
-            return <div key={i} className={`mt-4 rounded-card border p-4 text-sm ${cls}`}>{block.text}</div>;
+            return <div key={i} className={`mt-4 rounded-card border p-4 text-sm ${cls}`}><InlineText text={block.text || ""} locale={locale} /></div>;
           }
           if (block.type === "image") {
             return (
               <figure key={i} className="mt-4">
                 <img src={block.src} alt={block.alt || ""} width={block.width} height={block.height} className="rounded-card border border-line" />
-                {block.caption && <figcaption className="mt-1 text-xs text-ink-soft">{block.caption}</figcaption>}
+                {block.caption && <figcaption className="mt-1 text-xs text-ink-soft"><InlineText text={block.caption} locale={locale} /></figcaption>}
               </figure>
             );
           }
@@ -175,8 +176,8 @@ export default async function GuidePage({ params }: { params: Promise<Params> })
                 <div className="mt-3 space-y-3">
                   {(block.faqItems || []).filter((f) => f.a?.trim()).map((f, j) => (
                     <details key={j} className="group rounded-card border border-line bg-surface p-4">
-                      <summary className="cursor-pointer font-semibold text-ink">{f.q}</summary>
-                      <p className="mt-2 text-ink-soft">{f.a}</p>
+                      <summary className="cursor-pointer font-semibold text-ink"><InlineText text={f.q} locale={locale} /></summary>
+                      <p className="mt-2 text-ink-soft"><InlineText text={f.a} locale={locale} /></p>
                     </details>
                   ))}
                 </div>

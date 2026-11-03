@@ -20,6 +20,7 @@ const CHECKS = [
   "test-image-pdf.mjs",
   "test-blog-indexing.mjs",
   "validate-guides.mjs",
+  "test-inline-text.mjs",
   "check-sitemap.mjs",
   "check-links.mjs",
 ];

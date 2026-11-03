@@ -22,7 +22,7 @@
     },
     {
       "type": "paragraph",
-      "text": "This guide shows how, and what we saw when we ran the same test on ChooseTools."
+      "text": "Large cloud tools state their retention rules openly. Smallpdf says files are deleted from its servers after one hour of processing ([Smallpdf, \"Is Smallpdf safe\"](https://smallpdf.com/blog/is-smallpdf-safe), checked 2 Nov 2026). iLovePDF published a post saying files are deleted within two hours of upload ([iLovePDF, April 2023](https://www.ilovepdf.com/vi/blog/delete-file-from-ilovepdf); TODO: re-check the current policy before publishing). These are statements about what a company does after your file arrived. The test below checks whether it arrived at all."
     },
     {
       "type": "heading",
@@ -149,19 +149,6 @@
         "[Compress PDF](https://www.choosetools.com/pdf/compress-pdf)",
         "[Remove PDF Password](https://www.choosetools.com/pdf/protect-pdf) (note: the unlocked copy is made of page images, so text cannot be selected)",
         "[Privacy page](https://www.choosetools.com/privacy)"
-      ]
-    },
-    {
-      "type": "faq",
-      "faqItems": [
-        {
-          "q": "Does the test work on mobile?",
-          "a": "Mobile browsers have limited developer tools. Use a desktop browser for this check."
-        },
-        {
-          "q": "Is a blob: request an upload?",
-          "a": "No. A blob: address points to data in your browser's memory, not a server."
-        }
       ]
     }
   ]
