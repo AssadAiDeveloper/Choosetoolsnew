@@ -49,7 +49,7 @@
     {
       "type": "orderedList",
       "items": [
-        "Open the tool's page, for example [Merge PDF](https://www.choosetools.com/pdf/merge-pdf).",
+        "Open the tool's page, for example [merge-pdf:Merge PDF].",
         "Open the browser's developer tools. In Chrome, Edge and Firefox press F12 (or Ctrl+Shift+I; Cmd+Option+I on a Mac). In Safari, enable the Develop menu in Settings first, then open the Web Inspector.",
         "Open the **Network** tab. Turn on \"Preserve log\" if you see it. Click the clear button so the list is empty.",
         "Drop your test file (or two files) into the tool and run it.",
@@ -145,10 +145,10 @@
     {
       "type": "unorderedList",
       "items": [
-        "[Merge PDF](https://www.choosetools.com/pdf/merge-pdf)",
-        "[Compress PDF](https://www.choosetools.com/pdf/compress-pdf)",
-        "[Remove PDF Password](https://www.choosetools.com/pdf/protect-pdf) (note: the unlocked copy is made of page images, so text cannot be selected)",
-        "[Privacy page](https://www.choosetools.com/privacy)"
+        "[merge-pdf:Merge PDF]",
+        "[compress-pdf:Compress PDF]",
+        "[protect-pdf:Remove PDF Password] (note: the unlocked copy is made of page images, so text cannot be selected)",
+        "[Privacy page](/privacy)"
       ]
     }
   ]

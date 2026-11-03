@@ -28,13 +28,14 @@ let failures = 0;
 const check = (ok, label) => { if (ok) console.log("  ok   " + label); else { console.error("  FAIL " + label); failures++; } };
 
 // 2. Unit tests on the inline parser regex (mirror of InlineText.tsx)
-const re = /(\[([^\]]+)\]\((https?:\/\/[^)]+)\)|\[([a-z0-9-]+):([^\]]+)\]|\*\*([^*]+)\*\*|\*([^*]+)\*|`([^`]+)`)/g;
+const re = /(\[([^\]]+)\]\(([^)]+)\)|\[([a-z0-9-]+):([^\]]+)\]|\*\*([^*]+)\*\*|\*([^*]+)\*|`([^`]+)`)/g;
 function hasMatch(text, expectedHref) {
   const matches = [...text.matchAll(re)];
   return matches.some((m) => m[3] === expectedHref || m[4] === expectedHref);
 }
 check(hasMatch("See [Smallpdf](https://smallpdf.com/blog/is-smallpdf-safe) here", "https://smallpdf.com/blog/is-smallpdf-safe"), "external link regex matches");
 check(hasMatch("Use [merge-pdf:Merge PDF] now", "merge-pdf"), "internal tool link regex matches");
+check(hasMatch("See [Privacy page](/privacy) here", "/privacy"), "site-relative link regex matches");
 check(/\*\*bold\*\*/.test("**bold**"), "bold syntax present");
 check(/`code`/.test("`code`"), "code syntax present");
 
@@ -52,6 +53,7 @@ if (html) {
   check(html.includes('href="https://smallpdf.com/blog/is-smallpdf-safe"'), "rendered HTML contains Smallpdf anchor");
   check(html.includes('rel="noopener noreferrer"'), "external links have rel=noopener noreferrer");
   check(html.includes('href="/pdf/merge-pdf"'), "rendered HTML contains Merge PDF internal link");
+  check(html.includes('href="/privacy"'), "rendered HTML contains privacy internal link (locale-aware)");
   // no raw syntax in rendered article
   const articleMatch = html.match(/<article[\s\S]*?<\/article>/);
   const articleHtml = articleMatch ? articleMatch[0] : html;

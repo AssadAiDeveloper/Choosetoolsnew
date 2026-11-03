@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "@/i18n/navigation";
 import { findToolForSlug } from "@/lib/blog";
+import { TOOLS } from "@/lib/tools";
 
 interface Props {
   text: string;
@@ -9,15 +10,6 @@ interface Props {
 
 type Node = string | React.ReactElement;
 
-/**
- * Renders inline formatting in guide text:
- *   - [text](https://...)        external link (rel="noopener noreferrer", no nofollow)
- *   - [tool-slug:Link text]     internal tool link (localized path)
- *   - **bold**
- *   - *italic*
- *   - `code`
- * Everything else is escaped (rendered as text).
- */
 export function InlineText({ text, locale }: Props) {
   const nodes = parseInline(text, locale);
   return <>{nodes}</>;
@@ -25,29 +17,40 @@ export function InlineText({ text, locale }: Props) {
 
 export function parseInline(text: string, locale: string): Node[] {
   const out: Node[] = [];
-  // Tokenize: try to match patterns in priority order.
-  const re = /(\[([^\]]+)\]\((https?:\/\/[^)]+)\)|\[([a-z0-9-]+):([^\]]+)\]|\*\*([^*]+)\*\*|\*([^*]+)\*|`([^`]+)`)/g;
+  const re = /(\[([^\]]+)\]\(([^)]+)\)|\[([a-z0-9-]+):([^\]]+)\]|\*\*([^*]+)\*\*|\*([^*]+)\*|`([^`]+)`)/g;
   let last = 0;
   let m: RegExpExecArray | null;
   let key = 0;
   while ((m = re.exec(text)) !== null) {
     if (m.index > last) out.push(text.slice(last, m.index));
     const full = m[0];
-    if (m[3]) {
-      // external link: [text](url)
-      out.push(
-        <a key={key++} href={m[3]} target="_blank" rel="noopener noreferrer" className="font-medium text-brand-700 underline">
-          {m[2]}
-        </a>
-      );
+    if (m[2] && m[3]) {
+      const label = m[2];
+      const target = m[3];
+      if (target.startsWith("http://") || target.startsWith("https://") || target.startsWith("//")) {
+        out.push(
+          <a key={key++} href={target} target="_blank" rel="noopener noreferrer" className="font-medium text-brand-700 underline">
+            {label}
+          </a>
+        );
+      } else if (target.startsWith("/")) {
+        const prefix = locale === "en" ? "" : `/${locale}`;
+        out.push(
+          <Link key={key++} href={`${prefix}${target}`} className="font-medium text-brand-700 underline">
+            {label}
+          </Link>
+        );
+      } else {
+        out.push(full);
+      }
     } else if (m[4] && m[5]) {
-      // internal tool link: [slug:text]
       const slug = m[4];
       const label = m[5];
       const tool = findToolForSlug(slug);
       const href = tool ? `/${tool.category}/${slug}` : `/guides/${slug}`;
+      const prefix = locale === "en" ? "" : `/${locale}`;
       out.push(
-        <Link key={key++} href={href} className="font-medium text-brand-700 underline">
+        <Link key={key++} href={`${prefix}${href}`} className="font-medium text-brand-700 underline">
           {label}
         </Link>
       );
@@ -65,3 +68,6 @@ export function parseInline(text: string, locale: string): Node[] {
   if (last < text.length) out.push(text.slice(last));
   return out;
 }
+
+// Export TOOLS for validator reuse
+export { TOOLS };

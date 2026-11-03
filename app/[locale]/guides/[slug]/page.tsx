@@ -164,7 +164,7 @@ export default async function GuidePage({ params }: { params: Promise<Params> })
           if (block.type === "image") {
             return (
               <figure key={i} className="mt-4">
-                <img src={block.src} alt={block.alt || ""} width={block.width} height={block.height} className="rounded-card border border-line" />
+                <img src={block.src} alt={block.alt || ""} width={block.width || 1} height={block.height || 1} loading="lazy" style={{ maxWidth: "100%", height: "auto" }} className="rounded-card border border-line" />
                 {block.caption && <figcaption className="mt-1 text-xs text-ink-soft"><InlineText text={block.caption} locale={locale} /></figcaption>}
               </figure>
             );
