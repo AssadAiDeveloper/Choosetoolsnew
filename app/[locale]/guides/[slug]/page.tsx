@@ -92,7 +92,9 @@ export default async function GuidePage({ params }: { params: Promise<Params> })
       url: SITE_URL + guidePathFor(locale, slug),
       datePublished: guide.datePublished,
       dateModified: guide.dateModified,
-      author: { "@type": "Person", name: guide.author },
+      author: guide.author === "ChooseTools Team"
+        ? { "@type": "Organization", name: "ChooseTools", url: "https://www.choosetools.com" }
+        : { "@type": "Person", name: guide.author },
       publisher: { "@type": "Organization", name: SITE_NAME, url: SITE_URL },
       inLanguage: locale,
       keywords: guide.keywords,

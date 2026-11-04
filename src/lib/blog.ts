@@ -157,7 +157,7 @@ export function lastModified(): string {
 }
 
 /** Visible author for blog articles. Owner to replace "TODO Owner" with a real name. */
-export const ARTICLE_AUTHOR = "TODO Owner";
+export const ARTICLE_AUTHOR = "ChooseTools Team";
 
 /** Readable keyword columns for authoring convenience (kept here for tool authors). */
 export const SEARCH_INTENT_TEMPLATES = {
