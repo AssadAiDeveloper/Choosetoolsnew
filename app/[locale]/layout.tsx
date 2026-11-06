@@ -9,6 +9,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { LanguageSuggestionBanner } from "@/components/LanguageSuggestionBanner";
 import { SITE_URL } from "@/lib/tools";
+import { SOCIAL_LINKS } from "@/lib/site";
 import { IBM_Plex_Sans_Arabic, IBM_Plex_Mono } from "next/font/google";
 import "../globals.css";
 
@@ -92,6 +93,7 @@ export default async function LocaleLayout({
       "@type": "Organization",
       name: "ChooseTools",
       url: SITE_URL,
+      sameAs: [SOCIAL_LINKS.linkedin, SOCIAL_LINKS.facebook],
       logo: {
         "@type": "ImageObject",
         url: `${SITE_URL}/icon-512.png`,
