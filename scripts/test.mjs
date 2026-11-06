@@ -21,6 +21,7 @@ const CHECKS = [
   "test-blog-indexing.mjs",
   "validate-guides.mjs",
   "test-author.mjs",
+  "test-social-links.mjs",
   "test-inline-text.mjs",
   "check-sitemap.mjs",
   "check-links.mjs",

@@ -1204,7 +1204,9 @@
     "toolsCol": "Tools",
     "popularCol": "Popular tools",
     "companyCol": "Company",
-    "blog": "Blog"
+    "blog": "Blog",
+    "linkedin": "ChooseTools on LinkedIn",
+    "facebook": "ChooseTools on Facebook"
   },
   "breadcrumb": {
     "home": "Home"

@@ -1204,7 +1204,9 @@
     "toolsCol": "الأدوات",
     "popularCol": "الأدوات الأكثر استخداماً",
     "companyCol": "الموقع",
-    "blog": "المدونة"
+    "blog": "المدونة",
+    "linkedin": "ChooseTools على LinkedIn",
+    "facebook": "ChooseTools على Facebook"
   },
   "breadcrumb": {
     "home": "الرئيسية"

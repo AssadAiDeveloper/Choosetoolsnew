@@ -1204,7 +1204,9 @@
     "toolsCol": "टूल",
     "popularCol": "लोकप्रिय टूल",
     "companyCol": "कंपनी",
-    "blog": "ब्लॉग"
+    "blog": "ब्लॉग",
+    "linkedin": "ChooseTools on LinkedIn",
+    "facebook": "ChooseTools on Facebook"
   },
   "breadcrumb": {
     "home": "होम"

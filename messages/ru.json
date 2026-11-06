@@ -1204,7 +1204,9 @@
     "toolsCol": "Инструменты",
     "popularCol": "Популярные инструменты",
     "companyCol": "Компания",
-    "blog": "Блог"
+    "blog": "Блог",
+    "linkedin": "ChooseTools on LinkedIn",
+    "facebook": "ChooseTools on Facebook"
   },
   "breadcrumb": {
     "home": "Главная"

@@ -1204,7 +1204,9 @@
     "toolsCol": "Hulpmiddelen",
     "popularCol": "Populaire tools",
     "companyCol": "Bedrijf",
-    "blog": "Blog"
+    "blog": "Blog",
+    "linkedin": "ChooseTools op LinkedIn",
+    "facebook": "ChooseTools op Facebook"
   },
   "breadcrumb": {
     "home": "Home"

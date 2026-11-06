@@ -1204,7 +1204,9 @@
     "toolsCol": "Araçlar",
     "popularCol": "Popüler araçlar",
     "companyCol": "Şirket",
-    "blog": "Blog"
+    "blog": "Blog",
+    "linkedin": "ChooseTools on LinkedIn",
+    "facebook": "ChooseTools on Facebook"
   },
   "breadcrumb": {
     "home": "Ana Sayfa"

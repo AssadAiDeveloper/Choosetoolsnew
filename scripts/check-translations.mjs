@@ -19,6 +19,8 @@ const SAME_BY_DESIGN = new Set([
   "nav.menu",
   "nav.image",
   "footer.blog",
+  "footer.linkedin",
+  "footer.facebook",
   "home.impact1n",
   "home.impact2n",
   "home.impact3n",
