@@ -27,8 +27,8 @@ check(footerSrc.includes("SOCIAL_LINKS.linkedin") && footerSrc.includes("SOCIAL_
 check(footerSrc.includes('rel="noopener noreferrer me"'), "Footer links have rel=noopener noreferrer me");
 check(footerSrc.includes('target="_blank"'), "Footer links open in new tab");
 check(footerSrc.includes('aria-label={t("linkedin")}') && footerSrc.includes('aria-label={t("facebook")}'), "Footer uses translated aria-labels");
-check(footerSrc.includes('width="24" height="24"'), "Footer icons are at least 24px");
-check(footerSrc.includes("h-11 w-11"), "Footer tap targets are 44px (h-11 w-11)");
+check(footerSrc.includes('width="16" height="16"'), "Footer icons are 16px");
+check(footerSrc.includes("h-8 w-8"), "Footer tap targets are 32px (h-8 w-8)");
 check(footerSrc.includes("focus:ring-2"), "Footer links have visible focus ring");
 
 // 3. layout.tsx sameAs contains both URLs
